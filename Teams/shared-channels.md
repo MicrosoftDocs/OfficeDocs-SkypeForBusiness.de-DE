@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams (Preview) verwenden und verwalten können.
-ms.openlocfilehash: 3a5b7f1005af95580f56b87188bc8a67325d440d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
+ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63712122"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64590383"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Freigegebene Kanäle in Microsoft Teams (Preview)
 
@@ -122,6 +122,22 @@ Dateien, Ordner und OneNote-Notizbücher in einem freigegebenen Kanal können mi
 Wenn einem Benutzer über SharePoint Zugriff auf eine Datei, einen Ordner oder ein Notebook in einem freigegebenen Kanal gewährt wird, wird der Zugriff des Benutzers auf die Datei, den Ordner oder das Notebook nicht durch das Entfernen des Benutzers aus dem Team oder dem freigegebenen Kanal entfernt.
 
 Wird ein vorhandenes Notizbuch als Registerkarte zu einem freigegebenen Kanal hinzugefügt, wird der Zugriff auf den freigegebenen Kanal nicht geändert, und das Notizbuch behält die bestehenden Berechtigungen bei.
+
+## <a name="resources-for-your-users"></a>Ressourcen für Ihre Benutzer
+
+Die folgenden Artikel können für die Benutzer in Ihrer Organisation hilfreich sein, wenn sie freigegebene Kanäle verwenden.
+
+[Erstellen eines freigegebenen Kanals in Teams](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[Freigeben eines Kanals für Personen in Teams](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[Freigeben eines Kanals für ein Team](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[Gründe für die Verwendung eines freigegebenen Kanals im Vergleich zu anderen Kanaltypen in Teams?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Gäste und freigegebene Kanäle in Teams](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Besitzer- und Mitgliedsrollen eines freigegebenen Kanals in Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## <a name="limits-for-shared-channels-preview"></a>Grenzwerte für freigegebene Kanäle (Preview)
 

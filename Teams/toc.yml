@@ -415,6 +415,8 @@ items:
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
               - name: Verwenden von Echtzeittelemetriedaten zur Problembehandlung bei schlechter Besprechungsqualität
                 href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+              - name: Hinzufügen und Aktualisieren von Bezeichnungen zur Berichterstellung
+                href: learn-more-about-site-upload.md
           - name: Servicequalität (QoS)
             items:
               - name: Einrichten von QoS in Teams
@@ -839,6 +841,8 @@ items:
             href: pstn-connectivity.md
           - name: Anrufpläne
             items:
+              - name: Anrufpläne für Microsoft 365
+                href: calling-plans-for-office-365.md
               - name: Welcher Anrufplan ist für Sie am besten geeignet?
                 href: calling-plan-landing-page.md
               - name: Einrichten von Anrufplänen für Ihre Organisation
@@ -963,7 +967,7 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Telefonnummern für Direct Routing verwalten
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-      - name: VoIP-Routing
+      - name: Wählpläne und Routing
         items:
           - name: Was sind Wählpläne?
             href: what-are-dial-plans.md
@@ -971,8 +975,6 @@ items:
             href: create-and-manage-dial-plans.md
           - name: Weiterleiten von Anrufen an nicht zugewiesene Nummern
             href: routing-calls-to-unassigned-numbers.md
-          - name: Hinzufügen und Aktualisieren von Bezeichnungen zur Berichterstellung
-            href: learn-more-about-site-upload.md
       - name: Netzwerkeinstellungen und -topologie
         items:
           - name: Netzwerkeinstellungen für Cloud Voice-Features
@@ -1573,6 +1575,12 @@ items:
                 items:
                   - name: Übersicht
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+                  - name: Verwenden des Assistenten für den Schichtconnector zum Einrichten einer Verbindung mit Blue Yonder WFM
+                    href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+                  - name: Verwenden von PowerShell zum Einrichten einer Verbindung mit Blue Yonder WFM
+                    href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+                  - name: 'Verwenden Sie PowerShell, um Ihre WFM-Verbindung von Schichten zu Blue Yonder zu verwalten'
+                    href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
               - name: Häufig gestellte Fragen zu Schichtdaten
                 href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: Teams für Education

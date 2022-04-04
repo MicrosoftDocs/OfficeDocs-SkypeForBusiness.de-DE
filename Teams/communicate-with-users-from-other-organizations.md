@@ -18,18 +18,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: ab6a15edc1aa8d0de6f77b96ed176171ff5d65ae
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288433"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592740"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
 Wenn Sie mit Personen außerhalb Ihrer Organisation kommunizieren und zusammenarbeiten müssen, bietet Ihnen Microsoft Teams dafür zwei Optionen:
 
-- **Externer Zugriff** – Ein Typ des Partnerverbunds, der es Benutzern erlaubt, Personen in anderen Organisationen zu finden, sie anzurufen und mit ihnen zu chatten. Diese Personen können nicht zu Teams hinzugefügt werden, außer wenn sie als Gäste eingeladen werden.
+- **Externer Zugriff** – Ein Typ des Partnerverbunds, der es Benutzern erlaubt, Personen in anderen Organisationen zu finden, sie anzurufen und mit ihnen zu chatten. Diese Personen können nicht zu einem Team hinzugefügt werden, außer wenn sie als Gäste eingeladen werden.
 - **Gastzugriff** – Mit dem Gastzugriff können Sie Personen von außerhalb Ihrer Organisation einladen, einem Team beizutreten. Eingeladene Personen erhalten ein Gastkonto im Azure Active Directory.
 
 Beachten Sie, dass Teams Ihnen erlaubt, Personen von außerhalb Ihrer Organisation in Besprechungen einzuladen. Dafür muss kein externer oder Gastzugriff konfiguriert werden.
@@ -97,7 +97,7 @@ Die folgende Tabelle zeigt die Unterschiede zwischen dem externen Zugriff (Partn
 <sup>1</sup> Vorausgesetzt, der Benutzer wurde als Gast hinzugefügt und hat sich mit dem Gastkonto angemeldet.<br>
 <sup>2</sup> Nur per E-Mail- oder SIP-Adresse (Session Initiation Protocol).<br>
 <sup>3</sup> Unterstützt für 1:1-Chat nur für Teams zu Teams-Benutzer aus zwei verschiedenen Organisation. <br>
-<sup>4</sup> Standardmäßig können externe Teilnehmer die Telefonnummern der eingewählten Teilnehmer nicht sehen. Wenn Sie die Vertraulichkeit dieser Telefonnummern wahren wollen, wählen Sie **Töne** für **Typ der Ankündigungen von Ein-/Ausgängen** aus (dies verhindert, dass die Nummern von Teams ausgelesen werden). Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
+<sup>4</sup> Standardmäßig können externe Teilnehmer die Telefonnummern der eingewählten Teilnehmer nicht sehen. Wenn Sie die Vertraulichkeit dieser Telefonnummern wahren wollen, wählen Sie **Töne** für **Typ der Ankündigungen von Ein-/Ausgängen** aus (dies verhindert, dass die Nummern von Teams ausgelesen werden). Weitere Informationen finden Sie unter Aktivieren oder [Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).<br>
 <sup>5</sup> Standardmäßig zugelassen, kann aber vom Teams-Administrator deaktiviert werden
 
 ## <a name="related-topics"></a>Verwandte Themen

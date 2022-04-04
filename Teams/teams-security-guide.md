@@ -20,19 +20,19 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fadf6685ada5f0625f7347efe3c1e4d8840af96
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 3e69fad1ab4aeeefba6d357fffd3d10a28139359
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579635"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592730"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
 > [!IMPORTANT]
 > Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten.
 
-Microsoft Teams folgt als Teil der Microsoft 365- und Office 365-Dienste allen bewährten Methoden und Verfahren für die Sicherheit, wie z. B. Sicherheit auf Dienstebene durch mehrschichtige Abwehrmaßnahmen, Kundenkontrollfunktionen innerhalb des Dienstes, Sicherheitshärtung und betriebliche Best Practices. Ausführliche Informationen finden Sie im [Microsoft Trust Center.](https://microsoft.com/trustcenter)
+Microsoft Teams folgt als Teil der Microsoft 365- und Office 365-Dienste allen bewährten Methoden und Verfahren für die Sicherheit, wie z. B. Sicherheit auf Dienstebene durch mehrschichtige Abwehrmaßnahmen, Kundenkontrollfunktionen innerhalb des Dienstes, Sicherheitshärtung und betriebliche bewährte Methoden. Die vollständigen Details finden Sie unter [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
 ## <a name="trustworthy-by-design"></a>Vertrauenswürdigkeit als Konzept
 
@@ -40,7 +40,7 @@ Teams Online wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing S
 
 ## <a name="trustworthy-by-default"></a>Vertrauenswürdigkeit als Standard
 
-Die Netzwerkkommunikation in Teams ist standardmäßig verschlüsselt. Da alle Server Zertifikate verwenden müssen und durch die Verwendung von OAUTH-, TLS (Transport Layer Security)- oder SRTP (Secure Real-Time Transport Protocol)-Protokollen sind alle Microsoft Teams-Daten im Netzwerk geschützt.
+Die Netzwerkkommunikation in Teams ist standardmäßig verschlüsselt. Indem verlangt wird, dass alle Server Zertifikate verwenden müssen, und durch die Verwendung von OAUTH, Transport Layer Security (TLS) und Secure Real-Time Transport Protocol (SRTP) sind alle Teams-Daten im Netzwerk geschützt.
 
 ## <a name="how-teams-handles-common-security-threats"></a>So wird in Microsoft Teams mit allgemeinen Sicherheitsbedrohungen umgegangen
 
@@ -48,11 +48,11 @@ Dieser Abschnitt beschreibt die häufigsten Bedrohungen für die Sicherheit des 
 
 ### <a name="compromised-key-attack"></a>Angriff mit kompromittiertem Schlüssel
 
-Microsoft Teams nutzt die PKI-Funktionen des Windows Server-Betriebssystems, um die für die Verschlüsselung für TLS-Verbindungen verwendeten Schlüsseldaten zu schützen. Die für die Medienverschlüsselungen verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht.
+Teams verwendet die PKI-Features des Windows Server-Betriebssystems, um die für die Verschlüsselung der TLS-Verbindungen verwendeten Schlüsseldaten zu schützen. Die für die Medienverschlüsselung verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht.
 
 ### <a name="network-denial-of-service-attack"></a>Denial-of-Service-Angriff auf Netzwerke
 
-Bei einem verteilten Denial-of-Service-Angriff (DDOS) verhindert ein Angreifer die normale Netzwerknutzung und -funktion durch legitime Nutzer. Durch einen Denial-of-Service-Angriff eröffnen sich den Angreifern folgende Möglichkeiten:
+Ein verteilter Denial-of-Service-Angriff (DDOS) liegt vor, wenn der Angreifer die normale Nutzung und Funktion des Netzwerks durch gültige Benutzer verhindert. Mit einem Denial-of-Service-Angriff kann der Angreifer:
 
 - Er kann ungültige Daten an Anwendungen und Dienste senden, die in dem angegriffenen Netzwerk ausgeführt werden, um ihre Funktionsweise zu beeinträchtigen.
 - Er kann große Datenmengen senden, um das System zu überlasten, bis es nicht mehr oder nur noch verzögert auf legitime Anforderungen reagiert.
@@ -61,21 +61,21 @@ Bei einem verteilten Denial-of-Service-Angriff (DDOS) verhindert ein Angreifer d
 
 ### <a name="eavesdropping"></a>Abhörschutz
 
-Lauschangriffe erfolgen, wenn ein Angreifer Zugriff auf den Datenpfad in einem Netzwerk erhält und die Möglichkeit hat, den Datenverkehr zu überwachen und auszulesen. Lauschangriffe werden auch als "Sniffing" oder "Snooping" bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird.
+Ein Lauschangriff liegt vor, wenn sich ein Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschafft und anschließend die Möglichkeit hat, den Datenverkehr zu überwachen und zu lesen. „Lauschen“ wird auch als „Schnüffeln“ (englisch „Sniffing“ oder „Snooping“) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird.
 
 Microsoft Teams verwendet Mutual TLS (MTLS) für die Serverkommunikation innerhalb von Microsoft 365 und Office 365 sowie TLS von Clients zum Dienst. MTLS macht das Mithören innerhalb des Zeitraums einer einzelnen Unterhaltung schwierig oder unmöglich. TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Obwohl TLS Lauschangriffe nicht verhindert, kann der Angreifer den Datenverkehr nur auslesen, wenn die Verschlüsselung aufgehoben wird.
 
-Das TURN-Protokoll wird für Echtzeitmedien verwendet. Das TURN-Protokoll schreibt keine Verschlüsselung des Datenverkehrs vor, und die von ihm gesendeten Informationen sind durch die Nachrichtenintegrität geschützt. Obwohl es für Lauschangriffe offen ist, können die von ihm gesendeten Informationen (d. h. IP-Adressen und Port) direkt extrahiert werden, indem man einfach die Quell- und Zieladressen der Pakete betrachtet. Der Teams-Service stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenntegrität der Nachricht anhand des Schlüssels überprüft, der aus einigen wenigen Elementen einschließlich eines TURN-Kennworts abgeleitet wurde, das niemals im Klartext gesendet wird. SRTP wird für den Medienverkehr verwendet und ist ebenfalls verschlüsselt.
+Das TURN-Protokoll wird für Echtzeit-Medienzwecke verwendet. Es schreibt keine Verschlüsselung des Datenverkehrs vor, und die Informationen, die darüber versendet werden, werden durch die Nachrichtenintegrität geschützt. Obwohl es für Lauschangriffe offen ist, können die von ihm gesendeten Informationen (d. h. IP-Adressen und Port) direkt extrahiert werden, indem man einfach die Quell- und Zieladressen der Pakete betrachtet. Der Teams-Dienst stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenintegrität der Nachricht anhand des Schlüssels überprüft, der aus einigen Elementen abgeleitet wird, einschließlich eines TURN-Kennworts, welches niemals im Klartext gesendet wird. SRTP wird für den Mediendatenverkehr verwendet und ist ebenfalls verschlüsselt.
 
 ### <a name="identity-spoofing-ip-address-spoofing"></a>Identitätsspoofing (Spoofing von IP-Adressen)
 
-Spoofing liegt vor, wenn Angreifer unbefugt die IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermitteln und dann verwenden. Bei einem erfolgreichen Angriff kann der Angreifer sich so verhalten, als sei er der normalerweise durch die IP-Adresse identifizierte Benutzer.
+Spoofing liegt vor, wenn der Angreifer unbefugt die IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente identifiziert und verwendet. Bei einem erfolgreichen Angriff kann der Angreifer so agieren, als wäre er die Entität, die normalerweise durch die IP-Adresse identifiziert wird.
 
-TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Die Verwendung von TLS hindert einen Angreifer daran, das Spoofing der IP-Adresse für eine bestimmte Verbindung auszuführen (z. B. Mutual TLS-Verbindungen). Ein Angreifer könnte jedoch die Adresse des DNS-Servers (Domain Name System) durch Spoofing ermitteln. Da die Authentifizierung in Teams jedoch mittels Zertifikaten erfolgt, verfügen Angreifer nicht über ein gültiges Zertifikat, das für das Spoofing für eine der Kommunikationsparteien notwendig ist.
+TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Die Verwendung von TLS verhindert, dass ein Angreifer IP-Adressspoofing auf bestimmte Verbindungen (z. B. gemeinsame TLS-Verbindungen) durchführen kann. Ein Angreifer könnte die Adresse des verwendeten DNS (Domain Name System)-Servers trotzdem noch spoofen. Da die Authentifizierung in Teams jedoch mittels Zertifikaten erfolgt, würde ein Angreifer über kein gültiges Zertifikat verfügen, das für das Spoofing einer der Parteien in der Kommunikation notwendig wäre.
 
 ### <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 
-Von einem "Man-in-the-Middle-Angriff" spricht man, wenn Angreifer die Kommunikation zwischen zwei Nutzern ohne deren Wissen über ihren eigenen Computer leiten. Die Angreifer können die übertragenen Daten überwachen und lesen, ehe sie an den eigentlichen Empfänger weitergeleitet werden. Beide Kommunikationspartner senden unwissentlich Daten an die Angreifer und empfangen von ihnen Daten, sind aber dabei in dem Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dieses Szenario kann vorkommen, wenn es Angreifern gelingt, die Active Directory-Domänendienste so zu ändern, dass ihr Server als vertrauenswürdiger Server hinzugefügt wird, oder wenn sie die DNS-Konfiguration so ändern können, dass Clients unterwegs zum Server über den Computer der Angreifer geleitet werden.
+Von einem „Man-in-the-Middle“-Angriff spricht man, wenn ein Angreifer die Kommunikation zwischen zwei Nutzern ohne deren Wissen über den Computer des Angreifers umleitet. Der Angreifer kann den Datenverkehr überwachen und lesen, bevor er an den eigentlichen Empfänger weitergeleitet wird. Jeder Benutzer in der Kommunikation sendet unwissentlich Datenverkehr an den Angreifer und empfängt Daten von ihm, ist aber dabei im Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dieses Szenario kann eintreffen, wenn ein Angreifer die Active Directory-Domänendienste so ändern kann, dass er seinen Server als vertrauenswürdiger Server hinzufügen kann, oder wenn er die DNS-Konfiguration so ändern kann, dass Clients auf ihrem Weg zum Server über den Computer des Angreifers umgeleitet werden.
 
 Man-in-the-Middle-Attacken gegen den Mediendatenverkehr zwischen zwei Endpunkten, die an Teams Audio-, Video- und der Anwendungsfreigabe teilnehmen, werden durch die Verwendung von SRTP zum Verschlüsseln des Mediendatenstroms verhindert. Kryptografieschlüssel werden zwischen den beiden Endpunkten über ein proprietäres Signalprotokoll (Teams Call Signaling Protocol) ausgehandelt, das einen mit TLS 1.2 und AES-256 (im GCM-Modus) verschlüsselten UDP-/TCP-Kanal nutzt.
 
@@ -85,11 +85,11 @@ Ein Replay-Angriff liegt vor, wenn eine gültige Medienübertragung zwischen zwe
 
 ### <a name="spim"></a>Spim
 
-Bei Spim handelt es sich um unerwünschte Werbenachrichten per Chat oder Präsenz-Abonnement-Anforderungen, wie Spam, jedoch in Form von Chatnachrichten. Das an sich ist zwar keine Kompromittierung des Netzwerks, aber es ist dennoch mindestens ärgerlich, kann Ressourcenverfügbarkeit und Produktion verringern und möglicherweise zu einer Beeinträchtigung des Netzwerks führen. Ein Beispiel dafür sind Angreifer, die sich gegenseitig durch das Senden von Anforderungen überbieten. Benutzer können sich zwar gegenseitig blockieren, um Spimming zu verhindern, aber in einem Partnerverbund kann dies schwierig sein, wenn ein koordinierter Spim-Angriff erfolgt, es sei denn, Sie deaktivieren den Verbund für den Partner.
+Bei Spim handelt es sich um unerwünschte kommerzielle Chatnachrichten oder Anwesenheitsabonnementanforderungen (beispielsweise Spam), jedoch in Form von Chatnachrichten. Dies an sich ist zwar keine Kompromittierung des Netzwerks, aber es ist dennoch mindestens ärgerlich, kann die Verfügbarkeit von Ressourcen und der Produktion verringern und möglicherweise zu einer Kompromittierung des Netzwerks führen. Ein Beispiel dafür sind Benutzer, die sich gegenseitig durch das Senden von Anforderungen zuspimmen. Benutzer können sich gegenseitig blockieren, um Spimming zu verhindern, aber in einem Partnerverbund kann es schwierig sein, dies zu verhindern, wenn ein böswilliger Akteur einen koordinierter Spim-Angriff einrichtet, sei denn, Sie deaktivieren den Partnerverbund für den Partner.
 
 ### <a name="viruses-and-worms"></a>Viren und Würmer
 
-Ein Virus ist eine Codeeinheit, deren Zweck die Reproduktion weiterer, ähnlicher Codeeinheiten ist. Ein Virus benötigt, um zu funktionieren, einen Host, z. B. eine Datei, eine E-Mail oder ein Programm. Ähnlich wie ein Virus ist ein Wurm eine Codeeinheit, die weitere, ähnliche Codeeinheiten reproduziert, aber im Gegensatz zu einem Virus keinen Wirt benötigt. Viren und Würmer treten vor allem bei Dateiübertragungen zwischen Clients oder beim Versenden von URLs von anderen Benutzern auf. Wenn sich ein Virus auf Ihrem Computer befindet, kann er beispielsweise Ihre Identität verwenden und Sofortnachrichten in Ihrem Namen versenden. Standardmäßige bewährte Methoden für die Client-Sicherheit, wie z. B. die regelmäßige Überprüfung auf Viren, können dieses Problem entschärfen.
+Ein Virus ist eine Codeeinheit, deren Zweck darin besteht, weitere, ähnliche Codeeinheiten zu reproduzieren. Für seine Arbeit benötigt der Virus einen Host wie z. B. eine Datei, eine E-Mail oder ein Programm. Ähnlich wie ein Virus ist auch ein Wurm eine Codeeinheit, die weitere, ähnliche Codeeinheiten reproduziert, aber im Gegensatz zu einem Virus keinen Host benötigt. Viren und Würmer treten vornehmlich bei Dateiübertragungen zwischen Clients auf, oder wenn URLs von anderen Benutzern gesendet werden. Wenn sich auf Ihrem Computer ein Virus befindet, kann er beispielsweise Ihre Identität verwenden und Sofortnachrichten in Ihrem Namen versenden. Standardmäßige bewährte Methoden für die Client-Sicherheit wie z. B. die regelmäßige Überprüfung auf Viren können dieses Problem entschärfen.
 
 ## <a name="security-framework-for-teams"></a>Sicherheitsframework für Teams
 
@@ -110,15 +110,15 @@ Azure Active Directory fungiert als Verzeichnisdienst für Microsoft 365 und Off
 
 #### <a name="certificate-revocation-list-crl-distribution-points"></a>Verteilungspunkte für Zertifikatsperrlisten (Certificate Revocation List, CRL)
 
-Microsoft 365- und Office 365-Verkehr findet über TLS/HTTPS-verschlüsselte Kanäle statt, was bedeutet, dass Zertifikate zur Verschlüsselung des gesamten Verkehrs verwendet werden. In Microsoft Teams müssen alle Serverzertifikate einen oder mehrere CRL-Verteilungspunkte enthalten. CRL-Verteilungspunkte sind Speicherorte, von denen Zertifikatsperrlisten heruntergeladen werden können, um zu prüfen, ob das Zertifikat seit seiner Ausstellung gesperrt wurde und es sich noch im Gültigkeitszeitraum befindet. Ein CRL-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL angegeben und ist sicheres HTTP. Der Teams-Service überprüft die CRL bei jeder Zertifikatauthentifizierung.
+Microsoft 365- und Office 365-Datenverkehr erfolgt über TLS/HTTPS-verschlüsselte Kanäle, was bedeutet, dass Zertifikate zur Verschlüsselung des gesamten Datenverkehrs verwendet werden. In Teams müssen alle Serverzertifikate einen oder mehrere CRL-Verteilungspunkte enthalten. CRL-Verteilungspunkte (CRL Distribution Points, CDPs) sind Speicherorte, von denen CRLs heruntergeladen werden können, um zu prüfen, ob das Zertifikat seit seiner Ausstellung nicht widerrufen wurde, und ob es sich noch im Gültigkeitszeitraum befindet. Ein CRL-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL angegeben und ist sicheres HTTP. Der Teams-Dienst überprüft die CRL bei jeder Zertifikatauthentifizierung.
 
 #### <a name="enhanced-key-usage"></a>Erweiterte Schlüsselverwendung
 
-Für alle Komponenten des Microsoft Teams-Dienstes sind alle Serverzertifikate erforderlich, um die Erweiterte Schlüsselverwendung (EKU, Enhanced Key Usage) für die Serverauthentifizierung zu unterstützen. Die Konfiguration des EKU-Felds für die Serverauthentifizierung bedeutet, dass das Zertifikat für den Zweck der Serverauthentifizierung gültig ist. Diese EKU ist wesentlich für MTLS.
+Alle Komponenten des Teams-Diensts erfordern, dass alle Serverzertifikate die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für die Serverauthentifizierung unterstützen. Die Konfiguration des EKU-Felds für die Serverauthentifizierung bedeutet, dass das Zertifikat für die Authentifizierung von Servern gültig ist. Diese EKU ist wesentlich für MTLS.
 
 ### <a name="tls-and-mtls-for-teams"></a>TLS und MTLS für Teams
 
-TLS- und MTLS-Protokolle bieten verschlüsselte Kommunikation und Endpunktauthentifizierung im Internet. Microsoft Teams verwendet diese beiden Protokolle, um das Netzwerk vertrauenswürdiger Server zu erstellen und sicherzustellen, dass die gesamte Kommunikation über dieses Netzwerk verschlüsselt ist. Die gesamte Kommunikation zwischen Servern erfolgt über MTLS. Alle verbleibenden oder älteren SIP-Kommunikationen zwischen Client und Server erfolgen über TLS.
+TLS- und MTLS-Protokolle bieten eine verschlüsselte Kommunikation und Endpunktauthentifizierung im Internet. Teams verwendet diese beiden Protokolle, um das Netzwerk vertrauenswürdiger Server zu erstellen und sicherzustellen, dass die gesamte Kommunikation über dieses Netzwerk verschlüsselt ist. Die gesamte Kommunikation zwischen Servern findet über MTLS statt. Die gesamte verbleibende oder ältere SIP-Kommunikation vom Client zum Server findet über TLS statt.
 
 Mit TLS können Benutzer über ihre Clientsoftware die Microsoft Teams-Server authentifizieren, mit denen sie sich verbinden. Bei einer TLS-Verbindung fordert der Client ein gültiges Zertifikat vom Server an. Um gültig zu sein, muss das Zertifikat von einer Zertifizierungsstelle ausgestellt worden sein, der auch vom Client vertraut wird, und der DNS-Name des Servers muss mit dem DNS-Namen in dem Zertifikat übereinstimmen. Wenn das Zertifikat gültig ist, verwendet der Client den öffentlichen Schlüssel im Zertifikat, um die symmetrischen Verschlüsselungsschlüssel, die für die Kommunikation verwendet werden, zu verschlüsseln, sodass nur der ursprüngliche Eigentümer des Zertifikats seinen privaten Schlüssel für die Entschlüsselung der Inhalte der Kommunikation verwenden kann. Die daraus resultierende Verbindung ist vertrauenswürdig und wird von diesem Punkt an von anderen vertrauenswürdigen Servern oder Clients nicht angezweifelt.
 
@@ -134,7 +134,7 @@ Es gibt mehrere Verschlüsselungsebenen innerhalb Microsoft 365. Die Verschlüss
 
 #### <a name="traffic-encryption"></a>Verschlüsselung des Datenverkehrs
 
-Der gesamte Server-zu-Server-Datenverkehr erfordert MTLS, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk beschränkt ist oder die interne Netzwerkgrenze überschreitet. In dieser Tabelle werden die von Teams verwendeten Protokolle zusammengefasst.
+Der gesamte Server-zu-Server-Datenverkehr erfordert MTLS, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk beschränkt ist, oder ob er die interne Netzwerkgrenze überschreitet. Diese Tabelle fasst die Protokolle zusammen, die von Teams verwendet werden.
 
 |**Datenverkehrstyp**|**Verschlüsselt durch**|
 |:-----|:-----|
@@ -150,7 +150,7 @@ Teams verwendet TLS und MTLS zum Verschlüsseln von Chatnachrichten.
 
 #### <a name="media-encryption"></a>Medienverschlüsselung
 
-Anrufflüsse in Microsoft Teams basieren auf dem [RFC 4566-SDP-Angebot-/Antwortmodell](https://tools.ietf.org/html/rfc4566) (Session Description Protocol) über HTTPS. Sobald der Angerufene einen eingehenden Anruf annimmt, stimmen Anrufer und Angerufener den Sitzungsparametern zu.
+Anrufflüsse in Teams basieren auf dem Angebots- und Antwortmodell [Session Description Protocol (SDP) RFC 8866](https://datatracker.ietf.org/doc/html/rfc8866) über HTTPS. Sobald der Angerufene einen eingehenden Anruf annimmt, stimmen Anrufer und Angerufener den Sitzungsparametern zu.
 
 Mediendatenverkehr zwischen Anrufer und Angerufenem wird über Secure RTP (SRTP) verschlüsselt, ein Profil von RTP (Real-Time Transport-Protokoll), das Vertraulichkeit, Authentifizierung und Schutz vor Replay-Angriffen für RTP-Datenverkehr bietet. SRTP verwendet einen Sitzungsschlüssel, der von einem sicheren Zufallszahlengenerator generiert und über den signalisierenden TLS-Kanal ausgetauscht wird. Der Client-zu-Client-Mediendatenverkehr wird meistens über Client-zu-Server-Verbindungssignale verhandelt, und bei direktem Client-zu-Client mit SRTP verschlüsselt.
 
@@ -189,7 +189,7 @@ In Microsoft Teams können IT-Administratoren ihren Dienst über das Microsoft 3
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>Konfigurieren des Zugriffs auf Microsoft Teams an Ihrer Internetgrenze
 
-Damit Microsoft Teams ordnungsgemäß funktioniert (damit Nutzer an Besprechungen teilnehmen können usw.), müssen Kunden ihren Internetzugang so konfigurieren, dass ausgehender UDP- und TCP-Verkehr zu Diensten in der Microsoft Teams-Cloud zulässig ist. Weitere Informationen finden Sie unter [Office 365-URLs und -IP-Adressbereiche](/office365/enterprise/urls-and-ip-address-ranges).
+Damit Teams ordnungsgemäß funktioniert, sodass Benutzer beispielsweise an Besprechungen teilnehmen können, müssen Kunden ihren Internetzugang so konfigurieren, dass ausgehender UDP- und TCP-Datenverkehr zu Diensten in der Teams-Cloud zulässig ist. Weitere Informationen finden Sie unter [Office 365-URLs und -IP-Adressbereiche](/office365/enterprise/urls-and-ip-address-ranges).
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 und TCP 443
 
@@ -262,13 +262,13 @@ Ein Referent kann auch einen Teilnehmer während der Besprechung für die Rolle 
 
 Die Besprechungsteilnehmer werden auch nach Aufenthaltsort und Anmeldeinformationen kategorisiert. Mit diesen beiden Merkmalen können Sie entscheiden, welche Nutzer Zugriff auf bestimmte Besprechungen haben. Nutzer können grob in die folgenden Kategorien unterteilt werden:
 
-- **Benutzer, die zum Mandanten gehören**. Diese Benutzer verfügen über Anmeldeinformationen in Azure Active Directory für den Mandanten.
+- **Benutzer, die zum Mandaten gehören**. Diese Benutzer verfügen über eine Anmeldeinformation im Azure Active Directory für den Mandanten.
 
     *Personen in meiner Organisation* – Diese Nutzer verfügen über Anmeldeinformationen in Azure Active Directory für den Mandanten. Zu den *Personen in meiner Organisation* gehören eingeladene Gastkonten.
 
     *Remotebenutzer* – Diese Nutzer treten von außerhalb des Unternehmensnetzwerks bei. Dazu gehören Mitarbeiter, die zu Hause oder unterwegs arbeiten, und andere, wie Mitarbeiter von vertrauenswürdigen Anbietern, denen für ihre Vertragsbedingungen ein Unternehmenszertifikat erteilt wurde. Remotebenutzer können Besprechungen erstellen und daran teilnehmen und als Moderatoren fungieren.
 
-- **Benutzer, die nicht zum Mandanten gehören**. Diese Benutzer haben keine Anmeldeinformationen in Azure AD für den Mandanten.
+- **Benutzer, die nicht zum Mandanten gehören**. Diese Benutzer verfügen im Azure AD für den Mandanten nicht über Anmeldeinformationen.
 
     *Verbundbenutzer* – Verbundbenutzer verfügen über gültige Anmeldeinformationen bei Verbundpartnern und werden daher von Teams als authentifiziert behandelt, sind jedoch für den Mandanten des Besprechungsorganisators weiterhin extern. Verbundbenutzer können an Besprechungen teilnehmen und nach der Teilnahme an der Besprechung zu Moderatoren gemacht werden. Sie können jedoch keine Besprechungen in Unternehmen erstellen, mit denen sie verbunden sind.
 
@@ -290,7 +290,7 @@ Besprechungsorganisatoren steuern, ob Teilnehmer an einer Besprechung teilnehmen
 Die Standardeinstellungen sind:
 
 - *Personen in meiner Organisation* – Jeder außerhalb der Organisation wartet in der Lobby, bis er zugelassen wird.
-- *Personen aus meiner Organisation und vertrauenswürdigen Organisationen* – Authentifizierte Nutzer und externe Nutzer aus Microsoft Teams und Skype for Business-Domänen, die sich in der Liste der externen Zugriffsberechtigungen befinden, können den Wartebereich umgehen. Alle anderen Nutzer warten in der Lobby, bis sie zugelassen werden.
+- *Personen aus meiner Organisation und vertrauenswürdigen Organisationen* – Authentifizierte Benutzer und externe Benutzer aus Teams- und Skype for Business-Domänen, die sich auf der Zulassungsliste für externen Zugriff befinden, können den Wartebereich umgehen. Alle anderen Benutzer werden im Wartebereich bleiben, bis sie zugelassen werden.
 - *Jeder* – Alle Besprechungsteilnehmer umgehen die Lobby, sobald ein authentifizierter Nutzer der Besprechung beigetreten ist.
 
 ### <a name="presenter-capabilities"></a>Moderatorfunktionen

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Erfahren Sie mehr über die Optionen für Anrufpläne (PSTN-Anrufpläne) für Skype for Business und wie Sie Lizenzen für Ihre Organisation erhalten. '
-ms.openlocfilehash: 02283da362baf520ab0c3d28d809dfee39c9b378
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: HT
+ms.openlocfilehash: 227d5c4e4784953f519b2bbdc8d3e356dc03b54f
+ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190676"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64617666"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -40,6 +40,8 @@ Anrufe zu anderen Skype for Business- und Microsoft Teams-Nutzer*innen sind kost
 Nachfolgend die Optionen für Anrufpläne:
   
 - **Anrufplan für Inland**: Lizenzierte Benutzer können Rufnummern in dem Land bzw. der Region anrufen, dem/-r sie in Microsoft 365 oder Office 365 zugewiesen sind.
+
+- **Plan für Auslandsanrufe**: Lizenzierte Benutzer können internationale Nummern in [196 Ländern/Regionen anrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Dieser Anrufplan kann einem Benutzer hinzugefügt werden, der derzeit über einen Plan für Inlandsrufe verfügt.
     
 - **Anrufplan für Inland und Ausland**: Lizenzierte Benutzer können Rufnummern in dem Land bzw. der Region, dem/-r ihre Microsoft 365- oder Office 365-Lizenz basierend auf dem Standort zugewiesen wurde, und internationale Rufnummern in [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md) anrufen.
 
