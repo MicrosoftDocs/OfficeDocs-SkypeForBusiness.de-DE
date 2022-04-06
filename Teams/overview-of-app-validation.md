@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9accce27ded20f8ce78d4d5b80f6aff474213675
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
+ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64649024"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686492"
 ---
 # <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Prüfungen und Überprüfungen, die von Microsoft in Teams-Apps durchgeführt werden
 
@@ -31,15 +31,10 @@ Microsoft erfordert, dass alle Apps eine obligatorische Überprüfung bestehen, 
 
 Alle Apps sind zwingend erforderlich, um die Zertifizierungsrichtlinien für Microsoft-Apps einzuhalten. Das Teams Store-Team führt mehr als 400 Tests durch, um sicherzustellen, dass die Apps verwendbar sind und hohen Datenschutz- und Sicherheitsstandards entsprechen.
 
-Die detaillierten Validierungsrichtlinien, die App-Entwickler einhalten, finden Sie in den [Validierungsrichtlinien für Entwickler](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+Die detaillierten Validierungsrichtlinien, die App-Entwickler einhalten, finden Sie in den [Validierungsrichtlinien für Entwickler](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). Der Leitfaden basiert auf den [Zertifizierungsrichtlinien für Teams Apps](/legal/marketplace/certification-policies#1140-teams).
 
 > [!NOTE]
 > Überprüfungen und Überprüfungen durch Microsoft sind für eine benutzerdefinierte App nicht verfügbar, da sie in Ihrer Organisation entwickelt wurde und nur für Mitglieder Ihrer Organisation verfügbar ist.
-
-<!--- TBD: Add the link later. 
-To review the certification policies of any app, see [App certification policies]().
-Is the link /microsoft-365-app-certification/teams/teams-apps
---->
 
 ## <a name="app-validation-and-testing"></a>App-Überprüfung und -Tests
 

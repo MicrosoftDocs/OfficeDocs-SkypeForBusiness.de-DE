@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie, ob Audiokonferenzen, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen sowie gebührenpflichtige und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: ab534a020e91caaa6f9608857d6de76f5505b899
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 71aa417de6a6ec9f6388ac414512f42a881be001
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056075"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686312"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -157,11 +157,11 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-Wenn Sie nach einer Kalkulationstabelle mit allen Ländern und Regionen suchen, laden Sie die Kalkulationstabelle für die Verfügbarkeit von **[Cloud-Sprachfeatures (Land/Region) herunter,](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-19OCT2021)-(en-us).xlsx)** und speichern Sie sie.
+**Wenn Sie nach einer Kalkulationstabelle mit allen Ländern und Regionen suchen, laden Sie die [Verfügbarkeitstabelle für das Cloud-VoIP-Feature "Land/Region](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-19OCT2021)-(en-us).xlsx)" herunter, und speichern Sie sie**.
 
 ***
 
-Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft Teams-Dienste verfügbar ist, können Sie die Skype for Business- und [Microsoft Teams-Add-On-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) sehen, um Ihnen beim Kauf von Lizenzen und deren Zuweisung zu Ihren Benutzern zu helfen.
+Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft Teams-Dienste verfügbar ist, können Sie [Skype for Business und Microsoft Teams Add-On-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) anzeigen, damit Sie Lizenzen kaufen und Ihren Benutzern zuweisen können.
 
 > [!NOTE]
 >
@@ -171,12 +171,12 @@ Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft T
 
 ### <a name="audio-conferencing"></a>Audiokonferenzen
 
-In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Skype for Business und Microsoft Teams für genau diese Situation ist die Audiokonferenzfunktion enthalten. Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Wenn Sie sich für Audiokonferenzen für Ihre Organisation entschieden haben, kaufen Sie eine Lizenz für **Audiokonferenzen** für jede Person in Ihrer Organisation, die Audiokonferenzen planen/hosten möchte.
+In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Skype for Business und Microsoft Teams enthält die Audiokonferenzfunktion für genau diese Situation! Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Wenn Sie sich für Audiokonferenzen für Ihre Organisation entschieden haben, kaufen Sie eine **Audiokonferenzlizenz** für jede Person in Ihrer Organisation, die eine Audiobesprechung planen/hosten wird.
   
-Bei Audiokonferenzen gibt es gebührenpflichtige und gebührenfreie Telefonnummern, die Ihre Benutzer für die Einwahl in Besprechungen verwenden können. Gebührenpflichtige Telefonnummern für die folgenden Länder oder Regionen werden automatisch als freigegebene Audiokonferenznummern in Organisationen zugewiesen, wenn diese für Audiokonferenz aktiviert sind. Dedizierte gebührenpflichtige und gebührenfreie Nummern können Ihrer Organisation aus weiteren Städten zugewiesen werden.
+Bei Audiokonferenzen gibt es gebührenpflichtige und gebührenfreie Telefonnummern, die von Ihren Benutzern zum Einwählen in Besprechungen verwendet werden können. Gebührenpflichtige Telefonnummern für die folgenden Länder oder Regionen werden automatisch als freigegebene Audiokonferenznummern in Organisationen zugewiesen, wenn diese für Audiokonferenz aktiviert sind. Dedizierte gebührenpflichtige und gebührenfreie Nummern können Ihrer Organisation aus weiteren Städten zugewiesen werden.
 
 > [!IMPORTANT]
-> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie ermitteln möchten, ob in Ihrem Gebiet bzw. in Ihrem Land/Ihrer Region Einwahlnummern verfügbar sind, wechseln Sie zu **Skype for Business Admin Center** > **VoIP** > **Telefonnummern**, klicken Sie auf **Hinzufügen** und dann auf **Neue Servicenummern**. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Kanton** und **Ort**, um die Suchergebnisse zu filtern. Wenn Sie gebührenfreie Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** aus.
+> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie ermitteln möchten, ob in Ihrem Gebiet bzw. in Ihrem Land/Ihrer Region Einwahlnummern verfügbar sind, wechseln Sie zu **Skype for Business Admin Center** > **VoIP** > **Telefonnummern**, klicken Sie auf **Hinzufügen** und dann auf **Neue Servicenummern**. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Kanton** und **Ort**, um die Suchergebnisse zu filtern. Wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie in der Liste "**Bundesland/Region**" **die Option "Gebührenfrei**" aus.
 
 Weitere Informationen zu Audiokonferenz finden Sie unter [Allgemeine Fragen zu Audiokonferenz](../audio-conferencing-common-questions.md).
 
@@ -184,18 +184,18 @@ Weitere Informationen zu Audiokonferenz finden Sie unter [Allgemeine Fragen zu A
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Verwenden der Rückruffunktion oder Hinzufügen anderer Personen zu einer Besprechung, sodass sie daran teilnehmen können
 
-In Audiokonferenzen wird die *Funktion*"Rückruf" verwendet, damit andere Personen an einer Einwahl-Besprechung teilnehmen können. Verwenden Sie die Dropdownliste in diesem Artikel, um nach dem Land/der Region zu suchen und zu sehen, ob dieses Feature verfügbar ist.
+In Audiokonferenzen wird die Funktion "*Rückruf*" verwendet, um anderen Personen die Teilnahme an einer Einwahlbesprechung zu ermöglichen. Verwenden Sie die Dropdownliste in diesem Artikel, um nach dem Land/der Region zu suchen und festzustellen, ob dieses Feature verfügbar ist.
 
 > [!CAUTION]
-> Gebührenfreie oder kostenlose Telefonnummern können möglicherweise nicht gewählt werden, da einige gebührenfreie Nummern nur innerhalb eines bestimmten Landes oder einer bestimmten Region innerhalb eines Landes funktionieren. Wenn Sie beispielsweise aus den USA eine gebührenfreie Nummer in Brasilien anrufen, ist der Anruf möglicherweise nicht erfolgreich, da der Anruf nicht aus Brasilien oder einer bestimmten Region innerhalb von Brasilien stammt. Die Möglichkeit, gebührenfreie Nummern anwählen, hängt von den Einschränkungen der gewählten gebührenfreien Nummer ab. Leider können wir dieses Verhalten nicht kontrollieren, und daher kann Ihre Erfahrung je nach gewählter gebührenfreier Nummer und Einschränkungen der gebührenfreien Nummer variieren.
+> Das Anrufen von gebührenfreien oder kostenlosen Telefonnummern ist möglicherweise nicht möglich, da einige gebührenfreie Telefonnummern nur innerhalb eines bestimmten Landes oder Gebiets innerhalb eines Landes funktionieren. Wenn Sie z. B. aus dem USA eine gebührenfreie Nummer in Brasilien anrufen, ist der Anruf möglicherweise nicht erfolgreich, weil der Anruf nicht aus Brasilien oder einer bestimmten Region in Brasilien stammt. Die Möglichkeit, gebührenfreie Telefonnummern zu wählen, hängt stark von den Einschränkungen der gewählten gebührenfreien Nummer ab. Leider können wir dieses Verhalten nicht steuern, und daher kann Ihre Erfahrung abhängig von der gewählten gebührenfreien Nummer und den Einschränkungen der gebührenfreien Nummer variieren.
   
-Das Abwählen aus einer Besprechung in ein anderes Land bzw. eine andere Region der Welt, die unten nicht aufgeführt ist, ist über Guthaben [für Kommunikationen verfügbar.](../what-are-communications-credits.md) Für diese Benutzer müssen Sie Guthaben für Kommunikationen [für Ihre Organisation einrichten.](../set-up-communications-credits-for-your-organization.md)
+Ausgehende Anrufe aus einer Besprechung in ein anderes Land/eine andere Region der Welt, die unten nicht aufgeführt sind, sind über [Kommunikationsguthaben](../what-are-communications-credits.md) verfügbar. Für diese Benutzer müssen Sie [Guthaben für Kommunikationen für Ihre Organisation einrichten](../set-up-communications-credits-for-your-organization.md).
   
 ### <a name="phone-system"></a>Telefonsystem
 
-Mit Telefonsystem erstellen Sie automatische Telefonkonferenzen und Anrufwarteschleifen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation zu beantworten. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business verwenden, um grundlegende Aufgaben der Anrufsteuerung zu erledigen, z. B. das Platzieren und Empfangen von Anrufen, das Durchstellen von Anrufen sowie das Stummschalten und Die Stummschaltung von Anrufen. **Telefonsystem** Benutzer auf einen Namen in ihrem Adressbuch klicken und Skype for Business dann einen Anruf an diese Person ab. Zum Ein- und Empfangen von Anrufen **verwenden Telefonsystem-Benutzer** ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen, die mit anderen Geräten Skype for Business.
+Mit Telefonsystem erstellen Sie automatische Telefonzentralen und Anrufwarteschleifen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation entgegennehmen zu können. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business verwenden, um grundlegende Aufgaben zur Anrufsteuerung zu erledigen, z. B. das Tätigen und Empfangen von Anrufen, das Durchstellen von Anrufen sowie das Stummschalten und Aufheben der Stummschaltung von Anrufen. **Telefonsystem** Benutzer auf einen Namen in ihrem Adressbuch klicken, wird Skype for Business diese Person anrufen. Um Anrufe zu tätigen und zu empfangen, verwenden **Telefonsystem** Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen, die mit Skype for Business arbeiten.
 
-Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschleifen zu suchen und zu erwerben. Diese werden Servicenummern genannt. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](../getting-service-phone-numbers.md). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](../getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
+Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Neben dem Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen zu durchsuchen und zu erwerben. Diese werden Servicenummern genannt. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](../getting-service-phone-numbers.md). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](../getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 [Preise für das Telefonsystem](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 
@@ -206,7 +206,7 @@ Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer 
 
 ### <a name="calling-plans"></a>Anrufpläne
 
-Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe tätigen und empfangen. Sie erhalten zuerst eine Telefonnummer (keine Servicenummer) für den Benutzer und weisen dann einen Anrufplan zu. Zur Verfügung stehen zwei Arten von Anrufplänen: **Inland** und **Inland und Ausland**. Weitere Informationen hierzu finden Sie unter [Telefonsystem und Anrufpläne](../calling-plan-landing-page.md).
+Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe tätigen und empfangen. Sie erhalten zuerst eine Telefonnummer des Benutzers (Abonnent) (keine Dienstnummer), die dem Benutzer zugewiesen werden soll, und weisen dann einen Anrufplan zu. Es stehen drei Arten von Anrufplänen zur Verfügung: **Inländische**, **internationale** und **nationale und internationale** Anrufpläne. Weitere Informationen hierzu finden Sie unter [Telefonsystem und Anrufpläne](../calling-plan-landing-page.md).
 
 Informationen zur Lizenzierung finden Sie auch unter [Lizenzierung des Telefonsystems und der Anrufpläne](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -215,11 +215,11 @@ Informationen zur Lizenzierung finden Sie auch unter [Lizenzierung des Telefonsy
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschleifen zu suchen und zu erwerben. Diese werden Servicenummern genannt.
+Neben dem Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen zu durchsuchen und zu erwerben. Diese werden Servicenummern genannt.
   
-Es folgt eine Liste der Hauptstädte und Großstädte, für die Sie gebührenpflichtige Servicenummern zur Verwendung mit Audiokonferenz und Anrufplänen anfordern können. Gebührenpflichtige Servicenummern erhalten Sie an diesen Standorten über **Skype for Business Admin Center.**
+Es folgt eine Liste der Hauptstädte und Großstädte, für die Sie gebührenpflichtige Servicenummern zur Verwendung mit Audiokonferenz und Anrufplänen anfordern können. Sie erhalten gebührenpflichtige Servicenummern von diesen Standorten über das **Skype for Business Admin Center**.
   
-Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer erhalten möchten, lesen Sie Abrufen von [Servicetelefonnummern](../getting-service-phone-numbers.md). Wenn Sie bereits über eine gebührenpflichtige oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, lesen Sie Verwalten von Telefonnummern [für Ihre Organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer erhalten möchten, können Sie ["Servicetelefonnummern abrufen](../getting-service-phone-numbers.md)" sehen. Wenn Sie bereits über eine gebührenpflichtige oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, lesen Sie " [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)".
 
 Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer Region suchen, um zu ermitteln, welche Dienste dort verfügbar sind.
 
@@ -227,7 +227,7 @@ Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer 
 
 Wir empfehlen die Einrichtung von Guthaben für Kommunikationen für Ihre Benutzer von Audiokonferenz und Anrufplänen, die in der Lage sein müssen, ausgehende Anrufe für **alle Ziele** tätigen zu können. Zahlreiche Länder/Regionen sind enthalten, einige Ziele sind jedoch möglicherweise nicht in Ihren Abonnements für Anrufplan oder Audiokonferenz eingeschlossen.
   
-Wenn Sie kein Guthaben für Kommunikationen einrichten und Den Benutzern eine Lizenz zuweisen und ihnen (je nach Anrufplan oder Audiokonferenzplan oder Land/Region) die Minuten für Ihre Organisation nicht zur Verfügung stellen, können die Benutzer keine Anrufe mehr führen oder aus Besprechungen heraus anrufen. Weitere Informationen hierzu einschließlich der empfohlenen Guthabenbeträge finden Sie unter [Was ist Guthaben für Kommunikationen?](../what-are-communications-credits.md)
+Wenn Sie Guthaben für Kommunikationen nicht einrichten und Benutzern eine Lizenz zuweisen, und Ihnen für Ihre Organisation (je nach Anrufplan oder Audiokonferenzplan oder Ihrem Land/Ihrer Region) keine Minuten mehr zur Seite stehen, können sie keine Anrufe tätigen oder sich aus Besprechungen heraus anrufen. Weitere Informationen hierzu einschließlich der empfohlenen Guthabenbeträge finden Sie unter [Was ist Guthaben für Kommunikationen?](../what-are-communications-credits.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

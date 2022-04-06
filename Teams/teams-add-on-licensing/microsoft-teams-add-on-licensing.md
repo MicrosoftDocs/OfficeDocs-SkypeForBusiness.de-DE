@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-On-Lizenzen für Microsoft Teams und die Funktionen, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: b5282cfe166a04cd58dbe5042cc2fc3e25e7405f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556306"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686382"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Add-On-Lizenzen für Microsoft Teams
 
@@ -42,7 +42,7 @@ Hier ist eine Liste der Teams-Add-On-Lizenzen und deren Funktionen, die Sie Ihre
 |**Microsoft 365 Business Voice** <br/> |Business Voice war das Sprachfunktionspaket von Microsoft für kleine und mittelständische Unternehmen, kann aber ab dem 1. März 2022 nicht mehr erworben werden. Aktuelle Business Voice-Abonnenten können ihre Business Voice-Lizenzen bis zum 30. Juni 2022 verlängern. <br/> <br/> Wenn Sie ein kleines oder mittleres Unternehmen sind, empfiehlt es sich, die [Teams Phone mit Anrufplan-Lizenz](../business-voice/whats-business-voice.md)zu erwerben, sofern diese in Ihrer Region verfügbar ist. <br/> <br/> Alternativ können Sie eine Teams Phone Standard-Lizenz erwerben, mit der Sie eine Verbindung zu Ihrem bevorzugten PSTN-Drittanbieter herstellen können. |
 |**Teams Phone mit Anrufplan-Paket** <br/> |Die Lizenz „Teams Phone mit Anrufplan“ bündelt die PBX-Fähigkeiten des Teams Phone-Systems und einen Anrufplan für das Inland für PSTN-Konnektivität. <br/> |
 |**Teams Phone Standard** <br/> |[Teams Phone System](../what-is-phone-system-in-office-365.md) ist ein gehosteter Telefondienst, der Ihnen Anrufsteuerung und Private Branch Exchange (PBX)-Funktionen bietet. Teams Phone Standard-Lizenzen bieten Ihnen alle Teams Phone System-Funktionen wie Cloud Voicemail, Anrufer-ID, Anruf parken, Anrufweiterleitung, automatische Vermittlungsstellen, Anrufwarteschlangen, Anrufübertragung und Anrufer-ID. <br/> <br/>Weitere Informationen zum Telefonsystem finden Sie unter [Hier erfahren Sie, was Sie mit dem Microsoft Teams Phone-System](../here-s-what-you-get-with-phone-system.md)erhalten. <br/> |
-|**Microsoft Teams Anrufpläne** <br/> |Wenn Sie möchten, dass Benutzer Telefonnummern außerhalb Ihrer Organisation anrufen können, können Sie [Microsoft Teams-Anrufpläne](../calling-plans-for-office-365.md) erwerben, um eine Verbindung mit PSTN-Telefonnummern mit Microsoft als Ihrem PSTN-Anbieter herzustellen. Es gibt Anrufpläne für das Inland sowie Anrufpläne für In- und Ausland. <br/> <br/> Informationen dazu, ob Teams-Anrufpläne in Ihrem Land oder Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen in Ländern und Regionen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+|**Microsoft Teams Anrufpläne** <br/> |Wenn Sie möchten, dass Benutzer Telefonnummern außerhalb Ihrer Organisation anrufen können, können Sie [Microsoft Teams-Anrufpläne](../calling-plans-for-office-365.md) erwerben, um eine Verbindung mit PSTN-Telefonnummern mit Microsoft als Ihrem PSTN-Anbieter herzustellen. Es gibt Anrufpläne für inlandsanrufe, internationale Anrufpläne und Inlands- und Auslandsanrufpläne. <br/> <br/> Informationen dazu, ob Teams-Anrufpläne in Ihrem Land oder Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen in Ländern und Regionen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 |**Guthaben für Kommunikationen** | Kommunikationsguthaben bieten einen monatlichen Pool von Minuten, die auch für PSTN-Telefonate verwendet werden können, wenn alle Minuten Ihres Anrufplans vor Beginn des nächsten Monats verbraucht sind. Wenn Sie gebührenfreie Nummern für Audiokonferenzen, automatische Telefonzentralen oder Anrufwarteschleifen benötigen, müssen Sie [Kommunikationsguthaben](../set-up-communications-credits-for-your-organization.md)einrichten. <br/> |
 |**Audiokonferenzen** <br/> |Es kann vorkommen, dass Mitarbeiter in Ihrem Unternehmen ein Telefon benutzen müssen, um an einer Teams-Besprechung teilzunehmen, anstatt ihren Computer zu benutzen. [Richten Sie Audiokonferenzen](../set-up-audio-conferencing-in-teams.md) für Benutzer ein, die Besprechungen mit Teilnehmern planen oder leiten, die sich über ein Telefon einwählen müssen. <br/> <br/>Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organisationen können jetzt einen Drittanbieter für ihre Audiokonferenznummern verwenden. Weitere Informationen finden Sie unter [Planen von Operator Connect-Konferenzen](../operator-connect-conferencing-plan.md). <br/>|
 |**Microsoft Teams-Räume** <br/> | Microsoft Teams Room ist ein zusätzliches Produkt von Microsoft Teams, das die gemeinsame Nutzung von Video, Audio und Inhalten in Konferenzräumen ermöglicht. Unternehmen können für diese Funktionen eigenständige Lizenzen für Microsoft Teams Rooms erwerben. Weitere Informationen finden Sie unter [Lizenzierung von Teams-Besprechungsräumen](../rooms/rooms-licensing.md). <br/>|
@@ -87,22 +87,22 @@ Im Folgenden finden Sie eine Zusammenfassung, welche Microsoft-Sprach- und Anruf
 <tbody>
 <tr>
 <td>Teams Essentials (AAD-Identität) <br/> <br/>Alle Microsoft 365-Pläne, die Teams enthalten <br/> </td>
-<td>Teams Phone mit Anrufplan-Paketlizenzen <br/> <br/>oder <br/> <br/>Teams Phone Standard-Lizenzen <br/> plus <br/>Lizenzen für einen Inlandsgesprächsplan oder einen Inlands- und Auslandsgesprächsplan <br/> </td>
+<td>Teams Phone mit Anrufplan-Paketlizenzen <br/> <br/>oder <br/> <br/>Teams Phone Standard-Lizenzen <br/> plus <br/>Lizenzen für Inlandsanrufpläne, Auslandsanrufpläne oder Inlands- und Auslandsanrufpläne <br/> </td>
 <td>Teams Phone Standard-Lizenzen <br/> </td>
 </tr>
 <tr>
 <td>Microsoft 365 E5/A5/G5-Pläne</td>
-<td>Lizenzen für einen Inlandsgesprächsplan oder einen Inlands- und Auslandsgesprächsplan <br/> </td>
+<td>Lizenzen für Inlandsanrufpläne, Auslandsanrufpläne oder Inlands- und Auslandsanrufpläne <br/> </td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="unassign-licenses-from-users"></a>Zuweisen von Lizenzen von Benutzern
+## <a name="unassign-licenses-from-users"></a>Aufheben der Zuweisung von Lizenzen von Benutzern
 
-Sie haben zwei Möglichkeiten, um den Benutzerzugriff auf bestimmte Produkte zu entfernen: Dies ist das Entfernen von Produktlizenzen für bestimmte Benutzer oder das Entfernen von Benutzerlizenzen für ein bestimmtes Produkt.
+Sie haben zwei Möglichkeiten, den Zugriff von Benutzern auf bestimmte Produkte zu entfernen: Aufheben der Zuweisung von Produktlizenzen für bestimmte Benutzer oder Aufheben der Zuweisung von Benutzerlizenzen für ein bestimmtes Produkt.
 
-Anweisungen zum Entfernen der Lizenzzuweisung finden Sie unter Entfernen der [Lizenzzuweisung für Benutzer](/microsoft-365/admin/manage/remove-licenses-from-users).
+Anweisungen zum Aufheben der Zuweisung von Lizenzen finden Sie unter [Aufheben der Zuweisung von Lizenzen von Benutzern](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ## <a name="more-guidance-on-microsoft-plans"></a>Weitere Hinweise zu Microsoft-Plänen
 

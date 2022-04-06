@@ -18,20 +18,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f8579d7c2c49749058c174aa71430803dce63286
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: bb3d38060a9538196795e3da7b325840321814d8
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64643019"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686392"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Informationen zu Apps in Microsoft Teams
 
-Apps sind eine hervorragende Möglichkeit, Tools und Dienste an Ihrem Arbeitsplatz zusammenzubringen und mit anderen zusammenzuarbeiten. Apps helfen Endbenutzern dabei, produktiver, zusammenarbeitlicher und effektiver bei ihren täglichen Aufgaben zu arbeiten. Organisationen verwenden Apps, um sich mit Ihren Kunden in Verbindung zu setzen, Dienste zur Verfügung zu stellen und Informationen gemeinsam zu nutzen. Apps ermöglichen Benutzern eine effektivere Teams in Chats, Besprechungen und Kanälen. Beispiele hierfür sind Endbenutzer, die einen angeheftet Kalender in Teams verwenden, um schnell mit anderen zusammenzuarbeiten, eine App mit Bots-Funktionen, die Benutzer über QoS eines Webdiensts in einem Teams-Kanal informiert, und eine App zum Freigeben und Zuweisen von Aufgaben zu verschiedenen Endbenutzern in einem Kanal.
+Apps sind eine hervorragende Möglichkeit, Ihre Arbeitsplatztools und -dienste zusammenzubringen und mit anderen zusammenzuarbeiten. Apps helfen Endbenutzern, produktiver, kollaborativer und effektiver bei ihren täglichen Aufgaben zu sein. Organisationen verwenden Apps, um sich mit ihren Kunden in Verbindung zu setzen, Dienste bereitzustellen und Informationen freizugeben. Mit apps können Benutzer effektiver in Teams Chats, Besprechungen und Kanälen. Beispiele hierfür sind Endbenutzer, die einen angehefteten Kalender in Teams verwenden, um schnell mit anderen zusammenzuarbeiten, eine App mit Bots-Funktionen, die Benutzer über QoS über einen Webdienst in einem Teams Kanal informiert, und eine App zum Freigeben und Zuweisen von Aufgaben zu verschiedenen Endbenutzern in einem Kanal.
 
-Unsere umfangreiche Auswahl an überprüften und sicheren Apps im Store bietet Endbenutzern Zugriff auf die Tools und Dienste, die Ihre Organisation täglich benötigt. Microsoft Teams-Apps sind webbasierte SaaS-Apps, die nicht bereitgestellt werden müssen. Endbenutzer können Apps in einer App Teams auf der Grundlage der von Ihnen erteilten Berechtigungen verwenden. Als Administrator genehmigen oder blockieren Sie einfach die Verwendung einer App für die Benutzer Ihrer Organisation. Sie steuern die Verfügbarkeit von Apps für alle Benutzer über Besprechungen, Chats und Kanäle hinweg.
+Unsere umfangreiche Auswahl an überprüften und sicheren Apps im Store bietet Endbenutzern Zugriff auf die Tools und Dienste, die Ihre Organisation täglich benötigt. Microsoft Teams Apps sind webbasierte SaaS-Apps, die nicht bereitgestellt werden müssen. Endbenutzer können Apps in Teams nur basierend auf den von Ihnen bereitgestellten Berechtigungen verwenden. Als Administrator genehmigen oder blockieren Sie einfach die Verwendung einer beliebigen App für die Benutzer Ihrer Organisation. Sie steuern die Verfügbarkeit von Apps für alle Benutzer in Besprechungen, Chats und Kanälen.
 
-Um Endbenutzern die benötigten Apps zur Verfügung zu stellen, lesen Sie weiter, um die App-Typen zu verstehen und zu erfahren, wo Ihre Benutzer auf diese Apps zugreifen. Weitere Informationen zur Verwendung von Apps finden Sie unter Übersicht [über Apps für Endbenutzer.](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
+Um Ihren Endbenutzern apps bereitzustellen, die sie benötigen, lesen Sie weiter, um die Arten von Apps zu verstehen und zu erfahren, wo Ihre Benutzer auf diese Apps zugreifen. Weitere Informationen zur Verwendung von Apps finden Sie unter [Übersicht über Apps für Endbenutzer](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
 
 <!--- Commenting the previous content as part of this article revamp.
 
@@ -39,22 +39,22 @@ Apps let users find content from their favorite services and share it in Teams. 
 
 --->
 
-Die verschiedenen Arten von Apps, die Endbenutzer in Apps verwenden Teams können, sind:
+Die verschiedenen Arten von Apps, die Endbenutzer in Teams verwenden können, sind:
 
-* [Kern-Apps, die Teil Teams](#core-apps).
-* Weitere [von Microsoft erstellte Apps](#microsoft-provided-apps).
-* [Drittanbieter-Apps von](#third-party-apps-validated-by-microsoft) Partnern (von Microsoft überprüft).
+* [Kern-Apps, die Teil Teams sind](#core-apps).
+* Andere [von Microsoft erstellte Apps](#microsoft-provided-apps).
+* [Drittanbieter-Apps](#third-party-apps-validated-by-microsoft) von Partnern (von Microsoft überprüft).
 * [Benutzerdefinierte Apps](#custom-apps) , die von Ihrer eigenen Organisation erstellt wurden.
 
 ## <a name="core-apps"></a>Kern-Apps
 
-Einige Standardfunktionen wie Aktivitätsfeed, Teams-Kanäle, Chats, Kalender und Anrufe sind standardmäßig verfügbar und werden angeheftet, um Endbenutzern den Zugriff zu erleichtern. Als Administrator können Sie das Standardverhalten mithilfe der [Setuprichtlinie ändern](/microsoftteams/teams-app-setup-policies).
+Einige Standardfunktionen wie Aktivitätsfeed, Teams Kanäle, Chat, Kalender und Anrufe sind standardmäßig verfügbar und angeheftet, um Endbenutzern den Zugriff zu erleichtern. Als Administrator können Sie das Standardverhalten mithilfe der [Setuprichtlinie](/microsoftteams/teams-app-setup-policies) ändern.
 
-:::image type="content" source="media/core-apps-pinned1.png" alt-text="Kern-Apps sind die Apps, die standardmäßig Teams angeheftet sind." lightbox="media/core-apps-pinned2.png":::
+:::image type="content" source="media/core-apps-pinned1.png" alt-text="Kern-Apps sind die Apps, die standardmäßig in Teams angeheftet sind." lightbox="media/core-apps-pinned2.png":::
 
 ## <a name="microsoft-provided-apps"></a>Von Microsoft bereitgestellte Apps
 
-Microsoft stellt viele Apps zur Verbesserung von Produktivität und Zusammenarbeit zur Verfügung. Sie und Endbenutzer können diese Apps finden, indem Sie nach Microsoft suchen, das im Admin Center Publisher als Anbieter oder im Team Store als Anbieter aufgeführt ist.
+Microsoft bietet viele Apps zur Verbesserung der Produktivität und Zusammenarbeit. Sie und Endbenutzer können diese Apps finden, indem Sie nach Microsoft suchen, das als Publisher im Admin Center oder als Anbieter im Team Store aufgeführt ist.
 
 Teams wird mit einer Reihe von integrierten Apps geliefert, darunter Listen, Aufgaben, Lob, Genehmigungen und mehr. Es ist empfehlenswert, die von Teams vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen.
 
@@ -62,53 +62,45 @@ Teams wird mit einer Reihe von integrierten Apps geliefert, darunter Listen, Auf
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Von Microsoft überprüfte Drittanbieter-Apps
 
-Zusätzlich zu von Microsoft bereitgestellten Apps können Sie von Microsoft validierte Apps von Drittanbietern verwenden. Microsoft überprüft die Funktionalität und Sicherheit dieser Apps, bevor diese Apps im Store Teams werden.
-
-<!--- TBD: Link to the new article later when it is created.
-To understand the benefits of app validation, see [validation of third-party apps]().
-
---->
+Zusätzlich zu den von Microsoft bereitgestellten Apps können Sie von Microsoft validierte Drittanbieter-Apps verwenden. Microsoft überprüft die Funktionalität und Sicherheit dieser Apps, bevor diese Apps im Teams Store verfügbar gemacht werden. Informationen zu den Vorteilen der [App-Validierung finden Sie unter Validierung von Drittanbieter-Apps](overview-of-app-validation.md).
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Beispiel für Apps von Drittanbietern im Teams Store":::
 
-<!--- TBD: Check the relevance of this link here.
-For more information, see [Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
---->
-
 ## <a name="custom-apps"></a>Benutzerdefinierte Apps
 
-Von Entwicklern in Ihrer Organisation erstellte Apps werden als benutzerdefinierte Apps bezeichnet. Die Entwicklung einer solchen App wird für bestimmte Anforderungen Ihrer Organisation in Auftrag gegeben, und Sie verfügen über Kontrollsteuerelemente, um solche Apps zu erlauben oder nicht zu erlauben. Entwickler in Ihrer Organisation können schnell benutzerdefinierte Lösungen mit geringem Code erstellen, indem sie Teams Integration in die [Microsoft Power Platform verwenden](/microsoftteams/platform/samples/teams-low-code-solutions).
+Apps, die von Entwicklern in Ihrer Organisation erstellt wurden, werden als benutzerdefinierte Apps bezeichnet. Die Entwicklung einer solchen App wird für bestimmte Anforderungen Ihrer Organisation in Auftrag gegeben, und Sie verfügen über Steuerelemente, um solche Apps zuzulassen oder zu verbieten. Entwickler in Ihrer Organisation können mithilfe Teams Integration in [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) schnell benutzerdefinierte Low-Code-Lösungen erstellen.
 
-Nachdem ein Administrator die Verwendung von benutzerdefinierten Apps erlaubt hat, finden Endbenutzer diese Apps, indem **sie in der** linken Navigationsleiste des Teams auf Für Ihre Organisation erstellt klicken.
+Nachdem ein Administrator die Verwendung von benutzerdefinierten Apps erlaubt hat, finden Endbenutzer solche Apps, indem sie im linken Navigationsbereich Teams Store auf "**Für Ihre Organisation erstellt**" klicken.
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Benutzerdefinierte Apps im Teams-Store in Teams-Desktop-App" lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Benutzerdefinierte Apps in Teams Store in Teams Desktop-App" lightbox="media/built-for-your-org2.png":::
 
-### <a name="understand-sideloading-of-custom-apps"></a>Verständnis des Querladens von benutzerdefinierten Apps
+### <a name="understand-sideloading-of-custom-apps"></a>Grundlegendes zum Querladen von benutzerdefinierten Apps
 
-Beim Entwickeln von benutzerdefinierten Apps und vor dem Verteilen an Endbenutzer testen Entwickler die Apps, indem sie sie dem Store hinzufügen, um sie selbst zu testen, oder sie können mit einem Team testen, in dem sie die App querladen. Diese Methode wird Querladen von Apps genannt und gilt nur für benutzerdefinierte Apps.
+Beim Entwickeln von benutzerdefinierten Apps und vor der Verteilung an die Endbenutzer testen Entwickler die Apps, indem sie sie dem Store hinzufügen, um sie selbst zu testen oder mit einem Team zu testen, in dem sie die App querladen. Diese Methode wird als Querladen von Apps bezeichnet und gilt nur für benutzerdefinierte Apps.
 
-Entwickler können eine App querladen, um sie den Mitgliedern eines bestimmten Teams zur Verfügung zu stellen, in der Regel zum Testen einer Unterentwicklungs-App. Dies erfordert keine Genehmigung des Administrator, wenn Querladen zulässig ist. Als Administrator können Sie das Querladen für Entwickler nicht zu.
+Entwickler können eine App querladen, um sie den Mitgliedern eines bestimmten Teams zur Verfügung zu stellen, in der Regel zum Testen einer Unterentwicklungs-App.Developers can sideload an app to make it available to the members of a specific team, typically for testing an under-development app. Dies erfordert keine Administratorgenehmigung, wenn Querladen zulässig ist. Als Administrator können Sie das Querladen für jeden Entwickler verbieten.
 
-Wenn Sie querladen nicht möchten, können die Entwickler ihre Apps trotzdem in einem [Test-Mandanten testen](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Nach Abschluss der Entwicklung benutzerdefinierter Apps fordern Entwickler Administratoren auf, ihre benutzerdefinierte App an die Endbenutzer zu verteilen. Weitere Informationen finden Sie unter [Veröffentlichen einer benutzerdefinierten App](/microsoftteams/upload-custom-apps). Als Administrator können Sie die Verwendung einer benutzerdefinierten App für bestimmte Benutzer zulassen oder nicht zulassen.
+Wenn Sie das Querladen nicht zulassen, können die Entwickler ihre Apps weiterhin in einem [Testmandanten](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant) testen. Sobald die Entwicklung benutzerdefinierter Apps abgeschlossen ist, fordern Entwickler Administratoren auf, ihre benutzerdefinierte App an die Endbenutzer zu verteilen. Ausführliche Informationen finden Sie [unter Veröffentlichen einer benutzerdefinierten App](/microsoftteams/upload-custom-apps). Als Administrator können Sie die Verwendung einer benutzerdefinierten App für bestimmte Benutzer zulassen oder verbieten.
 
 ### <a name="about-app-templates"></a>Informationen zu App-Vorlagen
 
-App-Vorlagen für Teams sind funktionierende, produktionsfertige Beispiel-Apps, die von Microsoft erstellt wurden, um gängige Anwendungsfälle zu veranschaulichen, bewährte Methoden für die App-Entwicklung zu präsentieren und Open-Source-Apps zur Verfügung zu stellen, die Entwickler zum Erstellen benutzerdefinierter Apps erweitern können. Die Entwickler Ihrer Organisation passen App-Vorlagen an die Anforderungen Ihrer Organisation an. Dazu werden einfache Änderungen am Code vorgenommen, der in den GitHub. Als Administrator stellen Sie diese Apps als benutzerdefinierte Apps für Ihre Endbenutzer zur Verfügung.
+App-Vorlagen für Teams sind funktionale, produktionsbereite Beispiel-Apps, die von Microsoft erstellt wurden, um beliebte Anwendungsfälle zu veranschaulichen, bewährte Methoden für die App-Entwicklung zu präsentieren und Open Source-Apps bereitzustellen, die Entwickler erweitern können, um benutzerdefinierte Apps zu erstellen. Entwickler Ihrer Organisation passen App-Vorlagen für Die Anforderungen Ihrer Organisation mit einfachen Änderungen am Code an, der in GitHub verfügbar ist. Als Administrator stellen Sie diese Apps als benutzerdefinierte Apps für Ihre Endbenutzer bereit.
 
-Weitere Informationen finden Sie unter [Microsoft Teams von App-Vorlagen](https://adoption.microsoft.com/microsoft-teams/app-templates/).
+Weitere Informationen finden Sie [unter Microsoft Teams App-Vorlagen](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
-## <a name="understand-app-capabilities"></a>Verstehen der App-Funktionen
+## <a name="understand-app-capabilities"></a>Grundlegendes zu App-Funktionen
 
-Nachrichten-Apps enthalten Inhalte aus einer App in einem Kanal oder Chat. Besprechungs-Erweiterungs-Apps integrieren Entwickler-Apps in Besprechungen und bieten eine reaktionsfähige Besprechungserfahrung. Um verschiedene Funktionen bereitzustellen, nutzen die App-Entwickler die folgenden App-Funktionen.
+Um umfassende Funktionen bereitzustellen, mit denen Endbenutzer innerhalb Teams arbeiten können, nutzen App-Entwickler die folgenden App-Funktionen. Messaging-Erweiterungen ermöglichen benutzern die Interaktion mit Ihrem Webdienst Teams Client. Sie suchen oder starten Aktionen in einem externen System. Sie können das Ergebnis der Interaktion als reich formatierte Karte an den Teams Client senden. Besprechungserweiterungs-Apps integrieren die Apps eines Entwicklers in Besprechungen und bieten eine reaktionsschnelle Besprechungserfahrung.
 
-Bots bieten Antworten, Updates und Unterstützung. Sie können mit dieser 1:1-bzw. in einem Kanal chatten. Sie können bei der Aufgabenverwaltung, der Terminplanung und vielem mehr helfen. Beispielsweise können Sie mit der Polly-App schnelle Umfragen erstellen, Feedback erhalten und eine Pulse-Prüfung durchführen.
+Bots werden auch als Chatbot oder Unterhaltungsbot bezeichnet. Es handelt sich um eine App, die einfache und sich wiederholende Aufgaben ausführt. Eine Bot-Interaktion kann eine schnelle Frage und Antwort sein, oder es kann eine komplexe Unterhaltung sein, die Zugriff auf Dienste oder Unterstützung bietet. Benutzer können mit etwas Einzelchat oder in einem Kanal chatten. Sie können beispielsweise die Polly-App verwenden, um schnelle Umfragen zu erstellen, Feedback zu erhalten und eine Pulsprüfung durchzuführen.
 
-Am oberen Rand eines Kanals angeheftet Registerkarten ermöglichen ihnen die Interaktion mit Inhalten und Diensten mit einer web-igen Erfahrung.
-Connectors stellen Inhalte und Updates aus Diensten, die Sie häufig verwenden (z. B. Jira Cloud und Bitbucket), direkt in einer Kanal-Unterhaltung zur Verfügung.
+Registerkarten sind Teams Webseiten, die am oberen Rand eines Kanals oder Chats angeheftet sind. MitHilfe von Registerkarten können Sie mit Inhalten und Diensten mit einer webähnlichen Oberfläche interagieren. Sie können Registerkarten als Teil eines Kanals innerhalb eines Teams, eines Gruppenchats oder einer persönlichen App für einen einzelnen Benutzer hinzufügen.
 
-Messaging-Erweiterungen sind Tastenkombinationen zum Einfügen von App-Inhalten oder zum Agieren auf Nachrichten, ohne dass Endbenutzer die Unterhaltung beenden müssen. Messaging-Erweiterungen können Suchbefehle für Endbenutzer enthalten, um schnell externe Inhalte zu finden und in Nachrichten- oder Aktionsbefehle einfügungen zu können.
+Webhooks und Connectors liefern Inhalte und Updates von Diensten, die Endbenutzer häufig verwenden (z. B. Jira Cloud und Bitbucket), direkt in einer Kanalunterhaltung. Apps, die diese Funktion verwenden, können mit externen Apps kommunizieren und Benachrichtigungen und Nachrichten von einem externen Dienst senden oder empfangen.
 
-Informationen zum Anzeigen häufiger Anwendungsfälle, die Teams zugeordnet sind, finden Sie unter Zuordnung der Anwendungsfälle [Teams App-Features](/microsoftteams/platform/concepts/design/map-use-cases).
+Messaging-Erweiterungen sind Tastenkombinationen zum Einfügen von App-Inhalten oder zum Reagieren auf eine Nachricht, ohne dass Endbenutzer von der Unterhaltung weg navigieren müssen. Messaging-Erweiterungen können Suchbefehle für Endbenutzer haben, um externe Inhalte schnell zu finden und in eine Nachricht oder Aktionsbefehle einzufügen.
+
+Informationen zum Anzeigen häufiger Anwendungsfälle, die Teams Funktionen zugeordnet sind, finden Sie unter [Zuordnen von Anwendungsfällen zu Teams App-Features](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 
