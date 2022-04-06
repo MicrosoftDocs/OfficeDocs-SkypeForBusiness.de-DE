@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
-ms.translationtype: HT
+ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556316"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642849"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -106,6 +106,9 @@ Vorgehensweise, um bestimmte Domänen zu blockieren
 Um mit einem anderen Mandanten zu kommunizieren, muss dieser entweder **Alle externen Domänen zulassen** aktivieren oder Ihren Mandanten zu seiner Liste der zulässigen Domänen hinzufügen, indem er die oben beschriebenen Schritte ausführt.  
 
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>Verwalten von Kontakten mit externen Teams-Benutzern, die nicht von einer Organisation verwaltet werden
+
+> [!NOTE]
+> Die Teams- und Skype-Interoperabilitätsfunktionen, die in diesem Artikel diskutiert werden, sind nicht auf GCC-, GCC High- oder DOD-Bereitstellungen oder in privaten Cloud-Umgebungen verfügbar.
 
 Administratoren können die Kommunikation mit externen Teams-Benutzern, die nicht von einer Organisation verwaltet werden („nicht verwaltet“) aktivieren oder deaktivieren. Wenn diese Funktion aktiviert ist, können sie auch noch steuern, ob Personen mit nicht verwalteten Teams-Konten Kontakte initiieren können (siehe folgende Abbildung). Wenn die Option **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren** deaktiviert ist, können nicht verwaltete Teams-Benutzer nicht die vollständige E-Mail-Adresse durchsuchen, um Kontakte in der Organisation zu finden, und die gesamte Kommunikation mit nicht verwalteten Teams-Benutzern muss von Benutzern der Organisation initiiert werden.
 

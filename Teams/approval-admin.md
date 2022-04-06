@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442311"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643069"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
@@ -36,7 +36,7 @@ Benutzer können die App "Genehmigungen" an der Menüleiste anheften.
 
  ![Zeigt die Genehmigungs-App mit der Option zum Anheften an.](media/approvalApp-pin.png)
 
-Durch die erste mit der App "Genehmigungen" erstellte Genehmigung wird die Bereitstellung der Genehmigungslösung in der CDS-Standardumgebung (Common Data Service) ausgelöst. Mit der App "Genehmigungen" erstellte Genehmigungen werden in der CDS-Standardumgebung gespeichert.
+Die erste von der App Genehmigungen erstellte Genehmigung löst die Bereitstellung der Genehmigungslösung in der Microsoft Dataverse-Standardumgebung aus. Genehmigungen aus der Genehmigungen-App erstellten Daten werden in der Standardumgebung von Microsoft Dataverse gespeichert.
 
 In diesem Artikel werden die Anforderungen und Rollen für die App "Genehmigungen" beschrieben.
 
@@ -47,28 +47,28 @@ In diesem Artikel werden die Anforderungen und Rollen für die App "Genehmigunge
 
 Zum Bereitstellen der Genehmigungen-App benötigen Sie Berechtigungen für die folgenden Elemente:
 
-- Berechtigungen zum Erstellen einer Microsoft CDS-Datenbank.
+- Berechtigungen zum Erstellen einer Microsoft Dataverse-Datenbank.
 
-- Ein Konto auf [flow.microsoft.com](https://flow.microsoft.com/)
+- Ein Konto auf [powerautomate.microsoft.com](https://powerautomate.microsoft.com/)
 
 - Administratorrolle in der Zielumgebung.
 
 - Lizenz für [Power Automate](/power-automate/get-started-approvals), Office 365 oder Dynamics 365.
 
-- Für Benutzer ist eine Lizenz für Microsoft Forms erforderlich, damit sie neue Genehmigungsvorlagen einrichten können.
+- Damit Benutzer Microsoft Forms neue Genehmigungsvorlagen einrichten können, ist eine Lizenz für die Genehmigung erforderlich.
 
 Um die Genehmigungen-App verwenden zu können, benötigen Sie eine Lizenz für Power Automate, und Ihr Konto wird der Genehmigungen-Benutzerrolle in der Zielumgebung bei Ihrer ersten Genehmigungszuweisung automatisch hinzugefügt.
 
-## <a name="storage-with-cds"></a>Speicher mit CDS
+## <a name="storage-with-microsoft-dataverse"></a>Storage mit Microsoft Dataverse
 
-Das allgemeine Datenmodell (Common Data Model, CDM) ist die gemeinsame Datensprache, die von Geschäfts- und Analyseanwendungen im CDS verwendet wird. Sie besteht aus einer Reihe standardisierter, erweiterbarer Datenschemas, die von Microsoft und unseren Partnern veröffentlicht wurden und die Konsistenz der Daten und deren Bedeutung in allen Anwendungen und Geschäftsprozessen ermöglichen. Weitere Informationen zum [Allgemeinen Datenmodell der Microsoft Power Platform](/power-automate/get-started-approvals).
+Das Common Data Model (CDM) ist die Sprache für freigegebene Daten, die von Geschäfts- und Analyseanwendungen in Microsoft Dataverse verwendet wird. Sie besteht aus einer Reihe standardisierter, erweiterbarer Datenschemas, die von Microsoft und unseren Partnern veröffentlicht wurden und die Konsistenz der Daten und deren Bedeutung in allen Anwendungen und Geschäftsprozessen ermöglichen. Weitere Informationen zum [Allgemeinen Datenmodell der Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Weitere Informationen zum [Genehmigungsworkflow](/power-automate/modern-approvals).
 
-Genehmigungen, die aus einer Vorlage erstellt wurden, werden weiterhin Daten in CDS gespeichert, z. B. Titel, Details, Vorlagen-ID und vieles mehr. Antworten, die über die Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Erfahren Sie mehr  [über Datenspeicherung für Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Genehmigungen, die aus einer Vorlage erstellt werden, speichern weiterhin Daten in Microsoft Dataverse, z. B. Titel, Details, Vorlagen-ID und mehr. Antworten, die über die Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Weitere Informationen zur  [Datenspeicherung für Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Wenn Sie die Formularvorlage auf der Microsoft Forms-Website löschen, wird ihre Genehmigungsvorlage nicht mehr angezeigt, und die Benutzer können die Anforderung nicht starten. Benutzern wird die Fehlermeldung "CDB TableNotFound" angezeigt, wenn sie versuchen, eine Genehmigungsvorlage zu öffnen, die in Microsoft Forms gelöscht wurde.
+>Wenn Sie die Formularvorlage auf der Microsoft Forms löschen, wird ihre Genehmigungsvorlage gelöscht, und die Benutzer können die Anforderung nicht starten. Benutzern wird die Fehlermeldung "CDB TableNotFound" angezeigt, wenn sie versuchen, eine Genehmigungsvorlage zu öffnen, die am Microsoft Forms.
 
 Vorlagen mit Organisationsbereich haben dieselbe Lebensdauer für den Mandanten und Vorlagen mit Teambereich und die gleiche Lebensdauer des Teams. Wenn Sie also das Team endgültig löschen, werden die zugehörigen Vorlagen gelöscht.
 
@@ -122,15 +122,21 @@ Die App "Genehmigungen" ist standardmäßig verfügbar. Sie können die App im M
 
      :::image type="content" alt-text="zeigt die Details für die Genehmigungen-App an." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="retention-policy"></a>Aufbewahrungsrichtlinie
+## <a name="app-policies"></a>App-Richtlinien
 
-Genehmigungen, die aus der Genehmigungen-App erstellt wurden, werden in der Standard-CDS-Umgebung gespeichert, in der derzeit keine Sicherungen unterstützt werden. Erfahren Sie mehr über das [Sichern und Wiederherstellen von Umgebungen – Power Platform \| Microsoft-Dokumentation](/power-platform/admin/backup-restore-environments).
+### <a name="retention-policy"></a>Aufbewahrungsrichtlinie
 
-In Forms gespeicherte Daten werden erst gelöscht, nachdem sie von den Teambesitzern über  die Registerkarte gelöschte Formulare in der Microsoft Forms Web App bereinigt wurden.
+Genehmigungen, die aus der Genehmigungen-App erstellt wurden, werden in der Standardumgebung von Microsoft Dataverse gespeichert, in der derzeit keine Sicherungen unterstützt werden. Erfahren Sie mehr über das [Sichern und Wiederherstellen von Umgebungen – Power Platform \| Microsoft-Dokumentation](/power-platform/admin/backup-restore-environments).
+
+In Forms gespeicherte Daten werden erst gelöscht, nachdem sie von den Teambesitzern auf  der Registerkarte gelöschte Formulare in der Microsoft Forms Web App bereinigt wurden.
+
+### <a name="conditional-access-policies"></a>Richtlinien für bedingten Zugriff
+
+Derzeit unterstützt die Genehmigungen-App in Teams keine Richtlinien für bedingten Zugriff, die für bedingte Microsoft Teams.
 
 ## <a name="data-limitations"></a>Dateneinschränkungen
 
-Jedes Team kann maximal 400 Genehmigungsvorlagen enthalten, und jede Vorlage kann basierend auf der aktuellen Funktion in Microsoft Forms maximal 50.000 Anforderungen sammeln.
+Jedes Team kann maximal 400 Genehmigungsvorlagen enthalten, und jede Vorlage kann maximal 50.000 Anforderungen basierend auf der aktuellen Funktion in Microsoft Forms.
 
 ## <a name="auditing"></a>Überwachung
 
@@ -176,7 +182,7 @@ Sie können nach den folgenden Aktivitäten suchen:
 
 - Angezeigte Vorlage
 
-Aktivieren und konfigurieren Sie für den Zugriff auf weitere Überwachungsgenehmigungen innerhalb von Flow die Überwachung in der Standardumgebung für die primären Genehmigungsentitäten Genehmigung, Genehmigungsanforderung und Genehmigungsantwort. Erstellen, Aktualisieren und Löschen sind überwachbare Ereignisse für Genehmigungseinträge. Weitere Informationen zur [Überwachung von Daten und Benutzeraktivitäten für Sicherheit und Compliance – Power Platform\| Microsoft-Dokumentation](/power-platform/admin/audit-data-user-activity).
+Für den Zugriff auf weitere Überwachungsgenehmigungen innerhalb Power Automate Aktivieren und Konfigurieren der Überwachung in der Standardumgebung für die primären Genehmigungsentitäten "Genehmigung", "Genehmigungsanforderung" und "Genehmigungsantwort". Erstellen, Aktualisieren und Löschen sind überwachbare Ereignisse für Genehmigungseinträge. Weitere Informationen zur [Überwachung von Daten und Benutzeraktivitäten für Sicherheit und Compliance – Power Platform\| Microsoft-Dokumentation](/power-platform/admin/audit-data-user-activity).
 
 Die Überwachung kann im [Microsoft 365 Security & Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) weiter angepasst werden.
 

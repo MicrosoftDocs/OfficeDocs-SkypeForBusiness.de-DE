@@ -1495,6 +1495,8 @@ items:
         items:
           - name: 'Sicherheit, Compliance, Datenschutz und Datenverarbeitung für Drittanbieter-Apps'
             href: /microsoft-365-app-certification/overview
+          - name: Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors
+            href: Office-365-custom-connectors.md
           - name: Kaufen von Drittanbieter-Apps für Teams
             href: purchase-third-party-apps.md
       - name: App-Vorlagen für Teams
@@ -1511,8 +1513,6 @@ items:
             href: customize-apps.md
           - name: Branding des App-Stores Ihrer Organisation
             href: customize-your-app-store.md
-          - name: Verwenden integrierter und benutzerdefinierter Registerkarten
-            href: built-in-custom-tabs.md
       - name: Administratorsteuerelemente und App-Governance
         items:
           - name: Übersicht über die App-Verwaltung für Administratoren
@@ -1537,8 +1537,6 @@ items:
             href: app-permissions.md
           - name: Administratoreinstellungen für Apps in Teams
             href: admin-settings.md
-          - name: Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors
-            href: Office-365-custom-connectors.md
           - name: App-Verhalten basierend auf Typen von Benutzern
             href: non-standard-users.md
           - name: Aktualisieren von Apps auf neuere Versionen als Endbenutzer

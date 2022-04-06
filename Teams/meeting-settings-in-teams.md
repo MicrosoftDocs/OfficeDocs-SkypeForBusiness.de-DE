@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
-ms.translationtype: HT
+ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960027"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642919"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -70,7 +70,7 @@ Da sowohl die organisationsweite Richtlinie als auch die Richtlinien pro Organis
 
 Alle anderen Wertekombinationen verhindern, dass anonyme Benutzer an Besprechungen teilnehmen können.
 > [!NOTE]
-> Um die Richtlinie pro Organisator für Organisationen zu verwenden, bei denen die anonyme Teilnahme pro Organisation deaktiviert ist, müssen Administratoren eine Richtlinie erstellen und diese dann Benutzern zuweisen. Informationen dazu finden Sie unter [Verwalten von Besprechungsrichtlinien in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> Weitere Informationen zum Verwalten von Besprechungsrichtlinien finden Sie unter [Verwalten von Besprechungsrichtlinien in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>Blockieren der anonymen Teilnahme für bestimmte Clienttypen
 

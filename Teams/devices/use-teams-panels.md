@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Dieser Artikel enthält Anleitungen zur Verwendung von Teams-Panels.
-ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062539"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643039"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>So wird's Microsoft Teams verwendet
 
@@ -33,7 +33,7 @@ Dieser Artikel bietet sowohl Endbenutzern als auch Administratoren Eine Anleitun
 
 Eine Übersicht über die Panelgeräte und eine Anleitung zum Planen, Bereitstellen und Verwalten dieser Geräte in Ihrer Organisation finden Sie unter Bereitstellen Microsoft Teams [Panels](teams-panels.md).
 
-Einen schnellen Einstieg erhalten Sie unter [Erste Schritte mit Teams Panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
+Einen schnellen Einstieg können Sie in Erste Schritte [mit Teams-Panels.](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
 ## <a name="teams-panels-end-user-experience"></a>Teams der Endbenutzererfahrung für Panels
 
@@ -54,7 +54,7 @@ Auf der Startseite können Sie Standort- und Besprechungsdetails anzeigen, einen
 
 Der folgende Screenshot zeigt verschiedene Teile oder Kacheln auf der Teams Startbildschirm der Bildschirme:
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Dieser Screenshot zeigt verschiedene Bereiche auf der Startseite Teams Bildschirms "Start" der Bildschirmfotos an.":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Dieser Screenshot zeigt verschiedene Bereiche auf der Startseite Teams Bildschirms &quot;Start&quot; der Bildschirmfotos an.":::
 
 Eine Beschreibung der einzelnen Kacheln finden Sie in der folgenden Tabelle:
 
@@ -104,7 +104,7 @@ Für Ad-hoc-Besprechungen, die direkt in Panels gebucht werden:
 So reservieren Sie einen verfügbaren Besprechungsraum für eine Ad-hoc-Besprechung
 
 1. Tippen Sie auf der Startseite auf die **Schaltfläche Reservieren** .
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams Startbildschirm der Bereiche mit der Schaltfläche "Reservieren".":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams Startbildschirm der Bereiche mit der Schaltfläche &quot;Reservieren&quot;.":::
 2. Überprüfen Sie **im Ad-hoc-Besprechungsbildschirm** die verfügbaren Endzeitoptionen. Sie können die nach rechts oder links zeigenden Pfeile verwenden, um die verfügbaren Endzeitoptionen zu durchsuchen.
 
     :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Ad-hoc-Besprechungsbildschirm mit Den Zeiten für die Endzeit.":::
@@ -158,7 +158,7 @@ So zeigen Sie eine Geräteeinstellung an oder aktualisieren sie:
 
 ## <a name="teams-panels-admin-experience"></a>Teams von Panels
 
-Wenn Sie der Administrator des [Teams des](teams-panels.md\#resource-account-provisioning) Panels sind, sind Sie auch der Administrator der **Panels-App** auf dem Gerät. Als Administrator **der Panels-App** können Sie neben der Verwaltung der Einstellungen für [](#teams-panels-end-user-experience) **Panels-Apps** auf dem Gerät auch alle im Abschnitt "Endbenutzererfahrung" erwähnten Funktionen ausführen.
+Wenn Sie der Administrator des Ressourcenkontos [Teams-Türschild](teams-panels.md\#resource-account-provisioning) sind, sind Sie auch der Administrator der **Panels-App** auf dem Gerät. Als Administrator **der Panels-App** können Sie neben der Verwaltung der Einstellungen für [](#teams-panels-end-user-experience) **Panels-Apps** auf dem Gerät auch alle im Abschnitt "Endbenutzererfahrung" erwähnten Funktionen ausführen.
 
 Ihre Panelgeräte bieten zwei Arten von Administratoreinstellungen. Sie müssen ein Geräteadministrator sein, um auf die verfügbaren Administratoreinstellungen zugreifen zu können. Endbenutzer können nicht auf diese Einstellungen zugreifen.
 
@@ -192,9 +192,11 @@ So greifen Sie auf **die Option Panels-Einstellungen** zu:
     - [Hintergrundbild](#update-the-wallpaper)
     - [LED-Indikator](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Koppeln eines Teams mit einem Raum Microsoft Teams Android
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Koppeln Teams-Türschild mit einem Microsoft Teams auf Android-Geräten
 
-Melden Sie Teams Anmeldeinformationen im Anmeldebereich an.  
+Zum Koppeln Teams-Türschild und Teams auf Android müssen beide Geräte bei demselben Ressourcenkonto angemeldet sein.
+
+Melden Sie Teams-Türschild Anmeldeinformationen an.
 
 1. Wechseln Sie **Einstellungen > zu Einstellungen > admin Einstellungen > Panels-App Einstellungen > Besprechungen > Gerätekopplung.**
 
@@ -208,6 +210,24 @@ Wenn Teams-Panels mit einem Microsoft Teams Room unter Android gekoppelt sind, k
 
 Informationen zum Aktivieren des Eincheckens und der Raumfreigabe finden Sie unter Einchecken und Raumfreigabe [Microsoft Teams Panels](check-in-and-room-release.md).
 
+#### <a name="room-capacity-warning"></a>Warnung der Raumkapazität
+
+Teams-Panels, die mit einem Teams-Raum unter Android gekoppelt sind, können eine Warnmeldung anzeigen, wenn der Kapazität eines Besprechungsraums zu- oder überlastet ist. Um dieses Feature verwenden zu können, muss Teams Raum über eine Kamera verfügen, die das Zählen von Personen unterstützt. Teams-Räume Android unterstützen Raumkapazitätswarnungen ohne Teams-Türschild.
+
+Warnungen zur Raumkapazität sind standardmäßig deaktiviert. Wenn Sie die Einstellung auf dem Gerät aktivieren Teams-Türschild, koppeln Sie zuerst ein Teams-Türschild mit [einem Microsoft Teams unter Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). Der Bereich und der Teams Raum müssen bei demselben Ressourcenkonto angemeldet sein.
+
+ Wechseln Sie dann zu Einstellungen > **Geräteeinstellungen > Einstellungen für Administratoren > Panel-App-Einstellungen**. Aktivieren Sie dann unter **Besprechungen** die Benachrichtigung **"Max. Benachrichtigung über die Bezugsanzahl von Raum"**.
+
+#### <a name="view-room-equipment"></a>Anzeigen von Raumgeräten
+
+Wenn dieses Feature aktiviert ist, können Endbenutzer sehen, welche Geräte an einem Ort auf einem Gerät verfügbar Teams-Türschild.
+
+Dieses Feature ist standardmäßig deaktiviert und kann pro Gerät aktiviert werden. Zum Aktivieren verwenden Sie [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) in PowerShell `AudioDeviceName`, um die Anzeigenamen für , `DisplayDeviceName`, `VideoDeviceName`, `Tags`und zu konfigurieren `IsWheelChairAccessible`.
+
+Sie können dieses Feature auch im Admin Center Exchange aktivieren. Weitere [Informationen finden Sie unter Bearbeiten](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) einer Ressource.
+
+
+
 #### <a name="update-the-wallpaper"></a>Aktualisieren des Hintergrundbilds
 
 Ändern Sie das Hintergrundbild für den Startbildschirm.
@@ -216,7 +236,7 @@ Informationen zum Aktivieren des Eincheckens und der Raumfreigabe finden Sie unt
 2. Tippen Sie **auf Hintergrundbilder**.
 3. Wählen **Sie unter Bild auswählen** ein Bild aus, das als Hintergrundbild für den Startbildschirm festgelegt werden soll. Zeigen Sie eine Vorschau des ausgewählten Bilds unter **Hintergrund an**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Dieser Screenshot zeigt den Bildschirm mit den Hintergrundbildeinstellungen.":::
-4. Wechseln Sie zurück zur Startseite, und überprüfen Sie, ob das Hintergrundbild aktualisiert wurde.
+4. Zurück Sie zur Startseite, und vergewissern Sie sich, dass das Hintergrundbild aktualisiert wurde.
 
 #### <a name="change-the-busy-state-led-color"></a>Ändern der Farbe der LED des Beschäftigt-Zustands
 
@@ -225,8 +245,8 @@ Administratoren können rot oder lila als LED-Farbe auswählen, um anzugeben, da
 1. [Access **Panels-App-Einstellungen**](#access-panels-app-settings).
 2. Tippen Sie **auf EINSTELLUNGEN**.
 3. Wählen **Sie unter LED-Farbe auswählen** die gewünschte Farbe aus.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="Dieser Screenshot zeigt die Statuseinstellungen für den Status "LED-Farbe gebucht".":::
-4. Wechseln Sie zurück zur Startseite, und vergewissern Sie sich, dass die LED-Farbe für den Status "Beschäftigt" aktualisiert wurde. Wenn der Besprechungsraum derzeit verfügbar ist, versuchen Sie, eine Testbestellung zu planen, um die Änderung der LED-Farbe für den Status "Beschäftigt" zu überprüfen.
+:::image type="content" source="../media/panels-led-settings.png" alt-text="Dieser Screenshot zeigt die Statuseinstellungen für den Status &quot;LED-Farbe gebucht&quot;.":::
+4. Zurück sie zur Startseite, und vergewissern Sie sich, dass die LED-Farbe für den Status "Beschäftigt" aktualisiert wird. Wenn der Besprechungsraum derzeit verfügbar ist, versuchen Sie, eine Testbestellung zu planen, um die Änderung der LED-Farbe für den Status "Beschäftigt" zu überprüfen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

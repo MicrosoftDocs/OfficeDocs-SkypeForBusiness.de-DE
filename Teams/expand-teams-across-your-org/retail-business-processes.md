@@ -19,12 +19,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfe825f1ab21aab3dad2617236d61859ab6b90d8
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: HT
+ms.openlocfilehash: 6f8f831b3e24018dfc3f5ba3cbf2a7767b66398b
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288866"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643089"
 ---
 # <a name="simplify-business-processes-in-retail-environments"></a>Vereinfachen von Geschäftsprozessen in Einzelhandelsumgebungen
 
@@ -52,7 +52,7 @@ Weitere Informationen: [Power Apps](../manage-power-platform-apps.md) und [Power
 
 ## <a name="track-key-performance-indicators-kpis-with-power-bi-reports"></a>Nachverfolgen von Leistungsindikatoren (Key Performance Indicators, KPIs) mit Power BI-Berichten
 
-Geben Sie interaktive Power BI-Inhalte in Microsoft Teams-Kanälen und -Chats frei, und arbeiten Sie gemeinsam daran. Sie können Teams eine [Power BI-Registerkarte](../built-in-custom-tabs.md) hinzufügen, um interaktive Berichte einzubetten und in Teams über Ihre Berichte zu chatten und direkt in Ihrem Teams-Aktivitätsfeed benachrichtigt zu werden, wenn wichtige Dinge in Power BI geschehen.
+Geben Sie interaktive Power BI-Inhalte in Microsoft Teams-Kanälen und -Chats frei, und arbeiten Sie gemeinsam daran. Sie können Teams eine [Power BI-Registerkarte](/microsoftteams/platform/tabs/what-are-tabs) hinzufügen, um interaktive Berichte einzubetten und in Teams über Ihre Berichte zu chatten und direkt in Ihrem Teams-Aktivitätsfeed benachrichtigt zu werden, wenn wichtige Dinge in Power BI geschehen.
 
 Weitere Informationen: [Zusammenarbeit in Microsoft Teams mit Power BI](/power-bi/collaborate-share/service-collaborate-microsoft-teams).
 
