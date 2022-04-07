@@ -22,20 +22,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, einen Musikanruf, die Anrufumleitung und weitere Funktionen bieten.
-ms.openlocfilehash: 6b6f143a4fefc90ffabf282814147796d4b3baf3
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+description: Erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Haltemusik, Anrufumleitung und andere Features bereitstellen.
+ms.openlocfilehash: 4c23b03e75c9433bcf5af6d4a5aa57e81447a74d
+ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711909"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64691460"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
 Anrufwarteschleifen ermöglichen es, Anrufe an Personen in Ihrer Organisation weiterzuleiten, die bei einem bestimmten Problem oder einer bestimmten Frage helfen können. Die einzelnen Anrufe werden nach und nach an die Personen (sog. *Telefonberater*) in der Warteschleife verteilt. 
 
 > [!TIP]
-> Dieser Artikel ist für große Organisationen. Wenn Ihre Organisation ein kleines Unternehmen ist, lesen Sie stattdessen das Lernprogramm Erstellen einer [Anrufwarteschleife – Kleinunternehmen](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) .
+> Dieser Artikel richtet sich an große Organisationen. Wenn Ihre Organisation ein kleines Unternehmen ist, lesen Sie stattdessen das [Lernprogramm "Erstellen einer Anrufwarteschleife – Kleinunternehmen](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) ".
 
 Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
@@ -47,13 +47,13 @@ Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
 - Optionen für das Vorgehen bei überzähligen Anrufen und Erreichen des Zeitlimits.
 
-Vergewissern Sie sich, dass [](plan-auto-attendant-call-queue.md) Sie den Artikel Planen Teams automatische Telefonkonferenzen und Anrufwarteschleifen [](plan-auto-attendant-call-queue.md#getting-started) gelesen und die Ersten Schritte befolgt haben, bevor Sie die in diesem Artikel erläuterten Schritte ausführen.
+Stellen Sie sicher, dass Sie ["Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)" gelesen haben und die [ersten Schritte](plan-auto-attendant-call-queue.md#getting-started) ausgeführt haben, bevor Sie die Verfahren in diesem Artikel ausführen.
 
-**Weitere Informationen finden [Sie unten in der Kompatibilitätsmatrix](#call-queue-feature-compatibility) für Anrufwarteschleifenfeatures.**
+**Weitere Informationen finden Sie unten in der [Kompatibilitätsmatrix für Anrufwarteschleifenfeatures](#call-queue-feature-compatibility) .**
 
-## <a name="video-demonstration"></a>Videodemo
+## <a name="video-demonstration"></a>Videodemonstration
 
-Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer Anrufwarteschleife in Teams.
+Dieses Video zeigt ein einfaches Beispiel zum Erstellen einer Anrufwarteschleife in Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
@@ -65,76 +65,76 @@ Geben Sie einen Namen für die Anrufwarteschleife ein.
 
 ## <a name="resource-accounts"></a>Ressourcenkonten
 
-![Screenshot der Einstellungen für das Ressourcenkonto](media/call-queue-name-language.png)
+![Screenshot der Einstellungen des Ressourcenkontos.](media/call-queue-name-language.png)
 
 Klicken Sie auf **Konten hinzufügen**, suchen Sie nach dem Ressourcenkonto, das Sie für diese Anrufwarteschleife verwenden möchten, klicken Sie auf **Hinzufügen** und dann nochmals auf **Hinzufügen**. (Agents sehen den Namen des Ressourcenkontos, wenn sie einen eingehenden Anruf erhalten.)
 
-Weitere Informationen finden Sie unter [Verwalten Teams Ressourcenkonten](manage-resource-accounts.md).
+Weitere Informationen finden [Sie unter Verwalten Teams Ressourcenkonten](manage-resource-accounts.md).
 
 ## <a name="dynamic-caller-id"></a>Dynamische Anrufer-ID
 
-![Screenshot der Anruf-ID-Einstellungen](media/call-queue-assign-calling-id.png)
+![Screenshot der Anruf-ID-Einstellungen.](media/call-queue-assign-calling-id.png)
 
-**Verfügbar für Teams-Kanal-/Zusammenarbeits-Desktopbenutzer und Teams mobile Clientbenutzer mit Standardanrufwarteschleifen**
+**Verfügbar für Teams Kanal-/Collaborative Calling-Desktopbenutzer und Teams mobile Clientbenutzer mit Standardanrufwarteschleifen**
 
-Sie können ausgehende Anrufer-ID-Nummern für die Agents zuweisen, indem Sie ein oder mehrere Ressourcenkonten mit einer Telefonnummer angeben. Die Agents können auswählen, welche ausgehende Anrufer-ID für jeden ausgehenden Anruf verwendet werden soll.
+Sie können ausgehende Anrufer-ID-Nummern für die Agents zuweisen, indem Sie ein oder mehrere Ressourcenkonten mit einer Telefonnummer angeben. Agents können auswählen, welche ausgehende Anrufer-ID-Nummer für jeden ausgehenden Anruf verwendet werden soll.
 
-Klicken **Sie auf** Hinzufügen, suchen Sie nach den Ressourcenkonten, die Sie Agents erlauben möchten, ausgehende Anrufe zu Anrufer-ID-Zwecken zu verwenden, klicken Sie auf **Hinzufügen und dann** auf **Hinzufügen**.
+Klicken Sie auf **"Hinzufügen"**, suchen Sie nach den Ressourcenkonten, die Agents für Anrufer-ID-Zwecke bei ausgehenden Anrufen verwendet werden sollen, klicken Sie auf **"Hinzufügen"** und dann auf **"Hinzufügen"**.
 
 **Standardanrufwarteschleifen**
 
-Für Teams Desktopbenutzer und Standardanrufwarteschleifen ist es sinnvoll, die Anrufer-ID für Mitglieder der Anrufwarteschleife direkt auf die Servicenummer der Anrufwarteschleife oder die entsprechende automatische Telefonkonferenz zu setzen. Weitere Informationen finden Sie unter [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md).
+Für Teams Sollten Desktopbenutzer und Standardanrufwarteschleifen die Anrufer-ID für Mitglieder der Anrufwarteschleife direkt auf die Dienstnummer der Anrufwarteschleife oder die entsprechende automatische Telefonzentrale festlegen. Weitere Informationen finden [Sie unter Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md).
 
 > [!NOTE]
-> Das Ressourcenkonto, das zum Aufrufen von ID-Zwecken verwendet wird, muss über eine Microsoft Teams Telefonsystem Virtual User-Lizenz verfügen und einer der folgenden Ressourcen zugewiesen sein:
+> Dem Ressourcenkonto, das für Anruf-ID-Zwecke verwendet wird, muss eine Microsoft Teams Telefon System Virtual User-Lizenz und eine der folgenden zugewiesen sein:
 >
 > - Eine Anrufplanlizenz und eine zugewiesene Telefonnummer
-> - Einem Netzbetreiber Verbinden Zugewiesene Telefonnummer
-> - Eine Online-Voiceroutingrichtlinie (bei Verwendung von Direct Routing ist die Zuweisung von Telefonnummern optional)
+> - Eine Telefonieanbieter zugewiesene Telefonnummer
+> - Eine Online-VoIP-Routingrichtlinie (Telefonnummernzuweisung ist optional, wenn Direct Routing verwendet wird)
 
 
 ## <a name="language"></a>Sprache
 
 ![Screenshot der Spracheinstellungen.](media/call-queue-language.png)
 
-Wählen Sie eine [unterstützte Sprache aus](create-a-phone-system-call-queue-languages.md). Diese Sprache wird für vom System generierte Sprachansagen und Voicemailtranskripte verwendet (sofern Sie diese aktivieren).
+Wählen Sie eine [unterstützte Sprache](create-a-phone-system-call-queue-languages.md) aus. Diese Sprache wird für vom System generierte Sprachansagen und Voicemailtranskripte verwendet (sofern Sie diese aktivieren).
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>Begrüßung und Musik während des Wartens in der Warteschleife
 
-![Screenshot der warteschleifen-Begrüßungen und Musik in den Warteschlangeneinstellungen.](media/call-queue-greetings-music.png)
+![Screenshot von Begrüßungen und Wartemusik in den Warteschlangeneinstellungen.](media/call-queue-greetings-music.png)
 
 Legen Sie fest, ob eine Begrüßung abgespielt werden soll, wenn Anrufer in der Warteschleife eintreffen. Die gewünschte Begrüßung muss in Form einer MP3-, WAV- oder WMA-Datei hochgeladen werden. Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
 
 In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiedergegeben. Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. Wenn Sie möchten, dass eine bestimmte Audiodatei wiedergegeben wird, klicken Sie auf **Audiodatei wiedergeben**, und laden Sie eine MP3-, WAV- oder WMA-Datei hoch.
 
 > [!NOTE]
-> Sie sind für das unabhängige Löschen und Sichern aller erforderlichen Rechte und Berechtigungen für die Nutzung von Musik- oder Audiodateien in Ihrem Microsoft Teams-Dienst verantwortlich, die geistiges Eigentum und andere Rechte an Musik, Soundeffekten, Audio, Marken, Namen und anderen Inhalten in der Audiodatei aller relevanten Rechteinhaber umfassen können, u. a. Interpreten, Dienstanbieter,  Interpreten, Künstler, Kompositionen, Autoren, Musikherausgeber, Vereine, Gilden, Rechteinhaber, kollektive Managementorganisationen und alle anderen Parteien, die die Urheberrechte an musik, Soundeffekten, Audio und anderen geistigen Eigentumsrechten besitzen, kontrollieren oder lizenzieren.
+> Sie sind dafür verantwortlich, alle erforderlichen Rechte und Berechtigungen zur Verwendung von Musik oder Audiodateien mit Ihrem Microsoft Teams-Dienst unabhängig zu löschen und zu sichern, was geistiges Eigentum und andere Rechte an Musik, Soundeffekten, Audio, Marken, Namen und anderen Inhalten in der Audiodatei von allen relevanten Rechteinhabern umfassen kann, zu denen Künstler, Schauspieler gehören können.  Interpreten, Musiker, Songwriter, Komponisten, Plattenlabels, Musikverleger, Gewerkschaften, Gilden, Rechtsgesellschaften, Verwertungsgesellschaften und alle anderen Parteien, die die Urheberrechte, Soundeffekte, Audio- und andere Rechte an geistigem Eigentum besitzen, kontrollieren oder lizenzieren.
 
 ## <a name="call-agents"></a>Telefonberater
 
-Überprüfen Sie [die Voraussetzungen für das Hinzufügen von Agents zu einer Anrufwarteschleife](plan-auto-attendant-call-queue.md#prerequisites).
+Überprüfen Sie die [Voraussetzungen für das Hinzufügen von Agents zu einer Anrufwarteschleife](plan-auto-attendant-call-queue.md#prerequisites).
 
-![Screenshot der Benutzer- und Gruppeneinstellungen für Anrufwarteschleifen](media/call-queue-users-groups.png)
+![Screenshot der Benutzer- und Gruppeneinstellungen für Anrufwarteschleifen.](media/call-queue-users-groups.png)
 
 ##### <a name="teams-channel"></a>Teams Kanal
 
-Sie können bis zu 200 Agents über einen Teams hinzufügen. Sie müssen Mitglied des Teams oder der Ersteller oder ein Besitzer des Kanals sein, um der Warteschlange einen Kanal hinzufügen zu können.
+Sie können bis zu 200 Agents über einen Teams Kanal hinzufügen. Sie müssen Mitglied des Teams oder ersteller oder Besitzer des Kanals sein, um der Warteschlange einen Kanal hinzufügen zu können.
 
-Wenn Sie zum Verwalten [der Warteschlange Teams Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) verwenden möchten, wählen Sie die Option **Team auswählen** aus, und klicken Sie **auf Kanal hinzufügen**. Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen**. Wählen Sie den Kanal aus, den Sie verwenden möchten (nur Standardkanäle werden unterstützt), und klicken Sie auf **Übernehmen**. 
+Wenn Sie [einen Teams Kanal zum Verwalten der Warteschlange verwenden](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) möchten, wählen Sie die Option **"Team auswählen**" aus, und klicken Sie auf **"Kanal hinzufügen"**. Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **"Hinzufügen"**. Wählen Sie den Kanal aus, den Sie verwenden möchten (nur Standardkanäle werden unterstützt), und klicken Sie auf **"Übernehmen"**. 
 
-Die folgenden Clients werden unterstützt, wenn Sie einen Teams für Anrufwarteschleifen verwenden: 
+Die folgenden Clients werden unterstützt, wenn Sie einen Teams-Kanal für Anrufwarteschleifen verwenden: 
 
   - Microsoft Teams Windows-Client
   - Microsoft Teams Mac-Client
 
 > [!NOTE]
-> Wenn Sie diese Option verwenden, kann es bis zu 24 Stunden dauern, bis die Anrufwarteschleife betriebsbereit ist.
+> Wenn Sie diese Option verwenden, kann es bis zu 24 Stunden dauern, bis die Anrufwarteschleife voll funktionsfähig ist.
 
 ##### <a name="users-and-groups"></a>Benutzer und Gruppen
 
 Sie können bis zu 20 Telefonberater einzeln und bis zu 200 über Gruppen hinzufügen.
 
-Wenn Sie der Warteschlange einzelne Benutzer oder Gruppen hinzufügen möchten, wählen Sie die Option **Benutzer und Gruppen auswählen** aus. 
+Wenn Sie einzelne Benutzer oder Gruppen zur Warteschlange hinzufügen möchten, wählen Sie die Option **"Benutzer und Gruppen auswählen** " aus. 
 
 Um einen Benutzer zur Warteschleife hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**, Suchen Sie nach dem Benutzer, klicken Sie auf **Hinzufügen** und dann erneut auf **Hinzufügen**.
 
@@ -145,45 +145,45 @@ Um der Warteschleifee eine Gruppe hinzuzufügen, klicken Sie auf **Gruppen hinzu
 
 ## <a name="call-routing"></a>Anrufweiterleitung
 
-![Screenshot der Einstellungen für den Konferenzmodus und die Routingmethode](media/call-queue-conference-mode-routing-method.png)
+![Screenshot der Einstellungen für den Konferenzmodus und die Routingmethode.](media/call-queue-conference-mode-routing-method.png)
 
 Im **Konferenzmodus** wird die Zeit, bis ein Anrufer mit einem Telefonberater verbunden wird, nachdem dieser den Anruf akzeptiert hat, erheblich reduziert. Damit der Konferenzmodus funktioniert, müssen die Telefonberater in der Anrufwarteschleife einen der folgenden Clients verwenden:
 
   - Die neueste Version des Microsoft Teams-Desktopclients, der Android-App oder der iOS-App
-  - Microsoft Teams Telefon 1449/1.0.94.2020051601 oder höher
+  - Microsoft Teams Telefon Version 1449/1.0.94.2020051601 oder höher
   
-Die Konten Teams Agents müssen auf den Modus Teams festgelegt sein. Telefonberater, die diese Anforderungen nicht erfüllen, werden nicht in die Anrufweiterleitungsliste aufgenommen. Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschleifen zu aktivieren, wenn alle Ihre Telefonberater kompatible Clients verwenden.
+Die Teams Konten von Agents müssen auf Teams-Only-Modus festgelegt werden. Telefonberater, die diese Anforderungen nicht erfüllen, werden nicht in die Anrufweiterleitungsliste aufgenommen. Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschleifen zu aktivieren, wenn alle Ihre Telefonberater kompatible Clients verwenden.
 
 > [!NOTE]
-> Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange geroutet werden.
+> Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange weitergeleitet werden.
 
 > [!TIP]
-> Das **Festlegen des Konferenzmodus** **auf Ein** ist die empfohlene Einstellung.
+> Das Festlegen des **Konferenzmodus** auf **"Ein** " ist die empfohlene Einstellung.
 
 Die **Routingmethode** bestimmt die Reihenfolge, in der Anrufe aus der Warteschleife an die Telefonberater weitergeleitet werden. Wählen Sie eine der folgenden Optionen aus:
 
 - Bei der **Weiterleitung durch Telefonzentrale** werden alle Telefonberater in der Warteschleife gleichzeitig angerufen. Der Anruf wird dem ersten Telefonberater, der den Anruf annimmt, zugewiesen.
 
-- Bei der **seriellen Weiterleitung** werden alle Telefonberater nacheinander in der Reihenfolge angerufen, in der sie in der Liste der **Telefonberater** aufgeführt sind. Wenn ein Agent einen Anruf schließt oder nicht an nimmt, klingelt der Anruf beim nächsten Mitarbeiter. Dieser Vorgang wird so lange wiederholt, bis der Anruf abgeholt oder ein Zeit out ist.
+- Bei der **seriellen Weiterleitung** werden alle Telefonberater nacheinander in der Reihenfolge angerufen, in der sie in der Liste der **Telefonberater** aufgeführt sind. Wenn ein Agent einen Anruf schließt oder nicht entgegennimmt, wird der nächste Agent angerufen. Dies wird wiederholt, bis der Anruf angenommen wird oder ein Timesout vorliegt.
 
-- Beim **Round Robin** werden die eingehenden Anrufe gleichmäßig verteilt, sodass jeder Telefonberater dieselbe Anzahl von Anrufen aus der Warteschleife erhält. Diese Routingmethode kann in einer Eingehenden Verkaufsumgebung wünschenswert sein, um die gleiche Chance für alle Anrufer zu gewährleisten.
+- Beim **Round Robin** werden die eingehenden Anrufe gleichmäßig verteilt, sodass jeder Telefonberater dieselbe Anzahl von Anrufen aus der Warteschleife erhält. Diese Routingmethode kann in einer Eingehenden Vertriebsumgebung wünschenswert sein, um die Chancengleichheit aller Telefonisten sicherzustellen.
 
-- Bei der Option **Längste Inaktivität** wird jeder Anruf an den am längsten inaktiven Telefonberater weitergeleitet. Ein Agent wird als im Leerlauf betrachtet, wenn sein Anwesenheitsstatus verfügbar ist. Agents, deren Anwesenheitsstatus nicht verfügbar ist, sind erst dann zum Empfang von Anrufen berechtigt, wenn sie ihren Anwesenheitsstatus in Verfügbar ändern. 
+- Bei der Option **Längste Inaktivität** wird jeder Anruf an den am längsten inaktiven Telefonberater weitergeleitet. Ein Agent gilt als im Leerlauf, wenn sein Anwesenheitsstatus verfügbar ist. Agents, deren Anwesenheitsstatus nicht verfügbar ist, sind erst dann zum Empfangen von Anrufen berechtigt, wenn sie ihren Anwesenheitsstatus in "Verfügbar" ändern. 
 
 > [!TIP]
-> Die **Einstellung Routingmethode auf** **Round oder** **Longest idle** ist die empfohlene Einstellung.
+> Das Festlegen **der Routingmethode** auf **Roundrobin** oder **längsten Leerlauf** ist die empfohlene Einstellung.
 
 > [!NOTE]
-> Wenn [die Complianceaufzeichnung](teams-recording-policy.md) auf den Agents aktiviert ist, wird die  Kombination aus Konferenzmodus und **Attendant-Routing** nicht unterstützt. Wenn Sie den Konferenzmodus **verwenden müssen**, wählen Sie **als Routingmethode Serial Routing**, **Round round oder** **Longest idle** **aus**. Wenn Sie **Attendant-Routing verwenden müssen, legen** Sie **Konferenzmodus auf** Aus **.**
+> Wenn die [Complianceaufzeichnung](teams-recording-policy.md) für die Agents aktiviert ist, wird die Kombination aus **Konferenzmodus** und **Telefonzentralenrouting** nicht unterstützt. Wenn Sie den **Konferenzmodus** verwenden müssen, wählen Sie **serielles Routing**, **Roundrobin** oder **längsten Leerlauf** als **Routingmethode** aus. Wenn Sie **das Telefonzentralenrouting** verwenden müssen, legen Sie den **Konferenzmodus** auf **"Aus**" fest.
 > 
-> Wenn Sie **"Longest idle"** verwenden und weniger Anrufe in der Warteschlange als verfügbare Agents vorhanden sind, werden nur den ersten beiden längsten im Leerlauf betätigten Agents Anrufe aus der Warteschlange präsentiert.
+> Bei Verwendung des **längsten Leerlaufs** und wenn weniger Anrufe in der Warteschleife als verfügbare Agents vorhanden sind, werden nur die ersten beiden längsten Agents im Leerlauf mit Anrufen aus der Warteschleife angezeigt.
 > 
-> Bei Verwendung des **Längsten** Leerlaufs kann es zeiten sein, dass ein Agent kurz nach dem Nicht verfügbar werden einen Anruf aus der Warteschlange erhält oder wenn es eine kurze Verzögerung beim Empfang eines Anrufs aus der Warteschlange gibt, nachdem er verfügbar wurde.
+> Bei Verwendung des **längsten Leerlaufs** kann es vorkommen, dass ein Agent einen Anruf aus der Warteschleife erhält, kurz nachdem er nicht mehr verfügbar ist, oder wenn es eine kurze Verzögerung beim Empfang eines Anrufs aus der Warteschleife gibt, nachdem er verfügbar wurde.
 > 
-> Die Präsentation eines Anrufwarteschlangenanrufs für Agents kann mit standortbasierten Routingeinschränkungen in Konflikt stehen. In diesem Fall erhält der Agent ein Anruf-Popup, kann den Anruf aber nicht beantworten. Diese Bedingung wird so lange fortgesetzt, bis ein anderer Agent verfügbar ist, der den Anruf beantworten kann, der Anrufer aufhängt oder die Timeoutbedingung für die Anrufwarteschleife auftritt.  
+> Anrufpräsentationen in der Anrufwarteschleife für Agents können mit einschränkungen für standortbasiertes Routing in Konflikt stehen. In diesem Fall erhält der Agent ein Popup-Popup, kann den Anruf jedoch nicht annehmen. Diese Bedingung wird fortgesetzt, bis ein anderer Agent verfügbar ist, um den Anruf zu beantworten, der Anrufer hängt auf, oder die Timeoutbedingung für die Anrufwarteschleife tritt auf.  
 
 
-![Screenshot der Einstellungen für Routing, Abmelden und Benachrichtigungszeit.](media/call-queue-presence-agents-time.png)
+![Screenshot der Einstellungen für Routing, Abmeldung und Benachrichtigungszeit.](media/call-queue-presence-agents-time.png)
 
 Bei der **Anwesenheitsbasierten Weiterleitung** wird anhand des Verfügbarkeitsstatus der Telefonberater festgestellt, ob ein Telefonberater in die Anrufweiterleitungsliste für die ausgewählte Routingmethode eingeschlossen werden soll. Telefonberater, deren Verfügbarkeitsstatus **Verfügbar** lautet, werden in die Anrufweiterleitungsliste aufgenommen und können Anrufe erhalten. Telefonberater, deren Verfügbarkeitsstatus auf einen anderen Status festgelegt ist, werden von der Anrufweiterleitungsliste ausgeschlossen und erhalten erst dann Anrufe, wenn ihr Verfügbarkeitsstatus wieder **Verfügbar** lautet. 
 
@@ -192,52 +192,52 @@ Sie können die anwesenheitsbasierte Anrufweiterleitung mit jeder der Weiterleit
 Wenn ein Telefonberater den Empfang von Anrufen deaktiviert hat, wird er unabhängig von seinem aktuellen Verfügbarkeitsstatus nicht in die Anrufweiterleitungsliste aufgenommen. 
 
 > [!NOTE]
-> Wenn **"Longest idle"** als Routingmethode ausgewählt ist, ist anwesenheitsbasiertes Routing erforderlich und automatisch aktiviert, obwohl der Schalter Anwesenheitsbasiertes Routing  deaktiviert und abgeblendet ist.
+> Wenn der **längste Leerlauf** als Routingmethode ausgewählt wird, ist anwesenheitsbasiertes Routing erforderlich und automatisch aktiviert, obwohl der Umschalter "Anwesenheitsbasiertes Routing" **deaktiviert** und abgeblendet ist.
 >
 > Wenn die anwesenheitsbasierte Weiterleitung nicht aktiviert ist und sich mehrere Anrufe in der Warteschleife befinden, wird das System diese Anrufe an die Telefonberater gleichzeitig und unabhängig von ihrem Anwesenheitsstatus weiterleiten. Dies führt zu mehreren Anrufbenachrichtigungen an Telefonberater, insbesondere, wenn einige den anfänglichen an sie weitergeleiteten Anruf nicht beantworten.
 > 
 > Telefonberater, die den Skype for Business-Client verwenden, werden nicht in die Anrufweiterleitungsliste aufgenommen, wenn die anwesenheitsbasierte Weiterleitung aktiviert ist. Wenn Telefonberater in Ihrer Organisation Skype for Business verwenden, aktivieren Sie die anwesenheitsbasierte Anrufweiterleitung nicht.
 
 > [!TIP]
-> Das **Festlegen des anwesenheitsbasierten Routings** auf **Ein** ist die empfohlene Einstellung.
+> Das Festlegen des **anwesenheitsbasierten Routings** auf **"Ein** " ist die empfohlene Einstellung.
 
 Die **Telefonberater-Benachrichtigungszeit** gibt an, wie lange das Telefon eines Telefonberaters klingelt, bevor die Warteschleife den Anruf an den nächsten Telefonberater umleitet.
 
 > [!TIP]
-> Das **Festlegen der Agent-Warnungszeit** **auf 20 Sekunden** ist die empfohlene Einstellung.
+> Es wird empfohlen, die **Agent-Benachrichtigungszeit** auf **20 Sekunden** festzulegen.
 
 ## <a name="call-overflow-handling"></a>Vorgehen bei überzähligen Anrufen
 
-![Screenshot der Einstellungen für den Anrufüberlauf](media/call-queue-overflow-handling.png)
+![Screenshot der Anrufüberlaufeinstellungen.](media/call-queue-overflow-handling.png)
 
 Über die Option **Maximale Anrufe in der Warteschleife** wird festgelegt, wie viele Anrufe zu einem beliebigen Zeitpunkt maximal in der Warteschleife warten können. Der Standardwert lautet "50", möglich ist jedoch 0 bis 200. Wenn dieses Limit erreicht ist, wird ein Anruf gemäß der Angabe für die Einstellung **Wenn die maximale Anzahl von Anrufen erreicht ist** (siehe unten) behandelt.
 
-Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet werden. Beispielsweise könnte dem Anrufer die Möglichkeit gegeben werden, eine Voicemail für die Telefonberater in der Warteschleife zu hinterlassen. Informationen zu externen Übertragungen [finden](plan-auto-attendant-call-queue.md#prerequisites) Sie unter Voraussetzungen und Übertragungen von externen Telefonnummern [– technische Details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) zur Zahlenformatierung.
+Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet werden. Beispielsweise könnte dem Anrufer die Möglichkeit gegeben werden, eine Voicemail für die Telefonberater in der Warteschleife zu hinterlassen. Informationen zu externen [Übertragungen finden Sie unter Voraussetzungen](plan-auto-attendant-call-queue.md#prerequisites) und externe [Telefonnummernübertragungen – technische Details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) zur Nummernformatierung.
 
 > [!NOTE]
 > Wenn die maximale Anzahl von Anrufen auf "0" festgelegt ist, wird die Begrüßungsnachricht nicht abgespielt.
 
 ## <a name="call-timeout-handling"></a>Vorgehen bei Erreichen des Zeitlimits
 
-![Screenshot der Einstellungen für anruftimeout](media/call-queue-timeout-handling.png)
+![Screenshot der Einstellungen für das Timeout für Anrufe.](media/call-queue-timeout-handling.png)
 
 Über die Einstellung **Zeitlimit für Anrufe: maximale Wartezeit** wird festgelegt, wie lange ein Anruf maximal in der Warteschleife gehalten werden kann, bevor er umgeleitet oder beendet wird. Sie können eine Dauer von 0 Sekunden bis 45 Minuten festlegen.
 
-Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet werden. Beispielsweise könnte dem Anrufer die Möglichkeit gegeben werden, eine Voicemail für die Telefonberater in der Warteschleife zu hinterlassen. Informationen zu externen Übertragungen finden Sie unter [Voraussetzungen](plan-auto-attendant-call-queue.md#prerequisites) und Externe [Telefonnummernübertragungen – Technische Details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) zur Zahlenformatierung.
+Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet werden. Beispielsweise könnte dem Anrufer die Möglichkeit gegeben werden, eine Voicemail für die Telefonberater in der Warteschleife zu hinterlassen. Informationen zu externen [Übertragungen finden Sie unter Voraussetzungen](plan-auto-attendant-call-queue.md#prerequisites) und externe [Telefonnummernübertragungen – technische Details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) zur Nummernformatierung.
 
 Wenn Sie Ihre Zeitlimitoptionen für Anrufe ausgewählt haben, klicken Sie auf **Speichern**.
 
-## <a name="summary-of-recommended-call-queue-settings"></a>Zusammenfassung der empfohlenen Anrufwarteschlangeneinstellungen
+## <a name="summary-of-recommended-call-queue-settings"></a>Zusammenfassung der empfohlenen Einstellungen für die Anrufwarteschleife
 
 Die folgenden Konfigurationen werden empfohlen:
 
-- **Konferenzmodus auf** **Ein**
+- **Konferenzmodus** auf **"Ein**"
 - **Weiterleitungsmethode** auf **Round Robin** oder **Am längsten inaktiv**
 - **Anwesenheitsbasierte Weiterleitung** auf **Ein**
 - **Telefonberater-Benachrichtigungszeit:** auf **20 Sekunden**
 
 
-## <a name="call-queue-feature-compatibility"></a>Kompatibilität von Anrufwarteschleifenfeatures
+## <a name="call-queue-feature-compatibility"></a>Kompatibilität der Anrufwarteschleifenfeatures
 
 |Feature                          |Teams <sup>Desktop1</sup> |Teams <sup>Mobile2</sup> |Lync |IP-Telefone | Standardanrufwarteschleifen |Kanalbasierte Anrufwarteschleifen | Kommentar |
 |:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
@@ -250,11 +250,11 @@ Die folgenden Konfigurationen werden empfohlen:
 |`Conference Mode`<sup>5</sup>    |J                         |J                        |N    |Y6<sup></sup>|J                  |J                         |*Empfohlen* |
 |`Transfer Mode`                  |J                         |J                        |J    |J         |J                     |J                         |              |
 |Anwesenheitsbasiertes <sup>Routing3</sup>|J                        |J                        |N    |J         |J                     |J                         |*Empfohlen* |
-|Agents können die Option zum Abmelden               |J                         |J                        |Y7<sup></sup>|Y7<sup></sup>|J          |J                         |*Standard*     |
+|Agents können sich abmelden               |J                         |J                        |Y7<sup></sup>|Y7<sup></sup>|J          |J                         |*Standard*     |
 |Kanalbasierte Warteschlangen             |J                         |N                        |N    |N         |n/a                   |Y8<sup></sup>             |              |
-|Anruf-Popup zeigt Ressourcenkontoname an |Y9<sup></sup>       |J                        |J    |          |J                     |J                         |              |
+|Call toast shows Resource Account Name |Y9<sup></sup>       |J                        |J    |          |J                     |J                         |              |
 |**Dynamische Anrufer-ID**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |N                        |N    |N         |J                     |n/a                       |              |
+|`Standard call queue`            |N                         |J                        |N    |N         |J                     |n/a                       |              |
 |`Channel based call queue`       |J                         |n/a                      |n/a  |n/a       |n/a                   |J                         |              |
 |**PSTN-Konnektivitätsmethoden**    |                          |                         |     |          |                      |                          |Siehe Hinweis 10   |
 |`Calling Plans`                  |J                         |J                        |J    |J         |J                     |J                         |              |
@@ -262,16 +262,16 @@ Die folgenden Konfigurationen werden empfohlen:
 |`Operator Connect`               |J                         |J                        |     |          |J                     |J                         |              |
 
 Hinweise:
-1. Microsoft Teams Windows Client, Microsoft Teams Mac-Client, Microsoft Teams Virtualized Desktop Infrastructure, Microsoft Teams Webclient.
-2. Microsoft Teams iPhone-App, Microsoft Teams Android-App.
-3. Wenn Sie "Longest Idle" als Agent-Routingmethode auswählen, wird die Anwesenheitsbasiertes Routing automatisch aktiviert.
-4. Die Reihenfolge kann nur festgelegt werden, wenn einzelne Benutzer als Teil von Standardanrufwarteschleifen hinzugefügt werden. Bei Verwendung einer Verteilerliste oder Teams Kanal alphabetisch sortiert.
-5. Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange geroutet werden.
-6. Microsoft Teams nur telefonieren.
-7. Über die Seite "Einstellungen Portal" unterhttps://aka.ms/vmsettings
+1. Microsoft Teams Windows Client, Microsoft Teams Mac-Client, Microsoft Teams auf virtualisierter Desktopinfrastruktur Microsoft Teams Webclient.
+2. Microsoft Teams iPhone App Microsoft Teams Android-App.
+3. Wenn Sie "Längster Leerlauf" für die Agent-Routingmethode auswählen, wird das anwesenheitsbasierte Routing automatisch aktiviert.
+4. Die Reihenfolge kann nur festgelegt werden, wenn einzelne Benutzer als Teil der Standardanrufwarteschleifen hinzugefügt werden. Wenn eine Verteilerliste oder Teams Kanal verwendet wird, ist die Reihenfolge alphabetisch.
+5. Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange weitergeleitet werden.
+6. nur Microsoft Teams Telefon.
+7. Über die Seite "User Einstellungen Portal" unterhttps://aka.ms/vmsettings
 8. Es werden nur öffentliche Kanäle unterstützt.
-9. Mit Ausnahme Teams Webclients.
-10. Automatische Telefonkonferenzen und Anrufwarteschleifen können keine Anrufe zwischen PSTN-Konnektivitätsmethoden übertragen.
+9. Ausschließen Teams Webclients.
+10. Automatische Telefonzentralen und Anrufwarteschleifen können keine Anrufe zwischen PSTN-Konnektivitätsmethoden übertragen.
 
 
 ## <a name="supported-clients"></a>Unterstützte Clients
@@ -287,16 +287,16 @@ Die folgenden Clients werden für Telefonberater in einer Anrufwarteschleife unt
   - Mac Skype for Business-Client (Version 6.16.0 und höher)
   - Microsoft Teams Windows-Client (32- und 64-Bit-Versionen)
   - Microsoft Teams Mac-Client
-  - Microsoft Teams [Virtualized Desktop Infrastructure](/microsoftteams/teams-for-vdi) (Windows Virtual Desktop, Citrix und VMware)
+  - Microsoft Teams auf [virtualisierter Desktopinfrastruktur](/microsoftteams/teams-for-vdi) (Windows Virtual Desktop, Citrix und VMware)
   - Microsoft Teams iPhone-App
   - Microsoft Teams Android-App
 
     > [!NOTE]
-    > Anrufwarteschleifen, denen eine direkte Routingnummer zugewiesen ist, unterstützen keine Skype for Business-Clients, Lync-Clients oder Skype for Business-IP-Telefone als Telefonberater. Der Teams-Client wird nur mit dem [Koexistenzmodus Teams unterstützt](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
+    > Anrufwarteschleifen, denen eine direkte Routingnummer zugewiesen ist, unterstützen keine Skype for Business-Clients, Lync-Clients oder Skype for Business-IP-Telefone als Telefonberater. Der Teams-Client wird nur mit einem [Koexistenzmodus von "Nur Teams"](/microsoftteams/setting-your-coexistence-and-upgrade-settings) unterstützt.
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets für Anrufwarteschleifen
 
-Windows PowerShell können Sie Anrufwarteschleifen über die Befehlszeile auf Batch- oder programmgesteuerte Weise erstellen und verwalten.
+Windows PowerShell ermöglicht es Ihnen, Anrufwarteschleifen batch- oder programmgesteuert über die Befehlszeile zu erstellen und zu verwalten.
 
 Mit den folgenden Cmdlets können Sie eine Anrufwarteschleife verwalten:
 
@@ -305,7 +305,7 @@ Mit den folgenden Cmdlets können Sie eine Anrufwarteschleife verwalten:
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-Die folgenden zusätzlichen Cmdlets sind auch zum Verwalten der Benutzer, Ressourcenkonten, Microsoft Teams Telefon-Lizenzen, Telefonnummern, Audiodateien und der unterstützten Sprache erforderlich, die für Anrufwarteschleifen verwendet wird:
+Die folgenden zusätzlichen Cmdlets sind auch erforderlich, um die Benutzer, Ressourcenkonten, Microsoft Teams Telefon Lizenzen, Telefonnummern, Audiodateien und die unterstützte Sprache zu verwalten, die in Anrufwarteschleifen verwendet werden:
 
 Benutzer/Teams
 
@@ -327,12 +327,12 @@ Ressourcenkonten:
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
-Virtuelle Teams Telefon lizenzen:
+Virtuelle Teams Telefon-Lizenzen:
 
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
-Telefon einer Nummernzuordnung:
+Telefon Nummernzuweisung:
 
 - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
 - [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
@@ -344,28 +344,28 @@ Audiodateien
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
 
-Unterstützungssprachenlisten
+Sprachunterstützungslisten
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 
-Eine schrittweise Anleitung zum Erstellen von Anrufwarteschleifen mit PowerShell finden Sie unter Erstellen von Anrufwarteschleifen mit [PowerShell-Cmdlets.](create-a-phone-system-call-queue-via-cmdlets.md)
+Eine schrittweise Anleitung zum Erstellen von Anrufwarteschleifen mit PowerShell finden [Sie unter Erstellen von Anrufwarteschleifen mit PowerShell-Cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
 
-## <a name="call-queue-diagnostic-tool"></a>Call Queue Diagnostic Tool
+## <a name="call-queue-diagnostic-tool"></a>Diagnosetool für die Anrufwarteschleife
 
-Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool überprüfen, ob eine Anrufwarteschleife Anrufe empfangen kann:
+Als Administrator können Sie mit dem folgenden Diagnosetool überprüfen, ob eine Anrufwarteschleife Anrufe empfangen kann:
 
 1. Wählen Sie unten **Tests ausführen** aus, um das Diagnosetool im Microsoft 365 Admin füllen. 
 
    > [!div class="nextstepaction"]
    > [Ausführen von Tests: Teams Anrufwarteschleife](https://aka.ms/TeamsCallQueueDiag)
 
-2. Geben Sie im Diagnosebereich Ausführen das Ressourcenkonto in das Feld Benutzername oder **E-Mail** ein, und wählen Sie dann **Tests ausführen aus**.
+2. Geben Sie im Diagnosebereich "Ausführen" das Ressourcenkonto in das Feld **"Benutzername" oder "E-Mail** " ein, und wählen Sie dann **"Tests ausführen**" aus.
 
-3. Die Tests geben die besten nächsten Schritte zum Adressieren von Mandanten-, Richtlinien- und Ressourcenkontokonfigurationen zurück, um zu überprüfen, ob die Anrufwarteschleife Anrufe empfangen kann.
+3. Die Tests geben die besten nächsten Schritte zurück, um alle Mandanten-, Richtlinien- und Ressourcenkontokonfigurationen zu adressieren, um zu überprüfen, ob die Anrufwarteschleife In der Lage ist, Anrufe zu empfangen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Dies ist das, was Sie mit ihren Microsoft Teams Telefon](here-s-what-you-get-with-phone-system.md)
+[Hier erfahren Sie, was Sie mit Microsoft Teams Telefon](here-s-what-you-get-with-phone-system.md)
 
 [Servicetelefonnummern erhalten](getting-service-phone-numbers.md)
 
