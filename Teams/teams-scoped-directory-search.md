@@ -1,9 +1,8 @@
 ---
-title: Verwenden der Verzeichnissuche in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Einschränken, wer Benutzern beim Durchsuchen des Verzeichnisses in Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
-ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -12,52 +11,42 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie, wie Microsoft Teams mit Bereichssuche verwenden können, um benutzerdefinierte Ansichten des Verzeichnisses zur Verfügung zu stellen.
+description: Erfahren Sie, wie Sie einschränken können, wen Benutzer beim Durchsuchen des Verzeichnisses in Teams sehen können.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 108a5895bf568207246ec6b1d7711e13e6c87069
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
+ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111985"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "64732223"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>Verwenden der Verzeichnissuche in Microsoft Teams
+# <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>Einschränken, wer Benutzern beim Durchsuchen des Verzeichnisses in Teams
 
-Microsoft Teams bereichsisierte Verzeichnissuche ermöglicht es Organisationen, virtuelle Grenzen zu erstellen, die steuern, wie Benutzer Benutzer in ihrer Organisation suchen und mit anderen Benutzern kommunizieren können. 
+Microsoft Teams können Organisationen ihren Benutzern benutzerdefinierte Ansichten des Verzeichnisses bereitstellen. Diese Ansichten können hilfreich sein, wenn:
 
-Microsoft Teams ermöglicht Es Organisationen, ihren Benutzern benutzerdefinierte Ansichten des Verzeichnisses zur Verfügung zu stellen. Microsoft Teams verwendet Richtlinien [für Informationsbarrieren,](/microsoft-365/compliance/information-barriers) um diese benutzerdefinierten Ansichten zu unterstützen. Nachdem die Richtlinien aktiviert wurden, werden die von Suchbegriffen für andere Benutzer zurückgegebenen Ergebnisse (z. B. zum Initiieren eines Chats oder zum Hinzufügen von Mitgliedern zu einem Team) gemäß den konfigurierten Richtlinien begrenzt. Benutzer können keine Teams suchen oder entdecken, wenn die Bereichssuche aktiv ist, aber vorhandene Mitglieder in diesen Teams können Benutzer hinzufügen, wie es in den Richtlinien für die aktive Informationsbarriere zulässig ist.
+- Der Mandant Ihrer Organisation enthält mehrere Unternehmen, die voneinander getrennt sein sollen.
+- Ihre Geschäftsrichtlinien erfordern, dass Sie verhindern, dass bestimmte Gruppen innerhalb Ihrer Organisation miteinander kommunizieren.
+- Ihre Bildungseinrichtung möchte Chats zwischen dem Lehrpersonal und den Kursteilnehmern begrenzen.
 
-> [!NOTE]
-> In Exchange hybriden Umgebungen funktioniert dieses Feature nur mit Exchange Online Postfächern und nicht mit lokalen Postfächern.
+Es gibt zwei Optionen zum Einschränken, wer Benutzern angezeigt werden kann, wenn sie das Verzeichnis in Teams durchsuchen:
 
-Siehe auch [Adressbuchrichtlinien in Exchange Online](/exchange/address-books/address-book-policies/address-book-policies).
+- [Informationsbarrieren in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams)
+- [Adressbuchrichtlinien in Exchange Online](/exchange/address-books/address-book-policies/address-book-policies)
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>Wann sollten Sie Verzeichnissuchen mit Bereichsbereich verwenden?
+Wenn Sie eine der beiden Optionen verwenden, müssen Sie die Suche nach Namen im Teams Admin Center aktivieren.
 
-Szenarien, die von der Verzeichnissuche mit Bereichsbereich profitieren, sind mit den Szenarien mit Adressbuchrichtlinien vergleichbar. In den folgenden Situationen kann es z. B. sein, dass Sie die Verzeichnissuche mit Bereichsbereich verwenden möchten:
+Wir empfehlen die Verwendung von Informationsbarrieren, wenn Ihre Organisation die [erforderlichen Lizenzen und Berechtigungen](/microsoft-365/compliance/information-barriers#required-licenses-and-permissions) erfüllt.
 
-- Der Mandant Ihrer Organisation enthält mehrere Unternehmen, die voneinander getrennt sein sollen. 
-- Ihre Bildungseinrichtung möchte Chats zwischen dem Lehrpersonal und den Kursteilnehmern begrenzen. 
- 
-Informationen zur Verwendung von Adressbuchrichtlinien finden Sie unter Richtlinien [zur Informationsbarriere in Exchange Online.](/microsoft-365/compliance/information-barriers)
+So aktivieren Sie die Suche nach Namen
 
-> [!IMPORTANT]
-> Adressbuchrichtlinien ermöglichen nur eine virtuelle Trennung der Benutzer aus der Verzeichnisperspektive. Beachten Sie auch, dass alle Benutzerdaten, die vor der Erzwingung neuer oder aktualisierter Adressbuchrichtlinien bereits zwischengespeichert wurden, Benutzern bis zu 30 Tage lang zur Verfügung stehen.
+1. Wählen Sie im Microsoft Teams Admin Center **Teams** >  **Teams Einstellungen** aus.
 
-## <a name="turn-on-scoped-directory-search"></a>Aktivieren der Verzeichnissuche mit Bereichsbereich
+1. Aktivieren **Sie unter "Nach Name suchen**" neben der **Bereichsverzeichnissuche mithilfe einer Exchange Adressbuchrichtlinie** die **Umschaltfläche**.
 
-1. Verwenden Sie Richtlinien für Informationsbarrieren, um Ihre Organisation in virtuelle Untergruppen zu konfigurieren. Weitere Informationen finden Sie unter [Definieren von Informationsbarriererichtlinien.](/microsoft-365/compliance/information-barriers-policies)
-
-2. Wählen Sie Microsoft Teams Admin Center die Option Teams  >  **Teams aus.**
-
-3. Aktivieren **Sie unter** Nach Name suchen neben Bereichsverzeichnissuche in **Teams** einem Exchange-Adressbuch die Umschaltfunktion **Ein.**
-
-    ![Bereichsverzeichnissuche im Microsoft Teams Admin Center.](media/teams-scoped-directory-search-image1.png)
-
-> [!IMPORTANT]
-> Es kann einige Stunden dauern, bis diese Änderung repliziert wurde.
+> [!Note]
+> Es kann einige Stunden dauern, bis diese Änderung wirksam wird.

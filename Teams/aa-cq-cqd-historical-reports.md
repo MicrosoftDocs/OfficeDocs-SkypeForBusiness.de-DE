@@ -23,21 +23,21 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
 ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
+ms.lasthandoff: 04/09/2022
 ms.locfileid: "63711489"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
-Die Teams automatische Telefonzentrale & Bericht zur Anrufwarteschleife Power BI die folgenden drei Berichte:
+Die Vorlage für Teams automatische Telefonzentrale & Anrufwarteschleifen-Verlaufsbericht Power BI enthält die folgenden drei Berichte:
 
 - [Automatische Telefonzentrale:](media/cqd-teams-aa-cq-historical-report-sample-aa.png) Zeigt Analysen für Anrufe an, die in Ihren automatischen Telefonzentralen eingehen.
 - [Anrufwarteschleife:](media/cqd-teams-aa-cq-historical-report-sample-cq.png) Zeigt Analysen für Anrufe an, die in Ihren Anrufwarteschleifen eingehen.
 - [Agent-Zeitachse:](media/cqd-teams-aa-cq-historical-report-sample-at.png) Zeigt eine Zeitachsenansicht der Agents an, die bei Anrufen in der Anrufwarteschleife aktiv sind.
 
-Diese Berichte verwenden Daten aus dem [AQD](CQD-Power-BI-query-templates.md)-Datenspeicher. Mit den Berichten können Organisationen die Anzahl der Anrufe melden, die von automatischen Telefonkonferenzen und Anrufwarteschleifen verarbeitet werden.  Die Berichte bieten auch Einblicke in die Agentleistung in den Anrufwarteschleifen.
+Diese Berichte verwenden Daten aus dem [AQD](CQD-Power-BI-query-templates.md)-Datenspeicher. Die Berichte ermöglichen Es Organisationen, über die Anzahl der Anrufe zu berichten, die von automatischen Telefonzentralen und Anrufwarteschleifen verarbeitet werden.  Die Berichte bieten auch Einblicke in die Agentleistung in den Anrufwarteschleifen.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -48,11 +48,11 @@ Sie können die kostenlose Version von Power BI Desktop verwenden. Die mindesten
 
 ### <a name="permissions-to-access-the-cqd-pipeline"></a>Berechtigungen für den Zugriff auf die AQD-Pipeline
 
-Das Konto, das Sie zum Anzeigen des Verlaufsberichts verwenden, muss über Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügen. Weitere Informationen finden Sie unter [Zugriffsrolle für AQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+Das Konto, das Sie zum Anzeigen des Verlaufsberichts verwenden, muss über Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügen. Weitere Informationen finden Sie unter [CQD-Zugriffsrolle](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## <a name="installation"></a>Installation 
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Power BI Desktop auf dem Computer installiert haben und dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügt.
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie bereits Power BI Desktop auf dem Computer installiert haben und dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügt.
 
 Führen Sie die folgenden Schritte durch:
 
@@ -60,11 +60,11 @@ Führen Sie die folgenden Schritte durch:
 
 - Doppelklicken Sie auf die ZIP-Datei, um sie zu öffnen.
 
-- Doppelklicken Sie auf die Vorlagendatei "Kombinierte AQ- und AA-Analysen 20201105.pbit". Die Power BI Desktop sollte gestartet werden.
+- Doppelklicken Sie auf die Vorlagendatei "CQ and AA combined Analytics 20201105.pbit". Die Power BI Desktop sollte gestartet werden.
 
 - Sie werden aufgefordert, die AQD-Datenpipelineregion auszuwählen. Wählen Sie die Region aus, in der sich Ihr Mandant befindet.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot der Auswahl des Datenpipelinebereichs für AQD":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot der Auswahl des CQD-Datenpipelinebereichs.":::
 
 - Die Region, in der sich Ihr Mandant befindet, kann mithilfe des Cmdlets [Get-CsTenant](/powershell/module/skype/get-cstenant) abgerufen werden.
 
@@ -75,17 +75,17 @@ Führen Sie die folgenden Schritte durch:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - Die Region wird nach dem wie **/** im obigen Beispiel angezeigt, in dem die Region "noam" ist.
+    - Der Bereich wird nach dem **/** wie im obigen Beispiel angezeigt, in dem die Region folgendermaßen lautet: noam
 
  - Der Bericht wird mit Beispieldaten gestartet.
  
  - Um Ihre eigenen Daten anzuzeigen, wählen Sie **Aktualisieren** auf der Registerkarte "Start" unter "Abfragen" in Power BI Desktop aus.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot, in dem die Aktualisierungsoption ausgewählt wird":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot, in dem die Aktualisierungsoption ausgewählt wird.":::
 
 - Anschließend werden Sie aufgefordert, sich anzumelden. Wählen Sie **Organisationskonto** und dann **Anmelden** aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot mit Anmeldung.":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot der Anmeldung.":::
 
 - Wählen Sie **Verbinden** aus, und beobachten Sie die Datenaktualisierung.
 
@@ -108,11 +108,11 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Installationssc
 Führen Sie die folgenden Schritte durch:
 - Wählen Sie im Menüband **Registerkarte anzeigen** aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot: Auswählen der Registerkarte "Ansicht" zum Ändern des Farbschemas":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot, in dem die Registerkarte &quot;Ansicht&quot; ausgewählt wird, um das Farbschema zu ändern.":::
 
 - Wählen Sie in der Dropdownliste das Farbschema aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot mit verschiedenen Farbschemas":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot mit verschiedenen Farbschemas.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Definitionen der Verlaufsberichte für automatische Telefonzentrale und Anrufwarteschleife
 
@@ -230,7 +230,7 @@ Führen Sie die folgenden Schritte durch:
 |Zieltyp der Anrufwarteschleife                  |Text                     |***Zieltyp für Anrufumleitung – mögliche Werte:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
 |Anruftyp<sup>1</sup>                   |Text                     |Anruftyp – mögliche Werte:<br><br>§ External<br>§ Internal           |
 |Datum                                    |Datum/Uhrzeit                |Startdatum und -uhrzeit des Anrufs der Anrufwarteschleife (Stunde) (UTC)                           | 
-|IsAbandoned                             |Wahr/Falsch               |TRUE, wenn der Anruf nicht von einem Agent beantwortet wird                                   |
+|IsAbandoned                             |Wahr/falsch               |TRUE, wenn der Anruf nicht von einem Agent beantwortet wird                                   |
 |PSTN-Konnektivitätstyp                  |Text                     |Anruftyp – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall   |
 |PSTN-Minuten gesamt                      |Ganze Zahl             |Zusammenfassen: Summe<br>Nutzung in Minuten für PSTN-Anrufe gesamt                       |
 
@@ -238,7 +238,7 @@ Führen Sie die folgenden Schritte durch:
 
 |Name                                    |Datentyp                |Beschreibung                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% Abgebrochene Anrufe***                 |Prozent               |Measure: Anzahl der abgebrochenen Anrufe /Gesamtzahl der Anrufe    |
+|***% Abgebrochene Anrufe***                 |Prozent               |Measure: Anzahl abgebrochener Anrufe / Gesamtanrufe    |
 |Anrufe gesamt                             |Ganze Zahl             |Kennzahl: Vom Agent beantwortete Anrufe summieren        |
 |TotalCallCount                          |Ganze Zahl             |Kennzahl: Summe (Anrufanzahl)                 |
 
@@ -249,10 +249,10 @@ Führen Sie die folgenden Schritte durch:
 |Durchschnittliche Anrufdauer (Sekunden)         |Dezimalzahl           |Zusammenfassen: Summe<br>Durchschnittliche Anrufdauer in Sekunden |
 |Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe                  |
 |Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Aktion "Endzustand der Anrufwarteschleife"           |Text                     |Letzte Aktion der Anrufwarteschleife – mögliche Werte:<br><br>§ trennen (timed_out Anrufe)<br>§ disconnect_with_busy (Überlaufanrufe)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
+|Aktion "Endzustand der Anrufwarteschleife"           |Text                     |Letzte Aktion der Anrufwarteschleife – mögliche Werte:<br><br>§ disconnect (timed_out Aufrufe)<br>§ disconnect_with_busy (Überlaufaufrufe)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
 |Anrufwarteschleifenidentität                     |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Datum                                    |Datum/Uhrzeit                |Startdatum und -uhrzeit des Anrufs der Anrufwarteschleife (Stunde) (UTC)   |
-|IsAbandoned                             |Wahr/Falsch               |TRUE, wenn der Anruf nicht von einem Agent beantwortet wird           |
+|IsAbandoned                             |Wahr/falsch               |TRUE, wenn der Anruf nicht von einem Agent beantwortet wird           |
 
 
 ### <a name="cloud-call-queue-agent-timeline"></a>Zeitachse des Cloudanrufwarteschleifen-Agents
@@ -289,23 +289,23 @@ Führen Sie die folgenden Schritte durch:
 |Name                                    |Datentyp                |Beschreibung                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Name des Agents                              |Text                     |Benutzer-UPN<br>Wenn der vollständige Benutzername **user@microsoft.com** ist, lautet dieser Wert wie folgt: **user** |
-|Durchschnittliche Anrufdauer (Sekunde)          |Dezimalzahl           |Zusammenfassen: Summe<br>Die durchschnittliche Dauer von beantworteten Anrufwarteschleifenanrufen in Sekunden |
-|Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der von einem Mitarbeiter präsentierten und beantworteten Anrufe     |
-|Anrufdauer (Minute)                  |Ganze Zahl             |Zusammenfassen: Summe<br>Gesamtdauer von Anrufwarteschleifenanrufen in Minuten (abgerundet auf die nächste Minute)  |
+|Durchschnittliche Anrufdauer (Sekunde)          |Dezimalzahl           |Zusammenfassen: Summe<br>Die durchschnittliche Dauer von Anrufwarteschleifenanrufen in Sekunden |
+|Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe, die vom Agent angezeigt und beantwortet wurden     |
+|Anrufdauer (Minute)                  |Ganze Zahl             |Zusammenfassen: Summe<br>Gesamtanrufdauer der angenommenen Anrufwarteschleifenanrufe in Minuten (abgerundet auf die nächste Minute)  |
 |Name der Anrufwarteschleife                         |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Datum                                    |Datum                     |                                                    |
 
 
 > [!NOTE]
-> 1) Dieser Bericht zeigt die Anrufanzahl aus der Perspektive der Agents, daher ist die Gesamtzahl der Anrufe in diesem Bericht normalerweise höher als die Gesamtzahl der Anrufe im Bericht **Cloud-Anrufwarteschleifenanalyse** . Jeder Anruf in der Warteschlange kann einem oder mehreren Agents mindestens einmal präsentiert werden, bevor er beantwortet wird. Jeder Anruf in der Warteschleife, der einem Mitarbeiter angezeigt wird, wird auf diesen Bericht angerechnet, auch wenn er vom Agent nicht beantwortet wurde. Der Unterschied bei der Anrufanzahl zwischen diesen beiden Berichten ist bei der **Weiterleitungsoption Attendant** deutlicher, die jeden Agent für jeden Anruf anruft. 
-> 2) Wenn beim ersten Anruf die erste Anrufwarteschleife eintrifft und die Anzahl der bereits in dieser Warteschlange wartenden Anrufe das  Limit für die Behandlung von Anrufen überschreitet und die Umleitungsoption Anrufe an eine zweite Anrufwarteschleife sendet, werden die Agents in der zweiten Anrufwarteschleife in diesem Bericht als in der ersten Anrufwarteschleife angezeigt. 
+> 1) Dieser Bericht zeigt die Anrufanzahl aus der Sicht der Agents, und daher ist die Anrufanzahl in diesem Bericht in der Regel höher als die Gesamtzahl der Anrufe im **Cloud Call Queue Analytics-Bericht** . Jeder Anruf in der Warteschleife kann mindestens einmal vor der Beantwortung einem oder mehreren Agents angezeigt werden. Jeder Anruf in der Anrufwarteschleife, der einem Agent angezeigt wird, wird auf diesen Bericht gezählt, auch wenn er vom Agent nicht beantwortet wurde. Der Unterschied bei der Anrufanzahl zwischen diesen beiden Berichten ist mit der **Weiterleitungsoption der Telefonzentrale** , die jeden Agent für jeden Anruf anruft, ausgeprägter. 
+> 2) Wenn ein Anruf zum ersten Mal in der ersten Anrufwarteschleife ankommt, wenn die Anzahl der Anrufe, die bereits in dieser Warteschleife warten, den Grenzwert für die **Anrufüberlaufbehandlung** überschreitet und wenn die Umleitungsoption Anrufe an eine zweite Anrufwarteschleife sendet, werden die Agents in der zweiten Anrufwarteschleife als in der ersten Anrufwarteschleife in diesem Bericht angezeigt. 
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
 - Anrufwarteschleifen und automatische Telefonzentralen werden anhand der ID des Ressourcenkontos anstelle der Namen der Anrufwarteschleife/automatischen Telefonzentralen angezeigt.  Um den gesamten Datenverkehr für eine automatische Telefonzentrale oder Anrufwarteschleife anzuzeigen, müssen Sie alle Ressourcenkonten auswählen, die der automatischen Telefonzentrale oder Anrufwarteschleife zugewiesen sind.
 
-- Der Verlauf von nur 28 Tagen steht im Dashboard zur Verfügung, da Daten aus Anrufwarteschleife/automatischer Telefonkonferenz als persönliche Daten betrachtet werden und den Datenschutzrichtlinien unterliegen.
+- Im Dashboard sind nur 28 Tage des Verlaufs verfügbar, da Anrufwarteschleifen-/automatische Telefonzentralendaten als personenbezogene Daten betrachtet werden und den Aufbewahrungsrichtlinien für den Datenschutz unterliegen.
 
-- In einigen Szenarien kann die Anzahl der beantworteten Anrufe des Agents im Bericht Zeitachse des Cloud-Anrufwarteschlangen-Agents von der Anzahl der im Anrufverlauf des Kunden Teams unterscheiden. Die Teams Clientanrufverlauf ist korrekt. Der Support untersucht, aber zurzeit ist keine geschätzte Zeit für eine Reparatur verfügbar.
+- In einigen Szenarien kann die Anzahl der Anrufe, die der Agent angenommen hat, im Cloud Call Queue Agent-Zeitachsenbericht anders sein als die Anzahl der Anrufe, die im Teams Clientanrufverlauf angezeigt werden. Der Teams Clientanrufverlauf ist richtig. Der Support wird derzeit untersucht, aber zurzeit ist keine geschätzte Zeit für die Reparatur verfügbar.
 
 - <sup>1</sup> **Eingehende Anrufquelle** in den Diagrammen für die automatische Telefonzentrale und die Anrufwarteschleife zeigen die letzte Anrufabschnittsquelle anstelle der ersten Anrufabschnittsquelle an. Wenn beispielsweise eine automatische Telefonzentrale einen externen Anruf empfängt und den Anruf an eine andere automatische Telefonzentrale oder Anrufwarteschleife überträgt, wird die **eingehende Anrufquelle** als intern gemeldet.
