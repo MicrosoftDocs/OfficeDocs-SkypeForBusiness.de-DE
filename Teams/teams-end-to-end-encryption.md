@@ -26,7 +26,7 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 03/09/2022
 ms.locfileid: "63388189"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Verwenden der End-to-End-Verschlüsselung für 1:1-Anrufe in Microsoft Teams (öffentliche Vorschau)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Verwenden der End-to-End-Verschlüsselung für Einzelgespräche in Microsoft Teams
 
 > [!IMPORTANT]
 > Das Teams-Dienstmodell und sein Verschlüsselungssupport können sich ändern, um die Benutzererfahrung zu verbessern. Der Dienst veraltet beispielsweise regelmäßig Chiffriersammlungen, die nicht mehr als sicher gelten. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten. Darüber hinaus sind alle Kundeninhalte in Microsoft-Rechenzentren verschlüsselt. Weitere Informationen über Verschlüsselungsebenen in Microsoft 365 finden Sie unter [Verschlüsselung in Microsoft 365](/microsoft-365/compliance/encryption).
