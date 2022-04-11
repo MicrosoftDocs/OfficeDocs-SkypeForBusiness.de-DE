@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-On-Lizenzen für Microsoft Teams und die Funktionen, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686382"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756951"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Add-On-Lizenzen für Microsoft Teams
 
@@ -50,12 +50,6 @@ Hier ist eine Liste der Teams-Add-On-Lizenzen und deren Funktionen, die Sie Ihre
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Welche Microsoft-Funktionen sind mit meinem Plan verfügbar?
 
 Alle Microsoft 365-Pläne ermöglichen es Teams-Benutzern, Peer-to-Peer-Anrufe innerhalb Ihres Unternehmens über VoIP-Technologie zu tätigen. Sie können jedoch verschiedene Lizenzen für Funktionen wie Anrufe an PSTN-Nummern oder das Einrichten einer Nebenstellenanlage hinzufügen.
-
-### <a name="audio-conferencing"></a>Audiokonferenz
-
-Sie können **Lizenzen für Audiokonferenzen** kostenlos zu allen Microsoft 365-Abonnements hinzufügen.
-
-Microsoft 365 E5/A5/G5-Pläne beinhalten Audio Conferencing-Lizenzen, so dass Sie bei diesen Plänen keine zusätzlichen Audio Conferencing-Lizenzen erwerben müssen.
 
 ### <a name="voice-and-pstn-connectivity"></a>Sprach- und PSTN-Konnektivität
 
