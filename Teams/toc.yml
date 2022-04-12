@@ -1401,8 +1401,12 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Überwachungsprotokolle für Raumaktivitäten
             href: rooms/multi-tenant-auditing.md
+          - name: Zustands- und Nutzungsberichte
+            href: rooms/health-and-usage-reports.md
           - name: Standards und Raumplaner
             href: rooms/standards-and-room-planner.md
+          - name: Von Kunden gemeldete Vorfälle
+            href: rooms/customer-reported-incidents.md
       - name: Geräte
         items:
           - name: Teams Geräte-Store
@@ -1499,8 +1503,8 @@ items:
             href: overview-third-party-apps.md
           - name: Grundlegendes zur App-Validierung durch Microsoft
             href: overview-of-app-validation.md
-          - name: 'Sicherheit, Compliance, Datenschutz und Datenverarbeitung für Drittanbieter-Apps'
-            href: /microsoft-365-app-certification/overview
+          - name: 'Sicherheit, Compliance und Datenschutz für Apps'
+            href: overview-of-app-certification.md
           - name: Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors
             href: Office-365-custom-connectors.md
           - name: Kaufen von Drittanbieter-Apps für Teams

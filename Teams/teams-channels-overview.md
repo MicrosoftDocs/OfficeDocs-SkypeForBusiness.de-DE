@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97af2abe8542a885f8a0056ed90f2a61330ba8a0
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711929"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756891"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -96,6 +96,9 @@ Die folgende Tabelle zeigt einen Vergleich der Teams-Features für jeden Kanalty
 |Der Kanal kann direkt mit seinem übergeordneten Team geteilt werden.|Nicht zutreffend|Nein|Ja|
 |Gäste können am Kanal teilnehmen.|Ja|Ja|Nein|
 |Externe Teilnehmer (B2B Direct Connect) können an dem Kanal teilnehmen.|Nein|Nein|Ja|
+|Moderation|Ja|Nein|Nein|
+|Gruppenräume|Ja|Nein|Nein|
+|Link zum Kanal kopieren|Ja|Nein|Nein|
 |Jeder Kanal verfügt über eine dedizierte SharePoint-Website.|Nein|Ja|Ja|
 |Geplante Besprechungen|Ja|Nein|Ja|
 |Planner|Ja|Nein|Nein|
