@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 95dd3f01d07a2e393414013ab40ca97ec1a63bb6
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216671"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756971"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Upgraden von Benutzern der Microsoft Teams Exploratory-Testversion
 
@@ -37,7 +37,7 @@ Dieser Artikel bietet eine Übersicht darüber, wie Sie Ihre Benutzer von einer 
 
 ## <a name="step-1-when-to-upgrade"></a>Schritt 1: Zeitpunkt des Upgrades  
 
-Um zu überprüfen, wann die Microsoft Teams Exploratory-Testversion Ihrer Organisation abläuft und über wie viele aktive Benutzer sie verfügt, wechseln Sie im Microsoft 365 Admin Center zu **Abrechnung >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Ihre Produkte</b></a>. Sie werden auch benachrichtigt, bevor die Microsoft Teams Exploratory-Testversion abläuft.
+Um zu überprüfen, wann die Teams Exploratory-Testversion Ihrer Organisation abläuft und wie viele aktive Benutzer sie hat, gehen Sie im Microsoft 365 Admin Center zu **Abrechnung >**<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b> Ihre Produkte</b></a>. Sie werden auch benachrichtigt, bevor die Teams Exploratory-Testversion abläuft.
 
 > [!IMPORTANT]
 > Sie sollten einen Upgradeplan erstellen, um Ihre Benutzer vor dem Ablaufdatum auf kostenpflichtige Lizenzen zu aktualisieren, damit Benutzer nicht den Zugriff auf Microsoft Teams verlieren.
@@ -45,6 +45,9 @@ Um zu überprüfen, wann die Microsoft Teams Exploratory-Testversion Ihrer Organ
 > Benutzer verlieren 30 Tage nach dem Ablaufdatum der Testversion den Zugriff auf Microsoft Teams. Solange Benutzern innerhalb von 60 Tagen nach dem Ablaufdatum eine kostenpflichtige Lizenz zugewiesen wird, wird ihr Zugriff auf Microsoft Teams wieder hergestellt, und alle Inhalte sind weiterhin vorhanden. Nach 60 Tagen werden die Benutzerdaten jedoch gelöscht. Nachdem dem Benutzer eine neue Lizenz zur Aktivierung der Microsoft Teams-Funktionen zugewiesen und sofern der Benutzer innerhalb der Nachfrist hinzugefügt wurde, sind alle Inhalte weiterhin vorhanden. Weitere Informationen finden Sie unter <a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">Was geschieht beim Ablauf meines Abonnements mit meinen Daten? Kann ich darauf noch zugreifen?</a>
 
 ## <a name="step-2-choose-an-upgrade-path"></a>Schritt 2: Auswählen eines Upgradepfads
+
+> [!TIP]
+> Wir empfehlen Teams Essentials als primäre Option für Kunden, die ein Upgrade ihrer auslaufenden Teams Exploratory-Testversion wünschen. Weitere Informationen finden Sie unter [Vergleichen von Microsoft Teams Essentials mit anderen Plänen](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
 
 Abhängig von den Abonnements, über die Ihre Organisation derzeit verfügt, gibt es drei Möglichkeiten, ein Upgrade von einer Microsoft Teams Exploratory-Testversion auf eine kostenpflichtige Lizenz durchzuführen:
 
@@ -67,7 +70,7 @@ Nachdem Sie die neuen Lizenzen zugewiesen haben, heben Sie die Zuweisung der Mic
 
 ### <a name="auto-claim-policies"></a>Richtlinie für die automatische Inanspruchnahme
 
-Verwenden Sie beim nächsten Upgrade Richtlinie für die automatische Inanspruchnahme für Ihre Organisation, um neuen Benutzern, die keine Microsoft Teams-Lizenz erworben haben, automatisch Lizenzen aus bezahlten Abonnements zuzuweisen. Weitere Informationen finden Sie unter <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Verwalten von Richtlinien für die automatische Inanspruchnahme</a>.
+Verwenden Sie beim nächsten Upgrade Richtlinien für die automatische Beanspruchung, um Richtlinien für Ihre Organisation zu erstellen, um Lizenzen aus kostenpflichtigen Abonnements automatisch neuen Benutzern zuzuweisen, die keine Teams-Lizenz erworben haben. Weitere Informationen finden Sie unter <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Verwalten von Richtlinien für automatische Ansprüche</a>.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
