@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: 8b4015c209f9cb30a773abefa3af4e4300a0dcec
-ms.sourcegitcommit: 2deb76ad222b77a19d43beffc87714204961aa09
+ms.openlocfilehash: 05408ade76aa96b64f07899881beb68fa52c74b4
+ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63494351"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784699"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -44,7 +44,7 @@ ms.locfileid: "63494351"
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Anonymen Personen das Starten einer Besprechung gestatten
 
-Bei dieser Einstellung handelt es sich um eine Richtlinie pro Organisator, die besprechungsfreie Einwahlkonferenzen ohne Vorzeichen ermöglicht. Über diese Einstellung wird gesteuert, ob Einwahlbenutzer an einer Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer aus der Organisation teilnimmt. Diese Einstellung ist standardmäßig deaktiviert, d. h., Einwahlbenutzer warten im Wartebereich, bis ein authentifizierter Benutzer aus der Organisation der Besprechung beitritt.
+Diese Einstellung ist eine organisatorspezifische Richtlinie, die führende Einwahlkonferenzbesprechungen ohne Führungskraft ermöglicht. Über diese Einstellung wird gesteuert, ob Einwahlbenutzer an einer Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer aus der Organisation teilnimmt. Standardmäßig ist diese Einstellung deaktiviert, was bedeutet, dass Einwahlbenutzer im Wartebereich warten, bis ein authentifizierter Benutzer aus der Organisation an der Besprechung teilnimmt.
 
 > [!NOTE]
 > Wenn diese Einstellung deaktiviert ist und ein Einwahlbenutzer als erster der Besprechung beitritt und in den Wartebereich gesetzt wird, muss ein Benutzer der Organisation der Besprechung mit einem Microsoft Teams-Client beitreten, um den Benutzer aus dem Wartebereich zur Besprechung zuzulassen. Den Einwahlbenutzern stehen keine Steuerelemente für den Wartebereich zur Verfügung.
@@ -63,18 +63,18 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 |Einstellungswert  |Verhalten bei Teilnahme |
 |---------|---------|
 |**Jeder**   |Alle Besprechungsteilnehmer nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Dazu gehören authentifizierte Benutzer, externe Benutzer aus vertrauenswürdigen Organisationen (Verbundorganisationen), Gäste und anonyme Benutzer.     |
-|**Personen in meiner Organisation und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen direkt an der Besprechung teil, ohne im Wartebereich warten zu müssen. Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer warten im Wartebereich. Dies ist die Standardeinstellung.    |
+|**Personen in meiner Organisation und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten. Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer warten im Wartebereich. Dies ist die Standardeinstellung.    |
 |**Personen in meiner Organisation oder vertrauenswürdigen Organisationen und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und Benutzer aus vertrauenswürdigen Organisationen, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen.  Anonyme Benutzer müssen im Wartebereich warten.   |
-|**Personen in meiner Organisation**    |Authentifizierte Benutzer innerhalb der Organisation nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten.  Benutzer von vertrauenswürdigen Organisationen, Gastbenutzern und anonymen Benutzern warten im Wartebereich.          |
-|**Nur Organisatoren**    |Alle Besprechungsorganisatoren nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten. Auf der Teams für Client-Besprechungsoptionen wird sie als "Nur ich" angezeigt.          |
-|**Nur eingeladene Benutzer**    |Nur eingeladene Benutzer und Besprechungsorganisatoren können direkt an der Besprechung teilnehmen, ohne im Wartebereich warten zu müssen. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten. Auf der Teams optionen für Client-Besprechungen wird sie als "Personen, die ich lade" angezeigt. Benutzer, die als Teil einer Verteilergruppe hinzugefügt wurden, müssen den Wartebereich durchgehen.      |
+|**Personen in meiner Organisation**    |Authentifizierte Benutzer aus der Organisation nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten.  Benutzer aus vertrauenswürdigen Organisationen, Gastbenutzer und anonyme Benutzer warten im Wartebereich.          |
+|**Nur Organisatoren**    |Alle Besprechungsorganisatoren nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Auf der Seite Teams Optionen für Clientbesprechungen wird sie als "Nur ich" angezeigt.          |
+|**Nur eingeladene Benutzer**    |Nur eingeladene Benutzer und Besprechungsorganisatoren können direkt an der Besprechung teilnehmen, ohne im Wartebereich zu warten. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Auf der Seite Teams Optionen für Clientbesprechungen wird sie als "Personen, die ich einlädt" angezeigt. Benutzer, die als Teil einer Verteilergruppe hinzugefügt wurden, müssen den Wartebereich durchlaufen.      |
 
  > [!NOTE]
-> Bei vertrauenswürdigen Organisationen handelt es sich um Domänen, mit denen Sie Verbundkommunikation in Teams. Wenn **Sie Alle externen** Domänen für externen Zugriff zulassen im Teams Admin Center aktivieren, werden alle authentifizierten Benutzer innerhalb einer Teams Organisation als vertrauenswürdig eingestuft. Wenn Sie externe Domänen angeben, die zulässig sind, und alle anderen blockieren, werden die zulässigen Domänen zu vertrauenswürdigen Organisationen. Jede blockierte Domäne wird als keine vertrauenswürdige Organisation betrachtet.
+> Vertrauenswürdige Organisationen sind Domänen, mit denen Sie die Verbundkommunikation in Teams zulassen. Wenn Sie im Teams Admin Center **alle externen Domänen** für den externen Zugriff zulassen aktivieren, wird jedem authentifizierten Benutzer innerhalb einer Teams Organisation vertrauenswürdig. Wenn Sie externe Domänen angeben, die zulässig sind, und alle anderen blockieren, werden die zulässigen Domänen zu vertrauenswürdigen Organisationen. Jede blockierte Domäne wird als keine vertrauenswürdige Organisation betrachtet.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Einwahlbenutzern das Umgehen des Wartebereichs gestatten
 
-Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Personen, die sich per Telefon in die Besprechung einwählen, direkt an der Besprechung teilnehmen können oder im Wartebereich warten müssen – unabhängig von der Einstellung **Personen automatisch zulassen**. Diese Einstellung ist standardmäßig deaktiviert. Wenn diese Einstellung deaktiviert ist, müssen Einwahlbenutzer im Wartebereich bleiben, bis ein Benutzer der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und sie zulässt. Wenn diese Einstellung aktiviert ist, nehmen Benutzer mit einwählen automatisch an der Besprechung teil, wenn ein Benutzer der Organisation der Besprechung mit einem Teams beitritt.
+Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Personen, die sich per Telefon in die Besprechung einwählen, direkt an der Besprechung teilnehmen können oder im Wartebereich warten müssen – unabhängig von der Einstellung **Personen automatisch zulassen**. Diese Einstellung ist standardmäßig deaktiviert. Wenn diese Einstellung deaktiviert ist, müssen Einwahlbenutzer im Wartebereich bleiben, bis ein Benutzer der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und sie zulässt. Wenn diese Einstellung aktiviert ist, nehmen Einwahlbenutzer automatisch an der Besprechung teil, wenn ein Benutzer der Organisation mit einem Teams-Client an der Besprechung teilnimmt.
 
 > [!NOTE]
 > Wenn ein Einwahlbenutzer einer Besprechung beitritt, bevor ein Benutzer aus der Organisation beitritt, wird er in den Wartebereich gesetzt, bis ein Benutzer aus der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und ihn zulässt. Wenn Sie die Standardeinstellung für einen Benutzer ändern, gilt diese für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hatte.
@@ -88,13 +88,13 @@ Diese Einstellung ist eine Benutzerrichtlinie und gilt während einer Besprechun
 |Einstellungswert |Verhalten  |
 |---------|---------|
 |**Deaktiviert, der Benutzer kann dies jedoch außer Kraft setzen**     | Standardmäßig sind Liveuntertitel während einer Besprechung nicht automatisch für Benutzende aktiviert. Die Benutzer sehen die Option **Liveuntertitel aktivieren** im Menü-Überlauf (**...**), über die sie eingeschaltet werden können. Dies ist die Standardeinstellung. |
-|**Deaktiviert**     | Liveuntertitel sind während einer Besprechung für den Benutzer deaktiviert. Der Benutzer kann sie nicht aktivieren.          |
+|**Nicht aktiviert**     | Liveuntertitel sind während einer Besprechung für den Benutzer deaktiviert. Der Benutzer kann sie nicht aktivieren.          |
 
 <a name="bkcontentsharing"> </a>
 
 ## <a name="chat-in-meetings"></a>Chatten in Besprechungen
 
-Bei dieser Einstellung handelt es sich um eine Einstellung pro Teilnehmer. Über diese Einstellung wird gesteuert, ob in der Besprechung des Benutzers das Chatten zulässig ist.
+Diese Einstellung ist eine Einstellung pro Teilnehmer. Über diese Einstellung wird gesteuert, ob in der Besprechung des Benutzers das Chatten zulässig ist.
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
@@ -105,15 +105,15 @@ Bei dieser Einstellung handelt es sich um eine Einstellung pro Teilnehmer. Über
 
 ## <a name="enable-meeting-policy-settings"></a>Aktivieren von Besprechungsrichtlinieneinstellungen
 
-Zum Aktivieren von Besprechungsrichtlinieneinstellungen können Sie das [Teams Admin Center](https://admin.teams.microsoft.com/policies/meetings) **(** > BesprechungsrichtlinienBearbeiten einer **RichtlinieTeilipants** >  & Gäste) oder das [Set-CsTeamsMeetingPolicy-Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) in Teams PowerShell verwenden. 
+Zum Aktivieren von Besprechungsrichtlinieneinstellungen können Sie das [Teams Admin Center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting PoliciesEdit** >  **a** **policyParticipants** >  & Guests) oder das [Cmdlet Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) in Teams PowerShell verwenden. 
 
-In diesem Beispiel verwenden wir PowerShell, um die globale Besprechungsrichtlinie so zu ändern, dass jeder Besprechung beginnen oder teilnehmen kann.
+In diesem Beispiel verwenden wir PowerShell, um die globale Besprechungsrichtlinie so zu ändern, dass jeder eine Besprechung starten oder daran teilnehmen kann.
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
 ```
 
-Nachdem Sie eine Richtlinie eingerichtet haben, müssen Sie diese auf Benutzer anwenden. Wenn Sie die Globale (organisationsweite Standardrichtlinie) geändert haben, gilt sie automatisch für Benutzer. Sie müssen mindestens 4 Stunden warten, bis Richtlinienänderungen wirksam werden, es kann jedoch bis zu 24 Stunden dauern.
+Nachdem Sie eine Richtlinie eingerichtet haben, müssen Sie sie auf Benutzer anwenden. Wenn Sie die globale Richtlinie (organisationsweite Standardrichtlinie) geändert haben, gilt sie automatisch für Benutzer. Sie müssen mindestens 4 Stunden warten, bis alle Richtlinienänderungen wirksam werden, es kann jedoch bis zu 24 Stunden dauern.
 
 
 ## <a name="related-topics"></a>Verwandte Themen

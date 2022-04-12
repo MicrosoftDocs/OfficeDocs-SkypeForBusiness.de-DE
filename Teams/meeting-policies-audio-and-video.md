@@ -19,19 +19,19 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Audio und Video verwalten.
-ms.openlocfilehash: a9fc08208d35880637e5f044285a19fb97357157
-ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
+ms.openlocfilehash: cb53cfa52b9e3be28b6400ab87a9fc3b329406b9
+ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63448808"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784689"
 ---
-# <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für & Video
+# <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für Audio& Video
 
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
-In diesem Artikel werden die Besprechungsrichtlinieneinstellungen speziell für Audio und Video beschrieben. Diese beinhalten Folgendes:
+In diesem Artikel werden die Besprechungsrichtlinieneinstellungen für Audio und Video beschrieben. Diese beinhalten Folgendes:
 
 - [Modus für IP-Audio](#mode-for-ip-audio)
 - [Modus für IP-Video](#mode-for-ip-video)
@@ -39,7 +39,7 @@ In diesem Artikel werden die Besprechungsrichtlinieneinstellungen speziell für 
 - [Media-Bitrate (KBs)](#media-bit-rate-kbs)
 - [Videofiltermodus](#video-filters-mode)
 - [Benutzerdefinierte Hintergrundeinstellungen zulassen](#allow-custom-background-settings)
-- [Far end camera control (FECC) for point tilt zoom (PTZ) cameras](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
+- [Far End Camera Control (FECC) für PTZ-Kameras (Point Tilt Zoom)](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
 
 ### <a name="mode-for-ip-audio"></a>Modus für IP-Audio
 
@@ -48,9 +48,9 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Eins
 |Einstellungswert |Verhalten  |
 |---------|---------|
 |**Ausgehendes und eingehendes Audio aktiviert**    |Ausgehendes und eingehendes Audio ist in der Besprechung zulässig. Dies ist die Standardeinstellung. |
-|**Deaktiviert**     |Ausgehendes und eingehendes Audio ist in der Besprechung deaktiviert.     |
+|**Nicht aktiviert**     |Ausgehendes und eingehendes Audio ist in der Besprechung deaktiviert.     |
 
-Wenn für einen Benutzer **Deaktiviert** festgelegt ist, kann er weiterhin Besprechungen planen und organisieren, jedoch kein Audio verwenden. Wenn er an einer Besprechung teilnehmen möchte, muss er sich über das öffentliche Festnetz einwählen, oder sich aus der Besprechung anrufen lassen und per Telefon daran teilnehmen. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer), ist diese Einstellung standardmäßig auf **Ausgehendes und eingehendes Audio aktiviert** festgelegt. Wenn diese Einstellung auf mobilen Microsoft Teams-Clients deaktiviert ist, muss sich der Benutzer über das öffentliche Telefonnetz einwählen, um an einer Besprechung teilzunehmen.
+Wenn diese Einstellung für einen Benutzer auf **"Nicht aktiviert** " festgelegt ist, kann dieser Benutzer Besprechungen zwar planen und organisieren, aber keine Audiodaten verwenden. Wenn er an einer Besprechung teilnehmen möchte, muss er sich über das öffentliche Festnetz einwählen, oder sich aus der Besprechung anrufen lassen und per Telefon daran teilnehmen. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer), ist diese Einstellung standardmäßig auf **Ausgehendes und eingehendes Audio aktiviert** festgelegt. Wenn diese Einstellung auf Teams mobilen Clients nicht aktiviert ist, muss sich der Benutzer über das PSTN in die Besprechung einwählen.
 
 Diese Einstellung gilt nicht für Einzelanrufe. Wenn Sie Einzelanrufe einschränken möchten, konfigurieren Sie eine Microsoft Teams-[Anrufrichtlinie](teams-calling-policy.md), und deaktivieren Sie die Einstellung für das Tätigen **privater Anrufe**. Diese Einstellung gilt auch nicht für Konferenzraumgeräte wie Surface Hub und Geräte für Microsoft Teams-Räume.
 
@@ -65,22 +65,22 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Eins
 |Einstellungswert |Verhalten  |
 |---------|---------|
 |**Ausgehendes und eingehendes Video aktiviert**    | Ausgehendes und eingehendes Video ist in der Besprechung zulässig. Dies ist die Standardeinstellung. |
-|**Deaktiviert**     | Ausgehendes und eingehendes Video ist in der Besprechung deaktiviert. Auf mobilen Microsoft Teams-Clients können Benutzer keine Videos oder Fotos in der Besprechung freigeben. <br><br>Beachten Sie: Wenn der **Modus für IP-Audio** deaktiviert ist, bleibt auch der **Modus für IP-Video** deaktiviert.  |
+|**Nicht aktiviert**     | Ausgehendes und eingehendes Video ist in der Besprechung deaktiviert. Auf mobilen Microsoft Teams-Clients können Benutzer keine Videos oder Fotos in der Besprechung freigeben. <br><br>Beachten Sie, dass der **Modus für IP-Audio** ebenfalls nicht aktiviert bleibt, wenn der **Modus für IP-Audio** nicht aktiviert ist.  |
 
-Wenn diese Einstellung für einen Benutzer **deaktiviert** ist, kann dieser die Videofunktion nicht aktivieren und auch keine Videos anzeigen, die von anderen Besprechungsteilnehmern geteilt werden. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer), ist diese Einstellung standardmäßig auf **Ausgehendes und eingehendes Video aktiviert** festgelegt.
+Wenn diese Einstellung für einen Benutzer auf **"Nicht aktiviert** " festgelegt ist, kann dieser Benutzer keine Videos aktivieren oder anzeigen, die von anderen Besprechungsteilnehmern geteilt wurden. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer), ist diese Einstellung standardmäßig auf **Ausgehendes und eingehendes Video aktiviert** festgelegt.
 
 Diese Einstellung gilt nicht für Konferenzraumgeräte wie Surface Hub und Geräte für Microsoft Teams-Räume.
 
 Diese Einstellung ist noch nicht für die Microsoft 365 Government Community Cloud (GCC), GCC High- und DoD-Umgebungen (Department of Defense) verfügbar.
 
 > [!NOTE]
-> Beachten Sie, dass diese Einstellung sowohl das ausgehende als auch das eingehende Video steuert, während die **IP-Videoeinstellung** ausgehendes Video steuert. Weitere Informationen hierzu finden Sie unter [Welche IP-Videorichtlinieneinstellung hat Vorrang?](#which-ip-video-policy-setting-takes-precedence) und [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
+> Beachten Sie, dass diese Einstellung sowohl ausgehendes als auch eingehendes Video steuert, während die **IP-Videoeinstellung** ausgehendes Video steuert. Weitere Informationen hierzu finden Sie unter [Welche IP-Videorichtlinieneinstellung hat Vorrang?](#which-ip-video-policy-setting-takes-precedence) und [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
 
 Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
 
 ### <a name="ip-video"></a>IP-Video
 
-Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf Teams mobilen Clients steuert diese Einstellung, ob Benutzer Fotos und Videos in einer Besprechung teilen können.
+Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf Teams mobilen Clients steuert diese Einstellung, ob Benutzer Fotos und Videos in einer Besprechung freigeben können.
 
 In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Richtlinieneinstellung aktiviert ist, ist die Videofreigabe durch die Teilnehmer zulässig, sofern die Richtlinieneinstellung für sie ebenfalls aktiviert ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer und Partner), erben die für den Besprechungsorganisator geltende Richtlinie.
 
@@ -106,7 +106,7 @@ Wenn Daniela Amanda bei aktivierter Videofunktion anruft, kann Amanda den Anruf 
 
 Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
 
-#### <a name="which-ip-video-policy-setting-takes-precedence"></a>Welche Einstellung der IP-Videorichtlinie hat Vorrang?
+#### <a name="which-ip-video-policy-setting-takes-precedence"></a>Welche IP-Videorichtlinieneinstellung hat Vorrang?
 
 Für einen Benutzer hat die restriktivste Richtlinieneinstellung für Videos Vorrang. Hier sind einige Beispiele.
 
@@ -114,17 +114,17 @@ Für einen Benutzer hat die restriktivste Richtlinieneinstellung für Videos Vor
 |---------|---------|---------|
 |Organisator: **Aktiviert**<br><br>Teilnehmer: **Aktiviert** |Teilnehmer: **Deaktiviert**        |Die Einstellung für den **Modus für IP-Video** hat Vorrang. Ein Teilnehmer, dem diese Richtlinie zugewiesen ist, kann die von anderen Personen freigegebenen Videos weder aktivieren noch anzeigen.|
 |Organisator: **Aktiviert**<br><br>Teilnehmer: **Aktiviert** |Teilnehmer: **Ausgehendes und eingehendes Video aktiviert**          |Ein Teilnehmer, dem diese Richtlinie zugewiesen ist, kann von anderen Personen freigegebene Videos aktivieren und anzeigen.         |
-|Organisator: **Aktiviert**<br><br>Teilnehmer: **Deaktiviert** |Teilnehmer: **Ausgehendes und eingehendes Video aktiviert**         |Die **Einstellung IP-Video** hat Vorrang. Die Teilnehmer können nur eingehende Videos anzeigen und keine ausgehenden Videos senden.         |
+|Organisator: **Aktiviert**<br><br>Teilnehmer: **Deaktiviert** |Teilnehmer: **Ausgehendes und eingehendes Video aktiviert**         |Die **IP-Videoeinstellung** hat Vorrang. Die Teilnehmer können nur eingehende Videos anzeigen und keine ausgehenden Videos senden.         |
 |Organisator: **Aktiviert**<br><br>Teilnehmer: **Deaktiviert** |Teilnehmer: **Deaktiviert**         |Die Einstellung für den **Modus für IP-Video** hat Vorrang. Der Teilnehmer kann weder eingehende noch ausgehende Videos anzeigen.|
-|Organisator: **Deaktiviert**    |       |Die **Einstellung IP-Video** hat Vorrang, da sie für den Organisator deaktiviert ist. Niemand kann die Videofunktion in Besprechungen aktivieren, die von dem Benutzer organisiert wurden, dem diese Richtlinie zugewiesen wurde.         |
+|Organisator: **Deaktiviert**    |       |Die **IP-Videoeinstellung** hat Vorrang, da sie für den Organisator deaktiviert ist. Niemand kann die Videofunktion in Besprechungen aktivieren, die von dem Benutzer organisiert wurden, dem diese Richtlinie zugewiesen wurde.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>Audio/Video für Besprechungsteilnehmer verwalten
 
 |Sie möchten ...  |Legen Sie die folgenden Richtlinieneinstellungen fest  |
 |---------|---------|
-|Audio und Video für Teilnehmer in Besprechungen deaktivieren  |Modus für IP-Audio: **Deaktiviert**<br> Modus für IP-Video: **Deaktiviert**<br>IP-Video: N/A       |
+|Audio und Video für Teilnehmer in Besprechungen deaktivieren  |Modus für IP-Audio: **Deaktiviert**<br> Modus für IP-Video: **Deaktiviert**<br>IP-Video: NV       |
 |Nur eingehendes Video und Audio für Teilnehmer in Besprechungen aktivieren  |Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktiviert**<br> Modus für IP-Video: **Ausgehendes und eingehendes Video aktiviert**<br>IP-Video: **Aus**       |
-|Video für Teilnehmer in Besprechungen deaktivieren (für die Teilnehmer ist nur Audio verfügbar)|  Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktivieren**<br> Modus für IP-Video: **Deaktiviert**<br>IP-Video: N/A
+|Video für Teilnehmer in Besprechungen deaktivieren (für die Teilnehmer ist nur Audio verfügbar)|  Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktivieren**<br> Modus für IP-Video: **Deaktiviert**<br>IP-Video: NV
 |Audio und Video für Teilnehmer in Besprechungen aktivieren    |Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktiviert** (Standard)<br> Modus für IP-Video: **Ausgehendes und eingehendes Video aktiviert** (Standard)<br>IP-Video: **Ein** (Standard)    |
 
 Die restriktivste Richtlinie zwischen der Richtlinie des Besprechungsorganisators und jener des Benutzers hat Vorrang. Wenn für den Organisator beispielsweise eine Richtlinie gilt, die Video einschränkt, und die für den Benutzer geltende Richtlinie Video nicht einschränkt, erben Besprechungsteilnehmer die Richtlinie des Besprechungsorganisators und haben in Besprechungen keinen Zugriff auf die Videofunktion. Dies bedeutet, dass sie an der Besprechung nur per Audio teilnehmen können.
@@ -134,7 +134,7 @@ Die restriktivste Richtlinie zwischen der Richtlinie des Besprechungsorganisator
 
 #### <a name="teams-mobile-clients"></a>Mobile Microsoft Teams-Clients
 
-Für Benutzer auf Teams mobilen Clients wird die Möglichkeit zur Freigabe von Fotos und Videos während einer Besprechung auch durch die **Einstellung für den IP-Video**- oder **IP-Videomodus** bestimmt. Je nachdem, welche Richtlinieneinstellung Vorrang hat, ist die Option zum Teilen von Videos und Fotos nicht verfügbar. Dies wirkt sich nicht auf die Bildschirmfreigabe aus, die diese über eine eigene Einstellung für den [Bildschirmfreigabemodus](meeting-policies-content-sharing.md#screen-sharing-mode) konfiguriert wird. Darüber hinaus können Sie eine [Microsoft Teams-Richtlinie für Mobilgeräte](/powershell/module/skype/new-csteamsmobilitypolicy) festlegen, um zu verhindern, dass Benutzer von Mobilgeräten die IP-Videofunktion über eine Mobilverbindung verwenden; dies bedeutet, dass sie eine WLAN-Verbindung verwenden müssen.
+Für Benutzer auf Teams mobilen Clients wird die Möglichkeit, Fotos und Videos während einer Besprechung freizugeben, auch durch die Einstellung des **IP-Video****- oder IP-Videomodus** bestimmt. Je nachdem, welche Richtlinieneinstellung Vorrang hat, ist die Option zum Teilen von Videos und Fotos nicht verfügbar. Dies wirkt sich nicht auf die Bildschirmfreigabe aus, die diese über eine eigene Einstellung für den [Bildschirmfreigabemodus](meeting-policies-content-sharing.md#screen-sharing-mode) konfiguriert wird. Darüber hinaus können Sie eine [Microsoft Teams-Richtlinie für Mobilgeräte](/powershell/module/skype/new-csteamsmobilitypolicy) festlegen, um zu verhindern, dass Benutzer von Mobilgeräten die IP-Videofunktion über eine Mobilverbindung verwenden; dies bedeutet, dass sie eine WLAN-Verbindung verwenden müssen.
 
 ### <a name="media-bit-rate-kbs"></a>Media-Bitrate (KBs)
 
@@ -150,15 +150,15 @@ Wenn Sie Besprechungen mit höchster Videoqualität, z. B. Vorstandssitzungen od
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Benutzer ihre Videohintergründe in einer Besprechung anpassen können.
 
-Sie können diese Richtlinie Teams Admin Center und PowerShell festlegen. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie dann Benutzern zuweisen.
+Sie können sowohl Teams Admin Center als auch PowerShell verwenden, um diese Richtlinie festzulegen. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie dann Benutzern zuweisen.
 
-Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen können, legen Sie den **Parameter VideoFiltersMode** **(Einstellung** Videofilter auswählen im Teams Admin Center) wie folgt fest:
+Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen können, legen Sie den Parameter **"VideoFiltersMode**" (Einstellung "**Videofilter auswählen**" im Teams Admin Center) wie folgt fest:
 
-|Festzulegender Wert in PowerShell|Festlegen eines Werts im Teams Admin Center |Verhalten  |
+|Festzulegender Wert in PowerShell|Festlegen des Werts im Teams Admin Center |Verhalten  |
 |---------|---------|---------|
 |**NoFilters** |**Kein Filter**    |Der Benutzer kann seinen Videohintergrund nicht anpassen.|
-|**BlurOnly**     |**Nur Weichr für den Hintergrund**|Der Benutzer hat die Möglichkeit, den Hintergrund des Videos weichzuzeichnen. |
-|**BlurandDefaultBackgrounds**|**Weich weicher Hintergrund und Standardbilder**     |Der Benutzer hat die Möglichkeit, den Hintergrund des Videos weichzuzeichnen oder eines der Standardbilder auszuwählen, die als Hintergrund verwendet werden können. |
+|**BlurOnly**     |**Nur Weichzeichner im Hintergrund**|Der Benutzer hat die Möglichkeit, den Hintergrund des Videos weichzuzeichnen. |
+|**BlurandDefaultBackgrounds**|**Weichzeichner im Hintergrund und Standardbilder**     |Der Benutzer hat die Möglichkeit, den Hintergrund des Videos weichzuzeichnen oder eines der Standardbilder auszuwählen, die als Hintergrund verwendet werden können. |
 |**AllFilters**|**Alle Filter**     |Der Benutzer hat die Möglichkeit, den Hintergrund des Videos weichzuzeichnen, eines der Standardbilder auszuwählen oder ein eigenes Bild hochzuladen, um es als Hintergrund zu verwenden. |
 
 > [!NOTE]
@@ -166,61 +166,61 @@ Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen k
 
 ### <a name="allow-custom-background-settings"></a>Benutzerdefinierte Hintergrundeinstellungen zulassen
 
-Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant verwendet werden sollen. Dieses Feature ermöglicht Unternehmen das Anwenden von Unternehmensbranding auf Teams Besprechungen.
+Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant verwendet werden sollen. Mit diesem Feature können Unternehmen Unternehmensbranding auf Teams Besprechungen anwenden.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Wählen Sie **BesprechungenBesprechungsrichtlinien** >  >  **Auswählen von Besprechungsbildern an**.
+2. Wählen Sie **MeetingsMeeting** >  **PoliciesCustomize-Besprechungsbilder** >  aus.
 
-   ![Auswahl der Besprechungsrichtlinien mit hervorgehobener Schaltfläche "Besprechungsbilder anpassen".](media/custom-background-image-button.png)
+   ![Die Auswahl der Besprechungsrichtlinien mit hervorgehobener Schaltfläche "Besprechungsbilder anpassen".](media/custom-background-image-button.png)
 
-3. Wählen Sie **aus** **Organisationsweite Hintergrundbilder die Option Ein aus**.
+3. Wählen Sie " **Ein** " aus **organisationsweiten Hintergrundbildern** aus.
 
-4. Wählen Sie **+ Bilder hinzufügen aus**.
+4. Wählen Sie **Bilder aus, und fügen Sie sie hinzu**.
 
-5. Wählen Sie im Bereich Hintergründe verwalten die Option **Bild hinzufügen aus**.
+5. Wählen Sie im Bereich "Hintergründe verwalten" die Option " **Bild hinzufügen"** aus.
 
 6. Stellen Sie sicher, dass die Bilder die folgenden Anforderungen erfüllen:
   
    - Mindestgröße 360 px
    - Maximale Größe 2048 px
-   - Dateityp PNG, JPG oder BMP
-   - Maximal 50 Bilder können hochgeladen werden
+   - Dateityp von PNG, JPG oder BMP
+   - Maximal 50 Bilder können hochgeladen werden.
 
-7. Zeigen Sie eine Vorschau der ausgewählten Bilder an, und wählen Sie dann **Schließen aus**.
+7. Zeigen Sie eine Vorschau der ausgewählten Bilder an, und wählen Sie dann **"Schließen**" aus.
 
 8. Überprüfen Sie die Bilder, und fügen Sie nach Bedarf weitere hinzu.
 
 9. Klicken Sie auf **Speichern**.
 
-Die Besprechungsteilnehmer sehen eine Auswahl von Hintergrundbildern, die sie für die Teilnahme an einer Besprechung verwenden können.
+Den Besprechungsteilnehmern wird eine Auswahl von Hintergrundbildern angezeigt, die sie verwenden können, wenn sie an einer Besprechung teilnehmen.
 
 > [!NOTE]
 > Es kann bis zu 24 Stunden dauern, bis die Änderungen wirksam werden.
 
 > [!NOTE]
-> Dieses Feature steht vorübergehend in der öffentlichen Vorschau für alle Microsoft Teams zur Verfügung. Um dieses Feature nach der Vorschau zu erhalten, benötigt jeder Benutzer die Add-On-Lizenz für Advanced Communications. Weitere Informationen finden Sie unter [Add-On für erweiterte Kommunikation für Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Dieses Feature ist vorübergehend in der öffentlichen Vorschau für alle Microsoft Teams Kunden verfügbar. Um dieses Feature nach der Vorschau zu erhalten, benötigt jeder Benutzer die Add-On-Lizenz "Erweiterte Kommunikation". Weitere Informationen finden Sie unter [Add-On für erweiterte Kommunikation für Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
-### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>Far end camera control (FECC) for point tilt zoom (PTZ) cameras
+### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>Far End Camera Control (FECC) für PTZ-Kameras (Point Tilt Zoom)
 
-Far end camera control is a policy that can be assigned to Teams-Räume on Windows resource accounts. Damit können PTZ-Kameras, die an einen Teams-Raum angeschlossen sind, von den Besprechungsteilnehmern in der Teams-Client-App während Besprechungen gesteuert werden.
+Die Fernend-Kamerasteuerung ist eine Richtlinie, die Teams-Räume auf Windows Ressourcenkonten zugewiesen werden kann. Sie ermöglicht es PTZ-Kameras, die mit einem Teams Room verbunden sind, während Besprechungen von Besprechungsteilnehmern in der Teams Client-App gesteuert zu werden.
 
-Um die Far-End-Kamerasteuerung zu verwenden, müssen Besprechungsteilnehmer die **PTZ-Kamerasteuerelemente-App** verwenden.  Informationen [zum Verfügbar machen der App](manage-apps.md#allow-and-block-apps) im App Store Ihrer Organisation finden Sie unter Zulassen und Blockieren von Apps.
+Um die Fernkamerasteuerung zu verwenden, müssen Besprechungsteilnehmer die **PTZ-Kamerasteuerungs-App** abrufen.  Unter ["Apps zulassen und blockieren](manage-apps.md#allow-and-block-apps) " erfahren Sie, wie Sie die App im App Store Ihrer Organisation verfügbar machen.
 
-Um anzugeben, wer die Kamerasteuerung ganz ende in einer Besprechung verwenden kann, erstellen Sie eine neue Richtlinie, und weisen Sie sie einem [Teams-Räume-Ressourcenkonto mithilfe des Cmdlets New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) zu, oder verwenden Sie [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy), um eine vorhandene Richtlinie zu ändern. Legen Sie den `TeamsCameraFarEndPTZMode` -Parameter auf einen der folgenden Werte dar:
+Um anzugeben, wer die Kamerasteuerung am weitesten ende in einer Besprechung verwenden kann, erstellen und weisen Sie einem Teams-Räume Ressourcenkonto mithilfe des Cmdlets ["New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps)" eine neue Richtlinie zu, oder verwenden [Sie "Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)", um eine vorhandene zu ändern. Legen Sie den `TeamsCameraFarEndPTZMode` Parameter auf einen der folgenden Werte fest:
 
 | Einstellungswert | Verhalten |
 |---------------|----------|
-|Deaktiviert | Dies ist die Standardeinstellung. Wenn diese auf "deaktiviert" festgelegt ist, kann niemand die PTZ-Kamerasteuerelemente verwenden. |
-|AutoAcceptAll | PTZ-Kamerasteuerelemente sind automatisch für alle Besprechungsteilnehmer verfügbar. |
-|AutoAcceptInTenant | PTZ-Kamerasteuerelemente sind automatisch nur für Teilnehmer in derselben Organisation wie der Teams verfügbar. |
+|Deaktiviert | Dies ist die Standardeinstellung. Wenn sie auf "deaktiviert" festgelegt ist, kann niemand PTZ-Kamerasteuerelemente verwenden. |
+|AutoAcceptAll | PTZ-Kamerasteuerelemente sind automatisch für jeden Besprechungsteilnehmer verfügbar. |
+|AutoAcceptInTenant | PTZ-Kamerasteuerelemente sind automatisch nur für Teilnehmer in derselben Organisation wie der Teams Raum verfügbar. |
 
-Wenn `TeamsCameraFarEndPTZMode` auf oder `AutoAcceptAll` `AutoAcceptInTenant`festgelegt ist, kann die Kamerasteuerung im Teams Raum zu jedem beliebigen Zeitpunkt während einer Besprechung trotzdem manuell deaktiviert werden. Die Kamerasteuerung ist auch nicht verfügbar, wenn die Kamera ausgeschaltet ist.
+Wenn `TeamsCameraFarEndPTZMode` diese Einstellung aktiviert `AutoAcceptAll` ist oder `AutoAcceptInTenant`kann die Kamerasteuerung jederzeit während einer Besprechung manuell aus dem Teams-Raum deaktiviert werden. Die Kamerasteuerung ist auch nicht verfügbar, wenn die Kamera ausgeschaltet ist.
 
-Jede Kamera mit maschinellen PTZ- und UVC-Steuerelementen wird unterstützt. Eine Liste der Kameras, die für Teams zertifiziert sind, einschließlich PTZ- und nicht-PTZ-Kameras, finden Sie unter Zertifizierte Firmwareversionen für USB-Audio- und -[Videoperipheriegeräte](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Dieses Feature wird bei Kameras mit digitalen PTZ-Steuerelementen oder auf Geräten unter Teams-Räume Android noch nicht unterstützt.  
+Jede Kamera mit mechanischer PTZ- und UVC-Steuerung wird unterstützt. Eine Liste der für Teams zertifizierten Kameras, einschließlich PTZ- und Nicht-PTZ-Kameras, finden Sie unter [Certified Firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Dieses Feature wird bei Kameras mit digitalen PTZ-Steuerelementen oder auf Teams-Räume unter Android noch nicht unterstützt.  
 
 > [!NOTE]
-> Aktualisieren Sie die Kamerafirmware, bevor Sie PTZ-Steuerelemente testen. Informationen zum Aktualisieren von Firmware finden Sie in der OEM-Dokumentation (Originalgerätehersteller).
+> Aktualisieren Sie Ihre Kamerafirmware, bevor Sie PTZ-Steuerelemente testen. Informationen zum Aktualisieren der Firmware finden Sie in der Oem-Dokumentation (Original Equipment Manufacturer).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
