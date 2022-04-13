@@ -1,14 +1,13 @@
 ---
-title: 'Sicherheitsleitfaden für Microsoft Teams: Sicheres Verwenden von Microsoft Teams auf gemeinsam genutzten Computern'
+title: 'Zero Trust-Sicherheitsleitfaden für Microsoft Teams: Sicheres Verwenden von Microsoft Teams auf gemeinsam genutzten Computern'
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 08/21/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Anleitung zur sicheren Verwendung von Microsoft Teams auf einem gemeinsam genutzten Computer am Arbeitsplatz.
+description: Zero Trust-Anleitung zur sicheren Verwendung von Microsoft Teams auf einem gemeinsam genutzten Computer am Arbeitsplatz..
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97ebd8cf9e43ada8d077ffbd33f6b39c8d9c64c
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 83fc071aa50ed076fc2a6798cfaee9d4770a36a5
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893544"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817676"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Sicheres Verwenden von Microsoft Teams auf gemeinsam genutzten Computern
 
@@ -54,17 +53,17 @@ Es sollten Pläne entwickelt werden, die den Richtlinien möglichst genau entspr
 Wenn die oben genannten Richtlinien nicht eingehalten werden können, empfehlen wir die Anwendung anderer bewährter Methoden für Browsersicherheit:
 
 1. Anwenden der Browsersicherheitsfunktionen.
-    1. Verwenden Sie private Browsersitzungen, um Daten und Verlauf, die auf der Festplatte verbleiben, zu minimieren. Verwenden Sie z. B. [InPrivate-Browsen in Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Inkognitobrowsing in Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) bzw. die entsprechende Funktionen Ihres Browsers für private Browsersitzungen. 
-    1. Es wird empfohlen, das Systemverhalten so zu ändern, dass *standardmäßig* private Browsersitzungen verwendet werden. 
+    1. Verwenden Sie private Browsersitzungen, um Daten und Verlauf, die auf der Festplatte verbleiben, zu minimieren. Verwenden Sie z. B. [InPrivate-Browsen in Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Inkognitobrowsing in Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) bzw. die entsprechende Funktionen Ihres Browsers für private Browsersitzungen.
+    1. Es wird empfohlen, das Systemverhalten so zu ändern, dass *standardmäßig* private Browsersitzungen verwendet werden.
 
 2. Navigieren Sie zur [Web-App für Teams](https://teams.microsoft.com) (manchmal auch als *Webclient* bezeichnet), und verwenden Sie diese und nicht den herunterladbaren Teams-Client.
 
-3. Wenn Sie mit der Verwendung des gemeinsam genutzten Computers fertig sind, müssen Sie folgende Schritte ausführen: 
+3. Wenn Sie mit der Verwendung des gemeinsam genutzten Computers fertig sind, müssen Sie folgende Schritte ausführen:
     1. [Melden Sie sich bei Microsoft Teams ab](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487).
     1. Schließen Sie alle Registerkarten und Fenster des Browsers.
     1. Melden Sie sich vom Gerät ab.
 
-Die oben aufgeführten Punkte sind keine umfassende Liste der bewährten Methoden oder Sicherheitskontrollen für alle Situationen, und in Ihrer Umgebung können möglicherweise zusätzliche Maßnahmen ergriffen werden (Sicherheitsadministratoren können sich beispielsweise für die Verwendung von sicheren Links und sicheren Anhängen für Teams entscheiden, wenn Sie [Office 365 ATP Plan 1 oder 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) verwenden). Diese Schritte sind jedoch ein Ausgangspunkt für die Erstellung von Anleitungen für die Verwendung von Microsoft Teams auf gemeinsam genutzten Geräten.
+Die oben aufgeführten Punkte sind keine umfassende Liste der bewährten Methoden oder Sicherheitskontrollen für alle Situationen, und in Ihrer Umgebung können möglicherweise zusätzliche Maßnahmen ergriffen werden (Sicherheitsadministratoren können sich beispielsweise für die Verwendung von sicheren Links und sicheren Anhängen für Teams entscheiden, wenn Sie [Microsoft Defender für Office 365 Plan 1 oder Plan 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide) verwenden). Diese Schritte sind jedoch ein Ausgangspunkt für die Erstellung von Anleitungen für die Verwendung von Teams auf gemeinsam genutzten Geräten.
 
 ## <a name="more-information"></a>Weitere Informationen
 
