@@ -1483,7 +1483,7 @@ items:
     items:
       - name: Übersicht
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: 'Verwalten von Beispiel-Apps, die von Microsoft bereitgestellt werden'
+      - name: 'Verwalten von Apps, die von Microsoft bereitgestellt werden'
         items:
           - name: Verwalten der Microsoft Bookings-App
             href: bookings-app-admin.md
@@ -1503,7 +1503,7 @@ items:
             href: overview-third-party-apps.md
           - name: Grundlegendes zur App-Validierung durch Microsoft
             href: overview-of-app-validation.md
-          - name: 'Sicherheit, Compliance und Datenschutz für Apps'
+          - name: 'Sicherheit, Compliance und Datenschutz von Drittanbieter-Apps'
             href: overview-of-app-certification.md
           - name: Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors
             href: Office-365-custom-connectors.md

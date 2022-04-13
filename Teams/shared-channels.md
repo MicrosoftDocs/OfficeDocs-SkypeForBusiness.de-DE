@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams (Preview) verwenden und verwalten können.
-ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
-ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
+ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64590383"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817846"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Freigegebene Kanäle in Microsoft Teams (Preview)
 
@@ -34,6 +34,8 @@ Möglicherweise möchten Sie einen freigegebenen Kanal verwenden, wenn Sie mit e
 Nur Mitglieder von freigegebenen Kanälen können freigegebene Kanäle, zu denen sie hinzugefügt werden, anzeigen und daran teilnehmen. Andere Mitglieder des Teams, mit denen der freigegebene Kanal verbunden ist, können den Kanal nicht anzeigen.
 
 Wenn ein freigegebener Kanal erstellt wird, ist er mit dem übergeordneten Team verknüpft und kann nicht in ein anderes Team verschoben werden. Außerdem können freigegebene Kanäle nicht in Standardkanäle umgewandelt werden und umgekehrt.
+
+[Vergleichen Sie freigegebene Kanäle mit anderen Arten von Kanälen](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ## <a name="best-practices-for-the-shared-channels-preview"></a>Bewährte Methoden für die Preview freigegebener Kanäle
 
