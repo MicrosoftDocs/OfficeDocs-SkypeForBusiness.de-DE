@@ -1,5 +1,5 @@
 ---
-title: Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
+title: Aktivieren oder Deaktivieren des Gastzugriffs in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -22,23 +22,22 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Sie den Gastzugriff in Microsoft Teams als Office 365-Administrator aktivieren bzw. deaktivieren.
-ms.openlocfilehash: 2b444b8357d8edef9aaa1c9c8e72ae6762f5bd52
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
-ms.translationtype: HT
+ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138241"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839196"
 ---
-# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
+# <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Aktivieren oder Deaktivieren des Gastzugriffs in Microsoft Teams
 
-> [!Note]
->
-> Bis **Februar 2021** ist der Gastzugriff ist standardmäßig deaktiviert. Sie müssen den Gastzugriff für Teams aktivieren, bevor Administratoren oder Teambesitzer Gäste hinzufügen können. Nach dem Aktivieren des Gastzugriffs dauert es möglicherweise ein paar Stunden, bis die Änderungen wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung **Wenden Sie sich an Ihren Administrator** sehen, ist wahrscheinlich der Gastzugriff nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.
->
-> Ab **Februar 2021** wird der Gastzugriff in Microsoft Teams für Neukunden & Bestandskunden, die diese Einstellung nicht konfiguriert haben, standardmäßig aktiviert. Wenn diese Änderung implementiert ist, wird die Gastzugriffsfunktion auf Ihrem Mandanten aktiviert, sofern Sie diese nicht bereits in Microsoft Teams konfiguriert haben. Wenn Sie möchten, dass der Gastzugriff für Ihre Organisation deaktiviert bleibt, müssen Sie sich vergewissern, dass die Einstellung für den Gastzugriff auf **Aus** und nicht auf **Dienststandard** festgelegt ist.
+In diesem Artikel wird beschrieben, wie Sie Einstellungen für den Gastzugriff – einschließlich Anrufe, Besprechungen und Chats – in Teams konfigurieren. Der Gastzugriff in Teams erfordert auch das Konfigurieren anderer Einstellungen in Microsoft 365, einschließlich Einstellungen in Azure AD, Microsoft 365-Gruppen und SharePoint. Wenn Sie mit der Einladung von Gästen zu Microsoft Teams beginnen möchten, lesen Sie einen der folgenden Beiträge:
 
-> [!IMPORTANT]
-> Das Aktivieren des Gastzugriffs hängt von den Einstellungen in Azure Active Directory, Microsoft 365, SharePoint und Teams ab. Weitere Informationen finden Sie unter [Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team).
+- Informationen zum Konfigurieren des Gastzugriffs für Microsoft Teams für die allgemeine Nutzung finden Sie unter [Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team).
+- Wenn Sie mit einer Partnerorganisation zusammenarbeiten möchten, die Azure Active Directory verwendet, und es Gästen gestatten möchten, sich selbst für den Zugang zu Teams zu registrieren, lesen Sie [Erstellen eines B2B-Extranets mit verwalteten Gästen](/microsoft-365/solutions/b2b-extranet).
+
+> [!NOTE]
+> Wenn Sie nur Personen in anderen Organisationen suchen, anrufen, mit ihnen chatten und Besprechungen mit ihnen einrichten möchten, verwenden Sie den [externen Zugriff](manage-external-access.md).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Konfigurieren des Gastzugriffs im Admin Center für Teams
 
@@ -75,9 +74,12 @@ ms.locfileid: "60138241"
 
 5. Klicken Sie auf **Speichern**.
 
-## <a name="external-access-federation-vs-guest-access"></a>Externer Zugriff (Partnerverbund) und Gastzugriff im Vergleich
+## <a name="turning-guest-access-off"></a>Gastzugriff deaktivieren
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+Wenn Sie den Gastzugriff in Microsoft Teams deaktivieren, verlieren vorhandene Gäste den Zugriff auf ihr Team. Sie werden jedoch nicht aus dem Team entfernt. Sie sind weiterhin für Personen im Team sichtbar und können @erwähnt werden. Wenn Sie den Microsoft Teams-Gastzugriff wieder aktivieren, erhalten die Gäste den Zugriff wieder.
+
+Wenn Sie den Gastzugriff deaktivieren möchten, sollten Sie Ihren Teambesitzern empfehlen, die Gastkonten manuell aus ihren Teams zu entfernen. Diese Gäste haben zwar keinen Zugriff, aber wenn ihre Konten weiterhin im Team angezeigt werden, kann dies zu Verwirrung bei anderen Personen im Team führen.
+
 
 ## <a name="see-also"></a>Siehe auch
 

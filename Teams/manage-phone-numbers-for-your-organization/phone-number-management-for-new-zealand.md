@@ -1,28 +1,33 @@
 ---
-title: Telefon der Nummerverwaltung für Neuseeland
+title: Telefon Nummernverwaltung für Neuseeland
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.reviewer: 'chandra.kilaru, kristen.kutser'
+ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-  - M365-voice
+- M365-voice
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Calling Plans
+- Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Neuseeland für Microsoft Teams.
+ms.openlocfilehash: c9f70b50542788b7098c2456ff80d7c8d0fa9ae8
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839046"
 ---
-
-# <a name="phone-number-management-for-new-zealand"></a>Telefon der Nummerverwaltung für Neuseeland
+# <a name="phone-number-management-for-new-zealand"></a>Telefon Nummernverwaltung für Neuseeland
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
@@ -32,11 +37,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.|In Neuseeland können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und sich an [den TNS Service Desk wenden, um Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>[Neue Telefonnummernanforderung für Neuseeland (v.1.0) (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den TNS Service Desk](contact-tns-service-desk.md) wenden, um Anweisungen zu erhalten.<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen.  |
-|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Neuseeland (alle Nummern) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>Füllen Sie sie aus, [und wenden Sie sich an den TNS Service Desk, um Anweisungen zu erhalten](contact-tns-service-desk.md). <br/><br>Die Übertragung von Nummern kann in diesem Markt je nach Komplexität des Ports ein bis sechs Wochen dauern.<br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  |
-|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk](contact-tns-service-desk.md) , um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
-|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk](contact-tns-service-desk.md) , um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern der Rufnummern von Anrufwarteschleifen oder automatischen Telefonanbietern erhalten Sie beim [TNS Service Desk](contact-tns-service-desk.md).|
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.|In Neuseeland können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center abrufen. Sie können auch eine neue Telefonnummernanforderung senden, indem Sie das Formular herunterladen und [sich an den TNS Service Desk wenden, um entsprechende Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>[Anforderung neuer Telefonnummern für Neuseeland (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular "Ihr Kunden kennen" herunterladen, es vollständig ausfüllen und sich [an den TNS Service Desk wenden, um Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>Neue Bestellungen können zwei bis drei Wochen dauern, um diesen Markt zu füllen.  |
+|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Schriftliche Vollmacht für Neuseeland (alle Nummern) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-EN-NZ-TN.pdf) <br/> <br/>Füllen Sie sie aus, und [wenden Sie sich an den TNS Service Desk, um Entsprechendes zu erhalten](contact-tns-service-desk.md). <br/><br>Die Übertragung von Nummern kann je nach Komplexität des Hafens ein bis sechs Wochen dauern.<br/><br/>Diese Nummern können zurzeit nicht für Konferenzen verwendet werden.  |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Telefonnummern zu erhalten, die Sie veröffentlichen/die Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Benutzernummern zu erhalten, die Sie in Servicenummern konvertieren möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenn Sie Anrufwarteschleifen- oder automatische Telefonzentralennummern hinzufügen oder ändern möchten, wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten](contact-tns-service-desk.md).|
 
 ## <a name="related-topics"></a>Verwandte Themen
 

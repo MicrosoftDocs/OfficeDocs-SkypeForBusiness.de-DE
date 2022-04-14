@@ -369,10 +369,6 @@ items:
                 href: guest-experience.md
               - name: Aktivieren und Deaktivieren des Gastzugriffs
                 href: set-up-guests.md
-              - name: Anzeigen von Gästen in einem Team
-                href: view-guests.md
-              - name: Bearbeiten von Gastinformationen
-                href: edit-guests-information.md
       - name: Überwachen und Verwalten der Anrufqualität
         items:
           - name: Überwachen und Verbessern der Anrufqualität

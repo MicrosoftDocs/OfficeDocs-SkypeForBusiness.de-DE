@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten Ihrer Umgebung
+title: Vorbereiten ihrer Umgebung
 ms.author: czawideh
 author: cazawideh
 ms.reviewer: sohailta
@@ -13,79 +13,82 @@ ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie Ihre Infrastruktur für Microsoft Teams-Räume Bereitstellung vorbereiten, damit Sie alle Features nutzen können.
+description: Erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räume vorbereiten, damit Sie alle Features nutzen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5203972feee8276d9d63c19f65965f62386ee7a0
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: b04ecd5b10f82e3f331bc2e888f59927de52e18c
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503952"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64838996"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
-Dieser Abschnitt enthält eine Übersicht über die Schritte, die erforderlich sind, um Ihre Umgebung so vorzubereiten, dass Sie alle Features ihrer Microsoft Teams-Räume.
+Dieser Abschnitt enthält eine Übersicht über die Schritte, die zum Vorbereiten Ihrer Umgebung erforderlich sind, damit Sie alle Features von Microsoft Teams-Räume verwenden können.
   
-1. Bereiten Sie ein Ressourcenkonto für die einzelnen Microsoft Teams-Räume vor. Weitere [Informationen finden Microsoft Teams-Räume](rooms-deploy.md) bereitstellen.
+1. Bereiten Sie ein Ressourcenkonto für jede Microsoft Teams-Räume Konsole vor. Weitere Informationen [finden Sie unter Bereitstellen Microsoft Teams-Räume](rooms-deploy.md).
     
 2. Stellen Sie sicher, dass eine funktionierende Netzwerk-/Internetverbindung vorhanden ist, die für das Gerät verwendet werden kann.
   
 3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Um Microsoft das Sammeln von Daten zu ermöglichen, lassen Sie diese Websites zu:
 
-   - Telemetrieclientendpunkt: https://vortex.data.microsoft.com/
+   - Telemetrie-Clientendpunkt: https://vortex.data.microsoft.com/
    - Endpunkt für Telemetrieeinstellungen: https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-resource-account"></a>Erstellen und Testen eines Ressourcenkontos
 
-Ein *Ressourcenkonto ist* ein Konto, das der Microsoft Teams-Räume-Client für den Zugriff auf Features von Exchange, z. B. Kalender, und zum Herstellen einer Verbindung mit Microsoft Teams. Weitere [Informationen finden Microsoft Teams-Räume](rooms-deploy.md) bereitstellen.
+Ein *Ressourcenkonto* ist ein Konto, das der Microsoft Teams-Räume Client verwendet, um auf Features von Exchange wie Kalender zuzugreifen und eine Verbindung mit Microsoft Teams herzustellen. Weitere Informationen [finden Sie unter Bereitstellen Microsoft Teams-Räume](rooms-deploy.md).
   
 ### <a name="check-network-availability"></a>Überprüfen der Netzwerkverfügbarkeit
 
-Um ordnungsgemäß funktionieren zu Microsoft Teams-Räume Sie Zugriff auf ein verkabeltes Netzwerk haben, das diese Anforderungen erfüllt:
+Um ordnungsgemäß funktionieren zu können, müssen Microsoft Teams-Räume Zugriff auf ein kabelgebundenes Netzwerk haben, das die folgenden Anforderungen erfüllt:
   
-- Zugriff auf Ihre Active Directory- oder Azure Active Directory -Instanz (Azure AD) sowie Microsoft Exchange und Microsoft Teams.
+- Zugriff auf Ihre Active Directory- oder Azure Active Directory-Instanz (Azure AD) sowie auf Microsoft Exchange und Microsoft Teams.
 
-- Zugriff auf einen Server, der über DHCP eine IP-Adresse bereitstellen kann. Microsoft Teams-Räume kann beim ersten Komponentenstart nicht mit einer statischen IP-Adresse konfiguriert werden.
+- Zugriff auf einen Server, der über DHCP eine IP-Adresse bereitstellen kann. Microsoft Teams-Räume kann beim ersten Gerätestart nicht mit einer statischen IP-Adresse konfiguriert werden.
 
 - Zugriff auf die HTTP-Ports 80 und 443
 
-- DIE TCP- und UDP-Ports sind so konfiguriert, wie unter [Port](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)- und Protokollanforderungen für Server für lokale Skype for Business Server-Implementierungen oder Microsoft 365- und [Office 365-URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) und IP-Adressbereiche für Microsoft Teams beschrieben.
+- TCP- und UDP-Ports, die gemäß den [Port- und Protokollanforderungen für Server für](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) lokale Skype for Business Server-Implementierungen oder [Microsoft 365 und Office 365 URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) für Microsoft Teams konfiguriert sind.
 
 Wenn Sie in Ihrem Netzwerk einen Proxy verwenden, benötigen Sie außerdem die Proxyadresse oder Skriptinformationen.
     
 > [!IMPORTANT]
-> Microsoft Teams-Räume unterstützt keine Proxyauthentifizierung, da dies den normalen Betrieb des Raum beeinträchtigen kann. Stellen Sie sicher, Microsoft Teams-Räume von der Proxyauthentifizierung ausgenommen wurden, bevor Sie in die Produktion gehen.
+> Microsoft Teams-Räume unterstützt keine Proxyauthentifizierung, da dies den normalen Betrieb des Raums beeinträchtigen kann. Stellen Sie sicher, dass Microsoft Teams-Räume von der Proxyauthentifizierung ausgenommen wurden, bevor Sie in die Produktion gehen.
 
 > [!IMPORTANT]
 > Verwenden Sie unbedingt eine 1-GBit/s-Kabelnetzwerkverbindung, um sicherzustellen, dass die benötigte Bandbreite verfügbar ist.
 
 > [!NOTE]
-> Softwareupdates für Microsoft Teams-Räume werden automatisch von der App Microsoft Store für Unternehmen. Unter [Voraussetzungen für Microsoft Store für Unternehmen und Education](/microsoft-store/prerequisites-microsoft-store-for-business) können Sie überprüfen, ob die Raumkonsole auf den Store zugreifen und die App selbst aktualisieren kann.
+> Softwareupdates für Microsoft Teams-Räume werden automatisch aus dem Microsoft Store für Unternehmen heruntergeladen. Weitere Informationen finden [Sie unter Voraussetzungen für Microsoft Store für Unternehmen und Bildungseinrichtungen](/microsoft-store/prerequisites-microsoft-store-for-business), um zu überprüfen, ob die Raumkonsole auf den Store zugreifen und sich selbst aktualisieren kann.
   
 ### <a name="certificates"></a>Zertifikate
 
-Ihr Microsoft Teams-Räume verwendet Zertifikate für Exchange-Webdienste, Microsoft Teams oder Skype for Business, Netzwerkverwendung und Authentifizierung. Wenn die verwandten Server öffentliche Zertifikate verwenden (dies gilt für Onlinebereitstellungen und einige lokale Bereitstellungen), sollte vom Administrator keine weiteren Schritte zum Installieren von Zertifikaten erforderlich sein. Wenn es sich bei der Zertifizierungsstelle hingegen um eine private Zertifizierungsstelle handelt, muss das Gerät dieser Zertifizierungsstelle vertrauen. Dies bedeutet, dass die Zertifikatkette für Zertifizierungsstellen und Zertifizierungsstellen auf dem Gerät installiert ist. Wenn Sie das Gerät zur Domäne hinzufügen, wird diese Aufgabe möglicherweise automatisch ausgeführt.
+Ihr Microsoft Teams-Räume Gerät verwendet Zertifikate für Exchange Webdienste, Microsoft Teams oder Skype for Business, Netzwerknutzung und Authentifizierung. Wenn die zugehörigen Server öffentliche Zertifikate verwenden, was bei Onlinebereitstellungen und einigen lokalen Bereitstellungen der Fall ist, sollte keine weitere Aktion seitens des Administrators zum Installieren von Zertifikaten erforderlich sein. Wenn es sich bei der Zertifizierungsstelle hingegen um eine private Zertifizierungsstelle handelt, muss das Gerät dieser Zertifizierungsstelle vertrauen. Dies bedeutet, dass die CA + CA-Kettenzertifikate auf dem Gerät installiert sind. Das Hinzufügen des Geräts zur Domäne kann diese Aufgabe möglicherweise automatisch ausführen.
   
-Sie können Zertifikate genauso installieren wie für jeden anderen Windows-Client. 
+Sie können Zertifikate genauso installieren wie für jeden anderen Windows-Client.
+
+> [!IMPORTANT]
+> Wenn Ihr Proxyserver intern signierte Zertifikate verwendet, müssen Sie die interne Zertifikatkette, einschließlich der Stammzertifizierungsstelle, auf dem Microsoft Teams-Räume Gerät installieren.
   
 > [!NOTE]
-> Zertifikate sind möglicherweise erforderlich, um Ihre Microsoft Teams-Räume verwenden Skype for Business Server.
+> Zertifikate können erforderlich sein, damit Microsoft Teams-Räume Skype for Business Server verwenden können.
   
 ### <a name="proxy"></a>Proxy
 
-Microsoft Teams-Räume -Objekt ist so konzipiert, dass es Proxyeinstellungen vom Betriebssystem Windows erbt. Greifen Sie wie folgt auf das Windows-Betriebssystem zu:
+Microsoft Teams-Räume ist so konzipiert, dass Proxyeinstellungen vom Windows Betriebssystem erben. Greifen Sie wie folgt auf das Windows-Betriebssystem zu:
   
-1. Klicken Sie auf der Microsoft Teams-Räume-Benutzeroberfläche auf das Zahnradsymbol Einstellungen, wo Sie aufgefordert werden, das lokale Administratorkennwort auf dem Gerät einzugeben (das Standardkennwort ist **sfb**).
-2. Tippen Sie auf **Einstellungen**, gefolgt von der Schaltfläche Gehe zu **Windows**. Tippen Sie dann auf die Schaltfläche Zur Administratoranmelden  wechseln, und klicken Sie dann auf die Schaltfläche **Administrator** (wenn der Computer Mitglied der Domäne ist, wählen Sie Anderer Benutzer **aus,** und verwenden Sie dann .\admin als Benutzernamen).
-3. Geben Sie **unten Windows** im Feld Suche nach links regedit ein (drücken Sie entweder lange auf den Bildschirm, oder klicken Sie mit der rechten Maustaste, und wählen Sie **Als Administrator ausführen aus**).
+1. Klicken Sie in der benutzeroberfläche Microsoft Teams-Räume auf das Zahnradsymbol Einstellungen, auf dem Sie zur Eingabe des lokalen Administratorkennworts auf dem Gerät aufgefordert werden (das Standardkennwort ist **sfb**).
+2. Tippen Sie auf **Einstellungen** gefolgt von Tippen auf die Schaltfläche "**Gehe zu Windows**" und dann auf die Schaltfläche "**Administratoranmeldung**" tippen und dann auf die Schaltfläche "**Administrator**" klicken (wenn der Computer der Domäne beigetreten ist, wählen Sie **"Anderer Benutzer**" aus, und verwenden Sie dann ".\admin" als Benutzernamen).
+3. Geben Sie im Feld **"Suchen Windows** unten links" "regedit" ein (drücken Sie entweder lange auf den Bildschirm, oder klicken Sie mit der rechten Maustaste, und wählen Sie "**Als Administrator ausführen") aus**.
 4. Klicken Sie auf den Ordner HKEY_USERS. (Eine Liste der Computerbenutzer-SIDs wird angezeigt.) Stellen Sie sicher, dass der Stammordner HKEY_USERS ausgewählt ist.
        
-5. Klicken Sie auf Datei, und wählen Sie **Struktur laden aus.**
-6. Navigieren Sie zum Ordner **"C:\Benutzer\Skype**", geben Sie im Feld Dateiname den Namen "N TINER.dat" ein, und drücken Sie die Schaltfläche "Öffnen".
+5. Klicken Sie auf "Datei", und wählen Sie dann **"Struktur laden" aus.**
+6. Navigieren Sie zum Ordner **"C:\Users\Skype**", geben Sie das Feld "Dateiname" "NTUSER.dat" ein, und drücken Sie die Schaltfläche "Öffnen".
 
-7. Sie werden zur Eingabe eines Schlüsselnamens für die neu geladene Struktur aufgefordert. geben Sie Skype ein (nun sollten die Registrierungseinstellungen für den Benutzer Skype werden).
+7. Sie werden aufgefordert, einen Schlüsselnamen für Ihre neu geladene Struktur einzufordern. geben Sie Skype ein (jetzt sollten die Registrierungseinstellungen für den Skype Benutzer angezeigt werden).
  
-8. Öffnen Sie die Skype taste, navigieren Sie zu HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings stellen Sie dann sicher, dass die folgenden Einstellungen eingegeben werden: 
+8. Öffnen Sie den Skype Schlüssel, und navigieren Sie zu HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings stellen Sie dann sicher, dass diese Einstellungen eingegeben werden: 
     
     ```console
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
@@ -96,7 +99,7 @@ Microsoft Teams-Räume -Objekt ist so konzipiert, dass es Proxyeinstellungen vom
     
     Wenn „ProxyServer“ nicht vorhanden ist, müssen Sie diesen Schlüssel möglicherweise als Zeichenfolge hinzufügen. Ändern Sie „xx.xx.xx.xx:8080“ zu IP/Host und Port Ihres Proxyservers.
  
-    Wenn der Kunde eine PAC-Datei verwendet, würde die Konfiguration wie im folgenden Beispiel aussehen:
+    Wenn der Kunde eine PAC-Datei verwendet, sieht die Konfiguration wie im folgenden Beispiel aus:
 
      ```console
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
@@ -109,13 +112,13 @@ Microsoft Teams-Räume -Objekt ist so konzipiert, dass es Proxyeinstellungen vom
     
 10. Schließen Sie nun den Registrierungs-Editor, und geben Sie in das Feld der Windows-Suche „Abmelden“ ein.
     
-11. Wählen Sie auf der Anmeldeseite den Benutzer **Skype** aus. Wenn alle vorherigen Schritte erfolgreich waren, kann Microsoft Teams-Räume erfolgreich anmelden.
+11. Wählen Sie auf der Anmeldeseite den Benutzer **Skype** aus. Wenn alle vorherigen Schritte erfolgreich waren, wird sich das Microsoft Teams-Räume Gerät erfolgreich anmelden.
     
-Ausführliche Informationen [zu](./security.md#network-security) FQDNs, Ports und IP-Adressbereichen, die für die Netzwerksicherheit erforderlich sind, finden Sie Microsoft Teams-Räume.
+Ausführliche Informationen zu FQDNs, Ports und IP-Adressbereichen, die für Microsoft Teams-Räume erforderlich sind, finden Sie im Artikel zur [Netzwerksicherheit](./security.md#network-security).
   
-### <a name="admin-group-management"></a>Verwaltung von Administratorgruppen
+### <a name="admin-group-management"></a>Administratorgruppenverwaltung
 
-Wenn Sie sich für den Beitritt zu einer Domäne (Azure Active Directory oder Active Directory) entscheiden, können Sie Microsoft Endpoint Manager, Gruppenrichtlinie oder Lokale Computerverwaltung verwenden, um eine Sicherheitsgruppe wie einen Windows-PC in Ihrer Domäne als lokalen Administrator zu festlegen. Jeder, der Mitglied dieser Sicherheitsgruppe ist, kann seine Anmeldeinformationen eingeben und die Sperrung Einstellungen.
+Wenn Sie sich für den Beitritt zu einer Domäne (Azure Active Directory oder Active Directory) entscheiden, können Sie Microsoft Endpoint Manager, Gruppenrichtlinie oder die verwaltung lokaler Computer verwenden, um eine Sicherheitsgruppe wie bei einem Windows-PC in Ihrer Domäne als lokaler Administrator festzulegen. Jeder, der Mitglied dieser Sicherheitsgruppe ist, kann seine Anmeldeinformationen eingeben und Einstellungen entsperren.
   
 > [!NOTE]
 > Wenn die Vertrauensstellung zwischen Ihrem Microsoft Teams Rooms-Gerät und der Domäne verloren geht (zum Beispiel, wenn Sie Microsoft Teams Rooms nach dem Domänenbeitritt aus der Domäne entfernen), können Sie sich nicht gegenüber dem Gerät authentifizieren und die Einstellungen öffnen. Die Lösung ist, sich mit dem lokalen Administratorkonto anzumelden. 
@@ -124,24 +127,24 @@ Wenn Sie sich für den Beitritt zu einer Domäne (Azure Active Directory oder Ac
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams-Räume lokales Benutzerkonto
 
-Teams-Räume enthält ein kennwortfreies lokales Konto namens "Skype". Dieses Konto wird zum Anmelden bei Windows zum Starten der App Teams-Räume verwendet. Die Anwendung eines Kennworts auf dieses Konto wird nicht unterstützt. Weitere [Microsoft Teams-Räume finden Sie unter](security.md) Sicherheit.
+Teams-Räume enthält ein kennwortloses lokales Konto namens "Skype". Dieses Konto wird verwendet, um sich bei Windows anzumelden, um die Teams-Räume-App zu starten. Es wird nicht unterstützt, ein Kennwort auf dieses Konto anzuwenden. Weitere Informationen finden Sie [unter Microsoft Teams-Räume Sicherheit](security.md).
   
 ### <a name="admin---local-administrator-account"></a>"Administrator" – Lokales Administratorkonto
 
-Microsoft Teams-Räume Standardkennwort ist auf "sfb" festgelegt. Das Kennwort kann lokal im Administratormodus oder in der AutoUnattend.xml-Datei geändert werden (verwenden Sie den Windows System Image Manager von ADK, um die Änderung an der XML-Datei zu ändern).
+Microsoft Teams-Räume Standardkennwort ist auf "sfb" festgelegt. Das Kennwort kann lokal über den Administratormodus oder in der AutoUnattend.xml Datei geändert werden (verwenden Sie den Windows Systemimage-Manager von ADK, um die Änderung an der XML-Datei vorzunehmen).
   
 > [!CAUTION]
-> Achten Sie darauf, das Kennwort Microsoft Teams-Räume so schnell wie möglich zu ändern. 
+> Achten Sie darauf, das Kennwort für Microsoft Teams-Räume so bald wie möglich zu ändern. 
   
-Das Kennwort für den lokalen Administrator ist während des Setups nicht als Option enthalten.
+Das Kennwort für den lokalen Administrator ist während des Setups nicht als Auswahl enthalten.
 
-Weitere Informationen zum Administratorkonto finden Sie im Artikel Microsoft Teams-Räume [Sicherheitseinstellungen](security.md).
+Weitere Informationen zum Administratorkonto finden Sie im Artikel [Microsoft Teams-Räume Sicherheit](security.md).
   
 ### <a name="machine-account"></a>Computerkonto
 
-Ähnlich wie jedes Windows Gerät kann der Computername umbenannt werden, indem mit der rechten Maustaste in das Feld **Einstellungen** About **Rename PC geklickt** \> \> wird.
+Ähnlich wie bei jedem Windows Gerät kann der Computername umbenannt werden, indem Sie mit der rechten Maustaste auf **Einstellungen** \> **"Computer** \> **umbenennen"** klicken.
   
-Wenn Sie den Computer nach dem Beitritt zu einer Domäne umbenennen möchten, verwenden Sie [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), einen PowerShell-Befehl, gefolgt vom neuen Namen des Computers.
+Wenn Sie den Computer umbenennen möchten, nachdem Sie ihn einer Domäne hinzugefügt haben, verwenden Sie ["Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)", einen PowerShell-Befehl, gefolgt vom neuen Namen des Computers.
   
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -155,4 +158,4 @@ Wenn Sie den Computer nach dem Beitritt zu einer Domäne umbenennen möchten, ve
   
 [Microsoft Teams-Räume verwalten](rooms-manage.md)
 
-[Voraussetzungen für Microsoft Store für Unternehmen und Bildungseinrichtungen](/microsoft-store/prerequisites-microsoft-store-for-business)
+[Voraussetzungen für Microsoft Store für Unternehmen und Bildung](/microsoft-store/prerequisites-microsoft-store-for-business)

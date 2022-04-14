@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1ade306ab1a9dc3c3f716b36d931bcf7a6d0b41
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711499"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839056"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -45,12 +45,12 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 **Unterstützte Aktionen:**
 
-| Benutzerpostfach ist gehostet in:                                       | eDiscovery         | Gesetzliche&nbsp;Aufbewahrungspflicht    | Aufbewahrung        | Team- und Kanalverwaltung | Erstellen und Anzeigen von Besprechungen | Bearbeiten des Benutzerprofilbilds | Anrufliste | Verwalten von Kontakten | Zugriff auf Outlook-Kontakte | Voicemail        | Connectors hinzufügen und konfigurieren | Registerkarten hinzufügen und konfigurieren | Bots hinzufügen und konfigurieren |
-|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | Ja <sup>1</sup>   | Ja <sup>1</sup>   | Ja              | Ja                   | Ja                               | Ja <sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja              | Ja                          | Ja                    | Ja                    |
-| **Exchange Online Dedicated vNext**                                | Ja <sup>1</sup>   | Ja <sup>1</sup>   | Ja              | Ja                   | Ja                               | Ja <sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja              | Ja                          | Ja                    | Ja                    |
-| **Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich) | Ja <sup>1</sup>   | Ja <sup>1,2</sup> | Ja <sup>3</sup> | Ja                   | Nein                                | Nein                          | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>             | Ja                    | Ja                    |
-| **Exchange lokal** (Synchronisierung in Azure AD)                        | Ja <sup>1,9</sup> | Ja <sup>1</sup>   | Ja <sup>3</sup> | Ja                   | Ja <sup>8</sup>                  | <sup>Ja10</sup>            | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>             | Ja                    | Ja                    |
+| Benutzerpostfach ist gehostet in:                                       | eDiscovery         | Gesetzliche&nbsp;Aufbewahrungspflicht    | Aufbewahrung        | Team- und Kanalverwaltung | Erstellen und Anzeigen von Besprechungen | Bearbeiten des Benutzerprofilbilds | Anrufliste | Verwalten von Kontakten | Zugriff auf Outlook-Kontakte | Voicemail        | Connectors hinzufügen und konfigurieren | Registerkarten hinzufügen und konfigurieren | Bots hinzufügen und konfigurieren | Einstellungen für "Außerhalb Office ändern" |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | Ja <sup>1</sup>   | Ja <sup>1</sup>   | Ja              | Ja                   | Ja                               | Ja <sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja              | Ja                          | Ja                    | Ja                    | Ja                    
+| **Exchange Online Dedicated vNext**                                | Ja <sup>1</sup>   | Ja <sup>1</sup>   | Ja              | Ja                   | Ja                               | Ja <sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja              | Ja                          | Ja                    | Ja                    | Ja                    
+| **Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich) | Ja <sup>1</sup>   | Ja <sup>1,2</sup> | Ja <sup>3</sup> | Ja                   | Nein                                | Nein                          | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>             | Ja                    | Ja                    | Ja                    
+| **Exchange lokal** (Synchronisierung in Azure AD)                        | Ja <sup>1,9</sup> | Ja <sup>1</sup>   | Ja <sup>3</sup> | Ja                   | Ja <sup>8</sup>                  | <sup>Ja10</sup>            | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>             | Ja                    | Ja                    | Nein                      
 
 <sup>1</sup> Bei allen Hostingoptionen wird eDiscovery unterstützt und die gesetzliche Aufbewahrungspflicht eingehalten.
 
@@ -68,11 +68,11 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 <sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen für das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) aufgeführt sind.
 
-<sup>9</sup> Mindestens eine Lizenz Exchange Online Plan 1 ist ebenfalls erforderlich. Weitere Informationen finden Sie unter Suchen [nach Teams Chatdaten für lokale Benutzer](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
+<sup>9</sup> Mindestens eine Exchange Online Plan 1-Lizenz ist ebenfalls erforderlich. Weitere Informationen finden Sie unter [Suchen nach Teams Chatdaten für lokale Benutzer](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
-<sup>10</sup> `SetPhotoEnabled` Lokale Benutzer können mithilfe von Teams Profilbild aktualisieren, auch wenn die Richtlinie Outlook Webpostfach auf festgelegt ist`false`.
+<sup>10</sup> lokale Benutzer können Teams verwenden, um ihr Profilbild zu aktualisieren, auch wenn die `SetPhotoEnabled` Outlook in der Webpostfachrichtlinie auf `false`festgelegt ist.
  > [!NOTE]
- > Das Ab-Office (OOF) über den Teams-Client wird derzeit für Benutzer, deren Postfächer lokal gehostet werden, nicht unterstützt. Diese Benutzer sollten diese Aktion über den Outlook-Client ausführen.
+ > Das Festlegen von "Out of Office" (OOF) über den Teams-Client wird derzeit nicht für Benutzer unterstützt, deren Postfächer lokal gehostet werden. Diese Benutzer sollten diese Aktion über den Outlook-Client ausführen.
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Voraussetzungen für die optimale Nutzung von Microsoft Teams
 
 Microsoft Teams arbeitet mit mehreren Microsoft 365 und Office 365-Diensten zusammen, um den Benutzern eine umfangreiche Umgebung zu bieten. Zur Unterstützung dieser Erfahrung müssen Sie bestimmte Features oder Dienste aktivieren und Lizenzen zuweisen.
@@ -90,6 +90,9 @@ Microsoft Teams arbeitet mit mehreren Microsoft 365 und Office 365-Diensten zu
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Anforderungen zum Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer
 
+  > [!NOTE]
+  > Das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer wird derzeit nur in commerical-, GCC- und GCC High-Umgebungen unterstützt.
+
 Wenn Postfächer lokal gehostet werden, müssen zum Erstellen und Anzeigen von Besprechungen die folgenden Anforderungen erfüllt sein:
 
 - Für den mit Azure Active Directory synchronisierten Benutzer muss die erforderliche Teams-Lizenz zugewiesen werden.
@@ -98,25 +101,25 @@ Wenn Postfächer lokal gehostet werden, müssen zum Erstellen und Anzeigen von B
 
 - Postfächer werden in Exchange Server 2016, kumulatives Update 3 oder höher, gehostet.
 
-- AutoErmittlung und Exchange-Webdienste werden extern veröffentlicht.
+- AutoErmittlung und Exchange Webdienste werden extern veröffentlicht. Informationen dazu, welche Microsoft 365 Dienste Zugriff auf lokale AutoErmittlung und Exchange Webdienste-Endpunkte benötigen, finden Sie unter ["Andere Endpunkte", die nicht im Office 365 IP-Adress- und URL-Webdienst enthalten sind](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
 
 - Die OAuth-Authentifizierung wird vorzugsweise über den Exchange-Hybridkonfigurations-Assistenten mit einer vollständigen Hybridkonfiguration (klassisch oder modern) konfiguriert. Wenn Sie den Hybridkonfigurations-Assistenten nicht verwenden können, konfigurieren Sie OAuth wie in [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) beschrieben.
 
   > [!NOTE]
   > Exchange vertraut dem OAuth-Token des Teams-Diensts, der als EvoSTS bekannt ist. Schritt 1 sollte ausreichen, aber nur EvoSTS; ACS wird für die Frei/Gebucht-Suche im Kalender verwendet.
 
-- Das Kontrollkästchen für das Feature „Exchange-Hybridbereitstellung“ in Azure AD Connect ist aktiviert. Weitere Informationen finden Sie unter [Exchange- und Hybridrückschreiben](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
+- Das Kontrollkästchen für das Feature „Exchange-Hybridbereitstellung“ in Azure AD Connect ist aktiviert. Weitere Informationen finden Sie [unter Exchange Hybridrückschreiben](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
 
 - Für die Unterstützung der Kalender-App und für das Teams Outlook Add-In für Mac müssen Exchange-Webdienste-URLs als SPNs in Azure AD auf dem Mandanten für den Exchange-Dienstprinzipal konfiguriert werden. Dieser Schritt wird mit dem Hybridkonfigurations-Assistenten oder den folgenden [manuellen Schritten für die moderne Hybridauthentifizierung](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad) ausgeführt.
 
 So aktivieren Sie die Kalenderdelegation für diese Benutzer
 
-- Sie müssen auch schritte wie unter Konfigurieren der [Integration und OAuth zwischen Skype for Business Online und Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) beschrieben ausführen. Mit diesen Schritten erhalten die Teams-Planungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stellvertretungsberechtigungen.
+- Sie müssen auch die Schritte ausführen, wie unter ["Integration und OAuth zwischen Skype for Business Online und Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) konfigurieren" beschrieben. Diese Schritte bieten der Teams Planungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stellvertretungsberechtigungen.
  
   > [!NOTE]
   > Schritt 2 umfasst die Rollenzuweisung für ArchiveApplication, die für die Delegation nicht erforderlich ist.
 
-- Für Teams Terminplanungs-Add-In für Outlook ist Exchange 2013 CU19 oder höher erforderlich, wenn Sie eine Besprechung im Auftrag einer anderen Person planen. Dies dient zur Unterstützung der nicht authentifizierten Erkennung des Postfachs durch unseren Dienst, um die Berechtigungen der Stellvertretung anhand des Delegatorpostfachs zu überprüfen. Die Standorte von Stellvertretung und Delegator können Exchange 2013 oder höher oder Exchange Online sein, aber die AutoErmittlung muss zu Exchange 2013 CU19 oder höher auflösen.
+- Das Teams Scheduling-Add-In für Outlook erfordert Exchange 2013 CU19 oder höher, wenn eine Besprechung im Namen einer anderen Person geplant wird. Dies dient zur Unterstützung der nicht authentifizierten Erkennung des Postfachs durch unseren Dienst, um die Berechtigungen der Stellvertretung anhand des Delegatorpostfachs zu überprüfen. Die Standorte von Stellvertretung und Delegator können Exchange 2013 oder höher oder Exchange Online sein, aber die AutoErmittlung muss zu Exchange 2013 CU19 oder höher auflösen.
 
 ## <a name="additional-considerations"></a>Zusätzliche Überlegungen
 
@@ -126,7 +129,7 @@ Hier sind einige weitere Punkte, die Sie berücksichtigen sollten, wenn Sie Micr
 
 - Sie können die Konfiguration von Konformitätsrichtlinien in Teams und Exchange mithilfe des bedingten Zugriffs Steuern und schützen. Weitere Informationen finden Sie unter [Wie funktionieren Richtlinien für bedingten Zugriff in Verbindung mit Microsoft Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Wenn Ihre Organisation Compliance-Anforderungen erfüllen muss, um sicherzustellen, dass alle Besprechungsdiskussionen gefunden werden können, sollten Sie private Besprechungen deaktivieren, wenn der Organisator über ein lokales Exchange-Postfach verfügt. Weitere Informationen finden Sie unter [Private Besprechungsplanung](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
+- Wenn Ihre Organisation Compliance-Anforderungen erfüllen muss, um sicherzustellen, dass alle Besprechungsdiskussionen gefunden werden können, sollten Sie private Besprechungen deaktivieren, wenn der Organisator über ein lokales Exchange-Postfach verfügt. Weitere Informationen finden Sie unter [Planen privater Besprechungen](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
 - Bei einer Hybridbereitstellung von Exchange sind Inhalte aus Chatnachrichten unabhängig davon durchsuchbar, ob Chatteilnehmer über ein cloudbasiertes oder ein lokales Postfach verfügen. Weitere Informationen finden Sie unter [Durchsuchen von cloudbasierten Postfächern für lokale Benutzer](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Weitere Informationen zur Suche nach Inhalten in Teams finden Sie unter [Ausführen einer Inhaltssuche im Microsoft 365 Compliance Center](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
