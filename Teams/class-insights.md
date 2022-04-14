@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062689"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837458"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -141,15 +141,17 @@ Derzeit werden Daten aus den folgenden Bereichen in Klassenteams gesammelt:
 > Die meisten der gesammelten Daten werden innerhalb weniger Minuten in Insights angezeigt. Teilnahmedaten von Klassenbesprechungen (Besprechungen, die einem der Klassenkanäle zugeordnet sind) erscheinen einige Stunden nach Ende der Besprechung, in der Regel bis zu 24 Stunden später.
 
 > [!NOTE]
-> Die in Education Insights gesammelten Daten werden aufbewahrt, bis entweder der IT-Administrator den [Education Analytics-Umschalter](#turn-sds-for-insights-on-or-off) deaktiviert, oder das Office-Abonnement für den Mandanten endet. Das Deaktivieren bestimmter Features in Teams löscht keine Verlaufsdaten.
+> Die in Education Insights gesammelten Daten werden aufbewahrt, bis entweder der IT-Administrator den [Education Analytics-Umschalter](#turn-sds-for-insights-on-or-off) deaktiviert oder das Office-Abonnement für den Mandanten endet. Das Deaktivieren bestimmter Features in Teams löscht keine Verlaufsdaten.
 
 ### <a name="privacy-and-security"></a>Datenschutz und Sicherheit
-Die im Rahmen von Insights gesammelten und gezeigten Informationen erfüllen [mehr als 90 behördliche und Branchenstandards](/compliance/regulatory/offering-home), einschließlich der [DSGVO](/compliance/regulatory/gdpr) und dem [FERPA (Family Education Rights and Privacy Act)](/compliance/regulatory/offering-ferpa) für die Sicherheit von Schülern und Kindern und anderer, ähnlicher, privatwirtschaftlich orientierter Vorschriften.
+Education Insights erfüllt im Rahmen von Microsoft 365 nationale, regionale und branchenspezifische Vorschriften für die Datenerfassung und -verwendung, einschließlich der [DSGVO](/compliance/regulatory/gdpr) und des [Family Educational Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa), der den Datenschutz von Datensätzen zur Ausbildung von Schülern und Studenten sichert.
 
 Die Daten gehören der Bildungseinrichtung, und Microsoft sammelt und speichert die Daten nur. Microsoft-Mitarbeiter können nicht auf die Daten zugreifen oder sie sehen, es sei denn, dies ist im Rahmen der Compliance in einer geprüften Art und Weise zur Aufrechterhaltung des Dienstes, z. B. zur Datenwiederherstellung, erlaubt.
 
-> [!NOTE]
-> Besuchen Sie das [Microsoft Trust Center](https://www.microsoft.com/trust-center), um mehr darüber zu erfahren, wie Microsoft Ihre Daten schützt.
+> [!TIP]
+> * Besuchen Sie das [Microsoft Trust Center](https://www.microsoft.com/trust-center), um mehr darüber zu erfahren, wie Microsoft Ihre Daten schützt.
+> * Besuchen Sie die [Microsoft Compliance-Angebote](/compliance/regulatory/offering-home), um zu erfahren, wie Microsoft 365 Ihrer Einrichtung dabei hilft, die Einhaltung gesetzlicher Compliance-Standards zu erfüllen.
+
 
 ### <a name="performance-and-reliability"></a>Leistung und Zuverlässigkeit
 Insights wurde entwickelt, um eine große Menge an Daten, die in Teams erfasst wurden, mit optimaler Leistung und Zuverlässigkeit zu verarbeiten. Wir können keine 100%ige Verfügbarkeit garantieren, aber wir bemühen uns, diesem Ziel so nahe wie möglich zu kommen.
@@ -273,7 +275,7 @@ Wenn es ausgeschaltet ist, schalten Sie es wieder ein.  Insights beginnt mit dem
 
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>Warum sehe ich Daten für einige Schüler/Studenten oder Klassen/Kurse, aber nicht für alle?
-Wir sammeln nur Daten für *lizensierte* Schüler/Studenten. Der wahrscheinlichste Grund ist also, dass Gasthörer an den Kursen teilnehmen, deren Daten nicht gesammelt werden. Sie sehen vielleicht die Namen, aber keine Daten.
+Wir sammeln nur Daten für *lizensierte* Schüler/Studenten. Der wahrscheinlichste Grund ist also, dass Gasthörer an den Kursen teilnehmen, deren Daten nicht gesammelt werden. Sie sehen vielleicht ihre Namen, aber keine Daten.
 
 Überprüfen Sie den Status Ihrer Schüler/Studenten, um sicherzustellen, dass sie alle über Schülerlizenzen verfügen. 
 

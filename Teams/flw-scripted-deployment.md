@@ -20,10 +20,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "61545006"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion
@@ -221,10 +221,10 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
 5. Deaktivieren Sie **Benutzern das Anheften erlauben**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen".":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung &quot;Benutzer anheften zulassen&quot;.":::
 
 6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu Schichten zu erhalten.
-    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms "Angeheftete Apps hinzufügen" mit der Schaltfläche "Hinzufügen" für die App "Schichten"":::
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms &quot;Angeheftete Apps hinzufügen&quot; mit der Schaltfläche &quot;Hinzufügen&quot; für die App &quot;Schichten&quot;":::
 
 7. Anrufe entfernen, wenn sie angezeigt werden. Wenn Sie dieses Feature entfernen, wird es nicht für den Benutzer deaktiviert, sondern verhindert, dass es auf der App-Leiste angezeigt wird, um die Endbenutzererfahrung zu vereinfachen.
 8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf  **Speichern**.
@@ -248,11 +248,11 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
 5. Deaktivieren Sie **Benutzern das Anheften erlauben**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen".":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung &quot;Benutzer anheften zulassen&quot;.":::
 
 6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu Schichten zu erhalten.
 
-    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms "Angeheftete Apps hinzufügen" mit der Schaltfläche "Hinzufügen" für die App "Schichten"":::
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms &quot;Angeheftete Apps hinzufügen&quot; mit der Schaltfläche &quot;Hinzufügen&quot; für die App &quot;Schichten&quot;":::
 
 7. Entfernen Sie Besprechungen und Anrufe, falls diese angezeigt werden. Wenn Sie diese Features entfernen, werden sie nicht für den Benutzer deaktiviert, sie werden jedoch nicht auf der App-Leiste angezeigt, um die Endbenutzererfahrung zu vereinfachen.
 8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf  **Speichern**.
@@ -276,7 +276,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen".":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite &quot;App-Berechtigungsrichtlinie hinzufügen&quot;.":::
 
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion.
 4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.
@@ -291,7 +291,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen".":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite &quot;App-Berechtigungsrichtlinie hinzufügen&quot;.":::
 
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion.
 4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.

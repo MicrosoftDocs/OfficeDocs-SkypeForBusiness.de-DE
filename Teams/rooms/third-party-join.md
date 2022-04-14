@@ -13,14 +13,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird erläutert, wie Sie Ihre Organisation konfigurieren und Geräte Teams-Räume, um die Teilnahme von Drittanbieterbesprechungen an Cisco WebEx und Zoom zu unterstützen.
-ms.openlocfilehash: 04be17003e39890ba74d6c7c4fc2393ba809f5c6
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817666"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846604"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren Teams Raumgeräten für die Teilnahme an Besprechungen von Drittanbietern
+
+> [!NOTE]
+> Dieses Feature ist derzeit nur auf Teams-Räume auf Windows verfügbar.
 
 Microsoft Teams-Räume-Geräte unterstützen eine One-Touch-Erfahrung für die Teilnahme an Onlinebesprechungen von Drittanbietern, die auch als direkter Gastbeitritt bezeichnet werden. Wenn diese Option aktiviert ist, können Sie Teams-Räume verwenden, um an Besprechungen teilzunehmen, die auf Cisco WebEx und Zoom gehostet werden, ebenso einfach wie an Besprechungen, die in Microsoft Teams gehostet werden.
 

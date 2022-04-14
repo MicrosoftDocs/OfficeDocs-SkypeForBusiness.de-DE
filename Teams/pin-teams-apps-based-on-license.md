@@ -1,5 +1,5 @@
 ---
-title: Anpassen Teams Apps für Ihre Mitarbeiter an vorder frontline
+title: Anpassen Teams Apps für Mitarbeiter in Service und Produktion
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie mehr über die angepasste App-Erfahrung für Mitarbeiter in frontline Teams.
+description: Erfahren Sie mehr über die maßgeschneiderte App-Erfahrung für Mitarbeiter in Service und Produktion in Teams.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
@@ -16,26 +16,26 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b526733558570e4903d9dce43094c7ffa0f7de17
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "63774184"
 ---
-# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Anpassen Teams Apps für Ihre Mitarbeiter an vorder frontline
+# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Anpassen Teams Apps für Mitarbeiter in Service und Produktion
 
 > [!NOTE]
 > [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
 ## <a name="overview"></a>Übersicht
 
-Teams stellt eine einfache Möglichkeit zum Anheften von Apps für Mitarbeiter in der Frontlinie zur Verfügung. Dieses Feature heftt Apps basierend auf einer Lizenz an, um Ihren Frontline-Mitarbeitern eine individuelle, auf ihre Anforderungen zugeschnittene Teams Einsatzerfahrung zu ermöglichen.
+Teams bietet eine einfache Möglichkeit, Apps für Mitarbeiter in Service und Produktion anzuheften. Dieses Feature heftet Apps basierend auf der Lizenz an, um Ihren Mitarbeitern in Service und Produktion eine out-of-the-box-Erfahrung in Teams zu bieten, die auf ihre Anforderungen zugeschnitten ist.
 
-Mit der maßgeschneiderten Frontline-App-Erfahrung erhalten Ihre Mitarbeiter in der Frontline die relevantesten Apps in Teams ohne eine vom Administrator benötigte Aktion.
+Dank der maßgeschneiderten App-Erfahrung in Service und Produktion erhalten Ihre Mitarbeiter in Service und Produktion die relevantesten Apps in Teams, ohne dass der Administrator eine Aktion ausführen muss.
 
-## <a name="tailored-frontline-app-experience"></a>Maßgeschneiderte Frontline-App-Erfahrung
+## <a name="tailored-frontline-app-experience"></a>Maßgeschneiderte App-Erfahrung in Service und Produktion
 
-Apps werden an die App-Leiste angeheftet. Dabei handelt es sich um die Leiste am unteren Rand der mobilen Teams-Clients (iOS und Android) und auf der Seite des Teams-Desktopclients. Die folgenden Apps sind für Benutzer mit einer [F-Lizenz angeheftet](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
+Apps werden an die App-Leiste angeheftet. Dies ist die Leiste am unteren Rand der Teams mobile Clients (iOS und Android) und auf der Seite des Teams Desktopclients. Die folgenden Apps sind für Benutzer angeheftet, die über eine [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) verfügen:
 
 - [Aktivität](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -47,61 +47,61 @@ Apps werden an die App-Leiste angeheftet. Dabei handelt es sich um die Leiste am
 
 **Teams Mobile**
 
-:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="Die maßgeschneiderte Frontline-App-Erfahrung auf Teams Mobile" lightbox="media/tailored-teams-apps-mobile.png"::: 
+:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="Die maßgeschneiderte App-Erfahrung in Service und Produktion auf Teams Mobilgeräten" lightbox="media/tailored-teams-apps-mobile.png"::: 
 
 **Teams Desktop**
 
-:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Die maßgeschneiderte Frontline-App-Erfahrung auf Teams Desktops" lightbox="media/tailored-teams-apps-desktop.png"::: 
+:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Die maßgeschneiderte App-Erfahrung in Service und Produktion auf Teams Desktop" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
 ## <a name="admin-controls"></a>Administratorsteuerelemente
 
 > [!NOTE]
-> Die **Einstellung Für das Anheften von** Benutzern muss in der globalen (organisationsweiten Standard [-)](teams-app-setup-policies.md) Setuprichtlinie für Apps aktiviert sein, damit dieses Feature wirksam wird.
+> Die Einstellung zum **Anheften von Benutzern** muss in der globalen (organisationsweiten Standard-) [App-Setuprichtlinie](teams-app-setup-policies.md) aktiviert sein, damit dieses Feature wirksam wird.
 
-Die maßgeschneiderte Frontline-App-Erfahrung wird durch  die Einstellung Für maßgeschneiderte Apps anzeigen auf der Seite Apps [](manage-apps.md#manage-org-wide-app-settings) verwalten im Teams Admin Center gesteuert. Wenn das Feature aktivieren, erhalten alle Benutzer in Ihrer Organisation, die über eine F-Lizenz verfügen, die maßgeschneiderte App-Erfahrung.
+Die maßgeschneiderte App-Erfahrung in Service und Produktion wird durch die Organisationsweite App-Einstellung "**Maßgeschneiderte Apps anzeigen**" auf der Seite ["Apps verwalten](manage-apps.md#manage-org-wide-app-settings)" im Teams Admin Center gesteuert. Wenn das Feature aktiviert ist, erhalten alle Benutzer in Ihrer Organisation, die über eine F-Lizenz verfügen, die maßgeschneiderte App-Erfahrung.
 
-Beachten Sie, dass alle Benutzerdefinierten [Richtlinien für die App-Einrichtung,](teams-app-setup-policies.md) die Benutzern zugewiesen sind, Vorrang haben. Wenn einem Benutzer also bereits eine benutzerdefinierte App-Setuprichtlinie zugewiesen ist, erhält der Benutzer die Konfiguration, die in der Benutzerdefinierten App-Setuprichtlinie definiert ist. Weitere Informationen zur Funktionsweise des Features mit Richtlinien für Teams-Apps, einschließlich der globalen Richtlinie für das Einrichten von Apps, finden Sie [](#scenarios) im Abschnitt Szenarien weiter später in diesem Artikel.
+Beachten Sie, dass alle benutzerdefinierten [App-Setuprichtlinien](teams-app-setup-policies.md) , die Benutzern zugewiesen sind, Vorrang haben. Dies bedeutet: Wenn einem Benutzer bereits eine benutzerdefinierte App-Setuprichtlinie zugewiesen ist, erhält der Benutzer die Konfiguration, die in der benutzerdefinierten App-Setuprichtlinie definiert ist. Weitere Informationen zur Funktionsweise des Features mit Teams App-Richtlinien, einschließlich der globalen App-Setuprichtlinie, finden Sie im Abschnitt ["Szenarien"](#scenarios) weiter unten in diesem Artikel.
 
-Diese Funktion ist standardmäßig aktiviert. Wenn Sie jedoch nicht möchten, dass die maßgeschneiderte Frontline-App-Erfahrung von Microsoft bereitgestellt wird, können Sie das Feature deaktivieren. So aktivieren oder deaktivieren Sie das Feature:
+Diese Funktion ist standardmäßig aktiviert. Wenn Sie die von Microsoft bereitgestellte maßgeschneiderte Frontline-App-Erfahrung jedoch nicht wünschen, können Sie das Feature deaktivieren. So deaktivieren oder aktivieren Sie das Feature:
 
-1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Teams AppsVer** >  dient zum Verwalten von Apps, und wählen Sie **dann Organisationsweite App-Einstellungen aus**.
-2. Schalten **Sie unter** Maßgeschneiderte **Apps den Schalter** Maßgeschneiderte Apps anzeigen auf **Aus** oder **Ein**.
+1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Teams** **appsManage-Apps** > , und wählen Sie dann **organisationsweite App-Einstellungen** aus.
+2. Schalten **Sie unter "Maßgeschneiderte Apps**" die Option " **Maßgeschneiderte Apps anzeigen** " auf **"Aus** " oder " **Ein**".
 
-    :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Screenshot der Einstellung "Maßgeschneiderte Apps anzeigen" auf der Seite "Apps verwalten" im Teams Admin Center" lightbox="media/tailored-teams-apps-admin-center.png":::
+    :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Screenshot der Einstellung &quot;Maßgeschneiderte Apps anzeigen&quot; auf der Seite &quot;Apps verwalten&quot; im Teams Admin Center" lightbox="media/tailored-teams-apps-admin-center.png":::
 
 ## <a name="scenarios"></a>Szenarien
 
-### <a name="how-does-the-tailored-frontline-app-experience-affect-my-global-app-setup-policy"></a>Wie wirkt sich die angepasste Frontline-App-Erfahrung auf meine globale App-Setuprichtlinie aus?
+### <a name="how-does-the-tailored-frontline-app-experience-affect-my-global-app-setup-policy"></a>Wie wirkt sich die maßgeschneiderte Frontline-App-Erfahrung auf meine globale App-Setuprichtlinie aus?
 
-Hier erfahren Sie, wie die maßgeschneiderte Frontline-App-Erfahrung in Zusammenarbeit mit der globalen App-Setuprichtlinie funktioniert. Die Szenarien in dieser Tabelle gelten für Frontline-Workers, die über eine F-Lizenz verfügen, und für die globale App-Setuprichtlinie, bei der **Benutzer-Pinning** aktiviert ist.
+Erfahren Sie, wie die maßgeschneiderte Frontline-App-Erfahrung mit der globalen App-Setuprichtlinie zusammenarbeitet. Die Szenarien in dieser Tabelle gelten für Mitarbeiter in Service und Produktion, die über eine F-Lizenz und die globale App-Setuprichtlinie verfügen, wobei die **Benutzer-Pinning** aktiviert ist.
 
 |Wenn... |Dann... |
 |---------|---------|
-|Ein Frontline-Worker verfügt über die globale App-Setuprichtlinie, und das Feature ist deaktiviert. |Der Frontline-Worker ruft die Apps ab, die in der globalen App-Setuprichtlinie definiert sind.|
-|Ein Frontline-Worker verfügt über die globale App-Setuprichtlinie, und das Feature ist ein.     | Der Frontline-Worker erhält die maßgeschneiderte Frontline-App-Erfahrung. Apps, die in der globalen App-Setuprichtlinie definiert sind, werden unter den angepassten Apps angeheftet.      |
-|Sie aktualisieren die Globale App-Setuprichtlinie, und das Feature ist ein.     |Der Frontline-Worker erhält die angepasste Frontline-App-Erfahrung, und die in der globalen App-Setuprichtlinie definierten Apps sind unter den angepassten Apps angeheftet.         |
-|Ein Frontline-Worker verfügt über die globale Richtlinie für die App-Einrichtung, und **das Anheften von** Benutzern ist deaktiviert. |Der Frontline-Worker ruft die Apps ab, die in der globalen App-Setuprichtlinie definiert sind.|
-|Ein Frontline-Worker verfügt über die Richtlinie für die globale App-Einrichtung, und die Richtlinie für die globale App-Einrichtung wird geändert, um eine Branchen-App an der zweiten Position in der App-Liste hinzuzufügen. |Die Branchen-App ist unterhalb der angepassten Apps angeheftet. Der Frontline-Worker kann die App-Reihenfolge ändern, wenn **das Anheften durch** den Benutzer ein ist.         |
-|Ein Frontline-Worker verfügt über die globale Setuprichtlinie, und die Richtlinie für die globale App-Einrichtung wird so geändert, dass Schichten an der ersten Position enthalten sind.  |Schichten werden an die sechste Position angeheftet, wie durch die angepasste Frontline-App-Erfahrung definiert. Der Frontline-Worker kann die App-Reihenfolge ändern, wenn **das Anheften durch** den Benutzer ein ist.          |
+|Ein Mitarbeiter in Service und Produktion verfügt über die globale App-Setuprichtlinie, und das Feature ist deaktiviert. |Der Mitarbeiter in Service und Produktion ruft die In der globalen App-Setuprichtlinie definierten Apps ab.|
+|Ein Mitarbeiter in Service und Produktion verfügt über die globale App-Setuprichtlinie, und das Feature ist aktiviert.     | Der Mitarbeiter in Service und Produktion erhält die maßgeschneiderte App-Erfahrung in Service und Produktion. Apps, die in der globalen App-Setuprichtlinie definiert sind, werden unter den maßgeschneiderten Apps angeheftet.      |
+|Sie aktualisieren die globale App-Setuprichtlinie, und das Feature ist aktiviert.     |Der Mitarbeiter in Service und Produktion erhält die maßgeschneiderte Frontline-App-Erfahrung, und die in der globalen App-Setuprichtlinie definierten Apps werden unter den maßgeschneiderten Apps angeheftet.         |
+|Ein Mitarbeiter in Service und Produktion verfügt über die globale App-Setuprichtlinie, und **die Benutzerpinnung** ist deaktiviert. |Der Mitarbeiter in Service und Produktion ruft die In der globalen App-Setuprichtlinie definierten Apps ab.|
+|Ein Mitarbeiter in Service und Produktion verfügt über die globale App-Setuprichtlinie, und die globale App-Setuprichtlinie wird geändert, um eine Branchen-App an der zweiten Position in der App-Liste einzuschließen. |Die Branchen-App ist unter den maßgeschneiderten Apps angeheftet. Der Mitarbeiter in Service und Produktion kann die App-Reihenfolge ändern, wenn die **Benutzer-Pinning** aktiviert ist.         |
+|Ein Mitarbeiter in Service und Produktion verfügt über die globale Einrichtungsrichtlinie, und die globale App-Setuprichtlinie wird geändert, um Schichten an der ersten Position einzuschließen.  |Schichten werden an die sechste Position angeheftet, wie durch die maßgeschneiderte App-Erfahrung in Service und Produktion definiert. Der Mitarbeiter in Service und Produktion kann die App-Reihenfolge ändern, wenn die **Benutzer-Pinning** aktiviert ist.          |
 
-### <a name="how-does-the-tailored-frontline-app-experience-work-with-other-teams-app-policies"></a>Wie funktioniert die maßgeschneiderte Frontline-App-Erfahrung mit anderen Richtlinien Teams App?
+### <a name="how-does-the-tailored-frontline-app-experience-work-with-other-teams-app-policies"></a>Wie funktioniert die maßgeschneiderte Frontline-App-Erfahrung mit anderen Teams App-Richtlinien?
 
-Erfahren Sie, wie die maßgeschneiderte Frontline-App-Erfahrung mit anderen Richtlinien Teams App funktioniert.
+Erfahren Sie, wie die maßgeschneiderte Frontline-App-Erfahrung mit anderen Teams App-Richtlinien funktioniert.
 
 |Wenn...  |Dann... |
 |---------|---------|
-Das Feature ist deaktiviert.   | Der Frontline-Worker ruft die Apps ab, die in der globalen App-Setuprichtlinie oder der benutzerdefinierten App-Setuprichtlinie definiert sind.          |
-|Ein Frontline-Worker verfügt über eine benutzerdefinierte App-Setuprichtlinie, und das Feature ist ein.    |Der Frontline-Worker ruft die Apps ab, die in der benutzerdefinierten App-Setuprichtlinie definiert sind.          |
-|Eine App in der maßgeschneiderten Frontline-App-Benutzeroberfläche wird für einen Benutzer oder für Ihre Organisation blockiert.      |Die maßgeschneiderte Frontline-App-Erfahrung berücksichtigt die [App-Berechtigungsrichtlinie](teams-app-permission-policies.md). Wenn eine App blockiert ist, wird die blockierte App dem Frontline-Worker nicht angezeigt.           |
-|Eine App für die maßgeschneiderte Frontline-App-Erfahrung ist bereits in einer App-Setuprichtlinie definiert, und das Feature ist auf ein festgelegt. |Die App wird basierend auf der reihenfolge angeheftet, die in der Liste der angepassten Apps definiert ist.        |
-|Ein Benutzer verfügt über eine E-, A- oder G-Lizenz, und das Feature ist ein.   | Der Benutzer sieht die maßgeschneiderte Frontline-App-Erfahrung nicht. Derzeit gilt diese Erfahrung nur für Benutzer, die über eine F-Lizenz verfügen.        |
+Das Feature ist deaktiviert.   | Der Mitarbeiter in Service und Produktion ruft die Apps ab, die in der globalen App-Setuprichtlinie oder der benutzerdefinierten App-Setuprichtlinie definiert sind.          |
+|Ein Mitarbeiter in Service und Produktion verfügt über eine benutzerdefinierte App-Setuprichtlinie, und das Feature ist aktiviert.    |Der Mitarbeiter in Service und Produktion ruft die In der benutzerdefinierten App-Setuprichtlinie definierten Apps ab.          |
+|Eine App in der maßgeschneiderten Frontline-App-Benutzeroberfläche wird für einen Benutzer oder für Ihre Organisation blockiert.      |Die maßgeschneiderte App-Erfahrung in Service und Produktion berücksichtigt die [App-Berechtigungsrichtlinie](teams-app-permission-policies.md). Wenn eine App blockiert ist, wird dem Mitarbeiter in Service und Produktion die blockierte App nicht angezeigt.           |
+|Eine App in der maßgeschneiderten Frontline-App-Umgebung ist bereits in einer App-Setuprichtlinie definiert, und das Feature ist aktiviert. |Die App wird basierend auf der Reihenfolge angeheftet, die in der Liste der maßgeschneiderten Apps definiert ist.        |
+|Ein Benutzer verfügt über eine E-, A- oder G-Lizenz, und das Feature ist aktiviert.   | Der Benutzer erhält nicht die maßgeschneiderte App-Erfahrung in Service und Produktion. Derzeit gilt die Erfahrung nur für Benutzer, die über eine F-Lizenz verfügen.        |
 
 > [!NOTE]
-> Sie können die Apps oder die Reihenfolge von Apps in der maßgeschneiderten Frontline-App-Erfahrung nicht ändern. Wenn Sie Änderungen vornehmen möchten, können Sie vorerst eine eigene benutzerdefinierte Benutzerdefinierte Einrichten. Deaktivieren Sie dazu zuerst das Feature. Erstellen Sie dann [eine benutzerdefinierte App-Setuprichtlinie](teams-app-setup-policies.md), und weisen [Sie sie Benutzern oder Gruppen zu](assign-policies-users-and-groups.md).
+> Sie können die Apps oder die Reihenfolge der Apps in der maßgeschneiderten App-Umgebung in Service und Produktion nicht ändern. Wenn Sie vorerst Änderungen vornehmen möchten, können Sie Ihre eigene benutzerdefinierte Benutzeroberfläche einrichten. Deaktivieren Sie dazu zuerst das Feature. [Erstellen Sie dann eine benutzerdefinierte App-Setuprichtlinie](teams-app-setup-policies.md), und [weisen Sie sie Benutzern oder Gruppen zu](assign-policies-users-and-groups.md).
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Verwalten der Walkie-Talkie-App in Teams](walkie-talkie.md)
+- [Verwalten der Walkie Talkie-App in Teams](walkie-talkie.md)
 - [Verwalten der Aufgaben-App in Teams](manage-tasks-app.md)
 - [Verwalten der Schichten-App in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Verwalten der Genehmigungen-App in Teams](approval-admin.md)

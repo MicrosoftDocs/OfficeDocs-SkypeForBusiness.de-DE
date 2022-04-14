@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27a3ed1d46626cb5f46aa3279246953b1dbe9a23
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363121"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837448"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Reflect in Microsoft Teams
 
@@ -31,14 +31,20 @@ Diese Eincheck-App hilft Lehrkräften mittels Emojis und forschungsgestützter e
 
 
 ## <a name="privacy-and-security"></a>Datenschutz und Sicherheit
-Reflect entspricht denselben Datenschutz- und Sicherheitsstandards wie Education Insights, um vertrauliche Informationen von Schülern und Studenten zu schützen.
+Reflect entspricht denselben Datenschutz- und Sicherheitsstandards wie [Education Insights](class-insights.md), um vertrauliche Informationen von Schülern und Studenten zu schützen.
 
-Die über Reflect erfassten und angezeigten Informationen erfüllen [mehr als 90 behördliche und Branchenstandards](/compliance/regulatory/offering-home), einschließlich der [DSGVO](/compliance/regulatory/gdpr) und des [FERPA (Family Education Rights and Privacy Act)](/compliance/regulatory/offering-ferpa) für die Sicherheit von Schülern/Studenten und Kindern sowie anderer, ähnlicher Vorschriften zum Datenschutz.
+Reflect erfüllt im Rahmen von Microsoft 365 nationale, regionale und branchenspezifische Vorschriften für die Datenerfassung und -verwendung, einschließlich der [DSGVO](/compliance/regulatory/gdpr) und des [Family Educational Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa), der den Datenschutz von Datensätzen zur Ausbildung von Schülern und Studenten sichert.
+
+Die Daten gehören der Bildungseinrichtung, und Microsoft sammelt und speichert die Daten nur. Microsoft-Mitarbeiter können nicht auf die Daten zugreifen oder sie sehen, es sei denn, dies ist im Rahmen der Compliance in einer geprüften Art und Weise zur Aufrechterhaltung des Dienstes, z. B. zur Datenwiederherstellung, erlaubt.
 
 Schüler/Studenten sehen *niemals* die Namen anderer Schüler/Studenten, sondern nur, wie sie geantwortet haben. Zwar können sie die Verteilung der Antworten sehen, jedoch *keine* mit den einzelnen Antworten verknüpften Namen. 
 
 > [!NOTE]
 > Wenn weniger als fünf Schüler/Studenten antworten, werden den Schülern/Studenten keine Daten angezeigt. Dadurch wird die Wahrscheinlichkeit minimiert, dass Schüler/Studenten die Antworten anderer Personen zuordnen können.
+
+> [!TIP]
+> * Besuchen Sie das [Microsoft Trust Center](https://www.microsoft.com/trust-center), um mehr darüber zu erfahren, wie Microsoft Ihre Daten schützt.
+> * Besuchen Sie die [Microsoft Compliance-Angebote](/compliance/regulatory/offering-home), um zu erfahren, wie Microsoft 365 Ihrer Einrichtung dabei hilft, die Einhaltung gesetzlicher Compliance-Standards zu erfüllen.
 
 ## <a name="data-collection-and-storage"></a>Datenerfassung und -speicherung
 Die Daten gehören der Bildungseinrichtung, und Microsoft erfasst und speichert die Daten nur. Microsoft-Mitarbeiter können nicht auf die Daten zugreifen oder sie sehen, es sei denn, dies ist im Rahmen der Compliance in einer geprüften Art und Weise zur Aufrechterhaltung des Dienstes, z. B. zur Datenwiederherstellung, erlaubt.
@@ -75,4 +81,4 @@ Für den einfachen Zugriff können Sie mit der rechten Maustaste auf das Reflect
 > Sie können die Reflect-App auch über diesen Link finden: [https://aka.ms/getReflect](https://aka.ms/getReflect).
 
 > [!TIP]
-> Weitere Details finden Sie auf der [Supportseite zu Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Diese Seite umfasst Anweisungen für Lehrkräfte und Schüler/Studenten und hilft beim Erstellen des ersten Reflect-Check-Ins.
+> Weitere Informationen finden Sie auf der [Supportseite zu Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Diese Seite umfasst Anweisungen für Lehrkräfte und Schüler/Studenten und hilft beim Erstellen des ersten Reflect-Check-Ins.
