@@ -1,5 +1,5 @@
 ---
-title: Virtuelle Besuche mit Teams - Integration in Epic EHR
+title: Virtuelle Termine mit Teams - Integration in Epic EHR
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,31 +22,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Erfahren Sie, wie Sie den Teams EHR-Connector integrieren, damit Gesundheitsdienstleister in Ihrer Organisation virtuelle Besuche mit Patienten oder anderen Anbietern in Teams direkt aus dem Epic EHR-System durchführen können.
-ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+description: Erfahren Sie, wie Sie den Teams EHR-Connector integrieren, damit Gesundheitsdienstleister in Ihrer Organisation virtuelle Termine mit Patienten oder anderen Anbietern in Teams direkt aus dem Epic EHR-System durchführen können.
+ms.openlocfilehash: baef8aeda05413ce2f307a4bbea7259490ecfb83
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64703601"
+ms.locfileid: "64853056"
 ---
-# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Virtuelle Besuche mit Teams - Integration in Epic EHR
+# <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Virtuelle Termine mit Teams - Integration in Epic EHR
 
-Der Microsoft Teams EHR-Connector (Electronic Health Record) erleichtert Es Klinikern, einen virtuellen Patientenbesuch oder eine Konsultation mit einem anderen Anbieter in Microsoft Teams direkt aus dem Epic EHR-System zu starten. Basierend auf der Microsoft 365 Cloud ermöglicht Teams eine einfache, sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung von HIPAA, HITECH-Zertifizierung und mehr unterstützt.
+Der Microsoft Teams Electronic Health Record (EHR)-Connector erleichtert Es Klinikern, einen virtuellen Patiententermin oder eine Konsultation mit einem anderen Anbieter in Microsoft Teams direkt aus dem Epic EHR-System zu starten. Basierend auf der Microsoft 365 Cloud ermöglicht Teams eine einfache, sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung von HIPAA, HITECH-Zertifizierung und mehr unterstützt.
 
 Die Kommunikations- und Zusammenarbeitsplattform von Teams macht es Klinikern leicht, die Unordnung fragmentierter Systeme zu durchbrechen, damit sie sich auf die bestmögliche Versorgung konzentrieren können. Mit dem Teams EHR-Verbinder haben Sie folgende Möglichkeiten:
 
-- Starten Sie Teams Virtuelle Besuche aus Ihrem Epic EHR-System mit einem integrierten klinischen Workflow.
-- Ermöglichen Sie Patienten, über das Patientenportal oder per SMS an Teams virtuellen Besuchen teilzunehmen.
+- Starten Sie Teams virtuelle Termine aus Ihrem Epic EHR-System mit einem integrierten klinischen Workflow.
+- Ermöglichen Sie den Patienten, über das Patientenportal oder per SMS an Teams virtuellen Terminen teilzunehmen.
 - Unterstützen Sie andere Szenarien, z. B. Mehrere Teilnehmer, Gruppenbesuche und Dolmetscherdienste.
-- Schreiben Sie Metadaten über Teams virtuelle Besuche zurück in das EE-System, um aufzuzeichnen, wann Teilnehmer eine Verbindung herstellen, die Verbindung trennen und die automatische Überwachung und Aufzeichnung aktivieren.
-- Anzeigen von Verbrauchsdatenberichten und anpassbaren Informationen zur Anrufqualität für mit der EGA verbundene Besuche.
+- Schreiben Sie Metadaten zurück in das EE-System über Teams virtuellen Termine, um aufzuzeichnen, wann Teilnehmer eine Verbindung herstellen, die Verbindung trennen und die automatische Überwachung und Aufzeichnung aktivieren.
+- Anzeigen von Verbrauchsdatenberichten und anpassbaren Informationen zur Anrufqualität für mit der EGA verbundene Termine.
 
-Schauen Sie sich dieses Video an, um eine Übersicht über die Verwaltung virtueller Besuche über das EHR-Portal zu erhalten.
+Schauen Sie sich dieses Video an, um eine Übersicht über die Verwaltung virtueller Termine über das EA-Portal zu erhalten.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-In diesem Artikel wird beschrieben, wie Sie den Teams EHR-Connector für die Integration in die Epic-Plattform in Ihrer Organisation im Gesundheitswesen einrichten und konfigurieren. Außerdem erhalten Sie einen Überblick über die Teams Virtual Visits-Erfahrung aus dem Epic EHR-System.
+In diesem Artikel wird beschrieben, wie Sie den Teams EHR-Connector für die Integration in die Epic-Plattform in Ihrer Organisation im Gesundheitswesen einrichten und konfigurieren. Außerdem erhalten Sie einen Überblick über die Teams virtuellen Terminerfahrung aus dem Epic EHR-System.
 
 ## <a name="before-you-begin"></a>Bevor Sie beginnen
 
@@ -130,7 +130,7 @@ Als Nächstes führt Ihr Microsoft 365 Administrator folgende Schritte aus, um d
 > [!NOTE]
 > SMS-Benachrichtigungen sind derzeit nur im USA verfügbar. Wir arbeiten daran, dieses Feature in zukünftigen Versionen von Teams in anderen Regionen verfügbar zu machen, und werden diesen Artikel aktualisieren, sobald er verfügbar ist.
 
-Führen Sie diesen Schritt aus, wenn Ihre Organisation möchte, dass Microsoft SMS-Benachrichtigungen für Ihre Patienten verwaltet. Wenn Sie SMS-Benachrichtigungen aktivieren, erhalten Ihre Patienten Bestätigungs- und Erinnerungsmeldungen für geplante Besuche.
+Führen Sie diesen Schritt aus, wenn Ihre Organisation möchte, dass Microsoft SMS-Benachrichtigungen für Ihre Patienten verwaltet. Wenn Sie SMS-Benachrichtigungen aktivieren, erhalten Ihre Patienten Bestätigungs- und Erinnerungsnachrichten für geplante Termine.
 
 Um SMS-Benachrichtigungen zu aktivieren, führt Ihr Microsoft 365 Administrator Folgendes aus:
 
@@ -159,8 +159,8 @@ Um SMS-Benachrichtigungen zu aktivieren, führt Ihr Microsoft 365 Administrator 
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Screenshot der SMS-Setupeinstellungen." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **Bestätigungs-SMS**: Benachrichtigungen werden an Patienten gesendet, wenn ein Besuch im EHR-System geplant, aktualisiert oder abgebrochen wird.
-    - **Erinnerungs-SMS**: Benachrichtigungen werden gemäß dem von Ihnen angegebenen Zeitintervall und der geplanten Zeit des Besuchs an die Patienten gesendet.
+    - **Bestätigungs-SMS**: Benachrichtigungen werden an Patienten gesendet, wenn ein Termin imEHR-System geplant, aktualisiert oder abgebrochen wird.
+    - **Erinnerungs-SMS**: Benachrichtigungen werden gemäß dem von Ihnen angegebenen Zeitintervall und der geplanten Zeit des Termins an die Patienten gesendet.
 
     Klicken Sie auf **Speichern**.
 
@@ -197,7 +197,7 @@ Wenn die Konfigurationsinformationen vom Epic-Administrator genehmigt wurden, we
 - SMS-Konfigurationsdatensatz
 - Konfigurationsdatensatz für Gerätetests
 
-Der Epic-Kundenanalyst muss Epic diese Datensätze zur Verfügung stellen, um die Konfiguration für virtuelle Besuche in Epic abzuschließen. Weitere Informationen finden Sie im [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+Der Epic-Kundenanalyst muss Epic diese Datensätze zur Verfügung stellen, um die Konfiguration virtueller Termine in Epic abzuschließen. Weitere Informationen finden Sie im [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > Der Microsoft 365- oder Epic-Kundenanalyst kann sich jederzeit beim Konfigurationsportal anmelden, um Integrationsdatensätze anzuzeigen und die Konfiguration der Organisation nach Bedarf zu ändern.
@@ -207,11 +207,11 @@ Der Epic-Kundenanalyst muss Epic diese Datensätze zur Verfügung stellen, um di
 > [!Note]
 > Der Epic-Kundenanalyst muss den Genehmigungsprozess für jede FHIR-Basis-URL abschließen, die vom Microsoft 365-Administrator konfiguriert wird.
 
-## <a name="launch-teams-virtual-visits"></a>Starten Teams virtueller Besuche
+## <a name="launch-teams-virtual-appointments"></a>Starten Teams virtueller Termine
 
-Nach Abschluss der Schritte desEHR-Connectors und der Epic-Konfiguration kann Ihre Organisation Videobesuche mit Teams unterstützen.
+Nach Abschluss der Schritte für denEHR-Connector und der Epic-Konfiguration kann Ihre Organisation Videotermine mit Teams unterstützen.
 
-### <a name="virtual-visits-prerequisites"></a>Voraussetzungen für virtuelle Besuche
+### <a name="virtual-appointments-prerequisites"></a>Voraussetzungen für virtuelle Termine
 
 - Ihre Systeme müssen alle [Software- und Browseranforderungen](../../hardware-requirements-for-the-teams-app.md) für Teams erfüllen.
 
@@ -219,53 +219,53 @@ Nach Abschluss der Schritte desEHR-Connectors und der Epic-Konfiguration kann Ih
 
 ### <a name="provider-experience"></a>Anbietererfahrung
 
-Gesundheitsdienstleister aus Ihrer Organisation können mithilfe von Teams von ihren Epic-Anbieter-Apps (Hyperspace, Haiku, Canto) an Besuchen teilnehmen. Die Schaltfläche **Virtuellen Besuch beginnen** ist in den Fluss des Providers eingebettet.
+Gesundheitsdienstleister aus Ihrer Organisation können über Teams ihrer Epic-Anbieter-Apps (Hyperspace, Haiku, Canto) an Terminen teilnehmen. Die Schaltfläche **Virtuellen Besuch beginnen** ist in den Fluss des Providers eingebettet.
 
 Hauptmerkmale der Anbietererfahrung:
 
-- Anbieter können mithilfe von unterstützten Browsern oder der Teams-App an Besuchen teilnehmen.
+- Anbieter können über unterstützte Browser oder die Teams-App an Terminen teilnehmen.
 
-- Anbieter müssen eine einmalige Anmeldung mit ihrem Microsoft 365 Konto durchführen, wenn sie zum ersten Mal einem Besuch beitreten.
+- Anbieter müssen eine einmalige Anmeldung mit ihrem Microsoft 365 Konto durchführen, wenn sie zum ersten Mal an einem Termin teilnehmen.
 
 - Nach der einmaligen Anmeldung wird der Anbieter direkt zum virtuellen Termin in Teams weitergeleitet. (Der Anbieter muss bei Teams angemeldet sein.
 
-- Anbieter können Echtzeitupdates von Teilnehmern sehen, die für einen bestimmten Termin eine Verbindung herstellen und die Verbindung trennen. Anbieter können sehen, wann der Patient mit einem Besuch verbunden ist.
+- Anbieter können Echtzeitupdates von Teilnehmern sehen, die für einen bestimmten Termin eine Verbindung herstellen und die Verbindung trennen. Anbieter können sehen, wann der Patient mit einem Termin verbunden ist.
 
-  ![Anbietererfahrung eines Besuchs mit einem Patienten.](media/ehc-provider-experience-6.png)
+  ![Anbietererfahrung eines Termins mit einem Patienten.](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
 > Alle im Besprechungschat eingegebenen Informationen, die für die Kontinuität oder Aufbewahrung von Krankenakten erforderlich sind, sollten vom Gesundheitsdienstleister heruntergeladen, kopiert und notiert werden. Der Chat stellt keine gesetzliche Krankenakte oder einen festgelegten Datensatz dar. Nachrichten aus dem Chat werden basierend auf den Vom Microsoft Teams-Administrator erstellten Einstellungen gespeichert.
 
 ### <a name="patient-experience"></a>Patientenerfahrung
 
-Der Connector unterstützt Patienten, die über das MyChart-Web und mobile Geräte an Besuchen teilnehmen. Zum Zeitpunkt des Termins können Patienten über die Schaltfläche **"Virtuellen Besuch beginnen** " einen Besuch von MyChart aus starten.
+Der Connector unterstützt Patienten beim Teilnehmen an Terminen über MyChart Web und Mobile. Zum Zeitpunkt des Termins können Patienten über die Schaltfläche **"Virtuellen Besuch beginnen** " einen Termin aus MyChart starten.
 
 Hauptmerkmale der Patientenerfahrung:
 
-- Patienten können an Besuchen von [modernen Webbrowsern auf desktop und mobil teilnehmen, ohne die Teams-App installieren zu müssen](../browser-join.md).
+- Patienten können über [moderne Webbrowser auf desktop- und mobilen Geräten an Terminen teilnehmen, ohne die Teams-App installieren zu müssen](../browser-join.md).
 
-- Patienten können mit einem einzigen Klick an Besuchen teilnehmen, und es ist kein anderes Konto oder keine Anmeldung erforderlich.
+- Patienten können mit einem einzigen Klick an Terminen teilnehmen, und es ist kein anderes Konto oder keine Anmeldung erforderlich.
 
-- Patienten müssen kein Microsoft-Konto erstellen oder sich anmelden, um einen Besuch zu starten.
+- Patienten müssen kein Microsoft-Konto erstellen oder sich anmelden, um einen Termin zu starten.
 
 - Die Patienten werden in einen Wartebereich gestellt, bis der Anbieter eintritt und sie zulässt.
 
-- Patienten können ihr Video und Mikrofon in der Lobby testen, bevor sie an dem Besuch teilnehmen.
+- Patienten können ihr Video und Mikrofon im Wartebereich testen, bevor sie am Termin teilnehmen.
 
-  ![Patientenerfahrung des Besuchs.](media/ehc-virtual-visit-5.png)
+  ![Patientenerfahrung des Termins.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku und Canto sind Marken der Epic Systems Corporation.
 
-## <a name="get-insight-into-virtual-visits-usage"></a>Erhalten Sie Einblicke in die Nutzung virtueller Besuche
+## <a name="get-insight-into-virtual-appointments-usage"></a>Erhalten Sie Einblicke in die Nutzung virtueller Termine
 
-Der [Nutzungsbericht "Virtuelle Besuche"](../../teams-analytics-and-reports/virtual-visits-usage-report.md) im Microsoft Teams Admin Center bietet Administratoren einen Überblick über die Aktivitäten Teams virtuellen Besuche in Ihrer Organisation. Der Bericht zeigt detaillierte Analysen zu virtuellen Terminen, einschließlich Teams EHR-integrierten Besprechungen, die von Ihrem EHR-System durchgeführt werden.
+Der [Nutzungsbericht "Virtuelle Besuche"](../../teams-analytics-and-reports/virtual-visits-usage-report.md) im Microsoft Teams Admin Center bietet Administratoren einen Überblick über Teams aktivitäten virtueller Termine in Ihrer Organisation. Der Bericht zeigt detaillierte Analysen zu virtuellen Terminen, einschließlich Teams EHR-integrierten Besprechungen, die von Ihrem EHR-System durchgeführt werden.
 
-Sie können wichtige Metriken anzeigen, z. B. Wartezeit des Wartebereichs und Besuchsdauer. Verwenden Sie diese Informationen, um Einblicke in Nutzungstrends zu erhalten, um Virtuelle Besuche zu optimieren, um bessere Geschäftsergebnisse zu erzielen.
+Sie können wichtige Metriken anzeigen, z. B. Wartezeit des Wartebereichs und Termindauer. Verwenden Sie diese Informationen, um Einblicke in Nutzungstrends zu erhalten, die Ihnen helfen, virtuelle Termine zu optimieren, um bessere Geschäftsergebnisse zu erzielen.
 
 ### <a name="privacy-and-location-of-data"></a>Datenschutz und Speicherort der Daten
 
-Teams Integration in EHR-Systeme optimiert die Datenmenge, die während der Integrations- und Virtual Visits-Flüsse verwendet und gespeichert wird. Die Lösung folgt den allgemeinen Grundsätzen und Richtlinien für den Datenschutz und das Datenmanagement von Teams, die unter Datenschutz für Teams aufgeführt sind.
+Teams Integration in EHR-Systeme optimiert die Datenmenge, die bei integrations- und virtuellen Terminflüssen verwendet und gespeichert wird. Die Lösung folgt den allgemeinen Grundsätzen und Richtlinien für den Datenschutz und das Datenmanagement von Teams, die unter Datenschutz für Teams aufgeführt sind.
 
 Der Teams EHR-Connector speichert oder überträgt weder identifizierbare personenbezogene Daten noch Gesundheitsdaten von Patienten oder Gesundheitsdienstleistern aus dem EHR-System. Die einzigen Daten, die vom EGA-Konnektor gespeichert werden, sind die eindeutigen IDs des EGA-Benutzers, die beim Einrichten der Teambesprechungen verwendet werden.
 

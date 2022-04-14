@@ -1,5 +1,5 @@
 ---
-title: Beantworten von automatischen Telefonkonferenzen und Anrufen in der Anrufwarteschleife
+title: Annehmen automatischer Telefonzentralen- und Anrufwarteschleifenanrufe
 ms.reviewer: colongma
 author: CarolynRowe
 ms.author: crowe
@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Beschreibt automatische Telefonkonferenzen in der Cloud und Anrufwarteschleifen und erläutert, wie Sie diese Anrufe in einem Teams.
+description: Beschreibt automatische Telefonzentralen und Anrufwarteschleifen in der Cloud und erläutert, wie Sie diese Anrufe in Teams annehmen können.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,56 +19,56 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249487"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853076"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 
-Teams Benutzer können Anrufe von automatischen Cloud-Telefonkonferenzen und Anrufwarteschleifen direkt über ihren eigenen Teams beantworten.
+Teams Benutzer können Anrufe von automatischen Cloud-Telefonzentralen und Anrufwarteschleifen direkt von ihrem Teams-Client empfangen und beantworten.
 
-## <a name="what-are-auto-attendants-and-call-queues"></a>Was sind automatische Telefonkonferenzen und Anrufwarteschleifen?
+## <a name="what-are-auto-attendants-and-call-queues"></a>Was sind automatische Telefonzentralen und Anrufwarteschleifen?
 
-Automatische Telefonkonferenzen in der Cloud stellen eine Reihe von Sprachanrufen oder eine Audiodatei zur Verfügung, die Anrufer hören, statt einer menschlichen Telefongesellschaft, wenn sie sich in eine Organisation einmingen. Bei einer automatischen Telefonzentrale können die Anrufer durch das Menüsystem navigieren, Anrufe einleiten oder Benutzer suchen, indem sie eine Wähltastatur eines Telefons (MFV) oder Spracheingaben mit Spracherkennung verwenden.
+Automatische Cloudtelefonzentralen stellen eine Reihe von Sprachansagen oder eine Audiodatei bereit, die Anrufer hören, anstatt einen menschlichen Operator, wenn sie sich in eine Organisation einwägen. Bei einer automatischen Telefonzentrale können die Anrufer durch das Menüsystem navigieren, Anrufe einleiten oder Benutzer suchen, indem sie eine Wähltastatur eines Telefons (MFV) oder Spracheingaben mit Spracherkennung verwenden.
 
 Cloudanrufwarteschleifen beinhalten die beim Wählen einer Telefonnummer Ihrer Organisation verwendeten Begrüßungen, die Möglichkeit, den Anruf automatisch zu halten und nach dem nächsten verfügbaren Telefonisten zu suchen, um den Anruf zu entgegenzunehmen, während die Anrufe gehalten werden und die Anrufer dabei Musik hören. Sie können einzelne oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen.
 
-## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Behandeln einer automatischen Telefonkonferenz oder eines Anrufwarteschleifenanrufs
+## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Behandeln eines automatischen Telefonzentralen- oder Anrufwarteschleifenanrufs
 
-Benutzer können eingehende Anrufe von einer automatischen Telefonant oder Anrufwarteschleife unterscheiden, bevor sie den Anruf entgegen nehmen. Zusammen mit dem Namen und/oder der Nummer des Anrufers enthält jeder Anruf Informationen darüber, wen der Anrufer zu erreichen versucht hat. So erhalten die Benutzer einen besseren Kontext für die Adressierung des Anrufers.
+Benutzer können eingehende Anrufe von einer automatischen Telefonzentrale oder Anrufwarteschleife unterscheiden, bevor sie den Anruf annehmen. Zusammen mit dem Namen und/oder der Nummer des Anrufers enthält jeder Anruf Informationen darüber, wen der Anrufer erreichen wollte, wodurch benutzer einen besseren Kontext für die Ansprache des Anrufers erhalten.
 
-Die folgende Abbildung zeigt, wie ein eingehender Anruf von einer automatischen Telefonant oder Anrufwarteschleife für einen Benutzer angezeigt wird.
+Die folgende Abbildung zeigt, wie ein eingehender Anruf von einer automatischen Telefonzentrale oder Anrufwarteschleife einem Benutzer angezeigt wird.
 
-![Screenshot einer Benachrichtigung über einen eingehenden Anruf](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Screenshot einer Benachrichtigung über einen eingehenden Anruf.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Sobald eine automatische Telefonant oder ein Anrufwarteschleifenanruf beantwortet wurde, kann der Benutzer den Anruf wie jeden anderen Anruf &#x2014; er kann einen anderen Benutzer hinzufügen oder eine Telefonkonferenz einberaumen oder den Anruf an eine andere Partei durch stellen. Außerdem werden Anrufe der automatischen Telefon attendant basierend auf der Konfiguration des Benutzers weitergeleitet.
+Sobald eine automatische Telefonzentrale oder ein Anruf in der Anrufwarteschleife angenommen wurde, kann der Benutzer den Anruf wie jeder andere Anruf verarbeiten, &#x2014; er einen anderen Benutzer hinzufügen oder eine Konferenz durchführen oder den Anruf an eine andere Partei weiterleiten kann. Außerdem werden automatische Telefonzentralenanrufe basierend auf der Konfiguration des Benutzers weitergeleitet.
 
 > [!NOTE] 
-> Anrufe in die Anrufwarteschleife werden nicht basierend auf der Konfiguration des Benutzers weitergeleitet. Dadurch soll sichergestellt werden, dass Anrufer so lange in der Warteschleife verbleiben, bis ein Agent den Anruf beantworten kann und der Anrufer nicht unerwartet weitergeleitet wird.
+> Anrufwarteschleifenanrufe werden nicht basierend auf der Konfiguration der Anrufbeantwortungsregeln des Benutzers weitergeleitet. Dadurch wird sichergestellt, dass Anrufer in der Warteschleife bleiben, bis ein Agent den Anruf annehmen kann und der Anrufer nicht unerwartet weitergeleitet wird.
 
-> Die Agents werden bei verpassten Anrufen oder Voicemails für Anrufwarteschleifenanrufe nicht benachrichtigt.
+> Agents werden nicht über verpasste Anrufe oder Voicemails für Anrufwarteschleifenanrufe benachrichtigt.
 
 ## <a name="supported-clients"></a>Unterstützte Clients
 
-Die folgenden Clients unterstützen automatische Telefonant- und Anrufwarteschleifenanrufe:
+Unterstützung für automatische Telefonzentralen- und Anrufwarteschleifenanrufe ist in den folgenden Clients verfügbar:
 
 -    Microsoft Teams Windows-Client (32- und 64-Bit-Versionen)
 -    Microsoft Teams Mac-Client
 -    Microsoft Teams iPhone-App
 -    Microsoft Teams Android-App
 
-Der Teams-Client wird nur mit dem [Koexistenzmodus Teams unterstützt.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
+Der Teams-Client wird nur mit einem [Koexistenzmodus von "Nur Teams"](/microsoftteams/setting-your-coexistence-and-upgrade-settings) unterstützt.
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der automatischen Telefonkonferenz und der Unterstützung von Anrufwarteschleifen für Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der Unterstützung der automatischen Telefonzentrale und der Anrufwarteschleife für Microsoft Teams
 
-Um Anrufe in der automatischen Telefonwarteschleife Microsoft Teams Anrufwarteschleifenanrufe zu empfangen, müssen Sie Ihre Interoperabilitätsrichtlinie und die Upgraderichtlinie konfigurieren. Lesen Sie [bitte Migration und Interoperabilität für Organisationen, die Teams mit Skype for Business.](migration-interop-guidance-for-teams-with-skype.md) Wenn Sie keine automatische Telefon attendant und/oder Anrufwarteschleife konfiguriert [](create-a-phone-system-auto-attendant.md) haben und dies tun möchten, lesen Sie Einrichten einer automatischen Cloud-Telefonkonferenz und Erstellen einer [Cloud-Anrufwarteschleife.](create-a-phone-system-call-queue.md)
+Um Anrufe von automatischen Telefonzentralen und Anrufwarteschleifen auf Microsoft Teams zu erhalten, müssen Sie Ihre Interoperabilitätsrichtlinie und Die Upgraderichtlinie konfigurieren. Überprüfen Sie [die Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md). Wenn Sie keine automatische Telefonzentrale und/oder Anrufwarteschleife konfiguriert haben und dies tun möchten, lesen Sie " [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md) " und ["Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)".
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-Wenn ein Telefonwarteschlangen-Agents einen Anruf auf dem mobilen Gerät erhält, werden die Anrufe möglicherweise in den Halteschleifen bleiben, wenn das Gerät gesperrt ist. Der Benutzer muss zuerst das Gerät entsperren und den Anruf dann beantworten.
+Wenn ein Anrufwarteschleifen-Agent einen Anruf auf dem mobilen Gerät empfängt, wird der Anruf möglicherweise gehalten, wenn das Gerät gesperrt ist. Benutzer müssen das Gerät zuerst entsperren und dann den Anruf annehmen.
 
 
 ## <a name="related-topics"></a>Verwandte Themen

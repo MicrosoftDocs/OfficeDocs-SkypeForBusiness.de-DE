@@ -1,5 +1,5 @@
 ---
-title: Virtuelle Besuche mit Microsoft Teams und der Bookings-App
+title: Virtuelle Termine mit Microsoft Teams und der Bookings-App
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Erfahren Sie, wie Sie virtuelle Besuche mithilfe der Bookings-App in Teams planen, verwalten und durchführen.
-ms.openlocfilehash: 45062831826ae0dee558f9c3541390308fb348f9
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: Erfahren Sie, wie Sie virtuelle Termine mithilfe der Bookings-App in Teams planen, verwalten und durchführen.
+ms.openlocfilehash: 3a69140bd0a02adb879cc0914d7e5c4703623907
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703701"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853206"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Untersuchung mit Microsoft Teams und der Bookings-App
+# <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Termine mit Microsoft Teams und der Bookings-App
 
 ## <a name="overview"></a>Übersicht
 
@@ -40,15 +40,17 @@ Die virtuellen Termine werden über Microsoft Teams Besprechungen abgehalten, di
 
 Jeder virtuelle Termin enthält einen Teams Besprechungslink, der per E-Mail an die Teilnehmer gesendet wird, wo sie einfach über einen Webbrowser oder in Teams auf jedem Gerät teilnehmen können. Automatisierte E-Mail-Erinnerungen tragen dazu bei, keine Anzeigen zu reduzieren und die Kunden- und Kundenbindung zu verbessern.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TQop]
+
 Mit Bookings erhalten Sie eine Erfahrung, die auf Ihre Branche zugeschnitten ist. Hier sind einige Beispiele dafür, wie Sie es in Ihrer Organisation verwenden können:
 
 |Branche | Beispiele |
 |---------|---------|
-|Finanzdienstleistungen    |  Virtuelle Besuche für Remote-Vertrieb und -Service<br/>Planen und verwalten Sie Termine für Bank-Relationship Manager, Finanzberater und Forderungsjustierer, um nur einige zu nennen, um Ihre Kunden mit erhöhter Effizienz und Komfort zu bedienen.  |
+|Finanzdienstleistungen    |  Virtuelle Termine für Remote-Vertrieb und -Service<br/>Planen und verwalten Sie Termine für Bank-Relationship Manager, Finanzberater und Forderungsjustierer, um nur einige zu nennen, um Ihre Kunden mit erhöhter Effizienz und Komfort zu bedienen.  |
 |Einzelhandel   | Virtuelle Anproben und Beratungsgespräche <br/>Planen und verwalten Sie Termine für Ihre Vertriebsmitarbeiter, Produktexperten und Designberater, um virtuelle Armaturen und Beratungen mit Kunden durchzuführen.   |
-|Gesundheitswesen   |  Virtuelle Besuche für die Patientenversorgung <br/>Planen und verwalten Sie Termine für Ihre Pflegeteammitglieder, um sich mit Patienten oder anderen Gesundheitsdienstleistern zu treffen, um die medizinische Versorgung zu besprechen.   |
+|Gesundheitswesen   |  Virtuelle Termine für die Patientenversorgung <br/>Planen und verwalten Sie Termine für Ihre Pflegeteammitglieder, um sich mit Patienten oder anderen Gesundheitsdienstleistern zu treffen, um die medizinische Versorgung zu besprechen.   |
 
-In diesem Artikel erhalten Sie einen Überblick über das Planen, Verwalten und Durchführen von virtuellen Besuchen mithilfe der Bookings-App in Teams.
+In diesem Artikel erhalten Sie einen Überblick über das Planen, Verwalten und Durchführen virtueller Termine mithilfe der Bookings-App in Teams.
 
 ## <a name="before-you-get-started"></a>Bevor Sie beginnen
 
@@ -78,38 +80,38 @@ Die Bookings-App lässt sich in Outlook integrieren. Nachdem Sie Mitarbeiter hin
 
 ### <a name="create-appointment-types"></a>Erstellen von Termintypen
 
-Erstellen Sie bestimmte Termintypen, um die von Ihrer Organisation angebotenen Dienste darzustellen und die Buchungserfahrung anzupassen. Planer können dann den Termintyp verwenden, um einen Besuch zu planen.
+Erstellen Sie bestimmte Termintypen, um die von Ihrer Organisation angebotenen Dienste darzustellen und die Buchungserfahrung anzupassen. Planer können dann den Termintyp verwenden, um einen Termin zu planen.
 
 Wechseln Sie im Buchungskalender zu **"Weitere Optionen** (...) > **Einstellungen**", wählen Sie **"Termintypen**" und dann "**Termintyp hinzufügen"** aus. Geben Sie einen Namen&mdash; ein, z. B. Kontoeröffnung, Rezeptverlängerung, Kreditberatung, Steuervorbereitung&mdash; und alle anderen gewünschten Informationen und Einstellungen.
 
 Die von Ihnen hinzugefügten Informationen sind in der E-Mail-Bestätigung enthalten, die bei jeder Buchung dieser Art von Termin an die Teilnehmer gesendet wird. Sie können E-Mail-Erinnerungen und andere Optionen festlegen, z. B. ob Teilnehmer [über einen Desktop- oder mobilen Browser teilnehmen](browser-join.md) können, ohne Teams herunterladen zu müssen.
 
-Wenn Sie ein Bookings-Administrator sind, können Sie bis zu vier Formulare für Teilnehmer verknüpfen, die sie bei jeder Buchung dieses Termintyps ausfüllen können. Sie können beispielsweise verlangen, dass Teilnehmer ein Registrierungsformular ausfüllen, bevor sie an einem Besuch teilnehmen. Um ein Formular zu verknüpfen, wählen Sie **"Formular verknüpfen" aus**. Geben Sie die URL des Formulars ein, und wählen Sie dann **"Link"** aus. (Wenn Sie zum ersten Mal ein Formular verknüpfen, werden Sie aufgefordert, eine Microsoft 365 Gruppe zum Speichern von Formularen zu erstellen. Wählen Sie **"Gruppe erstellen** " aus, um die Gruppe zu erstellen. Sie müssen dies nur einmal für den Buchungskalender tun.)
+Wenn Sie ein Bookings-Administrator sind, können Sie bis zu vier Formulare für Teilnehmer verknüpfen, die sie bei jeder Buchung dieses Termintyps ausfüllen können. Beispielsweise können Sie die Teilnehmer auffordern, ein Registrierungsformular auszufüllen, bevor sie an einem Termin teilnehmen. Um ein Formular zu verknüpfen, wählen Sie **"Formular verknüpfen" aus**. Geben Sie die URL des Formulars ein, und wählen Sie dann **"Link"** aus. (Wenn Sie zum ersten Mal ein Formular verknüpfen, werden Sie aufgefordert, eine Microsoft 365 Gruppe zum Speichern von Formularen zu erstellen. Wählen Sie **"Gruppe erstellen** " aus, um die Gruppe zu erstellen. Sie müssen dies nur einmal für den Buchungskalender tun.)
 
 Beachten Sie beim Arbeiten mit Formularen Folgendes:
 
 - Wenn Sie Änderungen an einem Formular vornehmen möchten, das bereits mit einem Termintyp verknüpft ist, wählen Sie das Formular im Termintyp oder in der Microsoft 365 Gruppe unter [https://forms.office.com](https://forms.office.com)aus.
 - Das Hochladen von Dateien in Formulare, die eine [Frage zum Hochladen von Dateien](https://support.microsoft.com/office/add-questions-that-allow-for-file-uploads-6a75a658-c02b-450e-b119-d068f3cba4cf) enthalten, wird unterstützt, wenn alle Teilnehmer aus derselben Organisation stammen.
 
-Wenn ein Planer den Termintyp zum Planen eines Besuchs verwendet, kann er auswählen, ob das Formular eingeschlossen, entfernt oder andere Formulare hinzugefügt werden sollen, die Sie mit dem Termintyp verknüpft haben. Teilnehmer müssen das Formular ausfüllen, bevor sie am Besuch teilnehmen.
+Wenn ein Planer den Termintyp zum Planen eines Termins verwendet, kann er auswählen, ob das Formular eingeschlossen, entfernt oder andere Formulare hinzugefügt werden sollen, die Sie mit dem Termintyp verknüpft haben. Teilnehmer müssen das Formular ausfüllen, bevor sie am Termin teilnehmen.
 
 Weitere Informationen finden Sie unter [Erstellen eines Termintyps](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## <a name="schedule-a-visit"></a>Planen eines Besuchs
+## <a name="schedule-an-appointment"></a>Planen eines Termins 
 
 Wählen Sie im Buchungskalender " **Neue Buchung**" aus. Wählen Sie einen Termintyp aus, und füllen Sie dann die relevanten Informationen aus.
 
 Dazu gehören Kontaktinformationen zu Teilnehmern, der Mitarbeiter, der den Dienst bereitstellt, interne Notizen, die nur Mitarbeiter sehen können, E-Mail-Erinnerungen und ob der Teilnehmer über einen mobilen Browser teilnehmen kann. Wenn ein Formular mit dem Termintyp verknüpft ist, können Sie es einschließen, entfernen oder andere verknüpfte Formulare hinzufügen.
 
-Die an den Teilnehmer gesendete E-Mail-Bestätigung enthält den Besprechungslink und eine Anlage, damit er den virtuellen Termin zu ihrem Kalender hinzufügen kann. Mitarbeiter erhalten außerdem eine E-Mail-Bestätigung und eine Besprechungseinladung. Wenn ein Formular im Termin enthalten war, können Bookings Administratoren und Planer sehen, ob das Formular vom Teilnehmer vor dem Besuch ausgefüllt wurde, und die Antwort des Teilnehmers anzeigen.
+Die an den Teilnehmer gesendete E-Mail-Bestätigung enthält den Besprechungslink und eine Anlage, damit er den virtuellen Termin zu ihrem Kalender hinzufügen kann. Mitarbeiter erhalten außerdem eine E-Mail-Bestätigung und eine Besprechungseinladung. Wenn ein Formular im Termin enthalten war, können Bookings Administratoren und Planer sehen, ob das Formular vom Teilnehmer vor dem Termin ausgefüllt wurde, und die Antwort des Teilnehmers anzeigen.
 
 Weitere Informationen finden Sie [unter Planen einer Buchung in der Teams Bookings-App](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 
-## <a name="conduct-a-visit"></a>Durchführen eines Besuchs
+## <a name="conduct-an-appointment"></a>Durchführen eines Termins
 
 Wechseln Sie in Ihrem Teams oder Outlook Kalender zur Buchung, und wählen Sie dann **"Teilnehmen"** oder den link "Teams Besprechung" aus. Überprüfen Sie Ihre Audio- und Videoeinstellungen, und wählen Sie dann " **Jetzt beitreten"** aus. Weitere Informationen finden Sie unter [Durchführen eines Bookings Termins](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
-## <a name="monitor-visits-and-get-real-time-status-updates"></a>Überwachen von Besuchen und Abrufen von Echtzeitstatusupdates
+## <a name="monitor-appointments-and-get-real-time-status-updates"></a>Überwachen von Terminen und Abrufen von Statusupdates in Echtzeit
 
 Die [Warteschlangenansicht](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) in Bookings bietet Ihren Mitarbeitern ein Dashboard, um alle virtuellen Termine für den Tag mit Updates in Echtzeit zu überwachen. Um die Warteschlange anzuzeigen, wechseln Sie zur Registerkarte **"Warteschlange**" in Bookings.
 
@@ -128,15 +130,15 @@ Die Bookings-Web-App bietet Ihnen zusätzliche Funktionen. Sie können z. B. ein
 
 Weitere Informationen finden Sie [unter Microsoft Bookings](/microsoft-365/bookings/bookings-overview).
 
-## <a name="get-insight-into-virtual-visits-usage"></a>Erhalten Sie Einblicke in die Nutzung virtueller Besuche
+## <a name="get-insight-into-virtual-appointments-usage"></a>Erhalten Sie Einblicke in die Nutzung virtueller Termine
 
-Der [Nutzungsbericht "Virtuelle Besuche"](../teams-analytics-and-reports/virtual-visits-usage-report.md) im Microsoft Teams Admin Center bietet Administratoren einen Überblick über die Aktivitäten Teams virtuellen Besuche in Ihrer Organisation. Der Bericht zeigt detaillierte Analysen für virtuelle Termine einschließlich Bookings Besuche.
+Der [Nutzungsbericht "Virtuelle Besuche"](../teams-analytics-and-reports/virtual-visits-usage-report.md) im Microsoft Teams Admin Center bietet Administratoren einen Überblick über Teams aktivitäten virtueller Termine in Ihrer Organisation. Der Bericht zeigt detaillierte Analysen zu virtuellen Terminen einschließlich Bookings Terminen.
 
-Sie können wichtige Metriken anzeigen, z. B. Wartezeit des Wartebereichs und Besuchsdauer. Verwenden Sie diese Informationen, um Einblicke in Nutzungstrends zu erhalten, um Virtuelle Besuche zu optimieren, um bessere Geschäftsergebnisse zu erzielen.
+Sie können wichtige Metriken anzeigen, z. B. Wartezeit des Wartebereichs und Termindauer. Verwenden Sie diese Informationen, um Einblicke in Nutzungstrends zu erhalten, die Ihnen helfen, virtuelle Termine zu optimieren, um bessere Geschäftsergebnisse zu erzielen.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Verwalten der Teilnahmeerfahrung für Teams virtuelle Besuche in Browsern](browser-join.md)
+- [Verwalten der Teilnahmeerfahrung für Teams virtueller Termine in mobilen Browsern](browser-join.md)
 
 - [Nutzungsbericht für Teams virtuelle Besuche](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 

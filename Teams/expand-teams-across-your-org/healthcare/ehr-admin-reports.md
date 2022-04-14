@@ -1,5 +1,5 @@
 ---
-title: Virtuelle Besuche in Teams – EHR-Connectoradministratorberichte
+title: Virtuelle Termine in Teams – EHR-Connector-Administratorberichte
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -22,33 +22,33 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Anzeigen von Administratorberichten für Teams EHR-Connectorbesuche
-ms.openlocfilehash: 3f85d48493822db3a26851d281f7a5fddf813960
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: Anzeigen von Administratorberichten für Teams EHR-Connectortermine.
+ms.openlocfilehash: 021c80aef6b1581ae7266e5caeff3782cbbb8f26
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763300"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853196"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR-Connectoradministratorberichte
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR-Connector-Administratorberichte
 
-Das Microsoft Teams EHR-Connectorberichts (Electronic Health Record) bietet eine schnelle und leicht lesbare Ansicht der Verwendungsdaten.
+Das Dialogfeld Microsoft Teams EHR-Connector-Administratorberichts (Electronic Health Record) bietet eine schnelle und leicht lesbare Ansicht von Nutzungsdaten.
 
-Sie können den Administratorbericht Teams EHR-Connector anzeigen, indem Sie zum Microsoft Teams Admin Center-Dashboard gehen und dort das Dialogfeld anzeigen.
+Sie können den Teams EHR-Connector-Administratorbericht anzeigen, indem Sie zum Microsoft Teams Admin Center-Dashboard wechseln und das Dialogfeld dort anzeigen.
 
-Greifen Sie über das Dashboard Microsoft Teams Admin Center auf den Bericht zu.
+Zugreifen auf den Bericht über das Microsoft Teams Admin Center-Dashboard.
 
- ![Ein Dialogfeld mit Zuweisungen und Grenzwerten für virtuelle Besuche.](../../media/admin-connector-report.png)
+ ![dialog of virtual appointments allocations and limits.](../../media/admin-connector-report.png)
 
 Das Dialogfeld enthält die folgenden Daten:
 
 - Exceeded limit
-- Restzuordnung
-- Abgeschlossene Besuche
+- Verbleibende Zuordnung
+- Abgeschlossene Termine
 
-Sie können das Dialogfeld "Bericht" verwenden, um weitere virtuelle Besuche zu erwerben.
+Sie können das Berichtsdialogfeld verwenden, um weitere virtuelle Termine zu kaufen.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Virtuelle Besuche mit Teams - Integration in Cerner EHR](ehr-admin-cerner.md)
-- [Virtuelle Besuche mit Teams - Integration in eine epische EHR](ehr-admin.md)
+- [Virtuelle Termine mit Teams - Integration in Cerner EHR](ehr-admin-cerner.md)
+- [Virtuelle Termine mit Teams - Integration in Epic EHR](ehr-admin.md)
