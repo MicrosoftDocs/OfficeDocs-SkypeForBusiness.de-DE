@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837448"
+ms.locfileid: "64839036"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Reflect in Microsoft Teams
 
@@ -31,9 +31,9 @@ Diese Eincheck-App hilft Lehrkräften mittels Emojis und forschungsgestützter e
 
 
 ## <a name="privacy-and-security"></a>Datenschutz und Sicherheit
-Reflect entspricht denselben Datenschutz- und Sicherheitsstandards wie [Education Insights](class-insights.md), um vertrauliche Informationen von Schülern und Studenten zu schützen.
+Reflect befolgt die gleichen Datenschutz- und Sicherheitsstandards wie [Education Insights](class-insights.md), um vertrauliche Informationen von Schülern und Studenten zu schützen.
 
-Reflect erfüllt im Rahmen von Microsoft 365 nationale, regionale und branchenspezifische Vorschriften für die Datenerfassung und -verwendung, einschließlich der [DSGVO](/compliance/regulatory/gdpr) und des [Family Educational Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa), der den Datenschutz von Datensätzen zur Ausbildung von Schülern und Studenten sichert.
+Reflect erfüllt im Rahmen von Microsoft 365 nationale, regionale und branchenspezifische Vorschriften für die Datenerfassung und -verwendung, einschließlich der [DSGVO](/compliance/regulatory/gdpr) und des [Family Educational Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa), der die Privatsphäre der Bildungsunterlagen von Schülern schützt.
 
 Die Daten gehören der Bildungseinrichtung, und Microsoft sammelt und speichert die Daten nur. Microsoft-Mitarbeiter können nicht auf die Daten zugreifen oder sie sehen, es sei denn, dies ist im Rahmen der Compliance in einer geprüften Art und Weise zur Aufrechterhaltung des Dienstes, z. B. zur Datenwiederherstellung, erlaubt.
 
@@ -81,4 +81,4 @@ Für den einfachen Zugriff können Sie mit der rechten Maustaste auf das Reflect
 > Sie können die Reflect-App auch über diesen Link finden: [https://aka.ms/getReflect](https://aka.ms/getReflect).
 
 > [!TIP]
-> Weitere Informationen finden Sie auf der [Supportseite zu Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Diese Seite umfasst Anweisungen für Lehrkräfte und Schüler/Studenten und hilft beim Erstellen des ersten Reflect-Check-Ins.
+> Weitere Einzelheiten finden Sie auf der [Reflect-Supportseite](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Diese Seite enthält Richtlinien für Lehrkräfte und Schüler und hilft bei der Erstellung ihres ersten Reflect-Check-ins.

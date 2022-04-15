@@ -1559,7 +1559,7 @@ items:
         items:
           - name: Bookings in Teams
             items:
-              - name: Virtuelle Untersuchung mit Teams und Bookings
+              - name: Virtuelle Termine mit Teams und Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Verwalten der Microsoft Bookings-App
                 href: bookings-app-admin.md
@@ -1683,15 +1683,15 @@ items:
         items:
           - name: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: Virtuelle Untersuchung
+          - name: Virtuelle Termine
             items:
-              - name: Virtuelle Untersuchung mit Teams – Integration in die Cerner-EGA
+              - name: Virtuelle Termine mit Teams – Integration in die Cerner-EGA
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: Virtuelle Untersuchung mit Teams – Integration in die Epic-EGA
+              - name: Virtuelle Termine mit Teams – Integration in die Epic-EGA
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EGA-Administratorberichte
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Virtuelle Untersuchung mit Teams und Bookings
+              - name: Virtuelle Termine mit Teams und Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Verwendungsbericht zu virtuellen Untersuchungen
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
