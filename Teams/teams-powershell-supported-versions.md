@@ -12,12 +12,12 @@ ms.collection:
 description: Erfahren Sie mehr über Versionen, die vom Teams PowerShell-Modul unterstützt werden, das für die Verwaltung von Microsoft Teams verwendet wird.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e557a8ca4e8dff5489dbf729a137d73f9ca13c85
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 242c7c43b2af31b11e4183fdf3b9ed1b00f4bb1b
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732283"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866240"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell-Modul – Unterstützte Versionen
 
@@ -101,6 +101,7 @@ Organisationen, die in den letzten drei Monaten (22. Januar – 22. März) Teams
   * Get-CsImFilterConfiguration
   * Get-CsAudioConferencingProvider
   * [Get| Set]-CsTenantPublicProvider
+  * Get-CsHostingProvider
   * [Get| Festlegen| Registrieren| Registrierung aufheben]-CsHybridPSTNAppliance
   * [Get| Festlegen| Neu| Remove]-CsHybridPSTNSite
   * [Get| Set]- CsHybridMediationServer
