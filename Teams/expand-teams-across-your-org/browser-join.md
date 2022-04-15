@@ -1,5 +1,5 @@
 ---
-title: Verwalten der Teilnahmeerfahrung für Teams virtuelle Besuche in Browsern
+title: Verwalten der Teilnahmeerfahrung für Teams virtueller Termine in Browsern
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: Erfahren Sie mehr über die Teilnahmeerfahrung für Teams virtuelle Besuche in Browsern.
-ms.openlocfilehash: 276e33b16972f0543566014adf264fd12e45c4ae
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: Erfahren Sie mehr über die Teilnahmeerfahrung für Teams virtuellen Termine in Browsern.
+ms.openlocfilehash: 418186734befa66f145ca56f883605715d83aa30
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703744"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853306"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-browsers"></a>Verwalten der Teilnahmeerfahrung für Teams virtuelle Besuche in Browsern
+# <a name="manage-the-join-experience-for-teams-virtual-appointments-on-browsers"></a>Verwalten der Teilnahmeerfahrung für Teams virtueller Termine in Browsern
 
 Microsoft Teams erleichtert es Personen, an virtuellen Terminen teilzunehmen, ohne Teams herunterladen zu müssen. Für eine nahtlosere Erfahrung können Die Teilnehmer an Terminen wie Gesundheitsbesuchen und Finanzberatungen über einen Desktop- oder mobilen Browser teilnehmen. Teilnehmer müssen die Teams-App nicht auf ihrem Gerät installieren.
 
@@ -68,7 +68,7 @@ Sie oder Ihre Mitarbeiter brauchen keine Einrichtung!
 
 **Integration mit Cerner EHR**: Der Teams EHR Connector unterstützt Patienten bei der Teilnahme an virtuellen Terminen über einen Link in der SMS-Sms. Zum Zeitpunkt des Termins können Patienten teilnehmen, indem sie auf den Link in der SMS-Sms tippen, und Teams wird in einem Browser geöffnet.
 
-**Integration mit Epic EHR**: Der Teams EHR Connector unterstützt Patienten, die über MyChart Web und Mobile an virtuellen Terminen teilnehmen. Zum Zeitpunkt des Termins können Patienten den Besuch über MyChart starten, indem sie die Schaltfläche **"Virtuellen Besuch beginnen**" verwenden, und Teams wird in einem Browser geöffnet.
+**Integration mit Epic EHR**: Der Teams EHR Connector unterstützt Patienten, die über MyChart Web und Mobile an virtuellen Terminen teilnehmen. Zum Zeitpunkt des Termins können Patienten den Termin über MyChart über die Schaltfläche **"Virtuellen Besuch beginnen**" starten und Teams in einem Browser öffnen.
 
 ## <a name="supported-browsers"></a>Unterstützte Browser
 
@@ -88,12 +88,12 @@ Hier sind die Browser, die derzeit unterstützt werden. Wir unterstützen die ne
 
 ## <a name="things-to-consider"></a>Dinge, die Sie berücksichtigen sollten
 
-Die Mitarbeiter, die den Besuch durchführen, können ihren Bildschirm von ihrem Teams Desktop-, Mobil- oder Webclient mit einem Teilnehmer teilen, der über einen Desktop- oder mobilen Browser beitritt. Teilnehmer können ihren Bildschirm jedoch nicht über einen Desktop- oder mobilen Browser freigeben.
+Die Mitarbeiter, die den Termin durchführen, können ihren Bildschirm über ihren Teams Desktop-, Mobil- oder Webclient für einen Teilnehmer freigeben, der über einen Desktop- oder mobilen Browser beitritt. Teilnehmer können ihren Bildschirm jedoch nicht über einen Desktop- oder mobilen Browser freigeben.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Virtuelle Besuche mit Teams und der Bookings-App](bookings-virtual-visits.md)
+- [Virtuelle Termine mit Teams und der Bookings-App](bookings-virtual-visits.md)
 - [Erstellen eines Bookings Termintyps](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Teilnehmen an einem Bookings Termin als Teilnehmer](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Virtuelle Besuche mit Teams - Integration in cerner EHR](healthcare/ehr-admin-cerner.md)
-- [Virtuelle Besuche mit Teams - Integration in Epic EHR](healthcare/ehr-admin.md)
+- [Virtuelle Termine mit Teams - Integration in Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [Virtuelle Termine mit Teams - Integration in Epic EHR](healthcare/ehr-admin.md)
