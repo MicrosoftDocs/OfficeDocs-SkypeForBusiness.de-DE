@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85171e8125fc4e6cecbfde4a0f6832b48ca7ca84
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756961"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910871"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Übersicht über Drittanbieter-Apps in Microsoft Teams
 
@@ -34,8 +34,9 @@ Anwendungen von Drittanbietern in Microsoft Teams werden nicht von Microsoft kon
 Microsoft stellt nicht nur sicher, dass Administratoren die Kontrolle über Drittanbieter-Apps haben, sondern auch, dass nur qualitativ hochwertige Apps im Store verfügbar sind. Wir fordern, dass alle Apps eine obligatorische Überprüfungsrunde durch Microsoft durchlaufen, die die Funktionalität der App, die Identität des Herausgebers, die von der App angeforderten Berechtigungen sowie die Compliance, den Datenschutz und die Datensicherheit der von der App gesammelten Daten überprüft. Wir empfehlen Apps, Teil eines optionalen Complianceprogramms zu sein, um einen zusätzlichen Schwerpunkt auf Sicherheit und Compliance mit Branchenstandards zu legen. Informationen zu diesen Programmen finden Sie in den folgenden Artikeln:
 
 1. [App-Überprüfung](overview-of-app-validation.md#app-validation-and-testing)
-1. [Herausgeberüberprüfung](overview-of-app-validation.md#publisher-verification)
+
 1. Microsoft-App-Complianceprogramm:
 
+   * [Herausgeberüberprüfung](overview-of-app-certification.md#publisher-verification)
    * [Herausgebernachweis](overview-of-app-certification.md#publisher-attestation)
    * [Microsoft 365-Zertifizierung](overview-of-app-certification.md#microsoft-365-certification)

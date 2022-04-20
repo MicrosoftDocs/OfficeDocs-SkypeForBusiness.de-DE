@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756991"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910901"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Von Microsoft durchgeführte Überprüfung für alle Teams-Apps
 
@@ -53,14 +53,6 @@ Wir führen über 400 Testfälle für jede App aus, bevor sie im Teams Store ver
 * Die Kontaktdaten des ISV finden Sie im Store-Eintrag und auf den jeweiligen [Publisher-Nachweisseiten](/microsoft-365-app-certification/teams/teams-apps).
 
 Darüber hinaus empfiehlt Microsoft den App-Entwicklern, an ihrem Complianceprogramm teilzunehmen, bei dem es sich um einen strengen, zweistufigen Ansatz handelt, um App-Qualität, Sicherheit und Compliance sicherzustellen. Teams Store verfügt über Hunderte von Apps, die über die Erfüllung der bereits detaillierten Validierungsrichtlinien hinausgehen und diese Programme einhalten.
-
-## <a name="publisher-verification"></a>Herausgeberüberprüfung
-
-Bevor ein App-Entwickler seine App an Microsoft übermitteln kann, muss sich der Entwickler einer Überprüfung unterziehen. Ein Herausgeber überprüft seine Identität mithilfe seines Microsoft Partner Network (MPN)-Kontos und ordnet dieses MPN-Konto der App-Registrierung zu. Die Publisher-Überprüfung hilft Administratoren und Endbenutzern, die Authentizität von Anwendungsentwicklern zu verstehen, die sich in die Microsoft Identity Platform integrieren. Die Publisher-Überprüfung bietet die folgenden Vorteile:
-
-* Erhöhte Transparenz und Risikoreduzierung für Kunden – diese Funktion hilft Kunden zu verstehen, welche Apps, die in ihren Organisationen verwendet werden, von Entwicklern veröffentlicht werden, denen sie vertrauen.
-* Verbessertes Branding – Ein `verified` Signal wird auf der Azure Active Directory-Zustimmungsaufforderung, auf der Seite "Unternehmens-Apps" und anderen Benutzeroberflächen angezeigt, die von Endbenutzern und Administratoren verwendet werden.
-* Reibungslosere Unternehmensakzeptanz – Administratoren können Benutzerzustimmungsrichtlinien konfigurieren, wobei der Herausgeberüberprüfungsstatus als primäre Richtlinienkriterien gilt.
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839056"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922496"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -131,7 +131,7 @@ Hier sind einige weitere Punkte, die Sie berücksichtigen sollten, wenn Sie Micr
 
 - Wenn Ihre Organisation Compliance-Anforderungen erfüllen muss, um sicherzustellen, dass alle Besprechungsdiskussionen gefunden werden können, sollten Sie private Besprechungen deaktivieren, wenn der Organisator über ein lokales Exchange-Postfach verfügt. Weitere Informationen finden Sie unter [Planen privater Besprechungen](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- Bei einer Hybridbereitstellung von Exchange sind Inhalte aus Chatnachrichten unabhängig davon durchsuchbar, ob Chatteilnehmer über ein cloudbasiertes oder ein lokales Postfach verfügen. Weitere Informationen finden Sie unter [Durchsuchen von cloudbasierten Postfächern für lokale Benutzer](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Weitere Informationen zur Suche nach Inhalten in Teams finden Sie unter [Ausführen einer Inhaltssuche im Microsoft 365 Compliance Center](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- Bei einer Hybridbereitstellung von Exchange sind Inhalte aus Chatnachrichten unabhängig davon durchsuchbar, ob Chatteilnehmer über ein cloudbasiertes oder ein lokales Postfach verfügen. Weitere Informationen finden Sie unter [Durchsuchen von cloudbasierten Postfächern für lokale Benutzer](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Wenn Sie mehr über die Suche nach Inhalten in Teams erfahren möchten, lesen Sie [die Inhaltssuche im Microsoft Purview Compliance-Portal](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - Für den Anwesenheitsstatus muss Microsoft Teams prüfen, ob das Postfach auf Exchange Online oder lokal gehostet wird. Der Dienst entscheidet dann, von wo aus auf die Mailbox zugegriffen wird. Damit der Teams-Dienst den Postfachstandort über den REST-API-Aufruf an den Exchange Online-Dienst überprüfen kann, müssen Sie eine Exchange-Hybridumgebung bereitstellen, indem Sie den Exchange-Hybridkonfigurations-Assistenten ausführen, wie in [Erstellen einer Hybridbereitstellung mit dem Hybridkonfigurations-Assistenten](/exchange/hybrid-deployment/deploy-hybrid) beschrieben.
 

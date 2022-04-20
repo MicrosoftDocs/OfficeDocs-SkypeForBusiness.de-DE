@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
+description: Erfahren Sie, wie Sie Microsoft Teams Daten aus dem Überwachungsprotokoll im Microsoft Purview Compliance-Portal abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63711329"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922636"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -42,7 +42,7 @@ Eine vollständige Liste der überwachten Teams Aktivitäten finden Sie [unter T
 
 ## <a name="turn-on-auditing-in-teams"></a>Aktivieren der Überwachung in Microsoft Teams
 
-Bevor Sie sich Überwachungsdaten ansehen können, müssen Sie zuerst die Überwachung im Microsoft 365 Compliance Center aktivieren. Weitere Informationen finden [Sie unter Aktivieren oder Deaktivieren der Überwachung](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+Bevor Sie sich Überwachungsdaten ansehen können, müssen Sie zuerst die Überwachung im Microsoft Purview Compliance-Portal aktivieren. Weitere Informationen finden [Sie unter Aktivieren oder Deaktivieren der Überwachung](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Überwachungsdaten sind erst ab dem Zeitpunkt verfügbar, an dem Sie die Überwachung aktiviert haben.
@@ -235,4 +235,4 @@ Wir arbeiten an der Einbindung von Microsoft Teams-Ereignissen in Anomalieerkenn
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Durchsuchen des Überwachungsprotokolls im Microsoft 365 Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Durchsuchen des Überwachungsprotokolls im Microsoft Purview-Complianceportal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
