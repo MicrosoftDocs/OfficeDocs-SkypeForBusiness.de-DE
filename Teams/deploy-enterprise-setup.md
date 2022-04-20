@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcbbc25de23018a66dd807ee47f5486103d8e32d
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
-ms.translationtype: MT
+ms.openlocfilehash: 6d5a9e3318ac0c72360487dbfc08b63bd39dc55e
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64648954"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922426"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Einrichten von Microsoft Teams in Ihrem Unternehmen
 
 Verwenden Sie die Informationen in diesem Artikel als Leitfaden, um Sie durch die Bereitstellung von Teams in Ihrer Organisation zu führen.
 
 > [!NOTE]
-> Wenn dies noch nicht geschehen ist, wird dringend empfohlen, die Bereitstellung von Teams mit einem Pilotprojekt zu beginnen. Ein Pilotprojekt ermöglicht es Ihnen und einigen Early Adoptern, sich vor der Planung und dem möglichen Rollout mit Teams und dessen Funktionen vertraut zu machen. Weitere Informationen zum Starten Ihres Pilotprojekts finden Sie unter [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md).
+> Falls Sie es noch nicht getan haben, empfehlen wir Ihnen dringend, Ihre Teams-Einführung mit einem Pilotprojekt zu beginnen. Ein Pilotprojekt ermöglicht es Ihnen und einigen frühen Anwendern, sich mit Teams und seinen Funktionen vertraut zu machen, bevor Sie die Einführung planen und schließlich durchführen. Weitere Informationen darüber, wie Sie mit dem Pilotprojekt beginnen können, finden Sie unter [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Stellen Sie vor dem allgemeinen Rollout von Teams sicher, dass Ihre Organisation bereit ist, indem Sie die Punkte unter [Stellen Sie sicher, dass Sie bereit sind](get-started-with-teams-quick-start.md#make-sure-youre-ready) überprüfen.
 
@@ -78,8 +78,8 @@ Chats, Teams und Kanäle sind die Säulen von Teams. Der **Chat** ermöglicht es
 
 | Entscheidung | Beschreibung |
 |--|--|
-| Sollte der externe Zugriff aktiviert sein? | Über den externen Zugriff kann jeder in einer anderen Organisation mit Personen in Ihrer Organisation sprechen. Dies ist nützlich, wenn Sie in enger Beziehung zu einer anderen Organisation, z. B. einem Lieferanten, stehen und es den Personen in einer Organisation ermöglichen möchten, miteinander zu chatten, Besprechungen zu halten und so weiter.<p>Der externe Zugriff ist anders als der Gastzugriff. Über den externen Zugriff erhält jeder in einer Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen.<p>Der externe Zugriff **ist standardmäßig aktiviert** .<p>[Verwaltung des externen Zugriffs in Microsoft Teams](manage-external-access.md)  |
-| Sollte der Gastzugriff aktiviert sein? |Mithilfe eines Gastzugriffs können Personen in Ihrer Organisation Personen außerhalb Ihrer Organisation dazu einladen, auf Ihr Teams und Ihre Kanäle zuzugreifen. Der Gastzugriff wird häufig verwendet, um mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, die keine formelle Beziehung mit Ihrer Organisation haben. So könnten Sie beispielsweise einen Projektplaner vorübergehend zur Arbeit an einem Projekt einladen.<p>Der Gastzugriff ist anders als der externe Zugriff. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen. Über den externen Zugriff erhält jeder in einer anderen Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. <p>Der Gastzugriff **ist standardmäßig aktiviert** . <p>[Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team)  |
+| Sollte der externe Zugriff aktiviert sein? | Über den externen Zugriff kann jeder in einer anderen Organisation mit Personen in Ihrer Organisation sprechen. Dies ist nützlich, wenn Sie in enger Beziehung zu einer anderen Organisation, z. B. einem Lieferanten, stehen und es den Personen in einer Organisation ermöglichen möchten, miteinander zu chatten, Besprechungen zu halten und so weiter.<p>Der externe Zugriff ist anders als der Gastzugriff. Über den externen Zugriff erhält jeder in einer Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen.<p>Der externe Zugriff ist standardmäßig **Aktiviert**.<p>[Verwaltung des externen Zugriffs in Microsoft Teams](manage-external-access.md)  |
+| Sollte der Gastzugriff aktiviert sein? |Mithilfe eines Gastzugriffs können Personen in Ihrer Organisation Personen außerhalb Ihrer Organisation dazu einladen, auf Ihr Teams und Ihre Kanäle zuzugreifen. Der Gastzugriff wird häufig verwendet, um mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, die keine formelle Beziehung mit Ihrer Organisation haben. So könnten Sie beispielsweise einen Projektplaner vorübergehend zur Arbeit an einem Projekt einladen.<p>Der Gastzugriff ist anders als der externe Zugriff. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen. Über den externen Zugriff erhält jeder in einer anderen Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. <p>Der Gastzugriff ist standardmäßig **Aktiviert**. <p>[Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[Besprechungen und Audiokonferenzen](#tab/MeetingsAudioConferencing)
 
@@ -118,7 +118,7 @@ Mit dem Telefonsystem können Sie Ihr vorhandenes lokales Telefonsystem durch ei
 | Möchten Sie Ihre lokale Telefonanlage ersetzen? | Telefonsystem einrichten, automatische Telefonanrufe konfigurieren, Anrufpläne, Anrufwarteschlangen und so weiter. <p> [Einrichten des Telefonsystems in Ihrer Organisation](setting-up-your-phone-system.md)|
 | Möchten Sie Richtlinien für Cloud-Voicemail festlegen?| Sie können steuern, welche Cloud-Voicemailfeatures Ihren Benutzern zur Verfügung stehen und wie sie funktionieren. Sie können beispielsweise die Voicemailabschrift für Ihre gesamte Organisation aktivieren oder deaktivieren, die Profanitätsmaske für bestimmte Benutzer aktivieren oder deaktivieren und so weiter.<p> [Einrichten von Cloudvoicemail](set-up-phone-system-voicemail.md) |
 | Möchten Sie dynamische Notrufe aktivieren?| Sie können Netzwerkeinstellungen konfigurieren, Notrufadressen an Standorte zuweisen und so weiter. Mit dynamischen Notfallanrufen können Sie eine Standortkarte basierend auf Netzwerkeinstellungen und anderen Metadaten konfigurieren, um festzulegen, wohin Notfallmitarbeiter für den Fall gesendet werden, dass ein Benutzer einen Notruf abgibt.<p>[Planen und Konfigurieren dynamischer Notrufe](configure-dynamic-emergency-calling.md) |
-| Möchten Sie das Verhalten der Anrufer-ID anpassen? | Standardmäßig ist die Telefonnummer, die angezeigt wird, wenn ein Teams Benutzer anruft, die Telefonnummer des Benutzers. Sie können dies in die Hauptnummer des Unternehmens ändern, die Telefonnummer blockieren, die Nummer anonymisieren oder in eine andere Dienstnummer ändern. Teams hat eine globale Richtlinie, die für jeden gilt.<p>Wenn für alle dieselbe Richtlinie gelten soll, müssen Sie nur Änderungen an dieser globalen Richtlinie vornehmen. <p>Wenn Sie unterschiedliche Richtlinien für unterschiedliche Personengruppen (z. B. eine Richtlinie für Büroarbeiter und eine weitere für leitende Angestellte) wünschen, können Sie Richtlinien erstellen und zuweisen. Wenn Sie einem Benutzer eine Richtlinie zuweisen, gilt die globale Richtlinie nicht mehr für diesen Benutzer.<p> [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md). |
+| Möchten Sie das Verhalten der Anrufer-ID anpassen? | Standardmäßig wird bei einem Anruf eines Teams-Benutzers die Telefonnummer des Benutzers angezeigt. Sie können dies in die Hauptnummer des Unternehmens ändern, die Telefonnummer blockieren, die Nummer anonymisieren oder in eine andere Dienstnummer ändern. Teams hat eine globale Richtlinie, die für jeden gilt.<p>Wenn für alle dieselbe Richtlinie gelten soll, müssen Sie nur Änderungen an dieser globalen Richtlinie vornehmen. <p>Wenn Sie unterschiedliche Richtlinien für unterschiedliche Personengruppen (z. B. eine Richtlinie für Büroarbeiter und eine weitere für leitende Angestellte) wünschen, können Sie Richtlinien erstellen und zuweisen. Wenn Sie einem Benutzer eine Richtlinie zuweisen, gilt die globale Richtlinie nicht mehr für diesen Benutzer.<p> [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md). |
 
 ---
 
@@ -145,7 +145,7 @@ Teams und Microsoft 365 stellen zahlreiche Tools zur Verfügung, mit deren Hilfe
 | [Kommunikationscompliance](communication-compliance.md)| Hilft bei der Reduzierung von Kommunikationsrisiken, indem es beleidigende, profane und belästigende Sprache, rassistische und blutige Bilder für Erwachsene und die Weitergabe sensibler Informationen identifiziert und Maßnahmen dagegen ergreift. |
 | [Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](teams-recording-policy.md)| Hiermit können Sie steuern, wann oder ob Anrufe und Besprechungen automatisch aufgezeichnet und für spätere Verarbeitung, Aufbewahrung oder Analyse gespeichert werden sollen.|
 | [Vertraulichkeitsbezeichnungen](sensitivity-labels.md)| Hilft Ihnen dabei, den Zugriff auf vertrauliche Informationen zu schützen und zu regulieren, indem Sie Bezeichnungen erstellen, mit denen ausgewählte Datenschutzoptionen erzwungen werden.|
-| [Verhinderung von Datenverlust](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Ermöglicht es Ihnen, Regeln zu erstellen, mit denen festgelegt wird, wie bestimmte Informationen wie Sozialversicherungsnummern, Kreditkartennummern und so weiter verarbeitet werden sollen. Sie können das Senden bestimmter Informationen verhindern, verhindern, dass diese Ihre Organisation verlassen, und so weiter.|
+| [Schutz vor Datenverlust in Microsoft Purview](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Ermöglicht es Ihnen, Regeln zu erstellen, mit denen festgelegt wird, wie bestimmte Informationen wie Sozialversicherungsnummern, Kreditkartennummern und so weiter verarbeitet werden sollen. Sie können das Senden bestimmter Informationen verhindern, verhindern, dass diese Ihre Organisation verlassen, und so weiter.|
 | [eDiscovery](eDiscovery-investigation.md)| Hilft Ihnen bei der Suche nach und dem Abrufen von Inhalten in Ihrem Unternehmen, wenn Ihr Unternehmen Discovery-Anforderungen in Gerichtsverfahren erhält. |
 | [Gesetzliche Aufbewahrungspflicht](legal-hold.md)| Hilft Ihnen bei der Aufbewahrung von Informationen in Ihrer Organisation, auch wenn sie von einem Benutzer gelöscht werden, wenn dies während rechtlicher Verfahren erforderlich ist, damit sie während eDiscovery-Untersuchungen gefunden werden können. |
 | [Inhaltssuche](content-search.md)| Bietet einen Weg, um Microsoft Teams-Informationen abzurufen. Die Abfragen schließen Exchange, SharePoint Online und OneDrive for Business ebenfalls ein.|
@@ -154,7 +154,7 @@ Teams und Microsoft 365 stellen zahlreiche Tools zur Verfügung, mit deren Hilfe
 
 ## <a name="clients"></a>Clients
 
-Wenn Sie bereit sind, Teams für Ihre Benutzer zu verwenden, können sie den Teams-Client auf ihrem Windows-, Mac- oder Linux-PC oder aber auf ihrem Android- oder iOS-Gerät installieren. Benutzer können den Teams-Client direkt von <https://teams.microsoft.com/downloads> herunterladen.
+Wenn Sie bereit sind, dass Ihre Benutzer Teams verwenden können, können sie den Teams-Client auf ihrem Windows-, Mac- oder Linux-PC oder auf ihrem Android- oder iOS-Gerät installieren. Benutzer können den Teams-Client direkt aus<https://teams.microsoft.com/downloads>herunterladen.
 
 Stellen Sie sicher, dass jeder, der Teams verwenden wird, über eine Teams-Lizenz verfügt. Weitere Informationen zum Zuweisen einer Teams-Lizenz finden Sie unter [Verwalten des Benutzerzugriffs auf Teams](user-access.md#using-the-microsoft-365-admin-center).
 

@@ -22,10 +22,10 @@ ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
 ms.openlocfilehash: ce2c3a93d524ce9e08c3e97dd51ef8c6f19d9111
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62363001"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und Richtlinienpakete für Bildung

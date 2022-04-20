@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c91e964d9cc0bfc3047ed8413dff15e5aafb0cb8
-ms.sourcegitcommit: 4c608bf06f43e88c844492c262a26dcf3eacb4c3
+ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523804"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922666"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -313,7 +313,7 @@ Weitere Informationen zu eDiscovery finden Sie im Artikel [eDiscovery-Lösungen 
 
 Mithilfe der ProgID-Eigenschaft können Sie automatische Aufbewahrungsbezeichnungen nur auf Videodateien von Aufzeichnungen von Teams-Besprechungen anwenden. Weitere Informationen finden Sie unter [Automatisches Anwenden einer Aufbewahrungsbezeichnung für Teams-Besprechungsaufzeichnungen](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings).
 
-### <a name="data-loss-prevention-dlp-policies"></a>Richtlinien zur Verhinderung von Datenverlust (DLP)
+### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Microsoft Purview-Richtlinien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP)
 
 Sie können DLP-Richtlinien auch über die ProgID-Eigenschaft auf Besprechungsaufzeichnungsdateien anwenden. Legen Sie in der DLP-Regel für Dateien in SharePoint Online und OneDrive for Business folgende Bedingungen fest:
 

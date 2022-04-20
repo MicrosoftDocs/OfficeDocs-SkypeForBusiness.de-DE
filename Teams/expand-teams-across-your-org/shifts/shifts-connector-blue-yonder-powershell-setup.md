@@ -1,5 +1,5 @@
 ---
-title: Verwenden von PowerShell zum Verbinden von Schichten mit der Personalverwaltung in Blue Yonder
+title: Verwenden von PowerShell zum Verbinden von Schichten mit Blue Yonder Workforce Management
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -8,38 +8,38 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Mit PowerShell Schichten in die Personalverwaltung von Blue Yonder integrieren.
+description: Erfahren Sie, wie Sie PowerShell verwenden, um Schichten in Blue Yonder Workforce Management zu integrieren.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b78f45919649fda29f09ea338a160c2ab376c1a
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: ad0f7e84dcd65f844e457d4821717ff7593593ce
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64593684"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64976018"
 ---
-# <a name="use-powershell-to-connect-shifts-to-blue-yonder-workforce-management"></a>Verwenden von PowerShell zum Verbinden von Schichten mit der Personalverwaltung in Blue Yonder
+# <a name="use-powershell-to-connect-shifts-to-blue-yonder-workforce-management"></a>Verwenden von PowerShell zum Verbinden von Schichten mit Blue Yonder Workforce Management
 
 ## <a name="overview"></a>Übersicht
 
-Verwenden Sie Microsoft Teams Connector "Schichten" für [Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder), um die Schichten-App in Microsoft Teams mit Blue Yonder Workforce Management (Blue Yonder WFM) zu integrieren. Nachdem eine Verbindung eingerichtet wurde, können Ihre Mitarbeiter in der Frontline ihre Zeitpläne in Blue Yonder WFM nahtlos in Schichten anzeigen und verwalten.
+Verwenden Sie den [Microsoft Teams Shifts-Connector für Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder), um die Shifts-App in Microsoft Teams mit Blue Yonder Workforce Management (Blue Yonder WFM) zu integrieren. Nachdem eine Verbindung eingerichtet wurde, können Ihre Mitarbeiter in Service und Produktion ihre Zeitpläne in Blue Yonder WFM nahtlos in Schichten anzeigen und verwalten.
 
-In diesem Artikel werden Sie durch die Verwendung von PowerShell zum Einrichten und Konfigurieren des Connectors für die Integration von Schichten in Blue Yonder WFM erläutert.
+In diesem Artikel führen wir Sie durch die Verwendung von PowerShell zum Einrichten und Konfigurieren des Connectors zur Integration von Schichten in Blue Yonder WFM.
 
-Zum Einrichten der Verbindung führen Sie ein PowerShell-Skript aus. Das Skript konfiguriert den Connector, wendet Synchronisierungseinstellungen an, erstellt die Verbindung und ordnet Blue Yonder WFM-Websites Teams zu. Die Synchronisierungseinstellungen bestimmen die in Schichten aktivierten Funktionen sowie die Zeitplaninformationen, die zwischen Blue Yonder WFM und Schichten synchronisiert werden. Zuordnungen definieren die Synchronisierungsbeziehung zwischen Ihren Blue Yonder WFM-Websites und -Teams in Teams. Sie können vorhandene und neue Teams zuordnungen.
+Zum Einrichten der Verbindung führen Sie ein PowerShell-Skript aus. Das Skript konfiguriert den Connector, wendet Synchronisierungseinstellungen an, erstellt die Verbindung und ordnet Blue Yonder WFM-Websites Teams zu. Synchronisierungseinstellungen bestimmen die in Schichten aktivierten Features und die Zeitplaninformationen, die zwischen Blue Yonder WFM und Schichten synchronisiert werden. Zuordnungen definieren die Synchronisierungsbeziehung zwischen Ihren Blue Yonder WFM-Websites und -Teams in Teams. Sie können vorhandene Teams und neue Teams zuordnen.
 
-Wir stellen zwei Skripts zur Verfügung. Sie können entweder Skripts verwenden, je nachdem, ob Sie vorhandenen Teams eine Zuordnung bzw. neue Teams für die Zuordnung erstellen möchten.
+Wir stellen zwei Skripts bereit. Sie können entweder ein Skript verwenden, je nachdem, ob Sie vorhandenen Teams zugeordnet oder neue Teams erstellen möchten, die zugeordnet werden sollen.
 
-Sie können mehrere Verbindungen einrichten, die jeweils unterschiedliche Synchronisierungseinstellungen haben. Wenn Ihre Organisation beispielsweise über mehrere Standorte mit unterschiedlichen Zeitplananforderungen verfügt, erstellen Sie eine Verbindung mit eindeutigen Synchronisierungseinstellungen für jeden Standort. Denken Sie daran, dass eine Blue Yonder WFM-Website immer nur einem Team zugeordnet werden kann. Wenn eine Website bereits einem Team zugeordnet ist, kann sie nicht einem anderen Team zugeordnet werden.
+Sie können mehrere Verbindungen mit jeweils unterschiedlichen Synchronisierungseinstellungen einrichten. Wenn Ihre Organisation beispielsweise über mehrere Standorte mit unterschiedlichen Zeitplananforderungen verfügt, erstellen Sie eine Verbindung mit eindeutigen Synchronisierungseinstellungen für jeden Standort. Denken Sie daran, dass eine Blue Yonder-WFM-Website zu einem bestimmten Zeitpunkt nur einem Team zugeordnet werden kann. Wenn eine Website bereits einem Team zugeordnet ist, kann sie keinem anderen Team zugeordnet werden.
 
-Mit Blue Yonder WFM als System der Aufzeichnung können Ihre Mitarbeiter in der Frontlinie Schichten sehen und tauschen, ihre Verfügbarkeit verwalten und in Schichten auf ihren Geräten Arbeitszeit anfordern. Frontline-Manager können Blue Yonder WFM weiterhin zum Einrichten von Zeitplänen verwenden.
+Mit Blue Yonder WFM als Datensatzsystem können Ihre Mitarbeiter in Service und Produktion Schichten sehen und austauschen, deren Verfügbarkeit verwalten und Abwesenheitszeiten in Schichten auf ihren Geräten anfordern. Vorgesetzte in Service und Produktion können weiterhin Blue Yonder WFM verwenden, um Zeitpläne einzurichten.
 
 > [!NOTE]
-> Sie können auch den [Verbinder-Assistenten](shifts-connector-wizard.md) Schichten im Assistenten Microsoft 365 Admin Center, um Schichten mit Blue Yonder WFM zu verbinden.
+> Sie können auch den [Verbinder-Assistenten "Schichten"](shifts-connector-wizard.md) im Microsoft 365 Admin Center verwenden, um Schichten mit Blue Yonder WFM zu verbinden.
 
 ## <a name="before-you-begin"></a>Bevor Sie beginnen
 
@@ -55,51 +55,61 @@ Mit Blue Yonder WFM als System der Aufzeichnung können Ihre Mitarbeiter in der 
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-## <a name="identify-the-teams-you-want-to-map"></a>Identifizieren der Teams, die Sie karten möchten
+## <a name="connect-to-teams"></a>Verbinden zu Teams
+
+Führen Sie die folgenden Schritte aus, um eine Verbindung mit Teams herzustellen.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeldeinformationen an. Sie sind jetzt für die Ausführung der Skripts in diesem Artikel und der Shifts-Connector-Cmdlets eingerichtet.
+
+## <a name="identify-the-teams-you-want-to-map"></a>Identifizieren der Teams, die Sie zuordnen möchten
 
 > [!NOTE]
-> Führen Sie diesen Schritt aus, wenn Sie Blue Yonder WFM-Websites vorhandenen Teams zuordnen möchten. Wenn Sie neue Teams für die Zuordnung erstellen, können Sie diesen Schritt überspringen.
+> Führen Sie diesen Schritt aus, wenn Sie Blue Yonder WFM-Websites vorhandenen Teams zuordnen. Wenn Sie neue Teams für die Zuordnung erstellen, können Sie diesen Schritt überspringen.
 
-Wechseln Sie Azure-Portal Gruppe zur Seite Alle Gruppen, um [](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) eine Liste der TeamIds von Teams in Ihrer Organisation zu erhalten.
+Wechseln Sie in der Azure-Portal zur Seite ["Alle Gruppen](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups)", um eine Liste der Team-IDs von Teams in Ihrer Organisation abzurufen.
 
-Notieren Sie sich die TeamIds der Teams, die Sie karten möchten. Das Skript fordert Sie zur Eingabe dieser Informationen auf.
+Notieren Sie sich die Team-IDs der Teams, die Sie zuordnen möchten. Das Skript fordert Sie auf, diese Informationen einzugeben.
 
 > [!NOTE]
-> Wenn ein oder mehrere Teams über einen vorhandenen Zeitplan verfügen, entfernt das Skript die Zeitpläne aus diesen Teams. Andernfalls werden doppelte Schichten sehen.
+> Wenn ein oder mehrere Teams über einen vorhandenen Zeitplan verfügen, entfernt das Skript die Zeitpläne aus diesen Teams. Andernfalls werden doppelte Schichten angezeigt.
 
 ## <a name="run-the-script"></a>Ausführen des Skripts
 
 Führen Sie das Skript aus:
 
-- Wenn Sie eine Verbindung einrichten und neue Teams für die Zuordnung erstellen möchten, [führen Sie dieses Skript aus](#set-up-a-connection-and-create-new-teams-to-map).
-- Um eine Verbindung herzustellen und vorhandenen Teams zu zuordnungen, [führen Sie dieses Skript aus](#set-up-a-connection-and-map-to-existing-teams).
+- [Führen Sie dieses Skript](#set-up-a-connection-and-create-new-teams-to-map) aus, um eine Verbindung einzurichten und neue Teams für die Zuordnung zu erstellen.
+- Führen [Sie dieses Skript](#set-up-a-connection-and-map-to-existing-teams) aus, um eine Verbindung einzurichten und vorhandenen Teams zuzuordnen.
 
-Das Skript führt die folgenden Aktionen aus. Sie werden zur Eingabe von Setup- und Konfigurationsdetails aufgefordert.
+Das Skript führt die folgenden Aktionen aus. Sie werden aufgefordert, Setup- und Konfigurationsdetails einzugeben.
 
-1. Überprüft und überprüft die Verbindung mit Blue Yonder WFM mit den Von Ihnen eingegebenen Anmeldeinformationen und Dienst-URLs für das Blue Yonder WFM-Dienstkonto.
-1. Konfiguriert den Verbinder Schichten.
-1. Wendet die Synchronisierungseinstellungen an. Zu diesen Einstellungen gehören die Synchronisierungshäufigkeit (in Minuten) und die Zeitplandaten, die zwischen Blue Yonder WFM und Schichten synchronisiert werden. Zeitplandaten werden in den folgenden Parametern definiert:
+1. Testet und überprüft die Verbindung mit Blue Yonder WFM mithilfe der anmeldeinformationen und Dienst-URLs des Blue Yonder WFM-Dienstkontos, die Sie eingeben.
+1. Konfiguriert den Shifts-Connector.
+1. Wendet Synchronisierungseinstellungen an. Diese Einstellungen umfassen die Synchronisierungshäufigkeit (in Minuten) und die Zeitplandaten, die zwischen Blue Yonder WFM und Schichten synchronisiert werden. Zeitplandaten sind in den folgenden Parametern definiert:
 
-    - Der **Parameter enabledConnectorScenarios** definiert Daten, die von Blue Yonder WFM in Schichten synchronisiert werden. Die Optionen sind `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`, `TimeOffRequest`.
-    - Der **Parameter enabledWfiScenarios** definiert Daten, die von Schichten zu Blue Yonder WFM synchronisiert werden. Die Optionen sind `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
+    - Der **Parameter "enabledConnectorScenarios** " definiert Daten, die von Blue Yonder WFM mit Schichten synchronisiert werden. Optionen sind `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`. `TimeOffRequest`
+    - Der Parameter **enabledWfiScenarios** definiert Daten, die von Schichten in Blue Yonder WFM synchronisiert werden. Optionen sind `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
 
-    Weitere Informationen finden Sie unter [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps). Führen Sie [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps) aus, um die Liste der unterstützten Synchronisierungsoptionen für jeden Parameter anzuzeigen.
+    Weitere Informationen finden Sie unter [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps). Um die Liste der unterstützten Synchronisierungsoptionen für jeden Parameter anzuzeigen, führen Sie [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps) aus.
 
     > [!IMPORTANT]
-    > Das Skript ermöglicht die Synchronisierung für alle diese Optionen. Wenn Sie die Synchronisierungseinstellungen ändern möchten, können Sie dies nach dem Einrichten der Verbindung tun. Weitere Informationen finden Sie unter [Verwenden von PowerShell zum Verwalten Ihrer Schichten-Verbindung mit der Personalverwaltung von Blue Yonder](shifts-connector-powershell-manage.md).
+    > Das Skript aktiviert die Synchronisierung für alle diese Optionen. Wenn Sie die Synchronisierungseinstellungen ändern möchten, können Sie dies tun, nachdem die Verbindung eingerichtet wurde. Weitere Informationen finden Sie unter [Verwenden von PowerShell zum Verwalten Ihrer Schichtverbindung mit Blue Yonder Workforce Management](shifts-connector-powershell-manage.md).
 
 1. Erstellt die Verbindung.
-1. Karten der Blue Yonder WFM-Websites zu Teams. Zuordnungen basieren auf den von Ihnen betretenen Blue Yonder WFM-Website-IDs und TeamIds oder basierend auf dem von Ihnen erstellten Skript. Wenn ein Team über einen vorhandenen Zeitplan verfügt, entfernt das Skript Zeitplandaten für den von Ihnen angegebenen Datums- und Uhrzeitbereich.
+1. Karten Blue Yonder WFM-Websites an Teams. Zuordnungen basieren auf den Blue Yonder WFM-Website-IDs und TeamIds, die Sie eingeben, oder auf neuen Teams, die Sie erstellen, je nach ausgeführtem Skript. Wenn ein Team über einen vorhandenen Zeitplan verfügt, entfernt das Skript Zeitplandaten für den von Ihnen angegebenen Datums- und Uhrzeitbereich.
 
 Eine Erfolgsmeldung auf dem Bildschirm gibt an, dass Ihre Verbindung erfolgreich eingerichtet wurde.
 
 ## <a name="if-you-need-to-make-changes-to-a-connection"></a>Wenn Sie Änderungen an einer Verbindung vornehmen müssen
 
-Wenn Sie nach der Einrichtung Änderungen an einer Verbindung vornehmen möchten, lesen Sie Verwenden von [PowerShell zum Verwalten Ihrer Schichtenverbindung mit der Personalverwaltung von Blue Yonder](shifts-connector-powershell-manage.md). So können Sie beispielsweise Synchronisierungseinstellungen und Teamzuordnungen aktualisieren und die Synchronisierung für eine Verbindung deaktivieren.
+Informationen zum Ändern einer Verbindung nach der Einrichtung finden [Sie unter Verwenden von PowerShell zum Verwalten Ihrer Schichtenverbindung mit Blue Yonder Workforce Management](shifts-connector-powershell-manage.md). Sie können z. B. Synchronisierungseinstellungen, Teamzuordnungen aktualisieren und die Synchronisierung für eine Verbindung deaktivieren.
 
 ## <a name="scripts"></a>Skripts
 
-### <a name="set-up-a-connection-and-create-new-teams-to-map"></a>Einrichten einer Verbindung und Erstellen neuer Teams für die Zuordnung
+### <a name="set-up-a-connection-and-create-new-teams-to-map"></a>Einrichten einer Verbindung und Erstellen neuer Teams zur Zuordnung
 
 ```powershell
 #Map WFM sites to teams script
@@ -113,12 +123,6 @@ try {
 } catch {
     throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -178,7 +182,7 @@ $InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -Con
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
-    Write-Host "Suceess"
+    Write-Host "Success"
 } else {
     throw "Connector instance creation failed"
 }
@@ -255,10 +259,9 @@ if ($decision -eq 1) {
 #The Teams admin was set as an owner directly when creating a new team, removing it from owners
 Remove-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
-### <a name="set-up-a-connection-and-map-to-existing-teams"></a>Einrichten einer Verbindung und Zuordnung vorhandener Teams
+### <a name="set-up-a-connection-and-map-to-existing-teams"></a>Einrichten einer Verbindung und Zuordnen zu vorhandenen Teams
 
 ```powershell
 #Map WFM sites to existing teams script
@@ -272,12 +275,6 @@ try {
 } catch {
     throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -393,12 +390,11 @@ if ($decision -eq 1) {
 }
 }
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
-## <a name="shifts-connector-cmdlets"></a>Verschiebt Connector-Cmdlets
+## <a name="shifts-connector-cmdlets"></a>Verbinder-Cmdlets für Schichten
 
-Hilfe zu Connector-Cmdlets für Schichten, einschließlich der in den Skripts verwendeten Cmdlets, finden Sie unter **csTeamsShiftsConnection** in der Teams [PowerShell-Cmdlet-Referenz](/powershell/teams/intro?view=teams-ps). Hier finden Sie Links zu einigen häufig verwendeten Cmdlets.
+Hilfe zu Shifts-Connector-Cmdlets, einschließlich der in den Skripts verwendeten Cmdlets, finden Sie in der [Teams PowerShell-Cmdlet-Referenz](/powershell/teams/intro?view=teams-ps) nach **CsTeamsShiftsConnection**. Hier sind Links zu einigen häufig verwendeten Cmdlets.
 
 - [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
@@ -418,8 +414,8 @@ Hilfe zu Connector-Cmdlets für Schichten, einschließlich der in den Skripts ve
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Verschiebt Verbinder](shifts-connectors.md)
-- [Verwenden von PowerShell zum Verwalten Ihrer Schichtenverbindung zur Personalverwaltung von Blue Yonder](shifts-connector-powershell-manage.md)
+- [Schichtenverbinder](shifts-connectors.md)
+- [Verwenden von PowerShell zum Verwalten Ihrer Schichtverbindung mit Blue Yonder Workforce Management](shifts-connector-powershell-manage.md)
 - [Verwalten der Schichten-App](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Übersicht über PowerShell für Microsoft Teams](../../teams-powershell-overview.md)
-- [Teams des PowerShell-Cmdlets](/powershell/teams/intro?view=teams-ps)
+- [Teams PowerShell-Cmdlet-Referenz](/powershell/teams/intro?view=teams-ps)

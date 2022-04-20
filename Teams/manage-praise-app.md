@@ -10,44 +10,44 @@ ms.service: msteams
 ms.localizationpriority: medium
 description: Erfahren Sie, wie Sie die Lob-App im Microsoft Teams Admin Center verwalten.
 ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "63442681"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
-Die Lob-App in Microsoft Teams hilft Benutzern, Mitgliedern Ihrer Organisation oder Ihres Klassenzimmers Anerkennung zu zeigen. Die Badges in Lob sollen Ihnen helfen, den Aufwand zu erkennen, der in die breite Palette an Arbeit fällt, die Teams Benutzer tun, von Lehrkräften bis zu Mitarbeitern an vorderer Front. Weitere Informationen finden Sie unter [Senden Lob an Personen](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
+Die Lob-App in Microsoft Teams hilft Benutzern, Mitgliedern Ihrer Organisation oder Ihres Klassenzimmers Wertschätzung zu zollen. Die Badges in Lob sollen helfen, den Aufwand zu erkennen, der in die breite Palette von Arbeit fällt, die Teams Benutzer erledigen, von Lehrkräften bis hin zu Mitarbeitern in Service und Produktion. Weitere Informationen finden Sie unter ["Lob an Personen senden](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)".
 
-Administratoren müssen über eine Lizenz Teams verfügen, um auf dieses Feature zugreifen zu können. Wenn Sie versuchen, ohne eine Lizenz für Teams auf dieses Feature zu zugreifen, wird eine Fehlermeldung angezeigt.
+Administratoren müssen über eine Teams Lizenz verfügen, um auf dieses Feature zugreifen zu können. Wenn Sie versuchen, ohne eine Teams Lizenz auf dieses Feature zuzugreifen, wird eine Fehlermeldung angezeigt.
 
 > [!NOTE]
-> Die Lob-App ist für GCC Cloudumgebung, aber nicht für GCC High oder DoD verfügbar.
+> Die Lob-App ist für GCC Cloudumgebung verfügbar, jedoch nicht für GCC High oder DoD.
 
-## <a name="enable-or-disable-praise-in-your-organization"></a>Aktivieren oder deaktivieren Lob in Ihrer Organisation
+## <a name="enable-or-disable-praise-in-your-organization"></a>Aktivieren oder Deaktivieren von Lob in Ihrer Organisation
 
-Lob ist standardmäßig für alle Benutzer Teams in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
+Lob ist standardmäßig für alle Teams Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Screenshot der Seite Lob"-App-Details" im Teams Admin Center mit der Umschaltleiste "Status".":::
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Screenshot der Seite Lob App-Details im Teams Admin Center mit der Umschaltfläche &quot;Status&quot;.":::
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
-2. Suchen Sie in der Liste der Apps nach der Lob-App, wählen Sie sie aus, und ändern Sie dann die Umschaltfunktion **Status** auf **Blockiert** oder **Zulässig**.
+2. Suchen Sie in der Liste der Apps nach der Lob App, wählen Sie sie aus, und schalten Sie dann die  Status-Umschaltfläche auf **"Blockiert**" oder "**Zulässig**".
 
-Beachten Sie, dass sich diese Einstellung sowohl auf die Lob-App als auch Lob Feature in der App "Viva Insights" in Teams.
+Beachten Sie, dass sich diese Einstellung sowohl auf die Lob-App als auch auf das Lob-Feature in der Viva Insights-App in Teams auswirkt.
 
-## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Aktivieren oder deaktivieren Lob für bestimmte Benutzer in Ihrer Organisation
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von Lob für bestimmte Benutzer in Ihrer Organisation
 
-Wenn Sie zulassen oder blockieren möchten, dass bestimmte Benutzer in Ihrer Organisation Lob, stellen Sie sicher, dass Lob auf der Seite Apps verwalten für Ihre [Organisation aktiviert](manage-apps.md) ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](teams-app-permission-policies.md).
+Um bestimmten Benutzern in Ihrer Organisation die Verwendung von Lob zu ermöglichen oder zu blockieren, stellen Sie sicher, dass Lob für Ihre Organisation auf der Seite ["Apps verwalten"](manage-apps.md) aktiviert ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](teams-app-permission-policies.md).
 
-## <a name="badges"></a>Badges
+## <a name="badges"></a>Abzeichen
 
-Dies ist der Standardsatz von Signalen in Lob. Teams Benutzer in Ihrer Organisation können diese Badges verwenden, um ihre Kollegen zu erkennen, damit sie mit ihrer Arbeit über- und hinaus gehen können.
+Dies ist der Standardsatz von Signalen in Lob. Teams Benutzer in Ihrer Organisation können diese Signale verwenden, um ihre Kollegen zu erkennen, damit sie mit ihrer Arbeit darüber hinaus gehen.
 
-:::image type="content" source="media/default-set-praise.png" alt-text="Abbildung von Signalen im Standardabzeichensatz.":::
+:::image type="content" source="media/default-set-praise.png" alt-text="Abbildung von Signalen im Standardsignalsatz.":::
 
 > [!NOTE]
-> Ab Februar 2022 können Personen nur Standardabzeichen senden und empfangen. Benutzerdefinierte Badges sind nicht mehr verfügbar, und Optionen für benutzerdefinierte Badges wurden aus dem Teams Admin Center entfernt.
+> Ab Februar 2022 können Personen nur Standard-Badges senden und empfangen. Benutzerdefinierte Badges sind nicht mehr verfügbar, und Optionen für benutzerdefinierte Badges wurden aus dem Teams Admin Center entfernt.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
