@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2ea4c6f1257b0b206d04c4ef8591c1f2d257292
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ad9b66b249bc907071b00e1c2fd9f7b1c2148def
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388197"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "64961298"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>Erste Schritte mit Teams für Mitarbeiter in Service und Produktion
 
@@ -33,7 +33,7 @@ In diesem Abschnitt:
 - [Verwenden Sie den Onboarding-Assistenten für Mitarbeiter in Service und Produktion, um Ihre Mitarbeiter in Service und Produktion in Schwung zu bringen](flw-onboarding-wizard.md)
 - [Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion](flw-scripted-deployment.md)
 - [Richtlinienpakete für Mitarbeiter und Manager in Service und Produktion](manage-policy-packages.md)
-- [Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion](pin-teams-apps-based-on-license.md) (bald verfügbar)
+- [Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion](pin-teams-apps-based-on-license.md)
 - [Anmelden bei Microsoft Teams](sign-in-teams.md)
 - [Abmelden bei Microsoft Teams](sign-out-of-teams.md)
 - Apps von Microsoft für Mitarbeiter in Service und Produktion:
