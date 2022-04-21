@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/21/2022
 ms.locfileid: "62363181"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Verwalten des Benutzerzugriffs auf Education Insights
 
 Dieses Dokument enthält die erforderlichen Schritte zum Verwalten des Benutzerzugriffs auf [Education Insights in Microsoft Teams](class-insights.md).
 
-Sie müssen Berechtigungen erteilen an leitende akademische Beauftragte, Abteilungsleiter, Bezirksleiter, Schuldirektoren, Schulleiter, Beratungslehrer, Fachleiter, Programmleiter, Sozialarbeiter sowie Psychologen. Dozenten werden *automatisch* Berechtigungen erteilt, wenn sie ein Klassenteam besitzen.
+Sie müssen Bildungsleitern, Bezirksleitern, Schulleitern, Schulleitern, Beratern, Leitern von Lernbereichen, Programmdirektoren, Sozialarbeitern und Psychologen Berechtigungen erteilen. Dozenten werden *automatisch* Berechtigungen erteilt, wenn sie ein Klassenteam besitzen.
 
 Um Insights auf Organisationsebene bereitzustellen, müssen Sie [Daten vom Studenteninformationssystem (SIS) importieren](education-insights-sis-data-sync.md), damit Insights die hierarchische Struktur des Bildungssystems richtig zugeordnet ist.
 
@@ -50,7 +50,7 @@ Um Insights auf Organisationsebene bereitzustellen, müssen Sie [Daten vom Stude
 
 ## <a name="role-based-permissions"></a>Rollenbasierte Berechtigungen
 
-Wenn Sie das [SDS V2.1-Dateiformat](/schooldatasync/sds-v2.1-csv-file-format) oder das [SDS V2-Dateiformat](/schooldatasync/sds-v2-csv-file-format)verwenden, können Sie alle Rollen und die gesamte Hierarchie der Schulen innerhalb des Bildungssystems importieren. Mit dieser vollständigen Zuordnung können Sie Rollen Berechtigungen zuweisen. 
+Wenn Sie das [SDS V2.1-Dateiformat](/schooldatasync/sds-v2.1-csv-file-format) oder das [SDS V2-Dateiformat](/schooldatasync/sds-v2-csv-file-format) verwenden, können Sie alle Rollen und die vollständige Schulhierarchie innerhalb des Bildungssystems importieren. Durch diese vollständige Zuordnung können Sie Rollen Berechtigungen zuweisen. 
 
 > [!NOTE]
 > Wenn einem Benutzer eine Rolle zugewiesen wird, erhält er automatisch die richtigen Berechtigungen, um die für ihn relevanten Daten zu sehen.
@@ -103,6 +103,6 @@ Verwenden Sie individuelle Berechtigungen, um die Berechtigung für einen Benutz
   * **Bestimmte Organisation** bedeutet, dass der Benutzer die ausgewählte Organisationseinheit und alle darunter liegenden Organisationseinheiten sieht. Beginnen Sie mit der Eingabe, und wählen Sie die Organisationseinheit aus der Liste aus.
   * **Keine** bedeutet, dass der Benutzer nur die Organisationseinheiten sieht, die automatisch durch seine Rolle zugewiesen werden (sofern vorhanden).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich "Individuelle Berechtigungen".":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich &quot;Individuelle Berechtigungen&quot;.":::
 
 * Klicken Sie auf **Änderungen speichern**, um zu speichern.

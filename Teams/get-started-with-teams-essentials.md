@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
+ms.lasthandoff: 04/21/2022
 ms.locfileid: "62864028"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Microsoft Teams Essentials: Schnellstarthandbuch für kleine Unternehmen
@@ -97,7 +97,7 @@ In der folgenden Tabelle sind die wichtigsten Microsoft Teams-Funktionen aufgef�
 
 
 > [!IMPORTANT] 
-> Um erweiterte Verwaltung und alle Microsoft Teams-Features zu erhalten, müssen Sie ein Upgrade auf die Vollversion von Microsoft Teams vornehmen, indem Sie einen geeigneten [Microsoft 365- oder Office 365-Abonnementplan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) für Ihre Benutzer erwerben. Dies wird empfohlen, da es mehr Flexibilität bei der Wahl der Art und Weise bietet, wie in Ihrer Organisation zusammengearbeitet wird.
+> Um eine erweiterte Verwaltung und den vollen Funktionsumfang von Teams zu erhalten, müssen Sie ein Upgrade auf die Vollversion von Teams durchführen, indem Sie ein entsprechendes [Microsoft 365- oder Office 365-Abonnement](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)für Ihre Benutzer erwerben. Wir empfehlen dies, da Sie dann mehr Flexibilität bei der Verwaltung der Zusammenarbeit in Ihrer Organisation haben.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Verwaltungsbeschränkungen und Spezifikationen für Microsoft Teams Essentials
 
@@ -109,9 +109,9 @@ Ist Ihr Unternehmen neu bei Microsoft Teams? Vielen Dank, dass Sie sich für Mic
 
 Um mit Microsoft Teams Essentials loszulegen, führen Sie die folgenden Schritte aus:
 
-1. **Kaufen Sie das Abonnement.** Wechseln Sie zu [Microsoft Teams Essentials für kleine Unternehmen](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options), und klicken Sie unter "Microsoft Teams Essentials" auf **Jetzt kaufen**.
+1. **Erwerben Sie das Abonnement.** Wechseln Sie zu [Microsoft Teams Essentials für Kleinunternehmen](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options), und wählen Sie **Jetzt kaufen** unter Microsoft Teams Essentials aus.
 2. **Registrieren Sie sich mit Ihrer bestehenden E-Mail-Adresse.** Verwenden Sie eine bestehende E-Mail-Adresse, und folgen Sie den Anweisungen zum Erwerben von Benutzerlizenzen.
-3. **Lesen Sie die Beschreibung des Microsoft Teams-Diensts.** Unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description) finden Sie weitere Informationen zu Microsoft Teams.
+3. **Microsoft Teams-Dienstbeschreibung überprüfen.** Besuchen Sie [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description), um mehr über Microsoft Teams zu erfahren.
 
 Wenn Sie diese Schritte abgeschlossen haben, können Sie mit der Planung, der Bereitstellung und der Verwendung der Microsoft Teams-App beginnen.
 
@@ -153,7 +153,7 @@ Beachten Sie die folgenden Einschränkungen:
 
 #### <a name="how-do-i-upgrade-my-organization"></a>Wie kann ich in meiner Organisation ein Upgrade vornehmen?
 
-Klicken Sie für ein Upgrade auf die Microsoft Teams Essentials-Version von Microsoft Teams auf **...** im oberen Navigationsmenü. Wählen Sie dann die Schaltfläche **Upgrade**  am unteren Ende des erscheinenden Dropdown-Menüs.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Screenshot der Schaltfläche "Upgrade""::: 
+Klicken Sie für ein Upgrade auf die Microsoft Teams Essentials-Version von Microsoft Teams auf **...** im oberen Navigationsmenü. Wählen Sie dann die Schaltfläche **Upgrade**  am unteren Ende des erscheinenden Dropdown-Menüs.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Screenshot der Schaltfläche &quot;Upgrade&quot;"::: 
 
 Nach dem Klicken auf die Schaltfläche **Upgrade** in Microsoft Teams werden Sie auf diese Seite geleitet: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams).
 
@@ -166,10 +166,10 @@ Nein. Microsoft Teams Essentials mit AAD-Identität ist nur über ausgewählten 
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Kann ich ein vorhandenes E-Mail-System mit Microsoft Teams Essentials verwenden?  
 
-Ja. Sie können Ihr bestehendes E-Mail-System beibehalten und Microsoft Teams Essentials nutzen, um Besprechungen abzuhalten, zu chatten und zusammenzuarbeiten.  
+Ja. Sie können Ihr vorhandenes E-Mail-System beibehalten und Teams Essentials nutzen, um sich zu treffen, zu chatten und zusammenzuarbeiten.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>Kann ich meine aktuelle Kalenderlösung mit Microsoft Teams Essentials verknüpfen?
-Ja. Sie können bestehende Kalender von Outlook.com und Google mit Microsoft Teams Essentials synchronisieren.
+Ja. Sie können vorhandene Kalender aus Outlook.com und Google mit Teams Essentials synchronisieren.
 
 Wenn Sie eine aktuelle Kalenderlösung mit Teams Essentials (AAD Identity) verknüpfen möchten, folgen Sie den Anweisungen weiter unten in diesem Artikel.
 

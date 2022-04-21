@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62362981"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
@@ -42,7 +42,7 @@ Dieser Artikel befasst sich mit den eigentlichen Schritten, die Sie ausführen m
 > - Stellen Sie Ihre gesamte Bildungseinrichtung schnell auf Microsoft Teams um mithilfe dieser [**einseitigen Anleitung für die ersten Schritte**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Laden Sie [**Erste Schritte mit Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) herunter: Ein Leitfaden für IT-Experten mit hilfreichen Verfahren für Sicherheit und Änderungsmanagement.
 > - Eine Sammlung von Artikeln, die für Lehrkräfte verfasst wurden, einschließlich Anleitungen für die wichtigsten [**ersten Schritte für den Unterricht mit Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Lehrkräfte Microsoft Teams in ihrem Beruf einsetzen. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview) (Verändern des Lernens mit Microsoft Teams).
+> - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Pädagogen Teams in ihrem Berufsleben einsetzen. [**Transformieren des Lernens mit Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center leitet Lehrkräfte durch die Unterrichtsgestaltung in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview) (Schaffen einer auf Teamarbeit ausgerichteten Lernumgebung mit Kursteams).
 > - Lehrkräfte, Schüler/Studenten und Erziehungsberechtigte finden weitere Informationen unter [**Remote lehren und lernen mit Office 365**](https://aka.ms/RemoteLearningHelp).
 > - Eltern und Erziehungsberechtigte finden darüber hinaus auf unserer [**Supportseite für Eltern**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) Informationen zum Remote-Lernen.
@@ -232,7 +232,7 @@ Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hinderniss
 
 - Stellen Sie frühzeitig bereit, um sicherzustellen, dass alles zuverlässig funktioniert und für den ersten Schultag fertig ist.
 - Wenn Sie über mehr als 500.000 Teams verfügen, empfehlen wir die [von Dozenten geleitete Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups). Es reduziert nicht verwendete Teams und Unübersichtlichkeit, da nur Kursteams erstellt werden, die relevant und erforderlich sind.  
-- Wenn bei der automatischen SDS-Teamerstellung Probleme auftreten (z. B. Kurse fehlen und Lehrkräfte diese sofort benötigen), können sie mithilfe der [von Dozenten geleiteten Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups) den Vorgang wiederholen. Die [Manuelle Teamerstellung](#manual-team-creation) ist eine weitere Lösung, die jedoch Ihre Teammitgliedschaft nicht auf dem neuesten Stand hält.  
+- Wenn es bei der automatischen Teamerstellung in SDS Probleme gibt (z.B. fehlende Klassen) und die Lehrkräfte diese sofort benötigen, können sie die [Methode der Teamerstellung durch Lehrkräfte](#educator-led-team-creation-from-office-365-class-groups) verwenden, um es erneut zu versuchen.  Die [manuelle Teamerstellung](#manual-team-creation) ist eine weitere Lösung, allerdings wird Ihre Teammitgliedschaft dabei nicht aktualisiert.  
 - Das Mandanten-Team-Limit ist 500.000 Teams. Daher sollten Administratoren proaktiv versuchen, die Anzahl nicht verwendeter Teams zu reduzieren, um zu vermeiden, dass diese Grenzwerte überschritten und die Einrichtungszeit verlängert wird. Weitere Informationen zu den Grenzwerten finden Sie unter [Limits und Spezifikationen für Microsoft Teams](limits-specifications-teams.md).  
 
 #### <a name="early-access-to-class-teams"></a>Frühzeitiger Zugriff auf Kursteams
