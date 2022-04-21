@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: c91f555d1ad38071f6e1857f62aeb81bf9baaba8
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
-ms.translationtype: HT
+ms.openlocfilehash: 87c343fcb055bb75f23514b4602de0ab70e32bf0
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055685"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016607"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
@@ -40,7 +40,7 @@ Eine umfassende Liste aller Länder/Regionen und Städte, in denen Audiokonferen
 
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Dial-in-Telefonnummern in einer Besprechungseinladung
 
-Wenn Microsoft Teams-Benutzer in Outlook oder Outlook Web App eine Besprechung planen, wird die für sie festgelegte standardmäßige Audiokonferenz-Telefonnummer in der Besprechungseinladung angegeben. Wenn Sie für einen oder mehrere Benutzer eine andere Standardnummer auswählen möchten, können Sie die Nummer ändern, indem Sie zu **Benutzer** wechseln, die Benutzer auswählen und ihre Audiokonferenzeinstellungen ändern. Siehe [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
+Informationen zum Verwalten von Telefonnummern, die enthalten sind, wenn ein Microsoft Teams Benutzer eine Besprechung in Outlook oder der Outlook Web App plant, finden [Sie unter Festlegen der Telefonnummern, die in Einladungen in Microsoft Teams enthalten](set-the-phone-numbers-included-on-invites-in-teams.md) sind.
 
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Für eine Audiokonferenzbrücke festgelegte Dial-in-Telefonnummern
 

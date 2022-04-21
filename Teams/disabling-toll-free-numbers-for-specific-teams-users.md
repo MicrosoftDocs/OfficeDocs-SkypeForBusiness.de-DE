@@ -20,47 +20,33 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie steuern können, wie Organisatoren gebührenfreie Nummern für ihre Audiokonferenzbrücke-Besprechungen verwenden können.
-ms.openlocfilehash: 18696143930c42649304bb62b5693e95179397e4
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Erfahren Sie, wie Sie steuern können, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen der Audiokonferenzbrücke verwenden können.
+ms.openlocfilehash: 6d841a48381609a019a1749095aac4a95901a7c4
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055435"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016627"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer
 
-Wenn Ihre Microsoft Audio Conferencing Bridge gebührenfreie Telefonnummern verwendet, können Sie deren Nutzung in Besprechungen bestimmter Organisatoren zulassen oder verhindern.  
+Wenn Ihre Organisation gebührenfreie Nummern in der Microsoft-Audiokonferenzbrücke hat, können Sie deren Nutzung in den Besprechungen bestimmter Organisatoren zulassen oder verhindern.  
 
-Standardmäßig sind alle Benutzer in Ihrer Organisation für die Verwendung von gebührenfreien Nummern aktiviert, was bedeutet, dass diese Nummern, sofern verfügbar, von den Teilnehmern für die Teilnahme an ihren Besprechungen verwendet werden können. Wenn dies für einige Benutzer in Ihrer Organisation nicht das gewünschte Verhalten ist, können Sie mithilfe eines Aktivierungssteuerelements für gebührenfreie Nummern verhindern, dass bestimmte Benutzer diese Nummern in Ihren Besprechungen verwenden.
+Standardmäßig sind alle Benutzer in Ihrer Organisation für die Verwendung gebührenfreier Nummern aktiviert. Dies bedeutet, dass diese Nummern, sofern verfügbar, von Teilnehmern für die Teilnahme an ihren Besprechungen verwendet werden können. Wenn dies für einige Benutzer in Ihrer Organisation nicht das gewünschte Verhalten ist, können Sie bestimmte Benutzer daran hindern, diese Nummern in ihren Besprechungen über ein gebührenfreies Nummernaktivierungssteuerelement zu verwenden.
 
 Wenn gebührenfreie Telefonnummern für einen bestimmten Organisator deaktiviert sind:
 
-- Eine gebührenfreie Nummer wird in den Besprechungs-Einladungen nicht mehr enthalten sein.
-- Gebührenfreie Nummern werden nicht mehr auf der Seite "Lokale Rufnummer suchen" aufgeführt, auf die in den Besprechungs-Einladungen verwiesen wird.
+- Eine gebührenfreie Nummer ist in den Besprechungseinladungen nicht mehr enthalten.
+- Gebührenfreie Telefonnummern werden nicht mehr auf der Seite "Lokale Nummer suchen" aufgeführt, auf die in seinen Besprechungseinladungen verwiesen wird.
 - Teilnehmer können nicht an der Besprechung des angegebenen Organisators teilnehmen, wenn sie eine gebührenfreie Nummer der Organisation wählen.
-- Alle Besprechungen des Organisators werden automatisch neu geplant, und die gebührenfreie Nummer wird entfernt.  
-
-    > [!IMPORTANT]
-    > Dadurch werden alle E-Mail-Einladungen des Organisators an alle Teilnehmer dieser Besprechungen erneut gesendet.
-
-- Teilnehmer können weiterhin über gebührenpflichtige Telefonnummern an Besprechungen des Organisators teilnehmen.
+- Teilnehmer können weiterhin mit gebührenpflichtigen Nummern an Besprechungen des Organisators teilnehmen.
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreien Telefonnummern für bestimmte Benutzer
 
-Im **Microsoft Teams Admin Center:**
+Sie können gebührenfreie Nummern für bestimmte Benutzer deaktivieren, indem Sie die Einstellung für *AllowTollFreeDialIn* innerhalb der diesen Benutzern *zugewiesenen TeamsAudioConferencingPolicy* in **"Aus**" ändern. Nachdem sie alle neuen Besprechungen deaktiviert haben, die von diesen Benutzern erstellt wurden, sind keine gebührenfreien Nummern enthalten. [Die Richtlinieneinstellungen für Audiokonferenzen für gebührenpflichtige und gebührenfreie Telefonnummern](audio-conferencing-toll-free-numbers-policy.md) enthalten weitere Informationen.
 
-1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
-
-2. Klicken Sie **neben Audiokonferenz** auf **Bearbeiten**.
-
-3. Legen **Sie gebührenfreie Nummern in Besprechungsanfragen dieses** Benutzers ein auf **Aus.**
-
-4. Klicken Sie **auf Speichern.**
+> [!IMPORTANT]
+> Alte und zuvor geplante Besprechungsserien zeigen möglicherweise weiterhin gebührenfreie Nummern an, und die Teilnehmer können nicht über eine gebührenfreie Nummer an solchen Besprechungen teilnehmen. Sie können alle alten und wiederkehrenden Besprechungen für diese Benutzer neu planen und gebührenfreie Nummern mit mms entfernen.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-
-### <a name="using-powershell"></a>Verwendung von PowerShell
-
-Weitere Informationen Microsoft Teams Sie in der [PowerShell-Referenz.](/powershell/module/teams/?view=teams-ps)
