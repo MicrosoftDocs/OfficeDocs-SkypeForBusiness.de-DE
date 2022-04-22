@@ -1,7 +1,7 @@
 ---
 title: Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams Daten aus dem Überwachungsprotokoll im Microsoft Purview Compliance-Portal abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 82da7932fb87101ee04759ede3d96b68cbb64aa2
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922636"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031890"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -141,7 +141,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 ||||
 
 > [!NOTE]
-> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams-Client ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie [unter "Erweiterte Überwachung" in Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Informationen zu den Lizenzierungsanforderungen für die erweiterte Überwachung finden Sie [unter Überwachungslösungen in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> Dieses Ereignis befindet sich in der öffentlichen Vorschau.
+> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams-Client ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><sup>2</sup> Dieses Ereignis ist nur in der Überwachung (Premium) verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der Überwachung (Premium) verfügbar sind, finden Sie unter [Überwachung (Premium) in Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Informationen zu Den Lizenzierungsanforderungen für Die Überwachung (Premium) finden Sie [unter "Überwachungslösungen" in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> Dieses Ereignis befindet sich in der öffentlichen Vorschau.
 
 ## <a name="shifts-in-teams-activities"></a>"Schichten"-Aktivitäten in Microsoft Teams
 

@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1c41ac53e95c179fc62b5e2e469bb614cbdcd516
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922616"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031900"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
@@ -149,9 +149,9 @@ Weitere Informationen zur Verwendung von eDiscovery-Tools im Microsoft Purview C
 
 Wir haben einen Teams-spezifischen Artikel für weitere Informationen unter [Durchführung einer eDiscovery-Untersuchung von Inhalten in Microsoft Teams](eDiscovery-investigation.md).
 
-Kunden können eDiscovery oder [Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery) gemäß ihren Anforderungen nutzen. In der folgenden Tabelle sind die Unterschiede zwischen den beiden Funktionen aufgeführt:
+Kunden können eDiscovery oder [eDiscovery (Premium)](/microsoft-365/compliance/office-365-advanced-ediscovery) gemäß ihren Anforderungen nutzen. In der folgenden Tabelle sind die Unterschiede zwischen den beiden Funktionen aufgeführt:
 
-|&nbsp; |eDiscovery  |Advanced eDiscovery  |
+|&nbsp; |eDiscovery  |eDiscovery (Premium)  |
 |---------|---------|---------|
 |Fallmanagement     |X        |X         |
 |Access Control  |X         |X         |
@@ -216,7 +216,7 @@ Wenn es um Informationsschutzfunktionen geht, bestimmen Microsoft 365 Abonnement
 Informationen zum Ermitteln der Lizenzierungsanforderungen zur Implementierung von Features für Sicherheit und Compliance finden Sie in den [Lizenzierungsanforderungen](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) für Sicherheits- und Compliancefeatures.
 
 > [!NOTE]
-> Inhaltssuche, Core eDiscovery und Advanced eDiscovery müssen nicht im Microsoft Purview Compliance-Portal aktiviert sein, damit sie funktionieren. Weitere Informationen finden Sie [unter Microsoft 365 eDiscovery-Lösungen](/microsoft-365/compliance/ediscovery).
+> Inhaltssuche, eDiscovery (Standard) und eDiscovery (Premium) müssen nicht im Microsoft Purview-Complianceportal aktiviert sein, damit sie funktionieren. Weitere Informationen finden Sie [unter Microsoft 365 eDiscovery-Lösungen](/microsoft-365/compliance/ediscovery).
 
 ## <a name="location-of-data-in-teams"></a>Speicherort von Daten in Microsoft Teams
 

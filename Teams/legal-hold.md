@@ -1,7 +1,7 @@
 ---
 title: Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 description: Erfahren Sie, wie Sie einen Microsoft Teams Benutzer oder ein Team mithilfe des Microsoft Purview Compliance-Portals in die gesetzliche Aufbewahrungspflicht setzen und erfahren, was eine gesetzliche Aufbewahrung basierend auf Datenanforderungen erforderlich ist.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d56bece07fe7342c4156abdae73508a1a149864
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922456"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031910"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 
@@ -35,7 +35,7 @@ Innerhalb Microsoft Teams kann ein gesamtes Team oder ausgewählte Benutzer gese
 > Beim Aufbewahren von Daten eines Benutzers werden nicht automatisch die Daten einer Gruppe aufbewahrt (oder umgekehrt).
 > In Aktivitätsfeeds gesendete Benachrichtigungen können nicht in den Haltebereich gesetzt werden.
 
-So setzen Sie einen Benutzer oder ein Team in einem Core eDiscovery-Fall in die gesetzliche Aufbewahrungspflicht:
+So setzen Sie einen Benutzer oder ein Team in einem eDiscovery-Fall (Standard) in die gesetzliche Aufbewahrungspflicht ein:
 
 1. Wechseln Sie zum [Microsoft Purview Compliance-Portal](https://compliance.microsoft.com). Wenn Sie einen neuen Fall erstellen, wird Ihnen die Möglichkeit angezeigt, Postfächer oder Websites in den Haltebereich zu setzen.
 
@@ -44,7 +44,7 @@ So setzen Sie einen Benutzer oder ein Team in einem Core eDiscovery-Fall in die 
    ![Microsoft Teams Registerkarte "eDiscovery" mit der Schaltfläche "Fall erstellen" ausgewählt ist.](media/LegalHold1.png)
 
    > [!NOTE]
-   > Sie können einen Benutzer auch in einen Haltebereich setzen, der einem Advanced eDiscovery Fall zugeordnet ist. Weitere Informationen finden [Sie unter Verwalten von Haltebereichen in Advanced eDiscovery](/microsoft-365/compliance/managing-holds).
+   > Sie können einen Benutzer auch in einen Haltebereich setzen, der einem eDiscovery-Fall (Premium) zugeordnet ist. Weitere Informationen finden Sie unter [Verwalten von Haltebereichen in eDiscovery (Premium).For more information, see Manage holds in eDiscovery (Premium)](/microsoft-365/compliance/managing-holds).
 
 3. Wechseln Sie im oberen Menü zur Registerkarte **"Haltebereiche** ", und klicken Sie auf **"Erstellen** ", um einen Haltebereich zu erstellen. Wenn Sie einen Benutzer oder ein Team in den Haltebereich setzen, bleiben alle von diesen Benutzern ausgetauschten Nachrichten erhalten. Wenn Sie einen neuen Fall erstellen, wird Ihnen die Möglichkeit angezeigt, Postfächer oder Websites in den Haltebereich zu setzen.
 

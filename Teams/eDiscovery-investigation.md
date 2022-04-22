@@ -1,7 +1,7 @@
 ---
 title: Durchführen einer eDiscovery-Untersuchung von Inhalten
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Erfahren Sie, was Sie tun müssen, wenn Sie eDiscovery durchführen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866200"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031920"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -82,7 +82,7 @@ Hier ist ein Beispiel für die Besprechungsmetadaten.
   > [!div class="mx-imgBorder"]
   > ![Die Besprechungsmetadaten aus der Compliancekopie.](media/conversationOption3.png)
 
-Weitere Informationen zur Durchführung einer eDiscovery-Untersuchung finden Sie [unter Erste Schritte mit Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery).
+Weitere Informationen zur Durchführung einer eDiscovery-Untersuchung finden Sie [unter Erste Schritte mit eDiscovery (Standard).](/microsoft-365/compliance/get-started-core-ediscovery)For more information about conducting an eDiscovery investigation, see Erste Schritte with eDiscovery (Standard).
 
 Microsoft Teams Daten werden als Chatnachrichten oder Unterhaltungen in der Excel eDiscovery-Exportausgabe angezeigt. Sie können die `.pst` Datei in Outlook öffnen, um diese Nachrichten nach dem Export anzuzeigen.
 
@@ -131,7 +131,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die [neueste V
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Schließen Sie die Postfächer von Besitzern und Mitgliedern eines privaten Kanals als Teil Ihrer [eDiscovery-Suchabfrage in Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) oder beim [Identifizieren und Sammeln von Verwahrerinhalten in Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case) ein.
+4. Schließen Sie die Postfächer von Besitzern und Mitgliedern eines privaten Kanals als Teil Ihrer [eDiscovery-Suchabfrage in eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) oder beim [Identifizieren und Sammeln von Verwalterinhalten in eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case) ein.
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Identifizieren der SharePoint Website für private und freigegebene Kanäle
 
@@ -166,7 +166,7 @@ Bevor Sie diese Schritte ausführen, [installieren Sie die SharePoint Online-Ver
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Fügen Sie die Website, die einem privaten oder freigegebenen Kanal zugeordnet ist, als Teil Ihrer [eDiscovery-Suchabfrage in Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) oder beim [Identifizieren und Sammeln von Verwalterinhalten in Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case) ein.
+4. Schließen Sie die Website, die einem privaten oder freigegebenen Kanal zugeordnet ist, als Teil Ihrer [eDiscovery-Suchabfrage in eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) oder beim [Identifizieren und Sammeln von Verwaltungsinhalten in eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case) ein.
 
 ## <a name="search-for-content-for-guest-users"></a>Suchen nach Inhalten für Gastbenutzer
 
@@ -251,6 +251,6 @@ Administratoren können eDiscovery verwenden, um nach Inhalten in Chatnachrichte
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Microsoft 365 eDiscovery-Lösungen](/microsoft-365/compliance/ediscovery)
-- [Erste Schritte mit Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Teams-Workflow in Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Erste Schritte mit eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams-Workflow in eDiscovery (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)

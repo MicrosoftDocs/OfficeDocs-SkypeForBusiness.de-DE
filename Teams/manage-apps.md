@@ -17,73 +17,95 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 830850be078da8086253bbb57bb4a29ce6d7c951
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961238"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030941"
 ---
-# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
+# <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Teams Apps im Microsoft Teams Admin Center
 
-Als Administrator können Sie alle Teams Apps für Ihre Organisation anzeigen und verwalten. Auf der Seite "Apps verwalten" im Teams Admin Center haben Sie folgende Möglichkeiten:
+Sie verwalten Apps für Ihre Organisation in **Teams Apps** im Admin Center. Verwenden Sie die Seite ["Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)", um alle Teams Apps im App-Katalog Ihrer Organisation anzuzeigen und zu verwalten. Auf der Seite "Apps verwalten" erhalten Sie einen Einblick in alle verfügbaren Apps in Ihrem Mandantenkatalog, die Ihnen die Informationen bereitstellen, die Sie benötigen, um zu entscheiden, welche Apps in Ihrer Organisation zugelassen oder blockiert werden sollen. Sie können den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, Apps auf Organisationsebene blockieren oder zulassen, neue benutzerdefinierte Apps in Ihren Mandantenkatalog hochladen und organisationsweite App-Einstellungen verwalten.
 
-- [Zulassen oder Blockieren von Apps auf Organisationsebene](#allow-and-block-apps)
-- [Von Herausgebern blockierte Apps](#apps-blocked-by-publishers)
-- [Hinzufügen von Apps zu Teams](#add-an-app-to-a-team)
-- [Genehmigen oder Hochladen neuer benutzerdefinierter Apps in den App Store Ihrer Organisation](#publish-a-custom-app-to-your-organizations-app-store)
-- [Von Apps angeforderte Berechtigungen anzeigen](#view-resource-specific-consent-permissions)
-- [Erteilen der Zustimmung zu Apps](#grant-admin-consent-to-apps)
-- [Kaufdienst für Drittanbieter-Apps](#purchase-services-for-third-party-apps)
-- [Anzeigen des Status und der Eigenschaften von Apps auf Organisationsebene](#view-apps)
-- [Organisationsweite App-Einstellungen verwalten](#manage-org-wide-app-settings)
-- [Anzeigen von Sicherheits- und Complianceinformationen für Microsoft 365 zertifizierte Apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
+![Screenshot der Seite "Apps verwalten".](media/manage-apps.png)
 
-Auf der Seite "Apps verwalten" erhalten Sie einen Einblick in alle verfügbaren Apps und erhalten die Informationen, die Sie benötigen, um zu entscheiden, welche Apps in Ihrer Organisation zugelassen oder blockiert werden sollen. Anschließend können Sie [App-Berechtigungsrichtlinien](teams-app-permission-policies.md), [App-Setuprichtlinien](teams-app-setup-policies.md) und [benutzerdefinierte App-Richtlinien und -Einstellungen](teams-custom-app-policies-and-settings.md) verwenden, um die App-Erfahrung für bestimmte Benutzer in Ihrer Organisation zu konfigurieren.
+Zum Verwalten von Apps verwenden Sie die folgenden Richtlinien, um Berechtigungen für Benutzer, die Installation von Apps und das Hochladen von benutzerdefinierten Apps zu steuern, die in Ihrer Organisation erstellt wurden. Informationen zu Richtlinien finden Sie [unter Übersicht über App-Richtlinien](app-policies.md).
 
-Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder Teams Dienstadministrator sein, um auf die Seite zugreifen zu können.
-
-![Screenshot der Seite "Verwaltete Apps".](media/manage-apps.png)
+Informationen zum Abrufen von Administratorrollen und -berechtigungen finden Sie [unter Teams Administratorrollen](./using-admin-roles.md).
 
 > [!NOTE]
-> Die Seite "Apps verwalten" ist in Microsoft 365 Government Community Cloud High(GCCH)- oder Department of Defense (DoD)-Bereitstellungen von Teams noch nicht verfügbar.
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="view-apps"></a>Anzeigen von Apps
+> [!NOTE]
+> Die Seite "Apps verwalten" ist in Microsoft 365 Government Community Cloud High(GCCH)- oder Department of Defense (DoD)-Bereitstellungen von Teams nicht verfügbar.
 
-Sie können jede App einschließlich der folgenden Informationen zu jeder App anzeigen.
+<!--- TBD: This info belongs in the app policy overview article. Title it as mentioned in the spreadsheet.
 
-![Screenshot der App-Detailseite für eine App.](media/app-detail-page.jpg)
+* **App permission policy**: With it, you can control what apps are available to specific users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. See [Manage app permission policies in Teams](teams-app-permission-policies.md).
+* **App setup policies**: It lets you customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients. See [Manage app setup policies in Teams](teams-app-setup-policies.md).
+* **Custom app policies and settings**: Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom apps. See [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings).
 
-- **Name**: Der App-Name. Wählen Sie den App-Namen aus, um zur Seite mit den App-Details zu wechseln, um weitere Informationen zur App anzuzeigen. Dazu gehört eine Beschreibung der App, unabhängig davon, ob sie zulässig oder blockiert ist, Version, Datenschutzrichtlinie, Nutzungsbedingungen, Kategorien, die für die App gelten, Zertifizierungsstatus, unterstützte Funktionen und App-ID.
-- **Zertifizierung**: Wenn die App zertifiziert wurde, wird entweder **Microsoft 365 zertifiziert** oder **Publisher Nachweis angezeigt**. Wählen Sie den Link aus, um Zertifizierungsdetails für die App anzuzeigen. Wenn sie angezeigt wird `--`, verfügen wir nicht über Zertifizierungsinformationen für die App. Weitere Informationen zu zertifizierten Apps in Teams finden Sie [unter Microsoft 365 App-Zertifizierungsprogramm](/microsoft-365-app-certification/overview).
-- **Publisher**: Name des Herausgebers.
-- **Veröffentlichungsstatus**: Veröffentlichungsstatus benutzerdefinierter Apps.
-- **Status**: Status der App auf Organisationsebene, der eine der folgenden sein kann:
-  - **Zulässig**: Die App ist für alle Benutzer in Ihrer Organisation verfügbar.
-  - **Blockiert**: Die App ist blockiert und nicht für Benutzer in Ihrer Organisation verfügbar.
-  - **Vom Herausgeber blockiert**: Die App wird vom Herausgeber blockiert und standardmäßig für Endbenutzer ausgeblendet. Nachdem Sie die App mithilfe der Anleitungen des Herausgebers eingerichtet haben, können Sie die App zulassen oder blockieren, um sie Endbenutzern zur Verfügung zu stellen.
-  - **Organisationsweit blockiert**: Die App wird in organisationsweiten App-Einstellungen blockiert.
-      Es ist wichtig zu wissen, dass diese Spalte den zulässigen und blockierten Status von Apps darstellt, die sich zuvor im **organisationsweiten Einstellungsbereich** befanden. Jetzt können Sie Apps organisationsweit auf der Seite " **Apps verwalten"** anzeigen, blockieren und zulassen.
-- **Lizenzen**: Gibt an, ob eine App ein SaaS-Abonnement (Software as a Service) zum Kauf anbietet. Diese Spalte gilt nur für Apps von Drittanbietern. Jede Drittanbieter-App weist einen der folgenden Werte auf:
-  - **Kauf**: Die App bietet ein SaaS-Abonnement und steht zum Kauf zur Verfügung.  
-  - **Gekauft**: Die App bietet ein SaaS-Abonnement an, und Sie haben Lizenzen dafür erworben.
-  - **- -**: Die App bietet kein SaaS-Abonnement an.
-- **Benutzerdefinierte App**: Gibt an, ob es sich bei der App um eine benutzerdefinierte App handelt.
-- **Berechtigungen**: Gibt an, ob eine in Azure Active Directory (Azure AD) registrierte Drittanbieter- oder benutzerdefinierte App über Berechtigungen verfügt, die zustimmungsbedürftig sind. Es wird einer der folgenden Werte angezeigt:
-  - **Details anzeigen**: Die App verfügt über Berechtigungen, die eine Zustimmung erfordern, bevor die App auf Daten zugreifen kann.
-  - **- -**: Die App verfügt nicht über Berechtigungen, die zustimmungsbedürftig sind.
-- **Kategorien**: Kategorien, die für die App gelten.
-- **Version**: App-Version.
-- **Administrator kann in Besprechungen installieren**: Gibt an, ob eine App von Administratoren in Teambesprechungen installiert werden kann. [Weitere Informationen](teams-app-setup-policies.md#install-apps)
+The following are the important use cases you can accomplish via the the Manage apps page:
 
-Wenn Sie die gewünschten Informationen in der Tabelle anzeigen möchten, wählen Sie in der oberen rechten Ecke **"Spalte bearbeiten** " aus, um der Tabelle Spalten hinzuzufügen oder zu entfernen.
+* [Allow or block apps at the org level](#allow-and-block-apps)
+* [Apps blocked by publishers](#apps-blocked-by-publishers)
+* [Add apps to teams](#add-an-app-to-a-team)
+* [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
+* [View permissions requested by apps](#view-resource-specific-consent-permissions)
+* [Grant consent to apps](#grant-admin-consent-to-apps)
+* [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
+* [See org-level status and properties of apps](#view-apps)
+* [Manage org-wide app settings](#manage-org-wide-app-settings)
+* [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
+
+<!--- TBD: Commenting for now in favor of the definition list above: 
+
+The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
+
+In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
+
+--->
+
+<!--- TBD: Move this view apps section to a new article about navigating and understanding TAC. It is yet to be created.
+
+## View apps
+
+You can view every app including the following information about each app.
+
+![Screenshot of the apps details page for an app.](media/app-detail-page.jpg)
+
+- **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID.
+- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see `--`, we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/microsoft-365-app-certification/overview).
+- **Publisher**: Name of the publisher.
+- **Publishing status**: Publishing status of custom apps.
+- **Status**: Status of the app at the org level, which can be one of the following:
+  - **Allowed**: The app is available for all users in your organization.
+  - **Blocked**: The app is blocked and not available for any users in your organization.
+  - **Blocked by publisher**: The app is blocked by the publisher and is hidden from end-users by default. After you set up the app using the publisher's guidance, you can allow or block the app to make it available to end-users.
+  - **Blocked org-wide**: The app is blocked in org-wide app settings.
+      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
+- **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
+  - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
+  - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
+  - **- -**: The app doesn't offer a SaaS subscription.
+- **Custom app**: Whether the app is a custom app.
+- **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
+  - **View details**: The app has permissions that require consent before the app can access data.
+  - **- -**: The app doesn't have permissions that need consent.
+- **Categories**: Categories that apply to the app.
+- **Version**: App version.
+- **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
+
+To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
+--->
 
 ## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>Veröffentlichen einer benutzerdefinierten App im App Store Ihrer Organisation
 
 Verwenden Sie die Seite "Apps verwalten", um Apps zu veröffentlichen, die speziell für Ihre Organisation erstellt wurden. Nachdem Sie eine benutzerdefinierte App veröffentlicht haben, steht sie Benutzern im App Store Ihrer Organisation zur Verfügung. Es gibt zwei Möglichkeiten zum Veröffentlichen einer benutzerdefinierten App im App Store Ihrer Organisation. Die Art und Weise, wie Sie die App verwenden, hängt davon ab, wie Sie die App erhalten.
 
-- [Genehmigen einer benutzerdefinierten App](#approve-a-custom-app): Verwenden Sie diese Methode, wenn der Entwickler die App mithilfe der Teams App-Übermittlungs-API direkt an die Seite "Apps verwalten" übermittelt. Sie können die App dann direkt über die App-Detailseite überprüfen und veröffentlichen (oder ablehnen).
-- [Hochladen eines App-Pakets](#upload-an-app-package): Verwenden Sie diese Methode, wenn der Entwickler Ihnen das App-Paket im .zip Format sendet. Sie veröffentlichen die App, indem Sie das App-Paket hochladen.
+* [Genehmigen einer benutzerdefinierten App](#approve-a-custom-app): Verwenden Sie diese Methode, wenn der Entwickler die App mithilfe der Teams App-Übermittlungs-API direkt an die Seite "Apps verwalten" übermittelt. Sie können die App dann direkt über die App-Detailseite überprüfen und veröffentlichen (oder ablehnen).
+* [Hochladen eines App-Pakets](#upload-an-app-package): Verwenden Sie diese Methode, wenn der Entwickler Ihnen das App-Paket im .zip Format sendet. Sie veröffentlichen die App, indem Sie das App-Paket hochladen.
 
 ### <a name="approve-a-custom-app"></a>Genehmigen einer benutzerdefinierten App
 
@@ -129,8 +151,8 @@ Sie verwenden die Schaltfläche " **Zu Team hinzufügen** ", um eine App für ei
 ![Screenshot der Schaltfläche "Zum Team hinzufügen".](media/manage-apps-add-app-team.png)
 
 1. Suchen Sie nach der gewünschten App, und wählen Sie die App aus, indem Sie links neben dem App-Namen klicken.
-2. Wählen Sie **"Zum Team hinzufügen" aus**.
-3. Suchen **Sie im Bereich "Zu Team hinzufügen** " nach dem Team, dem Sie die App hinzufügen möchten, wählen Sie das Team aus, und wählen Sie dann **"Übernehmen"** aus.
+1. Wählen Sie **"Zum Team hinzufügen" aus**.
+1. Suchen **Sie im Bereich "Zu Team hinzufügen** " nach dem Team, dem Sie die App hinzufügen möchten, wählen Sie das Team aus, und wählen Sie dann **"Übernehmen"** aus.
 
 ## <a name="customize-an-app"></a>Anpassen einer App
 
@@ -177,24 +199,23 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer m
 1. Deaktivieren oder aktivieren Sie unter **"Benutzerdefinierte Apps**" **die Option "Interaktion mit benutzerdefinierten Apps zulassen**". Diese Einstellung steuert, ob Benutzer mit benutzerdefinierten Apps interagieren können. Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md).
 1. Wählen Sie "Für organisationsweite App-Einstellungen **speichern"** aus, um wirksam zu werden.
 
-## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>Anzeigen von Sicherheits- und Complianceinformationen für Microsoft 365 zertifizierte Apps
+<!--- TBD: Commenting this info for now. Move it later to the new article about compliance program and how/where admins can find info about compliant apps.
 
-Beim Auswerten einer App für ihre Organisation können Administratoren unabhängige Cloud Access Security Broker (CASB) verwenden, z. B. Microsoft Cloud App Security (MCAS), um Informationen zu Sicherheit und Verhalten einer App zu finden. Das Teams Admin Center enthält Sicherheits- und Complianceinformationen von MCAS für Microsoft 365 zertifizierte Apps, sodass Sie weitere Informationen dazu erhalten, ob die App Ihren Anforderungen entspricht.
+## View security and compliance information for Microsoft 365 Certified apps
+
+When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
 
 > [!NOTE]
-> Dieses Feature steht allen Administratoren zur Verfügung, unabhängig davon, ob Ihre Organisation über eine Lizenz verfügt, die MCAS unterstützt.
+> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
 
-Führen Sie die folgenden Schritte aus, um auf MCAS Informationen zuzugreifen:
+To access MCAS information, follow these steps:
 
-1. Wählen Sie im Teams Admin Center unter **Teams Apps** "**Apps verwalten"** aus.
-1. Wählen Sie **"Zertifizierung**" aus, um Apps zu sortieren und alle Microsoft 365 zertifizierten Apps an den Anfang der Tabelle zu verschieben.
-1. Wählen Sie eine Microsoft 365 Zertifizierte App aus.
-1. Wählen Sie die Registerkarte **"Sicherheit und Compliance** " aus.
+1. In the Teams admin center, select **Manage apps** under **Teams apps**.
+1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
+1. Choose a Microsoft 365 Certified app.
+1. Select the **Security and compliance** tab.
 
-![Screenshot der Registerkarte "Sicherheit und Compliance" im Admin Center Teams.](media/mcas.png)
+![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
 
-Auf dieser Registerkarte finden Sie Informationen zu Sicherheit, Compliance und Datenschutz. Sie können auch jede Dropdownliste erweitern, um weitere Details dazu zu erhalten, welche Funktionen für die ausgewählte Anwendung unterstützt werden.
-
-## <a name="related-topics"></a>Verwandte Themen
-
-- [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
+On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
+--->
