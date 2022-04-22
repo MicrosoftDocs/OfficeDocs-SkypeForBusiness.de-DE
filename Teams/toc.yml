@@ -295,7 +295,7 @@ items:
             href: legal-hold.md
           - name: Inhaltssuche
             href: content-search.md
-          - name: Teams-Workflow in Advanced eDiscovery
+          - name: Teams-Workflow in eDiscovery (Premium)
             href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Überwachung
             href: audit-log-events.md

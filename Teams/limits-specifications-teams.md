@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0d9cb6888243f86e1967105720e3859fa905cfb5
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711509"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030901"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -124,6 +124,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |------------|---------------|
 |Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 1000, umfasst GCC, GCCH und DoD, aber nicht A1 (300). Mit **Nur anzeigen** können bis zu 20.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5-SKU sowie über eine Behördenlizenz (GCC, GCC High, DoD) verfügt. Das „Nur anzeigen“-Erlebnis wird in Kürze auch für Webinare verfügbar sein. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
+|Anzahl der gleichzeitig aktiven Anrufe | 4 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
   
