@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über unterstützte und empfohlene Richtlinien für bedingten Zugriff und Intune Gerätecompliance für Microsoft Teams-Räume.
-ms.openlocfilehash: befe8faae5db204f5e15e307cadcc24f6867a487
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 19e4593a6135c79eb156a1b34847ab518d6e8ea4
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732293"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059236"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Unterstützte Richtlinien für bedingten Zugriff und Intune Gerätekompatibilität für Microsoft Teams-Räume
 
@@ -28,7 +28,10 @@ Dieser Artikel enthält unterstützte Richtlinien für bedingten Zugriff und Int
 
 ## <a name="supported-conditional-access-policies"></a>Unterstützte Richtlinien für bedingten Zugriff  
 
-Die folgende Liste enthält die unterstützten Richtlinien für bedingten Zugriff für Teams-Räume unter Windows und unter Android. Die unterstützten Android-Richtlinien gelten für alle Android-Geräte in gemeinsam genutzten Räumen, einschließlich Telefonen und Panels für gemeinsame Bereiche.
+Die folgende Liste enthält die unterstützten Richtlinien für bedingten Zugriff für Teams-Räume unter Windows und unter Android. 
+
+> [!NOTE]
+> Die unterstützten Android-Richtlinien gelten für alle Android-Geräte in gemeinsam genutzten Räumen, einschließlich Teams-Räume auf Andourd, Telefonen für gemeinsame Bereiche und Panels.
 
 | Zuweisung | Windows | Android |
 |------------|---------|---------|

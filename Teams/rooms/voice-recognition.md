@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817706"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063256"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Verwalten von Steuerelementen für die Spracherkennungstechnologie für einen intelligenten Lautsprecher
 
@@ -44,7 +44,7 @@ Die folgenden Elemente sind Anforderungen an intelligente Lautsprecher:
 Epos, Sennheiser und yealink intelligente Lautsprecher werden unterstützt.
 
 > [!NOTE]
-> Intelligent Speaker ist in allen Ländern und Regionen mit Ausnahme von Indien verfügbar, das noch nicht unterstützt wird. Eine Liste der Gebietsschemas, die derzeit für biometrische Registrierung und Transkription in Besprechungen unterstützt werden, finden Sie unter ["Unterstützte Gebietsschemas](#supported-locales) ".
+> Intelligent Speaker ist in allen Ländern und Regionen verfügbar. Eine Liste der Gebietsschemas, die derzeit für biometrische Registrierung und Transkription in Besprechungen unterstützt werden, finden Sie unter ["Unterstützte Gebietsschemas](#supported-locales) ".
 
 ## <a name="set-up-an-intelligent-speaker"></a>Einrichten eines intelligenten Lautsprechers
 

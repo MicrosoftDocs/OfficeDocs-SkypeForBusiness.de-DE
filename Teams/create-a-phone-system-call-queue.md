@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Haltemusik, Anrufumleitung und andere Features bereitstellen.
-ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846544"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059086"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -207,6 +207,9 @@ Die **Telefonberater-Benachrichtigungszeit** gibt an, wie lange das Telefon eine
 
 > [!TIP]
 > Es wird empfohlen, die **Agent-Benachrichtigungszeit** auf **20 Sekunden** festzulegen.
+
+> [!NOTE]
+> Die Einstellung für die [Behandlung von Anruftimeouts](#call-timeout-handling) hat Vorrang vor der Warnungszeit des Agents. Wenn die maximale Warteschlangenzeit, die für die Behandlung von Anruftimeouts konfiguriert wurde, erreicht wurde, wird der Anruf von den Agent(en) zurückgerufen, auch wenn das Zeitlimit für die Agentbenachrichtigung nicht erreicht wurde.
 
 ## <a name="call-overflow-handling"></a>Vorgehen bei überzähligen Anrufen
 

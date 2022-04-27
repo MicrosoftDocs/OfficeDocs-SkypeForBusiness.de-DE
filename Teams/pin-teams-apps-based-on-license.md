@@ -1,5 +1,5 @@
 ---
-title: Anpassen Teams Apps für Mitarbeiter in Service und Produktion
+title: Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5bf166d9f7253a5cb72ffc92b674613d959334
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961288"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059306"
 ---
-# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Anpassen Teams Apps für Mitarbeiter in Service und Produktion
+# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion
 
 > [!NOTE]
 > Dieses Feature wird derzeit eingeführt und ist in Ihrer Organisation möglicherweise noch nicht verfügbar. Weitere Informationen zu bevorstehenden Features von Microsoft Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
@@ -32,6 +32,8 @@ ms.locfileid: "64961288"
 Teams bietet eine einfache Möglichkeit, Apps für Mitarbeiter in Service und Produktion anzuheften. Dieses Feature heftet Apps basierend auf der Lizenz an, um Ihren Mitarbeitern in Service und Produktion eine out-of-the-box-Erfahrung in Teams zu bieten, die auf ihre Anforderungen zugeschnitten ist.
 
 Dank der maßgeschneiderten App-Erfahrung in Service und Produktion erhalten Ihre Mitarbeiter in Service und Produktion die relevantesten Apps in Teams, ohne dass der Administrator eine Aktion ausführen muss.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VuCH]
 
 ## <a name="tailored-frontline-app-experience"></a>Maßgeschneiderte App-Erfahrung in Service und Produktion
 

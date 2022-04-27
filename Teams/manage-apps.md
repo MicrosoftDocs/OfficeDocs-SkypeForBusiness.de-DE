@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030941"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059076"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Teams Apps im Microsoft Teams Admin Center
 
@@ -30,9 +30,9 @@ Sie verwalten Apps für Ihre Organisation in **Teams Apps** im Admin Center. Ver
 
 ![Screenshot der Seite "Apps verwalten".](media/manage-apps.png)
 
-Zum Verwalten von Apps verwenden Sie die folgenden Richtlinien, um Berechtigungen für Benutzer, die Installation von Apps und das Hochladen von benutzerdefinierten Apps zu steuern, die in Ihrer Organisation erstellt wurden. Informationen zu Richtlinien finden Sie [unter Übersicht über App-Richtlinien](app-policies.md).
+Um Teams Admin Center verwenden zu können, müssen Sie ein globaler Administrator oder Teams Dienstadministrator sein. Ausführliche Informationen finden Sie [unter Teams Administratorrollen](./using-admin-roles.md).
 
-Informationen zum Abrufen von Administratorrollen und -berechtigungen finden Sie [unter Teams Administratorrollen](./using-admin-roles.md).
+Zum Verwalten von Apps verwenden Sie Richtlinien, um Berechtigungen für Benutzer, die Installation von Apps und das Hochladen von benutzerdefinierten Apps zu steuern, die in Ihrer Organisation erstellt wurden. Informationen zu Richtlinien finden Sie [unter Übersicht über App-Richtlinien](app-policies.md).
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

@@ -1,45 +1,50 @@
 ---
-title: Erstellen eines Diagramms Kaizala Teams Reise
+title: Diagramme Ihrer Kaizala zu Teams Reise
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
-description: 'In diesem Artikel wird beschrieben, wie Sie den Wechsel von einem Kaizala zu einem Microsoft Teams.'
-f1.keywords: null
+ms.reviewer: ''
+description: In diesem Artikel wird beschrieben, wie Sie sich auf den Wechsel von Kaizala zu Microsoft Teams vorbereiten.
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: 246e6e66c27e2779a808c1ff81ae4f40088b9c58
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059341"
 ---
+# <a name="charting-your-kaizala-to-teams-journey"></a>Diagramme Ihrer Kaizala zu Teams Reise
 
-# <a name="charting-your-kaizala-to-teams-journey"></a>Erstellen eines Diagramms Kaizala Teams Reise
-
-Sie haben sich entschieden, von A bis Z Kaizala zu Microsoft Teams.
+Sie haben beschlossen, von Kaizala zu Microsoft Teams zu wechseln.
 
 Bevor Sie beginnen, ist es wichtig, diese beiden Fragen zu beantworten:
 
-- Welche Benutzergruppen werden in den Teams?  
+- Welche Benutzergruppen werden in Teams verschoben?  
 
-- Was ist Ihr Pfad zu Teams?
+- Was ist Ihr Weg zu Teams?
 
 ## <a name="identify-user-groups"></a>Identifizieren von Benutzergruppen
 
-*Welche Gruppen gibt es in Ihrer Organisation? Wer werden die Teams und wie verwendet? Welche Anforderungen erfordern diese Gruppen für effektive Teamarbeit?* Um ihre Reise zu Teams, müssen Sie zuerst **Benutzergruppen für Ihren Übergang identifizieren.**  Benutzergruppen sind eine Gruppe von Mitarbeitern innerhalb Ihrer Belegschaft, die in ähnlichen Geschäftsbereichen arbeiten. 
+*Welche Gruppen sind in Ihrer Organisation vorhanden? Wer verwenden Teams und wie? Welche Anforderungen werden diese Gruppen für effektive Teamarbeit erfordern?* Um ihre Reise zu Teams zu beginnen, **identifizieren Sie zuerst Benutzergruppen für Ihren Übergang.**  Benutzergruppen sind eine Gruppe von Mitarbeitern innerhalb Ihrer Belegschaft, die Arbeiten in ähnlichen Bereichen des Unternehmens durchführen. 
 
-Wir haben drei allgemeine Benutzergruppen identifiziert, die Sie bei der Ermittlung der Anforderungen an die Zusammenarbeit unterstützen. Jede Benutzergruppe hat eigene, einzigartige Anforderungen hinsichtlich der Kommunikation. 
+Wir haben drei allgemeine Benutzergruppen identifiziert, die Sie bei der Ermittlung der Anforderungen für die Zusammenarbeit unterstützen. Jede Benutzergruppe hat ihre eigenen individuellen Kommunikationsanforderungen. 
 
 ![Diagramm der Benutzergruppen für den Übergang](media/kaizala-user-groups.png)
 
- 1. **Information-Workers** sind Mitarbeiter, die Informationen im Laufe ihrer Arbeit erstellen, verwenden, transformieren, nutzen oder verwalten.
+ 1. **Information Worker** sind Mitarbeiter, die Im Laufe ihrer Arbeit Informationen erstellen, verwenden, transformieren, nutzen oder verwalten.
 
- 2.  Mitarbeiter in der Produktion sind hauptsächlich Mitarbeiter ohne Schreibtisch, deren primäre Funktion in der direkten Zusammenarbeit mit Kunden oder der allgemeinen Öffentlichkeit besteht, die Dienstleistungen, Support und Verkauf von Produkten bereitstellen, oder direkt in die Herstellung von Produkten/Dienstleistungen involviert sind.
+ 2. **Mitarbeiter in Service** und Produktion sind meist Mitarbeiter ohne Schreibtisch, deren Hauptfunktion darin besteht, direkt mit Kunden oder der allgemeinen Öffentlichkeit zu arbeiten, die Dienstleistungen, Support und Verkauf von Produkten anbietet, oder direkt an der Herstellung von Produkten/Dienstleistungen beteiligt sind.
 
  3. **Externe Benutzer** sind Personen außerhalb Ihrer Organisation, z. B. Ihre Lieferanten, Lieferanten, Geschäftspartner, Kunden oder Kunden.
 
-Benutzer, die in Verbindung mit anderen Information-Workers in ihrer Belegschaft arbeiten, benötigen:
+Benutzer, die sich mit anderen Informationsmitarbeitern in ihren Mitarbeitern verbinden, benötigen Folgendes:
 
 - Chat, Besprechung, Dateizusammenarbeit
 
@@ -49,55 +54,55 @@ Benutzer, die in Verbindung mit anderen Information-Workers in ihrer Belegschaft
 
 - Erweiterte IT-Steuerelemente
   
-- Interne und externe Zusammenarbeit mit E-Mail
+- Interne und externe Zusammenarbeit mit E-Mails
 
-Benutzer, die verbindungen mit den Mitarbeitern an der Frontline herstellen, benötigen:
+Benutzer, die sich mit den Mitarbeitern in Service und Produktion verbinden, benötigen Folgendes:
 
-- Verbindung mit Frontline Workers im Verzeichnis ihrer Organisation
+- Verbindung mit Mitarbeitern in Service und Produktion innerhalb des Verzeichnisses ihrer Organisation
 
-- Offline, Remotestandorte
+- Offline- und Remotestandorte
 
-- Engagement und  Outreaching der Mitarbeiter
+- Engagement und Öffentlichkeitsarbeit der Mitarbeiter
 
 - Digitalisierte Prozesse und Workflows
 
 - Schichtplanung und Aufgabenverwaltung
 
-Benutzer, die Verbindungen mit externen Benutzern (Lieferanten/Lieferanten) herstellen, könnten:
+Benutzer, die sich mit externen Benutzern (Lieferanten/Lieferanten) verbinden, könnten Folgendes verwenden:
 
-- [Zusammenarbeit am Gastzugriff](/MicrosoftTeams/guest-joins)
+- [Microsoft Teams Benutzer können mit allen Teams Benutzern außerhalb ihrer Organisation chatten](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
-- [Partnerverbund](/microsoftteams/manage-external-access)
+- [Hinzufügen oder Einladen von Personen außerhalb Ihrer Teams Organisation zu einem Chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
-## <a name="determine-your-path"></a>Ermitteln des Pfads
+## <a name="determine-your-path"></a>Bestimmen Des Pfads
 
-Nachdem Sie die Anforderungen an die Zusammenarbeit Ihrer Benutzergruppen überprüft haben, können Sie ermitteln, wie Ihr Pfad von Kaizala Teams Aussehen wird. Jede Organisation ist einzigartig, und die Reise der Mitarbeiter ist nicht identisch. Organisationen, die derzeit Teams, müssen zusätzliche strategische Entscheidungen treffen, um einen erfolgreichen Wechsel zu gewährleisten. Das Bestimmen Ihres Pfads hilft Ihnen dabei, alle wichtigen Aktionen zu identifizieren, die für einen erfolgreichen Übergang durchgeführt werden sollten.
+Nachdem Sie die Anforderungen ihrer Benutzergruppen für die Zusammenarbeit überprüft haben, können Sie ermitteln, wie Ihr Pfad von Kaizala zu Teams aussieht. Jede Organisation ist einzigartig, und die Reise der Mitarbeiter ist genau gleich. Organisationen, die derzeit nicht Teams verwenden, müssen zusätzliche strategische Entscheidungen treffen, um einen erfolgreichen Übergang zu gewährleisten. Wenn Sie Ihren Pfad bestimmen, können Sie alle wichtigen Aktionen identifizieren, die für einen erfolgreichen Übergang abgeschlossen werden sollten.
 
-Wir haben  kurz erläutert, worin der Pfad je nach der Nutzung Ihrer Organisation heute bestehen kann:  
+Wir haben beschrieben, aus welchem Pfad der Pfad bestehen kann, abhängig von der heutigen Nutzung Ihrer Organisation:  
 
-Für Organisationen **, die keine Teams**:
+Für Organisationen **, die Teams nicht verwenden**:
 
-![Pfad für Organisationen, die derzeit keine Teams](media/kaizala-not-using-teams.png)
+![Pfad für Organisationen, die derzeit nicht Teams](media/kaizala-not-using-teams.png)
 
- 1. Visionen der Teamarbeit für Ihre Organisation
+ 1. Teamarbeit für Ihre Organisation planen
 
  2. Pilot Teams
   
- 3. Bereitstellen Teams
+ 3. Bereitstellen von Teams
   
- 4. Verwenden Kaizala und Teams
+ 4. Verwenden von Kaizala und Teams
   
  5. Verwalten von Änderungen
 
- 6. Planen Sie die Einführung von Teams
+ 6. Planen Der Einführung von Teams
 
- 7. Verschieben Ihrer Organisation auf Teams
+ 7. Verschieben Ihrer Organisation in Teams
 
-Für Organisationen **, die bereits über Teams**:
+Für Organisationen **, die bereits Teams verwenden**:
 
 ![Pfad für Organisationen, die derzeit Teams](media/kaizala-using-teams.png)
 
- 1. Planen ihres Übergangs
+ 1. Planen Des Übergangs
 
  2. Verwalten von Änderungen
 
@@ -105,4 +110,4 @@ Für Organisationen **, die bereits über Teams**:
 
 <a name="ControlSyncThroughput"> </a>
 
-[Planen Sie einen erfolgreichen Umstieg auf Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala)
+[Planen eines erfolgreichen Übergangs zu Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala)
