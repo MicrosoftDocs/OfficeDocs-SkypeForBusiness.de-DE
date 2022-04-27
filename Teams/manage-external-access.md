@@ -23,7 +23,7 @@ appliesto:
 ms.localizationpriority: high
 ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
 ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/05/2022
 ms.locfileid: "64642849"
