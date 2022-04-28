@@ -495,7 +495,7 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: Einrichten von Kanalmoderation in Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Schleifenkomponenten verwalten
+      - name: Verwalten von Schleifenkomponenten
         href: loop-components-in-teams.md
       - name: Teams und Outlook-E-Mail-Integration
         href: teams-outlook-email-integration.md
