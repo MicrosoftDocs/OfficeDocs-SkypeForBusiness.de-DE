@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Singapur für Microsoft Teams.
-ms.openlocfilehash: 968e44e8189bb5eebd50797983cbc639160cd3be
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 8b996966d8af0684238715219d67c36c5af19d09
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839006"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106310"
 ---
 # <a name="phone-number-management-for-singapore"></a>Telefon Nummernverwaltung für Singapur
 
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
 |Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In Singapur können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center abrufen. Sie können auch eine neue Telefonnummernanforderung senden, indem Sie das Formular herunterladen und [sich an den TNS Service Desk wenden, um entsprechende Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>[Neue Telefonnummernanfrage für Singapur (v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/>Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie eines der folgenden Know your customer forms herunterladen:<ul><li>[Kennen Sie Ihren Kunden Singapur - Chinesisch v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[Kennen Sie Ihren Kunden für Singapur - Tamil v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[Kennen Sie Ihren Kunden Singapur - Malaiisch v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>Füllen Sie den Vorgang vollständig aus, und [wenden Sie sich an den TNS Service Desk, um Entsprechendes zu erhalten](contact-tns-service-desk.md).<br/><br/>Neue Bestellungen können zwei bis drei Wochen dauern, um diesen Markt zu füllen.  |
-|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Schriftliche Vollmacht für Singapur (alle Nummern)(en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/LOA-EN-SG-TN.pdf>)<br/> <br/>Füllen Sie sie aus, und [wenden Sie sich an den TNS Service Desk, um Entsprechendes zu erhalten](contact-tns-service-desk.md). <br/><br/>Die Übertragung von Nummern kann je nach Komplexität des Hafens ein bis sechs Wochen dauern. <br/><br/>Diese Nummern können zurzeit nicht für Konferenzen verwendet werden.  |
+|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Schriftliche Vollmacht für Singapur (Benutzer- und Servicenummern)(en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/LOA-SG-GEO-EN.pdf>)<br/> <br/>Füllen Sie sie aus, und [wenden Sie sich an den TNS Service Desk, um Entsprechendes zu erhalten](contact-tns-service-desk.md). <br/><br/>Die Übertragung von Nummern kann je nach Komplexität des Hafens ein bis sechs Wochen dauern. <br/><br/>Diese Nummern können zurzeit nicht für Konferenzen verwendet werden.  |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Telefonnummern zu erhalten, die Sie veröffentlichen/die Veröffentlichung aufheben möchten. <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Benutzernummern zu erhalten, die Sie in Servicenummern konvertieren möchten. <br/> |
 |Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenn Sie Anrufwarteschleifen- oder automatische Telefonzentralennummern hinzufügen oder ändern möchten, wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten](contact-tns-service-desk.md).|

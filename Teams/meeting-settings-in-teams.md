@@ -24,7 +24,7 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
 ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
 ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/05/2022
 ms.locfileid: "64642919"
@@ -36,7 +36,7 @@ Als Administrator verwenden Sie Teams-Besprechungseinstellungen, um zu steuern, 
 Mithilfe einer Richtlinieneinstellung pro Organisator können Administratoren jetzt steuern, ob bestimmte Benutzer oder Benutzergruppen anonymen Benutzern die Teilnahme an den von ihnen organisierten Besprechungen gestatten können. Die Einstellungen pro Organisator und organisationsweite Richtlinien steuern die anonyme Teilnahme, und die restriktiveren werden wirksam.
 
 > [!Important]
- > **-DisableAnonymousJoin** ist die organisationsweite Richtlinieneinstellung. Sie wird in Zukunft veraltet, und dann wird die Richtlinie pro Organisator die einzige Möglichkeit sein, die anonyme Teilnahme zu steuern.
+ > **-DisableAnonymousJoin** ist die organisationsweite Richtlinieneinstellung. Sie wird in Zukunft veraltet sein, und dann wird die Richtlinie pro Organisator die einzige Möglichkeit sein, die anonyme Teilnahme zu steuern.
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Anonyme Benutzer dürfen an Besprechungen teilnehmen
 
@@ -77,8 +77,8 @@ Alle anderen Wertekombinationen verhindern, dass anonyme Benutzer an Besprechung
 Wenn anonyme Benutzer an Besprechungen teilnehmen dürfen, können sie entweder den Teams-Client oder einen benutzerdefinierten Client verwenden, der mit [Azure Communication Services](/azure/communication-services/) erstellt wurde. Administratoren können ausgewählte Clienttypen mithilfe des Parameters **-BlockedAnonymousJoinClientTypes** in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) blockieren.
 
 Die folgenden Werte sind möglich:
-- Null (Standard) Alle Clienttypen sind zulässig.
-- Acs. Blockiert benutzerdefinierte Clients, die mit [Azure Communication Services](/azure/communication-services/) erstellt wurden.
+- Null (Standard). Alle Clienttypen sind zulässig.
+- Acs. Blockiert benutzerdefinierte Clients, die mit [Azure Communication Services](/azure/communication-services/)erstellt wurden.
 - Teams. Blockiert den Teams-Client.
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Zulassen, dass anonyme Benutzer in Besprechungen mit Apps interagieren
@@ -179,7 +179,7 @@ Typ des Mediendatenverkehrs| Client-Quellportbereich \* |Protokoll|DSCP-Wert|DSC
 |:---             |:---                         |:---    |:---      |:---      |
 |Audio            | 50.000–50.019               |TCP/UDP |46        |Expedited Forwarding (EF)|
 |Video            | 50.020–50.039               |TCP/UDP |34        |Assured Forwarding (AF41)|
-|Anwendung/Bildschirmfreigabe| 50.040–50.059      |TCP/UDP |18        |Assured Forwarding (AF21)|
+|Anwendung/Bildschirmfreigabe| 50.040–50.059      |TCP/UDP |18         |Assured Forwarding (AF21)|
 | | | | |
 
 \* Die von Ihnen zugewiesenen Portbereiche dürfen sich nicht überlappen und sollten nebeneinander liegen.

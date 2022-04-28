@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Neuseeland für Microsoft Teams.
-ms.openlocfilehash: 7a2ea252b5e3a232e0ff87f1204183411d7207b3
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: f451e9cdac172660fcd70a0f200249f0c77337cb
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64884993"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106290"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>Telefon Nummernverwaltung für Neuseeland
 
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
 |Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.|In Neuseeland können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center abrufen. Sie können auch eine neue Telefonnummernanforderung senden, indem Sie das Formular herunterladen und [sich an den TNS Service Desk wenden, um entsprechende Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>[Neue Telefonnummernanfrage für Neuseeland (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LNS-EN-NZ-TN.pdf). <br/><br/>[Anforderung neuer Telefonnummern für Neuseeland (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular "Ihr Kunden kennen" herunterladen, es vollständig ausfüllen und sich [an den TNS Service Desk wenden, um Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>Neue Bestellungen können zwei bis drei Wochen dauern, um diesen Markt zu füllen.  |
-|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Schriftliche Vollmacht für Neuseeland (alle Nummern) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-EN-NZ-TN.pdf) <br/> <br/>Füllen Sie sie aus, und [wenden Sie sich an den TNS Service Desk, um Entsprechendes zu erhalten](contact-tns-service-desk.md). <br/><br>Die Übertragung von Nummern kann je nach Komplexität des Hafens ein bis sechs Wochen dauern.<br/><br/>Diese Nummern können zurzeit nicht für Konferenzen verwendet werden.  |
+|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Schriftliche Vollmacht für Neuseeland (Benutzer- und Servicenummern) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-NZ-GEO-EN.pdf) <br/> <br/>Füllen Sie sie aus, und [wenden Sie sich an den TNS Service Desk, um Entsprechendes zu erhalten](contact-tns-service-desk.md). <br/><br>Die Übertragung von Nummern kann je nach Komplexität des Hafens ein bis sechs Wochen dauern.<br/><br/>Diese Nummern können zurzeit nicht für Konferenzen verwendet werden.  |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Telefonnummern zu erhalten, die Sie veröffentlichen/die Veröffentlichung aufheben möchten. <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Benutzernummern zu erhalten, die Sie in Servicenummern konvertieren möchten. <br/> |
 |Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenn Sie Anrufwarteschleifen- oder automatische Telefonzentralennummern hinzufügen oder ändern möchten, wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten](contact-tns-service-desk.md).|

@@ -13,188 +13,188 @@ ms.localizationpriority: medium
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie laufende Wartungs- und Betriebsvorgänge entwickeln und ausführen, um sicherzustellen, dass ihre Microsoft Teams-Räume-Systeme für Ihre Benutzer verfügbar sind.
+description: Erfahren Sie, wie Sie fortlaufende Wartungen und Vorgänge entwickeln und ausführen, um sicherzustellen, dass Ihre Microsoft Teams-Räume Systeme für Ihre Benutzer verfügbar sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12738e544e8bf0f2e46979df0a1d64ea762bfa1f
-ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
+ms.openlocfilehash: 47f1c170fd0c41331dfaffa2d81386ac3c2fb722
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63556641"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106270"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams-Räume verwalten
 
-Wenn Sie über Microsoft Teams-Räume in Ihrer Organisation verfügen, haben Sie flexible Verwaltungsoptionen.  Sie können die Geräte selbst an demselben zentralen Ort verwalten, an dem Sie alle ihre Teams verwalten, Microsoft Teams Admin Center. Alternativ können Sie Verwaltungsverantwortliches an dedizierte Experten übertragen, die [Microsoft Teams-Räume Dienste verwenden](https://portal.rooms.microsoft.com).  Sie können für eine der Optionen auch den Verwaltungszugriff an einen Partner Ihrer Wahl delegieren.
+Wenn Sie Microsoft Teams-Räume in Ihrer Organisation haben, haben Sie flexible Verwaltungsoptionen.  Sie können die Geräte selbst an demselben zentralen Ort verwalten, an dem Sie alle Teams Lösungen Microsoft Teams Admin Center verwalten. Alternativ können Sie die Verwaltungsverantwortung über [Microsoft Teams-Räume Managed Services](https://portal.rooms.microsoft.com) an dedizierte Experten übertragen.  Sie können den Verwaltungszugriff für eine der Optionen auch an einen Partner Ihrer Wahl delegieren.
 
-Mit Microsoft Teams Admin Center können Sie:
+Mit Microsoft Teams Admin Center haben Sie folgende Möglichkeiten:
 
-- Ausführen der Geräteverwaltung wie Neustarten von Geräten und Herunterladen von Geräteprotokollen
-- Anwenden Teams spezifischen Einstellungen
-- Überprüfen Des Integritätsstatus Microsoft Teams-Räume Peripheriegeräten, einschließlich Kameras, Anzeigen, Mikrofonen und so weiter
-- Überprüfen der aktuellen und vergangenen Besprechungsaktivität (z. B. Details zur Anrufqualität, Netzwerkinte health und Konnektivität und Anzahl der Teilnehmer)
-- Peripheriegeräte (z. B. Kameras und Projektoren) sehen, die an Microsoft Teams-Räume
+- Durchführen der Geräteverwaltung, z. B. Neustarten von Geräten und Herunterladen von Geräteprotokollen
+- Anwenden von Teams-spezifischen Einstellungen
+- Überprüfen des Integritätsstatus von Microsoft Teams-Räume und deren Peripheriegeräten, einschließlich Kameras, Displays, Mikrofonen usw.
+- Überprüfen der aktuellen und letzten Besprechungsaktivitäten (z. B. Details zur Anrufqualität, Netzwerkintegrität und -konnektivität und Anzahl der Teilnehmer)
+- Anzeigen von Peripheriegeräten (z. B. Kameras und Projektoren), die mit Microsoft Teams-Räume verbunden sind
 
-Um Ihre Teams-Räume zu verwalten, öffnen Sie [das Microsoft Teams Admin Center](https://admin.teams.microsoft.com), und wechseln Sie zu Teams **Geräte** >  **Teams-Räume auf Windows**.
+Um Teams-Räume Geräte zu verwalten, öffnen Sie das [Microsoft Teams Admin Center](https://admin.teams.microsoft.com), und wechseln Sie auf Windows zu **Teams Geräte** >  **Teams-Räume**.
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams-Räume Zusammenfassungsseite im Teams Admin Center.":::
 
 
 > [!IMPORTANT]
-> Um Geräte mithilfe des Teams Admin Centers zu verwalten, müssen Ihnen die Rollen "Globaler Administrator", "Teams-Administrator" oder "Teams-Geräteadministrator" zugewiesen sein.
+> Um Geräte mit dem Teams Admin Center zu verwalten, müssen Ihnen die Rollen "Globaler Administrator", "Teams Administrator" oder "Teams Geräteadministrator" zugewiesen werden.
 
-## <a name="make-changes-to-teams-rooms-devices"></a>Vornehmen von Änderungen an Teams-Räume-Geräten
+## <a name="make-changes-to-teams-rooms-devices"></a>Vornehmen von Änderungen an Teams-Räume Geräten
 
-Wenn Sie über mehrere Teams-Räume verfügen, können Sie die meisten Aktionen auf mehreren Geräten gleichzeitig ausführen. Sie können z. B. Teams App-Einstellungen für alle Ihre Teams-Räume gleichzeitig festlegen.
+Wenn Sie über mehrere Teams-Räume verfügen, können Sie die meisten Aktionen auf mehreren Geräten gleichzeitig ausführen. Sie können beispielsweise Teams App-Einstellungen für alle Ihre Teams-Räume gleichzeitig festlegen.
 
 ### <a name="device-settings"></a>Geräteeinstellungen
 
-Sie können Einstellungen für einen oder Teams-Räume in Ihrer Organisation ändern. Um Einstellungen zu ändern, wählen Sie das zu verwaltende Gerät oder die Geräte und dann Bearbeiten **Einstellungen.** Ein neuer Bereich mit allen Einstellungen, die Sie ändern können, wird geöffnet. In der folgenden Tabelle sind die Einstellungen aufgeführt, die Sie über das admin center Teams können. Einige Einstellungen sind nur verfügbar, wenn Sie ein einzelnes Teams-Räume.
+Sie können Einstellungen für eine oder mehrere Teams-Räume in Ihrer Organisation ändern. Um Einstellungen zu ändern, wählen Sie das Gerät oder die Geräte aus, das Bzw. die Sie verwalten möchten, und wählen Sie dann **"Einstellungen bearbeiten**" aus. Ein neuer Bereich wird mit allen Einstellungen geöffnet, die Sie ändern können. In der folgenden Tabelle sind die Einstellungen aufgeführt, die Sie im Teams Admin Center ändern können. Einige Einstellungen sind nur verfügbar, wenn Sie eine einzelne Teams-Räume auswählen.
 
-Wenn Sie mehrere Optionen auswählen, werden für Einstellungen, die die Massenbearbeitung unterstützen, die beiden folgenden Optionen angezeigt:
+Wenn Sie mehrere Optionen auswählen, werden in den Einstellungen, die die Massenbearbeitung unterstützen, die beiden folgenden Optionen angezeigt.
 
-- **Vorhandenen Wert behalten** Wenn Sie diese Option auswählen, werden an der Einstellung auf dem ausgewählten Teams-Räume keine Änderungen vorgenommen.
-- **Ersetzen eines vorhandenen Werts durch** Wenn Sie diese Option auswählen, können Sie die Einstellung auf dem ausgewählten Teams-Räume mit dem von Ihnen ausgewählten Wert aktualisieren.
+- **Vorhandenen Wert beibehalten** Wenn Sie diese Option auswählen, werden keine Änderungen an der Einstellung auf dem ausgewählten Teams-Räume vorgenommen.
+- **Vorhandenen Wert ersetzen durch** Wenn Sie diese Option auswählen, können Sie die Einstellung auf dem Teams-Räume aktualisieren, den Sie mit dem von Ihnen bereitgestellten Wert ausgewählt haben.
     > [!CAUTION]
-    > Vorhandene Werte in den Einstellungen, die Sie aktualisieren möchten, werden durch den von Ihnen angegebenen Wert ersetzt. Wenn Sie eine Liste mit vorhandenen Werten hinzufügen möchten, müssen Sie die vorhandenen Werte mit dem Wert, den Sie addieren möchten, hinzufügen. Wenn eine Einstellung beispielsweise `contoso.com, fabrikam.com``northwindtraders.com`über eine vorhandene Domänenliste mit verfügt und Sie hinzufügen möchten, müssten Sie den Wert von bereitstellen`contoso.com, fabrikam.com, northwindtraders.com`.
+    > Vorhandene Werte für die Einstellungen, die Sie aktualisieren möchten, werden durch den von Ihnen angegebenen Wert ersetzt. Wenn Sie einer Liste vorhandener Werte hinzufügen möchten, müssen Sie die vorhandenen Werte mit dem Wert einschließen, den Sie hinzufügen möchten. Wenn z. B. eine Einstellung eine vorhandene Domänenliste von `contoso.com, fabrikam.com`, und Sie hinzufügen `northwindtraders.com`möchten, ist der Wert, den Sie bereitstellen `contoso.com, fabrikam.com, northwindtraders.com`müssen.
     >
-    > Wenn Sie mehrere Teams-Räume, wird die Einstellung auf allen von Ihnen ausgewählten Geräten in den von Ihnen angezeigten Wert geändert. Wenn Teams-Räume für eine Einstellung unterschiedliche Werte haben, werden diese alle auf denselben Wert aktualisiert.
+    > Wenn Sie mehrere Teams-Räume auswählen, wird die Einstellung auf allen ausgewählten Geräten in den von Ihnen bereitgestellten Wert geändert. Wenn Teams-Räume unterschiedliche Werte für eine Einstellung haben, werden alle auf denselben Wert aktualisiert.
 
-| Einstellung                                                      | Akzeptierte Werte                                        | Unterstützt die Massenbearbeitung |
+| Einstellung                                                      | Akzeptierte Werte                                        | Unterstützt massenbearbeitung |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Konto*                                                    |                                                        |                    |
 | **E-Mail**                                                    | E-Mail-Adresse                                          | Nein                 |
 | **Unterstützter Besprechungsmodus**                                   | nur Microsoft Teams<br>Skype for Business (Standard) und Microsoft Teams<br>Skype for Business und Microsoft Teams (Standard)<br>Nur Skype for Business|Ja|
 | **Moderne Authentifizierung**                                    | Ein<br>Aus                                              | Ja                |
-| **Exchange adresse**                                         | E-Mail-Adresse                                          | Nein                 |
+| **Exchange Adresse**                                         | E-Mail-Adresse                                          | Nein                 |
 | **Domäne\Benutzername (optional)**                               | Kontodomäne und Benutzername                           | Nein                 |
-| **Domäne konfigurieren**                                         | Durch Kommas getrennte Liste                                   | Ja                |
+| **Domäne konfigurieren**                                         | Durch Trennzeichen getrennte Liste                                   | Ja                |
 | *Besprechungen*                                                   |                                                        |                    |
 | **Automatische Bildschirmfreigabe**                                 | Ein<br>Aus                                              | Ja                |
-| **HDMI-Aufnahmeaudiofreigabe**                                 | Ein<br>Aus                                              | Ja                |
+| **HDMI-Aufnahme der Audiofreigabe**                                 | Ein<br>Aus                                              | Ja                |
 | **Anzeigen von Besprechungsnamen**                                       | Ein<br>Aus                                              | Ja                |
-| **Automatisches Verlassen, wenn alle anderen die Besprechung verlassen haben**                 | Ein<br>Aus                                              | Ja                |
-| **Teilnehmen an Besprechungen von Drittanbietern**                 | Cisco Webex<br>Zoomen                                              | Ja                |
-| **Teilnehmen mit Rauminformationen**                 | Ausgewählt<br>Nicht ausgewählt                                              | Ja                |
-| **Teilnehmen mit benutzerdefinierten Informationen**                 | Ausgewählt<br>Nicht ausgewählt                                              | Ja                |
+| **Automatisches Verlassen, wenn alle anderen Personen die Besprechung verlassen haben**                 | Ein<br>Aus                                              | Ja                |
+| **Teilnehmen an Besprechungen von Drittanbietern**                 | Cisco Webex<br>Zoom                                              | Ja                |
+| **Teilnehmen mit Rauminformationen**                 | Ausgewählt<br>Deaktiviert                                              | Ja                |
+| **Teilnehmen mit benutzerdefinierten Informationen**                 | Ausgewählt<br>Deaktiviert                                              | Ja                |
 | **Name (erforderlich)**                 | Name des Raums oder Leerzeichens                                              | Ja                |
 | **E-Mail (erforderlich)**                 | E-Mail-Adresse                                              | Ja                |
 | *Gerät*                                                     |                                                        |                    |
-| **Modus mit zwei Monitoren**                                        | Ein<br>Aus                                              | Ja                |
-| **Inhaltsduplizierung zulassen** | Ausgewählt<br>Nicht ausgewählt                                 | Ja                |
-| **Bluetooth beacing**                                      | Ein<br>Aus                                              | Ja                |
-| **Automatisches Annehmen von näherungsbasierten Besprechungseinladungen** | Ausgewählt<br>Nicht ausgewählt                                 | Ja                |
+| **Dual monitor mode**                                        | Ein<br>Aus                                              | Ja                |
+| **Duplizierung von Inhalten zulassen** | Ausgewählt<br>Deaktiviert                                 | Ja                |
+| **Bluetooth Beaconing**                                      | Ein<br>Aus                                              | Ja                |
+| **Automatisches Annehmen von näherungsbasierten Besprechungseinladungen** | Ausgewählt<br>Deaktiviert                                 | Ja                |
 | **Senden von Protokollen mit Feedback**                                  | Ein<br>Aus                                              | Ja                |
 | **E-Mail-Adresse für Protokolle und Feedback**                      | E-Mail-Adresse                                          | Ja                |
 | *Koordinieren von Besprechungen*                                                     |                                                        |                    |
 | **Koordinierte Besprechungen** | Ein<br>Aus                                 | Nein                |
 | **Mikrofon dieses Geräts aktivieren** | Ein<br>Aus                                 | Nein                |
-| **Personen beim Beitreten zu einer Besprechung aktivieren lassen** | Ausgewählt<br>Nicht ausgewählt                                 | Nein                |
-| **Kamera dieses Geräts aktivieren** | Ein<br>Aus                                 | Nein                |
-| **Personen beim Beitreten zu einer Besprechung aktivieren lassen** | Ausgewählt<br>Nicht ausgewählt                                 | Nein                |
-| **Aktivieren von Whiteboards für dieses Gerät** | Ein<br>Aus                                 | Nein                |
-| **Vertrauenswürdige Gerätekonten (durch Kommas getrennt)** | Liste der Geräte                              | Nein                |
-| *Peripheriegeräte*                                                |                                                        |                    |
+| **Zulassen, dass Personen an einer Besprechung teilnehmen** | Ausgewählt<br>Deaktiviert                                 | Nein                |
+| **Aktivieren der Kamera dieses Geräts** | Ein<br>Aus                                 | Nein                |
+| **Zulassen, dass Personen an einer Besprechung teilnehmen** | Ausgewählt<br>Deaktiviert                                 | Nein                |
+| **Whiteboarding für dieses Gerät aktivieren** | Ein<br>Aus                                 | Nein                |
+| **Vertrauenswürdige Gerätekonten (getrennt durch Kommas)** | Liste der Geräte                              | Nein                |
+| *Peripherals*                                                |                                                        |                    |
 | **Konferenzmikrofon**                                  | Liste der verfügbaren Mikrofone                          | Nein                 |
 | **Konferenzlautsprecher**                                     | Liste der verfügbaren Lautsprecher                             | Nein                 |
-| **Standardlautstärke**                                           | 0-100                                                  | Nein                 |
+| **Standardvolume**                                           | 0-100                                                  | Nein                 |
 | **Standardlautsprecher**                                          | Liste der verfügbaren Lautsprecher                             | Nein                 |
-| **Standardlautstärke**                                           | 0-100                                                  | Nein                 |
+| **Standardvolume**                                           | 0-100                                                  | Nein                 |
 | **Inhaltskamera**                                           | Liste der verfügbaren Kameras                              | Nein                 |
-| **Erweiterungen für die Inhaltskamera**                              | Ein<br>Aus                                              | Nein                 |
+| **Verbesserungen an Inhaltskameras**                              | Ein<br>Aus                                              | Nein                 |
 | **Inhaltskamera um 180 Grad drehen**                        | Ein<br>Aus                                              | Nein                 |
 | *Theming*                                                    |                                                        |                    |
-|                                                              | Standard<br>Kein Design<br>Benutzerdefiniert<br>Liste der integrierten Designs   | Ja                |
+|                                                              | Standard<br>Kein Design<br>Benutzerdefinierte<br>Liste der integrierten Designs   | Ja                |
 
 ### <a name="cortana-settings"></a>Cortana-Einstellungen
 
-Sie können _Cortana Sprachaktivierung_ oder _Push aktivieren_, um mithilfe von PowerShell für alle Geräte in Ihrer Organisation oder für jedes Gerät separat zu sprechen.
+Sie können Cortana für _die Sprachaktivierung_ oder _Push-Kommunikation_ mithilfe von PowerShell für alle Geräte in Ihrer Organisation oder für jedes Gerät separat aktivieren.
 
-Weitere [Microsoft Teams-Räume der Windows](../cortana-in-teams.md) im Artikel "Cortana Sprachunterstützung in Teams".
+Siehe [Microsoft Teams-Räume auf Windows](../cortana-in-teams.md) im Artikel "Cortana Sprachunterstützung in Teams".
 
-### <a name="front-row-layout-settings"></a>Layouteinstellungen für die Erste Zeile
+### <a name="front-row-layout-settings"></a>Layouteinstellungen für die erste Zeile
 
-Die erste Zeile ist die Layoutoption für Besprechungsansichten Teams-Räume Besprechungen Windows.
+Die erste Zeile ist die Layoutoption für die Besprechungsansicht für Teams-Räume auf Windows.
 
-| Teams Gerät | App-Version | Vor dem Raumanzeige |
+| Teams Gerät | App-Version | Anzeige vorn im Raum |
 |--------------|-------------|-----------------------|
-|Microsoft Teams-Räume auf Windows | 4.11.12.0 oder höher (Die neueste Version wird empfohlen) | Unterstützt single- und duale Anzeigen. Mindestgröße: 46 Zoll; Seitenverhältnis 16:9 mit einer Auflösung von 1920 x 1080 oder 21:9 mit einer Auflösung von 2560 x 1080; Alle Anzeigen sollten in den Einstellungen Windows 100 % Windows werden |
+|Microsoft Teams-Räume auf Windows | 4.11.12.0 oder höher (die neueste Version wird empfohlen) | Unterstützt einzelne und duale Displays; Mindestgröße: 46 Zoll; Seitenverhältnis 16:9 mit einer Auflösung von 1920 x 1080 oder 21:9 mit einer Auflösung von 2560 x 1080; Alle Anzeigen sollten in Windows Einstellungen auf eine Skalierung von 100 % festgelegt werden. |
 
-Informationen [Microsoft Teams-Räume, wie Sie die](rooms-operations.md#change-scale-and-resolution) Anzeigeeinstellungen an die Anforderungen der Zeile "Front Row" anpassen können, finden Sie unter Wartung und Vorgänge.
+Sehen Sie [sich Microsoft Teams-Räume Wartung und Betrieb](rooms-operations.md#scale-and-resolution) an, um Ihre Anzeigeeinstellungen an die Anforderungen der ersten Zeile anzupassen.
 
-Informationen zum Festlegen der Zeile "Vorn" als Standardlayout für einen Raum oder zum Deaktivieren finden Sie unter Remoteverwaltung einer Microsoft Teams-Räume-Konsoleneinstellungen mit einer [XML-Konfigurationsdatei](xml-config-file.md#set-front-row-as-the-default-layout).
+Informationen zum Festlegen der Ersten Zeile als Standardlayout für einen Raum oder zum Deaktivieren finden [Sie unter Remoteverwaltung einer Microsoft Teams-Räume Konsoleneinstellungen mit einer XML-Konfigurationsdatei](xml-config-file.md#set-front-row-as-the-default-layout).
 
-Weitere [Informationen zum Verwalten von](known-issues.md#Limits) Front-Row finden Sie unter Bekannte Probleme.
+Weitere Informationen zum Verwalten der ersten Zeile finden Sie unter ["Bekannte Probleme](known-issues.md#Limits) ".
 
-## <a name="device-restart-options"></a>Optionen für den Geräteneustart
+## <a name="device-restart-options"></a>Geräteneustartoptionen
 
-Änderungen an den Geräteeinstellungen werden erst wirksam, Teams-Räume neu gestartet wurde. Wenn Sie Änderungen vornehmen, die einen Neustart erforderlich machen, können Sie auswählen, ob Sie sofort neu starten oder einen Neustart planen möchten. Hier sind die verfügbaren Neustartoptionen:
+Änderungen an den Geräteeinstellungen werden erst wirksam, nachdem Teams-Räume neu gestartet wurde. Wenn Sie Änderungen vornehmen, die einen Neustart erfordern, können Sie auswählen, ob sie sofort neu gestartet werden oder einen Neustart planen möchten. Hier sind die verfügbaren Neustartoptionen:
 
 - **Sofortiger Neustart** Wenn Sie diese Option auswählen, werden alle Geräte, an der Sie Änderungen vornehmen, neu gestartet, sobald Sie diese Option auswählen.
-- **Geplanter Neustart** Wenn Sie diese Option auswählen, können Sie die Geräte neu starten, an der Sie Änderungen vornehmen, zu einer Zeit, die für Ihre Organisation weniger störend ist.
-  - **Datum und Uhrzeit auswählen** : Wählen Sie das Datum und die Uhrzeit für den Neustart des Geräts aus. Datum und Uhrzeit des neu gestarteten Geräts sind lokal. 
-  - **Update für nächtlichen Neustart verlassen** Geräte werden für Wartungen nachts neu gestartet. Änderungen, die Sie an Geräten vornehmen, werden während dieses Neustarts angewendet.
+- **Geplanter Neustart** Wenn Sie diese Option auswählen, können Sie die Geräte, an denen Sie Änderungen vornehmen, zu einem Zeitpunkt neu starten, der für Ihre Organisation weniger störend ist.
+  - **Wählen Sie Datum und Uhrzeit** aus – Wählen Sie das bestimmte Datum und die Uhrzeit aus, um das Gerät neu zu starten. Datum und Uhrzeit, die Sie auswählen, sind lokal für das Gerät, das neu gestartet wird. 
+  - **Update für den nächtlichen Neustart verlassen** Geräte werden nachts neu gestartet, um Wartungsarbeiten auszuführen. Änderungen, die Sie an Geräten vornehmen, werden während dieses Neustarts angewendet.
 
 > [!CAUTION]
-> Teams-Räume, die zum Zeitpunkt eines Neustarts verwendet werden, sind für die Dauer des Neustartvorgangs nicht mehr verfügbar. Sie werden von ihren in Bearbeitungen ausgeführten Besprechungen getrennt und stehen nicht zur Verfügung, um an neuen Besprechungen teilzunehmen.
+> Teams-Räume, die zum Zeitpunkt eines Neustarts verwendet werden, sind für die Dauer des Neustartvorgangs nicht mehr verfügbar. Sie werden von laufenden Besprechungen getrennt und stehen nicht zur Teilnahme an neuen Besprechungen zur Verfügung.
 
 ## <a name="remove-device"></a>Gerät entfernen
 
-Wenn Sie ein Gerät entfernen, wird das Gerät aus Ihrer Organisation entfernt und nicht mehr in Ihrer Liste der Teams-Räume auf Windows im Teams Admin Center angezeigt.
+Wenn Sie ein Gerät entfernen, wird das Gerät aus Ihrer Organisation entfernt und nicht mehr in Der Liste der Teams-Räume auf Windows im Teams Admin Center angezeigt.
 
-Wenn Sie ein Gerät entfernen und es weiterhin mit einem gültigen Benutzernamen und Kennwort konfiguriert ist, wird es automatisch erneut zu Ihrer Teams-Räume-Liste hinzugefügt, wenn es erneut eine Verbindung mit Microsoft 365 herstellt.
+Wenn Sie ein Gerät entfernen und es weiterhin mit einem gültigen Benutzernamen und Kennwort konfiguriert ist, wird es automatisch ihrer Teams-Räume Liste erneut hinzugefügt, wenn es erneut eine Verbindung mit Microsoft 365 herstellt.
 
 Gehen Sie wie folgt vor, um ein oder mehrere Geräte zu entfernen:
 
-1. Wechseln Sie **Teams Geräte** >  **Teams-Räume auf Windows**, und wählen Sie die Geräte aus, die Sie entfernen möchten.
+1. Wechseln Sie auf **Windows zu Teams Geräte** >  **Teams-Räume** und wählen Sie die Geräte aus, die Sie entfernen möchten.
 2. Wählen Sie **Entfernen** aus.
 
 ## <a name="download-device-logs"></a>Herunterladen von Geräteprotokollen
 
-Sie können eine Kopie der Diagnoseprotokolldateien eines Geräts herunterladen, wenn Sie vom Microsoft-Support dazu aufgefordert werden. Protokolldateien werden in eine ZIP-Datei komprimiert, die aus dem Teams Admin Center heruntergeladen werden kann.
+Sie können eine Kopie der Diagnoseprotokolldateien eines Geräts herunterladen, wenn Sie dazu vom Microsoft-Support angefordert werden. Protokolldateien werden in eine ZIP-Datei komprimiert, die aus dem Teams Admin Center heruntergeladen werden kann.
 
-Gehen Sie wie folgt vor, Teams-Räume Protokolle von einem anderen Gerät auf Ihren Computer herunterzuladen:
+Gehen Sie wie folgt vor, um Protokolle von einem Teams-Räume Gerät auf Ihren Computer herunterzuladen:
 
-1. Wechseln Sie **zu Teams Geräte** >  **Teams-Räume auf Windows**, und wählen Sie den Namen des Geräts aus, von dem Sie Protokolle herunterladen möchten.
-1. Wählen Sie **Geräteprotokolle herunterladen aus**. Es kann einige Minuten dauern, bis Geräteprotokolle verfügbar sind.
-1. Wählen Sie die **Registerkarte** Verlauf und dann unter Diagnosedatei den Link **Protokolldatei aus**. Eine ZIP-Datei, die die Diagnoseprotokolldateien Ihres Geräts enthält, wird in den Standardordner "Downloads" Ihres Browsers heruntergeladen.
+1. Wechseln Sie auf **Windows zu Teams Geräte** >  **Teams-Räume** und wählen Sie den Namen des Geräts aus, von dem Sie Protokolle herunterladen möchten.
+1. Wählen Sie **"Geräteprotokolle herunterladen" aus**. Es kann mehrere Minuten dauern, bis Geräteprotokolle verfügbar sind.
+1. Wählen Sie die Registerkarte " **Verlauf** " und dann unter " **Diagnosedatei**" den Link "Protokolldatei" aus. Eine ZIP-Datei mit den Diagnoseprotokolldateien Ihres Geräts wird in den Standardordner "Downloads" Ihres Browsers heruntergeladen.
 
 ## <a name="view-device-information"></a>Anzeigen von Geräteinformationen
 
-Im Teams Admin Center können Sie den Gesamtstatus aller Geräte in Ihrer Organisation und Details zu den einzelnen Geräten anzeigen.
+Im Teams Admin Center können Sie den Gesamtstatus aller Geräte in Ihrer Organisation anzeigen und details zu jedem Gerät einzeln anzeigen.
 
 ### <a name="teams-rooms-system-dashboard"></a>Teams-Räume Systemdashboard
 
-Im Teams-Räume Systemdashboard können Sie den Status und Status aller Ihrer Geräte auf einen Blick sehen.
+Das Teams-Räume-Systemdashboard zeigt Ihnen den Status und Die Integrität aller Ihrer Geräte auf einen Blick.
 
 ### <a name="device-details-view"></a>Ansicht "Gerätedetails"
 
-Wenn Sie detaillierte Informationen zu einem Gerät anzeigen möchten, wählen Sie dessen Namen aus der Geräteliste aus. In der Detailansicht werden die folgenden Informationen zu Ihrem Gerät angezeigt:
+Um detaillierte Informationen zu einem Gerät anzuzeigen, wählen Sie seinen Namen in der Geräteliste aus. In der Detailansicht werden die folgenden Informationen zu Ihrem Gerät angezeigt:
 
-- **Integritätsstatus** Zeigt den Gesamtzustand des Teams des Raumgeräts an. Der Status kann entweder fehlerfrei **oder** **fehlerhaft sein**.
-- **Offline seit** Zeigt an, wie Microsoft 365 zuletzt mit dem Gerät kommunizieren konnte.
-- **Gerätestatus** Zeigt den aktuellen Status des Geräts an: **Inaktiv**, **Teams Besprechung**, **Skype oder** **Erfassung**.
-- **Peripheriegeräte** Zeigt die an ihr Gerät Teams angeschlossenen Peripheriegeräte und deren Integritätsstatus an. Statusstatus kann entweder Verbunden **oder** Getrennt **sein**.
-- **Integrität** Zeigt detaillierte Informationen zu Peripheriegeräten, die an Ihr Teams-Raumgerät angeschlossen sind, Netzwerkverbindung, Anmeldestatus bei erforderlichen Diensten und Informationen zur Softwareversion.
-- **Details** Zeigt Herstellerinformationen, Netzwerk-IP-Adresse und Teams Seriennummer/MAC-Adresse des Raumgeräts an.
-- **Aktivität** Zeigt vergangene Besprechungsdetails an, einschließlich Datum und Uhrzeit der Besprechung, Anzahl der Teilnehmer, Dauer und Audioqualität. Weitere Informationen zu Besprechungsdetails finden Sie im Abschnitt [Details](#meeting-activity-details) zur Besprechungsaktivität weiter unten in diesem Artikel.
-- **Verlauf** Zeigt einen Verlauf der Verwaltungsaktivität auf dem Teams Raumgerät an, einschließlich Konfigurationsupdates, Geräteneustarts und Links zum Herunterladen des Geräteprotokolls.
+- **Integritätsstatus** Zeigt den Gesamtzustand des Teams Raumgeräts an. Der Integritätsstatus kann entweder **"Fehlerfrei** " oder **"Fehlerhaft**" sein.
+- **Offline seit** Zeigt das letzte Mal an, Microsoft 365 mit dem Gerät kommunizieren konnte.
+- **Gerätestatus** Zeigt den aktuellen Status des Geräts an: **Leerlauf**, **Teams Besprechung**, **Skype Besprechung** oder **Erfassung**.
+- **Peripherals** Zeigt die Peripheriegeräte, die mit Ihrem Teams Room-Gerät verbunden sind, und deren Integritätsstatus an. Der Integritätsstatus kann entweder **"Verbunden** " oder **"Getrennt**" sein.
+- **Gesundheit** Zeigt detaillierte Informationen zu den Peripheriegeräten, die mit Ihrem Teams Room-Gerät verbunden sind, Netzwerkkonnektivität, Anmeldestatus bei erforderlichen Diensten und Softwareversionsinformationen.
+- **Details** Zeigt Herstellerinformationen, Netzwerk-IP-Adresse und Teams serielle/MAC-Adresse des Raumgeräts an.
+- **Aktivität** Zeigt frühere Besprechungsdetails an, einschließlich Datum und Uhrzeit der Besprechung, Anzahl der Teilnehmer, Dauer und Audioqualität. Weitere Informationen zu Besprechungsdetails finden Sie im Abschnitt " [Besprechungsaktivitätsdetails](#meeting-activity-details) " weiter unten in diesem Artikel.
+- **Geschichte** Zeigt einen Verlauf der Verwaltungsaktivitäten auf dem Teams Room-Gerät an, einschließlich Konfigurationsupdates, Geräteneustarts und Downloadlinks für Geräteprotokolle.
 
-#### <a name="meeting-activity-details"></a>Details zur Besprechungsaktivität
+#### <a name="meeting-activity-details"></a>Details zu Besprechungsaktivitäten
 
-Auf **der** Registerkarte Aktivität in Teams Des Raumgeräts werden auf hoher Ebene detaillierte Informationen zu allen Besprechungen angezeigt, an der das Gerät im Laufe der Zeit teilgenommen hat. Auf der **Registerkarte Aktivität** können Sie sehen, wann eine Besprechung abgehalten wurde, wie viele Teilnehmer an der Besprechung teilgenommen haben und wie gut die Audioqualität während der Besprechung war.
+Auf der Registerkarte **"Aktivität**" in Teams Raumgerätedetails werden allgemeine und detaillierte Informationen zu allen Besprechungen angezeigt, an der das Gerät im Laufe der Zeit teilgenommen hat. Auf der Registerkarte " **Aktivität** " können Sie sehen, wann eine Besprechung abgehalten wurde, wie viele Teilnehmer an der Besprechung teilgenommen haben, und die Audioqualität während der Besprechung.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Zusammenfassung der Aktivitäten des Raumgeräts.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Zusammenfassungsliste der Raumgeräteaktivität.":::
 
-Wenn Sie die Detailinformationen zu einer bestimmten Besprechung sehen möchten, wählen Sie Datum und Uhrzeit der Besprechung aus, zu der Sie weitere Informationen wünschen. Wenn eine Besprechung nur zwei Teilnehmer enthält, wird die Seite mit den Teilnehmerdetails angezeigt, andernfalls wird eine Zusammenfassungsseite für Teilnehmer angezeigt.
+Um die Detailinformationen zu einer bestimmten Besprechung anzuzeigen, wählen Sie das Datum und die Uhrzeit der Besprechung aus, zu der Sie weitere Informationen benötigen. Wenn eine Besprechung nur zwei Teilnehmer enthält, wird die Seite mit den Teilnehmerdetails angezeigt, andernfalls wird eine Teilnehmerzusammenfassungsseite angezeigt.
 
 ##### <a name="participant-summary"></a>Teilnehmerzusammenfassung
 
-Auf der Teilnehmerzusammenfassungsseite werden alle Teilnehmer angezeigt, die an der Besprechung teilgenommen haben. Sie können sehen, wann jeder Teilnehmer der Besprechung beigetreten ist, seinen Namen, die Audioqualität und die Funktionen sehen, die während der Sitzung verwendet wurden. Um die Details der Sitzung eines Teilnehmers anzuzeigen, wählen Sie die Startzeit der Sitzung für den Teilnehmer aus.
+Auf der Teilnehmerzusammenfassungsseite werden alle Teilnehmer angezeigt, die an der Besprechung teilgenommen haben. Sie können sehen, wann jeder Teilnehmer der Besprechung beigetreten ist, dessen Name, Die Audioqualität und welche Features während der Sitzung verwendet wurden. Um die Details der Sitzung eines Teilnehmers anzuzeigen, wählen Sie die Startzeit der Sitzung für diesen Teilnehmer aus.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Konferenzdetails für Raumgeräte an.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Konferenzdetails für Raumgeräte.":::
 
 ##### <a name="participant-details"></a>Teilnehmerdetails
 
-Auf der Seite "Teilnehmerdetails" werden End-to-End-Diagnoseinformationen für die Sitzung dieses Teilnehmers angezeigt. Wie in der folgenden Abbildung gezeigt, werden **Geräte**-, **System**- und **Konnektivitätsinformationen** für den Teilnehmer und das Teams-Räume bereitgestellt. **Darüber** hinaus werden Netzwerkdiagnoseinformationen zwischen dem Teilnehmer und Teams-Räume Gerät bereitgestellt. Wählen Sie das Symbol für den Kontext aus, zu dem Sie weitere Informationen wünschen. Um weitere Diagnoseinformationen zu erhalten, wählen Sie die **Registerkarte Erweitert** aus.
+Auf der Seite mit den Teilnehmerdetails werden End-to-End-Diagnoseinformationen für die Sitzung dieses Teilnehmers angezeigt. Wie in der folgenden Grafik dargestellt, werden **Geräte**-, **System****- und Konnektivitätsinformationen** für den Teilnehmer und das Teams-Räume Gerät bereitgestellt. **Netzwerkdiagnoseinformationen** zwischen dem Teilnehmer und dem Teams-Räume Gerät werden ebenfalls bereitgestellt. Wählen Sie das Symbol für den Kontext aus, zu dem Sie weitere Informationen benötigen. Wenn Sie weitere Diagnoseinformationen benötigen, wählen Sie die Registerkarte " **Erweitert** " aus.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Sie Anrufdetails für Raumgeräte.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Anrufdetails des Raumgeräts.":::

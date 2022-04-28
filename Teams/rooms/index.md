@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Hier erfahren Sie, wie Sie Microsoft Teams-Räume einrichten, einschließlich Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 0458513bc75bf352aed1b611895ef918fc621dcc
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
-ms.translationtype: HT
+ms.openlocfilehash: 85ddcccc2de769a20f12357aafcb2d5743f981c3
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504112"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106320"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams-Räume
 
@@ -55,6 +55,3 @@ ms.locfileid: "63504112"
 > Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt.
 
 Diese Artikel richten sich an Personen, die mit der Planung, Bereitstellung und Verwaltung dieser Microsoft-Teams-Räume betraut sind. Endbenutzer werden mehr Interesse an der [Online-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) zu Microsoft Teams-Räume haben.
-
-> [!NOTE]
-> [Skype Room System](../rooms/lrs-migration.md) (früher Lync Room System) und Microsoft Teams-Räume sind zwei verschiedene Produkte mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren.

@@ -7,19 +7,24 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-  - Teams_ITAdmin_GuestAccess
-  - M365-collaboration
-  - m365initiative-deployteams
+- Teams_ITAdmin_GuestAccess
+- M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
-description: 'Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Teams. Testen Sie neue Features, und senden Sie Feedback.'
+- NOCSH
+description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Teams. Testen Sie neue Features, und senden Sie Feedback.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
+ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059186"
 ---
-
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
 > [!NOTE] 
@@ -41,20 +46,22 @@ Die öffentliche Vorschau wird auf Ebene des einzelnen Benutzers aktiviert, und 
 
 2. Benennen Sie die Updaterichtlinie, fügen Sie eine Beschreibung hinzu, und wählen Sie die Einstellung **Vorschaufeatures anzeigen** aus.
 
-   -   **Office Preview folgen** (Standard): Diese neue Standardoption aktiviert automatisch Microsoft Teams Public Preview-Features für alle Benutzer, die im aktuellen Office-Kanal (Vorschau) registriert sind. Der Endbenutzer muss keine weiteren Aktionen ausführen.
-   -   **Aktiviert**: Mit dieser Option wird Microsoft Teams Public Preview unabhängig davon aktiviert, ob ein Benutzer im aktuellen Office-Kanal (Vorschau) registriert ist. Der Endbenutzer muss außerdem ein Opt-in für die öffentliche Vorschau von Microsoft Teams in seiner Microsoft Teams-App durchführen.
+   -   **Office-Vorschauversion folgen** (Standard)
+       - Diese neue Standardoption aktiviert automatisch Microsoft Teams Public Preview-Features für alle Benutzer, die im aktuellen Office-Kanal (Vorschau) registriert sind. 
+       - Der Endbenutzer muss keine weiteren Aktionen ausführen.
+   -   **Aktiviert**
+       - Mit dieser Option wird die Public Preview für Microsoft Teams aktiviert, unabhängig davon, ob ein Benutzer im aktuellen Office-Kanal (Vorschau) registriert ist. 
+       - Der Endbenutzer muss außerdem ein Opt-in für die öffentliche Vorschau von Microsoft Teams in seiner Microsoft Teams-App durchführen.
 
    > [!NOTE]  
    > Für vorhandene Benutzer in Microsoft Teams Public Preview, die NICHT im **Aktuellen Kanal (Vorschau)** registriert sind, müssen IT-Administratoren von der Standardeinstellung **Office Preview folgen** zu **Aktiviert** wechseln.
  
-   - **Nicht aktiviert**: Microsoft Teams Public Preview-Features stehen Endbenutzern nicht zur Verfügung.
+   - **Nicht aktiviert** 
+     - Microsoft Teams Public Preview-Features werden Endbenutzern nicht zur Verfügung stehen.
 
     ![zeigt das Dialogfenster "Vorschaueinstellungen" an.](media/public-preview-policy.png)  
 
 Sie können die Richtlinie auch mit dem `Set-CsTeamsUpdateManagementPolicy`-Cmdlet von PowerShell mit dem Parameter `-AllowPublicPreview` festlegen.
-
-> [!NOTE]   
-> Der AllowPreview-Parameter wird bald als veraltet verworfen.
 
 ## <a name="enable-public-preview"></a>Aktivieren der öffentlichen Vorschau
 
@@ -69,7 +76,7 @@ Wenn Sie die öffentliche Vorschau auf einem Desktop- oder Webclient aktivieren 
 
 ## <a name="teams-now-follows-office-preview-users"></a>Microsoft Teams folgt jetzt Office Preview-Benutzern
 
-Die neue globale standardmäßige Richtlinieneinstellung **Office Preview folgen** ermöglicht Benutzern, sich automatisch im Public Preview-Kanal von Microsoft Teams zu befinden, wenn sie sich im aktuellen Kanal (Vorschau) für den Office 365-Client unter Windows befinden.
+Die neue globale standardmäßige Richtlinieneinstellung **Office-Vorschauversion folgen** ermöglicht Benutzern, sich automatisch im Public Preview-Kanal von Microsoft Teams zu befinden, wenn sie sich im aktuellen Kanal (Vorschau) für den Office 365-Client unter Windows und Mac befinden.
 
 Microsoft Office erhält weiterhin Updates aus dem aktuellen Kanal (Vorschau), und der Microsoft Teams-Client erhält Updates über den Public Preview-Kanal. Durch diese Richtlinie werden KEINE Office-Kanäle basierend auf Microsoft Teams-Kanälen gewechselt. 
 
@@ -80,10 +87,6 @@ Für vorhandene Benutzer, die ein Opt-in oder Opt-out für Microsoft Teams Publi
 **Wie kann ich diese Einstellung deaktivieren?**
 
 Sie können die Einstellung im Microsoft Teams Admin Center von **Office Preview folgen** auf **Nicht aktiviert** ändern (siehe [Festlegen der Updaterichtlinie](#set-the-update-policy)).
-
-## <a name="known-issues"></a>Bekannte Probleme
-
-Benutzer des aktuellen Kanals (Vorschau) für Office können Microsoft Teams Public Preview über das Menü "Info" des Microsoft Teams-Clients beenden, während ihre Updaterichtlinie auf **Office Preview folgen** festgelegt ist. Diese Funktionalität ist nicht vorgesehen und wird in Zukunft entfernt. Der Microsoft Teams-Client kann sich automatisch wieder auf Public Preview einstellen, wenn sich das Gerät das nächste Mal im Leerlauf befindet, wenn sich der Benutzer im aktuellen Kanal (Vorschau) für Office befindet.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
