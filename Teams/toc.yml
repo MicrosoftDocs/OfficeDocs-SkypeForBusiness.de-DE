@@ -495,7 +495,7 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: Einrichten von Kanalmoderation in Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Verwalten von Schleifenkomponenten
+      - name: Verwalten von Loop-Komponenten
         href: loop-components-in-teams.md
       - name: Teams und Outlook-E-Mail-Integration
         href: teams-outlook-email-integration.md
@@ -1327,34 +1327,28 @@ items:
                 href: rooms/security.md
               - name: Onlinelizenzierung
                 href: rooms/rooms-licensing.md
-              - name: Best Practices für bedingten Zugriff und Intune-Compliance
-                href: rooms/conditional-access-and-compliance-for-devices.md
-              - name: Unterstützte Richtlinien für bedingten Zugriff und Intune-Compliance
-                href: rooms/supported-ca-and-compliance-policies.md
               - name: Planen der Verwaltung mit Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Bereitstellen
             items:
               - name: Übersicht über die Bereitstellung
                 href: rooms/rooms-deploy.md
-              - name: Konfigurieren von Konten
-                href: rooms/rooms-configure-accounts.md
               - name: Ressourcenkonten erstellen
                 href: rooms/with-office-365.md
-              - name: Mit Skype for Business Server
-                href: rooms/with-skype-for-business-server-2015.md
               - name: Konfigurieren einer Konsole
                 href: rooms/console.md
+              - name: Authentifizierung
+                items:
+                  - name: Konfigurieren einer Authentifizierung
+                    href: rooms/rooms-authentication.md
+                  - name: Best Practices für bedingten Zugriff und Intune-Compliance
+                    href: rooms/conditional-access-and-compliance-for-devices.md
+                  - name: Unterstützte Richtlinien für bedingten Zugriff und Intune-Compliance
+                    href: rooms/supported-ca-and-compliance-policies.md
               - name: Manuelle Aktualisierung eines Geräts
                 href: rooms/manual-update.md
-              - name: Konfigurieren einer Authentifizierung
-                href: rooms/rooms-authentication.md
-              - name: Teilnehmen an Besprechungen von Drittanbietern
-                href: rooms/third-party-join.md
               - name: Verwaltung mit Azure Monitor
                 href: rooms/azure-monitor-deploy.md
-              - name: Migrieren von SRS v1 oder LRS
-                href: rooms/lrs-migration.md
               - name: Inhalts-Kameras
                 href: rooms/content-camera.md
               - name: Spracherkennungssteuerelemente für intelligente Lautsprecher
@@ -1371,11 +1365,13 @@ items:
                 href: rooms/rooms-manage.md
               - name: Wartung und Betrieb
                 href: rooms/rooms-operations.md
+              - name: Teilnehmen an Besprechungen von Drittanbietern
+                href: rooms/third-party-join.md
               - name: Bekannte Probleme
                 href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
-              - name: Geräte mit Azure Monitor
+              - name: Geräte mit Azure Monitor verwalten
                 href: rooms/azure-monitor-manage.md
-              - name: Einstellungen mit einer XML-Datei
+              - name: Einstellungen mit einer XML-Datei verwalten
                 href: rooms/xml-config-file.md
               - name: Verwendung des Wiederherstellungstools
                 href: rooms/recovery-tool.md
@@ -1481,6 +1477,8 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Planung der Telefon- und Anzeigebereitstellung
             href: devices/plan-device-deployment.md
+          - name: Ressourcenkonten für Skype for Business-Server
+            href: rooms/with-skype-for-business-server-2015.md
   - name: Verwalten von Apps
     items:
       - name: Übersicht
