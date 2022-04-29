@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556346"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125490"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
 
-In Microsoft Teams gibt es zwei Benutzerrollen: **Besitzer** und **Mitglied**. Standardmäßig wird einem Benutzer, der ein neues Team erstellt, der Status "Besitzer" zugewiesen. Besitzern und Mitgliedern können außerdem Moderatorfunktionen für einen bestimmten Kanal zugeordnet werden (sofern die Moderation eingerichtet wurde). Wenn ein Team aus einer vorhandenen Gruppe erstellt Microsoft 365, werden Berechtigungen geerbt.
+In Microsoft Teams gibt es zwei Benutzerrollen: **Besitzer** und **Mitglied**. Standardmäßig wird einem Benutzer, der ein neues Team erstellt, der Status "Besitzer" zugewiesen. Besitzern und Mitgliedern können außerdem Moderatorfunktionen für einen bestimmten Kanal zugeordnet werden (sofern die Moderation eingerichtet wurde). Wenn ein Team aus einer vorhandenen Microsoft 365 Gruppe erstellt wird, werden Berechtigungen geerbt.
 
 Die folgende Tabelle zeigt den Unterschied zwischen den Berechtigungen eines Besitzers und eines Mitglieds.
 
@@ -41,10 +41,10 @@ Die folgende Tabelle zeigt den Unterschied zwischen den Berechtigungen eines Bes
 |        **Standardkanal löschen**         |    Ja     |    Ja<sup>2</sup>|
 |          ***Privaten Kanal hinzufügen**          |    Ja     |    Ja<sup>2</sup>|
 | ***Namen/Beschreibung des privaten Kanals bearbeiten** |    Nein     |    Nicht zutreffend|
-|        ***Privaten Kanal löschen**         |    Ja     |    Nein|
+|        ***Löschen eines privaten Kanals**         |    Ja     |    Nein|
 |          **Freigegebenen Kanal hinzufügen**          |    Ja     |    Nein|
-| **Bearbeiten des Namens/der Beschreibung des freigegebenen Kanals** |    Nein     |    <sup>Nein6</sup>|
-|        **Freigegebenen Kanal löschen**         |    Ja     |    <sup>Nein6</sup>|
+| **Bearbeiten des Namens/der Beschreibung des freigegebenen Kanals** |    Nein     |    Nr<sup>. 6</sup>|
+|        **Freigegebenen Kanal löschen**         |    Ja     |    Nr<sup>. 6</sup>|
 |          **Hinzufügen von Mitgliedern**          |  Ja<sup>3</sup>   |     Nein<sup>4</sup>    |
 |          **Hinzufügen von Mitgliedern anfordern**          |  Nicht zutreffend   |     Ja<sup>5</sup>     |
 |           **Apps hinzufügen**            |    Ja     |    Ja<sup>2</sup>|
@@ -54,7 +54,7 @@ Die folgende Tabelle zeigt den Unterschied zwischen den Berechtigungen eines Bes
 <sup>3</sup> Nach dem Hinzufügen eines Mitglieds zu einem Team kann ein Besitzer auch ein Mitglied in den Besitzerstatus höherstufen. Es ist auch möglich, dass ein Besitzer seinen eigenen Status zu einem Mitglied tiefer stuft.<br>
 <sup>4</sup> Teammitglieder können andere Mitglieder zu einem öffentlichen Team hinzufügen.<br>
 <sup>5</sup> Während ein Teammitglied Mitglieder nicht direkt zu einem privaten Team hinzufügen kann, kann es das Hinzufügen einer anderen Person zu einem Team anfordern, in dem es bereits Mitglied ist. Wenn ein Mitglied das Hinzufügen einer anderen Person zu einem Team anfordert, erhalten Teambesitzer eine Benachrichtigung über eine ausstehende Anforderung, die sie annehmen oder ablehnen können.<br>
-<sup>6 Wenn</sup> es sich bei dem Teammitglied um einen Besitzer eines freigegebenen Kanals handelt, kann es diese Aktion ausführen.
+<sup>6</sup> Wenn das Teammitglied ein Besitzer des freigegebenen Kanals ist, kann es diese Aktion ausführen.
 
 * Weitere Informationen zu Berechtigungen für private Kanäle finden Sie unter [Private Kanäle in Teams](private-channels.md).
 
@@ -71,7 +71,10 @@ Weitere Informationen über Moderatorfunktionen finden Sie unter [Einrichten und
 
 ## <a name="assign-a-user-role"></a>Zuweisen einer Benutzerrolle
 
-Um eine Benutzerrolle zuzuweisen, wählen Sie in Teams den Teamnamen aus und klicken Sie dann auf **Weitere Optionen** > **Team verwalten**. Auf der Registerkarte **Mitglieder** können Sie Mitglieder hinzufügen sowie Besitzer und Moderatoren auswählen (sofern Sie über ausreichende Berechtigungen verfügen). Weitere Informationen finden Sie unter [Ändern von Teameinstellungen in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Um eine Benutzerrolle zuzuweisen, wählen Sie in Teams den Teamnamen und dann **weitere Optionen** (**...**) > **Team verwalten** aus. Auf der Registerkarte **Mitglieder** können Sie Mitglieder hinzufügen sowie Besitzer und Moderatoren auswählen (sofern Sie über ausreichende Berechtigungen verfügen). Weitere Informationen finden [Sie unter Ändern der Teameinstellungen in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+
+> [!NOTE]
+> Die Option **"Team verwalten** " wird für angeheftete Kanäle nicht angezeigt. Wählen Sie den Teamnamen weiter unten unter *"Ihre Teams* " und dann rechts neben dem Namen " **Weitere Optionen** " (**...**) aus.
 
 ## <a name="permissions-to-create-teams"></a>Berechtigungen zum Erstellen von Teams
 

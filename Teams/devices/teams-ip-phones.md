@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Tisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: de2dca728ede7c54480763a439296cde225d1447
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e9ddd0a2e9988614bd2f0fe7825a75b790736027
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059226"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125510"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams zertifizierte Android-Geräte
 
@@ -141,6 +141,7 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion  | Produktversion enthalten  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C470HD  | `1.17.558` | Update 2022 #1C   |
 |Audiocodes C455HD | `1.15.289`    | Update 2022 #1C    |
 |Audiocodes C448HD  | `1.14.524` | Update 2022 #1C |
 |Audiocodes C450HD  | `1.14.524` | Update 2022 #1C |

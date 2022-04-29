@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie Telemetrie in Echtzeit mit Details zu Geräten, Netzwerken und Konnektivität, um Benutzerprobleme bei Microsoft Teams geplanten Besprechungen zu beheben.
-ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62518727"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125800"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität
 
@@ -57,11 +57,11 @@ Um alle Besprechungsinformationen und -daten für einen Benutzer anzuzeigen, wec
 
 Wenn Sie weitere Informationen zu Teilnehmern einer laufenden Besprechung erhalten möchten, einschließlich geräte-, Netzwerk- und Audiostatistiken, suchen Sie die Besprechung in **"Zuletzt verwendete Besprechungen** ", und wählen Sie den Link unter der Spalte **"Teilnehmer** " aus.
 
-:::image type="content" alt-text="Screenshot der Teilnehmerdetailseite." source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="Screenshot der Teilnehmerdetailseite." source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 Wählen Sie die **Besprechungs-ID** aus, um sich die Telemetrie eines bestimmten Benutzers für eine laufende Besprechung anzusehen, einschließlich Informationen zu Geräte-, Netzwerk-, Audio-, Video- und Inhaltsfreigabedetails.
 
-:::image type="content" alt-text="Screenshot der Benutzersitzungsdaten der Anrufanalyse." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
+:::image type="content" alt-text="Screenshot der Benutzersitzungsdaten der Anrufanalyse." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>In Real-Time Analytics verfügbare Maßnahmen
 

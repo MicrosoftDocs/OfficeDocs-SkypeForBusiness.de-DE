@@ -1,5 +1,5 @@
 ---
-title: Teams-Kontaktcenter
+title: Teams Contact Center
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -10,47 +10,47 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Eine Übersicht über die integrierte CCaaS-Lösung (Contact Center as a Service) für Microsoft Teams
+description: Eine Übersicht über die integrierte Lösung contact center as a service (CCaaS) für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
-ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
+ms.openlocfilehash: 6ed7e2df1af7ceab02119d52ef9ed7bc5811a87c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63073743"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125640"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Integrationen von Kontaktcentern für Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Contact Center-Integrationen für Microsoft Teams
 
-  Dieser Artikel bietet eine Übersicht über die Integration von Contact Center-Lösungen in Microsoft Teams und die Lösungsanbieter, die am Microsoft Teams Connected Contact Center-Zertifizierungsprogramm teilnehmen.
+  Dieser Artikel bietet eine Übersicht darüber, wie Contact Center-Lösungen mit Microsoft Teams und den Am Microsoft Teams Connected Contact Center-Zertifizierungsprogramm teilnehmenden Lösungsanbietern integriert werden können.
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Was ist die Integration von Kontaktcentern Microsoft Teams?
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Was ist die Contact Center-Integration für Microsoft Teams?
 
-Microsoft Teams unterstützt Arbeitsstreams für die Kundeninteraktion, indem er als Hub für interne und externe Kundenverbindung über die Kommunikationsmodi hinweg, einschließlich Chats, Videobesprechungen und Anrufen, auftritt. Einige Organisationen erfüllen Microsoft Teams [Cloud-Sprachfunktionen](./cloud-voice-landing-page.md), einschließlich der automatischen Telefon [attendant](./what-are-phone-system-auto-attendants.md) und Anrufwarteschleifen[, ihren](./create-a-phone-system-call-queue.md) Anforderungen.
+Microsoft Teams unterstützt Arbeitsdatenströme der Kundeninteraktion, indem sie als Hub für die interne und externe Kundenverbindung über seine Kommunikationsmodi wie Chat, Videobesprechungen und Anrufe hinweg fungiert. Für einige Organisationen erfüllen die [Cloud-VoIP-Funktionen](./cloud-voice-landing-page.md) von Microsoft Teams, einschließlich [der automatischen Telefonzentrale](./what-are-phone-system-auto-attendants.md) und [Anrufwarteschleifen](./create-a-phone-system-call-queue.md), ihre Anforderungen.
 
-Für Organisationen, die Lösungen mit Geschäftstools und Workflows für den Kunden ein fördern möchten, ermöglicht die Integration von Kontaktcentern für Microsoft Teams CCaaS-Lösungsanbieter (Contact Center as a Service) die Integration ihrer Lösungen in Teams.
+Für Organisationen, die Lösungen mit Geschäftstools und Workflows benötigen, um die Customer Journey voranzutreiben, ermöglicht die Contact Center-Integration für Microsoft Teams Es Contact Center as a Service (CCaaS)-Lösungsanbietern, ihre Lösungen in Teams zu integrieren.
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Verbundenes Kontaktcenter für Microsoft Teams Zertifizierungsprogramm
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Verbundenes Contact Center für Microsoft Teams Zertifizierungsprogramm
 
-Das Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm überprüft, ob die Lösung jedes teilnehmenden Anbieters die Qualität, Kompatibilität und Zuverlässigkeit bietet, die von Microsoft-Lösungen erwartet wird.
+Das Connected Contact Center für Microsoft Teams Zertifizierungsprogramm überprüft, ob die Lösung jedes teilnehmenden Anbieters die Qualität, Kompatibilität und Zuverlässigkeit bietet, die sie von Microsoft-Lösungen erwarten.
 
-Wenn Sie als Organisation nach einer integrierten Kontaktcenterlösung suchen, finden Sie unter Zertifizierte [Microsoft Teams-Lösungen](https://cloudpartners.transform.microsoft.com/contact-center-solutions) für Kontaktcenter eine Liste mit zertifizierten Lösungsanbietern, und [](#connected-contact-center-solutions) unter Verbundene Kontaktcenter-Lösungen finden Sie eine Liste der Anbieter im Zertifizierungsprozess.
+Wenn Sie eine Organisation sind, die nach einer integrierten Contact Center-Lösung sucht, finden Sie unter [Certified Microsoft Teams Lösungen für Contact Center](https://cloudpartners.transform.microsoft.com/contact-center-solutions) eine Liste der zertifizierten Lösungsanbieter, und eine Liste der Anbieter im Zertifizierungsprozess finden Sie unter [Connected Contact Center-Lösungen](#connected-contact-center-solutions).
 
-Wenn Sie als Anbieter am Zertifizierungsprogramm teilnehmen möchten, senden Sie eine E-Mail an <Teamscategorypartner@microsoft.com>.
+Wenn Sie ein Anbieter sind, der am Zertifizierungsprogramm teilnehmen möchte, füllen Sie [dieses Formular](https://aka.ms/CallingPlatformIntake) als nächsten Schritt aus. Wenn Sie zusätzlichen Kontext und Details bereitstellen müssen, senden Sie eine E-Mail an [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
 
-## <a name="connected-contact-center-solutions"></a>Lösungen für verbundenes Kontaktcenter
+## <a name="connected-contact-center-solutions"></a>Verbundene Contact Center-Lösungen
 
-Die folgenden Anbieter bieten Contact Center-Lösungen, die mithilfe eines Teams, Verbinden, Erweitern oder Power integriert sind.
+Die folgenden Anbieter bieten Contact Center-Lösungen an, die in Teams mithilfe eines der Integrationsmodelle Verbinden, Extend oder Power integriert sind.
 
 ### <a name="certified-solutions"></a>Zertifizierte Lösungen
 
-![Zertifiziertes Signal.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
+![Zertifiziertes Badge.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
-|  Lösungsanbieter                                                                                                                               |  Website der Lösung                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|  Lösungsanbieter                                                                                                                               |  Lösungswebsite                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
@@ -62,9 +62,9 @@ Die folgenden Anbieter bieten Contact Center-Lösungen, die mithilfe eines Teams
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Tendfor` | https://www.tendfor.com                                                            |
 
-### <a name="solutions-currently-in-the-certification-process"></a>Lösungen, die derzeit im Zertifizierungsprozess sind
+### <a name="solutions-currently-in-the-certification-process"></a>Derzeit im Zertifizierungsprozess befindliche Lösungen
 
-|  Lösungsanbieter                                                                                                                               |  Website der Lösung                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|  Lösungsanbieter                                                                                                                               |  Lösungswebsite                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
@@ -77,7 +77,8 @@ Die folgenden Anbieter bieten Contact Center-Lösungen, die mithilfe eines Teams
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
-| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
+| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 
-Diese Liste wird aktualisiert, sobald weitere Lösungsanbieter beitreten und die Zertifizierungskriterien erfüllen.
+Diese Liste wird aktualisiert, wenn weitere Lösungsanbieter beitreten und die Zertifizierungskriterien erfüllen.

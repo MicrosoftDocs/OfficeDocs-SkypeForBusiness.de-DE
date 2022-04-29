@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Microsoft Teams-Räume bereitstellen, einschließlich der Bereitstellungsphasen.
-ms.openlocfilehash: 61fce84f9f3737f771e0417443de566444cc2ca2
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839076"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125770"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -53,12 +53,12 @@ Weitere Informationen zu diesen Abhängigkeiten finden Sie unter den folgenden P
 Führen Sie die folgenden wichtigen zentralen Aufgaben aus, um sich auf ihre Microsoft Teams-Räume Bereitstellung vorzubereiten:
 
 -   Definieren sie Microsoft Teams-Räume Ressourcenkonten.
--   Wenn Sie Teams Room zum Azure Active Directory hinzufügen, bereiten Sie eine Azure AD Gruppe mit dynamischer Mitgliedschaft vor, um alle Teams-Räume Ressourcenkonten zu speichern. Dadurch wird die zukünftige Verwaltung vereinfacht, z. B. das Anwenden von Richtlinien für bedingten Zugriff. Um Azure AD dynamischen Gruppen am einfachsten nutzen zu können, legen Sie eine Benennungskonvention fest, die Ihre Teams-Räume Ressourcenkonten eindeutig identifiziert.
--   Wenn Sie Teams Room mit Active Directory verbinden, bereiten Sie eine Organisationseinheit und Active Directory-Gruppe vor, um Ihre Microsoft Teams-Räume Computer- und Ressourcenkonten zu speichern, und bereiten Sie optional Gruppenrichtlinie Objekte (GPOs) vor, um PowerShell-Remoting zu aktivieren.
+-   Wenn Sie Teams-Räume Azure Active Directory beitreten, bereiten Sie eine Azure AD Gruppe mit dynamischer Mitgliedschaft vor, um alle Teams-Räume Ressourcenkonten zu speichern. Dadurch wird die zukünftige Verwaltung vereinfacht, z. B. das Anwenden von Richtlinien für bedingten Zugriff. Um Azure AD dynamischen Gruppen am einfachsten nutzen zu können, legen Sie eine Benennungskonvention fest, die Ihre Teams-Räume Ressourcenkonten eindeutig identifiziert.
+-   Wenn Sie Teams-Räume mit Active Directory verbinden, bereiten Sie eine Organisationseinheit und Eine Active Directory-Gruppe so vor, dass sie Ihre Microsoft Teams-Räume Computer- und Ressourcenkonten enthalten, und bereiten Sie optional Gruppenrichtlinie Objekte (GPOs) vor, um PowerShell-Remoting zu aktivieren.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Definieren Microsoft Teams-Räume Ressourcenkontofeatures 
 
-Je nach den Szenarien für die Zusammenarbeit, die Sie mit Ihrer Microsoft Teams-Räume Bereitstellung aktivieren möchten, müssen Sie die Features und Funktionen ermitteln, die Sie jedem Microsoft Teams Raum zuweisen, den Sie aktivieren.
+Abhängig von den Szenarien für die Zusammenarbeit, die Sie mit Ihrer Microsoft Teams-Räume-Bereitstellung aktiviert haben, müssen Sie die Features und Funktionen ermitteln, die Sie den einzelnen Microsoft Teams-Räume zuweisen, die Sie aktivieren.
 
 | **Szenario** | **Beschreibung** | **Microsoft Teams-Räume-Dienstkontofeature** |
 |---------- |------------- | --- |

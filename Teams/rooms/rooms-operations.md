@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Erfahren Sie mehr über das Verwalten von Microsoft Teams-Räume.
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106260"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125470"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams-Räume Wartung und Betrieb
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 Die Protokolle werden als ZIP-Datei in c:\rigel ausgegeben.
+
+### <a name="managing-disk-space"></a>Verwalten von Speicherplatz
+<a name="Space"> </a>
+
+Heruntergeladene Protokolle auf dem Gerät können Speicherplatz belegen. Wenn Protokolle nicht regelmäßig bereinigt werden, können sie die normale Funktionalität des Raums beeinträchtigen. Teams-Räume löscht heruntergeladene Protokolle nach 30 Tagen. IT-Administratoren können die Protokollbereinigung mithilfe der Geräteregistrierungseinstellung außer Kraft setzen.
+
+|Einstellung|Ermöglicht|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Bereinigt Protokolle nach 30 Tagen.  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>Anzeigeeinstellungen für die Vorderseite des Raums
 <a name="Display"> </a>

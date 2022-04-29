@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 8c48c322c913b71eb47e1c093e40200d926d26f3
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047145"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125670"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -178,18 +178,9 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 - VAE
 - Vereinigtes Königreich
 
-**Diese Länder/Regionen und Clouds werden nicht unterstützt**
-
-- Government Community Cloud (GCC)-H
-- Verteidigungsministerium (DoD, Department of Defense)
-
 **Ausschlüsse und Überlegungen**.
 
 - **Datenspeicherort:** Teams-Datenspeicherorte außerhalb der oben aufgeführten werden derzeit nicht unterstützt.
-
->[!Note]
-> Liveereignisse sind auf Azure CDN-Dienste angewiesen, die in einigen Ländern möglicherweise nicht verfügbar sind. Als Administrator müssen Sie möglicherweise ein VPN in Übereinstimmung mit allen geltenden Gesetzen und Vorschriften einrichten, um eine Verbindung mit Ihrem Unternehmensnetzwerk herzustellen, damit diese Apps reibungslos funktionieren. Sobald dies abgeschlossen ist, können Personen in Ihrer Organisation Liveereignisse planen und daran teilnehmen.
-
 
 ## <a name="next-steps"></a>Nächste Schritte
 
