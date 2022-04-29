@@ -1,5 +1,5 @@
 ---
-title: Übersicht über Schleifenkomponenten in Teams
+title: Übersicht über Loop-Komponenten in Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -11,75 +11,79 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie Komponenten für Schleifen in Teams.
+description: Erfahren Sie, wie Sie Loop-Komponenten in Teams verwalten.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9ca97a0088c703dc482d69406a9e9c2c8b2a22
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
-ms.translationtype: MT
+ms.openlocfilehash: 62aad63fcf2f3e04cd917de9cef60a8b95dbf489
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043373"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063306"
 ---
-# <a name="overview-of-loop-components-in-teams"></a>Übersicht über Schleifenkomponenten in Teams
+# <a name="overview-of-loop-components-in-teams"></a>Übersicht über Loop-Komponenten in Teams
 
-Endloskomponenten in Teams bieten eine neue Möglichkeit, gemeinsam Ideen zu erstellen und Entscheidungen zu treffen. Senden Sie eine Komponente, z. B. eine Tabelle, Aufgabenliste oder einen Absatz, in der jeder Chat inline bearbeiten und änderungen anzeigen kann, während sie vorgenommen werden. 
+Loop-Komponenten im Teams-Chat bieten eine neue Möglichkeit, gemeinsam Ideen zu entwickeln, zu erstellen und Entscheidungen zu treffen. Senden Sie eine Komponente – z. B. eine Tabelle, eine Aufgabenliste oder einen Absatz –, in der jede Person in Ihrem Chat Inline-Bearbeitungen vornehmen und Änderungen live anzeigen kann. 
 
 > [!Note]
-> Loopkomponenten sind das erste Feature der [Microsoft Loop-App](https://www.microsoft.com/en-us/microsoft-loop), das in ihrer Teams. 
+> Loop-Komponenten sind das erste Feature der [Microsoft Loop-App](https://www.microsoft.com/en-us/microsoft-loop), das in Teams verfügbar gemacht wird. 
 
-**Erledigen Sie Aufgaben schneller zusammen.** Sie können eine Tagesordnung aus der Menge stammen lassen, die Aktionselemente einer Gruppe nachverfolgen oder gemeinsam Notizen machen. Dies sind nur einige wenige Szenarien, die mit Loop-Komponenten einfacher gemacht werden.
+**Erledigen Sie Aufgaben gemeinsam schneller.** Erstellen Sie eine Agenda per Crowdsourcing, verfolgen Sie die Aktionselemente einer Gruppe, oder machen Sie sich gemeinsam Notizen. Dies sind nur einige Szenarien, die mit Loop-Komponenten vereinfacht werden.
 
-**Teilen von Komponenten.** In dieser Version können Sie Loop-Komponenten in verschiedenen Chats Teams teilen. Empfänger können von überall aus bearbeiten und Aktualisierungen sofort sehen, unabhängig davon, wo die Änderungen vorgenommen wurden.
+**Geben Sie Komponenten frei.** In diesem Release können Sie Loop-Komponenten in verschiedenen Teams-Chats freigeben. Empfänger können von überall aus Änderungen vornehmen und Updates sofort anzeigen, unabhängig davon, wo die Änderungen vorgenommen wurden.
 
-**Starten Sie im Chat, erstellen Sie von dort aus.** Jede Komponente, die Sie Teams Chat erstellen, wird automatisch in einer Datei in OneDrive. Sie können also mit der Zusammenarbeit im Chat beginnen und später zu der Datei wechseln, in der Sie über einen größeren visuellen Bereich zum Bearbeiten verfügen und so viele Komponenten hinzufügen können, wie Sie möchten.
+**Im Chat starten, von dort aus erstellen.** Jede Komponente, die Sie im Teams-Chat erstellen, wird automatisch in einer Datei in OneDrive gespeichert. Sie können also mit der Zusammenarbeit im Chat beginnen und später zu der Datei wechseln, in der Sie einen größeren visuellen Bereich für die Bearbeitung haben, und beliebig viele Komponenten hinzufügen können.
 
-Informationen zu den Administratoreinstellungen für Endloskomponenten in Teams finden Sie unter [Verwalten von Schleifenkomponenten in SharePoint](/sharepoint/manage-loop-components).
+Informationen zu Administratoreinstellungen für Loop-Komponenten in Teams finden Sie unter [Verwalten von Loop-Komponenten in SharePoint](/sharepoint/manage-loop-components).
 
 ## <a name="clients-and-platforms"></a>Clients und Plattformen
 
-Verfügbar für Teams-Apps Windows, Mac, Linux, iOS und Android.
+Verfügbar für Teams-Apps unter Windows, Mac, Linux, iOS und Android.
 
-## <a name="loop-components-and-loop-files"></a>Endloskomponenten und Loopdateien
+## <a name="loop-components-and-fluid-files"></a>Loop-Komponenten und FLUID-Dateien
 
-In einem -Teams erstellte Schleifenkomponenten werden durch eine LOOP-Datei gesichert, die in der Datei des Erstellers OneDrive. Als Datei in OneDrive bedeutet dies, dass Benutzer Endloskomponenten (Loopdateien) genauso einfach erstellen, entdecken und verwalten können wie jedes Office Dokument. Loopdateien funktionieren mit Daten-Governance-Features wie eDiscovery, Überwachung, Berichterstellung und gesetzliche Lücke.
+In Teams erstellte Loop-Komponenten werden durch eine FLUID-Datei gesichert, die im OneDrive des Erstellers gespeichert wird. Loop-Komponenten (FLUID-Dateien), die in OneDrive als Datei hinterlegt werden können, lassen sich von Benutzern so einfach wie jedes Office-Dokument erstellen, entdecken und verwalten. 
 
-## <a name="how-are-loop--files-stored"></a>Wie werden LOOP-Dateien gespeichert?
+## <a name="how-are-fluid--files-stored"></a>Wie werden FLUID-Dateien gespeichert?
 
-LOOP-Dateien werden auf Office.com und OneDrive angezeigt, z. B. in den Bereichen Zuletzt verwendet und Empfohlen. Benutzer können in Dateien mit der Datei "Office.com" und "OneDrive" nach Inhalten OneDrive. LOOP-Dateien können aus dem -OneDrive in früheren OneDrive. Um Komponenten für Schleifen zu erstellen, müssen die Chatteilnehmer über ein OneDrive verfügen. Ohne ein gültiges OneDrive-Konto können die Chatteilnehmer möglicherweise weiterhin an einer Komponente zusammenarbeiten, die von anderen Benutzern erstellt wurde, die über ein gültiges OneDrive-Konto verfügen, aber keine eigene Komponente erstellen. 
+FLUID-Dateien werden auf Office.com und in OneDrive angezeigt, z. B. in den Bereichen „Zuletzt verwendet“ und „Empfohlen“. Benutzer können in FLUID-Dateien von Office.com und OneDrive nach Inhalten suchen. FLUID-Dateien von OneDrive können auf frühere Versionen zurückgesetzt werden. Zum Erstellen von Loop-Komponenten müssen Chatteilnehmer über ein OneDrive-Konto verfügen. Ohne ein gültiges OneDrive-Konto können Chatteilnehmer möglicherweise weiterhin an einer Komponente zusammenarbeiten, die von anderen Benutzern mit einem gültigen OneDrive-Konto erstellt wurde, aber keine eigene erstellen. 
 
-Das Verschieben einer Loopdatei von OneDrive auf eine SharePoint-Website führt dazu, dass die Livekomponente im Chat Teams wird.
+Das Verschieben einer FLUID-Datei von OneDrive auf eine SharePoint-Website führt dazu, dass die Livekomponente im Teams-Chat nicht geladen werden kann.
 
 ## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>Was geschieht, wenn der Besitzer der Datei das Unternehmen verlässt?
 
-OneDrive Aufbewahrungsrichtlinien gelten für Loopdateien genauso wie für andere vom Benutzer erstellte Inhalte.
+Die OneDrive-Aufbewahrungsrichtlinien gelten für FLUID-Dateien genauso wie für andere vom Benutzer erstellte Inhalte.
 
-## <a name="how-are-loop-files-shared"></a>Wie werden LOOP-Dateien freigegeben?
+## <a name="how-are-fluid-files-shared"></a>Wie werden FLUID-Dateien freigegeben?
 
-Endloskomponenten können in einem Chat Teams oder aus einem Chat in einen anderen kopiert werden. (Loopkomponenten werden in Kanälen noch nicht unterstützt.) Sie werden standardmäßig auf die vorhandenen Berechtigungen der Organisation festgelegt, die Benutzer können jedoch vor dem Senden Berechtigungen ändern, um sicherzustellen, dass jeder Zugriff hat.
+Loop-Komponenten können in den Teams-Chat eingefügt oder aus einem Chat in einen anderen kopiert werden. (Loop-Komponenten werden in Kanälen noch nicht unterstützt.) Standardmäßig gelten die vorhandenen Berechtigungen der Organisation, aber Benutzer können die Berechtigungen vor dem Senden ändern, um sicherzustellen, dass jeder Zugriff hat.
 
-Das Öffnen von Komponenten aus Teams-Chats in Office.com bietet am oberen Rand des Fensters Freigabefunktionen, ähnlich wie die Freigabeoptionen, die für andere Office werden.
+Beim Öffnen von Komponenten aus dem Teams-Chat auf Office.com stehen Freigabefunktionen am oberen Rand des Fensters zur Verfügung, ähnlich den Freigabeoptionen, die für andere Office-Dokumente angeboten werden.
 
-## <a name="what-if-a-loop-file-becomes-corrupted-or-damaged"></a>Was passiert, wenn eine LOOP-Datei beschädigt oder beschädigt wird?
+## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>Was geschieht, wenn eine FLUID-Datei beschädigt wird?
 
-Der Versionsverlauf ermöglicht es Ihnen, frühere Versionen der Datei zu überprüfen und zu kopieren.
+Anhand des Versionsverlaufs können Sie frühere Versionen der Datei überprüfen und kopieren.
 
-## <a name="what-apps-can-open-and-edit-loop-files"></a>Welche Apps können Loopdateien öffnen und bearbeiten?
+## <a name="what-apps-can-open-and-edit-fluid-files"></a>Welche Apps können FLUID-Dateien öffnen und bearbeiten?
 
-Loopdateien können nur als Links in Ihrem Browser, z. B. Office.com, und als Loop-Komponenten in Teams geöffnet werden. Wenn sie heruntergeladen werden, können sie nicht erneut geöffnet werden, ohne sie zuerst wieder in den OneDrive oder SharePoint.
+FLUID-Dateien können nur als Links wie z. B. Office.com in Ihrem Browser und als Loop-Komponenten im Teams-Chat geöffnet werden. Wenn sie heruntergeladen werden, können sie nicht erneut geöffnet werden, ohne sie zuerst wieder auf OneDrive oder SharePoint hochzuladen.
+
+## <a name="does-fluid-files-support-ediscovery"></a>Unterstützen FLUID-Dateien eDiscovery?
+
+FLUID-Dateien sind auffindbar, verfügen aber über eingeschränkte eDiscovery-Workflowunterstützung. Derzeit werden FLUID-Dateien auf dem OneDrive des Erstellers gespeichert und stehen für die Suche und Sammlung in eDiscovery (Standard) und eDiscovery (Premium) zur Verfügung. Sie werden jedoch nicht in der Vorschau gerendert, und das Exportformat für die Überprüfung kann von vorhandenen Tools nicht verwendet werden. Um die exportierten Inhalte anzuzeigen, laden Sie sie auf ein beliebiges OneDrive hoch. Bei Bedarf können Sie diese Funktionen vorübergehend deaktivieren, wie im Abschnitt [Einstellungsverwaltung](/sharepoint/manage-loop-components#settings-management) beschrieben.
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-- Loopkomponenten in Chats können nicht mithilfe von Office-App unter Android Teams bearbeitet werden.
-- Wenn die Standarddateiberechtigungen des Mandanten auf Bestimmte *Personen (nur* die vom Benutzer angegebenen Personen) festgelegt sind und der Absender beim Erstellen einer  Komponente einige Benutzer aus der Liste Bestimmte Personen im Berechtigungsdialogfeld entfernt, haben diese Benutzer möglicherweise weiterhin Zugriff auf den Inhalt.
-- Wenn die Mandanten-Standarddateiberechtigungen auf Bestimmte *Personen (nur* vom Benutzer festgelegte Personen) festgelegt sind, muss der Absender beim Kopieren des Links in die Livekomponente und beim Einfügen in einen anderen Chat das Dialogfeld "Berechtigungen" verwenden und die Empfänger zur Option Bestimmte Personen hinzufügen, damit der Zugriff ordnungsgemäß gewährt wird.
-- Wenn die Mandanten-Standarddateiberechtigungen auf Bestimmte *Personen (nur* vom Benutzer festgelegte Personen) festgelegt sind, muss der Absender beim Erstellen einer Livekomponente in einem Gruppenchat mit mehr als 20 Mitgliedern die Berechtigungsoptionen für die Komponente manuell auswählen.
-- Bei der Suche nach Komponenten für Schleifen Teams in der Suchfunktion wird ein Link zur Komponente in office.com und nicht die Chatnachricht selbst angezeigt.
-- Endloskomponenten sind in Partnerchats deaktiviert.
-- B2B-Gäste können nicht an einer Livekomponente zusammenarbeiten, die über den Freigabelink des Unternehmens für sie freigegeben wird. Legen Sie Berechtigungen auf **Personen, die sich derzeit in diesem Chat befindet** , zum Freigeben von Komponenten für B2B-Gäste ein.
-- Loopkomponenten werden in Teams nicht unterstützt.
-- Endloskomponenten in Chats werden nicht nur geladen, wenn die Datei in eine andere Bibliothek verschoben wurde. Wenn die Datei in einen anderen Ordner verschoben wird, wird sie weiterhin im Chat geladen.
+- Loop-Komponenten im Chat können nicht über die Office-App bearbeitet werden, wenn Teams unter Android verwendet wird.
+- Wenn die Standarddateiberechtigungen des Mandanten auf *Bestimmte Personen* festgelegt sind (nur die vom Benutzer angegebenen Personen) und der Absender beim Erstellen einer Komponente einige Benutzer aus der Liste *Bestimmte Personen* entfernt, haben diese Benutzer möglicherweise weiterhin Zugriff auf den Inhalt.
+- Wenn die Standarddateiberechtigungen des Mandanten auf *Bestimmte Personen* festgelegt sind (nur die vom Benutzer angegebenen Personen), muss der Absender zum Kopieren eines Links in eine Livekomponente und zum Einfügen desselben in einen anderen Chat das Dialogfeld „Berechtigungen“ verwenden und die Empfänger in der Option „Bestimmte Personen“ hinzufügen, um ihnen ordnungsgemäß Zugriff zu gewähren.
+- Wenn die Standarddateiberechtigungen des Mandanten auf *Bestimmte Personen* festgelegt sind (nur die vom Benutzer angegebenen Personen), muss der Absender zum Erstellen einer Livekomponente in einem Gruppenchat mit mehr als 20 Mitgliedern die Berechtigungsoptionen für die Komponente manuell auswählen.
+- Bei der Suche nach Loop-Komponenten über die Teams-Suchfunktion wird ein Link zur Komponente in office.com zurückgegeben, nicht zur Chatnachricht selbst.
+- Loop-Komponenten sind in Verbundchats deaktiviert.
+- B2B-Gäste können nicht an einer Livekomponente zusammenarbeiten, die über den Unternehmensfreigabelink für sie freigegeben wird. Legen Sie die Berechtigungen auf **Personen, die sich derzeit in diesem Chat befinden** fest, um Komponenten für B2B-Gäste freizugeben.
+- Loop-Komponenten werden in Teams-Kanälen nicht unterstützt.
+- Loop-Komponenten im Chat werden nur dann nicht geladen, wenn die Datei in eine andere Bibliothek verschoben wurde. Wenn die Datei in einen anderen Ordner verschoben wird, wird sie weiterhin im Chat geladen.
