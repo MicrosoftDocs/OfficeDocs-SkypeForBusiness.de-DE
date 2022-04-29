@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64643069"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137126"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
@@ -57,7 +57,7 @@ Zum Bereitstellen der Genehmigungen-App benötigen Sie die Berechtigung für die
 
 - Eine Lizenz für Microsoft Forms ist erforderlich, damit Benutzer neue Genehmigungsvorlagen einrichten können.
 
-Um die Genehmigungen-App verwenden zu können, benötigen Sie eine Lizenz für Power Automate, und Ihr Konto wird bei Der ersten Genehmigungszuweisung automatisch der Rolle Genehmigungen Benutzers in der Zielumgebung hinzugefügt.
+Um die Genehmigungen-App zu verwenden, benötigen Sie eine Lizenz für Power Automate, und Ihr Konto wird bei Ihrer ersten Genehmigungszuweisung automatisch der Rolle Genehmigungen Benutzers in der Zielumgebung hinzugefügt.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Storage mit Microsoft Dataverse
 
@@ -68,7 +68,7 @@ Weitere Informationen zum [Genehmigungsworkflow](/power-automate/modern-approval
 Genehmigungen, die aus einer Vorlage erstellt werden, speichern weiterhin Daten in Microsoft Dataverse, z. B. titel, Details, Vorlagen-ID und vieles mehr. Antworten, die auf der Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Weitere Informationen zur  [Datenspeicherung für Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Wenn Sie die Formularvorlage auf der Microsoft Forms-Website löschen, wird die Genehmigungsvorlage dadurch ungültig, und benutzer können die Anforderung nicht starten. Benutzer erhalten die Fehlermeldung "CDB TableNotFound", wenn sie versuchen, eine Genehmigungsvorlage zu öffnen, die auf Microsoft Forms gelöscht wurde.
+>Wenn Sie die Formularvorlage auf der Microsoft Forms Website löschen, wird ihre Genehmigungsvorlage unterbrochen, und benutzer können die Anforderung nicht starten. Benutzer erhalten die Fehlermeldung "CDB TableNotFound", wenn sie versuchen, eine Genehmigungsvorlage zu öffnen, die auf Microsoft Forms gelöscht wird.
 
 Vorlagen auf Organisationsebene teilen sich die gleiche Lebensdauer des Mandanten und vorlagen mit Teambereich teilen sich die gleiche Lebensdauer des Teams. Daher werden beim endgültigen Löschen des Teams die zugehörigen Vorlagen gelöscht.
 
@@ -199,7 +199,7 @@ Weitere Informationen über die [Microsoft Dataverse- und modellgesteuerte App-A
 Über die Microsoft Teams-App "Genehmigungen" können Benutzer neue Genehmigungen erstellen und solche anzeigen, die sie gesendet und erhalten haben. Die Benutzer haben keinen Zugriff auf Genehmigungen, die von anderen erstellt wurden, es sei denn, sie sind eine antwortende oder anzeigende Person der Anforderung.
 
 > [!Note]
-> Einem Benutzer wird eine Anzeigerolle für eine Anforderung erteilt, wenn er dem Chat oder Kanal angehört, in dem die Genehmigung erstellt wurde. Er hat nicht die Möglichkeit, Maßnahmen für die Anforderung zu ergreifen, wenn ihm diese Rolle beim Erstellen der Genehmigung nicht erteilt wurde.
+> Ein Benutzer erhält eine Viewerrolle einer Anforderung, wenn er Teil des Chats oder Kanals ist, in dem die Genehmigung erstellt wurde. Er hat nicht die Möglichkeit, Maßnahmen für die Anforderung zu ergreifen, wenn ihm diese Rolle beim Erstellen der Genehmigung nicht erteilt wurde.
 
 ## <a name="approvals-e-signature-integration"></a>Genehmigungen E-Signatur-Integration
 
@@ -207,9 +207,9 @@ Um das Feature Genehmigungen App-E-Signatur zu verwenden, benötigen Sie eine Li
 
 ### <a name="enable-or-disable-e-signature-providers"></a>Aktivieren oder Deaktivieren von E-Signaturanbietern
 
-Sie können das Teams Admin Center verwenden, um zu steuern, welche E-Signaturanbieter von Drittanbietern ihren Benutzern in der Genehmigungen-App zur Verfügung stehen. Standardmäßig sind E-Signatur-Anbieter in der Genehmigungen-App aktiviert. Wenn Sie einen E-Signaturanbieter deaktivieren, haben Ihre Benutzer beim Erstellen von Genehmigungen keinen Zugriff auf diesen Anbieter. Ihre Benutzer können auch keine E-Signaturanforderungen anzeigen, die mit diesem Anbieter erstellt wurden.
+Sie können das Teams Admin Center verwenden, um zu steuern, welche E-Signatur-Anbieter von Drittanbietern Ihren Benutzern in der Genehmigungen-App zur Verfügung stehen. Standardmäßig sind E-Signatur-Anbieter in der Genehmigungen-App aktiviert. Wenn Sie einen E-Signaturanbieter deaktivieren, haben Ihre Benutzer beim Erstellen von Genehmigungen keinen Zugriff auf diesen Anbieter. Ihre Benutzer können auch keine E-Signaturanforderungen anzeigen, die mit diesem Anbieter erstellt wurden.
 
-1. Navigieren Sie im linken Navigationsbereich des Teams Admin Center zu **Teams** **appsManage-Apps** > .
+1. Wechseln Sie im linken Bereich des Teams Admin Center zu **Teams** **appsManage-Apps** > .
 2. Suchen Sie nach der Genehmigungen-App, und wählen Sie sie aus.
 3. Wechseln Sie zur Registerkarte **Einstellungen**, und führen Sie dann eine oder mehrere der folgenden Aktionen aus:
 

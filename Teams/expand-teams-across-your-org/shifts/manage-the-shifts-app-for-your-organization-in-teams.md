@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 - Microsoft Cloud for Retail
-description: Hier erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
+description: Erfahren Sie, wie Sie die Schichten-App in Teams für Mitarbeiter in Service und Produktion in Ihrer Organisation einrichten und verwalten.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,23 +24,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039903"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137006"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
 ## <a name="overview-of-shifts"></a>Übersicht über "Schichten"
 
-Die Schichten-App in Microsoft Teams sorgt dafür, dass die Frontline-Workers verbunden und synchronisiert sind. Es wurde zuerst für das schnelle und effektive Zeitmanagement und die Kommunikation für Teams erstellt. Schichten ermöglichen Es Mitarbeitern in der Frontlinie und ihren Vorgesetzten, ihre mobilen Geräte zu verwenden, um Zeitpläne zu verwalten und in Kontakt zu bleiben.
+Die Schichten-App in Microsoft Teams hält Mitarbeiter in Service und Produktion verbunden und synchronisiert. Es wurde zuerst für schnelles und effektives Zeitmanagement und Kommunikation für Teams entwickelt. Schichten ermöglichen Mitarbeitern in Service und Produktion die Verwendung ihrer mobilen Geräte, um Zeitpläne zu verwalten und in Kontakt zu bleiben.
 
 - Vorgesetzte erstellen, aktualisieren und verwalten Schichtzeitpläne für Teams. Sie können Nachrichten an eine Person ("Der Boden ist schmutzig") oder an das gesamte Team ("Der regionale Geschäftsführer kommt in 20 Minuten") senden. Sie können auch Richtliniendokumente, Bekanntmachungen und Videos senden.
 - Die Mitarbeiter sehen sich ihre bevorstehenden Schichten an, sehen, wer für den Tag noch geplant ist, fordern einen Austausch an oder bieten eine Schicht an und fordern eine Freistellung an.
 
-Es ist wichtig zu wissen, dass Schichten Gäste zurzeit nicht unterstützen. Dies bedeutet, dass Gäste eines Teams keinen Schichtplänen hinzugefügt werden können und diese auch nicht verwenden können, wenn der Gastzugriff in Microsoft Teams aktiviert ist.
+Es ist wichtig zu wissen, dass Schichten derzeit keine Gäste unterstützen. Dies bedeutet, dass Gäste eines Teams keinen Schichtplänen hinzugefügt werden können und diese auch nicht verwenden können, wenn der Gastzugriff in Microsoft Teams aktiviert ist.
 
 > [!Note]
 > Ausführliche Informationen zu den Schichtfunktionen auf verschiedenen Plattformen finden Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -50,13 +50,13 @@ Es ist wichtig zu wissen, dass Schichten Gäste zurzeit nicht unterstützen. Die
 "Schichten" ist in allen Enterprise-SKUs verfügbar, die Microsoft Teams umfassen.
 
 > [!NOTE]
-> Schichten sind in Government Community Cloud (GCC) verfügbar, jedoch nicht in GCC High- oder DoD-Umgebungen.
+> Schichten sind in Government Community Cloud(GCC)-Umgebungen verfügbar, jedoch nicht in GCC High- oder DoD-Umgebungen.
 
 ## <a name="location-of-shifts-data"></a>Speicherort von Daten der Schichten-App
 
-Schichtdaten werden derzeit in Azure in Rechenzentren im asiatisch-pazifischen Raum (APAC), in der Europäischen Union (EU) und in Nordamerika gespeichert. Weitere Informationen zum Speicherort von Daten finden Sie unter [Wo befinden sich meine Daten?](http://o365datacentermap.azurewebsites.net/).
+Schichtdaten werden derzeit in Azure in Rechenzentren im asiatisch-pazifischen Raum (APAC), der Europäischen Union (EU) und Nordamerika gespeichert. Weitere Informationen zum Speicherort von Daten finden Sie unter [Wo befinden sich meine Daten?](http://o365datacentermap.azurewebsites.net/).
 
-Weitere Informationen zu Schichten von Daten, einschließlich Speicherung, Aufbewahrung, Abruf und Verschlüsselung von Schichtdaten, finden Sie unter Häufig gestellte [Fragen zu Schichten](shifts-data-faq.md).
+Weitere Informationen zu Schichtdaten, einschließlich Speicherung, Aufbewahrung, Abruf und Verschlüsselung von Schichtdaten, finden Sie unter Häufig gestellte [Fragen zu Schichtdaten](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Einrichten von "Schichten"
 
@@ -65,25 +65,25 @@ Weitere Informationen zu Schichten von Daten, einschließlich Speicherung, Aufbe
 "Schichten" ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](../../manage-apps.md) deaktivieren oder aktivieren.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
-2. Suchen Sie in der Liste der Apps nach der App Schichten, wählen Sie sie aus, und ändern Sie dann die Umschaltfunktion **Status** auf **Blockiert** oder **Zulässig**.
+2. Suchen Sie in der Liste der Apps nach der Schichten-App, wählen Sie sie aus, und wechseln Sie dann auf " **Status** " auf " **Blockiert** " oder " **Zulässig**".
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von "Schichten" für bestimmte Benutzer in Ihrer Organisation
 
-Wenn Sie zulassen oder blockieren möchten, dass bestimmte Benutzer in Ihrer Organisation Schichten verwenden können, stellen Sie sicher, dass Schichten für Ihre Organisation auf der Seite Apps [verwalten aktiviert](../../manage-apps.md) ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](../../teams-app-permission-policies.md).
+Um bestimmten Benutzern in Ihrer Organisation die Verwendung von Schichten zu ermöglichen oder zu blockieren, stellen Sie sicher, dass "Schichten" für Ihre Organisation auf der Seite ["Apps verwalten"](../../manage-apps.md) aktiviert ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Verwenden einer App-Setuprichtlinie zum Anheften von Schichten an Teams
 
 Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die in einer Richtlinie festgelegten Apps werden an die App-Leiste geheftet &mdash;das ist die seitliche Leiste bei Microsoft Teams-Desktop-Clients und am unteren Rand bei Microsoft Teams Mobile-Clients&mdash;, von wo die Benutzer schnell und einfach darauf zugreifen können.
 
-Sie können eine benutzerdefinierte [App-Setuprichtlinie erstellen](../../teams-app-setup-policies.md) , indem Sie die Schichten-App hinzufügen und die Richtlinie [dann Ihren Benutzern](../../assign-policies-users-and-groups.md) zuweisen. Sie können auch die App-Setuprichtlinie verwenden, die in den Richtlinienpaketen "Frontline Worker" und "Frontline-Manager" enthalten ist.
+Sie können eine [benutzerdefinierte App-Setuprichtlinie](../../teams-app-setup-policies.md) erstellen, indem Sie die Schichten-App hinzufügen und [die Richtlinie](../../assign-policies-users-and-groups.md) dann Ihren Benutzern zuweisen. Sie können auch die App-Setuprichtlinie verwenden, die Teil der Richtlinienpakete "Mitarbeiter in Service und Produktion" ist.
 
-Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Zu den Richtlinien in den Richtlinienpaketen für Frontline-Worker und Frontline-Manager gehört eine Richtlinie für die App-Einrichtung, die die Schichten-App anheftt, sowie andere Apps, die Kommunikations- und Zusammenarbeitsaktivitäten für diese Rolle unterstützen.
+Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern mit ähnlichen Rollen in Ihrer Organisation zuweisen können. Der Richtliniensatz in den Richtlinienpaketen "Frontline Worker" und "Frontline Manager" enthält eine App-Setuprichtlinie, die die Schichten-App und andere Apps anheftet, die Kommunikations- und Zusammenarbeitsaktivitäten für diese Rolle unterstützen.
 
-Es wird empfohlen, die Richtlinienpakete für Frontline Worker und Frontline Manager zu verwenden, um sie zu vereinfachen, zu optimieren und für Konsistenz beim Verwalten von Richtlinien für Mitarbeiter an vorderer Front zu sorgen.
+Es wird empfohlen, die Richtlinienpakete "Mitarbeiter in Service und Produktion" zu verwenden, da sie die Verwaltung von Richtlinien für Ihre Mitarbeiter in Service und Produktion vereinfachen, rationalisieren und für Konsistenz sorgen.
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Durchsuchen Sie das Überwachungsprotokoll nach Schichtereignissen
 
-**(in der Vorschau)**
+**(In der Vorschau)**
 
 Sie können das Überwachungsprotokoll durchsuchen, um die Schichtaktivität in Ihrer Organisation anzuzeigen.  Weitere Informationen zum Durchsuchen des Überwachungsprotokolls und zum Anzeigen einer Liste der im Überwachungsprotokoll protokollierten [Schichtaktivitäten](../../audit-log-events.md#shifts-in-teams-activities) finden Sie unter [Durchsuchen des Überwachungsprotokolls nach Ereignissen in Teams](../../audit-log-events.md).
 
@@ -92,7 +92,7 @@ Damit Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst im 
 ## <a name="related-articles"></a>Verwandte Artikel
 
 - [Schichten für Teams](../shifts-for-teams-landing-page.md)
-- [Häufig gestellte Fragen (FAQ) zum Verschieben von Daten](shifts-data-faq.md)
-- [Verschiebt Verbinder](shifts-connectors.md)
-- [Schichten-Hilfe für Mitarbeiter an vorderer Front](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Häufig gestellte Fragen zu Schichten von Daten](shifts-data-faq.md)
+- [Schichtenverbinder](shifts-connectors.md)
+- [Schichthilfe für Mitarbeiter in Service und Produktion](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Benutzern in Microsoft Teams Richtlinien zuweisen](../../policy-assignment-overview.md)

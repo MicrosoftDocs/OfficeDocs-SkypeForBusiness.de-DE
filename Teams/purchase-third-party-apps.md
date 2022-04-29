@@ -16,12 +16,12 @@ description: Erfahren Sie, wie Sie Apps von Drittanbietern für Teams im Microso
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 84a527fbd8ec59817b4f0d3ee64a970c44d9abd4
-ms.sourcegitcommit: 708b489a7dca7fd9e5e9b1ec88c9aba79ecafe5f
+ms.openlocfilehash: 52cab02898a2fd187c60d2348a42c3ce97de2a3b
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64712929"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137086"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Erwerben von Drittanbieter-Apps für Teams
 
@@ -38,12 +38,12 @@ Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps
 > [!IMPORTANT]
 > Wenn Sie den App-Einkauf aktivieren, wird auch der In-App-Einkauf aktiviert. Benutzern werden möglicherweise In-App-Kaufangebote angezeigt, die vom ISV für ihre App gesteuert werden. Wenn Sie verhindern möchten, dass Ihre Benutzer eine App kaufen, müssen Sie die App blockieren. Weitere Informationen zum Blockieren einer App finden [Sie unter "Verwalten von App-Richtlinien](app-policies.md) ", oder [erfahren Sie, wie Sie eine App auf Organisationsebene blockieren](manage-apps.md#allow-and-block-apps).
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder Teams Dienstadministrator sein, um auf die Seite zugreifen zu können.
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Center zu **Teams** **appsManage-Apps** > . Sie müssen ein globaler Administrator oder Teams Dienstadministrator sein, um auf die Seite zugreifen zu können.
 1. Suchen Sie nach der gewünschten App. Um Apps zu identifizieren, die über ein kostenpflichtiges SaaS-Abonnement verfügen, suchen Sie in der Spalte **"Lizenzen** ". Jede App hat einen der folgenden Werte:
     - **Kauf**: Die App bietet ein SaaS-Abonnement und steht zum Kauf zur Verfügung.  
     - **Gekauft**: Die App bietet ein SaaS-Abonnement an, und Sie haben Lizenzen dafür erworben.
     - **- -**: Die App bietet kein SaaS-Abonnement an.
-1. Wenn Sie die App gefunden haben, klicken Sie auf **"Kaufen** ", um auf der Seite "App-Details" zur Registerkarte " **Pläne und Preise** " zu wechseln. Überprüfen Sie die Pläne und Preisinformationen für das SaaS-Angebot für die App. Wenn Sie weitere Informationen benötigen, wählen Sie **"Weitere Informationen"** aus, um zur [App-Seite in AppSource](https://appsource.microsoft.com/) zu wechseln.
+1. Wenn Sie die App gefunden haben, wählen Sie **"Kaufen** " aus, um auf der Seite mit den App-Details zur Registerkarte **"Pläne und Preise** " zu wechseln. Überprüfen Sie die Pläne und Preisinformationen für das SaaS-Angebot für die App. Wenn Sie weitere Informationen benötigen, wählen Sie **"Weitere Informationen"** aus, um zur [App-Seite in AppSource](https://appsource.microsoft.com/) zu wechseln.
 
    > [!NOTE]
    > Private Pläne können auch zum Kauf aufgeführt werden, einschließlich Sonderpreisen, die Ihre Organisation zuvor mit einem ISV ausgehandelt hat. Diese Pläne weisen die Bezeichnung **"Privater Plan"** unter dem Plannamen auf.

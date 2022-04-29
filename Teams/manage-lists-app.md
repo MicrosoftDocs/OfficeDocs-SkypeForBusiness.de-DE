@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1e34911ead5044ca15fa965fa62029a3ad830dd4
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 9156c54748849c6d510bbb72aa4bbce17c20ba8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442301"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136986"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
@@ -37,13 +37,13 @@ ms.locfileid: "63442301"
 
 Die Listen-App in Microsoft Teams hilft Benutzern in Ihrer Organisation beim Nachverfolgen von Informationen, Organisieren von Tätigkeiten und Verwalten von Arbeitsabläufen. Die Listen-App ermöglicht es Benutzern Daten zu Problemen, Ressourcen, Routinen, Kontakten, Bestand, Vorfällen, Darlehen, Patienten und mehr mithilfe anpassbarer Ansichten, Regeln und Benachrichtigungen nachzuverfolgen, damit alle Teammitglieder auf dem neuesten Stand bleiben.
 
-In Microsoft Teams greifen Benutzer auf Listen über eine eigene Registerkarte in einem Kanal zu. Wählen Sie **+** aus, um den Registerkartenkatalog zu öffnen, und fügen Sie einem Kanal eine neue App-Registerkarteninstanz "Listen" hinzu, um zu beginnen.
+In Microsoft Teams greifen Benutzer auf Listen über eine eigene Registerkarte in einem Kanal zu. Wählen Sie diese Option aus **+** , um den Registerkartenkatalog zu öffnen und eine neue Listen-App-Registerkarteninstanz zu einem Kanal hinzuzufügen, um zu beginnen.
 
 ![Listet die App im Registerkartenkatalog auf.](media/lists-tab.png)
 
 Benutzer können neue Listen erstellen oder im selben Team vorhandene bzw. Listen von einer anderen SharePoint-Website anheften, auf die sie Zugriff haben. Neue Listen können vollkommen neu erstellt, aus integrierten Vorlagen, basierend auf der Struktur einer bestehenden Liste oder durch Importieren von Daten aus einer Excel-Arbeitsmappe erstellt werden. Die Listen-App ist in Microsoft Teams Desktop-, Web- und mobilen Clients verfügbar.
 
-![wie Sie eine Liste in der Listen-App erstellen.](media/lists-create-list.png)
+![Erstellen einer Liste in der Listen-App.](media/lists-create-list.png)
 
 ## <a name="templates"></a>Vorlagen
 
@@ -60,7 +60,7 @@ Eine lokale Poststelle ist für das Sortieren und Zustellen von Briefen in ihrem
 
 Nach dem Treffen machen sich die Postboten auf den Weg, um die Briefe zuzustellen. Unterwegs kann es zu Zwischenfällen wie einem Verkehrsunfall, einem Problem mit Hunden oder sozialen Unruhen kommen. Wenn Postboten auf ein Problem stoßen, verwenden sie Microsoft Teams auf ihren Mobilgeräten, um die Details dazu zu erfassen, die in einer Liste im Teamkanal nachverfolgt werden. Jeder im Team, einschließlich der Postboten vor Ort, kann diese Informationen sehen und darüber auf dem Laufenden bleiben.
 
-Vor dem Wechsel zu Teams mussten die Postbetreiber zur Post gehen, um ein Hard Copy-Formular zu erstellen, um einen Vorfall zu melden, der dann in ein Arbeitsblatt Excel wurde. Microsoft Teams stellt eine mobile Lösung für Postboten dar, über die sie mithilfe der Listen-App Vorfälle im Außendienst melden, Vorfalldetails mit Teammitgliedern teilen, sich im Kanal darüber unterhalten und Vorfälle einer Lösung zuführen können.
+Bevor sie zu Teams übergehen, mussten Die Postboten zurück zur Post gehen, um ein Gedrucktes Formular auszufüllen, um einen Vorfall zu melden, der dann in eine Excel Kalkulationstabelle eingegeben wurde. Microsoft Teams stellt eine mobile Lösung für Postboten dar, über die sie mithilfe der Listen-App Vorfälle im Außendienst melden, Vorfalldetails mit Teammitgliedern teilen, sich im Kanal darüber unterhalten und Vorfälle einer Lösung zuführen können.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Wissenswertes über die Listen-App
 
@@ -95,11 +95,11 @@ Wenn Benutzer in Ihrer Organisation Listen mithilfe der SharePoint-App erstellt 
 
 "Listen" ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Center zu **Teams** **appsManage-Apps** > .
 2. Führen Sie einen der folgenden Schritte aus:
 
-    - Um Listen für Ihre Organisation zu deaktivieren, suchen Sie nach der Listen-App, wählen Sie sie aus, und wählen Sie dann Blockieren **aus**.
-    - Um Listen für Ihre Organisation zu aktivieren, suchen Sie nach der Listen-App, wählen Sie sie aus, und wählen Sie dann Zulassen **aus**.
+    - Um Listen für Ihre Organisation zu deaktivieren, suchen Sie nach der Listen-App, wählen Sie sie aus, und wählen Sie dann **"Blockieren"** aus.
+    - Um Listen für Ihre Organisation zu aktivieren, suchen Sie nach der Listen-App, wählen Sie sie aus, und wählen Sie dann **"Zulassen"** aus.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von "Listen" für bestimmte Benutzer in Ihrer Organisation
 
@@ -107,7 +107,7 @@ Wenn Sie die Nutzung von "Listen" für bestimmte Benutzer in Ihrer Organisation 
 
 ## <a name="search-the-audit-log-for-list-events"></a>Durchsuchen des Überwachungsprotokolls nach Listenereignissen
 
-Listen werden mit Überwachung auf Unternehmensebene aktiviert, sodass Sie im Überwachungsprotokoll im Security & Compliance Center nach Listen und Listenelementereignissen suchen können. Weitere Informationen finden Sie unter [Durchsuchen des Überwachungsprotokolls im Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Listen sind mit der Überwachung auf Unternehmensebene aktiviert, sodass Sie im Security & Compliance Center im Überwachungsprotokoll nach Listen und Listenelementereignissen suchen können. Weitere Informationen finden Sie unter [Durchsuchen des Überwachungsprotokolls im Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 Eine Liste der Überwachungsereignisse, die für die Listen-App in Microsoft Teams relevant sind, finden Sie unter [SharePoint-Listenaktivitäten](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
@@ -119,7 +119,7 @@ Die Listen-App unterstützt [Power Automate](/power-automate/flow-types) für Wo
 
 ## <a name="give-feedback-or-report-an-issue"></a>Feedback senden oder Problem melden
   
-Um uns Feedback zu senden oder ein Problem zu melden, wählen Sie hilfe unten im linken Navigationsbereich in Teams und dann **Problem melden aus**. Wählen Sie **Listen** aus, und geben Sie dann Ihr Feedback oder die Details zu dem aufgetretenen Problem ein.
+Wenn Sie uns Feedback senden oder ein Problem melden möchten, wählen Sie unten im linken Bereich in Teams die **Option "Hilfe**" und dann "**Problem melden"** aus. Wählen Sie **Listen** aus, und geben Sie dann Ihr Feedback oder die Details zu dem aufgetretenen Problem ein.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Zugriff auf benutzerdefinierte Apps verwalten, die auf Microsoft Power Platform basieren, im Microsoft Teams Admin Center.
-ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 9f212cf52ec757fc4860f081fb67da2cb1b4fcd5
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442671"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136996"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Verwalten von Microsoft Power Platform-Apps im Microsoft Teams Admin Center
 
@@ -66,7 +66,7 @@ Wenn ein Benutzer von Power Apps oder Power Virtual Agents aus auf Apps zugreife
 
 Standardmäßig sind **freigegebene Power Apps** und **freigegebene Power Virtual Agent-Apps** für alle Teams Benutzer in Ihrer Organisation zulässig. Sie können sie auf Organisationsebene auf der Seite ["Apps verwalten"](manage-apps.md) im Microsoft Teams Admin Center blockieren oder zulassen.  
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder Teams Dienstadministrator sein, um auf die Seite zugreifen zu können.
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Center zu **Teams** **appsManage-Apps** > . Sie müssen ein globaler Administrator oder Teams Dienstadministrator sein, um auf die Seite zugreifen zu können.
 2. Führen Sie in der Liste der Apps eine der folgenden Aktionen aus.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Screenshot der Seite &quot;Apps verwalten&quot; mit freigegebenen Microsoft Power Platform-Apps":::

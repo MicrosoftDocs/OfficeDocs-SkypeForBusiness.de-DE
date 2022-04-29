@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Erfahren Sie, wie Sie die Lob-App im Microsoft Teams Admin Center verwalten.
-ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442681"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136976"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
@@ -31,7 +31,7 @@ Lob ist standardmäßig für alle Teams Benutzer in Ihrer Organisation aktiviert
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Screenshot der Seite Lob App-Details im Teams Admin Center mit der Umschaltfläche &quot;Status&quot;.":::
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Center zu **Teams** **appsManage-Apps** > .
 2. Suchen Sie in der Liste der Apps nach der Lob App, wählen Sie sie aus, und schalten Sie dann die  Status-Umschaltfläche auf **"Blockiert**" oder "**Zulässig**".
 
 Beachten Sie, dass sich diese Einstellung sowohl auf die Lob-App als auch auf das Lob-Feature in der Viva Insights-App in Teams auswirkt.
