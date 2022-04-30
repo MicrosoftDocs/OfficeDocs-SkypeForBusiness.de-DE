@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Konsistenz bei der Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und zu gewährleisten.
-ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63055305"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65144966"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Verwalten von Richtlinienpaketen für Microsoft Teams
 
@@ -87,7 +87,7 @@ Mit benutzerdefinierten Richtlinienpaketen können Sie Ihre eigenen Richtlinien 
 
 So erstellen Sie ein neues benutzerdefiniertes Richtlinienpaket:
 
-1. Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Center **Richtlinienpakete** aus, und klicken Sie dann auf **"Hinzufügen"**.
+1. Wählen Sie im linken Bereich des Microsoft Teams Admin Center **Richtlinienpakete** aus, und klicken Sie dann auf **"Hinzufügen"**.
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot der Schaltfläche &quot;Hinzufügen&quot; auf der Seite &quot;Richtlinienpakete&quot; im Admin Center.":::
 
@@ -120,17 +120,17 @@ Hier sind die Schritte zum Anzeigen, Zuweisen und Anpassen von Richtlinienpakete
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Anzeigen der Einstellungen einer Richtlinie in einem Richtlinienpaket
 
-1. Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Center **Richtlinienpakete** aus, und wählen Sie dann ein Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
+1. Wählen Sie im linken Bereich des Microsoft Teams Admin Center **Richtlinienpakete** aus, und wählen Sie dann ein Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
 
-2. Klicken Sie auf die Richtlinie, die Sie anzeigen möchten.
+2. Wählen Sie die Richtlinie aus, die Sie anzeigen möchten.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Anpassen von Richtlinien in einem Richtlinienpaket
 
 Sie können die Einstellungen einer Richtlinie über die Seite **"Richtlinienpakete**" oder direkt auf die Richtlinienseite im Microsoft Teams Admin Center bearbeiten.
 
-1. Führen Sie im linken Navigationsbereich des Microsoft Teams Admin Center eine der folgenden Aktionen aus:
-    - Klicken Sie auf **"Richtlinienpakete**", und wählen Sie dann das Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
-    - Klicken Sie auf den Richtlinientyp.  Klicken Sie beispielsweise auf **"Nachrichtenrichtlinien"**.
+1. Führen Sie im linken Bereich des Microsoft Teams Admin Center eine der folgenden Aktionen aus:
+    - Wählen Sie **"Richtlinienpakete**" und dann das Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
+    - Wählen Sie den Richtlinientyp aus.  Klicken Sie beispielsweise auf **"Nachrichtenrichtlinien"**.
 
 2. Wählen Sie die Richtlinie aus, die Sie bearbeiten möchten. Richtlinien, die mit einem Richtlinienpaket verknüpft sind, haben denselben Namen wie das Richtlinienpaket.
 
