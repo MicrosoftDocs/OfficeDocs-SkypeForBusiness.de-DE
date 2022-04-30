@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a8edd0afc2adde7a6867242dd0bdc0b406ca682
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 85277e9948dac1e083eb587f9bfc3787be3644a6
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910911"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137156"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 App-Compliance-Programm für Sicherheit, Compliance und Datenschutz von Drittanbieter-Apps
 
@@ -80,7 +80,7 @@ Administratoren können folgendermaßen schnell nach Microsoft 365-zertifizierte
 
 * Für weitere Informationen zu einer App im Web klicken Sie auf das Schildsymbol in der Microsoft-Dokumentation zu der App.
 
-  :::image type="content" source="media/attested-app-doc-details.png" alt-text="Sehen Sie sich die Microsoft 365 Zertifizierungsinformationen im ausführlichen Hilfeartikel zur Sicherheit und Compliance einer App an.":::
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="Sehen Sie sich die Microsoft 365 Zertifizierungsinformationen im ausführlichen Hilfeartikel zur Sicherheit und Compliance einer App an":::
 
 * Wenn Sie eine Anwendung im Teams Admin Center überprüfen, sortieren Sie die Liste der Apps mithilfe der Spalte „Zertifizierung“. Sehen Sie sich das Symbol an, und klicken Sie optional auf den Link, um auf die oben erwähnte App-spezifische Seite zuzugreifen.
 
@@ -92,13 +92,35 @@ Administratoren können folgendermaßen schnell nach Microsoft 365-zertifizierte
 
 * Im Microsoft Teams Admin Center weist ein blaues Häkchen vor dem App-Namen beim Erteilen von Berechtigungen für die App darauf hin, dass es sich entweder um eine vom Herausgeber attestierte App oder um eine Microsoft 365-zertifizierte App handelt.
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="Im Teams Admin Center können Administratoren im Dialogfeld zum Erteilen von Berechtigungen das blaue Kontrollhäkchen aktivieren, um sicherzustellen, dass die App Microsoft 365-zertifiziert ist.":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="Im Teams Admin Center können Administratoren im Dialogfeld zum Erteilen von Berechtigungen das blaue Kontrollhäkchen aktivieren, um sicherzustellen, dass die App Microsoft 365-zertifiziert ist":::
 
-## <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>Anzeigen von Sicherheits-, Compliance- und Datenschutzinformationen in der Microsoft-Dokumentation
+## <a name="view-security-compliance-and-privacy-information"></a>Anzeigen von Sicherheits-, Compliance- und Datenschutzinformationen
 
-Bei einer bestätigten oder zertifizierten App werden die Details zu Sicherheit, Datenschutz, Compliance uvm. für jede App in den App-spezifischen Hilfeartikeln aufgeführt, die mit den [Microsoft Teams Apps „Sicherheit“ und „Compliance“](/microsoft-365-app-certification/teams/teams-apps) verknüpft sind.
+Informationen zu Sicherheit, Datenschutz, Compliance und Verhalten einer bestätigten oder zertifizierten App finden Sie in der Microsoft-Dokumentation und Teams Admin Center.
+
+### <a name="microsoft-documentation"></a>Microsoft-Dokumentation
+
+Details zu Sicherheit, Datenschutz, Compliance uvm. für jede App finden Sie in den App-spezifischen Hilfeartikeln, die mit den [Microsoft Teams Apps „Sicherheit“ und „Compliance“](/microsoft-365-app-certification/teams/teams-apps) verknüpft sind.
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="Detaillierte Informationen, die für Apps bereitgestellt werden, die das Microsoft Compliance-Programm durchlaufen.":::
+
+### <a name="teams-admin-center"></a>Teams Admin Center
+
+Beim Auswerten einer App für ihre Organisation können Sie unabhängige Cloud Access Security Brokers (CASB) verwenden, z. B. Microsoft Cloud App Security (MCAS), um Informationen zu Sicherheit und Verhalten einer App zu finden. Das Teams Admin Center enthält Informationen zur Sicherheit und zum Compliance von MCAS für Microsoft 365 zertifizierte Apps, um zu überprüfen, ob eine App Ihren Anforderungen entspricht.
+
+> [!NOTE]
+> Dieses Feature steht allen Administratoren zur Verfügung, unabhängig davon, ob Ihre Organisation über eine Lizenz verfügt, die MCAS unterstützt.
+
+So greifen Sie auf MCAS Informationen für eine App zu:
+
+1. Wählen Sie im Teams Admin Center unter **Teams Apps** "**Apps verwalten"** aus.
+1. Wählen Sie **"Zertifizierung**" aus, um Apps zu sortieren und alle Microsoft 365 zertifizierten Apps an den Anfang der Tabelle zu verschieben.
+1. Wählen Sie eine Microsoft 365 Zertifizierte App aus.
+1. Wählen Sie die Registerkarte **"Sicherheit und Compliance** " aus.
+
+   :::image type="content" source="media/mcas.png" alt-text="Screenshot der Registerkarte Teams Admin Center für Sicherheit und Compliance":::
+
+   Um weitere Details zu den unterstützten Funktionen für die App zu erhalten, wählen Sie die Dropdownliste für jede Kategorie aus.
 
 <!--- TBD: Move to the permissions article 
 
@@ -119,7 +141,7 @@ After admins grant the org-wide permissions to an app, they can review the Graph
 
 Im Microsoft Teams Admin Center enthält jede App-Seite einen Link zu der Datenschutzerklärung und den Nutzungsbedingungen der App.
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="Über das Teams Admin Center können Administratoren auf den Link zu den Datenschutzrichtlinien und Nutzungsbedingungen für jede App zugreifen." lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="Über das Teams Admin Center können Administratoren auf den Link zu den Datenschutzrichtlinien und Nutzungsbedingungen für jede App zugreifen" lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
