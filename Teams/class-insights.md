@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 3ce84036102407c31076ea2ec12fb5dc96e6b082
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837458"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125620"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -231,6 +231,17 @@ Standardmäßig ist Insights aktiviert, sodass Analysen der Aktivitäten von Sch
 
 > [!NOTE]
 > Wenn Sie Insights deaktiviert haben, werden die gesammelten Daten gelöscht. Die gelöschten Daten beim Abmelden können zu einem späteren Zeitpunkt nicht wiederhergestellt werden, auch wenn Insights reaktiviert wird.
+
+
+### <a name="turn-machine-learning-in-insights-on-or-off"></a>Aktivieren oder Deaktivieren von Machine Learning in Insights
+
+Standardmäßig sind computerbasierte Benutzeroberflächen in Insights deaktiviert. Um diese Erkenntnisse zu ermöglichen, müssen Sie **Insights, das auf maschinellem Lernen basiert,** zulassen. Wenn Sie diese Umschaltfläche aktivieren, werden keine zusätzlichen Daten außer den bereits von Education Insights erfassten Daten gesammelt.
+
+* Um diese Einstellung anzupassen, öffnen Sie das [SDS Admin Center](https://sds.microsoft.com/), und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. 
+* Deaktivieren bzw. aktivieren Sie die Umschaltfläche **Insights, das auf maschinellem Lernen basiert, zulassen**.
+
+> [!NOTE]
+> Diese Umschaltfläche ist abhängig von der Umschaltfläche **Aktivitätsdaten für Insights erfassen**. Wenn Sie das **Erfassen von Aktivitätsdaten für Insights** deaktivieren, wird auch die Umschaltfläche **Insights, das auf maschinellem Lernen basiert** deaktiviert.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Aktivieren oder Deaktivieren von SDS für Insights
 

@@ -1,5 +1,5 @@
 ---
-title: Verwaltung des externen Zugriffs (Partnerverbund)
+title: Verwalten externer Besprechungen und Chats
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,16 +21,16 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642849"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125720"
 ---
-# <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
+# <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Verwalten externer Besprechungen und Chats in Microsoft Teams
 
-Der externe Zugriff ermöglicht es Microsoft Teams-Benutzern von außerhalb Ihrer Organisation, in Microsoft Teams nach Ihnen zu suchen, mit Ihnen zu telefonieren und zu chatten sowie Besprechungen einzurichten. Über externen Zugriff können Sie auch mit Personen aus anderen Organisationen kommunizieren, die noch Skype for Business (online oder lokal) bzw. Skype verwenden.
+Sie können externe Besprechungen und Chats in Teams mithilfe der Funktion für den *externen Zugriff* konfigurieren. Der externe Zugriff ermöglicht es Microsoft Teams-Benutzern von außerhalb Ihrer Organisation, in Microsoft Teams nach Ihnen zu suchen, mit Ihnen zu telefonieren und zu chatten sowie Besprechungen einzurichten. Über externen Zugriff können Sie auch mit Personen aus anderen Organisationen kommunizieren, die noch Skype for Business (online oder lokal) bzw. Skype verwenden.
 
 Wenn Sie externen Benutzern hingegen den Zugriff auf Ihre Teams und Kanäle gewähren möchten, verwenden Sie stattdessen den Gastzugriff. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Vergleich von externem Zugriff und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
@@ -42,7 +42,7 @@ Verwenden Sie den externen Zugriff in folgenden Situationen:
 
 - Sie möchten, dass alle anderen Microsoft Teams-Benutzer aus aller Welt Sie anhand Ihrer E-Mail-Adresse finden und Kontakt zu Ihnen aufnehmen können. 
 
-## <a name="plan-for-external-access"></a>Plan für externen Zugriff
+## <a name="plan-for-external-meetings-and-chat"></a>Planen externer Besprechungen und Chats
 
 Richtlinien für externen Zugriff umfassen Steuerelemente für jeden Verbundtyp sowohl auf Organisationsebene als auch auf Benutzerebene. Durch das Deaktivieren einer Richtlinie auf Organisationsebene wird sie für alle Benutzer deaktiviert, unabhängig von der Einstellung auf Benutzerebene. Alle Einstellungen für externen Zugriff sind standardmäßig aktiviert.
 

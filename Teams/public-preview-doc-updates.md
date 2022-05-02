@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059186"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125780"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
@@ -73,6 +73,14 @@ Wenn Sie die öffentliche Vorschau auf einem Desktop- oder Webclient aktivieren 
 
 > [!NOTE]  
 > Diese Option ist nur verfügbar, wenn **Vorschaufeatures anzeigen** auf **Aktiviert** festgelegt ist.
+
+### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Public Preview für Microsoft Teams-Räume unter Windows
+
+Die öffentliche Vorschau ist standardmäßig deaktiviert. Wenn die öffentliche Vorschau aktiviert ist, haben Endbenutzer Zugriff auf Features, die sich in der öffentlichen Vorschau auf aktivierten Teams-Räume befinden. Um Public Preview zu aktivieren, fügen Sie ihrer XML-Konfigurationsdatei ```<EnablePublicPreview>True</EnablePublicPreview>``` hinzu.
+
+Es wird empfohlen, für Public Preview 5 bis 10 Geräte zu registrieren. 
+
+Alle Public Preview-Features werden unter [Microsoft Teams Public Preview – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
 
 ## <a name="teams-now-follows-office-preview-users"></a>Microsoft Teams folgt jetzt Office Preview-Benutzern
 

@@ -18,23 +18,23 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592740"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125480"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
-Wenn Sie mit Personen außerhalb Ihrer Organisation kommunizieren und zusammenarbeiten müssen, bietet Ihnen Microsoft Teams dafür zwei Optionen:
+In diesem Artikel werden zwei Optionen für die Zusammenarbeit mit Personen außerhalb Ihrer Organisation beschrieben:
 
 - **Externer Zugriff** – Ein Typ des Partnerverbunds, der es Benutzern erlaubt, Personen in anderen Organisationen zu finden, sie anzurufen und mit ihnen zu chatten. Diese Personen können nicht zu einem Team hinzugefügt werden, außer wenn sie als Gäste eingeladen werden.
 - **Gastzugriff** – Mit dem Gastzugriff können Sie Personen von außerhalb Ihrer Organisation einladen, einem Team beizutreten. Eingeladene Personen erhalten ein Gastkonto im Azure Active Directory.
 
-Beachten Sie, dass Teams Ihnen erlaubt, Personen von außerhalb Ihrer Organisation in Besprechungen einzuladen. Dafür muss kein externer oder Gastzugriff konfiguriert werden.
+Eine vollständige Übersicht über die externe Zusammenarbeit in Microsoft 365 finden Sie unter [Übersicht über Optionen für die externe Zusammenarbeit in Microsoft 365](/microsoft-365/enterprise/external-guest-access).
 
-## <a name="external-access-federation"></a>Externer Zugriff (Partnerverbund)
+## <a name="external-access-external-chat-and-meetings"></a>Externer Zugriff (externer Chat und Besprechungen)
 
 Richten Sie externen Zugriff ein, wenn Sie Personen außerhalb Ihrer Organisation, die Teams, Skype for Business (online oder lokal) oder Skype verwenden, suchen, sie anrufen, mit ihnen chatten und Besprechungen mit ihnen einrichten müssen. 
 
