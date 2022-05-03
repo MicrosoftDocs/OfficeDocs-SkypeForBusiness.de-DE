@@ -8,34 +8,39 @@ ms.service: msteams
 audience: admin
 ms.reviewer: akshbhat
 search.appverid: MET150
-description: 'Erfahren Sie, wie Cortana-Sprachunterstützung bei Teams'
+description: Erfahren Sie, wie Sie Cortana Sprachunterstützung mit Teams
 ms.localizationpriority: medium
 ms.custom:
-  - Teams-upgrade-guidance
+- Teams-upgrade-guidance
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 5f888e36d9c0cdd19a0fdd8184d72eeee5ad2a45
+ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "65171701"
 ---
-
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana Sprachunterstützung in Teams
 
 > [!Note]
-> Cortana Sprachunterstützung wird in mobilen Microsoft Teams-Apps für iOS und Android und Microsoft Teams-Anzeigen für Benutzer in den USA, Großbritannien, Kanada, Indien und Australien unterstützt. Microsoft Teams-Räume auf Windows wird nur für Geräte unterstützt, für die das Locale auf "en-us" festgelegt ist. Cortana-Sprachunterstützung ist derzeit für Mandanten von GCC, GCC-High, DoD und nicht in den USA verfügbaren EDU-Mandanten nicht verfügbar. Cortana Sprachunterstützung in der mobilen Teams-App ist jetzt für EDU-Kunden in en-US verfügbar. Die Erweiterung auf weitere Sprachen und Regionen wird im Rahmen zukünftiger Versionen sein.
+> Cortana Sprachunterstützung wird in Microsoft Teams mobilen Apps für iOS und Android und Microsoft Teams-Displays für Benutzer in USA, Großbritannien, Kanada, Indien und Australien unterstützt. Microsoft Teams-Räume auf Windows wird nur für Geräte unterstützt, für die das Gebietsschema auf "en-us" festgelegt ist. Cortana Sprachunterstützung ist derzeit für GCC-, GCC-High-, DoD- und Nicht-US EDU-Mandanten nicht verfügbar. Cortana Sprachunterstützung in der mobilen Teams-App ist jetzt für EDU-Kunden in en-US verfügbar. Die Erweiterung auf weitere Sprachen und Regionen erfolgt im Rahmen zukünftiger Versionen.
 
 
-Cortana Sprachunterstützung in der mobilen Teams-App Microsoft Teams-Räume auf Windows-Geräten und auf Microsoft Teams-Anzeigegeräten Microsoft 365 Enterprise  benutzer zum Optimieren der Kommunikation, Zusammenarbeit und Besprechung von Aufgaben in gesprochener natürlicher Sprache. Benutzer können mit Cortana sprechen, indem sie die Mikrofonschaltfläche auswählen, die sich oben rechts in der mobilen Teams-App befindet, oder indem sie "Cortana" im Microsoft Teams Room oder bei Verwendung einer Microsoft Teams sagen. Wenn Sie schnell die Verbindung zu ihrem Team ohne Die Hand nehmen möchten und unterwegs sind, können Benutzer Abfragen wie "Megan anrufen" oder "Eine Nachricht an meine nächste Besprechung senden" sagen. Benutzer können an Besprechungen teilnehmen, indem sie "An meiner nächsten Besprechung teilnehmen" sagen und mithilfe von Sprachunterstützung Dateien freigeben, ihren Kalender überprüfen und vieles mehr. Diese Sprachunterstützungserfahrungen werden [mithilfe von Cortana-Diensten](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) auf Unternehmensklasse übermittelt, die gemäß den Onlinedienstbedingungen [(OST](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)) vollständig den Datenschutz-, Sicherheits- und Compliance-Zusagen von Office 365 entsprechen.
+Cortana Sprachunterstützung in der Teams mobilen App, auf Microsoft Teams-Räume auf Windows und auf Microsoft Teams Anzeigegeräten ermöglicht Microsoft 365 Enterprise  Benutzer, um Kommunikation, Zusammenarbeit und besprechungsbezogene Aufgaben mithilfe gesprochener natürlicher Sprache zu optimieren. Benutzer können mit Cortana sprechen, indem sie die Mikrofonschaltfläche oben rechts in der Teams mobilen App auswählen oder "Cortana" im Microsoft Teams Raum oder bei Verwendung einer Microsoft Teams-Anzeige sagen. Um sich schnell freihändig mit ihrem Team in Verbindung zu setzen, können Benutzer unterwegs Abfragen wie "Megan anrufen" oder "Eine Nachricht an meine nächste Besprechung senden" sagen. Benutzer können auch an Besprechungen teilnehmen, indem sie "an meiner nächsten Besprechung teilnehmen" sagen und sprachunterstützung verwenden, um Dateien freizugeben, ihren Kalender zu überprüfen und vieles mehr. Diese Sprachunterstützungserfahrungen werden mit [Cortana Diensten auf Unternehmensniveau](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) bereitgestellt, die den Datenschutz-, Sicherheits- und Complianceversprechen von Office 365 vollständig entsprechen, wie in den [Onlinedienstbedingungen (ONLINE Services Terms, OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) widergespiegelt.
 
-## <a name="admin-control-and-limitations"></a>Administratorkontrolle und -beschränkungen
+## <a name="admin-control-and-limitations"></a>Administratorsteuerung und Einschränkungen
 
-Cortana Sprachunterstützung in Teams wird mithilfe von Diensten übermittelt, die gemäß den Bedingungen für Onlinedienste (OST) in vollem Umfang den Zusagen auf Office 365 Unternehmensebene hinsichtlich Datenschutz, Sicherheit und Compliance entsprechen. Das Feature wird für Mandanten standardmäßig aktiviert.
+Cortana Sprachunterstützung in Teams wird mithilfe von Diensten bereitgestellt, die den in den Nutzungsbedingungen für Onlinedienste (ONLINE Services Terms, OST) angegebenen Office 365 Datenschutz-, Sicherheits- und Complianceversprechen auf Unternehmensebene vollständig entsprechen. Das Feature ist standardmäßig für Mandanten aktiviert.
 
-Mandantenadministratoren können mithilfe einer Richtlinie (TeamsCortanaPolicy) steuern, wer in ihrem Mandanten Cortana Sprachunterstützung in Teams verwenden kann. Diese Richtlinie wird entweder auf Benutzerkonto- oder Mandantenebene festgelegt. Administratoren können das Feld CortanaVoiceInvocationMode innerhalb dieses Richtliniensteuerelements verwenden, um festzustellen, ob Cortana deaktiviert ist, ob es nur über den Aufruf von Schaltflächen oder auch über den Reaktivierungsaufruf von Wörtern aktiviert ist (gilt für Geräte, die dies unterstützen, z. B. die Microsoft Teams-Anzeige).
+Mandantenadministratoren können mithilfe einer Richtlinie (TeamsCortanaPolicy) steuern, wer in ihrem Mandanten Cortana Sprachunterstützung in Teams verwenden kann. Diese Richtlinie wird entweder auf Benutzerkonto- oder Mandantenebene festgelegt. Administratoren können das Feld "CortanaVoiceInvocationMode" in diesem Richtliniensteuerelement verwenden, um zu bestimmen, ob Cortana deaktiviert, nur mit Aufruf per Knopfdruck oder auch mit Aktivierungswortaufruf aktiviert ist (gilt für Geräte, die dies unterstützen, z. B. die Microsoft Teams Anzeige).
 
-Administratoren können die folgenden PowerShell-Cmdlets verwenden, um diese Richtlinie zu verwalten (die Richtlinie ist derzeit im Microsoft Teams Admin Center nicht verfügbar).
+Administratoren können die folgenden PowerShell-Cmdlets verwenden, um diese Richtlinie zu verwalten (die Richtlinie ist derzeit nicht in Microsoft Teams Admin Center verfügbar).
 
 - [New-CsTeamsCortanaPolicy](/powershell/module/skype/New-CsTeamsCortanaPolicy)
 
@@ -47,60 +52,60 @@ Administratoren können die folgenden PowerShell-Cmdlets verwenden, um diese Ric
 
 - [Remove-CsTeamsCortanaPolicy](/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
-Mit dem folgenden Befehl wird z. B. eine neue Richtlinie mit dem Namen "EmployeeCortanaPolicy" erstellt, Cortana Sprachunterstützung in Microsoft Teams deaktiviert ist.  
+Der folgende Befehl erstellt beispielsweise eine neue Richtlinie mit dem Namen "EmployeeCortanaPolicy", bei der Cortana Sprachunterstützung in Microsoft Teams deaktiviert ist.  
 
 ```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-Dieses Beispiel zeigt das Aktualisieren einer vorhandenen Richtlinie mit dem Namen "EmployeeCortanaPolicy" und das Aktivieren Cortana Sprachunterstützung in Microsoft Teams nur mit dem Aufruf über die Schaltfläche. Benutzer können Ihr Mikrofon Cortana, indem sie die Schaltfläche Cortana Mikrofons im Teams. Der Aufruf von Reaktivierungszeichen ("Hey Cortana" oder "Cortana") wird deaktiviert.  
+Dieses Beispiel zeigt das Aktualisieren einer vorhandenen Richtlinie mit dem Namen "EmployeeCortanaPolicy" und das Aktivieren Cortana Sprachunterstützung in Microsoft Teams nur mit Aufruf per Knopfdruck. Benutzer können Cortana aufrufen, indem sie Cortana Mikrofonschaltfläche in Teams auswählen. Der Aktivierungswortaufruf ("Hey Cortana" oder "Cortana") wird deaktiviert.  
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
 ```
 
-Dieses Beispiel zeigt die Aktualisierung der Richtlinie und Cortana Sprachunterstützung durch Drücken und Reaktivierung des Worts.
+In diesem Beispiel wird gezeigt, wie sie die Richtlinie aktualisiert und Cortana Sprachunterstützung sowohl mit Einem Tastendruck als auch mit dem Reaktivieren von Wortaufrufen aktiviert wird.
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode WakeWordPushToTalkUserOverride
 ```
 
-Zum Zeitpunkt der ersten Version für Microsoft 365 Enterprise Benutzer in den USA in Englisch sind die folgenden Funktionen verfügbar:
+Zum Zeitpunkt der ersten Veröffentlichung für Microsoft 365 Enterprise Benutzer in den USA in Englisch stehen folgende Funktionen zur Verfügung:
 
-- Die Teams mobilen App unterstützt nicht die Aktivierung von Reaktivierungsworten, wird aber in Zukunft unterstützt.  
+- Die Teams mobile App unterstützt die Aktivierung von Wörtern nicht, wird aber in Zukunft unterstützt.  
 
-- Microsoft Teams-Räume auf Windows- und Microsoft Teams-Anzeigegeräten unterstützen die Aktivierung von Reaktivierungsworten.
+- Microsoft Teams-Räume auf Windows- und Microsoft Teams-Anzeigegeräten unterstützt die Aktivierung von Wörtern.
 
 ## <a name="user-control"></a>Benutzersteuerelement
 
-Einzelne Benutzer können versuchen, Cortana Sprachunterstützung auf verschiedenen Geräten zu erhalten:
+Einzelne Benutzer können Cortana Sprachunterstützung auf verschiedenen Geräten ausprobieren:
 
-- Wählen Sie in der mobilen Teams Mikrofonschaltfläche aus.
+- Wählen Sie die Mikrofonschaltfläche in der Teams mobilen App aus.
 
-- Wählen Sie die Mikrofonschaltfläche aus, oder sagen Cortana Mikrofon", Microsoft Teams-Räume.
+- Wählen Sie die Mikrofontaste aus, oder sagen Sie in Microsoft Teams-Räume "Cortana".
 
-- Sagen Sie "Cortana" auf Microsoft Teams-Geräten.
+- Sagen Sie "Cortana" auf Microsoft Teams Anzeigen von Geräten.
 
-Sie können steuern, Cortana in Teams Gerät aktiviert ist, indem Sie eine Einstellung auf dem Gerät verwenden.
+Mithilfe einer Einstellung auf dem Gerät können Sie steuern, ob Cortana in Teams für Ihr Gerät aktiviert ist.
 
-![zeigt die Entwicklung mobiler Fenster an, wenn Sie Cortana.](media/cortana-mobile-sequence.png)
+![zeigt die Entwicklung mobiler Fenster an, wenn Sie Cortana aktivieren.](media/cortana-mobile-sequence.png)
 
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams-Räume auf Windows
 
-Änderungen auf Geräteebene sind nur verfügbar, Cortana auf Mandantenebene aktiviert ist. 
+Änderungen auf Geräteebene sind nur verfügbar, wenn Cortana auf Mandantenebene aktiviert ist. 
 
-Auf Geräteebene können Sie die Cortana für die Verwendung auf zwei verschiedene Arten konfigurieren. Sie können beide Optionen oder beide gleichzeitig aktivieren: 
-- Durch Tippen auf ein Mikrofon, das als "Cortana _" bezeichnet wird, um zu sprechen_
-- Indem Sie "Hey, Cortana" sagen, das Cortana _Sprachaktivierung genannt wird_
+Auf Geräteebene können Sie Cortana für die Verwendung auf zwei verschiedene Arten konfigurieren. Sie können beide Optionen oder beides gleichzeitig aktivieren: 
+- Durch Tippen auf ein Mikrofon, das als Cortana _Push to talk_ bezeichnet wird
+- Indem Sie "Hey, Cortana" sagen, was _als Cortana Sprachaktivierung_ bezeichnet wird
 
-Cortana _Push to talk_ ist standardmäßig aktiviert, wenn Ihr Raum mit einer der folgenden Sprachen eingerichtet ist: en-au (Australien), en-ca (Canada), en-gb (United Kingdom), en-in (India), en-us (Usa). [Weitere Informationen.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana Symbol wird die Schaltfläche _Präsentieren unter dem_ Symbol Mehr _..._ in ihrer Teams Raumkonsole. Verwenden Sie PowerShell Cortana _um push to talk zu deaktivieren_.[ Weitere Informationen.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+Cortana _Push to talk_ ist standardmäßig aktiviert, wenn Ihr Raum mit einer der folgenden Sprachen eingerichtet ist: en-au (Australien), en-ca (Kanada), en-gb (Vereinigtes Königreich), en-in (Indien), en-us (USA). [Weitere Informationen.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana Symbol verschiebt die Schaltfläche "_Präsentieren_" unter dem Symbol _"Mehr..._ in Ihrer Teams Raumkonsole. Verwenden Sie PowerShell _, um Cortana Push to talk zu_ deaktivieren.[ Weitere Informationen.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
 
-Zum Aktivieren Cortana _Sprachaktivierung_ müssen die folgenden Bedingungen erfüllt sein:
-- ein Cortana Gerät muss mit Ihrem Raum Teams sein. Eine Liste der zertifizierten Geräte finden Sie am Ende dieses Artikels.
-- der Teams Room muss mit einer der folgenden Sprachen eingerichtet werden: en-au (Australien), en-ca (Kanada), en-gb (United Kingdom), en-in (Indien), en-us (Vereinigte Staaten). Weitere Sprachen werden zu einem späteren Zeitpunkt zur Verfügung stehen.
-- muss eine der folgenden Konfigurationsänderungen vorgenommen werden:
+Um Cortana _Sprachaktivierung_ zu aktivieren, müssen die folgenden Bedingungen erfüllt sein:
+- ein Cortana zertifizierte Gerät muss mit Ihrem Teams Room verbunden sein. Eine Liste der zertifizierten Geräte finden Sie am Ende dieses Artikels.
+- der Teams Room muss mit einer der folgenden Sprachen eingerichtet werden: en-au (Australien), en-ca (Kanada), en-gb (Vereinigtes Königreich), en-in (Indien), en-us (USA). Weitere Sprachen sind zu einem späteren Zeitpunkt verfügbar.
+- Eine der folgenden Konfigurationsänderungen muss vorgenommen werden:
   - aktivieren Sie das Feature im Teams Admin Center [Weitere Informationen.](/microsoftteams/rooms/rooms-manage)
-  - Fügen Sie der SKYPESettings-XML-Datei das folgende XML-Attribut hinzu:
+  - Fügen Sie der SkypeSettings-XML-Datei das folgende XML-Attribut hinzu:
 
     ```xml
     <SkypeSettings>  
@@ -108,17 +113,19 @@ Zum Aktivieren Cortana _Sprachaktivierung_ müssen die folgenden Bedingungen erf
     </SkypeSettings> 
     ```
     
-Auf Besprechungsebene sind Änderungen nur verfügbar, Cortana _die Sprachaktivierung_ auf Geräteebene aktiviert ist.  Um die Cortana _Sprachaktivierung während_ einer Besprechung zu aktivieren, bewegen Sie den Umschalter auf **Ein** oder **Aus**, um die Sprachaktivierung zu deaktivieren. Sobald die Besprechung beendet ist, Cortana sie zu den auf Geräteebene festgelegten Einstellungen zurück.
+Auf Besprechungsebene sind Änderungen nur verfügbar, wenn Cortana _Sprachaktivierung_ auf Geräteebene aktiviert ist.  Um Cortana _Sprachaktivierung_ während einer Besprechung zu aktivieren, schalten Sie die Umschaltfläche **ein** oder **aus**, um sie zu deaktivieren. Sobald die Besprechung beendet ist, kehrt Cortana zu den einstellungen auf Geräteebene zurück.
 
 
-Das Vornehmen von Änderungen auf Besprechungsebene ist verfügbar, Cortana auf Geräteebene aktiviert ist.
+Änderungen auf Besprechungsebene sind verfügbar, wenn Cortana auf Geräteebene aktiviert ist.
 
-Um die Cortana _während einer Besprechung_ zu aktivieren, bewegen Sie den Umschalter **auf Ein** oder **Aus**. Sobald die Besprechung beendet ist, Cortana sie zu den auf Geräteebene festgelegten Einstellungen zurück.
+Um Cortana _Sprachaktivierung_ während einer Besprechung zu aktivieren, setzen Sie die Umschaltfläche **ein** oder **aus**. Sobald die Besprechung beendet ist, kehrt Cortana zu den einstellungen auf Geräteebene zurück.
 
 
-## <a name="cortana-certified-devices-for-teams-rooms"></a>Cortana Geräte für die Teams-Räume
-Cortana _Sprachaktivierung_ kann aktiviert werden, wenn Sie ein Lenovo Hub 500 verwenden oder wenn eines dieser Geräte mit Ihrem Raum verbunden ist:
-- Jabra Ausschnur 50 
-- Mikrofone aus Mikrofonen von Mikrofonen aus Mikrofonen
+## <a name="cortana-certified-devices-for-teams-rooms"></a>Cortana zertifizierte Geräte für Teams-Räume
+Cortana _Sprachaktivierung_ kann aktiviert werden, wenn Sie einen Lenovo Hub 500 verwenden oder wenn eines der folgenden Geräte mit Ihrem Raum verbunden ist:
+- Jabra Panacast 50 
+- Rallyemikrofone
 - Bose Video Bar VB1
+- EPOS EXPAND Capture 5
+- Yealink MSpeech  
 

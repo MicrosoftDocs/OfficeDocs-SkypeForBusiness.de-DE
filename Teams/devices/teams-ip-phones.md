@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Tisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: e9ddd0a2e9988614bd2f0fe7825a75b790736027
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 97be4ba35a480872e36113926c1f45c1ccd955aa
+ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125510"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "65171711"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams zertifizierte Android-Geräte
 
@@ -141,6 +141,8 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion  | Produktversion enthalten  |
 |:----------------|:--------------|:----------------------------|
+|Yealink MP54/MP56/MP58   | `122.15.0.80`     | Update 2022 #2A  |
+|Yealink MP52 | `145.15.0.28`  | Update 2022 #2A         |
 |Audiocodes C470HD  | `1.17.558` | Update 2022 #1C   |
 |Audiocodes C455HD | `1.15.289`    | Update 2022 #1C    |
 |Audiocodes C448HD  | `1.14.524` | Update 2022 #1C |

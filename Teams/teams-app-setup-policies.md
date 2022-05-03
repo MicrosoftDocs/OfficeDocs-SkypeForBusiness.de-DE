@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 328f2676ccec6cd1450166d7032877e176d5f1cd
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 7c00a5e70684a93f31a11d48ac542920fca3b697
+ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910821"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "65171731"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -80,7 +80,7 @@ Führen Sie die folgenden Schritte aus, um eine App-Setuprichtlinie zum Anheften
 
 1. Ordnen Sie die Apps unter der **App-Leiste** oder **Messaging-Erweiterungen** in der Reihenfolge an, in der sie in Teams angezeigt werden sollen.
 
-   ![den Abschnitt "Angeheftete Apps".](media/pin-messaging-extensions.png)
+   :::image type="content" source="media/pin-messaging-extensions.png" alt-text="Abschnitt &quot;Angeheftete Apps&quot;"border="true":::
 
 1. Klicken Sie auf **Speichern**.
 
