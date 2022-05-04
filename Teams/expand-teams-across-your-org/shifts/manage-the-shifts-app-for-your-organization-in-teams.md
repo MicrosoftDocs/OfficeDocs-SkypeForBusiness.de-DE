@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137006"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187001"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -71,9 +71,19 @@ Weitere Informationen zu Schichtdaten, einschließlich Speicherung, Aufbewahrung
 
 Um bestimmten Benutzern in Ihrer Organisation die Verwendung von Schichten zu ermöglichen oder zu blockieren, stellen Sie sicher, dass "Schichten" für Ihre Organisation auf der Seite ["Apps verwalten"](../../manage-apps.md) aktiviert ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Verwenden einer App-Setuprichtlinie zum Anheften von Schichten an Teams
+### <a name="pin-shifts-to-teams"></a>Schichten an Teams anheften
 
-Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die in einer Richtlinie festgelegten Apps werden an die App-Leiste geheftet &mdash;das ist die seitliche Leiste bei Microsoft Teams-Desktop-Clients und am unteren Rand bei Microsoft Teams Mobile-Clients&mdash;, von wo die Benutzer schnell und einfach darauf zugreifen können.
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Verwenden Sie die maßgeschneiderte App-Erfahrung in Service und Produktion, um Schichten und andere Apps an Teams
+
+Die maßgeschneiderte Frontline-App-Erfahrung in Teams heftet die relevantesten Apps in Teams für Benutzer an, die über eine [F-Lizenz verfügen](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Angeheftete Apps umfassen Schichten, Walkie-Talkie, Aufgaben und Genehmigungen. Standardmäßig ist dieses Feature aktiviert, sodass Ihre Mitarbeiter in Service und Produktion eine out-of-the-box-Erfahrung erhalten, die auf ihre Anforderungen zugeschnitten ist.
+
+Die Apps werden an die App-Leiste angeheftet – die Leiste auf der Seite des Teams Desktopclients und am unteren Rand der Teams mobilen Clients, auf die Benutzer schnell und einfach zugreifen können.
+
+Weitere Informationen, einschließlich der Funktionsweise der Umgebung mit von Ihnen festgelegten App-Richtlinien, finden Sie unter ["Anpassen Teams Apps für Mitarbeiter in Service und Produktion](../../pin-teams-apps-based-on-license.md)".  
+
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Verwenden einer App-Setuprichtlinie zum Anheften von Schichten an Teams
+
+Mit App-Setuprichtlinien können Sie Teams anpassen, um die Apps anzuheften, die für Ihre Benutzer am wichtigsten sind.
 
 Sie können eine [benutzerdefinierte App-Setuprichtlinie](../../teams-app-setup-policies.md) erstellen, indem Sie die Schichten-App hinzufügen und [die Richtlinie](../../assign-policies-users-and-groups.md) dann Ihren Benutzern zuweisen. Sie können auch die App-Setuprichtlinie verwenden, die Teil der Richtlinienpakete "Mitarbeiter in Service und Produktion" ist.
 

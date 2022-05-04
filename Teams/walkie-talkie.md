@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "62015015"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186971"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-App in Microsoft Teams
 
@@ -35,23 +35,25 @@ Mit Walkie Talkie in Teams können Mitarbeiter in Service und Produktion jetzt s
 
 ### <a name="deploying-walkie-talkie"></a>Bereitstellen von Walkie-Talkie
 
-Walkie Talkie wird auf Android-Geräten mit Google Mobile Services (GMS) und iOS-Geräten unterstützt. 
+Walkie Talkie wird auf Android-Geräten mit Google Mobile Services (GMS) und iOS-Geräten unterstützt.
 
-Walkie Talkie ist derzeit nicht vorinstalliert. Um dieses Feature für Benutzer in Ihrer Organisation zu aktivieren, müssen Sie Walkie Talkie zur  [App-Setuprichtlinie](teams-app-setup-policies.md)  hinzufügen, die Benutzern aus dem [Teams Admin Center](https://admin.teams.microsoft.com/) zugewiesen ist. Nach der Aktivierung wird Walkie Talkie innerhalb von 48 Stunden in der App verfügbar sein.
+### <a name="pin-walkie-talkie-to-teams"></a>Anheften von Walkie-Talkie an Teams
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>Hinzufügen von Walkie-Talkie zur App-Liste
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Verwenden Sie die maßgeschneiderte Frontline-App-Erfahrung, um Walkie Talkie und andere Apps an Teams
 
-Im Microsoft Teams Admin Center sollten Sie unter **Teams** **appSetup-Richtlinien** >  "**Benutzer-Anheften zulassen**" auf "**Ein**" festlegen. Klicken Sie dann unter dem Abschnitt "Angeheftete Apps" auf **"+Apps hinzufügen"**.
+Die maßgeschneiderte Frontline-App-Erfahrung in Teams heftet die relevantesten Apps in Teams für Benutzer an, die über eine [F-Lizenz verfügen](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Angeheftete Apps umfassen Walkie-Talkie, Schichten, Aufgaben und Genehmigungen. Standardmäßig ist dieses Feature aktiviert, sodass Ihre Mitarbeiter in Service und Produktion eine out-of-the-box-Erfahrung erhalten, die auf ihre Anforderungen zugeschnitten ist.
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Zeigt den Abschnitt &quot;Angeheftete Apps&quot; und die Schaltfläche &quot;Apps hinzufügen&quot;, die ausgewählt werden soll.":::
+Die Apps werden an die App-Leiste angeheftet – die Leiste auf der Seite des Teams Desktopclients und am unteren Rand der Teams mobilen Clients, auf die Benutzer schnell und einfach zugreifen können.
 
-Verwenden Sie im Bereich **"Angeheftete Apps hinzufügen** ", der auf der rechten Seite angezeigt wird, das Textfeld **"Suchen** ", um nach Walkie Talkie zu suchen. Wenn sie als Suchergebnis angezeigt wird, wählen Sie rechts neben dem Namen die Schaltfläche " **Hinzufügen** " aus, um sie ihrer Liste hinzuzufügen.
+Weitere Informationen, einschließlich der Funktionsweise der Umgebung mit von Ihnen festgelegten App-Richtlinien, finden Sie unter ["Anpassen Teams Apps für Mitarbeiter in Service und Produktion](pin-teams-apps-based-on-license.md)".
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Zeigt die Randleiste &quot;Angeheftete Apps hinzufügen&quot;, in der Walkie in den Suchbereich eingegeben wurde, und die Walkie Talkie-App in den Suchergebnissen mit der Schaltfläche &quot;Hinzufügen&quot; daneben.":::
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>Verwenden einer App-Setuprichtlinie zum Anheften von Walkie Talkie an Teams
 
-Die Walkie Talkie-App sollte jetzt in der Liste der angehefteten Apps angezeigt werden und nach dem Klicken auf die Schaltfläche " **Speichern** " zur Verfügung stehen.
+Mit App-Setuprichtlinien können Sie Teams anpassen, um Apps anzuheften, die für Ihre Benutzer in Ihren Benutzern am wichtigsten sind.
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Zeigt die Liste der angehefteten Apps mit hinzugefügter Walkie Talkie-App und der Schaltfläche &quot;Speichern&quot; unter der Liste an.":::
+Um die Walkie Talkie-App für Ihre Benutzer anzuheften, können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot, der zeigt, wie Walkie-Talkie zur Liste angehefteter Apps im Bereich &quot;Angeheftete Apps hinzufügen&quot; hinzugefügt wird." lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### <a name="network-documentation"></a>Netzwerkdokumentation
 

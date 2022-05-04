@@ -1,5 +1,5 @@
 ---
-title: Einrichtung von Eltern in Teams für Education
+title: Administratoreinrichtung von Eltern in Teams für Education
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teams Artikel Dokumentierung der Voraussetzungen und Einrichtung von "Eltern" in Teams für Education.
+description: Microsoft Teams Artikel zur Dokumentation der Voraussetzungen und der Einrichtung von Eltern in Teams für Education.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -17,61 +17,89 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062529"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187111"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Einrichten der übergeordneten Verbindung in Microsoft Teams für Education
 
-Die Elternverbindung in Teams für Education hilft Lehrkräften, sich mithilfe von Teams-Chats sicher mit den Eltern und Erziehungsberechtigten der Kursteilnehmer in ihren Kursteams zu verbinden und zu interagieren. Dieser wird auf die gesamte Organisation des Lehrers verteilt. Alle Daten zu Eltern und Erziehungsberechtigten werden mithilfe von School Data Sync bereitgestellt, sodass it-Mitarbeiter alles reibungslos einrichten können.
+Die Elternverbindung in Teams für Education hilft Lehrkräften, sich mithilfe von Teams sicher mit den Eltern und Erziehungsberechtigten der Kursteilnehmer in ihren Kursteams zu verbinden und mit ihnen zu interagieren.
 
-Sobald Lehrkräfte und Erziehungsberechtigte eingerichtet sind, können sie miteinander über Teams chatten. 
+Dieser Artikel enthält Anleitungen für It-Experten im Bildungsbereich zu Anforderungen und zum Einrichten der übergeordneten Verbindung.
 
-Anleitungen dazu, wie Sie Eltern und Erziehungsberechtigte mit Lehrkräften in Verbindung Verbinden, finden Sie unter Zusammenarbeit mit [Lehrkräften in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+## <a name="share-guardian-and-educator-resources"></a>Freigeben von Ressourcen für Erziehungsberechtigte und Lehrkräfte
 
-Anleitungen dazu, wie Sie Lehrkräfte für die Kommunikation mit Eltern und Erziehungsberechtigten einrichten, finden Sie unter [Kommunizieren mit Erziehungsberechtigten in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+Hier sind einige Ressourcen, die IT-Administratoren mit Erziehungsberechtigten und Lehrkräften teilen können, wie sie mit der Elternverbindung beginnen können.
 
-Eltern funktioniert auch mit "Überwachter Chat". Eltern und Erziehungsberechtigte haben keine vollständigen Teams-Berechtigungen, was bedeutet, dass sie keine Unterhaltungen mit Schülern/Studenten beginnen oder Benutzer mit Vollzugriff (z. B. Lehrkräfte) aus Chats entfernen können. Weitere Informationen zu überwachten Chats finden Sie unter [Verwenden überwachter Chats in Microsoft Teams](supervise-chats-edu.md).
+- Anleitungen zum Einrichten von Erziehungsberechtigten finden Sie [unter Verbinden mit Lehrkräften in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+- Anleitungen zum Einrichten von Lehrkräften finden [Sie unter Kommunizieren mit Erziehungsberechtigten in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+
+## <a name="benefits-of-parent-connection"></a>Vorteile der übergeordneten Verbindung
+
+Die Elternverbindung ermöglicht Es Lehrkräften und Erziehungsberechtigten, mit Teams zu chatten, per E-Mail zu anrufen.
+
+- Teams Kontaktdaten des Erziehungsberechtigten bleiben mit SIS mithilfe von School Data Sync (SDS) auf dem neuesten Stand.
+- Es funktioniert mit überwachtem Chat. Weitere Informationen finden Sie unter [Verwenden von überwachten Chats in Microsoft Teams](supervise-chats-edu.md).
+  - Standardmäßig verfügen Erziehungsberechtigte über eingeschränkte Berechtigungen, sodass sie nicht mit Schülern chatten oder Benutzer aus Chats entfernen können.
+  - Diese Einstellung kann vom Mandantenadministrator geändert werden.
+- Lehrkräfte können Chats mit Erziehungsberechtigten initiieren.
+  - Wenn der Erziehungsberechtigte nicht über ein Teams Verbraucherkonto verfügt, erhält er die erste Nachricht von der Lehrkraft und eine E-Mail-Einladung, um zu Teams zu wechseln.
+- Lehrkräfte können auf die E-Mails eines Erziehungsberechtigten klicken, um sie per E-Mail mit ihrem systemeigenen E-Mail-Client zu senden.
+- Lehrkräfte können auf die Telefonnummer eines Erziehungsberechtigten klicken, um sie innerhalb Teams anzurufen.
+
+> [!IMPORTANT]
+> Damit Sie die Funktionalität in Teams aufrufen können, benötigt Ihr Mandant Folgendes:
+>
+> - Pbx-Funktionen (Public Branch Exchange).
+> - Verbindung mit dem PSTN.
+>
+> Microsoft 365 A1- und A3-Pläne enthalten weder PBX-Funktionen noch PSTN-Verbindungen. Sie können [Add-On-Lizenzen für jede dieser](/teams-add-on-licensing/microsoft-teams-add-on-licensing) Lizenzen erwerben.
+>
+> Microsoft 365 A5 Pläne enthalten nur Nebenstellenanlagenfunktionen, die Teams Telefonsystem verwenden. Sie müssen weiterhin [einen Teams Anrufplan erwerben oder eine Drittanbieterlösung verwenden](pstn-connectivity.md), um eine Verbindung mit externen Nummern im PSTN herzustellen.
+>
+> Weitere Informationen zu allen Optionen zum Abrufen der PSTN-Konnektivität finden Sie unter [PSTN-Konnektivitätsoptionen](pstn-connectivity.md).
+>
+> Weitere Informationen zum Teams der Anruflizenzierung finden Sie [unter Teams Add-On-Lizenzierungsoptionen](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## <a name="requirements"></a>Anforderungen
 
 ### <a name="school-data-sync"></a>School Data Sync
 
-- Sie benötigen School Data Sync (SDS), um die Kontaktinformationen für Eltern und Erziehungsberechtigte jedes Schülers oder Studenten **zu** füllen.
+- Sie benötigen School Data Sync (SDS), um die **Kontaktinformationen** zu Eltern und Erziehungsberechtigten jedes Schülers aufzufüllen.
   - [Bereitstellen von SDS](/schooldatasync/parents-and-guardians-in-sds)
 
-- Wenn Sie Unterstützung beim Einrichten von SDS sowie beim Auffüllen von Kontakten mit Eltern und Erziehungsberechtigten für die Schüler/Studenten in Ihrem Mandanten benötigen, wenden Sie sich über die hier angezeigten Aufgaben an das EDU Customer Success-Team:
-  - Abschließen des RFA-Prozesses [am FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
-  - Öffnen eines Tickets beim [Support](https://aka.ms/sdssupport)
+- Wenn Sie Unterstützung beim Einrichten von SDS und beim Auffüllen von **kontaktbezogenen Kontakten** für Eltern und Erziehungsberechtigte für die Kursteilnehmer in Ihrem Mandanten benötigen, wenden Sie sich an das EDU Customer Success-Team:
+  - Abschluss des RFA-Prozesses bei [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
+  - Öffnen eines Tickets beim [Support](https://aka.ms/sdssupport).
 
-- Derzeit unterstützt SDS nur die CSV-basierte Datenaufnahme für übergeordnete Kontakte. Sie können jedoch [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) oder [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) für alle Daten der Liste verwenden und mit CSV nur übergeordnete Kontakte hinzufügen.
-  - Erstellen Sie ein zweites Synchronisierungsprofil im [SDS v1-CSV-Synchronisierungsformat](/schooldatasync/school-data-sync-format-csv-files-for-sds).
-  - Ziehen Sie die beiden [aufgefüllten übergeordneten](/schooldatasync/parent-contact-sync-file-format) Dateien, in die die restlichen v1-Dateien leer sind (nur die Kopfzeilen).
+- Derzeit unterstützt SDS nur csv-basierte Datenaufnahme für übergeordnete Kontakte. Sie können jedoch [die PowerSchool-API-Synchronisierung](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) oder [OneRoster-API-Synchronisierung](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) für alle Listendaten verwenden und einfach übergeordnete Kontakte mithilfe von CSV hinzufügen.
+  - Erstellen Sie ein zweites [Synchronisierungsprofil mit dem CSV-Synchronisierungsformat SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
+  - Ziehen Sie die beiden aufgefüllten [übergeordneten Dateien](/schooldatasync/parent-contact-sync-file-format) mit den restlichen v1-Dateien leer (nur die Kopfzeilen).
     - User.csv
     - Guardianrelationship.csv
-  - Informationen zum Anzeigen eines Beispielsets für die CSV-Dateien in v1 finden Sie unter Erforderliche [Mindestattribute für GitHub Dateien](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
-  - Wenn Sie das Pullen der CSV-Dateien nach der ersten Synchronisierung automatisieren möchten, lesen Sie unser Dokument zur Synchronisierung von [CSV-Dateien](/schooldatasync/csv-file-sync-automation).
-  - Wenn Sie Hilfe beim Einrichten Ihrer SDS-Datensynchronisierung erhalten möchten, erreichen Sie unser Customer [Success-Team](https://www.microsoft.com/fasttrack?rtc=1) , oder [öffnen Sie ein Supportticket](https://edusupport.microsoft.com/support?product_id=data_sync).
+  - Informationen zum Anzeigen eines Beispielsatzes der v1-CSV-Dateien finden Sie in den [Mindestens erforderlichen Attributen GitHub Dateien](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
+  - Wenn Sie das Abrufen der CSV-Dateien nach der ersten Synchronisierung automatisieren möchten, lesen Sie unser [CSV-Dateisynchronisierung-Automatisierungsdokument](/schooldatasync/csv-file-sync-automation).
+  - Wenn Sie Hilfe beim Einrichten Ihrer SDS-Datensynchronisierung benötigen, wenden Sie sich an [unser Kundenerfolgsteam](https://www.microsoft.com/fasttrack?rtc=1) , oder [öffnen Sie ein Supportticket](https://edusupport.microsoft.com/support?product_id=data_sync).
 
 ### <a name="teams-admin-center---policies"></a>Teams Admin Center – Richtlinien
 
-- Kursteambesitzer müssen einen Teams chatten.
-- Kursteambesitzer müssen über externen Zugriff verfügen **, Teams die nicht von einer Organisation verwaltet** werden.
-  - Dies muss auf Mandanten- und Benutzerebene aktiviert sein. Die Einstellung auf Mandantenebene finden Sie unter Benutzer **> externen Zugriff** im Teams Admin Center. Auf diese Einstellung kann auch über PowerShell zugegriffen werden. Auf Richtlinien für externen Zugriff auf Benutzerebene kann nur über PowerShell zugegriffen werden. Weitere Anleitungen finden Sie unten in den PowerShell-Befehlen.
+- Die Besitzer des Kursteams müssen Teams Chat aktiviert haben.
+- Kursteambesitzer müssen über externen Zugriff verfügen, **wobei Teams Konten nicht von einer Organisation verwaltet werden**, die aktiviert ist.
+  - Dies muss auf Mandanten- und Benutzerebene aktiviert sein. Die Einstellung auf Mandantenebene finden Sie unter **"Benutzer > externen Zugriff**" im Teams Admin Center. Auf diese Einstellung kann auch über PowerShell zugegriffen werden. Auf Richtlinien für den externen Zugriff auf Benutzerebene kann nur über PowerShell zugegriffen werden. Weitere Anleitungen finden Sie unten in den PowerShell-Befehlen.
 
 > [!NOTE]
->Eltern und Erziehungsberechtigte werden im Feature "Eltern" als externe Benutzer klassifiziert, was bedeutet, dass sie nicht über vollständige Mandantenrechte verfügen. Sie haben nur Zugriff auf den Chat oder die Chats, zu dem sie hinzugefügt werden, sowie auf Dateien, Bilder und andere im Chat freigegebene Inhalte.
+>Eltern und Erziehungsberechtigte werden im Feature "Eltern" als externe Benutzer klassifiziert, was bedeutet, dass sie nicht über vollständige Mandantenrechte verfügen. Sie haben nur Zugriff auf den Chat oder die Chats, denen sie hinzugefügt werden, sowie auf Dateien, Bilder und andere Inhalte, die im Chat freigegeben werden.
 >
->Darüber hinaus können externe Benutzer die Anwesenheitseinstellungen (offline, verfügbar, beschäftigt usw.) der Benutzer Ihrer Organisation sehen, dies kann jedoch mit PowerShell deaktiviert werden, um die Privatsphäre der Benutzer zu schützen. Verwenden Sie in PowerShell [Set-CsPrivacyConfiguration, und](/powershell/module/skype/set-csprivacyconfiguration) legen Sie auf .``EnablePrivacyMode=true``
+>Außerdem können externe Benutzer die Anwesenheit (offline, verfügbar, beschäftigt usw.) der Benutzer Ihrer Organisation sehen, dies kann jedoch mithilfe von PowerShell deaktiviert werden, um die Privatsphäre der Benutzer zu schützen. Verwenden Sie in PowerShell [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) und set ``EnablePrivacyMode=true``.
 >
->Obwohl Eltern und Erziehungsberechtigte externe Benutzer sind, können sie ihre Beiträge zu Chats finden. Unter Durchführen einer [eDiscovery-Untersuchung Teams eDiscovery eine eDiscovery-Untersuchung von Inhalten in einem Microsoft Teams](ediscovery-investigation.md).
+>Obwohl Eltern und Erziehungsberechtigte externe Benutzer sind, sind ihre Beiträge zu Chats auffindbar. Erfahren Sie, wie Sie eine Teams eDiscovery-Untersuchung durchführen, indem Sie "[Durchführen einer eDiscovery-Untersuchung von Inhalten in Microsoft Teams](ediscovery-investigation.md)" lesen.
 
-## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Zulassen des externen Zugriffs mit Teams, die nicht von einer Organisation verwaltet werden
+## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Zulassen des externen Zugriffs mit Teams Konten, die nicht von einer Organisation verwaltet werden
 
-Damit Lehrkräfte mit Eltern und Erziehungsberechtigten in Teams kommunizieren können, muss der IT-Administrator des Education-Mandanten die Richtlinien des Mandanten aktualisieren, um externen Zugriff für Teams-Konten außerhalb des Mandanten zu ermöglichen. Weitere Informationen zum Verwalten des externen Zugriffs finden Sie unter [Verwalten des externen Zugriffs in Microsoft Teams](manage-external-access.md).
+Damit Lehrkräfte mit Eltern und Erziehungsberechtigten in Teams kommunizieren können, muss der IT-Administrator des Bildungsmandanten die Richtlinien des Mandanten aktualisieren, um externen Zugriff für Teams Konten außerhalb des Mandanten zu ermöglichen. Weitere Informationen zum Verwalten des externen Zugriffs erhalten [Sie unter Verwalten des externen Zugriffs in Microsoft Teams](manage-external-access.md).
 
 Hier sind die Schritte zum Aktivieren des externen Zugriffs für Eltern und Erziehungsberechtigte.
 
@@ -82,56 +110,56 @@ Hier sind die Schritte zum Aktivieren des externen Zugriffs für Eltern und Erzi
     Install-Module -Name MicrosoftTeams -AllowPrerelease -Force –AllowClobber
     ```
 
-2. Führen Sie die folgenden Befehle aus, indem Sie Anmeldeinformationen mit Administratorrechten verwenden:
+2. Führen Sie unter Verwendung von Anmeldeinformationen mit Administratorrechten die folgenden Befehle aus:
 
     ```powershell
     $credential = Get-Credential
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-    Die Richtlinieneinstellung, mit der der externe Zugriff mit Teams-Konten aktiviert wird, die nicht von einer Organisation auf Benutzerebene (`EnableTeamsConsumerAccess`) verwaltet werden, ist für alle Richtlinien für externen Zugriff auf Benutzerebene standardmäßig aktiviert. Sowohl die Einstellung auf Mandantenebene als auch die Richtlinieneinstellung auf Benutzerebene müssen aktiviert sein, damit ein Benutzer über externen Zugriff mit Teams Konten verfügen kann, die nicht von einer Organisation verwaltet werden. Wenn dieser Zugriff nicht für jeden Benutzer in Ihrem Mandanten aktiviert sein soll, sollten Sie sicherstellen, dass die Einstellung auf Mandantenebene deaktiviert ist, die den Benutzern zugewiesenen Richtlinien für externen Zugriff auf Benutzerebene aktualisieren und dann die Einstellung auf Mandantenebene aktivieren.
+    Die Richtlinieneinstellung, die den externen Zugriff mit Teams Konten aktiviert, die nicht von einer Organisation auf Benutzerebene () verwaltet werden,`EnableTeamsConsumerAccess` ist standardmäßig für alle Richtlinien für den externen Zugriff auf Benutzerebene aktiviert. Sowohl die Einstellung auf Mandantenebene als auch die Richtlinieneinstellung auf Benutzerebene müssen aktiviert sein, damit ein Benutzer externen Zugriff mit Teams Konten hat, die nicht von einer Organisation verwaltet werden. Wenn Sie nicht möchten, dass jeder Benutzer in Ihrem Mandanten diesen Zugriff aktiviert hat, sollten Sie sicherstellen, dass Ihre Einstellung auf Mandantenebene deaktiviert ist, aktualisieren Sie die den Benutzern zugewiesenen Richtlinien für den externen Zugriff auf Benutzerebene, und aktivieren Sie dann die Einstellung auf Mandantenebene.
 
-    Um zu überprüfen, welche Richtlinien für externen Zugriff auf Benutzerebene vorhanden sind und wem sie zugewiesen sind, können Sie die folgenden Schritte ausführen:
+    Führen Sie die folgenden Schritte aus, um zu überprüfen, welche Richtlinien für den externen Zugriff auf Benutzerebene vorhanden sind und wem sie zugewiesen sind:
 
-3. Überprüfen Sie, ob Richtlinien für externen Zugriff auf Benutzerebene vorhanden sind.
+3. Überprüfen Sie, ob Richtlinien für den externen Zugriff auf Benutzerebene vorhanden sind.
 
     ```powershell
     Get-CsExternalAccessPolicy
     ```
 
-4. Überprüfen Sie für jede andere Richtlinie als die "Global"-Richtlinie, welche Benutzer die Richtlinie zugewiesen haben.
+4. Überprüfen Sie für jede andere Richtlinie als die globale Richtlinie, welche Benutzer die Richtlinie zugewiesen haben.
 
    > [!NOTE]
-   > Alle Benutzer, denen keine bestimmte Richtlinie zugewiesen ist, werden auf die Richtlinie "Global" zurückfallen. Allen neuen Benutzern, die dem Mandanten hinzugefügt werden, wird die Richtlinie "Global" zugewiesen.
+   > Alle Benutzer, denen keine bestimmte Richtlinie zugewiesen ist, greifen auf die "globale" Richtlinie zurück. Allen neuen Benutzern, die dem Mandanten hinzugefügt werden, wird die Richtlinie "Global" zugewiesen.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-Da alle Richtlinien für externen Zugriff auf Benutzerebene standardmäßig auf "true" festgelegt sind, `EnableTeamsConsumerAccess` können Sie vorhandene Richtlinien für externen Zugriff mit angepassten Einstellungen erstellen/ändern und/oder Benutzer mithilfe der folgenden PowerShell-Cmdlets `EnableTeamsConsumerAccess` neuen oder vorhandenen Richtlinien erneut zuweisen:
+Da alle Richtlinien für den externen Zugriff auf Benutzerebene standardmäßig auf "true" festgelegt sind `EnableTeamsConsumerAccess` , können Sie, wenn Sie die `EnableTeamsConsumerAccess` Einstellung für bestimmte Benutzer anpassen möchten, vorhandene Richtlinien für den externen Zugriff mit angepassten Einstellungen erstellen/ändern und/oder Benutzer mithilfe der folgenden PowerShell-Cmdlets neuen oder vorhandenen Richtlinien zuweisen:
 
-- Erstellen einer neuen Richtlinie für externen Zugriff: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
+- Erstellen einer neuen Richtlinie für den externen Zugriff: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
-- Anpassen einer vorhandenen Richtlinie für externen Zugriff (einschließlich der Richtlinie "Global): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- Anpassen einer vorhandenen Richtlinie für den externen Zugriff (einschließlich der Richtlinie "Global"): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 
 > [!NOTE]
-> Die folgenden Standardrichtlinien für Abonnements können nicht geändert werden: 'FederationAndPICDefault', 'FederationOnly', 'NoFederationAndPIC'. Die Richtlinie "FederationAndPICDefault" wurde standardmäßig allen Benutzern zugewiesen, neuen Benutzern wird nun standardmäßig die Richtlinie "Global" zugewiesen. Wenn Sie die Richtlinieneinstellungen für Benutzer ändern müssen, denen diese Standardrichtlinien für Abonnements zugewiesen sind, weisen Sie diesen Benutzern andere Richtlinien mit den richtigen Einstellungen zu.
+> Die folgenden Standardrichtlinien für Abonnements können nicht geändert werden: "FederationAndPICDefault", "FederationOnly", "NoFederationAndPIC". Die Richtlinie "FederationAndPICDefault" wurde standardmäßig allen Benutzern zugewiesen, neuen Benutzern wird nun standardmäßig die Richtlinie "Global" zugewiesen. Wenn Sie die Richtlinieneinstellungen für Benutzer ändern müssen, denen diese Standardrichtlinien für Abonnements zugewiesen sind, weisen Sie diesen Benutzern unterschiedliche Richtlinien mit den richtigen Einstellungen zu.
 
-- Zuweisen einer Richtlinie für externen Zugriff zu einem einzelnen Benutzer: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
+- Weisen Sie einem einzelnen Benutzer eine Richtlinie für den externen Zugriff zu: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
 - Zuweisen einer Richtlinie zu einer Gruppe von Benutzern: [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
-Nachdem die Richtlinien für externen Zugriff auf Benutzerebene für die Benutzer in Ihrem Mandanten ordnungsgemäß festgelegt wurden, können Sie die Einstellung auf Mandantenebene (`AllowTeamsConsumer`) für den Mandanten mithilfe des folgenden Cmdlets aktivieren:
+Sobald die Richtlinien für den externen Zugriff auf Benutzerebene für die Benutzer in Ihrem Mandanten ordnungsgemäß festgelegt wurden, können Sie die Einstellung auf Mandantenebene (`AllowTeamsConsumer`) für den Mandanten mithilfe des folgenden Cmdlets aktivieren:
 
 - Festlegen der Verbundkonfigurationseinstellungen für Ihren Mandanten: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Aktivieren der Eltern-App im Teams Admin Center
 
-Da die Eltern-App standardmäßig deaktiviert ist, können Kursteambesitzer sie erst in ihren Kursteams sehen, wenn sie über das Teams Admin Center zugelassen ist. Die Eltern-App wird im Teams Admin Center mit der Verwendung von von Herausgebern [blockierten Apps zulassen aktiviert](manage-apps.md#apps-blocked-by-publishers).
+Die Eltern-App ist standardmäßig deaktiviert, sodass sie für Kursteambesitzer erst in ihren Kursteams angezeigt wird, wenn sie über das Teams Admin Center zulässig ist. Die Eltern-App ist im Teams Admin Center mithilfe [von von Herausgebern blockierten Apps zulassen](manage-apps.md#apps-blocked-by-publishers) aktiviert.
 
-Sie können die App jederzeit auf Mandantenebene mithilfe von Zulassen und Blockieren von [Apps im Teams](manage-apps.md#allow-and-block-apps) Admin Center deaktivieren. Wenn sie auf Mandantenebene deaktiviert ist, wird sie für alle Benutzer blockiert, auch wenn Berechtigungen auf Benutzerebene aktiviert sind.
+Die App kann jederzeit auf Mandantenebene mithilfe von Apps im Teams Admin Center deaktiviert [und blockiert](manage-apps.md#allow-and-block-apps) werden. Wenn sie auf Mandantenebene deaktiviert ist, wird sie für alle Benutzer blockiert, auch wenn Berechtigungen auf Benutzerebene aktiviert sind.
 
-Die Eltern-App kann auch auf Benutzerebene deaktiviert werden, indem Sie die Berechtigungsrichtlinien für die [App in](teams-app-permission-policies.md) Microsoft Teams.
+Die Eltern-App kann auch auf Benutzerebene mithilfe von [Berechtigungsrichtlinien für "App verwalten" in Microsoft Teams](teams-app-permission-policies.md) deaktiviert werden.
 
 ## <a name="more-information"></a>Weitere Informationen
 

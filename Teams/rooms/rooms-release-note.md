@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administratoren können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff29da1f78c39163dbb8262e1a94687dad6c4aac
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125710"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187021"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -230,7 +230,7 @@ In diesem Update eingeführt:
 
 - Teilen von HDMI-Audio für Besprechungsteilnehmer in Teams Besprechung
 - Cortana Sprachfertigkeiten (Vorschau)
-- Verhindern Sie das Aufheben der Stummschaltung basierend auf Audioberechtigungen, wenn Teams Raum als Teilnehmer beitritt. Weitere Informationen finden Sie unter [Verwalten von Audioberechtigungen für Teilnehmer in Teams Besprechungen](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Verhindern Sie das Aufheben der Stummschaltung basierend auf Audioberechtigungen, wenn Teams-Räume als Teilnehmer beitritt. Weitere Informationen finden Sie unter [Verwalten von Audioberechtigungen für Teilnehmer in Teams Besprechungen](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Spotlight-Video einer Person aus Teams Raumkonsole und Nutzen von hervorgehobenem Video auf Raumanzeigen
 
 > [!NOTE]

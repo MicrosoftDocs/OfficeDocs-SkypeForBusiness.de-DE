@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137126"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186981"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
@@ -122,15 +122,29 @@ Die App "Genehmigungen" ist standardmäßig verfügbar. Sie können die App im M
 
      :::image type="content" alt-text="zeigt die Details für die Genehmigungen-App an." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="app-policies"></a>App-Richtlinien
+## <a name="pin-approvals-to-teams"></a>Genehmigungen an Teams anheften
 
-### <a name="retention-policy"></a>Aufbewahrungsrichtlinie
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>Verwenden Sie die maßgeschneiderte Frontline-App-Erfahrung, um Genehmigungen und andere Apps an Teams
+
+Die maßgeschneiderte Frontline-App-Erfahrung in Teams heftet die relevantesten Apps in Teams für Benutzer an, die über eine [F-Lizenz verfügen](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Angeheftete Apps umfassen Genehmigungen, Walkie Talkie, Aufgaben und Schichten. Standardmäßig ist dieses Feature aktiviert, sodass Ihre Mitarbeiter in Service und Produktion eine out-of-the-box-Erfahrung erhalten, die auf ihre Anforderungen zugeschnitten ist.
+
+Die Apps werden an die App-Leiste angeheftet – die Leiste auf der Seite des Teams Desktopclients und am unteren Rand der Teams mobilen Clients, auf die Benutzer schnell und einfach zugreifen können.
+
+Weitere Informationen, einschließlich der Funktionsweise der Umgebung mit von Ihnen festgelegten App-Richtlinien, finden Sie unter ["Anpassen Teams Apps für Mitarbeiter in Service und Produktion](pin-teams-apps-based-on-license.md)".
+
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>Verwenden einer App-Setuprichtlinie zum Anheften Genehmigungen an Teams
+
+Mit App-Setuprichtlinien können Sie Teams anpassen, um Apps anzuheften, die für Ihre Benutzer in Ihren Benutzern am wichtigsten sind.
+
+Um die Genehmigungen-App für Ihre Benutzer anzuheften, können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
+
+## <a name="retention-policy"></a>Aufbewahrungsrichtlinie
 
 Genehmigungen, die mit der Genehmigungen-App erstellt wurden, werden in der Microsoft Dataverse-Standardumgebung gespeichert, die derzeit keine Sicherungen unterstützt. Erfahren Sie mehr über das [Sichern und Wiederherstellen von Umgebungen – Power Platform \| Microsoft-Dokumentation](/power-platform/admin/backup-restore-environments).
 
 In Formularen gespeicherte Daten werden erst gelöscht, wenn die Teambesitzer sie von der Registerkarte **"Gelöschte Formulare**" in der Microsoft Forms Web-App bereinigen.
 
-### <a name="conditional-access-policies"></a>Richtlinien für bedingten Zugriff
+## <a name="conditional-access-policies"></a>Richtlinien für bedingten Zugriff
 
 Derzeit unterstützt die Genehmigungen-App in Teams keine Richtlinien für bedingten Zugriff, die für Microsoft Teams festgelegt sind.
 
