@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Erfahren Sie, wie Sie die Bookings-App in Teams für Benutzer in Ihrer Organisation verwalten.
-ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 5740da885fb271af212ba755d7db0228a996b429
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853066"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217929"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Verwalten der Bookings-App in Microsoft Teams
 
@@ -41,7 +41,7 @@ Planer können mehrere Abteilungs- und Mitarbeiterkalender und die Kommunikation
 
 * Das Exchange Postfach befindet sich in Exchange Online. Lokale Exchange Server Postfächer werden nicht unterstützt.
 * Microsoft Bookings ist für die Organisation verfügbar.
-* Benutzer verfügen über eine entsprechende Lizenz. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 und Business Standard werden unterstützt.
+* Benutzer verfügen über eine entsprechende Lizenz. Office 365 A3, A5, E1, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 und Business Standard werden unterstützt.
 * Alle Benutzer der Bookings-App und alle an Besprechungen teilnehmenden Mitarbeiter verfügen über eine Lizenz, die Teams Besprechungsplanung unterstützt.
 * [Voraussetzungen für Software und Browser](hardware-requirements-for-the-teams-app.md).
 

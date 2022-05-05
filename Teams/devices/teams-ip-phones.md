@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Tisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 97be4ba35a480872e36113926c1f45c1ccd955aa
-ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
+ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "65171711"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217939"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams zertifizierte Android-Geräte
 
@@ -141,6 +141,7 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion  | Produktversion enthalten  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C470HD  | `1.17.561` | Update 2022 #1C |
 |Yealink MP54/MP56/MP58   | `122.15.0.80`     | Update 2022 #2A  |
 |Yealink MP52 | `145.15.0.28`  | Update 2022 #2A         |
 |Audiocodes C470HD  | `1.17.558` | Update 2022 #1C   |
@@ -240,6 +241,8 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Produktversion enthalten |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar Mini   |   `1.6.272`   | Update 2022 Nr. 1  |
+| Logi Rallybar    |   `1.6.272`   | Update 2022 Nr. 1   |
 | Logi-Mitbewohner |   `1.5.705`   | Update 2022 Nr. 1    |
 | Logi Rallybar Mini   |   `1.5.705`   | Update 2022 Nr. 1    |
 | Logi Rallybar    |   `1.5.705`   | Update 2022 Nr. 1    |
@@ -328,6 +331,7 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Produktversion enthalten|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.6.215` |Update 2022 #1A  |
 |Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | Update 2022 Nr. 1|
 |Yealink RoomPanel | ` 147.15.0.30 ` | Update 2022 Nr. 1 |
 |Crestron -TSS770  | `1.004.0115` |Update 2021 Nr. 1 |

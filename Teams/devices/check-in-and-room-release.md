@@ -1,5 +1,5 @@
 ---
-title: Einchecken und Raumfreigabe in Microsoft Teams Panels
+title: Einchecken und Freigeben von Chatrooms in Microsoft Teams Bereichen
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -14,53 +14,53 @@ ms.collection:
 - M365-voice
 ms.topic: reference
 search.appverid: MET150
-description: Dieser Artikel enthält Anleitungen zum Aktivieren des Eincheckens und der Raumfreigabe Teams Panels.
-ms.openlocfilehash: 9e90916c5db4d5ec32a40f0e021f9bf7b294d09f
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+description: Dieser Artikel enthält Anleitungen zum Aktivieren von Check-in- und Raumfreigabe-Teams Panels-Geräten.
+ms.openlocfilehash: 3cf1f48a71f88f012c6d33ba608ee40b53cda474
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63689100"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65218019"
 ---
-# <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Einchecken und Raumfreigabe in Microsoft Teams Panels
+# <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Einchecken und Freigeben von Chatrooms in Microsoft Teams Bereichen
 
-Wenn Das Einchecken und die Raumfreigabe aktiviert sind, checken die Benutzer Teams Bereiche in dem Raum ein, den sie zu Beginn der Besprechung reserviert haben. Wenn sich ein Benutzer nicht innerhalb einer festgelegten Frist nach dem Beginn der Besprechung eincheckt, lehnt der Besprechungsraum die Besprechungs-Einladung ab, sendet eine Absagenachricht an den Besprechungsorganisator, und der Raum kann von anderen reserviert werden.  
+Wenn check-in und room release aktiviert sind, checken Benutzer in Teams Bereichen in dem Raum ein, den sie zu Beginn der Besprechung reserviert haben. Wenn ein Benutzer nach dem Startzeitpunkt der Besprechung nicht innerhalb einer festgelegten Zeit eingecheckt wird, lehnt der Besprechungsraum die Besprechungseinladung ab, sendet eine Absagenachricht an den Besprechungsorganisator, und der Raum steht anderen zur Reservierung zur Verfügung.  
 
 ## <a name="requirements"></a>Anforderungen 
 
-Dieses Feature kann in einer eigenständigen Bereitstellung im Teams verwendet werden. Sie können für zusätzliche Funktionen wie Eincheckbenachrichtigungen auch Teams-Panels mit Teams-Räume unter Android mit App-Version 1449/1.0.96.2022011305 oder höher koppeln.  
+Dieses Feature kann in einer eigenständigen Teams-Türschild-Bereitstellung verwendet werden. Sie können auch Teams Panels mit Teams-Räume unter Android mit App-Version 1449/1.0.96.2022011305 oder höher koppeln, um zusätzliche Funktionen wie Check-In-Benachrichtigungen zu erhalten.  
 
-## <a name="enable-check-in-and-room-release"></a>Aktivieren von Einchecken und Raumfreigabe 
+## <a name="enable-check-in-and-room-release"></a>Aktivieren des Eincheckens und der Raumfreigabe 
 
-Der Einchecken und die Raumfreigabe ist standardmäßig deaktiviert. Um sie zu aktivieren,  
+Check-in and room release is off by default. Um sie zu aktivieren,  
 
-1. Melden Sie Teams Anmeldeinformationen im Anmeldebereich an.  
+1. Melden Sie sich auf der Teams-Türschild mit Ihren Administratoranmeldeinformationen an.  
 
-2. Wechseln Sie **zu Einstellungen > Einstellungen > für Einstellungen > für Geräte und Einstellungen > Besprechungen**.
+2. Wechseln Sie zu **Einstellungen > Geräteeinstellungen > Administratoreinstellungen > Teams Administratoreinstellungen > Besprechungen**.
 
-3. Aktivieren Sie Freigaberaum, wenn niemand eincheckt.
+3. Aktivieren Sie den Freigaberaum, wenn sich niemand eincheckt.
 
-4. Um die Zeit anzupassen, die Benutzer einchecken müssen, bevor der Raum freigegeben wird, wechseln Sie zu Freigabe nach **:** und wählen Sie eine Option aus der Dropdownliste aus.  
+4. Um die Zeit anzupassen, die Benutzer einchecken müssen, bevor der Raum freigegeben wird, wechseln **Sie zu "Freigeben nach",** und wählen Sie eine Option aus der Dropdownliste aus.  
 
-Wenn Teams-Bereiche mit einem Raum Teams Android gekoppelt sind, kann sich ein Benutzer in den Besprechungsraum Teams einchecken.  
+Wenn Teams Bereiche mit einem Teams-Raum unter Android kombiniert werden, kann ein Benutzer die Teilnahme an der Besprechung im Teams-Raum einchecken.  
 
 ## <a name="turn-on-check-in-notifications"></a>Aktivieren von Eincheckbenachrichtigungen
 
 > [!NOTE]
-> Dieses Feature ist derzeit nur für Teams verfügbar, die mit einem Raum Teams Android gekoppelt sind. Der Teams und der Teams müssen bei demselben Ressourcenkonto angemeldet sein. Weitere [Informationen finden Sie Teams Koppeln eines Microsoft Teams mit einem Raum unter Android](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android).  
+> Dieses Feature ist derzeit nur in Teams Bereichen verfügbar, die mit einem Teams Room unter Android gekoppelt sind. Der Teams-Türschild und Teams Raum müssen mit demselben Ressourcenkonto angemeldet sein. Weitere Informationen finden Sie unter ["Koppeln einer Teams-Türschild mit einem Microsoft Teams-Raum unter Android](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)".  
 
-Eingecheckte Benachrichtigungen werden gesendet, wenn eine Besprechung über das reservierte Zeitfenster fortgeht. Sobald sich ein Benutzer aus der nächsten Besprechung eincheckt, wird die Benachrichtigung vor dem Raumanzeiger zu der geplanten Startzeit der Besprechung angezeigt, damit die vorherigen Besprechungsteilnehmer wissen, dass ihre Reservierung beendet ist und dass Personen auf den Raum warten.  
+Check-in-Benachrichtigungen werden gesendet, wenn eine Besprechung über das reservierte Zeitfenster hinausgeht. Sobald sich ein Benutzer aus der nächsten Besprechung eincheckt, wird die Benachrichtigung an der Vorderseite des Raums angezeigt, um den vorherigen Besprechungsteilnehmern mitzuteilen, dass ihre Reservierung vorbei ist und die Personen auf den Raum warten.  
 
-Zum Aktivieren von Eincheckbenachrichtigungen  
+So aktivieren Sie Check-In-Benachrichtigungen  
 
-1. Melden Sie Teams Anmeldeinformationen im Anmeldebereich an. 
+1. Melden Sie sich auf der Teams-Türschild mit Ihren Administratoranmeldeinformationen an. 
 
-2. Wechseln Sie **zu Einstellungen > Einstellungen > für Einstellungen > für Geräte und Einstellungen > Besprechungen**.
+2. Wechseln Sie zu **Einstellungen > Geräteeinstellungen > Administratoreinstellungen > Teams Administratoreinstellungen > Besprechungen**.
 
-3. Wechseln Sie **zu Einchecken,** und aktivieren Sie **Eincheckbenachrichtigung senden**.
+3. Wechseln **Sie zu "Einchecken** ", und aktivieren **Sie "Eincheckbenachrichtigung senden"**.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [So wird's Microsoft Teams verwendet](use-teams-panels.md)
+- [Verwenden Microsoft Teams Panels](use-teams-panels.md)
 
-- [Microsoft Teams-Panels](teams-panels.md)
+- [Microsoft Teams Panels](teams-panels.md)
