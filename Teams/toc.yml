@@ -331,8 +331,6 @@ items:
         href: using-admin-roles.md
       - name: Verwalten von Teams im Teams Admin Center
         href: manage-teams-in-modern-portal.md
-      - name: Verwalten von Teams-Einstellungen für Ihre Organisation
-        href: enable-features-office-365.md
       - name: Verwalten von Richtlinien
         items:
           - name: Übersicht
@@ -349,6 +347,8 @@ items:
             href: manage-policy-packages.md
       - name: Mit Personen außerhalb meiner Organisation zusammenarbeiten
         items:
+          - name: Sichere Dateifreigabe und Zusammenarbeit mit Teams
+            href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
           - name: Kommunizieren mit Benutzern aus anderen Organisationen
             href: communicate-with-users-from-other-organizations.md
           - name: Externer Zugriff (Partnerverbund)
