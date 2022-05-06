@@ -21,68 +21,68 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie Attribute nach der Außerbetriebnahme Ihrer lokalen Umgebung verwalten.
-ms.openlocfilehash: 2186a3e3c3c1858a9ae071932d5bf4f6d2c72c1c
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: b838b965430a007fa74320d7dbebdcf7ee36c3a9
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592900"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65249017"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet werden sollen
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 
-Standardmäßig haben alle Benutzer, die für Skype for Business Server aktiviert und dann in die Cloud verschoben wurden, weiterhin msRTCSIP-Attribute in Ihrer lokales Active Directory konfiguriert. 
+Standardmäßig sind für alle Benutzer, die für Skype for Business Server aktiviert und dann in die Cloud verschoben wurden, weiterhin msRTCSIP-Attribute in Ihrem lokales Active Directory konfiguriert. 
 
-Diese Attribute, insbesondere sip-Adresse (msRTCSIP-PrimaryUserAddress) und Telefonnummer (msRTCSIP-Line), werden weiterhin mit Azure AD synchronisiert. Wenn Änderungen an einem der msRTCSIP-Attribute erforderlich sind, müssen diese Änderungen im lokales Active Directory vorgenommen und dann mit Azure AD synchronisiert werden. Nachdem die Skype for Business Server Bereitstellung entfernt wurde, stehen die Skype for Business Server Tools jedoch nicht mehr zum Verwalten dieser Attribute zur Verfügung.
+Diese Attribute, insbesondere SIP-Adresse (msRTCSIP-PrimaryUserAddress) und Telefonnummer (msRTCSIP-Line), werden weiterhin mit Azure AD synchronisiert. Wenn Änderungen an einem der msRTCSIP-Attribute erforderlich sind, müssen diese Änderungen im lokales Active Directory vorgenommen und dann mit Azure AD synchronisiert werden. Nachdem die Skype for Business Server Bereitstellung entfernt wurde, sind die Skype for Business Server Tools jedoch nicht mehr verfügbar, um diese Attribute zu verwalten.
 
-Für diese Situation stehen zwei Optionen zur Verfügung:
+Es stehen zwei Optionen zur Behandlung dieser Situation zur Verfügung:
 
-1. Lassen Sie Die Benutzer, die für Skype for Business Serverkonten aktiviert waren, so, wie sie sind, und verwalten Sie die MsRTCSIP-Attribute mithilfe von Active Directory-Tools. Diese Methode stellt keinen Dienstverlust für migrierte Benutzer sicher und ermöglicht es Ihnen, die Skype for Business Server Bereitstellung zu entfernen, indem Sie die Server entfernen (z. B. zurücksetzen), ohne dass eine vollständige Außerbetriebnahme erfolgt. Neu lizenzierte Benutzer haben diese Attribute jedoch nicht in Ihrem lokales Active Directory ausgefüllt und müssen online verwaltet werden.
+1. Lassen Sie Benutzer, die für Skype for Business Serverkonten aktiviert wurden, wie vorhanden, und verwalten Sie die msRTCSIP-Attribute mithilfe von Active Directory-Tools. Diese Methode stellt keinen Dienstverlust für migrierte Benutzer sicher und ermöglicht es Ihnen, die Skype for Business Server Bereitstellung zu entfernen, indem Sie die Server entfernen (z. B. löschen), ohne dass eine vollständige Außerbetriebnahme erfolgt. Neu lizenzierte Benutzer haben diese Attribute jedoch nicht in Ihrem lokales Active Directory aufgefüllt und müssen online verwaltet werden.
 
-2.  Löschen Sie alle msRTCSIP-Attribute von migrierten Benutzern in Ihrem lokales Active Directory, und verwalten Sie diese Attribute mithilfe von Onlinetools. Diese Methode ermöglicht einen konsistenten Verwaltungsansatz für vorhandene und neue Benutzer. Dies kann jedoch zu einem vorübergehenden Dienstausfall während der lokalen Außerbetriebnahme führen.
+2.  Löschen Sie alle msRTCSIP-Attribute von migrierten Benutzern in Ihrem lokales Active Directory und verwalten Sie diese Attribute mithilfe von Onlinetools. Diese Methode ermöglicht einen konsistenten Verwaltungsansatz für vorhandene und neue Benutzer. Dies kann jedoch zu einem vorübergehenden Dienstverlust während des lokalen Außerbetriebnahmeprozesses führen.
 
 
 ## <a name="method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory"></a>Methode 1 : Verwalten von SIP-Adressen und Telefonnummern für Benutzer in Active Directory
 
-Administratoren können Benutzer verwalten, die von einem lokalen Skype for Business Server in die Cloud verschoben wurden, auch nachdem die lokale Bereitstellung außer Betrieb genommen wurde. 
+Administratoren können Benutzer verwalten, die von einer lokalen Skype for Business Server in die Cloud verschoben wurden, auch nachdem die lokale Bereitstellung außer Betrieb genommen wurde. 
 
-Wenn Sie Änderungen an der SIP-Adresse eines Benutzers oder an der Telefonnummer eines Benutzers vornehmen möchten (und die SIP-Adresse oder Telefonnummer bereits einen Wert im lokales Active Directory aufweist), müssen Sie die Änderung im lokales Active Directory vornehmen und die Werte bis zu Azure AD fließen lassen. Für diese Methode ist KEINE lokale Skype for Business Server erforderlich. Stattdessen können Sie diese Attribute direkt im lokales Active Directory ändern, entweder mit dem Active Directory-Benutzer und -Computer MMC-Snap-In (wie unten dargestellt) oder mithilfe von PowerShell. Wenn Sie das MMC-Snap-In verwenden, öffnen Sie die Eigenschaftenseite des Benutzers, klicken Sie auf die Registerkarte "Attribut-Editor", und suchen Sie nach den entsprechenden Attributen, die Sie ändern möchten:
+Wenn Sie Änderungen an der SIP-Adresse eines Benutzers oder an der Telefonnummer eines Benutzers vornehmen möchten (und die SIP-Adresse oder Telefonnummer bereits einen Wert in der lokales Active Directory aufweist), müssen Sie die Änderung im lokales Active Directory vornehmen und die Werte bis zu Azure AD fließen lassen. Für diese Methode ist KEINE lokale Skype for Business Server erforderlich. Stattdessen können Sie diese Attribute direkt im lokales Active Directory ändern, entweder mithilfe des Active Directory-Benutzer und -Computer MMC-Snap-Ins (wie unten dargestellt) oder mithilfe von PowerShell. Wenn Sie das MMC-Snap-In verwenden, öffnen Sie die Eigenschaftenseite des Benutzers, klicken Sie auf die Registerkarte "Attribut-Editor", und suchen Sie die entsprechenden Attribute zum Ändern:
 
 - Um die SIP-Adresse eines Benutzers zu ändern, ändern Sie die `msRTCSIP-PrimaryUserAddress`.
 
     > [!NOTE]
-    > Wenn das `ProxyAddresses` Attribut eine SIP-Adresse enthält, aktualisieren Sie diesen Wert auch als bewährte Methode. Obwohl die SIP-Adresse in `ProxyAddresses` von O365 ignoriert wird, wenn `msRTCSIP-PrimaryUserAddress` sie aufgefüllt ist, kann sie von anderen lokalen Komponenten verwendet werden.
+    > Wenn das `ProxyAddresses` Attribut eine SIP-Adresse enthält, aktualisieren Sie diesen Wert auch als bewährte Methode. Obwohl die SIP-Adresse in `ProxyAddresses` O365 ignoriert wird, wenn `msRTCSIP-PrimaryUserAddress` sie aufgefüllt ist, kann sie von anderen lokalen Komponenten verwendet werden.
 
-- Wenn Sie die Telefonnummer eines Benutzers ändern möchten, ändern Sie `msRTCSIP-Line` *diese, wenn sie bereits einen Wert aufweist*.
+- Um die Telefonnummer eines Benutzers zu ändern, ändern Sie `msRTCSIP-Line`, *ob er bereits einen Wert aufweist*.
 
-  ![Tool für Active Directory-Benutzer und -Computer.](../media/disable-hybrid-1.png)
-
-
-- Wenn der Benutzer vor der Verschiebung ursprünglich keinen Wert für `msRTCSIP-Line` lokal hatte, können Sie die Telefonnummer mithilfe des `-PhoneNumber` Parameters im [Cmdlet "Set-CsPhoneNumberAssignment"](/powershell/module/teams/set-csphonenumberassignment) im Teams PowerShell-Modul ändern.
-
-Diese Schritte sind für neue Benutzer, die nach dem Deaktivieren der Hybridbereitstellung erstellt wurden, nicht erforderlich, und diese Benutzer können direkt in der Cloud verwaltet werden. Wenn Sie mit der Kombination dieser Methoden vertraut sind und die msRTCSIP-Attribute in Ihrer lokales Active Directory nicht gespeichert haben, können Sie die lokalen Skype for Business Server neu abbilden. Wenn Sie jedoch lieber alle msRTCSIP-Attribute löschen und eine herkömmliche Deinstallation von Skype for Business Server durchführen möchten, verwenden Sie Methode 2.
+  ![Active Directory-Benutzer und -Computertool.](../media/disable-hybrid-1.png)
 
 
-## <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>Methode 2: Löschen Skype for Business Attribute für alle lokalen Benutzer in Active Directory
+- Wenn der Benutzer vor dem Verschieben ursprünglich keinen Lokalen Wert `msRTCSIP-Line` hatte, können Sie die Telefonnummer mithilfe des `-PhoneNumber` Parameters im [Cmdlet Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) im Teams PowerShell-Modul ändern.
 
-Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutzer, die von einem lokalen Skype for Business Server in die Cloud verschoben wurden, erneut bereitgestellt werden müssen. Diese Benutzer können in zwei verschiedene Kategorien unterteilt werden: Benutzer ohne Telefonsystem und Benutzer mit Telefonsystem. Bei Benutzern mit Telefonsystem tritt ein vorübergehender Verlust des Telefondiensts im Rahmen des Übergangs der Telefonnummer von der Verwaltung in lokales Active Directory in die Cloud auf. **Es wird empfohlen, ein Pilotprojekt mit einer kleinen Anzahl von Benutzern mit Telefonsystem durchzuführen, bevor Sie massenweise Benutzervorgänge starten.** Bei großen Bereitstellungen können Benutzer in kleineren Gruppen in verschiedenen Zeitfenstern verarbeitet werden. 
+Diese Schritte sind für neue Benutzer, die nach dem Deaktivieren der Hybridbereitstellung erstellt wurden, nicht erforderlich, und diese Benutzer können direkt in der Cloud verwaltet werden. Wenn Sie mit der Verwendung dieser Methoden vertraut sind und die msRTCSIP-Attribute in Ihrem lokales Active Directory beibehalten, können Sie die lokalen Skype for Business-Server erneut abbilden. Wenn Sie jedoch alle msRTCSIP-Attribute löschen und eine herkömmliche Deinstallation von Skype for Business Server durchführen möchten, verwenden Sie Methode 2.
+
+
+## <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>Methode 2 : Löschen Skype for Business Attribute für alle lokalen Benutzer in Active Directory
+
+Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutzer, die von einer lokalen Skype for Business Server in die Cloud verschoben wurden, erneut bereitgestellt werden müssen. Diese Benutzer können in zwei verschiedene Kategorien unterteilt werden: Benutzer ohne Telefonsystem und Benutzer mit Telefonsystem. Benutzer mit Telefonsystem erleben einen vorübergehenden Verlust des Telefondiensts als Teil des Übergangs der Telefonnummer von der Verwaltung in lokales Active Directory in die Cloud. **Es wird empfohlen, vor dem Starten von Massenbenutzervorgängen ein Pilotprojekt mit einer kleinen Anzahl von Benutzern mit Telefonsystem durchzuführen.** Bei großen Bereitstellungen können Benutzer in kleineren Gruppen in verschiedenen Zeitfenstern verarbeitet werden. 
 
 > [!NOTE] 
-> Dieser Vorgang ist am einfachsten für Benutzer mit einer übereinstimmenden SIP-Adresse und UserPrincipalName. Für Organisationen, die Benutzer mit nicht übereinstimmenden Werten für diese beiden Attribute haben, muss für einen reibungslosen Übergang besondere Vorsicht geboten werden.
+> Dieser Vorgang ist am einfachsten für Benutzer mit einer übereinstimmenden SIP-Adresse und UserPrincipalName. Für Organisationen, bei denen Benutzer mit nicht übereinstimmenden Werten über diese beiden Attribute verfügen, muss für einen reibungslosen Übergang besondere Vorsicht wie unten beschrieben beachtet werden.
 
 > [!NOTE]
-> Wenn Sie lokale Hybridanwendungsendpunkte für automatische Telefonzentralen oder Anrufwarteschleifen konfiguriert haben, müssen Sie diese Endpunkte vor der Außerbetriebnahme Skype for Business Server in Microsoft 365 verschieben. Ausführliche Informationen finden Sie unter [Migrieren von Hybridanwendungsendpunkten vor der Außerbetriebnahme Ihrer lokalen Umgebung](decommission-move-on-prem-endpoints.md).  
+> Wenn Sie lokale Hybridanwendungsendpunkte für automatische Telefonzentralen oder Anrufwarteschleifen konfiguriert haben, müssen Sie diese Endpunkte vor der Außerbetriebnahme Skype for Business Server in Microsoft 365 verschieben. Ausführliche Informationen finden [Sie unter Migrieren von Hybridanwendungsendpunkten vor der Außerbetriebnahme Ihrer lokalen Umgebung](decommission-move-on-prem-endpoints.md).  
 
 
-1. Bestätigen Sie die folgende lokale Skype for Business PowerShell-Cmdlet ein leeres Ergebnis zurückgibt. Ein leeres Ergebnis bedeutet, dass keine Benutzer lokal verwaltet werden und entweder in Microsoft 365 verschoben oder deaktiviert wurden:
+1. Vergewissern Sie sich, dass das folgende lokale Skype for Business PowerShell-Cmdlet ein leeres Ergebnis zurückgibt. Ein leeres Ergebnis bedeutet, dass keine Benutzer lokal verwaltet werden und entweder in Microsoft 365 verschoben oder deaktiviert wurden:
 
    ```PowerShell
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
    ```
 
-2. Notieren Sie die aktuelle Telefonnummer (LineUri), den UserPrincipalName und verwandte Informationen der Benutzer, indem Sie das folgende lokale Skype for Business Server PowerShell-Cmdlet ausführen, um Benutzerdaten zu exportieren:
+2. Zeichnen Sie die aktuellen Telefonnummern (LineUri), UserPrincipalName und zugehörige Informationen der Benutzer auf, indem Sie das folgende lokale Skype for Business Server PowerShell-Cmdlet ausführen, um Benutzerdaten zu exportieren:
 
    ```PowerShell
    Get-CsUser | Select-Object SipAddress, UserPrincipalName, SamAccountName, RegistrarPool, HostingProvider, EnabledForFederation, EnabledForInternetAccess, LineUri, EnterpriseVoiceEnabled, HostedVoiceMail | Sort SipAddress | Export-Csv -Path  "c:\backup\SfbUserSettings.csv"
@@ -98,9 +98,9 @@ Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutz
    ```
 
    > [!Important] 
-   > Bevor Sie mit dem Öffnen SfbUsers.csv Datei fortfahren und bestätigen, dass Benutzerdaten erfolgreich exportiert wurden. Sie benötigen den LineUri (Telefonnummer), UserPrincipalName, SamAccountName und SipAddress in einem späteren Schritt aus dieser Datei.
+   > Bevor Sie mit dem Öffnen SfbUsers.csv Datei fortfahren und bestätigen, dass Benutzerdaten erfolgreich exportiert wurden. Sie benötigen die LineUri (Telefonnummer), UserPrincipalName, SamAccountName und SipAddress aus dieser Datei in einem späteren Schritt.
 
-4. Löschen Sie die Attributinformationen im Zusammenhang mit Skype for Business Server aus Active Directory für die Gruppe von Benutzern, die Sie aktualisieren möchten.  Es gibt zwei Schritte zu diesem Prozess, wie unten dargestellt.
+4. Löschen Sie die Attributinformationen im Zusammenhang mit Skype for Business Server aus Active Directory für die Gruppe von Benutzern, die Sie aktualisieren möchten.  Es gibt zwei Schritte für diesen Prozess, wie unten dargestellt.
 
    > [!Important] 
    > Nach dem nächsten AAD Sync Zyklus nach Ausführung dieses Schritts verlieren Benutzer mit Telefonsystem, die von einem lokalen Skype for Business Server in die Cloud verschoben wurden, die Möglichkeit, Anrufe zu tätigen und zu empfangen, bis Schritt 8 erfolgreich abgeschlossen und in Schritt 9 bestätigt wurde. Stellen Sie außerdem sicher, dass Sie die Telefonnummern und zugehörigen Informationen des Benutzers gemäß Schritt 2 gespeichert haben, da diese Informationen für diesen Schritt erforderlich sind.
@@ -120,7 +120,7 @@ Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutz
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. Um den lokales Active Directory proxyAddresses wieder einen Sip-Adresswert hinzuzufügen, führen Sie das folgende lokales Active Directory Modul für Windows PowerShell Cmdlet aus. Diese Aktion verhindert Interoperabilitätsprobleme, die auf diesem Attribut basieren. 
+5. Führen Sie das folgende lokales Active Directory-Modul für Windows PowerShell Cmdlet aus, um dem lokales Active Directory proxyAddresses den Sip-Adresswert wieder hinzuzufügen. Diese Aktion verhindert Interoperabilitätsprobleme, die auf diesem Attribut basieren. 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -144,10 +144,10 @@ Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutz
 7. Warten Sie, bis die Benutzerbereitstellung abgeschlossen ist. Sie können den Fortschritt der Benutzerbereitstellung überwachen, indem Sie den folgenden Teams PowerShell-Befehl ausführen. Der folgende Teams PowerShell-Befehl gibt ein leeres Ergebnis zurück, sobald der Vorgang abgeschlossen ist.
 
    ```PowerShell
-   Get-CsOnlineUser -Filter {Enabled -eq $True -and (UserValidationErrors -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
+   Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | Where UserValidationErrors -ne $null | Select SipAddress,InterpretedUserType,UserValidationErrors
    ```
 
-8. Um Telefonnummern zuzuweisen und Benutzer für Telefonsystem zu aktivieren, führen Sie den folgenden Teams PowerShell-Befehl aus:
+8. Führen Sie den folgenden Teams PowerShell-Befehl aus, um Telefonnummern zuzuweisen und Benutzer für Telefonsystem zu aktivieren:
 
 
    ```PowerShell
@@ -161,9 +161,9 @@ Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutz
    ```
 
    > [!Note]
-   >  Wenn Sie weiterhin über Skype for Business Endpunkte (entweder Skype Clients oder Telefone von Drittanbietern) verfügen, sollten Sie auch "-HostedVoiceMail" auf $true festlegen. Wenn Ihre Organisation nur Teams Endpunkte für sprachfähige Benutzer verwendet, gilt diese Einstellung nicht für Ihre Benutzer. 
+   >  Wenn Sie noch über Skype for Business Endpunkte verfügen (entweder Skype Clients oder Telefone von Drittanbietern), sollten Sie "-HostedVoiceMail" auch auf $true festlegen. Wenn Ihre Organisation nur Teams Endpunkte für VoIP-aktivierte Benutzer verwendet, gilt diese Einstellung nicht für Ihre Benutzer. 
 
-9. Vergewissern Sie sich, dass Benutzer mit Telefonsystem Funktionen ordnungsgemäß bereitgestellt wurden. Der folgende Teams PowerShell-Befehl gibt ein leeres Ergebnis zurück, sobald der Vorgang abgeschlossen ist.
+9. Stellen Sie sicher, dass Benutzer mit Telefonsystem Ordnungsgemäß bereitgestellt wurden. Der folgende Teams PowerShell-Befehl gibt ein leeres Ergebnis zurück, sobald der Vorgang abgeschlossen ist.
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -174,7 +174,7 @@ Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutz
                 $u=Get-CsOnlineUser -Identity $user.SipAddress
                 if ($u.LineURI -ne $user.LineUri -or $u.EnterpriseVoiceEnabled -ne $true)
                 {
-                Get-CsOnlineUser -Identity $user.SipAddress | fl SipAddress, InterpretedUserType, OnPremLineURI, LineURI, EnterpriseVoiceEnabled, HostedVoicemail
+                Get-CsOnlineUser -Identity $user.SipAddress | fl SipAddress, InterpretedUserType, OnPremLineURI, LineURI, EnterpriseVoiceEnabled
                 }
         }
    }
@@ -184,7 +184,7 @@ Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutz
 
 11. Vergewissern Sie sich, dass alle Benutzer erfolgreich verarbeitet wurden, indem Sie die folgenden beiden PowerShell-Befehle ausführen.
 
-    Lokale Skype for Business Server lokalen PowerShell-Befehl:
+    Lokaler Skype for Business Server lokalen PowerShell-Befehl:
 
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
@@ -193,13 +193,13 @@ Diese Option erfordert mehr Aufwand und eine ordnungsgemäße Planung, da Benutz
     Teams PowerShell-Befehl:
 
     ```PowerShell
-    Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
+    Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | where {UserValidationErrors -ne $null} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, UserValidationErrors
     ``` 
 
-12. Nachdem Sie alle Schritte in Methode 2 abgeschlossen haben, finden Sie weitere Schritte zum Entfernen ihrer Skype for Business Server lokalen Bereitstellung unter [Verschieben von hybriden Anwendungsendpunkten von der lokalen](decommission-move-on-prem-endpoints.md) Bereitstellung in die Onlinebereitstellung und [Entfernen ihrer lokalen Skype for Business Server](decommission-remove-on-prem.md).
+12. Nachdem Sie alle Schritte in Methode 2 abgeschlossen haben, finden Sie weitere Schritte zum Entfernen Ihrer Skype for Business Server lokalen Bereitstellung unter ["Verschieben von Hybridanwendungsendpunkten von lokal in Online](decommission-move-on-prem-endpoints.md)" und ["Entfernen Ihrer lokalen Skype for Business Server](decommission-remove-on-prem.md)".
 
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 - [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)
 

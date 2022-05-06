@@ -1,5 +1,5 @@
 ---
-title: Teams der Wähltablockkonfiguration
+title: Teams Wähltastaturkonfiguration
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,86 +16,86 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie die Wähltat nicht im Teams-Client konfigurieren, damit Benutzer auf die PstN-Funktionalität (Public Switched Telephone Network) zugreifen können.
-ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie, wie Sie die Wähltastatur im Teams-Client so konfigurieren, dass Benutzer auf PSTN-Funktionen (Public Switched Telephone Network) zugreifen können.
+ms.openlocfilehash: 7fc2622ce0fda97ce608e13d67ff786431a30aa5
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627617"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65248927"
 ---
-# <a name="dial-pad-configuration"></a>Wähltablockkonfiguration
+# <a name="dial-pad-configuration"></a>Konfiguration der Wähltastatur
 
-Im Teams-Client können Benutzer über die Wählta nicht über das Telefonnetz (PSTN) auf die Funktionen des öffentlichen Telefonnetzwerks zugreifen. Die Wähltapad ist für Benutzer mit einer Telefonsystem verfügbar, sofern sie ordnungsgemäß konfiguriert sind. Die folgenden Kriterien sind alle erforderlich, damit die Wählta nicht auf der Wählta nicht verwendet werden kann:
+Im Teams-Client ermöglicht die Wähltastatur Benutzern den Zugriff auf PSTN-Funktionen (Public Switched Telephone Network). Die Wähltastatur ist für Benutzer mit einer Telefonsystem Lizenz verfügbar, sofern sie ordnungsgemäß konfiguriert sind. Die folgenden Kriterien sind alle erforderlich, damit die Wähltastatur angezeigt werden kann:
 
-- Der Benutzer hat eine Telefonsystem ("MCOEV")-Lizenz aktiviert.
-- Der Benutzer verfügt über einen Microsoft-Anrufplan oder ist für direktes Routing aktiviert.
+- Der Benutzer verfügt über eine aktivierte Telefonsystem ("MCOEV")-Lizenz
+- Der Benutzer verfügt über Microsoft-Anrufplan, Telefonieanbieter oder ist für Direct Routing aktiviert.
 - Benutzer hat Enterprise-VoIP aktiviert
-- Der Benutzer ist online und nicht lokal Skype for Business homed.
+- Der Benutzer wird online verwaltet und nicht in Skype for Business lokal
 - Benutzer hat Teams Anrufrichtlinie aktiviert
 
-In den folgenden Abschnitten wird beschrieben, wie Sie die Kriterien mithilfe von PowerShell überprüfen. In den meisten Fällen müssen Sie sich verschiedene Eigenschaften in der Ausgabe des cmdlets Get-CsOnlineUser betrachten. Beispiele setzen $user, dass es sich entweder um die UPN- oder SIP-Adresse des Benutzers handelt.
+In den folgenden Abschnitten wird beschrieben, wie PowerShell zum Überprüfen der Kriterien verwendet wird. In den meisten Fällen müssen Sie verschiedene Eigenschaften in der Ausgabe des Get-CsOnlineUser-Cmdlets betrachten. Beispiele gehen davon aus$user entweder die UPN- oder SIP-Adresse des Benutzers ist.
 
-## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>Der Benutzer hat eine Telefonsystem ("MCOEV")-Lizenz aktiviert.
+## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>Der Benutzer verfügt über eine aktivierte Telefonsystem ("MCOEV")-Lizenz
 
-Sie müssen sicherstellen, dass im zugewiesenen Plan für den Benutzer das **CapabilityStatus-Attribut** auf Aktiviert und der Funktionsplan auf **MCOEV** (Telefonsystem) festgelegt ist. Möglicherweise sehen Sie MCOEV, MCOEV1 und so weiter. Alle sind akzeptabel, solange der Funktionsplan mit MCOEV beginnt.
+Stellen Sie sicher, dass der zugewiesene Plan für den Benutzer das **CapabilityStatus-Attribut auf "Enabled**" und das **Capability-Set auf MCOEV** (Telefonsystem License) anzeigt. Möglicherweise sehen Sie MCOEV, MCOEV1 usw. Alle sind akzeptabel – solange die Funktion mit MCOEV beginnt.
 
-Um zu überprüfen, ob die Attribute richtig festgelegt sind, verwenden Sie den folgenden Befehl:
-
-```
-Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
-```
-
-Die Ausgabe sieht wie folgt aus: Sie müssen nur die Attribute **CapabilityStatus** und **Capability Plan** überprüfen:
+Verwenden Sie den folgenden Befehl, um zu überprüfen, ob die Attribute richtig festgelegt sind:
 
 ```
-<Plan SubscribedPlanId="2f9eda01-4630-4a5c-bdb3-cf195f22d240"  
-   ServiceInstance="MicrosoftCommunicationsOnline/NOAM-0M-DMT" 
-   CapabilityStatus="Enabled"  
-   AssignedTimestamp="2020-04-21T18:31:13Z" 
-   ServicePlanId="4828c8ec-dc2e-4779-b502-87ac9ce28ab7" 
-   xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11"> 
-  <Capability> 
-     <Capability Plan="MCOEV" 
-     xmlns="http://schemas.microsoft.com/online/MCO/2009/01"/> 
-  </Capability>
-</Plan>
+(Get-CsOnlineUser -Identity $user).AssignedPlan
+```
+
+Die Ausgabe sieht wie folgt aus. Sie müssen nur den **CapabilityStatus** und die **Capability-Attribute** überprüfen:
+
+```
+AssignedTimestamp   Capability      CapabilityStatus ServiceInstance                          ServicePlanId
+-----------------   ----------      ---------------- ---------------                          -------------
+07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-…
+07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
 ```
 
 
-## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>Benutzer hat Microsoft-Anrufplan ODER ist für direktes Routing aktiviert
+## <a name="user-has-microsoft-calling-plan-operator-connect-or-is-enabled-for-direct-routing"></a>Der Benutzer verfügt über einen Microsoft-Anrufplan, Telefonieanbieter ODER für Direct Routing aktiviert ist
 
-**Wenn der Benutzer über einen Microsoft-Anrufplan** verfügt, müssen Sie sicherstellen, dass das **CapabilityStatus-Attribut** auf Enabled und der Capability Plan auf **MCOPSTN festgelegt ist.** Möglicherweise wird MCOPSTN1, MCOPSTN2 und so weiter sehen. Alle sind akzeptabel, solange der Funktionsplan mit MCOPSTN beginnt.
+**Wenn der Benutzer über einen Microsoft-Anrufplan** verfügt, stellen Sie sicher, dass das **CapabilityStatus-Attribut auf "Enabled" und** die **Funktion auf MCOPSTN festgelegt ist**. Möglicherweise werden MCOPSTN1, MCOPSTN2 usw. angezeigt. Alle sind akzeptabel – solange die Funktion mit MCOPSTN beginnt.
 
-Verwenden Sie zum Überprüfen der Attribute den folgenden Befehl:
+Verwenden Sie den folgenden Befehl, um die Attribute zu überprüfen:
 
 ```
-Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
+(Get-CsOnlineUser -Identity $user).AssignedPlan
 ```
 
-Die Ausgabe sieht wie folgt aus: Sie müssen nur die Attribute **CapabilityStatus** und **Capability Plan** überprüfen:
+Die Ausgabe sieht wie folgt aus. Sie müssen nur den **CapabilityStatus** und die **Capability-Attribute** überprüfen:
 
 ```  
-<Plan SubscribedPlanId="71d1258e-a4e6-443f-884e-0f3d6f644bb1" 
-ServiceInstance="MicrosoftCommunicationsOnline/NOAM-0M-DMT" 
-CapabilityStatus="Enabled"    
-AssignedTimestamp="2018-09-18T18:41:42Z" 
-ServicePlanId="5a10155d-f5c1-411a-a8ec-e99aae125390" 
-xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11">
- <Capability>
-    <Capability Plan="MCOPSTN2" 
-    xmlns="http://schemas.microsoft.com/online/MCO/2009/01" />
- </Capability>
-</Plan>
-  ```
+AssignedTimestamp   Capability      CapabilityStatus ServiceInstance                          ServicePlanId
+-----------------   ----------      ---------------- ---------------                          -------------
+07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-…
+07-02-2020 12:28:48 MCOPSTN2        Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 5a10155d-f5c1-411a-a8ec-…
+07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
+```
+**Wenn der Benutzer für Telefonieanbieter aktiviert ist**, muss der Benutzer einen Nicht-Null-Wert für TeamsCarrierEmergencyCallRoutingPolicy haben. Verwenden Sie zum Überprüfen des Attributs den folgenden Befehl:
+  
+```
+Get-CsOnlineUser -Identity $user|Select TeamsCarrierEmergencyCallRoutingPolicy
+```
 
-**Wenn der Benutzer für Direct-Routing** aktiviert ist, muss dem Benutzer ein Nicht-NULL-Wert für OnlineVoiceRoutingPolicy zugewiesen sein. Verwenden Sie zum Überprüfen des -Attributs den folgenden Befehl:
+Die Ausgabe sollte einen Nicht-Null-Wert aufweisen, z. B.:
+
+```
+TeamsCarrierEmergencyCallRoutingPolicy
+--------------------------------------
+Synergy_98d1a5cb-d3e6-4306-885e-69a95f2da5c3
+```
+
+**Wenn der Benutzer für Direct Routing aktiviert ist**, muss dem Benutzer ein Nicht-Null-Wert für "OnlineVoiceRoutingPolicy" zugewiesen werden. Verwenden Sie zum Überprüfen des Attributs den folgenden Befehl:
   
 ```
 Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy 
 ```
 
-Die Ausgabe sollte einen Nicht-NULL-Wert haben, z. B.:
+Die Ausgabe sollte einen Nicht-Null-Wert aufweisen, z. B.:
 
 ```
 OnlineVoiceRoutingPolicy
@@ -105,13 +105,13 @@ Test_Policy
 
 ## <a name="user-has-enterprise-voice-enabled"></a>Benutzer hat Enterprise-VoIP aktiviert
 
-Um zu überprüfen, ob der Enterprise-VoIP aktiviert ist, verwenden Sie den folgenden Befehl:
+Verwenden Sie den folgenden Befehl, um zu überprüfen, ob der Benutzer Enterprise-VoIP aktiviert hat:
 
 ```
 Get-CsOnlineUser -Identity $user|Select EnterpriseVoiceEnabled
 ```
 
-Die Ausgabe sollte wie hier aussehen:
+Die Ausgabe sollte wie folgt aussehen:
 
 ```
 EnterpriseVoiceEnabled
@@ -120,15 +120,15 @@ EnterpriseVoiceEnabled
 
 ```
  
-## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>Der Benutzer ist online und nicht lokal Skype for Business homed.
+## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>Der Benutzer wird online verwaltet und nicht in Skype for Business lokal
 
-Um sicherzustellen, dass der Benutzer online und nicht in Skype for Business lokal hostet, darf "RegistrarPool" nicht NULL sein und "HostingProvider" muss einen Wert enthalten, der mit "sipfed.online" beginnt.  Verwenden Sie zum Überprüfen der Werte den folgenden Befehl:
+Um sicherzustellen, dass der Benutzer online und nicht in Skype for Business lokal verwaltet wird, darf der RegistrarPool nicht null sein, und der HostingProvider muss einen Wert enthalten, der mit "sipfed.online" beginnt.  Verwenden Sie den folgenden Befehl, um die Werte zu überprüfen:
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
 ```
 
-Die Ausgabe sollte wie hier angezeigt werden:
+Die Ausgabe sollte folgendermaßen lauten:
 
 ```
 RegistrarPool                 HostingProvider
@@ -138,15 +138,15 @@ sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 
 ## <a name="user-has-teams-calling-policy-enabled"></a>Benutzer hat Teams Anrufrichtlinie aktiviert
 
-Für die effektive TeamsCallingPolicy des Benutzers muss AllowPrivateCalling auf true festgelegt sein.  Standardmäßig erben Benutzer die globale Richtlinie, bei der AllowPrivateCallingPolicy standardmäßig auf "true" festgelegt ist.
+Für die effektive TeamsCallingPolicy des Benutzers muss AllowPrivateCalling auf "true" festgelegt sein.  Standardmäßig erben Benutzer die globale Richtlinie, bei der AllowPrivateCallingPolicy standardmäßig auf "true" festgelegt ist.
 
-Verwenden Sie den folgenden Befehl, um TeamsCallingPolicy für einen Benutzer zu erhalten und zu überprüfen, ob AllowPrivateCalling auf "true" festgelegt ist:
+Verwenden Sie den folgenden Befehl, um die TeamsCallingPolicy für einen Benutzer abzurufen und zu überprüfen, ob AllowPrivateCalling auf "true" festgelegt ist:
 
 ```
-if (($p=(get-csonlineuser -Identity $user).TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity global} else {get-csteamscallingpolicy -Identity $p}
+if (($p=Get-CsUserPolicyAssignment -Identity $user -PolicyType TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity Global} else {Get-CsTeamsCallingPolicy -Identity $p.PolicyName}
 ```
 
-Die Ausgabe sollte wie hier aussehen:
+Die Ausgabe sollte wie folgt aussehen:
 
 ```
 Identity                   : Global
@@ -165,16 +165,16 @@ MusicOnHoldEnabledType     : Enabled
 
 ## <a name="additional-notes"></a>Zusätzliche Hinweise
 
--   Möglicherweise müssen Sie den Teams neu starten, nachdem Sie eine dieser Konfigurationsänderungen vorgenommen haben.
+-   Möglicherweise müssen Sie den Teams-Client neu starten, nachdem Sie eine dieser Konfigurationsänderungen vorgenommen haben.
 
 -   Wenn Sie kürzlich eines der oben genannten Kriterien aktualisiert haben, müssen Sie möglicherweise einige Stunden warten, bis der Client die neuen Einstellungen erhält.
 
--   Wenn die Wähltastierung immer noch nicht angezeigt wird, überprüfen Sie mithilfe des folgenden Befehls, ob ein Bereitstellungsfehler vor liegt:
+-   Wenn die Wähltastatur immer noch nicht angezeigt wird, überprüfen Sie mit dem folgenden Befehl, ob ein Bereitstellungsfehler vorliegt:
 
   ```
-  Get-CsOnlineUser -Identity $user|Select McoValidationError
+  Get-CsOnlineUser -Identity $user|Select UserValidationErrors
   ```
 
--    Wenn es mehr als 24 Stunden gezeit ist und weiterhin Probleme auftreten, wenden Sie sich an den Support.
+-    Wenn es länger als 24 Stunden war und weiterhin Probleme auftreten, wenden Sie sich an den Support.
 
 

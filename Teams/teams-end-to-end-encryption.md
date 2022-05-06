@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388189"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65249007"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Verwenden der End-to-End-Verschlüsselung für Einzelgespräche in Microsoft Teams
 
@@ -79,13 +79,13 @@ Die globale, organisationsweite Standardrichtlinie gibt an, dass die End-to-End-
 
 1. Melden Sie sich mit einem Geschäfts-, Schul- oder Unikonto, dem die Teams- oder globale Administratorrolle zugewiesen wurde, beim [Teams Admin Center](https://admin.teams.microsoft.com/) an.
 
-2. Wechseln Sie zu **Andere Einstellungen** > **Erweiterte Verschlüsselungsrichtlinien**.
+2. Wechseln Sie zu **Erweiterte Verschlüsselungsrichtlinien**.
 
 3. Wählen Sie entweder die Standardrichtlinie aus, oder wählen Sie **Hinzufügen** aus, um eine neue Richtlinie hinzuzufügen und dann die neue Richtlinie zu benennen.
 
 4. Um die End-to-End-Verschlüsselung für Ihre Benutzer zu aktivieren, wählen Sie für die **End-to-End-Anrufverschlüsselung** die Option **Benutzer können sie aktivieren** aus, und dann wählen Sie **Speichern** aus.
 
-   Um die End-to-End-Verschlüsselung zu deaktivieren, wählen Sie **Für alle deaktivieren** aus.
+   Um die End-to-End-Verschlüsselung zu deaktivieren, wählen Sie **"Deaktiviert"** aus.
 
 Nachdem Sie die Einrichtung der Richtlinie abgeschlossen haben, weisen Sie die Richtlinie Benutzern, Gruppen oder Ihrem gesamten Mandanten auf die gleiche Weise zu, wie Sie andere Teams-Richtlinien verwalten. Informationen zur Verwendung von Richtlinien in Teams finden Sie unter [Teams mit Richtlinien verwalten](manage-teams-with-policies.md).
 
