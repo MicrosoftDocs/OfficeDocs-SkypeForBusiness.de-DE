@@ -24,92 +24,92 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen über Cmdlets konfigurieren.
-ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bdaf538164a74a366779bd3a4928330a2bc3b085
+ms.sourcegitcommit: c06d806778f3e6ea4b184bae271e55c34fd9594d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457445"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65244902"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Erstellen einer Anrufwarteschleife über Cmdlets
 
 ## <a name="assumptions"></a>Annahmen
-1)  PowerShell ist auf dem Computer installiert
+1)  PowerShell ist auf Ihrem Computer installiert
 - Einrichten Ihres Computers für [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - MSTeams-Modul installiert ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
-- MSOnline-Modul installiert ```` Install-Module -Name MSOnline -Force -AllowClobber ````
-2)  Sie verfügen über Mandantenverwaltungsrechte
-3)  Sie haben Ihre Microsoft Teams Telefon
-4)  Die agents, Verteilerlisten und Teams weiter unten genannten Kanäle wurden bereits erstellt.
+- MsOnline-Modul installiert ```` Install-Module -Name MSOnline -Force -AllowClobber ````
+2)  Sie haben Mandantenverwaltungsrechte
+3)  Sie haben Microsoft Teams Telefon erworben
+4)  Die unten genannten Agents, Verteilerlisten und Teams Kanäle wurden bereits erstellt.
 
-Hinweis: Das unten Teams Kanal-Cmdlet ist Teil der öffentlichen Preview-Version Teams PowerShell-Moduls.  Weitere Informationen finden Sie unter [Installieren Teams PowerShell Public Preview](teams-powershell-install.md) und Microsoft Teams [PowerShell-Versionshinweise](teams-powershell-release-notes.md).
+Hinweis: Das unten verwendete cmdlet Teams Channel ist Teil der Public Preview-Version von Teams PowerShell-Modul.  Weitere Informationen finden Sie unter ["Installieren Teams öffentlichen PowerShell-Vorschau](teams-powershell-install.md)" und [unter Microsoft Teams PowerShell-Versionshinweisen](teams-powershell-release-notes.md).
 
-Benutzer, die das MicrosoftTeams-Modul ````Update-Module MicrosoftTeams```` bereits installiert haben, sollten sicherstellen, dass die neueste Version installiert ist.
+Benutzer, die das MicrosoftTeams-Modul bereits installiert haben, sollten ````Update-Module MicrosoftTeams```` sicherstellen, dass die aktuellste Version installiert ist.
 
 
 ## <a name="scenario"></a>Szenario
 
 Die folgenden drei Anrufwarteschleifen werden erstellt:
 
-Informationen zur Anrufwarteschleife für Verkaufsanrufe:
-- Fronted by automatische Telefonzentrale: Yes
-- Direkte Anrufe über das Festnetz: Nein
+Informationen zur Warteschlange für Verkaufsanrufe:
+- Vorne von der automatischen Telefonzentrale: Ja
+- Direkte Anrufe aus dem PSTN: Nein
 - Sprache: Englisch USA
-- Begrüßung: Keine
-- Musik im Halteraum: Wiedergabe einer Audiodatei
+- Gruß: Keine
+- Musik im Haltebereich: Wiedergeben einer Audiodatei
 - - Dateiname: sales-hold-in-queue-music.wav
 - Anrufbeantwortung: Benutzer
 - - Bill@contoso.com
 - - Mary@contoso.com
-- Konferenzmodus: Ein
-- Routingmethode: Attendant
+- Konferenzmodus: Aktiviert
+- Routingmethode: Telefonzentrale
 - Anwesenheitsbasiertes Routing: Aus
-- Telefonmitarbeiter können die Anrufanrufe abmelden: Ja
-- Benachrichtigungszeit des Telefonmitarbeiters: 15
+- Telefonisten können die Anrufannahme deaktivieren: Ja
+- Anruf-Agent-Benachrichtigungszeit: 15
 - Anrufüberlaufbehandlung: 200
-- - Redirect to: Adele@contoso.com
-- Behandlung von Anruftimeouts: 120 Sekunden
-- - Redirect to: Adele@contoso.com
+- - Umleiten zu: Adele@contoso.com
+- Behandlung des Anruftimeouts: 120 Sekunden
+- - Umleiten zu: Adele@contoso.com
 
 Support-Informationen zur Anrufwarteschleife:
-- Fronted by automatische Telefonzentrale: Yes
-- Direkte Anrufe über das Festnetz: Nein
--   Sprache: Englisch (Großbritannien)
--   Begrüßung: Wiedergabe einer Audiodatei
+- Vorne von der automatischen Telefonzentrale: Ja
+- Direkte Anrufe aus dem PSTN: Nein
+-   Sprache: Englisch UK
+-   Gruß: Wiedergeben einer Audiodatei
 -   - Dateiname: support-greeting.wav
--   Musik im Halteraum: Wiedergabe einer Audiodatei
+-   Musik im Haltebereich: Wiedergeben einer Audiodatei
 -   - Dateiname: support-hold-in-queue-music.wav
--   Anrufbeantwortung: Supportverteilerliste
+-   Anrufbeantwortung: Support-Verteilerliste
 -   - Support@contoso.com
--   Konferenzmodus: Ein
+-   Konferenzmodus: Aktiviert
 -   Routingmethode: Längster Leerlauf
--   Anwesenheitsbasiertes Routing: N/A – standardmäßig aktiviert aufgrund des längsten Leerlaufs
--   Telefonmitarbeiter können die Anrufanrufe abmelden: Nein
--   Benachrichtigungszeit des Telefonmitarbeiters: 15
+-   Anwesenheitsbasiertes Routing: NV – standardmäßig aktiviert aufgrund des längsten Leerlaufs
+-   Anrufer können die Anrufannahme deaktivieren: Nein
+-   Anruf-Agent-Benachrichtigungszeit: 15
 -   Anrufüberlaufbehandlung: 200
--   - Umleiten: Unterstützen von geteilten Voicemails
-- - -   Wiedergabe einer Audiodatei (support-shared-voicemail-greeting.wav)
+-   - Umleitung: Unterstützen von freigegebenen Voicemails
+- - -   Wiedergeben einer Audiodatei (support-shared-voicemail-greeting.wav)
 - - -   Transkription aktiviert
 -   Behandlung von Anruftimeouts: 45 Minuten
--   - Umleiten: Unterstützen von geteilten Voicemails
-- - - TTS: "Es tut uns leid, dass Sie lange gewartet haben und Ihren Anruf jetzt an die Voicemail übertragen."
+-   - Umleitung: Unterstützen von freigegebenen Voicemails
+- - - TTS: "Wir entschuldigen uns, dass Sie lange gewartet haben und jetzt Ihren Anruf an die Voicemail durchweisen."
 - - - Transkription aktiviert
 
 
-Informationen zur Anrufwarteschleife für die Zusammenarbeit:
-- Vor den automatische Telefonzentrale: Nein
-- Direkte Anrufe über das Festnetz: Nein (nur interne Anrufe)
+Informationen zur Warteschlange für gemeinsame Anrufe in Einrichtungen:
+- Vorne von der automatischen Telefonzentrale: Nein
+- Direkte Anrufe aus dem PSTN: Nein (nur interne Anrufe)
 -   Sprache: Französisch FR
--   Begrüßung: Keine
--   Musik im Halteraum: Standard
+-   Gruß: Keine
+-   Musik im Haltebereich: Standard
 -   Anrufbeantwortung: Team: Einrichtungen
 -   Anrufbeantwortungskanal: Helpdesk
 -   - Kanalbesitzer: Fred@contoso.com
--   Konferenzmodus: Ein
--   Routingmethode: Round-1-1
+-   Konferenzmodus: Aktiviert
+-   Routingmethode: Round Robin
 -   Anwesenheitsbasiertes Routing: Ein
--   Telefonmitarbeiter können die Anrufanrufe abmelden: Nein
--   Benachrichtigungszeit des Telefonmitarbeiters: 15
+-   Anrufer können die Anrufannahme deaktivieren: Nein
+-   Anruf-Agent-Benachrichtigungszeit: 15
 -   Anrufüberlaufbehandlung: 200
 -   - Verbindung trennen
 -   Behandlung von Anruftimeouts: 45 Minuten
@@ -117,30 +117,30 @@ Informationen zur Anrufwarteschleife für die Zusammenarbeit:
 
 
 ## <a name="login"></a>Anmeldung
-Sie werden aufgefordert, Ihre Anmeldeinformationen als Teams ein.
+Sie werden aufgefordert, Ihre Teams Administratoranmeldeinformationen einzugeben.
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $credential
 ````
 
-## <a name="sales-queue"></a>Verkaufswarteschlange
-### <a name="create-audio-files"></a>Erstellen von Audiodateien
-Ersetzen Sie "d:\\" durch den Pfad, in dem die WAV-Dateien auf Ihrem Computer gespeichert sind.
+## <a name="sales-queue"></a>Vertriebswarteschlange
+### <a name="create-audio-files"></a>Audiodateien erstellen
+Ersetzen Sie "d:\\" durch den Pfad zum Speicherort der WAV-Dateien auf Ihrem Computer.
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
 $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "sales-hold-in-queue-music.wav" -Content $content).ID
 ````
 
-### <a name="get-users-id"></a>Benutzer-ID erhalten
+### <a name="get-users-id"></a>Benutzer-ID abrufen
 ````
-$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
-$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).ObectID
-$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).ObjectID
+$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
+$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).Identity
+$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).Identity
 ````
 
-### <a name="get-list-of-supported-languages"></a>Liste der unterstützten Sprachen
+### <a name="get-list-of-supported-languages"></a>Liste der unterstützten Sprachen abrufen
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
@@ -150,18 +150,18 @@ Get-CsAutoAttendantSupportedLanguage
 New-CsCallQueue -Name “Sales” -AgentAlertTime 15 -AllowOptOut $true -MusicOnHoldAudioFileID $audioFileSalesHoldInQueueMusicID -OverflowAction Forward -OverflowActionTarget $userAdeleID -OverflowThreshold 200 -TimeoutAction Forward -TimeoutActionTarget $userAdeleID -TimeoutThreshold 120 -RoutingMethod Attendant -ConferenceMode $true -User @($userSalesBillID, $userSalesMaryID) -LanguageID “en-US”
 ````
 
-### <a name="get-license-types"></a>Lizenztypen erhalten
+### <a name="get-license-types"></a>Abrufen von Lizenztypen
 ````
 Get-MsolAccountSku
 ````
 
-### <a name="create-and-assign-resource-account"></a>Erstellen und Zuordnen eines Ressourcenkontos
-Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschleife per Telefonwarteschleife an den Front-End durch eine automatische Telefonzentrale
-- ApplicationID
+### <a name="create-and-assign-resource-account"></a>Erstellen und Zuweisen eines Ressourcenkontos
+Hinweis: Telefon Nummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale beendet wird.
+- Applicationid
 - - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
 - - Anrufwarteschleife: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Hinweis: Bei dem unten gezeigten Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss es sich um einen Lizenztyp Get-MsolAccountSku oben handelt.
+Hinweis: Der unten gezeigte Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss ein Lizenztyp sein, der vom Get-MsolAccountSku cmdlet oben aufgeführt ist.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -170,7 +170,7 @@ Set-MsolUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Sales-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
@@ -179,7 +179,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## <a name="support-queue"></a>Supportwarteschlange
 ### <a name="create-audio-files"></a>Erstellen von Audiodateien
-Ersetzen Sie "d:\\" durch den Pfad, in dem die WAV-Dateien auf Ihrem Computer gespeichert sind.
+Ersetzen Sie "d:\\" durch den Pfad zum Speicherort der WAV-Dateien auf Ihrem Computer.
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -192,12 +192,12 @@ $content = Get-Content “d:\support-shared-voicemail-greeting.wav” -Encoding 
 $audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-shared-voicemail-greeting.wav" -Content $content).ID
 ````
 
-### <a name="get-support-team-group-id"></a>Supportteam-Gruppen-ID erhalten
+### <a name="get-support-team-group-id"></a>Gruppen-ID des Supportteams abrufen
 ````
 $teamSupportID = (Get-Team -displayname "Support").GroupID
 ````
 
-### <a name="get-list-of-supported-languages"></a>Liste der unterstützten Sprachen
+### <a name="get-list-of-supported-languages"></a>Liste der unterstützten Sprachen abrufen
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
@@ -207,18 +207,18 @@ Get-CsAutoAttendantSupportedLanguage
 New-CsCallQueue -Name “Support” -AgentAlertTime 15 -AllowOptOut $false -DistributionLists $teamSupportID -WelcomeMusicAudioFileID $audioFileSupportGreetingID -MusicOnHoldAudioFileID $audioFileSupportHoldInQueueMusicID -OverflowAction SharedVoicemail -OverflowActionTarget $teamSupportID -OverflowThreshold 200 -OverflowSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableOverflowSharedVoicemailTranscription $true -TimeoutAction SharedVoicemail -TimeoutActionTarget $teamSupportID -TimeoutThreshold 2700 -TimeoutSharedVoicemailTextToSpeechPrompt "We're sorry to have kept you waiting and are now transferring your call to voicemail." -EnableTimeoutSharedVoicemailTranscription $true -RoutingMethod LongestIdle -ConferenceMode $true -LanguageID “en-US”
 ````
 
-### <a name="get-license-types"></a>Lizenztypen erhalten
+### <a name="get-license-types"></a>Abrufen von Lizenztypen
 ````
 Get-MsolAccountSku
 ````
 
-### <a name="create-and-assign-resource-account"></a>Erstellen und Zuordnen eines Ressourcenkontos
-Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschleife von einem Anrufwarteschleifen-Automatische Telefonzentrale
-- ApplicationID
+### <a name="create-and-assign-resource-account"></a>Erstellen und Zuweisen eines Ressourcenkontos
+Hinweis: Telefon Nummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale beendet wird.
+- Applicationid
 - - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
 - - Anrufwarteschleife: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Hinweis: Bei dem unten gezeigten Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss es sich um einen Lizenztyp handelt, der oben im cmdlet Get-MsolAccountSku aufgeführt ist.
+Hinweis: Der unten gezeigte Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss ein Lizenztyp sein, der vom Get-MsolAccountSku cmdlet oben aufgeführt ist.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -227,36 +227,36 @@ Set-MsolUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Support-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
 ````
 
 
-## <a name="facilities-collaborative-calling-queue"></a>Einrichtungen, Anrufwarteschleife für zusammenarbeitliche Zusammenarbeit
-### <a name="get-facilities-team-group-id"></a>Gruppen-ID der Gruppe "Einrichtungen erhalten"
+## <a name="facilities-collaborative-calling-queue"></a>Gemeinsame Anrufwarteschleife für Einrichtungen
+### <a name="get-facilities-team-group-id"></a>Gruppen-ID des Facilities-Teams abrufen
 ````
 $teamFacilitiesGroupID = (Get-Team -DisplayName "Facilities").GroupID
 ````
 
-### <a name="get-facilities-help-desk-team-channel-id"></a>Hilfe-Helpdesk-Teamkanal-ID erhalten
+### <a name="get-facilities-help-desk-team-channel-id"></a>Abrufen der Helpdesk-Teamkanal-ID für Einrichtungen
 ````
 Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Erhalten der Benutzer-ID des Helpdesk-Kanals "Einrichtungen"
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Abrufen der Benutzer-ID des Helpdesk-Kanalbesitzers für Einrichtungen
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````
 
-### <a name="get-on-behalf-of-calling-resource-account-id"></a>Aufrufen der Ressourcenkonto-ID
+### <a name="get-on-behalf-of-calling-resource-account-id"></a>Im Auftrag des Aufrufens der Ressourcenkonto-ID abrufen
 ````
-$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").ObjectID
+$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").Identity
 ````
 
-### <a name="get-list-of-supported-languages"></a>Liste der unterstützten Sprachen
+### <a name="get-list-of-supported-languages"></a>Liste der unterstützten Sprachen abrufen
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
@@ -266,18 +266,18 @@ Get-CsAutoAttendantSupportedLanguage
 New-CsCallQueue -Name “Facilities” -AgentAlertTime 15 -AllowOptOut $false -ChannelId $teamFacilitiesHelpDeskChannelID -ChannelUserObjectId $teamFacilitiesHelpDeskChannelUserID  -ConferenceMode $true -DistributionList $teamFacilitiesGroupID -LanguageID “fr-FR” -OboResourceAccountIds $oboResourceAccountID -OverflowAction DisconnectWithBusy -OverflowThreshold 200 -RoutingMethod RoundRobin -TimeoutAction Disconnect -TimeoutThreshold 2700 -UseDefaultMusicOnHold $true 
 ````
 
-### <a name="get-license-types"></a>Lizenztypen erhalten
+### <a name="get-license-types"></a>Abrufen von Lizenztypen
 ````
 Get-MsolAccountSku
 ````
 
-### <a name="create-and-assign-resource-account"></a>Erstellen und Zuordnen eines Ressourcenkontos
-Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschleife von einem Anrufwarteschleifen-Automatische Telefonzentrale
-- ApplicationID
+### <a name="create-and-assign-resource-account"></a>Erstellen und Zuweisen eines Ressourcenkontos
+Hinweis: Telefon Nummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale beendet wird.
+- Applicationid
 - - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
 - - Anrufwarteschleife: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Hinweis: Bei dem unten gezeigten Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss es sich um einen Lizenztyp handelt, der oben im cmdlet Get-MsolAccountSku aufgeführt ist.
+Hinweis: Der unten gezeigte Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss ein Lizenztyp sein, der vom Get-MsolAccountSku cmdlet oben aufgeführt ist.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -286,7 +286,7 @@ Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Facilities-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Facilities").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue

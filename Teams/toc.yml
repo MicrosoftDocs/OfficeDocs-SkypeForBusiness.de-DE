@@ -431,34 +431,30 @@ items:
         href: FAQ-support-remote-workforce.md
       - name: Berichte
         items:
-          - name: Aktivitätsberichte im Microsoft 365 Admin Center
-            href: teams-activity-reports.md
-          - name: Analysen und Berichte im Teams Admin Center
-            items:
-              - name: Übersicht
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Teams-Nutzungsbericht
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Teams-Benutzeraktivitätsbericht
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Teams-App-Nutzungsbericht
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Teams-Gerätenutzungsbericht
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: Bericht "PSTN-blockierte Benutzer"
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: Bericht „PSTN-Minutenpools“
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: Bericht „PSTN-Verbrauch“
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Bericht über die Verwendung von Dial-Out für Teams-Audiokonferenzen
-                href: audio-conferencing-dial-out-usage-report.md
-              - name: Teams-Liveereignis-Nutzungsbericht
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Teams-Information Protection-Lizenzbericht
-                href: teams-analytics-and-reports/information-protection-license-report.md
-              - name: 'Verwendungsbericht für virtuelle Untersuchungen in Teams '
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Übersicht
+            href: teams-analytics-and-reports/teams-reporting-reference.md
+          - name: Teams-Nutzungsbericht
+            href: teams-analytics-and-reports/teams-usage-report.md
+          - name: Teams-Benutzeraktivitätsbericht
+            href: teams-analytics-and-reports/user-activity-report.md
+          - name: Teams-App-Nutzungsbericht
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Teams-Gerätenutzungsbericht
+            href: teams-analytics-and-reports/device-usage-report.md
+          - name: Bericht "PSTN-blockierte Benutzer"
+            href: teams-analytics-and-reports/pstn-blocked-users-report.md
+          - name: Bericht „PSTN-Minutenpools“
+            href: teams-analytics-and-reports/pstn-minute-pools-report.md
+          - name: Bericht „PSTN-Verbrauch“
+            href: teams-analytics-and-reports/pstn-usage-report.md
+          - name: Bericht über die Verwendung von Dial-Out für Teams-Audiokonferenzen
+            href: audio-conferencing-dial-out-usage-report.md
+          - name: Teams-Liveereignis-Nutzungsbericht
+            href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Teams-Information Protection-Lizenzbericht
+            href: teams-analytics-and-reports/information-protection-license-report.md
+          - name: 'Verwendungsbericht für virtuelle Untersuchungen in Teams '
+            href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 'Protokolldateien, Dienstzustand und Support'
         items:
           - name: Verwenden Sie Protokolldateien zur Überwachung und Problembehebung in Teams
