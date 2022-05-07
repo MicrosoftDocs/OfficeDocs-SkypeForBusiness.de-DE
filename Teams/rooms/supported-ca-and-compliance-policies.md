@@ -12,14 +12,14 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über unterstützte und empfohlene Richtlinien für bedingten Zugriff und Intune Gerätecompliance für Microsoft Teams-Räume.
-ms.openlocfilehash: 19e4593a6135c79eb156a1b34847ab518d6e8ea4
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 54b14bec76ab17d0af1c753e76256fc8beaeaf6c
+ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059236"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65266938"
 ---
-# <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Unterstützte Richtlinien für bedingten Zugriff und Intune Gerätekompatibilität für Microsoft Teams-Räume
+# <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Unterstützte Richtlinien für bedingten Zugriff und Intune Gerätekompatibilität für Microsoft Teams-Räume und Teams Android-Geräte
 
 Dieser Artikel enthält unterstützte Richtlinien für bedingten Zugriff und Intune Gerätekompatibilität für Microsoft Teams-Räume. Bewährte Methoden und Beispielrichtlinien finden Sie unter ["Bedingter Zugriff" und Intune bewährten Methoden für Microsoft Teams-Räume](conditional-access-and-compliance-for-devices.md).
 
@@ -28,31 +28,28 @@ Dieser Artikel enthält unterstützte Richtlinien für bedingten Zugriff und Int
 
 ## <a name="supported-conditional-access-policies"></a>Unterstützte Richtlinien für bedingten Zugriff  
 
-Die folgende Liste enthält die unterstützten Richtlinien für bedingten Zugriff für Teams-Räume unter Windows und unter Android. 
+Die folgende Liste enthält die unterstützten Richtlinien für bedingten Zugriff für Teams-Räume auf Windows und Android sowie für Richtlinien für Teams Bereiche, Smartphones und Displays.
 
-> [!NOTE]
-> Die unterstützten Android-Richtlinien gelten für alle Android-Geräte in gemeinsam genutzten Räumen, einschließlich Teams-Räume auf Andourd, Telefonen für gemeinsame Bereiche und Panels.
-
-| Zuweisung | Windows | Android |
-|------------|---------|---------|
-| Benutzer- oder Workloadidentitäten |Unterstützt | Unterstützt |
-|Cloud-Apps oder -Aktionen | Unterstützt <br><br> Teams-Räume müssen auf die folgenden drei Cloud-Apps zugreifen, wenn sie sich im modus "Teams" befinden: Office 365 Exchange Online, Office 365 SharePoint Online und Microsoft Teams | Unterstützt <br><br> Teams-Räume müssen auf die folgenden drei Cloud-Apps zugreifen, wenn sie sich im modus "Teams" befinden: Office 365 Exchange Online, Office 365 SharePoint Online und Microsoft Teams |
-|**Bedingungen**| --- | --- |
-| Benutzerrisiko | Unterstützt | Unterstützt |
-| Anmelderisiko | Unterstützt | Unterstützt |
-| Geräteplattformen | Unterstützt | Unterstützt |
-| Standorte | Unterstützt | Unterstützt |
-|Client-Apps |Nicht unterstützt| Nicht unterstützt |
-|Filtern nach Geräten | Unterstützt | Unterstützt |
-|**Gewähren**| --- | --- |
-| Zugriff blockieren | Unterstützt | Unterstützt |
-| Zugriff gewähren | Unterstützt | Unterstützt | 
-| Mehrstufige Authentifizierung erforderlich | Nicht unterstützt | Nicht unterstützt |
-| Festlegen, dass das Gerät als konform gekennzeichnet wird | Unterstützt | Unterstützt |
-|Hybrid-Azure AD verbundenes Gerät erforderlich | Nicht unterstützt | Nicht unterstützt |
-|Genehmigte Client-App anfordern | Nicht unterstützt | Nicht unterstützt |
-| App-Schutzrichtlinie anfordern | Nicht unterstützt |Nicht unterstützt |
-| Kennwortänderung erforderlich | Nicht unterstützt | Nicht unterstützt |
+| Zuweisung                               | Teams-Räume auf Windows                                                                                                                                                                              | Teams-Räume unter Android und Panels                                                                                                                                                                              | Teams Von Telefonen und Displays                                                                                                                                                    |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Benutzer- oder Workloadidentitäten              | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                            |
+| Cloud-Apps oder -Aktionen                    | Unterstützt <br><br> Teams-Räume müssen auf die folgenden drei Cloud-Apps zugreifen, wenn sie sich im modus "Teams" befinden: Office 365 Exchange Online, Office 365 SharePoint Online und Microsoft Teams | Unterstützt <br><br> Teams-Räume müssen auf die folgenden drei Cloud-Apps zugreifen, wenn sie sich im modus "Teams" befinden: Office 365 Exchange Online, Office 365 SharePoint Online und Microsoft Teams | Unterstützt<br><br>Teams Android-Geräte müssen auf die folgenden drei Cloud-Apps zugreifen: Office 365 Exchange Online, Office 365 SharePoint Online und Microsoft Teams |
+| **Bedingungen**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
+| Benutzerrisiko                                | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                            |
+| Anmelderisiko                             | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                            |
+| Geräteplattformen                         | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                            |
+| Standorte                                | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                            |
+| Client-Apps                              | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                        |
+| Filtern nach Geräten                       | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                            |
+| **Gewähren**                                | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
+| Zugriff blockieren                             | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                            |
+| Zugriff gewähren                             | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            |                                                                                                                                                                      |
+| Mehrstufige Authentifizierung erforderlich      | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                                        | Unterstützt                                                                                                                                                            |
+| Festlegen, dass das Gerät als konform gekennzeichnet wird | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                                            | Unterstützt                                                                                                                                                            |
+| Hybrid-Azure AD verbundenes Gerät erforderlich    | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                        |
+| Genehmigte Client-App anfordern              | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                        |
+| App-Schutzrichtlinie anfordern            | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                        |
+| Kennwortänderung erforderlich                  | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                                        | Nicht unterstützt                                                                                                                                                        |
 
 > [!NOTE]
 > Skype for Business Online wird eingestellt und nicht unterstützt. Skype for Business Online-Cloud-App wird für Gerätecompliance-basierte Richtlinien für bedingten Zugriff nicht unterstützt.
@@ -71,64 +68,131 @@ Microsoft Teams-Räume auf Windows und Teams-Räume unter Android unterstützen 
 
 Im Folgenden finden Sie eine Tabelle der Gerätekompatibilitätseinstellungen und Empfehlungen für deren Verwendung mit Teams-Räume.  
 
-|Richtlinie | Verfügbarkeit | Hinweise|
-|---------|-------------|-------|
-| [**Geräteintegrität**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-health) | -- | -- |
-|BitLocker erforderlich| Unterstützt | Verwenden Sie diese Option nur, wenn Sie BitLocker auf Teams-Räume aktiviert haben. |
-|Aktivieren des sicheren Starts auf dem Gerät erforderlich |Unterstützt |Der sichere Start ist eine Anforderung für Teams-Räume. |
-|Codeintegrität erforderlich |Unterstützt  | Codeintegrität ist bereits eine Anforderung für Teams-Räume. |
-| [**Geräteeigenschaften**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
-|Betriebssystemversion (minimum, maximum) |Nicht unterstützt | Teams-Räume wird automatisch auf neuere Versionen von Windows aktualisiert, und das Festlegen von Werten hier kann eine erfolgreiche Anmeldung nach einem Betriebssystemupdate verhindern.|
-|Betriebssystemversion für mobile Geräte (minimum, maximum) | Nicht unterstützt. | Nicht zutreffend |
-| Gültige Betriebssystembuilds | Nicht unterstützt | Nicht zutreffend |
-| [**Configuration Manager Compliance**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
-| Gerätekompatibilität von Configuration Manager anfordern | Unterstützt |  Nicht zutreffend |
-| [**Systemsicherheit**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22system-security) | -- | -- |
-| Alle Kennwortrichtlinien | Nicht unterstützt | Kennwortrichtlinien können verhindern, dass sich das lokale Skype Konto automatisch anmeldet. |
-| Verschlüsselung des Datenspeichers auf dem Gerät erforderlich. | Unterstützt  | Verwenden Sie dies nur, wenn Sie die Verschlüsselung des Datenspeichers auf Teams-Räume aktiviert haben. |
-| Firewall | Unterstützt | Firewall ist bereits eine Anforderung für Teams-Räume |
-| Trusted Platform Module (TPM) | Unterstützt | Trusted Platform Module (TPM) ist bereits eine Anforderung für Teams-Räume. |
-| Antivirus | Unterstützt | Antivirus (Windows Defender) ist bereits eine Anforderung für Teams-Räume. |
-| Antispyware | Unterstützt | Antispyware (Windows Defender) ist bereits eine Anforderung für Teams-Räume. |
-| Microsoft Defender Antischadsoftware | Unterstützt | Microsoft Defender Antimalware ist bereits eine Anforderung für Teams-Räume. |
-| Mindestversion von Microsoft Defender Antischadsoftware | Nicht unterstützt. | Teams-Räume diese Komponente automatisch aktualisiert, sodass keine Compliancerichtlinien festgelegt werden müssen.|
-| Microsoft Defender Antimalware Security Intelligence
-Auf dem neuesten Stand | Unterstützt | Überprüfen Sie, ob Microsoft Defender Antischadsoftware bereits eine Anforderung für Teams-Räume ist. |
-| Echtzeitschutz | Unterstützt | Echtzeitschutz ist bereits eine Anforderung für Teams-Räume. |
-| [**Microsoft Defender für Endpunkt**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22microsoft-defender-for-endpointws) | -- | -- |
-| Fordern Sie an, dass sich das Gerät auf oder unter der Risikobewertung des Computers beläuft. | Unterstützt |  Nicht zutreffend |
+| Richtlinie                                                                                                                      | Verfügbarkeit   | Hinweise                                                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| [**Geräteintegrität**](/mem/intune/protect/compliance-policy-create-windows#device-health)                                     | --             | --                                                                                                                                          |
+| BitLocker erforderlich                                                                                                           | Unterstützt      | Verwenden Sie diese Option nur, wenn Sie BitLocker auf Teams-Räume aktiviert haben.                                                                                |
+| Aktivieren des sicheren Starts auf dem Gerät erforderlich                                                                             | Unterstützt      | Der sichere Start ist eine Anforderung für Teams-Räume.                                                                                              |
+| Codeintegrität erforderlich                                                                                                      | Unterstützt      | Codeintegrität ist bereits eine Anforderung für Teams-Räume.                                                                                    |
+| [**Geräteeigenschaften**](/mem/intune/protect/compliance-policy-create-windows#device-properties)                             | --             | --                                                                                                                                          |
+| Betriebssystemversion (minimum, maximum)                                                                                 | Nicht unterstützt  | Teams-Räume wird automatisch auf neuere Versionen von Windows aktualisiert, und das Festlegen von Werten hier kann eine erfolgreiche Anmeldung nach einem Betriebssystemupdate verhindern. |
+| Betriebssystemversion für mobile Geräte (minimum, maximum)                                                                            | Nicht unterstützt. |                                                                                                                                             |
+| Gültige Betriebssystembuilds                                                                                               | Nicht unterstützt  |                                                                                                                                             |
+| [**Configuration Manager Compliance**](/mem/intune/protect/compliance-policy-create-windows#device-properties)              | --             | --                                                                                                                                          |
+| Gerätekompatibilität von Configuration Manager anfordern                                                                        | Unterstützt      |                                                                                                                                             |
+| [**Systemsicherheit**](/mem/intune/protect/compliance-policy-create-windows#system-security)                                 | --             | --                                                                                                                                          |
+| Alle Kennwortrichtlinien                                                                                                       | Nicht unterstützt  | Kennwortrichtlinien können verhindern, dass sich das lokale Skype Konto automatisch anmeldet.                                                        |
+| Verschlüsselung des Datenspeichers auf dem Gerät erforderlich.                                                                               | Unterstützt      | Verwenden Sie dies nur, wenn Sie die Verschlüsselung des Datenspeichers auf Teams-Räume aktiviert haben.                                                               |
+| Firewall                                                                                                                    | Unterstützt      | Firewall ist bereits eine Anforderung für Teams-Räume                                                                                           |
+| Trusted Platform Module (TPM)                                                                                               | Unterstützt      | Trusted Platform Module (TPM) ist bereits eine Anforderung für Teams-Räume.                                                                     |
+| Antivirus                                                                                                                   | Unterstützt      | Antivirus (Windows Defender) ist bereits eine Anforderung für Teams-Räume.                                                                      |
+| Antispyware                                                                                                                 | Unterstützt      | Antispyware (Windows Defender) ist bereits eine Anforderung für Teams-Räume.                                                                    |
+| Microsoft Defender Antischadsoftware                                                                                              | Unterstützt      | Microsoft Defender Antimalware ist bereits eine Anforderung für Teams-Räume.                                                                    |
+| Mindestversion von Microsoft Defender Antischadsoftware                                                                              | Nicht unterstützt. | Teams-Räume diese Komponente automatisch aktualisiert, sodass keine Compliancerichtlinien festgelegt werden müssen.                                             |
+| Sicherheitsintelligenz von Microsoft Defender Anmalware auf dem neuesten Stand                                                             | Unterstützt      | Überprüfen Sie, ob Microsoft Defender Antischadsoftware bereits eine Anforderung für Teams-Räume ist.                                                      |
+| Echtzeitschutz                                                                                                        | Unterstützt      | Echtzeitschutz ist bereits eine Anforderung für Teams-Räume.                                                                            |
+| [**Microsoft Defender für Endpunkt**](/mem/intune/protect/compliance-policy-create-windows#microsoft-defender-for-endpoint) | --             | --                                                                                                                                          |
+| Fordern Sie an, dass sich das Gerät auf oder unter der Risikobewertung des Computers beläuft.                                                                | Unterstützt      |                                                                                                                                             |
 
 #### <a name="teams-rooms-on-android"></a>[Teams-Räume unter Android](#tab/mtr-a)
 
 Im Folgenden finden Sie eine Tabelle der Gerätekompatibilitätseinstellungen und Empfehlungen für deren Verwendung mit Teams-Räume.  
 
-| Richtlinie | Verfügbarkeit | Hinweise |
-|---------|-------------|-------|
-| [**Microsoft Defender für Endpunkt**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint) | -- | -- |
-| Festlegen, dass sich das Gerät auf oder unter der Risikobewertung des Computers beläuft | Nicht unterstützt |  Nicht zutreffend |
-| [**Geräteintegrität**](/mem/intune/protect/compliance-policy-create-android%22%20/l%20%22device-health) | -- | -- |
-| Gerät, das mit dem Geräteadministrator verwaltet wird | Erforderlich | Teams Android-Geräteverwaltung erfordert die Aktivierung des Geräteadministrators. |
-| Gerootete Geräte | Unterstützt |  Nicht zutreffend |
-| Festlegen, dass sich das Gerät auf oder unter der Bedrohungsstufe des Geräts beläuft | Nicht unterstützt |  Nicht zutreffend |
-| [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health) | -- | -- |
-| Google Play Services ist konfiguriert | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert. |
-| Aktueller Sicherheitsanbieter | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert. |
-| Bedrohungsscan für Apps | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert. |
-| SafetyNet-Gerätenachweis | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.|
-| [**Geräteeigenschaften**](/mem/intune/protect/compliance-policy-create-android#device-properties) | -- | -- |
-| Betriebssystemversion (minimum, maximum) | Unterstützt |  Nicht zutreffend |
-[**Systemsicherheit**](/mem/intune/protect/compliance-policy-create-android#system-security) | -- | -- |
-| Verschlüsselung des Datenspeichers auf dem Gerät erforderlich. |Unterstützt |  Nicht zutreffend |
-[**Gerätesicherheit**](/mem/intune/protect/compliance-policy-create-android#device-security) | -- | -- |
-| Blockieren von Apps aus unbekannten Quellen | Nicht unterstützt | Nur Teams Administratoren installieren Apps oder OEM-Tools |
-| Unternehmensportal App-Laufzeitintegrität | Unterstützt |  Nicht zutreffend|
-| Eingeschränkte Apps | Nicht unterstützt |  Nicht zutreffend |
-| Blockieren des USB-Debuggens auf dem Gerät | Unterstützt |  Nicht zutreffend|
-[**Alle Android-Geräte*](/mem/intune/protect/compliance-policy-create-android#all-android-devices) | -- | -- |
-|Maximale Inaktivitätsminuten, bevor ein Kennwort erforderlich ist | Nicht unterstützt |  Nicht zutreffend |
-| Anfordern eines Kennworts zum Entsperren mobiler Geräte | Nicht unterstützt | Nicht zutreffend |
-| [**Android 10 und höher**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later) | -- | -- |
-| [**Android 9 und früher oder Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | -- | -- |
-|Erforderlicher Kennworttyp |Nicht unterstützt | Nicht zutreffend|
+| Richtlinie                                                                                                                                  | Verfügbarkeit  | Hinweise                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
+| [**Microsoft Defender für Endpunkt**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint)             | --            | --                                                                            |
+| Festlegen, dass sich das Gerät auf oder unter der Risikobewertung des Computers beläuft                                                                             | Nicht unterstützt |                                                                               |
+| [**Geräteintegrität**](/mem/intune/protect/compliance-policy-create-android#device-health)                                                 | --            | --                                                                            |
+| Gerät, das mit dem Geräteadministrator verwaltet wird                                                                                                | Erforderlich      | Teams Android-Geräteverwaltung erfordert die Aktivierung des Geräteadministrators. |
+| Gerootete Geräte                                                                                                                          | Unterstützt     |                                                                               |
+| Festlegen, dass sich das Gerät auf oder unter der Bedrohungsstufe des Geräts beläuft                                                                            | Nicht unterstützt |                                                                               |
+| [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
+| Google Play Services ist konfiguriert                                                                                                      | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| Aktueller Sicherheitsanbieter                                                                                                            | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| Bedrohungsscan für Apps                                                                                                                     | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| SafetyNet-Gerätenachweis                                                                                                            | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| [**Geräteeigenschaften**](/mem/intune/protect/compliance-policy-create-android#device-properties)                                         | --            | --                                                                            |
+| Betriebssystemversion (minimum, maximum)                                                                                             | Unterstützt     |                                                                               |
+| [**Systemsicherheit**](/mem/intune/protect/compliance-policy-create-android#system-security)                                             | --            | --                                                                            |
+| Verschlüsselung des Datenspeichers auf dem Gerät erforderlich.                                                                                           | Unterstützt     |                                                                               |
+| [**Gerätesicherheit**](/mem/intune/protect/compliance-policy-create-android#device-security)                                             | --            | --                                                                            |
+| Blockieren von Apps aus unbekannten Quellen                                                                                                         | Nicht unterstützt | Nur Teams Administratoren installieren Apps oder OEM-Tools                                   |
+| Unternehmensportal App-Laufzeitintegrität                                                                                                    | Unterstützt     |                                                                               |
+| Eingeschränkte Apps                                                                                                                         | Nicht unterstützt |                                                                               |
+| Blockieren des USB-Debuggens auf dem Gerät                                                                                                           | Unterstützt     |                                                                               |
+| [**Alle Android-Geräte*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
+| Maximale Inaktivitätsminuten, bevor ein Kennwort erforderlich ist                                                                              | Nicht unterstützt |                                                                               |
+| Anfordern eines Kennworts zum Entsperren mobiler Geräte                                                                                             | Nicht unterstützt |                                                                               |
+| [**Android 10 und höher**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later)                                   | --            | --                                                                            |
+| [**Android 9 und früher oder Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
+| Erforderlicher Kennworttyp                                                                                                                  | Nicht unterstützt |                                                                               |
+
+#### <a name="teams-phones-and-displays"></a>[Teams Von Telefonen und Displays](#tab/phones)
+
+Im Folgenden finden Sie eine Tabelle der Gerätekompatibilitätseinstellungen und Empfehlungen für die Verwendung mit Teams Smartphones und Displays.  
+
+| Richtlinie                                                                                                                                  | Verfügbarkeit  | Hinweise                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
+| [**Microsoft Defender für Endpunkt**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint)             | --            | --                                                                            |
+| Festlegen, dass sich das Gerät auf oder unter der Risikobewertung des Computers beläuft                                                                             | Nicht unterstützt |                                                                               |
+| [**Geräteintegrität**](/mem/intune/protect/compliance-policy-create-android#device-health)                                                 | --            | --                                                                            |
+| Gerät, das mit dem Geräteadministrator verwaltet wird                                                                                                | Erforderlich      | Teams Android-Geräteverwaltung erfordert die Aktivierung des Geräteadministrators. |
+| Gerootete Geräte                                                                                                                          | Unterstützt     |                                                                               |
+| Festlegen, dass sich das Gerät auf oder unter der Bedrohungsstufe des Geräts beläuft                                                                            | Nicht unterstützt |                                                                               |
+| [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
+| Google Play Services ist konfiguriert                                                                                                      | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| Aktueller Sicherheitsanbieter                                                                                                            | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| Bedrohungsscan für Apps                                                                                                                     | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| SafetyNet-Gerätenachweis                                                                                                            | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| [**Geräteeigenschaften**](/mem/intune/protect/compliance-policy-create-android#device-properties)                                         | --            | --                                                                            |
+| Betriebssystemversion (minimum, maximum)                                                                                             | Unterstützt     |                                                                               |
+| [**Systemsicherheit**](/mem/intune/protect/compliance-policy-create-android#system-security)                                             | --            | --                                                                            |
+| Verschlüsselung des Datenspeichers auf dem Gerät erforderlich.                                                                                           | Unterstützt     | Hersteller können Verschlüsselungsattribute auf ihren Geräten so konfigurieren, dass Intune dies nicht erkennt. In diesem Fall kennzeichnet Intune das Gerät als nicht konform.<br><br>Wie Hersteller diese Verschlüsselungsattribute konfigurieren, kann je nach Modell des Geräts variieren. Für weitere Informationen zu einem bestimmten Modell wenden Sie sich an den Gerätehersteller. |
+| [**Gerätesicherheit**](/mem/intune/protect/compliance-policy-create-android#device-security)                                             | --            | --                                                                            |
+| Blockieren von Apps aus unbekannten Quellen                                                                                                         | Nicht unterstützt | Nur Teams Administratoren installieren Apps oder OEM-Tools                                   |
+| Unternehmensportal App-Laufzeitintegrität                                                                                                    | Unterstützt     |                                                                               |
+| Eingeschränkte Apps                                                                                                                         | Nicht unterstützt |                                                                               |
+| Blockieren des USB-Debuggens auf dem Gerät                                                                                                           | Unterstützt     |                                                                               |
+| [**Alle Android-Geräte*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
+| Maximale Inaktivitätsminuten, bevor ein Kennwort erforderlich ist                                                                              | Nicht unterstützt |                                                                               |
+| Anfordern eines Kennworts zum Entsperren mobiler Geräte                                                                                             | Nicht unterstützt |                                                                               |
+| [**Android 10 und höher**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later)                                   | --            | --                                                                            |
+| [**Android 9 und früher oder Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
+| Erforderlicher Kennworttyp                                                                                                                  | Nicht unterstützt |                                                                               |
+
+
+
+#### <a name="teams-panels"></a>[Teams Panels](#tab/panels)
+
+Im Folgenden finden Sie eine Tabelle der Gerätekompatibilitätseinstellungen und Empfehlungen für die Verwendung mit Teams Bereichen.  
+
+| Richtlinie                                                                                                                                  | Verfügbarkeit  | Hinweise                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------|
+| [**Microsoft Defender für Endpunkt**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint)             | --            | --                                                                            |
+| Festlegen, dass sich das Gerät auf oder unter der Risikobewertung des Computers beläuft                                                                             | Nicht unterstützt |                                                                               |
+| [**Geräteintegrität**](/mem/intune/protect/compliance-policy-create-android#device-health)                                                 | --            | --                                                                            |
+| Gerät, das mit dem Geräteadministrator verwaltet wird                                                                                                | Erforderlich      | Teams Android-Geräteverwaltung erfordert die Aktivierung des Geräteadministrators. |
+| Gerootete Geräte                                                                                                                          | Unterstützt     |                                                                               |
+| Festlegen, dass sich das Gerät auf oder unter der Bedrohungsstufe des Geräts beläuft                                                                            | Nicht unterstützt |                                                                               |
+| [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
+| Google Play Services ist konfiguriert                                                                                                      | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| Aktueller Sicherheitsanbieter                                                                                                            | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| Bedrohungsscan für Apps                                                                                                                     | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| SafetyNet-Gerätenachweis                                                                                                            | Nicht unterstützt | Google Play ist nicht auf Teams Android-Geräten installiert.                         |
+| [**Geräteeigenschaften**](/mem/intune/protect/compliance-policy-create-android#device-properties)                                         | --            | --                                                                            |
+| Betriebssystemversion (minimum, maximum)                                                                                             | Unterstützt     |                                                                               |
+| [**Systemsicherheit**](/mem/intune/protect/compliance-policy-create-android#system-security)                                             | --            | --                                                                            |
+| Verschlüsselung des Datenspeichers auf dem Gerät erforderlich.                                                                                           | Unterstützt     |                                                                               |
+| [**Gerätesicherheit**](/mem/intune/protect/compliance-policy-create-android#device-security)                                             | --            | --                                                                            |
+| Blockieren von Apps aus unbekannten Quellen                                                                                                         | Nicht unterstützt | Nur Teams Administratoren installieren Apps oder OEM-Tools                                   |
+| Unternehmensportal App-Laufzeitintegrität                                                                                                    | Unterstützt     |                                                                               |
+| Eingeschränkte Apps                                                                                                                         | Nicht unterstützt |                                                                               |
+| Blockieren des USB-Debuggens auf dem Gerät                                                                                                           | Unterstützt     |                                                                               |
+| [**Alle Android-Geräte*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
+| Maximale Inaktivitätsminuten, bevor ein Kennwort erforderlich ist                                                                              | Nicht unterstützt |                                                                               |
+| Anfordern eines Kennworts zum Entsperren mobiler Geräte                                                                                             | Nicht unterstützt |                                                                               |
+| [**Android 10 und höher**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later)                                   | --            | --                                                                            |
+| [**Android 9 und früher oder Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
+| Erforderlicher Kennworttyp                                                                                                                  | Nicht unterstützt |                                                                               |
 
 ---

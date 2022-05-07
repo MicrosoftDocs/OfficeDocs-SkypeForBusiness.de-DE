@@ -20,29 +20,29 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Erfahren Sie, wie Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organisation routen.
-ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+description: Erfahren Sie, wie Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organisation weiterleiten.
+ms.openlocfilehash: cc464419375b6391d0d95d6e99441777a40da9cb
+ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442793"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65266922"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Weiterleiten von Anrufen an nicht zugewiesene Nummern
 
-Als Administrator können Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organisation weiter routen. Beispielsweise können Sie Anrufe wie folgt an nicht zugewiesene Nummern weiter routen: 
+Als Administrator können Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organisation weiterleiten. Sie können z. B. Anrufe wie folgt an nicht zugewiesene Nummern weiterleiten: 
 
-- Alle Anrufe an eine bestimmte nicht zugewiesene Nummer an eine benutzerdefinierte Ankündigung weiter routen.
+- Leiten Sie alle Anrufe an eine bestimmte nicht zugewiesene Nummer an eine benutzerdefinierte Ankündigung weiter.
 
-- Routen aller Anrufe an eine bestimmte nicht zugewiesene Nummer an die Hauptschaltfläche.
+- Leiten Sie alle Anrufe an eine bestimmte nicht zugewiesene Nummer an die Hauptschaltfläche weiter.
 
-Sie können Anrufe an nicht zugewiesene Nummern an einen Benutzer, an ein Ressourcenkonto, das einem automatische Telefonzentrale- oder Anrufwarteschleifen zugeordnet ist, oder an einen Ankündigungsdienst, der dem Anrufer eine benutzerdefinierte Audiodatei wiedergibt, weiter routen.
+Sie können Anrufe an nicht zugewiesene Nummern an einen Benutzer, an ein Ressourcenkonto, das einer automatischen Telefonzentrale oder einer Anrufwarteschleife zugeordnet ist, oder an einen Ankündigungsdienst weiterleiten, der eine benutzerdefinierte Audiodatei an den Anrufer wiedergibt.
 
 ## <a name="configuration"></a>Konfiguration
 
-Um Anrufe an eine nicht zugewiesene Nummer weiterzuweisen, verwenden Sie das Cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment, das Teams im PowerShell-Modul 2.5.1 oder höher verfügbar ist.
+Um Anrufe an eine nicht zugewiesene Nummer weiterzuleiten, verwenden Sie das Cmdlet "New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment", das in Teams PowerShell-Modul 2.5.1 oder höher verfügbar ist.
 
-Sie müssen die aufgerufene Nummer oder den Nummernbereich sowie das zugehörige Routing für Anrufe an diese Nummern angeben. Mit dem folgenden Befehl wird beispielsweise angegeben, dass alle Aufrufe der Nummer +1 (555) 222-3333 an das Ressourcenkonto und aa@contoso.com:
+Sie müssen die aufgerufene Nummer oder den Nummernbereich und die zugehörige Weiterleitung für Anrufe an diese Nummern angeben. Der folgende Befehl gibt beispielsweise an, dass alle Aufrufe der Nummer +1 (555) 222-3333 an das Ressourcenkonto aa@contoso.com weitergeleitet werden:
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
@@ -51,7 +51,7 @@ $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectI
 New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
-Das nächste Beispiel gibt an, dass alle Anrufe im Nummernbereich +1 (555) 333-0000 bis +1 (555) 333-9999 an den Ankündigungsdienst umgeroutet werden, der die Audiodatei "MainAnnouncement.wav" an den Anrufer zurückgibt.
+Im nächsten Beispiel wird angegeben, dass alle Aufrufe des Nummernbereichs +1 (555) 333-0000 bis +1 (555) 333-9999 an den Ankündigungsdienst weitergeleitet werden, der die Audiodatei "MainAnnouncement.wav" an den Aufrufer wiedergibt.
 
 ```PowerShell
 $Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
@@ -65,13 +65,17 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 ## <a name="notes"></a>Hinweise
 
-- Wenn das Routing zu einer Ankündigung geht, wird die Audiodatei einmal für den Anrufer abgespielt.
+- Beim Weiterleiten an eine Ankündigung wird die Audiodatei einmal an den Anrufer wiedergegeben.
 
-- Um Anrufe an nicht zugewiesene Microsoft Calling Plan-Abonnentennummern weiter zu senden, muss Ihr Mandant über Guthaben für [Kommunikationen verfügen](what-are-communications-credits.md).
+- Um Anrufe an nicht zugewiesene Abonnentennummern des Microsoft-Anrufplans weiterzuleiten, muss Ihr Mandant über verfügbare [Guthaben für Kommunikationen](what-are-communications-credits.md) verfügen.
 
-- Um Anrufe an nicht zugewiesene Microsoft-Anrufplan-Servicenummern weiter zu senden, muss Ihr Mandant mindestens eine Lizenz Telefonsystem – virtueller Benutzer haben.
+- Um Anrufe an nicht zugewiesene Microsoft Calling Plan-Dienstnummern weiterzuleiten, muss Ihr Mandant über mindestens eine Telefonsystem – virtuelle Benutzerlizenz verfügen.
 
-- Die unterstützten Benutzerdefinierten Audiodateiformate sind WAV (unkomprimiert, linearer PCM mit 8/16/32-Bit-Tiefe in Mono oder Stereo), WMA (nur Mono) und MP3. Der Inhalt der Audiodatei darf nicht größer als 5 MB sein.
+- Die unterstützten benutzerdefinierten Audiodateiformate sind WAV (unkomprimierte, lineare PCM mit 8/16/32-Bit-Tiefe in Mono oder Stereo), WMA (nur Mono) und MP3. Der Inhalt der Audiodatei darf nicht mehr als 5 MB betragen.
+
+- Sowohl eingehende Anrufe an Microsoft Teams als auch ausgehende Anrufe von Microsoft Teams haben die aufgerufene Nummer im Bereich der nicht zugewiesenen Nummer überprüft.
+
+- Wenn ein angegebenes Muster/bereich Telefonnummern enthält, die einem Benutzer- oder Ressourcenkonto im Mandanten zugewiesen sind, werden Anrufe zu diesen Telefonnummern an das entsprechende Ziel weitergeleitet und nicht an die angegebene Behandlung nicht zugewiesener Nummern weitergeleitet. Es gibt keine weiteren Überprüfungen der Zahlen im Bereich. Wenn der Bereich eine gültige externe Telefonnummer enthält, werden ausgehende Anrufe von Microsoft Teams an diese Telefonnummer entsprechend der Behandlung weitergeleitet.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -13,12 +13,12 @@ f1.keywords:
 description: Eine Übersicht über die integrierte Lösung contact center as a service (CCaaS) für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ed7e2df1af7ceab02119d52ef9ed7bc5811a87c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 8f3a6e792d4754c064e32035813cbee681607bdb
+ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125640"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65266868"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Contact Center-Integrationen für Microsoft Teams
 
@@ -59,8 +59,10 @@ Die folgenden Anbieter bieten Contact Center-Lösungen an, die in Teams mithilfe
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
+| `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Tendfor` | https://www.tendfor.com                                                            |
+
 
 ### <a name="solutions-currently-in-the-certification-process"></a>Derzeit im Zertifizierungsprozess befindliche Lösungen
 
@@ -72,9 +74,9 @@ Die folgenden Anbieter bieten Contact Center-Lösungen an, die in Teams mithilfe
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Heedify` | https://heedify.io/call-center/                                                 |
+| `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
