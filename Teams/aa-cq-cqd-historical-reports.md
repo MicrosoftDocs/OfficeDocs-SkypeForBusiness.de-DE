@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
-ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
+ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "63711489"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65294096"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
@@ -99,7 +99,7 @@ Sie müssen die Daten aktualisieren, um die neuen Analysedaten anzuzeigen.
 
 Sie können bestimmte Visualisierungsaspekte der Berichte anpassen, z. B. das Hinzufügen oder Entfernen von Feldern, die in den verschiedenen Visualisierungen angezeigt werden sollen, das Ändern des Diagrammtyps usw.
 
-Sie können dem Bericht keine zusätzlichen Datenfelder hinzufügen.
+Sie können dem Bericht keine weiteren Datenfelder hinzufügen.
 
 ### <a name="change-color-schema"></a>Farbschema ändern 
 
@@ -159,16 +159,16 @@ Führen Sie die folgenden Schritte durch:
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA-Name                                 |Text                     |Name des Ressourcenkontos, das an die automatische Telefonzentrale angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **aa_test@microsoft.com** ist, lautet dieser Wert wie folgt: **aa_test** |
 |AACallerActionCount                     |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Aktionen, die während des Anrufs vom Anrufer in der automatischen Telefonzentrale ausgewählt wurden  |
-|AACallFlow                              |Text                     |Kapselt die verschiedenen Zustände des Anrufs der automatischen Telefonzentrale – mögliche Werte:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Text                     |Endergebnis des Anrufs – mögliche Werte:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
+|AACallFlow                              |Text                     |Kapselt die verschiedenen Zustände der Anrufwerte der automatischen Telefonzentrale – mögliche Werte:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallResult                            |Text                     |Endergebnis des Aufrufs – mögliche Werte:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
 |AAChainDuration                         |Dezimalzahl           |Zusammenfassen: Summe<br>Dauer des Anrufs in der automatischen Telefonzentrale                     |
 |AAChainIndex                            |Text                     |                                                                         |
-|AAConnectivityType                      |Text                     |Anruftyp – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall |
+|AAConnectivityType                      |Text                     |Typ der Aufrufe – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall |
 |AACount                                 |Text                     |Anzahl der am Anruf beteiligten automatischen Telefonzentralen                               |
-|AADirectorySearchMethod                 |Text                     |Letzte Adressbuchsuchmethode – mögliche Werte:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AADirectorySearchMethod                 |Text                     |Letzte Adressbuch-Suchmethode – mögliche Werte:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |Datum/Uhrzeit                |Startzeit des Anrufs der automatischen Telefonzentrale                                           |
-|AATransferAction                        |Text                     |Zieltyp für Anrufübertragung – mögliche Werte:<br><br>***§ application – Sprachanwendungsentität**_<br>§ external_pstn<br>_*_§ hunt_group – Entität "Anrufwarteschleife"_*_<br>_*_§ orgaa – Entität "Automatische Telefonzentrale der Organisation"_**<br>§ shared_voicemail<br>§ unknown<br>§ user |
-|Anruftyp<sup>1</sup>                   |Text                     |Anruftyp – mögliche Werte:<br><br>§ External<br>§ Internal         |
+|AATransferAction                        |Text                     |Anrufweiterleitungszieltyp – mögliche Werte:<br><br>***§ application – Sprachanwendungsentität**_<br>§ external_pstn<br>_*_§ hunt_group – Entität "Anrufwarteschleife"_*_<br>_*_§ orgaa – Entität "Automatische Telefonzentrale der Organisation"_**<br>§ shared_voicemail<br>§ unknown<br>§ user |
+|Anruftyp<sup>1</sup>                   |Text                     |Typ der Aufrufe – mögliche Werte:<br><br>§ External<br>§ Internal         |
 |IsAAInvolved                            |Text                     |Immer 1                                                                 |
 |PSTNMinutes                             |Ganze Zahl             |Zusammenfassen: Summe<br>Minutennutzung gesamt                                     |
 |TotalCallCount                          |Ganze Zahl             |Zusammenfassen: Summe<br>Immer 1 – wird verwendet, um die Summe aller Anrufe bereitzustellen            |
@@ -227,11 +227,11 @@ Führen Sie die folgenden Schritte durch:
 |Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe                                          |
 |Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
 |Anrufwarteschleifenidentität                     |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
-|Zieltyp der Anrufwarteschleife                  |Text                     |***Zieltyp für Anrufumleitung – mögliche Werte:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
-|Anruftyp<sup>1</sup>                   |Text                     |Anruftyp – mögliche Werte:<br><br>§ External<br>§ Internal           |
+|Zieltyp der Anrufwarteschleife                  |Text                     |***Anrufumleitungszieltyp – mögliche Werte:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
+|Anruftyp<sup>1</sup>                   |Text                     |Typ der Aufrufe – mögliche Werte:<br><br>§ External<br>§ Internal           |
 |Datum                                    |Datum/Uhrzeit                |Startdatum und -uhrzeit des Anrufs der Anrufwarteschleife (Stunde) (UTC)                           | 
 |IsAbandoned                             |Wahr/falsch               |TRUE, wenn der Anruf nicht von einem Agent beantwortet wird                                   |
-|PSTN-Konnektivitätstyp                  |Text                     |Anruftyp – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall   |
+|PSTN-Konnektivitätstyp                  |Text                     |Typ der Aufrufe – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall   |
 |PSTN-Minuten gesamt                      |Ganze Zahl             |Zusammenfassen: Summe<br>Nutzung in Minuten für PSTN-Anrufe gesamt                       |
 
 #### <a name="fcallqueueanalytics-measures-description"></a>Beschreibung der fCallQueueAnalytics Kennzahlen
@@ -288,9 +288,9 @@ Führen Sie die folgenden Schritte durch:
 
 |Name                                    |Datentyp                |Beschreibung                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|Name des Agents                              |Text                     |Benutzer-UPN<br>Wenn der vollständige Benutzername **user@microsoft.com** ist, lautet dieser Wert wie folgt: **user** |
+|Name des Agents                              |Text                     |Benutzer-UPN<br>Wenn der vollständige Benutzername **user@microsoft.com** ist, lautet dieser Wert: **Benutzer** |
 |Durchschnittliche Anrufdauer (Sekunde)          |Dezimalzahl           |Zusammenfassen: Summe<br>Die durchschnittliche Dauer von Anrufwarteschleifenanrufen in Sekunden |
-|Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe, die vom Agent angezeigt und beantwortet wurden     |
+|Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Dem Agent angezeigten Anrufe     |
 |Anrufdauer (Minute)                  |Ganze Zahl             |Zusammenfassen: Summe<br>Gesamtanrufdauer der angenommenen Anrufwarteschleifenanrufe in Minuten (abgerundet auf die nächste Minute)  |
 |Name der Anrufwarteschleife                         |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Datum                                    |Datum                     |                                                    |
