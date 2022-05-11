@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6361e9454f6df301c0fbf1c91e39158115f2300
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817796"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65303997"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -169,11 +169,11 @@ Wenn ein Benutzer für Location-Based Routing aktiviert ist, gilt Folgendes:
 
   - Ob die Übertragung zulässig ist, hängt von folgenden Bedingungen ab:
   
-    - Die Location-Based Routingeinstellungen des Benutzers, der den weitergeleiteten Anruf empfängt.
+    - Die Location-Based Routingeinstellungen des Benutzers, der an das PSTN übertragen wird.
     - Der Standort des Endpunktnetzwerks.
     - Gibt an, ob der Speicherort für Location-Based Routing aktiviert ist.
 
-    Die Übertragung ist zulässig, wenn der Benutzer, der den weitergeleiteten Anruf empfängt, diesen PSTN-Anruf am aktuellen Standort mit demselben PSTN-Gateway tätigen kann.
+    Die Übertragung ist zulässig, wenn der übertragene Benutzer diesen PSTN-Anruf am aktuellen Standort mit demselben PSTN-Gateway tätigen kann.
 
 - **Für einen eingehenden oder ausgehenden PSTN-Anruf und die Übertragung an einen anderen Teams Benutzer** hängt davon ab, ob die Übertragung zulässig ist:
 
@@ -299,15 +299,15 @@ Die folgende Tabelle zeigt, ob Anrufweiterleitung und Anrufweiterleitung je nach
 
     - Wenn der Anrufer für Location-Based Routing aktiviert ist, kann er nur an ein Location-Based Routing-aktiviertes Gateway übertragen werden, das sich am selben Netzwerkstandort befindet.
  
-Die folgende Tabelle zeigt, wie sich Location-Based Routing auf das Routing eines VOIP-Anrufs von User1 an Standort1 an Benutzer an verschiedenen Standorten auswirkt, die den Anruf an einen PSTN-Endpunkt weiterleiten oder weiterleiten.  
+Die folgende Tabelle zeigt, wie sich Location-Based Routing auf das Routing eines VOIP-Anrufs aus Location-Based Routing aktiviert hat, das Benutzer1 an Standort1 an Benutzer an verschiedenen Standorten sendet oder an einen PSTN-Endpunkt weiterleitet.  
 
-|Benutzer initiiert Anrufdurchstellung oder Weiterleitung  |Übertragung in das PSTN  |Weiterleiten an das PSTN  |
-|---------|---------|---------|
-|Gleicher Netzwerkstandort, Standort für Location-Based Routing aktiviert (Benutzer2)   |Anrufweiterleitung kann nur über Location-Based Routing-aktiviertes Gateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User2         |Anrufweiterleitung kann nur über Location-Based Routing-aktiviertes Gateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User2         |
-|Anderer Netzwerkstandort, Standort für Location-Based Routing aktiviert (Benutzer3)    |Anrufweiterleitung kann nur über Location-Based Routing-aktiviertes Gateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User3         |Die Anrufweiterleitung kann basierend auf der VoIP-Routingrichtlinie von User3 nur über Location-Based Routing-aktiviertes Gateway1 an Standort1 weitergeleitet werden.         |
-|Anderer Netzwerkstandort, Standort für Location-Based Routing nicht aktiviert (Benutzer4)    |Anrufweiterleitung kann nur über Location-Based Routing-aktiviertes Gateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User4         |Die Anrufweiterleitung kann basierend auf der VoIP-Routingrichtlinie von User4 nur über Location-Based Routing-aktiviertes Gateway1 an Standort1 weitergeleitet werden.         |
-|Unbekanntes internes Netzwerk (Benutzer5)     |Anrufweiterleitung kann nur über Location-Based Routing-aktiviertes Gateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User5         |Die Anrufweiterleitung kann basierend auf der VoIP-Routingrichtlinie von User5 nur über Location-Based Routing-aktiviertes Gateway1 bei Site1 weitergeleitet werden.         |
-|Unbekanntes externes Netzwerk (User6)   |Anrufweiterleitung kann nur über Location-Based Routing-aktiviertes Gateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User6        |Die Anrufweiterleitung kann basierend auf der VoIP-Routingrichtlinie von User6 nur über Location-Based Routing-aktiviertes Gateway1 bei Site1 weitergeleitet werden.         |
+|Benutzer initiiert Anrufdurchstellung oder Weiterleitung  |Übertragung oder Weiterleitung an das PSTN  |
+|---------|---------|
+|Gleicher Netzwerkstandort, Standort für Location-Based Routing aktiviert (Benutzer2)   |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User2 basiert, zu einer Route über Location-Based Routing führt, das Gateway1 am Standort1 aktiviert hat.         |
+|Anderer Netzwerkstandort, Standort für Location-Based Routing aktiviert (Benutzer3)    |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User3 basiert, zu einer Route über Location-Based Routing-aktiviertes Gateway1 am Standort1 führt. |
+|Anderer Netzwerkstandort, Standort für Location-Based Routing nicht aktiviert (Benutzer4)    |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User4 basiert, zu einer Route über Location-Based Routing führt, das Gateway1 am Standort1 aktiviert hat.          |
+|Unbekanntes internes Netzwerk (Benutzer5)     |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User5 basiert, zu einer Route über Location-Based Routing-aktiviertes Gateway1 am Standort1 führt.          |
+|Unbekanntes externes Netzwerk (User6)   |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User6 basiert, zu einer Route über Location-Based Routing führt, das Gateway1 am Standort1 aktiviert hat.          |
 
 ### <a name="simultaneous-ringing"></a>Paralleles Anrufen
 
@@ -328,15 +328,15 @@ Die folgende Tabelle zeigt, ob Location-Based Routing gleichzeitiges Klingeln an
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>Gleichzeitiges Klingeln an einem PSTN-Endpunkt
 
-Die folgende Tabelle zeigt Location-Based Routingverhalten für einen eingehenden VoIP-Anruf von User1, der sich am Standort1 befindet, an Benutzer an unterschiedlichen Standorten mit gleichzeitigem Klingeln auf eine PSTN-Nummer festgelegt. 
+Die folgende Tabelle zeigt Location-Based Routingverhalten für einen eingehenden VoIP-Anruf von Location-Based Routing aktiviert Benutzer1 befindet sich an Standort1 für Benutzer an verschiedenen Orten mit gleichzeitigem Klingeln auf eine PSTN-Nummer festgelegt. 
 
 |So genannte Position des Benutzerendpunkts  |Ziel für gleichzeitigen Ring ist PSTN-Endpunkt |
 |---------|---------|
-|Gleicher Netzwerkstandort, Standort für Location-Based Routing aktiviert (Benutzer2)    |Anruf kann nur über Location-Based Routinggateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User2       |
-|Für Location-Based Routing aktivierter anderer Netzwerkstandort (Benutzer3)    |Anruf kann nur über Location-Based Routinggateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User3        |
-|Unterschiedlicher Netzwerkstandort für Location-Based Routing nicht aktiviert (Benutzer4)    |Anruf kann nur über Location-Based Routinggateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User4         |
-|Unbekanntes internes Netzwerk (Benutzer5)    |Anruf kann nur über Location-Based Routinggateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User5         |
-|Unbekanntes externes Netzwerk (User6)   |Anruf kann nur über Location-Based Routinggateway1 an Standort1 weitergeleitet werden, basierend auf der VoIP-Routingrichtlinie von User6         |
+|Gleicher Netzwerkstandort, Standort für Location-Based Routing aktiviert (Benutzer2)    |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User2 basiert, zu einer Route über Location-Based Routing führt, das Gateway1 am Standort1 aktiviert hat.        |
+|Für Location-Based Routing aktivierter anderer Netzwerkstandort (Benutzer3)    |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User3 basiert, zu einer Route über Location-Based Routing-aktiviertes Gateway1 am Standort1 führt.         |
+|Unterschiedlicher Netzwerkstandort für Location-Based Routing nicht aktiviert (Benutzer4)    |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User4 basiert, zu einer Route über Location-Based Routing führt, das Gateway1 am Standort1 aktiviert hat.          |
+|Unbekanntes internes Netzwerk (Benutzer5)    |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User5 basiert, zu einer Route über Location-Based Routing-aktiviertes Gateway1 am Standort1 führt.          |
+|Unbekanntes externes Netzwerk (User6)   |Der resultierende PSTN-Anruf ist nur zulässig, wenn die berechnete Route, die auf der VoIP-Routingrichtlinie von User6 basiert, zu einer Route über Location-Based Routing führt, das Gateway1 am Standort1 aktiviert hat.          |
 
 #### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>Eingehende Anrufe über VoIP-Apps (automatische Telefonzentrale oder Anrufwarteschleife)
 
@@ -395,7 +395,7 @@ In einer Telefonkonferenz, die von einem Benutzer ohne Audiokonferenzlizenz gest
 
 Wenn der benutzer mit aktivierter Location-Based Routing an der Telefonkonferenz von einem internen Standort aus beitritt, der nicht für Location-Based Routing aktiviert ist, werden die Einschränkungen im vorstehenden Absatz nicht erzwungen. 
 
-On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
+On-network conferencing for Audiokonferenz must NOT be deployed with any telephony equipment in India.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Medienumgehungsanforderung für Location-Based Routing
