@@ -15,57 +15,57 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Erfahren Sie mehr über SIP Gateway, z. B. Anforderungen und Vorteile.
+description: Erfahren Sie mehr über SIP-Gateways, z. B. Anforderungen und Vorteile.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 817f3dc7ce7f0b6f407607417c0cadb92b65e943
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514750"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370898"
 ---
-# <a name="plan-for-sip-gateway"></a>Planen für das SIP-Gateway
+# <a name="plan-for-sip-gateway"></a>Planen des SIP-Gateways
 
-Mit dem SIP-Gateway kann Ihre Organisation jedes kompatible SIP-Gerät Microsoft Teams, um Ihre Investitionen in SIP-Geräte zu erhalten. Jetzt können Sie sich mit Ihren Teams anmeldeinformationen anmelden und Anrufe mit einem kompatiblen SIP-Gerät senden und empfangen. Kompatible Geräte können auf SKYPE FOR BUSINESS mit Standard-SIP-Firmware, Cisco IP-Telefonen mit Multiplatform-SIP-Firmware oder SIP-Geräten von Anbietern wie Poly, Yealink und AudioCodes verwendet werden. Informationen zum Konfigurieren Ihrer SIP-Geräte für das SIP-Gateway finden Sie unter [Konfigurieren des SIP-Gateways](sip-gateway-configure.md).
+Mit dem SIP-Gateway kann Ihre Organisation jedes kompatible SIP-Gerät mit Microsoft Teams verwenden, um Ihre Investitionen in SIP-Geräte zu erhalten. Jetzt können Sie sich mit Ihren Unternehmensanmeldeinformationen bei Teams anmelden und Anrufe mit einem kompatiblen SIP-Gerät tätigen und empfangen. Kompatible Geräte können Skype for Business IP-Telefone mit Standard-SIP-Firmware, Cisco-IP-Telefone mit multiplatform SIP-Firmware oder SIP-Geräte von Anbietern wie Poly, Yealink und AudioCodes sein. Informationen zum Konfigurieren Ihrer SIP-Geräte für DAS SIP-Gateway finden [Sie unter Konfigurieren des SIP-Gateways](sip-gateway-configure.md).
 
 ## <a name="benefits-of-sip-gateway"></a>Vorteile des SIP-Gateways
 
-Das SIP-Gateway verbindet kompatible SIP-Geräte mit Teams, damit Ihre Benutzer nahtlos zur Telefonie Teams migrieren können. Wenn Sie das SIP-Gateway verwenden, können die Benutzer folgende Aufgaben wie folgt tun:
+Das SIP-Gateway verbindet kompatible SIP-Geräte mit Teams, damit Ihre Benutzer nahtlos zu Teams Telefonie migrieren können. Mithilfe des SIP-Gateways können Ihre Benutzer folgende Aktionen ausführen:
 
-- **Anrufe:** Benutzer von SIP-Geräten können Anrufe an das Public Switched Telephone Network (PSTN), an andere SIP-Geräte sowie an Teams und Skype for Business senden. Sip-Gerätebenutzer können nur Benutzer anrufen, die Telefonnummern haben.
-- **Anrufe empfangen:** Benutzer von SIP-Geräten können einen Anruf über das PSTN, von Teams- oder Skype for Business-Benutzern mit SIP-Geräten sowie von Teams- und Skype for Business-Clientanwendungen erhalten. Das SIP-Gerät fungiert als Teams Endpunkt. Eingehende Anrufe werden auch auf das SIP-Gerät des Benutzers gerundet.
-- **Mehrere gleichzeitige Anrufe:** Ein Sip-Gerätebenutzer kann den Anruf halten, um andere Anrufe zu führen oder zu empfangen. Ein Benutzer eines SIP-Geräts kann auch zwei Anrufe telefonieren.
-- **Nicht stören:** Ein SIP-Gerätebenutzer kann "Nicht stören" auf dem Gerät festlegen, damit das Gerät nicht für eingehende Anrufe klingelt. Dies hat keine Auswirkungen auf den Status des Benutzers auf allen anderen Teams Endpunkten.
-- **Halten/Fortsetzen und Stummschalten/Stummschaltung wieder aufschalten:** Benutzer eines SIP-Geräts können einen Anruf halten und fortsetzen oder stummschalten und die Stummschaltung wieder aufnehmen, indem er die Features für diese Aktionen auf dem Gerät verwendet.
-- **Voicemail:** Benutzer von SIP-Geräten können elektronisch gespeicherte Sprachnachrichten anhören, die Anrufer für sie verlassen.
-- **Indikator für Meldungswartezeichen:** Sip-Gerätebenutzer können Benachrichtigungen erhalten, die sie bei neuen Voicemailnachrichten warnen.
-- **An- und Abmelden:** SIP-Geräte: Benutzer können sich auf dem Teams an- und abmelden.
-- **Doppelton-Multihäufigkeit:** Benutzer von SIP-Geräten können Nummerntasten drücken, um während interaktiver Sprachantworten Eingaben zu ermöglichen.
-- **Teams Besprechungen: Ein** SIP-Gerätebenutzer kann an einer Besprechung Teams, indem er die Nummer des Besprechungszugriffs wählt. Besprechungsteilnehmer können der Besprechung einen SIP-Gerätebenutzer hinzufügen, indem sie die Telefonnummer des Benutzers anrufen oder einfach einen Teilnehmer hinzufügen, indem sie auf "Teilnahme anfordern" klicken, um auch das SIP-Gerät des Benutzers zu warnen. Gastbenutzer aus einer anderen Organisation können einer Teams-Besprechung von einem Teilnehmer hinzugefügt werden, der die Nummer eines Gastbenutzers auswählt, um diesen Gast mit in die Besprechung mit einzukommen.
-- **Anrufübertragungen:** Benutzer von SIP-Geräten können Anrufe durch übertragen. Das SIP-Gateway unterstützt blinde und weisungsbehinderte Übertragungen.
-- **Lokale Anruf weiterleitung:** Benutzer eines SIP-Geräts können Weiterleitungsregeln (immer, timeout und beschäftigt) für das Gerät festlegen. Wenn das Gerät mit dem SIP-Gateway verbunden ist, wird der Anruf basierend auf der vom Gerätebenutzer festgelegten Regel an die Zieladresse umgeleitet. Damit die lokale Anruf weiterleitung funktioniert, muss der Administrator das - `AllowCallRedirect` Attribut in auf `Set-CsTeamsCallingPolicy` festlegen `Enabled`. 
+- **Anrufe tätigen:** Sip-Gerätebenutzer können Anrufe an das Telefonfestnetz (Public Switched Telephone Network, PSTN), an andere SIP-Geräte sowie an Teams und Skype for Business Benutzer tätigen. SIP-Gerätebenutzer können nur Benutzer anrufen, die über Telefonnummern verfügen.
+- **Anrufe empfangen:** SIP-Gerätebenutzer können einen Anruf vom PSTN, von Teams oder Skype for Business Benutzern mit SIP-Geräten sowie von Teams und Skype for Business Clientanwendungen empfangen. Das SIP-Gerät fungiert als Teams Endpunkt. Eingehende Anrufe werden auch an das SIP-Gerät des Benutzers verzweigt.
+- **Mehrere gleichzeitige Anrufe:** Ein SIP-Gerätebenutzer in einem Anruf kann den Anruf in den Haltebereich setzen, um andere Anrufe zu tätigen oder zu empfangen. Ein SIP-Gerätebenutzer kann auch zwei Anrufe konferenzen.
+- **Nicht stören:** Ein SIP-Gerätebenutzer kann festlegen, dass das Gerät nicht gestört wird, sodass das Gerät nicht für eingehende Anrufe klingelt. Dies hat keine Auswirkungen auf den Status des Benutzers auf allen anderen Teams Endpunkten.
+- **Halten/Fortsetzen und Stummschalten/Stummschalten aufheben:** Ein SIP-Gerätebenutzer kann einen Anruf mithilfe der Features für diese Aktionen auf dem Gerät halten und fortsetzen oder stummschalten und die Stummschaltung aufheben.
+- **Voicemail:** Sip-Gerätebenutzer können elektronisch gespeicherte Sprachnachrichten anhören, die Anrufer für sie verlassen.
+- **Warteindikator für Nachrichten:** Sip-Gerätebenutzer können Benachrichtigungen erhalten, die sie benachrichtigen, wenn sie neue Voicemailnachrichten haben.
+- **Anmelden und Abmelden:** BENUTZER von SIP-Geräten können sich bei Teams auf dem Gerät anmelden und abmelden.
+- **Dualton-Multifrequenz:** Sip-Gerätebenutzer können Nummerntasten drücken, um während interaktiver Sprachantwortanrufe Eingaben bereitzustellen.
+- **Teams Besprechungen:** Ein SIP-Gerätebenutzer kann an einer Teams Besprechung teilnehmen, indem er die Zugriffsnummer der Besprechung wählt. Besprechungsteilnehmer können der Besprechung einen SIP-Gerätebenutzer hinzufügen, indem sie die Telefonnummer des Benutzers anrufen oder einfach einen Teilnehmer hinzufügen, indem sie auf "Teilnahme anfordern" klicken, wird auch das SIP-Gerät des Benutzers benachrichtigt. Gastbenutzer aus einer anderen Organisation können einer Teams Besprechung von einem Teilnehmer hinzugefügt werden, der sich an die Nummer eines Gastbenutzers auswählt, um diesen Gast einzuschließen.
+- **Anrufüberweisungen:** SIP-Gerätebenutzer können Anrufe übertragen. DAS SIP-Gateway unterstützt sowohl blinde als auch beratende Übertragungen.
+- **Lokale Anrufweiterleitung:** Ein SIP-Gerätebenutzer kann Weiterleitungsregeln (immer, bei Timeout und beschäftigt) für das Gerät festlegen. Wenn das Gerät mit dem SIP-Gateway verbunden ist, wird der Anruf basierend auf der vom Gerätebenutzer festgelegten Regel an die Zieladresse umgeleitet. Damit die lokale Anrufweiterleitung funktioniert, muss der Administrator das `AllowCallRedirect` Attribut `Set-CsTeamsCallingPolicy` auf `Enabled`festlegen. 
 
 
 ## <a name="requirements-to-use-sip-gateway"></a>Anforderungen für die Verwendung des SIP-Gateways
 
-Teams Benutzer müssen über eine Telefonnummer verfügen, für die PSTN-Anrufe aktiviert sind, damit sie das SIP-Gateway verwenden können.
+Teams Benutzer müssen über eine Telefonnummer verfügen, bei der PSTN-Anrufe für die Verwendung des SIP-Gateways aktiviert sind.
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, Software und Lizenzen
 
-Wenn Sie über ein 3PIP- oder SIP-Gerät verfügen, müssen Sie über: 
+Wenn Sie über ein 3PIP- oder SIP-Gerät verfügen, müssen Sie über Folgendes verfügen: 
 - Eine Lizenz für Telefonsystem (über E5 oder eine eigenständige Lizenz)
-- PSTN-Aktivierung (d. h. eine Telefonnummer) über Microsoft Teams Anrufplan, Direktes Routing oder Netzbetreiber Verbinden
-- A Common Area Telefon license for any common area devices
+- PSTN-Aktivierung (d. h. eine Telefonnummer) über einen Microsoft Teams Anrufplan, Direct Routing oder Telefonieanbieter
+- Eine Lizenz für den gemeinsamen Bereich Telefon für alle Geräte im einheitlichen Bereich
 
 ## <a name="compatible-devices"></a>Kompatible Geräte
 
 |Anbieter    |Modell      |Mindestversion der Firmware|Genehmigte Firmwareversion|Hinweise|Links|
 |----------|-----------|------------|-----------|------------|------------|
-|**Cisco** |           |            |           |Geräte mit Unternehmensfirmware müssen in Multiplatform-Firmware konvertiert werden. Lesen Sie die Anleitung rechts, um zu erfahren, wie das geht.|[Cisco Firmwarekonvertierungsleitfaden](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
+|**Cisco** |           |            |           |Geräte mit Unternehmensfirmware müssen in Multiplatform-Firmware konvertiert werden. Lesen Sie den Leitfaden auf der rechten Seite, um zu erfahren, wie das geht.|[Cisco Firmware Konvertierungshandbuch](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
 |          |8832       |11.3.5MPP   |11.3.5MPP  |   |   |
 |          |6821       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7811       |11.1.1MPP   |11-3-3MPP  |   |   |
@@ -79,8 +79,9 @@ Wenn Sie über ein 3PIP- oder SIP-Gerät verfügen, müssen Sie über:
 |          |8861       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8865       |11.1.1MPP   |11-3-3MPP  |   |   |
 |**Poly**  |           |            |           |Das Gerät wird automatisch neu gestartet und die ausgewählte Firmware installiert.|   |
-|          |Julien 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
-|          |Julien 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
+|          |CCX 500    |7.0.3.0515  |7.2.1.1826 |   |   |
+|          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
+|          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX201     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX250     |5.9.5       |6.3.1.8427 |   |   |
@@ -127,7 +128,7 @@ Wenn Sie über ein 3PIP- oder SIP-Gerät verfügen, müssen Sie über:
 |          |T40G       |83          |76.84.0.125|   |   |
 |          |T41P       |83          |36.83.0.120|   |   |
 |          |T46G       |83          |28.83.0.130|   |   |
-|**AudioCodes**|       |            |           |Einige AudioCodes-SIP-Geräte benötigen eine Einstellung für die Bereitstellungs-URL. Laden Sie auf der rechten Seite Upgradedateien für die betroffenen AudioCodes-Geräte herunter, und installieren Sie sie. |[Herunterladbare Dateien für betroffene Geräte bei AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
+|**AudioCodes**|       |            |           |Einige AudioCodes-SIP-Geräte benötigen eine Bereitstellungs-URL-Einstellung. Laden Sie Upgradedateien für die betroffenen AudioCodes-Geräte auf der rechten Seite herunter, und installieren Sie sie. |[Herunterladbare Dateien für betroffene Geräte unter AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
 |          |405         |2.2.8      |2.2.16.570 |   |   |
 |          |405HD       |3.2.1      |2.2.16.570 |   |   |
 |          |420HD       |3.2.1      |2.2.16.570 |   |   |
@@ -136,7 +137,7 @@ Wenn Sie über ein 3PIP- oder SIP-Gerät verfügen, müssen Sie über:
 |          |450HD       |3.2.1      |3.4.6.687  |   |   |
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
-|          |TX50        |3.2.1      |3.4.6.687  |   |   |
+|          |RX50        |3.2.1      |3.4.6.687  |   |   |
 
 > [!NOTE]
-> Bei einigen Geräten ist die Firmware-Mindestversion höher als die genehmigte Firmwareversion. Der Grund: Die 3.X-Version ist die Skype for Business Version. Wir aktualisieren die SIP-Version 2.X.
+> Bei einigen Geräten ist die Minimale Firmwareversion größer als die genehmigte Firmwareversion. Dies liegt daran, dass die 3.X-Version die Skype for Business-Version ist. Wir aktualisieren die SIP-Version 2.X.

@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Sie den Gastzugriff in Microsoft Teams als Office 365-Administrator aktivieren bzw. deaktivieren.
-ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839196"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370808"
 ---
 # <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Aktivieren oder Deaktivieren des Gastzugriffs in Microsoft Teams
 
@@ -60,6 +60,7 @@ In diesem Artikel wird beschrieben, wie Sie Einstellungen für den Gastzugriff �
       - **Jetzt besprechen**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung des Features „Jetzt besprechen“ in Microsoft Teams zu ermöglichen.
       - **Gesendete Nachrichten bearbeiten**: **Aktivieren** Sie diese Einstellung, um Gästen die Bearbeitung von zuvor gesendeten Nachrichten zu ermöglichen.
       - **Gesendete Nachrichten löschen**: **Aktivieren** Sie diese Einstellung, um Gästen das Löschen von zuvor gesendeten Nachrichten zu ermöglichen.
+      - **Chat löschen** – Aktivieren Sie **diese Einstellung,** damit Gäste eine gesamte Chatunterhaltung löschen können.
       - **Chat**: **Aktivieren** Sie diese Einstellung, um Gästen den Zugriff auf den Chat in Teams zu ermöglichen.
       - **Giphys in Unterhaltungen**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Giphys in Unterhaltungen zu ermöglichen. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen.
       - **Giphy-Inhaltsbewertung**: Wählen Sie eine Bewertung aus der Dropdown-Liste aus:
