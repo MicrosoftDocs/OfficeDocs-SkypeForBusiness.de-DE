@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Erfahren Sie, wie Sie die Lob-App im Microsoft Teams Admin Center verwalten.
-ms.openlocfilehash: 495000af61c2b5d48dfdc30fe3b013a4ca8b8811
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: ff9985025146136ae78d8e822dd5b61903443605
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303987"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359775"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
@@ -36,7 +36,7 @@ Lob ist standardmäßig für alle Teams Benutzer in Ihrer Organisation aktiviert
 
 Beachten Sie, dass sich diese Einstellung sowohl auf die Lob-App als auch auf das Lob-Feature in der Viva Insights-App in Teams auswirkt.
 
-Wenn Sie den Status auf "Blockiert" festlegen, wird die Lob App innerhalb weniger Minuten blockiert. Lob in Viva Insights kann jedoch 7-9 Tage dauern, bis sie blockiert werden.
+Wenn Sie den Status auf "Blockiert" festlegen, wird die Lob-App innerhalb weniger Minuten für Teams blockiert. Lob in Viva Insights kann jedoch 7-9 Tage dauern, bis sie blockiert werden.
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von Lob für bestimmte Benutzer in Ihrer Organisation
 
