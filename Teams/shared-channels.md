@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams (Preview) verwenden und verwalten können.
-ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817846"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393879"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Freigegebene Kanäle in Microsoft Teams (Preview)
 
@@ -150,7 +150,7 @@ Die folgende Tabelle beschreibt die maximale Anzahl von Kanälen und Mitgliedern
 |Mitglieder in einem Team|25.000|Umfasst alle Benutzer im Team und direkte Mitglieder in freigegebenen Kanälen.|
 |Freigegebene Kanäle pro Team|50|Gehostet und für das Team freigegeben. (Schließt gelöschte Kanäle während des 30-tägigen Wiederherstellungsfensters ein.)|
 |Teams, für die ein Kanal freigegeben werden kann|50|Ausschließen des übergeordneten Teams|
-|Mitglieder in einem freigegebenen Kanal|1 000 direkte Mitglieder, einschließlich bis zu 50 Teams. (Im Sinne dieses Grenzwerts wird jedes Team, für das der Kanal freigegeben ist, als ein Mitglied gezählt.)|Echtzeit-Updates sind jeweils nur für 25 000 Benutzer verfügbar und nur 25 000 Benutzer werden in der Kanalliste angezeigt.|
+|Mitglieder in einem freigegebenen Kanal|5.000 direkte Mitglieder, einschließlich bis zu 50 Teams. (Im Sinne dieses Grenzwerts wird jedes Team, für das der Kanal freigegeben ist, als ein Mitglied gezählt.)|Echtzeit-Updates sind jeweils nur für 25 000 Benutzer verfügbar und nur 25 000 Benutzer werden in der Kanalliste angezeigt.|
 
 Es gelten die folgenden Einschränkungen:
 
