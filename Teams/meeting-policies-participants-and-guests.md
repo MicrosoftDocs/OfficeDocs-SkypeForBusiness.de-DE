@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: 05408ade76aa96b64f07899881beb68fa52c74b4
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+ms.openlocfilehash: 6a3c2dda51c40c57cd100eda9c8c959583dfb60b
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784699"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393749"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -32,15 +32,19 @@ ms.locfileid: "64784699"
 
 Über diese Einstellungen können Sie steuern, welche Besprechungsteilnehmer im Wartebereich bleiben müssen, bevor sie zur Besprechung zugelassen werden. Außerdem wird die Berechtigungsstufe während ihrer Teilnahme an Besprechungen festgelegt.
 
+- [Zulassen, dass anonyme Personen an einer Besprechung teilnehmen](#let-anonymous-people-join-a-meeting)
 - [Anonymen Personen das Starten einer Besprechung gestatten](#let-anonymous-people-start-a-meeting)
 - [Personen automatisch zulassen](#automatically-admit-people)
 - [Einwahlbenutzern das Umgehen des Wartebereichs gestatten](#allow-dial-in-users-to-bypass-the-lobby)
-- [Liveuntertitel](#live-captions)
+- [Live Beschriftungen](#live-captions)
 - [Chatten in Besprechungen](#chat-in-meetings)
 
 > [!NOTE]
 >Die Optionen zur Teilnahme an einer Besprechung variieren je nach den Einstellungen für die einzelnen Microsoft Teams-Gruppen und der Verbindungsmethode. Wenn Ihre Gruppe über Audiokonferenzen verfügt und sie für die Verbindung verwendet, sehen Sie sich [Audiokonferenzen](/microsoftteams/audio-conferencing-in-office-365) an. Wenn Ihre Microsoft Teams-Gruppe nicht über Audiokonferenzen verfügt, finden Sie weitere Informationen unter [Teilnehmen an einer Besprechung in Microsoft Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
+## <a name="let-anonymous-people-join-a-meeting"></a>Zulassen, dass anonyme Personen an einer Besprechung teilnehmen
+
+Mit dieser Einstellung pro Organisator kann jeder als anonymer Benutzer an Besprechungen teilnehmen, indem er den Link in der Besprechungseinladung auswählt. Weitere Informationen hierzu finden Sie unter [Teilnehmen an einer Besprechung ohne ein Teams-Konto](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Die Möglichkeit anonymer Benutzer, an Besprechungen teilzunehmen, wird auch auf Organisationsebene gesteuert. Die restriktivere Einstellung ist effektiv. Weitere Informationen finden Sie unter [Verwenden des Microsoft Teams Admin Center zum Konfigurieren einer organisationsweiten Richtlinie](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Anonymen Personen das Starten einer Besprechung gestatten
 
@@ -79,7 +83,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 > [!NOTE]
 > Wenn ein Einwahlbenutzer einer Besprechung beitritt, bevor ein Benutzer aus der Organisation beitritt, wird er in den Wartebereich gesetzt, bis ein Benutzer aus der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und ihn zulässt. Wenn Sie die Standardeinstellung für einen Benutzer ändern, gilt diese für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hatte.
 
-## <a name="live-captions"></a>Liveuntertitel
+## <a name="live-captions"></a>Live Beschriftungen
 
 Diese Einstellung ist eine Benutzerrichtlinie und gilt während einer Besprechung. Über diese Einstellung wird gesteuert, ob die Option zum **Aktivieren von Liveuntertiteln** verfügbar ist, damit die Benutzer die Liveuntertitel während einer Besprechung aktivieren bzw. deaktivieren können.  
 

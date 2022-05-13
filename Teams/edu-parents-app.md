@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187111"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393869"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Einrichten der übergeordneten Verbindung in Microsoft Teams für Education
 
@@ -41,7 +41,7 @@ Hier sind einige Ressourcen, die IT-Administratoren mit Erziehungsberechtigten u
 
 Die Elternverbindung ermöglicht Es Lehrkräften und Erziehungsberechtigten, mit Teams zu chatten, per E-Mail zu anrufen.
 
-- Teams Kontaktdaten des Erziehungsberechtigten bleiben mit SIS mithilfe von School Data Sync (SDS) auf dem neuesten Stand.
+- Teams Kontaktdaten des Erziehungsberechtigten bleiben mit SIS über School Data Sync (SDS) aktuell.
 - Es funktioniert mit überwachtem Chat. Weitere Informationen finden Sie unter [Verwenden von überwachten Chats in Microsoft Teams](supervise-chats-edu.md).
   - Standardmäßig verfügen Erziehungsberechtigte über eingeschränkte Berechtigungen, sodass sie nicht mit Schülern chatten oder Benutzer aus Chats entfernen können.
   - Diese Einstellung kann vom Mandantenadministrator geändert werden.
@@ -71,31 +71,41 @@ Die Elternverbindung ermöglicht Es Lehrkräften und Erziehungsberechtigten, mit
 - Sie benötigen School Data Sync (SDS), um die **Kontaktinformationen** zu Eltern und Erziehungsberechtigten jedes Schülers aufzufüllen.
   - [Bereitstellen von SDS](/schooldatasync/parents-and-guardians-in-sds)
 
-- Wenn Sie Unterstützung beim Einrichten von SDS und beim Auffüllen von **kontaktbezogenen Kontakten** für Eltern und Erziehungsberechtigte für die Kursteilnehmer in Ihrem Mandanten benötigen, wenden Sie sich an das EDU Customer Success-Team:
+- Wenn Sie Unterstützung beim Einrichten von SDS und beim Auffüllen von **Kontakten** für Eltern und Erziehungsberechtigte für die Schüler/Studenten in Ihrem Mandanten benötigen, wenden Sie sich an das EDU Customer Success-Team:
   - Abschluss des RFA-Prozesses bei [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Öffnen eines Tickets beim [Support](https://aka.ms/sdssupport).
 
-- Derzeit unterstützt SDS nur csv-basierte Datenaufnahme für übergeordnete Kontakte. Sie können jedoch [die PowerSchool-API-Synchronisierung](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) oder [OneRoster-API-Synchronisierung](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) für alle Listendaten verwenden und einfach übergeordnete Kontakte mithilfe von CSV hinzufügen.
-  - Erstellen Sie ein zweites [Synchronisierungsprofil mit dem CSV-Synchronisierungsformat SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
+- Derzeit unterstützt SDS nur csv-basierte Datenerfassung für übergeordnete Kontakte. Sie können jedoch [PowerSchool-API-Synchronisierung](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) oder [OneRoster-API-Synchronisierung](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) für alle Listendaten verwenden und einfach übergeordnete Kontakte mithilfe von CSV hinzufügen.
+  - Erstellen Sie ein zweites Synchronisierungsprofil mit dem [CSV-Synchronisierungsformat SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
   - Ziehen Sie die beiden aufgefüllten [übergeordneten Dateien](/schooldatasync/parent-contact-sync-file-format) mit den restlichen v1-Dateien leer (nur die Kopfzeilen).
     - User.csv
     - Guardianrelationship.csv
   - Informationen zum Anzeigen eines Beispielsatzes der v1-CSV-Dateien finden Sie in den [Mindestens erforderlichen Attributen GitHub Dateien](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - Wenn Sie das Abrufen der CSV-Dateien nach der ersten Synchronisierung automatisieren möchten, lesen Sie unser [CSV-Dateisynchronisierung-Automatisierungsdokument](/schooldatasync/csv-file-sync-automation).
-  - Wenn Sie Hilfe beim Einrichten Ihrer SDS-Datensynchronisierung benötigen, wenden Sie sich an [unser Kundenerfolgsteam](https://www.microsoft.com/fasttrack?rtc=1) , oder [öffnen Sie ein Supportticket](https://edusupport.microsoft.com/support?product_id=data_sync).
+  - Wenn Sie Hilfe beim Einrichten Ihrer SDS Datensynchronisierung benötigen, wenden Sie sich an [unser Kundenerfolgsteam](https://www.microsoft.com/fasttrack?rtc=1), oder [öffnen Sie ein Supportticket](https://edusupport.microsoft.com/support?product_id=data_sync).
 
-### <a name="teams-admin-center---policies"></a>Teams Admin Center – Richtlinien
+### <a name="teams-admin-center-policies"></a>Teams Admin Center-Richtlinien
 
 - Die Besitzer des Kursteams müssen Teams Chat aktiviert haben.
 - Kursteambesitzer müssen über externen Zugriff verfügen, **wobei Teams Konten nicht von einer Organisation verwaltet werden**, die aktiviert ist.
   - Dies muss auf Mandanten- und Benutzerebene aktiviert sein. Die Einstellung auf Mandantenebene finden Sie unter **"Benutzer > externen Zugriff**" im Teams Admin Center. Auf diese Einstellung kann auch über PowerShell zugegriffen werden. Auf Richtlinien für den externen Zugriff auf Benutzerebene kann nur über PowerShell zugegriffen werden. Weitere Anleitungen finden Sie unten in den PowerShell-Befehlen.
 
-> [!NOTE]
->Eltern und Erziehungsberechtigte werden im Feature "Eltern" als externe Benutzer klassifiziert, was bedeutet, dass sie nicht über vollständige Mandantenrechte verfügen. Sie haben nur Zugriff auf den Chat oder die Chats, denen sie hinzugefügt werden, sowie auf Dateien, Bilder und andere Inhalte, die im Chat freigegeben werden.
->
->Außerdem können externe Benutzer die Anwesenheit (offline, verfügbar, beschäftigt usw.) der Benutzer Ihrer Organisation sehen, dies kann jedoch mithilfe von PowerShell deaktiviert werden, um die Privatsphäre der Benutzer zu schützen. Verwenden Sie in PowerShell [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) und set ``EnablePrivacyMode=true``.
->
->Obwohl Eltern und Erziehungsberechtigte externe Benutzer sind, sind ihre Beiträge zu Chats auffindbar. Erfahren Sie, wie Sie eine Teams eDiscovery-Untersuchung durchführen, indem Sie "[Durchführen einer eDiscovery-Untersuchung von Inhalten in Microsoft Teams](ediscovery-investigation.md)" lesen.
+#### <a name="parent-and-guardian-restrictions"></a>Einschränkungen für Eltern und Erziehungsberechtigte
+Eltern und Erziehungsberechtigte werden in der Elternverbindung als externe Benutzer klassifiziert, was bedeutet, dass sie nicht über vollständige Mandantenrechte verfügen. Sie haben nur Zugriff auf den Chat oder die Chats, zu dem sie hinzugefügt werden, sowie auf Dateien, Bilder und andere Inhalte, die im Chat freigegeben wurden.
+
+Außerdem können externe Benutzer die Anwesenheit (offline, verfügbar, beschäftigt usw.) der Benutzer Ihrer Organisation sehen, dies kann jedoch mithilfe von PowerShell deaktiviert werden, um die Privatsphäre der Benutzer zu schützen. Verwenden Sie in PowerShell [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) und set ``EnablePrivacyMode=true``.
+
+Obwohl Eltern und Erziehungsberechtigte externe Benutzer sind, sind ihre Beiträge zu Chats auffindbar. Erfahren Sie, wie Sie eine Teams eDiscovery-Untersuchung durchführen, indem Sie "[Durchführen einer eDiscovery-Untersuchung von Inhalten in Microsoft Teams](ediscovery-investigation.md)" lesen.
+
+#### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Blockieren eines Elternteils oder Erziehungsberechtigten in einem Chat
+Lehrkräfte können einen Erziehungsberechtigten in einem Chat blockieren, der in der Übergeordneten Verbindung initiiert wurde.
+
+Der Klassenbesitzer kann:
+
+1. Öffnen Sie die Profilkarte des Erziehungsberechtigten, wählen Sie die Ellipse aus, und **blockieren Sie den Benutzer**. 
+2. Entfernen Sie dann den Erziehungsberechtigten aus dem Chat. 
+
+Der blockierte Benutzer kann keine zusätzlichen Chats mit dem Klassenbesitzer starten.
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Zulassen des externen Zugriffs mit Teams Konten, die nicht von einer Organisation verwaltet werden
 
