@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922666"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370818"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -147,8 +147,9 @@ Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures
   
 Wenn Sie diese Einstellung aktivieren, wird eine Kopie des Transkripts erstellt, das mit der Besprechungsaufzeichnung gespeichert wird. Dadurch werden für die Besprechungsaufzeichnung **"Suchen"**, **"Cc"** und **"Transkripte"** aktiviert.
 
+
 > [!NOTE]
-> Die Transkription für aufgezeichnete Besprechungen wird derzeit nur für Englisch (USA), Englisch (Kanada), Englisch (Indien), Englisch (Vereinigtes Königreich), Englisch (Australien), Englisch (Neuseeland), Deutsch (Deutschland), Portugiesisch (Brasilien), Niederländisch (Niederlande), Niederländisch (Belgien), Französisch (Frankreich), Spanisch (Spanien), Japanisch (Japan), Französisch (Kanada), Chinesisch (Kantonesisch, traditionell), Chinesisch (Mandarin, vereinfacht), Hindi (Indien), Italienisch (Italien), Koreanisch (Korea), Spanisch (Mexiko), Schwedisch (Schweden), Polnisch (Polen), Arabisch (Vereinigte Arabische Emirate), Arabisch (Saudi-Arabien), Dänisch (Dänemark), Finnisch (Finnland), Norwegisch (Norwegen) und Russisch (Russland) unterstützt. Sie werden zusammen mit den Besprechungsaufzeichnungen in OneDrive for Business und SharePoint Online-Cloudspeicher gespeichert.
+> Die Transkription für aufgezeichnete Besprechungen wird derzeit nur für Englisch (USA), Englisch (Kanada), Englisch (Indien), Englisch (UK), Englisch (Australien), Englisch (Neuseeland), Arabisch (Vereinigte Arabische Emirate), Arabisch (Saudi-Arabien), Chinesisch (Kantonesisch), Chinesisch (Mandarin), Tschechisch (Tschechien), Dänisch (Dänemark), Niederländisch (Belgien), Niederländisch (Niederlande), Französisch (Kanada), Französisch (Frankreich), Finnisch (Finnland), Deutsch (Deutschland), Hebräisch (Israel), Hindi (Indien), Italienisch (Italien), Japanisch (Japan), Koreanisch (Korea), Norwegisch (Norwegen), Polnisch (Polen), Portugiesisch (Brasilien), Portugiesisch (Portugal), Russisch (Russland), Spanisch (Mexiko), Spanisch (Spanien), Schwedisch (Schweden), Thailändisch (Thailand), Türkisch (Türkei) und Vietnamesisch (Vietnam) unterstützt. Sie werden zusammen mit den Besprechungsaufzeichnungen in OneDrive for Business und SharePoint Online-Cloudspeicher gespeichert.
 
 Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob der Initiator der Besprechung die Wahl haben soll, die Besprechungsaufzeichnung zu transkribieren.
 
