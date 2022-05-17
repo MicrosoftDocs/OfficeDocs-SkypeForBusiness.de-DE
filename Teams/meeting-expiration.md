@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in Microsoft Teams zu steuern.
-ms.openlocfilehash: 4496896cc86cfd64f175b9cab7c58c3798b9249f
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063246"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442021"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Besprechungsrichtlinien und Ablauf von Besprechungen in Microsoft Teams
 
@@ -181,3 +181,5 @@ Die Datei wird innerhalb von fünf Tagen nach dem Ablaufdatum gelöscht, obwohl 
 [Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)
 
 [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
+
+[Limits und Spezifikationen für Microsoft Teams](/microsoftteams/limits-specifications-teams)

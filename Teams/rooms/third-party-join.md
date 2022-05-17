@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird erläutert, wie Sie Ihre Organisation konfigurieren und Geräte Teams-Räume, um die Teilnahme von Drittanbieterbesprechungen an Cisco WebEx und Zoom zu unterstützen.
-ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846604"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442001"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren Teams Raumgeräten für die Teilnahme an Besprechungen von Drittanbietern
+# <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Aktivieren Teams-Räume Geräten für die Teilnahme an Besprechungen von Drittanbietern
 
 > [!NOTE]
 > Dieses Feature ist derzeit nur auf Teams-Räume auf Windows verfügbar.
@@ -65,8 +65,8 @@ Um die One-Touch-Teilnahme zu ermöglichen, müssen Informationen zu Besprechung
 
 Im Folgenden finden Sie einige Beispieleinträge, die Sie möglicherweise ihrer Defender für Office 365 Tresor Links hinzufügen müssen: Liste *nicht neu schreiben* oder Ausnahmeliste für Url-Neuschreibungen von Drittanbietern:
 
-- **Cisco WebEx** `*.webex.com*`
-- **Zoom** `*.zoom.us*`, , `*.zoom.com*``*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **Zoom** `*.zoom.us/*`, , `*.zoom.com/*``*.zoomgov.com/*`
 
 Eine vollständige Liste der URLs, die Sie Zu Ihrer Defender für Office 365 Tresor Links hinzufügen möchten *: Liste nicht neu schreiben* oder Url-Ausnahmeliste von Drittanbietern neu schreiben, wenden Sie sich an den Drittanbieter für Besprechungsdienst, von dem Sie Besprechungseinladungen annehmen möchten.
 

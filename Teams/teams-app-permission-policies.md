@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2a4862b1daedd90dce4d486ed1517efbfeaca336
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: a7276c2a538eacefc579a7233bb99fb7882afb8f
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "64737577"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442041"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von App-Berechtigungsrichtlinien in Microsoft Teams
 
@@ -87,14 +87,9 @@ Sie können das Teams Admin Center verwenden, um eine Richtlinie zu bearbeiten, 
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Verwalten von organisationsweiten App-Einstellungen für Microsoft 365 Government  
 
-In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams ist es wichtig, Folgendes über App-Einstellungen von Drittanbietern zu wissen, die für GCCH und DoD eindeutig sind.
+In einer Microsoft 365 Government – GCC, GCCH- und DoD-Bereitstellung von Teams werden alle Drittanbieter-Apps standardmäßig blockiert. In GCCH- und DOD-Clouds sind die Drittanbieter-Apps nicht verfügbar. Darüber hinaus wird in GCC der folgende Hinweis zum Verwalten von Apps von Drittanbietern auf der Seite "App-Berechtigungsrichtlinien" im Microsoft Teams Admin Center angezeigt.
 
-In GCC-, GCCH- und DoD-Bereitstellungen werden alle Drittanbieter-Apps standardmäßig blockiert. Darüber hinaus wird in GCC der folgende Hinweis zum Verwalten von Apps von Drittanbietern auf der Seite "App-Berechtigungsrichtlinien" im Microsoft Teams Admin Center angezeigt.
-
-:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Screenshot der App-Berechtigungsrichtlinie in GCCH und DoD." lightbox="media/app-permission-policies-gcc.png":::
-
-> [!NOTE]
-> In GCCH- und DOD-Clouds sind die Drittanbieter-Apps nicht verfügbar.
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Screenshot der App-Berechtigungsrichtlinie in GCCH und DoD.":::
 
 Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer Apps von Drittanbietern installieren können. Organisationsweite App-Einstellungen regeln das Verhalten für alle Benutzer und setzen alle anderen App-Berechtigungsrichtlinien, die den Benutzern zugewiesen wurden, außer Kraft. Sie können sie verwenden, um bösartige oder problematische Apps zu kontrollieren.
 
