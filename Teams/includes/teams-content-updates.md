@@ -3,6 +3,25 @@
 
 
 
+## <a name="week-of-may-09-2022"></a>Woche vom 9. Mai 2022
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 5/9/2022 | [Aktivieren von Benutzern für Direct Routing](/MicrosoftTeams/direct-routing-enable-users) | Geändert |
+| 5/9/2022 | [Konfigurieren von Telefonieanbieter](/MicrosoftTeams/operator-connect-configure) | Geändert |
+| 5/9/2022 | [Zuweisen von Richtlinien in Teams](/MicrosoftTeams/policy-assignment-overview) | Geändert |
+| 5/9/2022 | [Verlaufsbericht zur automatischen Telefonzentrale & Anrufwarteschleife](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Geändert |
+| 5/10/2022 | [Planen des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-plan) | Geändert |
+| 5/10/2022 | [Anrufrichtlinien in Microsoft Teams: Anruf- und Anrufweiterleitungsfeatures](/MicrosoftTeams/teams-calling-policy) | Geändert |
+| 5/10/2022 | [Microsoft Teams-Räume – Unterstütze App-Versionen](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Geändert |
+| 5/12/2022 | [Verwalten von Voicemailrichtlinien](/MicrosoftTeams/manage-voicemail-policies) | Geändert |
+| 5/12/2022 | [Konfigurieren des SIP-Gateways](/MicrosoftTeams/sip-gateway-configure) | Geändert |
+| 5/12/2022 | [Administratoreinrichtung von Eltern in Teams für Education](/MicrosoftTeams/edu-parents-app) | Geändert |
+| 5/13/2022 | [Walkie Talkie-App in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Geändert |
+| 5/13/2022 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+
+
 ## <a name="week-of-may-02-2022"></a>Woche vom 02. Mai 2022
 
 
@@ -33,7 +52,7 @@
 | 4/25/2022 | [Öffentliche Vorschau in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | Geändert |
 | 4/26/2022 | [Übersicht über Loop-Komponenten in Teams](/MicrosoftTeams/loop-components-in-teams) | Geändert |
 | 4/26/2022 | Ablauffunktion für Besprechungsaufzeichnungen | Entfernt |
-| 4/27/2022 | [Bericht zur Verwendung von Audiokonferenzen für ausgehende Anrufe](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | Hinzugefügt |
+| 4/27/2022 | [Audiokonferenz Nutzungsbericht für Ausgehende Verbindungen](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | Hinzugefügt |
 | 4/27/2022 | Überlegungen zur Domänenzusammenführung in Skype Room System | Entfernt |
 | 4/27/2022 | Migrieren von Lync Room System-Geräten zu Microsoft Teams-Räume | Entfernt |
 | 4/27/2022 | [Authentifizierung in Microsoft Teams-Räume](/MicrosoftTeams/rooms/rooms-authentication) | Geändert |
@@ -52,7 +71,7 @@
 | 4/25/2022 | [Öffentliche Vorschau in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | Geändert |
 | 4/26/2022 | [Übersicht über Loop-Komponenten in Teams](/MicrosoftTeams/loop-components-in-teams) | Geändert |
 | 4/26/2022 | Ablauffunktion für Besprechungsaufzeichnungen | Entfernt |
-| 4/27/2022 | [Bericht zur Verwendung von Audiokonferenzen für ausgehende Anrufe](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | Hinzugefügt |
+| 4/27/2022 | [Audiokonferenz Nutzungsbericht für Ausgehende Verbindungen](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | Hinzugefügt |
 | 4/27/2022 | Überlegungen zur Domänenzusammenführung in Skype Room System | Entfernt |
 | 4/27/2022 | Migrieren von Lync Room System-Geräten zu Microsoft Teams-Räume | Entfernt |
 | 4/27/2022 | [Authentifizierung in Microsoft Teams-Räume](/MicrosoftTeams/rooms/rooms-authentication) | Geändert |
@@ -81,10 +100,10 @@
 | 4/19/2022 | [Musik im Haltebereich](/MicrosoftTeams/music-on-hold) | Geändert |
 | 4/19/2022 | [Teams Das Verhalten von Apps basierend auf Benutzertypen](/MicrosoftTeams/non-standard-users) | Geändert |
 | 4/19/2022 | [Übersicht über Sicherheit und Compliance](/MicrosoftTeams/security-compliance-overview) | Geändert |
-| 4/20/2022 | [Richtlinien für gebührenfreie Audiokonferenznummern](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | Hinzugefügt |
-| 4/20/2022 | [Ändern von Telefonnummern in der Audiokonferenzbrücke](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Geändert |
+| 4/20/2022 | [richtlinien für gebührenfreie Audiokonferenz](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | Hinzugefügt |
+| 4/20/2022 | [Ändern von Telefonnummern auf Audiokonferenz Brücke](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Geändert |
 | 4/20/2022 | [Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | Geändert |
-| 4/20/2022 | [Verwalten von Audiokonferenzeinstellungen](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | Geändert |
+| 4/20/2022 | [Verwalten Audiokonferenz Einstellungen](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | Geändert |
 | 4/20/2022 | [Festlegen der in Einladungen enthaltenen Telefonnummern](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | Geändert |
 | 4/20/2022 | [Einrichten von Audiokonferenzen für Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Geändert |
 | 4/21/2022 | Microsoft StaffHub wurde eingestellt | Entfernt |
