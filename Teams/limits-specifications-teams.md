@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a488d026a0879da29a448381e1f2b800a2d9504
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294106"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400241"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -124,9 +124,9 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |------------|---------------|
 |Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 1000, umfasst GCC, GCCH und DoD, aber nicht A1 (300). Mit **Nur anzeigen** können bis zu 20.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5-SKU sowie über eine Behördenlizenz (GCC, GCC High, DoD) verfügt. Das „Nur anzeigen“-Erlebnis wird in Kürze auch für Webinare verfügbar sein. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
-|Anzahl der gleichzeitig aktiven Anrufe | 4 |
-|Maximale Größe von PowerPoint-Dateien | 2GB|
+|Maximale Größe von PowerPoint-Dateien | 2 GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
+| Maximale Länge der Besprechungsaufzeichnung | 4 Stunden oder 1,5 GB. Wenn dieses Limit erreicht ist, wird die Aufnahme beendet und automatisch neu gestartet.
   
 <sup>1</sup> Für eine optimale Benutzererfahrung in großen Besprechungen, Webinaren und Liveereignissen empfiehlt Microsoft die Verwendung der neuesten Version des Microsoft Teams-Desktopclients oder mobiler Microsoft Teams-Clients.
 
