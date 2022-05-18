@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams von der automatischen Attendant unterstützten Sprachen
-ms.author: mikeplum
-author: MikePlumleyMSFT
+title: von der automatischen Telefonzentrale unterstützte Sprachen Microsoft Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,17 +20,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams von der automatischen Attendant unterstützten Sprachen
-ms.openlocfilehash: 52dc175b5c8d7379d538c3a80b28b763279c7c41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: von der automatischen Telefonzentrale unterstützte Sprachen Microsoft Teams
+ms.openlocfilehash: 0a513e31f94052abc07707ddd57bc116c4768aff
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605834"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462039"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams von der automatischen Attendant unterstützten Sprachen
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>von der automatischen Telefonzentrale unterstützte Sprachen Microsoft Teams
 
-Die automatische Attendant unterstützt die folgenden Sprachen für Text zu Sprache (TTS) und Spracherkennung:
+Die automatische Telefonzentrale unterstützt die folgenden Sprachen für Text-zu-Sprache (Text to Speech, TTS) und Spracherkennung:
 
 |Sprache                                |Text-zu-Sprache (TTS)     |Spracherkennung                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
@@ -58,7 +58,7 @@ Die automatische Attendant unterstützt die folgenden Sprachen für Text zu Spra
 |Italienisch (Italien)                         |J                        |J                                      |
 |Japanisch (Japan)                        |J                        |J                                      |
 |Koreanisch (Korea)                          |J                        |                                       |    
-|Norwegisch (Bokmål, Norwegen)               |J                        |                                       |    
+|Norwegisch Bokmal (Norwegen)               |J                        |                                       |    
 |Polnisch (Polen)                         |J                        |                                       |    
 |Portugiesisch (Brasilien)                     |J                        |J                                      |
 |Portugiesisch (Portugal)                   |J                        |                                       |    
@@ -74,7 +74,7 @@ Die automatische Attendant unterstützt die folgenden Sprachen für Text zu Spra
 |Vietnamesisch (Vietnam)                    |J                        |                                       |    
 
 > [!NOTE]
-> Wenn Sie eine Sprache auswählen, die die Spracherkennung nicht unterstützt, wird die Option für Spracheingaben im Menü deaktiviert, und Namensanrufe sind nur über die Wähltastatur (MFV) möglich. Weitere Informationen finden Sie [unter DTMF-Eintrag (Dial by Name - Keypad).](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry)
+> Wenn Sie eine Sprache auswählen, die die Spracherkennung nicht unterstützt, wird die Spracheingabeoption im Menü deaktiviert, und die Namenswahl ist auf die Verwendung des DTMF-Eintrags (Keypad) beschränkt. Weitere Informationen finden Sie unter [Namensanwahl - DTMF-Eintrag (Keypad](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry)).
 
 > [!NOTE]
-> Wenn Sie Text in Sprache verwenden, muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung vorn ermöglicht.
+> Bei Verwendung von Text in Sprache muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung durchführt.
