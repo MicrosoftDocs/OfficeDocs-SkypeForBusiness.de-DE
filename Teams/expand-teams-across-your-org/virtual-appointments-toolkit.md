@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Erfahren Sie, wie Sie die Bookings-App in Microsoft Teams verwenden, um virtuelle Termine zu planen, zu verwalten und durchzuführen.
-ms.openlocfilehash: 5693049942d48da8c18e46b05f4a8d0bb2ebae0a
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 3fb6b28b9e9e1b7581ef80d9830bce97f6a7070d
+ms.sourcegitcommit: 02fcd6686a2f7a59c0ad67430c2b85f809c1b662
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846651"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65534380"
 ---
 # <a name="help-your-clients-and-customers-use-virtual-appointments"></a>Helfen Sie Ihren Kunden und Kunden bei der Verwendung virtueller Termine
 
@@ -113,6 +113,7 @@ Laden Sie eine dieser Infografiken herunter, und [passen Sie](#customize-your-in
 | [![Abbildung der Finanzdienstleistungs-Infografik](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | Anpassbare Infografik für Ihre Finanzdienstleistungsorganisation <br> [Als PDF herunterladen](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [Als PowerPoint herunterladen](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
 | [![Abbildung der Infografik für den Einzelhandel](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | Anpassbare Infografik für Ihre Einzelhandelsorganisation <br> [Als PDF herunterladen](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [Als PowerPoint herunterladen](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
 | [![Abbildung der Infografik für das Gesundheitswesen](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | Anpassbare Infografik für Ihre Organisation im Gesundheitswesen <br> [Als PDF herunterladen](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [Als PowerPoint herunterladen](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
+| [![Abbildung der nicht branchenspezifischen Infografik.](../media/va-generic-thumb.png)](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) | Anpassbare Infografik, die nicht für eine bestimmte Branche spezifisch ist <br> [Als PDF herunterladen](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) <br> [Als PowerPoint herunterladen](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pptx) |
 
 ### <a name="customize-your-infographic"></a>Anpassen ihrer Infografik
 
