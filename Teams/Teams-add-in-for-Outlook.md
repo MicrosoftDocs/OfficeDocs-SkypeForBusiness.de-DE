@@ -19,14 +19,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392873"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462029"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
+
+In diesem Artikel werden die Authentifizierungsanforderungen und die Funktionalität des Teams-Besprechungs-Add-Ins in Outlook für Ihre Endbenutzer beschrieben. Außerdem wird gezeigt, wie Sie private Besprechungen aktivieren und Richtlinieneinstellungen für Benutzer im Inselmodus anpassen können. Wenn Sie Probleme mit dem Add-In haben, lesen Sie unsere [neuesten Anleitungen zur Problembehandlung](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
 
 Mit dem Microsoft Teams-Besprechungs-Add-Ins können Benutzer eine Teambesprechung von Outlook aus planen. Das Add-in ist für Outlook unter Windows, Mac, im Web und Mobile verfügbar.
 
@@ -126,59 +128,6 @@ Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwic
 - Benutzer können keine Liveereignisse von Outlook aus planen. Wechseln Sie zu Microsoft Teams, um Liveereignisse zu planen. Weitere Informationen finden Sie unter [Was sind Microsoft Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md).
 
 Erfahren Sie mehr über [Besprechungen und Anrufen in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-
-## <a name="troubleshooting"></a>Problembehandlung
-
-Führen Sie die folgenden Schritte aus, um Probleme mit dem Microsoft Teams-Besprechungs-Add-In zu beheben.
-
-> [!NOTE]
-> Dieses Szenario kann auch mithilfe der [Befehlszeilenversion von Microsoft Support- und Wiederherstellungs-Assistent](/office365/troubleshoot/administration/sara-command-line-version) mit SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook verwaltet werden.
-
-### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Das Microsoft Teams-Besprechungs-Add-In wird in Outlook für Windows nicht angezeigt
-
-Wenn Sie das Add-In für Microsoft Teams-Besprechungen für Outlook nicht installieren können, versuchen Sie diese Schritte zur Problembehandlung.
-
-[Laden Sie](https://aka.ms/SaRA-TeamsAddInScenario) den [Microsoft Support-Wiederherstellungsassistenten](https://aka.ms/SaRA_Home) herunter und führen Sie ihn aus, um automatisierte Problembehandlungsmaßnahmen und Fixes durchzuführen.
-
-Sie können aber auch die folgenden Schritte manuell ausführen:
-
-- Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für Microsoft Teams-Besprechung funktioniert.
-- Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Microsoft Teams verfügt, die das Planen von Besprechungen in Microsoft Teams ermöglicht. Weitere Informationen hierzu finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](/microsoftteams/meeting-policies-in-teams-general).
-- Überprüfen Sie, ob der Benutzer über eine Microsoft Teams-Besprechungsrichtlinie verfügt, die das Outlook-Add-In zulässt. Weitere Details finden Sie unter [Einstellungen für Besprechungsrichtlinien – Allgemein](./meeting-policies-in-teams-general.md#outlook-add-in).
-- Stellen Sie sicher, dass der Benutzer den Microsoft Teams-Desktopclient installiert hat. Das Besprechungs-Add-In wird nicht installiert, wenn nur der Microsoft Teams-Webclient verwendet wird.
-- Stellen Sie sicher, dass der Benutzer Outlook 2013 oder höher installiert hat.
-- Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32.exe" verfügt.
-- Stellen Sie sicher, dass alle verfügbaren Updates für den Outlook-Desktopclient angewendet wurden.
-- Führen Sie die folgenden Schritte aus:
-  - Starten Sie den Teams-Desktopclient neu.
-  - Melden Sie sich ab, und melden Sie sich dann wieder beim Teams-Desktopclient an.
-  - Starten Sie den Outlook-Desktopclient neu. (Stellen Sie sicher, dass Outlook nicht im Admin-Modus ausgeführt wird.)
-
-Wenn das Add-In immer noch nicht angezeigt wird, stellen Sie sicher, dass es in Outlook nicht deaktiviert ist.
-
-- Wählen Sie in Outlook **Datei** und dann **Optionen** aus.
-- Wählen Sie im Dialogfeld **Outlook-Optionen** die Registerkarte **Add-Ins** aus.
-- Vergewissern Sie sich, dass das **Microsoft Teams-Besprechungs-Add-In für Microsoft Office** in der Liste **Aktive Anwendungs-Add-Ins** aufgeführt ist.
-- Wenn das Add-In in der Liste **Deaktivierte Anwendung-Add-Ins** aufgeführt ist, wählen Sie unter **Verwalten** die Option **COM-Add-Ins** und dann **Los ...** aus.
-- Aktivieren Sie das Kontrollkästchen neben **Microsoft Teams-Besprechungs-Add-in für Microsoft Office**.
-- Wählen Sie in allen Dialogfeldern **OK** aus, und starten Sie Outlook erneut.
-
-Eine allgemeine Anleitung zum Verwalten von Add-Ins finden Sie unter [Anzeigen, Verwalten und Installieren von Add-Ins in Office-Programmen](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
-
-Wenn das Add-In noch immer nicht angezeigt wird, führen Sie die folgenden Schritte aus, um die Registrierungseinstellungen zu überprüfen.
-
-> [!NOTE]
-> Durch eine fehlerhafte Bearbeitung der Registrierung können schwerwiegende Schäden am System verursacht werden. Bevor Sie Änderungen an der Registrierung vornehmen, sollten Sie alle wichtigen Computerdaten sichern.
-- Starten Sie RegEdit.exe.
-- Wechseln Sie zu "HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins".
-- Überprüfen Sie, ob "TeamsAddin.FastConnect" vorhanden ist.
-- Vergewissern Sie sich, dass in"TeamsAddin.FastConnect" "LoadBehavior" vorhanden ist und auf "3" festgelegt ist.
-  - Wenn "LoadBehavior" einen anderen Wert als 3 aufweist, ändern Sie diesen auf 3, und starten Sie Outlook erneut.
-
-### <a name="delegate-scheduling-does-not-work"></a>Das Delegieren der Planung funktioniert nicht
-
-Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff auf Exchange Web Server (EWS)](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange) gesteuert wird, ist ein Stellvertreter nicht in der Lage, eine Microsoft Teams-Besprechung im Namen des Vorgesetzten zu planen. Die Lösung für diese Konfiguration befindet sich noch in der Entwicklung und wird demnächst veröffentlicht. Zur Problemumgehung kann Ihr Administrator die folgende Zeichenfolge zur EWS-Zulassungsliste hinzufügen: "*SchedulingService*". 
-
 
 ## <a name="related-topics"></a>Verwandte Themen
 
