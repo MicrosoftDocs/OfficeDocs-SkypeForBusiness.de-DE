@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5097586825b231decd220a30bdde85bf258e27fc
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65313107"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65601625"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Anruf- und Anrufweiterleitung in Teams
 
@@ -99,7 +99,7 @@ Mit "Beschäftigt bei Beschäftigt" (Beschäftigt-Optionen) können Sie konfigur
 
 Mit dieser Einstellung können Benutzer PSTN-Nummern mithilfe des Teams-Webclients aufrufen.
 
-### <a name="incoming-meeting-invites-are-automatically-answered"></a>Eingehende Besprechungseinladungen werden automatisch beantwortet.
+### <a name="automatically-answer-incoming-meeting-invites"></a>Automatisches Beantworten eingehender Besprechungseinladungen
 
 Diese Einstellung steuert, ob eingehende Besprechungseinladungen automatisch beantwortet werden. Diese Option ist standardmäßig deaktiviert. Beachten Sie, dass diese Einstellung nur für eingehende Besprechungseinladungen gilt. Sie gilt nicht für andere Arten von Anrufen.
 

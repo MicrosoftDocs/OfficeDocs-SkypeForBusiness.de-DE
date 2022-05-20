@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592890"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598358"
 ---
 # <a name="shifts-connectors"></a>Schichtenverbinder
 
@@ -30,7 +30,7 @@ Schichtenconnectors ermöglichen Ihnen die Integration von Schichten, dem Zeitpl
 
 Wenn Sie Ihr WFM-System mit Teams verbinden, können Ihre Mitarbeiter in Service und Produktion Zeitpläne effektiver verwalten und alltägliche Prozesse für mehr Engagement und Produktivität optimieren. Ihre Mitarbeiter in Service und Produktion haben einen Zentralen für ihre Planung, Kommunikation und Zusammenarbeit, um ihre Arbeit von praktisch überall und auf jedem Gerät erledigen zu können.
 
-Wir bieten verwaltete und Open Source Shifts-Connectors an. In diesem Artikel erhalten Sie einen Überblick über Schichtenconnectors und deren Funktionsweise.
+In diesem Artikel erhalten Sie einen Überblick über Schichtenconnectors und deren Funktionsweise.
 
 ## <a name="how-shifts-connectors-work"></a>Funktionsweise von Schichtenconnectors
 
@@ -115,17 +115,6 @@ Mitarbeiter in Service und Produktion können:
 - Fordern Sie Abwesenheitszeiten an, öffnen Sie Schichten, tauschen Sie Schichten und bieten Sie Schichten in Schichten an.
 
 Weitere Informationen finden Sie unter https://connect.zebra.com/microsoft-connectors.
-
-## <a name="open-source-shifts-connectors"></a>Open-Source-Schichtenconnectors
-
-Open Source Shifts Connectors sind communitygesteuerte Integrationen, die auf [Schichten Graph APIs](/graph/api/resources/shift) basieren. Die folgenden Open Source-Connectors sind verfügbar:
-
-- Kronos-to-Teams WFC lokal
-- JDA-to-Teams Shifts Connector (für Blue Yonder Version 2017 bis 2020.2)
-
-Jeder Connector enthält detaillierte Bereitstellungs- und Konfigurationsanleitungen. Dazu gehören Azure Resource Manager (ARM)-Bereitstellungsskripts, mit denen Sie alle erforderlichen Dienste in Microsoft Azure hosten können. Der Quellcode und die Bereitstellungsskripts stehen in einem [GitHub-Repository](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) zum Download zur Verfügung. Sie können die Bereitstellung wie besehen oder anpassen oder erweitern, um Ihre Anforderungen zu erfüllen.
-
-Weitere Informationen finden Sie unter ["Produktionsbereite Schichtenconnectors](/microsoftteams/platform/samples/shifts-wfm-connectors)".
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
