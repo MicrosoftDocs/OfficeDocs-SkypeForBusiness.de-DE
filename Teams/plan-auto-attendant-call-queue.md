@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonzentralen und Anrufwarteschleifen und wie Sie diese verwenden können, um Anrufern zu helfen, durch ein Menüsystem zu navigieren, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 76755e722abdcde6673baac42681697165921aca
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e811586a42c113960d61f51cd30ce824646d3b7c
+ms.sourcegitcommit: a867e2cc94adb96eba5e989a4d7ba5fe7a427939
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059276"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65611911"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonzentralen und Anrufwarteschleifen in Microsoft Teams
 
-Mit automatischen Telefonzentralen können Sie Menüoptionen einrichten, um Anrufe basierend auf der Eingabe des Anrufers weiterzuleiten. Menüoptionen, z. B. "Für Den Vertrieb, drücken Sie 1.  For Services press 2", for an auto attendant let an organization provide a series of choices that guide callers to their destination quickly, without relying on a human operator to handle incoming calls.
+Mit automatischen Telefonzentralen können Sie Menüoptionen einrichten, um Anrufe basierend auf der Eingabe des Anrufers weiterzuleiten. Menüoptionen für eine automatische Telefonzentrale – z. B. "Für den Vertrieb drücken Sie 1 - Für Dienste drücken Sie 2" – lassen Sie eine Organisation eine Reihe von Optionen bereitstellen, die Anrufer schnell zu ihrem Ziel führen, ohne sich auf einen menschlichen Operator verlassen zu müssen, um eingehende Anrufe zu verarbeiten.
 
-Anrufwarteschleifen sind Wartebereiche für Anrufer. In Situationen, in denen Anrufer jemanden mit einer bestimmten Spezialität – z. B. Vertrieb oder Service – anstelle einer bestimmten Person erreichen müssen, können Sie Anrufwarteschleifen verwenden, um Anrufer mit der Gruppe von Telefonisten zu verbinden, die ihnen helfen können. Anrufer werden so lange gehalten, bis ein agent, der der Warteschleife zugewiesen ist, für den Anruf verfügbar ist.
+Anrufwarteschleifen sind Wartebereiche für Anrufer. In Situationen, in denen Anrufer jemanden mit einer bestimmten Spezialität – z. B. Vertrieb oder Service – anstelle einer bestimmten Person erreichen müssen, können Sie Anrufwarteschleifen verwenden, um Anrufer mit der Gruppe von Agents zu verbinden, die ihnen helfen können. Anrufer werden so lange gehalten, bis ein agent, der der Warteschleife zugewiesen ist, für den Anruf verfügbar ist.
 
 Durch die gemeinsame Verwendung von automatischen Telefonzentralen und Anrufwarteschleifen können Anrufe auf einfache Weise an die geeignete Person oder Abteilung in Ihrer Organisation weitergeleitet werden.
 
@@ -70,8 +70,8 @@ Sie können einer Anrufwarteschleife eine Telefonnummer zuweisen. Anrufwarteschl
 Um automatische Telefonzentralen und Anrufwarteschleifen zu konfigurieren, benötigen Sie die folgenden Ressourcen:
 
 - Ein Ressourcenkonto für jede automatische Telefonzentrale und jede Anrufwarteschleife
-- Eine kostenlose Microsoft-Telefon System – Virtuelle Benutzerlizenz für jedes Ressourcenkonto
-- Mindestens eine [Microsoft-Dienstnummer](getting-service-phone-numbers.md), Telefonieanbieter Nummer, Direct Routing-Nummer oder eine Hybridnummer für jedes Ressourcenkonto, für das Sie direkt wählbar sein möchten
+- Eine kostenlose Microsoft-Telefon System – Virtuelle Benutzerlizenz für jedes Ressourcenkonto, das direkt von Teams Benutzern oder externen Telefonnummern wählbar ist
+- Mindestens eine [Microsoft-Dienstnummer](getting-service-phone-numbers.md), Telefonieanbieter Nummer, Direct Routing-Nummer oder eine Hybridnummer für jedes Ressourcenkonto, das direkt über externe Telefonnummern wählbar sein soll
  - Die Servicenummer kann eine gebührenpflichtige oder gebührenfreie Nummer sein.
 
 > [!NOTE]
@@ -80,15 +80,25 @@ Um automatische Telefonzentralen und Anrufwarteschleifen zu konfigurieren, benö
 Agents, die Anrufe aus den Anrufwarteschleifen erhalten, müssen online oder lokal aktiviert Enterprise-VoIP werden. Wenn die Anrufwarteschleifen Direct Routing-Nummern verwenden, ist außerdem Folgendes erforderlich:
 
 - Eine Online-VoIP-Routingrichtlinie zugewiesen, wenn die Anrufwarteschleife den Übertragungsmodus verwendet
-- Eine Audiokonferenzlizenz oder eine Online-VoIP-Routingrichtlinie, die zugewiesen ist, wenn die Anrufwarteschleife den Konferenzmodus verwendet
+- Eine Audiokonferenz-Lizenz oder online zugewiesene VoIP-Routingrichtlinie, wenn die Anrufwarteschleife den Konferenzmodus verwendet
 
 Wenn Ihre Agents die Microsoft Teams-App für Anrufwarteschleifenanrufe verwenden, müssen sie sich im TeamsOnly-Modus befinden.
 
-Wenn Sie ein Ressourcenkonto für Anrufleitungs-ID-Zwecke in Anrufwarteschleifen verwenden oder wenn eine automatische Telefonzentrale oder Anrufwarteschleife Anrufe an eine externe Telefonnummer übergibt, muss das Ressourcenkonto über eine Telefonsystem Virtual User-Lizenz verfügen und eine der folgenden Zugewiesenen:
+Wenn Sie ein Ressourcenkonto für Anrufleitungs-ID-Zwecke in Anrufwarteschleifen verwenden, muss dem Ressourcenkonto eine Telefonsystem Virtual User-Lizenz und eine der folgenden zugewiesen sein:
 
 - Eine [Anrufplanlizenz](calling-plans-for-office-365.md) und eine zugewiesene Telefonnummer
 - Eine [Telefonieanbieter](operator-connect-plan.md) zugewiesene Telefonnummer
 - Eine [Online-VoIP-Routingrichtlinie](manage-voice-routing-policies.md) (Telefonnummernzuweisung ist optional, wenn Direct Routing verwendet wird)
+
+Wenn eine automatische Telefonzentrale oder Anrufwarteschleife Anrufe an eine externe Nummer übergibt, müssen bestimmte Ressourcenkonten wie unten beschrieben über eine Telefonsystem Virtual User-Lizenz verfügen und eine der folgenden zugewiesen sein:
+
+- Eine [Anrufplanlizenz](calling-plans-for-office-365.md) und eine zugewiesene Telefonnummer
+- Eine [Telefonieanbieter](operator-connect-plan.md) zugewiesene Telefonnummer
+- Eine [Online-VoIP-Routingrichtlinie](manage-voice-routing-policies.md) (Telefonnummernzuweisung ist optional, wenn Direct Routing verwendet wird)
+
+Welches Ressourcenkonto lizenziert werden soll:
+- Lizenzieren des Ressourcenkontos für die erste automatische Telefonzentrale, die den Anruf empfängt, wenn diese automatische Telefonzentrale an andere automatische Telefonzentralen oder Anrufwarteschleifen übergibt, die Anrufe extern übertragen
+- Lizenzieren Sie in allen anderen Anrufszenarien das Ressourcenkonto der automatischen Telefonzentrale oder Anrufwarteschleife, die die externe Übertragung durchführt.
 
 > [!NOTE]
 > Wenn der dem Ressourcenkonto zugewiesene Anrufplan deaktiviert oder entfernt wird, werden [Guthaben für Kommunikationen](what-are-communications-credits.md), sofern im Mandanten verfügbar (ohne dem Ressourcenkonto zugewiesen) verwendet. Wenn kein Anrufplan oder Guthaben für Kommunikationen vorhanden ist, schlägt der Anruf fehl.
