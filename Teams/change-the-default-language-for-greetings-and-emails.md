@@ -3,7 +3,7 @@ title: Ändern der Standardsprache für Ansagen und E-Mails
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: jenstr
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -22,61 +22,78 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie eine Microsoft Teams-Skype for Business einrichten, um eine andere Sprache für die standardmäßige Voicemail-Begrüßung Ihrer Organisation zu verwenden.
-ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Erfahren Sie, wie Sie Microsoft Teams und Skype for Business einrichten, um eine andere Sprache für die standardmäßige Voicemail-Begrüßung Ihrer Organisation zu verwenden.
+ms.openlocfilehash: 5e486e94470fd6303d132fdaa9c23b0ca6f65b98
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014419"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624089"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 
-Wenn Sie ein globaler [Administrator sind,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)können Sie ein Skype for Business für die Wiedergabe der Voicemail-Standardgrußnachricht in einer anderen Sprache einrichten. Die standardmäßige Systemansage lautet zum Beispiel „Bitte hinterlassen Sie eine Nachricht für John Smith. Nehmen Sie Ihre Nachricht nach dem Ton auf. Wenn Sie fertig sind, legen Sie auf, oder drücken Sie die Rautetaste, um weitere Optionen zu verwenden.".
-  
- **Lesen Sie zunächst diese wichtigen Informationen:**
-  
-- **Die Ihnen zur Verfügung stehenden Sprachen hängen vom Standort Ihrer Organisation ab**. Wenn sich Ihre Organisation beispielsweise in den USA befindet, können Sie die Standardsprache auf Englisch oder Spanisch festlegen. Wenn sich Ihre Organisation in Kanada befindet, können Sie zwischen Englisch und Französisch wählen. Eine Liste der unterstützten Sprachen in Teams und Skype for Business finden Sie in den folgenden Themen:
-  - [Microsoft Teams unterstützte Sprachen](languages-for-voicemail-greetings-and-messages.md)
-  - [Skype for Business unterstützte Sprachen](/skypeforbusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages)
+Cloud-Voicemail verwendet verschiedene Spracheinstellungen zum Wiedergeben von Begrüßungen, zum Generieren von Transkriptionsübersetzungen und zum Generieren von Voicemailnachrichten. Die Spracheinstellungen können standardmäßig auf Mandantenebene, nach Richtlinie oder einzeln für einen bestimmten Benutzer angegeben werden.
 
-- **Ändern der Sprachen für die Voicemail-Begrüßungs- und Voicemailnachrichten einzelner Benutzer.** Sie können die bevorzugte Sprache für Benutzer ändern, wodurch sich die Sprache ihrer Voicemail-Begrüßungs- und Voicemailnachrichten ändert, die an ihr Postfach Outlook werden. Weitere Informationen finden Sie unter [Festlegen von Sprach- und Regioneinstellungen](/office365/troubleshoot/access-management/set-language-and-region)für Microsoft 365 oder Office 365.
+## <a name="greetings"></a>Grüße
+Begrüßungen werden an den Anrufer wiedergegeben, der voicemail verlässt, und können die folgenden Typen sein:
 
-  > [!NOTE]
-  > Benutzer können nach der Anmeldung ihre eigene Ansagesprache in ihren Einstellungen ändern. Weitere Informationen finden Sie unter Ändern der Anzeigesprache und Zeitzone [in Microsoft 365 for Business.](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
-  
-- **Möchten Sie Ihre ausgehende Voicemail-Nachricht aufzeichnen?** Lesen Sie [Überprüfen von Skype for Business-Voicemail und -Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Für Microsoft Teams – Benutzer können ihre Voicemaileinstellungen über die Einstellungen des [Teams-Desktops ändern.](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- Systemgrüße
+- Benutzerdefinierte Begrüßungen, die vom aufgerufenen Benutzer aufgezeichnet werden
+- Benutzerdefinierte Text-zu-Sprache-Begrüßung, die für den aufgerufenen Benutzer angegeben ist
 
-- **Möchten Sie die Sprache der Voicemail-Eingabeaufforderung ändern?** Wählen Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) aus, und wählen Sie unter Eingabeaufforderungssprache **eine neue Sprache aus.** For Microsoft Teams - Users can change their voicemail greeting from the [Teams desktop client settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+Die zum Wiedergeben der Systemansagen verwendete Sprache ist in der Reihenfolge der Priorität entweder die primäre und sekundäre Eingabeaufforderungssprache, die in der Dem Benutzer zugewiesenen Online-Voicemailrichtlinie, der für den Benutzer angegebenen bevorzugten Sprache oder der Standardsprache des Mandanten angegeben ist.
+
+Die benutzerdefinierte und abwesenheitsspezifische Begrüßung wird vom Benutzer in der vom Benutzer ausgewählten Sprache aufgezeichnet.
+
+Wenn benutzerdefinierte Text-zu-Sprache-Begrüßungen für den Benutzer entweder vom Benutzer oder vom Mandantenadministrator angegeben werden, wird zum Generieren der Sprache die "PromptLanguage" verwendet, die zusammen mit den Text-zu-Sprache-Begrüßungen angegeben wird.
+
+Die benutzerdefinierten Text-zu-Sprache-Begrüßungen werden nur verwendet, wenn keine benutzerdefinierten Begrüßungen für den Benutzer aufgezeichnet werden.
+
+## <a name="transcription"></a>Transkription
+Wenn dies durch die Online-Voicemailrichtlinie für den aufgerufenen Benutzer aktiviert ist, versucht Cloud-Voicemail, die vom Anrufer hinterlassene Voicemail zu transkribieren. Sie verwendet die Spracherkennung, um die im Audioinhalt verwendete Sprache zu verstehen und, wenn möglich, den Inhalt mithilfe der erkannten Sprache zu transkribieren.It will use speech detection to understand the language used in the audio content, if possible, transcribe the content using the detected language.
+
+## <a name="transcription-translation"></a>Transkriptionsübersetzung
+Wenn dies durch die Online-Voicemailrichtlinie für den aufgerufenen Benutzer aktiviert ist, übersetzt Cloud-Voicemail die transkribierte Voicemail. Es wird von der sprache, die während der Spracherkennung erkannt wird, in prioritätsreihenfolge entweder die bevorzugte Sprache für den Benutzer angegeben oder die Standardmandantensprache übersetzt.
+
+## <a name="voicemail-message-template"></a>Voicemail-Nachrichtenvorlage
+Cloud-Voicemail generiert die Voicemailnachricht mithilfe einer Sprachvorlage, die auf der für den Benutzer angegebenen bevorzugten Sprache oder der Standardsprache des Mandanten in der Reihenfolge der Priorität basiert.
+
+## <a name="setting-the-preferred-language-for-a-user"></a>Festlegen der bevorzugten Sprache für einen Benutzer
+Sie können die bevorzugte Sprache für einen Benutzer mithilfe von PowerShell entweder in Azure Active Directory oder im lokales Active Directory festlegen. Weitere Informationen finden Sie unter [Festlegen von Sprach- und Regionseinstellungen für Microsoft 365 oder Office 365](/office365/troubleshoot/access-management/set-language-and-region).
+
+Benutzer können ihre eigene bevorzugte Sprache über ihre Einstellungen ändern, nachdem sie sich angemeldet haben. Weitere Informationen finden Sie unter [Ändern der Anzeigesprache und Zeitzone in Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Ändern der Systemsprache für alle Benutzer in der Organisation
 
-1. Melden Sie sich bei [mit Ihrem globalen Administratorkonto](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
+1. Melden Sie sich mit Ihrem [globalen Administratorkonto](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) unter an [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 
-2. Wählen Sie Microsoft 365 Admin Center der Option **Organisationsprofil Einstellungen**  >  **Einstellungen**  >  **aus.**
-
-     ![Screenshot, der zeigt, Einstellungen und dann Organisationsprofil auswählen.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
-  
-3. Wählen Sie **Bearbeiten** aus.
-
-    ![Screenshot mit der Option "Bearbeiten"](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
-  
+2. Wählen Sie im Microsoft 365 Admin Center **Einstellungen** >  **Org** **settingsOrganization-Profil** >  aus.
+3. Wählen Sie **"Organisationsinformationen" aus**.
 4. Wählen Sie in der Liste **Bevorzugte Sprache** eine Sprache für alle in der Organisation aus.
-
 5. Klicken Sie auf **Speichern**.
 
-## <a name="related-articles-for-the-admin"></a>Verwandte Artikel für Administratoren
+**Die Ihnen zur Verfügung stehenden Sprachen hängen vom Standort Ihrer Organisation ab**. Wenn sich Ihre Organisation beispielsweise in den USA befindet, können Sie die Standardsprache auf Englisch oder Spanisch festlegen. Wenn sich Ihre Organisation in Kanada befindet, können Sie zwischen Englisch und Französisch wählen.
 
-- [Telefonsystem und Anrufpläne](calling-plan-landing-page.md)
+## <a name="supported-languages-in-cloud-voicemail"></a>Unterstützte Sprachen in Cloud-Voicemail
+Eine Liste der unterstützten Sprachen in Cloud-Voicemail für Microsoft Teams und Skype for Business finden Sie [unter Cloud-Voicemail unterstützten Sprachen](languages-for-voicemail-greetings-and-messages.md).
+  
 
-- [Einrichten von Anrufplänen](set-up-calling-plans.md)
+## <a name="custom-greeting-recorded-by-a-user"></a>Benutzerdefinierte Begrüßung, die von einem Benutzer aufgezeichnet wurde
+Benutzer können ihre eigene benutzerdefinierte und abwesenheitseigene benutzerdefinierte Begrüßung aufzeichnen. Lesen Sie [Teams Desktopclienteinstellungen](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f), und [überprüfen Sie Skype for Business Voicemail und Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- [Planen Telefonsystem in Microsoft 365 oder Office 365 lokalen PSTN-Anbindung in Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+## <a name="custom-text-to-speech-greeting-specified-for-a-user"></a>Benutzerdefinierte Text-zu-Sprache-Begrüßung, die für einen Benutzer angegeben ist
+Der Mandantenadministrator kann die benutzerdefinierte Text-zu-Sprache-Begrüßung und die Eingabeaufforderungssprache für einen Benutzer mithilfe des Cmdlets [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) angeben.
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="custom-text-to-speech-greeting-specified-by-a-user"></a>Benutzerdefinierte Text-zu-Sprache-Begrüßung, die von einem Benutzer angegeben wird
+Benutzer können ihre eigenen benutzerdefinierten Text-zu-Sprache-Begrüßungen und die für die Begrüßung verwendete Sprache angeben. Für Microsoft Teams – Benutzer können ihre Voicemail-Begrüßung über die Einstellungen des [Teams Desktopclients](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) ändern. Für Skype for Business – [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) und wählen Sie unter **"Sprache eingabeaufforderung"** eine neue Sprache aus. 
 
-- [Ändern der Anzeigesprache und Zeitzone in Microsoft 365 oder Office 365 for Business](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
 
-- [Hinzufügen einer Sprache oder Festlegen von Spracheinstellungen in Office 2010 und höher](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
+## <a name="related-articles"></a>Verwandte Artikel
 
-- [Aktivieren oder Ändern einer Sprache für das Tastaturlayout](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)
+
+[Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings)
+
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)

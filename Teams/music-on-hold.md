@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Erfahren Sie, wie Sie das Feature Musik im Haltebereich in Telefonsystem verwalten.
-ms.openlocfilehash: 3e3e9c12eb459fdf52506be4577dfea88943ffa7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922656"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624242"
 ---
 # <a name="music-on-hold"></a>Musik im Haltebereich
 
@@ -69,7 +69,7 @@ Unterstützte Audioformate und maximale Dateigröße finden Sie unter [Import-Cs
 
 Die Konfiguration der benutzerdefinierten Musik im Haltebereich beginnt mit dem Hochladen der Audiodatei. Zu diesem Zweck verwenden Sie das PowerShell-Cmdlet [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) .
 
-Nachfolgend sehen Sie ein Beispiel für das Hochladen einer MP3-Audiodatei mithilfe der PowerShell-Schnittstelle:
+Nachfolgend sehen Sie ein Beispiel für das Hochladen einer MP3-Audiodatei mit Windows PowerShell 5.1. Weitere Beispiele finden Sie unter [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -132,6 +132,10 @@ Die folgende Tabelle zeigt, welche Features auf welchen Clients und Geräten Mus
 
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
+
 - [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
@@ -144,6 +148,3 @@ Die folgende Tabelle zeigt, welche Features auf welchen Clients und Geräten Mus
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
-- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

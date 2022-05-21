@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
-ms.translationtype: HT
+ms.openlocfilehash: ce8e702682ebcc4b05e94f077882d51f09aac0ff
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457068"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624149"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -168,8 +168,8 @@ Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie 
 
 1. Laden Sie über einen der folgenden Links das Teams MSI-Paket herunter, das Ihrem VDI VM-Betriebssystem entspricht:
 
-    - [32-Bit-Version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
-    - [64-Bit-Version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+    - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.5.00.11865/Teams_windows.msi)
+    - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.11865/Teams_windows_x64.msi)
 
     > [!NOTE]
     > Informationen zu Government-Clouds finden Sie unter [Masseninstallation von Teams mit Windows Installer (MSI)](msi-deployment.md) für die Downloadlinks zu den MSI-Dateien.

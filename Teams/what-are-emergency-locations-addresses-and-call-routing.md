@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Notrufe, einschließlich Informationen zu Notfalladressen, Notrufweiterleitung und dynamischen Notrufen.
-ms.openlocfilehash: f059f55281df2925511b85941fefbb675d781852
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 2806499e81b524168944e6cca2e9a6acb4d0b6a7
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125450"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624129"
 ---
 # <a name="manage-emergency-calling"></a>Verwalten von Notrufen
 
@@ -275,9 +275,6 @@ Während eines Notrufs wird ein Sicherheitsdesk in den Anruf konferenziert, und 
 ### <a name="custom-emergency-disclaimer"></a>Benutzerdefinierter Haftungsausschluss für Notfälle
 
 Administratoren haben die Möglichkeit, ein benutzerdefiniertes Banner im Mandanten für ihre Benutzer hinzuzufügen, um E911 zu aktivieren. Benutzer können das Banner schließen, wenn sie ihre Adresse bestätigen, und das Banner wird wieder angezeigt, wenn Teams neu gestartet wird. Um dieses Feature zu aktivieren, legen Sie den **Haftungsausschluss für den Notfalldienst** unter der richtlinie für Teams Notrufe fest und geben eine Zeichenfolgenmeldung ein, die Benutzern angezeigt werden soll. Dieses Feld ist optional beim Einrichten einer benutzerdefinierten Richtlinie, und das Zeichenfolgenfeld ist auf 250 Zeichen beschränkt.
-
-> [!NOTE]
-> Derzeit ist dies mithilfe von PowerShell mit der EnhancedEmergencyServicesDisclaimer-Richtlinie konfigurierbar. In Zukunft wird dies auch im Teams Admin Center konfigurierbar sein.
 
     
 ## <a name="related-topics"></a>Verwandte Themen
