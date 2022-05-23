@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams-Räume Premium verwalteter Dienst
-author: v-smandalika
-ms.author: v-smandalika
+title: Microsoft Teams-Räume Premium-verwalteter Dienst
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -15,34 +15,34 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Microsoft Teams-Räume-Konto eine Lizenz für den Zugriff auf den Premium-verwalteten Microsoft Teams-Räume erhält.
+description: Erfahren Sie, wie ein Microsoft Teams-Räume-Konto eine Lizenz für den Zugriff auf den Microsoft Teams-Räume premiumverwalteten Dienst erhält.
 f1keywords: ''
-ms.openlocfilehash: a72dd47184487ed9364ceafacadfdc155743c292
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 8150e520b50818b3f5251d6645a7a231c1188798
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514834"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635363"
 ---
-# <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Erste Schritte mit Microsoft Teams-Räume Premium verwalteten Diensts
+# <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Erste Schritte mit Microsoft Teams-Räume Premium verwaltetem Dienst
 
-Die Microsoft Teams-Räume Premium verwalteten Dienste verringern die Komplexität für Teams-Räume Administratoren, indem sie verbesserte Raumvorgänge bereitstellen, die die Produktivität von Besprechungen im Raum steigern.
+Die Microsoft Teams-Räume Premium verwalteten Dienste verringern die Komplexität für Teams-Räume-Administratoren, indem verbesserte Raumvorgänge bereitgestellt werden, wodurch die Produktivität von Besprechungen im Raum verbessert wird.
 
-## <a name="obtain-and-assign-a-license"></a>Lizenz erhalten und zuweisen
+## <a name="obtain-and-assign-a-license"></a>Abrufen und Zuweisen einer Lizenz
 
-Microsoft Teams-Räume Ressourcenkonten benötigen eine Microsoft Teams-Räume Premium, um mit dem vom Microsoft Teams-Räume Premium verwalteten Dienst arbeiten zu können.
+Microsoft Teams-Räume Ressourcenkonten benötigen eine Microsoft Teams-Räume Premium Lizenz, um mit dem Microsoft Teams-Räume Premium verwalteten Dienst arbeiten zu können.
 
 Führen Sie zum Zuweisen einer Lizenz die folgenden Schritte aus:
 
 1. Melden Sie sich bei [Microsoft 365 Admin Center](https://admin.microsoft.com) als Administrator an.
 
     > [!NOTE]
-    > Diese Art von Administrator wird manchmal als globaler **Administrator bezeichnet**. Weitere Informationen finden Sie [unter Übersicht Microsoft 365 Admin Center](/microsoft-365/business-video/admin-center-overview).
+    > Dieser Administratortyp wird manchmal als **globaler Administrator** bezeichnet. Siehe Übersicht über die [Microsoft 365 Admin Center](/microsoft-365/business-video/admin-center-overview).
 
-2. Wählen **Sie > im linken** Navigationsbereich Abrechnung und Lizenzen aus.
-3. Wählen Sie die Teams-Räume **Premium-Lizenz** für Ihre beabsichtigte Nutzung aus (kostenpflichtige Lizenzen und Testlizenzen sind verfügbar). Unter [Lizenzierungslösungen für gemeinsam genutzte Kommunikationsgeräte](rooms-licensing.md) finden Sie einen Vergleich zwischen Microsoft Teams-Räume Standard und Premium SKUs.
-4. Wählen Sie **auf der Seite Abrechnungskonten** die Option **Lizenzen zuweisen aus**. Die **Seite Lizenzen Benutzern zuweisen wird** angezeigt.
-5. Geben Sie die vorhandenen **Microsoft Teams-Räume** für die **Teams-Räume Premium-Lizenzzuweisung** ein. Weitere Informationen zum Einrichten neuer - oder überprüfen vorhandener - Microsoft Teams-Räume-Konten finden Sie unter Erstellen von [Ressourcenkonten für Räume](with-office-365.md) und Teams Geräte.
-6. Wählen Sie nach Abschluss der Kontoübermittlung **Zuweisen** und dann Schließen **aus**. Die **Microsoft Teams-Räume Premium** Lizenzen wurden ihren Konten **Microsoft Teams-Räume** zugewiesen.
+2. Wählen Sie im linken Navigationsbereich " **Abrechnung > Lizenzen** " aus.
+3. Wählen Sie die entsprechende **Teams-Räume Premiumlizenz** für Ihre beabsichtigte Nutzung aus (kostenpflichtige und Testlizenzen sind verfügbar). Einen Vergleich zwischen Microsoft Teams-Räume Standard und Premium SKUs finden Sie unter [Licensing Solutions for Shared Communications Devices](rooms-licensing.md).
+4. Wählen Sie auf der Seite **"Abrechnungskonten** " **die Option "Lizenzen zuweisen**" aus. Die Seite **"Lizenzen benutzern zuweisen** " wird angezeigt.
+5. Geben Sie die **vorhandenen Microsoft Teams-Räume** Konten für **Teams-Räume Premium** Lizenzzuweisung ein. Weitere Informationen zum Einrichten neuer oder zur Überprüfung vorhandener Microsoft Teams-Räume-Konten finden [Sie unter Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte](with-office-365.md).
+6. Sobald die Kontoübermittlung abgeschlossen ist, wählen Sie **"Zuweisen"** und dann **"Schließen**" aus. Die **Microsoft Teams-Räume Premium** Lizenzen wurden **Microsoft Teams-Räume** Konten zugewiesen.
 
-Sie können nun die Ressourcenkonten und die zugehörigen zertifizierten Geräte Microsoft Teams-Räume im vom Benutzer verwalteten Microsoft Teams-Räume Premium registrieren. Weitere Informationen finden Sie unter [Registrieren eines Geräts im dienst Microsoft Teams-Räume Premium Diensts](enrolling-mtrp-managed-service.md).
+Jetzt können Sie die Ressourcenkonten und die zugehörigen zertifizierten Microsoft Teams-Räume Geräte im Microsoft Teams-Räume Premium-verwalteten Dienst registrieren. Weitere Informationen finden Sie unter [Registrieren eines Geräts im Microsoft Teams-Räume Premium verwalteten Diensts](enrolling-mtrp-managed-service.md).

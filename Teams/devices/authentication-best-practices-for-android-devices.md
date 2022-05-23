@@ -1,15 +1,15 @@
 ---
-title: Bewährte Methoden für die Authentifizierung Microsoft Teams Verwaltung gemeinsam genutzter Geräte von Android-Geräten.
-author: amandafrechinjackson
-ms.author: v-amandaf
-manager: jsarrasin
+title: Bewährte Methoden für die Authentifizierung für Microsoft Teams gemeinsam genutzte Geräteverwaltung von Android Geräten.
+author: dstrome
+ms.author: dstrome
+manager: serdars
 ms.date: 12/16/2021
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Bewährte Methoden für die Verwaltung gemeinsam genutzter Android-Teams. Dies umfasst Bedingungszugriff, Kennwortrichtlinie, Ratschläge zur mehrstufigen Authentifizierung und vieles mehr.
+description: Bewährte Methoden für die verwaltung gemeinsam genutzter Android-Geräte in Teams. Dies umfasst bedingten Zugriff, Kennwortrichtlinien, Ratschläge zur mehrstufigen Authentifizierung und vieles mehr.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,101 +20,101 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 070c662c09d8b8159dbce850501026f67dabb203
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 6eef76052f662b26f946bf80839a62186c287b68
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279233"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635463"
 ---
-# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Bewährte Methoden für die Authentifizierung Teams Verwaltung gemeinsam genutzter Geräte auf Android-Geräten
+# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Bewährte Methoden für die Authentifizierung für Teams gemeinsam genutzte Geräteverwaltung auf Android Geräten
 
-Die Ziele der mit der Entwicklung verwendeten Teams machen unterschiedliche Geräteverwaltungsstrategien erforderlich. Beispielsweise hat ein von einer Vertriebsmitarbeiter verwendetes persönliches Geschäfts-Tablet andere Anforderungen als ein Telefon, das von vielen Kundendienstmitarbeitern gemeinsam genutzt wird.
+Die Ziele von Geräten, die mit Teams verwendet werden, machen unterschiedliche Geräteverwaltungsstrategien erforderlich. Beispielsweise hat ein persönliches Geschäftstablett, das von einem einzelnen Vertriebsmitarbeiter verwendet wird, einen anderen Satz von Anforderungen als ein Telefon mit Einem Anruf, das von vielen Kundendienstmitarbeitern geteilt wird.
 
-Sicherheitsadministratoren und Betriebsteams müssen die Geräte planen, die in der Organisation verwendet werden können. Sie müssen *Sicherheitsmaßnahmen implementieren,* die für jeden Zweck am besten geeignet sind. Die Empfehlungen in diesem Artikel erleichtern einige dieser Entscheidungen.
-
->[!NOTE]
->Für bedingten Zugriff ist ein Azure Active Directory (Azure AD) Premium erforderlich.
+Sicherheitsadministratoren und Betriebsteams müssen die Geräte planen, die in der Organisation verwendet werden können. Sie müssen *Sicherheitsmaßnahmen* implementieren, die für jeden Zweck am besten geeignet sind. Die Empfehlungen dieses Artikels erleichtern einige dieser Entscheidungen.
 
 >[!NOTE]
->Richtlinien für mobile Android-Geräte gelten möglicherweise nicht für Teams Android-Geräte.
+>Der bedingte Zugriff erfordert ein Azure Active Directory (Azure AD) Premium Abonnement.
 
-## <a name="authentication-recommendations-are-different-for-personal-versus-shared-android-devices"></a>Authentifizierungsempfehlungen unterscheiden sich bei persönlichen und gemeinsam genutzten Android-Geräten
+>[!NOTE]
+>Richtlinien für Android mobile Geräte gelten möglicherweise nicht für Teams Android Geräte.
 
-Freigegebene Teams können nicht dieselben Registrierungs- und Complianceanforderungen erfüllen, die auf persönlichen Geräten verwendet werden. Das Anwenden von Anforderungen für die persönliche Geräteauthentifizierung auf gemeinsam genutzte Geräte verursacht Anmeldeprobleme.
+## <a name="authentication-recommendations-are-different-for-personal-versus-shared-android-devices"></a>Authentifizierungsempfehlungen unterscheiden sich bei persönlichen im Vergleich zu freigegebenen Android-Geräten
 
-1.  **Geräte werden aufgrund von Kennwortrichtlinien ab signiert.**
+Freigegebene Teams Geräte können nicht dieselben Anforderungen für Registrierung und Compliance wie auf persönlichen Geräten verwenden. Das Anwenden von Authentifizierungsanforderungen für persönliche Geräte auf freigegebene Geräte führt zu Anmeldeproblemen.
 
-Konten, die auf Teams verwendet werden, verfügen über eine Kennwortablaufrichtlinie. Die Konten, die mit gemeinsam genutzten Geräten verwendet werden, verfügen nicht über einen bestimmten Benutzer, der das Kennwort aktualisieren und in einem funktionierenden Zustand wiederherstellen kann. Wenn in Ihrer Organisation Kennwörter gelegentlich ablaufen und zurückgesetzt werden müssen, funktionieren diese Konten auf Teams-Geräten erst wieder, wenn ein Teams-Administrator das Kennwort zurückgesetzt und sich wieder angemeldet hat.
+1.  **Geräte sind aufgrund von Kennwortrichtlinien abgemeldet.**
 
-**Herausforderung**: Wenn es um den Zugriff geht. Teams von einem Gerät aus verfügt das Konto einer Person über eine Kennwortablaufrichtlinie. Wenn das Kennwort abläuft, wird es einfach geändert. Konten, die auf gemeinsam *genutzten Geräten* verwendet werden (Ressourcenkonten), sind jedoch möglicherweise nicht mit einer einzelnen Person verbunden, die ein Kennwort bei Bedarf ändern kann. Dies bedeutet, dass ein Kennwort ablaufen kann und die Mitarbeiter an Ort und Stelle sind und nicht wissen, wie sie ihre Arbeit fortsetzen können.
+Konten, die auf Teams Geräten verwendet werden, verfügen über eine Kennwortablaufrichtlinie. Die Konten, die mit freigegebenen Geräten verwendet werden, verfügen nicht über einen bestimmten Benutzer, der sie aktualisieren und in einen funktionierenden Zustand wiederherstellen kann, wenn ihre Kennwörter ablaufen. Wenn Ihre Organisation erfordert, dass Kennwörter ablaufen und gelegentlich zurückgesetzt werden, funktionieren diese Konten nicht mehr auf Teams Geräten, bis ein Teams Administrator das Kennwort zurücksetzt und sich wieder anmeldet.
 
-Wenn Ihre Organisation eine Kennwortzurücksetzung erfordert oder den Kennwortablauf erzwingt, stellen Sie sicher, dass ein Teams-Administrator bereit ist, das Kennwort zurückzusetzen, damit sich diese freigegebenen Konten wieder anmelden können.
+**Herausforderung**: Wenn es um den Zugriff geht. Teams von einem Gerät aus verfügt das Konto einer Person über eine Kennwortablaufrichtlinie. Wenn das Kennwort abläuft, wird es einfach geändert. Konten, die auf *freigegebenen Geräten* (Ressourcenkonten) verwendet werden, sind jedoch möglicherweise nicht mit einer einzelnen Person verbunden, die ein Kennwort nach Bedarf ändern kann. Dies bedeutet, dass ein Kennwort abläuft und mitarbeiter vor Ort bleiben kann, ohne zu wissen, wie sie ihre Arbeit fortsetzen können.
 
-2.  **Geräte melden sich aufgrund von Richtlinien für bedingten Zugriff nicht an.**
+Wenn Ihre Organisation eine Kennwortzurücksetzung erfordert oder den Ablauf des Kennworts erzwingt, stellen Sie sicher, dass ein Teams Administrator bereit ist, das Kennwort zurückzusetzen, damit sich diese freigegebenen Konten wieder anmelden können.
 
-**Herausforderung**: Freigegebene Geräte können den Richtlinien für Azure AD bedingten Zugriff für Benutzerkonten oder persönliche Geräte nicht entsprechen. Wenn freigegebene Geräte mit Benutzerkonten oder persönlichen Geräten für eine Richtlinie für bedingten Zugriff gruppieren, kann es zu einem Fehler bei der Anmeldung *kommen*.
+2.  **Geräte können sich aufgrund von Richtlinien für bedingten Zugriff nicht anmelden.**
 
-Wenn beispielsweise mehrstufige Authentifizierung für den Zugriff auf ihre Teams, ist die Benutzereingabe eines Codes erforderlich, um diese Authentifizierung abschließen zu können. Gemeinsam genutzte Geräte verfügen im Allgemeinen nicht über einen einzelnen Benutzer, der die mehrstufige Authentifizierung konfigurieren und abschließen kann. Außerdem gilt: Wenn das Konto alle x Tage neu authentifiziert werden muss, kann ein freigegebenes Gerät die Herausforderung nicht ohne Eingreifen eines Benutzers lösen.
+**Herausforderung**: Freigegebene Geräte können nicht den Azure AD-Richtlinien für bedingten Zugriff für Benutzerkonten oder persönliche Geräte entsprechen. Wenn freigegebene Geräte mit Benutzerkonten oder persönlichen Geräten für eine Richtlinie für bedingten Zugriff gruppiert sind, schlägt die Anmeldung *fehl*.
 
-Die mehrstufige Authentifizierung wird bei gemeinsam genutzten Geräten nicht unterstützt. Die Methoden, die Sie stattdessen verwenden möchten, sind nachfolgend aufgeführt.
+Wenn z. B. die mehrstufige Authentifizierung für den Zugriff auf Teams erforderlich ist, ist die Benutzereingabe eines Codes erforderlich, um diese Authentifizierung abzuschließen. Für freigegebene Geräte gibt es in der Regel keinen einzelnen Benutzer, der die mehrstufige Authentifizierung konfigurieren und abschließen kann. Wenn das Konto alle X Tage erneut authentifiziert werden muss, kann ein freigegebenes Gerät die Herausforderung auch nicht ohne Eingreifen des Benutzers lösen.
+
+Die mehrstufige Authentifizierung wird auf gemeinsam genutzten Geräten nicht unterstützt. Die stattdessen zu verwendenden Methoden sind unten beschrieben.
 
 ## <a name="best-practices-for-the-deployment-of-shared-android-devices-with-teams"></a>Bewährte Methoden für die Bereitstellung von gemeinsam genutzten Android-Geräten mit Teams
 
-Microsoft empfiehlt die folgenden Einstellungen, wenn Sie Teams in Ihrer Organisation bereitstellen.
+Microsoft empfiehlt die folgenden Einstellungen bei der Bereitstellung Teams Geräten in Ihrer Organisation.
 
-### <a name="use-a-resource-account-and-curtail-its-password-expiration"></a>**Verwenden eines Ressourcenkontos und Drosseln des Kennwortablaufs**
+### <a name="use-a-resource-account-and-curtail-its-password-expiration"></a>**Verwenden eines Ressourcenkontos und Einschränken des Kennwortablaufs**
 
-Teams gemeinsam genutzten Geräten sollten ein Postfach [für Exchange-Ressourcen verwenden](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). Beim Erstellen dieser Postfächer wird automatisch ein Konto generiert. Diese Konten können entweder mit anderen Konten Azure AD Active Directory synchronisiert oder direkt in einem Azure AD. Alle Kennwortablaufrichtlinien für Benutzer gelten auch für Konten, die auf freigegebenen Geräten Teams verwendet werden. Um Unterbrechungen durch Kennwortablaufrichtlinien zu vermeiden, legen Sie daher die Kennwortablaufrichtlinie für freigegebene Geräte so ein, dass sie nie abläuft.
+Teams freigegebenen Geräte sollten ein [Exchange Ressourcenpostfach](/exchange/recipients-in-exchange-online/manage-resource-mailboxes) verwenden. Durch das Erstellen dieser Postfächer wird automatisch ein Konto generiert. Diese Konten können entweder aus Active Directory mit Azure AD synchronisiert oder direkt in Azure AD erstellt werden. Alle Kennwortablaufrichtlinien für Benutzer gelten auch für Konten, die auf Teams freigegebenen Geräten verwendet werden. Um Unterbrechungen durch Kennwortablaufrichtlinien zu vermeiden, legen Sie daher die Kennwortablaufrichtlinie für freigegebene Geräte so fest, dass sie nie abläuft.
 
-Beginnend mit Teams-Geräten CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams Version 1449/1.0.94.2021022403 für Teams-Smartphones) und [CY202 Update Nr. 2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams Version 1449/1.0.96.2021051904 für Microsoft Teams-Räume unter Android) können sich Mandantenadministratoren remote bei Teams-Geräten anmelden. Statt Kennwörter für Techniker zum Einrichten von Geräten gemeinsam zu verwenden, sollten Mandantenadministratoren die Remote-Anmeldung zum Ausschreiben von Überprüfungscodes verwenden. Für diese Geräte können Sie sich über das Admin Center Teams anmelden.
+Ab Teams Geräten CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams Version 1449/1.0.94.2021022403 für Teams Smartphones) und [CY20 21 Update Nr. 2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams Version 1449/1.0.96.2021051904 für Microsoft Teams-Räume auf Android), können sich Mandantenadministratoren anmelden Teams Geräte remote aus. Anstatt Kennwörter für Techniker zum Einrichten von Geräten freizugeben, sollten Mandantenadministratoren die Remoteanmeldung verwenden, um Überprüfungscodes auszustellen. Die Anmeldung kann für diese Geräte über das Teams Admin Center erfolgen.
 
-Weitere Informationen finden Sie unter [Remotebereitstellung und Anmelden für Teams Android-Geräte](/MicrosoftTeams/devices/remote-provision-remote-login). 
+Weitere Informationen finden Sie unter [Remotebereitstellung und -anmeldung für Teams Android Geräte](/MicrosoftTeams/devices/remote-provision-remote-login). 
 
-### <a name="review-these-conditional-access-policies"></a>**Überprüfen dieser Richtlinien für bedingten Zugriff**
+### <a name="review-these-conditional-access-policies"></a>**Überprüfen Sie diese Richtlinien für bedingten Zugriff**
 
-Azure AD bedingter Zugriff legt zusätzliche Anforderungen fest, die Geräte erfüllen müssen, um sich anmelden zu können. Lesen Teams für alle Geräte die folgenden Richtlinien, um festzustellen, ob Sie die Richtlinien verfasst haben, die es Benutzern gemeinsam genutzter Geräte gestatten, ihre Arbeit zu tun.
+Der bedingte Azure AD-Zugriff legt zusätzliche Anforderungen fest, die Geräte erfüllen müssen, um sich anzumelden. Lesen Sie für Teams Geräte die nachstehenden Anleitungen, um festzustellen, ob Sie die Richtlinien erstellt haben, mit denen Benutzer freigegebener Geräte ihre Arbeit erledigen können.
 
 > [!TIP]
 > Eine Übersicht über bedingten Zugriff finden Sie unter [Was ist bedingter Zugriff](/azure/active-directory/conditional-access/overview)?
 
-### <a name="do-not-use-multi-factor-authentication-for-shared-devices"></a>Verwenden Sie die mehrstufige Authentifizierung nicht für gemeinsam genutzte Geräte.
+### <a name="do-not-use-multi-factor-authentication-for-shared-devices"></a>Verwenden Sie keine mehrstufige Authentifizierung für freigegebene Geräte
 
-Konten für gemeinsam genutzte Geräte sind mit einem Raum oder physischen Raum und nicht mit einem Endbenutzerkonto verknüpft. Da freigegebene Geräte die mehrstufige Authentifizierung nicht unterstützen, schließen Sie freigegebene Geräte aus allen Richtlinien für mehrstufige Authentifizierung aus.
+Konten für freigegebene Geräte sind mit einem Raum oder physischen Raum und nicht mit einem Endbenutzerkonto verknüpft. Da freigegebene Geräte die mehrstufige Authentifizierung nicht unterstützen, schließen Sie freigegebene Geräte von allen mehrstufigen Authentifizierungsrichtlinien aus.
 
 >[!TIP]
->Verwenden Sie entweder [benannte Position, oder](/azure/active-directory/conditional-access/location-condition) [fordern Sie kompatible Geräte an](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) , um gemeinsam genutzte Geräte zu sichern.
+>Verwenden Sie entweder [einen benannten Speicherort](/azure/active-directory/conditional-access/location-condition) oder [ein kompatibles Gerät](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) , um freigegebene Geräte zu schützen.
 
-### <a name="you-can-use-location-based-access-with-named-locations"></a>Sie können standortbasierten Zugriff mit benannten Speicherorten verwenden.
+### <a name="you-can-use-location-based-access-with-named-locations"></a>Sie können den standortbasierten Zugriff mit benannten Speicherorten verwenden.
 
-Wenn freigegebene Geräte an einem genau definierten Speicherort bereitgestellt werden, der mit einem Bereich von IP-Adressen identifiziert werden kann, können Sie bedingten [](/azure/active-directory/conditional-access/location-condition) Zugriff mit benannten Speicherorten für diese Geräte konfigurieren. Diese Bedingung erlaubt diesen Geräten den Zugriff auf Ihre Unternehmensressourcen nur, wenn sie sich innerhalb Ihres Netzwerks befinden.
+Wenn freigegebene Geräte an einem klar definierten Speicherort bereitgestellt werden, der mit einem Bereich von IP-Adressen identifiziert werden kann, können Sie den bedingten Zugriff [mithilfe von benannten Speicherorten](/azure/active-directory/conditional-access/location-condition) für diese Geräte konfigurieren. Diese Bedingung ermöglicht es diesen Geräten, nur dann auf Ihre Unternehmensressourcen zuzugreifen, wenn sie sich in Ihrem Netzwerk befinden.
 
-### <a name="when-and-when-not-to-require-compliant-shared-devices"></a>Wann und wann keine kompatiblen gemeinsamen Geräte erforderlich sind
-
->[!NOTE]
->Für die Gerätekonformität ist eine Intune-Lizenz erforderlich.
-
-Wenn Sie freigegebene Geräte bei Intune registrieren, können Sie die Gerätekonformität als Steuerelement im bedingten Zugriff konfigurieren, damit nur kompatible Geräte auf Ihre Unternehmensressourcen zugreifen können. Teams Geräte können basierend auf der Gerätekonformität für Richtlinien für den bedingten Zugriff konfiguriert werden. Weitere Informationen finden Sie unter [Bedingter Zugriff: Konformitäts- oder Hybridzugriff Azure AD angeschlossenes Gerät](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device).
-
-Informationen zum Festlegen von Complianceeinstellungen für Ihre Geräte mit Intune finden Sie unter Verwenden von Compliancerichtlinien zum Festlegen von Regeln für Geräte, [die Sie mit Intune verwalten](/intune/protect/device-compliance-get-started).
+### <a name="when-and-when-not-to-require-compliant-shared-devices"></a>Wann und wann keine kompatiblen gemeinsam genutzten Geräte erforderlich sind
 
 >[!NOTE]
-> Freigegebene Geräte, die für *"Hot-King" verwendet werden* , sollten von den Compliancerichtlinien ausgeschlossen werden. Compliancerichtlinien verhindern, dass sich die Geräte beim Hot Desk-Benutzerkonto registrieren. **Verwenden Sie stattdessen benannte Speicherorte, um diese Geräte zu schützen**.
-> Um die Sicherheit zu erhöhen, können [](/azure/active-directory/authentication/tutorial-enable-azure-mfa) Sie zusätzlich zu den benannten Standortrichtlinien auch die mehrstufige Authentifizierung für Benutzer */* Benutzerkonten mit Hot-King-Benutzern oder -Benutzerkonten erfordern.
+>Für die Gerätekompatibilität ist eine Intune Lizenz erforderlich.
 
-### <a name="exclude-shared-devices-from-sign-in-frequency-conditions"></a>Ausschließen von geteilten Geräten aus den Bedingungen der Anmeldehäufigkeit
+Wenn Sie freigegebene Geräte in Intune registrieren, können Sie die Gerätekompatibilität als Steuerelement im bedingten Zugriff konfigurieren, sodass nur kompatible Geräte auf Ihre Unternehmensressourcen zugreifen können. Teams Geräte können basierend auf der Gerätekompatibilität für Richtlinien für bedingten Zugriff konfiguriert werden. Weitere Informationen finden Sie [unter Bedingter Zugriff: Kompatibles oder hybrides Azure AD-verbundenes Gerät erforderlich](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device).
 
-Unter Bedingter Zugriff können Sie [](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency) die Anmeldehäufigkeit so konfigurieren, dass Benutzer sich erneut anmelden müssen, um nach einem bestimmten Zeitraum auf eine Ressource zu zugreifen. Wenn bei Raumkonten die Anmeldehäufigkeit erzwungen wird, melden sich die gemeinsam genutzten Geräte ab, bis sie von einem Administrator erneut angemeldet werden. Microsoft empfiehlt, freigegebene Geräte aus den Richtlinien für Anmeldehäufigkeit zu ausschließen.
+Informationen zum Festlegen der Complianceeinstellung für Ihre Geräte mithilfe von Intune finden [Sie unter Verwenden von Compliancerichtlinien zum Festlegen von Regeln für Geräte, die Sie mit Intune verwalten](/intune/protect/device-compliance-get-started).
+
+>[!NOTE]
+> Freigegebene Geräte, die für *hot desking* verwendet werden, sollten von Compliancerichtlinien ausgeschlossen werden. Compliancerichtlinien verhindern, dass sich die Geräte beim Hot desk-Benutzerkonto registrieren. **Verwenden Sie stattdessen benannte Speicherorte, um diese Geräte zu sichern**.
+> Um die Sicherheit zu erhöhen, können Sie zusätzlich zu den benannten Standortrichtlinien auch [die mehrstufige Authentifizierung](/azure/active-directory/authentication/tutorial-enable-azure-mfa) für *hot desking-Benutzer/Benutzerkonten* anfordern.
+
+### <a name="exclude-shared-devices-from-sign-in-frequency-conditions"></a>Ausschließen freigegebener Geräte von Anmeldehäufigkeitsbedingungen
+
+Im bedingten Zugriff können Sie die [Anmeldehäufigkeit so konfigurieren](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency) , dass Benutzer sich erneut anmelden müssen, um nach einem bestimmten Zeitraum auf eine Ressource zuzugreifen. Wenn die Anmeldehäufigkeit für Raumkonten erzwungen wird, melden sich freigegebene Geräte ab, bis sie von einem Administrator erneut angemeldet sind. Microsoft empfiehlt, freigegebene Geräte von allen Anmeldehäufigkeitsrichtlinien auszuschließen.
 
 ### <a name="using-filters-for-devices"></a>Verwenden von Filtern für Geräte
 
-[Filter für Geräte sind](/azure/active-directory/conditional-access/concept-condition-filters-for-devices) ein Feature des bedingten Zugriffs, mit dem Sie genauere Richtlinien für Geräte basierend auf geräteeigenschaften konfigurieren können, die in Azure AD. Sie können auch ihre eigenen benutzerdefinierten Werte verwenden, indem Sie Erweiterungsattribute 1 bis 15 für das Geräteobjekt festlegen und diese dann verwenden.
+[Filter für Geräte](/azure/active-directory/conditional-access/concept-condition-filters-for-devices) ist ein Feature im bedingten Zugriff, mit dem Sie detailliertere Richtlinien für Geräte basierend auf den in Azure AD verfügbaren Geräteeigenschaften konfigurieren können. Sie können auch eigene benutzerdefinierte Werte verwenden, indem Sie die Erweiterungsattribute 1 bis 15 für das Geräteobjekt festlegen und diese dann verwenden.
 
-Verwenden Sie Filter für Geräte, um Ihre gemeinsamen Geräte zu identifizieren und Richtlinien in zwei wichtigen Szenarien zu aktivieren:
+Verwenden Sie Filter für Geräte, um Ihre Geräte im einheitlichen Bereich zu identifizieren und Richtlinien in zwei wichtigen Szenarien zu aktivieren:
 
-1.  Ausschließen von geteilten Geräten aus Richtlinien, die für persönliche Geräte angewendet werden. Beispielsweise wird das Erfordern der Gerätekonformität nicht für gemeinsam genutzte Geräte erzwungen, die für die Hot-King-Verwendung verwendet werden, sondern wird für alle anderen Geräte basierend auf der Modellnummer erzwungen. 
+1.  Ausschließen von freigegebenen Geräten aus Richtlinien, die für persönliche Geräte angewendet wurden. Beispielsweise wird die Anforderung der Gerätekompatibilität *nicht für freigegebene Geräte erzwungen* , die für die Hot-Desking verwendet werden, sondern für alle anderen Geräte basierend auf der Modellnummer *erzwungen* .
 
-2.  Erzwingen von speziellen Richtlinien für gemeinsam genutzte Geräte, *die nicht* auf persönliche Geräte angewendet werden sollen. Beispielsweise, wenn benannte Speicherorte als Richtlinie nur für allgemeine Geräte erforderlich sind, basierend auf einem Erweiterungsattribut, das Sie für diese Geräte festlegen (z. B.: "CommonAreaPhone").
+2.  Erzwingen spezieller Richtlinien auf freigegebenen Geräten, die nicht auf persönliche Geräte angewendet werden *sollten* . Beispielsweise müssen benannte Speicherorte als Richtlinie nur für Geräte mit gemeinsamem Bereich basierend auf einem Erweiterungsattribut benötigt werden, das Sie für diese Geräte festgelegt haben (z. B.: "CommonAreaPhone").
 
 >[!NOTE] 
-> Einige Attribute **wie Modell,** **Hersteller** und **operatingSystemVersion** können nur festgelegt werden, wenn Geräte von Intune verwaltet werden. Wenn Ihre Geräte nicht von Intune verwaltet werden, verwenden Sie Erweiterungsattribute.
+> Einige Attribute wie **Modell**, **Hersteller** und **operatingSystemVersion** können nur festgelegt werden, wenn Geräte von Intune verwaltet werden. Wenn Ihre Geräte nicht von Intune verwaltet werden, verwenden Sie Erweiterungsattribute.
