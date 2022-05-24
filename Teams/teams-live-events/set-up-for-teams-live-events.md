@@ -20,12 +20,12 @@ description: Richten Sie Liveereignisse in Teams ein, einschließlich der Einric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5911ee829284917e5d16a6e254004ad7c49f8660
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: a2e7061252afc5c485da01c3c1c30e9625bd07cc
+ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205445"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "65661666"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
@@ -50,11 +50,11 @@ Richtlinien für Liveereignisse werden verwendet, um zu steuern, wer in Ihrer Or
 
 <a name="bkcreatepolicy"> </a>
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zur Registerkarte Richtlinien für  >  **Liveereignisse**  >  **verwalten.**
+1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Center zur Registerkarte "**Besprechungen** >  **Live Ereignisrichtlinien** >  Verwalten von **Richtlinien**".
 2. Wählen Sie eine der folgenden Optionen aus:
 
     - Wenn Sie die vorhandene Standardrichtlinie bearbeiten möchten, wählen Sie **Global (organisationsweiter Standard)** aus.
-    - Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **+ Hinzufügen aus.**
+    - Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **"+Hinzufügen"** aus.
     - Wenn Sie eine benutzerdefinierte Richtlinie bearbeiten möchten, markieren Sie die Richtlinie, und wählen Sie dann **Bearbeiten** aus.
 
     Hier sind die Einstellungen, die Sie ändern können, um sie an die Bedürfnisse Ihrer Organisation anzupassen.
@@ -65,12 +65,12 @@ Richtlinien für Liveereignisse werden verwendet, um zu steuern, wer in Ihrer Or
 |---------|---------|
 |**Titel**     |Dies ist der Titel der Richtlinie, die auf der Seite „Liveereignisrichtlinien“ angezeigt wird. Sie darf nicht länger als 64 Zeichen sein und keine Sonderzeichen enthalten.          |
 |**Beschreibung**    |Verwenden Sie dies, um eine freundliche Beschreibung der Richtlinie hinzuzufügen.         |
-|**Planen von Liveereignissen**     |Wenn Sie diese Option aktivieren, können Benutzer in Ihrer Organisation Liveereignisse in Teams erstellen und planen. Es ist wichtig zu wissen, dass Sie zusätzliche Schritte ausführen müssen, wenn Sie möchten, dass Benutzer ein Liveereignis planen, das mit einer externen Anwendung oder einem externen Gerät produziert wird. Weitere Informationen finden Sie unter [Benutzern ermöglichen, Ereignisse zu planen, die mit einer externen Anwendung oder einem externen Gerät erstellt werden](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
+|**Live der Ereignisplanung**     |Wenn Sie diese Option aktivieren, können Benutzer in Ihrer Organisation Liveereignisse in Teams erstellen und planen. Es ist wichtig zu wissen, dass Sie zusätzliche Schritte ausführen müssen, wenn Sie möchten, dass Benutzer ein Liveereignis planen, das mit einer externen Anwendung oder einem externen Gerät produziert wird. Weitere Informationen finden Sie unter [Benutzern ermöglichen, Ereignisse zu planen, die mit einer externen Anwendung oder einem externen Gerät erstellt werden](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
 |**Transkription für Teilnehmer** |Diese Einstellung kann nur auf Ereignisse angewendet werden, die in Teams produziert werden. Wenn Sie diese Option aktivieren, können die Teilnehmer des Liveereignisses während des Ereignisses Liveuntertitel und Untertitel sehen.         |
 |**Wer an geplanten Liveereignissen teilnehmen kann**    |Wählen Sie eine der folgenden Aktionen aus:<br><br>**Jeder** Benutzer können Liveereignisse erstellen, an denen alle, auch Personen außerhalb Ihrer Organisation, teilnehmen können. Diese Einstellung aktiviert in Teams den Berechtigungstyp **Öffentlich**, wenn ein Benutzer ein Liveereignis plant.<br> **Jeder in der Organisation** Benutzer können Liveereignisse erstellen, an denen Personen in Ihrer Organisation, einschließlich [Gastbenutzer](../add-guests.md), die Ihrer Organisation hinzugefügt wurden, teilnehmen können. Benutzer können keine Liveereignisse erstellen, an denen anonyme Benutzer teilnehmen. Diese Einstellung aktiviert in Teams den Berechtigungstyp **Organisationsweit**, wenn ein Benutzer ein Liveereignis plant.<br> **Bestimmte Benutzer oder Gruppen** Benutzer können Liveereignisse erstellen, an denen nur bestimmte Benutzer oder Gruppen in Ihrer Organisation teilnehmen können. Benutzer können keine Liveereignisse erstellen, an denen jeder in Ihrer Organisation oder anonyme Benutzer teilnehmen können. Diese Einstellung aktiviert den Berechtigungstyp **Personen und Gruppen** in Teams, wenn ein Benutzer ein Liveereignis plant.       |
 |**Aufzeichnungseinstellung**  <br>     | Diese Einstellung kann nur auf Ereignisse angewendet werden, die in Teams produziert werden. Wählen Sie eine der folgenden Aktionen aus: <br><br> **Immer aufzeichnen** Von Benutzern erstellte Liveereignisse werden immer aufgezeichnet. Nach Ende des Ereignisses können die Teammitglieder die Aufzeichnung herunterladen, und die Teilnehmer können sich das Ereignis ansehen. <br> **Nie aufzeichnen** Von Benutzern erstellte Liveereignisse werden nie aufgezeichnet. <br>**Organisator kann aufzeichnen oder nicht** Benutzer können entscheiden, ob das Liveereignis aufgezeichnet werden soll. Falls das Ereignis aufgezeichnet wird, können die Teammitglieder nach dessen Ende die Aufzeichnung herunterladen, und die Teilnehmer können sich das Ereignis ansehen.
 
-Sie können dies auch mithilfe von Windows PowerShell tun. Weitere Informationen erhalten Sie unter [Verwenden von PowerShell zum Festlegen von Richtlinien für Liveereignisse in Microsoft Teams](set-teams-live-events-policies-using-powershell.md).
+Sie können dies auch mithilfe von Windows PowerShell tun, und derzeit müssen GCC High- und DoD-Kunden diese Methode verwenden. Weitere Informationen erhalten Sie unter [Verwenden von PowerShell zum Festlegen von Richtlinien für Liveereignisse in Microsoft Teams](set-teams-live-events-policies-using-powershell.md).
 
 ### <a name="assign-a-live-events-policy-to-users"></a>Zuweisen einer Richtlinie für Liveereignisse zu Benutzern
 
@@ -99,7 +99,7 @@ Die folgenden SDN-/eCDN-Lösungen sind vorintegriert und können für die Verwen
 
 - **Hive-Streaming** bietet eine einfache und leistungsstarke Lösung für die Live- und On-Demand-Videoverteilung in Unternehmen. Bei Hive handelt es sich um eine softwarebasierte Lösung, die keine zusätzliche Hardware oder Bandbreite erfordert und eine sichere Möglichkeit bietet, ein Video ohne Auswirkungen auf Ihr Netzwerk zu Tausenden gleichzeitig abzurufen. Wenn Sie wissen möchten, welche Auswirkungen Video auf Ihr Netzwerk hat, bevor Sie eine SDN-/eCDN-Lösung erwerben, bietet Hive-Streaming auch eine browserbasierte Analyselösung für Microsoft-Kunden. [Weitere Informationen](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
 
-- **Kollective** ist eine cloudbasierte, intelligente Plattform für Peeringverteilung, die Ihre vorhandene Netzwerkinfrastruktur nutzt, um Inhalte in vielen Formen (Livestreaming-Video, On-Demand-Video, Softwareupdates, Sicherheitspatches usw.) schneller, zuverlässiger und mit weniger Bandbreite bereitzustellen. Unsere sichere Plattform wird von den weltweit größten Finanzinstituten als vertrauenswürdig eingestuft, und da keine zusätzliche Hardware nötig ist, sind das Setup und die Wartung einfach. [Weitere Informationen](https://kollective.com/microsoft-pilot/).
+- **Kollective** ist eine cloudbasierte Smart-Peering-Verteilungsplattform, die Ihre vorhandene Netzwerkinfrastruktur nutzt, um Inhalte in vielen Formen (Livestreaming-Video, On-Demand-Video, Softwareupdates, Sicherheitspatches und mehr) schneller, zuverlässiger und mit weniger Bandbreite bereitzustellen. Unsere sichere Plattform wird von den weltweit größten Finanzinstituten als vertrauenswürdig eingestuft, und da keine zusätzliche Hardware nötig ist, sind das Setup und die Wartung einfach. [Weitere Informationen](https://kollective.com/microsoft-pilot/).
 
 - **Ramp OmniCache** bietet Netzwerkverteilung der nächsten Generation und sorgt für eine reibungslose Bereitstellung von Videoinhalten über globale WANs hinweg. Dies hilft Produzenten von Ereignissen bei der Optimierung der Netzwerkbandbreite und Unterstützung von erfolgreichen Liveereignis-Übertragungen und On-Demand-Streaming. Die Unterstützung für Ramp OmniCache für in Teams produzierte Liveereignisse ist in Kürze verfügbar. [Weitere Informationen](https://rampecdn.com).
 

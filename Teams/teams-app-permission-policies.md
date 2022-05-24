@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a7276c2a538eacefc579a7233bb99fb7882afb8f
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: ba84fbfbdcdc6bc6ad1455971a0acec0fd79121f
+ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442041"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "65661686"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von App-Berechtigungsrichtlinien in Microsoft Teams
 
@@ -40,34 +40,36 @@ App-Berechtigungsrichtlinien verwalten Sie im Microsoft Teams Admin Center. Sie 
 > [!NOTE]
 > Organisationsweite App-Einstellungen setzen die globale Richtlinie und alle benutzerdefinierten Richtlinien, die Sie erstellen und den Benutzern zuweisen, außer Kraft.
 
-Wenn Ihre Organisation bereits Teams verwendet, werden die App-Einstellungen, die Sie in **Mandantenweite Einstellungen** im Microsoft 365 Admin Center konfiguriert haben, in den organisationsweiten App-Einstellungen auf der Seite [Apps verwalten](manage-apps.md) widergespiegelt. Wenn Sie neu bei Teams sind und gerade erst anfangen, sind standardmäßig alle Apps in der globalen Richtlinie erlaubt. Dies umfasst von Microsoft, Drittanbietern und Ihrer Organisation veröffentlichte Apps.
+Wenn Ihre Organisation bereits Teams verwendet, werden die App-Einstellungen, die Sie in **Mandantenweite Einstellungen** im Microsoft 365 Admin Center konfiguriert haben, in den organisationsweiten App-Einstellungen auf der Seite [Apps verwalten](manage-apps.md) widergespiegelt. Wenn Sie neu bei Teams sind und gerade erst anfangen, sind standardmäßig alle Apps in der globalen Richtlinie erlaubt. Es umfasst Apps, die von Microsoft, Softwareanbietern von Drittanbietern und Ihrer Organisation veröffentlicht wurden.
 
-Angenommen, Sie möchten alle Apps von Drittanbietern blockieren und bestimmte Apps von Microsoft für das HR-Team in Ihrem Unternehmen zulassen. Zuerst würden Sie auf der Seite [Apps verwalten](manage-apps.md) sicherstellen, dass die Apps, die Sie für das HR-Team zulassen möchten, auf der Organisationsebene erlaubt sind. Dann erstellen Sie eine benutzerdefinierte Richtlinie mit dem Namen "App-Berechtigungsrichtlinie für HR", konfigurieren sie so, dass die gewünschten Apps blockiert und zugelassen werden, und weisen sie den Benutzern im HR-Team zu.
+Angenommen, Sie möchten nur einige bestimmte Apps für das HR-Team in Ihrer Organisation zulassen. Stellen Sie zunächst auf der Seite " [Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps) " sicher, dass die Apps, die Sie für das HR-Team zulassen möchten, auf Organisationsebene zulässig sind. Erstellen Sie dann eine benutzerdefinierte Richtlinie, legen Sie sie auf "Blockieren" und "Zulassen der gewünschten Apps" fest, und weisen Sie die Richtlinie Benutzern im Hr-Team zu.
 
 > [!NOTE]
-> Wenn Sie Teams in einer Microsoft 365 Government Community Cloud High(GCCH)- und Department of Defense (DoD)-Umgebung bereitgestellt haben, finden Sie unter [Verwalten organisationsweiter App-Einstellungen für Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) weitere Informationen zu App-Einstellungen von Drittanbietern, die für GCCH und DoD eindeutig sind.
+> Informationen zu App-Einstellungen von Drittanbietern, die nur für Microsoft 365 Government Community Cloud High-Umgebung (GCCH) und doD-Umgebung (Department of Defense) gelten, finden [Sie unter Verwalten organisationsweiter App-Einstellungen für Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government).
 
 ## <a name="create-a-custom-app-permission-policy"></a>Erstellen einer benutzerdefinierten App-Berechtigungsrichtlinie
 
-Wenn Sie die für verschiedene Benutzergruppen in Ihrer Organisation verfügbaren Apps steuern möchten, können Sie eine oder mehrere benutzerdefinierte App-Berechtigungsrichtlinien erstellen und zuweisen. Sie können separate benutzerdefinierte Richtlinien erstellen und zuweisen, je nachdem, ob die Apps von Microsoft, von Drittanbietern oder von Ihrer Organisation veröffentlicht werden. Sie sollten unbedingt berücksichtigen, dass Sie nach dem Erstellen einer benutzerdefinierten Richtlinie diese nicht mehr ändern können, wenn Drittanbieter-Apps in den organisationsweiten App-Einstellungen deaktiviert sind.
+Verwenden Sie eine oder mehrere benutzerdefinierte App-Berechtigungsrichtlinien, wenn Sie die Apps steuern möchten, die für verschiedene Benutzergruppen verfügbar sind. Sie können separate benutzerdefinierte Richtlinien erstellen und zuweisen, je nachdem, ob die Apps von Microsoft, von Drittanbietern oder von Ihrer Organisation veröffentlicht werden. Nachdem Sie eine benutzerdefinierte Richtlinie erstellt haben, können Sie sie nicht mehr ändern, wenn Apps von Drittanbietern in organisationsweiten App-Einstellungen deaktiviert sind.
 
 1. Anmelden beim [Teams Admin Center](https://admin.teams.microsoft.com/dashboard)
-1. Wechseln Sie im linken Bereich zu **Teams** **appsPermission-Richtlinien** > .
+1. Wechseln Sie im linken Bereich zu **Teams****App-Berechtigungsrichtlinien** > .
 1. Klicken Sie auf **Hinzufügen**.
+
     ![Screenshot der neuen App-Berechtigungsrichtlinie.](media/app-permission-policies-new-policy.png)
-1. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
+
+1. Geben Sie einen Namen und eine Beschreibung für die Richtlinie an.
 1. Wählen Sie unter **Microsoft-Apps**, **Drittanbieter-Apps** und **Benutzerdefinierte Apps** eine der folgenden Optionen aus:
 
-    - **Alle Apps zulassen**
-    - **Bestimmte Apps zulassen und alle anderen blockieren**
-    - **Bestimmte Apps blockieren und alle anderen zulassen**
-    - **Alle Apps blockieren**
+    * **Alle Apps zulassen**
+    * **Bestimmte Apps zulassen und alle anderen blockieren**
+    * **Bestimmte Apps blockieren und alle anderen zulassen**
+    * **Alle Apps blockieren**
 
 1. Wenn Sie **Bestimmte Apps zulassen und alle anderen blockieren** ausgewählt haben, fügen Sie die Apps hinzu, die Sie zulassen möchten:
 
     1. Wählen Sie **Apps zulassen** aus.
-    1. Suchen Sie nach den Apps, die Sie zulassen möchten, und klicken Sie dann auf **Hinzufügen**. Die Suchergebnisse werden nach dem App-Herausgeber gefiltert (**Microsoft-Apps**, **Drittanbieter-Apps** oder **Benutzerdefinierte Apps**).
-    1. Wenn Sie die Liste der Apps ausgewählt haben, klicken Sie auf **Zulassen**.
+    1. Suchen Sie nach den Apps, die Sie zulassen möchten, und wählen Sie dann **"Hinzufügen"** aus. Die Suchergebnisse werden nach dem App-Herausgeber gefiltert (**Microsoft-Apps**, **Drittanbieter-Apps** oder **Benutzerdefinierte Apps**).
+    1. Wenn Sie die Liste der Apps ausgewählt haben, wählen Sie **"Zulassen"** aus.
 
 1. Wenn Sie **auf ähnliche Weise bestimmte Apps blockieren und alle anderen zulassen** ausgewählt haben, suchen Sie nach den Apps, die Sie blockieren möchten, und fügen Sie sie hinzu, und wählen Sie dann **"Blockieren"** aus.
 1. Klicken Sie auf **Speichern**.
@@ -76,7 +78,7 @@ Wenn Sie die für verschiedene Benutzergruppen in Ihrer Organisation verfügbare
 
 Sie können das Teams Admin Center verwenden, um eine Richtlinie zu bearbeiten, einschließlich der globalen Richtlinie und benutzerdefinierter Richtlinien, die Sie erstellen.
 
-1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Center zu **Teams** **appsPermission-Richtlinien** > .
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Center zu **den Berechtigungsrichtlinien für Teams Apps** > .
 1. Wählen Sie die Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken, und wählen Sie dann **Bearbeiten** aus.
 1. Nehmen Sie nun die gewünschten Änderungen vor. Sie können die Einstellungen basierend auf dem App-Herausgeber verwalten und Apps basierend auf der Einstellung "Zulassen/Blockieren" hinzufügen und entfernen.
 1. Klicken Sie auf **Speichern**.
@@ -93,23 +95,38 @@ In einer Microsoft 365 Government – GCC, GCCH- und DoD-Bereitstellung von Team
 
 Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer Apps von Drittanbietern installieren können. Organisationsweite App-Einstellungen regeln das Verhalten für alle Benutzer und setzen alle anderen App-Berechtigungsrichtlinien, die den Benutzern zugewiesen wurden, außer Kraft. Sie können sie verwenden, um bösartige oder problematische Apps zu kontrollieren.
 
-1. Wählen Sie auf der Seite **Berechtigungsrichtlinien** die Option **Organisationsweite App-Einstellungen** aus. Sie können in dem Fenster dann die gewünschten Einstellungen konfigurieren.
+<!---
+1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel. --->
 
-    ![Screenshot der organisationsweiten App-Einstellungen.](media/app-permission-policies-gcc-org-wide.png)
+### <a name="for-gcc-clouds"></a>Für GCC Clouds
+
+1. Wählen Sie auf der Seite **"Apps verwalten** " die Option " **Organisationsweite App-Einstellungen"** aus. Sie können in dem Fenster dann die gewünschten Einstellungen konfigurieren.
+
+  ![Screenshot der organisationsweiten App-Einstellungen in GCC.](media/app-permission-policies-gcc-org-wide.png)
 
 1. Aktivieren oder deaktivieren Sie unter **Drittanbieter-Apps** diese Einstellungen, um den Zugriff auf Drittanbieter-Apps zu steuern:
 
-    - **Drittanbieter-Apps zulassen**: Steuert, ob Benutzer Drittanbieter-Apps verwenden können. Wenn Sie diese Einstellung deaktivieren, können Ihre Benutzer keine Drittanbieter-Apps installieren oder verwenden. In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams ist diese Einstellung standardmäßig deaktiviert.
-    - **Alle neuen Drittanbieter-Apps, die im Store veröffentlicht werden, standardmäßig zulassen**: Steuert, ob neue Drittanbieter-Apps, die im Teams-App-Store veröffentlicht werden, automatisch in Teams verfügbar gemacht werden. Sie können diese Option nur aktivieren, wenn Sie Drittanbieter-Apps zulassen.
+    * **Apps von Drittanbietern zulassen**: Mit dieser Option wird gesteuert, ob Benutzer Apps von Drittanbietern verwenden können. Wenn Sie diese Einstellung deaktivieren, können Ihre Benutzer keine Drittanbieter-Apps installieren oder verwenden. In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams ist diese Einstellung standardmäßig deaktiviert.
+    * **Standardmäßig alle neuen Apps von Drittanbietern zulassen, die im Store veröffentlicht** wurden: Mit dieser Option wird gesteuert, ob neue Apps von Drittanbietern, die im Teams App Store veröffentlicht werden, automatisch in Teams verfügbar werden. Sie können diese Option nur aktivieren, wenn Sie Drittanbieter-Apps zulassen.
 
-1. Fügen Sie unter **Blockierte Apps** die Apps hinzu, die Sie in Ihrer Organisation blockieren möchten. In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams werden standardmäßig alle Drittanbieter-Apps dieser Liste hinzugefügt. Wenn Sie eine Drittanbieter-App in Ihrer Organisation zulassen möchten, entfernen Sie diese App aus der Liste der blockierten Apps. Wenn Sie eine App organisationsweit blockieren, wird die App automatisch für alle Ihre Benutzer blockiert, unabhängig davon, ob sie in einer App-Berechtigungsrichtlinie erlaubt ist.
+1. Fügen Sie unter **Blockierte Apps** die Apps hinzu, die Sie in Ihrer Organisation blockieren möchten. In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams werden standardmäßig alle Drittanbieter-Apps dieser Liste hinzugefügt. Wenn Sie eine Drittanbieter-App in Ihrer Organisation zulassen möchten, entfernen Sie diese App aus der Liste der blockierten Apps. Wenn Sie eine App organisationsweit blockieren, wird die App automatisch für alle Ihre Benutzer blockiert, unabhängig davon, ob sie in App-Berechtigungsrichtlinien zulässig ist.
+
 1. Wählen Sie "Für organisationsweite App-Einstellungen **speichern"** aus, um wirksam zu werden.
 
-Wie bereits erwähnt, können Sie, um Apps von Drittanbietern zuzulassen, entweder die globale (organisationsweite Standard-) Richtlinie bearbeiten und verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen.
+Um Apps von Drittanbietern zuzulassen, bearbeiten und verwenden Sie entweder die globale Richtlinie (organisationsweite Standardrichtlinie), oder erstellen und weisen Sie benutzerdefinierte Richtlinien zu.
+
+### <a name="for-gcch-and-dod-clouds"></a>Für GCCH- und DoD-Clouds
+
+1. Wählen Sie auf der Seite **Berechtigungsrichtlinien** die Option **Organisationsweite App-Einstellungen** aus. Sie können in dem Fenster dann die gewünschten Einstellungen konfigurieren.
+
+  ![Screenshot der organisationsweiten App-Einstellungen in GCCH und DoD.](media/app-permission-policies-gcch-dod-org-wide.png)
+
+1. Fügen Sie unter **Blockierte Apps** die Apps hinzu, die Sie in Ihrer Organisation blockieren möchten. In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams werden standardmäßig alle Drittanbieter-Apps dieser Liste hinzugefügt. Wenn Sie eine App organisationsweit blockieren, wird die App automatisch für alle Ihre Benutzer blockiert, unabhängig davon, ob sie in App-Berechtigungsrichtlinien zulässig ist.
+1. Wählen Sie "Für organisationsweite App-Einstellungen **speichern"** aus, um wirksam zu werden.
 
 ## <a name="faq"></a>Häufig gestellte Fragen
 
-### <a name="working-with-app-permission-policies"></a>Verwenden von App-Berechtigungsrichtlinien
+### <a name="work-with-app-permission-policies"></a>Arbeiten mit App-Berechtigungsrichtlinien
 
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>Auf welche App-Interaktionen wirken sich die Berechtigungsrichtlinien aus?
 
@@ -139,21 +156,21 @@ Ja, wenn Sie eine App blockieren, wird diese App auf allen Teams-Clients blockie
 
 Benutzer können mit einer blockierten App oder ihren Funktionen, wie Bots, Registerkarten und Messaging-Erweiterungen, nicht interagieren. In einem gemeinsamen Kontext, wie z. B. einem Team- oder Gruppenchat, können Bots weiterhin Nachrichten an alle Teilnehmer dieses Kontexts senden. Teams zeigt dem Benutzer an, wenn eine App blockiert ist.
 
-Wenn eine App blockiert ist, können Benutzer zum Beispiel die folgenden Aktionen nicht ausführen:
+Wenn beispielsweise eine App blockiert ist, können Benutzer keine der folgenden Aufgaben ausführen:
 
-- Die App persönlich bzw. zu einem Chat oder Team hinzufügen
-- Nachrichten an den Bot der App senden
-- Tastenaktionen ausführen, die Informationen an die App zurücksenden, wie z. B. Aktionen erfordernde Nachrichten  
-- Registerkarte einer App anzeigen
-- Connectors für den Empfang von Benachrichtigungen einrichten
-- Messaging-Erweiterung der App programmieren
+* Die App persönlich bzw. zu einem Chat oder Team hinzufügen
+* Nachrichten an den Bot der App senden
+* Tastenaktionen ausführen, die Informationen an die App zurücksenden, wie z. B. Aktionen erfordernde Nachrichten  
+* Registerkarte einer App anzeigen
+* Connectors für den Empfang von Benachrichtigungen einrichten
+* Messaging-Erweiterung der App programmieren
 
 Das Legacyportal erlaubte die Steuerung von Apps auf Organisationsebene, d. h. blockierte Apps sind für alle Benutzer in der Organisation blockiert. Das Blockieren einer App auf der Seite [Apps verwalten](manage-apps.md) funktioniert genau so.
 
 Wurden bestimmten Benutzern App-Berechtigungsrichtlinien zugewiesen, und wurde eine App mit Bot- oder Connectorfunktion zugelassen und dann blockiert und anschließend nur für einige Benutzer in einem freigegebenen Kontext zugelassen, können Mitglieder eines Gruppenchats oder Kanals, die keine Berechtigung für diese App haben, den Nachrichtenverlauf und die Nachrichten sehen, die vom Bot oder Connector gepostet wurden, können aber nicht mit ihm interagieren.
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="see-also"></a>Siehe auch
 
-[Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-
-[Zuweisen von Richtlinien zu Benutzern in Teams](policy-assignment-overview.md)
+* [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
+* [Zuweisen von Richtlinien zu Benutzern in Teams](policy-assignment-overview.md)
+* [Teams Vergleich der Featureverfügbarkeit](/office365/servicedescriptions/teams-service-description#feature-availability)
