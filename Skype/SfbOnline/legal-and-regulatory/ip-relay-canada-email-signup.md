@@ -18,50 +18,47 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Aufatmen für ein IP Relay-Konto für Kanada
-ms.openlocfilehash: d062ec96a35d01fc5986af24a2bc52adf8138440
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Se sigh up for an IP Relay account for Canada.
+ms.openlocfilehash: 63b4bf27d12a11200ed6dc4601d7116089013a40
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620543"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671691"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>IP-Relay in Kanada - Registrieren
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Wenn Sie ein IP Relay-Konto für Kanada einrichten möchten, geben Sie die unten aufgeführten Informationen ein, und senden Sie es per E-Mail an [ptn@microsoft.com.](mailto:ptn@microsoft.com)
+Um ein IP-Relay-Konto für Kanada einzurichten, füllen Sie bitte die unten aufgeführten Informationen aus und senden Sie es per E-Mail an [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
 - Vorname & Nachname:
 
-- Microsoft 365 oder Office 365 Organization Domain Name:(Beispiel: Contoso.com)   
+- Microsoft 365 oder Office 365 Domänenname der Organisation:(Beispiel: Contoso.com)
 
 - Microsoft 365 oder Office 365 Telefonnummer des Benutzers:(Beispiel: +1 XXX XXX XXXX)
 
-- Kennwort (8 bis 16 Zeichen):    
+- Kennwort (8 bis 16 Zeichen):
 
-- Wahrscheinlich eine physische Adresse zum Zeitpunkt eines Notfalls: 
+- Höchstwahrscheinlich physische Adresse zum Zeitpunkt eines Notfalls:
 
-- Straßennummer & Name: 
+- Straßennummer & Name:
 
-- Apartment/Suite:    
+- Wohnung / Suite:
 
-- Ort: 
+- Stadt:
 
-- Provinz/Bundesland: 
+- Provinz / Bundesland:
 
-- Postleitzahl/PLZ:   
+- Postleitzahl/ Postleitzahl:
 
-- Telefon Zahl: 
+- Telefon Nummer:
 
-- Microsoft 365 oder Office 365-Mail-Adresse:
+- Microsoft 365 oder Office 365 E-Mail-Adresse:
 
 > [!NOTE]
-> Die oben aufgeführte E-Mail-Adresse erhält Nachrichten, die für Sie erhalten bleiben, wenn Sie nicht online sind, wenn jemand über IP Relay bei Ihnen anruft. 
+> Die oben angegebene E-Mail-Adresse empfängt Nachrichten, die für Sie übrig bleiben, wenn Sie nicht online sind, wenn jemand sie über IP-Relay anruft. 
 
-Sobald Ihr Konto bereit ist (innerhalb von 24 Arbeitsstunden), erhalten Sie eine E-Mail mit Benutzername und Kennwort. 
+Sobald Ihr Konto bereit ist (innerhalb von 24 Arbeitsstunden), senden wir Ihnen eine E-Mail mit dem Benutzernamen und dem Kennwort. 
 
-
-Lesen Sie als Nächstes [IP Relay in Kanada – Benutzerleitfaden für](ip-relay-canada-user-guide.md) die ersten Schritte. 
-
-
+Lesen Sie als Nächstes das [IP-Relay in Kanada – Benutzerhandbuch](ip-relay-canada-user-guide.md) für die ersten Schritte. 
