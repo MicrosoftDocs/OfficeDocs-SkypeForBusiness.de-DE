@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Tisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: c5b4ab39768d0485de5fb5f6060d5567d035a343
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 17682a64ee6a5df1c029fdad09307e8fb5789769
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741897"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65682126"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams zertifizierte Android-Geräte
 
@@ -48,6 +48,8 @@ Die folgenden Geräte sind im Rahmen des Zertifizierungsprogramms für Microsoft
 | AudioCodes C450HD                      | `1.17.443`                                                  |    5. August 2023              | 9 |
 | AudioCodes C448HD(Nur Cap-Modus)       |  `1.17.443`                                                   | 5. August 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 3. September 2025     | 11 |
+| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22. April 2022               | 7.1.x |
+| AudioCodes C448HD(Nur Cap-Modus)       | `C450HD_TEAMS_0.225`                                                  | 22. April 2022               | 7.1.x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | 5. August 2023            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`       | 5. August 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 5. August 2023               | 9 |

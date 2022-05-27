@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Admin können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674197"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753058"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -39,6 +39,7 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen [
 
 |Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
@@ -90,6 +91,13 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen [
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams-Räume Einführung und Problemlösung von Features
+
+### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
+
+In diesem Update eingeführt:
+- Fehlerkorrektur für Jabra Panacast 50
+- Fehlerkorrektur für die Teilnahme an anonymen Besprechungen in der cloudübergreifenden Besprechung
+- Qualitäts- und Zuverlässigkeitskorrekturen
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 

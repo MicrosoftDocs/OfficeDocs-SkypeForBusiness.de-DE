@@ -12,12 +12,12 @@ ms.collection:
 description: Erfahren Sie mehr über Versionen, die vom Teams PowerShell-Modul unterstützt werden, das für die Verwaltung von Microsoft Teams verwendet wird.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80465e1685ea05d6f49c6119110ddf2004098055
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
+ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681916"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65758313"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell-Modul – Unterstützte Versionen
 
@@ -29,11 +29,11 @@ Organisationen, die neu in Teams integriert sind, können ab dem 1. April 2022 n
 
 ## <a name="current-organizations-non-tpm-active"></a>Aktuelle Organisationen (nicht TPM aktiv)
 
-Organisationen, die Teams PowerShell-Modul in den letzten drei Monaten (22. Januar – 22. März) nicht verwendet haben, können ab dem 1. April 2022 nur Teams PowerShell-Modul in der 4.x.x-Serie oder höher verwenden.
+Organisationen, die Teams PowerShell-Modul während des 22. Januar bis 22. März nicht verwendet haben, können ab dem 1. April 2022 nur Teams PowerShell-Modul in der 4.x.x-Serie oder höher verwenden.
 
 ## <a name="current-organizations-tpm-active"></a>Aktuelle Organisationen (TPM aktiv)
 
-Organisationen, die in den letzten drei Monaten (22. Januar – 22. März) Teams PowerShell-Modul verwendet haben, können ab dem 15. Juni 2022 nur Teams PowerShell-Modul in der 4.x.x-Serie oder höher verwenden. Nachrichtencenter-Beitrag zur Referenz – MC350371.
+Organisationen, die Teams PowerShell-Modul während des 22. Januar bis 22. März verwendet haben, können ab dem 15. Juni 2022 nur Teams PowerShell-Modul in der 4.x.x-Serie oder höher verwenden. Nachrichtencenter-Beitrag zur Referenz – MC350371.
 
 ## <a name="important-notes"></a>Wichtige Hinweise
 
@@ -54,7 +54,9 @@ Organisationen, die in den letzten drei Monaten (22. Januar – 22. März) Teams
 
   - Änderungen an Telefon Nummernzuweisung – weitere Details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Nachrichtencenterbeitrag – MC316139).
 
-  - Parameteränderungen in Get-CsTenant – weitere Details in [Get-CsTenant](/powershell/module/skype/get-cstenant).
+  - Parameteränderungen in Get-CsTenant – weitere Details in [Get-CsTenant](/powershell/module/skype/get-cstenant) (Beitrag im Nachrichtencenter – MC365397).
+  
+  - Wenn Ihre Skripts Neue/Satz von Richtlinien- oder Konfigurations-Cmdlets mit PSListModifier-Typparametern verwenden, wird empfohlen, die neueste Version (4.2.0 oder höher) zu verwenden.
 
 - Bei Verwendung von TPM 4.x.x oder höher wird empfohlen, keine der [unten](#deprecated-cmdlets) aufgeführten veralteten oder nicht unterstützten Cmdlets zu verwenden.
 
@@ -77,7 +79,7 @@ Organisationen, die in den letzten drei Monaten (22. Januar – 22. März) Teams
   - [Zuschuss| Abrufen| Festlegen| Neu| Remove]-CsClientPolicy
   - [Zuschuss| Get]-CsHostedVoicemailPolicy
   - [Zuschuss| Abrufen| Festlegen| Neu| Remove]-CsMobilityPolicy
-  - [Zuschuss| Get] CsVoiceRoutingPolicy
+  - [Zuschuss| Get]-CsVoiceRoutingPolicy
   - [Zuschuss| Get]-CsBroadcastMeetingPolicy
   - [Zuschuss| Get]-CsCloudMeetingPolicy
   - [Zuschuss| Get]-CsGraphPolicy
@@ -96,7 +98,7 @@ Organisationen, die in den letzten drei Monaten (22. Januar – 22. März) Teams
   - Get-CsHostingProvider
   - [Get| Festlegen| Registrieren| Registrierung aufheben]-CsHybridPSTNAppliance
   - [Get| Festlegen| Neu| Remove]-CsHybridPSTNSite
-  - [Get| Set]- CsHybridMediationServer
+  - [Get| Set]-CsHybridMediationServer
   - [Get| Festlegen| Neu| Remove]-CsTenantUpdateTimeWindow
   - Get-CsUserLocationStatus
   - Invoke-CsUcsRollback
