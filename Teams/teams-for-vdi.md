@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce8e702682ebcc4b05e94f077882d51f09aac0ff
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 5b85befa685458f5460ab21bb962af3f0df4f004
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624149"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681586"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -101,6 +101,9 @@ Sie können die Teams-Desktop-App für VDI mithilfe einer Installation auf Compu
 Bei einem dedizierten beständigen Setup funktioniert sowohl die Installation pro Computer als auch die Installation pro Benutzer. Für ein nicht beständiges Setup benötigt Teams jedoch eine Installation auf Computerbasis, um effizient zu funktionieren. Weitere Informationen finden Sie im Abschnitt [Nicht beständiges Setup](#non-persistent-setup).
 
 Bei der Installation pro Computer werden automatische Updates deaktiviert. Dies bedeutet, dass Sie zum Aktualisieren der Teams-App die aktuelle Version deinstallieren müssen, um auf eine neuere Version aktualisieren zu können. Bei der Installation pro Benutzer werden automatische Updates aktiviert.
+
+> [!IMPORTANT]
+> Halten Sie die Teams Desktop-App in Ihrer VDI-Umgebung auf dem neuesten Stand. Teams Desktop-App-Versionen mit Veröffentlichungsdaten, die älter als 90 Tage als das [Veröffentlichungsdatum der aktuellen Version](/officeupdates/teams-app-versioning) sind, werden nicht unterstützt. Nicht unterstützte Teams Desktop-App-Versionen zeigen Benutzern eine blockierende Seite an und fordern sie auf, ihre App zu aktualisieren.
 
 Bei den meisten VDI-Bereitstellungen empfehlen wir, Teams mithilfe einer Installation auf Computerbasis bereitzustellen. Um auf die neueste Version von Teams zu aktualisieren, beginnen Sie mit dem Deinstallationsverfahren, gefolgt von der neuesten Bereitstellung der Teams-Version.
 

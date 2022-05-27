@@ -1,5 +1,5 @@
 ---
-title: Administratoreinrichtung von Eltern in Teams für Education
+title: Admin Einrichtung von Eltern in Teams für Education
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393869"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676127"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Einrichten der übergeordneten Verbindung in Microsoft Teams für Education
 
@@ -102,8 +102,8 @@ Lehrkräfte können einen Erziehungsberechtigten in einem Chat blockieren, der i
 
 Der Klassenbesitzer kann:
 
-1. Öffnen Sie die Profilkarte des Erziehungsberechtigten, wählen Sie die Ellipse aus, und **blockieren Sie den Benutzer**. 
-2. Entfernen Sie dann den Erziehungsberechtigten aus dem Chat. 
+1. Öffnen Sie die Profilkarte des Erziehungsberechtigten, wählen Sie die Ellipse aus, und **blockieren Sie den Benutzer**.
+2. Entfernen Sie dann den Erziehungsberechtigten aus dem Chat.
 
 Der blockierte Benutzer kann keine zusätzlichen Chats mit dem Klassenbesitzer starten.
 

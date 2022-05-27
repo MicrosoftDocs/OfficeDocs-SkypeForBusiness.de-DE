@@ -17,12 +17,12 @@ description: Erfahren Sie, was Sie tun müssen, wenn Sie eDiscovery durchführen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031920"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675307"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -36,27 +36,26 @@ eDiscovery von Nachrichten und Dateien in [privaten Kanälen](private-channels.m
 
 Nicht alle Teams Inhalte sind eDiscoverable. In der folgenden Tabelle sind die Inhaltstypen aufgeführt, nach denen Sie mithilfe von Microsoft eDiscovery-Tools suchen können:
 
-| Inhaltstyp | eDiscoverable | Hinweise |
-|:--- | :--- |:--- |
-|Audioaufzeichnungen | Nein | |
+|Inhaltstyp|eDiscoverable|Hinweise|
+|---|---|---|
+|Audioaufzeichnungen|Nein||
 |Karteninhalt|Ja|Weitere Informationen finden [Sie unter "Nach Karteninhalt suchen](#search-for-card-content) ".|
-|Chatlinks | Ja | |
-|Chatnachrichten | Ja |Dazu gehören Inhalte in Standard-Teams Kanälen, 1:1-Chats, 1:N-Gruppenchats und Chats mit Gastbenutzerteilnehmern.  |
-|Codeausschnitte | Nein | |
-|Bearbeitete Nachrichten | Ja | Wenn sich der Benutzer im Haltebereich befindet, bleiben auch frühere Versionen bearbeiteter Nachrichten erhalten. |
-|Emojis, GIFs und Aufkleber | Ja | |
-|Feedbenachrichtigungen | Nein | |
-|Inlinebilder | Ja | |
-|Loop Komponenten| Ja|Inhalt in einer Schleifenkomponente wird in einer FLUID-Datei gespeichert, die im OneDrive for Business Konto des Benutzers gespeichert wird, der die Schleifenkomponente sendet. Das bedeutet, dass Sie OneDrive als Datenquelle bei der Suche nach Inhalten in Schleifenkomponenten einschließen müssen. |
-|Chatunterhaltungen für Besprechungen | Ja | |
-|Besprechungsmetadaten1<sup></sup> | Ja |  |
-|Name des Kanals | Ja | |
-|Private und freigegebene Kanal-Chatnachrichten | Ja | |
-|Zitate | Ja | Zitierte Inhalte können durchsucht werden. Die Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde. |
-|Reaktionen (z. B. Likes, Herzen und andere Reaktionen) | Nein | |
-|Betreff | Ja | |
-|Tabellen | Ja | |
-||||
+|Chatlinks|Ja||
+|Chatnachrichten|Ja|Dazu gehören Inhalte in Standard-Teams Kanälen, 1:1-Chats, 1:N-Gruppenchats und Chats mit Gastbenutzerteilnehmern.|
+|Codeausschnitte|Nein||
+|Bearbeitete Nachrichten|Ja|Wenn sich der Benutzer im Haltebereich befindet, bleiben auch frühere Versionen bearbeiteter Nachrichten erhalten.|
+|Emojis, GIFs und Aufkleber|Ja||
+|Feedbenachrichtigungen|Nein||
+|Inlinebilder|Ja||
+|Loop Komponenten|Ja|Inhalt in einer Schleifenkomponente wird in einer FLUID-Datei gespeichert, die im OneDrive for Business Konto des Benutzers gespeichert wird, der die Schleifenkomponente sendet. Das bedeutet, dass Sie OneDrive als Datenquelle bei der Suche nach Inhalten in Schleifenkomponenten einschließen müssen.|
+|Chatunterhaltungen für Besprechungen|Ja||
+|Besprechungsmetadaten<sup>1</sup>|Ja||
+|Name des Kanals|Ja||
+|Private und freigegebene Kanal-Chatnachrichten|Ja||
+|Zitate|Ja|Zitierte Inhalte können durchsucht werden. Die Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde.|
+|Reaktionen (z. B. Likes, Herzen und andere Reaktionen)|Nein||
+|Betreff|Ja||
+|Tabellen|Ja||
 
 <sup>1</sup> Besprechungs- (und Anruf)-Metadaten umfassen Folgendes:
 
@@ -174,9 +173,9 @@ Sie können eDiscovery-Tools verwenden, um nach Teams Inhalten im Zusammenhang m
 
 So suchen Sie nach Inhalten für Gastbenutzer:
 
-1. Verbinden, um PowerShell zu Azure AD. Anweisungen hierzu finden Sie im Abschnitt "Verbinden mit der Azure Active Directory PowerShell" in [Verbinden, um mit PowerShell zu Microsoft 365](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Stellen Sie sicher, dass Sie Schritt 1 und Schritt 2 im vorherigen Artikel ausführen.
+1. Verbinden zu Azure AD PowerShell. Anweisungen hierzu finden Sie im Abschnitt "Verbinden mit der Azure Active Directory PowerShell" in [Verbinden, um mit PowerShell zu Microsoft 365](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Stellen Sie sicher, dass Sie Schritt 1 und Schritt 2 im vorherigen Artikel ausführen.
 
-2. Nachdem Sie erfolgreich eine Verbindung mit Azure AD PowerShell hergestellt haben, führen Sie den folgenden Befehl aus, um den Benutzerprinzipalnamen (USER Principal Name, UPN) für alle Gastbenutzer in Ihrer Organisation anzuzeigen. Sie müssen den UPN des Gastbenutzers verwenden, wenn Sie die Suche in Schritt 4 erstellen.
+2. Nachdem Sie die Verbindung mit Azure AD PowerShell erfolgreich hergestellt haben, führen Sie den folgenden Befehl aus, um den Benutzerprinzipalnamen (USER Principal Name, UPN) für alle Gastbenutzer in Ihrer Organisation anzuzeigen. Sie müssen den UPN des Gastbenutzers verwenden, wenn Sie die Suche in Schritt 4 erstellen.
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
@@ -207,7 +206,7 @@ So suchen Sie nach Inhalten für Gastbenutzer:
    Start-ComplianceSearch <search name>
    ```
 
-6. Wechseln Sie zu [https://compliance.microsoft.com](https://compliance.microsoft.com) und klicken Sie dann auf "**AllContent-Suche** >  anzeigen **"**.
+6. Wechseln Sie zu [https://compliance.microsoft.com](https://compliance.microsoft.com) und klicken Sie dann auf **"Alle** > **Inhaltssuche anzeigen"**.
 
 7. Wählen Sie in der Liste der Suchvorgänge die Suche aus, die Sie in Schritt 4 erstellt haben, um die Flyoutseite anzuzeigen.
 
@@ -234,11 +233,11 @@ Beim Anzeigen von Karteninhalten in Inhaltssuchergebnissen wird der Inhalt als A
 ![Karteninhalt in Teams Kanalnachricht.](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>Karteninhalt in Suchergebnissen
-  
+
 ![Der gleiche Karteninhalt in den Ergebnissen einer Inhaltssuche.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Um Bilder aus Karteninhalten zu diesem Zeitpunkt in Suchergebnissen anzuzeigen (z. B. die Häkchen im vorherigen Screenshot), müssen Sie bei Teams angemeldet sein (auf https://teams.microsoft.com) einer anderen Registerkarte in derselben Browsersitzung, die Sie zum Anzeigen der Suchergebnisse verwenden). Andernfalls werden Bildplatzhalter angezeigt.
+> Um Bilder aus Karteninhalten zu diesem Zeitpunkt in Suchergebnissen anzuzeigen (z. B. die Häkchen im vorherigen Screenshot), müssen Sie auf einer anderen Registerkarte in derselben Browsersitzung, die Sie zum Anzeigen der Suchergebnisse verwenden, bei Teams (at<https://teams.microsoft.com>) angemeldet sein. Andernfalls werden Bildplatzhalter angezeigt.
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>eDiscovery in Verbund- und Nicht-Verbundumgebungen
 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 67be704ae81379a122a9c205305da1c4d4a5dcbd
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62362981"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675647"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -106,12 +106,12 @@ Für **Schüler an Grundschulen und weiterführende Schulen** sind möglicherwei
 
 ### <a name="create-class-teams-for-secure-classroom-use"></a>Erstellen von Kursteams für sichere Nutzung im Unterricht
 
-Microsoft Teams Education bietet  [spezifische Teamtypen](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)  für die Nutzung in Bildungseinrichtungen. Der Teamtyp [Klasse](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) wurde für die Nutzung im Unterricht konzipiert und bietet spezifische Funktionen, die den Unterricht unterstützen, einschließlich:  
+Microsoft Teams für Bildungseinrichtungen bietet [spezielle Teamtypen](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) für die Nutzung in der Ausbildung. Der Teamtyp [Klasse](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) wurde für die Nutzung im Unterricht konzipiert und bietet spezifische Funktionen, die den Unterricht unterstützen, einschließlich:  
 
 - Aufgaben
 - Noten
 - OneNote-Kursnotizbuch  
-- [Ordner für Kursmaterialien](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  zum Sichern von schreibgeschützten Inhalten für Schüler/Studenten
+- [Ordner für Kursmaterialien](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  zum Sichern von schreibgeschützten Inhalten für Lernende
 - [Insights](./class-insights.md), um Echtzeit-Daten bezüglich des Engagements von Schülern/Studenten, Aufgaben und des Wohlbefindens aller Klassenzimmer zu liefern. 
 - [Frühzeitiger Zugriff für Lehrkräfte](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) zum Einrichten des Kurses, bevor Schüler/Studenten hinzugefügt werden 
 - Die Fähigkeit, störende Schüler stummzuschalten und andere Sonderberechtigungen   
@@ -127,7 +127,7 @@ Wir werden mehrere Optionen durchgehen, um Ihnen bei der Auswahl des richtigen B
 
 #### <a name="automatic-team-creation-using-sds"></a>Automatische Teamerstellung mit SDS
 
-Die Automatisierung der Teamerstellung spart IT-Administratoren und Lehrkräften Zeit. Dadurch wird sichergestellt, dass Lehrkräfte alle ihre Kursteams erstellt haben und bereit zum Einrichten bei der Anmeldung sind. [School Data Sync (SDS)](/SchoolDataSync) ist ein kostenloses Office 365 Education-Tool, das die Daten aus dem Datenerfassungssystem einer Bildungseinrichtung liest, z. B. eines Schülerinformationssystems (SIS) oder Learning Management Systems (LMS). SDS verwendet die Daten, um das Office 365-Setup auf viele verschiedene Arten zu erweitern, darunter das Erstellen von Kursteams in großen Mengen und die Synchronisierung mit Ihrem Informationssystem, um die Mitgliedschaft Ihres Kursleiters und Ihrer Schüler zu aktualisieren, wenn sich die Registrierung ändert. SDS kann Daten aus jedem beliebigen System importieren. Es verfügt über integrierte Konnektoren für viele der [SIS-Anbieter](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support). Es wird dringend empfohlen, SDS zu verwenden, da es die folgenden Vorteile bietet.  
+Die Automatisierung der Teamerstellung spart IT-Administratoren und Lehrkräften Zeit. Dadurch wird sichergestellt, dass Lehrkräfte alle ihre Kursteams erstellt haben und bereit zum Einrichten bei der Anmeldung sind. [School Data Sync (SDS)](/SchoolDataSync) ist ein kostenloses Office 365 Education-Tool, das die Daten aus dem Datenerfassungssystem einer Bildungseinrichtung liest, z. B. eines Schülerinformationssystems (SIS) oder Learning Management Systems (LMS). SDS verwendet die Daten, um das Office 365-Setup auf viele verschiedene Arten zu erweitern, darunter das Erstellen von Kursteams in großen Mengen und die Synchronisierung mit Ihrem Informationssystem, um die Mitgliedschaft Ihres Kursleiters und Ihrer Schüler zu aktualisieren, wenn sich die Registrierung ändert. SDS kann Daten aus jedem beliebigen Aufbewahrungssystem importieren. Es verfügt über integrierte Konnektoren für viele der weltweit existierenden [SIS-Anbieter](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support). Es wird dringend empfohlen, SDS zu verwenden, da es die folgenden Vorteile bietet.  
 
 ###### <a name="benefits"></a>Vorteile
 
@@ -215,7 +215,7 @@ Mit PowerShell können Sie ein Skript schreiben, um Teams zu erstellen und Einst
 
 #### <a name="manual-team-creation"></a>Manuelle Teamerstellung
 
-Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer ihre Teams-Erfahrung maßschneidern können, ist das Erstellen von Teams. Lehrkräfte erstellen ein eigenes Kursteam und laden Schüler wie [hier](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch) gezeigt wird ein. Lehrkräfte können Schüler einladen, indem sie [Schüler dem Team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)hinzufügen, [einen Teilnahmecode](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)teilen, oder [einen Link zum Team freigeben](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Wenn möglich, ist es am besten, wenn Lehrkräfte ihre Schüler/Studenten in das Team aufnehmen, um sicherzustellen, dass diese Zugriff erhalten und darüber informiert werden, dass sie zu einem Team hinzugefügt wurden.
+Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer ihre Teams-Erfahrung maßschneidern können, ist das Erstellen von Teams. Lehrkräfte erstellen ein eigenes Kursteam und laden Schüler wie [hier](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch) gezeigt wird ein. Lehrkräfte können Schüler einladen, indem sie [Schüler dem Team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)hinzufügen, [einen Teilnahmecode](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)teilen, oder [einen Link zum Team freigeben](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Wenn möglich sollten Lehrkräfte ihre Lernenden in das Team aufnehmen, um sicherzustellen, dass diese den Zugriff erhalten und darüber informiert werden, dass sie zu einem Team hinzugefügt wurden.
 
 ##### <a name="benefits"></a>Vorteile
 
@@ -249,7 +249,7 @@ Wir haben in [team resource type](/graph/api/resources/team?view=graph-rest-beta
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>Wie aktiviere ich einen Kurs für eine Lehrkraft?
 
-Verwenden Sie die [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) (API zum Aktualisieren des Teams), und legen Sie für die Eigenschaft ```isMembershipLimitedToOwners``` den Wert „false“ fest, um das Team im Namen Ihrer Lehrkraft zu aktivieren. Beachten Sie, dass die Aktivierung eines Teams nicht rückgängig gemacht werden kann.
+Verwenden Sie die [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) (API zum Aktualisieren des Teams), und legen Sie die Eigenschaft ```isMembershipLimitedToOwners``` auf den Wert FALSE fest, um das Team im Namen Ihrer Lehrkraft zu aktivieren. Beachten Sie, dass die Aktivierung eines Teams nicht rückgängig gemacht werden kann.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>Erstellen von Mitarbeiterteams für die Kommunikation und Zusammenarbeit von Mitarbeitern
 

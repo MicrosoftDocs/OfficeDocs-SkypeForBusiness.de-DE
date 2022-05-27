@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie nach Telefonnummern suchen, die Sie Ihren Benutzern zuweisen können, nach Land oder Region und Stadt, und geben Sie die Anzahl der benötigten Nummern an.
-ms.openlocfilehash: 46bdc54f892993b9a161690a5d42692fe66b9f5a
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 4cb30e6ef03e50c3524ccd9b5c36ae10fb8b5ab2
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686372"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681796"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Suchen nach Telefonnummern für Benutzer
 
@@ -34,7 +34,7 @@ Wenn Sie Benutzer in Ihrer Organisation einrichten, um Telefonanrufe über von M
   
 Bevor Sie Ihren Benutzern von Microsoft bereitgestellte Telefonnummern zuweisen können, müssen Sie die Seite **"Neue Nummern** abrufen" verwenden, um nach Telefonnummern zu suchen, die Ihnen zur Verfügung stehen. Sie können nach **Land (Markt)**, **Nummerntyp** und **Ort** suchen. Anschließend wird eine Liste der Betreiber angezeigt, die Nummern in diesem Land bereitstellen.
 
-Wenn Sie Microsoft als Betreiber auswählen, können Sie die Nummern über das Teams Admin Center erwerben, indem Sie die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen.Die Seite begrenzt automatisch die Menge basierend auf der Anzahl, die Sie noch erwerben können. Wenn Sie einen Telefonieanbieter-Operator auswählen, werden Sie zur Startseite Des ausgewählten Operators weitergeleitet, um den Nummernauftrag abzuschließen.
+Wenn Sie Microsoft als Betreiber auswählen, können Sie die Nummern über das Teams Admin Center erwerben, indem Sie die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen. Die Seite begrenzt automatisch die Menge basierend auf der Anzahl, die Sie noch erwerben können. Wenn Sie einen Telefonieanbieter-Operator auswählen, werden Sie zur Startseite Des ausgewählten Operators weitergeleitet, um den Nummernauftrag abzuschließen.
 
 Wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PSTN-Konnektivitätsoption ab: Microsoft-Anrufpläne, Telefonieanbieter oder Direct Routing.
 
@@ -46,10 +46,10 @@ So suchen Sie nach Telefonnummern für Ihre Benutzer:
   
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
-2. Wählen Sie im linken Navigationsbereich **"VoIP** >  **Telefon NummernNeue** >  **Nummern erhalten**" aus.
+2. Wählen Sie im linken Navigationsbereich **"VoIP** >  **Telefon Nummern** > **neue Nummern abrufen**" aus.
   
     > [!IMPORTANT]
-    > Damit die **VoIP-Option** im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5- oder E3-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz-Add-On-Lizenz** erwerben.  
+    > Damit **die** VoIP-Option im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5- oder E3-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz** Add-On-Lizenz kaufen.  
 
 3. Wählen Sie auf der Seite **"Standort und Menge auswählen** " in der Dropdownliste **"Land (Markt)"** einen Ort aus.
 
@@ -75,10 +75,10 @@ So suchen Sie nach Telefonnummern für Ihre Benutzer:
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
-2. Wählen Sie im linken Navigationsbereich **"VoIP** >  **Telefon NummernNeue** >  **Nummern erhalten**" aus.
+2. Wählen Sie im linken Navigationsbereich **"VoIP** >  **Telefon Nummern** > **neue Nummern abrufen**" aus.
   
     > [!IMPORTANT]
-    > Damit die **VoIP-Option** im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5- oder E3-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz-Add-On-Lizenz** erwerben.  
+    > Damit **die** VoIP-Option im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5- oder E3-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz** Add-On-Lizenz kaufen.  
 
 3. Wählen Sie auf der Seite **"Standort und Menge auswählen** " in der Dropdownliste **"Land (Markt)"** einen Ort aus.
 

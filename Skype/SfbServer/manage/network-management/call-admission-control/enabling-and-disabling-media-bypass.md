@@ -1,6 +1,6 @@
 ---
 title: Aktivieren und Deaktivieren der Medienumgehung
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,30 +8,34 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
-description: 'Verwenden Sie die Verfahren in diesem Artikel, um die Medienumgehung mithilfe der Skype for Business Server Systemsteuerung zu aktivieren oder zu deaktivieren.'
+description: Verwenden Sie die Verfahren in diesem Artikel, um die Medienumgehung mithilfe der Skype for Business Server Systemsteuerung zu aktivieren oder zu deaktivieren.
+ms.openlocfilehash: 38ec29c6e4b51a4c6898b13c4de0172f55947907
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675337"
 ---
-
-
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Aktivieren und Deaktivieren der Medienumgehung in Skype for Business Server
 
 Verwenden Sie die Verfahren in diesem Artikel, um die Medienumgehung mithilfe der Skype for Business Server Systemsteuerung zu aktivieren oder zu deaktivieren.
 
 ## <a name="enable-network-media-bypass"></a>Aktivieren der Netzwerkmedienumgehung 
 
-Medienumgehungseinstellungen gelten global für eine Skype for Business Server Bereitstellung. Die Medienumgehung ermöglicht bei Anrufen die Umgehung des Vermittlungsservers. Ausführliche Informationen zur Verwendung der Medienumgehung finden Sie unter ["Planen der Medienumgehung"](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+Medienumgehungseinstellungen gelten global für eine Skype for Business Server Bereitstellung. Die Medienumgehung ermöglicht bei Anrufen die Umgehung des Vermittlungsservers. Ausführliche Informationen zur Verwendung der Medienumgehung finden Sie unter ["Planen der Medienumgehung](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)".
 
 Sie können die Medienumgehung über die Skype for Business Server Systemsteuerung aktivieren und konfigurieren.
 
 
 ### <a name="to-enable-and-configure-media-bypass"></a>So aktivieren und konfigurieren Sie die Medienumgehung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei jedem Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Global**".
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Global**".
 
 4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global**. Es ist immer nur eine Konfiguration vorhanden, und diese trägt stets den Namen "Global".
 
@@ -56,16 +60,16 @@ Sie können die Medienumgehung über die Skype for Business Server Systemsteueru
 
 ## <a name="disable-network-media-bypass"></a>Deaktivieren der Netzwerkmedienumgehung
 
-Medienumgehungseinstellungen gelten global für eine Skype for Business Server Bereitstellung. Die Medienumgehung ermöglicht bei Anrufen die Umgehung des Vermittlungsservers. Ausführliche Informationen zur Verwendung der Medienumgehung finden Sie unter ["Planen der Medienumgehung"](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Sie können die Medienumgehung über die Skype for Business Server Systemsteuerung deaktivieren. 
+Medienumgehungseinstellungen gelten global für eine Skype for Business Server Bereitstellung. Die Medienumgehung ermöglicht bei Anrufen die Umgehung des Vermittlungsservers. Ausführliche Informationen zur Verwendung der Medienumgehung finden Sie unter ["Planen der Medienumgehung](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)". Sie können die Medienumgehung über die Skype for Business Server Systemsteuerung deaktivieren. 
 
 
 ### <a name="to-disable-media-bypass"></a>So deaktivieren Sie die Medienumgehung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei jedem Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Global**".
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Global**".
 
 4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global**. Es ist immer nur eine Konfiguration vorhanden, und diese trägt stets den Namen "Global".
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: b59753e1ad1e5a0be36ed8a0d924d7fa6d6658a2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187121"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675517"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion
 
@@ -37,7 +37,7 @@ Dank der maßgeschneiderten App-Erfahrung in Service und Produktion erhalten Ihr
 
 ## <a name="tailored-frontline-app-experience"></a>Maßgeschneiderte App-Erfahrung in Service und Produktion
 
-Apps werden an die App-Leiste angeheftet. Dies ist die Leiste am unteren Rand der Teams mobile Clients (iOS und Android) und auf der Seite des Teams Desktopclients. Die folgenden Apps sind für Benutzer angeheftet, die über eine [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) verfügen:
+Apps werden an die App-Leiste angeheftet. Dies ist die Leiste am unteren Rand der Teams mobilen Clients (iOS und Android) und auf der Seite des Teams Desktopclients. Die folgenden Apps sind für Benutzer angeheftet, die über eine [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) verfügen:
 
 - [Aktivität](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -55,7 +55,7 @@ Apps werden an die App-Leiste angeheftet. Dies ist die Leiste am unteren Rand de
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Die maßgeschneiderte App-Erfahrung in Service und Produktion auf Teams Desktop" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>Administratorsteuerelemente
+## <a name="admin-controls"></a>Admin Steuerelemente
 
 > [!NOTE]
 > Die Einstellung zum **Anheften von Benutzern** muss in der globalen (organisationsweiten Standard-) [App-Setuprichtlinie](teams-app-setup-policies.md) aktiviert sein, damit dieses Feature wirksam wird.
@@ -66,7 +66,7 @@ Beachten Sie, dass alle benutzerdefinierten [App-Setuprichtlinien](teams-app-set
 
 Diese Funktion ist standardmäßig aktiviert. Wenn Sie die von Microsoft bereitgestellte maßgeschneiderte Frontline-App-Erfahrung jedoch nicht wünschen, können Sie das Feature deaktivieren. So deaktivieren oder aktivieren Sie das Feature:
 
-1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Teams** **appsManage-Apps** > , und wählen Sie dann **organisationsweite App-Einstellungen** aus.
+1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Teams Apps** > **verwalten**, und wählen Sie dann **organisationsweite App-Einstellungen** aus.
 2. Schalten **Sie unter "Maßgeschneiderte Apps**" die Option " **Maßgeschneiderte Apps anzeigen** " auf **"Aus** " oder " **Ein**".
 
     :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Screenshot der Einstellung &quot;Maßgeschneiderte Apps anzeigen&quot; auf der Seite &quot;Apps verwalten&quot; im Teams Admin Center" lightbox="media/tailored-teams-apps-admin-center.png":::

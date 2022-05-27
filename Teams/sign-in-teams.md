@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514566"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681606"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Anmelden bei Microsoft Teams
 
 ## <a name="windows-users"></a>Windows-Benutzer
 
-Microsoft empfiehlt Unternehmen, neuere Versionen von Windows 10 mit Hybrid Domain Join- oder Azure AD Join-Konfiguration zu verwenden. Durch die Nutzung aktueller Versionen wird sichergestellt, dass die Nutzerkonten im Windows-Webkonto-Manager vorbereitet werden, wodurch wiederum die einmalige Anmeldung bei Microsoft Teams und anderen Microsoft-Anwendungen ermöglicht wird. Das einmalige Anmelden bietet eine bessere Benutzererfahrung (automatische Anmeldung) und eine bessere Sicherheitslage.
+Microsoft empfiehlt Unternehmen, neuere Versionen von Windows 10 mit Hybrid Domain Join- oder Azure AD Join-Konfiguration zu verwenden. Durch die Nutzung aktueller Versionen wird sichergestellt, dass die Nutzerkonten im Webkonto-Manager von Windows vorbereitet werden, wodurch wiederum die einmalige Anmeldung bei Microsoft Teams und anderen Microsoft-Anwendungen ermöglicht wird. Das einmalige Anmelden bietet eine bessere Benutzererfahrung (automatische Anmeldung) und eine bessere Sicherheitslage.
 
 Microsoft Teams verwendet moderne Authentifizierung, um die Anmeldung einfach und sicher zu gestalten. Um zu erfahren, wie sich Benutzer bei Teams anmelden, lesen Sie bitte [Anmelden in Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
@@ -84,7 +84,7 @@ Die folgenden Bilder zeigen, wie Benutzer in Microsoft Teams-Anwendungen für Mo
 
 ## <a name="restrict-sign-in-to-teams"></a>Einschränken der Anmeldung bei Teams
 
-Ein Unternehmen möchte u. U. einschränken, wie die vom Unternehmen genehmigten Apps auf verwalteten Geräten verwendet werden können, um beispielsweise die Möglichkeit von Studenten oder Mitarbeitern einzuschränken, auf Daten von anderen Organisationen zuzugreifen oder die vom Unternehmen genehmigten Apps für persönliche Zwecke zu verwenden. Diese Einschränkungen können über Geräterichtlinien erzwungen werden, die von Microsoft Teams-Anwendungen erkannt werden.
+Ein Unternehmen möchte möglicherweise einschränken, wie die vom Unternehmen genehmigte Apps auf verwalteten Geräten verwendet werden, um beispielsweise die Möglichkeit von Studenten oder Mitarbeitern auf Daten von anderen Organisationen zuzugreifen oder die vom Unternehmen genehmigten Apps für persönliche Zwecke zu verwenden, einzuschränken. Diese Einschränkungen können erzwungen werden, indem Geräterichtlinien festgelegt werden, die von Teams-Anwendungen erkannt werden.
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Einschränken der Anmeldung auf mobilen Geräten
 

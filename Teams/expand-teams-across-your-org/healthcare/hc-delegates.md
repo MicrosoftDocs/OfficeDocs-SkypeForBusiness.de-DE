@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: Erfahren Sie, wie ein Benutzer mit Status „Abwesend“ oder „Nicht stören“ einen anderen Benutzer in seiner Statusmeldung explizit als Stellvertretung festlegen kann.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14f58861074ed8b9291ca725f60ff1612534f4dc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596189"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674207"
 ---
 # <a name="message-delegation"></a>Nachrichtendelegierung
 
@@ -62,7 +62,7 @@ Ein Benutzer kann nur dann eine Notiz in Teams festlegen, wenn sein Modus „Tea
   
 Es gibt keinen visuellen Hinweis, dass eine Notiz in Skype for Business festgelegt wurde.
 
-Skype for Business erzwingt keine Zeichenbegrenzung für Statusnachrichten. Microsoft Teams wird nur die ersten 280 Zeichen einer von Skype for Business gesendeten Notiz anzeigen. Eine Ellipse (...) am Ende einer Notiz zeigt das Abschneiden an.
+Skype for Business erzwingt keine Zeichenbegrenzung für Statusnachrichten. Microsoft Teams wird nur die ersten 280 Zeichen einer von Skype for Business gesendeten Notiz anzeigen. Eine Ellipse (...) am Ende einer Notiz weist auf eine Kürzung hin.
   
 Skype for Business unterstützt keine Ablaufzeiten für Notizen.
 

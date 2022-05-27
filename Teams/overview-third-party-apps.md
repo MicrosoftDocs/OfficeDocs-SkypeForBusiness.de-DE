@@ -18,18 +18,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: acdb924476ca9239b4298700d7f3186d7e80106a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910871"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675017"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Übersicht über Drittanbieter-Apps in Microsoft Teams
 
 Viele stellen Apps im Teams Store bereit. Diese Apps werden von App-Entwicklern erstellt, und Microsoft überprüft die grundlegende Funktionalität, Nutzbarkeit und grundlegende Sicherheit der Apps. Erst nach der Überprüfung stellt Microsoft Apps im Teams Store zur Verfügung. Damit Endbenutzer vom umfangreichen App-Ökosystem profitieren können, ist die App-Governance durch Administratoren ein wichtiger Schritt. Legen Sie als Administrator einen App-Governance-Prozess fest, der die vielfältigen App-Anforderungen der Endbenutzer und die Einschränkungen durch interne IT-Richtlinien, Standards und Risikoprofile abgleicht.
 
-Anwendungen von Drittanbietern in Microsoft Teams werden nicht von Microsoft kontrolliert oder gehören nicht zu Microsoft und unterliegen nicht dem Microsoft Online-Abonnementvertrag. Die Nutzung jeder Drittanbieter-App durch Ihre Organisation unterliegt den Nutzungsbedingungen und Datenschutzbestimmungen dieser App. Mit dem Teams Admin Center können Sie alle Berechtigungen einer App, Datenschutzbestimmungen und Nutzungsbedingungen überprüfen, bevor Sie deren Verwendung zulassen. Wie immer können Sie die Verwendung einer App für einige bestimmte Benutzer oder alle Benutzer zulassen. Bei Drittanbieter-Apps wie bei benutzerdefinierten Apps ermöglicht Microsoft Teams Administratoren, die Verwendung der Apps zuzulassen, zu verbieten, zu regeln und zu analysieren.
+Apps von Drittanbietern in Microsoft Teams werden nicht von Microsoft kontrolliert oder gehören nicht zu Microsoft, und sie unterliegen nicht dem Microsoft Online-Abonnementvertrag. Die Nutzung jeder Drittanbieter-App durch Ihre Organisation unterliegt den Nutzungsbedingungen und Datenschutzbestimmungen dieser App. Mit dem Teams Admin Center können Sie alle Berechtigungen einer App, Datenschutzbestimmungen und Nutzungsbedingungen überprüfen, bevor Sie deren Verwendung zulassen. Wie immer können Sie die Verwendung einer App für einige bestimmte Benutzer oder alle Benutzer zulassen. Bei Drittanbieter-Apps wie bei benutzerdefinierten Apps ermöglicht Microsoft Teams Administratoren, die Verwendung der Apps zuzulassen, zu verbieten, zu regeln und zu analysieren.
 
 Microsoft stellt nicht nur sicher, dass Administratoren die Kontrolle über Drittanbieter-Apps haben, sondern auch, dass nur qualitativ hochwertige Apps im Store verfügbar sind. Wir fordern, dass alle Apps eine obligatorische Überprüfungsrunde durch Microsoft durchlaufen, die die Funktionalität der App, die Identität des Herausgebers, die von der App angeforderten Berechtigungen sowie die Compliance, den Datenschutz und die Datensicherheit der von der App gesammelten Daten überprüft. Wir empfehlen Apps, Teil eines optionalen Complianceprogramms zu sein, um einen zusätzlichen Schwerpunkt auf Sicherheit und Compliance mit Branchenstandards zu legen. Informationen zu diesen Programmen finden Sie in den folgenden Artikeln:
 
@@ -37,6 +37,6 @@ Microsoft stellt nicht nur sicher, dass Administratoren die Kontrolle über Drit
 
 1. Microsoft-App-Complianceprogramm:
 
-   * [Herausgeberüberprüfung](overview-of-app-certification.md#publisher-verification)
-   * [Herausgebernachweis](overview-of-app-certification.md#publisher-attestation)
-   * [Microsoft 365-Zertifizierung](overview-of-app-certification.md#microsoft-365-certification)
+   - [Herausgeberüberprüfung](overview-of-app-certification.md#publisher-verification)
+   - [Herausgebernachweis](overview-of-app-certification.md#publisher-attestation)
+   - [Microsoft 365-Zertifizierung](overview-of-app-certification.md#microsoft-365-certification)

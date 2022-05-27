@@ -1,5 +1,5 @@
 ---
-title: Überwachung mit mehreren Mandanten
+title: Mehrinstanzenfähige Überwachung
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -17,41 +17,41 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Überwachungsprotokollierung für TRM.
 f1keywords: ''
-ms.openlocfilehash: bb002ad546553e906339b03ff7b36ff2ccce8506
-ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
+ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "61620529"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676609"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Überwachungsprotokollierung im verwalteten Teams-Räume Dienst
+# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Überwachungsprotokollierung im Teams-Räume verwalteten Dienst
 
-Mit der überwachung in Teams-Räume verwalteten Dienst (TRM) können Sie nach Überwachungsdatensätzen für Aktivitäten suchen, die von Benutzern und Administratoren im Portal ausgeführt wurden. Dieses Feature ist standardmäßig aktiviert. Nur der Administrator für verwaltete Dienste verfügt über die Berechtigung zum Exportieren und Anzeigen der Protokolle.
+Mit der Überwachung in Teams-Räume Managed (TRM)-Dienst können Sie nach Überwachungsdatensätzen für Aktivitäten suchen, die von Benutzern und Administratoren im Portal ausgeführt werden. Dieses Feature ist standardmäßig aktiviert. Nur der Administrator des verwalteten Diensts verfügt über die Berechtigung zum Exportieren und Anzeigen der Protokolle.
 
 > [!NOTE]
-> Aktionen, die im TRM-Dienst ausgeführt werden, werden nicht Microsoft 365 oder Office 365 protokolliert. 
+> Im TRM-Dienst ausgeführte Aktionen werden nicht Microsoft 365 oder Office 365 Überwachung protokolliert. 
 
 ## <a name="exporting-logs"></a>Exportieren von Protokollen
 
-Wenn Sie alle Ergebnisse für eine Überwachungsprotokollsuche exportieren, werden die Rohdaten aus dem vereinheitlichten Überwachungsprotokoll in eine CSV-Datei (Durch Kommas getrennte Werte) kopiert, die auf den lokalen Computer heruntergeladen wird. 
+Wenn Sie alle Ergebnisse für eine Überwachungsprotokollsuche exportieren, werden die Rohdaten aus dem einheitlichen Überwachungsprotokoll in eine CSV-Datei (Comma Separated Value) kopiert, die auf Ihren lokalen Computer heruntergeladen wird. 
 
 **So laden Sie Protokolle herunter** 
 
-1. Wechseln Sie **zu Einstellungen > allgemein > Überwachungsprotokolle**.
-1. Geben Sie das Startdatum und das  Enddatum ein, um den Datumsbereich für interessierende Protokolle **zu definieren.**
+1. Wechseln Sie zu **Einstellungen > Allgemeinen > Überwachungsprotokolle**.
+1. Um den Datumsbereich für interessante Protokolle zu definieren, geben Sie das **Startdatum** und das **Enddatum ein.**
 
    > [!NOTE]
    > Protokolle sind nur für bis zu 180 Tage verfügbar.
 
-1. Wählen Sie **Protokolle herunterladen aus.**
+1. Wählen Sie **"Protokolle herunterladen" aus.**
 
    ![Datumsbereich des Überwachungsprotokolls](../media/multi-tenant-auditing.png)
 
-   Eine am unteren Rand des Fensters angezeigte Meldung fordert Sie auf, die CSV-Datei zu öffnen oder zu speichern. 
+   Eine Meldung, die am unteren Rand des Fensters angezeigt wird, fordert Sie auf, die CSV-Datei zu öffnen oder zu speichern. 
 
-1. Wählen **Sie Speichern**  >  **unter** aus, und speichern Sie die CSV-Datei auf dem lokalen Computer. 
+1. Wählen Sie **"Speichern unter"** >  aus, und speichern Sie die CSV-Datei auf Ihrem lokalen Computer. 
 
-1. Es dauert eine Weile, viele Suchergebnisse herunterzuladen, wenn Sie nach allen Aktivitäten oder einem breiten Datumsbereich suchen. Wenn der Download der CSV-Datei abgeschlossen ist, wird unten im Fenster eine Meldung angezeigt.
+1. Das Herunterladen vieler Suchergebnisse bei der Suche nach allen Aktivitäten oder in einem breiten Datumsbereich dauert eine Weile. Wenn der Download der CSV-Datei abgeschlossen ist, wird unten im Fenster eine Meldung angezeigt.
 
 ## <a name="detailed-properties-in-the-audit-log"></a>Detaillierte Eigenschaften im Überwachungsprotokoll
 
@@ -62,10 +62,10 @@ In der folgenden Tabelle werden die Eigenschaften beschrieben, die in der CSV-Da
 |activity.category|<p>Die Kategorie des Objekts, für das die Aktion ausgeführt wurde. Mögliche Werte:</p><p>**Benutzer, Zuweisung, PartnerInvitation, Rolle**</p>|
 |activity.objectName|Der Name des Objekts, das geändert wurde.|
 |activity.operation|Der Typ des ausgeführten Vorgangs. Mögliche Werte sind: **Erstellen, Aktualisieren, Löschen** |
-|activity.resultStatus|<p>Gibt an, ob die (in der Eigenschaft **"activity.operation"** angegebene) Aktion erfolgreich war.</p><p>Der Wert ist entweder **Erfolgreich** oder **Fehlgeschlagen.**</p>|
+|activity.resultStatus|<p>Gibt an, ob die Aktion (in der **Eigenschaft "activity.operation** " angegeben) erfolgreich war oder nicht.</p><p>Der Wert ist entweder **erfolgreich** oder **fehlgeschlagen**.</p>|
 |activity.tenantId|Die GUID des Mandanten, für den die Aktion ausgeführt wurde|
-|creationTime|Das Datum und die Uhrzeit in koordinierter Weltzeit (Coordinated Universal Time, UTC) im ISO-Format, als der Benutzer die Aktivität ausgeführt hat.|
-|user.userId|Der Benutzer, der die Aktion ausgeführt hat, die zu dem Eintrag im Protokoll geführt hat.|
-|user.userTenantId|Die GUID des Mandanten für den Benutzer, der die Aktion ausgeführt hat.|
+|Creationtime|Datum und Uhrzeit in UTC (Coordinated Universal Time) im ISO-Format, wenn der Benutzer die Aktivität ausgeführt hat.|
+|user.userId|Der Benutzer, der die Aktion ausgeführt hat, die dazu führte, dass der Datensatz protokolliert wurde.|
+|user.userTenantId|Die GUID des Mandanten für den Benutzer, der die Aktion ausgeführt hat|
 
 

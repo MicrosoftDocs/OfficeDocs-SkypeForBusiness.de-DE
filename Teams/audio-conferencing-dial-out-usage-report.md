@@ -1,5 +1,5 @@
 ---
-title: Bericht zur Verwendung von Audiokonferenzen für ausgehende Anrufe
+title: Audiokonferenz Nutzungsbericht für Ausgehende Verbindungen
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,28 +21,28 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Erfahren Sie, welche Länder und Regionen über Einwahlkonferenznummern verfügen und wie sie automatisch zugewiesen werden.
-ms.openlocfilehash: 16cdae3a377d5ce87c218affc4944051f14f2631
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 067ff702478e6b7bae38db458a7088021386e6ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106443"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675427"
 ---
-# <a name="audio-conferencing-dial-out-usage-report"></a>Bericht zur Verwendung von Audiokonferenzen für ausgehende Anrufe
+# <a name="audio-conferencing-dial-out-usage-report"></a>Audiokonferenz Nutzungsbericht für Ausgehende Verbindungen
 
-Der Bericht zur Verwendung von Audiokonferenzen für Ausgehende Anrufe im Teams Admin Center bietet Ihnen einen Überblick über die Nutzung und die Für den Audiokonferenz-Auswahldienst ausgegebenen Dollar. Dieser Bericht ermöglicht Es Administratoren, Daten auf Benutzerebene in Bezug auf ausgegebene Kommunikationsguthaben und verwendete Ausgehende Minuten zu nutzen. Es hilft Administratoren dabei, die künftig benötigten Kommunikationsguthaben von jedem Beliebigen Zeitpunkt aus zu ermitteln.
+Der Bericht Audiokonferenz Nutzung von Ausgehenden Anrufen im Teams Admin Center bietet Ihnen einen Überblick über die Nutzung und die Für den Audiokonferenz-Auswahldienst ausgegebenen Dollar. Dieser Bericht ermöglicht Es Administratoren, Daten auf Benutzerebene in Bezug auf ausgegebene Kommunikationsguthaben und verwendete Ausgehende Minuten zu nutzen. Es hilft Administratoren dabei, die künftig benötigten Kommunikationsguthaben von jedem Beliebigen Zeitpunkt aus zu ermitteln.
 
-## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>Anzeigen des Verwendungsberichts für Audiokonferenzen für ausgehende Anrufe
+## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>Anzeigen des Audiokonferenz-Nutzungsberichts für Ausgehende Anrufe
 
-Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Centers  **selectAnalytics &**  **reportsUsage-Berichte** > aus. Wählen Sie auf der Registerkarte " **View-Berichte** " unter  **"Bericht**" den Bericht über die **Verwendung von Audiokonferenz-Ausgehenden aus**.
+Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Centers **die Option "Analyse" & Berichte** \> **"Nutzungsberichte"** aus. Wählen Sie auf der Registerkarte "**Berichte anzeigen**" unter **"Bericht**" den **Audiokonferenz Bericht zur Verwendung von Ausgehenden Auswahlen aus**.
 
- **UnderDate range**, you can select a predefined range of 7 or 28 days, or set a custom range.
+Unter **"Datumsbereich**" können Sie einen vordefinierten Bereich von 7 oder 28 Tagen auswählen oder einen benutzerdefinierten Bereich festlegen.
 
- **UnderCountry Previsioned**, select a preferred country, or select all, and then  **selectRun report**.
+Wählen Sie unter " **Voreingestelltes Land**" ein bevorzugtes Land oder alle aus, und wählen Sie dann " **Bericht ausführen**" aus.
 
 ## <a name="report-details"></a>Berichtsdetails
 
-Der Bericht über die Verwendung von Audiokonferenzen für Ausgehende Anrufe verfügt über drei Hauptregisterkarten, auf denen Informationen in einem Diagrammformat angezeigt werden, das auf dem Bereich basiert, der in den dropdowns darüber ausgewählt wurde:
+Der Audiokonferenz Nutzungsbericht für ausgehende Anrufe verfügt über drei Hauptregisterkarten, auf denen Informationen in einem Diagrammformat basierend auf dem Bereich angezeigt werden, der in den Dropdowns darüber ausgewählt wurde:
 
 - Auf der Registerkarte **"Kosten** " werden die Kommunikationsguthaben angezeigt, die für den ausgewählten Zeitraum aufgewendet wurden, und die nachstehende Tabelle enthält Details auf Benutzerebene.
 - Auf der Registerkarte " **Minuten der Verwendung** " werden die Gesamtzahl der ausgehenden Minuten im ausgewählten Zeitraum und die unten aufgeführte Tabelle mit den Details auf Benutzerebene angezeigt.

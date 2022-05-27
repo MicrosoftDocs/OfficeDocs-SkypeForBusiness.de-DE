@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Erfahren Sie, wie Sie das Feature Musik im Haltebereich in Telefonsystem verwalten.
-ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 3f5121e72436966a82b38917453bcd21d8efa10f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624242"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674417"
 ---
 # <a name="music-on-hold"></a>Musik im Haltebereich
 
@@ -36,11 +36,11 @@ Beachten Sie, dass Anrufer auch in anderen Szenarien auf Musik im Haltebereich l
 
 So konfigurieren Sie Musik im Haltebereich:
 
-1.  Wechseln Sie in der linken Navigationsleiste des Teams Admin Centers zu **voIP-> Anrufrichtlinien**.
+1. Wechseln Sie in der linken Navigationsleiste des Teams Admin Centers zu **voIP-> Anrufrichtlinien**.
 
-2.  Wählen Sie auf der Registerkarte " **Richtlinien verwalten** " eine der vorhandenen Richtlinien aus, oder erstellen Sie eine neue Richtlinie.
+2. Wählen Sie auf der Registerkarte " **Richtlinien verwalten** " eine der vorhandenen Richtlinien aus, oder erstellen Sie eine neue Richtlinie.
 
-3.  Wählen Sie im **Feld Musik im Haltebereich für PSTN-Anrufer** im Dropdownmenü "**Aktiviert**" aus.
+3. Wählen Sie im **Feld Musik im Haltebereich für PSTN-Anrufer** im Dropdownmenü "**Aktiviert**" aus.
 
 Sie können Musik im Haltebereich auch mithilfe des Teams PowerShell-Moduls konfigurieren. Ändern Sie in "TeamsCallingPolicy" den Parameter "MusicOnHoldEnabledType" in "Enabled", und gewähren Sie diese Richtlinieninstanz dann einem oder mehreren Benutzern.
 
@@ -57,7 +57,6 @@ Eine Abteilung oder Organisation möchte z. B. eine benutzerdefinierte Ankündig
 Um benutzerdefinierte Musik im Haltebereich zu konfigurieren, verwenden Sie die PowerShell-Cmdlets "New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy" und "Import/Get/Remove/Export-CsOnlineAudioFile" in Teams PowerShell-Modul 3.0.0 oder höher.
 
 Unterstützte Audioformate und maximale Dateigröße finden Sie unter [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
 
 1. Stellen Sie sicher, dass der Teams Benutzer Musik für PSTN-Anrufer in der Teams Anrufrichtlinie auf "Aktiviert" festgelegt hat. 
 
@@ -104,7 +103,6 @@ Verwenden Sie das cmdlet Export-CsOnlineAudioFile, um eine hochgeladene Audiodat
 
 Die folgende Tabelle zeigt, welche Features auf welchen Clients und Geräten Musik im Haltebereich und benutzerdefinierte Musik im Haltebereich unterstützt werden. Microsoft fügt weiterhin Featureunterstützung hinzu. Überprüfen Sie daher häufig nach zusätzlicher Verfügbarkeit.
 
-
 | Feature | Desktop <br> Windows/Mac OS | Browser | Mobil <br> iOS | Mobil <br> Android | Teams Telefon |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | 1:1 PSTN-Anruf halten | -Musik im Haltebereich<br>-Benutzerdefinierte Musik im Haltebereich | -Musik im Haltebereich<br>-Benutzerdefinierte Musik im Haltebereich | -Musik im Haltebereich<br>-Benutzerdefinierte Musik im Haltebereich | -Musik im Haltebereich<br>-Benutzerdefinierte Musik im Haltebereich | -Musik im Haltebereich<br>-Benutzerdefinierte Musik im Haltebereich |
@@ -147,4 +145,3 @@ Die folgende Tabelle zeigt, welche Features auf welchen Clients und Geräten Mus
 - [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
-

@@ -1,5 +1,5 @@
 ---
-title: 'Teams Contoso-Fallstudie: Automatische Telefonkonferenzen und Anrufwarteschleifen'
+title: 'Teams Contoso-Fallstudie: Automatische Telefonzentralen und Anrufwarteschleifen'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,88 +13,88 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 'Teams Zur Sprachfallstudie für multinationale Unternehmen: Automatische Telefonkonferenzen und Anrufwarteschleifen'
+description: 'Teams Voice Case Study für multinationale Unternehmen: Automatische Telefonzentralen und Anrufwarteschleifen'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1d7a5457af0d7463207c0bdbc9d50433b3142e2f72e7efc7f8c89ade82bc93
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c0b6da7bf00fd4e62cf3e9b3b08074bf1b42788
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296422"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681716"
 ---
-# <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso-Fallstudie: Automatische Telefonkonferenzen und Anrufwarteschleifen
+# <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso-Fallstudie: automatische Telefonzentralen und Anrufwarteschleifen
 
-Contoso war mit automatischen Telefonkonferenzen und Anrufwarteschleifen aus den lokalen Telefonkonferenzen Skype for Business vertraut. Informationen zum Einrichten automatischer Cloud-Telefonkonferenzen und Anrufwarteschleifen wurden unter Planen der Teams von automatischen Telefonkonferenzen und [Anrufwarteschleifen überprüft.](plan-auto-attendant-call-queue.md)
+Contoso war mit automatischen Telefonzentralen und Anrufwarteschleifen aus ihrer lokalen Skype for Business Bereitstellung vertraut. Um zu verstehen, wie automatische Cloudtelefonzentralen und Anrufwarteschleifen eingerichtet werden, haben sie [den Plan für Teams automatischen Telefonzentralen und Anrufwarteschleifen](plan-auto-attendant-call-queue.md) überprüft.
 
 ## <a name="requirements-depending-on-site-type"></a>Anforderungen je nach Websitetyp
 
-Je nach Websitetyp erfüllte Contoso die folgenden Anforderungen:
+Je nach Websitetyp hatte Contoso die folgenden Anforderungen:
 
-- Websitetyp A: Traditionelle Telefoniesysteme 
+- Websitetyp A: Herkömmliche Legacy-Telefoniesysteme 
 
-  Websitetyp A muss die dem Empfang zugeordnete Telefonnummer wie die Nummer für ihre automatischen Telefonisten behalten. Die Schlüsselabteilungen für jede dieser Websites verfügen über eigene Anrufwarteschleifen, die an Teammitglieder geroutet werden. Es gab eine Mischung von Websites, die Verbindungen Telefonsystem Direct-Routing und Verbindungen Telefonsystem Anrufplänen verwendeten.  
+  Websitetyp A, der benötigt wird, um dieselbe Telefonnummer beizubehalten, die dem Empfangsmitarbeiter zugeordnet ist, wie die Nummer für die automatischen Telefonzentralen. Die wichtigsten Abteilungen für jede dieser Websites hätten eigene Anrufwarteschleifen, die an Teammitglieder weitergeleitet würden. Es gab eine Mischung aus Standorten, die Telefonsystem mit Direct Routing und Telefonsystem mit Anrufplänen verwendet haben.  
 
 - Websitetyp B: Skype for Business Enterprise-VoIP 
 
-  Websitetyp B bestand aus vorhandenen automatischen Telefonkonferenzen und Anrufwarteschleifen, die zu ihrer Teams. Contoso musste die den automatischen Telefon attendants zugeordneten Telefonnummern behalten. Contoso hat die Mehrzahl dieser Websites auf Telefonsystem Anrufpläne verschoben. An den wenigen Standorten, an denen Anrufpläne nicht verfügbar waren, hat Contoso diese Websites jedoch in eine Direct-Routingkonfiguration verschoben.  
+  Websitetyp B verfügte über vorhandene automatische Telefonzentralen und Anrufwarteschleifen, die zu Teams migriert werden mussten. Contoso musste die Telefonnummern beibehalten, die den automatischen Telefonzentralen zugeordnet sind. Contoso hat die Meisten dieser Websites in Telefonsystem mit Anrufplänen verschoben. An den wenigen Orten, an denen Anrufpläne nicht verfügbar waren, hat Contoso diese Websites jedoch in eine Direct Routing-Konfiguration verschoben.  
 
-- Site Type C: Skype for Business Enterprise-VoIP & traditional legacy telephony system 
+- Websitetyp C: Skype for Business Enterprise-VoIP & herkömmliches Legacy-Telefoniesystem 
 
-  Der Websitetyp C hatte bereits automatische Telefon telefonieren, die sich im herkömmlichen alten Telefoniesystem befinden. Die Entscheidungen und Konfigurationen für diese Website waren identisch mit Websitetyp A.   
+  Standorttyp C verfügte über vorhandene automatische Telefonzentralen, die sich im herkömmlichen älteren Telefoniesystem befinden. Die Entscheidungen und Konfigurationen für diese Website waren identisch mit Websitetyp A.   
 
-- Für alle Websitetypen hat Contoso die folgenden Fragen gestellt:
+- Für alle Websitetypen stellte Contoso die folgenden Fragen:
 
   - F: Werden neue oder vorhandene Nummern verwendet? 
-    A: Contoso hat beschlossen, vorhandene Telefonnummern zu verwenden, die dem Dienstkonto für die automatische Telefon attendant zugewiesen werden sollen. 
+    Antwort: Contoso hat sich entschieden, vorhandene Telefonnummern zu verwenden, die dem Dienstkonto für die automatische Telefonzentrale zugewiesen werden. 
 
-  - F: Wann steht die automatische Telefon attendant zum Annehmen eingehender Anrufe zur Verfügung? 
-    A: Contoso hat die Geschäftszeiten festgelegt und Anrufe, die nach Geschäftszeiten eingegangen sind, an eine automatische Telefon attendant "nach Geschäftszeiten" umgeleitet.  
+  - F: Wann steht die automatische Telefonzentrale zur Annahme eingehender Anrufe zur Verfügung? 
+    Antwort: Contoso hat beschlossen, Geschäftszeiten festzulegen und Anrufe, die nach den Geschäftszeiten eingehen, an eine automatische Telefonzentrale "nach Feierabend" umgeleitet zu lassen.  
 
-  - F: Wie werden die Anrufe an Mitglieder in einer Anrufwarteschleife weiterleiten: Telefonant, serielles oder rundes Routing? 
-    A: Contoso hat sich entschieden, Attendant-Routing zu verwenden, 
+  - F: Wie werden die Anrufe an Mitglieder in einer Anrufwarteschleife weitergeleitet: Telefonzentrale, serielles Routing oder Roundrobin-Routing? 
+    A: Contoso hat sich für die Verwendung des Telefonzentralenroutings entschieden, 
 
-  - F: Wie bestimmen wir, wann ein Benutzer einen Anruf erhalten soll oder nicht? 
-    A: Contoso hat beschlossen, optionen für die Anrufbehandlung zu verwenden, um festzustellen, ob der Agent verfügbar ist: anwesenheitsbasiertes Routing. 
+  - F: Wie werden wir feststellen, wann ein Benutzer einen Anruf erhalten soll oder nicht? 
+    Antwort: Contoso entschied sich für die Verwendung von Anrufbehandlungsoptionen, um festzustellen, ob der Agent verfügbar ist: anwesenheitsbasiertes Routing. 
 
 
 ## <a name="configuration"></a>Konfiguration
 
-Die Schritte zum Einrichten einer automatischen Telefon attendant und einer Anrufwarteschleife umfassen Folgendes unter Verwalten [von Ressourcenkonten:](manage-resource-accounts.md) 
+Die Schritte zum Einrichten einer automatischen Telefonzentrale und einer Anrufwarteschleife umfassen Folgendes, das in ["Ressourcenkonten verwalten"](manage-resource-accounts.md) beschrieben ist: 
 
 1. Rufen sie eine Dienstnummer ab. 
 
-2. Erhalten Sie eine Telefonsystem - Virtual User-Lizenz oder eine kostenpflichtige Telefonsystem-Lizenz für die Verwendung mit dem Ressourcenkonto oder einer Telefonsystem Lizenz.
+2. Rufen Sie eine kostenlose Telefonsystem – virtuelle Benutzerlizenz oder eine kostenpflichtige Telefonsystemlizenz ab, die mit dem Ressourcenkonto oder einer Telefonsystemlizenz verwendet werden soll.
 
 3. Erstellen Sie das Ressourcenkonto. Eine automatische Telefonzentrale oder Anrufwarteschleife muss über ein zugeordnetes Ressourcenkonto verfügen. 
 
-4. Weisen Sie dem Ressourcenkonto das Telefonsystem oder eine Telefonsystem – virtuelle Benutzerlizenz zu. Weitere Informationen finden Sie unter [Microsoft 365 Telefonsystem – Virtual User license](./teams-add-on-licensing/virtual-user.md).
+4. Weisen Sie dem Ressourcenkonto das Telefonsystem oder eine Telefonsystem – virtuelle Benutzerlizenz zu. Weitere Informationen finden Sie [unter Microsoft 365 Telefonsystem – Virtuelle Benutzerlizenz](./teams-add-on-licensing/virtual-user.md).
 
-5. Weisen Sie dem Ressourcenkonto, dem Sie Lizenzen zugewiesen haben, eine Servicetelefonnummer zu. 
+5. Weisen Sie dem Ressourcenkonto, dem Sie Lizenzen zugewiesen haben, eine Diensttelefonnummer zu. 
 
 6. Erstellen einer Warteschlange oder eine automatische Telefonzentrale für das Telefonsystem 
 
 7. Verknüpfen Sie das Ressourcenkonto mit einer Anrufwarteschleife oder einer automatischen Telefonzentrale. 
 
 
-### <a name="sites-with-phone-system-with-direct-routing"></a>Websites mit Telefonsystem Direct-Routing 
+### <a name="sites-with-phone-system-with-direct-routing"></a>Websites mit Telefonsystem mit Direct Routing 
 
-Contoso musste die vom lokalen Netzbetreiber bereitgestellte Telefonnummer als Servicenummer in der App Office 365. 
+Contoso musste die vom lokalen Netzbetreiber bereitgestellte Telefonnummer als Servicenummer in Office 365 einrichten. 
 
-- Zum Einrichten einer Telefonnummer, die über Direct-Routing verfügbar ist, folgen Sie den Anweisungen unter Verwalten von [Ressourcenkonten.](manage-resource-accounts.md) Da Office 365 die lokalen Telefonnummern nicht kennen, hat Contoso PowerShell zum Abschließen des Setups verwendet.   
+- Um eine über Direct Routing verfügbare Telefonnummer einzurichten, hat Contoso die Anweisungen unter ["Ressourcenkonten verwalten"](manage-resource-accounts.md) befolgt. Da Office 365 die lokalen Telefonnummern nicht kennt, verwendete Contoso PowerShell, um die Einrichtung abzuschließen.   
 
-- Zum Konfigurieren der automatischen Cloud-Attendant hat Contoso die unter Einrichten einer automatischen [Cloud-Attendant beschriebenen Schritte befolgt.](create-a-phone-system-auto-attendant.md) 
+- Um die automatische Cloud-Telefonzentrale zu konfigurieren, hat Contoso die unter ["Einrichten einer automatischen Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md)" beschriebenen Schritte ausgeführt. 
 
-- Zum Einrichten einer Cloud-Anrufwarteschleife hat Contoso die unter Erstellen einer [Cloud-Anrufwarteschleife](create-a-phone-system-call-queue.md)beschriebenen Schritte befolgt.  
+- Zum Einrichten einer Cloudanrufwarteschleife hat Contoso die unter [Erstellen einer Cloud-Anrufwarteschleife](create-a-phone-system-call-queue.md) beschriebenen Schritte ausgeführt.  
 
 
-### <a name="sites-with-phone-system-with-calling-plan"></a>Websites mit Telefonsystem Anrufplan
+### <a name="sites-with-phone-system-with-calling-plan"></a>Websites mit Telefonsystem mit Anrufplan
 
-Contoso musste die Telefonnummer, die für automatische Skype for Business Enterprise-VoIP verwendet wurde, zu Office 365-Telefonsystem. Dadurch konnte dieselbe Nummer als Servicenummer für die Verwendung als automatische Attendant zugewiesen werden. 
+Contoso musste die Telefonnummer, die für Skype for Business Enterprise-VoIP automatischen Telefonzentralen verwendet wurde, zu Office 365-Telefonsystem portieren. Dadurch konnte dieselbe Nummer als Dienstnummer für die Verwendung als automatische Telefonzentrale zugewiesen werden. 
 
-- Zum Portieren der Telefonnummer hat Contoso die Anweisungen unter Übertragen von Telefonnummern zu [Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) weitere Anleitungen unter Verwalten von Telefonnummern [für Ihre Organisation erhalten.](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- Um die Telefonnummer zu portieren, folgte Contoso den Anweisungen in ["Telefonnummern übertragen" zu Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) und erhielt zusätzliche Anleitungen unter ["Telefonnummern für Ihre Organisation verwalten](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)".
 
-- Zum Konfigurieren einer automatischen Cloud-Attendant hat Contoso die unter Einrichten einer automatischen [Cloud-Attendant beschriebenen Schritte befolgt.](create-a-phone-system-auto-attendant.md)
+- Um eine automatische Cloudtelefonzentrale zu konfigurieren, hat Contoso die unter ["Einrichten einer automatischen Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md)" beschriebenen Schritte ausgeführt.
 
--  Zum Einrichten einer Cloud-Anrufwarteschleife hat Contoso die unter Erstellen einer [Cloud-Anrufwarteschleife](create-a-phone-system-call-queue.md)beschriebenen Schritte befolgt.  
+-  Zum Einrichten einer Cloudanrufwarteschleife hat Contoso die unter [Erstellen einer Cloud-Anrufwarteschleife](create-a-phone-system-call-queue.md) beschriebenen Schritte ausgeführt.  
 

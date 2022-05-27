@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefonzentralen für große Organisationen in Microsoft Teams einrichten und testen.
-ms.openlocfilehash: a0b50a83e54059dca68562c2140ece6253448dd0
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059096"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674367"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -132,7 +132,7 @@ Benutzer, die Sie für die Durchwahl zur Verfügung stellen möchten, benötigen
 
 - OfficePhone/TelephoneNumber (AD und Azure AD)
 - HomePhone (AD)
-- Mobile/MobilePhone (AD und Azure AD)
+- Mobiles/MobilePhone (AD und Azure AD)
 - OtherTelephone (AD)
 
 Das erforderliche Format zum Eingeben der Erweiterung in das Feld "Benutzertelefonnummer" kann eines der folgenden Formate sein:

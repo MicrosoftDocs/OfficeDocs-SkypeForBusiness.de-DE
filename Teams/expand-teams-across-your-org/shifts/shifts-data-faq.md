@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922826"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675347"
 ---
 # <a name="shifts-data-faq"></a>Häufig gestellte Fragen zu Schichten von Daten
 
@@ -45,7 +45,7 @@ Wenn Sie Teams zum ersten Mal einrichten, wählen Sie ein Land oder eine Region 
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>Kann ich in Schichten auf die personenbezogenen Daten eines Benutzers zugreifen und diese exportieren oder löschen?
 
-Schichten sind mit der Datenschutz-Grundverordnung (DSGVO) kompatibel.Ein formelles Ersuchen einer Person (als betroffene Person bezeichnet), maßnahmen gegen ihre personenbezogenen Daten zu ergreifen, wird als Antrag einer betroffenen Person (Data Subject Request, DSR) bezeichnet. Sie können personenbezogene Daten in Schichten als Reaktion auf einen Antrag einer betroffenen Person suchen und darauf reagieren.
+Schichten sind mit der Datenschutz-Grundverordnung (DSGVO) kompatibel. Ein formelles Ersuchen einer Person (als betroffene Person bezeichnet), maßnahmen gegen ihre personenbezogenen Daten zu ergreifen, wird als Antrag einer betroffenen Person (Data Subject Request, DSR) bezeichnet. Sie können personenbezogene Daten in Schichten als Reaktion auf einen Antrag einer betroffenen Person suchen und darauf reagieren.
 
 Sie können das eDiscovery-Tool für die Inhaltssuche im Microsoft Purview-Complianceportal verwenden, um nach Zeitplan- und Zeituhrdaten zu suchen und diese in Excel zu exportieren. Für alle anderen Schichtdaten können Sie Screenshots der Daten erstellen.
 
@@ -63,7 +63,7 @@ Es gibt keine Möglichkeit, nur Schichtendaten zu löschen. Wenn Sie ein Team in
 
 Sie können einen gelöschten Zeitplan wiederherstellen, wenn die Microsoft 365 Gruppe, die ihn unterstützt (oder das Team in Teams) wiederhergestellt wird.
 
-Standardmäßig wird eine gelöschte Microsoft 365 Gruppe 30 Tage lang aufbewahrt. Dieser 30-Tage-Zeitraum wird als "vorläufiges Löschen" bezeichnet, da Sie die Gruppe dennoch wiederherstellen können. Weitere Informationen finden [Sie unter Wiederherstellen einer gelöschten Microsoft 365 Gruppe](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
+Standardmäßig wird eine gelöschte Microsoft 365 Gruppe 30 Tage lang aufbewahrt. Dieser 30-Tage-Zeitraum wird als "vorläufiges Löschen" bezeichnet, da Sie die Gruppe dennoch wiederherstellen können. Weitere Informationen finden [Sie unter Wiederherstellen einer gelöschten Microsoft 365 Gruppe](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center).
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>Kann ich benutzerdefinierte Aufbewahrungsrichtlinien für Schichtdaten verwenden?
 
@@ -77,7 +77,7 @@ Heute bieten wir nicht die Möglichkeit, Daten für einen Benutzer abzurufen, de
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Welche Art von Verschlüsselung verwendet Schichten für Ruhe- und Übertragungsdaten?
 
-Schichtendaten werden im Ruhezustand von Azure Cosmos DB und Azure Storage verschlüsselt. Weitere Informationen finden Sie [unter Azure-Datenverschlüsselung im Ruhezustand](/azure/security/fundamentals/encryption-atrest) und [Datenverschlüsselung in Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
+Schichtdaten werden im Ruhezustand von Azure Cosmos DB und Azure Storage verschlüsselt. Weitere Informationen finden Sie [unter Azure-Datenverschlüsselung im Ruhezustand](/azure/security/fundamentals/encryption-atrest) und [Datenverschlüsselung in Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
 
 Schichten folgen Microsoft 365 Richtlinien für die Verschlüsselung von Daten während der Übertragung. Weitere Informationen finden Sie [unter Verschlüsselung für Daten während der Übertragung](/compliance/assurance/assurance-encryption-in-transit).
 

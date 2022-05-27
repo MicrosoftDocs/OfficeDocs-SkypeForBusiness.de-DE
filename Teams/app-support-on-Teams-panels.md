@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bf4066675755e0f93844644a6a59404af678a38
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 1f9d2e3b17f852dcd020dc11c323bbc24c2dfc30
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635413"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675907"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams-Apps/Branchen-App-Unterstützung in Teams Bereichen
 
@@ -36,7 +36,7 @@ Teams Panels bietet Unterstützung für [Teams-Apps/Branchen-Apps](/microsofttea
 
 ## <a name="teams-app-experience-on-teams-panels"></a>Teams App-Erfahrung in Teams Bereichen
 
-![Screenshot des Teams Admin Center mit dem Abschnitt, in dem Benutzer zu Apps navigieren können.](media/tac1update.png) 
+![Screenshot des Teams Admin Center mit dem Abschnitt, in dem Benutzer zu Apps navigieren können.](media/tac1update.png)
 
 *Der Startbildschirm Teams Bereiche enthält App-Navigationsoptionen, die im Screenshot rot dargestellt sind. Beachten Sie, dass dies Beispielsymbole sind und möglicherweise nicht zur Verwendung verfügbar sind.*
 
@@ -44,7 +44,7 @@ Teams Panels bietet Unterstützung für [Teams-Apps/Branchen-Apps](/microsofttea
 
 *Wenn ein Endbenutzer auf eines der App-Symbole tippt, wird der Teams App-Bildschirm im vorherigen Screenshot angezeigt. Das graue Rechteck im Screenshot ist der Ort, an dem Apps auf der Teams-Türschild angezeigt werden. Die App-Leiste ist fest und Teil der App Teams Panels.*
 
-## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Einrichten und Verwalten Teams Panels-Apps im Teams Admin Center 
+## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Einrichten und Verwalten Teams Panels-Apps im Teams Admin Center
 
 Microsoft Teams Apps bringen wichtige Informationen, allgemeine Tools und vertrauenswürdige Prozesse an die Stelle, an der sich Personen sammeln, lernen und arbeiten. Teams Apps arbeiten [mit integrierten Funktionen](/microsoftteams/platform/concepts/capabilities-overview). Als IT-Administrator haben Sie nun die Wahl, welche Apps in das Gerät mit Teams Bereichen Ihrer Organisation aufgenommen werden sollen, und berechtigungen über das [Teams Admin Center](https://admin.teams.microsoft.com/) anzupassen.
 
@@ -62,11 +62,11 @@ Nach dem Einrichten von Apps können Sie [App-Berechtigungsrichtlinien](/microso
 
 Da Teams die Möglichkeit bietet, eine Vielzahl von Apps anzuzeigen, können Administratoren entscheiden, welche Apps für die Organisation am wichtigsten sind, und nur diese für die Startseite der **Teams Bereiche** anheften, um schnell darauf zugreifen zu können. Wenn mehr als fünf angeheftete Apps oder nicht angeheftete Apps vorhanden sind, werden sie unter dem Bildschirm " **Mehr** " angezeigt. Microsoft empfiehlt, eine benutzerdefinierte App-Setuprichtlinie speziell für Teams Panels zu erstellen.
 
-![Screenshot der Benutzeroberfläche der Seite "App-Setuprichtlinien".](media/appsetup1.png) 
+![Screenshot der Benutzeroberfläche der Seite "App-Setuprichtlinien".](media/appsetup1.png)
 
 Um angeheftete Apps zu verwalten, die in den Teams Bereichen angezeigt werden, melden Sie sich beim Teams Admin Center für Ihre Organisation an, und navigieren Sie zu **Teams Apps** \> **Setuprichtlinien** \> **auswählen oder eine neue Richtlinie** \> erstellen **Angeheftete Apps**.
 
-![Screenshot des Abschnitts "Angeheftete Apps" auf der Benutzeroberfläche.](media/appsetup2.png) 
+![Screenshot des Abschnitts "Angeheftete Apps" auf der Benutzeroberfläche.](media/appsetup2.png)
 
 *In diesem Bild enthaltene Apps sind nur Beispiele und stehen möglicherweise nicht zur Verwendung zur Verfügung.*
 
@@ -74,7 +74,7 @@ Microsoft empfiehlt, **Hochladen benutzerdefinierten Apps** und **die Benutzeran
 
 Weitere Informationen zum Anheften von Apps finden [Sie unter Verwalten von App-Setuprichtlinien](/microsoftteams/teams-app-setup-policies).
 
-## <a name="manage-apps-display-order-in-teams-panels"></a>Verwalten der Anzeigereihenfolge von Apps in Teams Bereichen 
+## <a name="manage-apps-display-order-in-teams-panels"></a>Verwalten der Anzeigereihenfolge von Apps in Teams Bereichen
 
 ![Screenshot des Abschnitts "Apps" auf der Benutzeroberfläche.](media/appsetup3.png)
 
@@ -122,6 +122,6 @@ Nicht alle Apps können über eine App-Setuprichtlinie an Teams angeheftet werde
 
 ![Screenshot des Abschnitts "Setuprichtlinie" auf der Benutzeroberfläche mit einem Popup, das bestätigt, dass die Benutzer-Anheftung aktiv ist.](media/appsetup4.png)
 
-*In diesem Bild enthaltene Apps sind nur Beispiele und stehen möglicherweise nicht zur Verwendung zur Verfügung.* 
+*In diesem Bild enthaltene Apps sind nur Beispiele und stehen möglicherweise nicht zur Verwendung zur Verfügung.*
 
 Dieses Verhalten wird für ein Gerät in einem freigegebenen Bereich erwartet und verhindert unbeabsichtigtes Anheften von Apps.

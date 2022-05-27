@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: Administratoren können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
+description: Admin können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187021"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674197"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -95,9 +95,9 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen [
 
 In diesem Update eingeführt:
 - IT-Administratoren können ein Teams-Räume-Gerät registrieren, um öffentliche Vorschaufeatures über die XML-Einstellung zu erhalten. Nach der Registrierung erhält das Gerät Beta-Features. Alle Features, die zu Betatests gehören, werden unter [Microsoft Teams Public Preview angekündigt – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
-- IT-Administratoren können die Anzeigeauflösung im Vordergrund festlegen und remote über XML-Einstellungen <sup>skalieren2</sup>
-- IT-Administratoren können die Microsoft-Rauschunterdrückung über XML-Einstellung <sup>deaktivieren3</sup> 
-- IT-Administratoren können die Bereinigung von Downloadordnern auf dem Gerät über die Registrierungsschlüsseleinstellung <sup>überschreiben4</sup>
+- IT-Administratoren können die Anzeigeauflösung im Vorderraum festlegen und remote über DIE XML-Einstellungen<sup>2</sup> skalieren.
+- IT-Administratoren können die Microsoft-Rauschunterdrückung über DIE XML-Einstellung<sup>3</sup> deaktivieren. 
+- IT-Administratoren können die Bereinigung von Downloadordnern auf dem Gerät über die Registrierungsschlüsseleinstellung 4 außer Kraft setzen<sup>.</sup>
 - Benutzer können an Teams Besprechung teilnehmen, die in einer anderen Cloud gehostet wird (d. h., GCCH-Kunde können an Teams Besprechungen teilnehmen, die in der kommerziellen Cloud gehostet werden, und umgekehrt) 
 - Teams Chatrooms blockieren jetzt das Starten des Edgebrowsers aus URLs in PowerPoint Live als zusätzliche Sicherheitsmaßnahme für Teams Räume mit Touchanzeigen 
 - Die Oberfläche "Jetzt besprechen" wurde verbessert, um Anweisungen für Benutzer hinzuzufügen, um Benutzer zum Chatroom einzuladen. 
@@ -125,21 +125,21 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 - Layout der ersten Zeile (Vorschau) für MTR auf Windows <sup>1</sup> 
-- Administratoreinstellung, um das Layout der ersten Zeile als Standard festzulegen  
-- Jetzt besprechen und Das App-Update nur für Teams aufrufen, Teams <sup>Standardclientmodi1,2</sup>
-- Wechseln zwischen mehreren Videokameras in Teams <sup>Besprechungen1</sup> 
+- Admin Einstellung, um das Layout der ersten Zeile als Standard festzulegen  
+- Jetzt besprechen und App-Update nur für Teams aufrufen, Teams Standardclientmodi<sup>1,2</sup>
+- Wechseln zwischen mehreren Videokameras in Teams Besprechungen<sup>1</sup> 
 - Standardeinstellung der Videokamera 
 - Cortana Update des Push-to-Talk-Symbols auf der MTR-Konsole 
 - Azure AD Premium 1 Lizenzeinschluss in Room Standard- und Premium-SKUs 
-- AAD Richtlinien für bedingten Zugriff <sup>unterstützen3</sup> 
+- AAD-Richtlinien für bedingten Zugriff unterstützen<sup>3</sup> 
 - Cortana Standardmäßig aktivierte Sprachaktivierung in der Windows-Willkommensseite
-- Remote-PTZ-Steuerelemente <sup>unterstützen4</sup>
+- Remote-PTZ-Steuerelemente unterstützen<sup>4</sup>
 
 > <sup>1</sup> Diese Features werden mit Teams Webclient eingeführt und werden in den nächsten Wochen bereitgestellt. Weitere Informationen [zu Teams Updates](../teams-client-update.md) finden Sie hier.
 > 
 > <sup>2</sup> Teams Räume auf Windows, die nur in Microsoft Teams ausgeführt werden, oder Skype for Business und Microsoft Teams (Standard) werden mit neuen Besprechungs- und Anruferfahrungen aktualisiert, andere Modi sind von diesem Update jedoch nicht betroffen.
 > 
-> <sup>3</sup> Weitere Informationen zum Einrichten AAD Richtlinien für [bedingten Zugriff](../rooms/rooms-authentication.md#azure-ad-conditional-access) für Teams-Räume.
+> <sup>3</sup> Weitere Informationen zum Einrichten von [AAD-Richtlinien für bedingten Zugriff](../rooms/rooms-authentication.md#azure-ad-conditional-access) für Teams-Räume.
 > 
 > <sup>4</sup> Dieses Feature erfordert, dass IT-Administratoren Teams Desktopclient-Remote-PTZ-Steuerelement-App konfigurieren.
 > 
@@ -321,7 +321,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Automatisches Annehmen von näherungsbasierten Anrufen und Administratoreinstellungen, um dies zu steuern
-- Geräteadministrator Einstellungen Aktualisierung der Benutzeroberfläche mit zusätzlicher Gerätekonfiguration auf der Registerkarte "Info"
+- Aktualisieren der Geräte- Admin Einstellungen Benutzeroberfläche mit zusätzlicher Gerätekonfiguration auf der Registerkarte "Info"
 - Raumsteuerung zurück zum Hauptbildschirm
 - Besprechungsraum SKU in GCC
 - Unterstützung von Inhaltskameras für Surface Pro-basiertes System (mindestens erforderlicher App-Build: 4.2.4.0)
@@ -350,9 +350,9 @@ In diesem Update eingeführt:
 - Skype Die Store-App des Raumsystems wird in "Microsoft Teams-Räume" umbenannt.
 - Microsoft Teams-Räume Konsolenbenutzeroberfläche wurde auf Microsoft Teams ausgerichtet
 - Designupdate: Benutzerdefiniertes Hintergrundbild nur vor Raumanzeigen beibehalten und den Konsolenhintergrund zu einer neutralen Farbe machen, um sicherzustellen, dass die Steuerelemente der Konsolen-Benutzeroberfläche den Farbkontrast erfüllen – Barrierefreiheitsanforderungen
-- Universelle Leiste für Anrufsteuerungen in Besprechungen für Teams Anrufe/Besprechungen, um eine konsistente Benutzererfahrung mit Microsoft Teams PC/Web-/Mobile-Clients <sup>zu ermöglichen1</sup>
-- Bewertung der Anrufqualität nach Teams Anrufen/<sup>Besprechungen1</sup>
-- Empfangen/Rendern von Microsoft Whiteboard auf Microsoft Teams-Räume Anzeige vor dem Raum, wenn sie von PC/ Web/ Mobile Teams <sup>Client1</sup> <sup>2</sup> freigegeben werden
+- Universelle Leiste für Anrufsteuerungen in Besprechungen für Teams Anrufe/Besprechungen, um eine konsistente Erfahrung mit Microsoft Teams PC-/ Web-/Mobile-Clients<sup>zu ermöglichen 1</sup>
+- Bewertung des Feedbacks zur Anrufqualität nach Teams Anrufen/Besprechungen<sup>1</sup>
+- Empfangen/Rendern von Microsoft Whiteboard auf Microsoft Teams-Räume Anzeige vor dem Raum, wenn sie von PC/ Web/ Mobile Teams Client<sup>1</sup> <sup>2</sup> freigegeben werden
 - Die Unterstützung für Windows 10 Version 1809-Upgrades wurde aufgrund von Kompatibilitätsproblemen mit Microsoft Teams-Räume Client entfernt. Windows 10 Version 19H1-Unterstützung wird in zukünftigen Versionen hinzugefügt
 
 <sup>1</sup> Microsoft Teams Dienstrollout mit Teams Ringen. Dieses Feature ist möglicherweise früher oder später als das Clientupdate 4.0.105.0 verfügbar.
@@ -521,7 +521,7 @@ In diesem Update eingeführt:
 - Möglichkeit, Feedback für öffentliche Builds zu geben
 - Verbesserte Telemetrie rund um die Zuverlässigkeit des Besprechungsbeitritts
 - Verbesserte OMS-Berichterstellung
-- Möglichkeit für IT-Administratoren, Geräte remote zu konfigurieren
+- Möglichkeit für IT-Admin, Geräte remote zu konfigurieren
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 

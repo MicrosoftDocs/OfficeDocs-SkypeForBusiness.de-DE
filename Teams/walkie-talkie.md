@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 3e311fb94996e1c51bb5f73190539cd0e1f9f127
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400231"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681896"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-App in Microsoft Teams
 
@@ -97,7 +97,7 @@ Mitarbeiter in Service und Produktion müssen häufig sprechen und Walkie-Talkie
 
 ### <a name="license-requirements"></a>Lizenzanforderungen
 
-Die Walkie Talkie-App ist in allen kostenpflichtigen Lizenzen von Teams in [Office 365-Abonnements](/office365/servicedescriptions/teams-service-description) enthalten. Weitere Informationen zum Abrufen von Teams finden Sie Gewusst wie  [Zugriff auf Microsoft Teams erhalten](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+Die Walkie Talkie-App ist in allen kostenpflichtigen Lizenzen von Teams in [Office 365-Abonnements](/office365/servicedescriptions/teams-service-description) enthalten. Weitere Informationen zum Abrufen von Teams finden Sie unter [Gewusst wie Zugriff auf Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## <a name="further-information"></a>Weitere Informationen
 

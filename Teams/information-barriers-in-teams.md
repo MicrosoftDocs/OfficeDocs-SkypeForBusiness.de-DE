@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e57686e2decb5b2d663f75f1ad7884220a9ff4c2
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922806"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675407"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
-[Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) (IBs) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. IBs sind nützlich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollten. IBs sind auch hilfreich, wenn eine Gruppe isoliert werden muss oder verhindert werden muss, dass sie mit personen außerhalb dieser Gruppe kommuniziert. Freigegebene Kanäle in Microsoft Teams werden von Informationsbarrieren unterstützt. Je nach Art der Freigabe können Richtlinien für Informationsbarrieren die Freigabe auf bestimmte Weise einschränken. Weitere Informationen zum Verhalten freigegebener Kanäle und Informationsbarrieren finden Sie unter [Informationsbarrieren und freigegebene Kanäle](information-barriers-shared-channels.md).
+[Microsoft Purview Informationsbarrieren (IBs](/microsoft-365/compliance/information-barriers)) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. IBs sind nützlich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollten. IBs sind auch hilfreich, wenn eine Gruppe isoliert werden muss oder verhindert werden muss, dass sie mit personen außerhalb dieser Gruppe kommuniziert. Freigegebene Kanäle in Microsoft Teams werden von Informationsbarrieren unterstützt. Je nach Art der Freigabe können Richtlinien für Informationsbarrieren die Freigabe auf bestimmte Weise einschränken. Weitere Informationen zum Verhalten freigegebener Kanäle und Informationsbarrieren finden Sie unter [Informationsbarrieren und freigegebene Kanäle](information-barriers-shared-channels.md).
 
 Für Microsoft Teams können Informationsbarrieren die folgenden Arten von nicht autorisierten Zusammenarbeiten ermitteln und verhindern:
 
@@ -37,7 +37,7 @@ Für Microsoft Teams können Informationsbarrieren die folgenden Arten von nicht
 
 >[!NOTE]
 >- Gruppen von Informationsbarrieren können nicht mandantenübergreifend erstellt werden.
->- Die Verwendung von Bots, Azure Active Directory (Azure AD)-Apps, APIs zum Senden von Aktivitätsfeedbenachrichtigungen und einigen APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
+>- Die Verwendung von Bots, Azure Active Directory(Azure AD)-Apps, APIs zum Senden von Aktivitätsfeedbenachrichtigungen und einigen APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
 >- Private Kanäle sind mit den von Ihnen konfigurierten Richtlinien für Informationsbarrieren kompatibel.
 >- Informationen zur Unterstützung von Barrieren für SharePoint Websites, die mit Teams verbunden sind, finden Sie unter [Segmente, die Microsoft Teams Websites zugeordnet](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) sind.
 
@@ -67,14 +67,14 @@ Der Evaluierungsdienst für Informationsbarrierenrichtlinien bestimmt, ob eine K
 
 ## <a name="managing-information-barrier-policies"></a>Verwalten von Richtlinien für Informationsbarrieren
 
-IB-Richtlinien werden im Microsoft Purview Compliance Portal (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](/office365/securitycompliance/information-barriers-policies).
+IB-Richtlinien werden im Microsoft Purview-Complianceportal (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](/office365/securitycompliance/information-barriers-policies).
 
 >[!IMPORTANT]
 >Bevor Sie Richtlinien einrichten oder definieren, müssen Sie die bereichsbezogene Verzeichnissuche in Microsoft Teams aktivieren. Warten Sie mindestens ein paar Stunden nach dem Aktivieren der bereichsbezogenen Verzeichnissuche, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Administratorrolle für Informationsbarrieren
 
-Die Rolle "IB Compliance Management" ist für die Verwaltung von IB-Richtlinien verantwortlich. Weitere Informationen zu dieser Rolle finden Sie [unter Berechtigungen im Microsoft Purview Compliance-Portal](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+Die Rolle "IB Compliance Management" ist für die Verwaltung von IB-Richtlinien verantwortlich. Weitere Informationen zu dieser Rolle finden Sie [unter "Berechtigungen" im Microsoft Purview-Complianceportal](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="information-barrier-triggers"></a>Trigger für Informationsbarrieren
 

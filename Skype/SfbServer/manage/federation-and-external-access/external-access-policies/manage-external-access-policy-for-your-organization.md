@@ -1,9 +1,9 @@
 ---
 title: Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation
-ms.reviewer: null
-'ms:assetid': 5571811e-34c8-443a-b94c-1ab5d4275581
-'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)'
-'ms:contentKeyID': 48184160
+ms.reviewer: ''
+ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
+ms:contentKeyID: 48184160
 mtps_version: v=OCS.15
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,16 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
-description: 'Nach der Bereitstellung eines oder mehrerer Edge-Server müssen Sie die spezifischen Typen des externen Benutzerzugriffs aktivieren, die für Ihre Organisation unterstützt werden sollen.'
+description: Nach der Bereitstellung eines oder mehrerer Edge-Server müssen Sie die spezifischen Typen des externen Benutzerzugriffs aktivieren, die für Ihre Organisation unterstützt werden sollen.
+ms.openlocfilehash: 6134d2d6f5e2a204a18fdbda3360d39f00ed46f2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674587"
 ---
-
-
 # <a name="manage-external-access-policy-for-your-organization"></a>Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation
 
 Nach der Bereitstellung eines oder mehrerer Edge-Server müssen Sie die spezifischen Typen des externen Benutzerzugriffs aktivieren, die für Ihre Organisation unterstützt werden sollen.
@@ -37,12 +41,12 @@ In der Standardeinstellung sind keine Richtlinien für den Zugriff durch externe
 
 Diese Optionen umfassen die folgenden Arten des externen Zugriffs:
 
-  - **Aktivieren der Kommunikation mit Verbundbenutzern**   Aktivieren Sie diese Option, wenn Sie den Benutzerzugriff auf Partnerdomänen unterstützen möchten. Diese Einstellung konfiguriert die Möglichkeit für Benutzer, mit anderen SIP-Verbunddomänen sowie mit gehosteten Anbietern wie Microsoft 365 oder Office 365 zu kommunizieren. 
+  - **Aktivieren der Kommunikation mit Verbundbenutzern**   Aktivieren Sie diese Option, wenn Sie den Benutzerzugriff auf Partnerverbunddomänen unterstützen möchten. Diese Einstellung konfiguriert die Möglichkeit für Benutzer, mit anderen SIP-Verbunddomänen sowie gehosteten Anbietern wie Microsoft 365 oder Office 365 zu kommunizieren. 
 
 
-  - **Aktivieren der Kommunikation mit Remotebenutzern**   Aktivieren Sie diese Option, wenn Benutzer in Ihrer Organisation, die sich außerhalb Ihrer Firewall befinden, z. B. Telekommunikationspendler und Benutzer, die unterwegs sind, in der Lage sein sollen, über das Internet eine Verbindung mit Skype for Business Server herzustellen.
+  - **Aktivieren der Kommunikation mit Remotebenutzern**   Aktivieren Sie diese Option, wenn Sie möchten, dass Benutzer in Ihrer Organisation, die sich außerhalb Ihrer Firewall befinden, z. B. Telemutanten und Reisende, über das Internet eine Verbindung mit Skype for Business Server herstellen können.
 
-  - **Aktivieren der Kommunikation mit öffentlichen Benutzern**   Aktivieren Sie diese Option, wenn interne Benutzer mit Kontakten des öffentlichen Chatanbieters kommunizieren können sollen.
+  - **Aktivieren der Kommunikation mit öffentlichen Benutzern**   Aktivieren Sie diese Option, wenn interne Benutzer mit Kontakten von öffentlichen Chatanbietern kommunizieren sollen.
    
 
 > [!NOTE]  

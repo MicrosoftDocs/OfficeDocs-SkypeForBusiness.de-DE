@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Erfahren Sie hier, wie Sie eine Richtlinie für sicheres Messaging für Microsoft Teams anpassen können, die Lesebestätigungen und Benachrichtigungen mit hoher Priorität umfassen kann.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: c450bb298e0a0e01440442d0813708048005a652
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045517"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674867"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Sicheres Messaging für Organisationen im Gesundheitswesen
 
@@ -37,11 +37,11 @@ Sie können die globale (organisationsweite) Standardrichtlinie verwenden oder e
 
 Die Richtlinien können auf einfache Weise im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com) verwaltet werden: Melden Sie sich mit Administratoranmeldeinformationen an, und wählen Sie im linken Navigationsbereich **Messaging-Richtlinien** aus.
 
- :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Screenshot der Seite Messagingrichtlinien" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Screenshot der Seite &quot;Messagingrichtlinien&quot;." lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
  
  Um die bestehende standardmäßige Messaging-Richtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweit Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** und dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
-![Screenshot der Einstellungen für Messagingrichtlinien](../../media/hc-messaging-policy.png)
+![Screenshot der Nachrichtenrichtlinieneinstellungen.](../../media/hc-messaging-policy.png)
 
 Die folgenden Einstellungen sind für die Anwendung im Gesundheitswesen von besonderem Interesse und sollten beim Entwerfen einer benutzerdefinierten Richtlinie für das Gesundheitswesen berücksichtigt werden:
 

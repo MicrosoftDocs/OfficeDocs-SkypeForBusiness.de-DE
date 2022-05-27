@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Informationen zum Verwalten von Teamvorlagen im Admin Center
-ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
+ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65248937"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681396"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Verwalten von Teamvorlagen im Admin Center
 
@@ -106,7 +106,7 @@ Antwort: Alle gelöschten Vorlagen sind in keiner Vorlagenrichtlinien mehr vorha
 
 A: Ja.
 
-1. Wechseln Sie im Teams Admin Center zu **UsersManage** >  users.
+1. Wechseln Sie im Teams Admin Center zu **Benutzer** > **verwalten**.
 1. Wählen Sie in der Liste der Benutzer die Benutzer aus, die Sie der Vorlagenrichtlinie zuweisen möchten.
 1. Wählen Sie **"Einstellungen bearbeiten"** und dann unter **"Vorlagenrichtlinie**" die Richtlinie aus, die Sie zuweisen möchten.
 1. Wählen Sie **"Übernehmen" aus**.
@@ -117,7 +117,7 @@ Weitere Informationen finden Sie unter [Zuweisen einer Richtlinie zu einzelnen B
 
 A: Im Teams Admin Center:
 
-1. Wechseln Sie zu **UsersManage-Benutzern** > .
+1. Wechseln Sie zu **"Benutzer** > **verwalten"**.
 2. Wählen Sie **"Filter**" aus, legen Sie einen Filter für die Vorlagenrichtlinie fest, und wählen Sie dann **"Übernehmen"** aus.
 
     ![Die ausgewählte Vorlagenrichtlinie und die Benutzer anzeigen.](media/template-policies-5.png)

@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Cloud-Voicemail
+title: Einrichten von Cloudvoicemail
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie Cloud-Voicemail für Ihre Benutzer einrichten.
-ms.openlocfilehash: 96c96f85625d0cda7e6d7a28a59d6c9415f2bb79
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 6a75856954da509677a1c9ccdb54e34055f171ed
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922626"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681406"
 ---
-# <a name="set-up-cloud-voicemail"></a>Einrichten von Cloud-Voicemail
+# <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
 Dieser Artikel richtet sich an Microsoft 365 Administratoren, die Cloud-Voicemail für ihre Benutzer einrichten möchten.
 
@@ -67,7 +67,7 @@ Verwenden Sie zum Verwalten Cloud-Voicemail Features für Benutzergruppen das Cm
 Sie können vorhandene oder neue Voicemailrichtlinien für Features wie Anrufbeantwortungsregeln, Voicemailtranskription, Transkription der Profanitätsmaskierung, Transkriptionsübersetzung und Systemeingabeaufforderungssprache konfigurieren und zuweisen. Weitere Informationen finden Sie unter [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy).
 
 Verwenden Sie zum Verwalten Cloud-Voicemail Einstellungen für einzelne Benutzer das Cmdlet [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings). Cloud-Voicemail Einstellungen, die Sie auf einzelne Benutzer anwenden können, umfassen Anrufbeantwortungsregeln, Eingabeaufforderungssprache, Text-zu-Sprache-Standard und Urlaubsgrüße. Weitere Informationen finden Sie unter [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
-(Beachten Sie, dass Ihre Endbenutzer diese Einstellungen auch im Teams-Client konfigurieren können, indem sie zu **Einstellungen** ->  **CallsConfigure** ->  **Voicemail** wechseln.)
+(Beachten Sie, dass Ihre Endbenutzer diese Einstellungen auch im Teams-Client konfigurieren können, indem sie zu **Einstellungen** ->  **Calls** -> **Configure Voicemail** wechseln.)
 
 Sie können Cloud-Voicemail für einen Benutzer auch deaktivieren, indem Sie das Cmdlet [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) verwenden und den VoicemailEnabled-Parameter auf $false festlegen. Mit dieser Einstellung wird sichergestellt, dass Cloud-Voicemail keine Voicemail mehr für den Benutzer aufzeichnen können.
 
@@ -75,7 +75,7 @@ Sie können Cloud-Voicemail für einen Benutzer auch deaktivieren, indem Sie das
 
 Die Standardeinstellung für alle Benutzer, die für Cloud-Voicemail bereitgestellt werden, besteht darin, das Weiterleiten von Anrufen an Cloud-Voicemail zu ermöglichen und Benutzern das Weiterleiten von Anrufen an Cloud-Voicemail zu ermöglichen.
 
-Sie können steuern, ob das Weiterleiten von Anrufen an Cloud-Voicemail für Teams Benutzer zulässig ist, indem Sie das cmdlet Set-CsTeamsCallingPolicy mit dem Parameter AllowVoicemail verwenden. Weitere Informationen finden  [Sie unterSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+Sie können steuern, ob das Weiterleiten von Anrufen an Cloud-Voicemail für Teams Benutzer zulässig ist, indem Sie das cmdlet Set-CsTeamsCallingPolicy mit dem Parameter AllowVoicemail verwenden. Weitere Informationen finden Sie unter [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - Wenn Sie AllowVoicemail auf AlwaysDisabled festlegen, werden Anrufe niemals an Voicemail weitergeleitet – unabhängig von den Einstellungen für die Anrufweiterleitung oder nicht beantworteten Einstellungen für einen Benutzer. Voicemail ist in Teams nicht als Anrufweiterleitung oder unbeantwortete Einstellung verfügbar.
 
@@ -99,36 +99,34 @@ Die folgenden Informationen enthalten Informationen zum Konfigurieren von Cloud-
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>Aktivieren geschützter Voicemails in Ihrer Organisation
 
-Wenn jemand eine Voicemailnachricht für einen Benutzer in Ihrer Organisation hinterlässt, wird die Voicemail als E-Mail-Nachrichtenanlage an das Postfach des Benutzers übermittelt. 
+Wenn jemand eine Voicemailnachricht für einen Benutzer in Ihrer Organisation hinterlässt, wird die Voicemail als E-Mail-Nachrichtenanlage an das Postfach des Benutzers übermittelt.
 
-Mithilfe von Microsoft Purview Information Protection können Sie die Voicemailnachrichten verschlüsseln, die sowohl von internen als auch von externen Anrufern hinterlassen werden. Sie können auch verhindern, dass der Benutzer diese Nachrichten weiterleitet. Dieses Feature wird für Benutzer mit Exchange Online Postfächern unterstützt.
+Mit Microsoft Purview Information Protection können Sie die Voicemailnachrichten verschlüsseln, die sowohl von internen als auch von externen Anrufern hinterlassen werden. Sie können auch verhindern, dass der Benutzer diese Nachrichten weiterleitet. Dieses Feature wird für Benutzer mit Exchange Online Postfächern unterstützt.
 
-Zum Verschlüsseln der Voicemailnachricht können Sie eine Vertraulichkeitsbezeichnung erstellen. Mit der Funktion für die automatische Bezeichnung können Sie sicherstellen, dass die Bezeichnung automatisch auf eingehende Voicemailnachrichten angewendet wird. 
+Zum Verschlüsseln der Voicemailnachricht können Sie eine Vertraulichkeitsbezeichnung erstellen. Mit der Funktion für die automatische Bezeichnung können Sie sicherstellen, dass die Bezeichnung automatisch auf eingehende Voicemailnachrichten angewendet wird.
 
 Wenn Sie geschützte Voicemail aktivieren, können Benutzer geschützte Voicemailnachrichten anhören, indem sie sich in ihr Voicemailpostfach einrufen oder die Nachricht in Outlook, Outlook im Web oder Outlook für Android oder iOS öffnen. Geschützte Voicemailnachrichten können nicht in Microsoft Teams oder Skype for Business geöffnet werden.
 
-Informationen zum Erstellen einer Vertraulichkeitsbezeichnung für Voicemail finden [Sie unter Verwenden von Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Wählen Sie im Abschnitt **"Verschlüsselung** " die Option " **Benutzern das Zuweisen von Berechtigungen gestatten" aus, wenn sie die Bezeichnung anwenden**. Wählen Sie **"In Outlook" aus, erzwingen Sie eine der folgenden Einschränkungen**, und wählen Sie dann die Option **"Nicht weiterleiten**" aus.
+Informationen zum Erstellen einer Vertraulichkeitsbezeichnung für Voicemail finden [Sie unter Verwenden von Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). Wählen Sie im Abschnitt **"Verschlüsselung** " die Option " **Benutzern das Zuweisen von Berechtigungen gestatten" aus, wenn sie die Bezeichnung anwenden**. Wählen Sie **"In Outlook" aus, erzwingen Sie eine der folgenden Einschränkungen**, und wählen Sie dann die Option **"Nicht weiterleiten**" aus.
 
-Informationen zum Erstellen der Richtlinie für die automatische Bezeichnung zum Anwenden einer Vertraulichkeitsbezeichnung auf Voicemail finden Sie unter [Konfigurieren von Richtlinien für automatische Bezeichnungen](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) und Angeben der folgenden spezifischen Einstellungen:
+Informationen zum Erstellen der Richtlinie für die automatische Bezeichnung zum Anwenden einer Vertraulichkeitsbezeichnung auf Voicemail finden Sie unter [Konfigurieren von Richtlinien für automatische Bezeichnungen](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) und Angeben der folgenden spezifischen Einstellungen:
 
--   **Wählen Sie für "Informationen auswählen", auf die diese Bezeichnung angewendet werden soll**, **die Option "Benutzerdefinierte Richtlinie" aus**.
+- **Wählen Sie für "Informationen auswählen", auf die diese Bezeichnung angewendet werden soll**, **die Option "Benutzerdefinierte Richtlinie" aus**.
 
--   **Wählen Sie für "Speicherorte auswählen", auf die Sie die Bezeichnung anwenden möchten**, "**Speicherorte: Exchange für alle Benutzer**" aus.
+- **Wählen Sie für "Speicherorte auswählen", auf die Sie die Bezeichnung anwenden möchten**, "**Speicherorte: Exchange für alle Benutzer**" aus.
 
--   Wählen  **Sie für "Allgemeine oder erweiterte Regeln einrichten**" die Option **"Erweiterte Regeln**" aus.
+- Wählen  **Sie für "Allgemeine oder erweiterte Regeln einrichten**" die Option **"Erweiterte Regeln**" aus.
 
 - Exchange Regeln:
-    - Bedingungen:<br>
-        - **Kopfzeile entspricht Muster:**<br>
-              Content-Class = Voice-CA
-       -  **Die IP-Adresse des Absenders lautet:**<br>
-               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+  - Bedingungen:
+    - **Headerübereinstimmungsmuster**: Content-Class = Voice-CA
+    - **Ip-Adresse des Absenders:** 13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
 
 - **Wenn Sie eine Bezeichnung für die automatische Anwendung auswählen möchten**, wählen Sie die Vertraulichkeitsbezeichnung aus, die Sie im obigen Schritt für Voicemail erstellt haben.
 
-- Wenn **Sie zusätzliche Einstellungen für E-Mails** erhalten möchten, wählen Sie " **Verschlüsselung auf E-Mails anwenden" aus, die von außerhalb Ihrer Organisation empfangen werden**, und geben Sie den Besitzer der Rechteverwaltung an.
+- Wenn **Sie weitere Einstellungen für E-Mails** anzeigen möchten, wählen Sie "**Verschlüsselung auf E-Mails anwenden" aus, die von außerhalb Ihrer Organisation empfangen wurden**, und geben Sie den Rights Management Besitzer an.
 
-Die in der Absender-IP-Adresse angegebenen IP V4-Bereiche basieren auf der Liste in ID 12 in [Office 365 URLs und IP-Adressbereichen](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams).
+Die in der Absender-IP-Adresse angegebenen IP V4-Bereiche basieren auf der Liste in ID 12 in [Office 365 URLs und IP-Adressbereichen](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
 Weitere Informationen zur Nachrichtenverschlüsselung finden [Sie unter Definieren von Nachrichtenflussregeln zum Verschlüsseln von E-Mail-Nachrichten](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 

@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Microsoft Teams Daten aus dem Überwachungsprotokoll im Microsoft Purview Compliance-Portal abrufen.
+description: Erfahren Sie, wie Sie Microsoft Teams Daten aus dem Überwachungsprotokoll im Microsoft Purview-Complianceportal abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82da7932fb87101ee04759ede3d96b68cbb64aa2
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: bfab74d73038b18e3e0854e167de8991e43dc67e
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031890"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674407"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -42,7 +42,7 @@ Eine vollständige Liste der überwachten Teams Aktivitäten finden Sie [unter T
 
 ## <a name="turn-on-auditing-in-teams"></a>Aktivieren der Überwachung in Microsoft Teams
 
-Bevor Sie sich Überwachungsdaten ansehen können, müssen Sie zuerst die Überwachung im Microsoft Purview Compliance-Portal aktivieren. Weitere Informationen finden [Sie unter Aktivieren oder Deaktivieren der Überwachung](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+Bevor Sie sich Überwachungsdaten ansehen können, müssen Sie zuerst die Überwachung im Microsoft Purview-Complianceportal aktivieren. Weitere Informationen finden [Sie unter Aktivieren oder Deaktivieren der Überwachung](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Überwachungsdaten sind erst ab dem Zeitpunkt verfügbar, an dem Sie die Überwachung aktiviert haben.
@@ -76,7 +76,7 @@ Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im
 
 - Klicken Sie auf **"Alle löschen**", um die aktuellen Suchkriterien zu löschen. Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt.
 
-- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzugeben, oder Sie können alle Suchergebnisse exportieren, indem Sie "**Alle Ergebnisse** **exportieren** > " auswählen. Schrittweise Anleitungen zum Exportieren von Überwachungsprotokollen finden Sie unter [Exportieren der Suchergebnisse in eine Datei](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file).
+- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzugeben, oder Sie können alle Suchergebnisse exportieren, indem Sie " **Alle** > **Ergebnisse exportieren"** auswählen. Schrittweise Anleitungen zum Exportieren von Überwachungsprotokollen finden Sie unter [Exportieren der Suchergebnisse in eine Datei](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file).
 
 Sehen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Überwachungsprotokollsuche an. Ansuman Acharya, Programm-Manager für Microsoft Teams, veranschaulicht, wie eine Überwachungsprotokollsuche für Microsoft Teams durchgeführt wird.
 
@@ -84,64 +84,63 @@ Sehen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Ver
 
 Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer- und Administratoraktivitäten in Microsoft Teams im Microsoft 365-Überwachungsprotokoll erfasst werden. Die Tabelle enthält den Anzeigenamen, der in der Spalte **Aktivitäten** angezeigt wird, sowie den Namen des zugehörigen Vorgangs, der in den Detailinformationen eines Überwachungsdatensatzes und in der CSV-Datei aufscheint, wenn Sie Ihre Suchergebnisse exportieren.
 
-|Anzeigename  |Vorgang |Beschreibung |
-|:---------|:---------|:---------|
-|Bot zum Team hinzugefügt   |BotAddedToTeam        |Ein Benutzer fügt einem Team einen Bot hinzu.        |
-|Kanal hinzugefügt   |ChannelAdded         |Ein Benutzer fügt einem Team einen Kanal hinzu.         |
-|Connector hinzugefügt  |ConnectorAdded          |Ein Benutzer fügt einen Connector zu einem Kanal hinzu.        |
+|Anzeigename|Vorgang|Beschreibung|
+|---|---|---|
+|Bot zum Team hinzugefügt|BotAddedToTeam|Ein Benutzer fügt einem Team einen Bot hinzu.|
+|Kanal hinzugefügt|ChannelAdded|Ein Benutzer fügt einem Team einen Kanal hinzu.|
+|Connector hinzugefügt|ConnectorAdded|Ein Benutzer fügt einen Connector zu einem Kanal hinzu.|
 |Details zu Teams Besprechung <sup>hinzugefügt 2</sup>|MeetingDetail|Teams Informationen zu einer Besprechung hinzugefügt, einschließlich der Startzeit, der Endzeit und der URL für die Teilnahme an der Besprechung.|
 |Informationen zu Besprechungsteilnehmern <sup>hinzugefügt 2</sup>|MeetingParticipantDetail|Teams Informationen zu den Teilnehmern einer Besprechung hinzugefügt, einschließlich der Benutzer-ID jedes Teilnehmers, der Zeit, zu der ein Teilnehmer der Besprechung beigetreten ist, und der Zeit, zu der ein Teilnehmer die Besprechung verlassen hat.|
-|Hinzugefügte Mitglieder    |MemberAdded         |Ein Teambesitzer fügt Mitglieder zu einem Team-, Kanal- oder Gruppenchat hinzu.         |
-|Registerkarte hinzugefügt    |TabAdded         |Ein Benutzer fügt einem Kanal eine Registerkarte hinzu.        |
-|Kanaleinstellung geändert    |ChannelSettingChanged         |Der Vorgang "ChannelSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teammitglied ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt. <ul><li>Ändert den Namen eines Teamkanals (**Kanalname**).</li><li>Ändert die Beschreibung eines Teamkanals (**Kanalbeschreibung**).</li> </ul>      |
-|Organisationseinstellung geändert   |TeamsTenantSettingChanged         |Der Vorgang "TeamsTenantSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem globalen Administrator im Microsoft 365 Admin Center ausgeführt werden. Diese Aktivitäten wirken sich organisationsweit auf Microsoft Teams-Einstellungen aus. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md). <br>Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt.<ul><li>Aktiviert bzw. deaktiviert Microsoft Teams für die Organisation (**Microsoft Teams**).</li><li>Aktiviert bzw. deaktiviert die Interoperabilität zwischen Microsoft Teams und Skype for Business für die Organisation (**Skype for Business-Interoperabilität**).</li><li>Aktiviert oder deaktiviert die Organigrammansicht in Microsoft Teams-Clients (**Organigrammansicht**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, private Besprechungen zu planen (**Private Besprechung planen**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Kanalbesprechungen zu planen (**Kanalbesprechung planen**).</li><li>Aktiviert oder deaktiviert Videoanrufe in Microsoft Teams-Besprechungen (**Video für Skype-Besprechungen**).</li><li>Aktiviert oder deaktiviert die Bildschirmfreigabe in Microsoft Teams-Meetups für die Organisation (**Bildschirmfreigabe für Skype-Besprechungen**).</li><li>Aktiviert oder deaktiviert die Möglichkeit, animierte Bilder (so genannte Giphys) zu Microsoft Teams-Unterhaltungen hinzuzufügen (**Animierte Bilder**).</li><li>Ändert die Inhaltsbewertungseinstellung für die Organisation (**Inhaltsbewertung**). Die Inhaltsbewertung beschränkt, welche Arten animierter Bilder in Unterhaltungen angezeigt werden können.</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, anpassbare Bilder (so genannte benutzerdefinierte Memes) aus dem Internet in Teamunterhaltungen hinzuzufügen (**Anpassbare Bilder aus dem Internet**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, bearbeitbare Bilder (so genannte Aufkleber) zu Teamunterhaltungen hinzuzufügen (**Bearbeitbare Bilder**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Bots in Microsoft Teams-Chats und -Kanälen zu verwenden (**Organisationsweite Bots**).</li><li>Aktiviert bestimmte Bots für Microsoft Teams. Davon ausgenommen ist der Microsoft Teams-Hilfebot „T-Bot“, der verfügbar ist, wenn Bots für die Organisation aktiviert sind (**Einzelne Bots**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Erweiterungen oder Registerkarten hinzuzufügen (**Erweiterungen oder Registerkarten**).</li><li>Aktiviert oder deaktiviert das Querladen proprietärer Bots für Microsoft Teams (**Querladen von Bots**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Benutzer, E-Mail-Nachrichten an einen Microsoft Teams-Kanal zu senden (**Kanal-E-Mail**).</li></ul>|
-|Hat die Rolle von Mitgliedern im Team geändert    |MemberRoleChanged         |Ein Teambesitzer ändert die Rolle von Mitgliedern in einem Team. Die folgenden Werte geben den Rollentyp an, der dem Benutzer zugewiesen wurde. <br><br>**1**: Gibt die Mitgliedsrolle an.<br>**2**: Gibt die Besitzerrolle an.<br>**3**: Gibt die Gastrolle an.<br><br>Die Eigenschaft „Mitglied“ umfasst auch den Namen Ihrer Organisation und die E-Mail-Adresse des Mitglieds.        |
-|Teameinstellung geändert    |TeamSettingChanged        |Der Vorgang "TeamSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teambesitzer ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt.<ul><li>Ändert die Art des Zugriffs für ein Team. Teams können als „Privat“ oder „Öffentlich" festgelegt werden (**Art des Teamzugriffs**). Wenn ein Team privat ist (Standardeinstellung), können Benutzer nur nach Einladung darauf zugreifen. Wenn ein Team öffentlich ist, kann es von allen Benutzern gefunden werden.</li><li>Ändert die Informationsklassifizierung eines Teams (**Teamklassifizierung**). Teamdaten können beispielsweise als mit hohen, mittleren oder niedrigen geschäftlichen Auswirkungen klassifiziert werden.</li><li>Ändert den Namen eines Teams (**Teamname**).</li><li>Ändert die Beschreibung eines Teams (**Teambeschreibung**).</li><li>Es wurden Änderungen an den Teameinstellungen vorgenommen. Ein Teambesitzer kann auf diese Einstellungen zugreifen, indem er mit der rechten Maustaste auf ein Team klickt, anschließend auf **Team verwalten** klickt und dann die Registerkarte **Einstellungen** auswählt. Für solche Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** der Name der geänderten Einstellung angezeigt.</li></ul>         |
-|Erstellt einen Chat <sup>1, </sup> <sup>2</sup>|    ChatCreated|    Ein Teams Chat wurde erstellt.|
-|Team erstellt    |TeamCreated         |Ein Benutzer erstellt ein Team.         |
-|Eine Nachricht gelöscht  |MessageDeleted |Eine Nachricht in einem Chat oder Kanal wurde gelöscht.|
-|Alle Organisations-Apps gelöscht|DeletedAllOrganizationApps           |Alle Organisations-Apps wurden aus dem Katalog gelöscht.     |
-|App gelöscht |AppDeletedFromCatalog           |Eine App wurde aus dem Katalog gelöscht.     |
-|Kanal gelöscht     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
-|Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
-|Eine Nachricht mit einem URL-Link in Teams bearbeitet     |MessageEditedHasLink         |Ein Benutzer bearbeitet eine Nachricht und fügt ihr in Teams einen URL-Link hinzu.         |
-|Exportierte Nachrichten <sup>1, </sup> <sup>2</sup> |    MessagesExported |Chat- oder Kanalnachrichten wurden exportiert.|
-|Fehler beim Überprüfen der Einladung an den freigegebenen <sup>Kanal3</sup> | FailedValidation |Ein Benutzer antwortet auf eine Einladung an einen freigegebenen Kanal, die Überprüfung der Einladung ist jedoch fehlgeschlagen. |
-|Abgerufener Chat <sup>1, </sup> <sup>2</sup>   |ChatRetrieved  |Ein Microsoft Teams Chat wurde abgerufen.|
-|Alle gehosteten Inhalte einer Nachricht <sup>abgerufen1, </sup> <sup>2</sup> |MessageHostedContentsListed    |Alle gehosteten Inhalte in einer Nachricht, z. B. Bilder oder Codeausschnitte, wurden abgerufen.|
-|App installiert |AppInstalled         |Eine App wurde installiert.   |
+|Hinzugefügte Mitglieder|MemberAdded|Ein Teambesitzer fügt Mitglieder zu einem Team-, Kanal- oder Gruppenchat hinzu.|
+|Registerkarte hinzugefügt|TabAdded|Ein Benutzer fügt einem Kanal eine Registerkarte hinzu.|
+|Kanaleinstellung geändert|ChannelSettingChanged|Der Vorgang "ChannelSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teammitglied ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt. <ul><li>Ändert den Namen eines Teamkanals (**Kanalname**).</li><li>Ändert die Beschreibung eines Teamkanals (**Kanalbeschreibung**).</li> </ul>|
+|Organisationseinstellung geändert|TeamsTenantSettingChanged|Der Vorgang "TeamsTenantSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem globalen Administrator im Microsoft 365 Admin Center ausgeführt werden. Diese Aktivitäten wirken sich organisationsweit auf Microsoft Teams-Einstellungen aus. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md). <br>Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt.<ul><li>Aktiviert bzw. deaktiviert Microsoft Teams für die Organisation (**Microsoft Teams**).</li><li>Aktiviert bzw. deaktiviert die Interoperabilität zwischen Microsoft Teams und Skype for Business für die Organisation (**Skype for Business-Interoperabilität**).</li><li>Aktiviert oder deaktiviert die Organigrammansicht in Microsoft Teams-Clients (**Organigrammansicht**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, private Besprechungen zu planen (**Private Besprechung planen**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Kanalbesprechungen zu planen (**Kanalbesprechung planen**).</li><li>Aktiviert oder deaktiviert Videoanrufe in Microsoft Teams-Besprechungen (**Video für Skype-Besprechungen**).</li><li>Aktiviert oder deaktiviert die Bildschirmfreigabe in Microsoft Teams-Meetups für die Organisation (**Bildschirmfreigabe für Skype-Besprechungen**).</li><li>Aktiviert oder deaktiviert die Möglichkeit, animierte Bilder (so genannte Giphys) zu Microsoft Teams-Unterhaltungen hinzuzufügen (**Animierte Bilder**).</li><li>Ändert die Inhaltsbewertungseinstellung für die Organisation (**Inhaltsbewertung**). Die Inhaltsbewertung beschränkt, welche Arten animierter Bilder in Unterhaltungen angezeigt werden können.</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, anpassbare Bilder (so genannte benutzerdefinierte Memes) aus dem Internet in Teamunterhaltungen hinzuzufügen (**Anpassbare Bilder aus dem Internet**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, bearbeitbare Bilder (so genannte Aufkleber) zu Teamunterhaltungen hinzuzufügen (**Bearbeitbare Bilder**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Bots in Microsoft Teams-Chats und -Kanälen zu verwenden (**Organisationsweite Bots**).</li><li>Aktiviert bestimmte Bots für Microsoft Teams. Davon ausgenommen ist der Microsoft Teams-Hilfebot „T-Bot“, der verfügbar ist, wenn Bots für die Organisation aktiviert sind (**Einzelne Bots**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Erweiterungen oder Registerkarten hinzuzufügen (**Erweiterungen oder Registerkarten**).</li><li>Aktiviert oder deaktiviert das Querladen proprietärer Bots für Microsoft Teams (**Querladen von Bots**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Benutzer, E-Mail-Nachrichten an einen Microsoft Teams-Kanal zu senden (**Kanal-E-Mail**).</li></ul>|
+|Hat die Rolle von Mitgliedern im Team geändert|MemberRoleChanged|Ein Teambesitzer ändert die Rolle von Mitgliedern in einem Team. Die folgenden Werte geben den Rollentyp an, der dem Benutzer zugewiesen wurde. <br><br>**1**: Gibt die Mitgliedsrolle an.<br>**2**: Gibt die Besitzerrolle an.<br>**3**: Gibt die Gastrolle an.<br><br>Die Eigenschaft „Mitglied“ umfasst auch den Namen Ihrer Organisation und die E-Mail-Adresse des Mitglieds.|
+|Teameinstellung geändert|TeamSettingChanged|Der Vorgang "TeamSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teambesitzer ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt.<ul><li>Ändert die Art des Zugriffs für ein Team. Teams können als „Privat“ oder „Öffentlich" festgelegt werden (**Art des Teamzugriffs**). Wenn ein Team privat ist (Standardeinstellung), können Benutzer nur nach Einladung darauf zugreifen. Wenn ein Team öffentlich ist, kann es von allen Benutzern gefunden werden.</li><li>Ändert die Informationsklassifizierung eines Teams (**Teamklassifizierung**). Teamdaten können beispielsweise als mit hohen, mittleren oder niedrigen geschäftlichen Auswirkungen klassifiziert werden.</li><li>Ändert den Namen eines Teams (**Teamname**).</li><li>Ändert die Beschreibung eines Teams (**Teambeschreibung**).</li><li>Es wurden Änderungen an den Teameinstellungen vorgenommen. Ein Teambesitzer kann auf diese Einstellungen zugreifen, indem er mit der rechten Maustaste auf ein Team klickt, anschließend auf **Team verwalten** klickt und dann die Registerkarte **Einstellungen** auswählt. Für solche Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** der Name der geänderten Einstellung angezeigt.</li></ul>|
+|Erstellt einen Chat <sup>1, </sup> <sup>2</sup>|ChatCreated|Ein Teams Chat wurde erstellt.|
+|Team erstellt|TeamCreated|Ein Benutzer erstellt ein Team.|
+|Eine Nachricht gelöscht|MessageDeleted|Eine Nachricht in einem Chat oder Kanal wurde gelöscht.|
+|Alle Organisations-Apps gelöscht|DeletedAllOrganizationApps|Alle Organisations-Apps wurden aus dem Katalog gelöscht.|
+|App gelöscht|AppDeletedFromCatalog|Eine App wurde aus dem Katalog gelöscht.|
+|Kanal gelöscht|ChannelDeleted|Ein Benutzer löscht einen Kanal aus einem Team.|
+|Team gelöscht|TeamDeleted|Ein Teambesitzer löscht ein Team.|
+|Eine Nachricht mit einem URL-Link in Teams bearbeitet|MessageEditedHasLink|Ein Benutzer bearbeitet eine Nachricht und fügt ihr in Teams einen URL-Link hinzu.|
+|Exportierte Nachrichten <sup>1, </sup> <sup>2</sup>|MessagesExported|Chat- oder Kanalnachrichten wurden exportiert.|
+|Fehler beim Überprüfen der Einladung zum freigegebenen Kanal<sup>3</sup>|FailedValidation|Ein Benutzer antwortet auf eine Einladung an einen freigegebenen Kanal, die Überprüfung der Einladung ist jedoch fehlgeschlagen.|
+|Abgerufener Chat <sup>1, </sup> <sup>2</sup>|ChatRetrieved|Ein Microsoft Teams Chat wurde abgerufen.|
+|Alle gehosteten Inhalte einer Nachricht<sup>abgerufen 1, </sup> <sup>2</sup>|MessageHostedContentsListed|Alle gehosteten Inhalte in einer Nachricht, z. B. Bilder oder Codeausschnitte, wurden abgerufen.|
+|App installiert|AppInstalled|Eine App wurde installiert.|
 |Aktion auf Karte ausgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat eine Aktion auf einer adaptiven Karte ausgeführt. Adaptive Karten werden in der Regel von Bots verwendet, um die Anzeige umfassender Informationen und die Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Nur Inline-Eingabeaktionen auf einer adaptiven Karte innerhalb eines Chats sind im Überwachungsprotokoll verfügbar. Beispielsweise wenn ein Benutzer eine Antwort zu einer Umfrage in einer Kanalunterhaltung über eine adaptive Karte übermittelt, die von einem Umfrage-Bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", wodurch ein Dialogfeld geöffnet wird, oder Benutzeraktionen in Dialogfeldern sind im Überwachungsprotokoll nicht verfügbar.|
-|Eine neue Nachricht <sup>gepostet 1, </sup> <sup>2</sup>   |MessageSent|   Eine neue Nachricht wurde in einem Chat oder Kanal gepostet.|
-|App veröffentlicht |AppPublishedToCatalog           |Dem Katalog wurde eine App hinzugefügt.     |
-|Lesen einer Nachricht <sup>1, </sup> <sup>2</sup> |MessageRead    |Eine Nachricht eines Chats oder Kanals wurde abgerufen.|
-|Lesen des gehosteten Inhalts einer Nachricht <sup>1, </sup> <sup>2</sup>   |MessageHostedContentRead   |Gehosteter Inhalt in einer Nachricht, z. B. ein Bild oder ein Codeausschnitt, wurde abgerufen.|
-|Bot aus Team entfernt   |BotRemovedFromTeam         |Ein Benutzer entfernt einen Bot aus einem Team.       |
-|Connector entfernt     |ConnectorRemoved         |Ein Benutzer entfernt einen Connector aus einem Kanal.         |
-|Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal- oder Gruppenchat.         |
-|Freigabe von Teamkanal <sup>entfernt3</sup> | TerminatedSharing |Ein Team- oder Kanalbesitzer hat die Freigabe für einen freigegebenen Kanal deaktiviert. |
-|Freigabe von Teamkanal <sup>3</sup> wiederhergestellt | SharingRestored | Ein Team- oder Kanalbesitzer aktivierte die Freigabe für einen freigegebenen Kanal erneut. |
-|Registerkarte entfernt    |TabRemoved         |Ein Benutzer entfernt eine Registerkarte aus einem Kanal.         |
-|Auf Einladung für freigegebenen Kanal <sup>geantwortet3</sup> | InviteeResponded | Ein Benutzer hat auf eine Einladung für einen freigegebenen Kanal geantwortet. |
-|Auf die eingeladene Antwort auf den freigegebenen<sup></sup> Kanal geantwortet3 | ChannelOwnerResponded |Ein Kanalbesitzer hat auf eine Antwort eines Benutzers geantwortet, der auf eine Einladung zu einem freigegebenen Kanal geantwortet hat. |
-|Abgerufene Nachrichten <sup>1, </sup> <sup>2</sup> |MessagesListed |Nachrichten aus einem Chat oder Kanal wurden abgerufen.|
-|Eine Nachricht mit einem URL-Link in Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
-|Änderungsbenachrichtigung für die Nachrichtenerstellung <sup>gesendet 1, </sup> <sup>2</sup>  |MessageCreatedNotification |Eine Änderungsbenachrichtigung wurde gesendet, um eine abonnierte Listeneranwendung über eine neue Nachricht zu benachrichtigen.|
-|Änderungsbenachrichtigung zum Löschen von Nachrichten <sup>gesendet 1, </sup> <sup>2</sup>  |MessageDeletedNotification |Eine Änderungsbenachrichtigung wurde gesendet, um eine abonnierte Listeneranwendung über eine gelöschte Nachricht zu benachrichtigen.|
-|Änderungsbenachrichtigung für Nachrichtenupdate <sup>1, </sup> <sup>2</sup> gesendet    |MessageUpdatedNotification |Eine Änderungsbenachrichtigung wurde gesendet, um eine abonnierte Listeneranwendung über eine aktualisierte Nachricht zu benachrichtigen.|
-|Einladung für freigegebenen Kanal <sup>gesendet3</sup> | InviteSent |Ein Kanalbesitzer oder -mitglied sendet eine Einladung an einen freigegebenen Kanal. Einladungen zu freigegebenen Kanälen können an Personen außerhalb Ihrer Organisation gesendet werden, wenn die Kanalrichtlinie so konfiguriert ist, dass der Kanal für externe Benutzer freigegeben wird.  |
-|Abonnierte <sup>Nachrichtenänderungsbenachrichtigungen 1, </sup> <sup>2</sup> |SubscribedToMessages   |Ein Abonnement wurde von einer Listeneranwendung erstellt, um Änderungsbenachrichtigungen für Nachrichten zu erhalten.|
-|App deinstalliert |AppUninstalled           |Eine App wurde deinstalliert.     |
-|App aktualisiert |AppUpdatedInCatalog           |Eine App wurde im Katalog aktualisiert.     |
-|Chat <sup>1, </sup> <sup>2 aktualisiert</sup> |ChatUpdated    |Ein Teams Chat wurde aktualisiert.|
-|Nachricht <sup>1, </sup> <sup>2 aktualisiert</sup>  |MessageUpdated |Eine Nachricht eines Chats oder Kanals wurde aktualisiert.|
-|Connector aktualisiert    |ConnectorUpdated         |Ein Benutzer hat in einem Kanal einen Connector geändert.         |
-|Registerkarte aktualisiert   |TabUpdated         |Ein Benutzer hat in einem Kanal eine Registerkarte geändert.         |
-|App-Upgrade |AppUpgraded           |Für eine App wurde ein Upgrade auf die neueste Version im Katalog durchgeführt.     |
-|Benutzer bei Teams angemeldet     |TeamsSessionStarted         |Ein Benutzer meldet sich bei einem Microsoft Teams-Client an. Dieses Ereignis erfasst keine Tokenaktualisierungsaktivitäten.         |
-||||
+|Eine neue Nachricht <sup>gepostet 1, </sup> <sup>2</sup>|MessageSent|Eine neue Nachricht wurde in einem Chat oder Kanal gepostet.|
+|App veröffentlicht|AppPublishedToCatalog|Dem Katalog wurde eine App hinzugefügt.|
+|Lesen einer Nachricht <sup>1, </sup> <sup>2</sup>|MessageRead|Eine Nachricht eines Chats oder Kanals wurde abgerufen.|
+|Lesen des gehosteten Inhalts einer Nachricht <sup>1, </sup> <sup>2</sup>|MessageHostedContentRead|Gehosteter Inhalt in einer Nachricht, z. B. ein Bild oder ein Codeausschnitt, wurde abgerufen.|
+|Bot aus Team entfernt|BotRemovedFromTeam|Ein Benutzer entfernt einen Bot aus einem Team.|
+|Connector entfernt|ConnectorRemoved|Ein Benutzer entfernt einen Connector aus einem Kanal.|
+|Mitglieder entfernt|MemberRemoved|Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal- oder Gruppenchat.|
+|Freigabe von Teamkanal<sup>3</sup> entfernt|TerminatedSharing|Ein Team- oder Kanalbesitzer hat die Freigabe für einen freigegebenen Kanal deaktiviert.|
+|Freigabe von Teamkanal<sup>3</sup> wiederhergestellt|SharingRestored|Ein Team- oder Kanalbesitzer aktivierte die Freigabe für einen freigegebenen Kanal erneut.|
+|Registerkarte entfernt|TabRemoved|Ein Benutzer entfernt eine Registerkarte aus einem Kanal.|
+|Auf Einladung für freigegebenen Kanal<sup>geantwortet 3</sup>|InviteeResponded|Ein Benutzer hat auf eine Einladung für einen freigegebenen Kanal geantwortet.|
+|Auf eingeladene Antwort auf freigegebenen Kanal<sup>geantwortet 3</sup>|ChannelOwnerResponded|Ein Kanalbesitzer hat auf eine Antwort eines Benutzers geantwortet, der auf eine Einladung zu einem freigegebenen Kanal geantwortet hat.|
+|Abgerufene Nachrichten <sup>1, </sup> <sup>2</sup>|MessagesListed|Nachrichten aus einem Chat oder Kanal wurden abgerufen.|
+|Eine Nachricht mit einem URL-Link in Teams|MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
+|Änderungsbenachrichtigung für die Nachrichtenerstellung <sup>gesendet 1, </sup> <sup>2</sup>|MessageCreatedNotification|Eine Änderungsbenachrichtigung wurde gesendet, um eine abonnierte Listeneranwendung über eine neue Nachricht zu benachrichtigen.|
+|Änderungsbenachrichtigung zum Löschen von Nachrichten <sup>gesendet 1, </sup> <sup>2</sup>|MessageDeletedNotification|Eine Änderungsbenachrichtigung wurde gesendet, um eine abonnierte Listeneranwendung über eine gelöschte Nachricht zu benachrichtigen.|
+|Änderungsbenachrichtigung für Nachrichtenupdate <sup>1, </sup> <sup>2</sup> gesendet|MessageUpdatedNotification|Eine Änderungsbenachrichtigung wurde gesendet, um eine abonnierte Listeneranwendung über eine aktualisierte Nachricht zu benachrichtigen.|
+|Einladung für freigegebenen Kanal<sup>gesendet 3</sup>|InviteSent|Ein Kanalbesitzer oder -mitglied sendet eine Einladung an einen freigegebenen Kanal. Einladungen zu freigegebenen Kanälen können an Personen außerhalb Ihrer Organisation gesendet werden, wenn die Kanalrichtlinie so konfiguriert ist, dass der Kanal für externe Benutzer freigegeben wird.|
+|Abonnierte <sup>Nachrichtenänderungsbenachrichtigungen 1, </sup> <sup>2</sup>|SubscribedToMessages|Ein Abonnement wurde von einer Listeneranwendung erstellt, um Änderungsbenachrichtigungen für Nachrichten zu erhalten.|
+|App deinstalliert|AppUninstalled|Eine App wurde deinstalliert.|
+|App aktualisiert|AppUpdatedInCatalog|Eine App wurde im Katalog aktualisiert.|
+|Chat <sup>1, </sup> <sup>2 aktualisiert</sup>|ChatUpdated|Ein Teams Chat wurde aktualisiert.|
+|Nachricht <sup>1, </sup> <sup>2 aktualisiert</sup>|MessageUpdated|Eine Nachricht eines Chats oder Kanals wurde aktualisiert.|
+|Connector aktualisiert|ConnectorUpdated|Ein Benutzer hat in einem Kanal einen Connector geändert.|
+|Registerkarte aktualisiert|TabUpdated|Ein Benutzer hat in einem Kanal eine Registerkarte geändert.|
+|App-Upgrade|AppUpgraded|Für eine App wurde ein Upgrade auf die neueste Version im Katalog durchgeführt.|
+|Benutzer bei Teams angemeldet|TeamsSessionStarted|Ein Benutzer meldet sich bei einem Microsoft Teams-Client an. Dieses Ereignis erfasst keine Tokenaktualisierungsaktivitäten.|
 
 > [!NOTE]
-> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams-Client ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><sup>2</sup> Dieses Ereignis ist nur in der Überwachung (Premium) verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der Überwachung (Premium) verfügbar sind, finden Sie unter [Überwachung (Premium) in Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Informationen zu Den Lizenzierungsanforderungen für Die Überwachung (Premium) finden Sie [unter "Überwachungslösungen" in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> Dieses Ereignis befindet sich in der öffentlichen Vorschau.
+> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams-Client ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><sup>2</sup> Dieses Ereignis ist nur in der Überwachung (Premium) verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der Überwachung (Premium) verfügbar sind, finden Sie [unter Audit (Premium) in Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Informationen zu Den Lizenzierungsanforderungen für Die Überwachung (Premium) finden Sie [unter "Überwachungslösungen" in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> Dieses Ereignis befindet sich in der öffentlichen Vorschau.
 
 ## <a name="shifts-in-teams-activities"></a>"Schichten"-Aktivitäten in Microsoft Teams
 
@@ -149,35 +148,35 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 
 Wenn Ihre Organisation die App "Schichten" in Microsoft Teams verwendet, können Sie das Überwachungsprotokoll nach Aktivitäten im Zusammenhang mit der "Schichten"-App durchsuchen. Nachstehend finden Sie eine Liste aller Ereignisse, die im Zusammenhang mit "Schichten"-Aktivitäten in Microsoft Teams im Microsoft 365-Überwachungsprotokoll erfasst werden.
 
-|Anzeigename  |Vorgang  |Beschreibung  |
-|---------|---------|---------|
-|Terminplanungsgruppe hinzugefügt |ScheduleGroupAdded          |Ein Benutzer fügt dem Terminplan eine neue Terminplanungsgruppe hinzu.|
-|Terminplanungsgruppe bearbeitet     |ScheduleGroupEdited         |Ein Benutzer hat eine Terminplanungsgruppe bearbeitet.          |
-|Terminplanungsgruppe gelöscht         |ScheduleGroupDeleted              |Ein Benutzer hat eine Terminplanungsgruppe aus dem Terminplan gelöscht.|
-|Zeitplan zurückgezogen |ScheduleWithdrawn              |Ein Benutzer hat einen veröffentlichten Zeitplan zurückgezogen.|
-|Schicht hinzugefügt      |ShiftAdded          |Ein Benutzer hat eine Schicht hinzugefügt.           |
-|Schicht bearbeitet       |ShiftEdited       |Ein Benutzer hat eine Schicht bearbeitet.        |
-|Schicht gelöscht          |ShiftDeleted          | Ein Benutzer hat eine Schicht gelöscht.               |
-|Arbeitsfreie Zeit hinzugefügt      |TimeOffAdded          |Ein Benutzer hat im Terminplan arbeitsfreie Zeit hinzugefügt.          |
-|Arbeitsfreie Zeit bearbeitet         |TimeOffEdited           |Ein Benutzer hat arbeitsfreie Zeit bearbeitet.          |
-|Arbeitsfreie Zeit gelöscht     |TimeOffDeleted              |Ein Benutzer hat arbeitsfreie Zeit gelöscht.           |
-|Offene Schicht hinzugefügt     |OpenShiftAdded          |Ein Benutzer hat einer Terminplanungsgruppe eine offene Schicht hinzugefügt.          |
-|Offene Schicht bearbeitet    |OpenShiftEdited          |Ein Benutzer hat eine offene Schicht in einer Terminplanungsgruppe bearbeitet.          |
-|Offene Schicht gelöscht      |OpenShiftDeleted          |Ein Benutzer hat eine offene Schicht aus einer Terminplanungsgruppe gelöscht.         |
-|Zeitplan freigegeben     |ScheduleShared                  |Ein Benutzer hat einen Teamzeitplan für einen Datumsbereich freigegeben.          |
-|Mit Stechuhr eingestempelt         |ClockedIn          |Ein Benutzer stempelt über die Stechuhr ein.          |
-|Mit Stechuhr ausgestempelt      |ClockedOut          |Ein Benutzer stempelt über die Stechuhr aus.          |
-|Mit Stechuhr Pause begonnen      |BreakStarted          |Ein Benutzer beginnt während einer aktiven Stechuhrsitzung eine Pause.          |
-|Mit Stechuhr Pause beendet    |BreakEnded          |Ein Benutzer beendet eine Pause während einer aktiven Zeituhrsitzung.          |
-|Stechuhreintrag hinzugefügt     |TimeClockEntryAdded          |Ein Benutzer fügt in der Arbeitszeittabelle manuell einen neuen Stechuhreintrag hinzu.          |
-|Stechuhreintrag bearbeitet     | TimeClockEntryEdited             |Ein Benutzer hat einen Stechuhreintrag in der Arbeitszeittabelle bearbeitet.          |
-|Stechuhreintrag gelöscht    |TimeClockEntryDeleted              |Ein Benutzer hat einen Stechuhreintrag in der Arbeitszeittabelle gelöscht.          |
-|Schichtanfrage hinzugefügt         |RequestAdded              |Ein Benutzer hat eine Schichtanfrage hinzugefügt.          |
-|Auf Schichtanfrage geantwortet     |RequestRespondedTo                  |Ein Benutzer hat auf eine Schichtanfrage geantwortet.          |
-|Schichtanfrage storniert         |RequestCancelled               |Ein Benutzer hat eine Schichtanfrage storniert.          |
-|Zeitplaneinstellung geändert      |ScheduleSettingChanged          |Ein Benutzer hat eine Einstellung in den "Schichten"-Einstellungen geändert.         |
-|Mitarbeiterintegration hinzugefügt      |WorkforceIntegrationAdded                  | Die "Schichten"-App wird in ein Drittanbietersystem eingebunden.         |
-|"Außerhalb der Schicht"-Nachricht angenommen         |OffShiftDialogAccepted          |Ein Benutzer nimmt die "Außerhalb der Schicht"-Nachricht an, um außerhalb von Schichtzeiten auf Microsoft Teams zuzugreifen.           |
+|Anzeigename|Vorgang|Beschreibung|
+|---|---|---|
+|Terminplanungsgruppe hinzugefügt|ScheduleGroupAdded|Ein Benutzer fügt dem Terminplan eine neue Terminplanungsgruppe hinzu.|
+|Terminplanungsgruppe bearbeitet|ScheduleGroupEdited|Ein Benutzer hat eine Terminplanungsgruppe bearbeitet.|
+|Terminplanungsgruppe gelöscht|ScheduleGroupDeleted|Ein Benutzer hat eine Terminplanungsgruppe aus dem Terminplan gelöscht.|
+|Zeitplan zurückgezogen|ScheduleWithdrawn|Ein Benutzer hat einen veröffentlichten Zeitplan zurückgezogen.|
+|Schicht hinzugefügt|ShiftAdded|Ein Benutzer hat eine Schicht hinzugefügt.|
+|Schicht bearbeitet|ShiftEdited|Ein Benutzer hat eine Schicht bearbeitet.|
+|Schicht gelöscht|ShiftDeleted|Ein Benutzer hat eine Schicht gelöscht.|
+|Arbeitsfreie Zeit hinzugefügt|TimeOffAdded|Ein Benutzer hat im Terminplan arbeitsfreie Zeit hinzugefügt.|
+|Arbeitsfreie Zeit bearbeitet|TimeOffEdited|Ein Benutzer hat arbeitsfreie Zeit bearbeitet.|
+|Arbeitsfreie Zeit gelöscht|TimeOffDeleted|Ein Benutzer hat arbeitsfreie Zeit gelöscht.|
+|Offene Schicht hinzugefügt|OpenShiftAdded|Ein Benutzer hat einer Terminplanungsgruppe eine offene Schicht hinzugefügt.|
+|Offene Schicht bearbeitet|OpenShiftEdited|Ein Benutzer hat eine offene Schicht in einer Terminplanungsgruppe bearbeitet.|
+|Offene Schicht gelöscht|OpenShiftDeleted|Ein Benutzer hat eine offene Schicht aus einer Terminplanungsgruppe gelöscht.|
+|Zeitplan freigegeben|ScheduleShared|Ein Benutzer hat einen Teamzeitplan für einen Datumsbereich freigegeben.|
+|Mit Stechuhr eingestempelt|ClockedIn|Ein Benutzer stempelt über die Stechuhr ein.|
+|Mit Stechuhr ausgestempelt|ClockedOut|Ein Benutzer stempelt über die Stechuhr aus.|
+|Mit Stechuhr Pause begonnen|BreakStarted|Ein Benutzer beginnt während einer aktiven Stechuhrsitzung eine Pause.|
+|Mit Stechuhr Pause beendet|BreakEnded|Ein Benutzer beendet eine Pause während einer aktiven Zeituhrsitzung.|
+|Stechuhreintrag hinzugefügt|TimeClockEntryAdded|Ein Benutzer fügt in der Arbeitszeittabelle manuell einen neuen Stechuhreintrag hinzu.|
+|Stechuhreintrag bearbeitet|TimeClockEntryEdited|Ein Benutzer hat einen Stechuhreintrag in der Arbeitszeittabelle bearbeitet.|
+|Stechuhreintrag gelöscht|TimeClockEntryDeleted|Ein Benutzer hat einen Stechuhreintrag in der Arbeitszeittabelle gelöscht.|
+|Schichtanfrage hinzugefügt|RequestAdded|Ein Benutzer hat eine Schichtanfrage hinzugefügt.|
+|Auf Schichtanfrage geantwortet|RequestRespondedTo|Ein Benutzer hat auf eine Schichtanfrage geantwortet.|
+|Schichtanfrage storniert|RequestCancelled|Ein Benutzer hat eine Schichtanfrage storniert.|
+|Zeitplaneinstellung geändert|ScheduleSettingChanged|Ein Benutzer hat eine Einstellung in den "Schichten"-Einstellungen geändert.|
+|Mitarbeiterintegration hinzugefügt|WorkforceIntegrationAdded|Die "Schichten"-App wird in ein Drittanbietersystem eingebunden.|
+|"Außerhalb der Schicht"-Nachricht angenommen|OffShiftDialogAccepted|Ein Benutzer nimmt die "Außerhalb der Schicht"-Nachricht an, um außerhalb von Schichtzeiten auf Microsoft Teams zuzugreifen.|
 
 ## <a name="office-365-management-activity-api"></a>Office 365-Verwaltungsaktivitäten-API
 

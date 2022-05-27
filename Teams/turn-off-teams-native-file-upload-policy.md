@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren der Teams Systemeigene Hochladen"-Richtlinie
+title: Deaktivieren Teams Richtlinie für die Hochladen nativen Datei
 author: danieasmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Erfahren Sie, wie Sie die Datenschutzrichtlinie mithilfe von PowerShell Teams, festlegen, zuweisen und anpassen.
+description: Erfahren Sie, wie Sie die Teams Dateirichtlinie mithilfe von PowerShell erstellen, festlegen, zuweisen und anpassen.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,51 +15,51 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bd9d23527ef1a63df4f258e89de5e60862a878
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 2b6089e93b4754fa35edaa9befb5cfa6bb176238
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192494"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681906"
 ---
-# <a name="turn-off-teams-native-file-upload-policy"></a>Deaktivieren der Teams Systemeigene Hochladen"-Richtlinie
+# <a name="turn-off-teams-native-file-upload-policy"></a>Deaktivieren Teams Richtlinie für die Hochladen nativen Datei
 
-Microsoft Teams verwendet OneDrive und SharePoint (ODSP) zum Speichern und Freigeben von Inhalten, aber einige Organisationen und Benutzer bevorzugen möglicherweise Speicheranbieter von Drittanbietern.  
+Microsoft Teams verwendet OneDrive und SharePoint zum Speichern und Freigeben von Inhalten, aber einige Organisationen und Benutzer bevorzugen möglicherweise Speicheranbieter von Drittanbietern.  
 
-Wenn Sich Ihre Organisation für einen Drittanbieter für die Speicherung von Inhalten entscheidet, müssen Sie den Parameter in der Richtlinie Teams ``NativeFileEntryPoints`` deaktivieren. Dieser Parameter ist standardmäßig aktiviert, wodurch die Option zum Hochladen von Inhalten aus ODSP in Teams oder Kanälen angezeigt wird.
+Wenn Ihre Organisation einen Drittanbieter für die Inhaltsspeicherung wählt, müssen Sie den `NativeFileEntryPoints` Parameter in der Richtlinie Teams Dateien deaktivieren. Dieser Parameter ist standardmäßig aktiviert, wodurch die Option zum Hochladen von Inhalten aus OneDrive oder SharePoint in Teams Chats oder Kanäle angezeigt wird.
 
-Dieser Artikel hilft Ihnen beim Erstellen, Festlegen, Zuweisen und Entfernen des ``NativeFileEntryPoints`` Parameters mithilfe von PowerShell.
+Dieser Artikel hilft Ihnen beim Erstellen, Festlegen, Zuweisen und Entfernen des `NativeFileEntryPoints` Parameters mithilfe von PowerShell.
 
 >[!NOTE]
->Wenn die richtlinie "Teams-Dateien" deaktiviert ist, können Benutzer in Teams keine Zugriffspunkte für OneDrive und SharePoint (ODSP) sehen, aber die Erstellung neuer Teams und Kanäle löst weiterhin die Generation übereinstimmender SharePoint-Bibliotheken aus.
+>Wenn die Richtlinie Teams Dateien deaktiviert ist, werden Benutzern in Teams keine Zugriffspunkte für OneDrive und SharePoint angezeigt, aber die Erstellung neuer Teams und Kanäle löst weiterhin die Generierung übereinstimmenden SharePoint Bibliotheken aus.
 
-## <a name="prepare-to-update-the-teams-files-policy"></a>Vorbereiten der Updaterichtlinie für Teams Dateien
+## <a name="prepare-to-update-the-teams-files-policy"></a>Vorbereiten der Teams Dateirichtlinie
 
 ### <a name="set-up-microsoft-powershell"></a>Einrichten von Microsoft PowerShell
 
-Derzeit kann diese Richtlinie im Admin Center Teams geändert werden. Der Mandantenadministrator Microsoft 365 Ihrer Organisation muss die Änderungen mithilfe der PowerShell-Cmdlets vornehmen, die weiter später in diesem Artikel erläutert werden.
+Derzeit kann diese Richtlinie im Teams Admin Center nicht geändert werden. Der Microsoft 365 Mandantenadministrator Ihrer Organisation muss die Änderungen mithilfe der PowerShell-Cmdlets vornehmen, die weiter unten in diesem Artikel beschrieben werden.
 
-Informationen zum Installieren des PowerShell Teams Moduls mithilfe des PowerShell-Katalogs finden Sie unter [Installieren Microsoft Teams PowerShell-Moduls.](teams-powershell-install.md)
+Erfahren Sie, wie Sie das PowerShell-Teams-Modul mithilfe von PowerShell-Katalog installieren, indem [Sie "Microsoft Teams PowerShell-Modul installieren" lesen](teams-powershell-install.md).
 
-Informationen zum Installieren oder Herunterladen des Teams PowerShell-Moduls finden Sie im [PowerShell-Katalog für Microsoft Teams.](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0)
+Informationen zum Installieren oder Herunterladen des Teams PowerShell-Moduls finden Sie [unter PowerShell-Katalog für Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
 
-Weitere Informationen zum Einrichten von PowerShell für die Teams finden Sie unter Verwalten von Teams [mit Microsoft Teams PowerShell.](teams-powershell-managing-teams.md)
+Weitere Informationen zum Einrichten von PowerShell für Teams-Verwaltung finden [Sie unter Verwalten von Teams mit Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
 
-### <a name="allow-third-party-apps-in-teams-admin-center"></a>Drittanbieter-Apps im Teams Admin Center zulassen
+### <a name="allow-third-party-apps-in-teams-admin-center"></a>Zulassen von Drittanbieter-Apps im Teams Admin Center
 
-Dieser Schritt ist nicht erforderlich, um die Teams-Dateirichtlinie zu ändern, aber er ist erforderlich, wenn Sie bereit sind, Ihren Drittanbieterspeicheranbieter in die Benutzererfahrung Teams integrieren.
+Dieser Schritt ist nicht erforderlich, um die Teams Dateirichtlinie zu ändern, aber er ist erforderlich, wenn Sie bereit sind, Ihren Drittanbieter-Speicheranbieter in die Teams Erfahrung Ihrer Benutzer zu integrieren.
 
-Ihr Microsoft 365 muss die Richtlinie "Drittanbieter-Apps zulassen" im Teams Admin Center aktivieren.
+Ihr Microsoft 365 Mandantenadministrator muss die Richtlinie "Apps von Drittanbietern zulassen" im Teams Admin Center aktivieren.
 
-Informationen zum Zulassen von Drittanbieter- oder benutzerdefinierten Apps finden Sie unter Verwalten von organisationsweiten Apps-Einstellungen unter Verwalten Ihrer Apps [im Microsoft Teams Admin Center.](/microsoftteams/manage-apps#manage-org-wide-app-settings)
+Informationen zum Zulassen von Drittanbieter- oder benutzerdefinierten Apps finden Sie unter Verwalten organisationsweiter Apps-Einstellungen unter ["Verwalten Ihrer Apps" im Microsoft Teams Admin Center](/microsoftteams/manage-apps#manage-org-wide-app-settings).
 
 ## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>Deaktivieren von NativeFileEntryPoints für den gesamten Mandanten
 
-Wenn Sie ``-Identity`` den Parameter auf ``Global`` festlegen, werden die Richtlinieneinstellungen auf alle Benutzer in Ihrer Organisation angewendet.
+Durch Festlegen des `-Identity` Parameters werden `Global` die Richtlinieneinstellungen auf alle Benutzer in Ihrer Organisation angewendet.
 
-### <a name="sample-powershell-policy-cmdlet-for-entire-tenant"></a>Beispiel für ein PowerShell-Richtlinien-Cmdlet für den gesamten Mandanten
+### <a name="sample-powershell-policy-cmdlet-for-entire-tenant"></a>Beispiel-PowerShell-Richtlinien-Cmdlet für den gesamten Mandanten
 
-Mit diesem PowerShell-Beispielbefehl wird der ``NativeFileEntryPoints`` -Parameter für ``Disabled`` den gesamten Mandanten auf festgelegt.
+Mit diesem PowerShell-Beispielbefehl wird der`NativeFileEntryPoints` Parameter `Disabled` für den gesamten Mandanten festgelegt.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
@@ -67,15 +67,15 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="check-the-status-of-your-tenant"></a>Überprüfen des Status Ihres Mandanten  
 
-Verwenden Sie das Cmdlet, um den aktuellen Status der Richtlinie Teams Dateien Ihres Mandanten ``Get-CsTeamsFilesPolicy`` anzeigen.
+Verwenden Sie `Get-CsTeamsFilesPolicy` das Cmdlet, um den aktuellen Status der Richtlinie für Teams Dateien Ihres Mandanten anzuzeigen.
 
 ```powershell
 Get-CsTeamsFilesPolicy -Identity Global
 ```
 
-### <a name="turn-on-or-turn-off-native-file-upload-point"></a>Aktivieren oder Deaktivieren des systemeigenen Dateiuploadpunkts
+### <a name="turn-on-or-turn-off-native-file-upload-point"></a>Aktivieren oder Deaktivieren des nativen Dateiuploadpunkts
 
-Um den systemeigenen Dateiuploadpunkt für Ihren gesamten Mandanten zu aktivieren oder zu deaktivieren, legen Sie den -Parameter ``NativeFileEntryPoints`` auf oder ``Enabled`` ``Disabled`` vor.
+Um den systemeigenen Dateiuploadpunkt für Den gesamten Mandanten zu aktivieren oder zu deaktivieren, legen Sie den `NativeFileEntryPoints` Parameter entweder oder `Enabled` `Disabled`fest.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Enabled
@@ -87,7 +87,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="remove-the-policy-for-your-users"></a>Entfernen der Richtlinie für Ihre Benutzer
 
-Zum Entfernen der Teams"-Richtlinie für Ihre Benutzer verwenden Sie das ``Remove-CsTeamsFilesPolicy`` Cmdlet.
+Verwenden Sie das Cmdlet, `Remove-CsTeamsFilesPolicy` um die Richtlinie Teams Dateien für Ihre Benutzer zu entfernen.
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity Global
@@ -95,40 +95,40 @@ Remove-CsTeamsFilesPolicy -Identity Global
 
 ## <a name="turn-off-nativefileentrypoints-for-specific-users"></a>Deaktivieren von NativeFileEntryPoints für bestimmte Benutzer
 
-Sie können auch die Richtlinie Teams Dateien für bestimmte Benutzer aktualisieren, indem Sie eine neue Teams-Richtlinienzeichenfolge erstellen und die neu erstellte Richtlinie ``-Identity`` Benutzern zuweisen.
+Sie können auch die Richtlinie Teams Dateien für bestimmte Benutzer aktualisieren, indem Sie eine neue Teams Dateirichtlinienzeichenfolge `-Identity` erstellen und benutzern die neu erstellte Richtlinie zuweisen.
 
-### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>Beispiel für ein PowerShell-Richtlinien-Cmdlet für bestimmte Benutzer
+### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>Beispiel-PowerShell-Richtlinien-Cmdlet für bestimmte Benutzer
 
-Dieser PowerShell-Beispielbefehl erstellt einen neuen mit dem Namen ``CsTeamsFilesPolicy`` als und dem auf ``-Identity`` ``UserPolicy`` ``NativeFileEntryPoints`` festgelegten ``Disabled`` Parameter.
+Mit diesem PowerShell-Beispielbefehl wird ein neues `CsTeamsFilesPolicy` Element mit dem `-Identity` Namen "as `UserPolicy` " und dem `NativeFileEntryPoints` auf `Disabled`" festgelegten Parameter " erstellt.
 
-Wenn einem Benutzer mit zugewiesen ``CsTeamsFilesPolicy`` ``-Identity UserPolicy`` wird, werden die systemeigenen Dateieinstiegspunkte deaktiviert.
+Wenn einem Benutzer die "with`-Identity UserPolicy`" zugewiesen wird, werden die `CsTeamsFilesPolicy` systemeigenen Dateieinstiegspunkte deaktiviert.
 
 ```powershell
-New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
+New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
 ```
 
-### <a name="assign-a-policy-to-user"></a>Zuweisen einer Richtlinie zu einem Benutzer
+### <a name="assign-a-policy-to-user"></a>Zuweisen einer Richtlinie zum Benutzer
 
-Nachdem Sie die neue Richtlinie erstellt haben, können Sie diese Richtlinie mithilfe des ``Grant-CsTeamsFilesPolicy`` Cmdlets Benutzern zuweisen.
+Nachdem Sie die neue Richtlinie erstellt haben, können Sie diese Richtlinie Benutzern mithilfe des `Grant-CsTeamsFilesPolicy` Cmdlets zuweisen.
 
 ```powershell
-Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
+Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 ```
 
 ### <a name="update-the-policy"></a>Aktualisieren der Richtlinie
 
-Wenn Sie die Einstellung der neuen Dateirichtlinie Teams ``UserPolicy`` müssen, verwenden Sie das ``Set-CsTeamsFilePolicy`` Cmdlet.
+Wenn Sie die Einstellung der neuen Teams Dateirichtlinie `UserPolicy`ändern müssen, verwenden Sie das `Set-CsTeamsFilePolicy` Cmdlet.
 
 ```powershell
-Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
+Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
 ```
 
 ### <a name="remove-the-policy-for-the-complete-list-of-users"></a>Entfernen der Richtlinie für die vollständige Liste der Benutzer
 
-Wenn Sie die Richtlinie von allen Benutzern entfernen möchten, die der Richtlinie Teams Dateien zugewiesen ``UserPolicy`` sind, verwenden Sie das ``Remove-CsTeamsFilesPolicy`` Cmdlet.
+Verwenden Sie `Remove-CsTeamsFilesPolicy` das Cmdlet, um die Richtlinie von allen Benutzern zu entfernen, die der Richtlinie `UserPolicy`Teams Dateien zugewiesen sind.
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity UserPolicy
 ```
 >[!NOTE]
-> Nachdem Sie Änderungen an der Richtlinie vorgenommen haben, kann es bis zu 12 Stunden dauern, bis die Änderungen in den Benutzerclients Teams werden.
+> Nachdem Sie Änderungen an der Richtlinie vorgenommen haben, lassen Sie bis zu 12 Stunden zu, bis die Änderungen in den Teams Clients der Benutzer angezeigt werden.

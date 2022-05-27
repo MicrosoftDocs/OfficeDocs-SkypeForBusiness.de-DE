@@ -19,12 +19,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "61545006"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674657"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -208,14 +208,14 @@ Apps werden an die App-Leiste angeheftet. Hierbei handelt es sich um die Leiste 
 |---------|---------|---------|
 |![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die App-Leiste angeheftet sind.](media/flw-teams-desktop-client.png)         |         |![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die untere Leiste angeheftet sind.](media/flw-teams-mobile-client.png) |
 
-*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale organisationsweite Standardrichtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter in Service und Produktion und deren Vorgesetzte, um ihnen eine einfachere und effizientere Benutzeroberfläche zur Verfügung zu stellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche den Anforderungen Ihres Unternehmens entsprechend anpassen.
+*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale Standardrichtlinie (Org-wide default) verwenden oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter in Service und Produktion und deren Vorgesetzte, um ihnen eine einfachere und effizientere Benutzeroberfläche zur Verfügung zu stellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche den Anforderungen Ihres Unternehmens entsprechend anpassen.
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion
 
 Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderungen Ihres Unternehmens entsprechen. Wir haben einige empfohlene Optionen auf der Grundlage bewährter Methoden ausgewählt sowie zur Erleichterung des Onboardings einer großen Anzahl neuer Benutzer. Klicken Sie [hier](teams-app-setup-policies.md), um weitere Informationen zu erhalten.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Einrichtungsrichtlinien**.
-2. Klicken Sie auf  **Hinzufügen**.  
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Einrichtungsrichtlinien**.
+2. Klicken Sie auf **Hinzufügen**.  
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: die App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion.
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Screenshot des Beispielnamens und der Beschreibung für die App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion.":::
 
@@ -227,7 +227,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms &quot;Angeheftete Apps hinzufügen&quot; mit der Schaltfläche &quot;Hinzufügen&quot; für die App &quot;Schichten&quot;":::
 
 7. Anrufe entfernen, wenn sie angezeigt werden. Wenn Sie dieses Feature entfernen, wird es nicht für den Benutzer deaktiviert, sondern verhindert, dass es auf der App-Leiste angezeigt wird, um die Endbenutzererfahrung zu vereinfachen.
-8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf  **Speichern**.
+8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf **Speichern**.
 
     - Aktivität
     - Chat
@@ -241,8 +241,8 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderungen Ihres Unternehmens entsprechen. Wir haben einige empfohlene Optionen auf der Grundlage bewährter Methoden ausgewählt sowie zur Erleichterung des Onboardings einer großen Anzahl neuer Benutzer. Klicken Sie [hier](teams-app-setup-policies.md), um weitere Informationen zu erhalten.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Einrichtungsrichtlinien**.
-2. Klicken Sie auf  **Hinzufügen**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Einrichtungsrichtlinien**.
+2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Bespiel: die App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion.
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Screenshot des Beispielnamens und der Beschreibung für die App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion.":::
 
@@ -255,7 +255,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms &quot;Angeheftete Apps hinzufügen&quot; mit der Schaltfläche &quot;Hinzufügen&quot; für die App &quot;Schichten&quot;":::
 
 7. Entfernen Sie Besprechungen und Anrufe, falls diese angezeigt werden. Wenn Sie diese Features entfernen, werden sie nicht für den Benutzer deaktiviert, sie werden jedoch nicht auf der App-Leiste angezeigt, um die Endbenutzererfahrung zu vereinfachen.
-8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf  **Speichern**.
+8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf **Speichern**.
     - Aktivität
     - Chat
     - Teams
@@ -267,37 +267,37 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 Als Administrator können Sie App-Berechtigungsrichtlinien verwenden, um zu steuern, welche Apps Microsoft Teams-Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können alle oder nur bestimmte Apps, die von Microsoft, Drittanbietern und Ihrer Organisation veröffentlicht wurden, zulassen oder blockieren. Wenn Sie eine App blockieren, kann sie von Benutzern, die unter die Richtlinie fallen, nicht aus dem App-Shop für Microsoft Teams installiert werden. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
-*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale organisationsweite Standardrichtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter und Vorgesetzte in Service und Produktion, um eine sichere und effizientere Benutzeroberfläche bereitzustellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche natürlich den Anforderungen Ihres Unternehmens entsprechend anpassen.
+*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale Standardrichtlinie (Org-wide default) verwenden oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter und Vorgesetzte in Service und Produktion, um eine sichere und effizientere Benutzeroberfläche bereitzustellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche natürlich den Anforderungen Ihres Unternehmens entsprechend anpassen.
 
 #### <a name="create-the-frontline-manager-app-permission-policy"></a>Erstellen der App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion
 
 Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderungen Ihres Unternehmens entsprechen. Hierbei handelt es sich um einige empfohlene Optionen auf der Grundlage bewährter Methoden, die zur Erleichterung des Onboardings einer großen Anzahl neuer Benutzer beitragen können. Klicken Sie [hier](teams-app-permission-policies.md), um weitere Informationen zu erhalten.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
-2. Klicken Sie auf  **Hinzufügen**.
+1. Wechseln Sie in der linken Navigationsleiste im Microsoft Teams Admin Center zu **Teams-Apps** > **Berechtigungsrichtlinien**.
+2. Klicken Sie auf **Hinzufügen**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite &quot;App-Berechtigungsrichtlinie hinzufügen&quot;.":::
 
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion.
-4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.
-5. Wählen Sie unter  **Drittanbieter-Apps** **Alle Apps zulassen** aus.
+4. Wählen Sie unter **Microsoft-Apps** die Option **Alle Apps zulassen** aus.
+5. Wählen Sie unter **Drittanbieter-Apps** die Option **Alle Apps zulassen aus**.
 6. Wählen Sie unter **benutzerdefinierte Apps** **Alle Apps zulassen** aus.
-7. Klicken Sie auf  **Speichern**.
+7. Klicken Sie auf **Speichern**.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>Erstellen der App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion
 
 Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderungen Ihres Unternehmens entsprechen. Hierbei handelt es sich um einige empfohlene Optionen auf der Grundlage bewährter Methoden, die zur Erleichterung des Onboardings einer großen Anzahl neuer Benutzer beitragen können. Klicken Sie [hier](teams-app-permission-policies.md), um weitere Informationen zu erhalten.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
-2. Klicken Sie auf  **Hinzufügen**.
+1. Wechseln Sie in der linken Navigationsleiste im Microsoft Teams Admin Center zu **Teams-Apps** > **Berechtigungsrichtlinien**.
+2. Klicken Sie auf **Hinzufügen**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite &quot;App-Berechtigungsrichtlinie hinzufügen&quot;.":::
 
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion.
-4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.
-5. Wählen Sie unter  **Drittanbieter-Apps** **Alle Apps blockieren** aus.
+4. Wählen Sie unter **Microsoft-Apps** die Option **Alle Apps zulassen** aus.
+5. Wählen Sie unter **Drittanbieter-Apps** die Option **Alle Apps blockieren** aus.
 6. Wählen Sie unter **benutzerdefinierte Apps** **Alle Apps zulassen** aus.
-7. Klicken Sie auf  **Speichern**.
+7. Klicken Sie auf **Speichern**.
 
 ## <a name="users-and-security-groups"></a>Benutzer und Sicherheitsgruppen
 

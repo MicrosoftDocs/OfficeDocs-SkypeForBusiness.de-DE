@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 0a1a178c279a418c0555f100c48a63c9efe71717
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370898"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681786"
 ---
 # <a name="plan-for-sip-gateway"></a>Planen des SIP-Gateways
 
@@ -47,8 +47,7 @@ Das SIP-Gateway verbindet kompatible SIP-Geräte mit Teams, damit Ihre Benutzer 
 - **Dualton-Multifrequenz:** Sip-Gerätebenutzer können Nummerntasten drücken, um während interaktiver Sprachantwortanrufe Eingaben bereitzustellen.
 - **Teams Besprechungen:** Ein SIP-Gerätebenutzer kann an einer Teams Besprechung teilnehmen, indem er die Zugriffsnummer der Besprechung wählt. Besprechungsteilnehmer können der Besprechung einen SIP-Gerätebenutzer hinzufügen, indem sie die Telefonnummer des Benutzers anrufen oder einfach einen Teilnehmer hinzufügen, indem sie auf "Teilnahme anfordern" klicken, wird auch das SIP-Gerät des Benutzers benachrichtigt. Gastbenutzer aus einer anderen Organisation können einer Teams Besprechung von einem Teilnehmer hinzugefügt werden, der sich an die Nummer eines Gastbenutzers auswählt, um diesen Gast einzuschließen.
 - **Anrufüberweisungen:** SIP-Gerätebenutzer können Anrufe übertragen. DAS SIP-Gateway unterstützt sowohl blinde als auch beratende Übertragungen.
-- **Lokale Anrufweiterleitung:** Ein SIP-Gerätebenutzer kann Weiterleitungsregeln (immer, bei Timeout und beschäftigt) für das Gerät festlegen. Wenn das Gerät mit dem SIP-Gateway verbunden ist, wird der Anruf basierend auf der vom Gerätebenutzer festgelegten Regel an die Zieladresse umgeleitet. Damit die lokale Anrufweiterleitung funktioniert, muss der Administrator das `AllowCallRedirect` Attribut `Set-CsTeamsCallingPolicy` auf `Enabled`festlegen. 
-
+- **Lokale Anrufweiterleitung:** Ein SIP-Gerätebenutzer kann Weiterleitungsregeln (immer, bei Timeout und beschäftigt) für das Gerät festlegen. Wenn das Gerät mit dem SIP-Gateway verbunden ist, wird der Anruf basierend auf der vom Gerätebenutzer festgelegten Regel an die Zieladresse umgeleitet. Damit die lokale Anrufweiterleitung funktioniert, muss der Administrator das `AllowCallRedirect` Attribut `Set-CsTeamsCallingPolicy` auf `Enabled`festlegen.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Anforderungen für die Verwendung des SIP-Gateways
 
@@ -56,7 +55,8 @@ Teams Benutzer müssen über eine Telefonnummer verfügen, bei der PSTN-Anrufe f
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, Software und Lizenzen
 
-Wenn Sie über ein 3PIP- oder SIP-Gerät verfügen, müssen Sie über Folgendes verfügen: 
+Wenn Sie über ein 3PIP- oder SIP-Gerät verfügen, müssen Sie über Folgendes verfügen:
+
 - Eine Lizenz für Telefonsystem (über E5 oder eine eigenständige Lizenz)
 - PSTN-Aktivierung (d. h. eine Telefonnummer) über einen Microsoft Teams Anrufplan, Direct Routing oder Telefonieanbieter
 - Eine Lizenz für den gemeinsamen Bereich Telefon für alle Geräte im einheitlichen Bereich

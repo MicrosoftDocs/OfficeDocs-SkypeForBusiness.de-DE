@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125720"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674227"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Verwalten externer Besprechungen und Chats in Microsoft Teams
 
@@ -117,14 +117,17 @@ Wechseln Sie im Microsoft Teams Admin Center zu **Benutzer** > **Externer Zugrif
 ![Screenshot der Einstellungen für externe Konten](./media/external-access-accounts-not-managed-by-org.png)
 
 So hindern Sie Teams-Benutzer in Ihrer Organisation an der Kommunikation mit externen Teams-Benutzern, deren Konten nicht von einer Organisation verwaltet werden:
+
 1. Deaktivieren Sie die Einstellung **Personen in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden**.
 2. Deaktivieren Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
 
 So erlauben Sie Teams-Benutzern in Ihrer Organisation die Kommunikation mit externen Teams-Benutzern, deren Konten nicht von einer Organisation verwaltet werden, sofern Ihre Teams-Benutzer den Kontakt initiiert haben:
+
 1. Aktivieren Sie die Einstellung **Personen in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden**.
 2. Deaktivieren Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
 
 So erlauben Sie Teams-Benutzern in Ihrer Organisation die Kommunikation mit externen Teams-Benutzern, deren Konten nicht von einer Organisation verwaltet werden, sowie den Empfang von Kommunikationsanforderungen von diesen externen Teams-Benutzern:
+
 1. Aktivieren Sie die Einstellung **Personen in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden**.
 2. Aktivieren Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
 
@@ -134,7 +137,7 @@ Führen Sie die folgenden Schritte aus, damit Teams-Benutzer in Ihrer Organisati
 
 ![Screenshot der Einstellung für Skype-Benutzer](./media/external-access-skype-settings.png)
 
-**Verwenden des Microsoft Teams Admin Centers**
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 1. Navigieren Sie im linken Navigationsbereich zu **Benutzer** > **Externer Zugriff**.
 
@@ -142,7 +145,7 @@ Führen Sie die folgenden Schritte aus, damit Teams-Benutzer in Ihrer Organisati
 
 Weitere Informationen über die Möglichkeiten der Kommunikation zwischen Teams- und Skype-Benutzern, einschließlich der Einschränkungen, finden Sie unter [Interoperabilität von Teams und Skype](teams-skype-interop.md).
 
-## <a name="using-powershell"></a>Verwendung von PowerShell
+### <a name="using-powershell"></a>Verwendung von PowerShell
 
 Einstellungen auf Organisationsebene können mit [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) konfiguriert werden, und Einstellungen auf Benutzerebene können mit [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) konfiguriert werden.
 

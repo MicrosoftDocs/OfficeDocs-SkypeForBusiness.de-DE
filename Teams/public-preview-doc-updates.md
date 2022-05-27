@@ -18,25 +18,25 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 49ea7fe244b46840e80bfa4093706d314c708dcb
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125780"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675067"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
 > [!NOTE] 
-> Die in der Vorschau enthaltenen Features sind möglicherweise nicht vollständig und könnten geändert werden, bevor sie im öffentlichen Release verfügbar gemacht werden. Sie werden nur zu Evaluierungs- und Untersuchungszwecken bereitgestellt. Die Vorschau-Features werden in Office 365 Government Community Cloud (GCC) nicht unterstützt.
+> Die in der Vorschau enthaltenen Features sind möglicherweise nicht vollständig und könnten geändert werden, bevor sie im öffentlichen Release verfügbar gemacht werden. Sie werden nur zu Evaluierungs- und Untersuchungszwecken bereitgestellt. Die Vorschaufeatures werden in Office 365 Government Community Cloud (GCC) nicht unterstützt.
 
-Public Preview für Microsoft Teams bietet frühzeitigen Zugriff auf unveröffentlichte Features in Microsoft Teams. Über die Preview können Sie bevorstehende Features erkunden und testen. Wir freuen uns über Ihr Feedback zu jedem Feature in öffentlichen Vorschauen. Public Preview wird auf Ebene des einzelnen Microsoft Teams-Benutzers aktiviert, daher müssen Sie sich keine Gedanken über etwaige Auswirkungen auf die gesamte Organisation machen.
+Public Preview für Microsoft Teams bietet frühzeitigen Zugriff auf unveröffentlichte Features in Teams. Mit der Vorschau können Sie bevorstehende Features untersuchen und testen. Wir freuen uns über Ihr Feedback zu jedem Feature in öffentlichen Vorschauen. Public Preview wird pro Teams-Benutzer aktiviert, daher müssen Sie sich keine Gedanken über die Auswirkungen auf die gesamte Organisation machen.
 
 Eine Liste der verfügbaren Funktionen in der öffentlichen Vorschau von Microsoft Teams finden Sie unter [Technische Hinweise zu Microsoft Teams Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [Versionshinweise zu Microsoft Teams-Administratorfunktionen](/OfficeUpdates/teams-admin) und [Neuerungen in Microsoft Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
 
 ## <a name="set-the-update-policy"></a>Festlegen der Updaterichtlinie
 
-Die öffentliche Vorschau wird auf Ebene des einzelnen Benutzers aktiviert, und die Option zum Aktivieren der öffentlichen Vorschau wird über eine Administratorrichtlinie gesteuert. Updaterichtlinien werden zur Verwaltung der Microsoft Teams- und Office-Vorschau-Benutzer verwendet, die Features von Vorabversionen oder Vorschauen in der Microsoft Teams-App sehen. Sie können die globale Richtlinie (organisationsweite Standardrichtlinie) verwenden und anpassen bzw. eine oder mehrere benutzerdefinierte Richtlinien für Ihre Benutzer erstellen. Die Richtlinie muss bestimmten Benutzern zugewiesen werden, da sie die globale Richtlinie nicht außer Kraft setzt.
+Die öffentliche Vorschau ist pro Benutzer aktiviert, und die Option zum Aktivieren der öffentlichen Vorschau wird in einer Administratorrichtlinie gesteuert. Updaterichtlinien werden zur Verwaltung der Teams- und Office-Vorschaubenutzer verwendet, die Features von Vorabversionen oder Vorschauen in der Teams-App sehen. Sie können die globale Richtlinie (organisationsweite Standardrichtlinie) verwenden und anpassen bzw. eine oder mehrere benutzerdefinierte Richtlinien für Ihre Benutzer erstellen. Die Richtlinie muss bestimmten Benutzern zugewiesen werden, da sie die globale Richtlinie nicht außer Kraft setzt.
 
 1. Melden Sie sich beim [Admin Center für Microsoft Teams](https://admin.teams.microsoft.com/) an.
 

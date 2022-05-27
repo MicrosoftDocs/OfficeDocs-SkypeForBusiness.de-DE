@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Erhalten Sie detaillierte Informationen zu den Abmessungen und Messungen, die vom Anrufqualitätsdashboard (Call Quality Dashboard, CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 01159d64a1c9fdb48321bdb82b6199d6861c4bfa
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: f5614f7f0d14aa0053a613f5f471ae5e5315f1cf
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462049"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675937"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Dimensionen und Messungen
 
@@ -753,7 +753,7 @@ Viele Messwerte können auch als Filter verwendet werden. In der folgenden Tabel
 |P50 Paketverlustrate | Prozent | 50 % der Anforderungen sollten niedriger sein als die angegebene Paketverlustrate.|
 |PSTN-Ausgehende Post dial Delay| Millisekunden | Die Verzögerung, die bei ausgehenden Anrufen auftritt, gemessen ab dem Zeitpunkt, zu dem eine Nummer gewählt wurde, bis der Anrufer oder die angerufene Partei Klingeln hört.|
 |PSTN-Posteinzugsverzögerung | Millisekunden | Die Zeit oder Verzögerung, die bei eingehenden Anrufen auftritt, gemessen ab dem Zeitpunkt, zu dem eine Nummer gewählt wurde, bis der Anrufer oder die angerufene Partei klingelt.|
-|Guter PSTN-NER-Prozentsatz | Prozent | Die NER misst die Fähigkeit eines Netzwerks, Anrufe zu tätigen, indem die Anzahl der gesendeten Anrufe im Vergleich zur Anzahl der Angerufenen gemessen wird.<br/>NER = (Angenommene Anrufe + Benutzer beschäftigt + Ring ohne Antwort + Terminal Reject Seizures)/ Total Attempt Calls x 100.There's an up to 0.2% error for this measure. Weitere Informationen finden Sie weiter unten.|
+|Guter PSTN-NER-Prozentsatz | Prozent | Die NER misst die Fähigkeit eines Netzwerks, Anrufe zu tätigen, indem die Anzahl der gesendeten Anrufe im Vergleich zur Anzahl der Angerufenen gemessen wird.<br/>NER = (Angenommene Anrufe + Benutzer beschäftigt + Klingeln ohne Antwort + Terminal-Anfälle ablehnen) / Gesamtversuchsaufrufe x 100. Bei dieser Maßnahme liegt ein Fehler von bis zu 0,2 % vor. Weitere Informationen finden Sie weiter unten.|
 | Avg Auto Attendant Chain Duration Seconds | Ganze Zahl | Die durchschnittliche Dauer, die Benutzer in der automatischen Telefonzentrale verbringen, gemessen in Sekunden. |
 | Durchschn. Anrufwarteschleifendauer Sekunden | Ganze Zahl | Die durchschnittliche Dauer, die Benutzer warten, bis eine Anrufwarteschleife von einem Agent beantwortet wird, gemessen in Sekunden. |
 

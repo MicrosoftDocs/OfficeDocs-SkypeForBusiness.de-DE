@@ -7,32 +7,39 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: serdars
-description: 'Erfahren Sie, wie Sie Ihre ersten Teams und Kanäle im Microsoft Teams-Client oder im Microsoft Teams Admin Center erstellen.'
+description: Erfahren Sie, wie Sie Ihre ersten Teams und Kanäle im Microsoft Teams-Client oder im Microsoft Teams Admin Center erstellen.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
-  - m365initiative-deployteams
+- M365-collaboration
+- m365initiative-deployteams
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 3fc00dd5c73601af7e646578016d18e16e95bda5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674627"
 ---
-
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
 
-Durch das Einrichten und Verwenden Ihrer ersten Reihe von Teams und Kanälen bauen Sie Ihre Erfahrung mit Teams aus und erkennen die Talente, die bei der Einführung von Teams in Ihrem gesamten Unternehmen helfen können. Wenn Sie Teams noch nicht installiert haben, lesen Sie [Beziehen von Clients für Microsoft Teams](get-clients.md) und [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md).
+Durch das Einrichten und Verwenden Ihrer ersten Reihe von Teams und Kanälen bauen Sie Ihre Erfahrung mit Teams aus und erkennen die Talente, die bei der Einführung von Teams in Ihrem gesamten Unternehmen helfen können.
+Wenn Sie Teams noch nicht installiert haben, lesen Sie [Beziehen von Clients für Microsoft Teams](get-clients.md) und [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md).
 
 ## <a name="suggestions-for-your-first-teams-and-channels"></a>Vorschläge für Ihre ersten Teams und Kanäle
 
- Ein Team ist eine Gruppe von Personen, die sich um ein gemeinsames Ziel scharen. Kanäle stellen die Plätze zur Zusammenarbeit innerhalb eines Teams dar, in denen die eigentliche Arbeit erfolgt. 
+ Ein Team ist eine Gruppe von Personen, die sich um ein gemeinsames Ziel scharen. Kanäle stellen die Plätze zur Zusammenarbeit innerhalb eines Teams dar, in denen die eigentliche Arbeit erfolgt.
 
 Weitere Informationen finden Sie unter [Teams und Kanäle in Microsoft Teams – Übersicht](teams-channels-overview.md) und [Bewährte Methoden für die Organisation von Teams in Microsoft Teams](best-practices-organizing.md).
 
- Wir schlagen vor, Sie beginnen mit einem "Teams kennenlernen"-Team, in dem Ihre Early Adopter herumspielen, Fragen stellen und die Funktionen von Teams entdecken können. Dieses Team kann für Ihren Erfolg entscheidend sein, während Sie beginnen, mit Teams zu experimentieren. 
+ Wir schlagen vor, Sie beginnen mit einem "Teams kennenlernen"-Team, in dem Ihre Early Adopter herumspielen, Fragen stellen und die Funktionen von Teams entdecken können. Dieses Team kann für Ihren Erfolg entscheidend sein, während Sie beginnen, mit Teams zu experimentieren.
 
 ### <a name="get-to-know-teams-team"></a>"Teams kennenlernen"-Team
+
 Ihr Projektteam kann das "Teams kennenlernen"-Team verwenden, um sicherzustellen, dass sie Teams-Clients eingerichtet haben, dann ein paar erste Unterhaltungen führen und herausfinden, was sich in Teams erledigen lässt. Vielleicht haben Sie schon eine Gruppe von Benutzern in Ihrer Organisation, denen es Spaß macht, früh Zugriff auf neue Funktionen zu erhalten. Diese können eins der ersten Teams sein, die Sie an Bord holen, und es wird Ihnen mit frühzeitigem Feedback helfen.
 
 Hier sehen Sie einen Vorschlag für die Struktur des Teams.
@@ -47,36 +54,40 @@ Hier sehen Sie einen Vorschlag für die Struktur des Teams.
 | Support | Wenn etwas nicht wie erwartet funktioniert, verwenden Sie diesen Kanal, um Hilfe anzufordern. ||
 
 ## <a name="get-your-first-teams-up-and-running"></a>Vorbereiten und Starten Ihrer ersten Teams
-Als Administrator können Sie Teams und Kanäle im Teams-Client oder dem Microsoft Teams Admin Center erstellen und verwalten. Sie können Teams als öffentlich oder privat erstellen. Sie können darüber hinaus ein [organisationsweites](create-an-org-wide-team.md) Team erstellen. Jede Person in Ihrer Organisation, die Teams verwendet, kann einem öffentlichen Team beitreten. In privaten Teams verwalten Teambesitzer die Teammitgliedschaft. Bei einem organisationsweiten Team wird jeder Benutzer in Ihrer Organisation automatisch hinzugefügt. 
 
-Für den Einstieg empfehlen wir Ihnen, private Teams zu erstellen und einen weiteren Besitzer hinzuzufügen, um die Teameinstellungen und die Mitgliedschaft zu verwalten. 
+Als Administrator können Sie Teams und Kanäle im Teams-Client oder dem Microsoft Teams Admin Center erstellen und verwalten. Sie können Teams als öffentlich oder privat erstellen. Sie können darüber hinaus ein [organisationsweites](create-an-org-wide-team.md) Team erstellen. Jede Person in Ihrer Organisation, die Teams verwendet, kann einem öffentlichen Team beitreten. In privaten Teams verwalten Teambesitzer die Teammitgliedschaft. Bei einem organisationsweiten Team wird jeder Benutzer in Ihrer Organisation automatisch hinzugefügt.
+
+Für den Einstieg empfehlen wir Ihnen, private Teams zu erstellen und einen weiteren Besitzer hinzuzufügen, um die Teameinstellungen und die Mitgliedschaft zu verwalten.
 
 > [!NOTE]
 > In den folgenden Schritten verwenden wir den Teams-Desktopclient, um Teams und Kanäle zu erstellen. Bedenken Sie, dass Sie diese Aufgaben als Administrator auch im Microsoft Teams Admin Center ausführen können.
 
-### <a name="create-a-team"></a>Team erstellen
+### <a name="create-a-team"></a>Erstellen eines Teams
 
 Klicken Sie auf der linken Seite von Teams auf **Teams**, und klicken Sie dann unten in der Teamliste auf **Einem Team beitreten oder ein Team erstellen**. Klicken Sie anschließend auf **Neues Team erstellen**.
 
-Laden Sie nach dem Erstellen des Teams Personen zum Beitritt ein. Sie können einzelne Benutzer, Gruppen und sogar gesamte Kontaktgruppen (vormals als “Verteilerlisten” bezeichnet) hinzufügen. 
+Laden Sie nach dem Erstellen des Teams Personen zum Beitritt ein. Sie können einzelne Benutzer, Gruppen und sogar gesamte Kontaktgruppen (vormals als “Verteilerlisten” bezeichnet) hinzufügen.
 
-![Screenshot eines Beispielteams, das den Namen und die Beschreibung des Teams zeigt.](media/get-started-with-teams-create-team.png "Screenshot eines „Teams kennenlernen“-Beispielteams mit Teamname und -beschreibung") 
+![Screenshot eines Beispielteams, das den Namen und die Beschreibung des Teams zeigt.](media/get-started-with-teams-create-team.png "Screenshot eines „Teams kennenlernen“-Beispielteams mit Teamname und -beschreibung")
 
 ### <a name="add-a-team-owner"></a>Hinzufügen eines Teambesitzers
-Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen ˙˙˙** > **Team verwalten**. Navigieren Sie anschließend zur Registerkarte **Mitglieder**. Suchen Sie die Personen, die Sie als Teambesitzer einsetzen möchten. Klicken Sie unter **Rolle** auf **Besitzer**.
+
+Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen ...** > **Team verwalten**. Navigieren Sie anschließend zur Registerkarte **Mitglieder**. Suchen Sie die Personen, die Sie als Teambesitzer einsetzen möchten. Klicken Sie unter **Rolle** auf **Besitzer**.
 
 ### <a name="create-a-channel-in-a-team"></a>Erstellen eines Kanals in einem Team
-Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen...** > **Kanal hinzufügen**. Alternativ können Sie auf **Team verwalten** klicken und auf der Registerkarte **Kanäle** einen Kanal hinzufügen. 
 
-![Screenshot der Optionen, die verfügbar sind, wenn Sie auf „Weitere Optionen“ klicken.](media/get-started-with-teams-add-channel.png "Screenshot der Option „Kanal hinzufügen“, der Option „Team verwalten“ und anderer Optionen, die nach dem Klicken auf „Weitere Optionen“ in einem Team verfügbar sind") 
+Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen...** > **Kanal hinzufügen**. Alternativ können Sie auf **Team verwalten** klicken und auf der Registerkarte **Kanäle** einen Kanal hinzufügen.
 
-Geben Sie dem Kanal einen anschaulichen Namen, damit die Benutzer den Zweck des Kanals leichter verstehen können. 
+![Screenshot der Optionen, die verfügbar sind, wenn Sie auf „Weitere Optionen“ klicken.](media/get-started-with-teams-add-channel.png "Screenshot der Option „Kanal hinzufügen“, der Option „Team verwalten“ und anderer Optionen, die nach dem Klicken auf „Weitere Optionen“ in einem Team verfügbar sind")
 
-Als Teambesitzer können Sie Kanäle dem gesamten Team automatisch vorschlagen, wodurch die Kanäle für jeden im Team besser sichtbar werden. Darüber hinaus können Sie Registerkarten an den Kanal anheften, um Tools, wie etwa OneNote, Links zu Webseiten und anderen Inhalte hinzuzufügen, damit Benutzer leichter finden, was sie brauchen, und ihre Ideen leichter teilen können.  
+Geben Sie dem Kanal einen anschaulichen Namen, damit die Benutzer den Zweck des Kanals leichter verstehen können.
 
-Dies ist ein Beispiel für den "Gewusst wie"-Kanal im "Teams kennenlernen"-Team mit angehefteten Registerkarten, die Links zu Teams-Webseiten, &ndash; Teams-Videoschulung, dem Teams-Hilfecenter und Teams-Downloadlinks enthalten. 
+Als Teambesitzer können Sie Kanäle dem gesamten Team automatisch vorschlagen, wodurch die Kanäle für jeden im Team besser sichtbar werden. Darüber hinaus können Sie Registerkarten an den Kanal anheften, um Tools, wie etwa OneNote, Links zu Webseiten und anderen Inhalte hinzuzufügen, damit Benutzer leichter finden, was sie brauchen, und ihre Ideen leichter teilen können.
 
-![Screenshot von Registerkarten, die an das Beispielteam angeheftet sind.](media/get-started-with-teams-add-tabs.png "Screenshot von Tabs, die an das Beispielteam „Teams kennenlernen“ angeheftet sind.") 
+Dies ist ein Beispiel für den "Gewusst wie"-Kanal im "Teams kennenlernen"-Team mit angehefteten Registerkarten, die Links zu Teams-Webseiten, &ndash; Teams-Videoschulung, dem Teams-Hilfecenter und Teams-Downloadlinks enthalten.
+
+![Screenshot von Registerkarten, die an das Beispielteam angeheftet sind.](media/get-started-with-teams-add-tabs.png "Screenshot von Tabs, die an das Beispielteam „Teams kennenlernen“ angeheftet sind.")
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 Wechseln Sie zu [Onboarding von Early Adopters](get-started-with-teams-onboard-early-adopters.md).

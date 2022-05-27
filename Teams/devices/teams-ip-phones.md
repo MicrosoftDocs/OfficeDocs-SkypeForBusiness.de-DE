@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Tisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 43e408defc9f1202cb31d6d46cccbc8df7704254
-ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
+ms.openlocfilehash: c5b4ab39768d0485de5fb5f6060d5567d035a343
+ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65671781"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65741897"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams zertifizierte Android-Geräte
 
@@ -48,8 +48,6 @@ Die folgenden Geräte sind im Rahmen des Zertifizierungsprogramms für Microsoft
 | AudioCodes C450HD                      | `1.17.443`                                                  |    5. August 2023              | 9 |
 | AudioCodes C448HD(Nur Cap-Modus)       |  `1.17.443`                                                   | 5. August 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 3. September 2025     | 11 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22. April 2022               | 7.1.x |
-| AudioCodes C448HD(Nur Cap-Modus)       | `C450HD_TEAMS_0.225`                                                  | 22. April 2022               | 7.1.x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | 5. August 2023            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`       | 5. August 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 5. August 2023               | 9 |
@@ -231,6 +229,7 @@ Im Folgenden finden Sie die neuesten Teams-Räume für Android App- und Firmware
 
 | Produktversion| Veröffentlichungsdatum | Microsoft Teams App-Version | Unternehmensportal Version | Admin Agent-Version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Update 2022 Nr. 2  | Mai 25,2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Update 2022 Nr. 1  | 24. Februar 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Update 2021 #2A | 15. Juli 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | Update 2021 Nr. 2 | 28. Juni 2021  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |

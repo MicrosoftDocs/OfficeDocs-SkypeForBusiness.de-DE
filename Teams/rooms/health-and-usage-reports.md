@@ -18,18 +18,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: ''
-ms.openlocfilehash: 400da9dca104bb5ff743a8c032d3997bd282e25a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64757128"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674817"
 ---
 # <a name="health-and-usage-reports"></a>Integritäts- und Nutzungsberichte
 
-Der Berichterstellungsknoten enthält Daten für den Status und die Nutzung Ihrer verwalteten Microsoft-Räume und Diensterkenntnisse. **Die 
+Der Berichterstellungsknoten enthält Daten für den Status und die Nutzung Ihrer verwalteten Microsoft-Räume und Diensterkenntnisse. In **der Übersicht** werden mandantenweite Integritätstrends Ihrer Räume dargestellt. Auf der Registerkarte " **Integrität** " wird eine Liste der Räume mit den entsprechenden Integritätsdaten angezeigt. Die Raumnutzung basierend auf Kalenderinformationen und Anrufqualitätsdaten wird auf der Registerkarte **"Nutzung"** angezeigt.
 
-**Übersicht** zeigt mandantenweite Integritätstrends Ihrer Räume. Auf der Registerkarte " **Integrität** " wird eine Liste der Räume mit den entsprechenden Integritätsdaten angezeigt. Die Raumnutzung basierend auf Kalenderinformationen und Anrufqualitätsdaten wird auf der Registerkarte **"Nutzung"** angezeigt.
 ## <a name="navigating-reports"></a>Navigieren in Berichten
 
 <!--![A screenshot of active tickets bar graph](../media/health-and-usage-002new.png)-->
@@ -58,6 +57,7 @@ Im Flyout ist es möglich, die Ticketliste nach der Unterkategorie zu filtern, i
 Um zurück zu navigieren, klicken Sie entweder auf den Donut oder oben links auf den Breadcrumb.
 
 Um zu einem bestimmten Ticket in dieser Listenansicht zu navigieren, klicken Sie auf den Link unter dem **Supportticket-Colum**.
+
 ### <a name="ticket-history"></a>Ticketverlauf
 
 Das Ticketverlaufsdiagramm zeigt einen Vergleich der Vorfälle, die Ihnen oder Microsoft über den angegebenen Zeitraum zugewiesen wurden.
@@ -66,17 +66,21 @@ Das Ticketverlaufsdiagramm zeigt einen Vergleich der Vorfälle, die Ihnen oder M
 > Wenn ein Ticket an einem Tag den Besitzer ändert, wird das Ticket für den Großteil des Tages gezählt, wer die Zuordnung besitzt. Wenn Sie das Ticket z. B. zu einem frühen Zeitpunkt des Tages zu Microsoft zuweisen, zählt das Ticket in Richtung **"Microsoft** zugewiesen" für den Tag.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
+
 ### <a name="health-history"></a>Integritätsverlauf
 
 Dieses Diagramm zeigt die durchschnittliche Integrität (Definition im Abschnitt "Integrität") für alle Räume im Mandanten sowie die durchschnittliche Integrität für alle MMR-Kunden auf täglicher Basis. Sie können die durchschnittliche Integrität für bis zu 90 Tage anzeigen.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
-### <a name="most-reliableleast-reliable-rooms"></a>Die zuverlässigsten/am wenigsten zuverlässigen Räume:
+
+### <a name="most-reliableleast-reliable-rooms"></a>Die zuverlässigsten/am wenigsten zuverlässigen Räume
 
 Zwei Tabellen zeigen die zuverlässigsten und am wenigsten zuverlässigen Räume basierend auf der Gesundheit. Wählen Sie für die vollständige Listenansicht "Integrität" aus, und sortieren Sie die Liste nach der Spalte "Integrität".
 
-### <a name="rooms-history"></a>Chatroomverlauf: 
+### <a name="rooms-history"></a>Chatroomverlauf
+
 Bietet eine historische Ansicht der im Dienst registrierten Räume und bietet eine vergleichende Ansicht der Räume, die im selben Zeitraum fehlerfrei oder nicht überwacht wurden.
+
 ## <a name="health"></a>Integrität
 
 Um zum Integritätsbericht für alle Räume zu navigieren, wählen Sie "Berichte" und dann "  **Integrität**" aus.
@@ -105,7 +109,7 @@ In der Ansicht "Auswirkungen auf die Besprechung" werden geplante Besprechungen 
 
 <!--![A screenshot of a Reports meeting impact](../media/health-and-usage-015.png)-->
 
-Auf der Registerkarte "Einstellungen" werden die Metadaten des Chatrooms angezeigt, z. B. Hardwareinformationen, Geräteeinstellungen, BIOS-Informationen, App-Einstellungen und Speicherort.
+Auf der Registerkarte Einstellungen werden die Metadaten des Chatrooms angezeigt, z. B. Hardwareinformationen, Geräteeinstellungen, BIOS-Informationen, App-Einstellungen und Speicherort.
 
 ## <a name="usage"></a>Verwendung
 
@@ -121,26 +125,27 @@ Die Schlagzeilen geben ein paar Einblicke:
 - Gesamtanzahl der gebuchten Besprechungen über Exchange
 - Prozentsatz der gebuchten Besprechungen, die einen Skype- oder Teams-Link enthielten
 - Gesamtzahl der Anrufe mit Raumteilnahme
--   Aggregierte Anrufleistungsbewertung von allen Anrufen, die mit der Qualität "Gut" klassifiziert wurden, für alle Anrufe. 
+- Aggregierte Anrufleistungsbewertung von allen Anrufen, die mit der Qualität "Gut" klassifiziert wurden, für alle Anrufe. 
 
 Unterhalb der Überschriftenmetriken befindet sich eine Tabelle mit Räumen mit entsprechenden Metriken. Wählen Sie einen Raum aus, um weitere Nutzungsdetails anzuzeigen. Die Metriken in der Tabelle werden in der folgenden Tabelle beschrieben.
 
-| Spalte |  Beschreibung |
-|--------| -------------------|
-| Nutzung   | Prozentsatz der Zeit, in der der Raum während der Geschäftszeiten im ausgewählten Zeitraum gebucht wurde. Ex. Zeitraum auf 7 Tage festgelegt. 80% Nutzung über die Mittel, die das Zimmer für 32/40 Stunden gebucht wurde |
-| Online gebucht |   Von den gebuchten Besprechungen, deren Prozentsatz mit Teams aktiviert wurde. Ex. 10 Besprechungen wurden gebucht. Davon hatten 8 einen Teams Link. Online gebucht = 80% |
-| Geplante Besprechungen | Absolute Anzahl der im Raum geplanten Besprechungen |
-| Gesamtzahl der Anrufe | Absolute Anzahl der Anrufe mit dem Raum als Teilnehmer. |
-Anrufleistung |  Prozentsatz der Anrufe mit der Bewertung "Gut". Jeder Anruf wird ausgewertet und erhält die Bewertung "Gut", "Schlecht", "Unbekannt". Diese Metrik wird aus guten Anrufen/Gesamtaufrufen berechnet. |
+|Spalte|Beschreibung|
+|---|---|
+|Nutzung|Prozentsatz der Zeit, in der der Raum während der Geschäftszeiten im ausgewählten Zeitraum gebucht wurde. Ex. Zeitraum auf 7 Tage festgelegt. 80% Nutzung über die Mittel, die das Zimmer für 32/40 Stunden gebucht wurde|
+|Online gebucht|Von den gebuchten Besprechungen, deren Prozentsatz mit Teams aktiviert wurde. Ex. 10 Besprechungen wurden gebucht. Davon hatten 8 einen Teams Link. Online gebucht = 80%|
+|Geplante Besprechungen|Absolute Anzahl der im Raum geplanten Besprechungen|
+|Gesamtzahl der Anrufe|Absolute Anzahl der Anrufe mit dem Raum als Teilnehmer.|
+Anrufleistung|Prozentsatz der Anrufe mit der Bewertung "Gut". Jeder Anruf wird ausgewertet und erhält die Bewertung "Gut", "Schlecht", "Unbekannt". Diese Metrik wird aus guten Anrufen/Gesamtaufrufen berechnet.|
 
 Die Nutzung wird am Ende jedes Tages um Mitternacht (00:00 Uhr) Ortszeit des Besprechungsraumgeräts berechnet. Die Auslastung wird basierend auf der gesamt gebuchten Besprechungszeit für diesen Tag dividiert durch 8 Stunden berechnet.
+
 ## <a name="usage-details-of-a-room"></a>Nutzungsdetails eines Raums
- 
+
 Wenn Sie in der Listenansicht auf einen Raum klicken, wird ein Flyout mit detaillierteren Informationen angezeigt. Unter der Registerkarte "Nutzung" des Flyouts befindet sich ein Diagramm, in dem die Nutzungszeit der letzten fünf Werktage angezeigt wird. Für jeden Tag gibt es zwei Balken: Blau stellt die gebuchte Besprechungszeit dar; Lila steht für die geplante Zeit Teams/Skype aktivierten Besprechungen. Unten werden die durchschnittlichen Besprechungsbuchungen und die Dauer der letzten fünf Werktage berechnet.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-**Die** Anruftabelle zeigt Besprechungen an, an denen der Raum an einem Teams Anruf teilgenommen hat. Die Raumaudioqualität wird nur für den Raum ausgewertet, nicht für alle Teilnehmer. Um die Anrufqualität für alle Teilnehmer eines bestimmten Anrufs anzuzeigen, wählen Sie einen Anruf aus, indem Sie auf die Startzeit klicken. 
+**Die** Anruftabelle zeigt Besprechungen an, an denen der Raum an einem Teams Anruf teilgenommen hat. Die Raumaudioqualität wird nur für den Raum ausgewertet, nicht für alle Teilnehmer. Um die Anrufqualität für alle Teilnehmer eines bestimmten Anrufs anzuzeigen, wählen Sie einen Anruf aus, indem Sie auf die Startzeit klicken.
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 

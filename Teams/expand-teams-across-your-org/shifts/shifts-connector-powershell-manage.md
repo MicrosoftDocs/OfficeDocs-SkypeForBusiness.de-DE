@@ -1,5 +1,5 @@
 ---
-title: Verwenden von PowerShell zum Verwalten Ihrer Schichtenverbindung zur Personalverwaltung von Blue Yonder
+title: Verwenden von PowerShell zum Verwalten Ihrer Schichtverbindung mit Blue Yonder Workforce Management
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -8,39 +8,39 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie PowerShell verwenden, um Ihre Schichten-Verbindung mit der Personalverwaltung von Blue Yonder zu verwalten.
+description: Erfahren Sie, wie Sie PowerShell verwenden, um Ihre Schichtverbindung mit Blue Yonder Workforce Management zu verwalten.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e666117b31064697f9ef41299574935109015aba
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: a102001c9c35b3d93467a9955329ce9d314532d0
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64593661"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675367"
 ---
-# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Verwenden von PowerShell zum Verwalten Ihrer Schichtenverbindung zur Personalverwaltung von Blue Yonder
+# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Verwenden von PowerShell zum Verwalten Ihrer Schichtverbindung mit Blue Yonder Workforce Management
 
 ## <a name="overview"></a>Übersicht
 
-Der Microsoft Teams Umschalten für [Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) ermöglicht Es Ihnen, die Schichten-App in Microsoft Teams mit Blue Yonder Workforce Management (Blue Yonder WFM) zu integrieren. Nachdem Sie eine Verbindung eingerichtet haben, können Ihre Mitarbeiter in der Frontline ihre Zeitpläne in Blue Yonder WFM direkt in Schichten anzeigen und verwalten.
+Mit [dem Microsoft Teams Shifts-Connector für Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) können Sie die Shifts-App in Microsoft Teams mit Blue Yonder Workforce Management (Blue Yonder WFM) integrieren. Nachdem Sie eine Verbindung eingerichtet haben, können Ihre Mitarbeiter in Service und Produktion ihre Zeitpläne in Blue Yonder WFM nahtlos in Schichten anzeigen und verwalten.
 
-Sie können den Assistenten [schichtenverbinder](shifts-connector-wizard.md) in der Microsoft 365 Admin Center [oder PowerShell](shifts-connector-blue-yonder-powershell-setup.md) verwenden, um eine Verbindung herzustellen. Nachdem eine Verbindung eingerichtet wurde, verwalten Sie sie mithilfe von [PowerShell-Cmdlets für den Shifts-Connector](#shifts-connector-cmdlets).
+Sie können den [Verbinder-Assistenten "Schichten"](shifts-connector-wizard.md) in der Microsoft 365 Admin Center oder [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) verwenden, um eine Verbindung einzurichten. Nachdem eine Verbindung eingerichtet wurde, verwalten Sie sie mithilfe von [PowerShell-Cmdlets für den Shifts-Connector](#shifts-connector-cmdlets).
 
-In diesem Artikel wird beschrieben, wie Sie PowerShell für folgende Aufgaben verwenden:
+In diesem Artikel wird beschrieben, wie PowerShell für folgende Zwecke verwendet wird:
 
 - [Überprüfen des Verbindungseinrichtungsstatus](#check-connection-setup-status)
 - [Anzeigen eines Fehlerberichts für eine Verbindung](#view-an-error-report-for-a-connection)
 - [Beheben von Verbindungsfehlern](#resolve-connection-errors)
 - [Ändern der Verbindungseinstellungen](#change-connection-settings)
-- [Unmap an team from one connection and map it to another connection](#unmap-a-team-from-one-connection-and-map-it-to-another-connection)
+- [Aufheben der Zuordnung eines Teams zu einer Verbindung und Zuordnen zu einer anderen Verbindung](#unmap-a-team-from-one-connection-and-map-it-to-another-connection)
 - [Deaktivieren der Synchronisierung für eine Verbindung](#disable-sync-for-a-connection)
 
 > [!NOTE]
-> In diesem Artikel wird davon ausgegangen, dass Sie bereits eine Verbindung mit Blue Yonder WFM eingerichtet haben, entweder mithilfe des Assistenten oder von PowerShell.
+> In diesem Artikel wird davon ausgegangen, dass Sie bereits eine Verbindung mit Blue Yonder WFM eingerichtet haben, entweder mithilfe des Assistenten oder mit PowerShell.
 
 ## <a name="before-you-begin"></a>Bevor Sie beginnen
 
@@ -49,58 +49,68 @@ In diesem Artikel wird beschrieben, wie Sie PowerShell für folgende Aufgaben ve
 ## <a name="set-up-your-environment"></a>Einrichten der Umgebung
 
 > [!NOTE]
-> Führen Sie die folgenden Schritte aus, um Ihre Umgebung ein eingerichtet zu haben, bevor Sie Befehle oder Skripts in diesem Artikel ausführen.
+> Führen Sie die folgenden Schritte aus, um Ihre Umgebung einzurichten, bevor Sie befehle oder Skripts in diesem Artikel ausführen.
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
+7. Verbinden zu Teams.
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+    Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeldeinformationen an. Sie sind jetzt für die Ausführung der Skripts in diesem Artikel und der Shifts-Connector-Cmdlets eingerichtet.
+
 ## <a name="check-connection-setup-status"></a>Überprüfen des Verbindungseinrichtungsstatus
+
 <a name="setup_status"> </a>
 
 So überprüfen Sie den Status der eingerichteten Verbindung mithilfe der Vorgangs-ID, die Sie per E-Mail erhalten haben:
 
-1. [Richten Sie Ihre Umgebung ein](#set-up-your-environment) (sofern noch nicht vorhanden).
+1. [Richten Sie Ihre Umgebung](#set-up-your-environment) ein (sofern noch nicht geschehen).
 1. Führen Sie den folgenden Befehl aus. Mit diesem Befehl erhalten Sie den Gesamtstatus der Teamzuordnungen für die Verbindung.
 
     ``` powershell
     Get-CsTeamsShiftsConnectionOperation -OperationId <YourOperationId>
     ```
 
-Weitere Informationen finden Sie unter [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps).
+Weitere Informationen finden Sie unter [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation).
 
 ## <a name="view-an-error-report-for-a-connection"></a>Anzeigen eines Fehlerberichts für eine Verbindung
+
 <a name="error_report"> </a>
 
-Sie können einen Bericht ausführen, in dem Fehlerdetails für eine Verbindung angezeigt werden. Im Bericht werden die Team- und Benutzerzuordnungen aufgeführt, die erfolgreich waren und fehlgeschlagen sind. Darüber hinaus werden Informationen zu Allen Problemen im Zusammenhang mit den Konten, die mit der Verbindung verbunden sind, zur Verfügung stehen.
+Sie können einen Bericht ausführen, der Fehlerdetails für eine Verbindung anzeigt. Der Bericht listet Team- und Benutzerzuordnungen auf, die erfolgreich waren und fehlgeschlagen sind. Es enthält auch Informationen zu allen Problemen im Zusammenhang mit den Konten, die mit der Verbindung verbunden sind.
 
-1. [Richten Sie Ihre Umgebung ein](#set-up-your-environment) (sofern noch nicht vorhanden).
-1. Erhalten Sie eine Liste der Fehlerberichte für eine Verbindung.
+1. [Richten Sie Ihre Umgebung](#set-up-your-environment) ein (sofern noch nicht geschehen).
+1. Dient zum Abrufen einer Liste von Fehlerberichten für eine Verbindung.
 
     ``` powershell
     Get-CsTeamsShiftsConnectionErrorReport -ConnectorInstanceId <ConnectorInstanceId>
     ```
 
-1. Führen Sie zum Anzeigen eines bestimmten Fehlerberichts den folgenden Befehl aus:
+1. Führen Sie den folgenden Befehl aus, um einen bestimmten Fehlerbericht anzuzeigen:
 
     ``` powershell
     Get-CsTeamsShiftsConnectionErrorReport -ErrorReportId <ErrorReportId>
     ```
 
-Weitere Informationen finden Sie unter [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport?view=teams-ps).
+Weitere Informationen finden Sie unter [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport).
 
 ## <a name="resolve-connection-errors"></a>Beheben von Verbindungsfehlern
 
 ### <a name="user-mapping-errors"></a>Fehler bei der Benutzerzuordnung
 
-Fehler bei der Benutzerzuordnung können auftreten, wenn ein oder mehrere Benutzer auf einer Blue Yonder WFM-Website kein Mitglied des zugeordneten Teams in Teams. Um dieses Problem zu beheben, stellen Sie sicher, dass die Benutzer im zugeordneten Team den Benutzern auf der Blue Yonder WFM-Website entsprechen.
+Benutzerzuordnungsfehler können auftreten, wenn ein oder mehrere Benutzer auf einer Blue Yonder WFM-Website kein Mitglied des zugeordneten Teams in Teams sind. Um dieses Problem zu beheben, stellen Sie sicher, dass die Benutzer im zugeordneten Team mit den Benutzern auf der WFM-Website von Blue Yonder übereinstimmen.
 
-Um Details zu nicht zugeordneten Benutzern [anzuzeigen, richten](#set-up-your-environment) Sie Ihre Umgebung ein (sofern noch nicht vorhanden), und führen Sie dann das folgende Skript aus.
+Um Details zu nicht zugeordneten Benutzern anzuzeigen, [richten Sie Ihre Umgebung](#set-up-your-environment) ein (sofern noch nicht geschehen), und führen Sie dann das folgende Skript aus.
 
 ```powershell
-#View sync errors script 
+#View sync errors script
 Write-Host "View sync errors"
 Start-Sleep 1
 
-#Ensure Teams module is of version x 
+#Ensure Teams module is of version x
 Write-Host "Checking Teams module version"
 try {
     Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
@@ -108,13 +118,7 @@ try {
     throw
 }
 
-#Authenticate with powershell as to the authorization capabilities of the caller. 
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
-
-#List connection instances available 
+#List connection instances available
 Write-Host "Listing connection instances"
 $InstanceList = Get-CsTeamsShiftsConnectionInstance
 write $InstanceList
@@ -145,29 +149,29 @@ ForEach ($mapping in $mappings){
 }
 ```
 
-### <a name="account-authorization-errors"></a>Fehler bei der Kontoautorisierung
+### <a name="account-authorization-errors"></a>Kontoautorisierungsfehler
 
-Fehler bei der Kontoautorisierung können auftreten, wenn die Anmeldeinformationen für das Blue Yonder WFM-Dienstkonto oder Microsoft 365-Systemkonto falsch sind oder nicht über die erforderlichen Berechtigungen verfügen.
+Kontoautorisierungsfehler können auftreten, wenn das Blue Yonder WFM-Dienstkonto oder Microsoft 365 Systemkontoanmeldeinformationen falsch sind oder nicht über die erforderlichen Berechtigungen verfügen.
 
-Zum Ändern der Anmeldeinformationen ihres Blue Yonder WFM-Dienstkontos oder des Microsoft 365-Systemkontos für die Verbindung können Sie das [Cmdlet Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) ausführen oder das PowerShell-Skript im Abschnitt Verbindungseinstellungen ändern dieses Artikels verwenden.[](#change-connection-settings)
+Um Ihr Blue Yonder WFM-Dienstkonto oder Microsoft 365 Anmeldeinformationen für das Systemkonto für die Verbindung zu ändern, können Sie das Cmdlet [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) ausführen oder das PowerShell-Skript im Abschnitt ["Verbindungseinstellungen ändern"](#change-connection-settings) dieses Artikels verwenden.
 
 ## <a name="change-connection-settings"></a>Ändern der Verbindungseinstellungen
 <a name="change_settings"> </a>
 
-Verwenden Sie dieses Skript, um Verbindungseinstellungen zu ändern. Einstellungen, die Sie ändern können, gehören Ihr Blue Yonder WFM-Dienstkonto und -Kennwort, Microsoft 365-Systemkonto, Teamzuordnungen und Synchronisierungseinstellungen.
+Verwenden Sie dieses Skript, um Verbindungseinstellungen zu ändern. Einstellungen, die Sie ändern können, sind Ihr Blue Yonder WFM-Dienstkonto und -Kennwort, Microsoft 365 Systemkonto, Teamzuordnungen und Synchronisierungseinstellungen.
 
-Zu den Synchronisierungseinstellungen gehören die Synchronisierungshäufigkeit (in Minuten) und die Zeitplandaten, die zwischen Blue Yonder WFM und Schichten synchronisiert werden. Zeitplandaten werden in den folgenden Parametern definiert, die Sie anzeigen können, indem [Sie Get-CsTeamsShiftsConnectionConnector ausführen](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
+Zu den Synchronisierungseinstellungen gehören die Synchronisierungshäufigkeit (in Minuten) und die Zeitplandaten, die zwischen Blue Yonder WFM und Schichten synchronisiert werden. Zeitplandaten werden in den folgenden Parametern definiert, die Sie anzeigen können, indem [Sie Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector) ausführen.
 
-- Der **Parameter enabledConnectorScenarios** definiert Daten, die von Blue Yonder WFM in Schichten synchronisiert werden. Die Optionen sind `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`, `TimeOffRequest`.
-- Der **Parameter enabledWfiScenarios** definiert Daten, die von Schichten zu Blue Yonder WFM synchronisiert werden. Die Optionen sind `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
+- Der **Parameter "enabledConnectorScenarios** " definiert Daten, die von Blue Yonder WFM mit Schichten synchronisiert werden. Optionen sind `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`. `TimeOffRequest`
+- Der Parameter **enabledWfiScenarios** definiert Daten, die von Schichten in Blue Yonder WFM synchronisiert werden. Optionen sind `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
 
     > [!NOTE]
-    > Wenn Sie offene Schichten, offene Schichtanforderungen, Tauschanfragen oder Anfragen für freie Zeit zwischen Schichten und Blue Yonder WFM nicht synchronisieren möchten, müssen Sie noch einen weiteren Schritt zum Ausblenden der Funktion in Schichten tun. Nachdem Sie dieses Skript ausgeführt haben, stellen Sie sicher, dass Sie die Schritte im Abschnitt Deaktivieren geöffneter Schichten, offener Schichtenanforderungen [,](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) Tauschanforderungen und Anfragen für arbeits freie Zeit weiter unten in diesem Artikel ausführen.
+    > Wenn Sie offene Schichten, offene Schichtanforderungen, Tauschanforderungen oder Abwesenheitsanforderungen zwischen Schichten und Blue Yonder WFM nicht synchronisieren möchten, müssen Sie einen weiteren Schritt ausführen, um die Funktion in Schichten auszublenden. Nachdem Sie dieses Skript ausgeführt haben, stellen Sie sicher, dass Sie die Schritte im Abschnitt ["Offene Schichten deaktivieren", "Schichtanforderungen öffnen", "Tauschanforderungen" und "Abwesenheitsanforderungen](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) " weiter unten in diesem Artikel ausführen.
 
 > [!IMPORTANT]
 > Für Einstellungen, die Sie nicht ändern möchten, müssen Sie die ursprünglichen Einstellungen erneut eingeben, wenn Sie vom Skript dazu aufgefordert werden.
 
-[Richten Sie Ihre Umgebung ein](#set-up-your-environment) (sofern noch nicht vorhanden), und führen Sie dann das folgende Skript aus.
+[Richten Sie Ihre Umgebung](#set-up-your-environment) ein (falls noch nicht geschehen), und führen Sie dann das folgende Skript aus.
 
 ```powershell
 #Update connector instance and mapping script
@@ -182,16 +186,10 @@ try {
     throw
 }
 
-#Authenticate with powershell as to the authorization capabilities of the caller. 
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
-
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
 
-#List connector types available (comment out if not implemented for preview) 
+#List connector types available (comment out if not implemented for preview)
 Write-Host "Listing connector types available"
 $BlueYonderId = "6A51B888-FF44-4FEA-82E1-839401E9CD74"
 $connectors = Get-CsTeamsShiftsConnectionConnector
@@ -203,7 +201,7 @@ Write-Host "Listing connection instances available"
 $InstanceList = Get-CsTeamsShiftsConnectionInstance
 write $InstanceList
 
-#Prompt for the WFM username and password 
+#Prompt for the WFM username and password
 $WfmUserName = Read-Host -Prompt 'Input your WFM user name'
 $WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
 $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
@@ -257,14 +255,14 @@ $TeamMaps = Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId
 write $TeamMaps
 
 #Modify a mapping
-#Remove a mapping 
+#Remove a mapping
 Write-Host "Removing a mapping"
 $TeamsTeamId = Read-Host -Prompt 'Input the Teams team ID that you want to unlink'
 $WfmTeamId = Read-Host -Prompt 'Input the WFM team ID that you want to unlink'
 Remove-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId
 Write-Host "Success"
 
-#Add a mapping 
+#Add a mapping
 Write-Host "Adding a mapping"
 $TeamsTeamId = Read-Host -Prompt 'Input the Teams team ID that you want to link'
 $WfmTeamId = Read-Host -Prompt 'Input the WFM team ID that you want to link'
@@ -272,27 +270,27 @@ New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $Tea
 Write-Host "Success"
 ```
 
-## <a name="disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests"></a>Deaktivieren sie offene Schichten, offene Schichten, Tauschanfragen und Anfragen für freie Zeit.
+## <a name="disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests"></a>Deaktivieren von offenen Schichten, offenen Schichtanforderungen, Swapanforderungen und Abwesenheitsanfragen
 
 > [!IMPORTANT]
-> Führen Sie diese Schritte nur aus, wenn Sie im Abschnitt Verbindungseinstellungen ändern weiter oben in diesem Artikel oder mithilfe des [Cmdlets Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) offene Schichten, offene Schichtanforderungen, Tauschanforderungen oder Anfragen zur arbeits freien Zeit deaktiviert haben.[](#change-connection-settings) Bei Abschluss dieses Schritts wird die Funktion in Schichten ausgeblendet. Ohne diesen zweiten Schritt wird den Benutzern weiterhin die Funktion in Schichten angezeigt, und wenn sie versuchen, sie zu verwenden, wird die Fehlermeldung "Nicht unterstützter Vorgang" angezeigt.
+> Führen Sie diese Schritte nur aus, wenn Sie offene Schichten, Offene Schichtanforderungen, Swapanforderungen oder Abwesenheitsanforderungen mithilfe des Skripts im Abschnitt " [Verbindungseinstellungen ändern"](#change-connection-settings) weiter oben in diesem Artikel oder mithilfe des Cmdlets ["Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) " deaktivieren möchten. Wenn Sie diesen Schritt abschließen, wird die Funktion in Schichten ausgeblendet. Ohne diesen zweiten Schritt sehen Benutzer die Funktion weiterhin in Schichten und erhalten die Fehlermeldung "Nicht unterstützter Vorgang", wenn sie versuchen, sie zu verwenden.
 
-Verwenden Sie zum Ausblenden geöffneter Schichten, Tauschanforderungen und Anfragen für freie Zeitverschiebungen in Schichten den Ressourcentyp " [](/graph/api/resources/schedule?view=graph-rest-1.0) Graph-API ```false``` Schedule", um die folgenden Parameter für jedes Team zu definieren, das Sie einer Blue Yonder WFM-Website zugeordnet haben:
+Verwenden Sie zum Ausblenden geöffneter Schichten, Swapanforderungen und Abwesenheitsanforderungen in Schichten den Graph-API [Ressourcentyp "Zeitplan](/graph/api/resources/schedule)", um die folgenden Parameter ```false``` für jedes Team festzulegen, das Sie einer Blue Yonder WFM-Website zugeordnet haben:
 
 - Offene Schichten: ```openShiftsEnabled```
-- Tauschanforderungen:  ```swapShiftsRequestsEnabled```
-- Anfragen für freizeite Zeit: ```timeOffRequestsEnabled```
+- Swapanforderungen:  ```swapShiftsRequestsEnabled```
+- Abwesenheitsanforderungen: ```timeOffRequestsEnabled```
 
-Um offene Schichtenanforderungen in Schichten auszublenden, wechseln **Sie in Einstellungen** zu Schicht, und deaktivieren Sie dann die Einstellung **Offene Schichten**.
+Um offene Schichtanforderungen in Schichten auszublenden, wechseln Sie zu **Einstellungen** in Schichten, und deaktivieren Sie dann die Einstellung "**Schichten** öffnen".
 
-## <a name="unmap-a-team-from-one-connection-and-map-it-to-another-connection"></a>Unmap an team from one connection and map it to another connection
+## <a name="unmap-a-team-from-one-connection-and-map-it-to-another-connection"></a>Aufheben der Zuordnung eines Teams zu einer Verbindung und Zuordnen zu einer anderen Verbindung
 
 > [!NOTE]
-> Das Microsoft 365 Systemkonto muss für beide Verbindungen gleich sein. Wenn dies nicht zu sehen ist, wird die Fehlermeldung "Dieses festgelegte Akteur-Profil hat keine Berechtigungen für Teambesitz" angezeigt.
+> Das Microsoft 365 Systemkonto muss für beide Verbindungen identisch sein. Andernfalls wird die Fehlermeldung "Dieses festgelegte Akteurprofil verfügt nicht über Teambesitzberechtigungen" angezeigt.
 
-Wenn Sie die Zuordnung eines Teams von einer Verbindung zu einer anderen Verbindung wieder herstellen möchten:
+Wenn Sie die Zuordnung eines Teams aus einer Verbindung aufheben und einer anderen Verbindung zuordnen möchten:
 
-1. [Richten Sie Ihre Umgebung ein](#set-up-your-environment) (sofern noch nicht vorhanden).
+1. [Richten Sie Ihre Umgebung](#set-up-your-environment) ein (sofern noch nicht geschehen).
 1. Zeigen Sie eine Liste aller Teamzuordnungen für eine Verbindung an.
 
     ```powershell
@@ -311,13 +309,13 @@ Wenn Sie die Zuordnung eines Teams von einer Verbindung zu einer anderen Verbind
     New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId <ConnectorInstanceId> -TeamId <TeamId> -WfmTeamId <SiteId> -TimeZone <TimeZone>
     ```
 
-Weitere Informationen finden Sie unter [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps), [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps) und [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps).
+Weitere Informationen finden Sie unter [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap), [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap) und [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap).
 
 ## <a name="disable-sync-for-a-connection"></a>Deaktivieren der Synchronisierung für eine Verbindung
 
-Verwenden Sie dieses Skript, um die Synchronisierung für eine Verbindung zu deaktivieren. Beachten Sie, dass mit diesem Skript keine Verbindung entfernt oder gelöscht wird. Damit wird die Synchronisierung deaktiviert, sodass für die von Ihnen festgelegte Verbindung keine Daten zwischen Shifts und Blue Yonder WFM synchronisiert werden.
+Verwenden Sie dieses Skript, um die Synchronisierung für eine Verbindung zu deaktivieren. Beachten Sie, dass mit diesem Skript keine Verbindung entfernt oder gelöscht wird. Die Synchronisierung wird deaktiviert, sodass keine Daten zwischen Schichten und Blue Yonder WFM für die angegebene Verbindung synchronisiert werden.
 
-[Richten Sie Ihre Umgebung ein](#set-up-your-environment) (sofern noch nicht vorhanden), und führen Sie dann das folgende Skript aus.
+[Richten Sie Ihre Umgebung](#set-up-your-environment) ein (falls noch nicht geschehen), und führen Sie dann das folgende Skript aus.
 
 ```powershell
 #Disable sync script
@@ -330,13 +328,7 @@ try {
     throw
 }
 
-#Authenticate with powershell as to the authorization capabilities of the caller. 
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
-
-#List connection instances available 
+#List connection instances available
 Write-Host "Listing connection instances"
 $InstanceList = Get-CsTeamsShiftsConnectionInstance
 write $InstanceList
@@ -378,30 +370,30 @@ else {
 }
 ```
 
-## <a name="shifts-connector-cmdlets"></a>Verschiebt Connector-Cmdlets
+## <a name="shifts-connector-cmdlets"></a>Verbinder-Cmdlets für Schichten
 
-Wenn Sie Hilfe zu Denk-Cmdlets für Schichten brauchen, suchen Sie in der Referenz [Teams PowerShell-Cmdlet](/powershell/teams/intro?view=teams-ps) nach **CsTeamsShiftsConnection**. Hier finden Sie Links zu einigen häufig verwendeten Cmdlets.
+Hilfe zu Konnektor-Cmdlets für Schichten finden Sie in der [Teams PowerShell-Cmdlet-Referenz](/powershell/teams/intro) nach **CsTeamsShiftsConnection**. Hier sind Links zu einigen häufig verwendeten Cmdlets.
 
-- [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps)
-- [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Remove-CsTeamsShiftsConnectionInstance](/powershell/module/teams/remove-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Test-CsTeamsShiftsConnectionValidate](/powershell/module/teams/test-csteamsshiftsconnectionvalidate?view=teams-ps)
-- [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionWfmUser](/powershell/module/teams/get-csteamsshiftsconnectionwfmuser?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport?view=teams-ps)
-- [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams/remove-csteamsshiftsschedulerecord?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation)
+- [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance)
+- [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance)
+- [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance)
+- [Remove-CsTeamsShiftsConnectionInstance](/powershell/module/teams/remove-csteamsshiftsconnectioninstance)
+- [Test-CsTeamsShiftsConnectionValidate](/powershell/module/teams/test-csteamsshiftsconnectionvalidate)
+- [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap)
+- [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap)
+- [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap)
+- [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector)
+- [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult)
+- [Get-CsTeamsShiftsConnectionWfmUser](/powershell/module/teams/get-csteamsshiftsconnectionwfmuser)
+- [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam)
+- [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport)
+- [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams/remove-csteamsshiftsschedulerecord)
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Verschiebt Verbinder](shifts-connectors.md)
-- [Verwenden des Assistenten "Schichtenconnector", um Schichten mit der Personalverwaltung in Blue Yonder zu verbinden](shifts-connector-wizard.md)
-- [Verwenden von PowerShell zum Verbinden von Schichten mit der Personalverwaltung in Blue Yonder](shifts-connector-blue-yonder-powershell-setup.md)
+- [Schichtenverbinder](shifts-connectors.md)
+- [Verwenden des Verbinder-Assistenten "Schichten" zum Verbinden von Schichten mit Blue Yonder Workforce Management](shifts-connector-wizard.md)
+- [Verwenden von PowerShell zum Verbinden von Schichten mit Blue Yonder Workforce Management](shifts-connector-blue-yonder-powershell-setup.md)
 - [Verwalten der Schichten-App](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Übersicht über PowerShell für Microsoft Teams](../../teams-powershell-overview.md)

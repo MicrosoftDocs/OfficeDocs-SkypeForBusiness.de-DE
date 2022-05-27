@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams von Anrufwarteschleifen unterstützte Sprachen
+title: unterstützte Sprachen für Microsoft Teams Anrufwarteschleife
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams von Anrufwarteschleifen unterstützte Sprachen
-ms.openlocfilehash: 54d9a49dc3671a2b7148ba964c20dcb50def0622
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: unterstützte Sprachen für Microsoft Teams Anrufwarteschleife
+ms.openlocfilehash: c33745aaa5a1b0ddbfb3c7438fdc8bf72c8af592
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249547"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674717"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams von Anrufwarteschleifen unterstützte Sprachen
+# <a name="microsoft-teams-call-queue-supported-languages"></a>unterstützte Sprachen für Microsoft Teams Anrufwarteschleife
 
-Die Anrufwarteschleife unterstützt die folgenden Sprachen für Text zu Sprache (TTS):
+Die Anrufwarteschleife unterstützt die folgenden Sprachen für Text in Sprache (Text to Speech, TTS):
 
 |Sprache                                |
 |:---------------------------------------|
@@ -58,7 +58,7 @@ Die Anrufwarteschleife unterstützt die folgenden Sprachen für Text zu Sprache 
 |Italienisch (Italien)                         |
 |Japanisch (Japan)                        |
 |Koreanisch (Korea)                          |
-|Norwegisch (Bokmål, Norwegen)               |
+|Norwegisch Bokmal (Norwegen)               |
 |Polnisch (Polen)                         |
 |Portugiesisch (Brasilien)                     |
 |Portugiesisch (Portugal)                   |
@@ -74,4 +74,4 @@ Die Anrufwarteschleife unterstützt die folgenden Sprachen für Text zu Sprache 
 |Vietnamesisch (Vietnam)                    |
 
 > [!NOTE]
-> Wenn Sie Text in Sprache verwenden, muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung vorn ermöglicht.
+> Bei Verwendung von Text in Sprache muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung durchführt.

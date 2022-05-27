@@ -1,5 +1,5 @@
 ---
-title: Remotebereitstellung und -anmeldung für Teams Android-Geräte
+title: Remotebereitstellung und Anmeldung für Teams Android Geräte
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -16,111 +16,111 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Remotebereitstellung und -anmeldung für Teams Android-Geräte verwenden.
-ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
-ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
+description: Erfahren Sie, wie Sie Remotebereitstellung und -anmeldung für Teams Android Geräte durchführen.
+ms.openlocfilehash: 4b3831bc42da92939c7aa61ff52a15266dc4a940
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070149"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674337"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und -anmeldung für Teams Android-Geräte
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und Anmeldung für Teams Android Geräte
 
-IT-Administratoren können Remotebereitstellung und -anmeldung auf einem Teams Android-Gerät ausführen. Um ein Gerät remote bereitstellen zu können, muss der Administrator die MAC-IDs der bereitgestellten Geräte hochladen und einen Prüfcode erstellen. Der gesamte Vorgang kann remote über das Teams Admin Center abgeschlossen werden.
+IT-Administratoren können remote ein Teams Android Gerät bereitstellen und sich anmelden. Um ein Gerät remote bereitzustellen, muss der Administrator die MAC-IDs der bereitgestellten Geräte hochladen und einen Überprüfungscode erstellen. Der gesamte Prozess kann remote aus dem Teams Admin Center abgeschlossen werden.
 
 ## <a name="review-the-supported-devices"></a>Überprüfen der unterstützten Geräte
 
-In der folgenden Liste sind die Firmwareanforderungen für Android-Geräte aufgeführt.
+In der folgenden Liste sind die Android Firmwareanforderungen für Geräte aufgeführt.
 
 |Gerätekategorie|Gerätemodell|Firmwareversion|
-|-|-|-|
-|Teams-Smartphones|Yealink T55/T56/T58|58.15.0.124|
-|Teams-Smartphones|Yealink VP59|91.15.0.58|
-|Teams-Smartphones|Yealink CP960|73.15.0.117|
-|Teams-Smartphones|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams-Smartphones|Crestron UC-2|1.0.3.52|
-|Teams-Smartphones|  Poly Trio C60|  7.0.2.1071|
-|Teams-Smartphones|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams-Smartphones|  Audiocodes C448HD/C450HD/C470HD|   1.10.120|
-|Teams-Panels|  Crestron 770/1070|  1.004.0115|
-|Teams-Räume unter Android|Logitech Rally Bar Mini|1.2.982|
-|Teams-Räume unter Android|Logitech Rally Bar|1.2.982|
-|Teams-Räume unter Android|AudioCodes RECEIVERV80|1.13.361|
-|Teams-Räume unter Android|EXPAND Vision 3T|1.2.2.21182.10|
-|Teams-Räume unter Android|Yealink MeetingBar A30|133.15.0.60|
-|Teams-Räume unter Android|Yealink MeetingBar A20|133.15.0.60|
-|Teams-Räume unter Android|Yealink CTP18-Touchkonsole|137.15.0.37|
-|Teams-Räume unter Android|Poly Studio X30|3.5.0.344025|
-|Teams-Räume unter Android|Poly Studio X50|3.5.0.344025|
-|Teams-Räume unter Android|Poly TC8-Touchkonsole |3.5.0.210489|
-|Teams-Räume unter Android|Yealink VC210|118.15.0.54|
+|---|---|---|
+|Teams Smartphones|Yealink T55/T56/T58|58.15.0.124|
+|Teams Smartphones|Yealink VP59|91.15.0.58|
+|Teams Smartphones|Yealink CP960|73.15.0.117|
+|Teams Smartphones|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams Smartphones|Crestron UC-2|1.0.3.52|
+|Teams Smartphones|Poly Trio C60|7.0.2.1071|
+|Teams Smartphones|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Teams Smartphones|Audiocodes C448HD/C450HD/C470HD|1.10.120|
+|Teams Panels|Crestron 770/1070|1.004.0115|
+|Teams-Räume auf Android|Logitech Rally Bar Mini|1.2.982|
+|Teams-Räume auf Android|Logitech Rally Bar|1.2.982|
+|Teams-Räume auf Android|AudioCodes RXV80|1.13.361|
+|Teams-Räume auf Android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Teams-Räume auf Android|Yealink MeetingBar A30|133.15.0.60|
+|Teams-Räume auf Android|Yealink MeetingBar A20|133.15.0.60|
+|Teams-Räume auf Android|Yealink-CTP18-Touchkonsole|137.15.0.37|
+|Teams-Räume auf Android|Poly Studio X30|3.5.0.344025|
+|Teams-Räume auf Android|Poly Studio X50|3.5.0.344025|
+|Teams-Räume auf Android|Poly TC8 Touch-Konsole |3.5.0.210489|
+|Teams-Räume auf Android|Yealink VC210|118.15.0.54|
 
-## <a name="add-a-device-mac-address"></a>Hinzufügen einer MAC-Adresse für ein Gerät
+## <a name="add-a-device-mac-address"></a>Hinzufügen einer MAC-Adresse eines Geräts
 
-Führen Sie die folgenden Schritte zum Bereitstellen eines neuen Geräts aus.
+Führen Sie die folgenden Schritte aus, um ein neues Gerät bereitzustellen.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
-2. Erweitern **Teams Geräte**.
-3. Wählen **Sie auf der Registerkarte Aktionen die** Option Neues Gerät **bereitstellen** aus.
+2. Erweitern **Sie Teams Geräte**.
+3. Wählen Sie auf der Registerkarte **"Aktionen"** die Option **"Neues Gerät bereitstellen**" aus.
 
-Im Fenster **Neue Geräte bereitstellen** können Sie entweder die MAC-Adresse manuell hinzufügen oder eine Datei hochladen.
+Im Fenster " **Neue Geräte bereitstellen** " können Sie entweder die MAC-Adresse manuell hinzufügen oder eine Datei hochladen.
 
-### <a name="manually-add-a-device-mac-address"></a>Manuelles Hinzufügen einer MAC-Adresse für das Gerät
+### <a name="manually-add-a-device-mac-address"></a>Manuelles Hinzufügen einer MAC-Adresse eines Geräts
 
-1. Wählen Sie auf **der Registerkarte Aktivierung aus** wartend die Option **MAC-ID hinzufügen aus.**
+1. Wählen Sie auf der Registerkarte **"Warten auf Aktivierung** " die Option **"MAC-ID hinzufügen"** aus.
 
-   ![Fügen Sie manuell eine Mac-Adresse für das Gerät hinzu.](../media/remote-provision-6-new.png)
+   ![fügen Sie manuell eine Mac-Adresse des Geräts hinzu.](../media/remote-provision-6-new.png)
 
 1. Geben Sie die MAC-ID ein.
-1. Geben Sie einen Standort ein, mit dem Techniker ermitteln können, wo die Geräte installiert werden sollen.
-1. Wenn Sie **fertig sind,** wählen Sie Übernehmen aus.
+1. Geben Sie einen Speicherort ein, der Technikern hilft, zu ermitteln, wo die Geräte installiert werden sollen.
+1. Wählen Sie **"Übernehmen** " aus, wenn Sie fertig sind.
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>Hochladen einer Datei, um eine MAC-Adresse des Geräts hinzuzufügen
 
-1. Wählen Sie **auf der Registerkarte** Aktivierung aus wartend die Option Hochladen **MAC-IDs aus.**
+1. Wählen Sie auf der Registerkarte **"Warten auf Aktivierung**" **Hochladen MAC-IDs aus**.
 2. Laden Sie die Dateivorlage herunter.
-3. Geben Sie die MAC-ID und den Speicherort ein, und speichern Sie dann die Datei.
-4. **Wählen Sie Datei** und dann **Hochladen** aus.
+3. Geben Sie die MAC-ID und den Speicherort ein, und speichern Sie die Datei.
+4. **Wählen Sie "Datei"** und dann **Hochladen** aus.
 
-## <a name="generate-a-verification-code"></a>Generieren eines Prüfcodes
+## <a name="generate-a-verification-code"></a>Generieren eines Überprüfungscodes
 
-Sie benötigen einen Prüfcode für die Geräte. Der Überprüfungscode wird in Massen oder auf Geräteebene generiert und ist 24 Stunden gültig.
+Sie benötigen einen Überprüfungscode für die Geräte. Der Überprüfungscode wird in Massen oder auf Geräteebene generiert und ist 24 Stunden lang gültig.
 
-1. Wählen Sie **auf der Registerkarte Warten auf die** Aktivierung eine vorhandene MAC-ID aus.
-   Für die MAC-Adresse wird ein Kennwort erstellt und in der Spalte **Prüfcode** angezeigt.
+1. Wählen Sie auf der Registerkarte **"Warten auf Aktivierung** " eine vorhandene MAC-ID aus.
+   Ein Kennwort wird für die MAC-Adresse erstellt und in der Spalte **"Überprüfungscode"** angezeigt.
 
-2. Stellen Sie die Liste der MAC-IDs und Prüfcodes für die Feldtechniker zur Verfügung. Sie können die Details direkt in eine Datei exportieren und die Datei für den Techniker freigeben, der die eigentlichen Installationsarbeiten überarbeiten soll.
+2. Stellen Sie den Außendiensttechnikern die Liste der MAC-IDs und Überprüfungscodes bereit. Sie können die Details direkt in eine Datei exportieren und die Datei für den Techniker freigeben, der die eigentliche Installationsarbeit ausführt.
 
 ## <a name="provision-the-device"></a>Bereitstellen des Geräts
 
-Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, wird das Gerät vom Techniker bereitgestellt. Diese Schritte werden auf dem Teams durchgeführt.
+Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, stellt der Techniker das Gerät bereit. Diese Schritte werden auf dem Teams Gerät ausgeführt.
 
-1. Der Techniker wählt im Der **Techniker Gerät** bereitstellen **aus** Einstellungen aus.  
+1. Der Techniker wählt **"Bereitstellungsgerät**" aus der **Einstellungen** aus.  
 
-   ![Option "Neues Gerät bereitstellen" auf der Registerkarte "Aktionen".](../media/provision-device1.png)
+   ![Stellen Sie die neue Geräteoption auf der Registerkarte "Aktionen" bereit.](../media/provision-device1.png)
   
-2. Der Techniker gibt den gerätespezifischen Prüfcode in das bereitgestellte Eingabefeld ein.
+2. Der Techniker gibt den gerätespezifischen Überprüfungscode in das bereitgestellte Eingabefeld ein.
 
-   ![Neue Geräteüberprüfung bereitstellen.](../media/provision-device-verification1.png)
+   ![Stellen Sie die Überprüfung neuer Geräte bereit.](../media/provision-device-verification1.png)
 
-   Sobald das Gerät erfolgreich bereitgestellt wurde, wird der Mandantname auf der Anmeldeseite angezeigt.
+   Nachdem das Gerät erfolgreich bereitgestellt wurde, wird der Name des Mandanten auf der Anmeldeseite angezeigt.
 
-   ![Der Mandantname auf der Anmeldeseite.](../media/provision-code.png)
+   ![Mandantenname auf der Anmeldeseite.](../media/provision-code.png)
 
-## <a name="first-time-remote-sign-in"></a>Erste Remote anmeldung
+## <a name="first-time-remote-sign-in"></a>Erstmalige Remoteanmeldung
 
-Das bereitgestellte Gerät wird auf der Registerkarte **Auf Anmeldung warten** angezeigt. Starten Sie den Remote-Anmeldevorgang, indem Sie das einzelne Gerät auswählen.
+Das bereitgestellte Gerät wird auf der Registerkarte **"Warten auf Anmeldung** " angezeigt. Starten Sie den Remoteanmeldungsprozess, indem Sie das einzelne Gerät auswählen.
 
-1. Wählen Sie auf der Registerkarte **Auf Anmeldung warten ein Gerät** aus.
+1. Wählen Sie auf der Registerkarte **"Auf Anmeldung warten"** ein Gerät aus.
 
-   ![Das Fenster mit einer Liste der geräte, die für die Anmeldung bereit sind.](../media/remote-device1.png)
+   ![Das Fenster mit einer Liste der Geräte, die für die Anmeldung bereit sind.](../media/remote-device1.png)
 
-2. Folgen Sie den Anweisungen unter Anmelden bei einem **Benutzer,** und wählen Sie dann **Schließen aus.**
+2. Folgen Sie den Anweisungen **unter "Anmelden bei einem Benutzer**", und wählen Sie dann " **Schließen"** aus.
 
    ![das Fenster "Anmelden bei einem Benutzer" für ein einzelnes Gerät.](../media/sign-in-user.png)
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
 - [Verwalten Ihrer Geräte in Teams](device-management.md).
-- [Remote-An- und Abmelden](remote-sign-in-and-sign-out.md)
-- [Remoteupdate für Teams Geräte](remote-update.md)
+- [Remoteanmeldung und -abmeldung](remote-sign-in-and-sign-out.md)
+- [Remoteaktualisierung Teams Geräten](remote-update.md)

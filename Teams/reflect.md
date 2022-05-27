@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839036"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675757"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Reflect in Microsoft Teams
 
@@ -69,7 +69,7 @@ Wenn Sie zuvor festgelegt haben, dass jede App erlaubt werden muss, wechseln Sie
 > Weitere Details finden Sie unter [Zulassen oder Hinzufügen einer App zu einem Kursteam](manage-apps.md#allow-and-block-apps).
 
 ## <a name="where-do-educators-find-reflect"></a>Wo finden Lehrkräfte Reflect?
-Nachdem Sie Reflect aktiviert haben, können Lehrkräfte zum betreffenden Kurs wechseln und **Neue Unterhaltung** auswählen. Anschließend wählen sie **...** aus, um Nachrichtenerweiterungen anzuzeigen, und geben **Reflect** in die Suchleiste ein. Das Dialogfeld führt sie durch das Definieren einer Frage und die Auswahl, wer was sehen kann.
+Nachdem Sie Reflect aktiviert haben, können Lehrkräfte zum betreffenden Kurs wechseln und **Neue Unterhaltung** auswählen. Anschließend wählen sie „**...**“ aus, um Nachrichtenerweiterungen anzuzeigen, und geben **Reflect** in die Suchleiste ein. Das Dialogfeld führt sie durch das Definieren einer Frage und die Auswahl, wer was sehen kann.
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="Hinzufügen von Reflect zu einem Kursteam.":::
 

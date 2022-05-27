@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8a8e8b21bb3b224586ef7e74f971059070d0a74c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: d530cc3947c738753f053d126ded1dd77b815009
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059296"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676397"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihres Unternehmens für Microsoft Teams 
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihres Unternehmens für Microsoft Teams
 
 ## <a name="network-requirements"></a>Netzwerkanforderungen
 
 Wenn Sie [Ihr Netzwerk bereits für Microsoft 365 oder Office 365 optimiert haben](/Office365/Enterprise/assessing-network-connectivity), dann sind Sie wahrscheinlich bereit für Microsoft Teams. In jedem Fall – und besonders, wenn Sie Teams schnell als Ihren ersten Microsoft 365- oder Office 365-Workload zur Unterstützung von **Remotemitarbeitern** einführen – müssen Sie Folgendes überprüfen, bevor Sie mit der Einführung von Teams beginnen:
 
-1.  Haben alle Ihre Standorte Internetzugriff (damit Sie sich zu Microsoft 365 oder Office 365 verbinden können)? Stellen Sie zusätzlich zum normalen Webdatenverkehr sicher, dass Sie die TCP-Ports und IP-Adressen geöffnet haben, die für Teams in [URLs und IP-Adressbereiche für Office 365](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)aufgeführt sind.
+1. Haben alle Ihre Standorte Internetzugriff (damit Sie sich zu Microsoft 365 oder Office 365 verbinden können)? Stellen Sie zusätzlich zum normalen Webdatenverkehr sicher, dass Sie die TCP-Ports und IP-Adressen geöffnet haben, die für Teams in [URLs und IP-Adressbereiche für Office 365](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)aufgeführt sind.
 
     > [!IMPORTANT]
     > Wenn Sie lokal oder online mit Skype for Business einen Verbund erstellen müssen, dann müssen Sie einen zusätzlichen DNS-Eintrag konfigurieren.
@@ -40,14 +40,14 @@ Wenn Sie [Ihr Netzwerk bereits für Microsoft 365 oder Office 365 optimiert habe
     >|DNS-Eintrag  |Dienst  |Protocol  |Priority  |Gewichtung  |Port  |Target  |
     >|---------|---------|---------|---------|---------|---------|---------|
     >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
-    
-2.  Haben Sie eine verifizierte Domäne für Microsoft 365 oder Office 365 (z. B. contoso.com)?
-    
+
+2. Haben Sie eine verifizierte Domäne für Microsoft 365 oder Office 365 (z. B. contoso.com)?
+
     - Wenn Ihre Organisation Microsoft 365 oder Office 365 noch nicht eingeführt hat, finden Sie weitere Informationen unter [Erste Schritte](/microsoft-365/admin/admin-overview/get-started-with-office-365).
     - Wenn Ihre Organisation noch keine verifizierte Domäne für Microsoft 365 oder Office 365 hinzugefügt oder konfiguriert hat, finden Sie weitere Informationen unter [Domänen – Häufig gestellte Fragen](/microsoft-365/admin/setup/domains-faq).
 
-3.  Hat Ihre Organisation Exchange Online oder SharePoint Online bereitgestellt?
-    
+3. Hat Ihre Organisation Exchange Online oder SharePoint Online bereitgestellt?
+
     - Wenn Ihre Organisation Exchange Online nicht implementiert hat, finden Sie weitere Informationen unter [Verstehen, wie Exchange und Microsoft Teams interagieren](exchange-teams-interact.md).
     - Wenn Ihre Organisation SharePoint Online nicht implementiert hat, finden Sie weitere Informationen unter [Verstehen, wie SharePoint Online und OneDrive for Business mit Microsoft Teams interagieren](sharepoint-onedrive-interact.md).
 
@@ -55,12 +55,12 @@ Sobald Sie überprüft haben, dass Sie diese Netzwerkvoraussetzungen erfüllen, 
 
 > [!IMPORTANT]
 > **Für Bildungseinrichtungen**: Wenn Ihre Organisation eine Bildungseinrichtung ist und Sie ein Schülerinformationssystem (Student Information System, SIS) verwenden, [stellen Sie School Data Sync bereit](/schooldatasync/), bevor Sie Teams einführen.
->  
+>
 > **Auf einem lokalen Skype for Business Server ausführen**: Wenn Ihre Organisation einen lokalen Skype for Business-Server (oder Lync-Server) verwendet, müssen Sie [Azure AD Connect konfigurieren](/skypeforbusiness/hybrid/configure-azure-ad-connect), um Ihr lokales Verzeichnis mit Microsoft 365 oder Office 365 zu synchronisieren.
 
-### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Bewährte Methoden: Überwachen Sie Ihr Netzwerk mit dem AQD und Anrufanalysen 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Bewährte Methoden: Überwachen Sie Ihr Netzwerk mit dem AQD und Anrufanalysen
 
-Verwenden Sie das [Anrufqualitäts-Dashboard (AQD)](turning-on-and-using-call-quality-dashboard.md), um Erkenntnisse in die Qualität von Anrufen und Besprechungen in Teams zu erhalten. Das AQD kann Ihnen helfen, Ihr Netzwerk zu optimieren, indem es die Qualität, die Verlässlichkeit und die Benutzerfreundlichkeit genau im Auge behält. Das AQD befasst sich mit der aggregierten Telemetrie eines ganzen Unternehmens, in der sich allgemeine Muster erkennen lassen, die Sie in die Lage versetzen, Probleme zu erkennen und Behebungsmaßnahmen zu planen. Das AQD bietet zusätzlich umfangreiche Metrikberichte, die Einblicke in die Qualität, Zuverlässigkeit und Benutzerfreundlichkeit bieten. 
+Verwenden Sie das [Anrufqualitäts-Dashboard (AQD)](turning-on-and-using-call-quality-dashboard.md), um Erkenntnisse in die Qualität von Anrufen und Besprechungen in Teams zu erhalten. Das AQD kann Ihnen helfen, Ihr Netzwerk zu optimieren, indem es die Qualität, die Verlässlichkeit und die Benutzerfreundlichkeit genau im Auge behält. Das AQD befasst sich mit der aggregierten Telemetrie eines ganzen Unternehmens, in der sich allgemeine Muster erkennen lassen, die Sie in die Lage versetzen, Probleme zu erkennen und Behebungsmaßnahmen zu planen. Das AQD bietet zusätzlich umfangreiche Metrikberichte, die Einblicke in die Qualität, Zuverlässigkeit und Benutzerfreundlichkeit bieten.
 
 Sie werden [Anrufanalysen](set-up-call-analytics.md) verwenden, um Probleme eines einzelnen Benutzers mit Anrufen und Besprechungen zu untersuchen.
 
@@ -70,9 +70,9 @@ Die folgenden Aufgaben sind optional und für die Einführung von Teams nicht er
 
 Sie werden weitere Netzwerk-Optimierungen durchführen wollen, wenn:
 
-  - Teams langsam läuft (vielleicht haben Sie ungenügende Bandbreite)
-  - Anrufen verloren gehen (möglicherweise aufgrund Firewall- oder Proxy-Sperren)
-  - Anrufe Störungen haben und unterbrochen werden, oder wenn die Stimmen wie Roboter klingen (kann Jitter oder Paketverlust sein).
+- Teams langsam läuft (vielleicht haben Sie ungenügende Bandbreite)
+- Anrufen verloren gehen (möglicherweise aufgrund Firewall- oder Proxy-Sperren)
+- Anrufe Störungen haben und unterbrochen werden, oder wenn die Stimmen wie Roboter klingen (kann Jitter oder Paketverlust sein).
 
 Eine ausführliche Beschreibung der Netzwerkoptimierung, einschließlich Anleitungen zum Erkennen und Beheben von Netzwerkbeeinträchtigungen, finden Sie unter[ Microsoft 365- und Office 365-Netzwerkverbindungsprinzipien](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles).
 
@@ -117,9 +117,9 @@ Eine ausführliche Beschreibung der Netzwerkoptimierung, einschließlich Anleitu
 <td><p>Wir empfehlen, dass Sie einen alternativen Pfad für den Teams-Datenverkehr angeben, der das virtuelle private Netzwerk (VPN) umgeht, was allgemein als <a href="/windows/security/identity-protection/vpn/vpn-routing">VPN mit geteiltem Tunnel</a> bezeichnet wird. „Geteilter Tunnel“ bedeutet, dass Datenverkehr von Microsoft 365 oder Office 365 nicht durch den VPN läuft, sondern direkt zu Microsoft 365 oder Office 365. Das Umgehen Ihres VPN wird einen positiven Einfluss auf die Teams-Qualität haben, und die Last für die VPN-Geräte und das Netzwerk der Organisation verringern. Wenn Sie ein VPN mit geteiltem Tunnel implementieren möchten, arbeiten Sie mit Ihrem VPN-Anbieter zusammen.</p>
 <p>Andere Gründe, warum wie die Umgehung des VPN empfehlen:
 <ul>
-<li><p>VPNs werden in der Regel nicht für die Unterstützung von Echtzeitmedien entworfen oder konfiguriert.</p></li> 
-<li><p>Einige VPNs unterstützen möglicherweise auch kein UDP (was für Teams notwendig ist).</p></li> 
-<li><p>Außerdem entsteht durch VPNs eine zusätzliche Verschlüsselungsebene über den bereits verschlüsselten Mediendatenverkehr hinaus.</p></li> 
+<li><p>VPNs werden in der Regel nicht für die Unterstützung von Echtzeitmedien entworfen oder konfiguriert.</p></li>
+<li><p>Einige VPNs unterstützen möglicherweise auch kein UDP (was für Teams notwendig ist).</p></li>
+<li><p>Außerdem entsteht durch VPNs eine zusätzliche Verschlüsselungsebene über den bereits verschlüsselten Mediendatenverkehr hinaus.</p></li>
 <li><p>Die Verbindung zu Teams ist möglicherweise nicht effizient, weil das VPN-Gerät ein Nadelöhr für den Datenverkehr darstellt.</p></li></td>
 </tr>
 <tr class="odd">
@@ -144,7 +144,7 @@ Eine ausführliche Beschreibung der Netzwerkoptimierung, einschließlich Anleitu
 
 Teams wurde dafür entwickelt, Ihnen unabhängig von Ihren Netzwerkbedingungen optimale Erfahrungen für Audio, Video und Inhaltsfreigabe zu geben. Dies bedeutet, dass Teams bei ungenügender Bandbreite die Audioqualität gegenüber der Videoqualität priorisiert.
 
-Wenn die Bandbreite nicht begrenzt ist, wird Teams die Medienqualität optimieren, bis hin zu einer Videoauflösung von 1080 Pixel, 30 Bilder pro Sekunde (Frames per Second, FPS) für Video und für Inhalte.
+Wenn die Bandbreite nicht begrenzt ist, wird Teams die Medienqualität optimieren, einschließlich HiFi-Audio, bis hin zu einer Videoauflösung von 1080 Pixel, 30 Bilder pro Sekunde (Frames per Second, FPS) für Video und für Inhalte.
 
 In dieser Tabelle wird veranschaulicht, wie Teams Bandbreite nutzt. Microsoft Teams verhält sich hinsichtlich der Bandbreitennutzung immer konservativ und kann in weniger als 1,5 MBit/s High-Definition-Videoqualität bereitstellen. Die tatsächliche Bandbreitennutzung in den einzelnen Audio/Video-Anrufen oder Besprechungen variiert abhängig von verschiedenen Faktoren, z. B. Videolayout, Videoauflösung und Videoframes pro Sekunde. Wenn mehr Bandbreite verfügbar ist, werden Qualität und Nutzung erhöht, um die besten Ergebnisse zu erzielen.
 
@@ -153,7 +153,7 @@ In dieser Tabelle wird veranschaulicht, wie Teams Bandbreite nutzt. Microsoft Te
       **Modalität**
    :::column-end:::
    :::column span="3":::
-      **Bandbreitenanforderungen (Bitrate Kilobit/s aufwärts/abwärts)**    
+      **Bandbreitenanforderungen (Bitrate Kilobit/s aufwärts/abwärts)**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -304,13 +304,13 @@ In dieser Tabelle wird veranschaulicht, wie Teams Bandbreite nutzt. Microsoft Te
 
 Die **minimalen**, **empfohlenen** und **besten** Bandbreitenanforderungen basieren auf der Nutzung pro Endpunkt. In der Regel gibt es einen Endpunkt pro Benutzer, z. B. einen Computer oder ein mobiles Gerät. Wenn ein Benutzer jedoch *sowohl* auf einem Computer *als auch* auf einem mobilen Gerät an einer Teams-Besprechung teilnimmt, sind diesem Benutzer zwei Endpunkte zugeordnet.
 
-- **Mindestanforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 240p, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 1,875 bis 7,5 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 540p.  
+- **Mindestanforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 240p, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 1,875 bis 7,5 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 540p.
 
-- **Die empfohlenen Anforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 1080p <sup>\*</sup>, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 7,5 bis 30 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 1080p <sup>\*</sup>.  
+- **Die empfohlenen Anforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 1080p <sup>\*</sup>, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 7,5 bis 30 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 1080p <sup>\*</sup>.
 
 - **Die Anleitung für beste Leistung** ermöglicht Videos mit höherer Wiedergabetreue für Besprechungen mit mehreren Teilnehmern, Umgebungen mit hohen Verlusten und Inhalten mit höherer Bewegung, wobei die Bildwiederholrate von Bildschirmfreigabeinhalten auf 15 bis 30 fps angepasst werden kann.
 
-<sup>\*</sup>Erwarten Sie eine Qualität von bis zu 1080p, aber je nach Netzwerkbedingungen werden die Videoauflösung und -qualität entsprechend optimiert.  
+<sup>\*</sup>Erwarten Sie eine Qualität von bis zu 1080p, aber je nach Netzwerkbedingungen werden die Videoauflösung und -qualität entsprechend optimiert.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

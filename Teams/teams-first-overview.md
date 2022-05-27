@@ -15,12 +15,12 @@ description: Verwenden Sie diese Anleitung, um Microsoft Teams als ihre erste Mi
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6dba57003aaa58b9d0b72e7e866da261bed578e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 2621ea94e2a35e7de9eed3dac2994f9b1932b0bb
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922686"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681726"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Rollout Microsoft Teams First
 
@@ -39,7 +39,7 @@ Um mit Ihrer Teams First-Bereitstellung zu beginnen, müssen Sie mindestens eini
 
 1.  Eine Microsoft 365 oder Office 365 Organisation, die mit Ihrem Domänennamen konfiguriert ist
 
-2.  Azure Active Directory Konnektivität (AAD Verbinden) oder eine ähnliche Cloudidentitätssynchronisierungslösung – mit allen erforderlichen Attributen, die mit Ihrem Mandanten synchronisiert werden  
+2.  Azure Active Directory-Konnektivität (AAD Connect) oder eine ähnliche Cloudidentitätssynchronisierungslösung – mit allen erforderlichen Attributen, die mit Ihrem Mandanten synchronisiert werden  
     Um die attributes synchronized with AAD sync, read [Azure AD Verbinden sync: Attribute synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Für Teams zugewiesene Benutzerlizenzen  
@@ -111,7 +111,7 @@ Bei diesem Ausgangspunkt wird davon ausgegangen, dass Ihre Organisation derzeit 
 <tr class="odd">
 <td>Erstellen und Anzeigen von Besprechungen in Teams</td>
 <td><p>In der Lage, interne und externe Besprechungen über Outlook-Add-In zu erstellen.</p>
-<p>Die PSTN-Einwahl- und -Auswahlfunktion ist mit den Audiokonferenzlizenzen verfügbar.</p>
+<p>PSTN-Einwahl- und -Auswahlfunktion ist mit den Audiokonferenz-Lizenzen verfügbar.</p>
 <p>Teams Kalenderzugriff erfordert Exchange 2016 CU3+ lokal bereitgestellt mit Exchange hybrid eingerichtet: <a href="/exchange/hybrid-deployment/deploy-hybrid">Erstellen einer Hybridbereitstellung mit dem Assistenten für die Hybridkonfiguration.</a> </p>
 
 Richten Sie neben Exchange Hybridkonfiguration Exchange OAuth-Authentifizierung ein: [Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online Organisationen](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
@@ -136,7 +136,7 @@ VoIP/PSTN in Teams</td>
 <tr class="odd">
 <td>Anwendungsplattform</td>
 <td>Benutzer können die Apps verwenden, die gemäß Ihren Unternehmensrichtlinien für sie verfügbar sind.<br />
-Weitere Informationen finden Sie hier: <a href="/microsoftteams/admin-settings">Administratoreinstellungen für Apps in Teams</a></td>
+Weitere Informationen finden Sie hier: <a href="/microsoftteams/admin-settings">Admin Einstellungen für Apps in Teams</a></td>
 </tr>
 <tr class="even">
 <td>Sicherheits- und Compliancefeatures</td>
@@ -190,7 +190,7 @@ Bei diesem Ausgangspunkt wird davon ausgegangen, dass Ihre Organisation Skype fo
 <tr class="odd">
 <td>Erstellen und Anzeigen von Besprechungen in Teams</td>
 <td><p>In der Lage, interne und externe Besprechungen über Outlook-Add-In zu erstellen.</p>
-<p>Die PSTN-Einwahl- und -Auswahlfunktion ist mit den Audiokonferenzlizenzen verfügbar.</p>
+<p>PSTN-Einwahl- und -Auswahlfunktion ist mit den Audiokonferenz-Lizenzen verfügbar.</p>
 <p>Teams kalenderzugriff erfordert Exchange 2016 CU3+ lokal bereitgestellt mit Exchange Hybrid eingerichtet:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Erstellen Sie eine Hybridbereitstellung mit dem Assistenten für die Hybridkonfiguration.</a></p>
 <p>Der Administrator kann das Skype for Business Outlook-Add-In über das PreferredMeetingProviderForIslandsMode-Attribut der Teams Besprechungsrichtlinie steuern:<a href="/powershell/module/skype/set-csteamsmeetingpolicy"> set-csteamsmeetingpolicy</a>.</p> 
@@ -214,7 +214,7 @@ VoIP/PSTN in Teams</td>
 <tr class="odd">
 <td>Anwendungsplattform</td>
 <td>Benutzer können die Apps verwenden, die gemäß Ihren Unternehmensrichtlinien für sie verfügbar sind.<br />
-Weitere Informationen finden Sie hier: <a href="/microsoftteams/admin-settings">Administratoreinstellungen für Apps in Teams</a></td>
+Weitere Informationen finden Sie hier: <a href="/microsoftteams/admin-settings">Admin Einstellungen für Apps in Teams</a></td>
 </tr>
 <tr class="even">
 <td>Sicherheits- und Compliancefeatures</td>

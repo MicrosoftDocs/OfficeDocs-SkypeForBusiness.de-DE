@@ -11,12 +11,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Endbenutzer können erfahren, wie Sie Gruppenräume in Microsoft Teams verwenden.
-ms.openlocfilehash: 77646dad78459b108f39803bb4927d849bce703f92e36c832d8606dbc3e15e94
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 308f07c071f6a88b3de9043ca986896dbabb08fc
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345114"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681416"
 ---
 # <a name="using-breakout-rooms-in-microsoft-teams"></a>Verwenden von Gruppenräumen in Microsoft Teams
 
@@ -43,13 +43,13 @@ Wenn Sie bereit sind, Ihre Gruppenraumsitzungen zu starten, wählen Sie **Räume
 
 Sie sehen, dass Teilnehmer die Hauptbesprechung verlassen und ihren Gruppenräumen beitreten.
 
-Wenn ein Teilnehmer seinen Gruppenraum verlässt, kann der Organisator den Teilnehmer zurück in den Gruppenraum verschieben, indem er die Auslassungspunkte **[...]** neben dem Namen des Teilnehmers auswählt und dann **Teilnahme anfordern** auswählt.
+Wenn ein Teilnehmer seinen Gruppenraum verlässt, kann der Organisator den Teilnehmer zurück in den Gruppenraum verschieben, indem er die Auslassungszeichen **[...]** neben dem Namen des Teilnehmers und dann " **Teilnahme anfordern"** auswählt.
 
 Wenn ein Teilnehmer später an der Hauptbesprechung teilnimmt, nachdem die Gruppenräume geöffnet wurden, kann der Organisator den Teilnehmer zu einem Gruppenraum hinzufügen. Wenn der Teilnehmer die Benachrichtigung zum Beitreten verpasst, wählen Sie **Teilnahme anfordern** aus.
 
 ## <a name="send-announcements"></a>Ankündigungen senden
 
-Der Besprechungsorganisator kann Ankündigungen an alle Teilnehmer senden, während Gruppenräume geöffnet sind. Wählen Sie die Auslassungspunkte **[...]** in der Kopfzeile der Gruppenräume aus.
+Der Besprechungsorganisator kann Ankündigungen an alle Teilnehmer senden, während Gruppenräume geöffnet sind. Wählen Sie die Auslassungszeichen **[...]** in der Kopfzeile der Gruppenräume aus.
 
 Erinnern Sie die Teilnehmer beispielsweise daran, den Besprechungsorganisator zu @erwähnen, wenn sie Hilfe benötigen, oder geben Sie ihnen einen Countdown von fünf Minuten, bevor Sie sie zurück in den Hauptraum ziehen.
 Teilnehmer erhalten die Ankündigung im Chat ihrer Gruppenräume.
@@ -58,5 +58,5 @@ Teilnehmer erhalten die Ankündigung im Chat ihrer Gruppenräume.
 
 Wählen Sie **Räume schließen** aus, um alle Teilnehmer zurück in den Hauptraum zu ziehen.
 
-Wählen Sie alternativ die Auslassungspunkte **[...]** für einen bestimmten Gruppenraum und dann **Raum schließen** aus.
+Alternativ können Sie die Auslassungszeichen **[...]** für einen bestimmten Gruppenraum und dann " **Raum schließen"** auswählen.
 Sobald ein Gruppenraum geschlossen ist, wird der Chat für diese Sitzung geschlossen. Teilnehmer können dort nicht weiter chatten.

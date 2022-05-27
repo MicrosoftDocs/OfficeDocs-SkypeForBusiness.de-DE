@@ -7,23 +7,29 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-voice
+- M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
-ms.custom: Learn how to use PowerShell to manage inbound call blocking.
+ms.custom: ''
+description: Erfahren Sie, wie Sie die Blockierung eingehender Anrufe mithilfe von PowerShell verwalten.
+ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674387"
 ---
-
 # <a name="block-inbound-calls"></a>Blockieren eingehender Anrufe
 
 Microsoft-Anrufpläne, Direct Routing und Telefonieanbieter unterstützen alle das Blockieren eingehender Anrufe aus dem öffentlichen Telefonnetz (PSTN). Mit dieser Funktion kann ein Administrator eine Liste von Nummernmustern auf globaler Ebene des Mandanten definieren, sodass die Anrufer-ID jedes eingehenden PSTN-Anrufs an den Mandanten mit der Liste auf Übereinstimmung geprüft werden kann. Wenn eine Übereinstimmung erfolgt, wird ein eingehender Anruf abgelehnt.
 
-Diese Funktion zum Blockieren eingehender Anrufe funktioniert nur bei eingehenden Anrufen, die aus dem PSTN stammen, und funktioniert nur auf globaler Mandantenebene. Einzelne Teams-Benutzer können diese Liste nicht bearbeiten. Der Teams-Client ermöglicht es einzelnen Benutzern, PSTN-Anrufe zu blockieren. Informationen dazu, wie Ihre Endbenutzer die Anrufblockierung implementieren können, finden Sie unter [Anrufeinstellungen in Teams verwalten](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Diese Funktion zum Blockieren eingehender Anrufe funktioniert nur bei eingehenden Anrufen, die aus dem PSTN stammen, und funktioniert nur auf globaler Mandantenebene. Einzelne Teams Benutzer können diese Liste nicht bearbeiten. Der Teams-Client ermöglicht es einzelnen Benutzern, PSTN-Anrufe zu blockieren. Informationen dazu, wie Ihre Endbenutzer die Anrufblockierung implementieren können, finden Sie unter [Anrufeinstellungen in Teams verwalten](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
->[!NOTE]
-> Blockierte Anrufer können geringfügig unterschiedliche Verhaltensweisen aufweisen, nachdem sie blockiert wurden. Das Verhalten basiert darauf, wie der Betreiber des blockierten Anrufers die Benachrichtigung behandelt, dass der Anruf nicht erfolgreich abgeschlossen werden darf. Beispiele für Netzbetreibernachrichten können besagen, dass der Anruf nicht über die gewählte Nummer abgeschlossen werden kann, oder der Anruf wird einfach beendet.
+> [!NOTE]
+> Blockierte Anrufer können geringfügig unterschiedliche Verhaltensweisen aufweisen, nachdem sie blockiert wurden. Das Verhalten basiert darauf, wie der Netzbetreiber des blockierten Anrufers die Benachrichtigung verarbeitet, dass der Anruf nicht erfolgreich abgeschlossen werden darf. Beispiele für Netzbetreibernachrichten können besagen, dass der Anruf nicht über die gewählte Nummer abgeschlossen werden kann, oder der Anruf wird einfach beendet.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Administratorsteuerelemente und Informationen zum Blockieren von Anrufen
 
@@ -47,7 +53,7 @@ Das Anzeigen und Aktivieren der gesamten Anrufblockierungsfunktion wird über di
 
 #### <a name="block-a-number"></a>Eine Telefonnummer blockieren
 
-Im folgenden Beispiel möchte der Mandantenadministrator alle Anrufe blockieren, die aus dem Nummernkreis 1 (312) 555-0000 bis 1 (312) 555-9999 kommen. Das Nummernmuster wird so erstellt, dass sowohl Nummern im Bereich mit + vorangestelltem als auch Nummern im Bereich ohne + vorangestelltem übereinstimmen. Sie müssen die Symbole – und () nicht in die Telefonnummern einfügen, da das System diese Symbole vor dem Abgleich entfernt.  Um das Zahlenmuster einzuschalten, wird der Parameter **Enabled** auf True gesetzt. Um dieses spezielle Zahlenmuster zu deaktivieren, setzen Sie den Parameter auf False.
+Im folgenden Beispiel möchte der Mandantenadministrator alle Anrufe blockieren, die aus dem Nummernkreis 1 (312) 555-0000 bis 1 (312) 555-9999 kommen. Das Nummernmuster wird so erstellt, dass sowohl Nummern im Bereich mit + vorangestelltem als auch Nummern im Bereich ohne + vorangestelltem übereinstimmen. Sie müssen die Symbole und () nicht in die Telefonnummern einschließen, da das System diese Symbole vor dem Abgleich entfernt.  Um das Zahlenmuster einzuschalten, wird der Parameter **Enabled** auf True gesetzt. Um dieses spezielle Zahlenmuster zu deaktivieren, setzen Sie den Parameter auf False.
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
@@ -65,7 +71,7 @@ Wir empfehlen Ihnen, einen aussagekräftigen Namen anzugeben, der es leicht vers
 
 Muster werden mit regulären Ausdrücken (RegEx) abgeglichen. Weitere Informationen finden Sie unter [Regex verwenden](#using-regex).
 
-Lassen Sie vor dem Testen und Überprüfen Zeit für die Replikation zu. 
+Lassen Sie vor dem Testen und Überprüfen Zeit für die Replikation zu.
 
 #### <a name="allow-a-number"></a>Eine Telefonnummer zulassen
 
@@ -74,7 +80,7 @@ Sie können einer Nummer erlauben, anzurufen, indem Sie das gesperrte Nummernmus
 ```PowerShell
 Remove-CsInboundBlockedNumberPattern -Identity "BlockNumber1"
 ```
- 
+
 Wenn die Identität nicht bekannt ist, verwenden Sie das Cmdlet **Get-CsInboundBlockedNumberPattern**, um zuerst das richtige Muster zu suchen und die Identität zu notieren. Führen Sie dann das Cmdlet **Remove-CsInboundBlockedNumberPattern** aus und übergeben Sie den entsprechenden Identitätswert.
 
 Lassen Sie vor dem Testen und Überprüfen Zeit für die Replikation zu.
@@ -93,7 +99,7 @@ Verwenden Sie integrierte PowerShell-Filterfunktionen, um die wiedergegebenen We
 
 Sie können Ausnahmen zu blockierten Zahlenmustern hinzufügen, indem Sie die Cmdlets **New-**, **Get-**, **Set-** und **Remove-CsInboundExemptNumberPattern** verwenden.
 
-- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) fügt der Mandantenliste ein Nummernausnahmemuster hinzu. 
+- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) fügt der Mandantenliste ein Nummernausnahmemuster hinzu.
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) gibt eine Liste aller Nummernausnahmemuster zurück, die der Mandantenliste hinzugefügt wurden.
 - [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) ändert einen oder mehrere Parameter in ein Nummernausnahmemuster in der Mandantenliste.
 - [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) entfernt ein Nummernausnahmemuster aus der Mandantenliste.
@@ -110,25 +116,24 @@ New-CsInboundExemptNumberPattern  -Identity "AllowContoso1" -Pattern "^\+?131255
 
 Um das Zahlenmuster einzuschalten, wird der Parameter **Enabled** auf True gesetzt. Um dieses spezielle Zahlenmuster zu deaktivieren, setzen Sie den Parameter auf False.
 
-
 #### <a name="view-all-number-exceptions"></a>Alle Nummernausnahmen anzeigen
 
 In diesem Beispiel ist der Parameter **Identität** optional. Wenn der Parameter **Identität** nicht angegeben ist, gibt dieses Cmdlet eine Liste aller für einen Mandanten eingegebenen Nummernausnahmemuster wieder.
- 
+
 ```powershell
 Get-CsInboundExemptNumberPattern -Identity <String>
 ```
- 
+
 ```powershell
-Get-CsInboundExemptNumberPattern 
+Get-CsInboundExemptNumberPattern
 ```
 
 #### <a name="modify-a-number-exception"></a>Nummernausnahme ändern
 
 Mit dem Cmdlet **Set-CsInboundExemptNumberPattern** können Sie einen oder mehrere Parameter für eine bestimmte Zahlenmusteridentität ändern. In diesem Beispiel ist der Parameter **Identität** erforderlich.
- 
+
 ```powershell
-Set-CsInboundExemptNumberPattern -Identity <String> -Enabled <bool> -Description <string> -Pattern <string> 
+Set-CsInboundExemptNumberPattern -Identity <String> -Enabled <bool> -Description <string> -Pattern <string>
 ```
 
 ```powershell
@@ -137,9 +142,9 @@ Set-CsInboundExemptNumberPattern -Identity "AllowContoso1" -Enabled $False
 
 #### <a name="remove-a-number-exception"></a>Zahlenausnahme ändern
 
-Das Cmdlet **Remove-CsInboundExemptNumberPattern** entfernt das angegebene Zahlenmuster aus der Mandantenliste. In diesem Beispiel ist der Parameter **Identität** erforderlich. 
+Das Cmdlet **Remove-CsInboundExemptNumberPattern** entfernt das angegebene Zahlenmuster aus der Mandantenliste. In diesem Beispiel ist der Parameter **Identität** erforderlich.
 
-Wenn die Identität nicht bekannt ist, verwenden Sie das Cmdlet **Get-CsInboundExemptNumberPattern**, um zuerst das richtige Muster zu suchen und die Identität zu notieren. Führen Sie dann das Cmdlet **Remove-CsInboundExemptNumberPattern** aus und übergeben Sie den entsprechenden Identitätswert.Lassen Sie vor dem Testen und Überprüfen Zeit für die Replikation zu.  
+Wenn die Identität nicht bekannt ist, verwenden Sie das Cmdlet **Get-CsInboundExemptNumberPattern**, um zuerst das richtige Muster zu suchen und die Identität zu notieren. Führen Sie dann das Cmdlet **Remove-CsInboundExemptNumberPattern** aus und übergeben Sie den entsprechenden Identitätswert. Lassen Sie vor dem Testen und Überprüfen Zeit für die Replikation zu.
 
 ```powershell
 Remove-CsInboundExemptNumberPattern -Identity <String>
@@ -152,7 +157,7 @@ Remove-CsInboundExemptNumberPattern -Identity "AllowContoso1"
 ## <a name="test-whether-a-number-is-blocked"></a>Testen, ob eine Zahl blockiert ist
 
 Verwenden Sie das Cmdlet **Test-CsInboundBlockedNumberPattern**, um zu überprüfen, ob eine Zahl im Mandanten blockiert ist.
- 
+
 Der Parameter **PhoneNumber** ist erforderlich und sollte eine numerische Zeichenfolge ohne zusätzliche Zeichen wie +, - oder () sein. Der resultierende Parameter **IsNumberBlocked** gibt den Wert True zurück, wenn die Nummer im Mieter blockiert ist; der Parameter gibt False zurück, wenn er nicht blockiert ist.
 
 ```powershell

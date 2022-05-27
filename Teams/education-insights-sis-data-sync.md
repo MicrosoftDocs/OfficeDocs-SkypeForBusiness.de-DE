@@ -16,25 +16,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22b66800e71f1cea90c31b7091eb98a99466e9f
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 25ab96f30aca6bee084a4bac7304ababe3a0660c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363021"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675877"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren
+
 Je mehr Daten in [Education Insights](class-insights.md) eingespeist werden, desto besser können Dozenten Ihre Schüler/Studenten sowie Schulleiter ihre Dozenten unterstützen.
 
-Um Einblicke auf Organisationsebene bereitzustellen, müssen wir [School Data Sync (SDS)](/SchoolDataSync) verwenden, um eine Verbindung mit dem Schülerinformationssystem (SIS) herzustellen, damit Insights die hierarchische Struktur des Bildungssystems richtig zugeordnet ist. 
+Um Einblicke auf Organisationsebene bereitzustellen, müssen wir [School Data Sync (SDS)](/SchoolDataSync) verwenden, um eine Verbindung mit dem Schülerinformationssystem (SIS) herzustellen, damit Insights die hierarchische Struktur des Bildungssystems richtig zugeordnet ist.
 
 Dies ist *nicht* erforderlich für das Anzeigen von Insights auf Klassenebene als Dozent der Klasse, weil wir die Klassenstruktur und Berechtigungen von Teams verwenden.
 
 ## <a name="plan-your-school-data-sync-integration"></a>Planen der School Data Sync (SDS) Integration
-Die Microsoft School Data Sync (SDS) stellt die Schüler-/Studenteninformationssystems (SIS)-Daten bereit und bildet die hierarchische Struktur des Bildungssystems und ordnet zu, welcher Benutzer wo zugewiesen ist, sowie zusätzliche Daten zur Hierarchie von Schülern und Organisationen.
+
+Microsoft School Data Sync (SDS) stellt die Daten für das Studenteninformationssystems (SIS) und dessen hierarchische Struktur des Bildungssystems bereit, und bildet ab, welcher Benutzer wo zugewiesen ist, und liefert zusätzliche Daten zur Hierarchie von Lernenden und Organisationen.
 
 Insights funktioniert am besten bei Verwendung des [SDS V2.1-Dateiformats](/schooldatasync/sds-v2.1-csv-file-format), unterstützt aber auch das [SDS V2-Dateiformat](/schooldatasync/sds-v2-csv-file-format) und das  [SDS V1-Dateiformat](/schooldatasync/school-data-sync-format-csv-files-for-sds) *mit eingeschränkter Funktionalität*.
-
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>Unterschiede zwischen den Dateiformaten SDS V1 und V2
 
@@ -54,31 +55,33 @@ Die genaue Abbildung der Hierarchie und die Zuordnung der Personen innerhalb die
 Je mehr Details Sie hier bereitstellen, desto besser und relevanter werden die Berichte und Spotlights sein.
 
 #### <a name="file-format-version-to-use-adn-data-to-sync"></a>Zu verwendende Dateiformatversion und zu synchronisierende Daten
-*   Verwenden Sie das Dateiformat V2.1, und synchronisieren Sie die optionalen Daten, die von Education Insights verwendet werden, wie [hier](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv) beschrieben.
+
+- Verwenden Sie das Dateiformat V2.1, und synchronisieren Sie die optionalen Daten, die von Education Insights verwendet werden, wie [hier](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv) beschrieben.
 
 #### <a name="users-and-roles"></a>Benutzer und Rollen
-*   Vergewissern Sie sich, dass **alle Benutzer in den Dateien aufgeführt sind**, die Sie bereitstellen und synchronisieren. Dies schließt alle Schüler/Studenten und Mitarbeiter ein, die Daten aus den für sie relevanten Organisationseinheiten sehen müssen.
-*   Wenn im SIS derzeit nur Dozenten aufgelistet sind, fügen Sie alle anderen Benutzer manuell hinzu, bevor Sie die Dateien in SIS hochladen und die Daten synchronisieren. Die von Insights gesammelten Statistiken stammen nur von den registrierten Schüler/Studenten. Wenn einige Schüler/Studenten fehlen, führt dies zu irreführenden Daten und Schlussfolgerungen.
-    
-*   Wenn Sie SDS auch für die Bereitstellung verwenden, stellen Sie sicher, dass Sie **den Vor- und Nachnamen jedes Benutzers angeben**. Andernfalls wird auf die Schüler/Stuenten anhand ihre E-Mail-Adresse referenziert, was zu einer nicht optimalen Erfahrung führt.
 
-*   Die Klassen-/Jahrgangsstufe muss auf dieser [Zuordnungsliste](#supported-grade-level-values)basieren. 
+- Vergewissern Sie sich, dass **alle Benutzer in den Dateien aufgeführt sind**, die Sie bereitstellen und synchronisieren. Dies schließt alle Schüler/Studenten und Mitarbeiter ein, die Daten aus den für sie relevanten Organisationseinheiten sehen müssen.
+- Wenn im SIS derzeit nur Dozenten aufgelistet sind, fügen Sie alle anderen Benutzer manuell hinzu, bevor Sie die Dateien in SIS hochladen und die Daten synchronisieren. Die von Insights gesammelten Statistiken stammen nur von den registrierten Schüler/Studenten. Wenn einige Schüler/Studenten fehlen, führt dies zu irreführenden Daten und Schlussfolgerungen.
 
-*   Stellen Sie sicher, dass sie **allen Schülern/Studenten die Klassen-/Jahrgangsstufe hinzufügen** .    
+- Wenn Sie SDS auch für die Bereitstellung verwenden, stellen Sie sicher, dass Sie **den Vor- und Nachnamen jedes Benutzers angeben**. Andernfalls wird auf die Schüler/Stuenten anhand ihre E-Mail-Adresse referenziert, was zu einer nicht optimalen Erfahrung führt.
 
-*   Stellen Sie sicher, dass **jeder Benutzer der entsprechenden Organisationseinheit zugewiesen wird**.
+- Die Klassen-/Jahrgangsstufe muss auf dieser [Zuordnungsliste](#supported-grade-level-values)basieren.
 
-    *   Ein Schüler/Student kann mehr als einer Organisationseinheit zugeordnet werden, z. B. Schüler/Studenten, die in einem speziellen Programm oder an zwei Fakultäten eingeschrieben sind. Falls der Schüler/Student mehr als einer Organisationseinheit zugefügt ist, geben Sie für jede eine Zeile in der Benutzerdatei für diesen Schüler/Studenten an.
-    
-    *   Der IT-Administrator kann basierend auf der Organisationseinheit Berechtigungen für Mitarbeiter erteilen. **Stellen Sie sicher, dass die Mitarbeiter der richtigen Einheitenebene** zugeordnet sind, damit sie die erforderlichen Berechtigungen erhalten. Zum Beispiel muss ein Beratungslehrer, der vier Schulen zugewiesen ist, alle Noten in diesen Schulen sehen; ein Schulleiter muss alle Klassen in seiner Schule sehen. 
-    
-*   **Die Rolle ist wichtig**. Obwohl diese Liste geschlossen ist, versuchen Sie, die Rolle aus [der Liste](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) mit der tatsächlichen Rolle jedes Benutzers abzustimmen, den Sie hochladen. Auf diese Weise können Sie rollenbasierte Berechtigungen entsprechend zuweisen. Geben Sie z. B. allen Schuldirektoren die Berechtigung, die Klassen in ihrer Schule zu sehen, oder allen Professoren, ihre Fakultät zu sehen. 
+- Stellen Sie sicher, dass sie **allen Schülern/Studenten die Klassen-/Jahrgangsstufe hinzufügen** .
+
+- Stellen Sie sicher, dass **jeder Benutzer der entsprechenden Organisationseinheit zugewiesen wird**.
+
+  - Ein Schüler/Student kann mehr als einer Organisationseinheit zugeordnet werden, z. B. Schüler/Studenten, die in einem speziellen Programm oder an zwei Fakultäten eingeschrieben sind. Falls der Schüler/Student mehr als einer Organisationseinheit zugefügt ist, geben Sie für jede eine Zeile in der Benutzerdatei für diesen Schüler/Studenten an.
+
+  - Der IT-Administrator kann basierend auf der Organisationseinheit Berechtigungen für Mitarbeiter erteilen. **Stellen Sie sicher, dass die Mitarbeiter der richtigen Einheitenebene** zugeordnet sind, damit sie die erforderlichen Berechtigungen erhalten. Zum Beispiel muss ein Beratungslehrer, der vier Schulen zugewiesen ist, alle Noten in diesen Schulen sehen; ein Schulleiter muss alle Klassen in seiner Schule sehen.
+
+- **Die Rolle ist wichtig**. Obwohl diese Liste geschlossen ist, versuchen Sie, die Rolle aus [der Liste](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) mit der tatsächlichen Rolle jedes Benutzers abzustimmen, den Sie hochladen. Auf diese Weise können Sie rollenbasierte Berechtigungen entsprechend zuweisen. Geben Sie z. B. allen Schuldirektoren die Berechtigung, die Klassen in ihrer Schule zu sehen, oder allen Professoren, ihre Fakultät zu sehen.
 
 #### <a name="organizations"></a>Organisationen
 
-* Stellen Sie sicher, dass **die tatsächliche und vollständige Hierarchie Ihrer Organisation** widergespiegelt wird. In einigen Fällen wird diese Hierarchie nicht im SIS widergespiegelt. In diesem Fall muss sie vor der Synchronisierung manuell der CSV-Datei hinzugefügt werden.
+- Stellen Sie sicher, dass **die tatsächliche und vollständige Hierarchie Ihrer Organisation** widergespiegelt wird. In einigen Fällen wird diese Hierarchie nicht im SIS widergespiegelt. In diesem Fall muss sie vor der Synchronisierung manuell der CSV-Datei hinzugefügt werden.
 
-* Stellen Sie sicher, dass **alle Organisationseinheiten entlang der Organisationsstruktur Schüler/Studenten oder Klassen enthalten**. Es wird empfohlen, dass Schüler/Studenten der untersten Organisationsebene zugewiesen werden.
+- Stellen Sie sicher, dass **alle Organisationseinheiten entlang der Organisationsstruktur Schüler/Studenten oder Klassen enthalten**. Es wird empfohlen, dass Schüler/Studenten der untersten Organisationsebene zugewiesen werden.
 
 > [!NOTE]
 > Weitere Details zur SDS-Bereitstellung finden Sie unter [SDS planen](/schooldatasync/planning-school-data-sync).
@@ -94,7 +97,8 @@ Als IT-Administrator können wählen, ob Sie SDS nur für die Bereitstellung, nu
 Um Ihre SIS-Informationen mit Educations Insights zu synchronisieren, befolgen Sie die Anweisungen in [Bereitstellen von SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### <a name="deploy-sds"></a>Bereitstellen von SDS
-**Wenn Sie SDS bereits verwenden**, empfiehlt es sich, unsere [bewährten Methoden](#best-practices) zu berücksichtigen. 
+
+**Wenn Sie SDS bereits verwenden**, empfiehlt es sich, unsere [bewährten Methoden](#best-practices) zu berücksichtigen.
 
 **Wenn Sie SDS noch nicht verwenden**, müssen Sie es jetzt [bereitstellen](/schooldatasync/deploying-school-data-sync).
 
@@ -104,6 +108,7 @@ Während des Bereitstellungsprozesses können Sie entscheiden, ob Sie SDS für d
 > Wenn es Mitte des Jahres ist und Sie Teams bereits manuell erstellt haben, verwenden Sie SDS nur, um die Benutzer- und Organisationshierarchiedaten für Insights bereitzustellen, und erwägen Sie im nächsten Jahr, SDS auch für die Bereitstellung von Benutzern und Klassen in Teams zu verwenden.
 
 ### <a name="verify-the-sync-process"></a>Überprüfen des Synchronisierungsprozesses
+
 Um den Fortschritt des Synchronisierungsstatus zu überprüfen, befolgen Sie die Anweisungen in [SDS for Insights Datenintegrität und -Überwachung](/schooldatasync/sds-for-insights-data-health-and-monitoring).
 
 > [!IMPORTANT]
@@ -116,8 +121,9 @@ In den SDB-Dateien wird die Klassen-/Jahrgangsstufe als Aufzählungswerte defini
 Der folgende Abschnitt definiert die unterstützten Werte in der Datei des Benutzers.
 
 ### <a name="united-states--worldwide-grade-levels"></a>Vereinigte Staaten / weltweite Klassenstufen
+
 |Wert in der Datei (Spalte Klasse) | Bezeichnung in Insights|
-|:---|:---| 
+|---|---|
 |IT|Säugling|
 |PR|Vorschule|
 |PK|Vor-Kindergarten|
@@ -149,8 +155,9 @@ Der folgende Abschnitt definiert die unterstützten Werte in der Datei des Benut
 |Andere|Andere|
 
 ### <a name="united-kingdom-year-groups"></a>Vereinigtes Königreich Jahrgangsgruppen
+
 |Wert in der Datei (Spalte Klasse) | Bezeichnung in Insights|
-|:---|:---| 
+|---|---|
 |IT|Kindergarten|
 |PR|Vorschule|
 |PK|Empfang|
@@ -179,4 +186,3 @@ Der folgende Abschnitt definiert die unterstützten Werte in der Datei des Benut
 |Erwachsenenbildung|Erwachsenenbildung|
 |UG|Nicht bewertet|
 |Andere|Andere|
-

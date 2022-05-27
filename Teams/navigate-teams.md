@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635243"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674837"
 ---
 # <a name="navigate-microsoft-teams"></a>Navigieren Microsoft Teams
 
@@ -89,7 +89,7 @@ Es gibt zwei Möglichkeiten, Ihre Kaizala flachen Gruppen in Teams zu verschiebe
 
 - Option 2: Wechseln von einer Kaizala flachen Gruppe zu einem Teams Team
 
-**Option 1: Wechseln von einer Kaizala flachen Gruppe zu einem Gruppenchat in Teams**
+**Option 1: Wechseln von einer Kaizala Flachgruppe zu einem Gruppenchat in Teams**:
 
 Sie können einen Teams Gruppenchat erstellen, um schnelle Gespanne und kurzlebige Unterhaltungen mit bis zu 250 Teilnehmern abzuhalten. Gruppenchats ermöglichen Es Personen in Ihrer Organisation, einen zentralen Ort für offene Unterhaltungen zu haben, an dem jeder zum Chat hinzugefügt werden kann.
 
@@ -102,23 +102,23 @@ Sie können einen Teams Gruppenchat erstellen, um schnelle Gespanne und kurzlebi
 2. Fügen Sie der Unterhaltung Personen hinzu.
 
     ![Hinzufügen von Personen zur Unterhaltung](media/kaizala-to-teams-image5.png)
-    
+
    Wenn Sie eine Person zu einem Gruppenchat hinzufügen (keine Einzelchats), können Sie den **Chatverlauf** und die **Dauer des Verlaufs** einschließen, den Sie für sie freigeben möchten.
 
 3. Verwalten des Gruppenchats.
   
     ![Verwalten des Gruppenchats](media/manage-groupchats.png)
-    
+
    Wenn Sie sehen möchten, wer sich in einem Gruppenchat befindet, zeigen Sie mit der Maus auf die Anzahl der Teilnehmer im Chatheader, um eine Liste aller Namen anzuzeigen.
 
-**Option 2: Wechseln von einer Kaizala flachen Gruppe zu einem Teams Team**
-   
+**Option 2: Wechseln von einer Kaizala flachen Gruppe zu einem Teams Team**:
+
 Für eine gezielte Kommunikation mit großen Gruppen können Sie ein Team für eine flache Gruppe erstellen. Sie können bis zu 25.000 Mitglieder hinzufügen, um eine strukturierte Kommunikation mit Unterhaltungsthreads zu führen. Diese Art der Kommunikation ermöglicht Moderations- und Verwaltungsrollen, um sicherzustellen, dass alles reibungslos läuft.
 
 1. Erstellen Eines Teams: Um in Teams auf den Ersten Blick zu arbeiten, sollten Sie ein Team erstellen, Personen hinzufügen und Kanäle hinzufügen. Weitere Informationen finden Sie in [Ihren ersten Teams](get-started-with-teams-create-your-first-teams-and-channels.md).
 2. Lesen Sie den Leitfaden für Teambesitzer:
 
-Als [Teambesitzer](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us) können Sie neue Mitglieder und Gäste hinzufügen, Mitglieder in Besitzer ändern, Kanäle und Einstellungen verwalten und ein Team archivieren, das nicht mehr verwendet wird.
+   Als [Teambesitzer](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us) können Sie neue Mitglieder und Gäste hinzufügen, Mitglieder in Besitzer ändern, Kanäle und Einstellungen verwalten und ein Team archivieren, das nicht mehr verwendet wird.
 
 3. Hinzufügen von Massenmitgliedern zu einem Team:
 
@@ -295,7 +295,7 @@ Befolgen Sie diesen dreistufigen Ansatz, um Ihre Lösungen auf Microsoft Teams z
 
 ### <a name="it-professionals"></a>IT-Experten
 
-Machen Sie den Administrativen Übergang vom Kaizala Verwaltungsportal zum Microsoft Teams Admin Center. Das Teams Admin Center dient in erster Linie nur der Verwendung von Administratorrollen.
+Machen Sie den administrativen Übergang vom Kaizala Verwaltungsportal zum Microsoft Teams Admin Center. Das Teams Admin Center dient in erster Linie nur der Verwendung von Administratorrollen.
 
 Administratoren können den gesamten Workload von Teams verwalten oder delegierte Berechtigungen zur Behandlung von Problemen mit der Anrufqualität oder zum Verwalten der Telefoniebedürfnisse Ihrer Organisation besitzen.
 
@@ -318,7 +318,7 @@ Verwenden Sie die folgende Tabelle, um über das Kaizala Verwaltungsportal in de
 | Verzeichnis | Suchen Sie über die **Suchleiste** in Teams nach allen Personen in Ihrer Organisation. Die Suchergebnisse geben auch Dateien, Nachrichten und Beiträge zurück. |
 | Analyse (Aktionskarten) | **Umfragen**, **Umfragen** und **Checklisten** haben Berichte mit herunterladbaren Daten integriert. Aufträge können auch mithilfe der Aufgaben-App in Teams zugewiesen werden, die für Benutzer verfügbar ist. Für weitere Szenarien, Apps von Drittanbietern wie **Trello**, kann **Asana** auch für die Verwendung innerhalb Teams untersucht werden. |
 | Erweiterungen – Connectors | Verwenden Sie die Option **"Verbinder** " aus dem Menü (...) für jeden Kanal, für den der Verbinder erforderlich ist. |
-| [Analysebericht (Nutzung) Einführung](teams-analytics-and-reports/view-analytics.md), [Nutzungsbericht](teams-analytics-and-reports/teams-usage-report.md), [Aktivitätsbericht](teams-analytics-and-reports/user-activity-report.md) | Teambesitzer können auf Berichte für ihre Teams zugreifen, indem sie über das Menü (...) navigieren, um **teamanalytics** >  zu **verwalten**. |
+| [Analysebericht (Nutzung) Einführung](teams-analytics-and-reports/view-analytics.md), [Nutzungsbericht](teams-analytics-and-reports/teams-usage-report.md), [Aktivitätsbericht](teams-analytics-and-reports/user-activity-report.md) | Teambesitzer können auf Berichte für ihre Teams zugreifen, indem sie über das Menü (...) navigieren, um **Teamanalysen** >  zu **verwalten**. |
 
 > [!NOTE]
 > Teams Endbenutzer können Teams auf desktop- oder mobilen Geräten verwenden, um ihre einzelnen Teams und Kanäle zu verwalten, und müssen nicht auf das Teams Admin Center zugreifen.

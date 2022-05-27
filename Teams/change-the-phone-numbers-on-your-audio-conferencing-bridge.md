@@ -1,5 +1,5 @@
 ---
-title: Ändern von Telefonnummern in der Audiokonferenzbrücke
+title: Ändern von Telefonnummern auf Audiokonferenz Brücke
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Erfahren Sie, welche Schritte erforderlich sind, um Ihrer Konferenzbrücke eine neue Diensttelefonnummer zuzuweisen, um die Abdeckung für Ihre Benutzer zu erweitern.
-ms.openlocfilehash: 25af462ec7e531bdbaec01ee2a8b37c43376a48e
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 0433577334dca5f84854ba1cdc14b81e4ec37e63
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016647"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674777"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
-Wenn Sie **Audiokonferenzlizenzen** kaufen, hosten Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahltelefonnummern von verschiedenen Orten aus, sodass Besprechungsorganisatoren und Teilnehmer diese verwenden können, um per Telefon an Skype for Business oder Microsoft Teams Besprechungen teilzunehmen.
-  
+Wenn Sie **Audiokonferenz-Lizenzen** erwerben, hosten Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahltelefonnummern von verschiedenen Orten aus, sodass Besprechungsorganisatoren und Teilnehmer diese verwenden können, um per Telefon an Skype for Business oder Microsoft Teams Besprechungen teilzunehmen.
+
 Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits zugewiesen sind, können Sie [zusätzliche Servicenummern](./getting-service-phone-numbers.md) (gebührenpflichtige und gebührenfreie Telefonnummern, die für Audiokonferenzen verwendet werden) von anderen Standorten abrufen und diese dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
-  
+
 > [!NOTE]
 > Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer* sein. Sie können die Art der Nummer anzeigen, die sie ist, indem Sie im Microsoft Teams Admin Center zu **VoIP** >  **Telefon Nummern** navigieren und in der Spalte **"Zahlentyp"** nachschauen. Microsoft 365 oder Office 365 Guthaben für Kommunikationen müssen zuerst eingerichtet werden, damit Benutzer sich über eine gebührenfreie Nummer in die Brücke einwählen können.
 
@@ -50,7 +50,7 @@ Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits zugewiesen
 
 2. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie auf **"Bearbeiten"**.
 
-3. Erweitern Sie auf der Seite **"Bearbeiten"** unter **"Zugewiesen an**" die Dropdownliste, und wählen Sie dann **"KonferenzbrückeAnwendung** > " aus.
+3. Erweitern Sie auf der Seite **"Bearbeiten"** unter **"Zugewiesen an**" die Dropdownliste, und wählen Sie dann **"Konferenzbrücke** > **übernehmen"** aus.
 
 ### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Schritt 2 : Ändern der Standardtelefonnummer Ihrer Konferenzbrücke (optional)
 
@@ -58,7 +58,7 @@ Die Standardtelefonnummer Ihrer Konferenzbrücke definiert die Anrufer-ID, die v
 
 Nur eine gebührenpflichtige Servicenummer kann als Standardnummer für Ihre Konferenzbrücke festgelegt werden. **gebührenfreie Servicenummern können nicht als Standardnummer Ihrer Konferenzbrücke festgelegt werden**. Wenn Sie eine gebührenpflichtige Dienstnummer zuweisen und diese als neue Standardnummer für Ihre Audiokonferenzbrücke festlegen möchten, führen Sie die folgenden Schritte aus:
 
-1. Wechseln Sie im linken Navigationsbereich **zu** >  **MeetingsConference-Brücken**.
+1. Wechseln Sie im linken Navigationsbereich zu **den Brücken der Besprechungskonferenz** > .
 
 2. Markieren Sie die gebührenpflichtige Dienstnummer, die Sie als Standard konfigurieren möchten.
 
@@ -69,14 +69,14 @@ Nur eine gebührenpflichtige Servicenummer kann als Standardnummer für Ihre Kon
 Weitere Informationen finden [Sie unter Festlegen der Telefonnummern, die in Einladungen in Microsoft Teams enthalten sind](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 > [!NOTE]
-> Sie können Telefonnummern auch festlegen, indem Sie sie der *TeamsAudioconferencingpolicy* hinzufügen und die Richtlinie Ihren Benutzern zuweisen. Gebührenpflichtige und gebührenfreie Telefonnummern, die der Richtlinie hinzugefügt wurden, haben Vorrang vor den Telefonnummern, die über den Einstellungsbereich für Audiokonferenzen einzeln für Benutzer festgelegt werden. Wenn der *Teamsaudioconferencingpolicy* keine Telefonnummern hinzugefügt werden, wird die individuell für Benutzer über den Bereich "Audiokonferenzeinstellungen" festgelegte Telefonnummer in Microsoft Teams Besprechungsanfragen angezeigt. [Die Richtlinieneinstellungen für Audiokonferenzen für gebührenpflichtige und gebührenfreie Telefonnummern](audio-conferencing-toll-free-numbers-policy.md) enthalten weitere Informationen.
+> Sie können Telefonnummern auch festlegen, indem Sie sie der *TeamsAudioconferencingpolicy* hinzufügen und die Richtlinie Ihren Benutzern zuweisen. Gebührenpflichtige und gebührenfreie Telefonnummern, die der Richtlinie hinzugefügt wurden, haben Vorrang vor den Telefonnummern, die über den Einstellungsbereich für Audiokonferenzen einzeln für Benutzer festgelegt werden. Wenn der *Teamsaudioconferencingpolicy* keine Telefonnummern hinzugefügt werden, wird die individuell für Benutzer über den Bereich "Audiokonferenzeinstellungen" festgelegte Telefonnummer in Microsoft Teams Besprechungsanfragen angezeigt. [Audiokonferenz Richtlinieneinstellungen für gebührenpflichtige und gebührenfreie Nummern](audio-conferencing-toll-free-numbers-policy.md) enthält weitere Informationen.
 
 ### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Schritt 4: Aktualisieren vorhandener Besprechungseinladungen von Benutzern mithilfe des Besprechungsmigrationsdiensts (optional)
 
 Für die nächsten beiden Schritte müssen Sie mit Windows PowerShell beginnen.
-  
+
 Wenn Sie die Standardtelefonnummern aktualisiert haben, die in den Besprechungseinladungen für einige oder alle Benutzer enthalten sind, können Sie optional Besprechungseinladungen aktualisieren, die bereits an Benutzer in Ihrer Organisation gesendet wurden, bevor ihre Standardtelefonnummern mithilfe des Besprechungsmigrationsdiensts geändert wurden. Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
-  
+
 - Führen Sie Meeting Migration Service (MMS) für die Benutzer aus, deren Standardtelefonnummern in Schritt 2 geändert wurden. Führen Sie dazu den folgenden Befehl aus:
 
 ```PowerShell
@@ -122,7 +122,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
 Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
-  
+
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Schritt 3 - Aufheben der Zuweisung der alten Telefonnummer zur Audiokonferenzbrücke
 
 Verwenden Sie das cmdlet Unregister-CsOnlineDialInConferencingServiceNumber, um die Registrierung einer gebührenpflichtigen oder gebührenfreien Nummer von einer Konferenzbrücke aufzuheben.
@@ -192,7 +192,7 @@ Das Ergebnis sollte neben anderen Informationen wie "Identity", "Name" und "Regi
 **Beispiel**: Um die Zuweisung aufzuheben, wird die DefaultServiceNumber "8005551234"
 
 ```PowerShell
-Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234
 ```
 
 ## <a name="about-windows-powershell"></a>Informationen zu Windows PowerShell
