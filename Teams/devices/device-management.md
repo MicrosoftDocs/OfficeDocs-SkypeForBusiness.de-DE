@@ -1,7 +1,7 @@
 ---
 title: Verwalten Ihrer Geräte in Microsoft Teams
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4346d82e490d28840e029d257cbeeb4c4e10765
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 576c22d95dbbbb16105eb8e365c717ba7140cfb8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65220539"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65767241"
 ---
 # <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams: Verwalten Ihrer Geräte 
 
@@ -66,13 +66,13 @@ Ausführliche Informationen zum Verwalten Ihrer Teams-Räume Geräte finden [Sie
 | Besprechungsaktivität anzeigen                  | Wählen Sie einen Gerätenamen aus, um Gerätedetails > **Aktivität** zu öffnen. Wenn Sie die Registerkarte " **Aktivität** " öffnen, können Sie alle Besprechungen sehen, an denen das Gerät teilgenommen hat. In dieser Zusammenfassungsansicht werden die Startzeit der Besprechung, die Anzahl der Teilnehmer, die Dauer und die Anrufqualität insgesamt angezeigt.                                                                                        |
 | Anzeigen von Besprechungsdetails                   | Wählen Sie einen Gerätenamen aus, um Gerätedetails > **Aktivität** zu öffnen, > wählen Sie eine Besprechung aus. Wenn Sie die Details einer Besprechung öffnen, können Sie alle Teilnehmer der Besprechung, die Dauer des Anrufs, die Teams Sitzungstypen und deren individuelle Anrufqualität sehen. Wenn Sie technische Informationen zum Anruf eines Teilnehmers anzeigen möchten, wählen Sie die Startzeit des Anrufs des Teilnehmers aus. |
 
-## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Verwalten von Smartphones, Teams-Räume unter Android, Teams Anzeigen und Teams Bereichen 
+## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Verwalten von Telefonen, Teams-Räume auf Android, Teams Anzeigen und Teams Bereichen 
 
-Im Teams Admin Center können Sie Smartphones, Teams-Räume unter Android, Teams Anzeigen und Teams Panels anzeigen und verwalten, die in Teams in Ihrer Organisation registriert sind. Zu den Informationen, die für jedes Gerät angezeigt werden, gehören Gerätename, Hersteller, Modell, Benutzer, Status, Aktion, Zuletzt gesehen und Verlauf. Sie können die Ansicht anpassen, um die Informationen anzuzeigen, die Ihren Anforderungen entsprechen.
+Im Teams Admin Center können Sie Smartphones anzeigen und verwalten, auf Android Teams-Räume, Teams Anzeigen und Teams Bereichen, die in Teams in Ihrer Organisation registriert sind. Zu den Informationen, die für jedes Gerät angezeigt werden, gehören Gerätename, Hersteller, Modell, Benutzer, Status, Aktion, Zuletzt gesehen und Verlauf. Sie können die Ansicht anpassen, um die Informationen anzuzeigen, die Ihren Anforderungen entsprechen.
 
-Smartphones, Teams-Räume unter Android, Teams Anzeigen und Teams Panels werden automatisch in Microsoft Intune registriert, wenn Sie sich dafür registriert haben. Nachdem ein Gerät registriert wurde, wird die Gerätekompatibilität bestätigt, und richtlinien für bedingten Zugriff werden auf das Gerät angewendet.
+Telefone, Teams-Räume auf Android, Teams Anzeigen und Teams Bereichen werden automatisch in Microsoft Intune registriert, wenn Sie sich dafür registriert haben. Nachdem ein Gerät registriert wurde, wird die Gerätekompatibilität bestätigt, und richtlinien für bedingten Zugriff werden auf das Gerät angewendet.
 
-Hier sind einige Beispiele für die Verwaltung von Smartphones, Teams-Räume unter Android, Teams Anzeigen und Teams Bereichen in Ihrer Organisation.  
+Hier sind einige Beispiele für die Verwaltung von Telefonen, Teams-Räume auf Android, Teams Anzeigen und Teams Bereichen in Ihrer Organisation.  
 
 | Gehen Sie dazu wie folgt vor...                           | Gehen Sie wie folgt vor:                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -87,13 +87,13 @@ Hier sind einige Beispiele für die Verwaltung von Smartphones, Teams-Räume unt
 
 ### <a name="use-configuration-profiles-in-teams"></a>Verwenden von Konfigurationsprofilen in Teams
 
-Verwenden Sie Konfigurationsprofile, um Einstellungen und Features für verschiedene Teams Geräte in Ihrer Organisation zu verwalten, einschließlich Teams-Räume unter Android, Teams Anzeigen, Teams Telefon und Teams Bereichen. Sie können Konfigurationsprofile erstellen oder hochladen, um Einstellungen und Features einzuschließen, die Sie aktivieren oder deaktivieren möchten, und dann einem Gerät oder einer Gruppe von Geräten ein Profil zuweisen. 
+Verwenden Sie Konfigurationsprofile, um Einstellungen und Features für verschiedene Teams Geräte in Ihrer Organisation zu verwalten, einschließlich Teams-Räume auf Android, Teams Anzeigen, Teams Telefon und Teams Bereichen. Sie können Konfigurationsprofile erstellen oder hochladen, um Einstellungen und Features einzuschließen, die Sie aktivieren oder deaktivieren möchten, und dann einem Gerät oder einer Gruppe von Geräten ein Profil zuweisen. 
 
 #### <a name="create-a-configuration-profile"></a>Erstellen eines Konfigurationsprofils
 
 So erstellen Sie ein Konfigurationsprofil für einen Teams Gerätetyp:
 
-1. Wechseln Sie im linken Navigationsbereich zu **Teams Geräte**, > wählen Sie den Teams Gerätetyp > **Konfigurationsprofile** aus. Wählen Sie beispielsweise **Teams Geräte** >  **Teams** **panelsConfiguration-Profile** >  aus, um ein neues Konfigurationsprofil für Teams Panels zu erstellen.
+1. Wechseln Sie im linken Navigationsbereich zu **Teams Geräte**, > wählen Sie den Teams Gerätetyp > **Konfigurationsprofile** aus. Wählen Sie beispielsweise **Teams Geräte** >  **Teams Bereiche** > **Konfigurationsprofile** aus, um ein neues Konfigurationsprofil für Teams Panels zu erstellen.
 2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie einen Namen für das Profil ein, und fügen Sie optional eine aussagekräftige Beschreibung hinzu.
 4. Geben Sie die gewünschten Einstellungen für das Profil an, und klicken Sie dann auf **"Speichern"**.
