@@ -1640,6 +1640,8 @@ items:
         items:
           - name: Erste Schritte mit Teams für Mitarbeiter in Service und Produktion
             href: flw-landing-page.md
+          - name: Mit einer Testversion für Mitarbeiter in Service und Produktion beginnen
+            href: flw-trial.md
           - name: Lizenzierungsoptionen für Mitarbeiter in Service und Produktion
             href: flw-licensing-options.md
           - name: Schnellstarthandbuch für Mitarbeiter in Service und Produktion
