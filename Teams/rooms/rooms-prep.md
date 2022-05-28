@@ -1,7 +1,7 @@
 ---
 title: Vorbereiten ihrer Umgebung
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räume vorbereiten, damit Sie alle Features nutzen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b04ecd5b10f82e3f331bc2e888f59927de52e18c
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838996"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761247"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -79,7 +79,7 @@ Sie können Zertifikate genauso installieren wie für jeden anderen Windows-Clie
 Microsoft Teams-Räume ist so konzipiert, dass Proxyeinstellungen vom Windows Betriebssystem erben. Greifen Sie wie folgt auf das Windows-Betriebssystem zu:
   
 1. Klicken Sie in der benutzeroberfläche Microsoft Teams-Räume auf das Zahnradsymbol Einstellungen, auf dem Sie zur Eingabe des lokalen Administratorkennworts auf dem Gerät aufgefordert werden (das Standardkennwort ist **sfb**).
-2. Tippen Sie auf **Einstellungen** gefolgt von Tippen auf die Schaltfläche "**Gehe zu Windows**" und dann auf die Schaltfläche "**Administratoranmeldung**" tippen und dann auf die Schaltfläche "**Administrator**" klicken (wenn der Computer der Domäne beigetreten ist, wählen Sie **"Anderer Benutzer**" aus, und verwenden Sie dann ".\admin" als Benutzernamen).
+2. Tippen Sie auf **Einstellungen** gefolgt von Tippen auf die Schaltfläche "**Gehe zu Windows**", tippen Sie dann auf die Schaltfläche "**Gehe zu Admin Anmelden**", und klicken Sie dann auf die Schaltfläche "**Administrator**" (wenn der Computer der Domäne beigetreten ist, wählen Sie "**Anderer Benutzer**" aus, und verwenden Sie dann ".\admin" als Benutzernamen).
 3. Geben Sie im Feld **"Suchen Windows** unten links" "regedit" ein (drücken Sie entweder lange auf den Bildschirm, oder klicken Sie mit der rechten Maustaste, und wählen Sie "**Als Administrator ausführen") aus**.
 4. Klicken Sie auf den Ordner HKEY_USERS. (Eine Liste der Computerbenutzer-SIDs wird angezeigt.) Stellen Sie sicher, dass der Stammordner HKEY_USERS ausgewählt ist.
        
@@ -116,7 +116,7 @@ Microsoft Teams-Räume ist so konzipiert, dass Proxyeinstellungen vom Windows Be
     
 Ausführliche Informationen zu FQDNs, Ports und IP-Adressbereichen, die für Microsoft Teams-Räume erforderlich sind, finden Sie im Artikel zur [Netzwerksicherheit](./security.md#network-security).
   
-### <a name="admin-group-management"></a>Administratorgruppenverwaltung
+### <a name="admin-group-management"></a>Admin Gruppenverwaltung
 
 Wenn Sie sich für den Beitritt zu einer Domäne (Azure Active Directory oder Active Directory) entscheiden, können Sie Microsoft Endpoint Manager, Gruppenrichtlinie oder die verwaltung lokaler Computer verwenden, um eine Sicherheitsgruppe wie bei einem Windows-PC in Ihrer Domäne als lokaler Administrator festzulegen. Jeder, der Mitglied dieser Sicherheitsgruppe ist, kann seine Anmeldeinformationen eingeben und Einstellungen entsperren.
   
@@ -129,16 +129,16 @@ Wenn Sie sich für den Beitritt zu einer Domäne (Azure Active Directory oder Ac
 
 Teams-Räume enthält ein kennwortloses lokales Konto namens "Skype". Dieses Konto wird verwendet, um sich bei Windows anzumelden, um die Teams-Räume-App zu starten. Es wird nicht unterstützt, ein Kennwort auf dieses Konto anzuwenden. Weitere Informationen finden Sie [unter Microsoft Teams-Räume Sicherheit](security.md).
   
-### <a name="admin---local-administrator-account"></a>"Administrator" – Lokales Administratorkonto
+### <a name="admin---local-administrator-account"></a>"Admin" – Lokales Administratorkonto
 
-Microsoft Teams-Räume Standardkennwort ist auf "sfb" festgelegt. Das Kennwort kann lokal über den Administratormodus oder in der AutoUnattend.xml Datei geändert werden (verwenden Sie den Windows Systemimage-Manager von ADK, um die Änderung an der XML-Datei vorzunehmen).
+Microsoft Teams-Räume Standardkennwort ist auf "sfb" festgelegt. Das Kennwort kann lokal über Admin Modus oder in der AutoUnattend.xml Datei geändert werden (verwenden Sie den Windows System Image Manager von ADK, um die Änderung an der XML-Datei vorzunehmen).
   
 > [!CAUTION]
 > Achten Sie darauf, das Kennwort für Microsoft Teams-Räume so bald wie möglich zu ändern. 
   
 Das Kennwort für den lokalen Administrator ist während des Setups nicht als Auswahl enthalten.
 
-Weitere Informationen zum Administratorkonto finden Sie im Artikel [Microsoft Teams-Räume Sicherheit](security.md).
+Weitere Informationen zum Admin Konto finden Sie im Artikel [Microsoft Teams-Räume Sicherheit](security.md).
   
 ### <a name="machine-account"></a>Computerkonto
 

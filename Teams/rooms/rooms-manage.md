@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Räume verwalten
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie fortlaufende Wartungen und Vorgänge entwickeln und ausführen, um sicherzustellen, dass Ihre Microsoft Teams-Räume Systeme für Ihre Benutzer verfügbar sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47f1c170fd0c41331dfaffa2d81386ac3c2fb722
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 0252d44b073353aea43fec838f439ecb2233c43f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106270"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761297"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams-Räume verwalten
 
@@ -100,8 +100,8 @@ Wenn Sie mehrere Optionen auswählen, werden in den Einstellungen, die die Masse
 | **Standardlautsprecher**                                          | Liste der verfügbaren Lautsprecher                             | Nein                 |
 | **Standardvolume**                                           | 0-100                                                  | Nein                 |
 | **Inhaltskamera**                                           | Liste der verfügbaren Kameras                              | Nein                 |
-| **Verbesserungen an Inhaltskameras**                              | Ein<br>Aus                                              | Nein                 |
-| **Inhaltskamera um 180 Grad drehen**                        | Ein<br>Aus                                              | Nein                 |
+| **Inhalts- Kamera Verbesserungen**                              | Ein<br>Aus                                              | Nein                 |
+| **Inhalt um Kamera 180 Grad drehen**                        | Ein<br>Aus                                              | Nein                 |
 | *Theming*                                                    |                                                        |                    |
 |                                                              | Standard<br>Kein Design<br>Benutzerdefinierte<br>Liste der integrierten Designs   | Ja                |
 

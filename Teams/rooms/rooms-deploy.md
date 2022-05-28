@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Microsoft Teams-Räume
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Microsoft Teams-Räume bereitstellen, einschließlich der Bereitstellungsphasen.
-ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 0111e8723d70b753c2d8de64350387252db8f8f7
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125770"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760917"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -53,7 +53,7 @@ Weitere Informationen zu diesen Abhängigkeiten finden Sie unter den folgenden P
 Führen Sie die folgenden wichtigen zentralen Aufgaben aus, um sich auf ihre Microsoft Teams-Räume Bereitstellung vorzubereiten:
 
 -   Definieren sie Microsoft Teams-Räume Ressourcenkonten.
--   Wenn Sie Teams-Räume Azure Active Directory beitreten, bereiten Sie eine Azure AD Gruppe mit dynamischer Mitgliedschaft vor, um alle Teams-Räume Ressourcenkonten zu speichern. Dadurch wird die zukünftige Verwaltung vereinfacht, z. B. das Anwenden von Richtlinien für bedingten Zugriff. Um Azure AD dynamischen Gruppen am einfachsten nutzen zu können, legen Sie eine Benennungskonvention fest, die Ihre Teams-Räume Ressourcenkonten eindeutig identifiziert.
+-   Wenn Sie Teams-Räume Azure Active Directory beitreten, bereiten Sie eine Azure AD-Gruppe mit dynamischer Mitgliedschaft vor, um alle Teams-Räume Ressourcenkonten zu speichern. Dadurch wird die zukünftige Verwaltung vereinfacht, z. B. das Anwenden von Richtlinien für bedingten Zugriff. Um dynamische Azure AD-Gruppen am einfachsten zu nutzen, bestimmen Sie eine Benennungskonvention, die Ihre Teams-Räume Ressourcenkonten eindeutig identifiziert.
 -   Wenn Sie Teams-Räume mit Active Directory verbinden, bereiten Sie eine Organisationseinheit und Eine Active Directory-Gruppe so vor, dass sie Ihre Microsoft Teams-Räume Computer- und Ressourcenkonten enthalten, und bereiten Sie optional Gruppenrichtlinie Objekte (GPOs) vor, um PowerShell-Remoting zu aktivieren.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Definieren Microsoft Teams-Räume Ressourcenkontofeatures 
@@ -63,7 +63,7 @@ Abhängig von den Szenarien für die Zusammenarbeit, die Sie mit Ihrer Microsoft
 | **Szenario** | **Beschreibung** | **Microsoft Teams-Räume-Dienstkontofeature** |
 |---------- |------------- | --- |
 | Interaktive Besprechungen            | Verwenden von Sprach-, Video- und Bildschirmfreigabe; Das Microsoft Teams-Räume zu einer buchbaren Ressource machen                     | Aktiviert für Microsoft Teams oder Skype for Business; aktiviert für Exchange (Ressourcenpostfach) |
-| Einwahlkonferenzen            | Haben Sie eine Audiokonferenztelefonnummer, wenn Sie auf der Konsole auf "Neue Besprechung" tippen | Aktiviert für Audiokonferenzen                                          |
+| Einwahlkonferenzen            | Haben Sie eine Audiokonferenztelefonnummer, wenn Sie auf der Konsole auf "Neue Besprechung" tippen | Aktiviert für Audiokonferenz                                          |
 | Ausgehende/eingehende PSTN-Anrufe | Aktivieren der Microsoft Teams-Räume Konsole zum Tätigen und Empfangen von PSTN-Anrufen                                         | Aktiviert für Telefonsystem                                                |
 
 Weitere Informationen zu Microsoft Teams-Räume-Konten finden [Sie unter Konfigurieren von Konten für Microsoft Teams-Räume](rooms-configure-accounts.md).
@@ -79,8 +79,8 @@ _Beispieltabelle für Microsoft Teams-Räume Ressourcenkontoplanung_
 
 | **Standort**  | **Raumname** | **Raumtyp** | **Zukünftige Raumfunktionen**                                                 | **Microsoft Teams-Räume Kontofeatures**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| London HQ | Curie         | Mittel        | 1 Bildschirm, Audio und Video plus Präsentation <br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Exchange (Ressourcenpostfach) <br>Aktiviert für Audiokonferenzen <br>Aktiviert für Telefonsystem |
-| Sydney HQ | Hill          | Groß         | 2 Bildschirme, Audio und Video plus Präsentation<br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Skype for Business <br>Aktiviert für Exchange (Ressourcenpostfach)<br> Aktiviert für Audiokonferenzen <br>Aktiviert für Telefonsystem |
+| London HQ | Curie         | Mittel        | 1 Bildschirm, Audio und Video plus Präsentation <br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Exchange (Ressourcenpostfach) <br>Aktiviert für Audiokonferenz <br>Aktiviert für Telefonsystem |
+| Sydney HQ | Hill          | Groß         | 2 Bildschirme, Audio und Video plus Präsentation<br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Skype for Business <br>Aktiviert für Exchange (Ressourcenpostfach)<br> Aktiviert für Audiokonferenz <br>Aktiviert für Telefonsystem |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>Vorbereiten des Hostens von Microsoft Teams-Räume- und Ressourcenkonten (optional)
@@ -115,7 +115,7 @@ Die Planung der Konfiguration und Bereitstellung umfasst die folgenden Schlüsse
 
 Jedes Microsoft Teams-Räume Gerät erfordert ein dediziertes und eindeutiges Ressourcenkonto, das sowohl für Microsoft Teams als auch für Skype for Business und Exchange aktiviert werden muss. Dieses Konto muss über ein Raumpostfach verfügen, das auf Exchange gehostet wird. Die Kalenderverarbeitung muss so konfiguriert werden, dass das Gerät eingehende Besprechungsanfragen automatisch annehmen kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams-Räume](rooms-configure-accounts.md). 
 
-**Pro Tipp** : Jede Microsoft Teams-Räume muss einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk haben. Viele Überwachungs- und Benachrichtigungssysteme zeigen den Computernamen als Schlüsselbezeichner an. Daher ist es wichtig, eine Benennungskonvention für Microsoft Teams-Räume Bereitstellungen zu entwickeln, die es Supportmitarbeitern ermöglicht, die Microsoft Teams-Räume, die als aktionsbedürftig gekennzeichnet wurden, leicht zu finden. Ein Beispiel könnte die Verwendung eines Musters von *MTR-SiteRoom*- *Name* (MTR-LON-CURIE) sein. 
+**Pro Tipp** : Jede Microsoft Teams-Räume muss einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk haben. Viele Überwachungs- und Benachrichtigungssysteme zeigen den Computernamen als Schlüsselbezeichner an. Daher ist es wichtig, eine Benennungskonvention für Microsoft Teams-Räume Bereitstellungen zu entwickeln, die es Supportmitarbeitern ermöglicht, die Microsoft Teams-Räume, die als aktionsbedürftig gekennzeichnet wurden, leicht zu finden. Ein Beispiel kann die Verwendung eines Musters von *MTR-Site*-*Room Name* (MTR-LON-CURIE) sein. 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|

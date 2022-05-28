@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise für Microsoft Teams-Räume (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Admin können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: cbf840eb8abc60cbdc53325e41b3d9f95e6b4713
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753058"
+ms.locfileid: "65761107"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -95,8 +95,8 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen [
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 In diesem Update eingeführt:
-- Fehlerkorrektur für Jabra Panacast 50
-- Fehlerkorrektur für die Teilnahme an anonymen Besprechungen in der cloudübergreifenden Besprechung
+- Fehlerkorrektur für mehrere gleichzeitige Videostreams von Jabra Panacast 50 (Besprechungsvideo, Videoinhaltskamera)
+- Cloudübergreifende Besprechungen können jetzt das Standardaudiogerät für Konferenzen verwenden.
 - Qualitäts- und Zuverlässigkeitskorrekturen
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)

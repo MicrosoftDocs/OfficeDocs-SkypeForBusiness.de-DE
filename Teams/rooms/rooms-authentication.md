@@ -1,7 +1,7 @@
 ---
 title: Authentifizierung in Microsoft Teams-Räume
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie die moderne Authentifizierung für Microsoft Teams-Räume konfigurieren.
-ms.openlocfilehash: de1487cce0c8a79d2a6c672f5cb729e247966c50
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 5667b4bc2ab356ff9776282a6142a22abd33caa1
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106300"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760877"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentifizierung in Microsoft Teams-Räume
 
@@ -106,7 +106,7 @@ Informationen zum Aktivieren der modernen Hybridauthentifizierung mit Skype for 
 
 Wenn Ihr Setup keine moderne Hybridauthentifizierung zulässt oder Sie die moderne Hybridauthentifizierung für Exchange oder Skype for Business entfernen oder deaktivieren müssen, lesen Sie [das Entfernen oder Deaktivieren der modernen Hybridauthentifizierung aus Skype for Business und Exchange](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha).
 
-### <a name="azure-ad-conditional-access"></a>Azure AD bedingten Zugriff
+### <a name="azure-ad-conditional-access"></a>Bedingter Azure AD-Zugriff
 
 Sie können ein Ressourcenkonto konfigurieren, das mit Microsoft Teams-Räume für DEN IP-/standortbasierten Zugriff verwendet wird. Weitere Informationen finden Sie [unter Bedingter Zugriff: Zugriff nach Speicherort blockieren](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 

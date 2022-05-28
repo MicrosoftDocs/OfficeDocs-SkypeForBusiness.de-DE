@@ -1,7 +1,7 @@
 ---
 title: Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Artikel finden Sie Informationen zum Erstellen von Ressourcenkonten für Räume und freigegebene Geräte, einschließlich Microsoft Teams-Räume, Teams-Räume auf Surface Hub und Hot-Desking auf Teams Anzeigen.
-ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885023"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760887"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Erstellen und Konfigurieren von Ressourcenkonten für Räume und freigegebene Teams-Geräte
 
-Dieser Artikel enthält Schritte zum Erstellen von Ressourcenkonten für freigegebene Räume und Geräte sowie Schritte zum Konfigurieren von Ressourcenkonten für Microsoft Teams-Räume auf Windows, Teams-Räume unter Android, Teams-Räume auf Surface Hub und Hot-Desking auf Teams wird angezeigt.
+Dieser Artikel enthält Schritte zum Erstellen von Ressourcenkonten für freigegebene Räume und Geräte sowie Schritte zum Konfigurieren von Ressourcenkonten für Microsoft Teams-Räume auf Windows, Teams-Räume auf Android, Teams-Räume auf Surface Hub und Hot-Desking auf Teams Anzeigen.
 
 Microsoft 365 Ressourcenkonten sind Postfach- und Teams Konten, die bestimmten Ressourcen wie einem Raum oder Projektor zugeordnet sind. Diese Ressourcenkonten können automatisch mithilfe von Regeln, die Sie beim Erstellen definieren, auf Besprechungseinladungen reagieren. Wenn Sie z. B. über eine gemeinsame Ressource wie einen Konferenzraum verfügen, können Sie ein Ressourcenkonto für diesen Konferenzraum einrichten, das Besprechungseinladungen je nach Verfügbarkeit des Kalenders automatisch annimmt oder ablehnt. 
 
@@ -62,7 +62,7 @@ Bevor Sie ein Microsoft 365 Ressourcenkonto erstellen, überprüfen Sie, welche 
 
 - **PSTN-Anrufe** Wenn Sie möchten, dass die Ressource Anrufe an oder von einer externen Telefonnummer (so genanntes Public Switched Telephone Network oder PSTN-Anruf) entgegennehmen kann, benötigen Sie eine Microsoft 365 Telefonsystem- oder Microsoft 365 Business Voice-Lizenz. Sie müssen nur Schritt 1 in der folgenden Übersicht ausführen. Weitere Informationen finden Sie unter [Microsoft Teams Add-On-Lizenzen](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- Wenn Sie nur ein Ressourcenkonto zum Buchen einer Ressource&mdash; verwenden, laden Sie die Ressource zu Ihrer Besprechung ein, und lassen Sie sie automatisch die Einladung&mdash; annehmen oder ablehnen. Sie müssen dem Ressourcenkonto keine Lizenz zuweisen, und Sie müssen Schritt 1 in der folgenden Übersicht nur ausführen.  
+- Wenn Sie nur ein Ressourcenkonto zum Buchen einer Ressource&mdash;verwenden, laden Sie die Ressource zu Ihrer Besprechung ein und lassen Sie sie automatisch die Einladung&mdash;annehmen oder ablehnen, die Sie dem Ressourcenkonto nicht zuweisen müssen, und Sie müssen schritt 1 nur in der folgenden Übersicht ausführen.  
 
 ## <a name="overview"></a>Übersicht
 
@@ -104,9 +104,9 @@ Erstellen Sie ein Ressourcenkonto mithilfe einer Methode auf einer der folgenden
       - Maximale Dauer (Stunden): 24
     - Automatisches Annehmen von Besprechungsanfragen
 
-    Wenn Sie sie ändern möchten, wählen Sie **"Terminplanungsoptionen festlegen** " aus, bevor Sie **"Schließen**" auswählen. Wenn Sie sie später ändern möchten, wechseln Sie zu **ResourcesRooms** >  **& Ausrüstung**, wählen Sie das Ressourcenkonto aus. Wählen Sie dann unter **"Buchungsoptionen**" die Option **"Bearbeiten"** aus.
+    Wenn Sie sie ändern möchten, wählen Sie **"Terminplanungsoptionen festlegen** " aus, bevor Sie **"Schließen**" auswählen. Wenn Sie sie später ändern möchten, wechseln Sie zu **Ressourcenräume** > **& Ausrüstung**, wählen Sie das Ressourcenkonto aus. Wählen Sie dann unter **"Buchungsoptionen**" die Option **"Bearbeiten"** aus.
 
-6. Wechseln Sie zu **UsersActive-Benutzern** > , und wählen Sie den von Ihnen erstellten Raum aus, um den Eigenschaftenbereich zu öffnen.
+6. Wechseln **Sie zu "Aktive Benutzer"** > , und wählen Sie den Von Ihnen erstellten Raum aus, um den Eigenschaftenbereich zu öffnen.
 
 7. Weisen Sie als Nächstes dem Ressourcenkonto ein Kennwort zu. Wählen Sie im Bereich " **Kennwort zurücksetzen" aus**.
  
@@ -202,7 +202,7 @@ Ausführliche Informationen zu Syntax und Parametern finden Sie unter ["New-Mail
 > [!IMPORTANT]
 > Wenn Sie dieses Ressourcenkonto nur verwenden, um Platz zu reservieren und Einladungen automatisch anzunehmen oder abzulehnen, haben Sie die Einrichtung abgeschlossen. Wenn Sie dieses Ressourcenkonto für PSTN-Anrufe verwenden, lesen Sie [Microsoft Teams Add-On-Lizenzen](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md), um zu ermitteln, welche Lizenz benötigt wird.
 >
-> Fahren Sie nur dann mit dem nächsten Abschnitt fort, wenn das Ressourcenkonto für eine Teams-Räume auf Windows, Teams-Räume unter Android, Teams-Räume auf Surface Hub oder für eine Teams Anzeige mit Hot-Desking bestimmt ist.
+> Fahren Sie nur dann mit dem nächsten Abschnitt fort, wenn das Ressourcenkonto für eine Teams-Räume auf Windows, Teams-Räume auf Android, Teams-Räume auf Surface Hub oder für eine Teams mit Hot-Desking angezeigt wird.
 
 ## <a name="configure-mailbox-properties"></a>Konfigurieren von Postfacheigenschaften
 
@@ -310,7 +310,7 @@ Das Ressourcenkonto benötigt eine Microsoft 365 oder Office 365 Lizenz, um sich
 > [!NOTE]
 > Microsoft Teams-Räume Standard und Microsoft Teams-Räume Premium sind die beiden verfügbaren SKUs für gemeinsam genutzte Besprechungsraumgeräte, einschließlich Teams-Räume. Eine Besprechungsraumlizenz ist für Teams Anzeigen mit Hot-Desking erforderlich. Weitere Informationen finden Sie [unter Teams Lizenzierung von Besprechungsräumen](rooms-licensing.md).
 
-Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center finden [Sie unter Zuweisen von Lizenzen zu Benutzern](/microsoft-365/admin/manage/assign-licenses-to-users). Informationen zum Zuweisen von Lizenzen mithilfe von Azure AD finden Sie auf einer der folgenden Registerkarten:
+Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center finden [Sie unter Zuweisen von Lizenzen zu Benutzern](/microsoft-365/admin/manage/assign-licenses-to-users). Informationen zum Zuweisen von Lizenzen mitHilfe von Azure AD finden Sie auf einer der folgenden Registerkarten:
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 

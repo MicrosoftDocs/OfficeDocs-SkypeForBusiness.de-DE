@@ -1,7 +1,7 @@
 ---
 title: Aktivieren Teams-Räume Geräten für die Teilnahme an Besprechungen von Drittanbietern
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird erläutert, wie Sie Ihre Organisation konfigurieren und Geräte Teams-Räume, um die Teilnahme von Drittanbieterbesprechungen an Cisco WebEx und Zoom zu unterstützen.
-ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: a9421d234981343d268e74a2f03a949f3761ae0f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442001"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761417"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Aktivieren Teams-Räume Geräten für die Teilnahme an Besprechungen von Drittanbietern
 

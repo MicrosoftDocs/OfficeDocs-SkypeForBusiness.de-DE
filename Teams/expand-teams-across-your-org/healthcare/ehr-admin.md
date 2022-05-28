@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Erfahren Sie, wie Sie den Teams EHR-Connector integrieren, damit Gesundheitsdienstleister in Ihrer Organisation virtuelle Termine mit Patienten oder anderen Anbietern in Teams direkt aus dem Epic EHR-System durchführen können.
-ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: c34c8fbb32d78c1380267ce6876e947b877ce383
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465436"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760947"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Virtuelle Termine mit Teams - Integration in Epic EHR
 
@@ -62,7 +62,7 @@ Lesen Sie die folgenden Informationen, um ein Verständnis des gesamten Integrat
 
 Sie müssen den Zugriff auf die Teams-App anfordern.
 
-1. Fordern Sie an, die Teams-App im [Epic App Orchard Marketplace](https://apporchard.epic.com/Gallery?id=6153) herunterzuladen. Dadurch wird eine Anforderung von Epic an das Microsoft EHR-Connectorteam ausgelöst.
+1. Fordern Sie an, die Teams-App im [Epic App Orchard Marketplace](https://apporchard.epic.com/Gallery?id=16793) herunterzuladen. Dadurch wird eine Anforderung von Epic an das Microsoft EHR-Connectorteam ausgelöst.
 1. Nachdem Sie Ihre Anfrage gestellt haben, senden Sie eine E-Mail an [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) mit dem Namen Ihrer Organisation, der Mandanten-ID und der E-Mail-Adresse Ihres technischen Epic-Kontakts.
 1. Das Microsoft EHR Connector-Team antwortet auf Ihre E-Mail mit der Bestätigung der Aktivierung.
 

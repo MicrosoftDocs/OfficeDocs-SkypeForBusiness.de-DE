@@ -1,7 +1,7 @@
 ---
 title: Bewährte Methoden für bedingten Zugriff und Compliance für Microsoft Teams-Räume
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über die empfohlenen Richtlinien für bedingten Zugriff und Intune Gerätecompliance sowie bewährte Methoden für Microsoft Teams-Räume.
-ms.openlocfilehash: b4e1d3cb91ff68e664d590c8e180e55211ca93b0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675487"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761307"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Bedingter Zugriff und Intune Compliance für Microsoft Teams-Räume
 

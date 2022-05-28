@@ -1,7 +1,7 @@
 ---
 title: Erstellen eines Microsoft Teams-Räume-Images
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -14,46 +14,46 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams-Räume Konsole und ihre Peripheriegeräte einrichten und konfigurieren.
-ms.openlocfilehash: 9c1358b5e9561f197dc1142c40144646b5a11ce4
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams-Räume-Konsole und ihre Peripheriegeräte einrichten und konfigurieren.
+ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676387"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761257"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Erstellen eines Microsoft Teams-Räume-Images
 
-In diesem Artikel wird beschrieben, wie Sie ein Microsoft Teams-Räume Image für die Massenbereitstellung von Teams-Räume erstellen.
+In diesem Artikel wird beschrieben, wie Sie ein Microsoft Teams-Räume-Image für die Massenbereitstellung von Teams-Räumen erstellen.
 
 > [!NOTE]
 > Die folgenden Schritte sollten nur beim Erstellen eines [WIM-basierten Images](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) für die Massenbereitstellung verwendet werden. Wenn Sie einzelne Geräte wiederherstellen, wenden Sie sich an den Oem (Original Equipment Manufacturer), um Support zu erhalten.
 
-Sie sollten diese Schritte nur ausführen, wenn die erforderlichen Microsoft Teams- oder Skype for Business- und Exchange-Konten bereits erstellt und getestet wurden, wie unter ["Bereitstellen Microsoft Teams-Räume](rooms-deploy.md)" beschrieben. Sie benötigen die in [Microsoft Teams-Räume Anforderungen](requirements.md) beschriebene Hardware und Software. Dieses Thema enthält die folgenden Abschnitte:
+Sie sollten diese Schritte nur ausführen, wenn die erforderlichen Microsoft Teams- oder Skype for Business- und Exchange-Konten bereits erstellt und getestet wurden, wie unter [Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md) beschrieben. Sie benötigen die in den [Anforderungen für Microsoft Teams-Räume](requirements.md) beschriebene Hardware und Software. Dieses Thema enthält die folgenden Abschnitte:
   
 - [Vorbereiten des Installationsmediums](console.md#Prep_Media)
 - [Installieren eines privaten Zertifizierungsstellenzertifikats auf der Konsole](console.md#Certs)
-- [Installieren von Windows 10 und der Microsoft Teams-Räume Konsolen-App](console.md#Reimage)
+- [Installieren von Windows 10 und der Konsolen-App "Microsoft Teams-Räume"](console.md#Reimage)
 - [Erstsetup der Konsole](console.md#Initial)
-- [Prüfliste für Microsoft Teams-Räume Bereitstellung](console.md#Checklist)
+- [Prüfliste für die Bereitstellung von Microsoft Teams-Räumen](console.md#Checklist)
 
 ## <a name="prepare-the-installation-media"></a>Vorbereiten des Installationsmediums
 <a name="Prep_Media"> </a>
 
-Zum Installieren der Microsoft Teams-Räume Konsolen-App ist ein USB-Speichergerät mit mindestens 32 GB Kapazität erforderlich. Es sollten keine anderen Dateien auf dem Gerät vorhanden sein. alle vorhandenen Dateien auf dem USB-Speicher werden verloren.
+Die Installation der Microsoft Teams-Räume-Konsolen-App erfordert ein USB-Speichergerät mit mindestens 32 GB Kapazität. Es sollten keine anderen Dateien auf dem Gerät vorhanden sein. alle vorhandenen Dateien auf dem USB-Speicher werden verloren.
   
 > [!NOTE]
-> Wenn Sie ihre Microsoft Teams-Räume Installationsmedien gemäß diesen Anweisungen nicht erstellen, führt dies wahrscheinlich zu unerwartetem Verhalten.
+> Wenn Sie Ihre Microsoft Teams-Räume-Installationsmedien gemäß diesen Anweisungen nicht erstellen, führt dies wahrscheinlich zu unerwartetem Verhalten.
 
 > [!NOTE]
-> Der folgende Prozess dient zum Erstellen von Installationsmedien zum Abbilden neuer Microsoft Teams-Räume Geräten. Vorhandene Geräte werden standardmäßig automatisch von Windows Update und der Windows Store aktualisiert.
+> Der folgende Prozess dient zum Erstellen von Installationsmedien zum Abbilden neuer Microsoft Teams-Räume-Geräte. Vorhandene Geräte werden standardmäßig automatisch über Windows Update und den Windows Store aktualisiert.
 
 > [!IMPORTANT]
-> Der Windows 10 Computer, der zum Erstellen des Microsoft Teams-Räume Installationsmediums verwendet wird, muss sich auf derselben oder einer höheren Version von Windows wie das Zielinstallationsmedium befinden.
+> Der Windows 10-Computer, der zum Erstellen der Installationsmedien für Microsoft Teams-Räume verwendet wird, muss sich auf derselben oder einer höheren Version von Windows wie das Zielinstallationsmedium befinden.
   
 1. Laden Sie das [CreateSrsMedia.ps1 Skript](https://go.microsoft.com/fwlink/?linkid=867842) herunter.
 2. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
-3. Befolgen Sie die Anweisungen des Skripts, um einen Microsoft Teams-Räume USB-Setupdatenträger zu erstellen.
+3. Befolgen Sie die Anweisungen des Skripts, um einen USB-Setupdatenträger für Microsoft Teams-Räume zu erstellen.
 
 
 > [!TIP]
@@ -62,17 +62,17 @@ Zum Installieren der Microsoft Teams-Räume Konsolen-App ist ein USB-Speicherger
 Das CreateSrsMedia.ps1-Skript automatisiert die folgenden Aufgaben:
 
 1. Laden Sie das neueste MSI-Installationsprogramm für Microsoft Teams-Räume herunter.
-2. Bestimmen Sie den Build von Windows, die der Benutzer bereitstellen muss. Die zuletzt veröffentlichten Versionen werden möglicherweise getestet und für die Verwendung mit Microsoft Teams-Räume Geräten unterstützt.
+2. Ermitteln Sie den Build von Windows, den der Benutzer bereitstellen muss. Die zuletzt veröffentlichten Versionen werden möglicherweise getestet und für die Verwendung mit Microsoft Teams-Räume-Geräten unterstützt.
 3. Laden Sie die erforderlichen unterstützenden Komponenten herunter.
 4. Stellen Sie die erforderlichen Komponenten auf dem Installationsmedium zusammen.
 
 > [!NOTE]
 Eine bestimmte Version von Windows 10 ist erforderlich, und diese Version ist nur für Volumenlizenzkunden verfügbar.  Sie können eine Kopie aus dem [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/) abrufen.
 
-Wenn Sie fertig sind, entfernen Sie den USB-Datenträger von Ihrem Computer, und fahren [Sie mit der Installation von Windows 10 und der Microsoft Teams-Räume Konsolen-App](console.md#Reimage) fort.
+Wenn Sie fertig sind, entfernen Sie den USB-Datenträger von Ihrem Computer, und fahren [Sie mit der Installation von Windows 10 und der Microsoft Teams-Räume-Konsolen-App](console.md#Reimage) fort.
 
     
-## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installieren von Windows 10 und der Microsoft Teams-Räume Konsolen-App
+## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installieren von Windows 10 und der Konsolen-App "Microsoft Teams-Räume"
 <a name="Reimage"> </a>
 
 Sie müssen jetzt die von Ihnen erstellten Setupmedien anwenden. Das Zielgerät wird als Appliance ausgeführt, und der Standardbenutzer wird so eingestellt, dass nur die Microsoft Teams-Räume-App ausgeführt wird.
@@ -98,7 +98,7 @@ Sie müssen jetzt die von Ihnen erstellten Setupmedien anwenden. Das Zielgerät 
 Nachdem das System heruntergefahren wurde, ist es sicher, den USB-Setupdatenträger zu entfernen. An diesem Punkt können Sie das Zielgerät im Dock platzieren (wenn Sie ein dockbasiertes Produkt verwenden), die für Ihren Besprechungsraum erforderlichen Peripheriegeräte anfügen und eine Verbindung mit dem Netzwerk herstellen. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
 
 > [!NOTE]
-> Softwareupdates für Microsoft Teams-Räume werden automatisch aus dem Microsoft Store für Unternehmen heruntergeladen. Weitere Informationen finden [Sie unter Voraussetzungen für Microsoft Store für Unternehmen und Bildungseinrichtungen](/microsoft-store/prerequisites-microsoft-store-for-business), um zu überprüfen, ob die Raumkonsole auf den Store zugreifen und sich selbst aktualisieren kann.  
+> Softwareupdates für Microsoft Teams-Räume werden automatisch aus dem Microsoft Store für Unternehmen heruntergeladen. Lesen Sie [die Voraussetzungen für den Microsoft Store für Unternehmen und Bildungseinrichtungen](/microsoft-store/prerequisites-microsoft-store-for-business) , um zu überprüfen, ob die Raumkonsole auf den Store zugreifen und sich selbst aktualisieren kann.  
 
 ### <a name="selecting-a-language"></a>Auswählen einer Sprache 
 
@@ -125,7 +125,7 @@ In Creator's Update müssen Sie das ApplyCurrentRegionAndLanguage.ps1-Skript in 
     
 8. Installieren Sie Sprachfeatures.
     
-9. Aktivieren Sie "Als Windows Anzeigesprache festlegen" nicht.
+9. Aktivieren Sie "Als Windows-Anzeigesprache festlegen" nicht.
     
 10. Wählen Sie **"Installieren"** aus.
     
@@ -148,29 +148,29 @@ In Creator's Update müssen Sie das ApplyCurrentRegionAndLanguage.ps1-Skript in 
     
 16. Starten Sie das System neu.
     
-Die gewünschte Sprache wird jetzt auf die Microsoft Teams-Räume Konsole angewendet.
+Ihre gewünschte Sprache wird jetzt auf die Microsoft Teams-Räume-Konsole angewendet.
 ## <a name="initial-set-up-of-the-console"></a>Erstsetup der Konsole
 <a name="Initial"> </a>
 
-Nachdem Windows installiert wurde, wechselt die Microsoft Teams-Räume-App in den anfänglichen Setupvorgang.
+Nachdem Windows installiert wurde, wechselt die Microsoft Teams-Räume-App in den anfänglichen Setupprozess.
   
 1. Der Bildschirm "Benutzerkonto" wird angezeigt. Geben Sie die Anmeldeadresse des Microsoft Exchange-Ressourcenkontos (im user@domain Format) des Raumkontos ein, das mit der Konsole verwendet werden soll.
     
 2. Geben Sie das Kennwort für das Raumkonto ein, und geben Sie es zur Bestätigung nochmals ein.
    
-3. Wählen Sie den unterstützten Besprechungsmodus aus – "Nur Microsoft Teams", "Nur Skype for Business" oder eine der beiden Optionen für gemischten Modus. Aktivieren Sie bei Bedarf die moderne Authentifizierung.
+3. Wählen Sie den unterstützten Besprechungsmodus aus – "Nur Microsoft Teams", "Nur Skype for Business" oder eine der beiden Optionen für den gemischten Modus. Aktivieren Sie bei Bedarf die moderne Authentifizierung.
 
 4. Wählen Sie **"Weiter**" aus.
     
-5. Wenn Sie Skype for Business verwenden und wenn sich die Skype for Business SIP-Domäne von der Exchange Domäne des Benutzers unterscheidet, legen Sie den FQDN für die Skype for Business Server im Abschnitt "Erweitert" fest. Wenn Sie Skype for Business nicht verwenden oder die SIP-Domäne der Exchange Domäne entspricht, lassen Sie diesen Abschnitt leer.
+5. Wenn Sie Skype for Business verwenden und wenn sich die Skype for Business-SIP-Domäne von der Exchange-Domäne des Benutzers unterscheidet, legen Sie den FQDN für Skype for Business Server im Abschnitt "Erweitert" fest. Wenn Sie Skype for Business nicht verwenden oder die SIP-Domäne der Exchange-Domäne entspricht, lassen Sie diesen Abschnitt leer.
 6. Wählen Sie **"Weiter**" aus.
     
 7. Wählen Sie **"Fertig stellen" aus**.
     
-Die Microsoft Teams-Räume-App sollte sich mit den oben eingegebenen Anmeldeinformationen bei Microsoft Teams oder Skype for Business Server anmelden und auch mit der Synchronisierung des Kalenders mit Exchange mit denselben Anmeldeinformationen beginnen. Ausführliche Informationen zur Verwendung von Teams-Räume finden Sie in der [Microsoft Teams-Räume Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Die Microsoft Teams-Räume-App sollte sich mit den oben eingegebenen Anmeldeinformationen bei Microsoft Teams oder Skype for Business Server anmelden und auch mit der Synchronisierung des Kalenders mit Exchange beginnen, wobei dieselben Anmeldeinformationen verwendet werden. Ausführliche Informationen zur Verwendung von Teams-Räumen finden Sie in der [Hilfe zu Microsoft Teams-Räumen](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Microsoft Teams-Räume basiert auf dem Vorhandensein zertifizierter Konsolenhardware. Selbst ein ordnungsgemäß erstelltes Image, das die Microsoft Teams-Räume Konsolen-App enthält, wird erst nach dem anfänglichen Setupvorgang gestartet, wenn die Konsolenhardware erkannt wird. Bei Surface Pro basierten Lösungen muss die Surface Pro mit der zugehörigen Dockhardware verbunden sein, um diese Überprüfung bestehen zu können.
+> Microsoft Teams-Räume verlassen sich auf das Vorhandensein zertifizierter Konsolenhardware. Selbst ein ordnungsgemäß erstelltes Image, das die Konsolen-App "Microsoft Teams-Räume" enthält, wird erst nach dem anfänglichen Setupvorgang gestartet, wenn die Konsolenhardware erkannt wird. Für Surface Pro-basierte Lösungen muss das Surface Pro mit der zugehörigen Dockhardware verbunden sein, um diese Überprüfung bestehen zu können.
   
 > [!NOTE]
 > Einige Benutzer in nicht englischer Sprache benötigen möglicherweise während der ersteinrichtung eine physische Tastatur, die mit der Konsole verbunden ist, falls Symbole auf der Bildschirmtastatur nicht unterstützt werden.
@@ -178,7 +178,7 @@ Die Microsoft Teams-Räume-App sollte sich mit den oben eingegebenen Anmeldeinfo
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>Installieren eines privaten Zertifizierungsstellenzertifikats auf der Konsole
 <a name="Certs"> </a>
 > [!NOTE]
-> Folgendes gilt nur, wenn Teams-Räume mit Skype for Business verbunden wird.
+> Folgendes gilt nur, wenn Teams-Räume mit Skype for Business verbunden werden.
 
 Microsoft Teams-Räume muss den Zertifikaten vertrauen, die von den Servern verwendet werden, mit dem die Verbindung hergestellt wird. In einem Fall, in dem die Zertifizierungsstelle privat ist, z. B. eine lokale Bereitstellung mit Active Directory und der Windows Zertifizierungsstelle, können Sie das Zertifikat auf verschiedene Arten zu Microsoft Teams-Räume hinzufügen:
   

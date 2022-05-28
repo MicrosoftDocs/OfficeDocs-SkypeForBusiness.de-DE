@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Räume Wartung und Betrieb
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Erfahren Sie mehr über das Verwalten von Microsoft Teams-Räume.
-ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125470"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761057"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams-Räume Wartung und Betrieb
  
@@ -30,7 +30,7 @@ Microsoft Teams-Räume ist die Konferenzlösung von Microsoft, die entwickelt wu
 
 Um Protokolle im Admin Center Teams zu sammeln, wechseln Sie zu **Teams Geräten, die auf Windows > Teams-Räume**. Wählen Sie den Anzeigenamen des Geräts aus, für das Sie Protokolle verwenden möchten. Wählen Sie im oberen Bereich "Geräteprotokolle herunterladen" aus. Nachdem Sie dies bestätigt haben, können die Protokolle nach einigen Minuten auf der Registerkarte "Verlauf" heruntergeladen werden.
 
-Sie können PowerShell auch zum Sammeln von Protokollen verwenden. Sie müssen das Protokollsammlungsskript aufrufen, das im Lieferumfang der Microsoft Teams-Räume-App enthalten ist. Starten Sie [im Administratormodus](rooms-operations.md) eine Eingabeaufforderung mit erhöhten Rechten, und geben Sie den folgenden Befehl aus:
+Sie können PowerShell auch zum Sammeln von Protokollen verwenden. Sie müssen das Protokollsammlungsskript aufrufen, das im Lieferumfang der Microsoft Teams-Räume-App enthalten ist. Starten Sie [im Admin Modus](rooms-operations.md) eine Eingabeaufforderung mit erhöhten Rechten, und geben Sie den folgenden Befehl aus:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -159,10 +159,10 @@ Sie können die folgenden Verwaltungsvorgänge remote mithilfe von PowerShell au
   
 Sie können Remote-PowerShell beispielsweise wie folgt aktivieren:
   
-1. Melden Sie sich auf einem Microsoft Teams-Räume Gerät als Administrator an.
+1. Melden Sie sich als Admin auf einem Microsoft Teams-Räume Gerät an.
 2. Öffnen Sie eine PowerShell-Eingabeaufforderung mit erhöhten Rechten.
 3. Geben Sie den folgenden Befehl ein: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Öffnen Sie die lokale Sicherheitsrichtlinie, und fügen Sie die Sicherheitsgruppe *"Administratoren*" zu **"Sicherheit Einstellungen** >  **Local PoliciesUser** >  **Rights AssignmentAccess** >  **this computer from the network**" hinzu.
+4. Öffnen Sie die lokale Sicherheitsrichtlinie, und fügen Sie die Sicherheitsgruppe *"Administratoren*" zu **"Sicherheit Einstellungen** >  **Lokale Richtlinien** > " hinzu.**Zugriff auf** > **diesen Computer über das Netzwerk**.
 
 So führen Sie einen Verwaltungsvorgang durch:
   
@@ -230,14 +230,14 @@ Wenn Sie Anwendungsupdates manuell verwalten müssen, aber nicht dem normalen Ve
 ## <a name="admin-mode-and-device-management"></a>Administratormodus und Geräteverwaltung
 <a name="AdminMode"> </a>
 
-Einige Verwaltungsfunktionen, z. B. die manuelle Installation eines privaten Zertifizierungsstellenzertifikats, erfordern das Platzieren Teams-Räume im Administratormodus. 
+Einige Verwaltungsfunktionen, z. B. die manuelle Installation eines privaten Zertifizierungsstellenzertifikats, erfordern das Platzieren Teams-Räume in Admin Modus. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Wechseln zum Administratormodus und zurück, wenn die Microsoft Teams-Räume-App ausgeführt wird
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Wechseln zum Admin-Modus und zurück, wenn die Microsoft Teams-Räume-App ausgeführt wird
 
 1. Legen Sie alle laufenden Anrufe auf, und kehren Sie zur Startseite zurück.
 2. Wählen Sie das Zahnradsymbol aus, und öffnen Sie das Menü (optionen sind **Einstellungen**, **Barrierefreiheit** und **Gerät neu starten**).
 3. Wählen Sie **Einstellungen** aus.
-4. Geben Sie das Administratorkennwort ein. Der Setupbildschirm wird angezeigt.  Wenn das Gerät nicht der Domäne beigetreten ist, wird standardmäßig das lokale Administratorkonto (Benutzername "Administrator") verwendet. Das Standardkennwort für dieses Konto ist "sfb". Ändern Sie dieses Kennwort so schnell wie möglich. Wenn der Computer einer Domäne beigetreten ist, können Sie sich mit einem entsprechend privilegierten Domänenkonto anmelden.
+4. Geben Sie das Administratorkennwort ein. Der Setupbildschirm wird angezeigt.  Wenn das Gerät nicht in die Domäne eingebunden ist, wird standardmäßig das lokale Administratorkonto (Benutzername "Admin") verwendet. Das Standardkennwort für dieses Konto ist "sfb". Ändern Sie dieses Kennwort so schnell wie möglich. Wenn der Computer einer Domäne beigetreten ist, können Sie sich mit einem entsprechend privilegierten Domänenkonto anmelden.
 5. Wählen Sie **Windows Einstellungen** in der linken Spalte aus.
 6. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an. Sie verfügen über die erforderlichen Berechtigungen zum Verwalten des Geräts.
 7. Führen Sie die notwendigen Administratoraufgaben aus.
@@ -245,9 +245,9 @@ Einige Verwaltungsfunktionen, z. B. die manuelle Installation eines privaten Zer
     
 Die Konsole befindet sich nun wieder in ihrem normalen Betriebsmodus. Für das folgende Verfahren müssen Sie eine Tastatur an das Gerät anschließen, falls noch keine angeschlossen ist.  
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Wechseln zum Administratormodus und zurück, wenn die Microsoft Teams-Räume-App abstürzt
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Wechseln zum Admin-Modus und zurück, wenn die Microsoft Teams-Räume-App abstürzt
 
-1. Drücken Sie fünf Mal schnell hintereinander die WINDOWS-TASTE. Daraufhin gelangen Sie zum Windows-Anmeldebildschirm.  
+1. Drücken Sie fünf Mal schnell hintereinander die WINDOWS-TASTE. Daraufhin gelangen Sie zum Windows-Anmeldebildschirm. 
 2. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an.
 3. Führen Sie die notwendigen Administratoraufgaben aus.
 4. Starten Sie den Computer neu, wenn Sie fertig sind.

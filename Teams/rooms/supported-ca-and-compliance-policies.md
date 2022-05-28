@@ -1,7 +1,7 @@
 ---
 title: Unterstützte Richtlinien für bedingten Zugriff und Intune Gerätekompatibilität für Microsoft Teams-Räume
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: kspiess
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über unterstützte und empfohlene Richtlinien für bedingten Zugriff und Intune Gerätecompliance für Microsoft Teams-Räume.
-ms.openlocfilehash: 1c355280622d03cf0a8100f0ee4a23dd17df88a1
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 8492f94106423498c7e301e48c8f4d046d569674
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675237"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761467"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Unterstützte Richtlinien für bedingten Zugriff und Intune Gerätekompatibilität für Microsoft Teams-Räume- und Teams Android-Geräte
 

@@ -1,7 +1,7 @@
 ---
 title: Telefone und Geräte für Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 91f7a1a8d3e8ea68b113d98d667aeaae9a90dd4e
-ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
+ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65406401"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760897"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-Audio- und -Videogeräte, die für Microsoft Teams zertifiziert sind
 
