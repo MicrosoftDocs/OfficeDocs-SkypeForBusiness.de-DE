@@ -1495,7 +1495,9 @@ items:
             href: approval-admin.md
           - name: Verwalten der Schichten-App
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-      - name: Verwalten von Drittanbieter-Apps
+          - name: Verwalten der Updates-App
+            href: manage-updates-app.md
+      - name: Apps von Drittanbietern verwalten
         items:
           - name: Grundlegendes zu Drittanbieter-Apps
             href: overview-third-party-apps.md
@@ -1509,9 +1511,9 @@ items:
             href: purchase-third-party-apps.md
       - name: App-Vorlagen für Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: Steuern benutzerdefinierter Branchen-Apps
+      - name: Verwalten der Geschäftssparten-Apps
         items:
-          - name: Verwalten von Power Platform-Apps im Microsoft Teams Admin Center
+          - name: Verwalten von Power Platform-Apps im Teams Admin Center
             href: manage-power-platform-apps.md
           - name: Veröffentlichen benutzerdefinierter Apps im Store Ihrer Organisation
             href: submit-approve-custom-apps.md
@@ -1521,7 +1523,7 @@ items:
             href: customize-apps.md
           - name: Branding des App-Stores Ihrer Organisation
             href: customize-your-app-store.md
-      - name: Administratorsteuerelemente und App-Governance
+      - name: Administratorsteuerelemente zum Steuern von Apps
         items:
           - name: Übersicht über die App-Verwaltung für Administratoren
             href: manage-apps.md
@@ -1537,11 +1539,11 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion
             href: pin-teams-apps-based-on-license.md
-          - name: Überprüfen der Azure AD-Berechtigungen und Erteilen der Administratorzustimmung
+          - name: Informationen zu Azure AD-Berechtigungen und der Administratorzustimmung
             href: app-permissions-admin-center.md
           - name: Verwalten der ressourcenspezifischen Zustimmung für Ihre Organisation
             href: resource-specific-consent.md
-          - name: Grundlegendes zu App-Berechtigungen und Zugriff auf Ressourcen
+          - name: Grundlegendes zu App-Berechtigungen und dem Zugriff auf Ressourcen
             href: app-permissions.md
           - name: App-Verhalten basierend auf Typen von Benutzern
             href: non-standard-users.md
