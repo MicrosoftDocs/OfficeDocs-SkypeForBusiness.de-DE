@@ -1,5 +1,5 @@
 ---
-title: Freigegebene Kanäle in Microsoft Teams (Preview)
+title: Freigegebene Kanäle in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams (Preview) verwenden und verwalten können.
-ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams verwenden und verwalten können.
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393879"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795637"
 ---
-# <a name="shared-channels-in-microsoft-teams-preview"></a>Freigegebene Kanäle in Microsoft Teams (Preview)
+# <a name="shared-channels-in-microsoft-teams"></a>Freigegebene Kanäle in Microsoft Teams
 
 Freigegebene Kanäle in Microsoft Teams erstellen Räume für die Zusammenarbeit, in die Sie Personen einladen können, die nicht zum Team gehören. Nur die Benutzer, die Besitzer oder Mitglieder des freigegebenen Kanals sind, können auf den Kanal zugreifen. Während Gäste (Personen mit Azure Active Directory-Gastkonten in Ihrer Organisation) nicht zu einem freigegebenen Kanal hinzugefügt werden können, können Sie Personen außerhalb Ihrer Organisation zur Teilnahme an einem freigegebenen Kanal einladen, indem Sie Azure AD B2B Direct Connect verwenden.
 
@@ -36,12 +36,6 @@ Nur Mitglieder von freigegebenen Kanälen können freigegebene Kanäle, zu denen
 Wenn ein freigegebener Kanal erstellt wird, ist er mit dem übergeordneten Team verknüpft und kann nicht in ein anderes Team verschoben werden. Außerdem können freigegebene Kanäle nicht in Standardkanäle umgewandelt werden und umgekehrt.
 
 [Vergleichen Sie freigegebene Kanäle mit anderen Arten von Kanälen](/microsoftteams/teams-channels-overview#channel-feature-comparison).
-
-## <a name="best-practices-for-the-shared-channels-preview"></a>Bewährte Methoden für die Preview freigegebener Kanäle
-
-Freigegebene Kanäle befinden sich in der Preview und erfordern die Konfiguration der [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). Wenn Sie beabsichtigen, Kanäle für andere Organisationen freizugeben, müssen diese auch die Teams Public Preview konfiguriert haben.
-
-Wir empfehlen, die Preview für alle Benutzer zu aktivieren. Benutzer, für die die Preview nicht aktiviert ist, können keine freigegebenen Kanäle erstellen, können aber weiterhin zu freigegebenen Kanälen hinzugefügt werden. Die Aktivierung der Preview für alle Benutzer kann dazu beitragen, eine konsistente Erfahrung zu gewährleisten.
 
 ## <a name="getting-started-with-shared-channels"></a>Erste Schritte mit freigegebenen Kanälen
 
@@ -141,14 +135,14 @@ Die folgenden Artikel können für die Benutzer in Ihrer Organisation hilfreich 
 
 [Besitzer- und Mitgliedsrollen eines freigegebenen Kanals in Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## <a name="limits-for-shared-channels-preview"></a>Grenzwerte für freigegebene Kanäle (Preview)
+## <a name="limits-for-shared-channels"></a>Grenzwerte für freigegebene Kanäle
 
 Die folgende Tabelle beschreibt die maximale Anzahl von Kanälen und Mitgliedern.
 
 |Maximale Anzahl für|Wert|Hinweise|
 |:---------|:----|:----|
 |Mitglieder in einem Team|25.000|Umfasst alle Benutzer im Team und direkte Mitglieder in freigegebenen Kanälen.|
-|Freigegebene Kanäle pro Team|50|Gehostet und für das Team freigegeben. (Schließt gelöschte Kanäle während des 30-tägigen Wiederherstellungsfensters ein.)|
+|Freigegebene Kanäle pro Team|200|Gehostet und für das Team freigegeben. (Schließt gelöschte Kanäle während des 30-tägigen Wiederherstellungsfensters ein.)|
 |Teams, für die ein Kanal freigegeben werden kann|50|Ausschließen des übergeordneten Teams|
 |Mitglieder in einem freigegebenen Kanal|5.000 direkte Mitglieder, einschließlich bis zu 50 Teams. (Im Sinne dieses Grenzwerts wird jedes Team, für das der Kanal freigegeben ist, als ein Mitglied gezählt.)|Echtzeit-Updates sind jeweils nur für 25 000 Benutzer verfügbar und nur 25 000 Benutzer werden in der Kanalliste angezeigt.|
 
@@ -156,11 +150,78 @@ Es gelten die folgenden Einschränkungen:
 
 - Freigegebene Kanäle unterstützen Registerkarten mit Ausnahme von Stream, Planner und Forms.
 
-- Branchen-Apps, Bots, Connectors und Nachrichtenerweiterungen werden für die Public Preview nicht unterstützt.
+- Branchen-Apps, Bots, Connectors und Nachrichtenerweiterungen werden nicht unterstützt.
 
 - Wenn Sie ein Team aus einem bestehenden Team erstellen, werden freigegebene Kanäle des bestehenden Teams nicht übernommen.
 
 - Benachrichtigungen aus freigegebenen Kanälen sind derzeit in E-Mails zu verpassten Aktivitäten nicht enthalten.
+
+## <a name="supported-apps-in-shared-channels"></a>Unterstützte Apps in freigegebenen Kanälen
+
+Informationen dazu, wie Sie Ihre App für freigegebene Kanäle vorbereiten, finden Sie unter [Öffnen Ihrer App für die organisationsübergreifende Zusammenarbeit mit Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+
+Die folgenden Apps werden für die Verwendung in freigegebenen Kanälen unterstützt. 
+
+- Aktivität
+- Adobe Acrobat Sign
+- Asana
+- Kalender
+- Kalender Pro
+- Anrufe
+- Chat
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- Dateien
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- Listen
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- Suche
+- SharePoint
+- SharePoint-Seiten
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams-Manager
+- TeamViewer
+- Teamarbeit
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>Verwandte Themen
 
