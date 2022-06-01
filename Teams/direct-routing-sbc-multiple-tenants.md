@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Session Border Controller (SBC) so konfigurieren, dass er mehrere Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber bedient.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a465945a55482c84b9d6373240bc89850b80e3a
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: be75743752f34024baf7b2fd017557c2f0044ba6
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661676"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823686"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -52,7 +52,7 @@ Im Folgenden finden Sie die technischen Implementierungsschritte zum Konfigurier
 2. Aktivieren Sie den Namen der Unterdomäne.
 3. Konfigurieren Sie den Trunk vom Netzbetreiber zum Kundenmandanten, und stellen Sie Benutzer bereit.
 
-*Stellen Sie sicher, dass Sie die DNS-Grundlagen kennen und wissen, wie der Domänenname in Microsoft 365 verwaltet wird. Weitere [Informationen finden Sie unter Hilfe zu Microsoft 365 Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef), bevor Sie fortfahren.*
+*Stellen Sie sicher, dass Sie die DNS-Grundlagen kennen und wissen, wie der Domänenname in Microsoft 365 verwaltet wird. Weitere [Informationen finden Sie unter Hilfe zu Microsoft 365 Domänen](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider), bevor Sie fortfahren.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Bereitstellen und Konfigurieren des SBC
 
@@ -83,7 +83,7 @@ Unterdomänen **MÜSSEN** mit dem FQDN-Namen des Trunks übereinstimmen, der fü
 
 Wenn ein Anruf an der Microsoft 365 Direct Routing-Schnittstelle eingeht, verwendet die Schnittstelle den Kontaktheader, um den Mandanten zu finden, in dem der Benutzer nachschlagen soll. Direct Routing verwendet keine Telefonnummernsuche in der Einladung, da einige Kunden möglicherweise Nicht-DID-Nummern haben, die sich in mehreren Mandanten überlappen können. Daher ist der FQDN-Name im Kontaktheader erforderlich, um den genauen Mandanten zu identifizieren, um den Benutzer anhand der Telefonnummer nachzuschlagen.
 
-*Weitere Informationen zum Erstellen von Domänennamen in Microsoft 365 Organisationen finden [Sie unter Hilfe zu Microsoft 365 Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Weitere Informationen zum Erstellen von Domänennamen in Microsoft 365 Organisationen finden [Sie unter Hilfe zu Microsoft 365 Domänen](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Das folgende Diagramm fasst die Anforderungen für die Basisdomäne, Unterdomänen und den Kontaktheader zusammen.
 
@@ -139,7 +139,7 @@ Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, i
 > [!NOTE]
 > Der Netzbetreibermandant muss mindestens eine dem Mandanten zugewiesene Telefonsystem Lizenz behalten, um das Entfernen der Skype for Business-Konfiguration zu vermeiden. 
 
-*Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365 Organisationen finden [Sie unter Hilfe zu Microsoft 365 Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365 Organisationen finden [Sie unter Hilfe zu Microsoft 365 Domänen](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Beispiel: test@customers.adatum.biz
 
@@ -196,7 +196,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
 
 Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen Benutzer hinzufügen und eine SIP-Adresse mit dem FQDN-Teil der SIP-Adresse zuweisen, der der erstellten Unterdomäne im Kundenmandanten entspricht. 
 
-*Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365 Organisationen finden [Sie unter Hilfe zu Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365 Organisationen finden [Sie unter Hilfe zu Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Beispiel: test@sbc1.customers.adatum.biz
 

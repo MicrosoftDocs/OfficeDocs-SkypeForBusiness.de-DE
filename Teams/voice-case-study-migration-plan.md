@@ -1,5 +1,5 @@
 ---
-title: Teams Sprach-Upgradeplan für Contoso-Fallstudie
+title: Teams Voice Contoso– Upgradeplan für Fallstudien
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,31 +13,31 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 'Teams Sprachfallstudie für multinationale Unternehmen: Upgradeplanung.'
+description: 'Teams Voice Case Study für multinationale Unternehmen: Upgradeplanung.'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c2d64e93e8f9ab53cd2a696af69de4b7f0d4f7348fec27a189b60896ee1ec02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39cfd66f0ff34fb0f8792871ddfdcceebb2b9961
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350177"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822984"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso-Fallstudie: Teams Upgradeplan
 
-Bei der Entscheidung für die Migration von Skype for Business zu Teams wollte Contoso Endbenutzern eine einfache Übergangserfahrung bieten. Statt alle Benutzer gleichzeitig auf Teams umschalten zu müssen, entschieden sie sich für die Einrichtung einer Hybridkonnektivität und verwenden die Methode mit überlappenden Funktionen, um Benutzer auf Teams. Dadurch konnten Benutzer in Teams und Skype for Business lokal Anwesenheits- und Kommunikationsfreigaben nutzen. Die Benutzer, die das Pilotprojekt Telefonsystem, wurden in den Teams verschoben.
+Bei der Entscheidung für die Migration von Skype for Business zu Teams wollte Contoso Endbenutzern eine einfache Übergangserfahrung bieten. Anstatt alle gleichzeitig auf Teams umzustellen, entschied man sich für die Einrichtung einer Hybridkonnektivität und die Verwendung der Methode für überlappende Funktionen, um Benutzer in Teams zu verschieben. Dadurch konnten Benutzer in Teams und Skype for Business lokal Anwesenheitsinformationen freigeben und kommunizieren. Als Benutzer das Pilotprojekt für Telefonsystem eingegeben haben, wurden sie in den Modus "Nur Teams" verschoben.
 
-Um grundlegende Konzepte für Upgrades, Methoden und Modi zu verstehen, liest Contoso die folgenden Artikel:
+Um grundlegende Konzepte zu Upgrade, Methoden und Modi zu verstehen, lesen Contoso die folgenden Artikel:
 
-- [Erste Schritte mit dem Upgrade von Microsoft Teams](upgrade-start-here.md)
+- [Erste Schritte beim Upgrade auf Microsoft Teams](upgrade-start-here.md)
 - [Upgradestrategien für IT-Administratoren](upgrade-to-teams-on-prem-implement.md) 
-- [Anleitungen zu Migration und Interoperabilität](migration-interop-guidance-for-teams-with-skype.md)
+- [Migrations- und Interoperabilitätsleitfaden](migration-interop-guidance-for-teams-with-skype.md)
  
-Contoso hat auch an der Ignite 2019-Sitzung teilgenommen und Ihren Pfad von Skype for Business [zu Teams.](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso hat von:
+Contoso nahm auch an der Ignite 2019 Session [Designing your path from Skype for Business to Teams](https://myignite.microsoft.com/archives/IG20-OD251) teil. Contoso hat Folgendes gelernt:
 
 - Grundlegende Konzepte wie Interoperabilität, Verbund und Upgradeverhalten 
 
-- Koexistenzmodi und -verwaltung auf der Grundlage von TeamsUpgradePolicy 
+- Koexistenzmodi und Verwaltung basierend auf TeamsUpgradePolicy 
 
 - Endbenutzererfahrung für: 
 
@@ -47,14 +47,14 @@ Contoso hat auch an der Ignite 2019-Sitzung teilgenommen und Ihren Pfad von Skyp
 
   - Verfügbarkeit von Zusammenarbeitsfunktionen in Teams Clients 
 
-Um Hybridkonnektivität zu planen und zu konfigurieren, lesen Sie den ersten Schritt beim Verschieben ihrer lokalen Umgebung in die Cloud, Contoso lesen Planen der [Hybridkonnektivität](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) und Konfigurieren [der Hybridkonnektivität,](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) um zu verstehen, wie das geht: 
+Um die Hybridkonnektivität zu planen und zu konfigurieren, ist der erste Schritt beim Verschieben ihrer lokalen Umgebung in die Cloud, Contoso lesen [Sie "Planen der Hybridkonnektivität](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) " und ["Konfigurieren der Hybridkonnektivität](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) ", um zu verstehen, wie Folgendes zu verstehen ist: 
 
-  - Konfigurieren Sie den lokalen Umgebungsdienst für die Zusammenarbeit mit Office 365. 
+  - Konfigurieren Sie den lokalen Umgebungsdienst für den Verbund mit Office 365. 
 
-  - Konfigurieren sie die lokale Umgebung so, dass Sie ihren Office 365 und den gemeinsam genutzten SIP-Adressraum mit einem Office 365 
+  - Konfigurieren Sie die lokale Umgebung so, dass Office 365 vertraut wird, und aktivieren Sie gemeinsam genutzten SIP-Adressraum mit Office 365 
 
-  - Aktivieren sie gemeinsam genutzten SIP-Adressraum in Office 365 Mandanten.
+  - Aktivieren Sie den freigegebenen SIP-Adressraum in ihrem Office 365 Mandanten.
 
-  - Verwenden des Islands-Modus während des technischen Pilotprojekts.
+  - Verwenden Sie den Inselmodus während des technischen Pilotprojekts.
 
-  - Wechseln der Benutzer in den TeamsOnly-Modus, sobald der Benutzer für die Telefonsystem. Der TeamsOnly-Modus ist für Anrufplan und direktes Routing erforderlich.
+  - Schalten Sie Benutzer in den TeamsOnly-Modus, sobald der Benutzer für Telefonsystem aktiviert ist. Der TeamsOnly-Modus ist für Anrufplan und Direct Routing erforderlich.

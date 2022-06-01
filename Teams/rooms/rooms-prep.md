@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räume vorbereiten, damit Sie alle Features nutzen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 0bedb70ade23f92424a14e4bea3f1462fc2cbccf
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761247"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823054"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -32,8 +32,8 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte, die zum Vorbereite
   
 3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Um Microsoft das Sammeln von Daten zu ermöglichen, lassen Sie diese Websites zu:
 
-   - Telemetrie-Clientendpunkt: https://vortex.data.microsoft.com/
-   - Endpunkt für Telemetrieeinstellungen: https://settings.data.microsoft.com/
+   - Telemetrie-Clientendpunkt: `https://vortex.data.microsoft.com/`
+   - Endpunkt für Telemetrieeinstellungen:` https://settings.data.microsoft.com/`
     
 ### <a name="create-and-test-a-resource-account"></a>Erstellen und Testen eines Ressourcenkontos
 
@@ -144,7 +144,7 @@ Weitere Informationen zum Admin Konto finden Sie im Artikel [Microsoft Teams-Rä
 
 Ähnlich wie bei jedem Windows Gerät kann der Computername umbenannt werden, indem Sie mit der rechten Maustaste auf **Einstellungen** \> **"Computer** \> **umbenennen"** klicken.
   
-Wenn Sie den Computer umbenennen möchten, nachdem Sie ihn einer Domäne hinzugefügt haben, verwenden Sie ["Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)", einen PowerShell-Befehl, gefolgt vom neuen Namen des Computers.
+Wenn Sie den Computer umbenennen möchten, nachdem Sie ihn einer Domäne hinzugefügt haben, verwenden Sie ["Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer)", einen PowerShell-Befehl, gefolgt vom neuen Namen des Computers.
   
 ## <a name="related-topics"></a>Verwandte Themen
 

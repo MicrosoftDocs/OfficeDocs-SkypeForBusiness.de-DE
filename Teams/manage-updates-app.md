@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8c538a4de417bcc6b19e579162357e56c444abdb
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65781061"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823726"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Updates-App für Ihre Organisation in Microsoft Teams
 
@@ -53,6 +53,8 @@ In den Fertigungsstätten des Stores führen Mitarbeiter Sicherheitsüberprüfun
 ![Abbildung der exemplarischen Vorgehensweisenvorlage "Wöchentliche Sicherheit" auf einem mobilen Gerät.](media/updates-mobile.png)
 
 In der Zwischenzeit aktualisiert ein Team von Remotemitarbeitern die Website des Stores. Sie sind über Zeitzonen verteilt, sodass tägliche Stand-up-Besprechungen nicht bequem sind. Stattdessen übermittelt jedes Teammitglied tägliche Updates-Berichte über den Fortschritt an den Teamleiter.
+
+[Laden Sie das Update-Lookbook herunter](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) , um weitere Beispiele für die Möglichkeiten von Updates anzuzeigen.
 
 ## <a name="required-permissions-and-licenses"></a>Erforderliche Berechtigungen und Lizenzen
 

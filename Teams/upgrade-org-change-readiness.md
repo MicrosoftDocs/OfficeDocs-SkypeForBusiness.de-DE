@@ -1,5 +1,5 @@
 ---
-title: Bewerten der Bereitschaft für Organisationsänderung, damit Skype for Business Teams durchführen können
+title: Bewerten der Bereitschaft der Organisation zur Änderung Ihrer Skype for Business zum Teams Upgrade
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Hier erfahren Sie, wie Sie die Bereitschaft Ihrer Organisation für einen erfolgreichen Übergang zu Microsoft Teams.
+description: Erfahren Sie, wie Sie die Bereitschaft Ihrer Organisation für einen erfolgreichen Übergang zu Microsoft Teams bewerten.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,44 +20,44 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e24a35b2bc62de03d29e5c7ef80f9b6f0d61d266
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 31940b8a6b46279f8d098c7958847c4dff79cfbb
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726494"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823214"
 ---
 # <a name="assess-organizational-change-readiness"></a>Bewerten der Bereitschaft zu organisationsweiten Änderungen
 
-![Upgrade des Wegdiagramms mit Hervorhebung der Benutzerbereitschaftsphase](media/upgrade-banner-user-readiness.png "Phasen des Upgradeschritts, mit Betonung auf der Stufe &quot;Benutzerbereitschaft&quot;")
+![Upgrade-Reisediagramm, in dem die Benutzerbereitschaftsphase hervorgehoben wird.](media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit Schwerpunkt auf der Phase &quot;Benutzerbereitschaft&quot;")
 
-Dieser Artikel ist Teil der Phase der Benutzerbereitschaft für Ihr Upgrade, eine Aktivität, die Sie parallel zur Stufe "Technische Bereitschaft" abschließen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
+Dieser Artikel ist Teil der Phase "Benutzerbereitschaft" Ihrer Upgrade-Reise, einer Aktivität, die Sie parallel zur Stufe "Technische Bereitschaft" abschließen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](./upgrade-define-project-scope.md)
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Nachdem Sie Ihr Projektteam gesichert und Ihre Vision, Ihren Umfang und Ihre Ziele definiert haben, besteht der nächste Schritt auf dem Weg zum Upgrade in der Sicherstellung, dass Ihre Organisation und die Benutzer für Teams bereit sind – eine Aktivität, die Sie parallel zur Sicherstellung Ihrer technischen Bereitschaft abschließen. Um Denkwert aus Teams zu nutzen, müssen die Benutzer ihn tatsächlich verwenden. Die einfache aktivierung Teams garantiert nicht, dass Sie Ihr Ziel erreichen. Benutzer haben unterschiedliche Einsatzfälle und unterschiedliche Lernstile und passen sich mit unterschiedlichen Geschwindigkeiten an neue Technologien an. Die gute Nachricht ist, dass das Verwalten von Änderungen nicht alles kompliziert ist, aber es erfordert konzentriertes Engagement. Die nachstehenden geführten Diskussionen sollen Ihnen dabei helfen, Ihre Benutzerbasis zu verstehen, damit Sie das richtige Bildungsniveau vorbereiten können, um die Benutzeradzeptanz zu erleichtern und zu beschleunigen. Es gibt zwei Möglichkeiten, die Benutzerbasis zu betrachten:
+Nachdem Sie Ihr Projektteam gesichert und Ihre Vision, Ihren Umfang und Ihre Ziele definiert haben, besteht der nächste Schritt auf Ihrer Upgrade-Reise darin, sicherzustellen, dass Ihre Organisation und Ihre Benutzer für Teams bereit sind – eine Aktivität, die Sie parallel zur Sicherstellung Ihrer technischen Bereitschaft abschließen. Um einen Nutzen aus Teams zu realisieren, müssen Benutzer ihn tatsächlich verwenden. Die einfache Aktivierung Teams garantiert nicht, dass Sie Ihr Ziel erreichen. Benutzer haben unterschiedliche Anwendungsfälle und unterschiedliche Lernstile und passen sich mit unterschiedlichen Geschwindigkeiten an neue Technologien an. Die gute Nachricht ist, dass das Verwalten von Veränderungen nicht so kompliziert ist, aber es erfordert eine fokussierte Anstrengung. Die folgenden geführten Diskussionen sollen Ihnen helfen, Ihre Benutzerbasis zu verstehen, damit Sie das richtige Bildungsniveau vorbereiten können, um die Benutzerakzeptanz zu erleichtern und zu beschleunigen. Es gibt zwei Möglichkeiten, wie Sie ihre Benutzerbasis betrachten sollten:
 
-- **Bereitschaft für Änderungen bei der Organisation:** Hier erfahren Sie, wie schnell (oder nicht) Benutzer normalerweise auf Änderungen reagieren. Diese Informationen sollen Ihnen helfen, das Bewusstsein, die Schulung und den Wertverkauf zu informieren, die Sie möglicherweise tun müssen, um die Akzeptanz durch die Benutzer zu fördern.
-- **Szenarien für Teamarbeit:** Wenn Sie verstehen, wie die Benutzer arbeiten, können Sie Teams Arbeitsaktivitäten zuordnungen, die Akzeptanz beschleunigen und den Wechsel vom Arbeitsplatz Skype for Business.
+- **Bereitschaft für organisatorische Änderungen**: Verstehen, wie schnell (oder nicht) Benutzer in der Regel auf Änderungen reagieren. Diese Informationen helfen Ihnen, den Umfang des Bewusstseins, der Schulung und des Wertverkaufs zu informieren, den Sie möglicherweise tun müssen, um die Benutzerakzeptanz zu fördern.
+- **Teamarbeitsszenarien**: Wenn Sie verstehen, wie Benutzer arbeiten, können Sie Teams ihren Arbeitsaktivitäten zuordnen, die Akzeptanz beschleunigen und den Umstieg von Skype for Business erleichtern.
 
 > [!Note]
-> Sie können die unten angegebenen Bewertungsaktivitäten an jede Änderungs initiative in Ihrer Organisation anpassen. Beantworten Sie die Fragen einfach basierend auf dem Umfang Ihres Projekts. In den folgenden Diskussionen kann die "neue Lösung" für Audio-Anrufe, Audiokonferenzen oder Ihr Upgrade von Skype for Business auf Teams.
+> Sie können die unten aufgeführten Bewertungsaktivitäten an jede Änderungsinitiative in Ihrer Organisation anpassen. Beantworten Sie einfach die Fragen basierend auf dem Umfang Ihres Projekts. In den folgenden Diskussionen kann "neue Lösung" für Audioanrufe, Audiokonferenzen oder Ihr Upgrade von Skype for Business auf Teams gelten.
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Kultur hat Ihre Organisation, wenn es darum geht, Änderungen zu unternehmen?</li><li>Wie kann die neue Technologie die Benutzerarbeit optimieren?</li><li>Welche Benutzer erfordern wahrscheinlich besondere Aufmerksamkeit, damit sie ihre Art und Weise ändern können?</li></ul> |
-| ![Ein Symbol, das die nächsten Schritte zeigt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die folgenden Anleitungen und zugeordneten Aktivitäten, um das Benutzerbereitschaftsprofil Ihrer Organisation zu erfassen.</li></ul>|
+| ![Ein Symbol, das Entscheidungspunkte darstellt.](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was ist die Kultur Ihrer Organisation, wenn es um Veränderungen geht?</li><li>Wie kann die neue Technologie die Arbeitsweise der Benutzer optimieren?</li><li>Welche Benutzer benötigen wahrscheinlich besondere Aufmerksamkeit, damit sie ihre Arbeitsweise ändern können?</li></ul> |
+| ![Ein Symbol, das die nächsten Schritte darstellt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die folgenden Anleitungen und zugehörigen Aktivitäten, um das Benutzerbereitschaftsprofil Ihrer Organisation zu erfassen.</li></ul>|
 
-## <a name="organizational-change-readiness"></a>Bereitschaft für Organisationsänderung
+## <a name="organizational-change-readiness"></a>Bereitschaft für organisatorische Änderungen
 
-Indem Sie die Bereitschaft Ihrer Organisation bewerten, können Sie bestimmen, wie fähig (oder nicht) Ihre Benutzer wahrscheinlich sind, die Art und Weise zu ändern, in der sie arbeiten, und neue Technologien zu übernehmen. Wenn Sie verstehen, wie Benutzer auf Änderungen reagieren, kann Ihre Organisation Probleme proaktiv adressieren, Ihren Rolloutplan anpassen, um optimales Buy-In zu erhalten, und Benutzer identifizieren, die Ihnen tatsächlich helfen können, die Änderung mit ihren Kollegen zu unterstützen.
+Indem Sie die Bereitschaft Ihrer Organisation bewerten, können Sie bestimmen, wie empfänglich (oder nicht) Ihre Benutzer wahrscheinlich sind, die Art und Weise zu ändern, wie sie arbeiten und neue Technologien einführen. Wenn Sie verstehen, wie Benutzer auf Änderungen reagieren, können Sie Ihre Organisation proaktiv auf Bedenken eingehen, Ihren Rolloutplan anpassen, um einen optimalen Buy-In zu erhalten, und Benutzer identifizieren, die Ihnen tatsächlich helfen können, die Änderung mit ihren Kollegen zu erleichtern.
 
 ### <a name="activity"></a>Aktivität
 
-Verwenden Sie die folgenden Unterhaltungsstarter, um eine Organisationsbereitschaftsbewertung durch führen und die Kultur Ihrer Organisation dokumentieren, wenn es um Änderungen geht. Diese Informationen können Ihnen dabei helfen, darüber zu informieren, wie viel Informationen und Schulungen Sie möglicherweise für Ihr Projekt implementieren müssen. Machen Sie sich keine Gedanken über genaue Zahlen. Diese Übung stellt ein allgemeines Verständnis Ihrer Organisationskultur dar. Wenn Sie Hilfe bei den ersten Schritte benötigen, können Sie einfach eine frühere Einführung auswerten. dies kann Ihnen helfen, vorhersehen zu können, wie Benutzer auf Änderungen reagieren könnten, und sie dabei zu unterstützen, die von Ihnen erwarten Reaktionen proaktiv zu adressieren.
+Verwenden Sie die folgenden Unterhaltungsstarter, um eine Bewertung der Organisationsbereitschaft durchzuführen und die Kultur Ihrer Organisation zu dokumentieren, wenn es um Änderungen geht. Anhand dieser Informationen können Sie darüber informieren, wie viel Bewusstsein und Schulung Sie möglicherweise für Ihr Projekt implementieren müssen. Machen Sie sich keine Gedanken über genaue Zahlen. Diese Übung stellt ein allgemeines Verständnis Ihrer Organisationskultur dar. Wenn Sie Hilfe bei den ersten Schritten benötigen, bewerten Sie einfach ein früheres Rollout. Dies kann Ihnen dabei helfen, zu antizipieren, wie Benutzer auf Änderungen reagieren können, und Ihnen dabei helfen, proaktiv auf die erwarteten Reaktionen zu reagieren.
 
 #### <a name="what-percentage-of-users-fall-into-each-bucket"></a>Wie hoch ist der Prozentsatz der Benutzer in den einzelnen Kategorien?
 
@@ -69,14 +69,14 @@ Verwenden Sie die folgenden Unterhaltungsstarter, um eine Organisationsbereitsch
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
 
-| Early Adopters | Informierte Benutzer | Laggards |
+| Early Adopters | Informierte Benutzer | Hinterherhinken |
 |----|----|---|
-| Diese Benutzer fordern die Lösung an, bevor sie verfügbar ist. | Diese Benutzer akzeptieren die Lösung, sobald ihr Wert demonstriert wurde. | Diese Benutzer lehnen die Lösung auch dann ab, wenn sie geändert werden. |
+| Diese Benutzer fordern die Lösung an, bevor sie verfügbar ist. | Diese Benutzer akzeptieren die Lösung, sobald ihr Wert demonstriert wird. | Diese Benutzer lehnen die Lösung ab, auch wenn sie in Änderungen verschoben werden. |
 
 > [!Tip]
-> Benennen Sie Ihre Early Adopters für Ihre Pilottests ein, und dienen Sie nicht nur als Peer-Experten. Experten hilft dabei, neue Technologie zu verfingern und mit einem Beispiel zu führen, um ihren Kollegen zu zeigen, wie sie Wert erkennen können. Weitere Informationen zum Erstellen eines formellen Champions-Programms finden Sie im Handbuch [Office Einführung](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Möglicherweise benötigen Ihre Laggarde überzeugender, bevor sie eine neue Technologie annehmen. Wenn mehr als 20 Prozent Ihrer Organisation in diesen Bucket fallen, verbringen Sie mehr Zeit mit der Kommunikation des Werts und der Bereitstellung maßgeschneiderter Schulungen. Unterstützen Sie sie außerdem bei der Änderung, indem Sie eine Feedbackschleife öffnen, um ihre Zitate besser zu verstehen und zu adressieren.
+> Nehmen Sie Ihre Early Adopters für Ihre Pilottests auf und dienen Sie als Peer-Champions. Experten helfen dabei, neue Technologien zu evangelisieren und mit beispielweise zu führen, um ihren Kollegen zu zeigen, wie sie Wert erkennen können. Weitere Informationen zum Erstellen eines formalen Champions-Programms finden Sie im [Leitfaden zur Office Einführung](https://adoption.microsoft.com/files/assets/M365AdoptionGuide.pdf). Ihre Nachzügler müssen möglicherweise überzeugender sein, bevor sie eine neue Technologie einführen. Wenn mehr als 20 Prozent Ihrer Organisation in diesen Bucket fallen, verbringen Sie mehr Zeit mit der Kommunikation des Mehrwerts und der Bereitstellung maßgeschneiderter Schulungen. Unterstützen Sie sie außerdem durch die Änderung, indem Sie eine Feedbackschleife öffnen, um ihre Bedenken besser zu verstehen und zu beheben.
 
-#### <a name="what-percentage-of-users-fall-into-each-competency"></a>Wie hoch ist der Anteil der Benutzer, die in die einzelnen Kompetenzn fallen?
+#### <a name="what-percentage-of-users-fall-into-each-competency"></a>Welcher Prozentsatz der Benutzer fällt in jede Kompetenz?
 
 <!--
 | **Type of learner** | **%** |
@@ -86,74 +86,74 @@ Verwenden Sie die folgenden Unterhaltungsstarter, um eine Organisationsbereitsch
 | *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
-| Selbstmotiviert | Teamspieler | Handhalte Suchende |
+| Selbstmotivation | Teamplayer | Handhaltende Sucher |
 |----|----|---|
-| Diese Lernenden suchen nach Ressourcen, lernen durch Ihre Arbeit. | Diese Benutzer profitieren von Gruppen- und interaktiven Schulungen. Sie werden mit Ihren Kollegen zusammenarbeiten. | Diese Benutzer erwarten "weiße" oder 1:1-Unterstützung. |
+| Diese Lernenden suchen ressourcen, lernen durch tun. | Diese Benutzer genießen Gruppen- und interaktive Schulungen; sie werden mit Kollegen zusammenarbeiten. | Diese Benutzer erwarten "weißen Handschuh" oder Einzelhilfe. |
 
 > [!Tip]
-> Nicht jeder lernt auf die gleiche Weise. Wenn Sie selbstmotiviert sind, zeigen Sie auf Die Onlinevideos und Schulungsartikel von Microsoft. Wenn 20 Prozent oder mehr Teamspieler sind, benennen Sie Ihr Schulungsteam oder einen Partner ein, um live, interaktive Schulungen (persönlich oder online) zu bieten. Normalerweise finden Sie Manager oder gezielte Rollen in der Hand-Holding-Kategorie. Dies ist eine wichtige Gruppe, die von personalisierten, kurzen Schulungssitzungen profitieren würde. Besennen Sie Ihre Anwender dazu, diesen Benutzern Schulungen zu bieten, um eine optimale Erfahrung zu erhalten.
+> Nicht jeder lernt auf die gleiche Weise. Für diejenigen, die selbst motiviert sind, verweisen Sie auf die Onlinevideos und Schulungsartikel von Microsoft. Wenn 20 Prozent oder mehr Teamplayer sind, fordern Sie Ihr Schulungsteam oder einen Partner an, um live interaktive Schulungen (persönlich oder online) bereitzustellen. In der Regel finden Sie Führungskräfte oder gezielte Rollen in der Handhaltungskategorie. Dies ist eine kritische Gruppe, die von personalisierten, kurzen Schulungssitzungen profitieren würde. Holen Sie sich Ihre Experten, um schulungen für diese Benutzer bereitzustellen, um eine optimale Benutzererfahrung zu erzielen.
 
-## <a name="assessing-teamwork-scenarios"></a>Bewerten von Teamszenarien
+## <a name="assessing-teamwork-scenarios"></a>Bewerten von Teamarbeitsszenarien
 
-Microsoft Teams erweitert die Funktionen Skype for Business und bietet eine umfassende Kommunikations- und Zusammenarbeitslösung. Überlegen Sie beim Entwerfen Ihres Plans für das Upgrade von Benutzern von Skype for Business auf Teams, wie Sie die Leistung der Zusammenarbeit im Team nutzen können, um die Benutzer zu begeistern und den Übergang von Skype for Business zu Teams.
+Microsoft Teams erweitert die Funktionen von Skype for Business und bietet eine umfassende Kommunikations- und Zusammenarbeitslösung. Berücksichtigen Sie beim Entwerfen Ihres Plans für das Upgrade von Benutzern von Skype for Business auf Teams, wie Sie die Leistungsfähigkeit der Zusammenarbeit im Teamarbeit nutzen können, um Benutzer zu begeistern und den Übergang von Skype for Business zu Teams zu erleichtern.
 
-Im Kern ist Teamwork die Art und Weise, wie Die Mitarbeiter zusammenarbeiten, um Ihre Arbeit zu erledigen. Es geht darum, die richtigen Personen an den relevanten Tools in einer für sie passenden Weise auszurichten. Teams bringt Personen, Unterhaltungen, Dateien und Projekte in einem Arbeitsbereich zusammen und schafft so einen echten Hub für Teamarbeit in Ihrer Organisation.
+Im Kern geht es bei der Teamarbeit um die Zusammenarbeit, um Dinge zu erledigen. Es geht darum, die richtigen Personen so an den relevanten Tools auszurichten, dass sie für sie geeignet sind. Teams bringt Personen, Unterhaltungen, Dateien und Projekte in einem Arbeitsbereich zusammen und schafft so einen echten Hub für Teamarbeit in Ihrer Organisation.
 
-Wenn Sie verstehen, wie Benutzer arbeiten und wie sie zusammenkommen, können sie leichter visualisieren, wie sie Teams verwenden können, und so die Umstellung von ihrem Skype for Business. Es gibt zwei Grundlegende Möglichkeiten, an Teamszenarien zu denken: personenzentriert und projektzentriert.
+Wenn Sie verstehen, wie Benutzer arbeiten und wie sie zusammenkommen, können Sie benutzern dabei helfen, zu visualisieren, wie sie Teams verwenden können, wodurch die Umstellung von Skype for Business erleichtert wird. Es gibt zwei zentrale Möglichkeiten, über Teamarbeitsszenarien nachzudenken: personenorientiert und projektorientiert.
 
-- **Project auf ein bestimmtes** Projekt oder eine bestimmte Initiative (z. B. planen einer Produkteinführung). Von der Bereichsplanung über Budgetmanagement bis zu Marketingaktivitäten hilft projektorientierte Teamarbeit dabei, die Projektarbeitsströme auszurichten und alle auf dem Laufenden zu halten.
-- **Personenorientierte** Teamarbeit dreht sich um Personen mit ähnlichen Zuständigkeiten oder Attributen, die möglicherweise in demselben Team arbeiten (z. B. Vertriebsteam, Straßenbauarbeiten) oder teamübergreifend (z. B. Peer-Experten). Vom Chatten mit einem Kollegen, um eine Antwort auf eine Frage zu erhalten, bis zur Teilnahme an einer Teambe besprechung, können personenorientierte Aktivitäten wie Informationsfreigabe und Das Erstellen von Datenports umfassen.
+- **Project-orientierte Teamarbeit** konzentriert sich auf ein bestimmtes Projekt oder eine bestimmte Initiative (z. B. die Planung einer Produkteinführungsveranstaltung). Von der Bereichsplanung über die Budgetverwaltung bis hin zu Marketingbemühungen hilft projektorientierte Teamarbeit dabei, die Projektarbeitsströme auszurichten und alle auf dem Laufenden zu halten.
+- **Die teamorientierte Teamarbeit** dreht sich um Personen mit ähnlichen Verantwortlichkeiten oder Attributen, die möglicherweise im selben Team (z. B. dem Vertriebsteam, Road Warriors) oder teamsübergreifend (z. B. Peer-Champions) arbeiten. Vom Chatten mit einem Kollegen, um eine Antwort auf eine Frage zu erhalten, bis hin zur Teilnahme an einer Teambesprechung umfassen personenorientierte Aktivitäten das Teilen von Informationen und das Erstellen von Beziehungen.
 
-Um Das Beste aus Teams zu machen, entwickeln Sie eine Teamstrategie, die beide Szenarien umfasst, und helfen Sie den Benutzern zu verstehen, wie Teams für sie arbeiten können.
+Um das Beste aus Teams herauszuholen, erstellen Sie eine Teamarbeitsstrategie, die beide Szenarien umfasst und benutzern dabei hilft zu verstehen, wie Teams für sie arbeiten können.
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Welche neu anpassbaren Szenarien für die Teamarbeit verwenden Sie, um die Benutzeradzeptanz zu beschleunigen Teams und Ihr Upgrade von ihrem System Skype for Business?</li></ul> |
-| ![Ein Symbol, das die nächsten Schritte zeigt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die folgenden Beispiele, um ihre eigenen Teamszenarien zu erstellen. Dokumentieren Sie sie in [der Upgradearbeitsmappe.](https://aka.ms/upgradesuccesskit)</li><li>Weitere Szenarien und Beispiele finden Sie in der [Produktivitätsbibliothek.](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
+| ![Ein Symbol, das Entscheidungspunkte darstellt.](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Welche miteinander verbundenen Teamarbeitsszenarien werden Sie einsetzen, um die Benutzerakzeptanz von Teams zu beschleunigen und Ihr Upgrade von Skype for Business zu erleichtern?</li></ul> |
+| ![Ein Symbol, das die nächsten Schritte darstellt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die folgenden Beispiele, um Ihre eigenen Teamarbeitsszenarien zu erstellen. Dokumentieren Sie sie in der [Upgradearbeitsmappe](https://aka.ms/upgradesuccesskit).</li><li>Weitere Szenarien und Beispiele finden Sie in der [Produktivitätsbibliothek](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Beispiele
 
-**Project-orientierte Teamarbeit:** Produkteinführungen (z. B.: Ihre Organisation ist dabei, ein neues Produkt auf den Markt zu bringen und plant ein breites Werbeereignis, um das Bewusstsein zu fördern, Leads zu generieren und den Vertrieb zu fördern).
+**Project-centric teamwork: Product Launch Event** (for example: your organization is getting ready to launch a new product to the market and is planning a broad promotional event to drive awareness, generate leads, and encourage sales).
 
-| Überlegungen | Hinweise |
+| Berücksichtigung | Hinweise |
 |----|---|
-| Kernattribute |<ul><li>Teamübergreifende Projektbeteiligten mit verschiedenen Projektarbeitsstreams</li><li>Häufig gezielte Besprechungen</li><li>Viele Teile/Personen kommen zusammen (Budget, Zeitpläne, Präsentationen, Registrierung und so weiter)</li></ul> |
-| Herausforderungen im Team heute |<ul><li>Die Datenströme arbeiten in Silos mit eingeschränkter Sichtbarkeit des Projektstatus oder teamübergreifender Bemühungen:<br><ul><li>Getrennte Unterhaltungen und fehlende "Wer macht was". </li><li>An verschiedenen Stellen nachverfolgte Informationen ohne teamübergreifende Sichtbarkeit</li></ul><li>Verlorene Produktivitätszeit, wenn ein neues Mitglied an Bord kommt oder sich keine Besprechung vermisst</li></ul>|
-| Anforderungen an die Teamarbeit |<ul><li>Schneller Zugriff auf Projektzeitplan und Vorgangszuordnung</li><li>Unterhaltungskanal öffnen, um alle auf dem Neuen zu halten</li><li>Zentraler Speicherort für aktuelle Präsentationsdateien und andere Ressourcen</li><li>Möglichkeit, neue Mitglieder des Projektteams schnell auf den Neu zu bringen</li><li>So können Sie sich ermutigen und unterstützen, um in Schwung zu bleiben</li></ul>|
-| Teamarbeit in Teams |<ul><li>Team/Kanäle zum Organisieren von Projektinhalten und Unterhaltungsthreads </li><li>SharePoint zum Hosten von PPT-Dateien<sup>1</sup></li><li>Planner/Trello zum Zuweisen einzelner Projektaufgaben und Fälligkeitsdaten<sup>1</sup></li><li>Teams für Onlinebesprechungen</li><li>Teams mobile App zum Herstellen von Verbindungen von unterwegs aus</li></ul> |
+| Kernattribute |<ul><li>Teamübergreifende Projektbeteiligte mit verschiedenen Projektarbeitsströmen</li><li>Häufige gezielte Besprechungen</li><li>Viele Teile/Personen, die zusammenkommen (Budget, Zeitpläne, Präsentationen, Registrierung usw.)</li></ul> |
+| Teamwork herausforderungen heute |<ul><li>Workstreams arbeiten in Silos mit eingeschränkter Sichtbarkeit des Gesamtprojektstatus oder teamübergreifender Bemühungen:<br><ul><li>Getrennte Unterhaltungen und fehlende "Wer macht was" </li><li>Informationen, die an verschiedenen Stellen ohne teamübergreifende Sichtbarkeit nachverfolgt werden</li></ul><li>Verlorene Produktivitätszeit, wenn ein neues Mitglied an Bord gebracht wird oder eine Besprechung nicht mehr fehlt</li></ul>|
+| Anforderungen an die Teamarbeit |<ul><li>Schneller Zugriff auf Projektplan und Vorgangszuweisung</li><li>Öffnen Sie den Unterhaltungskanal, um jeden auf dem Laufenden zu halten.</li><li>Zentraler Speicherort für aktuelle Präsentationsdateien und andere Ressourcen</li><li>Möglichkeit, neue Projektteammitglieder schnell auf den laufenden zu bringen</li><li>Möglichkeit, einander zu ermutigen und zu unterstützen, um dynamik zu halten</li></ul>|
+| Teamarbeit in Teams |<ul><li>Team/Kanäle zum Organisieren von Projektinhalten und Unterhaltungsthreads </li><li>SharePoint zum Hosten von PPT-Dateien<sup>1</sup></li><li>Planner/Trello zum Zuweisen einzelner Projektaufgaben und Fälligkeitsdaten<sup>1</sup></li><li>Teams für Onlinebesprechungen</li><li>Teams mobile App für die Verbindung unterwegs</li></ul> |
 
-<sup>1 Unterstützen</sup> der App-Integration oder -Ausrichtung in Teams.
+<sup>1</sup> Unterstützung der App-Integration oder -Ausrichtung in Teams.
 
-**Personenorientierte Teamarbeit:** Vertriebsteam (z. B.: Ihr regional verteiltes Vertriebsteam muss von unterwegs aus in Verbindung bleiben, an der Pipeline ausgerichtet bleiben und wichtige Angebote und Initiativen verstehen, die das Erreichen von jährlichen Kontingentzielen fördern können)
+**Mitarbeiterorientierte Teamarbeit: Vertriebsteam** (z. B.: Ihr regional verteiltes Vertriebsteam muss von unterwegs aus in Verbindung bleiben, an der Pipeline ausgerichtet bleiben und wichtige Angebote und Initiativen verstehen, die dazu beitragen können, jährliche Quotenziele zu erreichen)
 
-| Überlegungen | Hinweise |
+| Berücksichtigung | Hinweise |
 |----|---|
-| Kernattribute | <ul><li>Remote arbeiten (unterwegs, in Hotels, an Kundenstandorten)</li><li>Beziehungsorientiert – Kern extern</li></ul> |
-| Herausforderungen im Team heute |<ul><li>Wiederholte Unterhaltungen mit mehreren Außendienstmitarbeitern (Chat, Anrufe, Besprechungen usw.) – es kann nicht jeder auf einmal zusammenkommen.</li><li>Verpasste Möglichkeiten zum Lernen aus Umsatzgewinnen – nur Mundpropaganda</li><li>Kontinuierliches Gemischt von Anwendungen:<ul><li>Verkaufspipeline in Excel</li><li>Trend in Power BI</li><li>Verkaufsmaterialien in einer E-Mail</li><li>Ressourcen für Kundendemos auf SharePoint</li><li>1:1 Chats und Point-in-Time-Besprechungen</li><li>Vertriebsgemeinschaft in Yammer</li></ul></ul> |
-| Anforderungen an die Teamarbeit |<ul><li>Schneller Zugriff auf Vertriebsmaterialien</li><li>Schnelles Erreichen eines Experten</li><li>Schnelles Umdrehen für Fragen und Genehmigungen </li><li>Vertriebsbesprechungen, Pipelineüberprüfungen</li><li>Vertriebsschulungsressourcen</li><li>Verwaltung von Kundendatenbanken</li></ul> |
-| Teamarbeit in Teams |<ul><li>Teams/Kanäle nach Region oder Kunde, die auf die Konzentration von Inhalten und Unterhaltungen ausgelegt sind</li><li>SharePoint für Kolmaterialien/Ressourcen<sup>1</sup></li><li>XLS/Power BI für Pipeline und Datenbanken<sup>1</sup></li><li>Teams für Onlinebesprechungen</li><li>Teams mobile App zum Herstellen von Verbindungen von unterwegs aus</li><li>Teams Integration von Apps in CRM System<sup>1</sup></li><li>Yammer für UMFASSENDE UND-WELT-Einblicke und Informationsfreigabe*<sup>1</sup></li></ul>|
+| Kernattribute | <ul><li>Remote arbeiten (unterwegs, Hotels, Kundenstandorte)</li><li>Beziehungsorientiert – kern extern</li></ul> |
+| Teamwork herausforderungen heute |<ul><li>Wiederholte Unterhaltungen mit mehreren Außendienstmitarbeitern (Chat, Anrufe, Besprechungen usw.) – können nicht alle gleichzeitig zusammen bringen</li><li>Verpasste Möglichkeiten, von Verkäufen zu lernen "gewinnt" – nur Mundpropaganda-Freigabe</li><li>Kontinuierliches Mischen zwischen Anwendungen:<ul><li>Vertriebspipeline in Excel</li><li>Trend in Power BI</li><li>Verkaufsmaterial in E-Mail</li><li>Demoressourcen für Kunden auf SharePoint</li><li>1:1-Chats und Point-in-Time-Besprechungen</li><li>Vertriebscommunity-Öffentlichkeitsarbeit in Yammer</li></ul></ul> |
+| Anforderungen an die Teamarbeit |<ul><li>Schneller Zugriff auf Verkaufsmaterial</li><li>Schnelles Erreichen eines Experten</li><li>Schnelles Umschalten bei Fragen und Genehmigungen </li><li>Verkaufsbesprechungen, Pipelineüberprüfungen</li><li>Vertriebsschulungsressourcen</li><li>Verwaltung von Kundendatenbanken</li></ul> |
+| Teamarbeit in Teams |<ul><li>Teams/Kanäle nach Region oder Kunde, die darauf ausgelegt sind, Inhalte und Unterhaltungen zu konzentrieren</li><li>SharePoint für Sicherheiten/Ressourcen<sup>1</sup></li><li>XLS/Power BI für Pipeline und Datenbanken<sup>1</sup></li><li>Teams für Onlinebesprechungen</li><li>Teams mobile App für die Verbindung unterwegs</li><li>Teams App-Integration in CRM-System<sup>1</sup></li><li>Yammer für umfassende Einblicke in KMU und Informationsaustausch*<sup>1</sup></li></ul>|
 
-<sup>1 Unterstützen</sup> der App-Integration oder -Ausrichtung in Teams.
+<sup>1</sup> Unterstützung der App-Integration oder -Ausrichtung in Teams.
 
-### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>Tipps zur Identifizierung einer "guten Passform" für Ihre Teamstrategie
+### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>Tipps, um eine "gute Passform" für Ihre Teamarbeitsstrategie zu identifizieren
 
-Es kann einfach sein, eine Teamstrategie für jeden Benutzer, jedes Team und jedes Projekt zu entwickeln. Nicht jedes Projekt oder Team erfordert eine vollständig definierte Teamstrategie. Hier sind einige bewährte Methoden für die ersten Schritte:
+Es könnte einfach sein, sich mit einer Teamarbeitsstrategie für jeden Benutzer, jedes Team und jedes Projekt zu entreißen. Nicht jedes Projekt oder Team erfordert eine vollständig definierte Teamarbeitsstrategie. Hier sind einige bewährte Methoden für die ersten Schritte:
 
-- Erwägen Sie teamübergreifende Projekte, die gerade erst beginnen oder anstehende.
-  - Veranstaltungsplanung – Koordination von mehreren Teams (Budget, Logistik, Präsentationen und so weiter)
-  - Neues Produkt in einer Pilotphase – Informationen teilen, Feedback in einer kontrollierten Umgebung sammeln
+- Erwägen Sie teamübergreifende Projekte, die gerade erst beginnen oder bevorstehen.
+  - Veranstaltungsplanung – Koordination aus mehreren Teams (Budget, Logistik, Präsentationen usw.)
+  - Pilot für neues Produkt – Teilen von Informationen, Sammeln von Feedback in einer kontrollierten Umgebung
 
-- Identifizieren Sie Benutzerpersonas und Kernarbeitsgruppen, und verbinden Sie die verschiedenen Arten der Interaktion miteinander in Teams
+- Identifizieren von Benutzerpersonas und kernarbeitsgruppen, verbinden Sie die verschiedenen Möglichkeiten, wie sie miteinander interagieren, in Teams
 
-  - Vertriebsteams/-regionen – Straßenbaus, einfachen Zugriff auf Ressourcen, schnelle Antworten auf die Umgedrehung
-  - Personalwesen – Standardisierte Prozesse in allen Abteilungen, einheitlicher Ansatz für Einstellung
-  - Frontline Workers – Verbindung mit ihren Kollegen/dem Management, Zugriff auf Verfahren, NEO
+  - Vertriebsteams/-regionen – Straßenkrieger, ressourcenfreundlicher Zugriff, schnelle Reaktionen zur Umdrehung
+  - HR – standardisierte Prozesse über alle Divisionen hinweg, einheitlicher Einstellungsansatz
+  - Mitarbeiter in Service und Produktion – Verbindung zu ihren Kollegen/Geschäftsleitung, Zugang zu Verfahren, NEO
 
-- Beachten Sie die folgenden Überlegungen:
+- Beachten Sie folgende Überlegungen:
 
-  - Beginnen Sie klein. Speichern Sie größere, komplexere Projekte für , nachdem Sie das Teamarbeitsmodell überprüft haben.
-  - Konzentrieren Sie sich auf neue Projekte. Vermeiden Sie es, ein vorhandenes Projekt zu ändern, das bereits läuft, da dies den Workflow unterbrechen kann.
-  - Berücksichtigen Sie die Anzeigedauer. Das Entwickeln einer neuen Teamstrategie für den Vertrieb am Ende des Geschäftsjahrs ist möglicherweise nicht ideal.
-  - Iterieren Sie müssen das Rad nicht neu erfinden. Wenn Sie eine Teamstruktur finden, die funktioniert, wiederholen Sie sie mit anderen Arbeitsgruppen und Projekten. Definieren Sie ein Vorlagenteam, und legen Sie Richtlinien fest, damit Die Benutzer schnell in die Teams und für Einheitlichkeit sorgen können.
+  - Beginnen Sie klein. Speichern Sie größere, komplexere Projekte, nachdem Sie das Teamarbeitsmodell überprüft haben.
+  - Konzentrieren Sie sich auf neue Projekte. Vermeiden Sie es, ein vorhandenes Projekt zu ändern, das gerade ausgeführt wird, da dies den Workflow stören kann.
+  - Berücksichtigen Sie die Anzeigedauer. Das Einführen einer neuen Teamarbeitsstrategie für den Vertrieb am Ende Des Geschäftsjahres ist möglicherweise nicht ideal.
+  - Durchlaufen. Sie müssen das Rad nicht neu erfinden. Wenn Sie eine Teamarbeitsstruktur finden, die funktioniert, wiederholen Sie sie mit anderen Arbeitsgruppen und Projekten. Definieren Sie ein Vorlagenteam, und legen Sie Richtlinien fest, die Benutzern helfen, sich schnell in Teams zu integrieren und Konsistenz zu gewährleisten.
 
-Verwenden Sie die oben gesammelten Informationen, um die [Benutzerbereitschaftsplan zu informieren.](./upgrade-user-readiness.md)
+Verwenden Sie die oben gesammelten Informationen, um Ihren [Benutzerbereitschaftsplan](./upgrade-user-readiness.md) zu informieren.

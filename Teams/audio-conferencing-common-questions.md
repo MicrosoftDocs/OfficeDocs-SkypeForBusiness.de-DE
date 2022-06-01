@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden finden Sie einige der häufigsten Fragen, die wir von unseren Kunden erhalten, die Audiokonferenz nutzen möchten.
-ms.openlocfilehash: 9ab6e8b752dd0a1e60af3b971007217bcf1355c2
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: eece5c0edc912cf56e933c75c85dd3f5cc8ef51f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055715"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823390"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenz
 
@@ -71,7 +71,7 @@ Eine aktuelle Liste der Länder/Regionen finden Sie unter [Telefonnummern für A
   
 ## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>Kann ich lokale Telefonnummern für Audiokonferenz von weiteren Städten im Land einrichten?
 
-Wenn in Ihrer Gegend keine Telefonnummern für Audiokonferenz verfügbar sind, oder wenn diese nicht den Bedürfnissen Ihrer Organisation entsprechen, senden Sie uns Feedback im [SkypeFeedback-Forum](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing).
+Wenn in Ihrer Gegend keine Telefonnummern für Audiokonferenz verfügbar sind, oder wenn diese nicht den Bedürfnissen Ihrer Organisation entsprechen, senden Sie uns Feedback im [SkypeFeedback-Forum](https://techcommunity.microsoft.com/t5/skype-for-business-blog/welcome-to-the-skype-for-business-community/ba-p/89273).
   
 ## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Was ist die maximale Dauer von Audiokonferenzbesprechungen?
 
@@ -134,7 +134,7 @@ Für Besprechungsteilnehmer und Organisatoren:
 | Befehlsname    | Befehlstaste | Beschreibung                                                                 |
 |--------------   |--------------|-----------------------------------------------------------------------------|
 | Befehlsmenü    | \*1          | Drücken Sie \*1, um die Beschreibung der verfügbaren Wahltastenbefehle abzuspielen. |
-| Heben/Untere Hand| \*5          | Drücken Sie \* 5, um die Hand zu erhöhen oder zu senken.                                           |  
+| Heben/Untere Hand| \*5          | Drücken Sie \*5, um die Hand zu heben oder zu senken.                                           |  
 | Stummschalten/Stummschaltung aufheben     | \*6          | Drücken Sie \*6, um sich selber stumm zu schalten oder die Stummschaltung aufzuheben.                                     |
 
 Nur für Besprechungsorganisatoren:

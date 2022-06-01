@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
-ms.translationtype: HT
+ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681746"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823400"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Sitzungsraumführung für Teams
 
@@ -83,7 +83,7 @@ Bereiten Sie Ihre Benutzer darauf vor, dies phasenweise zu tun, um ihre Teams-Be
 
 Sie können mit diesem Plan beginnen, indem Sie alle Besprechungsräume adressieren, die nicht mit AV oder ohne Zusammenarbeit ausgestattet sind. Sie können Teams weiterhin in Ihren Besprechungsräumen nutzen, auch wenn in diesen Besprechungsräumen noch keine Teams-Geräte installiert waren.
 
-*Audio:* Eine großartige Brücke zu einem vollständigen Teams-Raum ist die Planung der Besprechungstechnologie, indem Sie Ihren einzelnen Benutzern entweder Teams-zertifizierte Audiogeräte für kleinere Räume und Gruppen bereitstellen oder sie in Räumen vor einer vollständigen Teams-Raumlösung für größere Räume bereitstellen, die für größere Gruppen vorgesehen sind, bei denen ein kleines Gerät es nicht ausschneidet.
+*Audio:* Eine großartige Brücke zu einem vollständigen Teams-Räume besteht darin, die Besprechungstechnologie zu planen, indem Sie ihren einzelnen Benutzern entweder Teams-zertifizierte Audiogeräte für kleinere Räume und Gruppen bereitstellen oder sie in Räumen bereitstellen, bevor eine vollständige Teams-Räume Lösung für größere Räume für größere Gruppen vorgesehen ist, bei denen ein kleines Gerät es nicht schneiden wird.
 
 *Video:* Wenn diese Räume verwendet werden, können einzelne Benutzer ihre eigenen Geräte in den Teams-Besprechungsinhalten freigeben und ihre Ausdrücke mit ihren einzelnen Kameras erfassen. Benutzer können dann eine Person als einzelne Audioquelle für die lokale Gruppe festlegen und dieses persönliche Gerät mit dem zertifizierten Audiogerät verbinden, sodass jeder (sowohl lokal als auch remote) eine positive Erfahrung mit Besprechungsaudio hat.
 

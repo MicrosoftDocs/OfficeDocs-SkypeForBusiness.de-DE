@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: f087498d3a9d679ea10ba2c8cc9505ab772d85ab
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401889"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823646"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Survivable Branch Appliance (SBA) für Direct Routing
 
@@ -47,10 +47,10 @@ Wenden Sie sich an Ihren SBC-Anbieter, um die neueste SBC-Firmware mit eingebett
 
 - Auf dem Betriebssystem des virtuellen SBA-Computers muss TLS1.2 aktiviert sein.
 - Die Ports 3443, 4444 und 8443 werden von Microsoft SBA Server für die Kommunikation mit dem Teams-Client verwendet und sollten in der Firewall zulässig sein. 
-- Port 5061 (oder der auf dem SBC konfigurierte Port) wird von Microsoft SBA Server für die Kommunikation mit dem SBC verwendet und sollte in der Firewall zulässig sein. 
+- Port 5061 (oder der auf dem SBC konfigurierte) wird von Microsoft SBA Server für die Kommunikation mit dem SBC verwendet und sollte in der Firewall zulässig sein. 
 - UDP-Port 123 wird von Microsoft SBA Server für die Kommunikation mit dem NTP-Server verwendet und sollte in der Firewall zulässig sein.
-- Port 443 wird von Microsoft SBA Server für die Kommunikation mit anderen Microsoft 365 für die Firewall zugelassen.
-- Azure-IP-Bereiche und -Diensttags für die öffentliche Cloud sollten gemäß den unter den folgenden Richtlinien beschriebenen Richtlinien definiert werden: https://www.microsoft.com/download/details.aspx?id=56519
+- Port 443 wird von Microsoft SBA Server für die Kommunikation mit Microsoft 365 verwendet und sollte in der Firewall zulässig sein.
+- Azure-IP-Bereiche und Diensttags für die öffentliche Cloud sollten gemäß den unter folgenden Richtlinien beschriebenen Richtlinien definiert werden: https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>Unterstützte Microsoft Teams-Clients
 
@@ -59,8 +59,8 @@ Das SBA-Feature wird auf den folgenden Microsoft Teams-Clients unterstützt:
 - Microsoft Teams Windows-Desktop 
 
 - Microsoft Teams macOS-Desktop
-- Teams für Mobilgeräte 
-- Teams-Telefone
+- Teams für Mobile 
+- Teams Smartphones
 
 ## <a name="how-it-works"></a>So funktioniert es
 
@@ -196,7 +196,7 @@ Gehen Sie dann wie folgt vor:
 
 Eine schrittweise Anleitung zum Konfigurieren des Session Border Controllers mit eingebetteter Survivable Branch Appliance finden Sie in der Dokumentation Ihres SBC-Anbieters: 
 
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
+- [AudioCodes](https://www.audiocodes.com/library/technical-documents?query=sba)
 
 - [Ribbon](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 

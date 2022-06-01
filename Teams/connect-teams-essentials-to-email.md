@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: dcea261be727c01382d55c4a2861541291fcb343
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674907"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823586"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Verbinden Microsoft Teams Essentials (AAD Identity) zu einem vorhandenen E-Mail-System mit Kalender
 
@@ -69,7 +69,7 @@ Alle in Microsoft 365 generierten E-Mails werden an Google Workspace weitergelei
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Abbildung eines Diagramms des Nachrichtenflusses zwischen EXO und Gmail":::
 
-Diese Beispiele basieren auf dem [Verbinden-ExchangeOnline PowerShell-Befehllet](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true), das Teil des [Exchange Online PowerShell V2-Moduls](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true) ist. Wenn beim Ausführen von Verbinden-ExchangeOnline eine Fehlermeldung angezeigt wird, stellen Sie sicher, dass Sie die empfohlenen Anweisungen zum Installieren des Moduls mithilfe [des EXO V2-Moduls](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true) befolgt haben. Wenn Connect-ExchangeOnline Anmeldeinformationen einfordert, müssen Sie unbedingt ein Mandantenadministratorkonto verwenden.
+Diese Beispiele basieren auf dem [Verbinden-ExchangeOnline PowerShell-Befehllet](/powershell/module/exchange/connect-exchangeonline), das Teil des [Exchange Online PowerShell V2-Moduls](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps) ist. Wenn beim Ausführen von Verbinden-ExchangeOnline eine Fehlermeldung angezeigt wird, stellen Sie sicher, dass Sie die empfohlenen Anweisungen zum Installieren des Moduls mithilfe [des EXO V2-Moduls](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module) befolgt haben. Wenn Connect-ExchangeOnline Anmeldeinformationen einfordert, müssen Sie unbedingt ein Mandantenadministratorkonto verwenden.
 
 #### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>Schritt 1: Einrichten einer neuen Microsoft 365 Mandantendomäne
 

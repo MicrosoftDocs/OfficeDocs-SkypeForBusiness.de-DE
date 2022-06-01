@@ -1,5 +1,5 @@
 ---
-title: Code of Practice für Großbritannien - Microsoft 365-Anrufpläne
+title: Verhaltenskodex für Großbritannien - Microsoft 365 Anrufpläne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,17 +22,17 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Hier erfahren Sie den praktischen Praktischen für PSTN-Anrufpläne für Skype for Business Großbritannien, einschließlich Angaben, wo Sie Hilfe erhalten und wie Sie Beanstandungen einreichen und Streitfälle beilegungen können.
-ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie mehr über den Praxiscode für PSTN-Anrufpläne für Skype for Business Großbritannien, einschließlich, wo Sie Hilfe erhalten und wie Sie Beschwerden einreichen und Streitigkeiten lösen können.
+ms.openlocfilehash: 526e34bce5ec36188287154a4f578a56942fa36f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580199"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823034"
 ---
-# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Übungscode für Großbritannien (UK)
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Verhaltenskodex für das Vereinigte Königreich (Vereinigtes Königreich)
 
-Dieser Code gilt für Kunden von Kleinunternehmen (Organisationen mit bis zu 10 Mitarbeitern) im Vereinigten Königreich (UK) in Bezug auf den Anrufplandienst von Microsoft 365 oder Office 365 (den "Dienst") gemäß den UK-Kommunikationsbestimmungen. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft und anderen Bedingungen, die für Ihre Nutzung des jeweiligen Diensts gelten.
+Dieser Code gilt für Kleinunternehmen (Organisationen mit mindestens 10 Mitarbeitern) im Vereinigten Königreich (UK) in Bezug auf den Microsoft 365 oder Office 365 Anrufplandienst (der "Dienst") gemäß den Britischen Kommunikationsbestimmungen. Andere Skype for Business Dienste unterliegen Ihrem Servicevertrag mit Microsoft und allen anderen Bedingungen, die für Ihre Nutzung des jeweiligen Dienstes gelten.
 
 ## <a name="1-about-skype-for-business"></a>1. Info zu Skype for Business
 
@@ -44,7 +44,7 @@ Wenn Sie Fragen zum Vertrieb, zur Abrechnung oder zum Technischen Support haben,
 
 Gebührenfreie Telefonnummer: 0800 032 6417
 
-Online: Melden Sie sich bei der Microsoft 365 Admin Center und senden Sie eine Serviceanfrage, indem Sie unter Support die Option Neue **Serviceanfrage** **auswählen.**
+Online: Melden Sie sich beim Microsoft 365 Admin Center an, und senden Sie eine Serviceanfrage, indem Sie unter **"Support**" **die Option "Neue Serviceanfrage"** auswählen.
 
 Die normalen Geschäftszeiten sind montags bis freitags von 9.00 Uhr bis 15.00 Uhr.
 
@@ -52,7 +52,7 @@ Einige Antworten auf Ihre Fragen erhalten Sie möglicherweise bereits auf der [S
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Beanstandungen und Schlichtung bei Streitigkeiten
 
-Die Kundenzufriedenheit und ein hervorragender Service kommen bei uns an erster Stelle. Sollten Sie jedoch eine Beanstandung haben, werden wir dafür schnell eine Abhilfe suchen. Auf der Seite Anrufpläne in Microsoft 365 oder Office 365 – Beanstandungshandling-Code für Großbritannien [(UK)](complaint-handling-code-for-the-united-kingdom-u-k.md) sind die Verfahren für kleine Unternehmen zur Einreichung einer Beanstandung bei uns und unser unabhängiges Schlichtungsverfahren bei Streitigkeiten im Detail.
+Die Kundenzufriedenheit und ein hervorragender Service kommen bei uns an erster Stelle. Sollten Sie jedoch eine Beanstandung haben, werden wir dafür schnell eine Abhilfe suchen. Unsere [Anrufpläne in Microsoft 365 oder Office 365 – Beanstandungsbehandlungscode für das Vereinigte Königreich (Vereinigtes Königreich)](complaint-handling-code-for-the-united-kingdom-u-k.md) enthält Details zu den Verfahren für kleine Unternehmen, um eine Beschwerde bei uns einzureichen, und unser unabhängiges Streitbeilegungssystem.
   
 ## <a name="4-number-porting"></a>4. Nummernportierung
 
@@ -60,13 +60,13 @@ In einigen Fällen ist Skype for Business ggf. nicht in der Lage, die Telefonnum
 
 ## <a name="5-service-reliability"></a>5. Zuverlässigkeit beim Service
 
-Microsoft 365 oder Office 365-Anrufplan basiert auf Ihrer Breitbandverbindung. Wenn bei Ihrer Breitbandverbindung ein Stromausfall oder ein Stromausfall vor sich geht, können Sie keine Telefonanrufe mehr führen. Die Ursachen für diese Fehler können sich ihrer Kontrolle möglicherweise nicht mehr erennennen.
+Microsoft 365 oder Office 365 Anrufplans basiert auf Ihrer Breitbandverbindung. Wenn bei Ihrer Breitbandverbindung ein Stromausfall auftritt oder ein Ausfall auftritt, können Sie keine Telefonanrufe tätigen. Die Ursachen für diese Fehler können außerhalb unserer Kontrolle sein.
 
 ## <a name="6-emergency-calls"></a>6. Notrufe
 
-Skype for Business bietet Kunden in England, Wales, Schottland und Nordirland Zugriff auf die öffentlichen Notrufe 999/112. Notrufe bei 999 oder 112 funktionieren jedoch mit Microsoft 365- oder Office 365 Anrufplandiensten anders als bei herkömmlichen Telefondiensten. Kunden müssen jeden Benutzer über die Unterschiede in Microsoft 365 oder Office 365 Anrufplandienste informieren.
+Skype for Business bietet Kunden in England, Wales, Schottland und Nordirland Zugriff auf die öffentlichen Notrufe 999/112. Notrufe an 999 oder 112 funktionieren jedoch bei Microsoft 365 oder Office 365 Anrufplandiensten anders als bei herkömmlichen Telefondiensten. Kunden müssen jeden Benutzer über die Microsoft 365 oder Office 365 Anrufplandienste über diese Unterschiede informieren.
 
-Die Unterschiede umfassen Folgendes: (i) Skype for Business den tatsächlichen Standort eines Anrufers möglicherweise nicht kennen, was dazu führen kann, dass die Notfalldienste an den falschen Standort entsenert werden; (ii) Wenn ein Skype for Business-Benutzer einen Notruf wählt, kann er von einem Netzbetreiber aufgefordert werden, seinen aktuellen Standort zur Verfügung zu stellen, um bei der ordnungsgemäßen Weiterleitung des Notrufs und bei der Bereitstellung von Notdiensten zu helfen; (iii) Wenn das Gerät des Benutzers über keine Stromversorgung verfügt, ein Stromausfall auftritt oder der Benutzer aus irgendeinem Grund nicht anderweitig auf das Internet zugreifen kann, kann er über Microsoft 365- oder Office 365-Anrufplandienste keinen Notruf abrufen; und (iv) Obwohl Microsoft 365- und Office 365-Anrufplandienste überall auf der Welt verwendet werden können, wo eine Internetverbindung verfügbar ist, sollten benutzer nicht unter 999 oder 112 außerhalb von England, Wales, Schottland oder Nordirland anrufen, da der Anruf wahrscheinlich nicht an den entsprechenden Notdienst umgerufen wird.
+Die Unterschiede umfassen Folgendes: (i) Skype for Business den tatsächlichen Standort eines Anrufers möglicherweise nicht kennen, was dazu führen könnte, dass die Notrufdienste an den falschen Ort gepatcht werden; (ii) Wenn ein Skype for Business Benutzer einen Notruf wählt, kann der Benutzer von einem Betreiber aufgefordert werden, seinen aktuellen Standort anzugeben, um die ordnungsgemäße Weiterleitung des Notrufs und das Abstellen von Notdiensten zu unterstützen; (iii) wenn das Gerät des Benutzers keine Stromversorgung hat, ein Stromausfall auftritt oder aus irgendeinem Grund nicht anderweitig auf das Internet zugreifen kann, kann der Benutzer keinen Notruf über Microsoft 365 oder Office 365 Anrufplandienste tätigen; und (iv) obwohl Microsoft 365 und Office 365  Anrufplandienste können überall auf der Welt verwendet werden, wo eine Internetverbindung verfügbar ist. Benutzer sollten 999 oder 112 nicht außerhalb Englands, Wales, Schottlands oder Nordirlands anrufen, da der Anruf wahrscheinlich nicht an den entsprechenden Notdienst weitergeleitet wird.
 
 Es ist wichtig, dass jeder Kunde den Standort des Benutzers registriert und diese Informationen stets auf dem neuesten Stand hält, sodass sie den Notfalldiensten bereitgestellt werden können. Sie können Änderungen an den Standortinformationen online über das Skype for Business-Administratorportal vornehmen.
 
@@ -118,7 +118,7 @@ Ein Internet-Dialler ist ähnlich wie ein Computervirus eine Software, welche au
 
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-Alle Dienstanbieter müssen sich bei PhonepayPlus, einer unabhängigen, von Ofcom genehmigten Organisation, registrieren. PhonepayPlus regelt die Premium-Preis-Dienste und prüft von Konsumenten eingereichte Beanstandungen. Alle Dienstanbieter müssen die PhonepayPlus Verfahrensregel befolgen, die unter [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) einsehbar ist. Wenn ein Dienstanbieter die Verfahrensregel verletzt, kann PhonepayPlus:
+Alle Dienstanbieter müssen sich bei PhonepayPlus, einer unabhängigen, von Ofcom genehmigten Organisation, registrieren. PhonepayPlus regelt die Premium-Preis-Dienste und prüft von Konsumenten eingereichte Beanstandungen. Alle Dienstanbieter müssen sich an den PhonepayPlus Code of Practice halten, der unter [Code of Practice](https://psauthority.org.uk/for-business/code-15) zu finden ist. Wenn ein Dienstanbieter die Verfahrensregel verletzt, kann PhonepayPlus:
 
 - Verlangen, dass eine Partei eine Entschädigung für die entsprechende Verletzung entrichtet
 
@@ -128,7 +128,7 @@ Alle Dienstanbieter müssen sich bei PhonepayPlus, einer unabhängigen, von Ofco
 
 ### <a name="service-provider-contact-information"></a>Dienstanbieter-Kontaktdaten
 
-Um Kontaktdaten für einen Serviceanbieter zu finden, können Sie das #NumberChecker-Tool von PhonepayPlus unter [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry) verwenden. Wenn Sie der Ansicht sind, dass Ihnen fälschlicherweise ein Premium-Preis-Dienst in Rechnung gestellt wurde, sollten Sie den Dienstanbieter direkt kontaktieren.
+Um Kontaktinformationen für einen Dienstanbieter zu finden, können Sie das #NumberChecker-Tool von PhonepayPlus unter ["Onlineanfrage übermitteln](https://psauthority.org.uk/For-Consumers/Contact-Us)" verwenden. Wenn Sie der Ansicht sind, dass Ihnen fälschlicherweise ein Premium-Preis-Dienst in Rechnung gestellt wurde, sollten Sie den Dienstanbieter direkt kontaktieren.
 
 ### <a name="complaints"></a>Beanstandungen
 
@@ -136,7 +136,7 @@ Wenn Sie bei PhonepayPlus eine Beanstandung zu einem Dienstanbieter einreichen m
 
 - Telefon: 0300 30 300 20 (montags bis freitags, 9.00 Uhr bis 17.00 Uhr)
 
-- Online-Anfrage: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- Onlineanfrage: [Onlineanfrage einreichen](https://psauthority.org.uk/For-Consumers/Contact-Us)
 
 ### <a name="dispute-resolution"></a>Schlichtung von Streitigkeiten
 

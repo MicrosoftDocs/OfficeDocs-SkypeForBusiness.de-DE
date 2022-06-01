@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745500dd0ac30d717e37ec9287618342554b26c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cf7d4e9670d8ea282105eaa057347fa7e9f6dac
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627027"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822994"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel und Microsoft Teams
 
@@ -220,13 +220,13 @@ SigninLogs
 
 **Vielen Dank für die inhaltliche Zusammenarbeit an Pete Bryan, Nicholas DiCola und Matthew Lowe.** Pete Bryan und die Personen, mit denen er zusammenarbeitet, werden weiterhin Erkennungs- und Suchabfragen für Microsoft Teams entwickeln.
 
-Halten Sie sich über Updates über dieses [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs)-Repository auf dem Laufenden.
+Halten Sie sich über Updates über dieses [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/)-Repository auf dem Laufenden.
 
 Halten Sie regelmäßig Ausschau nach Updates für den in diesem Artikel verwendeten [Parser](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) bzw. für die verwendete [Logik-App](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data).
 
 Sie sollten auch der [Azure Sentinel-Community](https://github.com/Azure/Azure-Sentinel/wiki) beitreten (und daran mitwirken). Wir sind sehr an Feedback zu diesem Artikel interessiert. Nutzen Sie also bitte die Feedbackoption weiter unten. Vielen Dank und erfolgreiche Suche!
 
-[Registrieren Ihrer Anwendung in Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Registrieren Ihrer Anwendung in Azure AD](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
 
 [Aktivieren oder Deaktivieren der Überwachungsprotokollsuche](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 

@@ -1,5 +1,5 @@
 ---
-title: Beanstandungshandling-Code für Großbritannien - Microsoft 365-Anrufpläne
+title: Beanstandungsbehandlungscode für Großbritannien - Microsoft 365 Anrufpläne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,17 +22,17 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Einreichen einer Beanstandung für Skype for Business-Anrufdienste (PSTN-Anrufe in Großbritannien), Zeitachsen für Antworten und Beilegung von Streitigkeiten für nicht aufgelöste Beanstandungen.
-ms.openlocfilehash: 648f7b171e8d04f4bad6ef1cdb1021b987cf042e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Beanstandung für Skype für Geschäftsanrufdienste (PSTN-Anrufe im Vereinigten Königreich), Fristen für Antworten und Beilegung von Streitigkeiten bei nicht gelösten Beschwerden.
+ms.openlocfilehash: 996149ad23ec8c9258dd3ef953aeffe8c3aea041
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604604"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823716"
 ---
-# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Beanstandungshandling-Code für Großbritannien (UK)
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Code für die Behandlung von Beschwerden für das Vereinigte Königreich (Vereinigtes Königreich)
 
-Dieser Code gilt für Kleinunternehmen-Kunden (Organisationen mit bis zu 10 Mitarbeitern) im Vereinigten Königreich (UK) in Bezug auf den Microsoft 365 Calling Plan-Dienst (den "Dienst") gemäß den UK-Kommunikationsbestimmungen. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft und anderen Bedingungen, die für Ihre Nutzung des jeweiligen Diensts gelten.
+Dieser Code gilt für Kleinunternehmen (Organisationen mit mindestens 10 Mitarbeitern) im Vereinigten Königreich (UK) in Bezug auf den Microsoft 365 Anrufplandienst (der "Dienst") gemäß den Britischen Kommunikationsbestimmungen. Andere Skype for Business Dienste unterliegen Ihrem Servicevertrag mit Microsoft und allen anderen Bedingungen, die für Ihre Nutzung des jeweiligen Dienstes gelten.
 
 ## <a name="how-to-make-a-complaint"></a>So erstellen Sie eine Beanstandung
 
@@ -40,7 +40,7 @@ Kundenzufriedenheit steht bei Skype for Business an erster Stelle. Sollten Sie m
 
 - Gebührenfreie Telefonnummer: 0800 032 6417
 
-- Online: Melden Sie sich bei der Microsoft 365 Admin Center und senden Sie eine Serviceanfrage, indem Sie unter Support die Option Neue **Serviceanfrage** **auswählen.**
+- Online: Melden Sie sich beim Microsoft 365 Admin Center an, und senden Sie eine Serviceanfrage, indem Sie unter **"Support**" **die Option "Neue Serviceanfrage"** auswählen.
 
 ## <a name="timelines"></a>Zeitachsen
 
@@ -52,7 +52,7 @@ Ist ein(e) Skype for Business-Mitarbeiter/Mitarbeiterin nicht in der Lage, das P
 
 Skype for Business ist bestrebt, alle Beanstandungen in Bezug auf den Dienst innerhalb von (7) Werktagen nach Eingang der Beanstandung zu klären.
 
-Wenn Sie mit der Art und Weise, in der Ihre Beanstandung bezüglich des Diensts verwaltet wird, unzufrieden sind, können Sie den Skype for Business-Mitarbeiter, der Ihre Beanstandung behandelt, telefonisch oder per E-Mail bitten, die Beanstandung gemäß Ihrem Servicevertrag zu eskalieren. Microsoft evaluiert die Beanstandung innerhalb von sieben (7) Tagen nach dem Eingang.
+Wenn Sie mit der Art und Weise unzufrieden sind, in der Ihre Beanstandung bezüglich des Dienstes verwaltet wird, können Sie den Skype for Business Vertreter, der Ihre Beanstandung bearbeitet, telefonisch oder per E-Mail bitten, die Beanstandung gemäß Ihrem Servicevertrag zu eskalieren. Microsoft evaluiert die Beanstandung innerhalb von sieben (7) Tagen nach dem Eingang.
 
 ## <a name="alternative-dispute-resolution"></a>Alternative Schlichtung der Streitigkeit
 
@@ -62,9 +62,9 @@ Die Schlichtungsdienste sind von Microsoft unabhängig und liefern eine unpartei
 
 Alle Beanstandungen müssen innerhalb von zwölf (12) Monaten nach dem Einreichen der Beanstandung bei Skype for Business bei den Ombudsman Services eingegangen sein.
 
-Diesen Schritt zum Einreichen einer Beanstandung bei den Ombudsman Services finden Sie auf der Website der Ombudsman Services [](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809).
+Die Schritte zur Beanstandung der Bürgerbeauftragtendienste finden Sie auf der Website der Ombudsman Services der [Ombudsmanndienste](https://www.ombudsman-services.org/).
 
-Sie können die Ombudsman Services erreichen, indem Sie ein Kontaktformular auf der Website der Ombudsman Services oder telefonisch, per Brief oder E-Mail ausfüllen:
+Sie können die Ombudsman Services erreichen, indem Sie ein Kontaktformular auf der Website der Ombudsman Services oder per Telefon, Brief oder E-Mail ausfüllen:
 
 - Kontaktformular: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

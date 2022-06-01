@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: c65b51b34de54f419db341d5e1328a93746f0984
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635393"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823310"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Planen eines erfolgreichen Übergangs von Kaizala zu Microsoft Teams
 
@@ -70,7 +70,7 @@ Nachdem Sie das empfohlene Framework für die Planung eines erfolgreichen Überg
 
 ### <a name="get-ready"></a>Mach dich bereit
 
- 1. Stellen Sie sicher, dass für jeden Teams Lizenzen vorhanden sind. Schauen Sie sich [Teams-Pläne](/microsoft-teams/compare-microsoft-teams-options?rtc=1) und [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description) an.
+ 1. Stellen Sie sicher, dass für jeden Teams Lizenzen vorhanden sind. Schauen Sie sich [Teams-Pläne](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot%3aprimaryr1) und [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description) an.
 
  2. Verwenden Sie [Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/#get-started) Einführungsleitfaden, um Teams in Ihrer Organisation bereitzustellen.
 
@@ -78,7 +78,7 @@ Nachdem Sie das empfohlene Framework für die Planung eines erfolgreichen Überg
 
  4. Verwenden Sie diese Schulungsressourcen, um Benutzern in Ihrer Organisation zu helfen, Teams optimal zu nutzen:
 
-    - Informationen zur Bereitschaft von IT-Administratoren finden Sie unter [Administratorschulungsressourcen](/microsoftteams/itadmin-readiness).
+    - Informationen zur IT-Admin-Bereitschaft finden Sie [unter Admin Schulungsressourcen](/microsoftteams/itadmin-readiness).
 
     - Kursleitergeführte Schulungen finden Sie unter [Instruktorgeführte Schulungen für Microsoft Teams](/microsoftteams/instructor-led-training-teams-landing-page).
   

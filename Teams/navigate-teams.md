@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674837"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823460"
 ---
 # <a name="navigate-microsoft-teams"></a>Navigieren Microsoft Teams
 
@@ -259,7 +259,7 @@ Quiz ist eine benutzerdefinierte [Teams Messaging-Erweiterung](/microsoftteams/p
 
 Verwenden Sie die App-Vorlage "[Mitarbeitercheckins](/microsoftteams/platform/samples/app-templates#staff-check-ins)", damit Mitarbeiter im Front-Line-Dienst zeitkritische Informationen und Statusaktualisierungen entweder auf geplanter oder Ad-hoc-Basis direkt aus Teams bereitstellen können. Die App unterstützt Echtzeitspeicherort, Fotos, Notizen, Erinnerungsbenachrichtigungen und automatisierte Workflows.
 
-Verwenden Sie Teams, um Schulungen für Ihre Organisation zu vereinfachen. Schulung ist eine benutzerdefinierte [Teams Messaging-Erweiterungs-App](/microsoftteams/platform/what-are-messaging-extensions), mit der Benutzer eine Schulung innerhalb eines Chats oder Kanals für den Offline-Wissensaustausch und -Upskilling veröffentlichen können. Die App wird auf mehreren Teams Plattformclients unterstützt, z. B. Desktop, Browser, iOS und Android. Diese App ist bereit für die Bereitstellung als Teil Ihres Microsoft 365-Abonnements.
+Verwenden Sie Teams, um Schulungen für Ihre Organisation zu vereinfachen. Schulung ist eine benutzerdefinierte [Teams Messaging-Erweiterungs-App](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet), mit der Benutzer eine Schulung innerhalb eines Chats oder Kanals für den Offline-Wissensaustausch und -Upskilling veröffentlichen können. Die App wird auf mehreren Teams Plattformclients unterstützt, z. B. Desktop, Browser, iOS und Android. Diese App ist bereit für die Bereitstellung als Teil Ihres Microsoft 365-Abonnements.
 
 [Auf GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
