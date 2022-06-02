@@ -8,7 +8,7 @@ Als Anbieter von Contact Center-Lösungen stehen drei Modelle zur Auswahl, um Ih
 
 - Wenn Sie Azure-Bots und die Microsoft Graph-Kommunikations-APIs verwenden möchten, um Lösungsanbietern das Erstellen Teams Apps zu ermöglichen, lesen Sie das [Extend-Modell](?tabs=extend#steps).
 
-- Wenn Sie ein SDK verwenden möchten, mit dem Lösungsanbieter systemeigene Teams Erfahrungen in ihrer App einbetten können, lesen Sie das [Power-Modell](?tabs=power#steps). Power-Lösungen werden möglich sein, wenn das SDK verfügbar ist, gegen Ende 2021.
+- Wenn Sie ein SDK verwenden möchten, mit dem Lösungsanbieter systemeigene Teams Erfahrungen in ihrer App einbetten können, lesen Sie das [Power-Modell](?tabs=power#steps). Power-Lösungen sind möglich, wenn das SDK verfügbar ist. Demnächst.
 
 ### <a name="the-connect-model"></a>[**Das Verbinden-Modell**](#tab/connect)
 
@@ -64,17 +64,6 @@ Obwohl es sich bei diesen Features nicht um eine umfassende Liste der Featurefun
 
 Das Power-Modell ermöglicht Es Lösungsanbietern, native Azure-basierte VoIP-Anwendungen mithilfe der Teams Anrufinfrastruktur und Clientplattform zu erstellen, um moderne, intelligente Lösungen für die Zusammenarbeit zwischen Kunden und Agenten bereitzustellen. Das Ziel des Power-Modells ist die Bereitstellung einer 1-App-Kontaktcenter-Oberfläche mit einem Bildschirm.
 
-**Featurehighlights:**
-
-Obwohl es sich bei diesen Features nicht um eine umfassende Liste der Featurefunktionen für dieses Integrationsmodell handelt, umfassen die Schwerpunktbereiche Folgendes:
-
-- Formale Agent-Erfahrungen, die nativ für die Omni-Channel-Kommunikation über Teams SDK aktiviert sind
-
-- Verwenden Teams Dienste für die Zusammenarbeit von Agenten und Kundeninteraktionen
-
-- Schnelle Bereitstellung von Clouddiensten, Bereitstellung überall
-
-- Direkte Unterhaltungssteuerung und Interaktion mit Benutzern während Teams Unterhaltungen
 
 > [!NOTE]
-> Das Power-Modell wird gegen Ende 2021 verfügbar sein.
+> Demnächst.
