@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760897"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840967"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-Audio- und -Videogeräte, die für Microsoft Teams zertifiziert sind
 
@@ -74,13 +74,14 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 ## <a name="certified-devices"></a>Zertifizierte Geräte
 
-*Tabelle aktualisiert Mai 2022*
+*Tabelle aktualisiert Juni 2022*
 
 > [!NOTE]
 > Das Datumsformat ist MMDDYYYY.
 
 | Hersteller        | Modell                                                     | Qualifizierte      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |Headsets der C10/C20/C50-Serie                                |5/31/2022       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Studio P21 Monitor                                         |5/12/2022       |Zertifiziert für Microsoft Teams                           |
 |Yealink              |UH38 Headset                                               |5/2/2022        |Zertifiziert für Microsoft Teams                           |   
 |Yealink              |BH72 Headset                                               |5/2/2022        |Zertifiziert für Microsoft Teams                           |
@@ -105,7 +106,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Poly                 |Voyager 4310 und Voyager Office Base                       |10/20/2021      |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Evolve 2 75 Headset                                        |10/8/2021       |Zertifiziert für Microsoft Teams                           |
 |Logitech             |Zone Verkabelte Ohrhörer                                         |9/2/2021        |Zertifiziert für Microsoft Teams                           |
-|AudioCodes           |RXVCam10                                                   |8/26/2021       |Zertifiziert für Microsoft Teams                           |
+|Audiocodes           |RXVCam10                                                   |8/26/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Voyager 4320                                               |8/6/2021        |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Voyager 4310                                               |8/6/2021        |Zertifiziert für Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Zertifiziert für Microsoft Teams                           |
@@ -146,8 +147,8 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Lenovo               |Pro Kabelgebundenes VoIP Stereo Headset                              |12/21/2020      |Skype for Business mit einem Upgrade auf Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Zertifiziert für Microsoft Teams                           |
-|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business mit einem Upgrade auf Microsoft Teams      |
-|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business mit einem Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |Skype for Business mit einem Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 65e / SE Headset                                         |12/16/2020      |Skype for Business mit einem Upgrade auf Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
 |Dell                 |C2722DE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
 |Dell                 |C2422HE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Haltemusik, Anrufumleitung und andere Features bereitstellen.
-ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 7678d132b8711ea828bf643201df5501323ab77e
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059086"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840987"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -156,6 +156,8 @@ Die Teams Konten von Agents müssen auf Teams-Only-Modus festgelegt werden. Tele
 
 > [!NOTE]
 > Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange weitergeleitet werden.
+>
+> Der Konferenzmodus ist erforderlich, wenn Teams Benutzer Anrufe mit Anrufwarteschleifen konsultieren/durchstellen müssen.
 
 > [!TIP]
 > Das Festlegen des **Konferenzmodus** auf **"Ein** " ist die empfohlene Einstellung.
@@ -221,6 +223,9 @@ Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet wer
 
 > [!NOTE]
 > Wenn die maximale Anzahl von Anrufen auf "0" festgelegt ist, wird die Begrüßungsnachricht nicht abgespielt.
+>
+> Stellen Sie bei der Umleitung zu freigegebenen Voicemails sicher, dass **Personen außerhalb dieser Organisation dieses Team per E-Mail senden** können, für das Team/die Gruppe im Microsoft 365 Admin Center aktiviert ist.
+
 
 ## <a name="call-timeout-handling"></a>Vorgehen bei Erreichen des Zeitlimits
 
@@ -229,6 +234,9 @@ Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet wer
 Über die Einstellung **Zeitlimit für Anrufe: maximale Wartezeit** wird festgelegt, wie lange ein Anruf maximal in der Warteschleife gehalten werden kann, bevor er umgeleitet oder beendet wird. Sie können eine Dauer von 0 Sekunden bis 45 Minuten festlegen.
 
 Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet werden. Beispielsweise könnte dem Anrufer die Möglichkeit gegeben werden, eine Voicemail für die Telefonberater in der Warteschleife zu hinterlassen. Informationen zu externen [Übertragungen finden Sie unter Voraussetzungen](plan-auto-attendant-call-queue.md#prerequisites) und externe [Telefonnummernübertragungen – technische Details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) zur Nummernformatierung.
+
+> [!NOTE]
+> Stellen Sie bei der Umleitung zu freigegebenen Voicemails sicher, dass **Personen außerhalb dieser Organisation dieses Team per E-Mail senden** können, für das Team/die Gruppe im Microsoft 365 Admin Center aktiviert ist.
 
 Wenn Sie Ihre Zeitlimitoptionen für Anrufe ausgewählt haben, klicken Sie auf **Speichern**.
 
@@ -244,20 +252,21 @@ Die folgenden Konfigurationen werden empfohlen:
 
 ## <a name="call-queue-feature-compatibility"></a>Kompatibilität der Anrufwarteschleifenfeatures
 
-|Feature                          |Teams <sup>Desktop1</sup> |Teams <sup>Mobile2</sup> |Lync |IP-Telefone | Standardanrufwarteschleifen |Kanalbasierte Anrufwarteschleifen | Kommentar |
+|Feature                          |Teams Desktop<sup>1</sup> |Teams Mobile<sup>2</sup> |Lync |IP-Telefone | Standardanrufwarteschleifen |Kanalbasierte Anrufwarteschleifen | Kommentar |
 |:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
 |**Agent-Routingmethoden**        |                          |                         |     |          |                      |                          |              |
 |`Attendant Routing`              |J                         |J                        |J    |J         |J                     |J                         |*Standard*     |
 |`Longest Idle`<sup>3</sup>       |J                         |J                        |N    |J         |J                     |J                         |*Empfohlen* |
 |`Round Robin`                    |J                         |J                        |J    |J         |J                     |J                         |*Empfohlen* |
-|`Serial`                         |J                         |J                        |J    |J         |Y4<sup></sup>         |Y4<sup></sup>             |              |
+|`Serial`                         |J                         |J                        |J    |J         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
+|**Agent-Routingoptionen**        |                          |                         |     |          |                      |                          |              |
+|`Presence Based Routing`<sup>3</sup>|J                        |J                        |N    |J         |J                     |J                         |*Empfohlen* |
+|`Agents can Opt-out`               |J                         |J                        |Y<sup>7</sup>|Y<sup>7</sup>|J          |J                         |*Standard*     |
 |**Übertragungsmodi**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |J                         |J                        |N    |Y6<sup></sup>|J                  |J                         |*Empfohlen* |
-|`Transfer Mode`                  |J                         |J                        |J    |J         |J                     |J                         |              |
-|Anwesenheitsbasiertes <sup>Routing3</sup>|J                        |J                        |N    |J         |J                     |J                         |*Empfohlen* |
-|Agents können sich abmelden               |J                         |J                        |Y7<sup></sup>|Y7<sup></sup>|J          |J                         |*Standard*     |
-|Kanalbasierte Warteschlangen             |J                         |N                        |N    |N         |n/a                   |Y8<sup></sup>             |              |
-|Call toast shows Resource Account Name |Y9<sup></sup>       |J                        |J    |          |J                     |J                         |              |
+|`Conference Mode`<sup>5</sup>    |J                         |J                        |N    |Y<sup>6</sup>|J                  |J                         |*Empfohlen* |
+|`Transfer Mode`                  |J                         |J                        |J    |J         |J                     |J                         |*Standard*              |
+|**Collaborative Calling**        |                          |                         |     |          |                      |                          |              |
+|`Channel Based Queues`             |J                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
 |**Dynamische Anrufer-ID**            |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |J                        |N    |N         |J                     |n/a                       |              |
 |`Channel based call queue`       |J                         |n/a                      |n/a  |n/a       |n/a                   |J                         |              |
@@ -265,10 +274,12 @@ Die folgenden Konfigurationen werden empfohlen:
 |`Calling Plans`                  |J                         |J                        |J    |J         |J                     |J                         |              |
 |`Direct Routing`                 |J                         |J                        |N    |N         |J                     |J                         |              |
 |`Operator Connect`               |J                         |J                        |     |          |J                     |J                         |              |
+|**Sonstige**    |                          |                         |     |          |                      |                          |Siehe Hinweis 10   |
+|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |J                        |J    |          |J                     |J                         |              |
 
 Hinweise:
 1. Microsoft Teams Windows Client, Microsoft Teams Mac-Client, Microsoft Teams auf virtualisierter Desktopinfrastruktur Microsoft Teams Webclient.
-2. Microsoft Teams iPhone App Microsoft Teams Android-App.
+2. Microsoft Teams iPhone App, Microsoft Teams Android App.
 3. Wenn Sie "Längster Leerlauf" für die Agent-Routingmethode auswählen, wird das anwesenheitsbasierte Routing automatisch aktiviert.
 4. Die Reihenfolge kann nur festgelegt werden, wenn einzelne Benutzer als Teil der Standardanrufwarteschleifen hinzugefügt werden. Wenn eine Verteilerliste oder Teams Kanal verwendet wird, ist die Reihenfolge alphabetisch.
 5. Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange weitergeleitet werden.

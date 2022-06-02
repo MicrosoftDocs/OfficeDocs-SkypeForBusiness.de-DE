@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefonzentralen für große Organisationen in Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f177f1dd34f4f8f9497e7800007b5be868230dfe
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674367"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840977"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -44,6 +44,7 @@ Automatische Telefonzentralen können Anrufe basierend auf der Eingabe der Anruf
 - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Diese Person kann ein Onlinebenutzer oder ein Lokal gehosteter Benutzer sein, der mit Skype for Business Server gehostet wird.
 - **VoIP-App** – eine andere automatische Telefonzentrale oder anrufwarteschleife. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefonzentrale oder Anrufwarteschleife zugeordnet ist, wenn Sie dieses Ziel auswählen.)
 - **Voicemail** – das VoIP-Postfach, das einer von Ihnen angegebenen Microsoft 365 Gruppe zugeordnet ist. Sie können auswählen, ob Voicemailtranskriptionen und die Option "Bitte hinterlasse eine Nachricht nach dem Ton" angezeigt werden sollen. Systemaufforderung.
+- - Aktivieren Sie im M365 Admin Center "Personen außerhalb der Organisation dieses Team per E-Mail senden" für die Microsoft 365 Gruppe, die Sie spezifisch
 - **Externe Telefonnummer** – beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - **Ankündigung (Audiodatei)** – Wiedergeben einer Audiodatei. Eine aufgezeichnete Ankündigungsnachricht, die Sie hochladen, die als Audio in gespeichert ist. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Telefonzentrale zurück.
 - **Ankündigung (typisiert)** – Geben Sie eine Nachricht ein. Text, den das System lesen soll. Sie können bis zu 1000 Zeichen eingeben. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Telefonzentrale zurück.
