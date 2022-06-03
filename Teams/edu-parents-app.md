@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676127"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860796"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Einrichten der übergeordneten Verbindung in Microsoft Teams für Education
 
@@ -56,13 +56,13 @@ Die Elternverbindung ermöglicht Es Lehrkräften und Erziehungsberechtigten, mit
 > - Pbx-Funktionen (Public Branch Exchange).
 > - Verbindung mit dem PSTN.
 >
-> Microsoft 365 A1- und A3-Pläne enthalten weder PBX-Funktionen noch PSTN-Verbindungen. Sie können [Add-On-Lizenzen für jede dieser](/teams-add-on-licensing/microsoft-teams-add-on-licensing) Lizenzen erwerben.
+> Microsoft 365 A1- und A3-Pläne enthalten weder PBX-Funktionen noch PSTN-Verbindungen. Sie können [Add-On-Lizenzen für jede dieser](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) Lizenzen erwerben.
 >
 > Microsoft 365 A5 Pläne enthalten nur Nebenstellenanlagenfunktionen, die Teams Telefonsystem verwenden. Sie müssen weiterhin [einen Teams Anrufplan erwerben oder eine Drittanbieterlösung verwenden](pstn-connectivity.md), um eine Verbindung mit externen Nummern im PSTN herzustellen.
 >
 > Weitere Informationen zu allen Optionen zum Abrufen der PSTN-Konnektivität finden Sie unter [PSTN-Konnektivitätsoptionen](pstn-connectivity.md).
 >
-> Weitere Informationen zum Teams der Anruflizenzierung finden Sie [unter Teams Add-On-Lizenzierungsoptionen](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Weitere Informationen zum Teams der Anruflizenzierung finden Sie [unter Teams Add-On-Lizenzierungsoptionen](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## <a name="requirements"></a>Anforderungen
 
@@ -91,13 +91,20 @@ Die Elternverbindung ermöglicht Es Lehrkräften und Erziehungsberechtigten, mit
   - Dies muss auf Mandanten- und Benutzerebene aktiviert sein. Die Einstellung auf Mandantenebene finden Sie unter **"Benutzer > externen Zugriff**" im Teams Admin Center. Auf diese Einstellung kann auch über PowerShell zugegriffen werden. Auf Richtlinien für den externen Zugriff auf Benutzerebene kann nur über PowerShell zugegriffen werden. Weitere Anleitungen finden Sie unten in den PowerShell-Befehlen.
 
 #### <a name="parent-and-guardian-restrictions"></a>Einschränkungen für Eltern und Erziehungsberechtigte
-Eltern und Erziehungsberechtigte werden in der Elternverbindung als externe Benutzer klassifiziert, was bedeutet, dass sie nicht über vollständige Mandantenrechte verfügen. Sie haben nur Zugriff auf den Chat oder die Chats, zu dem sie hinzugefügt werden, sowie auf Dateien, Bilder und andere Inhalte, die im Chat freigegeben wurden.
+
+Eltern und Erziehungsberechtigte werden in der Elternverbindung als *externe Benutzer* klassifiziert, was bedeutet, dass sie nicht über vollständige Mandantenrechte verfügen. Sie haben nur Zugriff auf den Chat oder die Chats, zu dem sie gehören, und die Dateien, Bilder und anderen Inhalte, die im Chat freigegeben wurden.
+
+Bei externen Chats können sowohl interne als auch externe Benutzer Dem Chat Benutzer hinzufügen. Weitere Informationen zur externen Chaterfahrung finden [Sie unter Verwalten externer Besprechungen und Chats in Microsoft Teams](manage-external-access.md).
 
 Außerdem können externe Benutzer die Anwesenheit (offline, verfügbar, beschäftigt usw.) der Benutzer Ihrer Organisation sehen, dies kann jedoch mithilfe von PowerShell deaktiviert werden, um die Privatsphäre der Benutzer zu schützen. Verwenden Sie in PowerShell [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) und set ``EnablePrivacyMode=true``.
 
 Obwohl Eltern und Erziehungsberechtigte externe Benutzer sind, sind ihre Beiträge zu Chats auffindbar. Erfahren Sie, wie Sie eine Teams eDiscovery-Untersuchung durchführen, indem Sie "[Durchführen einer eDiscovery-Untersuchung von Inhalten in Microsoft Teams](ediscovery-investigation.md)" lesen.
 
+> [!IMPORTANT]
+> IT-Administratoren sollten alle Kursbesitzer über bewährte Methoden zum Freigeben von Schülerinformationen über Chats informieren, einschließlich Risiken für den Datenschutz von Kursteilnehmern.
+
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Blockieren eines Elternteils oder Erziehungsberechtigten in einem Chat
+
 Lehrkräfte können einen Erziehungsberechtigten in einem Chat blockieren, der in der Übergeordneten Verbindung initiiert wurde.
 
 Der Klassenbesitzer kann:
