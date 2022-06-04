@@ -1,15 +1,15 @@
 ---
-title: Teams Geräte für die Funktion "Freigegebene Räume" im Vergleich zwischen Windows und Android
+title: Vergleich der Teams-Geräte für freigegebene Räume zwischen Windows und Android
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
-ms.date: 10/07/2021
+ms.date: 06/03/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Eine Anleitung zum Vergleich der Teams Geräte für Features für gemeinsame Räume zwischen Windows und Android.
+description: Eine Anleitung zum Vergleich der Teams-Geräte für Features für gemeinsame Räume zwischen Windows und Android.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,23 +20,23 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de089e5c87615f039e91832d95310faa8ff41ac6
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761077"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886702"
 ---
-# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Teams Geräten für gemeinsam genutzte Räume wird ein Vergleich zwischen Windows und Android 
-Microsoft Teams-Räume Benutzeroberflächen sind kundengerecht gestaltet. Jeder Kunde hat einzigartige Anforderungen, weshalb Microsoft eine Breite von Optionen bietet, einschließlich Teams-Räume auf Windows und auf Android. 
+# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Vergleich von Teams-Geräten für gemeinsam genutzte Räume zwischen Windows und Android 
+Microsoft Teams-Räume-Umgebungen sind für Kunden konzipiert. Jeder Kunde hat einzigartige Anforderungen, weshalb Microsoft eine Breite von Optionen bietet, einschließlich Teams-Räume unter Windows und unter Android. 
 
 Die Kernfunktionen sind auf beiden Plattformen verfügbar, sodass Endbenutzer immer eine großartige Audio- und Videoerfahrung haben, mit nur einer Fingereingabe an Besprechungen teilnehmen und auf inklusive Features wie Liveuntertitel zugreifen und die Hand heben können. 
 
-Da Microsoft neue Features zu Teams und zu Teams-Räume bringt, bemühen wir uns, sie auf alle Plattformen zu bringen, aber Features können aufgrund einer Reihe von Faktoren, wie z. B. technischer Machbarkeit und Kundenfeedback für jede Plattform, zu unterschiedlichen Zeiten bereitgestellt werden. Dies bedeutet, dass einige Features möglicherweise auf Windows eingeführt werden, bevor sie auf die Android Plattform gelangen. 
+Da Microsoft neue Features in Teams und in Teams-Räume bereitstellt, bemühen wir uns, sie auf alle Plattformen zu bringen, aber Features können aufgrund einer Reihe von Faktoren, wie z. B. technischer Machbarkeit und Kundenfeedback für jede Plattform, zu unterschiedlichen Zeiten bereitgestellt werden. Dies bedeutet, dass einige Features möglicherweise unter Windows eingeführt werden, bevor sie auf die Android-Plattform kommen. 
 
-Um Ihnen dabei zu helfen, welche Features auf verschiedenen Plattformen verfügbar sind, können Sie auf das nachstehende Diagramm verweisen, das regelmäßig aktualisiert wird. Nicht alle Teams-Räume Features werden in dieser Liste enthalten sein. Weitere Informationen finden Sie in der [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) und den Microsoft-Vertriebsmitarbeitern.    
+Um Ihnen dabei zu helfen, welche Features auf verschiedenen Plattformen verfügbar sind, können Sie auf das nachstehende Diagramm verweisen, das regelmäßig aktualisiert wird. Nicht alle Teams-Räume-Features werden in dieser Liste enthalten sein. Weitere Informationen finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) und den Microsoft-Vertriebsmitarbeitern.    
 
-## <a name="teams-devices-for-shared-spaces"></a>Teams von Geräten für freigegebene Räume
+## <a name="teams-devices-for-shared-spaces"></a>Teams-Geräte für freigegebene Räume
 ### <a name="feature-comparison-between-windows-and-android"></a>Funktionsvergleich zwischen Windows und Android
 (März 2022) 
 
@@ -45,16 +45,16 @@ Um Ihnen dabei zu helfen, welche Features auf verschiedenen Plattformen verfügb
 |**Besprechungsteil nehmen**|One-Touch-Join |Verfügbar  |Verfügbar |
 ||Näherungsbeitritt |Verfügbar  |Verfügbar |
 ||Besprechung beginnen |Verfügbar  |Verfügbar |
-||Direkter Gastbeitritt |Verfügbar  |In Kürze verfügbar |
+||Direkter Gastbeitritt |Verfügbar  |Verfügbar |
 |**Engagement und Zusammenarbeit bei Besprechungen**|Intuitive, zweckorientierte App-Erfahrung |Verfügbar  |Verfügbar |
 ||Video- und Inhaltslayouts (z. B. "Zusammen-Modus", "Großer Katalog", "Nur Galerie" und "Katalog und Inhalt") |Verfügbar  |Verfügbar |
 ||Chatblasen|Verfügbar |In Kürze verfügbar |
 ||Hand heben, alle Hände senken |Verfügbar  |Verfügbar |
 ||Anheften mehrerer Teilnehmer |Verfügbar  |In Kürze verfügbar |
 ||Mehrere Teilnehmer empfehlen |Verfügbar |Verfügbar |
-||Live Reaktionen |Verfügbar  |Verfügbar |
+||Livereaktionen |Verfügbar  |Verfügbar |
 ||Begleitmodus |Verfügbar |Verfügbar |
-||Live Untertitel |Verfügbar  |Verfügbar |
+||Live-Untertitel |Verfügbar  |Verfügbar |
 ||Cloudaufzeichnung und Besprechungstranskription |Verfügbar  |Verfügbar |
 ||Koordinierte Besprechungen mit Surface Hub |Verfügbar |Nicht verfügbar |
 ||Microsoft Whiteboard (Freihandeingabe auf dem Bildschirm mit Touchscreen-Display verfügbar) |Verfügbar  |Verfügbar |
@@ -64,11 +64,11 @@ Um Ihnen dabei zu helfen, welche Features auf verschiedenen Plattformen verfügb
 ||Cast von mobilgeräten |Verfügbar  |Verfügbar |
 ||Video- und Inhaltsauflösung: 1080p, 30 FPS |Verfügbar  |Verfügbar |
 ||Teilnehmerliste für Besprechungen |Verfügbar  |Verfügbar |
-||Cortana Sprachkompetenzen |Verfügbar  |In Kürze verfügbar |
+||Cortana-Sprachfertigkeiten |Verfügbar  |In Kürze verfügbar |
 ||Dualscreen-Unterstützung |Verfügbar  |Verfügbar |
 |**Sicherheit**|Sichere Montage, Sicherheitsschlösserschlitz (Kensington-Sperre), E/A-Anschlüsse |Verfügbar  |Verfügbar |
 ||Betriebssystem |Windows 10  |Android 8.1+ |
-||Sicherheitsfeatures des Betriebssystems |TPM 2.0, deaktivieren Sie bestimmte Ports, sicheren Start, Credential Guard, OoBE-Einstellung zugriffssteuerung, Schutz des direkten Speicherzugriffs, Netzwerksicherheit |Android vollständige Datenträgerverschlüsselung, OEM-spezifische Features |
+||Sicherheitsfeatures des Betriebssystems |TPM 2.0, deaktivieren Sie bestimmte Ports, sicheren Start, Credential Guard, OoBE-Einstellung zugriffssteuerung, Schutz des direkten Speicherzugriffs, Netzwerksicherheit |Vollständige Android-Datenträgerverschlüsselung, OEM-spezifische Features |
 ||Kioskmodus |Verfügbar  |Verfügbar |
 |**Verwaltung und Verwaltung**|Sicheres Delegieren des Verwaltungszugriffs auf einen Partner |Verfügbar  |Verfügbar |
 ||Rollenbasierte Zugriffssteuerung |Verfügbar  |Verfügbar |
@@ -76,7 +76,7 @@ Um Ihnen dabei zu helfen, welche Features auf verschiedenen Plattformen verfügb
 ||Allgemeine Geräteintegritätsüberwachung |Verfügbar  |Verfügbar |
 ||Überwachung der Integrität verbundener Peripheriegeräte |Verfügbar  |In Kürze verfügbar |
 ||Remotekonfiguration (Neustart, Einstellungen, Protokollsammlung) |Verfügbar  |Verfügbar |
-||Automatische Teams App-Updates |Verfügbar  |Verfügbar |
+||Automatische Updates der Teams-App |Verfügbar  |Verfügbar |
 ||Automatische Geräteregistrierung |Verfügbar |In Kürze verfügbar |
 ||Analyse der Anrufqualität |Verfügbar  |Verfügbar |
 |**Gut für / Raum**|Fokus (2-4 Personen) |Verfügbar  |Verfügbar |
