@@ -455,6 +455,8 @@ items:
             href: teams-analytics-and-reports/information-protection-license-report.md
           - name: 'Verwendungsbericht für virtuelle Untersuchungen in Teams '
             href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Bericht zu virtuellen Terminen des Teams EGA-Connectors
+            href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
       - name: 'Protokolldateien, Dienstzustand und Support'
         items:
           - name: Verwenden Sie Protokolldateien zur Überwachung und Problembehebung in Teams
@@ -1693,7 +1695,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Virtuelle Termine mit Teams – Integration in die Epic-EGA
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: EGA-Administratorberichte
+              - name: Bericht zu virtuellen Terminen des Teams EGA-Connectors
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Virtuelle Termine mit Teams und Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
