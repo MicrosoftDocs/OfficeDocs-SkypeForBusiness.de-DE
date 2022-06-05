@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400241"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886632"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -97,6 +97,8 @@ Benutzer, die an Gesprächen teilnehmen, die Teil der Chat-Liste in Microsoft Te
 |Größe der einzelnen Dateianlagen | Kleiner als 10 MB |
 |Anzahl von Inlinebildern<sup>2</sup> |50   |
 
+> [!NOTE]
+> Es gibt eine Einschränkung für die Anzahl von E-Mails, die Sie an einen Kanal senden können. Das Limit beträgt sechs E-Mails pro zehn Sekunden pro Kanal pro Benutzer und acht E-Mails pro zehn Sekunden pro Mandant und Benutzer.
 <sup>1</sup> Wenn die Nachricht dieses Limit überschreitet, wird eine Vorschaunachricht generiert und der Benutzer wird aufgefordert, die Original-E-Mail über den bereitgestellten Link herunterzuladen und anzusehen.
 
 <sup>2</sup> Falls die Anzahl der Anlagen oder Bilder dieses Limit überschreitet, wird eine Fehlermeldung angezeigt.
