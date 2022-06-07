@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Ukraine.
-ms.openlocfilehash: 90009ddb0d35e920c13389caa5acfb838204adbb
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für die Ukraine verfügbar.
+ms.openlocfilehash: 27fa2f6985eaadc345cc8b8e52148603feb9da7c
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191446"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913403"
 ---
-# <a name="availability-in-the-ukraine"></a>Verfügbarkeit in der Ukraine
+# <a name="availability-in-ukraine"></a>Verfügbarkeit in der Ukraine
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Ukraine.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für die Ukraine verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -44,7 +44,7 @@ Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Mic
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Guthaben für Kommunikationen  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikationsguthaben  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
@@ -63,7 +63,7 @@ Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Mic
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn Anrufpläne nicht erhältlich sind, finden Sie unter [PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) alle verfügbaren Optionen.
+Wenn Anrufpläne nicht zum Kauf verfügbar sind, finden Sie unter ["PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) " alle verfügbaren Optionen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
