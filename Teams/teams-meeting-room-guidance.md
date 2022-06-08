@@ -1,5 +1,5 @@
 ---
-title: Sitzungsraumführung für Teams
+title: Leitfaden für Besprechungsräume mit Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Ein Lookbook und Leitfaden für die Optimierung von Besprechungsräumen mit Teams Room Lösungen und Geräten.
+description: Ein Lookbook und Leitfaden für die Optimierung von Besprechungsräumen mit Teams-Raum-Lösungen und Geräten.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -27,15 +27,15 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 06/01/2022
 ms.locfileid: "65823400"
 ---
-# <a name="meeting-room-guidance-for-teams"></a>Sitzungsraumführung für Teams
+# <a name="meeting-room-guidance-for-teams"></a>Leitfaden für Besprechungsräume mit Teams
 
-Dieser Artikel soll Benutzern zeigen, wie sie Besprechungsräume mit Microsoft Teams Räume-Lösungen und -Geräten optimieren können. Sie enthält Informationen über die Verwendung von Teamgeräten und -lösungen, Layouts und Spezifikationen von Teams Rooms.
+Dieser Artikel soll Benutzern zeigen, wie sie Besprechungsräume mit Microsoft Teams-Räume-Lösungen und -Geräten optimieren können. Sie enthält Informationen über die Verwendung von Teamgeräten und -lösungen, Layouts und Spezifikationen von Teams-Räume.
 
-# <a name="meeting-room-uses-and-layouts"></a>[Nutzung und Gestaltung von Sitzungsräumen](#tab/uses)
+# <a name="meeting-room-uses-and-layouts"></a>[Nutzung und Gestaltung von Besprechungsräumen](#tab/uses)
 
 ## <a name="overview"></a>Übersicht
 
-Microsoft Teams Räume bieten eine flexible Nutzung und sogar eine Bewegungsfreiheit im Raum, die herkömmliche Besprechungsräume nicht haben. Mit Teams Rooms-Geräten können Benutzer beispielsweise ihre Zusammenarbeit mit einem digitalen Whiteboard verbessern, und intelligente People-Tracking-Kameras sorgen dafür, dass jeder lokale Teilnehmer gesehen werden kann, egal wo er sich im Raum befindet. Jede Art von Raum und jede Art von Besprechung kann mit Teams Rooms-Geräten oder Teams Rooms-Lösungen optimiert werden.
+Microsoft Teams-Räume-Lösungen bieten eine flexible Nutzung und sogar eine Bewegungsfreiheit im Raum, die herkömmliche Besprechungsräume nicht haben. Mit Teams-Räume-Geräten können Benutzer beispielsweise ihre Zusammenarbeit mit einem digitalen Whiteboard verbessern, und intelligente People-Tracking-Kameras sorgen dafür, dass jeder lokale Teilnehmer gesehen werden kann, egal wo er sich im Raum befindet. Jede Art von Raum und jede Art von Besprechung kann mit Teams-Räume-Geräten oder Teams-Räume-Lösungen optimiert werden.
 
 ### <a name="presentation-focused-meetings"></a>Sitzungen mit Schwerpunkt auf Präsentationen
 
@@ -63,19 +63,19 @@ Denken Sie daran, dass beide Arten von Räumen bei Bedarf beide Arten von Erlebn
 
 Ein großartiges Meeting-Erlebnis ist das Ergebnis des Einsatzes der bestmöglichen Technologie für einen Meeting-Raum auf eine Weise, die den Austausch von Ideen erleichtert, ohne aufdringlich zu sein.
 
-### <a name="native-teams-rooms-experiences-versus-other-devices"></a>Native Teams Rooms Erfahrungen im Vergleich zu anderen Geräten
+### <a name="native-teams-rooms-experiences-versus-other-devices"></a>Native Teams-Räume-Erfahrungen im Vergleich zu anderen Geräten
 
-Teams Rooms geht über das hinaus, was mit Teams auf persönlichen Geräten möglich ist, indem es einzigartige Funktionen im Raum bietet, wie z. B. One-Touch Join, Content-Kameras, um physische Whiteboards auf intelligente Weise in die Besprechung einzubinden, und Proximity-Funktionen wie die nahtlose Übertragung einer Teams-Besprechung von Ihrem persönlichen Gerät in den Raum.
+Teams-Räume gehen über das hinaus, was mit Teams auf persönlichen Geräten möglich ist, indem es einzigartige Funktionen im Raum bietet, wie z. B. One-Touch Join, Content-Kameras, um physische Whiteboards auf intelligente Weise in die Besprechung einzubinden, und Proximity-Funktionen wie die nahtlose Übertragung einer Teams-Besprechung von Ihrem persönlichen Gerät in den Raum.
 
 Nicht-native und selbst erstellte Systeme, die auf externe Dienste oder eine Verbindung mit dem eigenen Gerät angewiesen sind, werden niemals die Benutzerfreundlichkeit oder die immersive Qualität eines nativen Teams-Raums erreichen.
 
-Es versteht sich von selbst, dass im Laufe einer Bereitstellung möglicherweise Zwischenschritte (wie z. B. die schnelle Bereitstellung von Bring-your-own-Device-Meetingräumen) auf dem Weg zu einer vollständig nativen Teams-Erfahrung in Ihren Meetingräumen erforderlich sind.
+Es versteht sich von selbst, dass im Laufe einer Bereitstellung möglicherweise Zwischenschritte (wie z. B. die schnelle Bereitstellung von Bring-your-own-Device-Besprechungsräumen) auf dem Weg zu einer vollständig nativen Teams-Erfahrung in Ihren Besprechungsräumen erforderlich sind.
 
 ### <a name="using-teams-to-create-the-best-possible-meeting-experience"></a>Mit Teams das bestmögliche Meeting-Erlebnis schaffen
 
-Wenn Sie sowohl Teams auf all Ihren persönlichen Geräten als auch Microsoft Teams Räume in all Ihren Räumen haben, können Sie jedem Ihrer Benutzer das bestmögliche Meeting-Erlebnis bieten. Wenn Sie die bestmögliche Erfahrung erreichen wollen, müssen Sie alle Bereiche sowohl in Bezug auf die technische Bereitstellung als auch auf die Anleitung und Schulung der Benutzer berücksichtigen.
+Wenn Sie sowohl Teams auf all Ihren persönlichen Geräten als auch Microsoft Teams-Räume in all Ihren Räumen haben, können Sie jedem Ihrer Benutzer das bestmögliche Meeting-Erlebnis bieten. Wenn Sie die bestmögliche Erfahrung erreichen wollen, müssen Sie alle Bereiche sowohl in Bezug auf die technische Bereitstellung als auch auf die Anleitung und Schulung der Benutzer berücksichtigen.
 
-Bei der Planung einer groß angelegten, unternehmensweiten Einführung ist es normal, dass diese schrittweise erfolgt, wobei die Technologie in einigen Räumen zu unterschiedlichen Zeitpunkten hinzugefügt wird oder sogar bestimmte Komponenten früher als andere installiert werden (z. B. die Bereitstellung von Teams-Panels für die Planung in jedem Raum eines bestimmten Gebäudes, während die Teams-Room-Lösungen auf einer Etage oder sogar in einem Raum nacheinander installiert werden).
+Bei der Planung einer groß angelegten, unternehmensweiten Einführung ist es normal, dass diese schrittweise erfolgt, wobei die Technologie in einigen Räumen zu unterschiedlichen Zeitpunkten hinzugefügt wird oder sogar bestimmte Komponenten früher als andere installiert werden (z. B. die Bereitstellung von Teams-Panels für die Planung in jedem Raum eines bestimmten Gebäudes, während die Teams-Räume-Lösungen auf einer Etage oder sogar in einem Raum nacheinander installiert werden).
 
 Bereiten Sie Ihre Benutzer darauf vor, dies phasenweise zu tun, um ihre Teams-Besprechungserfahrung zu jedem Zeitpunkt zu maximieren.
 
@@ -83,37 +83,37 @@ Bereiten Sie Ihre Benutzer darauf vor, dies phasenweise zu tun, um ihre Teams-Be
 
 Sie können mit diesem Plan beginnen, indem Sie alle Besprechungsräume adressieren, die nicht mit AV oder ohne Zusammenarbeit ausgestattet sind. Sie können Teams weiterhin in Ihren Besprechungsräumen nutzen, auch wenn in diesen Besprechungsräumen noch keine Teams-Geräte installiert waren.
 
-*Audio:* Eine großartige Brücke zu einer vollständigen Teams-Räume-Bereitstellung ist die Planung der Besprechungstechnologie, indem Sie Ihren einzelnen Benutzern entweder Teams-zertifizierte Audiogeräte für kleinere Räume und Gruppen bereitstellen oder sie in Räumen vor einer vollständigen Teams-Raumlösung für größere Räume bereitstellen, die für größere Gruppen vorgesehen sind, bei denen ein kleines Gerät es nicht ausschneidet.
+*Audio:* Eine großartige Brücke zu einer vollständigen Teams-Räume-Bereitstellung ist die Planung der Besprechungstechnologie, indem Sie Ihren einzelnen Benutzern entweder Teams-zertifizierte Audiogeräte für kleinere Räume und Gruppen bereitstellen oder sie in Räumen vor einer vollständigen Teams-Räume-Lösung für größere Räume bereitstellen, die für größere Gruppen vorgesehen sind, bei denen ein kleines Gerät es nicht ausschneidet.
 
 *Video:* Wenn diese Räume verwendet werden, können einzelne Benutzer ihre eigenen Geräte in den Teams-Besprechungsinhalten freigeben und ihre Ausdrücke mit ihren einzelnen Kameras erfassen. Benutzer können dann eine Person als einzelne Audioquelle für die lokale Gruppe festlegen und dieses persönliche Gerät mit dem zertifizierten Audiogerät verbinden, sodass jeder (sowohl lokal als auch remote) eine positive Erfahrung mit Besprechungsaudio hat.
 
 *Einsatz:* Wenn Sie Ihre Besprechungsräume für eine bessere Teams-Besprechungserfahrung aktivieren, auch wenn persönliche Geräte und Peripheriegeräte erforderlich sind, können Ihre Benutzer weiterhin erweitern, was sie mit Teams tun können. Wenn sich Ihre Benutzer in Privatbüros und an Einzelarbeitsplätzen befinden, erleichtert Teams nicht nur die Zusammenarbeit mit Fernteilnehmern, sondern auch persönliche Diskussionen.
 
-#### <a name="better-experience--teams-rooms-solutions-and-no-personal-devices"></a>Bessere Erfahrung – Teamgeräte-Lösungen und keine persönlichen Geräte
+#### <a name="better-experience--teams-rooms-solutions-and-no-personal-devices"></a>Bessere Erfahrung – Teams-Räume-Lösungen und keine persönlichen Geräte
 
-Wenn Sie Teams Rooms-Lösungen installieren oder wenn Sie bereits über Räume verfügen, die mit geeigneten Teams Rooms-Geräten für die jeweiligen Räume ausgestattet sind, dann sind Sie auf dem besten Weg, großartige Besprechungen abzuhalten.
+Wenn Sie Teams-Räume-Lösungen installieren oder wenn Sie bereits über Räume verfügen, die mit geeigneten Teams-Räume-Geräten für die jeweiligen Räume ausgestattet sind, dann sind Sie auf dem besten Weg, großartige Besprechungen abzuhalten.
 
-*Audio:* Audio für diese Besprechungsräume wird von der Teams Rooms-Lösung und den von Microsoft zertifizierten Audiogeräten verarbeitet.
+*Audio:* Audio für diese Besprechungsräume wird von der Teams-Räume-Lösung und den von Microsoft zertifizierten Audiogeräten verarbeitet.
 
-*Video:* Video in diesen Räumen wird von der Teams Rooms-Lösung und den von Microsoft zertifizierten Kameras verarbeitet.
+*Video:* Video in diesen Räumen wird von der Teams-Räume-Lösung und den von Microsoft zertifizierten Kameras verarbeitet.
 
-*Engagement:* Ihre Benutzer können die Vorteile von Teams Rooms für ihre Besprechungen nutzen und so sicherstellen, dass jeder problemlos an Besprechungen teilnehmen kann und eine hervorragende Audio- und Videowiedergabe erhält.
+*Engagement:* Ihre Benutzer können die Vorteile von Teams-Räume für ihre Besprechungen nutzen und so sicherstellen, dass jeder problemlos an Besprechungen teilnehmen kann und eine hervorragende Audio- und Videowiedergabe erhält.
 
-#### <a name="best-experience--teams-rooms-solutions-used-in-conjunction-with-personal-devices"></a>Beste Erfahrungen – Teams Rooms-Lösungen in Verbindung mit persönlichen Geräten
+#### <a name="best-experience--teams-rooms-solutions-used-in-conjunction-with-personal-devices"></a>Beste Erfahrungen – Teams-Räume-Lösungen in Verbindung mit persönlichen Geräten
 
 Die Schulung Ihrer Benutzer zur koordinierten Nutzung der Technologie führt zu einem möglichst effizienten und rationellen Ergebnis. Das bestmögliche Szenario ist eine Kombination aus installierter Technologie und persönlichen Geräten.
 
-*Audio:* Die meisten Verbindungen in Meetingräumen und die Audio-Video-Arbeiten werden von der Teams Rooms-Lösung übernommen, während einzelne Benutzer mit eingeschalteter Kamera und ausgeschaltetem Ton an demselben Meeting teilnehmen können, um ein völlig immersives Erlebnis zu erhalten.
+*Audio:* Die meisten Verbindungen in Meetingräumen und die Audio-Video-Arbeiten werden von der Teams-Räume-Lösung übernommen, während einzelne Benutzer mit eingeschalteter Kamera und ausgeschaltetem Ton an demselben Meeting teilnehmen können, um ein völlig immersives Erlebnis zu erhalten.
 
 *Video:* Remotebenutzer können sehen, dass jeder an der Besprechung teilnimmt, über das Sprechen und die Freigabe von Inhalten hinaus. Ein entfernter Benutzer kann sein persönliches Video einschalten, um von jedem beliebigen Ort im Raum einen Blick auf jeden Teilnehmer zu werfen.
 
-*Engagement:* Der Chat kann dynamisch bleiben, da alle Teilnehmer, ob vor Ort oder aus der Ferne, eingebunden und beteiligt sind. Die gemeinsame Nutzung von Videos sowohl in Teams Rooms als auch über einzelne Kameras ermöglicht es den Teilnehmern, sich mit allen Teilnehmern verbunden zu fühlen.
+*Engagement:* Der Chat kann dynamisch bleiben, da alle Teilnehmer, ob vor Ort oder aus der Ferne, eingebunden und beteiligt sind. Die gemeinsame Nutzung von Videos sowohl in Teams-Räume als auch über einzelne Kameras ermöglicht es den Teilnehmern, sich mit allen Teilnehmern verbunden zu fühlen.
 
 Durch die Verwendung von Teams auf allen Geräten wird sichergestellt, dass Benutzer in lokalen Räumen und Remote-Benutzer gleichermaßen an Meetings teilnehmen können.
 
 ## <a name="technology-considerations"></a>Überlegungen zur Technologie
 
-Mit der richtigen Wahl der Audio- und Videotechnologie können Benutzer das Beste aus ihren Microsoft Teams-Meetings herausholen.
+Mit der richtigen Wahl der Audio- und Videotechnologie können Benutzer das Beste aus ihren Microsoft Teams-Besprechungen herausholen.
 
 ### <a name="audio"></a>Audio
 
@@ -149,13 +149,13 @@ Ebenso wichtig wie gute Audiowiedergabe ist qualitativ hochwertiges Video eine N
 
 # <a name="enhanced-microsoft-teams-room"></a>[Erweiterter Microsoft Teams-Raum](#tab/emtr)
 
-## <a name="enhanced-microsoft-teams-room"></a>Erweiterter Microsoft Teams Raum
+## <a name="enhanced-microsoft-teams-room"></a>Erweiterter Microsoft Teams-Raum
 
-![Rendering eines erweiterten Sitzungsraums.](media/emr1.png)
+![Rendering eines erweiterten Besprechungsraums.](media/emr1.png)
 
-In diesem Abschnitt erfahren Sie, wie Microsoft Standard-Konferenzräume in verbesserte Microsoft Teams Räume umwandelt, die das Beste der neuen Teams-Erfahrung in der ersten Reihe bieten. In diesem Artikel finden Sie Hinweise zur Raumgestaltung und -technik, empfohlene Produkte und Referenzspezifikationen von Microsoft Corporate Facilities.
+In diesem Abschnitt erfahren Sie, wie Microsoft Standard-Konferenzräume in verbesserte Microsoft Teams-Räume umwandelt, die das Beste der neuen Teams-Erfahrung in der ersten Reihe bieten. In diesem Artikel finden Sie Hinweise zur Raumgestaltung und -technik, empfohlene Produkte und Referenzspezifikationen von Microsoft Corporate Facilities.
 
-## <a name="microsofts-vision-for-the-future-of-meeting-rooms"></a>Microsofts Vision für die Zukunft von Konferenzräumen
+## <a name="microsofts-vision-for-the-future-of-meeting-rooms"></a>Microsofts Vision für die Zukunft von Besprechungsräumen
 
 Die Zukunft der Arbeit wird fließend, dynamisch und von der Cloud angetrieben sein. Microsoft ermöglicht Meeting-Erlebnisse, bei denen die Teilnehmer von überall und zu jeder Zeit dabei sein können. Diese Treffen sind hybrid, d. h. Sie können nahtlos daran teilnehmen. Meetings, die mit Microsoft-Geräten verbessert werden, sind inklusiv; jede Stimme wird gehört und jeder ist klar vertreten.
 
@@ -163,11 +163,11 @@ Microsoft sieht eine Zukunft, in der Meetings immersiv sind und Räume um Mensch
 
 Die Vision für die Zukunft von Meetings basiert auf einer einfachen Überzeugung: Meetings sollten viel mehr bieten als nur eine einmalige Transaktion. Meetings werden für alle Teilnehmer konzipiert, egal ob sie sich im Raum oder am anderen Ende der Welt befinden.
 
-## <a name="what-is-an-enhanced-microsoft-teams-room"></a>Was ist ein erweiterter Microsoft Teams Raum?
+## <a name="what-is-an-enhanced-microsoft-teams-room"></a>Was ist ein erweiterter Microsoft Teams-Raum?
 
-Im hybriden Arbeitsplatz von Microsoft orientiert sich die nächste Generation von Raumstandards an den Bedürfnissen sowohl der Teilnehmer im Raum als auch der Fernteilnehmer. Ein erweiterter Raum ist ein Microsoft Teams-Raum, der für ein *verbessertes* hybrides Meeting-Erlebnis entwickelt wurde, das natürlichere und intensivere Verbindungen fördert, während sich alle Meeting-Teilnehmer einbezogen, repräsentiert und produktiv fühlen können. Der Raum folgt einer Reihe von Prinzipien, die durch eine Kombination von Teams Rooms Software- und Hardware-Funktionen und einer Anleitung zur Raumkonfiguration umgesetzt werden.
+Im hybriden Arbeitsplatz von Microsoft orientiert sich die nächste Generation von Raumstandards an den Bedürfnissen sowohl der Teilnehmer im Raum als auch der Fernteilnehmer. Ein erweiterter Raum ist ein Microsoft Teams-Raum, der für ein *verbessertes* hybrides Meeting-Erlebnis entwickelt wurde, das natürlichere und intensivere Verbindungen fördert, während sich alle Meeting-Teilnehmer einbezogen, repräsentiert und produktiv fühlen können. Der Raum folgt einer Reihe von Prinzipien, die durch eine Kombination von Teams-Räume-Software- und Hardware-Funktionen und Hinweisen zur Raumkonfiguration umgesetzt werden.
 
-Das Konzept für den erweiterten Microsoft Teams Room basiert auf zwei Hauptzielen, die durch eine Reihe von Erfahrungsprinzipien unterstützt werden.
+Das Konzept für den erweiterten Microsoft Teams-Raum basiert auf zwei Hauptzielen, die durch eine Reihe von Erfahrungsprinzipien unterstützt werden.
 
 **Ziel 1: Alle Teilnehmer der Sitzung fühlen sich einbezogen, vertreten und produktiv.**
 
@@ -185,23 +185,23 @@ Gestaltungsprinzipien:
 
 - Die Erlebnisse sind auf die menschliche Verbindung abgestimmt und ermöglichen Interaktionen, die sich so anfühlen, als befänden sich alle im selben Raum.
 
-Ein verbessertes Raumerlebnis setzt sich aus all diesen Komponenten und Ideen zusammen, wobei kein einzelnes Merkmal das Erlebnis bestimmt. Die einzelnen Funktionen und Konzepte unserer erweiterten Microsoft Teams Räume können auch einzeln eingesetzt werden.
+Ein verbessertes Raumerlebnis setzt sich aus all diesen Komponenten und Ideen zusammen, wobei kein einzelnes Merkmal das Erlebnis bestimmt. Die einzelnen Funktionen und Konzepte unserer erweiterten Microsoft Teams-Räume können auch einzeln eingesetzt werden.
 
 Beispiele für den Einsatz bestimmter Funktionen:
 
-- Nutzen Sie die Vorteile unserer neuen Front-of-Room-Anzeigen in allen Arten von Besprechungsräumen, in denen eine Microsoft Teams-Raumlösung vorhanden ist, die diese unterstützt.
+- Nutzen Sie die Vorteile unserer neuen Front-of-Room-Anzeigen in allen Arten von Besprechungsräumen, in denen eine Microsoft Teams-Raum-Lösung vorhanden ist, die diese unterstützt.
 
-- Implementieren Sie gebogene Tische und nach vorne gerichtete Layouts mit traditionellen Microsoft Teams Räumen, um eine bessere menschliche Verbindung im Raum zu fördern und gleichzeitig die Kontinuität der Erfahrung in allen Besprechungsräumen zu erhalten.
+- Implementieren Sie gebogene Tische und nach vorne gerichtete Layouts mit traditionellen Microsoft Teams-Räumen, um eine bessere menschliche Verbindung im Raum zu fördern und gleichzeitig die Kontinuität der Erfahrung in allen Besprechungsräumen zu erhalten.
 
 ## <a name="when-should-you-deploy-this-room-type"></a>Wann sollten Sie diesen Raumtyp einsetzen?
 
-Erweiterte Microsoft Teams Räume sind nicht als Ersatz für alle anderen Besprechungsräume in Ihrer Organisation gedacht, sondern vielmehr als Ergänzung zu bestehenden Besprechungsräumen, die Microsoft Teams nutzen. Sie sollten innerhalb Ihrer Organisation strategisch an den Orten eingesetzt werden, an denen die persönliche Interaktion mit den Teilnehmern von Fernkonferenzen am meisten geschätzt wird.
+Erweiterte Microsoft Teams-Räume sind nicht als Ersatz für alle anderen Besprechungsräume in Ihrer Organisation gedacht, sondern vielmehr als Ergänzung zu bestehenden Besprechungsräumen, die Microsoft Teams nutzen. Sie sollten innerhalb Ihrer Organisation strategisch an den Orten eingesetzt werden, an denen die persönliche Interaktion mit den Teilnehmern von Fernkonferenzen am meisten geschätzt wird.
 
-Microsoft Teams Räume werden auch weiterhin hybride Meeting-Erlebnisse für Menschen bieten, die durch Software-Updates verfügbar gemacht werden. Es gibt jedoch Hardware-Technologien und Raumkonfigurationshilfen, die eine Schlüsselrolle bei der Optimierung einiger der verbesserten Erlebnisse spielen. Es ist die Kombination dieser Komponenten, die einen erweiterten Microsoft Teams Raum ausmacht. Bei der Entscheidung, wie viele Microsoft Teams Räume Sie zu einem erweiterten Microsoft Teams Raum weiterentwickeln möchten, sollten Sie Folgendes berücksichtigen:
+Microsoft Teams-Räume werden auch weiterhin hybride Meeting-Erlebnisse für Menschen bieten, die durch Software-Updates verfügbar gemacht werden. Es gibt jedoch Hardware-Technologien und Raumkonfigurationshilfen, die eine Schlüsselrolle bei der Optimierung einiger der verbesserten Erlebnisse spielen. Es ist die Kombination dieser Komponenten, die einen erweiterten Microsoft Teams-Raum ausmacht. Bei der Entscheidung, wie viele Microsoft Teams-Räume Sie zu einem erweiterten Microsoft Teams-Raum weiterentwickeln möchten, sollten Sie Folgendes berücksichtigen:
 
 - Welche Hardwareupgrades und/oder -investitionen erforderlich sind.
 
-- Die meisten Konferenzräume sind so konzipiert, dass sie möglichst viel wertvolle Fläche bieten, wobei ein enges Verhältnis zwischen Raumgröße und Raumkapazität besteht. Ein verbesserter Microsoft Teams Raum stellt das Meeting-Erlebnis in den Vordergrund und nicht die Maximierung der Quadratmeterzahl. Nicht jede Organisation kann diese Prioritäten für jeden Besprechungsraum setzen, da dies die Anzahl der zur Verfügung stehenden Besprechungsräume verringern könnte.
+- Die meisten Konferenzräume sind so konzipiert, dass sie möglichst viel wertvolle Fläche bieten, wobei ein enges Verhältnis zwischen Raumgröße und Raumkapazität besteht. Ein verbesserter Microsoft Teams-Raum stellt das Meeting-Erlebnis in den Vordergrund und nicht die Maximierung der Quadratmeterzahl. Nicht jede Organisation kann diese Prioritäten für jeden Besprechungsraum setzen, da dies die Anzahl der zur Verfügung stehenden Besprechungsräume verringern könnte.
 
 ### <a name="understanding-this-space"></a>Diesen Raum verstehen
 
@@ -225,9 +225,9 @@ Das Layout besteht aus einem gebogenen Tisch, der den persönlichen Blickkontakt
 
 ### <a name="how-does-the-audio-work"></a>Wie funktioniert der Ton?
 
-Durch den Einsatz von Audiolösungen, die für Microsoft Teams Räume zertifiziert sind, sind die Teilnehmer in der Lage, deutlich zu hören und gehört zu werden.
+Durch den Einsatz von Audiolösungen, die für Microsoft Teams-Räume zertifiziert sind, sind die Teilnehmer in der Lage, deutlich zu hören und gehört zu werden.
 
-In Zukunft werden Teams Rooms Audiosysteme unterstützen, die ein Konzept namens Spatial Audio verwenden. Bei Spatial Audio wird der Ton aus der Richtung der sprechenden Person abgestrahlt. Wenn z. B. eine Person auf der rechten Seite der Konferenztribüne spricht, wird der Ton von dem Lautsprecher ausgegeben, der sich am nächsten zu dieser Position befindet. Diese Art von immersivem Audioerlebnis trägt dazu bei, dass Meetings einem persönlichen Gespräch näher kommen.
+In Zukunft werden Teams-Räume-Audiosysteme unterstützen, die ein Konzept namens Spatial Audio verwenden. Bei Spatial Audio wird der Ton aus der Richtung der sprechenden Person abgestrahlt. Wenn z. B. eine Person auf der rechten Seite der Konferenztribüne spricht, wird der Ton von dem Lautsprecher ausgegeben, der sich am nächsten zu dieser Position befindet. Diese Art von immersivem Audioerlebnis trägt dazu bei, dass Meetings einem persönlichen Gespräch näher kommen.
 
 ### <a name="how-does-the-camera-work"></a>Wie funktioniert die Kamera?
 
@@ -251,9 +251,9 @@ Dieses Layout wird sowohl bei Konfigurationen mit einer Anzeige als auch mit zwe
 
 ### <a name="how-do-you-co-create-content"></a>Wie erstellen Sie Inhalte gemeinsam?
 
-In Microsoft Teams Räumen können Benutzer die Vorteile des traditionellen, analogen Whiteboarding nutzen, indem sie die intelligente Erfassungsfunktion verwenden. Für eine modernisierte Benutzeroberfläche, bei der alle Teilnehmer zeichnen und freihand zeichnen können, kann auf Microsoft Whiteboard über einen Touchscreen-Bildschirm auf der Vorderseite des Raums, begleite Geräte wie PC, Smartphone oder Tablet und über Microsoft Surface Hub zugegriffen werden.
+In Microsoft Teams-Räume können Benutzer die Vorteile des traditionellen, analogen Whiteboarding nutzen, indem sie die intelligente Erfassungsfunktion verwenden. Für eine modernisierte Benutzeroberfläche, bei der alle Teilnehmer zeichnen und freihand zeichnen können, kann auf Microsoft Whiteboard über einen Touchscreen-Bildschirm auf der Vorderseite des Raums, begleite Geräte wie PC, Smartphone oder Tablet und über Microsoft Surface Hub zugegriffen werden.
 
-## <a name="enhanced-microsoft-teams-room-design-guidance"></a>Verbesserte Anleitung zur Gestaltung von Microsoft Teams Räumen
+## <a name="enhanced-microsoft-teams-room-design-guidance"></a>Verbesserte Anleitung zur Gestaltung von Microsoft Teams-Räumen
 
 In diesem Abschnitt geht es darum, einen Raum von Grund auf zu bauen.
 
@@ -277,15 +277,15 @@ Dieser Raum verfügt über einen Standard-Sitzungszimmertisch mit einer Höhe vo
 
 #### <a name="equipment-mounting"></a>Ausrüstungshalterung
 
-Die Wahl des Standorts für die Hardware richtet sich in der Regel nach der Auswahl der Teams Room-zertifizierten Hardware, die in einem bestimmten Konferenzraum verwendet wird.
+Die Wahl des Standorts für die Hardware richtet sich in der Regel nach der Auswahl der Teams-Raum-zertifizierten Hardware, die in einem bestimmten Konferenzraum verwendet wird.
 
-Für die ersten Installationen von Enhanced Rooms in unseren Microsoft-Einrichtungen haben wir uns dafür entschieden, die Computer- und Touch-Konsole der Microsoft Teams Räume am Tisch zu montieren, wobei eine integrierte Kamera und eine Soundbar-Einheit (mit diskretem Links- und Rechtskanal-Audio für Spatial Audio) auf speziellen Möbeln unterhalb der Anzeige sowie zwischen der Front-of-Room-Projektion und dem Tisch angebracht sind. Es ist wichtig, dass sich die Konsole in Reichweite der Teilnehmer befindet, ohne sie bei der Nutzung des Tisches für persönliche Geräte und/oder Dokumente zu behindern. Für die Anzeige wird ein Kurzer-Wurf-Projektor mit hoher Auflösung verwendet.
+Für die ersten Installationen von Enhanced Rooms in unseren Microsoft-Einrichtungen haben wir uns dafür entschieden, die Computer- und Touch-Konsole der Microsoft Teams-Räume am Tisch zu montieren, wobei eine integrierte Kamera und eine Soundbar-Einheit (mit diskretem Links- und Rechtskanal-Audio für Spatial Audio) auf speziellen Möbeln unterhalb der Anzeige sowie zwischen der Front-of-Room-Projektion und dem Tisch angebracht sind. Es ist wichtig, dass sich die Konsole in Reichweite der Teilnehmer befindet, ohne sie bei der Nutzung des Tisches für persönliche Geräte und/oder Dokumente zu behindern. Für die Anzeige wird ein Kurzer-Wurf-Projektor mit hoher Auflösung verwendet.
 
 Die meisten Teilnehmer werden sich für die gemeinsame Nutzung von Inhalten in dieser Art von Besprechungsraum entscheiden, indem sie über ein persönliches Gerät an der Teams-Besprechung teilnehmen. Die Videopräsentation sollte jedoch auch für diejenigen, die nicht an der Telefonkonferenz teilnehmen können, leicht zugänglich am Tisch verfügbar sein.
 
 #### <a name="touch-console-placement"></a>Platzierung der Touchkonsole
 
-Die Microsoft Teams Räume Touch-Konsole sollte in der Mitte des Tisches in Reichweite der Besprechungsteilnehmer angebracht werden, ohne die Nutzung des Tisches für persönliche Geräte oder Dokumente zu blockieren.
+Die Microsoft Teams-Räume-Touch-Konsole sollte in der Mitte des Tisches in Reichweite der Besprechungsteilnehmer angebracht werden, ohne die Nutzung des Tisches für persönliche Geräte oder Dokumente zu blockieren.
 
 #### <a name="local-video-presentation"></a>Lokale Videopräsentation
 
@@ -299,7 +299,7 @@ Zumindest sollten elektrische Verbindungen sowohl am Tisch (für die Benutzer) a
 
 ### <a name="infrastructure-data"></a>Infrastrukturdaten
 
-Netzwerkverbindungen sollten sowohl am Tisch (für die Endbenutzer) als auch am Montageort der Geräte (für das Hauptnetzwerk der Teams Rooms-Lösung) vorhanden sein. Wenn in dem Raum Co-Create-Geräte verwendet werden, sind auch Netzwerkverbindungen erforderlich, die mit dem Hauptnetzwerk für die Teams Rooms-Lösung verbunden sind.
+Netzwerkverbindungen sollten sowohl am Tisch (für die Endbenutzer) als auch am Montageort der Geräte (für das Hauptnetzwerk der Teams-Räume-Lösung) vorhanden sein. Wenn in dem Raum Co-Create-Geräte verwendet werden, sind auch Netzwerkverbindungen erforderlich, die mit dem Hauptnetzwerk für die Teams-Räume-Lösung verbunden sind.
 
 ### <a name="acoustic-wall-treatments"></a>Akustische Wandbehandlungen
 
@@ -315,13 +315,13 @@ Der Boden in einem solchen Raum sollte mit Teppichboden ausgelegt oder anderweit
 
 ### <a name="lighting"></a>Beleuchtung
 
-Die Oberlichter sollten den Raum gleichmäßig ausleuchten, damit die Teilnehmer des Besprechungsraums nicht verwaschen oder in einem dunklen Raum sitzen. Es sollte versucht werden, die direkte Beleuchtung von Bildschirmen, Co-Create-Geräten oder anderen reflektierenden Oberflächen im Raum zu minimieren, um Blendung zu vermeiden.
+Die Oberlichter sollten den Raum gleichmäßig ausleuchten, damit die Teilnehmer des Besprechungsraums nicht verwaschen erscheinen oder in einem dunklen Raum sitzen. Es sollte versucht werden, die direkte Beleuchtung von Bildschirmen, Co-Create-Geräten oder anderen reflektierenden Oberflächen im Raum zu minimieren, um Blendung zu vermeiden.
 
 ## <a name="technology-guidance"></a>Technologie-Anleitung
 
 ### <a name="microsoft-teams-rooms-solution"></a>Lösung für Microsoft Teams-Räume
 
-Verbesserte Räume für Microsoft Teams erfordern die Verwendung von Microsoft Teams Räumen unter Microsoft Windows.
+Verbesserte Räume für Microsoft Teams erfordern die Verwendung von Microsoft Teams-Räume unter Microsoft Windows.
 
 ### <a name="cameras"></a>Kameras
 
@@ -341,7 +341,7 @@ Für diese Art von Raum eignen sich Frontmikrofon-Arrays sowie Tisch- und Overhe
 
 #### <a name="microphone-placement"></a>Mikrofonplatzierung
 
-Mikrofon-Arrays müssen so positioniert werden, dass sie alle Teilnehmer im Konferenzraum innerhalb der zertifizierten Reichweite des Geräts abdecken.
+Mikrofon-Arrays müssen so positioniert werden, dass sie alle Teilnehmer im Besprechungsraum innerhalb der zertifizierten Reichweite des Geräts abdecken.
 
 ### <a name="speakers"></a>Referenten
 
@@ -371,13 +371,13 @@ Beispiele für Anzeigen sind:
 
 #### <a name="display-functions"></a>Anzeigen von Funktionen
 
-Erweiterte Microsoft Teams Räume erfordern, wie alle anderen Microsoft Teams Räume, die Verwendung von Bildschirmen, die die folgenden Funktionen für einen ordnungsgemäßen Betrieb aufnehmen können:
+Erweiterte Microsoft Teams-Räume erfordern, wie alle anderen Microsoft Teams-Räume, die Verwendung von Bildschirmen, die die folgenden Funktionen für einen ordnungsgemäßen Betrieb aufnehmen können:
 
 - Ruhezustand und schnelles Aufwachen aus dem Ruhezustand basierend auf HDMI-Synchronisierung.
 
   - Bei Projektoren müssen automatische Aufwärm- und Abkühlphasen unterstützt werden, ohne dass der Benutzer eingreifen muss.
 
-- Die Bildschirme müssen die entsprechenden EDID und Auflösungen unterstützen, die für das Design der Microsoft Teams Räume erforderlich sind.
+- Die Bildschirme müssen die entsprechenden EDID und Auflösungen unterstützen, die für das Design der Microsoft Teams-Räume erforderlich sind.
 
 #### <a name="display-placement"></a>Platzierung der Anzeige
 
@@ -403,9 +403,9 @@ Alle Teams-Räume unter Windows können herkömmliche Whiteboards in einer Teams
 
 ## <a name="recommended-products-for-this-space"></a>Empfohlene Produkte für diesen Bereich
 
-### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams Raum-Konsole und -Rechner
+### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams-Raum-Konsole und -Rechner
 
-- Eine Windows-basierte Lösung für Microsoft Teams Räume.
+- Eine Windows-basierte Lösung für Microsoft Teams-Räume.
 
 Wie gezeigt:
 
@@ -479,9 +479,9 @@ Weitere Optionen:
 
 - [Audio im QSC-Besprechungsraum: Deckenlautsprecher](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
-- [QSC Directional Audio - Deckenbeschallung](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [QSC Directional Audio – Deckenbeschallung](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
-- [QSC Konferenzraum-Audio: Hängelautsprecher](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [Audio im QSC-Besprechungsraum: Hängelautsprecher](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
 - [Biamp Audio mit Parlé-Deckenmikrofon](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
@@ -525,9 +525,9 @@ Weitere Optionen:
 
 - [Audio im QSC-Besprechungsraum: Deckenlautsprecher](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
-- [QSC Directional Audio - Deckenbeschallung](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [QSC Directional Audio – Deckenbeschallung](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
-- [QSC Konferenzraum-Audio: Hängelautsprecher](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [Audio im QSC-Besprechungsraum: Hängelautsprecher](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
 - [Biamp Audio mit Parlé-Deckenmikrofon](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
@@ -541,7 +541,7 @@ Weitere Optionen:
 
 - [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
-### <a name="displays"></a>Zeigt
+### <a name="displays"></a>Anzeigen
 
 - Ein Laserprojektor mit kurzem oder ultrakurzem Projektionsabstand, hoher Auflösung und hoher Helligkeit mit automatischer Aufweckfunktion bei Synchronisierung und Abkühlung im Ruhezustand. Eine Projektionsleinwand mit geringer Verstärkung, die das Umgebungslicht zurückhält, bietet die beste Bildqualität in hellen Räumen.
 
