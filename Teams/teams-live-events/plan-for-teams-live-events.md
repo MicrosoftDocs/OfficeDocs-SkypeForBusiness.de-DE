@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c48c322c913b71eb47e1c093e40200d926d26f3
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: b39be09266f5af76064f867e721fab5146a75adc
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125670"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913443"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -106,7 +106,7 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
 >
-> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir vorübergehende Limiterhöhungen für Live-Events bis zum 30. Juni 2022 verlängern, einschließlich**:
+> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir temporäre Limiterhöhungen für Liveereignisse bis zum 31. Dezember 2022 verlängern, einschließlich**:
 >
 >- Ereignisunterstützung für bis zu 20.000 Teilnehmer
 >- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
