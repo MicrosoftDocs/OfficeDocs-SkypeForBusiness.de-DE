@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564737"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913423"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Besprechungen, Webinare und Liveereignisse 
 
@@ -51,9 +51,9 @@ In der folgenden Tabelle werden die drei Arten von Besprechungen und die Anzahl 
 | Liveereignisse | Bis zu 20.000** |– Übertragung an große Benutzergruppen. <br>– Moderierte Q&A-Runden für die Interaktion mit Benutzergruppen. <br> – Angabe von Produzenten und Referenten möglich, einschließlich externer Referenten.<br>– Unterstützung erweiterter Produktionsfunktionen. | Nein |
 ||||
 
-*Die üblichen 10.000 werden bis zum 30. Juni 2022 auf 20.000 erhöht.<br>
+*Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2022 auf 20.000 erhöht.<br>
 
-**Die üblichen 10.000 werden bis zum 30. Juni 2022 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](/stream/live-events-assistance) erforderlich ist. 
+**Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2022 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](/stream/live-events-assistance) erforderlich ist. 
 
 Beachten Sie, dass NDI in Besprechungen, Webinaren und Liveereignissen vollständig unterstützt wird, sodass Sie die Übertragung mithilfe von Tools wie OBS und Wirecast produzieren können. Weitere Informationen finden Sie unter [Verwenden von NDI®-Technologie in Microsoft Teams](use-ndi-in-meetings.md).
 
