@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Informationen zum Durchsuchen und Kaufen von Geräten im Teams Admin Center-Gerätespeicher
-ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761447"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045644"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Kaufen von Geräten im Teams-Gerätespeicher
 
@@ -34,7 +34,7 @@ Im Gerätespeicher im Teams Admin Center können Sie Geräte durchsuchen, kaufen
 
 ## <a name="requirements"></a>Anforderungen
 
-Um den Gerätespeicher verwenden zu können, müssen Sie ein globaler Administrator, Teams Administrator oder ein Teams Geräteadministrator sein.
+Um den Gerätespeicher verwenden zu können, müssen Sie ein globaler Administrator oder ein Teams-Administrator sein.
 
 ## <a name="browse-the-store"></a>Durchsuchen des Speichers
 

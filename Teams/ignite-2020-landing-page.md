@@ -1,19 +1,19 @@
 ---
 title: Teams-Sitzungen bei Ignite 2020
 description: Hier finden Sie alle verfügbaren Schulungen für Business Central.
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: serdars
 audience: admin
 manager: serdars
-ms.openlocfilehash: 35ec6c883c880543c9d27a18a9af87d3cff7ab6d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: a956af4c9eedf5e9b4c10c61c219651da94f4ffb
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675117"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046014"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams-Sitzungen bei Ignite 2020
 
@@ -26,7 +26,7 @@ ms.locfileid: "65675117"
 |[Erstellen eines robusten, integrativen und hybriden Arbeitsplatzes mit Microsoft Teams](https://aka.ms/IG20-DB156-R1) |Organisationen steigen auf den Hybridarbeitsplatz um, um die Anforderungen von Remotemitarbeitern und Mitarbeitern vor Ort zu erfüllen. Im ersten Teil erfahren Sie, wie Teams über Teams Besprechungen, virtuelle Ereignisse und Anrufe sowie neue Geräteerfahrungen in Verbindung bleiben können. Wir zeigen, wie die Teams Plattform dazu beitragen kann, Workflows zu optimieren, die Entscheidungsfindung zu verbessern und Ihr Ökosystem von Anwendungen zu integrieren. <br> Sehen Sie sich auch den zweiten Teil dieser Reihe, den Sitzungscode DB158, an.|Nicole Herskowitz                 |
 |[Mit Microsoft Teams-Besprechungen sind Besprechungen intelligenter, Sie können sich besser konzentrieren und mehr erledigen](https://aka.ms/IG20-DB151)  |Besprechungen sind der Eckpfeiler für die Arbeit. Erfahren Sie, wie Teams-Besprechungen Ihnen und Ihrer Organisation bei der Anpassung an eine neue Arbeitsweise helfen können.  |Shiraz Cupala|
 |[Anrufe in Microsoft Teams leicht gemacht](https://aka.ms/IG20-DB149)  |Enterprise Calling in Teams ist einfach bereitzustellen und zu verwenden. Lernen Sie die Grundlagen von Teams-Anrufen kennen, während Sie die neuesten Funktionen von Anrufen erkunden, z. B. neue Anrufoberflächen und Anrufe zur Zusammenarbeit. |Paul Cannon, Laura Kramer, Barbara Kim|
-|[Ein zentraler Ort für Administratoren zum Verwalten von Microsoft Teams: Neuerungen zur Verwaltbarkeit von Teams](https://aka.ms/IG20-DB144) |Teams Administratoren verfügen über flexible und präzise Verwaltungsfunktionen. Mit den Funktionen können sie eine benutzerdefinierte Benutzeroberfläche für ihre Organisationen erstellen, die den Anforderungen des Unternehmens am besten entspricht. In dieser Sitzung werden die neuesten und besten Funktionen rund um unser Team Admin Center-Portal vorgestellt, die Neuerungen in Richtlinien, App-Verwaltung, Geräteverwaltung, Berichterstellung, Analysen und Problembehandlung sowie PowerShell erläutert. |Ronit Ben-Sheffer, Jamie Stark|
+|[Ein zentraler Ort für Administratoren zum Verwalten von Microsoft Teams: Neuerungen zur Verwaltbarkeit von Teams](https://aka.ms/IG20-DB144) |Teams Administratoren verfügen über flexible und präzise Verwaltungsfunktionen. Mit den Funktionen können sie eine benutzerdefinierte Benutzeroberfläche für ihre Organisationen erstellen, die den Anforderungen des Unternehmens am besten entspricht. In dieser Sitzung stellen wir die neuesten und besten Funktionen rund um unser Team Admin Center-Portal vor, besprechen die Neuerungen in Richtlinien, App-Verwaltung, Geräteverwaltung, Berichterstellung, Analysen und Problembehandlung sowie PowerShell. |Ronit Ben-Sheffer, Jamie Stark|
 |[Skalieren und Anpassen virtueller Besprechungen und Ereignisse mit Microsoft Teams](https://aka.ms/IG20-DB138)|Besprechungen werden in allen Formen und Größen abgehalten – erfahren Sie, wie Sie Teams verwenden, um Ihr nächstes großes Ereignis zu strukturieren und zu verwalten. Teams können nahtlos an die Anforderungen Ihrer Organisation anpassen und optimale Teilnehmererfahrungen für Ereignisse aller Größen bereitstellen.  |Christina Torok, Ashwin Appiah|
 |[Moderne Besprechungserlebnisse am Hybridarbeitsplatz mithilfe von Microsoft Teams-Geräten](https://aka.ms/IG20-DB147) |Einführung in Microsoft Teams-Geräte Teams Geräte sollen Personen dabei helfen, die Leistungsfähigkeit von Teams zu maximieren und die Lücke zwischen remote und gemeinsam genutzten Arbeitsbereichen zu schließen. Erfahren Sie mehr über die Geräte, die für die Bereitstellung von personenorientierten Besprechungsraumerfahrungen und neu gestalteten persönlichen Arbeitsbereichen entwickelt wurden, die inklusivere und kollaborative Erfahrungen mit Microsoft Teams Geräten ermöglichen.  |Kendra Baker, Greg Baribault|
 |[Transformieren des modernen Arbeitsplatzes mit der Microsoft Teams-Plattform](https://aka.ms/IG20-DB157) |Erfahren Sie mehr über alle neuen und vorhandenen Erweiterbarkeitspunkte innerhalb der Teams Plattform. Entdecken Sie, wie Sie leistungsstarke Apps und Lösungen erstellen können, um Ihre Geschäftsanforderungen zu erfüllen.|Archana Saseetharan, Michal Lesiczka|

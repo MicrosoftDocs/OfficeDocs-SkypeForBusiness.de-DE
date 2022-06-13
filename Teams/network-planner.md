@@ -1,14 +1,14 @@
 ---
 title: Verwenden des Netzwerkplaners für Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: Der Administrator kann erfahren, wie Er mithilfe von Netzwerkplaner die Netzwerkanforderungen für Microsoft Teams.
+description: Administratoren erfahren, wie Sie den Netzwerkplaner verwenden, um die Netzwerkanforderungen für Microsoft Teams zu ermitteln.
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
@@ -22,70 +22,70 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08884e7a8cf4aaebf7f2063cec0e80fcf5619ced
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fba570bdd7a83c26d68d10e65f631a0d028d7408
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731314"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045554"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden des Netzwerkplaners für Microsoft Teams
 
-Network Planner ist ein neues Tool, das im Teams Admin Center verfügbar ist. Sie finden sie unter   >  **Planungsnetzwerkplaner**. Mit nur wenigen Schritten können Sie mithilfe von Netzwerkplaner Netzwerkanforderungen für Verbindungen zwischen benutzern Microsoft Teams Organisation ermitteln und organisieren. Wenn Sie Ihre Netzwerkdetails und die Teams-Nutzung angeben, berechnet der Netzwerkplaner Ihre Netzwerkanforderungen für die Bereitstellung von Teams und Cloud Voice über die physischen Standorte Ihrer Organisation hinweg.
+Netzwerkplaner ist ein neues Tool, das im Teams Admin Center verfügbar ist. Sie finden sie unter "**Planer für** das **Netzwerk planen** > ". In nur wenigen Schritten hilft Ihnen der Netzwerkplaner bei der Ermittlung und Organisation von Netzwerkanforderungen für die Verbindung Microsoft Teams Benutzern in Ihrer Organisation. Wenn Sie Ihre Netzwerkdetails und die Teams-Nutzung angeben, berechnet der Netzwerkplaner Ihre Netzwerkanforderungen für die Bereitstellung von Teams und Cloud Voice über die physischen Standorte Ihrer Organisation hinweg.
 
-![Screenshot von "Netzwerkplaner"](media/network-planner.png)
+![Screenshot des Netzwerkplaners.](media/network-planner.png)
 
-Mit Netzwerkplaner können Sie:
+Netzwerkplaner ermöglicht Ihnen Folgendes:
 
-- Erstellen Sie Darstellungen Ihrer Organisation mithilfe von Websites und von Microsoft empfohlenen Personen (Büromitarbeiter, Remotemitarbeiter und Teams Raumsystem).
+- Erstellen Sie Darstellungen Ihrer Organisation mithilfe von Websites und von Microsoft empfohlenen Personas (Büromitarbeiter, Remotemitarbeiter und Teams Raumsystem).
 
     > [!NOTE]
-    > Die empfohlenen Personen wurden basierend auf Daten aus Teams Szenarien mit optimaler Verwendung und typischen Verwendungsmustern entwickelt. Sie können jedoch zusätzlich zu den drei empfohlenen Personas bis zu drei benutzerdefinierte Personen erstellen.
+    > Die empfohlenen Personas wurden basierend auf Daten aus Teams best use scenarios und typischen Nutzungsmustern entwickelt. Sie können jedoch zusätzlich zu den drei empfohlenen Personas bis zu drei benutzerdefinierte Personas erstellen.
 
-- Generieren Sie Berichte, und berechnen Sie die Bandbreitenanforderungen Teams Nutzung.
+- Generieren Sie Berichte, und berechnen Sie die Bandbreitenanforderungen für Teams Nutzung.
 
-Um Netzwerkplaner verwenden zu können, müssen Sie ein globaler Administrator, Teams Oder Teams Communications Administrator sein.
+Um den Netzwerkplaner verwenden zu können, müssen Sie ein globaler Administrator, Teams Administrator oder Teams Kommunikationsadministrator sein.
 
 ## <a name="create-a-custom-persona"></a>Erstellen einer benutzerdefinierten Persona
 
-Gehen Sie wie folgt vor, um eine benutzerdefinierte Persona zu erstellen:
+Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Persona zu erstellen:
 
-1. Wechseln Sie im Microsoft Teams Admin Center zum Netzwerkplaner.
+1. Wechseln Sie zum Netzwerkplaner im Microsoft Teams Admin Center.
 
-2. Klicken Sie **auf der Registerkarte Personas** auf **+ Benutzerdefinierte Persona**. 
+2. Klicken Sie auf der Registerkarte " **Personas** " auf **+Benutzerdefinierte Persona**. 
 
-3. Fügen Sie **im Bereich Neue benutzerdefinierte Persona** einen Namen und eine Beschreibung für die neue Persona hinzu.
+3. Fügen Sie im Bereich " **Neue benutzerdefinierte Persona** " einen Namen und eine Beschreibung für die neue Persona hinzu.
 
-4. Wählen Sie die Berechtigungen aus, die diese Persona innerhalb der Organisation verwenden soll.
+4. Wählen Sie die Berechtigungen aus, die diese Persona innerhalb der Organisation verwenden wird.
 
 5. Klicken Sie auf **Speichern**.
 
 ## <a name="build-your-plan"></a>Erstellen Ihres Plans
 
-Führen Sie die folgenden Schritte aus, um mit dem Erstellen Ihres Netzwerkplans zu beginnen:
+Führen Sie die folgenden Schritte aus, um mit der Erstellung Ihres Netzwerkplans zu beginnen:
 
-1. Wechseln Sie im Microsoft Teams Admin Center zum Netzwerkplaner.
+1. Wechseln Sie zum Netzwerkplaner im Microsoft Teams Admin Center.
 
-2. Klicken Sie **auf der Registerkarte** Netzwerkplan auf **Netzwerkplan hinzufügen**.
+2. Klicken Sie auf der Registerkarte **"Netzwerkplan** " auf **"Netzwerkplan hinzufügen"**.
 
 3. Geben Sie einen Namen und eine Beschreibung für Ihren Netzwerkplan ein. Der Netzwerkplan wird in der Liste der verfügbaren Pläne angezeigt.
 
 4. Klicken Sie auf den Plannamen, um den neuen Plan auszuwählen.
 
-5. Fügen Sie Websites hinzu, um eine Darstellung der Netzwerkeinrichtung Ihrer Organisation zu erstellen.
+5. Fügen Sie Websites hinzu, um eine Darstellung des Netzwerksetups Ihrer Organisation zu erstellen.
 
-    Je nach dem Netzwerk Ihrer Organisation möchten Sie websites möglicherweise verwenden, um ein Gebäude, einen Bürostandort oder etwas anderes zu repräsentieren. Standorte können über ein WAN verbunden sein, um die Freigabe von Internet- und/oder PSTN-Verbindungen zu ermöglichen. Um optimale Ergebnisse zu erzielen, erstellen Sie Websites mit lokalen Verbindungen, bevor Sie Websites erstellen, die eine Remoteverbindung mit dem Internet oder PSTN herstellen.
+    Je nach Netzwerk Ihrer Organisation können Sie Websites verwenden, um ein Gebäude, einen Bürostandort oder etwas anderes darzustellen. Standorte sind möglicherweise über ein WAN verbunden, um die Freigabe von Internet- und/oder PSTN-Verbindungen zu ermöglichen. Um optimale Ergebnisse zu erzielen, erstellen Sie Websites mit lokalen Verbindungen, bevor Sie Websites erstellen, die remote eine Verbindung mit dem Internet oder dem PSTN herstellen.
 
-    So erstellen Sie eine Website
+    So erstellen Sie eine Website:
 
     1. Fügen Sie einen Namen und eine Beschreibung für Ihre Website hinzu.
 
-    2. Fügen **Sie unter** Netzwerkeinstellungen die Anzahl der Netzwerkbenutzer an diesem Standort hinzu (erforderlich).
+    2. Fügen Sie unter **"Netzwerkeinstellungen**" die Anzahl der Netzwerkbenutzer an diesem Standort hinzu (erforderlich).
 
-    3. Hinzufügen von Netzwerkdetails: WAN-fähig, WAN-Kapazität, Internet-Ausgangs **(** Lokal oder **Remote)** und PSTN-Ausgangsadresse (kein, lokaler oder remoteer Standort).
+    3. Fügen Sie Netzwerkdetails hinzu: WAN-fähig, WAN-Kapazität, Internetausgang (**lokal** oder **Remote**) und PSTN-Ausgang (keine, lokale oder Remoteverbindung).
 
       > [!NOTE]
-      > Sie müssen WAN- und Internetkapazitätsnummern hinzufügen, um spezifische Bandbreitenempfehlungen einsenden zu können, wenn Sie einen Bericht generieren.
+      > Sie müssen WAN- und Internetkapazitätsnummern hinzufügen, um bestimmte Bandbreitenempfehlungen anzuzeigen, wenn Sie einen Bericht generieren.
 
     4. Klicken Sie auf **Speichern**.
 
@@ -93,18 +93,18 @@ Führen Sie die folgenden Schritte aus, um mit dem Erstellen Ihres Netzwerkplans
 
 Nachdem Sie alle Websites hinzugefügt haben, können Sie wie folgt einen Bericht erstellen.
 
-1. Klicken Sie **auf** der Registerkarte Berichte **auf Bericht starten**.
+1. Klicken Sie auf der Registerkarte " **Berichte** " auf **"Bericht starten"**.
 
-2. Verteilen Sie für jede Website, die Sie erstellen, die Anzahl der Benutzer an die verfügbaren Personas. Wenn Sie die von Microsoft empfohlenen Personen verwenden, wird die Nummer automatisch verteilt (80 % Büromitarbeiter und 20 % Remote-Mitarbeiter).
+2. Verteilen Sie für jede Website, die Sie erstellen, die Anzahl der Benutzer auf die verfügbaren Personas. Wenn Sie die von Microsoft empfohlenen Personas verwenden, wird die Anzahl automatisch verteilt (80 % Büromitarbeiter und 20 % Remotemitarbeiter).
 
-3. Nachdem Sie die Verteilung abgeschlossen haben, klicken Sie **auf Bericht generieren**.
+3. Nachdem Sie die Verteilung abgeschlossen haben, klicken Sie auf **"Bericht generieren"**.
 
-    Im generierten Bericht werden die Bandbreitenanforderungen in mehreren unterschiedlichen Ansichten angezeigt, sodass Sie die Ausgabe deutlich verstehen:
-    - In einer Tabelle mit einzelnen Berechnungen wird der Bandbreitenbedarf für jede zulässige Aktivität angezeigt.
-    - In einer zusätzlichen Ansicht werden die Bandbreitenanforderungen insgesamt mit Empfehlungen angezeigt.
+    Der generierte Bericht zeigt die Bandbreitenanforderungen in verschiedenen Ansichten an, sodass Sie die Ausgabe klar verstehen können:
+    - In einer Tabelle mit einzelnen Berechnungen werden die Bandbreitenanforderungen für jede zulässige Aktivität angezeigt.
+    - In einer zusätzlichen Ansicht wird der Gesamtbandbreitenbedarf mit Empfehlungen angezeigt.
 
-4. Klicken Sie auf **Speichern**. Der Bericht wird in der Berichtsliste zur späteren Anzeige verfügbar sein.
+4. Klicken Sie auf **Speichern**. Ihr Bericht steht zur späteren Anzeige in der Berichtsliste zur Verfügung.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-Wenn Sie ein Beispiel für die Verwendung des Netzwerkplaners zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts anhand dieser Schritte verwenden können, laden Sie den Netzwerkplaner How-To PowerPoint [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (nur in Englisch) herunter.
+Ein Beispiel für die Verwendung des Netzwerkplaners zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts mithilfe dieser Schritte finden Sie im [Download des Netzwerkplaners How-To PowerPoint Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (nur in Englisch).

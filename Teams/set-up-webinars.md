@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Webinaren in Microsoft Teams
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Erfahren Sie, wie Sie Webinarrichtlinien für Teams Besprechungen verwalten.
-ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646244"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045704"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Einrichten von Webinaren in Microsoft Teams
 
@@ -41,7 +41,7 @@ Nachdem Sie Webinare in Ihrer Organisation eingerichtet haben, können Ihre Benu
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Zulassen, dass Benutzer Webinare im Teams Admin Center planen
 
-Sie können das Teams Admin Center verwenden, um Webinare für Ihre Organisation einzurichten. Die Richtlinien zum Einrichten von Webinaren finden Sie im Teams Admin Center unter "**MeetingsMeeting** > "-Richtlinien.
+Sie können das Teams Admin Center verwenden, um Webinare für Ihre Organisation einzurichten. Die Richtlinien zum Einrichten von Webinaren finden Sie im Teams Admin Center unter den **Richtlinien für Besprechungsbesprechungen** > .
 
 ### <a name="meeting-registration"></a>Besprechungsregistrierung
 

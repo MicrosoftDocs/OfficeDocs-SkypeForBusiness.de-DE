@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Microsoft Teams in Ihrem Kleinunternehmen
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: c3afa62cfaca28c0c428c15b44868e7237973955
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767148"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045444"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Einrichten von Microsoft Teams in Ihrem Kleinunternehmen
 
 Es gibt viele Möglichkeiten zum Anpassen von Teams. In den folgenden Abschnitten wird gezeigt, wie Sie die einzelnen Teams-Workloads einrichten: **Chats, Teams und Kanäle**; **Besprechungen und Konferenzen**; und **Sprachlösungen**. Die Reihenfolge, in der Sie die einzelnen Arbeitslasten einrichten, liegt bei Ihnen. Zwar empfehlen wir ihnen, zuerst die Chats, Teams und Kanäle für die Arbeitsauslastung eingerichtet zu haben, sie können aber mit Besprechungen und Konferenzen oder sogar mit Cloud Voice beginnen. Sie haben die Wahl.
 
 > [!NOTE]
-> Wenn dies noch nicht geschehen ist, wird dringend empfohlen, die Bereitstellung von Teams mit einem Pilotprojekt zu beginnen. Ein Pilotprojekt ermöglicht es Ihnen und einigen Early Adoptern, sich vor der Planung und dem möglichen Rollout mit Teams und dessen Funktionen vertraut zu machen. Weitere Informationen zum Starten Ihres Pilotprojekts finden Sie unter [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md).
+> Falls Sie es noch nicht getan haben, empfehlen wir Ihnen dringend, Ihre Teams-Einführung mit einem Pilotprojekt zu beginnen. Ein Pilotprojekt ermöglicht es Ihnen und einigen frühen Anwendern, sich mit Teams und seinen Funktionen vertraut zu machen, bevor Sie die Einführung planen und schließlich durchführen. Weitere Informationen darüber, wie Sie mit dem Pilotprojekt beginnen können, finden Sie unter [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Stellen Sie vor dem allgemeinen Rollout von Teams sicher, dass Ihre Organisation bereit ist, indem Sie die Punkte unter [Stellen Sie sicher, dass Sie bereit sind](get-started-with-teams-quick-start.md#make-sure-youre-ready) überprüfen.
 
@@ -86,7 +86,7 @@ Weitere Informationen zu Teams Telefon mit Anrufplan für kleine und mittelstän
 
 ## <a name="deploy-clients"></a>Bereitstellen von Clients
 
-Wenn Sie bereit sind, Teams für Ihre Benutzer zu verwenden, können sie den Teams-Client auf ihrem Windows-, Mac- oder Linux-PC oder aber auf ihrem Android- oder iOS-Gerät installieren. Benutzer können den Teams-Client direkt von <https://teams.microsoft.com/downloads> herunterladen.
+Wenn Sie bereit sind, dass Ihre Benutzer Teams verwenden können, können sie den Teams-Client auf ihrem Windows-, Mac- oder Linux-PC oder auf ihrem Android- oder iOS-Gerät installieren. Benutzer können den Teams-Client direkt aus<https://teams.microsoft.com/downloads>herunterladen.
 
 Stellen Sie sicher, dass jeder, der Teams verwenden wird, über eine Teams-Lizenz verfügt. Weitere Informationen zum Zuweisen einer Teams-Lizenz finden Sie unter [Verwalten des Benutzerzugriffs auf Teams](user-access.md#using-the-microsoft-365-admin-center).
 

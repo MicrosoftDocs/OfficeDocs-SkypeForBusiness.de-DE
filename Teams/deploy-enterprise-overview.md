@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Enterprise-Bereitstellung – Übersicht
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6e6a2835df6f00bc9103594b1cfe5ae011c6960
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617421"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045574"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams Enterprise-Bereitstellung – Übersicht
 
 Wenn Sie ein mittleres oder großes Unternehmen sind, müssen Sie sich überlegen, wie Sie den Dienst für Ihre Benutzer einführen, wie Sie den Microsoft Teams-Client für sie bereitstellen, wie sich Ihr Netzwerkentwurf auf die Qualität der Echtzeitkommunikation auswirken könnte und so weiter. In den folgenden Abschnitten finden Sie Artikel, die Ihnen bei der Planung von Teams in Ihrer Organisation helfen werden.
 
 > [!NOTE]
-> Wenn dies noch nicht geschehen ist, wird dringend empfohlen, die Bereitstellung von Teams mit einem Pilotprojekt zu beginnen. Ein Pilotprojekt ermöglicht es Ihnen und einigen Early Adoptern, sich vor der Planung und dem möglichen Rollout mit Teams und dessen Funktionen vertraut zu machen. Weitere Informationen zum Starten Ihres Pilotprojekts finden Sie unter [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md).
+> Falls Sie es noch nicht getan haben, empfehlen wir Ihnen dringend, Ihre Teams-Einführung mit einem Pilotprojekt zu beginnen. Ein Pilotprojekt ermöglicht es Ihnen und einigen frühen Anwendern, sich mit Teams und seinen Funktionen vertraut zu machen, bevor Sie die Einführung planen und schließlich durchführen. Weitere Informationen darüber, wie Sie mit dem Pilotprojekt beginnen können, finden Sie unter [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Nachdem Sie die nachstehenden Abschnitte gelesen haben und bereit sind, mit der Bereitstellung von Teams in Ihrer Organisation zu beginnen, lesen Sie [Einrichten von Microsoft Teams in Ihrem Unternehmen](deploy-enterprise-setup.md).
 

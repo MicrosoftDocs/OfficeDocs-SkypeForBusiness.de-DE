@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
-ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294096"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046447"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
@@ -160,7 +160,7 @@ Führen Sie die folgenden Schritte durch:
 |AA-Name                                 |Text                     |Name des Ressourcenkontos, das an die automatische Telefonzentrale angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **aa_test@microsoft.com** ist, lautet dieser Wert wie folgt: **aa_test** |
 |AACallerActionCount                     |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Aktionen, die während des Anrufs vom Anrufer in der automatischen Telefonzentrale ausgewählt wurden  |
 |AACallFlow                              |Text                     |Kapselt die verschiedenen Zustände der Anrufwerte der automatischen Telefonzentrale – mögliche Werte:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Text                     |Endergebnis des Aufrufs – mögliche Werte:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
+|AACallResult                            |Text                     |Endergebnis des Aufrufs – mögliche Werte:<br><br>§ failed_to_establish_media (der Medienteil des Anrufs konnte nicht festgestellt werden)<br>§ failover_to_operator (Anruf, der in der Regel aufgrund eines Systemfehlers an den Betreiber weitergeleitet wird)<br>§ oaa_chain_too_long (zu viele Beine im AA)<br>§ oaa_session_too_long (AA-Sitzung dauert zu lange)<br>§ service_declined (AA hat den Anruf nicht angenommen)<br>§ service_terminated (AA-Konfiguration trennt den Anruf)<br>§ terminated_automatic_selection (Die AA-Konfiguration trennt die Anrufe)<br>§ terminated_no_operator (Aufruf aufgrund des Fehlers beendet, kein Operator definiert) <br>§ terminated_transfer_failed (Anruf wurde als Übertragungsfehler beendet - in der Regel zu Ausdr. Rufnummer)<br>***§ transferred_to_operator*** (Anruf wurde an den Operator weitergeleitet - in der Regel aufgrund eines Benutzereingabefehlers)<br>§ transferred_to_receptionist (identisch mit transferred_to_operator)<br>§ transferred_to_self (Anruf wurde an den Anfang der AA zurückgegeben - in der Regel über eine Menüankündigungsoption)<br>§ transferred_to_shared_voicemail (Anruf wurde an freigegebene Voicemail weitergeleitet)<br>§ transferred_to_user (Anruf wurde an einen Benutzer weitergeleitet - umfasst Anrufwarteschleifen)<br>§ unbekannt (unbekannter Fehler)<br>§ user_terminated (Anrufer aufgehängt) |
 |AAChainDuration                         |Dezimalzahl           |Zusammenfassen: Summe<br>Dauer des Anrufs in der automatischen Telefonzentrale                     |
 |AAChainIndex                            |Text                     |                                                                         |
 |AAConnectivityType                      |Text                     |Typ der Aufrufe – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall |
@@ -225,7 +225,7 @@ Führen Sie die folgenden Schritte durch:
 |Name                                    |Datentyp                |Beschreibung                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe                                          |
-|Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference (angenommene Telefonkonferenzen)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (Überlaufbedingung erfüllt)<br>§ timed_out (Timeoutbedingung erfüllt)<br>§ transferred_to_agent (beantwortete Tranfermodusaufrufe {default}) |
 |Anrufwarteschleifenidentität                     |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Zieltyp der Anrufwarteschleife                  |Text                     |***Anrufumleitungszieltyp – mögliche Werte:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
 |Anruftyp<sup>1</sup>                   |Text                     |Typ der Aufrufe – mögliche Werte:<br><br>§ External<br>§ Internal           |
@@ -248,7 +248,7 @@ Führen Sie die folgenden Schritte durch:
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |Durchschnittliche Anrufdauer (Sekunden)         |Dezimalzahl           |Zusammenfassen: Summe<br>Durchschnittliche Anrufdauer in Sekunden |
 |Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe                  |
-|Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference (angenommene Telefonkonferenzen)<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown (Überlaufbedingung erfüllt)<br>§ timed_out (Timeoutbedingung erfüllt)<br>§ transferred_to_agent (beantwortete Übertragungsmodus ruft {default} auf. |
 |Aktion "Endzustand der Anrufwarteschleife"           |Text                     |Letzte Aktion der Anrufwarteschleife – mögliche Werte:<br><br>§ disconnect (timed_out Aufrufe)<br>§ disconnect_with_busy (Überlaufaufrufe)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
 |Anrufwarteschleifenidentität                     |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Datum                                    |Datum/Uhrzeit                |Startdatum und -uhrzeit des Anrufs der Anrufwarteschleife (Stunde) (UTC)   |
