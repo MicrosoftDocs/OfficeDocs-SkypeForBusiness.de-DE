@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams verwenden und verwalten können.
-ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
-ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
+ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65795637"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66057055"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Freigegebene Kanäle in Microsoft Teams
 
@@ -96,10 +96,12 @@ In der folgenden Tabelle wird beschrieben, welche Aktionen Besitzer, Mitglieder 
 
 Jeder freigegebene Kanal hat [seine eigene SharePoint-Website](/SharePoint/teams-connected-sites). Die separate Website soll sicherstellen, dass der Zugriff auf die Dateien des freigegebenen Kanals nur für Mitglieder des freigegebenen Kanals möglich ist. Diese Websites werden standardmäßig mit einer Dokumentbibliothek erstellt und können über die [Benutzeroberfläche für die Websiteverwaltung](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) auf einfache Weise in eine Website mit vollem Funktionsumfang erweitert werden. Jede Website wird in derselben geografischen Region wie die Website für das übergeordnete Team erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Graph-API zu vereinfachen. 
 
+Eine freigegebene Kanalwebsite erbt die Vertraulichkeitsbezeichnung des übergeordneten Teams. Dies gilt auch dann, wenn der Kanal direkt mit einem anderen Team geteilt wird.
+
 > [!NOTE]
 > Nur Personen mit Besitzer- oder Mitgliedsberechtigungen im Kanal haben Zugriff auf Inhalte auf der freigegebenen Kanalwebsite. Personen im übergeordneten Team und Administratoren haben keinen Zugriff, es sei denn, sie sind auch Kanalmitglieder.
 
-Die Website eines freigegebenen Kanals synchronisiert die Datenklassifizierung von der Website des übergeordneten Teams. Die Mitgliedschaft in den Websitebesitzer- und Mitgliedergruppen wird mit der Mitgliedschaft des freigegebenen Kanals synchron gehalten. Websiteberechtigungen für die Website eines freigegebenen Kanals können nicht unabhängig über SharePoint verwaltet werden. 
+Die Mitgliedschaft in den Websitebesitzer- und Mitgliedergruppen wird mit der Mitgliedschaft des freigegebenen Kanals synchron gehalten. Websiteberechtigungen für die Website eines freigegebenen Kanals können nicht unabhängig über SharePoint verwaltet werden. 
 
 Teams verwaltet den Lebenszyklus der Website des freigegebenen Kanals. Wenn die Website außerhalb von Teams gelöscht wird, wird sie automatisch innerhalb von vier Stunden wiederhergestellt, solange der freigegebene Kanal noch aktiv ist. Wenn die Website dauerhaft gelöscht wird, erfolgt die Bereitstellung einer neuen Website für den freigegebenen Kanal.
 
