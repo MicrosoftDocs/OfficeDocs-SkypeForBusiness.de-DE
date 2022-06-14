@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten. Anrufwarteschleifen stellen eine Begrüßungsnachricht bereit, halten Musik, Anrufumleitung und andere Features bereit.
-ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: 0d871572f1b1c9b3baa727d35e66f21d93be1f58
+ms.sourcegitcommit: cd34cb3082392d4ca3390b2ecf5bcfe1db7d1046
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046437"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66068680"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -155,6 +155,8 @@ Die Konten Teams Agents müssen auf den TeamsOnly-Modus festgelegt sein. Telefon
 > [!NOTE]
 > Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange weitergeleitet werden.
 >
+> Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von Skype for Business Server an die Warteschlange weitergeleitet werden.
+> 
 > Der Konferenzmodus ist erforderlich, wenn Teams Benutzer Anrufe mit Anrufwarteschleifen konsultieren/durchstellen müssen.
 
 > [!TIP]

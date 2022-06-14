@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913433"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046004"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -45,8 +45,8 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)<sup>4</sup>        |
 |Anzahl der privaten Kanäle pro Team    |30 (einschließlich gelöschter Kanäle)<sup>4</sup>        |
 |Anzahl der Mitglieder in einem privaten Kanal    |250|
-|Maximale Größe einer Verteilerliste, einer Sicherheitsgruppe oder einer Office 365-Gruppe, die in ein Team importiert werden kann.    |3.500|
-|Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10 000<sup>6</sup>     |
+|Maximale Größe der Verteilerliste, Sicherheitsgruppe oder Microsoft 365-Gruppe, die in ein Team importiert werden kann    |3.500|
+|Maximale Anzahl von Mitgliedern in einer Microsoft 365-Gruppe, die in ein Team umgewandelt werden kann    |10 000<sup>6</sup>     |
 |Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>5</sup> |
 
 <sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgenommen.
@@ -62,7 +62,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 <sup>6</sup> Mitglieder von freigegebenen Kanälen von außerhalb des Teams werden auf diesen Grenzwert angerechnet. Beachten Sie des Weiteren, dass Teams-/Kanal-Erwähnungen in Teams mit mehr 10.000 Mitgliedern geblockt sind.
 
 > [!NOTE]
-> Grenzwerte für die Vorschau der freigegebenen Kanäle finden Sie unter [Grenzwerte für freigegebene Kanäle (Vorschau)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
+> Für Grenzwerte für gemeinsam genutzte Kanäle siehe [Grenzwerte für gemeinsam genutzte Kanäle](/MicrosoftTeams/shared-channels#limits-for-shared-channels).
 
 ## <a name="messaging"></a>Messaging
 
