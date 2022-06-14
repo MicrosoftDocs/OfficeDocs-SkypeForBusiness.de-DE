@@ -6,23 +6,20 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
 ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre Business Voice-Lizenzen in Teams Telefon-Lizenzen ändern.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e374175b4ba0a7613405305c4db3baa0e69171
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046186"
+ms.locfileid: "66057095"
 ---
 # <a name="move-from-business-voice-to-teams-phone-licenses"></a>Wechseln von Business Voice zu Teams Telefon-Lizenzen
 
@@ -38,6 +35,11 @@ Vorhandene Business Voice-Kunden werden nicht automatisch auf das neue Lizenzier
 
 Dieser Artikel richtet sich an IT-Administratoren, die ihre Business Voice-Lizenzen in Microsoft Teams Telefon- und Audiokonferenzlizenzen ändern und dabei die gleichen Funktionen beibehalten müssen.
 
+> [!WARNING]
+> Folgen Sie den Anweisungen dieses Artikels genau. Wenn Sie in den Anweisungen aufgefordert werden, die Schaltfläche " **Speichern** " NICHT auszuwählen, wählen Sie nicht die Schaltfläche " **Speichern** " aus.
+>
+> Das vorzeitige Speichern kann dazu führen, dass Telefonnummernzuweisungen, Wählpläne, automatische Telefonzentralen und Anrufwarteschleifen verloren gehen.
+
 ## <a name="acquire-new-licenses"></a>Neue Lizenzen erwerben
 
 Bevor Sie Business Voice-Lizenzen ersetzen, müssen Sie zuerst Ersatzlizenzen für Ihre Benutzer erwerben.
@@ -52,18 +54,17 @@ Verwenden Sie die folgende Tabelle, um basierend auf Ihren Anforderungen zu ermi
 
 | Alter Lizenzplan | Empfohlener Lizenzplan | Beschreibung |
 | ---------------- | ------------------------ | ----------- |
-| Business Voice mit Anrufplan | Teams Telefon mit Anrufplan | Bietet cloudbasierte Telefonsystem-Funktionen und einen Plan für Inlandsanrufe mit Microsoft als Ihrem PSTN-Anbieter. |
-| Business Voice ohne Anrufplan | Teams Phone Standard | Bietet cloudbasierte Telefonsystem-Funktionen, die [mit einem Anrufplan über einen Drittanbieter für PSTN mithilfe von Telefonieanbieter oder Direct Routing](pstn-connectivity.md) kombiniert werden können. |
-| Business Voice (beliebige Version) | Microsoft Team Audio Conferencing select dial-out or Audio Conferencing | Bietet Einwahl- und Einwahlfunktionen für Besprechungsteilnehmer, die von einem lizenzierten Benutzer organisiert werden |
+| Business Voice mit Anrufplan | Teams Telefon mit Anrufplan und Microsoft Teams Audiokonferenzen mit Einwahl nach USA/CAN | Bietet cloudbasierte Telefonsystem-Funktionen, einen Anrufplan für inlandsanrufe mit Microsoft als Ihrem PSTN-Anbieter sowie Ein- und Einwahlfunktionen für Besprechungsteilnehmer, die von einem lizenzierten Benutzer organisiert wurden. |
+| Business Voice ohne Anrufplan | Teams Telefon Standard- und Microsoft Teams-Audiokonferenzen mit Einwahl in die USA/CAN | Bietet cloudbasierte Telefonsystem-Funktionen, die mit [einem Anrufplan eines Drittanbieters mit einem PSTN-Anbieter kombiniert werden können, indem Telefonieanbieter oder Direct Routing](pstn-connectivity.md) sowie Ein- und Einwahlfunktionen für Besprechungsteilnehmer verwendet werden, die von einem lizenzierten Benutzer organisiert werden. |
 
 ## <a name="how-to-update-licenses"></a>Aktualisieren von Lizenzen
 
 Sie haben vier Möglichkeiten, Ihre Lizenzen zu aktualisieren:
 
-- Lizenzupdate für einzelne Benutzer über Microsoft 365 Admin Center.
-- Massenaktualisierung von Benutzerlizenzen über Microsoft 365 Admin Center.
-- Massenaktualisierung von Benutzerlizenzen mithilfe eines PowerShell-Skripts.
-- Massenaktualisierung von Benutzerlizenzen mithilfe der gruppenbasierten Azure-Lizenzierung.
+- Lizenzupdate für einzelne Benutzer über Microsoft 365 Admin Center
+- Massenaktualisierung von Benutzerlizenzen über Microsoft 365 Admin Center
+- Massenaktualisierung von Benutzerlizenzen mithilfe eines PowerShell-Skripts
+- Massenaktualisierung von Benutzerlizenzen mithilfe der gruppenbasierten Azure-Lizenzierung
 
 # <a name="option-1-single-user-in-admin-center"></a>[Option 1: Einzelner Benutzer im Admin Center](#tab/single-user)
 

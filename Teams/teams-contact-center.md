@@ -13,12 +13,12 @@ f1.keywords:
 description: Eine Übersicht über die integrierte Lösung contact center as a service (CCaaS) für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e4df6a7f8fbdc907bb4fc88e95fe119fbbbdf47
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: f441785af609c9336fd03707f9eee334070fb885
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823430"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056935"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Contact Center-Integrationen für Microsoft Teams
 
@@ -68,6 +68,8 @@ Die folgenden Anbieter bieten Contact Center-Lösungen an, die in Teams mithilfe
 
 |  Lösungsanbieter                                                                                                                               |  Lösungswebsite                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CentrePal` | https://www.centrepal.com/                                 |
+| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
@@ -84,6 +86,5 @@ Die folgenden Anbieter bieten Contact Center-Lösungen an, die in Teams mithilfe
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
-| `GuardRec` | https://www.guardrec.com/en/teams-compliance-recording                          |
 
 Diese Liste wird aktualisiert, wenn weitere Lösungsanbieter beitreten und die Zertifizierungskriterien erfüllen.

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Debug-, Medien- und Desktopprotokolle, die von Microsoft Teams erstellt wurden, wo sie gefunden werden können und wie sie bei der Überwachung und Problembehandlung helfen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059106"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056945"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Verwenden von Protokolldateien zum Überwachen und Beheben von Problemen mit Microsoft Teams
 
@@ -95,12 +95,16 @@ Debugprotokolle zeigen die folgenden Datenflüsse:
 -   Anruf/Unterhaltung
 
 So sammeln Sie Protokolle für Linux:
-- Tastenkombination: <kbd>StrgAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Tastenkombination: <kbd>STRG ALT</kbd> + <kbd></kbd> + <kbd>UMSCHALT</kbd> + <kbd>1</kbd>  
 - Die Dateien sind in `~/Downloads`
 
 So sammeln Sie Protokolle für Browser und Windows:
-- Tastenkombination: <kbd>StrgAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Tastenkombination: <kbd>STRG ALT</kbd> + <kbd></kbd> + <kbd>UMSCHALT</kbd> + <kbd>1</kbd>  
 - Die Dateien sind in `%userprofile%\Downloads`
+
+So sammeln Sie Protokolle für Mac:
+- Tastenkombination: <kbd>Optionsbefehl</kbd> + <kbd></kbd> + <kbd>Umschalt</kbd> + <kbd>1</kbd>  
+- Die Dateien sind in `~/Downloads`
 
 ## <a name="media-logs"></a>Medienprotokolle
 
@@ -153,7 +157,11 @@ Anweisungen zu Windows und Mac finden Sie im Abschnitt _zum Sammeln und Aktivier
 So sammeln Sie Protokolle für Linux:
 - Klicken Sie auf der Taskleiste auf das Symbol Microsoft Teams, und wählen Sie **"Protokolle abrufen" aus**.
 - Die Dateien sind in `~/.config/Microsoft/Microsoft Teams/logs.txt`verfügbar.
-  
+
+So sammeln Sie Protokolle für Mac:
+- Klicken Sie in Microsoft Teams auf das Menü "Hilfe", und wählen Sie **"Supportdateien sammeln**" aus.
+- Die `logs.txt` Datei befindet sich im Ordner "Desktop" im Ordner _"MSTeams Diagnostics Log" \<local date and time>_ .
+
 So sammeln Sie Protokolle für Windows:
 - Klicken Sie auf das Symbol Microsoft Teams in der Taskleiste, und wählen Sie **"Supportdateien sammeln**" aus.
 - Die `logs.txt` Datei wird automatisch in Editor geöffnet.
