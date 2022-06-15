@@ -1033,7 +1033,7 @@ items:
         items:
           - name: Leitfaden zum Telefonsystem
             href: business-voice/whats-business-voice.md
-          - name: Wechseln von Business Voice- zu Teams Telefon-Lizenzen
+          - name: Wechseln von Business Voice zu Teams Telefon-Lizenzen
             href: business-voice-to-teams-phone-licenses.md
           - name: Regionale Verfügbarkeit
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1407,7 +1407,9 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: Von Kunden gemeldete Vorfälle
             href: rooms/customer-reported-incidents.md
-          - name: Verwenden der mobilen Anwendung Teams-Räume
+          - name: Informationen zu Datenschutz und Privatsphäre
+            href: rooms/data-and-privacy-info.md
+          - name: Verwenden der mobilen Anwendung für Teams-Räume
             href: rooms/extended-mobile-app.md
       - name: Geräte
         items:
