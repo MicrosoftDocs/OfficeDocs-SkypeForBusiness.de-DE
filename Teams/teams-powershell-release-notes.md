@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie mehr über die neuesten Änderungen in Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b942cb3bf57c169d0f278a90e94d9792c315eb
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 87f3a65821b243372dcf990071b3bf1a2eb3b484
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785995"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103222"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Versionshinweise zu Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Diese Seite enthält das neueste Teams PowerShell-Änderungsprotokoll sowohl fü
 
 | Datum | Version | Updates |
 |------- | -------------------- | ------------------------------ |
+| Juni 2022 | [4.4.3-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Unterstützt den IncludeResources-Parameter für das cmdlet Get-CsAutoAttendantStatus.</li><li>Unterstützt den SoftDeletedUsers-Parameter für das Get-CsOnlineUser-Cmdlet.</li><li>Releases [Get\|Grant]-CsTeamsMediaLoggingPolicy cmdlets.</li><li>Unterstützt optionalen AuthorizedUsers-Parameter für die Cmdlets [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Behebt parameter für freigegebene Voicemail-Eingabeaufforderungen, bei denen der Eingabeaufforderungstyp nicht gewechselt werden konnte, nachdem sie für Set-CsCallQueue Cmdlet festgelegt wurden.</li><li> Fixes [New\|Set]-CsOnlineSchedule cmdlets to work in the European date-time format.</li>
 | Mai 2022 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>Verbesserungen bei der Größe des Moduls.</li><li>Parameter, die in der modernisierten Version aller Cmdlets nicht unterstützt werden, führen zu einem Fehler.</li><li>Behebt die Fehlerbehandlung für [Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported Cmdlets.</li><li>Test-CsOnlineLisCivicAddress Cmdlet wird nicht mehr verkettet.</li><li>Benutzerprinzipalname (USER Principal Name, UPN) & GUID kann jetzt als Identität in modernisierten Cmdlets [Get\|Remove]-CsOnlineApplicationInstanceAssociation verwendet werden.</li><li> [BREAKING CHANGE] Get-CsOnlineUser – Richtlinienattribute in der Ausgabe sind jetzt null, wenn einem Benutzer diese Richtlinie nicht zugewiesen ist. Diese Attribute waren in früheren Versionen (3.0.0 bis 4.3.1) leere UserPolicyDefinition-Objekte.</li><li>Behebt Set-CsCallQueue, um NULL- oder leere Arraywerte in den Eingabeparametern zuzulassen.</li><li>Get-CsPhoneNumberAssignment – Der Ausgabe werden & IsoSubdivision-Attribute hinzugefügt.</li>
 | Mai 2022 | [4.3.1-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>Verbesserungen bei der Größe des Moduls.</li><li>Parameter, die in der modernisierten Version aller Cmdlets nicht unterstützt werden, führen zu einem Fehler.</li><li>Behebt die Fehlerbehandlung für [Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported Cmdlets.</li><li>Veröffentlicht Die Bereitstellung mit Skalierungs-Cmdlets in der Vorschau – New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus.</li><li>Benutzerprinzipalname (USER Principal Name, UPN) & GUID kann jetzt als Identität in modernisierten Cmdlets [Get\|Remove]-CsOnlineApplicationInstanceAssociation verwendet werden.</li>
 | Mai 2022 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>Behebt Fehlerbehandlungen für [Set\|Remove]-CsPhoneNumberAssignment-Cmdlets.</li><li>[Abrufen\| Set\|Remove]-CsOnlineLisSubnet – fixes for Subnet parameter in the modernized cmdlets.</li><li>[Abrufen\| Set]-CsOnlineLisLocation & [Get\|Set]-CsOnlineLisCivicAddress – Korrekturen zu den unterstützten Parametern in den modernisierten Cmdlets (weitere Details in den entsprechenden öffentlichen Dokumentationen).</li>
