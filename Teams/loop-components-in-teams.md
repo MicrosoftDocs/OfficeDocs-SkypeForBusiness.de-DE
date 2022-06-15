@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aad63fcf2f3e04cd917de9cef60a8b95dbf489
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
-ms.translationtype: HT
+ms.openlocfilehash: 2fb436ef2e8b32f737fcfa10823b54dc0e6a7cca
+ms.sourcegitcommit: 07abd8fdb653e57a839ded72620d0179049f25dc
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063306"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088581"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Übersicht über Loop-Komponenten in Teams
 
@@ -75,6 +75,14 @@ FLUID-Dateien können nur als Links wie z. B. Office.com in Ihrem Browser und a
 ## <a name="does-fluid-files-support-ediscovery"></a>Unterstützen FLUID-Dateien eDiscovery?
 
 FLUID-Dateien sind auffindbar, verfügen aber über eingeschränkte eDiscovery-Workflowunterstützung. Derzeit werden FLUID-Dateien auf dem OneDrive des Erstellers gespeichert und stehen für die Suche und Sammlung in eDiscovery (Standard) und eDiscovery (Premium) zur Verfügung. Sie werden jedoch nicht in der Vorschau gerendert, und das Exportformat für die Überprüfung kann von vorhandenen Tools nicht verwendet werden. Um die exportierten Inhalte anzuzeigen, laden Sie sie auf ein beliebiges OneDrive hoch. Bei Bedarf können Sie diese Funktionen vorübergehend deaktivieren, wie im Abschnitt [Einstellungsverwaltung](/sharepoint/manage-loop-components#settings-management) beschrieben.
+
+## <a name="if-loop-is-disabled-from-the-admin-switch-what-will-the-user-experience-be"></a>Wenn Loop über den Administratorschalter deaktiviert ist, wie sieht die Benutzeroberfläche aus?
+
+Wenn Sie diese Erfahrungen wie im Abschnitt [Einstellungen Verwaltung](/sharepoint/manage-loop-components#settings-management) beschrieben deaktivieren, gelten die folgenden Änderungen an der Oberfläche:
+
+- Der Einstiegspunkt zum Erstellen/Einfügen in Teams Messaging wird ausgeblendet. Benutzer können keine neuen FLUID-Dateien erstellen.
+- Vorhandene Nachrichten, die zuvor als interaktive Loop-Komponente gerendert hätten, werden stattdessen als Link "Loop Komponente" gerendert. In Teams werden keine interaktiven Inhalte angezeigt.
+- Wenn ein Endbenutzer auf den Link "Loop Komponente" klickt oder in OneDrive for Business zu einer FLUID-Datei navigiert und zum Öffnen klickt, wird die Datei auf einer separaten Browserregisterkarte geöffnet, endbenutzer können die Datei jedoch nicht bearbeiten.
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
