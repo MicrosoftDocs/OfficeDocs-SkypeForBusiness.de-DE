@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03a2501236cd8dfa708790e49719d8103a187783
-ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
+ms.openlocfilehash: 1b7ae345e3d3d94d93bb7ccc0eeb5f284296c2d5
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65928828"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103262"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 
@@ -46,7 +46,7 @@ Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC
 > - Benutzerberechtigungen zum Ausführen der Datei „Regsvr32.exe“ sind eine Mindestanforderung, damit das Add-In für „Teams Meeting“ auf dem Computer installiert wird.
 > - Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
 > - Wenn Sie eine Office Outlook-Installation aus dem Microsoft Store verwenden, wird das Add-In für „Teams Meeting“ nicht unterstützt. Benutzern, die dieses Add-In benötigen, wird empfohlen, die Klick-und-Los-Version von Office zu installieren, wie im Artikel [Office unter Windows 10 im S-Modus](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) beschrieben.
-> - Die [Webview2](/microsoft-edge/webview2/concepts/distribution)-Installation ist für die in das Teams-Besprechungs-Add-In eingebetteten Besprechungsoptionen erforderlich. Wenn WebView2 nicht installiert ist, werden die Benutzer zum Browser weitergeleitet, was insbesondere bei der Erstellung von Besprechungen zu einer Verschlechterung der Benutzerfreundlichkeit führen kann.
+> - [Webview2](/microsoft-edge/webview2/concepts/distribution)- und .NET 4.8-Installation ist erforderlich, um eine beeinträchtigte Erfahrung mit dem Teams Meeting-Add-In zu vermeiden.
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Teams Meeting-Add-In in Outlook für Mac
 

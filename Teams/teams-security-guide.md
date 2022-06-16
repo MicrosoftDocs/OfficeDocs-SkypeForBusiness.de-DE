@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ed354dfca3ac8600bd25122daa15d3ecf743e55
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6e5dcee1e45ec191853f088887e7ed36f8e3fbc6
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817786"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103202"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
@@ -79,7 +79,7 @@ TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. 
 
 ### <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 
-Von einem „Man-in-the-Middle“-Angriff spricht man, wenn ein Angreifer die Kommunikation zwischen zwei Nutzern ohne deren Wissen über den Computer des Angreifers umleitet. Der Angreifer kann den Datenverkehr überwachen und lesen, bevor er an den eigentlichen Empfänger weitergeleitet wird. Jeder Benutzer in der Kommunikation sendet unwissentlich Datenverkehr an den Angreifer und empfängt Daten von ihm, ist aber dabei im Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dieses Szenario kann eintreffen, wenn ein Angreifer die Active Directory-Domänendienste so ändern kann, dass er seinen Server als vertrauenswürdiger Server hinzufügen kann, oder wenn er die DNS-Konfiguration so ändert oder andere Methoden dazu verwendet, dass Clients auf ihrem Weg zum Server über den Computer des Angreifers umgeleitet werden.
+Von einem "Man-in-the-Middle-Angriff" spricht man, wenn Angreifer die Kommunikation zwischen zwei Nutzern ohne deren Wissen über ihren eigenen Computer leiten. Die Angreifer können die übertragenen Daten überwachen und lesen, ehe sie an den eigentlichen Empfänger weitergeleitet werden. Beide Kommunikationspartner senden unwissentlich Daten an die Angreifer und empfangen von ihnen Daten, sind aber dabei in dem Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dieses Szenario kann vorkommen, wenn es Angreifern gelingt, die Active Directory-Domänendienste so zu ändern, dass ihr Server als vertrauenswürdiger Server hinzugefügt wird, oder wenn sie die DNS-Konfiguration ändern oder andere Mittel verwenden, damit Clients auf dem Weg zum Server über den Computer der Angreifer geleitet werden.
 
 Man-in-the-Middle-Attacken gegen den Mediendatenverkehr zwischen zwei Endpunkten, die an Teams Audio-, Video- und der Anwendungsfreigabe teilnehmen, werden durch die Verwendung von *Secure Real-Time Transport-Protokoll* (SRTP) zum Verschlüsseln des Mediendatenstroms verhindert. Kryptografieschlüssel werden zwischen den beiden Endpunkten über ein proprietäres Signalprotokoll (Teams Call Signaling Protocol) ausgehandelt, das einen mit TLS 1.2 und AES-256 (im GCM-Modus) verschlüsselten UDP- oder TCP-Kanal nutzt.
 
@@ -264,13 +264,13 @@ Ein Referent kann auch einen Teilnehmer während der Besprechung für die Rolle 
 
 Die Besprechungsteilnehmer werden auch nach Aufenthaltsort und Anmeldeinformationen kategorisiert. Mit diesen beiden Merkmalen können Sie entscheiden, welche Nutzer Zugriff auf bestimmte Besprechungen haben. Nutzer können grob in die folgenden Kategorien unterteilt werden:
 
-- **Benutzer, die zum Mandaten gehören**. Diese Benutzer verfügen über eine Anmeldeinformation im Azure Active Directory für den Mandanten.
+- **Benutzer, die zum Mandanten gehören**. Diese Benutzer verfügen über Anmeldeinformationen in Azure Active Directory für den Mandanten.
 
     *Personen in meiner Organisation* – Diese Nutzer verfügen über Anmeldeinformationen in Azure Active Directory für den Mandanten. Zu den *Personen in meiner Organisation* gehören eingeladene Gastkonten.
 
     *Remotebenutzer* – Diese Nutzer treten von außerhalb des Unternehmensnetzwerks bei. Dazu gehören Mitarbeiter, die zu Hause oder unterwegs arbeiten, und andere, wie Mitarbeiter von vertrauenswürdigen Anbietern, denen für ihre Vertragsbedingungen ein Unternehmenszertifikat erteilt wurde. Remotebenutzer können Besprechungen erstellen und daran teilnehmen und als Moderatoren fungieren.
 
-- **Benutzer, die nicht zum Mandanten gehören**. Diese Benutzer verfügen im Azure AD für den Mandanten nicht über Anmeldeinformationen.
+- **Benutzer, die nicht zum Mandanten gehören**. Diese Benutzer haben keine Anmeldeinformationen in Azure AD für den Mandanten.
 
     *Verbundbenutzer* – Verbundbenutzer verfügen über gültige Anmeldeinformationen bei Verbundpartnern und werden daher von Teams als authentifiziert behandelt, sind jedoch für den Mandanten des Besprechungsorganisators weiterhin extern. Verbundbenutzer können an Besprechungen teilnehmen und nach der Teilnahme an der Besprechung zu Moderatoren gemacht werden. Sie können jedoch keine Besprechungen in Unternehmen erstellen, mit denen sie verbunden sind.
 
@@ -292,7 +292,7 @@ Besprechungsorganisatoren steuern, ob Teilnehmer an einer Besprechung teilnehmen
 Die Standardeinstellungen sind:
 
 - *Personen in meiner Organisation* – Jeder außerhalb der Organisation wartet in der Lobby, bis er zugelassen wird.
-- *Personen aus meiner Organisation und vertrauenswürdigen Organisationen* – Authentifizierte Benutzer und externe Benutzer aus Teams- und Skype for Business-Domänen, die sich auf der Zulassungsliste für externen Zugriff befinden, können den Wartebereich umgehen. Alle anderen Benutzer werden im Wartebereich bleiben, bis sie zugelassen werden.
+- *Personen in meiner Organisation, vertrauenswürdige Organisationen und Gäste* – Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und Benutzer aus vertrauenswürdigen Organisationen, treten der Besprechung direkt bei, ohne im Wartebereich warten zu müssen. Anonyme Benutzer müssen im Wartebereich warten.
 - *Jeder* – Alle Besprechungsteilnehmer umgehen die Lobby, sobald ein authentifizierter Nutzer der Besprechung beigetreten ist.
 
 ### <a name="presenter-capabilities"></a>Moderatorfunktionen
