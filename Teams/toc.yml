@@ -805,11 +805,13 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: Automatische Telefonzentralen und Anrufwarteschleifen
             items:
-              - name: Planung
+              - name: Planen automatischer Telefonzentralen und Anrufwarteschleifen
                 href: plan-auto-attendant-call-queue.md
-              - name: Einrichten der automatischen Telefonzentrale
+              - name: Planen des Anrufroutingflusses
+                href: plan-your-call-routing-flow.md
+              - name: Einrichten automatischer Telefonzentralen
                 href: create-a-phone-system-auto-attendant.md
-              - name: Einrichten der Anrufwarteschleife
+              - name: Einrichten von Anrufwarteschleifen
                 href: create-a-phone-system-call-queue.md
               - name: Verwalten von Ressourcenkonten in Teams
                 href: manage-resource-accounts.md
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: Berichte
                 href: aa-cq-cqd-historical-reports.md
+              - name: PowerShell-Cmdlet-Referenz für automatische Telefonzentralen und Anrufwarteschlangen
+                href: call-queue-auto-attendant-cmdlets.md
               - name: Wahl- und Sprachreferenz
                 href: dial-voice-reference.md
           - name: Blockieren eingehender Anrufe
@@ -1056,7 +1060,7 @@ items:
               - name: 'Schritt 5: Telefonnummern an Benutzer zuweisen'
                 href: business-voice/set-up-assign-numbers.md
               - name: 'Schritt 6: Eine automatische Telefonzentrale einrichten'
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: 'Schritt 7: Porttelefonnummern (optional)'
                 href: business-voice/port-phone-numbers.md
               - name: Ressourcen nach der Einrichtung
@@ -1072,13 +1076,9 @@ items:
               - name: Erstellen weiterer Benutzer
                 href: business-voice/create-users.md
               - name: Einrichten einer Anrufwarteschleife
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: Einrichten einer automatischen Telefonzentrale
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: Verwalten der Einrichtung ihres Telefonsystems
             items:
-              - name: Erstellen eines oder mehrerer Benutzer
-                href: business-voice/create-users.md
               - name: Verwalten von Geräten
                 href: business-voice/manage-devices.md
               - name: Überwachen der Anrufqualität
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: Lizenzierung von Nachrichtenrichtlinien
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft 365-Telefonsystem – virtuelle Benutzerlizenz
+          - name: Microsoft Teams Phone Standard – Lizenz für virtuelle Benutzer
             href: teams-add-on-licensing/virtual-user.md
           - name: Erste Schritte mit Teams Essentials
             href: get-started-with-teams-essentials.md
