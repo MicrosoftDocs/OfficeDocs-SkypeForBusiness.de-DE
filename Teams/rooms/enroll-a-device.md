@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Onboarding Teams-Räume Geräten in verwaltete Dienste
 f1keywords: ''
-ms.openlocfilehash: d40daed54a04ca7d9949ecc63f57c379aee6b666
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675787"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167319"
 ---
 # <a name="enroll-device-into-managed-service"></a>Registrieren des Geräts beim verwalteten Dienst
 
@@ -85,10 +85,10 @@ So melden Sie sich beim Gerät als Administrator an (lokaler Administrator):
 > [!NOTE]
 > Wenn der Computer der *Domäne beigetreten* ist, wählen Sie **"Anderer Benutzer**" aus, und verwenden Sie dann **".\admin**" oder den Benutzernamen des lokalen Administrators, der auf dem Gerät als Benutzername konfiguriert ist.
 
-So kehren Sie nach dem Ausführen der erforderlichen administrativen Aufgaben zur Microsoft Teams Room-App zurück:
+So kehren Sie zur Microsoft Teams-Räume-App zurück, nachdem Sie die erforderlichen administrativen Aufgaben ausgeführt haben:
 
 1. Melden Sie sich vom Windows ***Startmenü*** vom Admin Konto ab.
-1. Kehren Sie zu Microsoft Teams Raum zurück, indem Sie das Benutzerkontosymbol ganz links auf dem Bildschirm auswählen und dann **Skype** auswählen.
+1. Kehren Sie zu Microsoft Teams-Räume zurück, indem Sie das Benutzerkontosymbol ganz links auf dem Bildschirm und dann **Skype** auswählen.
 
 > [!NOTE]
 > Wenn der Skype Benutzer nicht aufgeführt ist, wählen Sie "Anderer Benutzer" aus, geben Sie ***".\skype***" als Benutzernamen ein, und melden Sie sich an.

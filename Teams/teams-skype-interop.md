@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Informieren Sie sich über die Interoperabilitätsfunktionen zwischen Teams-Benutzern in Ihrem Unternehmen und Skype (Heimanwender)-Benutzern.
 ms.localizationpriority: medium
-ms.openlocfilehash: b18933b70708661dbb9f7f3a05aaa65983792c5c
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: dd5bb05f1206baf94f2651899d0c49edbf6fe902
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043333"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167269"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interoperabilität von Teams und Skype
 
@@ -73,7 +73,7 @@ Blockierte Skype-Benutzer werden zusammen mit anderen Personen und Festnetz (Pub
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Festlegen, ob Teams-Benutzer mit Skype-Benutzern kommunizieren können
 
-Als Administrator verwenden Sie das Microsoft Teams Admin Center oder PowerShell, um externe Zugriffseinstellungen festzulegen, um zu steuern, ob Teams-Benutzer in Ihrer Organisation mit Skype-Benutzern kommunizieren können. Standardmäßig ist diese Funktion für neue Mandanten aktiviert. Es muss jedoch der folgende DNS SRV-Eintrag vom IT-Administrator konfiguriert werden, wenn dieser nicht bereits für Ihre Domäne verfügbar ist, z. B. _sipfederationtls._tcp.contoso.com.  
+Als Administrator verwenden Sie das Microsoft Teams Admin Center oder PowerShell, um externe Zugriffseinstellungen festzulegen, um zu steuern, ob Teams-Benutzer in Ihrer Organisation mit Skype-Benutzern kommunizieren können. Standardmäßig ist diese Funktion für neue Mandanten aktiviert. Es gibt jedoch eine Voraussetzung, dass der folgende DNS SRV-Eintrag von der IT-Admin konfiguriert werden muss, wenn er nicht bereits für Ihre Domäne verfügbar ist, z. B. _sipfederationtls._tcp.contoso.com.  
 
 **Service (Dienst)**: sipfederationtls<br/>
 **Protocol (Protokoll)**: TCP<br/>
@@ -86,7 +86,7 @@ Wenn Sie ein Upgrade von Skype for Business nach Teams durchgeführt haben, werd
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Im Microsoft Teams Admin Center
 
-Wechseln Sie im Microsoft Teams Admin Center zu **Organisationsweite Einstellungen** > **Externer Zugriff**, und aktivieren Sie dann **Benutzer können mit Skype-Benutzern kommunizieren**. Eine schrittweise Anleitung, wie Sie dies und andere Einstellungen des externen Zugriffs konfigurieren, finden Sie unter [Externer Zugriff in Teams verwalten](./manage-external-access.md#allow-or-block-domains).
+Wechseln Sie im Microsoft Teams Admin Center zu **"Externer** > **Benutzerzugriff**", und aktivieren Sie dann die Option **"Benutzer können mit Skype Benutzern kommunizieren**". Eine schrittweise Anleitung, wie Sie dies und andere Einstellungen des externen Zugriffs konfigurieren, finden Sie unter [Externer Zugriff in Teams verwalten](./manage-external-access.md#allow-or-block-domains).
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 

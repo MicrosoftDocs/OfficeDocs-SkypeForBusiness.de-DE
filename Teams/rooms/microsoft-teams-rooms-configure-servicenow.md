@@ -1,9 +1,9 @@
 ---
 title: Konfigurieren von ServiceNow für Teams-Räume
-author: dstrome
-ms.author: dstrome
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: ronmart
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -12,18 +12,21 @@ appliesto:
 localization_priority: Normal
 description: Informationen zum Konfigurieren von ServiceNow im Teams-Räume Premium-Portal
 f1keywords: ''
-ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 6362d0bed4263ce374c1fb5cfd05d4d8815044c2
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761497"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167309"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Konfigurieren von ServiceNow für Teams-Räume
 
 In diesem Artikel werden die Voraussetzungen und Schritte zum Konfigurieren Ihrer ServiceNow-Umgebung im Teams-Räume Premium Portal beschrieben.
 
-## <a name="before-you-begin"></a>Bevor Sie beginnen
+## <a name="watch-microsoft-teams-rooms--managed-services-service-now-integration"></a>Watch: Microsoft Teams-Räume – Managed Services Service Now Integration
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+
 
 ### <a name="teams-rooms-prerequisites"></a>Teams-Räume Voraussetzungen
 
@@ -74,7 +77,7 @@ Nachdem Ihr Test erfolgreich bestanden wurde, wählen Sie **"Absenden** " aus, u
 
 - **beschreibung**: Das Beschreibungsfeld in ServiceNow ist der erste Wert im Unterhaltungsverlauf eines ServiceNow-Vorfalls. Die Beschreibung entspricht der ersten Nachricht im Teams-Räume Premium Portal.
 
-- **assignment_group**: Das Zuordnungsgruppenfeld in ServiceNow wird verwendet, um Vorfälle zu organisieren. Die Zuordnungsgruppe entspricht Raumgruppen im Teams-Räume Premium Portal. Standardmäßig gibt es eine Raumgruppe, und es können weitere hinzugefügt werden. Sie entscheiden, wie viele Gruppen es gibt und wie Sie Ihre Vorfälle gruppieren. Beispielsweise können Sie Ihre Vorfälle nach Standort organisieren.
+- **assignment_group**: Das Zuordnungsgruppenfeld in ServiceNow wird verwendet, um Vorfälle zu organisieren. Zuordnungsgruppen entsprechen Raumgruppen im Teams-Räume Premium Portal. Standardmäßig gibt es eine Raumgruppe, und es können weitere hinzugefügt werden. Sie entscheiden, wie viele Gruppen es gibt und wie Sie Ihre Vorfälle gruppieren. Beispielsweise können Sie Ihre Vorfälle nach Standort organisieren.
 
 - **schweregrad**: Das Schweregradfeld in ServiceNow wird verwendet, um Vorfälle nach Priorität zu organisieren. Die Werte, die die Priorität festlegen, können angepasst werden. Der Schweregrad entspricht dem Feld "Ring" im Teams-Räume Premium Portal. Um Ringe im Teams-Räume Premium Portal anzupassen, wechseln Sie im linken Navigationsmenü zu **"Updates**". Wechseln Sie dann zur Registerkarte **"Ringe** ", und wählen Sie **"Ring hinzufügen"** aus.
 
