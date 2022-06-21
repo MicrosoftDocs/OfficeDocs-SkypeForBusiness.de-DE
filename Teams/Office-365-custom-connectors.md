@@ -13,16 +13,16 @@ ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Mithilfe von Connectors bleiben Ihre Teams auf dem Laufenden, indem Inhalte und Updates von Diensten, die Sie häufig verwenden, direkt in einen Kanal übermittelt werden.
+description: Erfahren Sie, wie Connectors Ihr Team auf dem neuesten Stand halten, indem Sie häufig Inhalte und Updates direkt in einem Teams Kanal für dienste bereitstellen, die Sie verwenden.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dea5ee50d75ff8913bc88f2f3947d9f665cb4dd
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: de0c0398d511aca05a69220e0e35a28268535c59
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137016"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190445"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>Verwalten von Microsoft 365 und benutzerdefinierten Connectors
 

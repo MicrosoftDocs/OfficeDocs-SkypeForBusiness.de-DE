@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 6a38bfbcc8ec7de5e9c1535b1a597b534e46d009
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860796"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190619"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Einrichten der übergeordneten Verbindung in Microsoft Teams für Education
 
@@ -41,12 +41,11 @@ Hier sind einige Ressourcen, die IT-Administratoren mit Erziehungsberechtigten u
 
 Die Elternverbindung ermöglicht Es Lehrkräften und Erziehungsberechtigten, mit Teams zu chatten, per E-Mail zu anrufen.
 
-- Teams Kontaktdaten des Erziehungsberechtigten bleiben mit SIS über School Data Sync (SDS) aktuell.
+- Lehrkräfte können Chats mit Erziehungsberechtigten initiieren.
+  - Wenn der Erziehungsberechtigte nicht über ein Teams Verbraucherkonto verfügt, erhält er die erste Nachricht von der Lehrkraft und eine E-Mail-Einladung, um zu Teams zu wechseln.
 - Es funktioniert mit überwachtem Chat. Weitere Informationen finden Sie unter [Verwenden von überwachten Chats in Microsoft Teams](supervise-chats-edu.md).
   - Standardmäßig verfügen Erziehungsberechtigte über eingeschränkte Berechtigungen, sodass sie nicht mit Schülern chatten oder Benutzer aus Chats entfernen können.
   - Diese Einstellung kann vom Mandantenadministrator geändert werden.
-- Lehrkräfte können Chats mit Erziehungsberechtigten initiieren.
-  - Wenn der Erziehungsberechtigte nicht über ein Teams Verbraucherkonto verfügt, erhält er die erste Nachricht von der Lehrkraft und eine E-Mail-Einladung, um zu Teams zu wechseln.
 - Lehrkräfte können auf die E-Mails eines Erziehungsberechtigten klicken, um sie per E-Mail mit ihrem systemeigenen E-Mail-Client zu senden.
 - Lehrkräfte können auf die Telefonnummer eines Erziehungsberechtigten klicken, um sie innerhalb Teams anzurufen.
 
@@ -66,7 +65,17 @@ Die Elternverbindung ermöglicht Es Lehrkräften und Erziehungsberechtigten, mit
 
 ## <a name="requirements"></a>Anforderungen
 
+Sie müssen Microsoft Graph oder School Data Sync (SDS) verwenden, um die Kontaktinformationen zu Eltern und Erziehungsberechtigten jedes Kursteilnehmers aufzufüllen.
+
+### <a name="graph-api"></a>Graph-API
+
+Wenn Sie bereits [Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/overview) zum Erstellen von Student-Identitäten verwenden, können Sie auf einfache Weise [den relatedContact-Ressourcentyp](/graph/api/resources/relatedcontact) einschließen.
+
 ### <a name="school-data-sync"></a>School Data Sync
+
+Teams Kontaktdaten des Erziehungsberechtigten bleiben mit SIS über School Data Sync (SDS) aktuell, wenn SDS für die regelmäßige Synchronisierung eingerichtet ist.
+
+Wenn der Erziehungsberechtigte aus den Datensätzen eines *Kursteilnehmers* entfernt wird, enthalten alle vorhandenen Chats, in denen er beteiligt ist, ein Banner, das für den Chatbesitzer sichtbar ist. Dieses Banner macht den Chatbesitzer auf die Änderung aufmerksam und fordert ihn auf, den Erziehungsberechtigten aus dem Chat zu entfernen. Microsoft aktualisiert die Chatmitgliedschaft nicht automatisch, um den Erziehungsberechtigten zu entfernen.
 
 - Sie benötigen School Data Sync (SDS), um die **Kontaktinformationen** zu Eltern und Erziehungsberechtigten jedes Schülers aufzufüllen.
   - [Bereitstellen von SDS](/schooldatasync/parents-and-guardians-in-sds)

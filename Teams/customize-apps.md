@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Apps in Microsoft Teams anpassen.
-ms.openlocfilehash: 3f8a8a3c1922de230573628926a1aff2eee6ee06
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Erfahren Sie, wie Sie die Darstellung der App ändern und eine App durch Bearbeiten von App-Details und -Metadaten neu formatieren.
+ms.openlocfilehash: 62924c6b3ffb4561427d921a4edc26d4888b4d6b
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124370"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190345"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Anpassen der Darstellung von Apps im Teams Store Ihrer Organisation
 

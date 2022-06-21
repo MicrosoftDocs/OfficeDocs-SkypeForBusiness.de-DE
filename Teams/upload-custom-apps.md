@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Apps im Microsoft Teams Admin Center in den App Store Ihrer Organisation hochladen.
-ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 01a74422ef5bc1f9c63c6ea1c7ecf2e05cc377a4
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124350"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190355"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Veröffentlichen einer benutzerdefinierten App durch Hochladen eines App-Pakets
 
@@ -41,7 +41,7 @@ Die Microsoft Teams Entwicklerplattform erleichtert Entwicklern die Integration 
 
 ### <a name="get-the-app-package"></a>Abrufen des App-Pakets
 
-Wenn die App für die Verwendung in der Produktion bereit ist, erstellt der Entwickler ein App-Paket. Dafür können sie [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) verwenden. Sie senden Ihnen die Datei im .zip Format.
+Wenn die App für die Verwendung in der Produktion bereit ist, sollte der Entwickler ein App-Paket erstellen. Sie können [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) verwenden. Sie senden Ihnen die Datei im .zip Format.
 
 Alle Apps in Teams Store bestehen eine obligatorische [App-Überprüfung](overview-of-app-validation.md), um die Qualitäts- und Sicherheitsstandards des globalen Teams Apps Store zu erfüllen. Darüber hinaus empfiehlt Microsoft App-Entwicklern dringend, an einem optionalen [App-Complianceprogramm](overview-of-app-certification.md) teilzunehmen, das erweiterte Compliance-, Sicherheits- und Datenschutzkontrollen angibt. Weitere Informationen finden Sie [unter Teams App-Validierungsrichtlinien](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
