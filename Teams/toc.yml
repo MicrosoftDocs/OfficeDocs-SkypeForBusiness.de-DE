@@ -1487,7 +1487,7 @@ items:
             href: rooms/with-skype-for-business-server-2015.md
   - name: Verwalten von Apps
     items:
-      - name: Übersicht
+      - name: Apps in Teams verstehen
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: 'Verwalten von Apps, die von Microsoft bereitgestellt werden'
         items:
@@ -1513,7 +1513,7 @@ items:
             href: overview-of-app-validation.md
           - name: 'Sicherheit, Compliance und Datenschutz von Drittanbieter-Apps'
             href: overview-of-app-certification.md
-          - name: Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors
+          - name: Verwalten Sie Microsoft 365 und benutzerdefinierte Connectors
             href: Office-365-custom-connectors.md
           - name: Kaufen von Drittanbieter-Apps für Teams
             href: purchase-third-party-apps.md
@@ -1547,7 +1547,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion
             href: pin-teams-apps-based-on-license.md
-          - name: Informationen zu Azure AD-Berechtigungen und der Administratorzustimmung
+          - name: Diagrammberechtigungen und Administratoreinwilligung in Azure AD
             href: app-permissions-admin-center.md
           - name: Verwalten der ressourcenspezifischen Zustimmung für Ihre Organisation
             href: resource-specific-consent.md
@@ -1555,11 +1555,11 @@ items:
             href: app-permissions.md
           - name: App-Verhalten basierend auf Typen von Benutzern
             href: non-standard-users.md
-          - name: Aktualisieren von Apps auf neuere Versionen als Endbenutzer
+          - name: App-Updates und Administratorrolle
             href: apps-update-experience.md
           - name: Verwalten des Zugriffs auf Teams-Apps über Microsoft 365
             href: manage-third-party-teams-apps.md
-      - name: Bericht zur App-Nutzung
+      - name: App-Nutzungsbericht und Analysen
         href: teams-analytics-and-reports/app-usage-report.md
   - name: Branchen- und Regierungsrichtlinien
     items:
