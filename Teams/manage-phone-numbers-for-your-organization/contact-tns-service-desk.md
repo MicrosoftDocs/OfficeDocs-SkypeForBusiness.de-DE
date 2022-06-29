@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern (Übertragungsnummern) für Ihre Organisation erhalten, müssen Sie möglicherweise Hilfe und Support beim TNS Service Desk erhalten.
-ms.openlocfilehash: aac4598bfcbf4a26cf20375b39dae8c79df82202
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675627"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240724"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Telefonnummerndienste (Telephone Number Services, TNS) – Service Desk
 
@@ -39,20 +39,18 @@ Es gibt einen neuen Prozess für die Interaktion mit dem TNS-Servicedesk (Teleph
 
 So wenden Sie sich an den Service Desk:
 
-1. Melden Sie sich bei Ihrem [Teams Admin Center](https://admin.teams.microsoft.com) an.
+1. Melden Sie sich beim [Teams Admin Center](https://admin.teams.microsoft.com) an.
 
-2. Wählen Sie im linken Bereich **"VoIP**" aus, und **Telefon Nummern**.
+2. Wählen Sie im linken Bereich **"VoIP**" und dann **"Telefonnummern**" aus.
 
-3. Wählen Sie **"Hinzufügen"** oder " **Portieren**" aus.
-
-4. Wählen Sie oben auf der Seite **Telefonnummernsupport abrufen** aus. Das Telefonnummern-Servicecenter wird angezeigt.
+3. Klicken Sie in der oberen rechten Ecke der Seite auf **"Aktionen"**, und wählen Sie dann **"Telefonnummernunterstützung anfordern**" aus. Sie werden an das **Telefonnummern-Servicecenter** (Service Desk Portal) weitergeleitet.
 
 > [!NOTE]
-> Nur eine Person aus demselben Mandanten kann einen Fall erstellen. Das heißt, jemand von @fabrikam.com kann keinen Fall im Auftrag von @contoso.com erstellen.
+> Nur jemand aus demselben Mandanten darf einen Fall erstellen. Beispielsweise kann eine Person von @fabrikam.com keinen Fall im Namen von @contoso.com erstellen.
 
 Im Telefonnummern-Servicecenter können Sie neue Fälle erstellen, vorhandene Fälle anzeigen, mit dem Service Desk kommunizieren und Ihr Benutzerprofil verwalten. Diese Aufgaben werden in den folgenden Abschnitten ausführlicher beschrieben.
 
-- **Telefon Number Service Center** – Navigieren Sie zur Homepage des Portals.
+- **Telefonnummern-Servicecenter** – Navigieren Sie zur Startseite des Portals.
 
 - **[Erstellen Sie einen neuen Fall](#create-a-new-case)** – Senden Sie eine neue Anfrage oder eine allgemeine Anfrage.
 
@@ -78,7 +76,7 @@ Führen Sie die folgenden Schritte aus, um einen neuen Fall zu erstellen:
 
 2. Geben Sie Ihre Falldetails an, wie im [nächsten Abschnitt](#provide-case-details) ausführlich beschrieben.
 
-3. Nachdem Sie alle Werte eingegeben haben, wählen Sie **Submit** aus. Es wird eine neue Seite geladen, auf der Sie die Fallnummer sehen können.
+3. Nachdem Sie alle Werte eingegeben haben, wählen Sie **"Absenden**" aus. Es wird ein neuer Bildschirm angezeigt, auf dem Sie Ihre Fallnummer sehen können.
 
 ### <a name="provide-case-details"></a>Angeben von Falldetails
 
@@ -134,7 +132,7 @@ Der Falltyp kann eine der folgenden sein:
 
   - **bevorzugter Datetime-*** – Das Datum und die Uhrzeit, an dem der Bestandstyp Ihrer Nummern geändert werden soll. Weitere Informationen finden Sie unter Datum und Uhrzeit.
 
-  - **Kontrollkästchen – Ich verstehe, dass meine Telefonnummern nicht zugewiesen sein dürfen, um den Inventurtyp aktualisieren zu können**. Microsoft kann keine Änderungsanforderungen für den Telefonnummerntyp verarbeiten, es sei denn, die Telefonnummern in Ihrem Mandanten sind nicht zugewiesen. Wenn Sie diese Änderung für ein zukünftiges Datum anfordern, müssen Sie sicherstellen, dass die Nummern vor dem angeforderten Datum und der gewünschten Uhrzeit nicht zugewiesen sind.
+  - **Kontrollkästchen – Ich verstehe, dass meine Telefonnummern nicht zugewiesen werden müssen, um den Bestandstyp aktualisieren zu können** . Microsoft kann Keine Änderungsanforderungen für Telefonnummerntypen verarbeiten, es sei denn, die Telefonnummern in Ihrem Mandanten sind nicht zugewiesen. Wenn Sie diese Änderung für ein zukünftiges Datum anfordern, müssen Sie sicherstellen, dass die Nummern vor dem angeforderten Datum und der gewünschten Uhrzeit nicht zugewiesen sind.
 
   - **Liste der Telefonnummern** : Die Liste der Telefonnummern, deren Typ Sie ändern möchten. CSV-Datei mit der Liste der Rufnummern hochladen.
 
@@ -142,7 +140,7 @@ Der Falltyp kann eine der folgenden sein:
 
   - **Nummerntyp**: Wählen Sie den Typ für Ihre Nummern aus. Weitere Informationen finden Sie unter [Arten von Telefonnummern](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - **Haben Sie versucht, Telefonnummern aus dem Teams Admin Center-Portal** abzurufen– Haben Sie versucht, diese Telefonnummern über das Microsoft Teams Admin Center-Portal zu erwerben, wo Sie sich selbst bedienen können?
+  - **Sie haben versucht, Telefonnummern aus dem Teams Admin Center-Portal abzurufen** – Haben Sie versucht, diese Telefonnummern über das Microsoft Teams Admin Center zu erwerben?
 
   - **Anzahl der erforderlichen Telefonnummern**: Die Anzahl der Telefonnummern, die Sie erhalten möchten.
 
@@ -158,7 +156,7 @@ Der Falltyp kann eine der folgenden sein:
 
   - **Benennen Sie Ihren Portierungsauftrag** – Geben Sie einen leicht zu merkenden Namen für Ihre Portanforderung an.
 
-  - **Angefordertes Portierungsdatum/-uhrzeit*** – Datum und Uhrzeit, an dem die Nummern zu Microsoft portiert werden sollen. Beachten Sie, dass dies kein garantiertes Portierungsdatum ist, da der aktuelle Nummernbesitzer zuerst unsere Portanforderung genehmigen muss. Siehe Datum und Uhrzeit.
+  - **Angefordertes Portierungsdatum/-uhrzeit*** – Datum und Uhrzeit, an dem die Nummern zu Microsoft portiert werden sollen. Dies ist kein garantiertes Portierungsdatum, da der aktuelle Nummernbesitzer zuerst unsere Portanforderung genehmigen muss. Siehe Datum und Uhrzeit.
 
   - **Liste der Portierungsnummern** : Die Liste der Telefonnummern, die Sie zu Microsoft portieren möchten. CSV-Datei mit der Liste der Rufnummern hochladen.
 
@@ -195,7 +193,7 @@ Sie können Ihre Fälle anzeigen, indem Sie **Meine vorhandenen Fälle anzeigen*
 
 - **Filtern Sie Ihre Fälle**, indem Sie **Offene Fälle**,  **Alle Fälle** oder **Geschlossene Fälle** auswählen.
 
-- **Kommunizieren Sie mit dem TNS Service Desk** über Ihren Fall, indem Sie einen vorhandenen Fall öffnen, nach unten scrollen und **"Kommentar hinzufügen"** auswählen. Ein neues Fenster wird angezeigt. Geben Sie Ihre Nachricht in das Kommentarfeld ein. Fügen Sie alle unterstützenden Dokumente (sofern verfügbar) an, die bei Ihrer Anforderung hilfreich sein können, und wählen Sie **Submit** aus.
+- **Kommunizieren Sie mit dem TNS Service Desk** über Ihren Fall, indem Sie einen vorhandenen Fall öffnen, nach unten scrollen und **"Kommentar hinzufügen"** auswählen. Ein neues Fenster wird angezeigt. Geben Sie Ihre Nachricht in das Kommentarfeld ein. Fügen Sie alle unterstützenden Dokumente an (sofern verfügbar), und wählen Sie dann **"Absenden**" aus.
 
   Antworten vom **TNS Service Desk** werden auf derselben Zeitachse angezeigt. Wenn in Ihrem Fall ein Update vorhanden ist, erhalten Sie eine automatisierte E-Mail-Benachrichtigung über das Update.
 
@@ -209,7 +207,7 @@ Sie können Ihre Fälle anzeigen, indem Sie **Meine vorhandenen Fälle anzeigen*
 
 - Informationen darüber, was in Ihrem Land oder in Ihrer Region verfügbar ist, finden Sie unter [Verfügbarkeit nach Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Informationen, die Ihnen helfen können, die geeigneten Telefonnummerntypen für Ihre Organisation auszuwählen, finden Sie unter [verschiedene Arten von Telefonnummern](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- Informationen zu den entsprechenden Telefonnummerntypen für Ihre Organisation finden Sie unter ["Verschiedene Arten von Telefonnummern"](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 - Informationen zum Abrufen neuer Telefonnummern finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: f63056740ab42c3dde0e05e8b9321173ea20091f
-ms.sourcegitcommit: c73f27ee7a208ae73784edf5b23adc699cf69327
+ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66130768"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241134"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -36,7 +36,7 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer im Wartebereich warte
 - [Anonymen Personen das Starten einer Besprechung gestatten](#let-anonymous-people-start-a-meeting)
 - [Personen automatisch zulassen](#automatically-admit-people)
 - [Einwahlbenutzern das Umgehen des Wartebereichs gestatten](#allow-dial-in-users-to-bypass-the-lobby)
-- [Live Beschriftungen](#live-captions)
+- [Liveuntertitel](#live-captions)
 - [Chatten in Besprechungen](#chat-in-meetings)
 
 > [!NOTE]
@@ -44,7 +44,7 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer im Wartebereich warte
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Zulassen, dass anonyme Personen an einer Besprechung teilnehmen
 
-Mit dieser Einstellung pro Organisator kann jeder als anonymer Benutzer an Besprechungen teilnehmen, indem er den Link in der Besprechungseinladung auswählt. Weitere Informationen hierzu finden Sie unter [Teilnehmen an einer Besprechung ohne ein Teams-Konto](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Die Möglichkeit anonymer Benutzer, an Besprechungen teilzunehmen, wird auch auf Organisationsebene gesteuert. Die restriktivere Einstellung ist effektiv. Weitere Informationen finden Sie unter [Verwenden des Microsoft Teams Admin Center zum Konfigurieren einer organisationsweiten Richtlinie](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Mit dieser Einstellung pro Organisator kann jeder als anonymer Benutzer an Besprechungen teilnehmen, indem er den Link in der Besprechungseinladung auswählt. Weitere Informationen hierzu finden Sie unter [Teilnehmen an einer Besprechung ohne ein Teams-Konto](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Die Möglichkeit anonymer Benutzer, an Besprechungen teilzunehmen, wird auch auf Organisationsebene gesteuert. Die restriktivere Einstellung ist effektiv. Weitere Informationen finden Sie unter [Verwenden des Microsoft Teams Admin Centers zum Konfigurieren organisationsweiter Richtlinien](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Anonymen Personen das Starten einer Besprechung gestatten
 
@@ -70,11 +70,11 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Diese Einstel
 |**Personen in meiner Organisation und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gäste, nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten. Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Dies ist die Standardeinstellung.    |
 |**Personen in meiner Organisation oder vertrauenswürdigen Organisationen und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gäste und die Benutzer aus vertrauenswürdigen Organisationen, nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten.  Anonyme Benutzer müssen im Wartebereich warten.   |
 |**Personen in meiner Organisation**    |Authentifizierte Benutzer aus der Organisation nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten.  Benutzer aus vertrauenswürdigen Organisationen, Gästen und anonymen Benutzern warten im Wartebereich.          |
-|**Nur Organisatoren**    |Alle Besprechungsorganisatoren nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gäste, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Auf der Seite Teams Optionen für Clientbesprechungen wird sie als "Nur ich" angezeigt.          |
-|**Nur eingeladene Benutzer**    |Nur eingeladene Benutzer und Besprechungsorganisatoren können direkt an der Besprechung teilnehmen, ohne im Wartebereich zu warten. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gäste, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Auf der Seite Teams Optionen für Clientbesprechungen wird sie als "Personen, die ich einlädt" angezeigt. Benutzer, die als Teil einer Verteilergruppe hinzugefügt wurden, müssen den Wartebereich durchlaufen.      |
+|**Nur Organisatoren**    |Alle Besprechungsorganisatoren nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gäste, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Auf der Seite "Optionen für Microsoft Teams-Clientbesprechungsoptionen" wird sie als "Nur ich" angezeigt.          |
+|**Nur eingeladene Benutzer**    |Nur eingeladene Benutzer und Besprechungsorganisatoren können direkt an der Besprechung teilnehmen, ohne im Wartebereich zu warten. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gäste, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Auf der Seite "Optionen für Microsoft Teams-Clientbesprechungsoptionen" wird sie als "Personen, die ich einlädt" angezeigt. Benutzer, die als Teil einer Verteilergruppe hinzugefügt wurden, müssen den Wartebereich durchlaufen.      |
 
  > [!NOTE]
-> Vertrauenswürdige Organisationen sind Domänen, mit denen Sie die Verbundkommunikation in Teams zulassen. Wenn Sie im Teams Admin Center **alle externen Domänen** für den externen Zugriff zulassen aktivieren, wird jedem authentifizierten Benutzer innerhalb einer Teams Organisation vertrauenswürdig. Wenn Sie externe Domänen angeben, die zulässig sind, und alle anderen blockieren, werden die zulässigen Domänen zu vertrauenswürdigen Organisationen. Jede blockierte Domäne wird als keine vertrauenswürdige Organisation betrachtet.
+> Vertrauenswürdige Organisationen sind Domänen, mit denen Sie die Verbundkommunikation in Teams zulassen. Wenn Sie **alle externen Domänen** für den externen Zugriff im Teams Admin Center zulassen aktivieren, wird jedem authentifizierten Benutzer innerhalb einer Teams-Organisation vertraut. Wenn Sie externe Domänen angeben, die zulässig sind, und alle anderen blockieren, werden die zulässigen Domänen zu vertrauenswürdigen Organisationen. Jede blockierte Domäne wird als keine vertrauenswürdige Organisation betrachtet.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Einwahlbenutzern das Umgehen des Wartebereichs gestatten
 
@@ -83,7 +83,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 > [!NOTE]
 > Wenn ein Einwahlbenutzer einer Besprechung beitritt, bevor ein Benutzer aus der Organisation beitritt, wird er in den Wartebereich gesetzt, bis ein Benutzer aus der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und ihn zulässt. Wenn Sie die Standardeinstellung für einen Benutzer ändern, gilt diese für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hatte.
 
-## <a name="live-captions"></a>Live Beschriftungen
+## <a name="live-captions"></a>Liveuntertitel
 
 Diese Einstellung ist eine Benutzerrichtlinie und gilt während einer Besprechung. Über diese Einstellung wird gesteuert, ob die Option zum **Aktivieren von Liveuntertiteln** verfügbar ist, damit die Benutzer die Liveuntertitel während einer Besprechung aktivieren bzw. deaktivieren können.  
 
@@ -109,6 +109,17 @@ Diese Einstellung gilt nicht für Kanalbesprechungen. Sobald diese Besprechungsc
 |**Aktivieren sie für alle, aber für anonyme Benutzer**     | Der Schreibzugriff auf Besprechungschats ist nur für anonyme Teilnehmer deaktiviert.  |
 
 <a name="bkparticipantsandguests"> </a>
+
+## <a name="qa-in-meetings"></a>F&A in Besprechungen
+
+Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob Organisatoren den Q&A-Erfahrung zu ihren Besprechungen hinzufügen können. Diese Einstellung ist standardmäßig deaktiviert. Weitere Informationen zu Q&A [finden Sie hier](/manage-qna-for-meetings). 
+
+Um QnAEngagementMode zu parametern, steuert diese Richtlinie in PowerShell und Q&A kann auch innerhalb des Verwaltungsportals angepasst werden.
+
+|Einstellungswert |Verhalten  |
+|---------|---------|
+|**Aktiviert**     | Organisatoren können beim Erstellen von Besprechungen Q&A hinzufügen. |
+|**Deaktiviert**     | Organisatoren haben nicht die Möglichkeit, beim Erstellen von Besprechungen Q&A hinzuzufügen.  |
 
 ## <a name="enable-meeting-policy-settings"></a>Aktivieren von Besprechungsrichtlinieneinstellungen
 

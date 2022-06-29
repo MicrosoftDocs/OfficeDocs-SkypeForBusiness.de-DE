@@ -20,27 +20,27 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefonzentralen in Microsoft Teams einrichten und verwalten.
-ms.openlocfilehash: 7cfce516946d38f794e9803e5ecfb30c128cb149
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124170"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240944"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
 Mit automatischen Telefonzentralen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, Anrufwarteschleife, Person oder einem Operator zu sprechen. Sie können automatische Telefonzentralen für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen.
 
-Stellen Sie sicher, dass Sie ["Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)" gelesen haben und die [ersten Schritte](plan-auto-attendant-call-queue.md#getting-started) ausgeführt haben, bevor Sie die Verfahren in diesem Artikel ausführen.
+Achten Sie darauf, dass Sie " [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) " gelesen haben und die [ersten Schritte](plan-auto-attendant-call-queue.md#getting-started) ausgeführt haben, bevor Sie die Verfahren in diesem Artikel befolgen.
 
 Automatische Telefonzentralen können Anrufe basierend auf der Eingabe der Anrufer an eines der folgenden Ziele weiterleiten:
 
 - **Operator** – der für die automatische Telefonzentrale definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als eines der anderen Ziele in dieser Liste definiert werden.
 - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Diese Person kann ein Onlinebenutzer oder ein Lokal gehosteter Benutzer sein, der mit Skype for Business Server gehostet wird.
 - **VoIP-App** – eine andere automatische Telefonzentrale oder anrufwarteschleife. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefonzentrale oder Anrufwarteschleife zugeordnet ist, wenn Sie dieses Ziel auswählen.)
-- **Voicemail** – das VoIP-Postfach, das einer von Ihnen angegebenen Microsoft 365 Gruppe zugeordnet ist. Sie können auswählen, ob Voicemailtranskriptionen und die Option "Bitte hinterlasse eine Nachricht nach dem Ton" angezeigt werden sollen. Systemaufforderung.
-  - Aktivieren Sie im M365 Admin Center "Zulassen, dass Personen außerhalb der Organisation dieses Team per E-Mail senden" für die von Ihnen angegebene Microsoft 365 Gruppe
-- **Externe Telefonnummer** – beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- **Voicemail** – das VoIP-Postfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist. Sie können auswählen, ob Voicemailtranskriptionen und die Option "Bitte hinterlasse eine Nachricht nach dem Ton" angezeigt werden sollen. Systemaufforderung.
+  - Aktivieren Sie im M365 Admin Center für die von Ihnen angegebene Microsoft 365-Gruppe "Personen außerhalb der Organisation das E-Mail-Senden von E-Mails an dieses Team gestatten".
+- **Externe Telefonnummer** – beliebige Telefonnummer. Sehen Sie [sich die technischen Details zur externen Übertragung an](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
 - **Ankündigung (Audiodatei)** – Wiedergeben einer Audiodatei. Eine aufgezeichnete Ankündigungsnachricht, die Sie hochladen, die als Audio in gespeichert ist. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Telefonzentrale zurück.
 - **Ankündigung (typisiert)** – Geben Sie eine Nachricht ein. Text, den das System lesen soll. Sie können bis zu 1000 Zeichen eingeben. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Telefonzentrale zurück.
 
@@ -53,15 +53,15 @@ Die Schritte zum Hinzufügen einer automatischen Telefonzentrale sind:
 1. Einrichten des Wählbereichs.
 1. Richten Sie Ressourcenkonten ein.
 
-Die im Artikel beschriebenen Schritte erstellen automatische Telefonzentralen mithilfe des Teams Admin Center. Anweisungen zum **Erstellen von automatischen Telefonzentralen mithilfe von PowerShell** finden [Sie unter Erstellen automatischer Telefonzentralen mit PowerShell-Cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md).
+Die im Artikel beschriebenen Schritte erstellen automatische Telefonzentralen mithilfe des Teams Admin Centers. Anweisungen zum **Erstellen von automatischen Telefonzentralen mithilfe von PowerShell** finden [Sie unter Erstellen automatischer Telefonzentralen mit PowerShell-Cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md).
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Führen Sie die folgenden Schritte aus, um Ihre automatische Telefonzentrale einzurichten.
-
-Um eine automatische Telefonzentrale einzurichten, erweitern Sie im [Teams Admin Center](https://go.microsoft.com/fwlink/p/?linkid=2066851) **die Option "VoIP**", wählen Sie **"Automatische Telefonzentralen"** und dann "**Hinzufügen"** aus.
 
 # <a name="step-1---general-info"></a>[Schritt 1 – Allgemeine Informationen](#tab/general-info)
 
 ## <a name="step-1---set-the-auto-attendants-general-information"></a>Schritt 1: Festlegen der allgemeinen Informationen der automatischen Telefonzentrale
+
+Um eine automatische Telefonzentrale einzurichten, erweitern Sie im [Teams Admin Center](https://go.microsoft.com/fwlink/p/?linkid=2066851) **die Option "VoIP**", wählen Sie " **Automatische Telefonzentralen**" und dann " **Hinzufügen"** aus.
 
 1. Geben Sie im Feld oben einen Namen für die automatische Telefonzentrale ein.
 
@@ -78,13 +78,14 @@ Um eine automatische Telefonzentrale einzurichten, erweitern Sie im [Teams Admin
 
 Nachdem Sie die allgemeinen Informationen ihrer automatischen Telefonzentrale festgelegt haben, wählen Sie **"Weiter**" aus.
 
+
 # <a name="step-2---basic-call-flow"></a>[Schritt 2 : Einfacher Anruffluss](#tab/call-flow)
 
 ## <a name="step-2---set-up-the-basic-call-flow"></a>Schritt 2 : Einrichten des grundlegenden Anrufflusses
 
 ### <a name="set-a-greeting"></a>Festlegen einer Begrüßung
 
-- Wenn Sie **"Audiodatei wiedergeben**" auswählen, können Sie die Schaltfläche **Hochladen Datei** verwenden, um eine aufgezeichnete Begrüßungsnachricht hochzuladen, die als Audiodatei gespeichert ist. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
+- Wenn Sie **"Audiodatei wiedergeben** " auswählen, können Sie die Schaltfläche " **Datei hochladen** " verwenden, um eine aufgezeichnete Begrüßungsnachricht hochzuladen, die als Audiodatei gespeichert ist. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
 
 - Wenn Sie " **Begrüßungsnachricht eingeben** " auswählen, liest das System den eingegebenen Text (bis zu 1000 Zeichen), wenn die automatische Telefonzentrale einen Anruf annimmt.
 
@@ -181,7 +182,7 @@ Nachdem Sie alle Ihre Urlaubszeiten hinzugefügt haben, wählen Sie **"Weiter**"
 
 Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer eine Namens- oder Durchwahlnummer verwendet. Der Standardwert von **"Alle Onlinebenutzer**" umfasst alle Benutzer in Ihrer Organisation, die Onlinebenutzer sind oder lokal mithilfe von Skype for Business Server gehostet werden.
 
-Sie können bestimmte Benutzer ein- oder ausschließen, indem Sie unter **"Ein-** oder **Ausschließen**" die **Option "Benutzerdefinierte Benutzergruppe**" auswählen und eine oder mehrere Microsoft 365 Gruppen, Verteilerlisten oder Sicherheitsgruppen auswählen. Beispielsweise können Sie Führungskräfte in Ihrer Organisation aus dem Wählverzeichnis ausschließen.
+Sie können bestimmte Benutzer ein- oder ausschließen, indem Sie unter **"Ein-** oder **Ausschließen**" die **Option "Benutzerdefinierte Benutzergruppe**" auswählen und eine oder mehrere Microsoft 365-Gruppen, Verteilerlisten oder Sicherheitsgruppen auswählen. Beispielsweise können Sie Führungskräfte in Ihrer Organisation aus dem Wählverzeichnis ausschließen.
 
 Wenn sich ein Benutzer in beiden Listen befindet, wird er aus dem Verzeichnis ausgeschlossen.
 
@@ -200,7 +201,7 @@ Um ein Ressourcenkonto hinzuzufügen, wählen Sie **"Konto hinzufügen"** aus, u
 
 Nachdem Sie Ressourcenkonten hinzugefügt haben, wählen Sie **"Weiter**" aus.
 
-Weitere Informationen finden [Sie unter Verwalten Teams Ressourcenkonten](manage-resource-accounts.md).
+Weitere Informationen finden [Sie unter Verwalten von Teams-Ressourcenkonten](manage-resource-accounts.md) .
 
 # <a name="additional-resources"></a>[Weitere Ressourcen](#tab/additional-resources)
 
@@ -210,13 +211,13 @@ Weitere Informationen finden [Sie unter Verwalten Teams Ressourcenkonten](manage
 
 Lesen Sie die [Voraussetzungen](plan-auto-attendant-call-queue.md#prerequisites) , damit automatische Telefonzentralen Anrufe extern übertragen können.  Außerdem:
 
-- Für ein Ressourcenkonto mit einer [Anrufplanlizenz](calling-plans-for-office-365.md) oder [Telefonieanbieter](operator-connect-plan.md) Nummer muss die externe Telefonnummer für die Übertragung im E.164-Format (+[Ländervorwahl][Vorwahl][Telefonnummer]) eingegeben werden.
+- Für ein Ressourcenkonto mit einer [Anrufplanlizenz](calling-plans-for-office-365.md) oder [einer Telefonieanbieternummer](operator-connect-plan.md) muss die externe Übertragungstelefonnummer im E.164-Format (+[Ländervorwahl][Vorwahl][Telefonnummer]) eingegeben werden.
 
 - Bei einem Ressourcenkonto mit einer Microsoft Teams Telefon Lizenz- und Direct Routing-Online-VoIP-Routingrichtlinie hängt das Externe Übertragungstelefonnummernformat von den [SBC-Einstellungen (Session Border Controller)](direct-routing-connect-the-sbc.md) ab.
 
 Die ausgehende Telefonnummer, die angezeigt wird, wird wie folgt bestimmt:
 
-- Für Anrufpläne und Telefonieanbieter Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
+- Für Anrufplan- und Telefonieanbieternummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
 - Bei Direct Routing-Nummern basiert die gesendete Nummer wie folgt auf der P-Asserted-Identity (PAI)-Einstellung auf dem SBC:
   - Wenn diese Option auf "Deaktiviert" festgelegt ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die standard- und empfohlene Einstellung.
   - Wenn diese Option auf "Aktiviert" festgelegt ist, wird die Telefonnummer des Ressourcenkontos angezeigt.
@@ -230,7 +231,7 @@ Als Administrator können Sie mit dem folgenden Diagnosetool überprüfen, ob ei
 1. Wählen Sie unten **Tests ausführen** aus, um das Diagnosetool im Microsoft 365 Admin füllen.
 
    > [!div class="nextstepaction"]
-   > [Ausführen von Tests: Teams automatische Telefonzentrale](https://aka.ms/TeamsAADiag)
+   > [Ausführen von Tests: Automatische Teams-Telefonzentrale](https://aka.ms/TeamsAADiag)
 
 2. Geben Sie im Diagnosebereich "Ausführen" das Ressourcenkonto in das Feld **"Benutzername" oder "E-Mail** " ein, und wählen Sie dann **"Tests ausführen**" aus.
 
@@ -240,7 +241,7 @@ Als Administrator können Sie mit dem folgenden Diagnosetool überprüfen, ob ei
 
 ### <a name="related-topics"></a>Verwandte Themen
 
-[Hier erfahren Sie, was Sie mit Teams Telefon](./here-s-what-you-get-with-phone-system.md)
+[Hier erfahren Sie, was Sie mit Teams Phone erhalten](./here-s-what-you-get-with-phone-system.md)
 
 [Servicetelefonnummern erhalten](./getting-service-phone-numbers.md)
 
