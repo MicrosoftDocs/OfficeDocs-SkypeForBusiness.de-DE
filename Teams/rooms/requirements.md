@@ -13,31 +13,31 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über die Anforderungen für die Unterstützung von Microsoft Teams-Räumen, einschließlich der Auswahl des entsprechenden Geräts, der Mikrofone, Lautsprecher, Kameras und Displays.
+description: Erfahren Sie mehr über die Anforderungen für die Unterstützung von Microsoft Teams-Räume, einschließlich der Auswahl des entsprechenden Geräts, Mikrofons, Lautsprechern, Kameras und Displays.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886652"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241024"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
-Microsoft Teams-Räume werden auf unterschiedliche Raumgrößen skaliert. Teams-Räume verwenden eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und Nutzung des Raums. Durch Die Auswahl des richtigen Kerngeräts und der richtigen Konsole in Kombination mit Mikrofonen, Lautsprechern, Kameras und Bildschirmen, die für den Platz geeignet sind, können Sie Microsoft Teams-Räume in räumen jeder Größe bereitstellen, von kleinen Gewandräumen bis hin zu großen Konferenzräumen und Sitzungsräumen.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
+Microsoft Teams-Räume auf unterschiedliche Raumgrößen skalieren. Teams-Räume je nach Größe und Nutzung des Raums eine Vielzahl zertifizierter Audio- und Videoperipheriegeräte verwenden. Durch Die Auswahl des richtigen Kerngeräts und der richtigen Konsole in Kombination mit Mikrofonen, Lautsprechern, Kameras und Bildschirmen, die für den Raum geeignet sind, können Sie Microsoft Teams-Räume in Räumen jeder Größe bereitstellen, von kleinen Gewandräumen bis hin zu großen Konferenzräumen und Sitzungsräumen.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
 
 Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
-Ihre Bereitstellung umfasst die Erstellung und Einrichtung von Teams-Räumen, wie unter [Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md) beschrieben.
+Ihre Bereitstellung umfasst die Erstellung und Einrichtung von Ressourcenkonten Teams-Räume wie unter ["Bereitstellen Microsoft Teams-Räume](rooms-deploy.md)" beschrieben.
 
 Siehe:
 
 - [Lizenzoptionen basierend auf Ihrem Plan: Microsoft Teams-Räume](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams-Räume melden sich bei Microsoft Teams, Skype for Business Server 2019 oder Skype for Business Server 2015 an und können an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
+> Microsoft Teams-Räume sich bei Microsoft Teams, Skype for Business Server 2019 oder Skype for Business Server 2015 anmelden und an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume werden in Microsoft 365- oder Office 365-Umgebungen, die von 21Vianet betrieben werden, oder DoD-Umgebungen nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in Microsoft 365- oder Office 365, die von 21Vianet- oder DoD-Umgebungen betrieben werden, nicht unterstützt.
 >
 > Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
@@ -121,7 +121,7 @@ Alle aktuellen Geräte und Bundles für Microsoft Teams-Räume sind im [Raumsyst
   |Surface Pro </br>(fünfte Generation) |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
   |Surface Pro 4 |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
 
-- Surface Pro-Geräte erfordern eine der folgenden Dockingstationsoptionen:
+- Surface Pro Geräte benötigen eine der folgenden Dockingstationsoptionen:
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -182,6 +182,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[Poly Studio P15 Videoleiste](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
 |[Poly Studio E70 Kamera](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
+|[Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30)|2.0.0.001096|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |

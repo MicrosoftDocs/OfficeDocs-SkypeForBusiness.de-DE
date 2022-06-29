@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b85befa685458f5460ab21bb962af3f0df4f004
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 8dc80503c2b949fb77cc8d593ba5a8dd71e68654
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681586"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240444"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -103,7 +103,7 @@ Bei einem dedizierten beständigen Setup funktioniert sowohl die Installation pr
 Bei der Installation pro Computer werden automatische Updates deaktiviert. Dies bedeutet, dass Sie zum Aktualisieren der Teams-App die aktuelle Version deinstallieren müssen, um auf eine neuere Version aktualisieren zu können. Bei der Installation pro Benutzer werden automatische Updates aktiviert.
 
 > [!IMPORTANT]
-> Halten Sie die Teams Desktop-App in Ihrer VDI-Umgebung auf dem neuesten Stand. Teams Desktop-App-Versionen mit Veröffentlichungsdaten, die älter als 90 Tage als das [Veröffentlichungsdatum der aktuellen Version](/officeupdates/teams-app-versioning) sind, werden nicht unterstützt. Nicht unterstützte Teams Desktop-App-Versionen zeigen Benutzern eine blockierende Seite an und fordern sie auf, ihre App zu aktualisieren.
+> Halten Sie die Teams-Desktop-App in Ihrer VDI-Umgebung auf dem neuesten Stand. Versionen der Teams-Desktop-App mit Veröffentlichungsdaten, die älter als 90 Tage als das [Veröffentlichungsdatum der aktuellen Version](/officeupdates/teams-app-versioning) sind, werden nicht unterstützt. Nicht unterstützte Teams-Desktop-App-Versionen zeigen Benutzern eine blockierende Seite an und fordern sie auf, ihre App zu aktualisieren.
 
 Bei den meisten VDI-Bereitstellungen empfehlen wir, Teams mithilfe einer Installation auf Computerbasis bereitzustellen. Um auf die neueste Version von Teams zu aktualisieren, beginnen Sie mit dem Deinstallationsverfahren, gefolgt von der neuesten Bereitstellung der Teams-Version.
 
@@ -499,9 +499,8 @@ if($cleanup){
 
 Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 
-- Alle Funktionen in mehreren Fenstern, wie die neuen Besprechungsfunktionen oder alle Funktionen im Zusammenhang mit der neuen Besprechungserfahrung
 - HID-Schaltflächen und LED-Steuerelemente zwischen der Teams-App und den Geräten für Citrix und VMware
-- Verschwimmen des Hintergrunds und Hintergrundeffekte
+- Weichzeichner und Effekte im Hintergrund für Citrix und VMware
 - Übertragungs- und Liveveranstaltungs-Produzent- und Referentenrollen
 - Standortbasiertes Routing (LBR)
 - PSTN-Rückrufton
@@ -516,14 +515,12 @@ Im Folgenden werden bekannte Probleme und Einschränkungen bei Anrufen und Bespr
 
 - Die Kompatibilität mit Skype for Business ist auf Audioanrufe beschränkt; es gibt keine Videomodenalität.
 - Die Auflösung für eingehende und ausgehende Videos ist auf eine Auflösung von 720p beschränkt.
-- Es wird nur ein Videostream von einer eingehenden Kamera oder einem Bildschirmfreigabestream unterstützt. Wenn es eine Bildschirmfreigabe für eingehende Nachrichten gibt, wird diese Bildschirmfreigabe anstelle des Videos des Sprechers angezeigt.
 - Teams wechselt nicht zur Verwendung des letzten Audiogeräts, das ein Benutzer ausgewählt hat, wenn die Verbindung des Geräts getrennt ist und dann erneut verbunden ist.
 - Liveereignisse sind nicht optimiert.
 - Ausgehende Bildschirmfreigabe:
-  - Die Anwendungsfreigabe wird nicht unterstützt.
+  - Die Anwendungsfreigabe wird für VMware und AVD/W365 nicht unterstützt.
 - Kontrolle geben und übernehmen:
-  - Während einer Bildschirmfreigabe oder Anwendungsfreigabesitzung nicht unterstützt.
-  - Während einer PowerPoint-Freigabesitzung unterstützt.
+  - Wird während der Anwendungsfreigabesitzung nicht unterstützt.
 
 Bekannte Probleme, die nicht mit VDI in Zusammenhang stehen, finden Sie unter [Supportteams in Ihrer Organisation](/MicrosoftTeams/troubleshoot/teams-welcome).
 

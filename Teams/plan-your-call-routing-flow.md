@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie Ihren Anrufweiterleitungsfluss für automatische Telefonzentralen und Anrufwarteschleifen in Microsoft Teams planen.
-ms.openlocfilehash: 3be72f17f876eb694d3b46293f039ccc07d65fbb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124584"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240984"
 ---
 # <a name="plan-your-call-routing-flow"></a>Planen des Anrufweiterleitungsflusses
 
@@ -47,8 +47,9 @@ Wenn Anrufe von einer automatischen Telefonzentrale oder Anrufwarteschleife umge
 
 - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Dies kann ein Onlinebenutzer oder ein Lokal gehosteter Benutzer sein, der mit Skype for Business Server gehostet wird.
 - **VoIP-App** – eine andere automatische Telefonzentrale oder anrufwarteschleife. Wählen Sie das dem Ziel zugeordnete Ressourcenkonto aus.
-- **Externe Telefonnummer** – beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Voicemail** – das VoIP-Postfach, das einer von Ihnen angegebenen Microsoft 365 Gruppe zugeordnet ist. Sie können auswählen, ob Voicemailtranskriptionen und die Option "Bitte hinterlasse eine Nachricht nach dem Ton" angezeigt werden sollen. Systemaufforderung.
+- **Externe Telefonnummer** – beliebige Telefonnummer. Sehen Sie [sich die technischen Details zur externen Übertragung an](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+
+- **Voicemail** – das VoIP-Postfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist. Sie können auswählen, ob Voicemailtranskriptionen und die Option "Bitte hinterlasse eine Nachricht nach dem Ton" angezeigt werden sollen. Systemaufforderung.
 - **Operator** (nur automatische Telefonzentrale) – der für die automatische Telefonzentrale definierte Operator. Das Definieren eines Operators ist optional. Ein Operator kann ein beliebiges der anderen Ziele in dieser Liste sein.
 
 Automatische Telefonzentralen bieten separate Anrufweiterleitungsoptionen für Anrufe, die außerhalb der Geschäftszeiten und an Feiertagen eingehen.
