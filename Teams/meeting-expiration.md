@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in Microsoft Teams zu steuern.
-ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675357"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529687"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Besprechungsrichtlinien und Ablauf von Besprechungen in Microsoft Teams
 
@@ -33,7 +33,7 @@ Die Besprechungsrichtlinieneinstellungen, die steuern, ob Benutzer Besprechungen
 - [Jetzt in Kanälen](meeting-policies-in-teams-general.md#meet-now-in-channels) besprechen: Steuert, ob ein Benutzer eine spontane Besprechung in einem Kanal starten kann.
 - [Planung von Kanalbesprechungen](meeting-policies-in-teams-general.md#channel-meeting-scheduling): Steuert, ob ein Benutzer eine Besprechung in einem Kanal planen kann.
 - [Planung privater Besprechungen](meeting-policies-in-teams-general.md#private-meeting-scheduling): Steuert, ob ein Benutzer eine private Besprechung in Teams planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
-- [Outlook add in](meeting-policies-in-teams-general.md#outlook-add-in): Steuert, ob ein Benutzer eine private Besprechung von Outlook aus planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
+- [Outlook-Add-In](meeting-policies-in-teams-general.md#outlook-add-in): Steuert, ob ein Benutzer eine private Besprechung von Outlook aus planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
 - [Besprechungen jetzt in privaten Besprechungen](meeting-policies-in-teams-general.md#meet-now-in-private-meetings): Steuert, ob ein Benutzer eine spontane private Besprechung starten kann.
 
 Diese Einstellungen sind standardmäßig aktiviert. Wenn eine dieser Einstellungen deaktiviert ist, kann jeder Benutzer, dem die Richtlinie zugewiesen ist, keine neuen Besprechungen dieses Typs starten oder planen. Gleichzeitig treten die Besprechungslinks und Konferenz-IDs aller vorhandenen Besprechungen dieses Typs, die der Benutzer zuvor gestartet oder geplant hat, ab.
@@ -63,7 +63,7 @@ Hier ist eine Zusammenfassung der Funktionsweise des Besprechungsablaufs für je
 |Wenn Sie möchten...&nbsp;&nbsp; |Gehen Sie wie folgt vor:&nbsp;&nbsp;&nbsp;&nbsp;  |Besprechungsbeitrittsverhalten&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
 |Ablaufen von privaten Besprechungen, die von einem Benutzer gestartet wurden&nbsp;&nbsp;|Deaktivieren **Sie "Jetzt besprechen" in privaten Besprechungen**.&nbsp;&nbsp;|Niemand kann an privaten Besprechungen teilnehmen **,** die vom Benutzer gestartet wurden.|
-|Ablaufen von privaten Besprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie die **Planung privater Besprechungen** _und_ deaktivieren Sie **Outlook Add-In**. &nbsp;&nbsp;|Niemand kann an privaten Besprechungen teilnehmen, die vom Benutzer geplant wurden. Dadurch wird verhindert, dass Personen an den folgenden Besprechungen teilnehmen:<ul><li>Private Besprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Private Besprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von privaten Besprechungsserien.</li></ul><br>Sowohl **die Planung privater Besprechungen** als auch **Outlook Add-Ins** müssen deaktiviert sein, damit private Besprechungen, die von einem Benutzer geplant wurden, ablaufen. Wenn eine Einstellung deaktiviert ist und die andere aktiviert ist, bleiben Besprechungsbeitrittslinks und Konferenz-IDs vorhandener Besprechungen aktiv und werden nicht abgelaufen.|
+|Ablaufen von privaten Besprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **die Planung privater Besprechungen** _und_ das **Outlook-Add-In**. &nbsp;&nbsp;|Niemand kann an privaten Besprechungen teilnehmen, die vom Benutzer geplant wurden. Dadurch wird verhindert, dass Personen an den folgenden Besprechungen teilnehmen:<ul><li>Private Besprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Private Besprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von privaten Besprechungsserien.</li></ul><br>Sowohl **die Planung privater Besprechungen** als auch **das Outlook-Add-In** müssen deaktiviert sein, um private Besprechungen abläuft, die von einem Benutzer geplant wurden. Wenn eine Einstellung deaktiviert ist und die andere aktiviert ist, bleiben Besprechungsbeitrittslinks und Konferenz-IDs vorhandener Besprechungen aktiv und werden nicht abgelaufen.|
 |Ablaufkanal **Besprechungen abläuft** , die von einem Benutzer gestartet wurden&nbsp;&nbsp;|Deaktivieren **Sie "Jetzt besprechen" in Kanälen**_, und_ deaktivieren Sie die **Planung von Kanalbesprechungen**.&nbsp;&nbsp;|Niemand kann an **Kanalbesprechungen teilnehmen,** die vom Benutzer gestartet wurden.|
 |Ablaufen von Kanalbesprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **die Planung von Kanalbesprechungen**.&nbsp;&nbsp;|Niemand kann an vom Benutzer geplanten Kanalbesprechungen teilnehmen. Dadurch wird verhindert, dass Personen an den folgenden Besprechungen teilnehmen:<ul><li>Kanalbesprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Kanalbesprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von wiederkehrenden Kanalbesprechungen.</li></ul>|
 
@@ -77,21 +77,21 @@ Wenn Sie möchten, dass Personen auf Besprechungen zugreifen können, die zuvor 
 
 ## <a name="changes-to-meeting-expiration"></a>Änderungen am Ablauf der Besprechung
 
-Alle neu erstellten Teams Besprechungsaufzeichnungen (TMRs) haben einen Standardablauf von 120 Tagen. Dies ist standardmäßig für alle Mandanten aktiviert. Dies bedeutet, dass standardmäßig alle TMRs, die *nach dem Aktivieren dieses Features* erstellt wurden, 120 Tage nach ihrem Erstellungsdatum gelöscht werden. Administratoren können auch festlegen, dass Besprechungen **nie automatisch ablaufen**. Das OneDrive- und SharePoint-System überwacht das Ablaufdatum, das auf allen TMRs festgelegt ist, und verschiebt tmRs automatisch an ihrem Ablaufdatum in den Papierkorb.
+Alle neu erstellten Teams-Besprechungsaufzeichnungen (TMRs) haben einen Standardablauf von 120 Tagen. Dies ist standardmäßig für alle Mandanten aktiviert. Dies bedeutet, dass standardmäßig alle TMRs, die *nach dem Aktivieren dieses Features* erstellt wurden, 120 Tage nach ihrem Erstellungsdatum gelöscht werden. Administratoren können auch festlegen, dass Besprechungen **nie automatisch ablaufen**. Das OneDrive- und SharePoint-System überwacht das Ablaufdatum, das auf allen TMRs festgelegt ist, und verschiebt tmRs automatisch an ihrem Ablaufdatum in den Papierkorb.
 
 > [!NOTE]
-> Eine Kopie des Besprechungsprotokolls wird in OneDrive SharePoint gespeichert, und eine zweite Kopie wird in Exchange im temporären Speicher gespeichert. Die OSDP-Kopie läuft ab, wenn die TMR automatisch abläuft.
+> Eine Kopie des Besprechungsprotokolls wird in OneDrive SharePoint und eine zweite Kopie in Exchange im temporären Speicher gespeichert. Die OSDP-Kopie läuft ab, wenn die TMR automatisch abläuft.
 
 Der automatische Ablauf von Besprechungen ist ein einfacher Mechanismus zur Aufbewahrung von Speicher, der von älteren TmRs erstellt wurde. Im Durchschnitt werden 96 % der TMRs nach 60 Tagen und 99 % nach 110 Tagen nicht mehr beobachtet. Wir glauben, dass fast alle Kunden von der reduzierten Speicherlast ihres Mandanten profitieren werden, indem Sie Aufzeichnungen entfernen, die wahrscheinlich nach 60 Tagen nicht mehr überwacht werden. Es ist unser Ziel, allen Kunden standardmäßig ein möglichst sauberes Erlebnis zu bieten.
 
-Verwenden Sie den Besprechungsablauf, um die OneDrive oder SharePoint für cloudbasierten Speicherverbrauch einzuschränken, der von Teams Besprechungsdatensätzen gesteuert wird. Eine typische Besprechungsaufzeichnung verbraucht etwa 400 MB pro Stunde.
+Verwenden Sie den Besprechungsablauf, um den Von Teams-Besprechungsdatensätzen gesteuerten OneDrive- oder SharePoint-Speicherverbrauch in der Cloud einzuschränken. Eine typische Besprechungsaufzeichnung verbraucht etwa 400 MB pro Stunde.
 
 > [!NOTE]
 > Das maximale Standardablaufdatum für A1-Benutzer beträgt 30 Tage.
 
 ### <a name="expiration-date"></a>Ablaufdatum
 
-- Das Ablaufdatum wird als der Tag berechnet, an dem **es erstellt wird**, plus der **Standardanzahl von Tagen, die in der Teams Richtlinie vom Administrator festgelegt wurden**.
+- Das Ablaufdatum wird als der Tag berechnet, an dem **es erstellt wird** , plus der **Standardanzahl von Tagen, die in der Microsoft Teams-Richtlinie vom Administrator festgelegt wurden**.
 - Die Wiedergabe wirkt sich nicht auf das Ablaufdatum aus.
 
 ### <a name="change-the-default-expiration-date"></a>Ändern des Standardablaufdatums
@@ -120,14 +120,14 @@ Sie können das Ablaufdatum im Teams Admin Center unter "**Besprechungsrichtlini
 
 Nein, Sie sollten sich aus Rechtlichem Schutz nicht darauf verlassen, da Endbenutzer das Ablaufdatum aller aufzeichnungen, die sie kontrollieren, ändern können.
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Überschreibt eine Aufbewahrungs- und/oder Löschrichtlinie, die ich im Security & Compliance Center festgelegt habe, die Ablaufeinstellung Teams Besprechungsaufzeichnung?
+#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Überschreibt eine Aufbewahrungs- und/oder Löschrichtlinie, die ich im Security & Compliance Center festgelegt habe, die Ablaufeinstellung für Teams-Besprechungsaufzeichnungen?
 
 Ja, alle Richtlinien, die Sie im Compliance Center festgelegt haben, haben vorrang.
 
 Zum Beispiel: 
 
-- Wenn Sie über eine Richtlinie verfügen, die besagt, dass alle Dateien auf einer Website 100 Tage lang aufbewahrt werden müssen und die Ablaufeinstellung für eine Teams Besprechungsaufzeichnung 30 Tage beträgt, wird die Aufzeichnung für die gesamten 100 Tage aufbewahrt.
-- Wenn Sie über eine Löschrichtlinie verfügen, die besagt, dass alle Teams Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden und Sie über eine Ablaufeinstellung für eine Teams Besprechungsaufzeichnung von 30 Tagen verfügen, wird die Aufzeichnung nach fünf Tagen gelöscht.
+- Wenn Sie über eine Richtlinie verfügen, die besagt, dass alle Dateien auf einer Website 100 Tage lang aufbewahrt werden müssen und die Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung 30 Tage beträgt, wird die Aufzeichnung für die gesamten 100 Tage aufbewahrt.
+- Wenn Sie über eine Löschrichtlinie verfügen, die besagt, dass alle Teams-Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden und Sie über eine Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung von 30 Tagen verfügen, wird die Aufzeichnung nach fünf Tagen gelöscht.
 
 ### <a name="will-this-feature-enforce-file-retention"></a>Wird durch dieses Feature die Dateiaufbewahrung erzwungen?
 
@@ -142,15 +142,15 @@ Nein, Dateien werden aufgrund dieses Features oder seiner Einstellungen nicht au
 
 Wir empfehlen die Verwendung der Aufbewahrungs- und/oder Löschrichtlinien für Sicherheit und Compliance. Dieses Angebot ist auf die Vereinfachung im Zusammenhang mit komplexen Richtlinien und SLA-abhängigen, administrativ-rechtlichen Aspekten ausgerichtet.
 
-Das Feature für den automatischen Ablauf ist ausschließlich als einfacher Mechanismus zur Aufbewahrung von Speicherplatz gedacht, der aus alten Teams Besprechungsaufzeichnungen entsteht.
+Das Feature für den automatischen Ablauf ist ausschließlich als einfacher Mechanismus für die Aufbewahrung gedacht, um die Speicher clutter zu reduzieren, die aus alten Teams-Besprechungsaufzeichnungen erstellt wurde.
 
 ### <a name="will-future-tmrs-migrated-from-classic-stream-after-this-feature-is-released-have-auto-expiration-applied-to-them-too"></a>Werden zukünftige Microsoft Teams-Besprechungsaufzeichnungen, die nach der Veröffentlichung dieses Features aus dem klassischen Stream migriert werden, ebenfalls automatisch ablaufen?
 
 Nein, für migrierte Microsoft Teams-Besprechungsaufzeichnungen wird kein Ablauf festgelegt. Wir empfehlen jedoch Administratoren, nur Microsoft Teams-Besprechungsaufzeichnungen zu migrieren, die sie beibehalten möchten. Weitere Informationen werden in der Migrationsdokumentation enthalten sein.
 
-### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>Wie unterscheidet sich dieses Feature von der Ablaufmeldung, die angezeigt wird, wenn ein TMR-Upload in OneDrive und SharePoint fehlschlägt?
+### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>Wie unterscheidet sich dieses Feature von der Ablaufnachricht, die angezeigt wird, wenn ein TMR-Upload auf OneDrive und SharePoint fehlschlägt?
 
-Wenn eine Aufzeichnung nicht in OneDrive oder SharePoint hochgeladen werden kann, zeigt die Teams Anwendung im Chat eine Meldung an, dass Benutzer bis zu 21 Tage Zeit haben, die TMR herunterzuladen, bevor sie endgültig vom Teams Server gelöscht wird. Diese vorhandene Ablauferfahrung aufgrund fehlgeschlagener TMR-Uploads bezieht sich nicht auf die OneDrive und SharePoint Funktion für den automatischen Ablauf, die im Hilfedokument erläutert wird.
+Wenn eine Aufzeichnung nicht auf OneDrive oder SharePoint hochgeladen werden kann, zeigt die Teams-Anwendung im Chat eine Meldung an, dass Benutzer bis zu 21 Tage Zeit haben, die TmR herunterzuladen, bevor sie endgültig vom Teams-Server gelöscht wird. Diese vorhandene Ablauferfahrung aufgrund fehlgeschlagener TMR-Uploads bezieht sich nicht auf das Feature zum automatischen Ablaufen von OneDrive und SharePoint, das im Hilfedokument erläutert wird.
 
 ### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Gewusst wie die Verteilung von TMR-Wiedergaben kennen, damit ich weiß, wie der optimale Standard für den automatischen Ablauf für meinen Mandanten sein sollte?
 
@@ -167,7 +167,7 @@ Es werden Dateistatistiken angezeigt, die Folgendes anzeigen:
 
 ### <a name="when-will-the-file-be-deleted"></a>Wann wird die Datei gelöscht?
 
-Die Datei wird innerhalb von fünf Tagen nach dem Ablaufdatum gelöscht, obwohl dies keine strenge Garantie ist. Der Dateibesitzer erhält eine E-Mail-Benachrichtigung, wenn die Aufzeichnung abläuft, und wird zum Papierkorb geleitet, um die Aufzeichnung wiederherzustellen.
+Die Aufzeichnung wird in der Regel innerhalb eines Tages nach dem Ablaufdatum gelöscht, in seltenen Fällen kann dies jedoch bis zu fünf Tage dauern. Der Dateibesitzer erhält eine E-Mail-Benachrichtigung, wenn die Aufzeichnung abläuft, und wird zum Papierkorb geleitet, um die Aufzeichnung wiederherzustellen.
 
 > [!NOTE]
 > Am Ablaufdatum wird die Aufzeichnung in den Papierkorb verschoben, und das Ablaufdatumsfeld wird gelöscht. Wenn Sie die Aufzeichnung aus dem Papierkorb wiederherstellen, wird sie von diesem Feature nicht erneut gelöscht, da das Ablaufdatum gelöscht wurde.

@@ -1,5 +1,5 @@
 ---
-title: Eine Liste der Telefonnummern in Ihrer Organisation
+title: Anzeigen einer Liste der Telefonnummern in Ihrer Organisation
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,87 +22,87 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie Microsoft Teams Admin Center verwenden können, um eine Liste aller Telefonnummern in Ihrer Organisation und aller Nummern, die Benutzern zugewiesen oder nicht zugewiesen sind, zu sehen.
-ms.openlocfilehash: 45d292ae1ba4ffd714f0c302fe140978968ba1c9
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: Erfahren Sie, wie Sie das Microsoft Teams Admin Center verwenden, um eine Liste aller Telefonnummern in Ihrer Organisation und aller Nummern anzuzeigen, die Benutzern zugewiesen oder nicht zugewiesen sind.
+ms.openlocfilehash: 84162b3971b1730df114482d30820dcf7e86a684
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763628"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494462"
 ---
-# <a name="see-a-list-of-telephone-numbers"></a>Eine Liste der Telefonnummern 
+# <a name="see-a-list-of-telephone-numbers"></a>Anzeigen einer Liste von Telefonnummern 
 
-Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder Sprachanwendungen wie [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md) oder [Anrufwarteschleifen zuweisen können](plan-auto-attendant-call-queue.md). Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-landing-page).
+Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder Sprachanwendungen wie [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md) oder [Anrufwarteschleifen](plan-auto-attendant-call-queue.md) zuweisen können. Weitere Informationen finden [Sie unter Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-landing-page).
 
-Dieser Artikel bezieht sich auf Anrufpläne und Verbinden. Informationen zu Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-Voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+Dieser Artikel bezieht sich auf Anrufpläne und Telefonieanbieter. Informationen zum Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-VoIP](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
   
-## <a name="to-see-all-telephone-numbers-in-your-organization"></a>So sehen Sie alle Telefonnummern in Ihrer Organisation
+## <a name="to-see-all-telephone-numbers-in-your-organization"></a>So zeigen Sie alle Telefonnummern in Ihrer Organisation an
 
-So sehen Sie eine Liste aller Telefonnummern in Ihrer Organisation:
+So zeigen Sie eine Liste aller Telefonnummern in Ihrer Organisation an:
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
 2. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
-3. Informationen zum Anzeigen der zugewiesenen Telefonnummern finden Sie in  der Spalte Zuordnungsstatus, in der auch der Diensttyp angezeigt wird, dem die Nummer zugewiesen ist.
+3. Informationen zum Anzeigen der zugewiesenen Telefonnummern finden Sie in der Spalte **"Zuordnungsstatus"** , in der auch angezeigt wird, welcher Diensttyp der Nummer zugewiesen ist.
 
-4. Zum Filtern der Ansicht klicken Sie auf das Filtersymbol. Im **Bereich Filter** können Sie die Dropdownliste verwenden, um die Ansicht nach den hier aufgeführten Filtern zu filtern:
+4. Klicken Sie zum Filtern der Ansicht auf das Filtersymbol. Im **Filterbereich** können Sie die Dropdownliste verwenden, um Ihre Ansicht nach folgendem zu filtern:
 
-   - **Von Ihnen festgelegter** Zahlenbereich. Sie können nach der niedrigsten oder der höchsten Zahl suchen.
+   - Von Ihnen festgelegter **Nummernbereich**. Sie können nach der niedrigsten oder höchsten Zahl suchen.
 
    - Zahlen, die mit einer von Ihnen angegebenen Zahl beginnen.
 
-   - Status **der Nummernaktivierung**.
+   - **Nummernaktivierungsstatus**.
 
    - **Zahlentyp**.
 
-   - Telefon nummer **.**
+   - **Telefonnummernstatus**.
 
-## <a name="to-see-all-telephone-numbers-that-are-assigned-to-users"></a>So sehen Sie alle Telefonnummern, die Benutzern zugewiesen sind
+## <a name="to-see-all-telephone-numbers-that-are-assigned-to-users"></a>So zeigen Sie alle Telefonnummern an, die Benutzern zugewiesen sind
 
-Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur eine Liste der Telefonnummern sehen, die Benutzern bereits zugewiesen sind und welche Telefonnummern verfügbar sind, die ihnen zugewiesen werden können.
+Wenn Sie Benutzer einrichten, möchten Sie möglicherweise nur die Liste der Telefonnummern anzeigen, die benutzern bereits zugewiesen sind und welche Telefonnummern verfügbar sind, um ihnen zugewiesen zu werden.
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
 2. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
     > [!IMPORTANT]
-    > Damit die Option "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
+    > Damit die **VoIP-Option** im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz-Add-On-Lizenz** erwerben.
 
-3. Um die Zahlen schnell zu sortieren, damit Sie sehen können, welche zugewiesen sind, klicken **Sie auf die** Spaltenüberschrift Zuordnungsstatus. Sie können auch auf das Filtersymbol klicken und dann Ihre Ansicht filtern, um Telefonnummern zu sehen, die Benutzern bereits zugewiesen sind, oder nicht zugewiesene Nummern, die Sie Benutzern zuweisen können. Sie können nach folgenden Kriterien filtern:
+3. Wenn Sie die Zahlen schnell sortieren möchten, damit Sie sehen können, welche zugewiesen sind, klicken Sie auf die Spaltenüberschrift **"Zuordnungsstatus** ". Sie können auch auf das Filtersymbol klicken und dann Ihre Ansicht filtern, um Telefonnummern anzuzeigen, die bereits Benutzern zugewiesen sind, oder nicht zugewiesene Nummern, die Sie einem Benutzer zuweisen können. Sie können nach folgenden Kriterien filtern:
 
    - **Benutzer zugewiesen**
-   - **Einer Konferenzbrücke zugewiesen** 
-   - **Sprachanruf-App zugewiesen (automatische Telefonzentrale/Anrufwarteschleife)**
+   - **Konferenzbrücke zugewiesen** 
+   - **VoIP-App zugewiesen (automatische Telefonzentrale/Anrufwarteschleife)**
    - **Nicht zugewiesen**
 
-## <a name="to-see-all-telephone-numbers-that-are-assigned-to-voice-users"></a>So sehen Sie alle Telefonnummern, die Sprachbenutzern zugewiesen sind
+## <a name="to-see-all-telephone-numbers-that-are-assigned-to-voice-users"></a>So zeigen Sie alle Telefonnummern an, die VoIP-Benutzern zugewiesen sind
 
-Wenn Sie Benutzer in Ihrer Organisation für das Anrufen und Empfangen von Telefonanrufen einrichten, müssen Sie zuerst die Telefonnummern erhalten und diese dann Ihren Benutzern zuweisen. Nachdem Sie Ihre Telefonnummern erhalten haben, möchten Sie möglicherweise den Aktivierungsstatus der Nummernzuweisungen sehen.
+Wenn Sie Benutzer in Ihrer Organisation einrichten, um Telefonanrufe zu tätigen und zu empfangen, müssen Sie zuerst die Telefonnummern abrufen und sie dann Ihren Benutzern zuweisen. Nachdem Sie Ihre Telefonnummern erhalten haben, möchten Sie möglicherweise den Aktivierungsstatus der Nummernzuweisungen anzeigen.
   
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
 2. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
-3. Klicken Sie auf das Filtersymbol, um die Ansicht nach **Aktivierungszustand zu filtern**. Sie können nach folgenden Kriterien filtern:
+3. Klicken Sie auf das Filtersymbol, um ihre Ansicht nach **Aktivierungsstatus** zu filtern. Sie können nach folgenden Kriterien filtern:
 
    - **Aktiviert**
-   - **Zuweisung ausstehend**
+   - **Zuordnung ausstehend**
    - **Zuordnung fehlgeschlagen**
-   - **Update steht noch aus**
+   - **Update ausstehend**
    - **Aktualisierung fehlgeschlagen**
 
 ## <a name="using-the-teams-powershell-module"></a>Verwenden des Teams PowerShell-Moduls
 
-Sie können das Teams PowerShell-Modul verwenden, um dieselben Informationen aus den vorherigen Abschnitten zu erhalten, aber Version 1.1.6 oder höher ist erforderlich, die die Integration des Skype for Business Online-Connectors umfasst. Weitere Informationen zum Modul finden Sie unter Übersicht [Microsoft Teams PowerShell](teams-powershell-overview.md).
+Sie können das Teams PowerShell-Modul verwenden, um dieselben Informationen aus den vorherigen Abschnitten abzurufen, aber Version 1.1.6 oder höher ist erforderlich, was die Integration des Skype for Business Online-Connectors umfasst. Weitere Informationen zum Modul finden Sie unter [Microsoft Teams PowerShell Overview](teams-powershell-overview.md).
 
-Wenn Sie eine Liste aller Telefonnummern für Ihre Organisation sehen möchten, verwenden Sie das [Cmdlet Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) . Führen Sie z. B. den folgenden Befehl aus, um die einzelnen Telefonnummern und deren Status zu sehen:
+Um eine Liste aller Telefonnummern anzuzeigen, die Sie für Ihre Organisation haben, verwenden Sie das Cmdlet [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) . Führen Sie beispielsweise den folgenden Befehl aus, um jede Telefonnummer, ihren Typ und ihren Zustand anzuzeigen:
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber | ft Id,ActivationState
+Get-CsPhoneNumberAssignment | ft TelephoneNumber,ActivationState,NumberType
 ```
 
-Zum Einsehen aller Telefonnummern, die Benutzern zugewiesen sind, verwenden Sie das [Cmdlet Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) . Wenn Sie beispielsweise alle Benutzer mit einer zugewiesenen Telefonnummer sehen möchten, führen Sie den folgenden Befehl aus:
+Um alle Telefonnummern anzuzeigen, die Benutzern zugewiesen sind, verwenden Sie das Cmdlet ["Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) ". Um beispielsweise alle Benutzer mit zugewiesener Telefonnummer anzuzeigen, führen Sie den folgenden Befehl aus:
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
@@ -116,6 +116,6 @@ Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,
 
 [Haftungsausschlussbezeichnung für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
+[Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment)
   
 [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)

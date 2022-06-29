@@ -1,5 +1,5 @@
 ---
-title: Verwalten der Updates-App für Ihre Organisation
+title: Verwalten der Aktualisierungen-App für Ihre Organisation
 author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: samanro
@@ -10,7 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
-description: Erfahren Sie, wie Sie die Updates-App in Teams für Benutzer in Ihrer Organisation verwalten.
+description: Erfahren Sie, wie Sie die Aktualisierungen-App in Teams für Benutzer in Ihrer Organisation verwalten.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,20 +19,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 27e0cf72149542f7822b1857489be685f6a21546
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: 4402c2218b8e0e7be50147809e5318034f05eaae
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103392"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494792"
 ---
-# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Updates-App für Ihre Organisation in Microsoft Teams
+# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Aktualisierungen-App für Ihre Organisation in Microsoft Teams
 
-## <a name="what-is-the-updates-app"></a>Was ist die Updates-App?
+## <a name="what-is-the-updates-app"></a>Was ist die Aktualisierungen-App?
 
-Die App "Updates in Microsoft Teams" bietet Mitgliedern Ihrer Organisation einen zentralen Ort zum Erstellen, Überprüfen und Übermitteln von Updates. Durch das Erstellen von Vorlagen können Sie die Updates-App verwenden, um alles nachzuverfolgen, was Ihre Organisation benötigt. Updates sind sowohl für Desktops als auch mobile Geräte verfügbar.
+Die Aktualisierungen in der Microsoft Teams-App bietet Mitgliedern Ihrer Organisation einen zentralen Ort zum Erstellen, Überprüfen und Übermitteln von Updates. Durch das Erstellen von Vorlagen können Sie die Aktualisierungen-App verwenden, um alles nachzuverfolgen, was Ihre Organisation benötigt. Aktualisierungen ist sowohl für Desktops als auch mobile Geräte verfügbar.
 
-In Teams können Benutzer Updates aus dem Teams App Store abrufen. Alle aktualisierungen, die sie übermitteln müssen, werden auf der Seite **"Absenden** " angezeigt. Sie können die [Erste Schritte im Artikel "Updates](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a)" mit Ihren Benutzern teilen, damit sie sich mit Updates vertraut machen können.
+In Teams können Benutzer Aktualisierungen aus dem Teams-App Store abrufen. Alle aktualisierungen, die sie übermitteln müssen, werden auf der Seite **"Absenden** " angezeigt. Sie können den [Artikel "Erste Schritte in Aktualisierungen"](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) mit Ihren Benutzern teilen, damit sie sich mit Aktualisierungen vertraut machen können.
 
 [![Abbildung der Seite "Absenden" in Teams für Desktop.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
@@ -40,25 +40,25 @@ Benutzer können Updates, die sie zugewiesen haben, auf der Seite **"Überprüfe
 
 [![Abbildung der Seite "Überprüfen" in Teams für Desktop.](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
-Wenn einem Benutzer ein Update zugewiesen ist, wird es im Teams Aktivitätsfeed angezeigt. Benutzer können auch alle aktuellen Updateanforderungen und vorherigen Übermittlungen in der Updates-App anzeigen. Darüber hinaus kann jeder Vorlagen erstellen und Aktualisierungsanforderungen senden.
+Wenn einem Benutzer ein Update zugewiesen ist, wird es in ihrem Teams-Aktivitätsfeed angezeigt. Benutzer können auch alle aktuellen Updateanforderungen und vorherigen Übermittlungen in der Aktualisierungen-App anzeigen. Darüber hinaus kann jeder Vorlagen erstellen und Aktualisierungsanforderungen senden.
 
-Updates enthalten sowohl out-of-the-box-Vorlagen für allgemeine Geschäftsszenarien als auch die Option zum Erstellen einer eigenen Vorlage. Jeder kann eine Vorlage für neue Arten von Updates erstellen.
+Aktualisierungen enthält sowohl out-of-the-box-Vorlagen für allgemeine Geschäftsszenarien als auch die Option zum Erstellen einer eigenen Vorlage. Jeder kann eine Vorlage für neue Arten von Updates erstellen.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-Mitarbeiter eines Bekleidungsgeschäfts sind täglich für die Eröffnung und Schließung des Ladens verantwortlich. Jeden Morgen füllt der Schichtleiter das Store öffnende Update aus, bei dem es sich um eine vordefinierte Vorlage in der Updates-App handelt. In diesem Update beschreiben sie alle Probleme mit der Schließung der vorherigen Nacht, beantworten Fragen zur Sauberkeit des Ladens und melden alle Vorräte, die aufgefüllt werden müssen. Wenn sie ein Update übermitteln, können sie ihre Anforderungen für den Store und alle Probleme schnell und effizient kommunizieren. Tägliche Updates geben den Store-Mitarbeitern auch die Möglichkeit, hervorzuheben, was gut läuft.
+Mitarbeiter eines Bekleidungsgeschäfts sind täglich für die Eröffnung und Schließung des Ladens verantwortlich. Jeden Morgen füllt der Schichtleiter das Store-Öffnungsupdate aus, bei dem es sich um eine vordefinierte Vorlage in der Aktualisierungen-App handelt. In diesem Update beschreiben sie alle Probleme mit der Schließung der vorherigen Nacht, beantworten Fragen zur Sauberkeit des Ladens und melden alle Vorräte, die aufgefüllt werden müssen. Wenn sie ein Update übermitteln, können sie ihre Anforderungen für den Store und alle Probleme schnell und effizient kommunizieren. Tägliche Updates geben den Store-Mitarbeitern auch die Möglichkeit, hervorzuheben, was gut läuft.
 
-In den Fertigungsstätten des Stores führen Mitarbeiter Sicherheitsüberprüfungen mit Updates mit mobilen Geräten durch.
+In den Fertigungsstätten des Stores führen Mitarbeiter Sicherheitsüberprüfungen mit Aktualisierungen mit mobilen Geräten durch.
 
 ![Abbildung der exemplarischen Vorgehensweisenvorlage "Wöchentliche Sicherheit" auf einem mobilen Gerät.](media/updates-mobile.png)
 
-In der Zwischenzeit aktualisiert ein Team von Remotemitarbeitern die Website des Stores. Sie sind über Zeitzonen verteilt, sodass tägliche Stand-up-Besprechungen nicht bequem sind. Stattdessen übermittelt jedes Teammitglied tägliche Updates-Berichte über den Fortschritt an den Teamleiter.
+In der Zwischenzeit aktualisiert ein Team von Remotemitarbeitern die Website des Stores. Sie sind über Zeitzonen verteilt, sodass tägliche Stand-up-Besprechungen nicht bequem sind. Stattdessen übermittelt jedes Teammitglied täglich Aktualisierungen berichte über den Fortschritt an den Teamleiter.
 
-[Laden Sie das Update-Lookbook herunter](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) , um weitere Beispiele für die Möglichkeiten von Updates anzuzeigen.
+[Laden Sie das Aktualisierungen-Lookbook herunter](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409), um weitere Beispiele dafür zu sehen, was Sie mit Aktualisierungen tun können.
 
 ## <a name="required-permissions-and-licenses"></a>Erforderliche Berechtigungen und Lizenzen
 
-Sie benötigen die Berechtigung für die folgenden Elemente, um Updates bereitzustellen:
+Sie benötigen die Berechtigung für die folgenden Elemente, um Aktualisierungen bereitzustellen:
 
 - Berechtigungen zum Erstellen einer Microsoft Dataverse-Datenbank.
 
@@ -70,18 +70,18 @@ Sie benötigen die Berechtigung für die folgenden Elemente, um Updates bereitzu
 
 - Eine Lizenz für Microsoft Forms ist erforderlich, damit Benutzer neue Vorlagen einrichten können.
 
-## <a name="storage-with-microsoft-dataverse"></a>Storage mit Microsoft Dataverse
+## <a name="storage-with-microsoft-dataverse"></a>Speicher mit Microsoft Dataverse
 
 Das Common Data Model (CDM) ist die freigegebene Datensprache, die von Geschäfts- und Analyseanwendungen in Microsoft Dataverse verwendet wird. Es besteht aus einer Reihe standardisierter, erweiterbarer Datenschemas, die von Microsoft und unseren Partnern veröffentlicht werden und die Konsistenz von Daten und deren Bedeutung über Anwendungen und Geschäftsprozesse hinweg ermöglichen. Erfahren Sie mehr über das [allgemeine Datenmodell](/common-data-model/).
 
-Updates, die anhand einer Vorlage erstellt werden, speichern weiterhin Daten in Microsoft Dataverse, z. B. titel, Details, Vorlagen-ID und vieles mehr. Weitere Informationen zur  [Datenspeicherung für Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Aktualisierungen, die anhand einer Vorlage erstellt werden, speichern weiterhin Daten in Microsoft Dataverse, z. B. Titel, Details, Vorlagen-ID und vieles mehr. Weitere Informationen zur  [Datenspeicherung für Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Wenn Sie die Formularvorlage auf der Microsoft Forms Website löschen, wird ihre Aktualisierungsvorlage unterbrochen, und benutzer können die Aktualisierung nicht übermitteln. Benutzer erhalten die Fehlermeldung "CDB TableNotFound", wenn sie versuchen, eine Vorlage zu öffnen, die auf Microsoft Forms gelöscht wurde.
+>Wenn Sie die Formularvorlage auf der Microsoft Forms Website löschen, wird ihre Aktualisierungen Vorlage unterbrochen, und benutzer können die Aktualisierung nicht übermitteln. Benutzer erhalten die Fehlermeldung "CDB TableNotFound", wenn sie versuchen, eine Vorlage zu öffnen, die auf Microsoft Forms gelöscht wurde.
 
-## <a name="updates-teams-app-permissions"></a>Aktualisiert Teams App-Berechtigungen
+## <a name="updates-teams-app-permissions"></a>Aktualisierungen Von Teams-App-Berechtigungen
 
-Mit der App "Updates Teams" können Sie auf die folgenden Features zugreifen:
+Mit der Aktualisierungen Teams-App können Sie auf die folgenden Features zugreifen:
 
 - Empfangen von Nachrichten und Daten, die Sie bereitstellen.
 
@@ -102,46 +102,48 @@ Mit der App "Updates Teams" können Sie auf die folgenden Features zugreifen:
 
 - Verwenden der Teaminformationen zur Kontaktaufnahme.
 
-## <a name="disable-the-updates-app"></a>Deaktivieren der Updates-App
+## <a name="disable-the-updates-app"></a>Deaktivieren der Aktualisierungen-App
 
-Die Updates-App ist standardmäßig verfügbar. Sie können die App im Microsoft Teams Admin Center deaktivieren.
+Die Aktualisierungen-App ist standardmäßig verfügbar. Sie können die App im Microsoft Teams Admin Center deaktivieren.
 
   1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
   2. Wechseln Sie **Teams-Apps** > **Apps verwalten**.
 
-  3. Suchen Sie nach der Updates-App.
+  3. Suchen Sie nach der Aktualisierungen-App.
 
-     [![Screenshot der Admin Center-Navigation mit hervorgehobener Option Teams Apps > "Apps verwalten".](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
+     [![Screenshot der Admin Center-Navigation mit hervorgehobener Option "Teams-Apps > Apps verwalten".](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
-  4. Wählen Sie **"Updates" aus**.
+  4. Wählen Sie **Aktualisierungen** aus.
 
   5. Deaktivieren Sie die App für Ihre Organisation mithilfe des Schalters.
-    ![Abbildung des Umschalters zum Aktivieren oder Deaktivieren von Updates.](media/toggle-updates.png)
+    ![Abbildung des Umschalters zum Aktivieren oder Deaktivieren Aktualisierungen.](media/toggle-updates.png)
 
-## <a name="pin-updates-to-teams"></a>Aktualisierungen an Teams anheften
+## <a name="pin-updates-to-teams"></a>Anheften Aktualisierungen an Teams
 
-Mit App-Setuprichtlinien können Sie Teams anpassen, um Apps anzuheften, die für Ihre Benutzer in Ihren Benutzern am wichtigsten sind. Die Apps werden an die App-Leiste angeheftet – die Leiste auf der Seite des Teams Desktopclients und am unteren Rand der Teams mobilen Clients, auf die Benutzer schnell und einfach zugreifen können.
+Mit App-Setuprichtlinien können Sie Teams so anpassen, dass Apps angeheftet werden, die für Ihre Benutzer in Ihren Benutzern am wichtigsten sind. Die Apps sind an die App-Leiste angeheftet – die Leiste auf der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients, auf die Benutzer schnell und einfach zugreifen können.
 
-Um die Updates-App für Ihre Benutzer anzuheften, können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
+Um die Aktualisierungen-App für Ihre Benutzer anzuheften, können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
 
 ## <a name="retention-policy"></a>Aufbewahrungsrichtlinie
 
-Updates, die mit der Updates-App erstellt wurden, werden in der Standardmäßigen Microsoft Dataverse-Umgebung gespeichert, die derzeit keine Sicherungen unterstützt. Erfahren Sie mehr über das [Sichern und Wiederherstellen von Umgebungen – Power Platform \| Microsoft-Dokumentation](/power-platform/admin/backup-restore-environments).
+Aktualisierungen, die über die Aktualisierungen-App erstellt wurden, werden in der Microsoft Dataverse-Standardumgebung gespeichert, die derzeit keine Sicherungen unterstützt. Erfahren Sie mehr über das [Sichern und Wiederherstellen von Umgebungen – Power Platform \| Microsoft-Dokumentation](/power-platform/admin/backup-restore-environments).
 
 In Formularen gespeicherte Daten werden erst gelöscht, wenn die Vorlagenersteller sie von der Registerkarte **"Gelöschte Formulare**" in der Microsoft Forms Web-App bereinigen.
 
-## <a name="conditional-access-policies"></a>Richtlinien für bedingten Zugriff
+## <a name="conditional-access-and-permission-policies"></a>Richtlinien für bedingten Zugriff und Berechtigungen
 
-Derzeit unterstützt die Updates-App in Teams keine Richtlinien für bedingten Zugriff, die für Microsoft Teams festgelegt sind.
+Die Aktualisierungen-App in Teams unterstützt derzeit keine Richtlinien für bedingten Zugriff, die für Microsoft Teams festgelegt sind.
+
+Sie können [Teams-App-Berechtigungsrichtlinien](teams-app-permission-policies.md) verwenden, um Aktualisierungen zu verwalten.
 
 ## <a name="data-limitations"></a>Dateneinschränkungen
 
-Jeder Benutzer kann maximal 400 Aktualisierungsvorlagen erstellen, und jede Vorlage kann maximal 50.000 Anforderungen basierend auf der aktuellen Funktion in Microsoft Forms sammeln.
+Jeder Benutzer kann maximal 400 Aktualisierungen Vorlagen erstellen, und jede Vorlage kann maximal 50.000 Anforderungen basierend auf der aktuellen Funktion in Microsoft Forms sammeln.
 
 ## <a name="security"></a>Sicherheit
 
-Über die Teams Updates-App haben Benutzer Zugriff, um neue Updates zu erstellen und Updates anzuzeigen, die sie gesendet und empfangen haben. Benutzer haben keinen Zugriff auf updates, die von anderen erstellt werden, es sei denn, sie sind ein Viewer der Anforderung.
+Über die Teams Aktualisierungen-App haben Benutzer Zugriff, um neue Updates zu erstellen und Updates anzuzeigen, die sie gesendet und empfangen haben. Benutzer haben keinen Zugriff auf Aktualisierungen, die von anderen Personen erstellt werden, es sei denn, sie sind ein Viewer der Anforderung.
 
 > [!Note]
 > Einem Benutzer wird eine Viewerrolle einer Anforderung zugewiesen, wenn er Teil des Chats oder Kanals ist, in dem der Updatebericht erstellt wurde, oder der Vorlagenersteller sie manuell als Viewer hinzufügt. Sie haben nicht die Möglichkeit, Maßnahmen für die Anforderung zu ergreifen, wenn ihnen diese Rolle beim Erstellen des Berichts nicht zugewiesen wurde.

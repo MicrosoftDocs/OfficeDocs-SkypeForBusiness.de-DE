@@ -19,12 +19,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 0c51c0e2225d73d140f424535f3dc1bd7a302afa
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674657"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240414"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -105,7 +106,7 @@ Beispiel: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data
 > [!IMPORTANT]
 > Die Verwaltung der Anmeldeinformationen in diesen Skripts ist möglicherweise nicht für ihre Verwendung geeignet. Sie können allerdings ganz einfach geändert werden, um Ihren Anforderungen zu entsprechen. Folgen Sie immer den Standards und Praktiken Ihres Unternehmens zur Sicherung von Dienstkonten und verwaltete Identitäten.
 
-Die Skripts verwenden Anmeldeinformationen, die als XML-Dateien gespeichert sind unter $ENV:LOCALAPPDATA\keys, d. h. im Ordner AppData\Local. Die Hilfsfunktion **Set-Creds** im Modul **BulkAddFunctions.psm1** muss aufgerufen werden, um die zum Ausführen dieser Skripts verwendeten Anmeldeinformationen festzulegen. Durch diese Vorgehensweise ist es nicht mehr erforderlich, dass Sie sich bei allen unterschiedlichen Dienstendpunkten authentifizieren, wobei sich die Anmeldeinformationen an einem lokalen Speicherort befinden. Von jedem nachfolgenden Skript aus werden die entsprechenden Anmeldeinformationen mithilfe der von uns als **Get-Creds** bezeichneten Hilfsfunktion ausgelesen, und diese Anmeldeinformationen werden verwendet, um eine Verbindung mit den verschiedenen Diensten herzustellen.
+Die Skripts verwenden Anmeldeinformationen, die als XML-Dateien im `$ENV:LOCALAPPDATA\keys`Ordner AppData\Local gespeichert sind. Die Hilfsfunktion **Set-Creds** im Modul **BulkAddFunctions.psm1** muss aufgerufen werden, um die zum Ausführen dieser Skripts verwendeten Anmeldeinformationen festzulegen. Durch diese Vorgehensweise ist es nicht mehr erforderlich, dass Sie sich bei allen unterschiedlichen Dienstendpunkten authentifizieren, wobei sich die Anmeldeinformationen an einem lokalen Speicherort befinden. Von jedem nachfolgenden Skript aus werden die entsprechenden Anmeldeinformationen mithilfe der von uns als **Get-Creds** bezeichneten Hilfsfunktion ausgelesen, und diese Anmeldeinformationen werden verwendet, um eine Verbindung mit den verschiedenen Diensten herzustellen.
 
 Wenn Sie **Set-Creds** aufrufen, werden Sie aufgefordert, einen XML-Dateinamen anzugeben, der lautet: $ENV:LOCALAPPDATA\keys.   Möglicherweise haben Sie für verschiedene Dienste unterschiedliche Anmeldeinformationen. Sie könnten beispielsweise über unterschiedliche Anmeldeinformationen für Microsoft Teams, Azure AD und MS Online verfügen; in diesem Fall können Sie **Set-Creds** öfter ausführen, um die jeweilige Anmeldeinformationsdatei unter einem eigenen aussagekräftigen Namen zu speichern.
 
@@ -178,7 +179,7 @@ Kanäle sind spezielle Bereiche innerhalb eines Teams, mit denen Unterhaltungen 
 
 ## <a name="create-teams-policies"></a>Erstellen von Teamrichtlinien
 
-Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, was Benutzer in Ihrer Organisation sehen können und wozu sie berechtigt sind. Sie können z. B. steuern, welche Anwendungen auf der linken Seite des Desktops bzw. des Webbrowsers oder auf der unteren Leiste auf mobilen Geräten angeheftet sind, um die Endbenutzererfahrung beim Onboarding einer großen Anzahl von Benutzern zu vereinfachen. Einige dieser Richtlinien können mit PowerShell erstellt werden, andere müssen manuell im Teams Admin Center erstellt werden.
+Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, was Benutzer in Ihrer Organisation sehen können und wozu sie berechtigt sind. Sie können beispielsweise steuern, welche Anwendungen an die linke Leiste Ihres Desktops oder Webbrowsers oder die untere Leiste auf Mobilgeräten angeheftet werden, um die Endbenutzererfahrung beim Onboarding einer großen Anzahl von Benutzern zu vereinfachen. Einige dieser Richtlinien können mit PowerShell erstellt werden, andere müssen manuell im Teams Admin Center erstellt werden.
 
 *Bewährte Methoden*: Bei jeder der folgenden Richtlinien werden in Wirklichkeit zwei Richtlinien erstellt: eine für Mitarbeiter in Service und Produktion, und eine für deren Vorgesetzte. Sie können so viele oder so wenige Richtlinien erstellen, wie Sie möchten. Bei den meisten Kunden eignen sich zwei gut zum Starten, selbst wenn anfangs für alle Gruppen die gleichen Einstellungen festgelegt werden. Wenn einige Erfahrung mit Microsoft Teams gesammelt wurde, können Sie sich entscheiden, die Benutzererfahrung weiter zu differenzieren, und die beiden bereits erstellen getrennten Richtlinien können dies vereinfachen.
 
@@ -314,7 +315,7 @@ Um diese Benutzer im großen Stil effektiver verwalten zu können, müssen Sie z
 
 1. Suchen Sie die Datei **Users.csv** im Ordner „Skripts“ im Repository.
 1. Aktualisieren Sie die **Users.csv**-Datei mit den spezifischen Informationen Ihrer Organisation.
-    1. Das bereitgestellte Skript erstellt standardmäßig einen Benutzer mit einem temporären Kennwort, das bei der ersten Anmeldung geändert werden muss. Wenn Sie das Standardkennwort nicht verwenden möchten, bearbeiten Sie das **CreateUsers.ps1**-Skript entsprechend Ihren Anforderungen.
+    1. Standardmäßig erstellt das von uns bereitgestellte Skript einen Benutzer mit einem temporären Kennwort, das bei der ersten Anmeldung geändert werden muss. Wenn Sie das Standardkennwort nicht verwenden möchten, bearbeiten Sie das **CreateUsers.ps1**-Skript entsprechend Ihren Anforderungen.
     1. Stellen Sie sicher, dass Sie das Feld "SecurityGroup" so aktualisieren, dass es dem zuvor erstellten Namen entspricht.
 1. Suchen Sie die Datei **SecurityGroups.csv** im Ordner „Skripts“ im Repository.
 1. Aktualisieren Sie die Datei **SecurityGroups.csv** mit den spezifischen Informationen für Sicherheitsgruppen Ihrer Organisation.
@@ -367,7 +368,7 @@ Mithilfe der dynamischen Mitgliedschaft werden Regeln festgelegt, anhand derer f
 
 Nachdem Sie alle Schritte ausgeführt haben, ist es an der Zeit, Ihre Arbeit zu überprüfen.
 
-1. Der erstellte Benutzer verfügt über ein anfängliches Kennwort, welches sich in "CreateUsers.ps1" befindet und, das er bei der ersten Anmeldung ändern muss.
+1. Der erstellte Benutzer hat ein Anfangskennwort, das sich in der Datei CreateUsers.ps1 befindet, und muss es bei seiner ersten Anmeldung ändern.
 1. Überprüfen Sie, ob das Aussehen und Verhalten von Microsoft Teams Ihren Erwartungen entspricht. Wenn dies nicht der Fall ist, lesen Sie die Abschnitte **Erstellen von Teams-Richtlinien** und **Zuweisen von Teams-Richtlinien zu Benutzern**.
 1. Vergewissern Sie sich, dass sich der Benutzer im richtigen Team befindet. Wenn dies nicht der Fall ist, überprüfen Sie die Abschnitte **Erstellen und Einrichten von Benutzern** und **Benutzer Teams zuweisen**.
 

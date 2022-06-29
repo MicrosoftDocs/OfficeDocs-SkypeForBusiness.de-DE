@@ -19,17 +19,17 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System - seo-marvel-apr2020
-description: In diesem Artikel finden Sie Informationen zu PowerShell-Cmdlets zum Erstellen und Verwalten automatischer Telefonzentralen und Anrufwarteschleifen in Microsoft Teams.
-ms.openlocfilehash: 33e553f90677eb0b1fa3e230215ff97d8d05066c
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: In diesem Artikel finden Sie PowerShell-Cmdlets zum Erstellen und Verwalten automatischer Telefonzentralen und Anrufwarteschleifen in Microsoft Teams.
+ms.openlocfilehash: afb3b6d7992c828c85cebdf83d89a2b17fff6065
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124577"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494812"
 ---
-# <a name="powershell-cmdlet-reference-for-call-queues-and-auto-attendants"></a>PowerShell-Cmdlet-Referenz für Anrufwarteschleifen und automatische Telefonzentralen
+# <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>PowerShell-Cmdlet-Referenz für automatische Telefonzentralen und Anrufwarteschleifen
 
-Die folgenden Cmdlet-Verweise gelten für Microsoft Teams automatischen Telefonzentralen und Anrufwarteschleifen.
+Die folgenden Cmdlet-Verweise gelten für automatische Telefonzentralen und Anrufwarteschleifen von Microsoft Teams.
 
 ## <a name="auto-attendant-cmdlets"></a>Cmdlets für automatische Telefonzentralen
 
@@ -56,50 +56,8 @@ Mit den folgenden Cmdlets können Sie automatische Telefonzentralen verwalten:
 - [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
 - [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
 
-Die folgenden Cmdlets sind auch erforderlich, um die Benutzer, Ressourcenkonten, Microsoft Teams Telefon Lizenzen, Telefonnummern, Audiodateien und die unterstützte Sprache zu verwalten, die mit automatischen Telefonzentralen verwendet wird:
-
-### <a name="usersteams"></a>Benutzer/Teams
-
-- Benutzer
-  - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
-
-- Teams:
-  - [Get-Team](/powershell/module/teams/Get-Team)
-
-### <a name="resource-accounts"></a>Ressourcenkonten
-
-- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
-- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
-- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
-- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
-- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
-
-### <a name="virtual-teams-phone-licenses"></a>Virtuelle Teams Telefon-Lizenzen
-
-- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
-- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
-### <a name="phone-number-assignment"></a>Telefon Nummernzuweisung
-
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
-
-### <a name="audio-files"></a>Audiodateien
-
-- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
-- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
-- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
-
-### <a name="support-languages-and-time-zones"></a>Unterstützen von Sprachen und Zeitzonen
-
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-
 Eine schrittweise Anleitung zum Erstellen automatischer Telefonzentralen mit PowerShell finden [Sie unter Erstellen automatischer Telefonzentralen mit PowerShell-Cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md)
+
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets für Anrufwarteschleifen
 
@@ -110,7 +68,13 @@ Mit den folgenden Cmdlets können Sie eine Anrufwarteschleife verwalten:
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-Die folgenden Cmdlets sind auch erforderlich, um die Benutzer, Ressourcenkonten, Microsoft Teams Telefon Lizenzen, Telefonnummern, Audiodateien und unterstützte Sprache zu verwalten, die in Anrufwarteschleifen verwendet werden:
+
+Eine schrittweise Anleitung zum Erstellen von Anrufwarteschleifen mit PowerShell finden Sie unter [Erstellen von Anrufwarteschleifen mit PowerShell-Cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
+
+
+## <a name="common-cmdlets-used-by-both-auto-attendants-and-call-queues"></a>Allgemeine Cmdlets, die sowohl von automatischen Telefonzentralen als auch von Anrufwarteschleifen verwendet werden
+
+Die folgenden Cmdlets sind auch erforderlich, um die Benutzer, Ressourcenkonten, Microsoft Teams Telefon Lizenzen, Telefonnummern, Audiodateien und die unterstützte Sprache zu verwalten, die mit automatischen Telefonzentralen verwendet wird:
 
 ### <a name="users-and-teams"></a>Benutzer und Teams
 
@@ -132,15 +96,18 @@ Die folgenden Cmdlets sind auch erforderlich, um die Benutzer, Ressourcenkonten,
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
-### <a name="virtual-teams-phone-standard-licenses"></a>Virtuelle Teams Telefon Standard-Lizenzen
+
+### <a name="virtual-teams-phone-licenses"></a>Virtuelle Teams-Telefonlizenzen
 
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
-### <a name="assign-phone-numbers"></a>Zuweisen von Telefonnummern
 
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
+### <a name="phone-number-assignment"></a>Telefonnummernzuweisung
+
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
+
 
 ### <a name="audio-files"></a>Audiodateien
 
@@ -149,8 +116,9 @@ Die folgenden Cmdlets sind auch erforderlich, um die Benutzer, Ressourcenkonten,
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
 
-### <a name="support-language-lists"></a>Sprachlisten unterstützen
+
+### <a name="support-languages-and-time-zones"></a>Unterstützen von Sprachen und Zeitzonen
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
 
-Eine schrittweise Anleitung zum Erstellen von Anrufwarteschleifen mit PowerShell finden Sie unter [Erstellen von Anrufwarteschleifen mit PowerShell-Cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
