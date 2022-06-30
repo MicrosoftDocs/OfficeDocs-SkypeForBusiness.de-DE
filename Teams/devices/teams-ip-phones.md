@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Tisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 4182487d03b2628553ed9b7fee860a080ad3c6c6
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 95a92b964773e7ed1aafa9e4e87004acad61b3f3
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494352"
+ms.locfileid: "66551212"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Von Microsoft Teams zertifizierte Android-Geräte
 
@@ -72,6 +72,8 @@ Die folgenden Geräte sind im Rahmen des zertifizierungsprogramms für Microsoft
 
 | Gerätemodell | Firmwareversion | Aktuelles Zertifizierungsenddatum | Raumgröße                                        |  Android-Betriebssystemversion    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBar A20 | `133.15.0.108  `   | 3. September 2024 | Kleiner Besprechungsraum (4,5 m x 4,5 m)| 10|
+| Yealink MeetingBar A30 | `133.15.0.108  `   | 3. September 2024 | Mittelgroßer Raum (4,5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   3. September 2024  | Kompatibel mit Logitech Rally Bar und Rally Bar Mini | 10 |
 | Ordentliche Leiste | `NFB1.20220211.1400` |3. September 2024|    Kleiner Besprechungsraum (4,5 m x 4,5 m) | 10 |
 | Ordentliche Pad Touch-Konsole | `NFA1.20220211.1400`  | 5. August 2023 |  Nur kompatibel mit Neat Bar | 9 |
@@ -246,6 +248,8 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Produktversion enthalten |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.12.0.366027` | Update 2022 Nr. 1   |
+| Poly Studio X50 | `3.12.0.366027` | Update 2022 Nr. 1  |
 | Logi Rallybar    | `1.6.552`         | Update 2022 Nr. 2    |
 | Logi Rallybar Mini | `1.6.552`       | Update 2022 Nr. 2   |
 | Ordentliche Leiste | `NFB1.20220512.2200` | Update 2022 Nr. 2 |

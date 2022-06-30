@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240744"
+ms.locfileid: "66551202"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Kommunikationscompliance mit Microsoft Teams
 
@@ -53,7 +53,7 @@ Teams-Administratoren können Kommunikationscompliancerichtlinien auf den folgen
 >[!NOTE]
 >Die Verfügbarkeit von vom Benutzer gemeldeten Nachrichten für Organisationen, die lizenziert sind und [Kommunikationscompliance](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) verwenden, und Microsoft Teams begann im Mai 2022. Dieses Feature wird bis zum 31. August 2022 für alle Organisationen verfügbar sein, die bis Juli 2022 lizenziert sind und kommunikationscompliance verwenden. Für Organisationen, die nach Juli 2022 mit der Verwendung der Kommunikationscompliance beginnen, kann die Verfügbarkeit von vom Benutzer gemeldeten Nachrichtenrichtlinien bis zu 30 Tage ab dem Datum der Lizenzierung und der ersten Verwendung der Kommunikationscompliance dauern.
 
-Die Option *"Bedenken melden* " in internen Teams-Chatnachrichten ist standardmäßig aktiviert und kann über Teams-Messagingrichtlinien im [Teams Admin Center](/microsoftteams/manage-teams-in-modern-portal) gesteuert werden. Auf diese Weise können Benutzer in Ihrer Organisation unangemessene interne Chatnachrichten zur Überprüfung durch Kommunikationscomplianceprüfer für die Richtlinie übermitteln. Weitere Informationen zu vom Benutzer gemeldeten Nachrichten in der Kommunikationscompliance finden Sie unter [Kommunikationscompliancerichtlinien](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
+Die Option *"Bedenklich melden* " für persönliche und Gruppenchatnachrichten von Teams ist standardmäßig aktiviert und kann über Teams-Messagingrichtlinien im [Teams Admin Center](/microsoftteams/manage-teams-in-modern-portal) gesteuert werden. Auf diese Weise können Benutzer in Ihrer Organisation unangemessene interne Chatnachrichten zur Überprüfung durch Kommunikationscomplianceprüfer für die Richtlinie übermitteln. Weitere Informationen zu vom Benutzer gemeldeten Nachrichten in der Kommunikationscompliance finden Sie unter [Kommunikationscompliancerichtlinien](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 
 ![Melden eines Menüs "Bedenken".](./media/communication-compliance-report-a-concern-full-menu.png)
 
