@@ -1,8 +1,8 @@
 ---
 title: Erstellen von Teams für Personalverantwortliche in Microsoft Teams
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cad2ed4fdbcec7f13f5b2e932d34395fe4b4c339
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd880e58b2c6818b8738afd5fb4e5efaf78642d4
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628357"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562584"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Erstellen von Teams für Personalverantwortliche in Microsoft Teams
 

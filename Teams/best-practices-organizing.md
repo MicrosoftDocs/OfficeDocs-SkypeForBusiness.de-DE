@@ -1,8 +1,8 @@
 ---
 title: Bewährte Methoden zum Organisieren von Teams
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
-ms.translationtype: HT
+ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711879"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562754"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 

@@ -1,14 +1,14 @@
 ---
 title: Planen des standortbasierten Routings für direktes Routing
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Location-Based Routing für Teams Telefon Direct Routing planen.
+description: Erfahren Sie, wie Sie Location-Based Routing für Teams Phone Direct Routing planen.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303997"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562624"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
 In einigen Ländern und Regionen ist es illegal, den Anbieter von Telefonfestnetzen (Public Switched Telephone Network, PSTN) zu umgehen, um die Anrufkosten für Ferngespräche zu senken. 
 
-In diesem Artikel wird beschrieben, was Sie wissen müssen, um Location-Based Routing zu verwenden, um die gebührenpflichtige Umgehung für Microsoft Teams Benutzer basierend auf ihrem geografischen Standort einzuschränken. Dieser Artikel gilt nur für Direct Routing. Location-Based Routing gilt nicht für Anrufpläne oder Telefonieanbieter.
+In diesem Artikel wird beschrieben, was Sie wissen müssen, um Location-Based Routing zu verwenden, um die gebührenpflichtige Umgehung für Microsoft Teams-Benutzer basierend auf ihrem geografischen Standort einzuschränken. Dieser Artikel gilt nur für Direct Routing. Location-Based Routing gilt nicht für Anrufplan oder Telefonieanbieter.
 
 Wenn Sie bereit sind, Location-Based Routing zu aktivieren, lesen Sie:
 
@@ -44,9 +44,9 @@ mit Location-Based Routing können Sie die gebührenpflichtige Umgehung für ein
 
 Location-Based Routing verwendet die Netzwerktopologie, die Sie für Netzwerkregion, Standort und Subnetz definieren. Wenn die gebührenpflichtige Umgehung für einen Standort eingeschränkt ist, ordnen Sie jedes IP-Subnetz und jedes PSTN-Gateway für diesen Standort einem Netzwerkstandort zu. 
 
-Zum Zeitpunkt eines PSTN-Anrufs wird der Standort eines Benutzers durch das IP-Subnetz bestimmt, mit dem die Teams Endpunkte des Benutzers verbunden sind. Wenn ein Benutzer mehrere Teams Clients an unterschiedlichen Standorten hat, erzwingt Location-Based Routing das Routing jedes Clients separat je nach Standort der Teams Endpunkte.
+Zum Zeitpunkt eines PSTN-Anrufs wird der Standort eines Benutzers durch das IP-Subnetz bestimmt, mit dem die Teams-Endpunkte des Benutzers verbunden sind. Wenn ein Benutzer mehrere Teams-Clients an unterschiedlichen Standorten hat, erzwingt Location-Based Routing das Routing jedes Clients separat je nach Standort der Teams-Endpunkte.
 
-Weitere Informationen zu Netzwerkeinstellungen finden Sie [unter Netzwerkeinstellungen für Cloud voice features in Teams](cloud-voice-network-settings.md).
+Weitere Informationen zu Netzwerkeinstellungen finden Sie [unter "Netzwerkeinstellungen für Cloud-VoIP-Features in Teams](cloud-voice-network-settings.md)".
 
 In diesem Artikel wird davon ausgegangen, dass sich ein Netzwerkstandort in einem der folgenden Zustände befinden kann:
 
@@ -58,27 +58,27 @@ In diesem Artikel wird davon ausgegangen, dass sich ein Netzwerkstandort in eine
 
 ### <a name="toll-bypass-evaluation-and-outcome"></a>Bewertung und Ergebnis der Gebührenumgehung
 
-Wenn Location-Based Routing verwendet wird, wird ein Anruf zwischen einem Teams Benutzer und dem PSTN ausgewertet, um festzustellen, ob die gebührenpflichtige Umgehung eingeschränkt ist. Abhängig von den Ergebnissen wird der Anruf abgeschlossen oder nicht abgeschlossen. 
+Wenn Location-Based Routing verwendet wird, wird ein Anruf zwischen einem Teams-Benutzer und dem PSTN ausgewertet, um festzustellen, ob die gebührenpflichtige Umgehung eingeschränkt ist. Abhängig von den Ergebnissen wird der Anruf abgeschlossen oder nicht abgeschlossen. 
 
-Wenn ein Benutzer für Location-Based Routing aktiviert ist und sich der Benutzer an einem Standort befindet, an dem Location-Based Routingeinschränkungen gelten, ist die gebührenpflichtige Umgehung für diesen Benutzer eingeschränkt. Teams anhand der folgenden Informationen ermitteln, ob die gebührenpflichtige Umgehung eingeschränkt ist: 
+Wenn ein Benutzer für Location-Based Routing aktiviert ist und sich der Benutzer an einem Standort befindet, an dem Location-Based Routingeinschränkungen gelten, ist die gebührenpflichtige Umgehung für diesen Benutzer eingeschränkt. Teams verwendet die folgenden Informationen, um festzustellen, ob die gebührenpflichtige Umgehung eingeschränkt ist: 
 
-- Gibt an, ob der Teams Benutzer für Location-Based Routing aktiviert ist, wie in der Teams Anrufrichtlinie des Benutzers definiert.
+- Gibt an, ob der Teams-Benutzer für Location-Based Routing aktiviert ist, wie in der Teams-Anrufrichtlinie des Benutzers definiert.
 
-- Die Teams Standort des Endpunktnetzwerks des Benutzers und ob der Standort für Location-Based Routing aktiviert oder nicht aktiviert ist.
+- Der Standort des Endpunktnetzwerkstandorts des Teams-Benutzers und ob der Standort für Location-Based Routing aktiviert oder nicht aktiviert ist.
 
 - Der Standort des Netzwerkstandorts des PSTN-Gateways, das vom Anruf verwendet wird.
 
 - Gibt an, ob das vom Anruf verwendete PSTN-Gateway für Location-Based Routing aktiviert wurde.
 
-- Bei Übertragungsszenarien basiert die Route des PSTN-Anrufs auf den Routingeinstellungen der Person, die den Anruf übergibt, und auf den Location-Based Routingeinstellungen des Teams Benutzers, an den der Anruf weitergeleitet wird.  
+- Bei Übertragungsszenarien basiert die Route des PSTN-Anrufs auf den Routingeinstellungen der Person, die den Anruf übergibt, und auf den Location-Based Routingeinstellungen des Teams-Benutzers, an den der Anruf weitergeleitet wird.  
 
-- Für Konferenz- und Gruppenanrufszenarien, unabhängig davon, ob ein Teams Benutzer, für den die gebührenpflichtige Umgehung eingeschränkt ist, Teil des Anrufs ist oder war.
+- Für Konferenz- und Gruppenanrufszenarien, unabhängig davon, ob ein Teams-Benutzer, für den die gebührenpflichtige Umgehung eingeschränkt ist, Teil des Anrufs ist oder war.
 
-Wenn ein Anruf nicht abgeschlossen werden kann, wird der Teams Benutzer wie folgt benachrichtigt:
+Wenn ein Anruf nicht abgeschlossen werden kann, wird der Teams-Benutzer wie folgt benachrichtigt:
 
 - Bei ausgehenden PSTN-Anrufen wird die folgende Meldung im Anruffenster angezeigt: Anruf aufgrund der Einstellungen Ihrer Organisation nicht zulässig.
 
-- Bei eingehenden PSTN-Anrufen wird der Anruf basierend auf den anrufbeantworteten Einstellungen Teams Benutzers weitergeleitet, in der Regel an Voicemail. Wenn für den Teams Benutzer keine Einstellungen für unbeantwortete Anrufe konfiguriert sind, wird die Verbindung getrennt.
+- Bei eingehenden PSTN-Anrufen wird der Anruf basierend auf den Einstellungen für die anruflose Anrufweiterleitung des aufgerufenen Teams-Benutzers weitergeleitet, in der Regel an Voicemail. Wenn für den Teams-Benutzer keine Einstellungen für unbeantwortete Anrufe konfiguriert sind, wird die Verbindung getrennt.
 
 ## <a name="apply-location-based-routing"></a>Anwenden Location-Based Routings
 
@@ -106,7 +106,7 @@ Die Einschränkung der Gebührenumgehung steuert die Bedingungen, unter denen ei
 
 Wenn ein Benutzer unter der Einschränkung der gebührenpflichtigen Umgehung steht, muss dieser Benutzer für Location-Based Routing aktiviert sein. Wenn sich der aktivierte Benutzer an einem Standort befindet, der für Location-Based Routing aktiviert ist, muss der Benutzer Anrufe über ein Gateway tätigen, das sowohl mit dem Standort verbunden als auch für Location-Based Routing aktiviert ist. 
 
-Location-Based Routing funktioniert, indem der aktuelle Standort des Benutzers basierend auf der IP-Adresse des Teams Endpunkts des Benutzers ermittelt wird und die Regeln entsprechend angewendet werden. Der Speicherort eines Benutzers, der für Location-Based Routing aktiviert ist, kann wie folgt kategorisiert werden: 
+Location-Based Routing funktioniert, indem der aktuelle Standort des Benutzers anhand der IP-Adresse des Teams-Endpunkts des Benutzers ermittelt wird und die Regeln entsprechend angewendet werden. Der Speicherort eines Benutzers, der für Location-Based Routing aktiviert ist, kann wie folgt kategorisiert werden: 
 
 - **Der Benutzer befindet sich an demselben Location-Based Routing-aktivierten Standort, der dem PSTN-Gateway zugeordnet ist, dem die DID zugewiesen ist.**<br>In diesem Szenario befindet sich der Benutzer an einem konfigurierten Netzwerkstandort, der für Location-Based Routing aktiviert ist, und die DID-Nummer (Direct Inward Dial) des Benutzers wird auf einem PSTN-Gateway beendet, das sich am gleichen Netzwerkstandort befindet. Beispielsweise befindet sich der Benutzer in seiner Niederlassung. 
 
@@ -141,7 +141,7 @@ Wenn Sie gatewayLbrEnabledUserOverride auf "True" festlegen, können standortbas
 
 ## <a name="restriction-rules"></a>Einschränkungsregeln
 
-Einschränkungsregeln hängen davon ab, ob ein Teams Benutzer für Location-Based Routing aktiviert ist oder nicht.
+Einschränkungsregeln hängen davon ab, ob ein Teams-Benutzer für Location-Based Routing aktiviert ist oder nicht.
 
 ### <a name="user-is-enabled-for-location-based-routing"></a>Der Benutzer ist für Location-Based Routing aktiviert.
 
@@ -163,7 +163,7 @@ Wenn ein Benutzer für Location-Based Routing aktiviert ist, gilt Folgendes:
 
    - In jedem anderen Szenario, z. B. beim Roaming des Benutzers, ist der Anruf nicht zulässig und wird an die Einstellungen für die Anrufweiterleitung (in der Regel Voicemail) des Benutzers weitergeleitet.  
    
-- Beachten Sie für **einen 1:1-Teams VoIP-Anruf und die Übertragung an das PSTN** Folgendes:
+- Beachten Sie für **einen 1:1 Teams-VoIP-Anruf und die Übertragung an das PSTN** Folgendes:
 
   - Das Routing des Anrufs – d. h. welches PSTN-Gateway den Anruf ausgehend hat – basiert auf den Routingeinstellungen des Benutzers, der den Anruf übergibt.
 
@@ -175,7 +175,7 @@ Wenn ein Benutzer für Location-Based Routing aktiviert ist, gilt Folgendes:
 
     Die Übertragung ist zulässig, wenn der übertragene Benutzer diesen PSTN-Anruf am aktuellen Standort mit demselben PSTN-Gateway tätigen kann.
 
-- **Für einen eingehenden oder ausgehenden PSTN-Anruf und die Übertragung an einen anderen Teams Benutzer** hängt davon ab, ob die Übertragung zulässig ist:
+- **Für einen eingehenden oder ausgehenden PSTN-Anruf und die Übertragung an einen anderen Teams-Benutzer** hängt davon ab, ob die Übertragung zulässig ist:
 
    - Die Routingeinstellungen des Benutzers, der den weitergeleiteten Anruf empfängt. 
    - Der Standort des Endpunktnetzwerks.
@@ -186,7 +186,7 @@ Wenn ein Benutzer für Location-Based Routing aktiviert ist, gilt Folgendes:
 
 ### <a name="user-is-not-enabled-for-location-based-routing"></a>Der Benutzer ist für Location-Based Routing nicht aktiviert.
 
-Wenn ein Teams Benutzer nicht für Location-Based Routing aktiviert ist, müssen alle Anrufe an und von diesem Benutzer über ein PSTN-Gateway geleitet werden, das nicht für Location-Based Routing aktiviert ist. Ein eingehender Anruf an einen solchen Benutzer, der über ein PSTN-Gateway weitergeleitet wird, das für Location-Based Routing aktiviert ist, wird an die Einstellungen für die unbeantwortete Anrufweiterleitung (in der Regel Voicemail) des Benutzers weitergeleitet.
+Wenn ein Teams-Benutzer nicht für Location-Based Routing aktiviert ist, müssen alle Anrufe an und von diesem Benutzer über ein PSTN-Gateway geleitet werden, das nicht für Location-Based Routing aktiviert ist. Ein eingehender Anruf an einen solchen Benutzer, der über ein PSTN-Gateway weitergeleitet wird, das für Location-Based Routing aktiviert ist, wird an die Einstellungen für die unbeantwortete Anrufweiterleitung (in der Regel Voicemail) des Benutzers weitergeleitet.
 
 ### <a name="decision-flows-for-inbound-and-outbound-calls"></a>Entscheidungsflüsse für eingehende und ausgehende Anrufe
 
@@ -205,10 +205,10 @@ Die folgenden Diagramme zeigen die Entscheidungsflüsse für eingehende und ausg
 
 In diesem Abschnitt werden verschiedene Szenarien zum Einschränken der gebührenpflichtigen Umgehung mithilfe von Location-Based Routing beschrieben. Die Szenarien vergleichen die Weiterleitung von Anrufen für Benutzer, die nicht für Location-Based Routing aktiviert sind, mit Benutzern, die für Location-Based Routing aktiviert sind.
 
-- [Teams Benutzer gibt einen ausgehenden Anruf an das PSTN ab](#teams-user-places-an-outbound-call-to-the-pstn)
-- [Teams Benutzer erhält einen eingehenden Anruf vom PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [Teams Benutzer überträgt oder leitet einen Anruf an einen anderen Teams Benutzer weiter.](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [Teams Benutzer überträgt oder leitet Anrufe an den PSTN-Endpunkt weiter](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [Teams-Benutzer platziert einen ausgehenden Anruf an das PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
+- [Teams-Benutzer erhält einen eingehenden Anruf aus dem PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [Teams-Benutzer überträgt oder leitet Anrufe an einen anderen Teams-Benutzer weiter](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Teams-Benutzer überträgt oder leitet Anrufe an den PSTN-Endpunkt weiter](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [Paralleles Anrufen](#simultaneous-ringing)
 - [Delegierung](#delegation)
 
@@ -216,7 +216,7 @@ Das folgende Diagramm zeigt die Einschränkungen, die durch Location-Based Routi
 
 ![Diagramm mit Szenarien für Location-Based Routing.](media/lbr-direct-routing.png "Diagramm mit Szenarien für Location-Based Routing")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams Benutzer gibt einen ausgehenden Anruf an das PSTN ab
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams-Benutzer platziert einen ausgehenden Anruf an das PSTN
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Benutzer für Location-Based Routing nicht aktiviert
 
@@ -234,7 +234,7 @@ Im Vergleich dazu wird das Routing ausgehender Anrufe für Benutzer, die für Lo
 |Unbekanntes internes Netzwerk (Standort4)    |  PSTN-Anrufe sind nicht zulässig, es sei denn, gatewayLbrEnabledUserOverride ist auf "True" festgelegt.       |
 |Unbekanntes externes Netzwerk (Standort5)    | PSTN-Anrufe sind nicht zulässig, es sei denn, gatewayLbrEnabledUserOverride ist auf "True" festgelegt.       |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams Benutzer erhält einen eingehenden Anruf vom PSTN
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams-Benutzer erhält einen eingehenden Anruf aus dem PSTN
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Benutzer für Location-Based Routing nicht aktiviert
 
@@ -252,11 +252,11 @@ Im Vergleich dazu können Benutzer, die für Location-Based Routing aktiviert si
 |Unbekanntes internes Netzwerk (Standort4)   | Anrufe, die nicht an Endpunkte in Position 4 weitergeleitet werden        |
 |Unbekanntes externes Netzwerk (Standort5)     | Anrufe, die nicht an Endpunkte in Standort 5 weitergeleitet werden        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams Benutzer überträgt oder leitet einen Anruf an einen anderen Teams Benutzer weiter.
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams-Benutzer überträgt oder leitet Anrufe an einen anderen Teams-Benutzer weiter
 
 Wenn ein PSTN-Endpunkt beteiligt ist, analysiert Location-Based Routing, ob ein oder beide Benutzer für Location-Based Routing aktiviert sind, und bestimmt, ob der Anruf je nach Standort beider Endpunkte übertragen oder weitergeleitet werden soll. 
  
-Die Anrufweiterleitung erfordert, dass der initiierende Benutzer den Anruf entgegennimmt, während die Anrufweiterleitung nicht erfordert, dass der erste Anruf angenommen wird. Anrufe können weitergeleitet werden, auch wenn Sich Benutzer1 nicht an einem Ort zum Empfangen eingehender Anrufe befindet (siehe die Tabelle in der [Teams Benutzer erhält einen eingehenden Anruf aus dem PSTN-Abschnitt](#teams-user-receives-an-inbound-call-from-the-pstn)) und Anrufe nicht durchgestellt werden können, wenn Benutzer1 den eingehenden Anruf nicht empfangen kann. 
+Die Anrufweiterleitung erfordert, dass der initiierende Benutzer den Anruf entgegennimmt, während die Anrufweiterleitung nicht erfordert, dass der erste Anruf angenommen wird. Anrufe können weitergeleitet werden, auch wenn Sich Benutzer1 nicht an einem Ort zum Empfangen eingehender Anrufe befindet (siehe tabelle im [Teams-Benutzer erhält einen eingehenden Anruf aus dem PSTN-Abschnitt](#teams-user-receives-an-inbound-call-from-the-pstn) ) und Anrufe können nicht weitergeleitet werden, wenn Benutzer1 den eingehenden Anruf nicht empfangen kann. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Benutzer für Location-Based Routing nicht aktiviert
 
@@ -268,7 +268,7 @@ Ebenso kann ein Benutzer, der nicht für Location-Based Routing aktiviert ist, n
 
 Das Übertragen und Weiterleiten eingehender PSTN-Anrufe von einem Gateway, das für Location-Based Routing aktiviert ist, ist nur zulässig, wenn der Zielbenutzer für Location-Based Routing aktiviert ist und sich am selben Standort befindet. Andernfalls ist das Durch- und Weiterleiten von Anrufen nicht zulässig. 
 
-Die folgende Tabelle zeigt, ob Anrufweiterleitung und Anrufweiterleitung je nach Standort des Zielbenutzers zulässig sind. In dieser Tabelle initiiert Benutzer1, der sich in Site1 befindet, die Übertragung oder Weiterleitung an andere Teams Benutzer, die auch für Location-Based Routing aktiviert sind und sich an verschiedenen Standorten befinden.  
+Die folgende Tabelle zeigt, ob Anrufweiterleitung und Anrufweiterleitung je nach Standort des Zielbenutzers zulässig sind. In dieser Tabelle initiiert Benutzer1, der sich in Site1 befindet, die Übertragung oder Weiterleitung an andere Teams-Benutzer, die ebenfalls für Location-Based Routing aktiviert sind und sich an verschiedenen Standorten befinden.  
 
 |Zielbenutzerendpunktspeicherort|User1 initiiert anrufweiterleitung |Benutzer1 initiiert anrufweiterleitung|
 |---------|---------|---------|
@@ -278,7 +278,7 @@ Die folgende Tabelle zeigt, ob Anrufweiterleitung und Anrufweiterleitung je nach
 |Unbekanntes internes Netzwerk (Benutzer5)| Nicht zulässig|Nicht zulässig|
 |Unbekanntes externes Netzwerk (User6)| Nicht zulässig|Nicht zulässig|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams Benutzer überträgt oder leitet Anrufe an den PSTN-Endpunkt weiter
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams-Benutzer überträgt oder leitet Anrufe an den PSTN-Endpunkt weiter
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Benutzer für Location-Based Routing nicht aktiviert
 
@@ -313,7 +313,7 @@ Die folgende Tabelle zeigt, wie sich Location-Based Routing auf das Routing eine
 
 Wenn ein Benutzer, der für Location-Based Routing aktiviert ist, einen Anruf empfängt und gleichzeitiges Klingeln aktiviert ist, analysiert Location-Based Routing den Standort des Anrufers und die Endpunkte der aufgerufenen Parteien, um zu bestimmen, ob der Anruf weitergeleitet werden soll. Gleichzeitiges Klingeln folgt den gleichen Location-Based Regeln wie Anrufübertragungen und Weiterleitungen. 
 
-#### <a name="simultaneous-ringing-for-another-teams-user"></a>Gleichzeitiges Klingeln für einen anderen Teams Benutzer
+#### <a name="simultaneous-ringing-for-another-teams-user"></a>Gleichzeitiges Klingeln für einen anderen Teams-Benutzer
 
 Die folgende Tabelle zeigt, ob Location-Based Routing gleichzeitiges Klingeln an verschiedene Benutzer für einen eingehenden PSTN-Anruf für User1 zulässt.
 
@@ -350,11 +350,11 @@ Die Weiterleitung an Voicemail ist ebenfalls zulässig.
 
 ### <a name="delegation"></a>Delegierung
 
-Ein Teams Benutzer kann Stellvertretungen auswählen, die Anrufe in ihrem Namen tätigen und empfangen können. Delegierungsfunktionen in Teams sind wie folgt von Location-Based Routing betroffen: 
+Ein Teams-Benutzer kann Stellvertretungen auswählen, die Anrufe in ihrem Namen tätigen und empfangen können. Delegierungsfunktionen in Teams sind von Location-Based Routing wie folgt betroffen: 
 
-- Für ausgehende Anrufe von einer Location-Based Routing-aktivierten Stellvertretung im Namen eines Delegators gelten die gleichen Regeln. Das Anrufrouting basiert auf der Anrufautorisierungsrichtlinie, der VoIP-Routingrichtlinie und dem Standort des Stellvertreters. Weitere Informationen finden Sie [unter Teams Benutzer einen ausgehenden Anruf an das PSTN durchführt](#teams-user-places-an-outbound-call-to-the-pstn). 
+- Für ausgehende Anrufe von einer Location-Based Routing-aktivierten Stellvertretung im Namen eines Delegators gelten die gleichen Regeln. Das Anrufrouting basiert auf der Anrufautorisierungsrichtlinie, der VoIP-Routingrichtlinie und dem Standort des Stellvertreters. Weitere Informationen finden Sie unter [Teams-Benutzer platziert einen ausgehenden Anruf an das PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
 
-- Für eingehende PSTN-Anrufe an einen Delegator gelten dieselben Location-Based Routingregeln, die für die Anrufweiterleitung oder gleichzeitiges Anrufen an andere Benutzer gelten, auch für Stellvertretungen. Weitere Informationen finden Sie [unter Teams Benutzer Anrufe an einen anderen Teams Benutzer überträgt oder weiterleitet](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams Benutzer Anrufe an den PSTN-Endpunkt überträgt oder weiterleitet](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) und [gleichzeitig klingelt](#simultaneous-ringing). Wenn ein Delegat einen PSTN-Endpunkt als Ziel für gleichzeitiges Anrufen festlegt, wird die VoIP-Routingrichtlinie des Delegaten verwendet, um den Anruf an das PSTN weiterzuleiten. 
+- Für eingehende PSTN-Anrufe an einen Delegator gelten dieselben Location-Based Routingregeln, die für die Anrufweiterleitung oder gleichzeitiges Anrufen an andere Benutzer gelten, auch für Stellvertretungen. Weitere Informationen finden Sie unter [Teams-Benutzerübertragungen oder -Weiterleitungen an einen anderen Teams-Benutzer](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams-Benutzerübertragungen oder Weiterleitungen von Anrufen an den PSTN-Endpunkt](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) und [gleichzeitiges Klingeln](#simultaneous-ringing). Wenn ein Delegat einen PSTN-Endpunkt als Ziel für gleichzeitiges Anrufen festlegt, wird die VoIP-Routingrichtlinie des Delegaten verwendet, um den Anruf an das PSTN weiterzuleiten. 
 
 - Für die Delegierung empfiehlt Microsoft, dass sich der Delegator und die zugehörigen Stellvertretungen am selben Netzwerkstandort befinden. 
 
@@ -370,20 +370,20 @@ IPv4- und IPv6-Subnetze werden unterstützt, IPv6 hat jedoch Vorrang bei der Suc
 
 ### <a name="client-support-for-location-based-routing"></a>Clientunterstützung für Location-Based Routing
 
-Die folgenden Teams Clients werden unterstützt:
-- Teams Desktopclients (Windows und Mac)
-- Teams mobile Clients (iOS und Android)
-- Teams IP-Telefone
+Die folgenden Teams-Clients werden unterstützt:
+- Teams-Desktopclients (Windows und Mac)
+- Mobile Teams-Clients (iOS und Android)
+- Teams-IP-Telefone
 
 Der Teams-Webclient und Skype for Business-Clients werden nicht unterstützt.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Vom standortbasierten Routing nicht unterstützte Funktionen
 
-Location-Based Routing gilt nicht für die folgenden Arten von Interaktionen. Location-Based Routing wird nicht erzwungen, wenn Teams Endpunkte in den folgenden Szenarien mit PSTN-Endpunkten interagieren: 
+Location-Based Routing gilt nicht für die folgenden Arten von Interaktionen. Location-Based Routing wird nicht erzwungen, wenn Teams-Endpunkte in den folgenden Szenarien mit PSTN-Endpunkten interagieren: 
 
 - Parken von Anrufen oder Abrufen von PSTN-Anrufen über das Parken von Anrufen 
 
-- Ein lokaler Skype for Business Benutzer oder ein Skype for Business Onlinebenutzer ruft einen Teams Benutzer auf.  
+- Ein lokaler Skype for Business Benutzer oder ein Skype for Business Online-Benutzer ruft einen Teams-Benutzer auf.  
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based Routing für Konferenzen
 
@@ -395,7 +395,7 @@ In einer Telefonkonferenz, die von einem Benutzer ohne Audiokonferenzlizenz gest
 
 Wenn der benutzer mit aktivierter Location-Based Routing an der Telefonkonferenz von einem internen Standort aus beitritt, der nicht für Location-Based Routing aktiviert ist, werden die Einschränkungen im vorstehenden Absatz nicht erzwungen. 
 
-On-network conferencing for Audiokonferenz must NOT be deployed with any telephony equipment in India.
+On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Medienumgehungsanforderung für Location-Based Routing
@@ -410,4 +410,4 @@ Direct Voice over IP (VoIP) darf nicht mit Telefoniegeräten in Indien bereitges
 ## <a name="related-articles"></a>Verwandte Artikel
 
 - [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
-- [Netzwerkeinstellungen für Cloud voice features in Teams](cloud-voice-network-settings.md)
+- [Netzwerkeinstellungen für Cloud Voice-Features in Teams](cloud-voice-network-settings.md)

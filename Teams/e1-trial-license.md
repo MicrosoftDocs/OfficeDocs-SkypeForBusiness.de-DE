@@ -1,7 +1,7 @@
 ---
 title: Verwalten der kostenlosen Office 365 E1-Testversion
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 875693e23b5e13f48a031a21f0037f1576dbd1ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 496b0d912ba88c17106d4941edacd2777bfcec97
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611694"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562564"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>Verwalten der Office 365 E1-Testversion
 

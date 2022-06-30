@@ -1,7 +1,7 @@
 ---
 title: Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 1a8993882bb281dc7c9bd6b8bde95387a183b637
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125490"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562764"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
 
-In Microsoft Teams gibt es zwei Benutzerrollen: **Besitzer** und **Mitglied**. Standardmäßig wird einem Benutzer, der ein neues Team erstellt, der Status "Besitzer" zugewiesen. Besitzern und Mitgliedern können außerdem Moderatorfunktionen für einen bestimmten Kanal zugeordnet werden (sofern die Moderation eingerichtet wurde). Wenn ein Team aus einer vorhandenen Microsoft 365 Gruppe erstellt wird, werden Berechtigungen geerbt.
+In Microsoft Teams gibt es zwei Benutzerrollen: **Besitzer** und **Mitglied**. Standardmäßig wird einem Benutzer, der ein neues Team erstellt, der Status "Besitzer" zugewiesen. Besitzern und Mitgliedern können außerdem Moderatorfunktionen für einen bestimmten Kanal zugeordnet werden (sofern die Moderation eingerichtet wurde). Wenn ein Team aus einer vorhandenen Microsoft 365-Gruppe erstellt wird, werden Berechtigungen geerbt.
 
 Die folgende Tabelle zeigt den Unterschied zwischen den Berechtigungen eines Besitzers und eines Mitglieds.
 
@@ -71,7 +71,7 @@ Weitere Informationen über Moderatorfunktionen finden Sie unter [Einrichten und
 
 ## <a name="assign-a-user-role"></a>Zuweisen einer Benutzerrolle
 
-Um eine Benutzerrolle zuzuweisen, wählen Sie in Teams den Teamnamen und dann **weitere Optionen** (**...**) > **Team verwalten** aus. Auf der Registerkarte **Mitglieder** können Sie Mitglieder hinzufügen sowie Besitzer und Moderatoren auswählen (sofern Sie über ausreichende Berechtigungen verfügen). Weitere Informationen finden [Sie unter Ändern der Teameinstellungen in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Um eine Benutzerrolle zuzuweisen, wählen Sie in Teams den Teamnamen und dann **weitere Optionen** (**...**) > **Team verwalten** aus. Auf der Registerkarte **Mitglieder** können Sie Mitglieder hinzufügen sowie Besitzer und Moderatoren auswählen (sofern Sie über ausreichende Berechtigungen verfügen). Weitere Informationen finden Sie unter [Ändern der Teameinstellungen in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
 
 > [!NOTE]
 > Die Option **"Team verwalten** " wird für angeheftete Kanäle nicht angezeigt. Wählen Sie den Teamnamen weiter unten unter *"Ihre Teams* " und dann rechts neben dem Namen " **Weitere Optionen** " (**...**) aus.

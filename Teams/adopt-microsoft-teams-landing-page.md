@@ -3,8 +3,8 @@ title: Einführen von Microsoft Teams
 ms.reviewer: karuanag
 description: Erfahren Sie mehr über die verfügbaren Einführungsressourcen, mit denen Sie Microsoft Teams in Ihrer Organisation planen und bereitstellen können.
 ms.topic: overview
-author: serdarsoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: admin
 ms.service: msteams
@@ -19,17 +19,17 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57f93cc72402f229acf8587c86ce31847cc896dc
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 12831234a1b997164e0f274ec9e0d3d15a435eb2
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013849"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562204"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
 
 > [!NOTE]
-> Eine Übersicht über die Umstellung auf Fernunterricht und Ressourcen als Einstiegshilfe finden Sie unter Erste Schritte mit Microsoft Teams [für Fernunterricht.](remote-learning-edu.md)
+> Eine Übersicht über den Übergang zu Remote Learning und Ressourcen, die Ihnen bei den ersten Schritte helfen, finden Sie unter ["Erste Schritte mit Microsoft Teams für Remote learning](remote-learning-edu.md)".
 
 Wenn Sie Microsoft Teams mit Chat, Teams und Kanälen und Besprechungen einführen möchten, verwenden Sie unsere ausführliche Anleitung [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md), die darauf ausgelegt ist, Ihnen einen schnellen Einstieg zu ermöglichen. Wenn Ihr Unternehmen eine große Organisation mit einer hybriden oder lokalen Skype for Business-Konfiguration ist oder wenn Sie Sprachfunktionen (wie Microsoft 365 oder Office 365-Anrufpläne oder das Telefonsystem) bereitstellen möchten, können Sie mit unserer Anleitung für die ersten Schritte beginnen. Sie benötigen jedoch zusätzliche Anleitungen, die Sie unter [Ausführlicher Einführungsleitfaden](#deeper-adoption-guidance) finden.
 

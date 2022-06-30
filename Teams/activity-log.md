@@ -1,48 +1,53 @@
 ---
 title: Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll im Microsoft Teams Admin Center
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 'Erfahren Sie, wie Sie Ihre Richtlinienzuweisungsaktivitäten im Aktivitätsprotokoll im Microsoft Teams Admin Center anzeigen.'
+description: Erfahren Sie, wie Sie Ihre Richtlinienzuweisungsaktivitäten im Aktivitätsprotokoll im Microsoft Teams Admin Center anzeigen.
 ms.localizationpriority: medium
 f1.keywords:
-  - CSH
-  - ms.teamsadmincenter.dashboard.activitylog.overview
-ms.custom: null
+- CSH
+- ms.teamsadmincenter.dashboard.activitylog.overview
+ms.custom: ''
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: e8243d60a2aca31a8b9158b922126c7c80a486eb
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562214"
 ---
-
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll
 
-Wenn Sie den Benutzern im Microsoft Teams Admin Center Richtlinien zuweisen, können Sie den Status dieser Richtlinienzuweisungen im Aktivitätsprotokoll anzeigen. Im Aktivitätsprotokoll werden Richtlinienzuweisungen für Batches von mehr als 20 Benutzern im Microsoft Teams Admin Center der letzten 30 Tage angezeigt. Beachten Sie, dass im Aktivitätsprotokoll über das Microsoft Teams Admin Center keine Richtlinienpaketzuweisungen, keine Richtlinienzuweisungen für Batches von weniger als 20 Benutzern oder keine Richtlinienzuweisungen über PowerShell angezeigt werden.
+Wenn Sie Benutzern im Microsoft Teams Admin Center Richtlinien zuweisen, können Sie den Status dieser Richtlinienzuweisungen im Aktivitätsprotokoll anzeigen. Das Aktivitätsprotokoll zeigt Richtlinienzuweisungen zu Batches von mehr als 20 Benutzern über das Microsoft Teams Admin Center aus den letzten 30 Tagen an. Beachten Sie, dass im Aktivitätsprotokoll keine Richtlinienpaketzuweisungen, Richtlinienzuweisungen zu Batches von weniger als 20 Benutzern über das Microsoft Teams Admin Center oder Richtlinienzuweisungen über PowerShell angezeigt werden.
 
-![Screenshot der Seite "Aktivitätsprotokoll"](media/activity-log.png)
+![Screenshot der Seite "Aktivitätsprotokoll".](media/activity-log.png)
 
 ## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>Anzeigen Ihrer Richtlinienzuweisungsaktivitäten im Aktivitätsprotokoll
 
 So zeigen Sie Ihre Richtlinienzuweisungen im Aktivitätsprotokoll an:
 
-1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin **Center zu Start**, und wählen Sie dann unter Aktivitätsprotokoll die Option **Details anzeigen aus**.
-2. Sie können alle Richtlinienzuweisungen anzeigen oder die Liste nach Status filtern, um nur Die Aufgaben "Nicht begonnen **"**, " **In Bearbeitung**" oder "Abgeschlossen" **angezeigt zu werden**. Zu jeder Aufgabe werden die folgenden Informationen zu sehen:
-    - **Name**: Der Name der Richtlinienzuweisung. Klicken Sie auf den Link, um weitere Details anzuzeigen. Dies umfasst die Anzahl der Benutzer, denen die Richtlinie zugewiesen wurde, sowie die Anzahl der abgeschlossenen, in Bearbeitung und nicht begonnenen Zuordnungen. Außerdem sehen Sie die Liste der Benutzer im Batch sowie den Status und das Ergebnis für jeden Benutzer. Nachfolgend ein Beispiel:
+1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **"Start**", und wählen Sie dann unter **"Aktivitätsprotokoll**" die Option " **Details anzeigen"** aus.
+2. Sie können alle Richtlinienzuweisungen anzeigen oder die Liste nach Status filtern, um nur Zuordnungen anzuzeigen, die **nicht gestartet**, **in Bearbeitung** oder **abgeschlossen** sind. Zu jeder Aufgabe werden die folgenden Informationen angezeigt:
+    - **Name**: Der Name der Richtlinienzuweisung. Klicken Sie auf den Link, um weitere Details anzuzeigen. Dies umfasst die Anzahl der Benutzer, der die Richtlinie zugewiesen wurde, und die Anzahl der abgeschlossenen Aufgaben, die ausgeführt und nicht gestartet wurden. Außerdem werden die Liste der Benutzer im Batch sowie der Status und das Ergebnis für jeden Benutzer angezeigt. Nachfolgend ein Beispiel:
 
-        ![Screenshot der](media/activity-log-policy-assignment-detail.png)
+        ![Screenshot des Screenshots.](media/activity-log-policy-assignment-detail.png)
 
-    - **Übermittelt**: Datum und Uhrzeit der Richtlinienzuweisung.
-    - **Fertigstellungszeit**: Datum und Uhrzeit der Richtlinienzuweisung.
+    - **Übermittelt**: Datum und Uhrzeit der Übermittlung der Richtlinienzuweisung.
+    - **Abschlusszeit**: Datum und Uhrzeit, zu dem die Richtlinienzuweisung abgeschlossen wurde.
     - **Auswirkung auf**: Anzahl der Benutzer im Batch.
     - **Gesamtstatus**: Status der Richtlinienzuweisung.
 
 > [!NOTE]
-> Sie können das Aktivitätsprotokoll auch über die Seite **Benutzer** öffnen. Nachdem Sie auf **Übernehmen geklickt** haben, um eine Massenrichtlinienzuweisung zu übermitteln, wird oben auf der Seite ein Banner angezeigt. Klicken Sie **im Banner** auf den Link Aktivitätsprotokoll.
+> Sie können auch über die Seite **"Benutzer** " zum Aktivitätsprotokoll gelangen. Nachdem Sie auf **"Übernehmen"** geklickt haben, um eine Massenrichtlinienzuweisung zu übermitteln, wird oben auf der Seite ein Banner angezeigt. Klicken Sie im Banner auf den Link " **Aktivitätsprotokoll** ".
 
 ## <a name="related-topics"></a>Verwandte Themen
 
