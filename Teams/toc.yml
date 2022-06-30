@@ -637,6 +637,8 @@ items:
                 href: set-up-the-call-me-feature-for-your-users.md
               - name: Abrufen eines Anwesenheitsberichts zu einer Besprechung
                 href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Verwalten von Q&A in Teams-Besprechungen
+                href: manage-qna-for-teams.md
               - name: Verwalten des Whiteboards in Teams
                 href: manage-whiteboard.md
               - name: Teams-Meeting-Add-ons für Google Workspace einrichten
@@ -785,10 +787,12 @@ items:
             href: set-up-common-area-phones.md
           - name: Voicemail
             items:
-              - name: Einrichten von Cloudvoicemail
+              - name: Verwalten von Cloud-Voicemail
                 href: set-up-phone-system-voicemail.md
               - name: Verwalten von Voicemailrichtlinien
                 href: manage-voicemail-policies.md
+              - name: Verwalten der Voicemaileinstellungen
+                href: manage-voicemail-settings.md
               - name: Ändern der Standardsprache für Voicemail
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Sprachen für Voicemail-Ansagen und -Nachrichten
@@ -1618,7 +1622,7 @@ items:
             href: easy-policy-setup-edu.md
           - name: Elternverbindung in Teams for Education
             href: edu-parents-app.md
-          - name: Karrierecoach-App in Teams für Education
+          - name: Karrierecoach in Teams für Education
             href: career-coach.md
           - name: Chats in Microsoft Teams überwachen
             href: supervise-chats-edu.md
@@ -1658,8 +1662,8 @@ items:
             href: flw-quickstart.yml
           - name: Onboarding-Assistent für Mitarbeiter in Service und Produktion
             href: flw-onboarding-wizard.md
-          - name: Skriptgestützte Bereitstellung für Mitarbeiter in Service und Produktion
-            href: flw-scripted-deployment.md
+          - name: Bereitstellen von Teams in großem Umfang für Mitarbeitende in Service und Produktion
+            href: deploy-teams-at-scale.md
           - name: Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion
             href: pin-teams-apps-based-on-license.md
           - name: Verwalten der Schichten-App
@@ -1743,8 +1747,8 @@ items:
             href: get-started-with-retail-teams-templates.md
           - name: Onboarding-Assistent für Mitarbeiter in Service und Produktion
             href: flw-onboarding-wizard.md
-          - name: Skriptgestützte Bereitstellung für Mitarbeiter in Service und Produktion
-            href: flw-scripted-deployment.md
+          - name: Bereitstellen von Teams in großem Umfang für Mitarbeitende in Service und Produktion
+            href: deploy-teams-at-scale.md
           - name: Schichten für Teams
             items:
               - name: Schichten für Teams

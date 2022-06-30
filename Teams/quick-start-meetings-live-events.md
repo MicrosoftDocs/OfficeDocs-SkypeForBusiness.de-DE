@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913423"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240974"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Besprechungen, Webinare und Liveereignisse 
 
@@ -176,6 +176,8 @@ Um ein erfolgreiches Ereignis durchzuführen, sollten Sie sich an die nachstehen
 ### <a name="guidelines-for-your-end-users"></a>Richtlinien für Ihre Endbenutzer
 
 Ihre Organisatoren und Referenten sollten die folgenden Empfehlungen implementieren:
+
+- Verwenden Sie für Besprechungen mit mehr als 10 Teilnehmern [Q&A](/MicrosoftTeams/manage-qna-for-teams), um den Teilnehmern die Möglichkeit zu geben, formell Fragen zu stellen und Antworten zu erhalten sowie sich an strukturierte Diskussionen zu beteiligen.
 
 - Um eine reibungslose Besprechung zu erstellen, können Ereignisorganisatoren vordefinierte Referenten festlegen. Nachdem eine Besprechung begonnen hat, können Referenten auch anderen Teilnehmer die Referentenrolle zuweisen.
 
