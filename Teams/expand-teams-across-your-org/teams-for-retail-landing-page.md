@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: f965e69e3dda921cf5fdf348a728db403fc26a84
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753048"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494732"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Erste Schritte mit Teams für den Einzelhandel
 
@@ -127,7 +127,7 @@ Einzelhandelsmitarbeiter sind in der Regel mobile Mitarbeiter: arbeitsplatzungeb
 
 Bei hoher Fluktuation ist es entscheidend, Konten schnell hinzuzufügen, zu entfernen und die richtigen Richtlinien zu erhalten. Erste Schritte mit dem Onboarding-Assistenten für arbeitsplatzungebundene Mitarbeiter in Microsoft 365 Admin Center. Der Assistent richtet ein Team für Ihre arbeitsplatzungebundene Mitarbeiter ein und weist jedem Teammitglied Lizenzen und Richtlinienpakete zu. Weitere Informationen finden Sie unter [Verwenden Sie den Onboarding-Assistenten für arbeitsplatzungebundene Mitarbeiter, um Ihrem arbeitsplatzungebundenen Personal einen schnellen Einstieg zu ermöglichen](../flw-onboarding-wizard.md).
 
-Wenn Sie viele Benutzer hinzufügen müssen (mehr als 100), können Sie mit einer skriptgestützten Bereitstellung für [arbeitsplatzungebundene Mitarbeiter](../flw-scripted-deployment.md) schnell Benutzer und Teams bereitstellen und alle relevanten Richtlinien zuweisen.
+Wenn Sie über viele Teams verfügen, die Sie bereitstellen möchten, lesen Sie [Bereitstellen von Teams im großen Maßstab für Mitarbeiter im Service und in der Produktion](../deploy-teams-at-scale.md).
 
 Die Anwesenheit von arbeitsplatzungebundener Mitarbeitern ist häufig weniger vorhersagbar als bei anderen Mitarbeitern, da ihre Arbeitszeiten in der Regel nicht jeden Tag gleich sind. Ein Administrator kann Teams auf schichtbasierten Zugriff (Vorschau) konfigurieren, sodass eine Zusammenstellung der Anwesenheitsstatus der arbeitsplatzungebundenen Mitarbeiter schichtbasiert angezeigt wird, um anzugeben, wann sie an- oder abwesend sind. Sie können auch den Zugriff auf Teams verwalten, wenn arbeitsplatzungebundene Mitarbeiter abwesend sind. Weitere Informationen finden Sie unter [Verwalten des schichtbasierten Zugriffs für arbeitsplatzungebundene Mitarbeiter](shifts/manage-shift-based-access-flw.md).
 
