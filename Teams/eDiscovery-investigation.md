@@ -17,12 +17,12 @@ description: Erfahren Sie, was Sie tun müssen, wenn Sie eDiscovery durchführen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562424"
+ms.locfileid: "66563943"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -38,7 +38,7 @@ Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die I
 
 |Inhaltstyp|eDiscoverable|Hinweise|
 |---|---|---|
-|Audioaufzeichnungen|Nein||
+|Audioaufzeichnungen|Ja||
 |Karteninhalt|Ja|Weitere Informationen finden [Sie unter "Nach Karteninhalt suchen](#search-for-card-content) ".|
 |Chatlinks|Ja||
 |Chatnachrichten|Ja|Dazu gehören Inhalte in standardmäßigen Teams-Kanälen, 1:1-Chats, 1:N-Gruppenchats und Chats mit Gastbenutzerteilnehmern.|
@@ -51,7 +51,6 @@ Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die I
 |Chatunterhaltungen für Besprechungen|Ja||
 |Besprechungsmetadaten<sup>1</sup>|Ja||
 |Name des Kanals|Ja||
-|Private und freigegebene Kanal-Chatnachrichten|Ja||
 |Zitate|Ja|Zitierte Inhalte können durchsucht werden. Die Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde.|
 |Reaktionen (z. B. Likes, Herzen und andere Reaktionen)|Ja||
 |Betreff|Ja||

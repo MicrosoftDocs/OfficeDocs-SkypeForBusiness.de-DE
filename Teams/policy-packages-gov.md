@@ -1,7 +1,7 @@
 ---
-title: Teams Richtlinienpakete für Behörden
-author: serdars
-ms.author: serdars
+title: Teams-Richtlinienpakete für Behörden
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -9,20 +9,25 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
-f1.keywords: null
-ms.custom: null
+- Microsoft Teams
+f1.keywords: ''
+ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 'Hier erfahren Sie, wie Sie Teams Richtlinienpakete für Ihre Regierungsorganisation verwenden und verwalten.'
+description: Erfahren Sie, wie Sie Teams-Richtlinienpakete für Ihre Regierungsorganisation verwenden und verwalten.
+ms.openlocfilehash: fdaacb8b551c1031d71c522dffdbc4afd9f551a8
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564093"
 ---
-
-# <a name="teams-policy-packages-for-government"></a>Teams Richtlinienpakete für Behörden
+# <a name="teams-policy-packages-for-government"></a>Teams-Richtlinienpakete für Behörden
 
 > [!NOTE]
-> Richtlinienpakete sind in Bereitstellungen von Government Microsoft 365 Government GCC DoD derzeit nicht verfügbar.
+> Richtlinienpakete sind derzeit in Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
 
 ## <a name="overview"></a>Übersicht
 
@@ -40,15 +45,15 @@ Teams enthält derzeit die folgenden Richtlinienpakete für Behörden.
 
 |Paketname im Microsoft Teams Admin Center|Am besten geeignet für|Beschreibung |
 |---------|---------|---------|
-|Public Safety Officer  |Public Safety Officers in Ihrer Regierungorganisation  |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten. |
-|Frontline-Manager  |Frontline Manager in Ihrer Regierungsorganisation |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Frontline-Manager in Ihrer Organisation an.|
-|Frontline-Worker  |Mitarbeiter in Frontline in Ihrer Regierungsorganisation |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Frontline Workers in Ihrer Organisation an.|
+|Öffentlicher Sicherheitsbeauftragter  |Öffentliche Sicherheitsbeauftragte in Ihrer Regierungsorganisation  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten. |
+|Vorgesetzter in Service und Produktion  |Vorgesetzte in Service und Produktion in Ihrer Regierungsorganisation |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Vorgesetzte in Service und Produktion in Ihrer Organisation an.|
+|Mitarbeiter in Service und Produktion  |Mitarbeiter in Service und Produktion in Ihrer Regierungsorganisation |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Mitarbeiter in Service und Produktion in Ihrer Organisation an.|
 
-![Screenshot der Pakete für die Gesundheitsrichtlinie](media/policy-packages-gov.png)
+![Screenshot der Richtlinienpakete für das Gesundheitswesen.](media/policy-packages-gov.png)
 
-Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können. Wenn Sie beispielsweise das Richtlinienpaket des öffentlichen Sicherheitsbeauftragtes Benutzern in Ihrer Organisation zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen PublicSafety_Officer Richtlinie erstellt.
+Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können. Wenn Sie z. B. das Richtlinienpaket des öffentlichen Sicherheitsbeauftragten Benutzern in Ihrer Organisation zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen PublicSafety_Officer erstellt.
 
-![Screenshot der Richtlinien im Paket für klinische Mitarbeiter im Gesundheitswesen](media/policy-packages-public-safety-officer.png)
+![Screenshot der Richtlinien im Paket für klinische Mitarbeiter im Gesundheitswesen.](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Verwalten von Richtlinienpaketen
 

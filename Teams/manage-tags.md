@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Tags in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: acolonna, salu
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 62ac77c6467a17da10fdc3ba66350383d7c8016c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 146b8fa36eccb446921c87dd98aa3af44458ba00
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675547"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563713"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
@@ -61,7 +61,7 @@ Ein Team kann bis zu 100 Tags, bis zu 200 Teammitglieder einem Tag und bis zu 25
 
 Standardmäßig können Teambesitzer benutzerdefinierte Tags hinzufügen. Sie können diese Einstellung so ändern, dass Teambesitzer und Teammitglieder Tags erstellen, bearbeiten, löschen und verwalten können, oder Sie können Tags für Ihre Organisation deaktivieren.
 
-1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf **Teams** >  **Teams Einstellungen**.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf " **Teams** > **Teams-Einstellungen"**.
 2. Wählen Sie unter **Tagging** neben **Tags werden verwaltet von** eine der folgenden Optionen aus:
 
     - **Teambesitzer und -mitglieder**: Teambesitzern und -mitgliedern das Verwalten von Tags gestatten.
@@ -72,7 +72,7 @@ Standardmäßig können Teambesitzer benutzerdefinierte Tags hinzufügen. Sie k�
 
 Sie können die folgenden Tag-Einstellungen festlegen, um zu steuern, wie benutzerdefinierte Tags in Ihrer Organisation verwendet werden.
 
-1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf **Teams** >  **Teams Einstellungen**.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf " **Teams** > **Teams-Einstellungen"**.
 2. Legen Sie unter **Tagging** je nach den Anforderungen Ihrer Organisation Folgendes fest.
 
     - **Teambesitzer können überschreiben, wer Tags verwalten kann**: Wenn Sie diese Einstellung aktivieren, können Teambesitzer festlegen, ob Teammitglieder Tags innerhalb eines Teams erstellen und verwalten können, und der Wert für die **Tags werden verwaltet von**-Einstellung ist der Standardwert für jedes Team. Wenn Sie diese Einstellung deaktivieren, kann die Einstellung **Tags werden verwalteten von** nicht pro Team geändert werden.
@@ -93,7 +93,7 @@ Hier erfahren Sie, wie Sie benutzerdefinierte Tags hinzufügen können und wie "
 
 Um benutzerdefinierte Tags zu erstellen und zu zuweisen, wählen Sie **Teams** auf der linken Seite der App aus, und suchen Sie dann das gewünschte Team in der Liste. Wählen Sie **... Weitere Optionen**, und wählen Sie dann **"Kategorien verwalten" aus**. Hier können Sie Tags erstellen und sie Personen in Ihrem Team zuweisen.
 
-![Screenshot, wie Tags im Teams Client angewendet werden.](media/manage-tags-teams.png)
+![Screenshot zum Anwenden von Tags im Teams-Client.](media/manage-tags-teams.png)
 
 Um ein Tag zu löschen, wählen Sie **... Weitere Optionen** neben dem Tag, und wählen Sie dann " **Tag löschen" aus**.
 

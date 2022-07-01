@@ -1,7 +1,7 @@
 ---
-title: Tools & Workshops – Planen, Bereitstellen, & Einführung Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Tools & Workshops – Planen, Bereitstellen, & Einführen von Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 159ff348fcc519b2ddc837021263f5c6851214d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24e48a99d4c9b6cc63da517fb8efb7dd4e5fab51
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636669"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563753"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams
 
@@ -29,34 +29,34 @@ Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und E
 
 - [Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)
 
-    Dieses Kit enthält eine Breite Palette von Präsentationen, E-Mail-Vorlagen, Tipps & Tricks und Postern, mit deren Teams Sie die Einführung in Ihre Organisation treiben können. Sie enthält zwei Schnellstarthandbücher für Administratoren und Teamleiter sowie Fallbeispiele für jede Abteilung. Nutzen Sie diese Ressourcen, um das Teams für verschiedene Funktionen in Ihrer Organisation, einschließlich Marketing, Vertrieb, Finanzen, Personalwesen, IT, Technik und Project zu nutzen.
+    Dieses Kit enthält eine breite Palette von Präsentationen, E-Mail-Vorlagen, Tipps & Tricks und Postern, die Sie zum Rollout und zur Einführung von Teams in Ihrer Organisation verwenden können. Es enthält zwei Schnellstarthandbücher für Administratoren und Teamleiter sowie Fallbeispiele für jede Abteilung. Verwenden Sie diese Ressourcen, um Teams für verschiedene Funktionen in Ihrer Organisation optimal zu nutzen, einschließlich Marketing, Vertrieb, Finanzen, Personalwesen, IT, Engineering und Projektmanagement.
 
 - [Bereitstellen von Teams](./deploy-overview.md)
 
-    Folgen Sie dem empfohlenen Pfad zum Teams.
+    Folgen Sie unserem empfohlenen Weg zum Rollout von Teams.
 
 
-- [Schulung Teams technischen Schulungen](itadmin-readiness.md)
+- [Holen Sie sich technische Teams-Schulungen](itadmin-readiness.md)
 
-    Nutzen Sie diese technischen Schulungsressourcen, um sich zu informieren, andere zu unterrichten oder Workshops zu führen.
+    Verwenden Sie diese technischen Schulungsressourcen, um sich selbst zu schulen, andere zu unterrichten oder Workshops durchzuführen.
 
 - [Office 365 Government Kunden](plan-for-government-gcc.md)
 
-   Ihre Reise zu Teams ist der Erfahrung unserer Unternehmenskunden sehr ähnlich. Da Teams für Ihre Mandanten allgemein verfügbar wird, empfehlen wir Ihnen, mit unserem Artikel Plan [für Microsoft 365 Government – GCC-Bereitstellungen](plan-for-government-gcc.md) und dem Schnellstarthandbuch für Administratoren zu [beginnen.](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Unsere [Übersicht über Sicherheit und Compliance](security-compliance-overview.md) hilft Ihnen, sich Teams In Ihrer Umgebung vertraut zu fühlen.
+   Ihre Reise zu Teams ähnelt der Erfahrung unserer Unternehmenskunden. Da Teams für Ihre Mandanten allgemein verfügbar wird, empfehlen wir Ihnen, mit unserem Artikel ["Plan für Microsoft 365 Government – GCC-Bereitstellungen](plan-for-government-gcc.md)" und [Admin Schnellstarthandbuch](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) zu beginnen. Unsere [Übersicht über Sicherheit und Compliance](security-compliance-overview.md) hilft Ihnen, sich mit Teams in Ihrer Umgebung vertraut zu fühlen.
 
 - [Teams für Education – Schnellstart für Administratoren](./teams-quick-start-edu.yml)
 
-    In diesem Lernprogramm erhalten Sie eine Einführung in Teams Bildungsorganisation.
+    Verwenden Sie dieses Lernprogramm, um Sie durch einen Teams-Rollout für Ihre Bildungsorganisation zu führen.
 
-### <a name="see-also"></a>Mehr dazu
+### <a name="see-also"></a>Siehe auch
 
 [Microsoft Teams-Schulung](training-microsoft-teams-landing-page.md)
 
 [Bereitschaft von IT-Administratoren für Teams](ITAdmin-readiness.md)
 
-[Tools für die Akzeptanz](adopt-tools-and-downloads.md)
+[Tools für die Einführung](adopt-tools-and-downloads.md)
 
-[Skype for Business zum Teams Upgradeplanungsworkshop](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Skype for Business zu Teams Upgrade Planning Workshop](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
 [Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams](/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 

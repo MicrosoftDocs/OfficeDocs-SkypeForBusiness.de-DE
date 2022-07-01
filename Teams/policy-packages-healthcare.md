@@ -1,7 +1,7 @@
 ---
 title: Teams Richtlinienpakete-Pakete für das Gesundheitswesen
-author: serdars
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -9,20 +9,25 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
-  - microsoftcloud-healthcare
+- M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
-  - Microsoft Teams
-f1.keywords: null
-ms.custom: null
+- Microsoft Teams
+f1.keywords: ''
+ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-description: 'Erfahren Sie, wie Sie Team-Richtlinienpakete für Ihre Gesundheitsorganisation verwenden und verwalten.'
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+description: Erfahren Sie, wie Sie Team-Richtlinienpakete für Ihre Gesundheitsorganisation verwenden und verwalten.
+ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563723"
 ---
-
 # <a name="teams-policy-packages-for-healthcare"></a>Teams Richtlinienpakete-Pakete für das Gesundheitswesen
 
 ## <a name="overview"></a>Übersicht
@@ -47,11 +52,11 @@ Die Teams umfassen derzeit die folgenden Gesundheitsrichtlinien-Pakete.
 |Informationsbeauftragter für das Gesundheitswesen  |Informationsbeauftragter in Ihrer Gesundheitsorganisation |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen Informationsbeauftragte wie IT-Personal, Informatikpersonal, Finanzpersonal und Compliance-Beauftragte uneingeschränkten Zugriff auf Chat, Anrufe und Besprechungen erhalten.|
 |Patientenzimmer im Gesundheitswesen  |Geräte des Patientenzimmers|Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenzimmer in Ihrer Gesundheitsorganisation gelten.|
 
-![Screenshot der Pakete für die Gesundheitsrichtlinie](media/policy-packages-healthcare.png)
+![Screenshot der Richtlinienpakete für das Gesundheitswesen.](media/policy-packages-healthcare.png)
 
 Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können. Wenn Sie beispielsweise Klinikern in Ihrer Organisation das Richtlinienpaket für klinische Mitarbeiter im Gesundheitswesen zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen Healthcare_ClinicalWorker erstellt.
 
-![Screenshot der Richtlinien im Paket für klinische Mitarbeiter im Gesundheitswesen](media/policy-packages-healthcare-clinical-worker.png)
+![Screenshot der Richtlinien im Paket für klinische Mitarbeiter im Gesundheitswesen.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Beginnen Sie mit Richtlinienpaketen
 

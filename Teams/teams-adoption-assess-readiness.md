@@ -1,7 +1,7 @@
 ---
 title: Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,20 +10,24 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 'Beurteilen Sie die Projektbeteiligten, identifizieren Sie Early Adopter, und beurteilen Sie, ob Ihre Organisation für den Umstieg auf Microsoft Teams bereit ist.'
+description: Beurteilen Sie die Projektbeteiligten, identifizieren Sie Early Adopter, und beurteilen Sie, ob Ihre Organisation für den Umstieg auf Microsoft Teams bereit ist.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Adopt
-  - seo-marvel-apr2020
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_Adopt
-  - M365-collaboration
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: e332304995011ca70ee2203e2ec95d199bd2fb2c
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564163"
 ---
-
-
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
 
 Nachdem Ihr Projektteam erstellt ist und Sie beginnen zu sehen, welche Vorteile Microsoft Teams für Ihre Organisation mit sich bringt, ist es wichtig, die Bereitschaft Ihrer Organisation für den Übergang zu Microsoft Teams zu beurteilen. Für die Einschätzung der Bereitschaft müssen Sie Folgendes tun:
@@ -68,7 +72,7 @@ Unser Leitfaden für ein Early Adopter-Programm ist eine hilfreiche Ressource zu
 
 Veränderung ist ein menschlicher Prozess, der nichts mit Technologie zu tun hat. Erkenntnisse im Bereich der Verhaltenspsychologie und der Neurowissenschaften belegen die natürlichen Widerständen gegenüber Veränderungen. Damit Veränderungen angenommen werden, ist es wichtig, die Anforderungen an die Benutzer vorwegzunehmen, Ihr Verständnis für ihre Situation zum Ausdruck zu bringen und Lösungen zu entwickeln, durch die diese Situation verbessert wird. Selbst dann werden Sie auf natürlichen Widerstand gegenüber Veränderungen stoßen.  
 
-![Graph zeigt widerstände zu ändern.](media/teams-adoption-resistance.png)
+![Diagramm, das den Widerstand gegen Änderungen veranschaulicht.](media/teams-adoption-resistance.png)
 
 Jedes Unternehmen folgt zum Erzielen von Veränderungen je nach Region, Arbeitsstil, beruflichem Profil und anderen Elementen der Organisation unterschiedlichen Ansätzen. Informationen zum Beurteilen der Bereitschaft Ihrer Organisation finden Sie unter [Einschätzen der Bereitschaft zu organisationsweiten Veränderungen](upgrade-org-change-readiness.md). Verwenden Sie die Anleitungen, um die folgenden Fragen zu beantworten:
 
@@ -100,4 +104,4 @@ Kombinieren Sie diese Daten mit den Profilen der Projektmitarbeiter und den Mita
 
 Sie können mithilfe interner Experten das Problem der unterschiedlichen Veränderungscharakter angehen. Hier ist Feedback der Schlüssel zum Erfolg: Fordern Sie die Benutzer auf, ihre Schwierigkeiten und Bedürfnisse mit anderen zu teilen. Binden Sie Unterbrecher und Widerständler ein, indem Sie diesen Personen oder Gruppen während des Experiments Platz einräumen. Mithilfe dieser bewährten Methode bereiten Sie den Weg für eine reibungslosere breite Bereitstellung Ihrer Verbesserungen für die Zusammenarbeit vor.  
 
-![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Microsoft Teams Phase 2: Experimentieren](teams-adoption-phase2-experiment.md) 
+![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Weiter: [Einführungsphase 2 für Microsoft Teams: Experimentieren](teams-adoption-phase2-experiment.md) 
