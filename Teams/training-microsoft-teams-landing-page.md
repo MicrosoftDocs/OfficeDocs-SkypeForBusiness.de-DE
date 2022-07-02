@@ -1,24 +1,30 @@
 ---
 title: Microsoft Teams-Administratorschulung
-ms.reviewer: null
-description: 'Verwenden Sie diese kursleitergeführten Schulungsressourcen und Lernvideos für Endbenutzer und Administratoren, um Microsoft Teams in Ihrer Organisation optimal zu nutzen.'
+ms.reviewer: ''
+description: Verwenden Sie diese kursleitergeführten Schulungsressourcen und Lernvideos für Endbenutzer und Administratoren, um Microsoft Teams in Ihrer Organisation optimal zu nutzen.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 audience: admin
 manager: serdars
 ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
-  - remotework
+- M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
+- remotework
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-may2020
+ms.openlocfilehash: badd5df4e48892bbb22264f23072618c6c2f1eb8
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606084"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 93e0832b73ef0f62a00cfdf454b1fbcffb715542
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494342"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605704"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>FÜR Microsoft Teams zertifizierte USB-Audio- und Videogeräte
 
@@ -81,6 +81,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 | Hersteller        | Modell                                                     | Qualifizierte      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |WB5023-Kamera                                              |6/29/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II Headset                                       |6/22/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |Headsets der C10/C20/C50-Serie                                |5/31/2022       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Studio P21 Monitor                                         |5/12/2022       |Zertifiziert für Microsoft Teams                           |

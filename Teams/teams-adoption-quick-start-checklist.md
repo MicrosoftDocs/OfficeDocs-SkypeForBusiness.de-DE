@@ -1,7 +1,7 @@
 ---
 title: Prüfliste für den Schnellstart der Microsoft Teams-Einführung
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,20 +10,24 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 'Verwenden Sie diese Schnellstartcheckliste, um den Erfolg sicherzustellen, sobald Ihre Organisation mit der Einführung Microsoft Teams.'
+description: Verwenden Sie diese Schnellstart-Checkliste, um den Erfolg sicherzustellen, wenn Ihre Organisation mit der Einführung von Microsoft Teams beginnt.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Adopt
-  - seo-marvel-apr2020
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_Adopt
-  - M365-collaboration
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b8def4ffe234ee63a3ade0d30ccae53f74773de1
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606064"
 ---
-
-
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Prüfliste für den Schnellstart der Microsoft Teams-Einführung
 
 [Herunterladen einer Kopie der Checkliste](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
@@ -45,16 +49,16 @@ appliesto:
 - [Erstellen Ihres Expertenprogramms](teams-adoption-create-champions-program.md)
 - [Abschließen des Governance-Schnellstarts](teams-adoption-governance-quick-start.md)
 - [Definieren der Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)
-- [Vorstellungsgespräch mit projektbeteiligten Unternehmen](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
-- [Planen und Priorisieren von Geschäftsszenarien](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [Interviewen von Geschäftsbeteiligten](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [Zuordnen und Priorisieren von Geschäftsszenarien](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
 - [Onboarding von Early Adopters und Sammeln von Feedback](teams-adoption-onboard-early-adopters.md)
 - [Onboardingsupport](teams-adoption-onboard-support.md)
 
 ## <a name="phase-3---scale"></a>Phase 3: Skalierung
 
 - [Definieren von Ergebnissen und Erfolgsmaßnahmen](teams-adoption-define-outcomes.md)
-- [Auswählen einer Strategie für die Dienstermöglichung](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
-- [Beteiligte](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [Auswählen einer Dienstaktivierungsstrategie](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [Einbeziehen von Projektbeteiligten](teams-adoption-define-outcomes.md#engage-stakeholders)
 - [Erweitern Ihres Implementierungsteams](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [Erweitern Ihrer Governance- und Informationsverwaltungsrichtlinien](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
 - [Optimieren von Feedback und Berichterstellung](teams-adoption-optimize-feedback-and-reporting.md)

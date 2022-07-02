@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Teamvorlagen im Admin Center
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Informationen zum Verwalten von Teamvorlagen im Admin Center
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681396"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605904"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Verwalten von Teamvorlagen im Admin Center
 
@@ -38,7 +38,7 @@ Schauen Sie sich dieses kurze Video an, um zu erfahren, wie Vorlagenrichtlinien 
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Wechseln Sie zu **Teams** >  **Templates-Richtlinien**.
+2. Wechseln Sie zu **Den Richtlinien für Teams-Vorlagen** > .
 
 3. Choose **Add**.
 
@@ -106,7 +106,7 @@ Antwort: Alle gelöschten Vorlagen sind in keiner Vorlagenrichtlinien mehr vorha
 
 A: Ja.
 
-1. Wechseln Sie im Teams Admin Center zu **Benutzer** > **verwalten**.
+1. Wechseln Sie im Teams Admin Center zu **"Benutzer** > **verwalten"**.
 1. Wählen Sie in der Liste der Benutzer die Benutzer aus, die Sie der Vorlagenrichtlinie zuweisen möchten.
 1. Wählen Sie **"Einstellungen bearbeiten"** und dann unter **"Vorlagenrichtlinie**" die Richtlinie aus, die Sie zuweisen möchten.
 1. Wählen Sie **"Übernehmen" aus**.
@@ -140,6 +140,6 @@ Antwort: Nein, Vorlagenrichtlinien für EDU werden nicht unterstützt.
 
 - [Erstellen einer Teamvorlage aus einer vorhandenen Teamvorlage](./create-template-from-existing-template.md)
 
-- [Zuweisen von Richtlinien zu Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft-Dokumentation](./policy-assignment-overview.md)
+- [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft-Dokumentation](./policy-assignment-overview.md)
 
 - [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

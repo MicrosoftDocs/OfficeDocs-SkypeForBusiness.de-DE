@@ -1,7 +1,7 @@
 ---
 title: Verwalten der explorativen Microsoft Teams-Umgebung
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 374761a64f64649dba67f9bfb8760f363fa94f2e
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734094"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605694"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 

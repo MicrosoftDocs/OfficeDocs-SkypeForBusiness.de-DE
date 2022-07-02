@@ -1,7 +1,7 @@
 ---
 title: Teams- und Outlook-E-Mail-Integration
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd1226cddb41ee40139029b64c65d6c151c3993b
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 76a2ecf05a8769b51ffcb9827c0fe6ff75df7b18
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681756"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606234"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams- und Outlook-E-Mail-Integration
 
@@ -27,9 +27,9 @@ Microsoft Teams umfasst Features, die Benutzern in Ihrer Organisation das Teilen
 
 ## <a name="share-to-outlook"></a>Mit Outlook teilen
 
-Mithilfe von **Mit Outlook teilen** können Benutzer eine Kopie einer Teams-Unterhaltung mit einer E-Mail in Outlook teilen, ohne dafür Teams verlassen zu müssen. Dieses Feature ist praktisch, wenn Benutzer Unterhaltungen oder Statusaktualisierungen mit Benutzern außerhalb ihres unmittelbaren Teams oder sogar außerhalb Ihrer Organisation teilen müssen. Wechseln Sie zum Anfang der Unterhaltung in Teams, wählen Sie **... Weitere Optionen**, und wählen Sie dann **"Freigeben" aus, um Outlook**.  Weitere Informationen finden Sie unter [Aus Teams mit Outlook teilen](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).
+Mithilfe von **Mit Outlook teilen** können Benutzer eine Kopie einer Teams-Unterhaltung mit einer E-Mail in Outlook teilen, ohne dafür Teams verlassen zu müssen. Dieses Feature ist praktisch, wenn Benutzer Unterhaltungen oder Statusaktualisierungen mit Benutzern außerhalb ihres unmittelbaren Teams oder sogar außerhalb Ihrer Organisation teilen müssen. Wechseln Sie zum Anfang der Unterhaltung in Teams, wählen Sie **... Weitere Optionen**, und wählen Sie dann **"Für Outlook freigeben"** aus.  Weitere Informationen finden Sie unter [Aus Teams mit Outlook teilen](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).
 
-![Screenshot mit dem Feature "Für Outlook freigeben" in Teams.](media/share-to-outlook.png)
+![Screenshot der Funktion "In Outlook freigeben" in Teams.](media/share-to-outlook.png)
 
 Um dieses Feature zu verwenden, muss für den Benutzer Outlook im Web aktiviert sein. Wenn Outlook im Web deaktiviert ist, wird dem Benutzer die Option **Mit Outlook teilen** in Teams nicht angezeigt. Schritte zum Aktivieren und Deaktivieren von Outlook im Web finden Sie unter [Aktivieren oder Deaktivieren von Outlook im Web für ein Postfach](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
 
