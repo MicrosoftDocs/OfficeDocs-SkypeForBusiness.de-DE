@@ -8,6 +8,7 @@ audience: ITPro
 ms.topic: article
 feedback_system: None
 ms.service: msteams
+ms.subservice: teams-devices
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -15,13 +16,13 @@ ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Hier erfahren Sie, wie Sie Microsoft Teams-Räume einrichten, einschließlich Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
-ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 917b260bc7377c47be52c71179a7a027649846b4
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.custom: seo-marvel-may2020; intro-overview
+ms.openlocfilehash: e4ef69f21ed47c283f9576984d38730ddbd5c2d6
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761127"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615411"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams-Räume
 
@@ -45,7 +46,6 @@ ms.locfileid: "65761127"
 |    <img src="/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
 |  **[Plan](./rooms-plan.md)** |  **[Bereitstellen](./rooms-deploy.md)** |  **[Verwalten](./rooms-manage.md)** |
-
 
 [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Video zu Microsoft Mechanics und Microsoft Teams-Räume.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 

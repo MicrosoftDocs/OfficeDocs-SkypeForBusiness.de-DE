@@ -6,6 +6,7 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den verschiedenen verfügbaren Teams, Kanälen und Apps für die verschiedensten Anforderungen wie zum Beispiel Finanzen, Planung von Veranstaltungen, Vertrieb und vieles mehr.
@@ -18,16 +19,17 @@ ms.custom:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
+- intro-overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756891"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616281"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -75,7 +77,7 @@ Teambesitzer können teamweite Einstellungen direkt in Teams verwalten. Zu den E
 
 Wenn Sie in Microsoft 365 als Teams-Administrator festgelegt wurden, haben Sie im Teams Admin Center Zugriff auf systemweite Einstellungen. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können beispielsweise einen Standardkanal, „Allgemein“, für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der in allen Teams angezeigt wird.
 
-Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team zu erstellen. Um dies zu ändern, lesen Sie [Zuweisen von Rollen und Berechtigungen in Teams](assign-roles-permissions.md).
+Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team zu erstellen. Informationen zum Ändern finden Sie unter [Zuweisen von Rollen und Berechtigungen in Teams](assign-roles-permissions.md).
 
 Eine wichtige frühe Planungsaktivität, mit der Benutzer in Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten. Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse.
 

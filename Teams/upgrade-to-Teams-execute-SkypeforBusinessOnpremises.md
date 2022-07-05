@@ -1,66 +1,71 @@
 ---
 title: Upgrade von Skype for Business (lokal) auf Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 'Erfahren Sie, wie Sie ihre Organisation so Microsoft Teams, dass Skype for Business lokalen Bereitstellung nicht mehr funktioniert.'
+description: Erfahren Sie, wie Sie Ihre Organisation von einer Skype for Business lokalen Bereitstellung auf Microsoft Teams umsteigen.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Teams-upgrade-guidance
-  - seo-marvel-apr2020
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 7b06134a0fe0f72e8dc9c01b4faa85c67a6063f3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615441"
 ---
-
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Upgrade von einer Skype for Business lokalen Bereitstellung auf Teams
 
-![Phasen des Upgradewegs, mit Betonung auf der Bereitstellungs- und Implementierungsphase.](media/upgrade-banner-deployment.png "Phasen des Upgradewegs, mit Betonung auf der Bereitstellungs- und Implementierungsphase")
+![Phasen der Upgradephase, mit Schwerpunkt auf der Bereitstellungs- und Implementierungsphase.](media/upgrade-banner-deployment.png "Phasen der Upgradephase mit Schwerpunkt auf der Bereitstellungs- und Implementierungsphase")
 
-Dieser Artikel ist Teil der Phase Bereitstellung und Implementierung Ihres Upgrades. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
+Dieser Artikel ist Teil der Bereitstellungs- und Implementierungsphase Ihrer Upgrade-Reise. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](./upgrade-define-project-scope.md)
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Vorbereitet auf Ihre Umgebung](./upgrade-prepare-environment.md)
-- [Vorbereitung Ihrer Organisation](./upgrade-prepare-organization.md)
-- [Durchgeführtes Pilotprojekt](./pilot-essentials.md)
+- [Vorbereiten Ihrer Umgebung](./upgrade-prepare-environment.md)
+- [Ihre Organisation vorbereitet](./upgrade-prepare-organization.md)
+- [Durchführen eines Pilotprojekts](./pilot-essentials.md)
 
-Folgen Sie den Anweisungen in diesem Artikel, wenn Sie Skype for Business oder Microsoft Lync lokal bereitgestellt haben und Ihre Organisation ein Upgrade auf Microsoft Teams entweder selektiv – mithilfe mehrerer Koexistenzmodi – oder als All-In durchführen möchte. 
+Befolgen Sie die Anleitungen in diesem Artikel, wenn Sie Skype for Business oder Microsoft Lync lokal bereitgestellt haben und Ihre Organisation entweder selektiv – mithilfe mehrerer Koexistenzmodi – oder all-in auf Microsoft Teams upgraden möchte. 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 ## <a name="step-1-deploy-hybrid-connectivity"></a>Schritt 1: Bereitstellen der Hybridkonnektivität
 
-Die wichtigste Voraussetzung für ein Upgrade Ihrer Benutzer auf Teams ist die Bereitstellung von Hybridkonnektivität.
+Die wichtigste Voraussetzung für das Upgrade Ihrer Benutzer auf Teams ist die Bereitstellung der Hybridkonnektivität.
 
-Weitere Informationen finden Sie unter [Bereitstellen einer Hybridkonnektivität zwischen Skype for Business Server und Skype for Business Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+Weitere Informationen finden [Sie unter Bereitstellen der Hybridkonnektivität zwischen Skype for Business Server und Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
-## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Schritt 2: Implementieren des ausgewählten Upgradewegs für Ihre Organisation
+## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Schritt 2: Implementieren der ausgewählten Upgrade-Reise für Ihre Organisation
 
-Nachdem Sie das Hybrid-Setup abgeschlossen haben, können Sie planen, Ihre Benutzer in den Microsoft 365 oder Office 365.
+Nachdem Sie Ihre Hybrideinrichtung abgeschlossen haben, können Sie planen, Ihre Benutzer nach Microsoft 365 oder Office 365 zu verschieben.
 
 Weitere Informationen finden Sie unter:
 
 - [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz](upgrade-to-teams-on-prem-tools.md).
 
-- [Verschieben sie Benutzer aus der lokalen Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
+- [Verschieben von Benutzern aus der lokalen Umgebung in Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
-## <a name="phone-system-and-teams-upgrade"></a>Telefonsystem und Teams Upgrade
+## <a name="phone-system-and-teams-upgrade"></a>Upgrade von Telefonsystem und Teams
 
-Wenn Sie von lokalen Telefonsystemen auf Teams umstiegen, können Sie Telefonsystem Direct Routing ("Direct Routing") oder die von Microsoft bereitgestellten Anrufpläne für Microsoft 365 oder Office 365.
+Wenn Sie von lokalen Telefonsystemen zu Teams wechseln, können Sie die Vorteile von Direct Routing für Telefonsysteme ("Direct Routing") oder der von Microsoft bereitgestellten Anrufpläne für Microsoft 365 oder Office 365 nutzen.
 
-Wenn Sie keine Anrufpläne verwenden, müssen Sie Ihre Enterprise-Sprachbereitstellung im Rahmen Ihres Upgrades auf Telefonsystem Direct-Routing um Teams.
+Wenn Sie keine Anrufpläne verwenden, müssen Sie Ihre Enterprise-VoIP-Bereitstellung im Rahmen Ihres Upgrades auf Teams auf Direct Routing für Telefonsysteme umstellen.
 
-Weitere Informationen finden Sie unter [zusätzliche Überlegungen zur Telefonsystem Direct-Routing](./direct-routing-landing-page.md). Wenn Sie Anrufpläne verwenden möchten, lesen Sie bitte unsere Anleitung für die Übertragung Ihrer [Telefonnummern an Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Weitere Informationen finden Sie [unter zusätzlichen Überlegungen zum Direct Routing des Telefonsystems](./direct-routing-landing-page.md). Wenn Sie beabsichtigen, Anrufpläne zu verwenden, lesen Sie bitte unsere Anleitung für die [Übertragung Ihrer Telefonnummern nach Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

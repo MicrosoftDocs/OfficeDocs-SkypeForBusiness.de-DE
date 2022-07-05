@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonzentralen und Anrufwarteschleifen und wie Sie diese verwenden können, um Anrufern zu helfen, durch ein Menüsystem zu navigieren, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 958a0ccbf49ef7c35ecbe586262005964bfbf704
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124290"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616081"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonzentralen und Anrufwarteschleifen in Microsoft Teams
 
@@ -70,9 +70,9 @@ Sie können einer Anrufwarteschleife eine Telefonnummer zuweisen. Anrufwarteschl
 Um automatische Telefonzentralen und Anrufwarteschleifen zu konfigurieren, benötigen Sie die folgenden Ressourcen:
 
 - Ein Ressourcenkonto für jede automatische Telefonzentrale und jede Anrufwarteschleife
-- Eine kostenlose Microsoft-Telefon System – Virtuelle Benutzerlizenz für jedes Ressourcenkonto, das direkt von Teams Benutzern oder externen Telefonnummern wählbar ist
-- Mindestens eine [Microsoft-Dienstnummer](getting-service-phone-numbers.md), Telefonieanbieter Nummer, Direct Routing-Nummer oder eine Hybridnummer für jedes Ressourcenkonto, das direkt über externe Telefonnummern wählbar sein soll
- - Die Servicenummer kann eine gebührenpflichtige oder gebührenfreie Nummer sein.
+- Eine kostenlose Microsoft Teams Telefon Ressourcenkontolizenz für jedes Ressourcenkonto, das direkt von Teams-Benutzern oder externen Telefonnummern wählbar ist
+- Mindestens eine [Microsoft-Dienstnummer](getting-service-phone-numbers.md), eine Telefonieanbieternummer, eine Direct Routing-Nummer oder eine Hybridnummer für jedes Ressourcenkonto, das direkt über externe Telefonnummern wählbar sein soll
+  - Die Servicenummer kann eine gebührenpflichtige oder gebührenfreie Nummer sein.
 
 > [!NOTE]
 > Ressourcenkonten sind für die Anmeldung deaktiviert und müssen so bleiben. Chat und Anwesenheit sind für diese Konten nicht verfügbar.
@@ -80,20 +80,20 @@ Um automatische Telefonzentralen und Anrufwarteschleifen zu konfigurieren, benö
 Agents, die Anrufe aus den Anrufwarteschleifen erhalten, müssen online oder lokal aktiviert Enterprise-VoIP werden. Wenn die Anrufwarteschleifen Direct Routing-Nummern verwenden, ist außerdem Folgendes erforderlich:
 
 - Eine Online-VoIP-Routingrichtlinie zugewiesen, wenn die Anrufwarteschleife den Übertragungsmodus verwendet
-- Eine Audiokonferenz-Lizenz oder online zugewiesene VoIP-Routingrichtlinie, wenn die Anrufwarteschleife den Konferenzmodus verwendet
+- Eine Audiokonferenzlizenz oder eine Online-VoIP-Routingrichtlinie, die zugewiesen ist, wenn die Anrufwarteschleife den Konferenzmodus verwendet
 
 Wenn Ihre Agents die Microsoft Teams-App für Anrufwarteschleifenanrufe verwenden, müssen sie sich im TeamsOnly-Modus befinden.
 
-Wenn Sie ein Ressourcenkonto für Anrufleitungs-ID-Zwecke in Anrufwarteschleifen verwenden, muss dem Ressourcenkonto eine Telefonsystem Virtual User-Lizenz und eine der folgenden zugewiesen sein:
+Wenn Sie ein Ressourcenkonto für Anrufleitungs-ID-Zwecke in Anrufwarteschleifen verwenden, muss das Ressourcenkonto über eine Lizenz für das Teams-Telefonressourcenkonto und eine der folgenden Zugewiesenen verfügen:
 
 - Eine [Anrufplanlizenz](calling-plans-for-office-365.md) und eine zugewiesene Telefonnummer
-- Eine [Telefonieanbieter](operator-connect-plan.md) zugewiesene Telefonnummer
+- Eine zugewiesene Telefonnummer [des Telefons "Telefonieanbieter"](operator-connect-plan.md)
 - Eine [Online-VoIP-Routingrichtlinie](manage-voice-routing-policies.md) (Telefonnummernzuweisung ist optional, wenn Direct Routing verwendet wird)
 
-Wenn eine automatische Telefonzentrale oder Anrufwarteschleife Anrufe an eine externe Nummer übergibt, müssen bestimmte Ressourcenkonten wie unten beschrieben über eine Telefonsystem Virtual User-Lizenz verfügen und eine der folgenden zugewiesen sein:
+Wenn eine automatische Telefonzentrale oder Anrufwarteschleife Anrufe an eine externe Nummer übergibt, müssen bestimmte Ressourcenkonten, wie unten beschrieben, über eine Lizenz für das Microsoft Teams-Telefonressourcenkonto und eine der folgenden Zugewiesenen verfügen:
 
 - Eine [Anrufplanlizenz](calling-plans-for-office-365.md) und eine zugewiesene Telefonnummer
-- Eine [Telefonieanbieter](operator-connect-plan.md) zugewiesene Telefonnummer
+- Eine zugewiesene Telefonnummer [des Telefons "Telefonieanbieter"](operator-connect-plan.md)
 - Eine [Online-VoIP-Routingrichtlinie](manage-voice-routing-policies.md) (Telefonnummernzuweisung ist optional, wenn Direct Routing verwendet wird)
 
 Welches Ressourcenkonto lizenziert werden soll:
@@ -103,9 +103,9 @@ Welches Ressourcenkonto lizenziert werden soll:
 > [!NOTE]
 > Wenn der dem Ressourcenkonto zugewiesene Anrufplan deaktiviert oder entfernt wird, werden [Guthaben für Kommunikationen](what-are-communications-credits.md), sofern im Mandanten verfügbar (ohne dem Ressourcenkonto zugewiesen) verwendet. Wenn kein Anrufplan oder Guthaben für Kommunikationen vorhanden ist, schlägt der Anruf fehl.
 >
-> Direct Routing-Servicenummern für automatische Telefonzentralen und Anrufwarteschleifen werden nur für Microsoft Teams Benutzer und Telefonisten unterstützt.
+> Direct Routing-Servicenummern für automatische Telefonzentralen und Anrufwarteschleifen werden nur für Microsoft Teams-Benutzer und -Telefonberater unterstützt.
 > 
-> Übertragungen zwischen Anrufplan-, Telefonieanbieter- und Direct Routing-Trunks werden nicht unterstützt.
+> Übertragungen zwischen Anrufplan-, Telefonie- und Direct Routing-Trunks werden nicht unterstützt.
 > 
 > In einem Hybridszenario muss das Ressourcenkonto lokal erstellt werden. Weitere Informationen finden Sie unter [Planen von Cloud-Anrufwarteschleifen](/skypeforbusiness/hybrid/plan-call-queue).
 
@@ -134,18 +134,18 @@ Agents können Anrufwarteschleifen auf folgende Weise hinzugefügt werden:
 - Sicherheitsgruppen, einschließlich E-Mail-aktivierter Sicherheitsgruppen
 - Microsoft 365-Gruppen oder Teams
 
-Sie können bei Bedarf eine Kombination dieser Optionen für jede Warteschlange verwenden. Gruppen mit einer E-Mail-Adresse können für Voicemail verwendet werden. Die Verwendung von Teams bietet viele Vorteile, einschließlich freigegebener Dateispeicherung und Chat zwischen Agents, eines allgemeinen Postfachs, in dem Voicemails empfangen werden können, und einer erweiterbaren Plattform, die die Integration in Ihre Branchenanwendungen oder Power Apps umfassen kann.
+Sie können bei Bedarf eine Kombination dieser Optionen für jede Warteschlange verwenden. Gruppen mit einer E-Mail-Adresse können für Voicemail verwendet werden. Die Verwendung von Teams bietet viele Vorteile, darunter freigegebene Dateispeicherung und Chat zwischen Agents, ein gemeinsames Postfach, in dem Voicemails empfangen werden können, und eine erweiterbare Plattform, die die Integration in Ihre Branchenanwendungen oder Power Apps umfassen kann.
 
 Es wird empfohlen, eine Strategie zum Hinzufügen von Telefonisten zu Warteschlangen auszuwählen, bevor Sie Ihre Konfiguration starten.
 
-Wenn Sie über eine vorhandene Infrastruktur für die automatische Telefonzentrale und Anrufwarteschleife verfügen und zu Teams migrieren, benötigen Sie einen Plan, um Ihre vorhandenen Telefonnummern an die neuen automatischen Telefonzentralen und Anrufwarteschleifen zu übertragen. Möglicherweise müssen Sie einen [Portierungsauftrag](phone-number-calling-plans/port-order-overview.md) erstellen, um Ihre Nummern von einem anderen Anbieter zu verschieben. Es wird empfohlen, vorübergehend eine oder mehrere neue Telefonnummern zu erwerben und ihre automatischen Telefonzentralen- und Anrufwarteschleifenflüsse zu testen, bevor Sie sie über die Nummern wechseln, die Sie derzeit in Betrieb haben.
+Wenn Sie über eine vorhandene Infrastruktur für automatische Telefonzentralen und Anrufwarteschleifen verfügen und zu Teams migrieren, benötigen Sie einen Plan, um Ihre vorhandenen Telefonnummern an die neuen automatischen Telefonzentralen und Anrufwarteschleifen zu übertragen. Möglicherweise müssen Sie einen [Portierungsauftrag](phone-number-calling-plans/port-order-overview.md) erstellen, um Ihre Nummern von einem anderen Anbieter zu verschieben. Es wird empfohlen, vorübergehend eine oder mehrere neue Telefonnummern zu erwerben und ihre automatischen Telefonzentralen- und Anrufwarteschleifenflüsse zu testen, bevor Sie sie über die Nummern wechseln, die Sie derzeit in Betrieb haben.
 
-**Der Konferenzmodus** ist eine Option in Anrufwarteschleifen, die die Zeit für die Verbindung Teams VOIP-Anrufe und PSTN-Anrufe mit einem Agent erheblich reduziert. Damit der Konferenzmodus funktioniert, müssen die Telefonberater in der Anrufwarteschleife einen der folgenden Clients verwenden:
+**Der Konferenzmodus** ist eine Option in Anrufwarteschleifen, die die Zeit für die Verbindung von Teams-VOIP-Anrufen und PSTN-Anrufen mit einem Agent erheblich reduziert. Damit der Konferenzmodus funktioniert, müssen die Telefonberater in der Anrufwarteschleife einen der folgenden Clients verwenden:
 
 - Die neueste Version des Microsoft Teams-Desktopclients, der Android-App oder der iOS-App
-- Microsoft-Telefon Systemversion 1449/1.0.94.2020051601 oder höher
+- Microsoft Phone System Version 1449/1.0.94.2020051601 oder höher
   
-Legen Sie die Teams-Konten von Agents auf Teams-Only-Modus fest. Telefonberater, die diese Anforderungen nicht erfüllen, werden nicht in die Anrufweiterleitungsliste aufgenommen.
+Legen Sie die Teams-Konten von Agents auf den reinen Teams-Modus fest. Telefonberater, die diese Anforderungen nicht erfüllen, werden nicht in die Anrufweiterleitungsliste aufgenommen.
 
 Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschleifen zu aktivieren, wenn alle Ihre Telefonberater kompatible Clients verwenden.
 
@@ -157,9 +157,9 @@ Nachdem Sie die Planungsaufgaben in diesem Artikel abgeschlossen haben, führen 
 
 1. Rufen Sie die Servicenummern ab, die Sie für die automatischen Telefonzentralen und Anrufwarteschleifen benötigen, auf die Sie durch Direkteinwahl von außerhalb Ihrer Organisation zugreifen können möchten. Dies kann das [Übertragen von Nummern von einem anderen Anbieter](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder [das Anfordern neuer Servicenummern](getting-service-phone-numbers.md) umfassen.
 
-2. Rufen Sie eine [Telefonsystem – Virtuelle Benutzerlizenz](teams-add-on-licensing/virtual-user.md) für jedes Ressourcenkonto ab, das Sie erstellen möchten. Diese Lizenzen sind kostenlos, daher empfehlen wir, ein paar zusätzliche Lizenzen zu erhalten, falls Sie sich entscheiden, in Zukunft Änderungen an Ihren Ressourcenkonten vorzunehmen.
+2. Rufen Sie eine [Microsoft Teams Phone-Ressourcenkontolizenz](teams-add-on-licensing/virtual-user.md) für jedes Ressourcenkonto ab, das Sie erstellen möchten. Diese Lizenzen sind kostenlos, daher empfehlen wir, ein paar zusätzliche Lizenzen zu erhalten, falls Sie sich entscheiden, in Zukunft Änderungen an Ihren Ressourcenkonten vorzunehmen.
 
-3. [Erstellen Sie ein Ressourcenkonto](manage-resource-accounts.md) für jede automatische Telefonzentrale und Anrufwarteschleife, die Sie erstellen möchten. Weisen Sie jedem Konto eine Telefonsystem – Virtuelle Benutzerlizenz und optional eine Dienstnummer zu.
+3. [Erstellen Sie ein Ressourcenkonto](manage-resource-accounts.md) für jede automatische Telefonzentrale und Anrufwarteschleife, die Sie erstellen möchten. Weisen Sie jedem Konto eine Microsoft Teams-Telefonressourcenkontolizenz und optional eine Dienstnummer zu.
 
 4. [Erstellen Sie die Feiertage](set-up-holidays-in-teams.md) , für die Sie ein separates Anrufrouting in Ihren automatischen Telefonzentralen haben möchten.
 
@@ -167,7 +167,7 @@ Nachdem Sie die Planungsaufgaben in diesem Artikel abgeschlossen haben, führen 
 
 6. Erstellen Sie die Gruppen, die Sie verwenden möchten, um die Telefonberater für die Anrufwarteschleifen zu enthalten.
 
-7. Wenn Sie die Durchwahl zulassen möchten, stellen Sie sicher, dass Sie die Durchwahlnummer Ihrer Benutzer zu ihrem Azure Active Directory Profil hinzugefügt haben.
+7. Wenn Sie die Durchwahl zulassen möchten, stellen Sie sicher, dass Sie die Durchwahlnummer Ihrer Benutzer zu ihrem Azure Active Directory-Profil hinzugefügt haben.
 
 Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, können Sie Ihre automatischen Telefonzentralen und Anrufwarteschleifen erstellen. Da automatische Telefonzentralen und Anrufwarteschleifen Anrufe aneinander umleiten können, verweisen Sie auf das von Ihnen erstellte Workflowdiagramm, um zu bestimmen, welche automatische Telefonzentrale oder Anrufwarteschleife zuerst erstellt werden soll. Im Beispiel im obigen Diagramm würden Sie die Vertriebs- und Supportanrufwarteschleifen erstellen, bevor Sie die automatische Haupttelefonzentrale von Contoso erstellen, da die automatische Hauptzentrale Anrufer an die Vertriebs- und Supportanrufwarteschleifen weiterleiten muss.
 

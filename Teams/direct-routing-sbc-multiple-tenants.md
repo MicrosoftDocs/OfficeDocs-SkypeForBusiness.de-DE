@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Session Border Controller (SBC) so konfigurieren, dass er mehrere Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber bedient.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48a045ea84cabf34ec6f95b4aa0f605a3155d50e
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240664"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616341"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -139,7 +139,7 @@ Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, i
 - Benutzerkonto mit Office 365 E1/E3/E5/A3/A5 oder Microsoft 365 E3/E5/A3/A5
 - Benutzerkonto mit Office 365 F1/F3 oder Microsoft 365 F1/F3
 - Benutzerkonto mit Telefon für gemeinsame Bereiche
-- Ressourcenkonto mit virtueller Benutzerlizenz
+- Ressourcenkonto mit **Microsoft Teams Telefon Resource Account-Lizenz**
 
 Darüber hinaus muss der UPN des Kontos (Benutzerprinzipalname) oder Skype for Business lokale SIP-Adresse denselben FQDN wie die neu erstellte Domäne verwenden.
 
@@ -189,22 +189,22 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
 
 10. Wählen Sie auf der Seite **"DNS-Einstellungen aktualisieren**" die Option "**Fertig stellen**" aus.
 
-11. Stellen Sie sicher, dass der Status **"Setup abgeschlossen**" ist. 
-    
+11. Stellen Sie sicher, dass der Status **"Setup abgeschlossen**" ist.
+
     ![Screenshot der Seite mit dem Status "Setup abgeschlossen".](media/direct-routing-12-sbc-setup-complete.png)
-    
+
 > [!NOTE]
 > Die Basis-URL und die Unterdomäne für den einzelnen Client müssen sich auf demselben Mandanten befinden, damit Sie einen _direkten Routentrunk_ hinzufügen können.
 
 ### <a name="activate-the-subdomain-name"></a>Aktivieren des Unterdomänennamens
 
 Nachdem Sie einen Unterdomänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens ein lizenziertes Teams-Benutzer- oder Ressourcenkonto hinzufügen. Zulässige Konten werden mit einer der folgenden SKU lizenziert:
- 
+
 -   Benutzerkonto mit Office 365 E1/E3/E5/A3/A5 oder Microsoft 365 E3/E5/A3/A5
 -   Benutzerkonto mit Office 365 F1/F3 oder Microsoft 365 F1/F3
 -   Benutzerkonto mit Telefon für gemeinsame Bereiche
--   Ressourcenkonto mit virtueller Benutzerlizenz
- 
+-   Ressourcenkonto mit einer **Microsoft Teams Telefon Resource Account-Lizenz**
+
 Darüber hinaus muss der UPN des Kontos (Benutzerprinzipalname) oder Skype for Business lokale SIP-Adresse denselben FQDN wie die neu erstellte Unterdomäne verwenden.
 
 Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365-Organisationen finden [Sie unter Hilfe zu Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).

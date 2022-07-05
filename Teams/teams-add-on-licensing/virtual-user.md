@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Telefon Standard – Lizenzen für virtuelle Benutzer
+title: Microsoft Teams Telefon Ressourcenkontolizenzen
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -19,61 +19,59 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie kostenlose Teams Telefon Standard – Virtual User-Lizenzen oder eine kostenpflichtige Teams Telefon Standardbenutzerlizenzen Ressourcenkonten in Ihrer Organisation zuweisen.
-ms.openlocfilehash: 542d80a8cb463df01e6e232454b2454a939a457b
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+description: Erfahren Sie, wie Sie ressourcenkonten in Ihrer Organisation kostenlose Microsoft Teams Phone-Ressourcenkontolizenzen oder eine kostenpflichtige Teams Telefon Standard-Benutzerlizenzen zuweisen.
+ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435729"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615401"
 ---
-# <a name="microsoft-teams-phone-standard--virtual-user-licenses"></a>Microsoft Teams Telefon Standard – Lizenzen für virtuelle Benutzer
+# <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams Telefon Ressourcenkontolizenzen
 
-Organisationen mit Teams Telefon Standard oder Teams Telefon mit lizenzierten Benutzern des Anrufplans können entweder eine kostenlose *Microsoft Teams Telefon Standard – Virtual User-Lizenz* oder eine kostenpflichtige Teams Telefon *Standard*  Benutzerlizenz für Ressourcenkonten. Nicht immer ist ein Microsoft-Anrufplan erforderlich (siehe Planen der [automatischen](../plan-auto-attendant-call-queue.md#prerequisites) Teams-Telefonkonferenz und Anrufwarteschleifen, um die Voraussetzungen bei der Übertragung von Anrufen an eine externe Telefonnummer zu erfüllen).
+Organisationen mit Teams Telefon Standard- oder Teams-Telefon mit Anrufplan-lizenzierten Benutzern können Ressourcenkonten entweder eine kostenlose *Microsoft Teams Telefon-Ressourcenkontolizenz* oder eine kostenpflichtige *Teams Telefon Standard-Benutzerlizenz* zuweisen. Ein Microsoft-Anrufplan ist nicht immer erforderlich (unter ["Plan for Teams Auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transferring calls to an external phone number").
 
-Für alle automatischen Telefonkonferenzen und Anrufwarteschleifen ist ein zugeordnetes Ressourcenkonto erforderlich. Ressourcenkonten, für die eine Telefonnummer erforderlich ist, benötigen entweder eine kostenlose *Microsoft Teams Telefon Standard – Virtual User-Lizenz* oder eine kostenpflichtige *Teams Telefon Standard-Benutzerlizenz*, bevor eine Telefonnummer auf das Ressourcenkonto angewendet werden kann.
+Alle automatischen Telefonzentralen und Anrufwarteschleifen erfordern ein zugeordnetes Ressourcenkonto. Ressourcenkonten, für die eine Telefonnummer erforderlich ist, benötigen entweder eine kostenlose *Microsoft Teams Telefon Ressourcenkontolizenz* oder eine kostenpflichtige *Teams Telefon Standard* Benutzerlizenz, bevor eine Telefonnummer auf das Ressourcenkonto angewendet werden kann.
 
 > [!TIP]
-> Für Ressourcenkonten, die mit geschachtelten automatischen Telefonisten oder Anrufwarteschleifen ohne Telefonnummer verwendet werden, ist keine Lizenz erforderlich. Referenz finden Sie im folgenden Diagramm.
+> Für Ressourcenkonten, die mit geschachtelten automatischen Telefonzentralen oder Anrufwarteschleifen verwendet werden, denen keine Telefonnummer zugewiesen ist, ist keine Lizenz erforderlich. Weitere Informationen finden Sie im folgenden Diagramm.
 
-:::image type="content" alt-text="Lizenzen für virtuelle Benutzer." source="../media/resource-account.png":::
+## <a name="resource-account-license-allocation"></a>Ressourcenkonto-Lizenzzuweisung
 
-## <a name="virtual-user-license-allocation"></a>Lizenzzuweisung für virtuelle Benutzer
-
-Ihrer Organisation werden je Microsoft Teams Telefon *Lizenzen für Standard – Virtuelle* Benutzer zugewiesen. Jede Organisation, die über mindestens eine Lizenz mit Teams Telefonsystem verfügt, einschließlich Teams Telefon Standard- und Teams Telefon mit Anrufplanlizenzen, verfügt über 25 Lizenzen für virtuelle Benutzer, die kostenlos zur Verfügung stehen. Wenn Sie 10 Teams Telefon Standard oder Teams Telefon mit Anrufplan-Benutzerlizenzen in Ihrer Organisation hinzufügen, wird eine weitere Microsoft Teams Telefon *Standard – Virtual User-Lizenz* verfügbar.
+Ihrer Organisation werden je nach Gesamtgröße *Microsoft Teams Telefon Ressourcenkontolizenzen* zugewiesen. Jede Organisation, die über mindestens eine Lizenz mit Microsoft Teams-Telefonsystemfeatures verfügt, einschließlich Teams Telefon Standard- und Teams-Telefon mit Anrufplanlizenzen, verfügt über 25 Ressourcenkontolizenzen ohne Kosten. Wenn Sie 10 Teams Telefon Standard- oder Teams-Telefon mit Anrufplan-Benutzerlizenzen in Ihrer Organisation hinzufügen, wird eine weitere *Microsoft Teams Telefon Ressourcenkontolizenz* verfügbar.
 
 > [!NOTE]
-> Teams Telefon Standard- und Teams Telefon Anrufplan sind Add-On-Lizenzen, die für alle Microsoft 365 zur Verfügung stehen. Teams Telefon Standardlizenzen sind ebenfalls In den Plänen Microsoft 365 E5 enthalten.
+> Teams Telefon Standard und Teams Phone with Calling Plan sind Add-On-Lizenzen, die für alle Microsoft 365-Abonnenten verfügbar sind. Teams Telefon Standard Lizenzen sind ebenfalls Bestandteil Microsoft 365 E5 Plänen.
 
-Wenn Ihre Organisation die kostenlosen *Microsoft Teams Telefon Standard – Virtual User-Lizenzen* zum Erstellen von automatischen Telefonant- oder Anrufwarteschlangenknoten verwendet, können Sie die bezahlten *Teams Telefon Standard-Lizenzen* weiterhin mit einem Ressourcenkonto verwenden. Die meisten Organisationen verfügen basierend auf dem Skalierungsplan über genügend virtuelle Benutzerlizenzen.
+Wenn Ihre Organisation die kostenlosen *Microsoft Teams Telefon Ressourcenkontolizenzen* zum Erstellen automatischer Telefonzentralen- oder Anrufwarteschleifenknoten verwendet, können Sie die kostenpflichtigen *Teams Telefon Standard-Lizenzen* weiterhin mit einem Ressourcenkonto verwenden. Die meisten Organisationen verfügen über genügend Ressourcenkontolizenzen basierend auf dem Skalierungsplan.
 
 ### <a name="license-allocation-example"></a>Beispiel für die Lizenzzuweisung
 
-Contoso, Inc. hat 600 Lizenzen gekauft, die Telefonsystem (eine für jeden Mitarbeiter) enthalten. Contoso werden anfänglich 25 plus 60 Lizenzen für Microsoft Teams Telefon *– Virtuelle Benutzer* zugewiesen, insgesamt 85. Ihre Organisation verfügt über 90 Anrufwarteschleifen und automatische Telefonkonferenzen mit Telefonnummern. Sie müssen alle Lizenzen für Microsoft Teams Telefon *Standard – Virtual User* zuweisen und fünf Standard-Standardlizenzen *Teams Telefon erwerben*.
+Contoso, Inc. hat 600 Lizenzen erworben, die das Telefonsystem enthalten (eine für jeden Mitarbeiter). Contoso werden zunächst 25 plus 60 *Microsoft Teams Telefon Ressourcenkontolizenzen* zugewiesen, insgesamt 85. Ihre Organisation verfügt über 90 Anrufwarteschleifen und automatische Telefonzentralen mit Telefonnummern. Sie müssen alle *Microsoft Teams Telefon Ressourcenkontolizenzen* zuweisen und fünf reguläre *Teams Telefon Standard-Lizenzen* erhalten.
 
-Contoso sollte eine Neugestaltung der automatischen Telefonanlage und des Anrufwarteschleifensystems in Erwägung ziehen. Wenn sie weniger Telefonnummern und mehr geschachtelte Knoten verwenden, für die keine Telefonnummer erforderlich ist, vereinfachen sie die Implementierung und senken die Kosten.
+Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anrufwarteschleifensystems in Betracht ziehen. Wenn sie weniger Telefonnummern und mehr geschachtelte Knoten verwenden, die keine Telefonnummer benötigen, vereinfachen sie die Implementierung und senken die Kosten.
 
-## <a name="how-to-buy-microsoft-teams-phone-standard--virtual-user-licenses"></a>So kaufen Sie Microsoft Teams Telefon Standard – Virtual User-Lizenzen
+## <a name="how-to-buy-microsoft-teams-phone-resource-account-licenses"></a>So kaufen Sie Microsoft Teams Telefon Resource Account-Lizenzen
 
 1. Melden Sie sich beim Microsoft 365 Admin Center an.
-2. Wechseln Sie **zu** **BillingPurchase** >  **servicesAdd-ons** > .
-3. Scrollen Sie bis zum Ende, um die Lizenz **Microsoft Teams Telefon Standard – Virtual User"** zu finden. Wählen Sie **Jetzt kaufen** aus.
+2. Wechseln **Sie zu** > **Add-Ons für Abrechnungskaufdienste** > .
+3. Scrollen Sie, um die **Lizenz für das Microsoft Teams Telefon Ressourcenkonto** zu finden. Wählen Sie **Jetzt kaufen** aus.
 
    > [!NOTE]
-   > Denken Sie daran, **dass Sie die** Lizenz weiterhin kaufen müssen, auch wenn die Kosten hier für null liegen.
+   > Denken Sie daran, dass Sie die Lizenz weiterhin **kaufen** müssen, obwohl sie kosten null.
 
-## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-standard--virtual-user-license"></a>Ändern eines vorhandenen Ressourcenkontos in die Verwendung einer Microsoft Teams Telefon Standard – Virtual User-Lizenz
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>Ändern eines vorhandenen Ressourcenkontos zur Verwendung einer Microsoft Teams Telefon Resource Account-Lizenz
 
-Wenn Sie die Lizenz für Ihr Ressourcenkonto von einer *Teams Telefon Standard-Lizenz* auf eine *Microsoft Teams Telefon Standard – Virtual User-Lizenz umschalten* möchten:
+Wenn Sie sich entscheiden, die Lizenz für Ihr Ressourcenkonto von einer *Teams Telefon Standard-Lizenz* auf eine *Microsoft Teams Telefon Resource Account-Lizenz* umzustellen:
 
-1. Holen Sie sich die Microsoft Teams Telefon Standard – Virtual User-Lizenz.
-2. Führen Sie die verknüpften Schritte im Microsoft 365 Admin Center aus, [um Benutzer in ein anderes Abonnement zu verschieben](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+1. Rufen Sie die neue *Microsoft Teams Telefon Resource Account-Lizenz ab*.
+2. Führen Sie die verknüpften Schritte im Microsoft 365 Admin Center aus, um [Benutzer in ein anderes Abonnement zu verschieben](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Entfernen Sie immer eine Teams Telefon *Standard-Lizenz*, und weisen Sie die *Microsoft Teams Telefon Standard – Virtual User-Lizenz* in derselben Lizenzaktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und dann die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet. In diesem Fall empfiehlt es sich, ein neues Ressourcenkonto für die Microsoft Teams Telefon *Standard – Virtual User-Lizenz* zu erstellen und das beschädigte Ressourcenkonto zu entfernen.
+> Entfernen Sie immer eine vollständige *Teams Telefon Standard* Lizenz, und weisen Sie die *Microsoft Teams Telefon Ressourcenkontolizenz* in derselben Lizenzaktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und dann die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet. In diesem Fall wird empfohlen, ein neues Ressourcenkonto für die *Lizenz Microsoft Teams Telefon Ressourcenkonto* zu erstellen und das fehlerhafte Ressourcenkonto zu entfernen.
 
 ## <a name="related-information"></a>Verwandte Informationen
 
-[automatische Telefonzentrale und Dienstupdate für Anrufwarteschleifen](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+[Dienstaktualisierung für automatische Telefonzentrale und Anrufwarteschleifen](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
 [Verwalten von Ressourcenkonten in Microsoft Teams](../manage-resource-accounts.md)

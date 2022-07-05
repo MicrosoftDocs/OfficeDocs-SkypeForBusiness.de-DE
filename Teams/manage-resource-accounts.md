@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie, wie Sie Ressourcenkonten in Microsoft Teams erstellen, bearbeiten und verwalten.
-ms.openlocfilehash: 176cf304909094ae12c102f26ccbcd777366b649
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 0b8c77f7d6371ba1bfefa9837488415405e48f67
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124160"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615801"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -43,16 +43,16 @@ Weitere Informationen finden Sie in den folgenden Verweisen:
 
 Sie können den **Anzeigenamen** des Ressourcenkontos und den **Ressourcenkontotyp** mithilfe der Option **"Bearbeiten"** bearbeiten. Klicken Sie abschließend auf **Speichern**.
 
-## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Ändern eines vorhandenen Ressourcenkontos, um eine virtuelle Benutzerlizenz zu verwenden
+## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Ändern eines vorhandenen Ressourcenkontos zur Verwendung einer Teams Phone-Ressourcenkontolizenz
 
-Wenn Sie die Lizenzen für Ihr vorhandenes Ressourcenkonto von einer **Teams Telefon Standard-Lizenz** auf eine virtuelle Benutzerlizenz umstellen möchten, müssen Sie die kostenlose Virtuelle Benutzerlizenz erwerben und dann die Schritte in der Microsoft 365 Admin Center ausführen, um [Benutzer in ein anderes Abonnement zu verschieben](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+Wenn Sie die Lizenzen für Ihr vorhandenes Ressourcenkonto von einer **Teams Telefon Standard-Lizenz** auf eine **Microsoft Teams Telefon Ressourcenkontolizenz** umstellen möchten, müssen Sie die kostenlose **Microsoft Teams Phone-Ressourcenkontolizenz** erwerben und dann die Schritte in der Microsoft 365 Admin Center, [um Benutzer in ein anderes Abonnement zu verschieben](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Entfernen Sie immer eine vollständige Teams Telefon Standard-Lizenz, und weisen Sie die Virtuelle Benutzerlizenz in derselben Lizenzaktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und dann die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet. In diesem Fall empfiehlt es sich, ein neues Ressourcenkonto für die virtuelle Benutzerlizenz zu erstellen und das beschädigte Ressourcenkonto zu entfernen.
+> Entfernen Sie immer eine vollständige Teams Telefon Standard-Lizenz, und weisen Sie die **Microsoft Teams Telefon Resource Account-Lizenz** in derselben Lizenzaktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und dann die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet. In diesem Fall wird empfohlen, ein neues Ressourcenkonto für die **Lizenz Microsoft Teams Telefon Ressourcenkonto** zu erstellen und das fehlerhafte Ressourcenkonto zu entfernen.
 
-## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
+## <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
-Informationen zu Ressourcenkonten, die auf Skype For Business Server 2019 verwaltet werden und mit Cloudanrufwarteschleifen und automatischen Cloudtelefonzentralen verwendet werden können, finden Sie unter ["Planen von Cloudanrufwarteschleifen](/SkypeforBusiness/hybrid/plan-call-queue)" oder "[Planen automatischer Cloudtelefonzentralen](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)". Hybridimplementierungen (Nummern, die auf Direct Routing verwaltet werden) werden mithilfe des Cmdlets ["New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint)" auf einem lokalen Skype for Business Server 2019-Server konfiguriert.
+Informationen zu Ressourcenkonten, die in Skype for Business Server 2019 verwaltet werden und mit Cloudanrufwarteschleifen und automatischen Cloudtelefonzentralen verwendet werden können, finden Sie unter [Planen von Cloud-Anrufwarteschleifen](/SkypeforBusiness/hybrid/plan-call-queue) oder ["Planen automatischer Cloudtelefonzentralen](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)". Hybridimplementierungen (Nummern, die auf Direct Routing verwaltet werden) werden mithilfe des Cmdlets ["New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint)" auf einem lokalen Skype for Business Server 2019-Server konfiguriert.
 
 Die Anwendungs-IDs, die Sie beim Erstellen der Anwendungsinstanzen verwenden müssen, sind:
 
@@ -60,7 +60,7 @@ Die Anwendungs-IDs, die Sie beim Erstellen der Anwendungsinstanzen verwenden mü
 - **Anrufwarteschleife:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Wenn Sie möchten, dass die Anrufwarteschleife oder automatische Telefonzentrale von Benutzern von Skype For Business Server 2019 durchsucht werden kann, sollten Sie Ihre Ressourcenkonten in Skype For Business Server 2019 erstellen, da Online-Ressourcenkonten nicht mit Active Directory synchronisiert werden. Wenn DNS SRV-Einträge für sipfederationtls in Skype for Business Server 2019 aufgelöst werden, **müssen** Ressourcenkonten auf Skype For Business Server 2019 mithilfe der SfB-Verwaltungsshell erstellt und mit Azure AD synchronisiert werden.
+> Wenn Sie möchten, dass die Anrufwarteschleife oder automatische Telefonzentrale von Benutzern von Skype For Business Server 2019 durchsucht werden kann, sollten Sie Ihre Ressourcenkonten in Skype For Business Server 2019 erstellen, da Online-Ressourcenkonten nicht mit Active Directory synchronisiert werden. Wenn DNS SRV-Einträge für sipfederationtls in Skype for Business Server 2019 aufgelöst werden, **müssen** Ressourcenkonten auf Skype for Business Server 2019 mithilfe der SfB-Verwaltungsshell erstellt und mit Azure AD synchronisiert werden.
 
 Bei hybride Implementierungen mit Skype for Business Server:
 

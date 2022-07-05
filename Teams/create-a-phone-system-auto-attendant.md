@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefonzentralen in Microsoft Teams einrichten und verwalten.
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240944"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616111"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -57,9 +57,9 @@ Die im Artikel beschriebenen Schritte erstellen automatische Telefonzentralen mi
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Führen Sie die folgenden Schritte aus, um Ihre automatische Telefonzentrale einzurichten.
 
-# <a name="step-1---general-info"></a>[Schritt 1 – Allgemeine Informationen](#tab/general-info)
+# <a name="step-1-general-info"></a>[Schritt 1: Allgemeine Informationen](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>Schritt 1: Festlegen der allgemeinen Informationen der automatischen Telefonzentrale
+## <a name="step-1-set-the-auto-attendants-general-information"></a>Schritt 1: Festlegen der allgemeinen Informationen der automatischen Telefonzentrale
 
 Um eine automatische Telefonzentrale einzurichten, erweitern Sie im [Teams Admin Center](https://go.microsoft.com/fwlink/p/?linkid=2066851) **die Option "VoIP**", wählen Sie " **Automatische Telefonzentralen**" und dann " **Hinzufügen"** aus.
 
@@ -78,10 +78,9 @@ Um eine automatische Telefonzentrale einzurichten, erweitern Sie im [Teams Admin
 
 Nachdem Sie die allgemeinen Informationen ihrer automatischen Telefonzentrale festgelegt haben, wählen Sie **"Weiter**" aus.
 
+# <a name="step-2-basic-call-flow"></a>[Schritt 2: Einfacher Anruffluss](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[Schritt 2 : Einfacher Anruffluss](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>Schritt 2 : Einrichten des grundlegenden Anrufflusses
+## <a name="step-2-set-up-the-basic-call-flow"></a>Schritt 2: Einrichten des grundlegenden Anrufflusses
 
 ### <a name="set-a-greeting"></a>Festlegen einer Begrüßung
 
@@ -131,9 +130,9 @@ Weitere Informationen finden Sie in der [Wähl- und Sprachreferenz](dial-voice-r
 
 Nachdem Sie Ihre grundlegenden Anrufflussoptionen festgelegt haben, wählen Sie **"Weiter**" aus.
 
-# <a name="step-3---after-hours-call-flow"></a>[Schritt 3 : Anruffluss nach Feierabend](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[Schritt 3: Anruffluss nach Feierabend](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>Schritt 3: Einrichten des Anrufflusses für Nachstunden (optional)
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Schritt 3: Einrichten des Anrufflusses nach Feierabend (optional)
 
 Geschäftszeiten können für jede automatische Telefonzentrale festgelegt werden.
 
@@ -151,9 +150,9 @@ Wenn Sie ein separates Anrufrouting für Anrufer nach Feierabend wünschen, gebe
 
 Nachdem Sie den Anruffluss nach Feierabend hinzugefügt haben, wählen Sie **"Weiter**" aus.
 
-# <a name="step-4---holiday-call-flow"></a>[Schritt 4 – Anruffluss für Feiertage](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[Schritt 4: Anruffluss für Feiertage](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>Schritt 4 – Einrichten von Anrufflüssen für Feiertage (optional)
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Schritt 4: Einrichten von Anrufflüssen für Feiertage (optional)
 
 Ihre automatische Telefonzentrale kann für jeden [von Ihnen eingerichteten Feiertag](set-up-holidays-in-teams.md) einen Anruffluss haben. Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
@@ -176,9 +175,9 @@ Wiederholen Sie den Vorgang nach Bedarf für jeden zusätzlichen Feiertag.
 
 Nachdem Sie alle Ihre Urlaubszeiten hinzugefügt haben, wählen Sie **"Weiter**" aus.
 
-# <a name="step-5---dial-scope"></a>[Schritt 5 – Wählbereich](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[Schritt 5: Wählbereich](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>Schritt 5 – Einrichten des Wählbereichs (optional)
+## <a name="step-5-set-up-dial-scope-optional"></a>Schritt 5: Einrichten des Wählbereichs (optional)
 
 Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer eine Namens- oder Durchwahlnummer verwendet. Der Standardwert von **"Alle Onlinebenutzer**" umfasst alle Benutzer in Ihrer Organisation, die Onlinebenutzer sind oder lokal mithilfe von Skype for Business Server gehostet werden.
 
@@ -191,9 +190,9 @@ Wenn sich ein Benutzer in beiden Listen befindet, wird er aus dem Verzeichnis au
 
 Nachdem Sie Ihre Optionen für den **Wählbereich** ausgewählt haben, wählen Sie **"Weiter**" aus.
 
-# <a name="step-6---resource-accounts"></a>[Schritt 6 : Ressourcenkonten](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[Schritt 6: Ressourcenkonten](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>Schritt 6 : Einrichten von Ressourcenkonten (optional)
+## <a name="step-6-set-up-resource-accounts-optional"></a>Schritt 6: Einrichten von Ressourcenkonten (optional)
 
 Allen automatischen Telefonzentralen muss ein Ressourcenkonto zugeordnet sein.  Automatische Telefonzentralen der ersten Ebene benötigen mindestens ein Ressourcenkonto mit einer zugeordneten Dienstnummer. Wenn Sie möchten, können Sie einer automatischen Telefonzentrale mehrere Ressourcenkonten zuweisen, die jeweils eine separate Dienstnummer haben.
 
@@ -203,9 +202,9 @@ Nachdem Sie Ressourcenkonten hinzugefügt haben, wählen Sie **"Weiter**" aus.
 
 Weitere Informationen finden [Sie unter Verwalten von Teams-Ressourcenkonten](manage-resource-accounts.md) .
 
-# <a name="additional-resources"></a>[Weitere Ressourcen](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>Ressourcen für komplexere Szenarien
+## <a name="resources-for-complex-scenarios"></a>Ressourcen für komplexe Szenarien
 
 ### <a name="external-phone-number-transfers---technical-details"></a>Externe Telefonnummernübertragungen – technische Details
 
@@ -236,8 +235,6 @@ Als Administrator können Sie mit dem folgenden Diagnosetool überprüfen, ob ei
 2. Geben Sie im Diagnosebereich "Ausführen" das Ressourcenkonto in das Feld **"Benutzername" oder "E-Mail** " ein, und wählen Sie dann **"Tests ausführen**" aus.
 
 3. Die Tests identifizieren Mandanten-, Richtlinien- oder Ressourcenkontokonfigurationen, die verhindern, dass die automatische Telefonzentrale Anrufe entgegennehmen kann, und geben Schritte zur Behebung der erkannten Probleme an.
-
----
 
 ### <a name="related-topics"></a>Verwandte Themen
 

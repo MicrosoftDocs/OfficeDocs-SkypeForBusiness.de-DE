@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
@@ -17,18 +19,18 @@ description: Erfahren Sie, wie Sie Teams-Apps verwalten. Erfahren Sie, wie Sie A
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 25e540a7709ab12b73a97cc94b1350630c302197
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529727"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616051"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams-Apps im Microsoft Teams Admin Center
 
 Sie verwalten Apps für Ihre Organisation auf der Seite **"Teams-Apps** " im Teams Admin Center-Portal. Verwenden Sie die Seite "Apps verwalten", um alle Teams-Apps im App-Katalog Ihrer Organisation anzuzeigen und zu verwalten.
 
-![Screenshot der Seite "Apps verwalten".](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="Screenshot der Seite &quot;Apps verwalten&quot;." lightbox="media/manage-apps.png":::
 
 Um das Teams Admin Center verwenden zu können, müssen Sie über eine Globale Admin- oder Teams-Administratorrolle verfügen. Ausführliche Informationen finden Sie in den folgenden Hilfeartikeln:
 
@@ -156,7 +158,7 @@ Sie verwenden die Schaltfläche " **Zu Team hinzufügen** ", um eine App für ei
 1. Suchen Sie nach einer App anhand ihres Namens, und wählen Sie die App aus. Öffnen Sie die Seite mit den App-Details nicht.
 1. Wählen Sie **"Zum Team hinzufügen" aus**.
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Screenshot der Option &quot;Zu Team hinzufügen&quot; für die App, die dem Teambereich hinzugefügt werden kann." lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Screenshot der Option &quot;Zu Team hinzufügen&quot; für die App, die dem Teambereich hinzugefügt werden kann.":::
 
 1. Suchen **Sie im Bereich "Zu Team hinzufügen** " nach dem Team, dem Sie die App hinzufügen möchten, wählen Sie das Team aus, und wählen Sie dann **"Übernehmen"** aus.
 

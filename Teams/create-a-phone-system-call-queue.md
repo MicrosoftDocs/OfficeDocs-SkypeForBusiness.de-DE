@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen in Microsoft Teams einrichten. Anrufwarteschleifen stellen eine Begrüßungsnachricht bereit, halten Musik, Anrufumleitung und andere Features bereit.
-ms.openlocfilehash: b90dc937d9df1b8578e80c34c96030caf2db5bad
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494692"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616171"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -96,7 +96,7 @@ Weitere Informationen finden [Sie unter Verwalten von Teams-Ressourcenkonten](ma
 Sie können ausgehende Anrufer-ID-Nummern für die Agents zuweisen, indem Sie ein oder mehrere Ressourcenkonten mit einer Telefonnummer angeben. Agents können auswählen, welche ausgehende Anrufer-ID-Nummer für jeden ausgehenden Anruf verwendet werden soll. Innerhalb der Anruf-App können Agents ihre Anrufwarteschleife (CQ) / Automatische Telefonzentrale (AA) oder ihre eigene persönliche Direkte Einwahl (Direct InWard Dial, DID) verwenden.
 
 > [!NOTE]
-> Für das Ressourcenkonto, das für Anruf-ID-Zwecke verwendet wird, muss eine **Microsoft Teams Telefon System - Virtual User-Lizenz** und eine der folgenden zugewiesen sein:
+> Für das Ressourcenkonto, das für Anruf-ID-Zwecke verwendet wird, muss eine **Microsoft Teams Telefon Ressourcenkontolizenz** und eine der folgenden zugewiesen sein:
 >
 > - Eine Anrufplanlizenz und eine zugewiesene Telefonnummer
 > - Eine zugewiesene Telefonnummer des Telefons "Telefonieanbieter"
@@ -121,7 +121,7 @@ Wenn Sie nicht über ein Ressourcenkonto mit einer zugewiesenen Telefonnummer ve
 
 Nachdem Sie dieses neue Ressourcenkonto für die Anruf-ID erstellt haben, müssen Sie weiterhin Folgendes ausführen:
 
-- Zuweisen einer [Teams Telefon Standard – Virtuelle Benutzerlizenz](manage-resource-accounts.md#assign-a-license)
+- Zuweisen einer Lizenz für ein [Teams-Telefonressourcenkonto](manage-resource-accounts.md#assign-a-license)
 - Zuweisen einer Microsoft-Anrufplanlizenz, Zuweisen einer Telefonnummer für Telefonieanbieter oder Zuweisen einer Online-VoIP-Routingrichtlinie für Direct Routing
 - Weisen Sie die [Diensttelefonnummer dem Ressourcenkonto zu](manage-resource-accounts.md#assign-a-service-number), wenn Sie den Microsoft-Anrufplan verwenden.
 
@@ -133,7 +133,7 @@ Diese Sprache wird für vom System generierte Sprachansagen und Voicemailtranskr
 
 Nachdem Sie eine Sprache ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Weiter**" aus.
 
-# <a name="step-2---greeting-and-music"></a>[Schritt 2 – Begrüßung und Musik](#tab/greeting-music)
+# <a name="step-2-greeting-and-music"></a>[Schritt 2: Begrüßung und Musik](#tab/greeting-music)
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>Schritt 2: Hinzufügen einer Begrüßung und Wartemusik
 
@@ -151,7 +151,7 @@ Teams bietet Anrufern Standardmusik, während sie *sich in einer Warteschleife b
 
 Nachdem Sie eine Begrüßung und Wartemusik ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Weiter**" aus.
 
-# <a name="step-3---call-answering"></a>[Schritt 3 : Anrufbeantwortung](#tab/call-answering)
+# <a name="step-3-call-answering"></a>[Schritt 3: Anrufbeantwortung](#tab/call-answering)
 
 ## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>Schritt 3: Einrichten, wer eingehende Anrufe entgegennimmt
 
@@ -223,7 +223,7 @@ Die Teams-Konten von Agents müssen auf den TeamsOnly-Modus festgelegt sein. Tel
 
 Nachdem Sie ihre Anrufbeantwortungsoptionen ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Weiter**" aus.
 
-# <a name="step-4---agent-routing"></a>[Schritt 4 : Agent-Routing](#tab/agent-routing)
+# <a name="step-4-agent-routing"></a>[Schritt 4: Agent-Routing](#tab/agent-routing)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>Schritt 4: Auswählen der Optionen für das Agentrouting
 
@@ -285,7 +285,7 @@ Es wird empfohlen, die **Agent-Benachrichtigungszeit** auf **20 Sekunden** festz
 
 Nachdem Sie die Optionen für die Anrufweiterleitung des Agents ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Weiter**" aus.
 
-# <a name="step-5---call-overflow"></a>[Schritt 5 – Anrufüberlauf](#tab/call-overflow)
+# <a name="step-5-call-overflow"></a>[Schritt 5: Anrufüberlauf](#tab/call-overflow)
 
 ## <a name="step-5-set-how-to-handle-call-overflow"></a>Schritt 5: Festlegen der Behandlung des Anrufüberlaufs
 
@@ -308,7 +308,7 @@ Informationen zu externen [Übertragungen finden Sie unter Voraussetzungen](./pl
 
 Nachdem Sie Ihre Timeoutoptionen für Anrufe ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Weiter**" aus.
 
-# <a name="step-6---call-timeout"></a>[Schritt 6 – Timeout für Anrufe](#tab/call-timeout)
+# <a name="step-6-call-timeout"></a>[Schritt 6: Timeout für Anrufe](#tab/call-timeout)
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>Schritt 6: Festlegen der Behandlung von Timeouts für Anrufe
 
@@ -327,9 +327,11 @@ Informationen zu externen [Übertragungen finden Sie unter Voraussetzungen](./pl
 
 Nachdem Sie die Optionen für die Anrufweiterleitung des Agents ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Absenden**" aus.
 
-# <a name="additional-resources"></a>[Weitere Ressourcen](#tab/additional-resources)
+---
 
-## <a name="summary-of-recommended-call-queue-settings"></a>Zusammenfassung der empfohlenen Einstellungen für die Anrufwarteschleife
+## <a name="resources-for-complex-scenarios"></a>Ressourcen für komplexe Szenarien
+
+### <a name="summary-of-recommended-call-queue-settings"></a>Zusammenfassung der empfohlenen Einstellungen für die Anrufwarteschleife
 
 Die folgenden Konfigurationen werden empfohlen:
 
@@ -338,7 +340,7 @@ Die folgenden Konfigurationen werden empfohlen:
 - **Anwesenheitsbasierte Weiterleitung** auf **Ein**
 - **Telefonberater-Benachrichtigungszeit:** auf **20 Sekunden**
 
-## <a name="call-queue-feature-compatibility"></a>Kompatibilität der Anrufwarteschleifenfeatures
+### <a name="call-queue-feature-compatibility"></a>Kompatibilität der Anrufwarteschleifenfeatures
 
 |Feature                          |Teams Desktop<sup>1</sup> |Teams-Web | Teams Mobile<sup>2</sup> |Lync |IP-Telefone | Standardanrufwarteschleifen |Kanalbasierte Anrufwarteschleifen | Kommentar |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -356,7 +358,7 @@ Die folgenden Konfigurationen werden empfohlen:
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |J                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**Dynamische Anrufer-ID**            |                          |          |                |     |          |                      |                          |   |
-|`Standard call queue`            |N                         |N         |J               |N    |N         |J                     |n/a                       |   |
+|`Standard call queue`            |J                         |J         |J               |N    |N         |J                     |n/a                       |   |
 |`Channel based call queue`       |J                         |n/a       |n/a             |n/a  |n/a       |n/a                   |J                         |   |
 |**PSTN-Konnektivitätsmethoden**    |                          |          |                |     |          |                      |                          |Siehe Hinweis 9   |
 |`Calling Plans`                  |J                         |J         |J               |J    |J         |J                     |J                         |   |
@@ -365,7 +367,7 @@ Die folgenden Konfigurationen werden empfohlen:
 |**Sonstige**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |J                 |N         |J               |J    |          |J                     |J                         |              |
 
-### <a name="notes"></a>Hinweise
+#### <a name="notes"></a>Hinweise
 
 1. Microsoft Teams Windows-Client, Microsoft Teams Mac-Client, Microsoft Teams auf virtualisierter Desktopinfrastruktur.
 2. Microsoft Teams iPhone-App, Microsoft Teams Android-App.
@@ -377,7 +379,7 @@ Die folgenden Konfigurationen werden empfohlen:
 8. Es werden nur öffentliche Kanäle unterstützt.
 9. Automatische Telefonzentralen und Anrufwarteschleifen können keine Anrufe zwischen PSTN-Konnektivitätsmethoden übertragen.
 
-## <a name="supported-clients"></a>Unterstützte Clients
+### <a name="supported-clients"></a>Unterstützte Clients
 
 Die folgenden Clients werden für Telefonberater in einer Anrufwarteschleife unterstützt:
 
@@ -397,7 +399,7 @@ Die folgenden Clients werden für Telefonberater in einer Anrufwarteschleife unt
   > [!NOTE]
   > Anrufwarteschleifen, denen eine direkte Routingnummer zugewiesen ist, unterstützen keine Skype for Business-Clients, Lync-Clients oder Skype for Business-IP-Telefone als Telefonberater. Der Teams-Client wird nur mit einem [Koexistenzmodus von "Nur Teams](setting-your-coexistence-and-upgrade-settings.md)" unterstützt.
 
-## <a name="call-queue-diagnostic-tool"></a>Diagnosetool für die Anrufwarteschleife
+### <a name="call-queue-diagnostic-tool"></a>Diagnosetool für die Anrufwarteschleife
 
 Als Administrator können Sie mit dem folgenden Diagnosetool überprüfen, ob eine Anrufwarteschleife Anrufe empfangen kann:
 
@@ -410,9 +412,7 @@ Als Administrator können Sie mit dem folgenden Diagnosetool überprüfen, ob ei
 
 3. Die Tests geben die besten nächsten Schritte zurück, um alle Mandanten-, Richtlinien- und Ressourcenkontokonfigurationen zu adressieren, um zu überprüfen, ob die Anrufwarteschleife In der Lage ist, Anrufe zu empfangen.
 
----
-
-## <a name="related-topics"></a>Verwandte Themen
+### <a name="related-topics"></a>Verwandte Themen
 
 [Hier erfahren Sie, was Sie mit Microsoft Teams Telefon](here-s-what-you-get-with-phone-system.md)
 

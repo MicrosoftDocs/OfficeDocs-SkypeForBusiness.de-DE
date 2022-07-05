@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams Überwachung und Benachrichtigungen
-author: vaibhav
-ms.author: serdars
+title: Microsoft Teams-Überwachung und -Benachrichtigung
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -12,41 +12,41 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über Teams funktionen für Benachrichtigungen und Benachrichtigungen, die im Microsoft Teams Admin Center verfügbar sind.
+description: Erfahren Sie mehr über die Teams-Benachrichtigungs- und Benachrichtigungsfunktionen, die im Microsoft Teams Admin Center verfügbar sind.
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 36c265397c88e5c44c82512d1f06a45f07cc81d0
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: c4acbbb085bbf47339b0b0b2bcb7000466953b70
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642839"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616291"
 ---
-# <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams überwachen und warnen
+# <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams-Überwachung und -Benachrichtigung
 
-Neue Überwachungs- und Benachrichtigungsfunktionen für Microsoft Teams im Teams Admin Center verfügbar. Verwenden Sie verschiedene Regelsätze, die im  Abschnitt Benachrichtigungen &-Benachrichtigungen im Teams Admin Center verfügbar sind, um Ihre Teams zu überwachen und Benachrichtigungen zu empfangen. So können Sie beispielsweise den Status von Teams-Geräten wie IP-Telefonen, Zusammenarbeitsleisten und anderen Geräten aktiv überwachen, wenn diese unerwartet offline gehen.  
+Neue Überwachungs- und Benachrichtigungsfunktionen für Microsoft Teams sind im Teams Admin Center verfügbar. Verwenden Sie verschiedene Regelsätze, die im Abschnitt **"Benachrichtigungen & Warnungen** " im Teams Admin Center verfügbar sind, um die Teams-Funktionen zu überwachen und Benachrichtigungen zu empfangen. Beispielsweise können Sie die Integrität von Teams-Geräten wie IP-Telefonen, Zusammenarbeitsleisten und anderen aktiv überwachen, wenn diese unerwartet offline gehen.  
 
-Ihre Organisation kann Teams Überwachung und Benachrichtigung verwenden, um die folgenden Punkte zu tun:
+Ihre Organisation kann die Teams-Überwachung und -Benachrichtigung verwenden, um die folgenden Elemente auszuführen:
 
-- Automatisches Verwalten Teams Funktionen
-- Erhalten Sie eine Warnung, wenn etwas Unerwartetes angezeigt wird.
-- Ergreifen Sie Korrekturmaßnahmen, um die Dinge wieder in die Spur zu bringen.
+- Teams-Funktionen automatisch verwalten
+- Werden Sie benachrichtigt, wenn unerwartete Ereignisse angezeigt werden.
+- Führen Sie Korrekturmaßnahmen aus, um die Dinge wieder auf den richtigen Weg zu bringen.
 
-## <a name="how-to-manage-monitoring-and-alerting"></a>So wird's geschafft: Verwalten von Überwachung und Benachrichtigung
+## <a name="how-to-manage-monitoring-and-alerting"></a>So wird's gemacht: Verwalten von Überwachung und Warnungen
 
- Sie müssen ein globaler Administrator in der Microsoft 365 oder ein Teams dienstadministrator sein, um Benachrichtigungsregeln konfigurieren zu können. Weitere [Informationen zu Teams](../using-admin-roles.md) Administratorrollen und zu den Berichten, auf die jede Administratorrolle zugreifen kann, finden Sie Teams Verwalten von Teams Administratorrollen.
+ Sie müssen ein globaler Administrator in Microsoft 365 oder ein Teams-Dienstadministrator sein, um Benachrichtigungsregeln konfigurieren zu können. Weitere Informationen zu Teams-Administratorrollen und den Berichten, auf die jede Administratorrolle zugreifen kann, finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](../using-admin-roles.md) .
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
-2. Wählen Sie im linken Navigationsbereich die Option **Benachrichtigungen & aus**.
-3. Wählen Sie in Regeln die Regel aus, die Sie konfigurieren **möchten**.
+2. Wählen Sie im linken Navigationsbereich **"Benachrichtigungen & Warnungen**" aus.
+3. Wählen Sie die Regel aus, die Sie aus **"Regeln**" konfigurieren möchten.
 
-## <a name="teams-monitoring-rules-reference"></a>Teams zu Überwachungsregeln
+## <a name="teams-monitoring-rules-reference"></a>Referenz zu Teams-Überwachungsregeln
 
-Wir erweitern und verbessern die Benutzererfahrung bei der Teams, indem wir verschiedene Überwachungsfunktionen und Konfigurationsfunktionen hinzufügen. Hier finden Sie eine Liste der Teams, die zurzeit im Admin Center Teams sind.
+Wir erweitern und verbessern weiterhin die Teams-Überwachungserfahrung, indem wir verschiedene Überwachungsfunktionen und Konfigurationsfunktionen hinzufügen. Hier ist eine Liste der Teams-Überwachungsregeln, die derzeit im Teams Admin Center verfügbar sind.
 
 
 |Regel  |Überwachungsfunktion|Was wird überwacht? |
 |---------|---------|---------|
-|App-Übermittlungen  |Teams-Apps | Pro Ihre Apps aktiv Teams, wenn sie zur Genehmigung eingereicht werden.|
-|[Gerätestatusregel](device-health-status.md)  |Teams-Geräte | Pro Ihre Geräte aktiv Teams, wenn sie offline sind.|
+|App-Übermittlungen  |Teams-Apps | Überwachen Sie Teams-Apps aktiv, wenn sie zur Genehmigung eingereicht werden.|
+|[Gerätestatusregel](device-health-status.md)  |Teams-Geräte | Überwachen Sie Teams-Geräte aktiv, wenn sie offline gehen.|
