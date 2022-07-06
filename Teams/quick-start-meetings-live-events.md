@@ -7,6 +7,8 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.service: msteams
+ms.subservice: meetings
+ms.custom: intro-overview
 audience: admin
 f1.keywords:
 - NOCSH
@@ -20,40 +22,37 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: d4e28437d6251156e16c2568c9adf9a708e412bd
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240974"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615671"
 ---
-# <a name="meetings-webinars-and-live-events"></a>Besprechungen, Webinare und Liveereignisse 
+# <a name="meetings-webinars-and-live-events"></a>Besprechungen, Webinare und Liveereignisse
 
-In Microsoft Teams gibt es mehrere Möglichkeiten, sich zu treffen: Besprechungen, Webinare und Liveereignisse. 
+In Microsoft Teams gibt es mehrere Möglichkeiten, sich zu treffen: Besprechungen, Webinare und Liveereignisse.
 
 Dieser Artikel, der sich an Administratoren und IT-Experten richtet, beschreibt die Unterschiede zwischen Besprechungen, Webinaren und Liveereignissen. Darüber hinaus werden Links zu den erforderlichen Informationen bereitgestellt, um die jeweilige Funktionalität für Ihre Benutzer schnell bereitzustellen.
 
-> [!Note]
+> [!NOTE]
 > Mehr über die schnelle Konfiguration von Microsoft Teams-Besprechungen und -Ereignissen auf verschiedenen Plattformen erfahren Sie unter [Microsoft Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
-
 
 [Besprechungen](#meetings), [Webinare](#webinars) und [Liveereignisse](#live-events) sind alles Typen von Besprechungen, aber Webinare und Liveereignisse bieten dem Organisator zusätzliche Kontrolle über die Unterhaltung und die Teilnehmer. Webinare bieten bidirektionale Interaktion, während Liveereignisse eine verwaltete Q&A-Erfahrung bieten. 
 
 Die verschiedenen Arten von Besprechungen weisen auch unterschiedliche Teilnehmerlimits und -funktionen auf. 
 
 In der folgenden Tabelle werden die drei Arten von Besprechungen und die Anzahl der empfohlenen Teilnehmer zusammengefasst, und wie die Teilnehmer in der Besprechung miteinander interagieren können. Abschnitte mit weiteren Informationen zu den einzelnen Besprechungstypen finden Sie nach der Tabelle. Dieser Artikel enthält auch einen Abschnitt zu den [bewährten Methoden für große Besprechungen](#best-practices-for-large-meetings).
-<br><br>
 
 | Besprechungstyp | Anzahl Teilnehmer | Interaktion | Unterstützung von Registrierungen |
 |----------|--------|--------|-----|
-| Besprechungen  | Bis zu 20.000* <br> | – Bis zu 1.000 Teilnehmern stehen die gleichen vollständig interaktiven Besprechungsfunktionen zur Verfügung. <br> – Bei über 1.000 bis zu 20.000 Teilnehmern stehen ihnen [Nur-Ansicht](view-only-meeting-experience.md)-Funktionen zur Verfügung.  | Nein |
-| Webinare | - Bis zu 1.000<br>– Höhere Grenzwerte mit [Nur anzeigen](view-only-meeting-experience.md)-Funktionen stehen in Kürze zur Verfügung. |– Bis zu 1.000 Teilnehmern stehen vollständig interaktive Besprechungsfunktionen zur Verfügung. <br> – Benutzergruppeninteraktion konfigurierbar. <br> - Angabe von Referenten möglich. | Ja |
-| Liveereignisse | Bis zu 20.000** |– Übertragung an große Benutzergruppen. <br>– Moderierte Q&A-Runden für die Interaktion mit Benutzergruppen. <br> – Angabe von Produzenten und Referenten möglich, einschließlich externer Referenten.<br>– Unterstützung erweiterter Produktionsfunktionen. | Nein |
-||||
+| Besprechungen  | Bis zu 20.000* | - Bis zu 1.000 Teilnehmer haben vollständig interaktive, gleichwertige Meeting-Funktionen. <br> - Teilnehmer über 1.000 bis zu 20.000 können [Nur Ansicht](view-only-meeting-experience.md).  | Nein |
+| Webinare | - Bis zu 1.000<br>- Erhöhte Limits mit [Nur-Ansicht](view-only-meeting-experience.md) Funktionen in Kürze. |- Teilnehmer bis zu 1.000 haben vollständig interaktive Möglichkeiten.<br> - Publikumsinteraktion konfigurierbar.<br> - Kann Referenten angeben. | Ja |
+| Liveereignisse | Bis zu 20.000** |- Übertragung an ein großes Publikum. <br>- Moderiertes Q&A für die Interaktion mit dem Publikum. <br> - Kann Produzenten und Moderatoren angeben, einschließlich externer Moderatoren.<br>- Unterstützt erweiterte Produktionsfunktionen. | Nein |
 
-*Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2022 auf 20.000 erhöht.<br>
+*Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2022 auf 20.000 erhöht.
 
-**Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2022 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](/stream/live-events-assistance) erforderlich ist. 
+**Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2022 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](/stream/live-events-assistance) erforderlich ist.
 
 Beachten Sie, dass NDI in Besprechungen, Webinaren und Liveereignissen vollständig unterstützt wird, sodass Sie die Übertragung mithilfe von Tools wie OBS und Wirecast produzieren können. Weitere Informationen finden Sie unter [Verwenden von NDI®-Technologie in Microsoft Teams](use-ndi-in-meetings.md).
 
@@ -71,32 +70,28 @@ Informationen zum Nur-Ansicht-Modus finden Sie unter [Microsoft Teams-Besprechun
 
 In der folgenden Tabelle sind die wichtigsten Artikel aufgeführt, die Sie lesen sollten:
 
-| Artikel | Beschreibung | 
+| Artikel | Beschreibung |
 |----------|--------|
 | [Besprechungseinstellungen](meeting-settings-in-teams.md) |  Hier wird erläutert, wie die Besprechungseinstellungen für anonyme Benutzer, Besprechungseinladungen und Mediendatenverkehr festgelegt werden.  |
 | [Besprechungsrichtlinien](meeting-policies-overview.md)  | In diesem Artikel finden Sie Details dazu, wie die Richtlinien erstellt und verwaltet werden, über die festgelegt wird, welche Features für die Besprechungsteilnehmer verfügbar sind. | 
 | [Verwalten der Aufzeichnung von Microsoft Teams-Cloudbesprechungen](cloud-recording.md) | Hier finden Sie Informationen dazu, wie Besprechungsaufzeichnungen verwaltet werden. |
 | [Verwalten der Geräte Ihrer Organisation](device-management.md)| In diesem Artikel wird erläutert, wie Sie die Geräte Ihrer Organisation verwalten können, z. B. Telefone und Microsoft Teams-Räume. |
-| [Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Beschreibt, wie Sie Echtzeit-Analysen (Real-Time Analytics, RTA) verwenden, um Probleme mit der Microsoft Teams-Besprechungsqualität für einzelne Benutzer zu beheben. 
-|||
+| [Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Beschreibt, wie Sie Echtzeit-Analysen (Real-Time Analytics, RTA) verwenden, um Probleme mit der Microsoft Teams-Besprechungsqualität für einzelne Benutzer zu beheben.|
 
 ### <a name="key-training-for-end-users"></a>Wichtige Schulungen für Endbenutzer
 
 In der folgenden Tabelle sind die verfügbaren Schulungen für Endbenutzern in Ihrer Organisation aufgeführt:
 
-| Schulung | Beschreibung | 
+| Schulung | Beschreibung |
 |----------|--------|
 | [Verwalten von Besprechungen](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) | Ein kurzes Schulungsvideo für Benutzer, die noch keine Erfahrung mit Microsoft Teams-Besprechungen haben. |
 | [Planen einer Besprechung](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5) | Artikel, in dem beschrieben wird, wie verschiedene Arten von Besprechungen geplant werden. |
 | [Mit Microsoft Teams effektive Besprechungen durchführen](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings) | Kostenlose Schulung durch Kursleiter dazu, wie Sie Besprechungen ansprechender, produktiver und sinnvoller gestalten können. |
-| [Ändern der Teilnehmereinstellungen für eine Microsoft Teams-Besprechung](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) | Artikel zum Verwalten von Besprechungsoptionen.
-||
-
+| [Ändern der Teilnehmereinstellungen für eine Microsoft Teams-Besprechung](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) | Artikel zum Verwalten von Besprechungsoptionen. |
 
 ## <a name="webinars"></a>Webinare
 
-**Webinare** sind strukturierte Besprechungen, bei denen Referenten und Teilnehmer klare Rollen haben. Ein wichtiger Unterschied zwischen Webinaren und Microsoft Teams-Besprechungen besteht darin, dass bei Webinaren eine Registrierung möglich ist und Teilnehmerinteraktionsdaten bereitgestellt werden. Informationen zum Aktivieren von Webinaren in Ihrer Organisation finden Sie unter [Einrichten von Webinaren in Microsoft Teams](set-up-webinars.md). 
-
+**Webinare** sind strukturierte Besprechungen, bei denen Referenten und Teilnehmer klare Rollen haben. Ein wichtiger Unterschied zwischen Webinaren und Microsoft Teams-Besprechungen besteht darin, dass bei Webinaren eine Registrierung möglich ist und Teilnehmerinteraktionsdaten bereitgestellt werden. Informationen zum Aktivieren von Webinaren in Ihrer Organisation finden Sie unter [Einrichten von Webinaren in Microsoft Teams](set-up-webinars.md).
 
 ### <a name="key-training-for-end-users"></a>Wichtige Schulungen für Endbenutzer
 
@@ -105,56 +100,52 @@ In der folgenden Tabelle sind die verfügbaren Schulungen für Endbenutzern in I
 | Schulung | Beschreibung | 
 |----------|--------|
 | [Erste Schritte mit Microsoft Teams-Webinaren](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | Ein kurzes Schulungsvideo für Benutzer, die noch keine Erfahrung mit Microsoft Teams-Webinaren haben. |
-| [Visuelles Schnellstarthandbuch](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | Ein herunterladbarer visueller Leitfaden zur Planung von Webinaren.  |
-||
+| [Visuelles Schnellstarthandbuch](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | Ein herunterladbarer visueller Leitfaden zur Planung von Webinaren. |
 
 
 ## <a name="live-events"></a>Liveereignisse
 
-**Liveereignisse** sind strukturierte Besprechungen, die es Ihrer Organisation ermöglichen, Veranstaltungen bzw. Ereignisse zu planen und zu erstellen, die an ein zahlenmäßig großes Onlinepublikum &mdash; bis zu 20.000 Personen – übertragen werden. Bei Liveereignissen erfolgt die Interaktion mit dem Publikum in einem Frage-und-Antwort-Modus.
+**Live Events** sind strukturierte Meetings, die es Ihrer Organisation ermöglichen, Events zu planen und zu produzieren, die an ein großes Online-Publikum gestreamt werden – bis zu 20.000 Personen. Bei Liveereignissen erfolgt die Interaktion mit dem Publikum in einem Frage-und-Antwort-Modus.
 
 ### <a name="articles-for-administrators"></a>Artikel für Administratoren
 
 In der folgenden Tabelle sind die wichtigsten Artikel aufgeführt, die Sie lesen sollten:
 
-| Artikel | Beschreibung | 
+| Artikel | Beschreibung |
 |----------|--------|
 | [Was sind Microsoft Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md)  | Eine kurze Einführung in Liveereignisse. |
 | [Planen von Microsoft Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md) | Was Sie wissen müssen, bevor Sie Liveereignisse einrichten. |
 | [Vorbereitung für Microsoft Teams-Liveereignisse](teams-live-events/set-up-for-teams-live-events.md) | Erläuterung von Voraussetzungen wie z. B. die Netzwerkplanung. |
-| [Konfigurieren von Liveereignissen](teams-live-events/configure-teams-live-events.md) | Die erforderlichen Schritte zum Konfigurieren von Liveereignissen.
-||
+| [Konfigurieren von Liveereignissen](teams-live-events/configure-teams-live-events.md) | Die erforderlichen Schritte zum Konfigurieren von Liveereignissen.|
 
 ### <a name="key-training-for-end-users"></a>Wichtige Schulungen für Endbenutzer
 
 In der folgenden Tabelle sind die verfügbaren Schulungen für Endbenutzern in Ihrer Organisation aufgeführt:
 
-| Schulung | Beschreibung | 
-|----------|--------|
+| Schulung | Beschreibung |
+|:----------|:--------|
 | [Erste Schritte mit Liveereignissen](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a) | Eine Einführung in Liveereignisse und Beschreibung der ersten Schritte. |
 | [Videoschulung zu Microsoft Teams-Liveereignissen](https://support.microsoft.com/en-us/office/plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502?ui=en-US&rs=en-US&ad=US) | Video über das Einrichten und Planen von Liveereignissen.  |
-||
 
-Wenn Sie größere virtuelle Veranstaltungen abhalten möchten, lesen Sie den [Leitfaden für virtuelle Ereignisse](https://adoption.microsoft.com/virtual-event-guidance/), der Anleitungen für Organisatoren, technische Produzenten, IT-Fachleute und Inhaltsersteller enthält. 
+Wenn Sie größere virtuelle Veranstaltungen abhalten möchten, lesen Sie den [Leitfaden für virtuelle Ereignisse](https://adoption.microsoft.com/virtual-event-guidance/), der Anleitungen für Organisatoren, technische Produzenten, IT-Fachleute und Inhaltsersteller enthält.
 
 ## <a name="apps-for-meetings"></a>Apps für Besprechungen
 
 Mit Microsoft können Sie Besprechungserfahrungen verbessern, indem Sie Besprechungs-Apps integrieren und verwenden. Die Integration von Whiteboard in Teams-Besprechungen wird beispielsweise von der Whiteboard-Web-App unterstützt, mit der Teams-Besprechungsteilnehmer auf einem freigegebenen digitalen Zeichenbereich zeichnen, skizzieren und schreiben können.
 
-Sie können Besprechungs-Apps zu Ihrer Microsoft Teams-Bereitstellung hinzufügen, indem Sie die mit Microsoft Teams bereitgestellten Apps verwenden, zertifizierte Apps und Vorlagen von Drittanbietern nutzen und Ihre eigenen benutzerdefinierten Apps erstellen. 
+Sie können Besprechungs-Apps zu Ihrer Microsoft Teams-Bereitstellung hinzufügen, indem Sie die mit Microsoft Teams bereitgestellten Apps verwenden, zertifizierte Apps und Vorlagen von Drittanbietern nutzen und Ihre eigenen benutzerdefinierten Apps erstellen.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-| Artikel | Beschreibung | 
+| Artikel | Beschreibung |
 |----------|--------|
 | [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) | Einführung in Apps und das Bereitstellen von Apps für Ihre Organisation. |
 | [Apps für Microsoft Teams-Besprechungen](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Übersicht über die Erweiterbarkeit durch Besprechungs-Apps, API-Referenzen und das Aktivieren und Konfigurieren von Apps für Besprechungen. |
 | [Verwalten des Whiteboards in Microsoft Teams](manage-whiteboard.md) | Beschreibung der Whiteboard-Funktionalität und dessen Aktivierung und Deaktivierung für Ihre Organisation. |
-||
 
 ## <a name="license-requirements-for-meetings-webinars-and-live-events"></a>Lizenzanforderungen für Besprechungen, Webinare und Liveereignisse
 
-Jeder kann kostenlos an Teams-Besprechungen, Webinaren und öffentlichen Liveereignissen teilnehmen&mdash;es ist keine Lizenz erforderlich. 
+Jeder kann kostenlos an einem Teams Meeting, Webinar oder öffentlichen Live-Event teilnehmen – es ist keine Lizenz erforderlich.
 
 Personen, die Besprechungen, Webinare oder Liveereignisse organisieren, planen und hosten, benötigen einen der in der [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description) beschriebenen Microsoft 365-Lizenzierungspläne. Wenn Sie bereits Microsoft Teams verwenden, verfügen Sie wahrscheinlich über die Lizenz, die Sie zum Organisieren und Hosten von Besprechungen, Webinaren und Liveereignissen benötigen.
 
@@ -166,7 +157,7 @@ Dieser Abschnitt enthält Anleitungen für Administratoren sowie Tipps, die Admi
 
 Um ein erfolgreiches Ereignis durchzuführen, sollten Sie sich an die nachstehend beschriebenen Praktiken halten:
 
-- Für eine optimale Benutzererfahrung in großen Besprechungen, Webinaren und Liveereignissen empfiehlt Microsoft die Verwendung der neuesten Version des Microsoft Teams-Desktopclients oder mobiler Microsoft Teams-Clients. 
+- Für eine optimale Benutzererfahrung in großen Besprechungen, Webinaren und Liveereignissen empfiehlt Microsoft die Verwendung der neuesten Version des Microsoft Teams-Desktopclients oder mobiler Microsoft Teams-Clients.
 
 - Stellen Sie sicher, dass alle Microsoft-[Netzwerkkonnektivitätsprinzipien](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) sowohl lokal als auch für Remotebenutzer befolgt wurden.
 - Verwenden Sie [Echtzeittelemetriedaten](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146), um das Ereignis zu überwachen und mögliche Probleme und ihre Quelle zu identifizieren.
@@ -211,10 +202,6 @@ Ihre Organisatoren und Referenten sollten die folgenden Empfehlungen implementie
 - Teilnehmer sollten Chatbenachrichtigungen während großer Besprechungen deaktivieren, um Ablenkungen zu vermeiden.
 
 - Weitere Tipps zum Hosten großer Besprechungen finden Sie unter [Bewährte Methoden für eine große Microsoft Teams-Besprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-
-
-
-
 
 ## <a name="related-topics"></a>Verwandte Themen
 
