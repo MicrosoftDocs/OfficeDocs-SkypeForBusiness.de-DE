@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b13793222a6a53ec7c7c271578da31465044afde
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.openlocfilehash: 687d628c3f3f59cc9a584f2f673d3ef7d469b605
+ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190507"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66661021"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Übersicht über Drittanbieter-Apps in Microsoft Teams
 
-Viele stellen Apps im Teams Store bereit. Diese Apps werden von App-Entwicklern erstellt, und Microsoft überprüft die grundlegende Funktionalität, Nutzbarkeit und grundlegende Sicherheit der Apps. Erst nach der Überprüfung stellt Microsoft Apps im Teams Store zur Verfügung. Damit Endbenutzer vom umfangreichen App-Ökosystem profitieren können, ist die App-Governance durch Administratoren ein wichtiger Schritt. Legen Sie als Administrator einen App-Governance-Prozess fest, der die vielfältigen App-Anforderungen der Endbenutzer und die Einschränkungen durch interne IT-Richtlinien, Standards und Risikoprofile abgleicht.
+Teams Store bietet neben den von Microsoft bereitgestellten Apps viele nützliche Apps, die von Drittanbietern und Entwicklern erstellt wurden. Während diese Apps von Drittanbietern erstellt werden, führt Microsoft eine strenge Überprüfung der Funktionalität, Benutzerfreundlichkeit und Sicherheit dieser Apps durch. Erst nach der Überprüfung stellt Microsoft Apps im Teams Store zur Verfügung. Damit Endbenutzer vom umfangreichen App-Ökosystem profitieren können, ist die App-Governance durch Administratoren ein wichtiger Schritt. Legen Sie als Administrator einen App-Governance-Prozess fest, der die vielfältigen App-Anforderungen der Endbenutzer und die Einschränkungen durch interne IT-Richtlinien, Standards und Risikoprofile abgleicht.
 
 Apps von Drittanbietern in Microsoft Teams werden nicht von Microsoft kontrolliert oder gehören nicht zu Microsoft, und sie unterliegen nicht dem Microsoft Online-Abonnementvertrag. Die Nutzung jeder Drittanbieter-App durch Ihre Organisation unterliegt den Nutzungsbedingungen und Datenschutzbestimmungen dieser App. Mit dem Teams Admin Center können Sie alle Berechtigungen einer App, Datenschutzbestimmungen und Nutzungsbedingungen überprüfen, bevor Sie deren Verwendung zulassen. Wie immer können Sie die Verwendung einer App für einige bestimmte Benutzer oder alle Benutzer zulassen. Bei Drittanbieter-Apps wie bei benutzerdefinierten Apps ermöglicht Microsoft Teams Administratoren, die Verwendung der Apps zuzulassen, zu verbieten, zu regeln und zu analysieren.
 
