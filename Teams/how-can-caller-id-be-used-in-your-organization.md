@@ -21,87 +21,83 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: Die Anrufer-ID kann für ein- und ausgehende Anrufe für Telefonsystem Benutzer mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
-ms.openlocfilehash: 97070be995d56451a7b6b1969c8d3751ebaaffe5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Die Anrufer-ID kann sowohl für eingehende als auch für ausgehende Anrufe für Benutzer des Telefonsystems mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
+ms.openlocfilehash: 250f8a1a516aec4c9941b0c6396e6d44771b4f53
+ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624607"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66660961"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
-Die Anrufer-ID besteht aus zwei identifizierbaren Informationen für den Benutzer:
+Die Anrufer-ID besteht aus zwei vom Benutzer gerichteten Informationen:
 
-- Eine Telefonnummer (in der Regel als RUFNUMMER oder Anrufleitungs-ID bezeichnet). Dabei handelt es sich um die rufnummerngeschaltete Telefonnummer (PSTN), die als Identifizierung des Anrufers dargestellt wird.
+- Eine Telefonnummer (als CLID oder Anrufleitungs-ID bezeichnet). Dies ist die PSTN-Nummer (Public Switched Telephone Network), die als Identifikation des Anrufers angezeigt wird.
 
-- Ein Name der Anruferparty (üblicherweise auch als "CNAM" bezeichnet). 
+- Ein Anrufername (in der Regel als CNAM bezeichnet). 
   
-Die Anrufer-ID-Funktion steht allen Benutzern Telefonsystem pstn connectivity zur Verfügung, unabhängig von der PstN-Konnektivitätsoption:
-
-- Microsoft-Anrufpläne 
-
-- Direktes Routing für Telefonsysteme 
+Die Anrufer-ID-Funktion steht allen Benutzern des Telefonsystems unabhängig von der [PSTN-Konnektivitätsoption](pstn-connectivity.md) zur Verfügung: Microsoft-Anrufplan, Telefonieanbieter oder Direct Routing. 
   
-Sie können die Anrufer-ID für ein- und ausgehende Anrufe mithilfe einer Richtlinie namens CallingLineIdentity steuern. Weitere Informationen finden Sie unter [Weitere Informationen zu Anrufleitungs-ID und Anrufername.](more-about-calling-line-id-and-calling-party-name.md)
+Sie können die Anrufer-ID für eingehende und ausgehende Anrufe mithilfe einer Richtlinie namens CallingLineIdentity steuern. Weitere Informationen finden Sie unter ["Weitere Informationen zu Anrufleitungs-ID und Anrufername"](more-about-calling-line-id-and-calling-party-name.md).
 
   
 ## <a name="outbound-pstn-caller-id"></a>Ausgehende PSTN-Anrufer-ID
 
-Für die ausgehende PSTN-Anrufer-ID sind die folgenden Optionen verfügbar. 
+Für die ausgehende PSTN-Anrufer-ID stehen die folgenden Optionen zur Verfügung. 
   
-- Die dem Benutzer zugewiesene Telefonnummer (Standardeinstellung).
+- Die dem Benutzer zugewiesene Telefonnummer, was die Standardeinstellung ist.
 
-- Anonym, der verfügbar ist, indem die Präsentation der PSTN-Nummer des Benutzers entfernt wird. 
+- Anonym, die durch Entfernen der Darstellung der PSTN-Nummer des Benutzers verfügbar ist. 
 
-- Eine Ersatztelefonnummer, die:
+- Eine Ersatztelefonnummer, die folgende sein kann:
 
-  - Eine Telefonnummer, die in Ihrem Telefonnummernbestand für Anrufpläne als Dienstnummer und gebührenfreie Nummer klassifiziert ist. Sie wird in der Regel einem Teams automatische Telefonzentrale oder einer Anrufwarteschleife zugewiesen.
+  - Eine Telefonnummer, die als Service und gebührenfreie Nummer im Telefonnummernbestand Ihrer Anrufpläne klassifiziert ist. Es wird einer automatischen Teams-Telefonzentrale oder Anrufwarteschleife zugewiesen.
 
-  - Eine lokale Telefonnummer über Direktes Routing, die einem Ressourcenkonto zugewiesen ist, das von einer Teams automatische Telefonzentrale oder Anrufwarteschleife verwendet wird. 
+  - Eine lokale Telefonnummer über Direct Routing, die einem Ressourcenkonto zugewiesen ist, das von einer automatischen Teams-Telefonzentrale oder Anrufwarteschleife verwendet wird. 
 
-- Der Name der Anrufenden Partei oder das CNAM, der für den ausgehenden PSTN-Anruf festgelegt ist.  
+- Der Für den ausgehenden PSTN-Anruf festgelegte Name oder CNAM der anruferischen Partei.  
     
-Weitere Informationen finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer.](./set-the-caller-id-for-a-user.md)
+Weitere Informationen finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](./set-the-caller-id-for-a-user.md).
   
-### <a name="end-user-control-of-outbound-caller-id"></a>Steuerung der ausgehenden Anrufer-ID durch Endbenutzer
+### <a name="end-user-control-of-outbound-caller-id"></a>Endbenutzersteuerelement für ausgehende Anrufer-ID
 
-Benutzer können ihre Anrufer-ID-Einstellung in **Anonym ändern,** indem sie das EnableUserOverride-Attribut festlegen. 
+Benutzer können ihre Anrufer-ID-Einstellung in **"Anonym** " ändern, indem sie das EnableUserOverride-Attribut festlegen. 
 
-Wenn die ausgehende Anrufer-ID auf Anonym festgelegt ist, hat EnableUserOverride keine Auswirkung, und die Anrufer-ID ist immer auf Anonym festgelegt. Der Standardwert von EnableUserOverride lautet False.
+Wenn die ausgehende Anrufer-ID auf "Anonym" festgelegt ist, hat EnableUserOverride keine Auswirkung, und die Anrufer-ID ist immer auf "Anonym" festgelegt. Der Standardwert von EnableUserOverride lautet False.
 
-Ihre Endbenutzer können ihre Anrufer-ID auf Anonym festlegen, indem Sie **zu Einstellungen >-Anrufe** und dann unter **Anrufer-ID** die Option Meine Telefonnummer und Profilinformationen für alle Anrufe ausblenden **auswählen.**
+Ihre Endbenutzer können ihre Anrufer-ID auf "Anonym" festlegen, indem sie zu **"Einstellungen > Anrufe**" wechseln und dann unter " **Anrufer-ID**" **die Option "Meine Telefonnummer und Profilinformationen für alle Anrufe ausblenden**" auswählen. Es dauert einige Minuten, bis diese Einstellungsänderung neue Anrufe widerspiegelt. 
 
 ### <a name="notes"></a>Hinweise
 
 Berücksichtigen Sie dabei Folgendes:
 
-- Sie können der ausgehenden Anrufer-ID nicht die folgenden Arten von Telefonnummern zuweisen:
+- Sie können die folgenden Arten von Telefonnummern für die ausgehende Anrufer-ID nicht zuweisen:
 
-  - Telefonnummern, die in Ihrem Telefonnummernbestand für Anrufpläne als Benutzer klassifiziert sind.
+  - Alle Telefonnummern, die als Benutzer im Telefonnummernbestand Ihrer Anrufpläne klassifiziert sind.
 
-  - Eine lokale Telefonnummer über Direct Routing, die einem Benutzer zugewiesen ist.
+  - Jede lokale Telefonnummer über Direct Routing, die einem Benutzer zugewiesen ist.
 
-  - Eine Skype for Business Server eine lokale Telefonnummer.
+  - Eine Skype for Business Server lokale Telefonnummer.
 
-- Das Ersetzen von Telefonnummern des Ressourcenkontos funktioniert nur für Teams Benutzer. Das Ersetzen der Servicetelefonnummer funktioniert sowohl für Skype for Business online als Teams Benutzer.
+- Die Verwendung der Ressourcenkonto-Telefonnummernersetzung funktioniert für Teams-Benutzer. Die Ersetzung der Diensttelefonnummer funktioniert für Teams-Benutzer.
 
-- Der Anrufername wird nur bei Anrufen gesendet, bei denen die Anrufer-ID durch LineUri, die Telefonnummer eines Diensts oder Ressourcenkontos ersetzt wird und der Anrufer ein Teams ist.
+- Der Anrufername wird bei Anrufen gesendet, bei denen die Anrufer-ID durch LineUri, eine Dienst- oder Ressourcenkontotelefonnummer ersetzt wird und wenn der Anrufer ein Teams-Benutzer ist.
 
-- Anrufername kann maximal 200 Zeichen umfassen, doch downstream-Systeme unterstützen möglicherweise weniger Zeichen.
+- Der Name der aufrufenden Partei kann maximal 200 Zeichen enthalten, nachgeschaltete Systeme unterstützen jedoch möglicherweise weniger Zeichen.
 
-- Beim direkten Routing werden die Telefonnummernersetzung und der Name der Anrufergruppe in der FROM SIP-Kopfzeile gesendet. Wenn das entsprechende OnlinePstnGateway mit ForwardPai = True konfiguriert ist, enthält der SIP-Header P-ASSERTED-IDENTITY den tatsächlich aufrufenden Benutzer.
+- Bei Direct Routing werden die Telefonnummernersetzung und der Name der anrufenden Partei im FROM-SIP-Header gesendet. Wenn das entsprechende OnlinePstnGateway mit ForwardPai = True konfiguriert ist, enthält der P-ASSERTED-IDENTITY SIP-Header den tatsächlich aufrufenden Benutzer.
 
-- EnableUserOverride hat Vorrang vor anderen Einstellungen in der Richtlinie , es sei denn, die Ersetzung ist auf Anonym festgelegt. Angenommen, die Richtlinieninstanz wurde durch ein Ressourcenkonto ersetzt, und EnableUserOverride wird vom Benutzer festgelegt und aktiviert. In diesem Fall wird die ausgehende Anrufer-ID blockiert und Anonym verwendet. Wenn für eine Richtlinieninstanz die Ersetzung auf Anonym und EnableUserOverride festgelegt ist, wird die ausgehende Anrufer-ID unabhängig von der Einstellung des Endbenutzers immer anonym festgelegt.
+- EnableUserOverride hat Vorrang vor anderen Einstellungen in der Richtlinie – es sei denn, die Ersetzung ist auf "Anonym" festgelegt. Angenommen, die Richtlinieninstanz ersetzt ein Ressourcenkonto, und EnableUserOverride wird vom Benutzer festgelegt und aktiviert. In diesem Fall wird die ausgehende Anrufer-ID blockiert und "Anonym" verwendet. Wenn für eine Richtlinieninstanz die Ersetzung auf "Anonym" festgelegt ist und "EnableUserOverride" festgelegt ist, ist die ausgehende Anrufer-ID immer "Anonym", unabhängig von der Einstellung des Endbenutzers.
 
    
 ## <a name="inbound-caller-id"></a>Eingehende Anrufer-ID
 
-Telefonsystem wird die eingehende externe Telefonnummer als Anrufer-ID anzeigen. Wenn die Nummer einem Benutzer oder Kontakt in Azure AD oder einem persönlichen Kontakt zugeordnet ist, zeigt der Skype for Business- und Teams-Client die Anrufer-ID basierend auf diesen Informationen an. Wenn sich die Telefonnummer nicht in Azure AD oder einem persönlichen Kontakt befindet, wird der von Telco bereitgestellte Anzeigename angezeigt, sofern er verfügbar ist.
+Das Telefonsystem zeigt die eingehende externe Telefonnummer als Anrufer-ID an. Wenn die Nummer einem Benutzer oder Kontakt in Azure AD oder einem persönlichen Kontakt zugeordnet ist, zeigt der Skype for Business- und Teams-Clients die Anrufer-ID basierend auf diesen Informationen an. Wenn sich die Telefonnummer nicht in Azure AD oder einem persönlichen Kontakt befindet, wird der von telco bereitgestellte Anzeigename angezeigt, wenn er verfügbar ist.
 
-Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Sie können dieses Attribut festlegen, es steht den Endbenutzern auf der Seite mit den Benutzereinstellungen jedoch nicht zur Verfügung. Wenn diese Einstellung aktiviert ist, wird der eingehende PSTN-Anrufer als "Anonym" angezeigt.
+Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Sie können dieses Attribut festlegen, aber es steht Ihren Endbenutzern auf der Seite mit den Benutzereinstellungen nicht zur Verfügung. Wenn diese Einstellung aktiviert ist, wird der eingehende PSTN-Anrufer als von "Anonym" stammend angezeigt.
   
-Informationen zum Blockieren der eingehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer.](./set-the-caller-id-for-a-user.md)
+Informationen zum Blockieren der eingehenden Anrufer-ID finden [Sie unter Festlegen der Anrufer-ID für einen Benutzer](./set-the-caller-id-for-a-user.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)
