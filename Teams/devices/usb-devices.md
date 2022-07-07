@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605704"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647657"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>FÜR Microsoft Teams zertifizierte USB-Audio- und Videogeräte
 
@@ -149,8 +149,8 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Lenovo               |Pro Wired VoIP Stereo Headset                              |12/21/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Zertifiziert für Microsoft Teams                           |
-|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
-|Jabra                |Evolve 65e / SE Headset                                         |12/16/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
 |Dell                 |C2722DE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
 |Dell                 |C2422HE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
@@ -167,8 +167,8 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |EPOS/Sennheiser      |Aufprall SC 660 mit USB-ED CC 01 MS Anschluss               |8/20/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |EPOS/Sennheiser      |Aufprall SC 630 mit USB-ED CC 01 MS Anschluss               |8/20/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |EPOS/Sennheiser      |Aufprall SC 260 mit USB-ED CC 01 MS Anschluss               |8/20/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
-|Jabra                |Evolve 75 Headset                                          |7/31/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
-|Jabra                |Evolve 65 Headset                                          |7/31/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 75 / SE Headset                                          |7/31/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 65 / SE Headset                                          |7/31/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Jabra                |50 Headsets einbinden                                          |7/31/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Evolve2 85 Headset                                         |7/17/2020       |Zertifiziert für Microsoft Teams                           |

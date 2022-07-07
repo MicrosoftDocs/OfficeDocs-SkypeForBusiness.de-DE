@@ -1,5 +1,5 @@
 ---
-title: Verwenden von PowerShell zum Verwalten Ihrer Schichtverbindung mit Blue Yonder Workforce Management
+title: Verwenden von PowerShell zum Verwalten Ihrer Shifts-Verbindung mit Blue Yonder Workforce Management
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -8,25 +8,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie PowerShell verwenden, um Ihre Schichtverbindung mit Blue Yonder Workforce Management zu verwalten.
+description: Erfahren Sie, wie Sie PowerShell verwenden, um Ihre Shifts-Verbindung mit Blue Yonder Workforce Management zu verwalten.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a102001c9c35b3d93467a9955329ce9d314532d0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c4edf815a3ce21a820fa292a06d41275c97d78a5
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675367"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647821"
 ---
-# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Verwenden von PowerShell zum Verwalten Ihrer Schichtverbindung mit Blue Yonder Workforce Management
+# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Verwenden von PowerShell zum Verwalten Ihrer Shifts-Verbindung mit Blue Yonder Workforce Management
 
 ## <a name="overview"></a>Übersicht
 
-Mit [dem Microsoft Teams Shifts-Connector für Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) können Sie die Shifts-App in Microsoft Teams mit Blue Yonder Workforce Management (Blue Yonder WFM) integrieren. Nachdem Sie eine Verbindung eingerichtet haben, können Ihre Mitarbeiter in Service und Produktion ihre Zeitpläne in Blue Yonder WFM nahtlos in Schichten anzeigen und verwalten.
+Mit dem [Microsoft Teams Shifts-Connector für Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) können Sie die Schichten-App in Microsoft Teams in Blue Yonder Workforce Management (Blue Yonder WFM) integrieren. Nachdem Sie eine Verbindung eingerichtet haben, können Ihre Mitarbeiter in Service und Produktion nahtlos ihre Zeitpläne in Blue Yonder WFM innerhalb von Schichten anzeigen und verwalten.
 
 Sie können den [Verbinder-Assistenten "Schichten"](shifts-connector-wizard.md) in der Microsoft 365 Admin Center oder [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) verwenden, um eine Verbindung einzurichten. Nachdem eine Verbindung eingerichtet wurde, verwalten Sie sie mithilfe von [PowerShell-Cmdlets für den Shifts-Connector](#shifts-connector-cmdlets).
 
@@ -53,7 +53,7 @@ In diesem Artikel wird beschrieben, wie PowerShell für folgende Zwecke verwende
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-7. Verbinden zu Teams.
+7. Stellen Sie eine Verbindung mit Teams her.
 
     ```powershell
     Connect-MicrosoftTeams
@@ -101,7 +101,7 @@ Weitere Informationen finden Sie unter [Get-CsTeamsShiftsConnectionErrorReport](
 
 ### <a name="user-mapping-errors"></a>Fehler bei der Benutzerzuordnung
 
-Benutzerzuordnungsfehler können auftreten, wenn ein oder mehrere Benutzer auf einer Blue Yonder WFM-Website kein Mitglied des zugeordneten Teams in Teams sind. Um dieses Problem zu beheben, stellen Sie sicher, dass die Benutzer im zugeordneten Team mit den Benutzern auf der WFM-Website von Blue Yonder übereinstimmen.
+Benutzerzuordnungsfehler können auftreten, wenn ein oder mehrere Benutzer in einer Blue Yonder-WFM Instanz kein Mitglied des zugeordneten Teams in Teams sind. Um dieses Problem zu beheben, stellen Sie sicher, dass die Benutzer im zugeordneten Team mit den Benutzern in der Blue Yonder-WFM-Instanz übereinstimmen.
 
 Um Details zu nicht zugeordneten Benutzern anzuzeigen, [richten Sie Ihre Umgebung](#set-up-your-environment) ein (sofern noch nicht geschehen), und führen Sie dann das folgende Skript aus.
 
@@ -151,22 +151,22 @@ ForEach ($mapping in $mappings){
 
 ### <a name="account-authorization-errors"></a>Kontoautorisierungsfehler
 
-Kontoautorisierungsfehler können auftreten, wenn das Blue Yonder WFM-Dienstkonto oder Microsoft 365 Systemkontoanmeldeinformationen falsch sind oder nicht über die erforderlichen Berechtigungen verfügen.
+Kontoautorisierungsfehler können auftreten, wenn das Blue Yonder WFM-Dienstkonto oder die Anmeldeinformationen des Microsoft 365-Systemkontos falsch sind oder nicht über die erforderlichen Berechtigungen verfügen.
 
-Um Ihr Blue Yonder WFM-Dienstkonto oder Microsoft 365 Anmeldeinformationen für das Systemkonto für die Verbindung zu ändern, können Sie das Cmdlet [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) ausführen oder das PowerShell-Skript im Abschnitt ["Verbindungseinstellungen ändern"](#change-connection-settings) dieses Artikels verwenden.
+Um Ihr Blue Yonder-WFM-Dienstkonto oder die Anmeldeinformationen des Microsoft 365-Systemkontos für die Verbindung zu ändern, können Sie das Cmdlet [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) ausführen oder das PowerShell-Skript im Abschnitt ["Verbindungseinstellungen ändern"](#change-connection-settings) dieses Artikels verwenden.
 
 ## <a name="change-connection-settings"></a>Ändern der Verbindungseinstellungen
 <a name="change_settings"> </a>
 
-Verwenden Sie dieses Skript, um Verbindungseinstellungen zu ändern. Einstellungen, die Sie ändern können, sind Ihr Blue Yonder WFM-Dienstkonto und -Kennwort, Microsoft 365 Systemkonto, Teamzuordnungen und Synchronisierungseinstellungen.
+Verwenden Sie dieses Skript, um Verbindungseinstellungen zu ändern. Zu den Einstellungen, die Sie ändern können, gehören Ihr Blue Yonder WFM-Dienstkonto und -Kennwort, Ihr Microsoft 365-Systemkonto, Teamzuordnungen und Synchronisierungseinstellungen.
 
 Zu den Synchronisierungseinstellungen gehören die Synchronisierungshäufigkeit (in Minuten) und die Zeitplandaten, die zwischen Blue Yonder WFM und Schichten synchronisiert werden. Zeitplandaten werden in den folgenden Parametern definiert, die Sie anzeigen können, indem [Sie Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector) ausführen.
 
-- Der **Parameter "enabledConnectorScenarios** " definiert Daten, die von Blue Yonder WFM mit Schichten synchronisiert werden. Optionen sind `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`. `TimeOffRequest`
-- Der Parameter **enabledWfiScenarios** definiert Daten, die von Schichten in Blue Yonder WFM synchronisiert werden. Optionen sind `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
+- Der **Parameter "enabledConnectorScenarios**" definiert Daten, die von Blue Yonder WFM mit Schichten synchronisiert werden. Optionen sind `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`. `TimeOffRequest`
+- Der Parameter **enabledWfiScenarios** definiert Daten, die von Schichten zu Blue Yonder WFM synchronisiert werden. Optionen sind `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
 
     > [!NOTE]
-    > Wenn Sie offene Schichten, offene Schichtanforderungen, Tauschanforderungen oder Abwesenheitsanforderungen zwischen Schichten und Blue Yonder WFM nicht synchronisieren möchten, müssen Sie einen weiteren Schritt ausführen, um die Funktion in Schichten auszublenden. Nachdem Sie dieses Skript ausgeführt haben, stellen Sie sicher, dass Sie die Schritte im Abschnitt ["Offene Schichten deaktivieren", "Schichtanforderungen öffnen", "Tauschanforderungen" und "Abwesenheitsanforderungen](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) " weiter unten in diesem Artikel ausführen.
+    > Wenn Sie sich dafür entscheiden, offene Schichten, offene Schichtanforderungen, Tauschanforderungen oder Abwesenheitsanfragen zwischen Schichten und Blue Yonder WFM nicht zu synchronisieren, müssen Sie einen weiteren Schritt ausführen, um die Funktion in Schichten auszublenden. Nachdem Sie dieses Skript ausgeführt haben, stellen Sie sicher, dass Sie die Schritte im Abschnitt ["Offene Schichten deaktivieren", "Schichtanforderungen öffnen", "Tauschanforderungen" und "Abwesenheitsanforderungen](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) " weiter unten in diesem Artikel ausführen.
 
 > [!IMPORTANT]
 > Für Einstellungen, die Sie nicht ändern möchten, müssen Sie die ursprünglichen Einstellungen erneut eingeben, wenn Sie vom Skript dazu aufgefordert werden.
@@ -275,18 +275,18 @@ Write-Host "Success"
 > [!IMPORTANT]
 > Führen Sie diese Schritte nur aus, wenn Sie offene Schichten, Offene Schichtanforderungen, Swapanforderungen oder Abwesenheitsanforderungen mithilfe des Skripts im Abschnitt " [Verbindungseinstellungen ändern"](#change-connection-settings) weiter oben in diesem Artikel oder mithilfe des Cmdlets ["Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) " deaktivieren möchten. Wenn Sie diesen Schritt abschließen, wird die Funktion in Schichten ausgeblendet. Ohne diesen zweiten Schritt sehen Benutzer die Funktion weiterhin in Schichten und erhalten die Fehlermeldung "Nicht unterstützter Vorgang", wenn sie versuchen, sie zu verwenden.
 
-Verwenden Sie zum Ausblenden geöffneter Schichten, Swapanforderungen und Abwesenheitsanforderungen in Schichten den Graph-API [Ressourcentyp "Zeitplan](/graph/api/resources/schedule)", um die folgenden Parameter ```false``` für jedes Team festzulegen, das Sie einer Blue Yonder WFM-Website zugeordnet haben:
+Verwenden Sie zum Ausblenden geöffneter Schichten, Swapanforderungen und Abwesenheitsanforderungen in Schichten den Graph-API [Ressourcentyp "Zeitplan](/graph/api/resources/schedule)", um die folgenden Parameter ```false``` für jedes Team festzulegen, das Sie einer Blue Yonder-WFM Instanz zugeordnet haben:
 
 - Offene Schichten: ```openShiftsEnabled```
 - Swapanforderungen:  ```swapShiftsRequestsEnabled```
 - Abwesenheitsanforderungen: ```timeOffRequestsEnabled```
 
-Um offene Schichtanforderungen in Schichten auszublenden, wechseln Sie zu **Einstellungen** in Schichten, und deaktivieren Sie dann die Einstellung "**Schichten** öffnen".
+Um offene Schichtanforderungen in Schichten auszublenden, wechseln **Sie zu "Einstellungen** " in "Schichten", und deaktivieren Sie dann die Einstellung " **Schichten** öffnen".
 
 ## <a name="unmap-a-team-from-one-connection-and-map-it-to-another-connection"></a>Aufheben der Zuordnung eines Teams zu einer Verbindung und Zuordnen zu einer anderen Verbindung
 
 > [!NOTE]
-> Das Microsoft 365 Systemkonto muss für beide Verbindungen identisch sein. Andernfalls wird die Fehlermeldung "Dieses festgelegte Akteurprofil verfügt nicht über Teambesitzberechtigungen" angezeigt.
+> Das Microsoft 365-Systemkonto muss für beide Verbindungen identisch sein. Andernfalls wird die Fehlermeldung "Dieses festgelegte Akteurprofil verfügt nicht über Teambesitzberechtigungen" angezeigt.
 
 Wenn Sie die Zuordnung eines Teams aus einer Verbindung aufheben und einer anderen Verbindung zuordnen möchten:
 
@@ -313,7 +313,7 @@ Weitere Informationen finden Sie unter [Get-CsTeamsShiftsConnectionTeamMap](/pow
 
 ## <a name="disable-sync-for-a-connection"></a>Deaktivieren der Synchronisierung für eine Verbindung
 
-Verwenden Sie dieses Skript, um die Synchronisierung für eine Verbindung zu deaktivieren. Beachten Sie, dass mit diesem Skript keine Verbindung entfernt oder gelöscht wird. Die Synchronisierung wird deaktiviert, sodass keine Daten zwischen Schichten und Blue Yonder WFM für die angegebene Verbindung synchronisiert werden.
+Verwenden Sie dieses Skript, um die Synchronisierung für eine Verbindung zu deaktivieren. Beachten Sie, dass mit diesem Skript keine Verbindung entfernt oder gelöscht wird. Die Synchronisierung wird deaktiviert, sodass keine Daten zwischen Schichten und Blue Yonder-WFM für die angegebene Verbindung synchronisiert werden.
 
 [Richten Sie Ihre Umgebung](#set-up-your-environment) ein (falls noch nicht geschehen), und führen Sie dann das folgende Skript aus.
 
@@ -372,7 +372,7 @@ else {
 
 ## <a name="shifts-connector-cmdlets"></a>Verbinder-Cmdlets für Schichten
 
-Hilfe zu Konnektor-Cmdlets für Schichten finden Sie in der [Teams PowerShell-Cmdlet-Referenz](/powershell/teams/intro) nach **CsTeamsShiftsConnection**. Hier sind Links zu einigen häufig verwendeten Cmdlets.
+Hilfe zu Konnektor-Cmdlets für Schichten finden Sie unter " **CsTeamsShiftsConnection** " in der [Microsoft Teams PowerShell-Cmdlet-Referenz](/powershell/teams/intro). Hier sind Links zu einigen häufig verwendeten Cmdlets.
 
 - [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance)

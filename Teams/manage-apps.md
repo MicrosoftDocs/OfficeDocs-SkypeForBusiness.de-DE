@@ -19,12 +19,12 @@ description: Erfahren Sie, wie Sie Teams-Apps verwalten. Erfahren Sie, wie Sie A
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616051"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647747"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams-Apps im Microsoft Teams Admin Center
 
@@ -62,7 +62,7 @@ Die Optionen zum Ausführen der meisten Anwendungsfälle für die App-Verwaltung
 | Updaterichtlinien werden verwendet, um Teams- und Office Preview-Benutzer zu verwalten, die Vorabversions- oder Vorschaufeatures in der Teams-App sehen.  | [Teams-Updaterichtlinien](https://admin.teams.microsoft.com/policies/updatemanagement) | [Öffentliche Teams-Vorschau](public-preview-doc-updates.md) |
 | **Außerhalb des Teams Admin Centers** | | |
 | Verwalten von Lizenzen und Abonnements von Drittanbieter-Apps in Microsoft 365 Admin Center | [Microsoft 365 Admin Center](https://admin.microsoft.com/#/licenses) | [Verwalten von App-Abonnements von Drittanbietern](/microsoft-365/commerce/manage-saas-apps) |
-| Überwachen von Teams-App-Ereignissen auf Microsoft Purview-Complianceportal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Microsoft Teams-Aktivitäten](audit-log-events.md#teams-activities) |
+| Überwachen von Teams-App-Ereignissen auf Microsoft Purview-Complianceportal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Microsoft Teams-Aktivitäten](audit-app-management-activities.md) |
 | Anwendungen können Berechtigungen für Ihre Organisation und deren Daten mit drei Methoden gewährt werden: ein Administrator stimmt der Anwendung für alle Benutzer zu, ein Benutzer erteilt der Anwendung die Zustimmung oder ein Administrator, der eine Anwendung integriert und den Self-Service-Zugriff aktiviert oder Benutzer direkt der Anwendung zuweist. Überprüfen Sie die Graph-Berechtigungen für Apps. Überprüfen Sie die Berechtigungen, die Benutzer bereitgestellt haben oder die die Administratoren delegiert haben. | [Azure AD-Portal](https://aad.portal.azure.com/) | [Überprüfen von Berechtigungen, die Anwendungen erteilt wurden](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---

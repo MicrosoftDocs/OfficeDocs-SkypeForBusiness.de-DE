@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Beschreibt automatische Telefonzentralen und Anrufwarteschleifen in der Cloud und erläutert, wie Sie diese Anrufe in Teams annehmen können.
+description: Beschreibt automatische Cloudtelefonzentralen und Anrufwarteschleifen und erläutert, wie Sie diese Anrufe in Teams annehmen können.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853076"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647667"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 
-Teams Benutzer können Anrufe von automatischen Cloud-Telefonzentralen und Anrufwarteschleifen direkt von ihrem Teams-Client empfangen und beantworten.
+Teams-Benutzer können Anrufe von automatischen Cloud-Telefonzentralen und Anrufwarteschleifen direkt von ihrem Teams-Client empfangen und beantworten.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>Was sind automatische Telefonzentralen und Anrufwarteschleifen?
 
@@ -48,7 +48,9 @@ Sobald eine automatische Telefonzentrale oder ein Anruf in der Anrufwarteschleif
 
 > [!NOTE] 
 > Anrufwarteschleifenanrufe werden nicht basierend auf der Konfiguration der Anrufbeantwortungsregeln des Benutzers weitergeleitet. Dadurch wird sichergestellt, dass Anrufer in der Warteschleife bleiben, bis ein Agent den Anruf annehmen kann und der Anrufer nicht unerwartet weitergeleitet wird.
-
+>
+> Benutzer, die Anrufe von automatischen Telefonzentralen und Anrufwarteschleifen erhalten, erhalten nur dann den Namen des Anrufers, wenn er aus dem PSTN bereitgestellt wird oder wenn die Nummer des Anrufers mit den Clientkontakten des lokalen Teams des Zielbenutzers übereinstimmt.
+>
 > Agents werden nicht über verpasste Anrufe oder Voicemails für Anrufwarteschleifenanrufe benachrichtigt.
 
 ## <a name="supported-clients"></a>Unterstützte Clients
@@ -60,11 +62,11 @@ Unterstützung für automatische Telefonzentralen- und Anrufwarteschleifenanrufe
 -    Microsoft Teams iPhone-App
 -    Microsoft Teams Android-App
 
-Der Teams-Client wird nur mit einem [Koexistenzmodus von "Nur Teams"](/microsoftteams/setting-your-coexistence-and-upgrade-settings) unterstützt.
+Der Teams-Client wird nur mit einem [Koexistenzmodus von "Nur Teams](/microsoftteams/setting-your-coexistence-and-upgrade-settings)" unterstützt.
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der Unterstützung der automatischen Telefonzentrale und der Anrufwarteschleife für Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der Unterstützung für automatische Telefonzentrale und Anrufwarteschleife für Microsoft Teams
 
-Um Anrufe von automatischen Telefonzentralen und Anrufwarteschleifen auf Microsoft Teams zu erhalten, müssen Sie Ihre Interoperabilitätsrichtlinie und Die Upgraderichtlinie konfigurieren. Überprüfen Sie [die Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md). Wenn Sie keine automatische Telefonzentrale und/oder Anrufwarteschleife konfiguriert haben und dies tun möchten, lesen Sie " [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md) " und ["Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)".
+Um Anrufe von automatischen Telefonzentralen und Anrufwarteschleifen in Microsoft Teams zu erhalten, müssen Sie Ihre Interoperabilitätsrichtlinie und Upgraderichtlinie konfigurieren. Überprüfen Sie [die Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md). Wenn Sie keine automatische Telefonzentrale und/oder Anrufwarteschleife konfiguriert haben und dies tun möchten, lesen Sie " [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md) " und ["Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)".
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
