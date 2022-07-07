@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie, ob Audiokonferenzen, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen sowie gebührenpflichtige und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: 71aa417de6a6ec9f6388ac414512f42a881be001
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686312"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682464"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -161,7 +161,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 
 ***
 
-Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft Teams-Dienste verfügbar ist, können Sie [Skype for Business und Microsoft Teams Add-On-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) anzeigen, damit Sie Lizenzen kaufen und Ihren Benutzern zuweisen können.
+Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft Teams-Dienste verfügbar ist, können Sie [Skype for Business- und Microsoft Teams-Add-On-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) anzeigen, damit Sie Lizenzen kaufen und Ihren Benutzern zuweisen können.
 
 > [!NOTE]
 >
@@ -193,7 +193,7 @@ Ausgehende Anrufe aus einer Besprechung in ein anderes Land/eine andere Region d
   
 ### <a name="phone-system"></a>Telefonsystem
 
-Mit Telefonsystem erstellen Sie automatische Telefonzentralen und Anrufwarteschleifen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation entgegennehmen zu können. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business verwenden, um grundlegende Aufgaben zur Anrufsteuerung zu erledigen, z. B. das Tätigen und Empfangen von Anrufen, das Durchstellen von Anrufen sowie das Stummschalten und Aufheben der Stummschaltung von Anrufen. **Telefonsystem** Benutzer auf einen Namen in ihrem Adressbuch klicken, wird Skype for Business diese Person anrufen. Um Anrufe zu tätigen und zu empfangen, verwenden **Telefonsystem** Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen, die mit Skype for Business arbeiten.
+Mit dem Telefonsystem erstellen Sie automatische Telefonzentralen und Anrufwarteschleifen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation zu beantworten. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business verwenden, um grundlegende Aufgaben zur Anrufsteuerung zu erledigen, z. B. das Tätigen und Empfangen von Anrufen, das Durchstellen von Anrufen sowie das Stummschalten und Aufheben der Stummschaltung von Anrufen. **Benutzer des Telefonsystems** klicken auf einen Namen in ihrem Adressbuch, und Skype for Business wird diese Person anrufen. Um Anrufe zu tätigen und zu empfangen, verwenden **Benutzer des Telefonsystems** ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen, die mit Skype for Business arbeiten.
 
 Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Neben dem Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen zu durchsuchen und zu erwerben. Diese werden Servicenummern genannt. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](../getting-service-phone-numbers.md). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](../getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
@@ -206,7 +206,7 @@ Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer 
 
 ### <a name="calling-plans"></a>Anrufpläne
 
-Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe tätigen und empfangen. Sie erhalten zuerst eine Telefonnummer des Benutzers (Abonnent) (keine Dienstnummer), die dem Benutzer zugewiesen werden soll, und weisen dann einen Anrufplan zu. Es stehen drei Arten von Anrufplänen zur Verfügung: **Inländische**, **internationale** und **nationale und internationale** Anrufpläne. Weitere Informationen hierzu finden Sie unter [Telefonsystem und Anrufpläne](../calling-plan-landing-page.md).
+Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe tätigen und empfangen. Sie erhalten zuerst eine Telefonnummer des Benutzers (Abonnent) (keine Dienstnummer), die dem Benutzer zugewiesen werden soll, und weisen dann einen Anrufplan zu. Es stehen zwei Arten von Anrufplänen zur Verfügung: **Inländische** und **internationale** Anrufpläne. Weitere Informationen hierzu finden Sie unter [Telefonsystem und Anrufpläne](../calling-plan-landing-page.md).
 
 Informationen zur Lizenzierung finden Sie auch unter [Lizenzierung des Telefonsystems und der Anrufpläne](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

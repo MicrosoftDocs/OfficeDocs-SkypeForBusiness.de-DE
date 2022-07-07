@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie nach Telefonnummern suchen, die Sie Ihren Benutzern zuweisen können, nach Land oder Region und Stadt, und geben Sie die Anzahl der benötigten Nummern an.
-ms.openlocfilehash: 4cb30e6ef03e50c3524ccd9b5c36ae10fb8b5ab2
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 43aef76a16a8505e34407b15068a546dd2894343
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681796"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682504"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Suchen nach Telefonnummern für Benutzer
 
@@ -34,7 +34,7 @@ Wenn Sie Benutzer in Ihrer Organisation einrichten, um Telefonanrufe über von M
   
 Bevor Sie Ihren Benutzern von Microsoft bereitgestellte Telefonnummern zuweisen können, müssen Sie die Seite **"Neue Nummern** abrufen" verwenden, um nach Telefonnummern zu suchen, die Ihnen zur Verfügung stehen. Sie können nach **Land (Markt)**, **Nummerntyp** und **Ort** suchen. Anschließend wird eine Liste der Betreiber angezeigt, die Nummern in diesem Land bereitstellen.
 
-Wenn Sie Microsoft als Betreiber auswählen, können Sie die Nummern über das Teams Admin Center erwerben, indem Sie die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen. Die Seite begrenzt automatisch die Menge basierend auf der Anzahl, die Sie noch erwerben können. Wenn Sie einen Telefonieanbieter-Operator auswählen, werden Sie zur Startseite Des ausgewählten Operators weitergeleitet, um den Nummernauftrag abzuschließen.
+Wenn Sie Microsoft als Betreiber auswählen, können Sie die Nummern über das Teams Admin Center erwerben, indem Sie die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen. Die Seite begrenzt automatisch die Menge basierend auf der Anzahl, die Sie noch erwerben können. Wenn Sie einen Operator Connect-Operator auswählen, werden Sie zur Startseite Des ausgewählten Operators weitergeleitet, um den Nummernauftrag abzuschließen.
 
 Wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PSTN-Konnektivitätsoption ab: Microsoft-Anrufpläne, Telefonieanbieter oder Direct Routing.
 
@@ -46,10 +46,10 @@ So suchen Sie nach Telefonnummern für Ihre Benutzer:
   
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
-2. Wählen Sie im linken Navigationsbereich **"VoIP** >  **Telefon Nummern** > **neue Nummern abrufen**" aus.
+2. Wählen Sie in der linken **Navigationsleiste "VoIP-Telefonnummern** >  > " aus,**um neue Nummern zu erhalten**.
   
     > [!IMPORTANT]
-    > Damit **die** VoIP-Option im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5- oder E3-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz** Add-On-Lizenz kaufen.  
+    > Damit die **VoIP-Option** im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5- oder E3-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz-Add-On-Lizenz** erwerben.  
 
 3. Wählen Sie auf der Seite **"Standort und Menge auswählen** " in der Dropdownliste **"Land (Markt)"** einen Ort aus.
 
@@ -65,20 +65,20 @@ So suchen Sie nach Telefonnummern für Ihre Benutzer:
 7. Wählen Sie auf der Seite **"Telefonnummern abrufen** " die gewünschten Telefonnummern aus, klicken Sie auf **"Nummern erwerben**" und dann auf **"Weiter**".
 
     > [!IMPORTANT]
-    > Sie können mehr Telefonnummern erwerben, als Sie über Microsoft-Lizenzen verfügen. Um zu bestimmen, wie viele Telefonnummern Sie erwerben können, nehmen Sie Ihre Anzahl von Microsoft-Anrufplanlizenzen, fügen Sie 10 Prozent der Anzahl der Lizenzen hinzu, fügen Sie dann 10 hinzu, und entfernen Sie dann, wie viele Sie bereits erworben haben. Wenn Sie beispielsweise über 100 **Microsoft-Lizenzen für Inlandsanrufpläne**, **Auslandsanrufpläne** und/oder **Inlands- und Auslandsanrufpläne** verfügen, können Sie 120 Telefonnummern reservieren, vorausgesetzt, Sie haben noch keine Telefonnummern für diese 100 Benutzer erworben. Weitere Informationen finden Sie unter [Wie viele Telefonnummern können Sie erhalten?](./how-many-phone-numbers-can-you-get.md)
+    > Sie können mehr Telefonnummern erwerben, als Sie über Microsoft-Lizenzen verfügen. Um zu bestimmen, wie viele Telefonnummern Sie erwerben können, nehmen Sie Ihre Anzahl von Microsoft-Anrufplanlizenzen, fügen Sie 10 Prozent der Anzahl der Lizenzen hinzu, fügen Sie dann 10 hinzu, und entfernen Sie dann, wie viele Sie bereits erworben haben. Wenn Sie beispielsweise über 100 **Microsoft-Lizenzen für Inlandsanrufpläne** und/oder **Auslandsanrufpläne** verfügen, können Sie 120 Telefonnummern reservieren, vorausgesetzt, Sie haben noch keine Telefonnummern für diese 100 Benutzer erworben. Weitere Informationen finden Sie unter [Wie viele Telefonnummern können Sie erhalten?](./how-many-phone-numbers-can-you-get.md).
 
 8. Überprüfen Sie auf der Seite **"Bestätigung** " Ihre Auswahl, und klicken Sie dann auf **"Bestellung aufgeben**".
 
-9. Wenn Sie zur Seite **"Telefon Nummern**" zurückkehren, wählen Sie die Telefonnummer oder Nummern aus, die Sie zuweisen möchten, und klicken Sie dann auf **"Bearbeiten**", um sie einem Benutzer zuzuweisen.
+9. Wenn Sie zur Seite **"Telefonnummern** " zurückkehren, wählen Sie die Telefonnummern aus, die Sie zuweisen möchten, und klicken Sie dann auf **"Bearbeiten** ", um sie einem Benutzer zuzuweisen.
 
 ## <a name="search-for-telephone-numbers-for-operator-connect"></a>Suchen nach Telefonnummern für Telefonieanbieter
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
-2. Wählen Sie im linken Navigationsbereich **"VoIP** >  **Telefon Nummern** > **neue Nummern abrufen**" aus.
+2. Wählen Sie in der linken **Navigationsleiste "VoIP-Telefonnummern** >  > " aus,**um neue Nummern zu erhalten**.
   
     > [!IMPORTANT]
-    > Damit **die** VoIP-Option im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5- oder E3-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz** Add-On-Lizenz kaufen.  
+    > Damit die **VoIP-Option** im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5- oder E3-Lizenz**, eine **Telefonsystem-Add-On-Lizenz** oder eine **Audiokonferenz-Add-On-Lizenz** erwerben.  
 
 3. Wählen Sie auf der Seite **"Standort und Menge auswählen** " in der Dropdownliste **"Land (Markt)"** einen Ort aus.
 
@@ -88,7 +88,7 @@ So suchen Sie nach Telefonnummern für Ihre Benutzer:
 
 6. Wenn Sie dem Betreiber bereits ihre Zustimmung gegeben haben, werden Sie zur Startseite des Betreibers weitergeleitet, um den Bestellvorgang abzuschließen.
 
-7. Wenn Sie dem Betreiber keine Zustimmung erteilt haben, werden Sie angewiesen, Ihren Betreiber auf der ausgewählten Betreiberseite im Teams Admin Center zu aktivieren. Weitere Informationen finden [Sie unter Aktivieren eines Operators](operator-connect-configure.md#enable-an-operator).
+7. Wenn Sie dem Betreiber keine Zustimmung erteilt haben, werden Sie angewiesen, Ihren Operator auf der ausgewählten Operatorseite im Teams Admin Center zu aktivieren. Weitere Informationen finden [Sie unter Aktivieren eines Operators](operator-connect-configure.md#enable-an-operator).
 
 8. NachDem Ihre Bestellung abgeschlossen ist, lädt Ihr Betreiber Telefonnummern in Ihren Mandanten hoch, und Sie können sie Benutzern zuweisen.  
 

@@ -14,22 +14,22 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Ermitteln Sie, welcher Microsoft-Telefon Systemanrufplan Ihre Organisation am besten mit Cloud Voice in Teams bedient.
+description: Ermitteln Sie, welcher Anrufplan für Das Microsoft-Telefonsystem Ihre Organisation am besten mit Cloud Voice in Teams bedient.
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 798d119be837e5ab2aafbd26676dd7e26b641db6
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: e11c6f6cbb53808ba259afd90420ac9855c9731d
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686302"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682474"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Welcher Anrufplan ist für Sie am besten geeignet?
 
-Sie haben die [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md) bereitgestellt. Jetzt können Sie Cloud-VoIP-Workloads hinzufügen, und Sie haben beschlossen, Microsoft-Telefon System mit Anrufplan zu verwenden, um eine Verbindung mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) herzustellen.
+Sie haben die ["Erste Schritte](get-started-with-teams-quick-start.md)" abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md) bereitgestellt. Jetzt können Sie Cloud-VoIP-Workloads hinzufügen, und Sie haben beschlossen, das Microsoft-Telefonsystem mit Anrufplan zu verwenden, um eine Verbindung mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) herzustellen.
 
-In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Anrufpläne sowie zusätzliche Überlegungen beschrieben, die Sie basierend auf den Anforderungen Ihrer Organisation konfigurieren möchten. Sie sollten [Cloud Voice auch in Microsoft Teams](cloud-voice-landing-page.md) lesen, um weitere Informationen zu den Cloud-VoIP-Angeboten von Microsoft zu finden.
+In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Anrufpläne sowie zusätzliche Überlegungen beschrieben, die Sie basierend auf den Anforderungen Ihrer Organisation konfigurieren möchten. Sie sollten auch [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) lesen, um weitere Informationen zu den Cloud-VoIP-Angeboten von Microsoft zu finden.
 
 ## <a name="learn-more-about-calling-plans"></a>Weitere Informationen zu Anrufplänen
 
@@ -41,13 +41,12 @@ Die folgenden Artikel enthalten weitere Informationen zum Bereitstellen und Verw
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
 
-Um Microsoft als Telefonieanbieter zu verwenden, müssen Sie Anrufplanlizenzen anfordern und diesen Ihren Telefonsystem Benutzern zuweisen.
+Um Microsoft als Telefonieanbieter zu verwenden, müssen Sie Anrufplanlizenzen anfordern und diesen Ihren Telefonsystembenutzern zuweisen.
 
-Es sind drei Arten von Anrufplänen verfügbar:
+Es sind zwei Arten von Anrufplänen verfügbar:
 
 - Inlandsanrufpläne
 - Internationale Anrufpläne
-- Anrufpläne für Inland und Ausland
 
 |Frage|Aktion |
 |------------|-------|
@@ -59,7 +58,7 @@ Verfügen meine Benutzer jeweils über eine DID-Telefonnummer (Direct Inward Dia
 
 ### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Übertragen von Telefonnummern an Microsoft 365 oder Office 365
 
-Es ist einfach, Ihre Telefonnummern von Ihrem aktuellen Dienstanbieter an Teams zu übertragen. Nachdem Sie Ihre Telefonnummern zu Teams portiert haben, wird Microsoft Ihr Dienstanbieter und berechnet Ihnen diese Telefonnummern. Weitere Informationen finden Sie unter [Übertragen von Telefonnummern an Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Es ist einfach, Ihre Telefonnummern von Ihrem aktuellen Dienstanbieter zu Teams zu übertragen. Nachdem Sie Ihre Telefonnummern zu Teams portiert haben, wird Microsoft Ihr Dienstanbieter und berechnet Ihnen diese Telefonnummern. Weitere Informationen finden Sie unter [Übertragen von Telefonnummern an Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Telefonnummern und Notfallstandorte
 

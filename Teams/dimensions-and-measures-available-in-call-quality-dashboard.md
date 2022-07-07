@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Erhalten Sie detaillierte Informationen zu den Abmessungen und Messungen, die vom Anrufqualitätsdashboard (Call Quality Dashboard, CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551222"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682534"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Dimensionen und Messungen
 
@@ -551,6 +551,9 @@ In der folgenden Tabelle sind die derzeit im CQD verfügbaren Dimensionen in der
 |Ist Anrufwarteschleife beteiligt?|Boolean|Bei "True" war eine Anrufwarteschleife an einem bestimmten Anruf oder Datenstrom beteiligt. ||
 |**Besprechung**||||
 |Planen der Quell-App-ID|String |Die AppID des ersten oder eines Drittanbieter-Planungsclients, der die Besprechung gebucht hat.|Der Planungsclient hat diesen Parameter nicht über seine Telemetrie bereitgestellt.|
+|**Gemeinsam**||||
+| Erste ACS-Ressourcen-ID |String |Unveränderlicher Ressourcenbezeichner des Azure-Kommunikationsdiensts, der dem ersten Endpunkt zugeordnet ist. <br/> **Beispiel:** 00000000-0000-0000-0000-000000000000 | Endpunkt verwendet keine Azure Communication Services-APIs|
+| Zweite ACS-Ressourcen-ID |String |Unveränderlicher Ressourcenbezeichner des Azure-Kommunikationsdiensts, der dem zweiten Endpunkt zugeordnet ist. <br/> **Beispiel:** 00000000-0000-0000-0000-000000000000 | Endpunkt verwendet keine Azure Communication Services-APIs|
 |**Datapair**||||
 | Network Connection Detail Pair  | Aufgezähltes Paar <br/>**Mögliche Werte:** <br/> WiFi:WiFi <br/> WiFi:Verkabelt <br/> Verkabelt:WiFi <br/> Verkabelt:Verkabelt <br/> MobileBB:MobileBB <br/> MobileBB:Sonstiges <br/> MobileBB:Tunnel <br/> MobileBB:WiFi <br/> MobileBB:Verkabelt <br/> Sonstige:Sonstiges <br/> Sonstiges:WiFi <br/> Sonstiges:Verkabelt <br/> Tunnel:Tunnel <br/> Tunnel:WiFi <br/> Tunnel:Verkabelt <br/> :MobileBB <br/> :Sonstiges <br/> :Tunnel <br/> :WiFi <br/> :Verkabelt <br/> :  | Paar aus Netzwerkverbindungsdetails für den ersten und zweiten Endpunkt.  | &bull; Der Endpunkt-Netzwerkverbindungstyp war unbekannt. Dieser Fall kann eintreten, wenn der Anruf nicht aufgebaut werden konnte.   |
 | User Agent Category Pair  | Aufgezähltes Paar  | Paar aus Benutzer-Agent-Kategorien für ersten und zweiten Endpunkt. <br/> **Beispielwert:** AV-MCU : OC  | &bull; Der Endpunktbenutzer-Agent war kein bekannter Typ.  |
