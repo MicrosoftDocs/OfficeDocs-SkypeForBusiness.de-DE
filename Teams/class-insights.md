@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ff797e0793373d0cb7b476b31411ccdf377639c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674377"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647687"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -78,7 +79,7 @@ Dozenten und Schulleiter können auf verschiedene Weise auf Insights zugreifen.
 
 Dozenten können diese zwei Methoden verwenden:
 
-- [Persönliche App](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867): Eine Übersicht über alle ihre aktiven Klassen ist über die linke App-Leiste in Teams verfügbar, in der die Klassendaten aufgeschlüsselt werden können.
+- [Persönliche App](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867): Ein Überblick über alle aktiven Klassen ist über die linke App-Leiste in Teams verfügbar, mit der Möglichkeit, die Klassendaten aufzuschlüsseln.
 - [Registerkarten](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c): Insights für bestimmte Klassen, die sie besitzen, sind in einer Registerkarte im oberen Navigationsmenü eines Klassenteams verfügbar. Auf dieser Registerkarte können Dozenten direkt auf die relevanten Daten zugreifen, wenn sie sich in Teams in dieser Klasse befunden, um die Daten im Klassenkontext zu sehen.
 
 Insights zeigt Aktivitätsdaten aus allen Kanälen innerhalb eines Klassenteams an, kann aber nur als Registerkarte zu öffentlichen Kanälen hinzugefügt werden. Die Registerkarte spiegelt die Aktivitäten aller Mitglieder des Klassenteams wider, die nicht Besitzer des Teams sind (einschließlich Dozenten, die nicht Besitzer des Klassenteams sind).
@@ -250,17 +251,19 @@ Standardmäßig ist Insights aktiviert, sodass Analysen der Aktivitäten von Sch
 :::image type="content" source="media/insights-settings.png" alt-text="Ein Screenshot der SDS Admin Center-Seite, auf der Sie eine Einstellungsoption zum Aktivieren oder Deaktivieren von Insights finden.":::
 
 > [!NOTE]
-> Wenn Sie Insights deaktiviert haben, werden die gesammelten Daten gelöscht. Die gelöschten Daten beim Abmelden können zu einem späteren Zeitpunkt nicht wiederhergestellt werden, auch wenn Insights reaktiviert wird.
+> Wenn Sie Insights deaktiviert haben, werden die gesammelten Daten gelöscht. Die bei der Abmeldung gelöschten Daten können später nicht wiederhergestellt werden, selbst wenn Insights wieder aktiviert wird.
 
-### <a name="turn-machine-learning-in-insights-on-or-off"></a>Aktivieren oder Deaktivieren von Machine Learning in Insights
+### <a name="turn-on-and-off-advanced-inferences-in-insights"></a>Aktivieren und Deaktivieren von erweiterten Schlussfolgerungen in Insights
 
-Standardmäßig sind computerbasierte Benutzeroberflächen in Insights deaktiviert. Um diese Erkenntnisse zu ermöglichen, müssen Sie **Insights, das auf maschinellem Lernen basiert,** zulassen. Wenn Sie diese Umschaltfläche aktivieren, werden keine zusätzlichen Daten außer den bereits von Education Insights erfassten Daten gesammelt.
+Wenn der Umschalter **Erweiterte Rückschlüsse zulassen** für Education Insights aktiviert ist, kann Education Insights Schülern, Lehrkräften und Schulleitern erweiterte Rückschlüsse auf das Lernen präsentieren (z. B. Engagement-Warnungen). Diese Schlussfolgerungen ermöglichen es den Pädagogen, den Schülern eine maßgeschneiderte Unterstützung zu bieten. Der Umschalter steuert auch die Verwendung von Mandantendaten für die Modellierung.
+
+Wenn Sie diese Umschaltfläche aktivieren, werden keine zusätzlichen Daten außer den bereits von Education Insights erfassten Daten gesammelt.
 
 - Um diese Einstellung anzupassen, öffnen Sie das [SDS Admin Center](https://sds.microsoft.com/), und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**.
-- Deaktivieren bzw. aktivieren Sie die Umschaltfläche **Insights, das auf maschinellem Lernen basiert, zulassen**.
+- Stellen Sie den Schalter **Erweiterte Rückschlüsse zulassen** auf Aus oder Ein.
 
 > [!NOTE]
-> Diese Umschaltfläche ist abhängig von der Umschaltfläche **Aktivitätsdaten für Insights erfassen**. Wenn Sie das **Erfassen von Aktivitätsdaten für Insights** deaktivieren, wird auch die Umschaltfläche **Insights, das auf maschinellem Lernen basiert** deaktiviert.
+> Diese Umschaltfläche ist abhängig von der Umschaltfläche **Aktivitätsdaten für Insights erfassen**. Durch das Deaktivieren von **Aktivitätsdaten für Insights sammeln** wird auch der Schalter **Erweiterte Rückschlüsse zulassen** deaktiviert.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Aktivieren oder Deaktivieren von SDS für Insights
 

@@ -15,14 +15,14 @@ description: Erfahren Sie, wie Sie Teams-App-Aktivitäten von Benutzern und Admi
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d75773db33f1648e3fff0c7bf06944da133f0604
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642887"
+ms.locfileid: "66647836"
 ---
-# <a name="search-the-audit-logs-for-app-events"></a>Durchsuchen der Überwachungsprotokolle nach App-Ereignissen
+# <a name="audit-for-app-management-activities-and-events"></a>Überwachung von App-Management-Aktivitäten und Ereignisse
 
 Mit der Microsoft Purview-Überwachung (Standard) in Microsoft 365 können Sie nach Überwachungsdatensätzen von Aktivitäten suchen, die von Endbenutzern und Administratoren in den verschiedenen Microsoft 365-Diensten ausgeführt wurden.
 
@@ -32,7 +32,7 @@ Bevor Sie die Überwachung durchsuchen können, stellen Sie sicher, dass Sie die
 * [Aktivieren Sie die Überwachung im Microsoft Purview-Complianceportal](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 * [Weisen Sie Berechtigungen zum Durchsuchen des Überwachungsprotokolls zu](/microsoft-365/compliance/set-up-basic-audit).
 
-## <a name="audit-logs-for-app-events-in-teams"></a>Überwachungsprotokolle für App-Ereignisse in Teams
+## <a name="search-the-audit-logs-for-app-events-in-teams"></a>Durchsuchen der Audit-Protokolle nach App-Ereignissen in Teams
 
 Die Überwachungsprotokolle für App-Ereignisse in Teams helfen Ihnen, bestimmte Aktionen zu untersuchen. Sie können zwar in den Protokollen nach einer Vielzahl von Aktionen suchen, in der folgenden Tabelle sind jedoch einige der protokollierten Teams-App-Aktionen aufgeführt. Darüber hinaus können Sie Aktivitäten im Zusammenhang mit Connectors, Bots, Registerkarten usw. durchsuchen.
 

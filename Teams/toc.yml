@@ -1561,9 +1561,9 @@ items:
             href: non-standard-users.md
           - name: App-Updates und Administratorrolle
             href: apps-update-experience.md
-          - name: Verwalten des Zugriffs auf Teams-Apps über Microsoft 365
+          - name: Verwalten des Zugriffs auf Anwendungen in Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: Audit für App Management Aktivitäten und Ereignisse
+          - name: Überwachung von App-Management-Aktivitäten
             href: audit-app-management-activities.md
       - name: App-Nutzungsbericht und Analysen
         href: teams-analytics-and-reports/app-usage-report.md
