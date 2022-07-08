@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern (Übertragungsnummern) für Ihre Organisation erhalten, müssen Sie möglicherweise Hilfe und Support beim TNS Service Desk erhalten.
-ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240724"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687871"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Telefonnummerndienste (Telephone Number Services, TNS) – Service Desk
 
@@ -43,7 +43,7 @@ So wenden Sie sich an den Service Desk:
 
 2. Wählen Sie im linken Bereich **"VoIP**" und dann **"Telefonnummern**" aus.
 
-3. Klicken Sie in der oberen rechten Ecke der Seite auf **"Aktionen"**, und wählen Sie dann **"Telefonnummernunterstützung anfordern**" aus. Sie werden an das **Telefonnummern-Servicecenter** (Service Desk Portal) weitergeleitet.
+3. Klicken Sie in der oberen rechten Ecke der Seite auf **"Aktionen"**, und wählen Sie dann **"Telefonnummernunterstützung anfordern**" aus. Sie werden an das [Telefonnummern-Servicecenter](https://pstnsd.powerappsportals.com/) weitergeleitet.
 
 > [!NOTE]
 > Nur jemand aus demselben Mandanten darf einen Fall erstellen. Beispielsweise kann eine Person von @fabrikam.com keinen Fall im Namen von @contoso.com erstellen.
