@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Erfahren Sie, wie Sie virtuelle Termine mithilfe der Bookings-App in Teams planen, verwalten und durchführen.
-ms.openlocfilehash: a89eaa242cd62238d4e5c6c9d7a88f3a2e9ac62c
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: 245b9fdf8cd619ea68d2d20097f1aee4bdbbf20d
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103382"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695128"
 ---
 # <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Termine mit Microsoft Teams und der Bookings-App
 
@@ -36,9 +36,9 @@ Die [Bookings-App](https://support.microsoft.com/office/what-is-bookings-42d4e85
 
 Die Bookings-App erleichtert die Verwaltung komplexer Planungsanforderungen jeder Organisation. Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie die Kommunikation mit internen und externen Teilnehmern über eine einzige Lösung verwalten.
 
-Die virtuellen Termine werden über Microsoft Teams Besprechungen abgehalten, die stabile Videokonferenzfunktionen bieten. Beispielsweise kann ein Arzt den Bildschirm teilen und Testergebnisse mit einem Patienten überprüfen. Oder ein Bankberater kann elektronische Signaturen für Dokumente anfordern, sodass er Transaktionen remote schließen kann.
+Die virtuellen Termine werden über Microsoft Teams-Besprechungen abgehalten, die robuste Videokonferenzfunktionen bieten. Beispielsweise kann ein Arzt den Bildschirm teilen und Testergebnisse mit einem Patienten überprüfen. Oder ein Bankberater kann elektronische Signaturen für Dokumente anfordern, sodass er Transaktionen remote schließen kann.
 
-Jeder virtuelle Termin enthält einen Teams Besprechungslink, der per E-Mail an die Teilnehmer gesendet wird, wo sie einfach über einen Webbrowser oder in Teams auf jedem Gerät teilnehmen können. Automatisierte E-Mail-Erinnerungen tragen dazu bei, keine Anzeigen zu reduzieren und die Kunden- und Kundenbindung zu verbessern.
+Jeder virtuelle Termin enthält einen Teams-Besprechungslink, der an Teilnehmer per E-Mail gesendet wird, wo sie einfach über einen Webbrowser oder auf jedem Gerät in Teams teilnehmen können. Automatisierte E-Mail-Erinnerungen tragen dazu bei, keine Anzeigen zu reduzieren und die Kunden- und Kundenbindung zu verbessern.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TQop]
 
@@ -54,15 +54,15 @@ In diesem Artikel erhalten Sie einen Überblick über das Planen, Verwalten und 
 
 ## <a name="before-you-get-started"></a>Bevor Sie beginnen
 
-Wenn Sie ein Administrator sind, lesen [Sie "Verwalten der Bookings-App in Teams](../bookings-app-admin.md)", um mehr über die Voraussetzungen für die Verwendung der Bookings-App in Teams, das Steuern des Zugriffs auf Bookings in Ihrer Organisation sowie die empfohlenen Richtlinien- und Administratoreinstellungen zu erfahren.
+Wenn Sie ein Administrator sind, lesen [Sie "Verwalten der Bookings-App in Teams](../bookings-app-admin.md) ", um mehr über die Voraussetzungen für die Verwendung der Bookings-App in Teams, das Steuern des Zugriffs auf Bookings in Ihrer Organisation und die empfohlenen Richtlinien- und Administratoreinstellungen zu erfahren.
 
-Denken Sie daran, dass die Bookings-App nur für Planer in Ihrer Organisation in Teams installiert sein muss. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie nehmen über ihren Teams oder Outlook Kalender oder über den Besprechungslink in ihrer Buchungsbestätigungs-E-Mail an Terminen teil.
+Denken Sie daran, dass die Bookings-App nur für Planer in Ihrer Organisation in Teams installiert sein muss. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie nehmen über ihren Teams- oder Outlook-Kalender oder über den Besprechungslink in ihrer Buchungsbestätigungs-E-Mail an Terminen teil.
 
 ## <a name="set-up-a-new-booking-calendar"></a>Einrichten eines neuen Buchungskalenders
 
 ### <a name="create-the-booking-calendar"></a>Erstellen des Buchungskalenders
 
-Wechseln Sie in Teams zu **Bookings** >  **Erste Schritte** und wählen Sie dann **"Neuer Buchungskalender**" aus. Füllen Sie das Formular aus, und wählen Sie den relevanten Geschäftstyp für Ihre Organisation aus.
+Wechseln Sie in Teams zu **"Bookings** > **Get started**", und wählen Sie dann **"Neuer Buchungskalender**" aus. Füllen Sie das Formular aus, und wählen Sie den relevanten Geschäftstyp für Ihre Organisation aus.
 
 :::image type="content" source="../media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Screenshot des Bildschirms &quot;Neuer Buchungskalender&quot; mit Geschäftstypen":::
 
@@ -76,27 +76,27 @@ Weitere Informationen finden Sie unter ["Erstellen eines Bookings-Kalenders](htt
 
 Wechseln Sie im Buchungskalender zu **"Weitere Optionen** (...) > **Einstellungen**", und wählen Sie dann **"Mitarbeiter"** aus. Fügen Sie Mitarbeiter hinzu, und weisen Sie jeder person, die Sie hinzufügen, eine Rolle zu. Sie können einem Buchungskalender bis zu 100 Mitarbeiter hinzufügen.
 
-Die Bookings-App lässt sich in Outlook integrieren. Nachdem Sie Mitarbeiter hinzugefügt haben, können Sie die Kalenderverfügbarkeit dieser Person anzeigen und Buchungen für diese Person planen. Weitere Informationen finden Sie unter [Hinzufügen von Mitarbeitern und Anzeigen eines Bookings-Kalenders](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
+Die Bookings-App lässt sich in Outlook integrieren. Nachdem Sie Mitarbeiter hinzugefügt haben, können Sie deren Kalenderverfügbarkeit anzeigen und Buchungen für sie planen. Weitere Informationen finden Sie unter [Hinzufügen von Mitarbeitern und Anzeigen eines Bookings-Kalenders](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
 ### <a name="create-appointment-types"></a>Erstellen von Termintypen
 
 Erstellen Sie bestimmte Termintypen, um die von Ihrer Organisation angebotenen Dienste darzustellen und die Buchungserfahrung anzupassen. Planer können dann den Termintyp verwenden, um einen Termin zu planen.
 
-Wechseln Sie im Buchungskalender zu **"Weitere Optionen** (...) > **Einstellungen**", wählen Sie **"Termintypen**" und dann "**Termintyp hinzufügen"** aus. Geben Sie einen Namen&mdash;ein, z. B. Kontoeröffnung, Rezeptverlängerung, Kreditberatung, Steuervorbereitung&mdash;und alle anderen gewünschten Informationen und Einstellungen.
+Wechseln Sie im Buchungskalender zu **"Weitere Optionen** (...) > **Einstellungen**", wählen Sie **"Termintypen**" und dann " **Termintyp hinzufügen"** aus. Geben Sie einen Namen&mdash;ein, z. B. Kontoeröffnung, Rezeptverlängerung, Kreditberatung, Steuervorbereitung&mdash;und alle anderen gewünschten Informationen und Einstellungen.
 
 Die von Ihnen hinzugefügten Informationen sind in der E-Mail-Bestätigung enthalten, die bei jeder Buchung dieser Art von Termin an die Teilnehmer gesendet wird. Sie können E-Mail-Erinnerungen und andere Optionen festlegen, z. B. ob Teilnehmer [über einen Desktop- oder mobilen Browser teilnehmen](browser-join.md) können, ohne Teams herunterladen zu müssen.
 
-Wenn Sie ein Bookings-Administrator sind, können Sie bis zu vier Formulare für Teilnehmer verknüpfen, die sie bei jeder Buchung dieses Termintyps ausfüllen können. Beispielsweise können Sie die Teilnehmer auffordern, ein Registrierungsformular auszufüllen, bevor sie an einem Termin teilnehmen. Um ein Formular zu verknüpfen, wählen Sie **"Formular verknüpfen" aus**. Geben Sie die URL des Formulars ein, und wählen Sie dann **"Link"** aus. (Wenn Sie zum ersten Mal ein Formular verknüpfen, werden Sie aufgefordert, eine Microsoft 365 Gruppe zum Speichern von Formularen zu erstellen. Wählen Sie **"Gruppe erstellen** " aus, um die Gruppe zu erstellen. Sie müssen dies nur einmal für den Buchungskalender tun.)
+Wenn Sie ein Bookings-Administrator sind, können Sie bis zu vier Formulare für Teilnehmer verknüpfen, die sie bei jeder Buchung dieses Termintyps ausfüllen können. Beispielsweise können Sie die Teilnehmer auffordern, ein Registrierungsformular auszufüllen, bevor sie an einem Termin teilnehmen. Um ein Formular zu verknüpfen, wählen Sie **"Formular verknüpfen" aus**. Geben Sie die URL des Formulars ein, und wählen Sie dann **"Link"** aus. (Wenn Sie zum ersten Mal ein Formular verknüpfen, werden Sie aufgefordert, eine Microsoft 365-Gruppe zum Speichern von Formularen zu erstellen. Wählen Sie **"Gruppe erstellen** " aus, um die Gruppe zu erstellen. Sie müssen dies nur einmal für den Buchungskalender tun.)
 
 Beachten Sie beim Arbeiten mit Formularen Folgendes:
 
-- Wenn Sie Änderungen an einem Formular vornehmen möchten, das bereits mit einem Termintyp verknüpft ist, wählen Sie das Formular im Termintyp oder in der Microsoft 365 Gruppe unter [https://forms.office.com](https://forms.office.com)aus.
+- Wenn Sie Änderungen an einem Formular vornehmen möchten, das bereits mit einem Termintyp verknüpft ist, wählen Sie das Formular im Termintyp oder in der Microsoft 365-Gruppe unter [https://forms.office.com](https://forms.office.com)aus.
 - Das Hochladen von Dateien in Formulare, die eine [Frage zum Hochladen von Dateien](https://support.microsoft.com/office/add-questions-that-allow-for-file-uploads-6a75a658-c02b-450e-b119-d068f3cba4cf) enthalten, wird unterstützt, wenn alle Teilnehmer aus derselben Organisation stammen.
 
 Wenn ein Planer den Termintyp zum Planen eines Termins verwendet, kann er auswählen, ob das Formular eingeschlossen, entfernt oder andere Formulare hinzugefügt werden sollen, die Sie mit dem Termintyp verknüpft haben. Teilnehmer müssen das Formular ausfüllen, bevor sie am Termin teilnehmen.
 
 > [!NOTE]
-> Alle Informationen, die von Patienten in Forms als Teil von Bookings oder virtuellen Termindiensten bereitgestellt werden, die für die Kontinuität oder Aufbewahrung von Krankenakten erforderlich sind, sollten direkt in solchen Aufzeichnungen heruntergeladen, kopiert und/oder notiert werden. Dieser Dienst stellt weder eine gesetzliche Krankenakte noch eine festgelegte Datensatzgruppe dar.
+> Wenn Sie ein Gesundheitsdienstleister sind, sollten alle Informationen, die von Ihnen oder Patienten in Teams bereitgestellt werden (einschließlich der Forms-App, bookings-App, Besprechungsaufzeichnungen, sofern diese von Ihnen aktiviert werden, oder andere virtuelle Teams-Termindienste), die für die Kontinuität oder Aufbewahrung von Medizinischen Aufzeichnungen erforderlich sind, von Ihnen direkt in diese Datensätze heruntergeladen, kopiert und/oder notiert werden. Dieser Dienst verwaltet keine gesetzlichen Krankenakten oder einen festgelegten Datensatzsatz.
 
 Weitere Informationen finden Sie unter [Erstellen eines Termintyps](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
@@ -108,11 +108,11 @@ Dazu gehören Kontaktinformationen zu Teilnehmern, der Mitarbeiter, der den Dien
 
 Die an den Teilnehmer gesendete E-Mail-Bestätigung enthält den Besprechungslink und eine Anlage, damit er den virtuellen Termin zu ihrem Kalender hinzufügen kann. Mitarbeiter erhalten außerdem eine E-Mail-Bestätigung und eine Besprechungseinladung. Wenn ein Formular im Termin enthalten war, können Bookings-Administratoren und -Planer sehen, ob das Formular vom Teilnehmer vor dem Termin ausgefüllt wurde, und die Antwort des Teilnehmers anzeigen.
 
-Weitere Informationen finden Sie [unter Planen einer Buchung in der Teams Bookings-App](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
+Weitere Informationen finden [Sie unter Planen einer Buchung in der Teams Bookings-App](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 
 ## <a name="conduct-an-appointment"></a>Durchführen eines Termins
 
-Wechseln Sie in Ihrem Teams oder Outlook Kalender zur Buchung, und wählen Sie dann **"Teilnehmen"** oder den link "Teams Besprechung" aus. Überprüfen Sie Ihre Audio- und Videoeinstellungen, und wählen Sie dann " **Jetzt beitreten"** aus. Weitere Informationen finden Sie unter [Durchführen eines Bookings-Termins](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
+Wechseln Sie in Ihrem Teams- oder Outlook-Kalender zur Buchung, und wählen Sie dann **"Teilnehmen"** oder den Link "Teams-Besprechung" aus. Überprüfen Sie Ihre Audio- und Videoeinstellungen, und wählen Sie dann " **Jetzt beitreten"** aus. Weitere Informationen finden Sie unter [Durchführen eines Bookings-Termins](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
 ## <a name="monitor-appointments-and-get-real-time-status-updates"></a>Überwachen von Terminen und Abrufen von Statusupdates in Echtzeit
 
@@ -125,7 +125,7 @@ In der Warteschlange können Planer eine neue Buchung hinzufügen, relevante Ter
 Mitarbeiter können sogar direkt aus der Warteschlange an Terminen teilnehmen und diese verwalten.
 
 > [!NOTE]
-> Derzeit unterstützt die Bookings-App das Hinzufügen von bis zu 100 Mitarbeitern pro Buchungskalender. Wenn Sie Graph APIs zum Einrichten und Hinzufügen von Mitarbeitern zu einem Buchungskalender verwendet haben, wird dieser Grenzwert möglicherweise nicht erzwungen. In diesem Szenario kann die Registerkarte **"Warteschlange** " keine Inhalte für Kalender mit mehr als 100 Mitarbeitern rendern. Für eine optimale Erfahrung empfehlen wir, dass Sie nicht mehr als 100 Mitarbeiter zu einem Buchungskalender hinzufügen. Wir arbeiten daran, diese Einschränkung in zukünftigen Versionen zu beheben.
+> Derzeit unterstützt die Bookings-App das Hinzufügen von bis zu 100 Mitarbeitern pro Buchungskalender. Wenn Sie Graph-APIs zum Einrichten und Hinzufügen von Mitarbeitern zu einem Buchungskalender verwendet haben, wird dieser Grenzwert möglicherweise nicht erzwungen. In diesem Szenario kann die Registerkarte **"Warteschlange** " keine Inhalte für Kalender mit mehr als 100 Mitarbeitern rendern. Für eine optimale Erfahrung empfehlen wir, dass Sie nicht mehr als 100 Mitarbeiter zu einem Buchungskalender hinzufügen. Wir arbeiten daran, diese Einschränkung in zukünftigen Versionen zu beheben.
 
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Zusätzliche Funktionen mit der Bookings-Web-App
 
@@ -135,16 +135,16 @@ Weitere Informationen finden Sie [unter Microsoft Bookings](/microsoft-365/booki
 
 ## <a name="get-insight-into-virtual-appointments-usage"></a>Erhalten Sie Einblicke in die Nutzung virtueller Termine
 
-Der [Nutzungsbericht "Virtuelle Besuche"](../teams-analytics-and-reports/virtual-visits-usage-report.md) im Microsoft Teams Admin Center bietet Administratoren einen Überblick über Teams aktivitäten virtueller Termine in Ihrer Organisation. Der Bericht zeigt detaillierte Analysen zu virtuellen Terminen einschließlich Bookings-Terminen.
+Der [Nutzungsbericht "Virtuelle Besuche"](../teams-analytics-and-reports/virtual-visits-usage-report.md) im Microsoft Teams Admin Center gibt Administratoren einen Überblick über die virtuellen Terminaktivitäten von Teams in Ihrer Organisation. Der Bericht zeigt detaillierte Analysen zu virtuellen Terminen einschließlich Bookings-Terminen.
 
 Sie können wichtige Metriken anzeigen, z. B. Wartezeit des Wartebereichs und Termindauer. Verwenden Sie diese Informationen, um Einblicke in Nutzungstrends zu erhalten, die Ihnen helfen, virtuelle Termine zu optimieren, um bessere Geschäftsergebnisse zu erzielen.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Verwalten der Teilnahmeerfahrung für Teams virtueller Termine in mobilen Browsern](browser-join.md)
+- [Verwalten der Teilnahmeerfahrung für virtuelle Teams-Termine in mobilen Browsern](browser-join.md)
 
-- [Nutzungsbericht für Teams virtuelle Besuche](../teams-analytics-and-reports/virtual-visits-usage-report.md)
+- [Nutzungsbericht "Virtuelle Besuche in Teams"](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
 - [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](healthcare/teams-in-hc.md)
 
-- [Bookings-App in Teams Hilfedokumentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Hilfedokumentation zur Bookings-App in Teams](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)

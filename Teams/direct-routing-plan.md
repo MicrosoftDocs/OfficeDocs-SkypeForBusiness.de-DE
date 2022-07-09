@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit Microsoft Direct Routing einen vom Kunden bereitgestellten Session Border Controller (SBC) mit dem Telefonsystem verbinden können.
-ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682514"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695058"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -160,6 +160,9 @@ Es ist möglich, dass ein Unternehmen mehrere SIP-Adressräume in einem Mandante
 
 Der SBC benötigt nur einen FQDN und kann Benutzer von jedem Adressraum im gekoppelten Mandanten aus unterstützen. Beispielsweise kann ein SBC mit dem Namen sbc1.contoso.com den PSTN-Datenverkehr für Benutzer mit adressen user@contoso.com und user@fabrikam.com empfangen und senden, solange diese SIP-Adressräume im selben Mandanten registriert sind.  
 
+ > [!NOTE]
+ > SBC FQDN in Azure Communication Services Direct Routing muss sich von SBC FQDN in Teams Direct Routing unterscheiden.
+  
 ## <a name="public-trusted-certificate-for-the-sbc"></a>Öffentliches vertrauenswürdiges Zertifikat für den SBC
 
 Microsoft empfiehlt, das Zertifikat für den SBC durch Generieren einer Zertifizierungssignaturanforderung (CSR) anzufordern. Spezifische Anweisungen zum Generieren eines CSR für einen SBC finden Sie in den Verbindungsanweisungen oder dokumentationen, die von Ihren SBC-Anbietern bereitgestellt werden. 

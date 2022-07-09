@@ -19,12 +19,12 @@ description: Erfahren Sie, wie Sie Teams-Apps verwalten. Erfahren Sie, wie Sie A
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647747"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695068"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams-Apps im Microsoft Teams Admin Center
 
@@ -119,7 +119,7 @@ Sie können Anforderungen anzeigen, um eine blockierte App zur Verwendung zur Ve
 
  1. Melden Sie sich beim Teams Admin Center an, und wählen Sie ["Apps verwalten"](https://admin.teams.microsoft.com/policies/manage-apps) aus.
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="Anforderung durch Benutzer" lightbox="media/requested-apps.png" border="true":::
+    :::image type="content" source="media/requested-apps1.png" alt-text="Endbenutzeranforderungen für blockierte Apps werden im Teams Admin Center in der Spalte &quot;Anforderungen von Benutzern&quot; angezeigt." lightbox="media/requested-apps.png":::
 
  1. Um die Anzahl der Anforderungen für jede App anzuzeigen und zu überprüfen, sortieren Sie die Anforderungen in der Spalte **"Anforderungen nach Benutzer** ".
  1. Wählen Sie den Namen der App aus, die Sie entsperren möchten, und es wird die Detailseite der App geöffnet.
