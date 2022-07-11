@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc9e17f958b1770573cf6729ef6aca9b22ffe03d
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
-ms.translationtype: HT
+ms.openlocfilehash: 7b8c8521aa5e19abe59aa9e4c60fcc41eff9b1c7
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893564"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713323"
 ---
 # <a name="bulk-install-teams-using-windows-installer-msi"></a>Masseninstallation von Teams mithilfe von Windows Installer
 
@@ -118,7 +118,7 @@ Für die 64-Bit-Version:
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-Wenn sich ein Benutzer bei Windows anmeldet, wird Teams mit dem MSI-Programm installiert und dem Desktop des Benutzers eine Verknüpfung zum Starten hinzugefügt. Teams wird erst gestartet, wenn der Benutzer es manuell startet. Nachdem der Benutzer Teams manuell gestartet hat, wird es immer automatisch gestartet, wenn sich der Benutzer anmeldet.
+Wenn sich ein Benutzer bei Windows anmeldet, wird Teams mit der MSI installiert. Teams wird erst gestartet, wenn der Benutzer es manuell startet. Nachdem der Benutzer Teams manuell gestartet hat, wird es immer automatisch gestartet, wenn sich der Benutzer anmeldet.
 
 Beachten Sie, dass diese Beispiele auch den Parameter **ALLUSERS=1** verwenden. Wenn Sie diesen Parameter festlegen, wird das Installationsprogramm für die computerweite Installation von Teams unter "Programme und Features" in der Systemsteuerung sowie unter "Apps und Features" in den Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können Teams dann deinstallieren, wenn Sie über Administratorrechte auf dem Computer verfügen.
 

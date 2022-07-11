@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241134"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713353"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -112,9 +112,11 @@ Diese Einstellung gilt nicht für Kanalbesprechungen. Sobald diese Besprechungsc
 
 ## <a name="qa-in-meetings"></a>F&A in Besprechungen
 
-Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob Organisatoren den Q&A-Erfahrung zu ihren Besprechungen hinzufügen können. Diese Einstellung ist standardmäßig deaktiviert. Weitere Informationen zu Q&A [finden Sie hier](/manage-qna-for-meetings). 
+Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Mit dieser Einstellung können Microsoft 365-Mandantenadministratoren die Benutzeroberfläche "Fragen & Antworten" aktivieren oder deaktivieren (F&A).
 
-Um QnAEngagementMode zu parametern, steuert diese Richtlinie in PowerShell und Q&A kann auch innerhalb des Verwaltungsportals angepasst werden.
+Die Einstellung wird erzwungen, wenn eine Besprechung erstellt oder von Organisatoren aktualisiert wird. Diese Einstellung ist standardmäßig deaktiviert. Weitere Informationen zu Q&A [finden Sie hier](/manage-qna-for-meetings).
+
+Der Parameter QnAEngagementMode steuert diese Richtlinie in PowerShell. F&A kann auch im Verwaltungsportal angepasst werden.
 
 |Einstellungswert |Verhalten  |
 |---------|---------|

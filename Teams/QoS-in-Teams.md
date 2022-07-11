@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6015c7b7cf1e7be5bc6b9b3e1fe0577a7f707377
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 5b9c049942808da9b2df97d031ff850949bca211
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564143"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713313"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
@@ -151,7 +151,7 @@ Beachten Sie Folgendes, wenn Sie diese Einstellungen verwenden:
 
 - Alle Clients, einschließlich mobiler Clients und Teams-Geräte, verwenden diese Portbereiche und sind von jeder von Ihnen implementierten DSCP-Richtlinie betroffen, die diese Quellportbereiche verwendet. Die einzigen Clients, die weiterhin dynamische Ports verwenden, sind die browserbasierten Clients (Clients, mit denen Teilnehmer über ihre Browser an Besprechungen teilnehmen können).
 
-- Obwohl der Mac-Client dieselben Portbereiche verwendet, verwendet er auch hartcodierte Werte für Audio (EF) und Video (AF41). Diese Werte können nicht konfiguriert werden.
+- Obwohl der Mac-Client dieselben Portbereiche verwendet, verwendet er auch hartcodierte Werte für Audio (EF) und Video- und Anwendungs-/Bildschirmfreigabe (AF41). Diese Werte können nicht konfiguriert werden.
 
 - Wenn Sie die Portbereiche später anpassen müssen, um die Benutzerfreundlichkeit zu verbessern, können sich die Portbereiche nicht überlappen und sollten nebeneinander liegen.
 

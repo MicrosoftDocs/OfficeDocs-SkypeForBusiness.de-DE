@@ -15,16 +15,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie IT-Administratoren Q&A in Teams Q&A einrichten, verwenden und verwalten können, um einen strukturierten Ansatz für das Sammeln von Fragen, das Organisieren von Diskussionen, das Löschen einzelner Nachrichten, die Verwendung verfügbarer Sprachen und das Verständnis des Datenlebenszyklus sowie von Richtlinien für die Datenaufbewahrung und -löschung zu erhalten.
-ms.openlocfilehash: 17de45280809ae6c5fffdce64067fe97020965ec
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 387f66967a4448ff15374d6765e10ae25a72d7c0
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494842"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713443"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Verwalten von F&A in Teams-Besprechungen
 
-F&A ist eine integrierte Besprechungserfahrung, die den Teilnehmern die Möglichkeit gibt, Fragen formell zu stellen und zu erhalten sowie strukturierte Diskussionen zu führen. Diese Erfahrung ist eine bewährte Methode für Besprechungen mit mehr als 10 Teilnehmern.
+F&A ermöglicht Es Referenten, Fragen von Teilnehmern zu stellen und sie in Echtzeit zu beantworten. Dieses Feature eignet sich am besten für große, strukturierte Besprechungen wie Versammlungen, Webinare, Alle Hände und Schulungen.
 
 In diesem Artikel wird beschrieben, wie Sie Q&A und Richtlinien auf Benutzerebene verwalten, die festlegen, ob ein Organisator Teams Q&A in ihren Besprechungen aktivieren kann.
 
@@ -46,9 +46,6 @@ F&A kann von den folgenden Benutzertypen verwendet werden:
 - Normaler Benutzer – Ein Benutzer mit Microsoft 365-Anmeldeinformationen in Ihrem Mandanten.
 - Verbundbenutzer – Ein Benutzer mit Microsoft 365-Anmeldeinformationen für einen anderen Mandanten.
 - Gastbenutzer – Alle Gäste, die Sie Zu Ihren Microsoft Teams, SharePoint oder Azure Active Directory hinzufügen.
-
-> [!NOTE]
-> F&A unterstützt zurzeit keine anonymen Benutzer.
 
 Wenn Administratoren Q&A aktivieren, können Benutzer mit der Organisatorrolle Q&A beim Erstellen oder Aktualisieren von Besprechungen aktivieren. Über Teams- und Outlook-Besprechungsoptionen können Organisatoren Q&A auch aus Besprechungen entfernen, in denen es zuvor hinzugefügt wurde, um teilnehmer daran zu hindern, das Feature zu verwenden.
 
@@ -113,6 +110,7 @@ eDiscovery für Q&A funktioniert genauso wie eDiscovery für alle anderen Yammer
 - Wenn Sie Teams Q&A in der Teams-Anwendung Ihres Mandanten verwenden, sind diese Inhalte unabhängig von der Konfiguration oder dem Vorhandensein Ihres Yammer Netzwerks in eDiscovery verfügbar. Um eDiscovery für standardmäßige Yammer-Inhalte zu verwenden, muss sich Ihr Yammer-Netzwerk im [nativen Modus befinden](/yammer/configure-your-yammer-network/overview-native-mode).
 - Wenn Sie eDiscovery ausführen, können Sie bestimmen, ob Nachrichten in Yammer oder über Q&A in Teams generiert wurden. Im Abschnitt "Dateimetadaten" finden Sie diese Informationen im Feld "Elementklasse".
 - Wenn Ihre Organisation die Teams-F-&A verwendet, die von Yammer unterstützt wird, werden die von Q&A generierten Inhalte als Yammer Inhalte betrachtet und sind auffindbar. Weitere Informationen zu eDiscovery in Microsoft 365-Apps finden Sie [unter eDiscovery-Lösungen in Microsoft 365.](/microsoft-365/compliance/ediscovery)
+- Wenn der Besprechungsorganisator die anonyme Veröffentlichung aktiviert, werden die Fragen, die Teilnehmer posten, in das Postfach des Organisators für eDiscovery aufgenommen.
 
 ## <a name="data-storage"></a>Datenspeicherung
 
