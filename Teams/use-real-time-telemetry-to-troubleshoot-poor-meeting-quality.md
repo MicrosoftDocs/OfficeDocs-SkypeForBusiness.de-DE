@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie Telemetrie in Echtzeit mit Details zu Geräten, Netzwerken und Konnektivität, um Benutzerprobleme mit geplanten Microsoft Teams-Besprechungen zu beheben.
-ms.openlocfilehash: c7bc5ee0415a289782cad1dd7daa5c13bdaf7364
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
+ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494722"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66716801"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität
 
@@ -153,6 +153,9 @@ Benutzersignale erkennen, wann ein Benutzer aktiv am Anruf teilnimmt, nicht spri
 - Telemetriedaten in Echtzeit sind 24 Stunden nach Beendigung der Besprechung für eine Besprechung unter **"Zuletzt verwendete Besprechungen** " verfügbar. Nach 24 Stunden können Sie nicht mehr auf die Daten zugreifen, und die Besprechung wechselt zu **"Vergangene Besprechungen**". Wenn eine Besprechung länger als 3 Stunden ist, ist die Echtzeittelemetrie nur für die *letzten 3 Stunden* verfügbar.
 - Telemetrie ist nicht in Echtzeit verfügbar, wenn ältere Versionen von Teams verwendet werden. Wenn keine Telemetrie verfügbar ist, versuchen Sie, Ihren Client zu aktualisieren.
 - Wenn externe Teilnehmer oder anonyme Benutzer an einer Besprechung teilnehmen, wird ihr Anzeigename als **nicht verfügbar** angezeigt, um mandantenübergreifenden Datenschutz beizubehalten.
+
+> [!NOTE]
+> Im Rahmen einer zeitlich begrenzten öffentlichen Vorschau sind Telemetriedaten in Echtzeit derzeit **7 Tage** nach Beendigung einer Besprechung verfügbar. Die oben genannten Grenzwerte gelten nach Abschluss der öffentlichen Vorschau.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
