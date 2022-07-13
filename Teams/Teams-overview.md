@@ -34,7 +34,7 @@ Wenn Sie noch nicht mit Teams vertraut sind und mehr erfahren möchten, schauen 
 
 Verpassen Sie nicht unser Video „Willkommen bei Teams für Teams-Admins“ (etwas länger als 3 Minuten):
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkIO]
 
 Wenn Sie als Endbenutzer Hilfe zu Teams benötigen, klicken Sie auf der linken Seite der App auf **Hilfe** oder wechseln Sie zum [Microsoft Teams-Hilfecenter](https://support.office.com/teams). Informationen zu Schulungen finden Sie unter [Microsoft Teams-Schulung](training-microsoft-teams-landing-page.md). 
 
