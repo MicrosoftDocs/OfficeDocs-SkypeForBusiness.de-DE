@@ -1,7 +1,7 @@
 ---
-title: Erstellen eines Gebäudeplans für das Anrufqualitätsdashboard (CQD)
-ms.author: serdars
-author: SerdarSoysal
+title: Erstellen einer Gebäudekarte für das Anrufqualitätsdashboard (CQD)
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -19,23 +19,23 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Hier erfahren Sie, wie Sie eine Gebäudezuordnung erstellen, die Sie zum Hochladen von Mandanten- und Gebäudedaten im Anrufqualitäts-Dashboard (CQD) verwenden können.
-ms.openlocfilehash: a119324090d05b593eb1ed66f41efbb7a5bd7a0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie, wie Sie eine Gebäudezuordnung erstellen, die Sie zum Hochladen von Mandanten- und Gebäudedaten im Anrufqualitätsdashboard (CQD) verwenden können.
+ms.openlocfilehash: 71d1872bbd81769f9a49f4ca9f6ac9aae641252f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634099"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789820"
 ---
-# <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Erstellen eines Gebäudeplans für das Anrufqualitätsdashboard (CQD)
+# <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Erstellen einer Gebäudekarte für das Anrufqualitätsdashboard (CQD)
 
-In einer Microsoft Teams oder Skype for Business Online-Bereitstellung sind alle Clients extern. Daher werden standardmäßig alle Clients im Anrufqualitätsdashboard als außerhalb des Anrufqualitätsdashboards gemeldet, unabhängig davon, ob der Client mit einem internen Unternehmensnetzwerk verbunden ist.
+In einer Microsoft Teams- oder Skype for Business Onlinebereitstellung sind alle Clients extern. Daher werden standardmäßig alle Clients im Anrufqualitätsdashboard (Call Quality Dashboard, CQD) als extern gemeldet, unabhängig davon, ob der Client in einem internen Unternehmensnetzwerk verbunden ist.
 
-Wenn Sie mit einem AQD arbeiten, müssen Sie den Standort eines Endpunkts kennen und wissen, ob er mit einem Netzwerk verbunden war, das Sie verwalten können, oder ob sie ein Netzwerk nicht verwalten können, unter der Annahme, dass Sie nur Netzwerke verbessern können, die Sie verwalten können. Durch das Hochladen von Subnetz- und Gebäudeinformationen in das AQD aktivieren Sie das AQD, um festzustellen, ob der Endpunkt mit einem internen (verwalteten) Netzwerk oder einem externen (nicht verwalteten) Netzwerk verbunden war. Deshalb ist es wichtig, einen Gebäudeplan für Ihre Organisation zu erstellen und in das [AQD hochzuladen.](CQD-upload-tenant-building-data.md)
+Wenn Sie mit CQD arbeiten, müssen Sie den Standort eines Endpunkts kennen und wissen, ob er mit einem Netzwerk verbunden war, das Sie verwalten können oder ein Netzwerk, das Sie nicht verwalten können. Es wird davon ausgegangen, dass Sie nur Netzwerke verbessern können, die Sie verwalten können. Indem Sie Subnetz- und Gebäudeinformationen in CQD hochladen, können Sie CQD aktivieren, um zu bestimmen, ob der Endpunkt mit einem internen (verwalteten) Netzwerk oder mit einem externen (nicht verwalteten) Netzwerk verbunden war. Aus diesem Grund ist es wichtig, eine Gebäudekarte für Ihre Organisation zu erstellen und [auf CQD hochzuladen](CQD-upload-tenant-building-data.md).
 
 ## <a name="building-mapping-tools"></a>Tools für die Gebäudezuordnung
 
-Es gibt viele Möglichkeiten, die Subnetze Ihrer Organisation zu karten. Wenn Sie Hilfe benötigen, können Sie das PowerShell-Modul für CQDTools verwenden, das in diesem [Blogbeitrag beschrieben ist.](https://aka.ms/cqdtools) Diese Tools basieren auf PowerShell und verwenden Active Directory-Websites und -Dienste sowie Microsoft DHCP-Dienste, um die Gebäudedatei vorab zu füllen. Diese Tools können Ihnen bei den folgenden Aufgaben helfen:
+Es gibt viele Möglichkeiten, die Subnetze Ihrer Organisation zuzuordnen. Wenn Sie Hilfe benötigen, können Sie das in diesem [Blogbeitrag](https://aka.ms/cqdtools) beschriebene CQDTools PowerShell-Modul verwenden. Diese Tools basieren auf PowerShell und verwenden Active Directory(AD)-Websites und -Dienste sowie Microsoft DHCP-Dienste, um Die Gebäudedatei vorab aufzufüllen. Diese Tools können Ihnen bei den folgenden Aufgaben helfen:
 
 1. AD-Websites und -Dienste abfragen und basierend auf den darin enthaltenen Informationen eine Gebäudedatei erstellen.
 1. Abfragen eines Microsoft DHCP-Servers oder mehrerer Server ab, um Subnetzinformationen abzurufen, und automatisches Erstellen einer Gebäudedatei.
@@ -44,4 +44,4 @@ Es gibt viele Möglichkeiten, die Subnetze Ihrer Organisation zu karten. Wenn Si
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Hochladen mandanten- und gebäudedaten im AQD](CQD-upload-tenant-building-data.md)
+[Hochladen von Mandanten- und Gebäudedaten in CQD](CQD-upload-tenant-building-data.md)

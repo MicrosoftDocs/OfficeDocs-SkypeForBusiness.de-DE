@@ -1,7 +1,7 @@
 ---
-title: Telefon Nummernverwaltung für die Tschechische Republik
-author: SerdarSoysal
-ms.author: serdars
+title: Telefonnummernverwaltung für die Tschechische Republik
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,14 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in der Tschechischen Republik für Microsoft Teams.
-ms.openlocfilehash: c37e38ddf4f85c39255a9f30e25c70a67e311a38
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 94dafbbcc7969bf70c2b335438982795dc7fb09f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823470"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790220"
 ---
-# <a name="phone-number-management-for-the-czech-republic"></a>Telefon Nummernverwaltung für die Tschechische Republik
+# <a name="phone-number-management-for-the-czech-republic"></a>Telefonnummernverwaltung für die Tschechische Republik
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 

@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6118fe7f9ffe00eb9b8cb657d1a6ea3221311b
-ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
+ms.openlocfilehash: f7f0078be9f9077966fbba1a91fd569e1c4e11ec
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62963386"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789540"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installation der Moodle-Integration in Microsoft Teams
 
 > [!VIDEO https://www.youtube.com/embed/OHlPt22nKoE]
 
-[Moodle](https://moodle.org/), das beliebteste und Open-Source Learning Management System (LMS) der Welt, ist jetzt in Microsoft Teams integriert! Diese Integration hilft Lehrern und Lehrkräften bei der Zusammenarbeit an Moodle-Kursen, bei Fragen zu Noten und Aufgaben und bei der Aktualisierung der Benachrichtigungen – direkt in Microsoft Teams!
+[Moodle](https://moodle.org/), das beliebteste und Open-Source Learning Management System (LMS) der Welt, ist jetzt in Microsoft Teams integriert! Diese Integration hilft Lehrern und Schülern bei der Zusammenarbeit an Moodle-Kursen, stellt Fragen zu ihren Noten und Aufgaben und bleibt mit Benachrichtigungen auf dem Laufenden – direkt in Teams!
 
 Um IT-Administratoren bei der einfachen Einrichtung dieser Integration zu unterstützen, haben wir unser Open-Source-Moodle-Plug-In mit den folgenden Funktionen aktualisiert:
 
@@ -41,7 +41,7 @@ Um IT-Administratoren bei der einfachen Einrichtung dieser Integration zu unters
 * Automatische Installation der Moodle-Registerkarte und des Moodle Assistant-Bots in jedem synchronisierten Team. (Bald verfügbar)
 * Veröffentlichung der Moodle-App in Ihrem privaten Teams App Store mit einem Klick. (Bald verfügbar)
 
-Weitere Informationen zu den Funktionen, die diese Integration bietet, finden Sie unter [Installieren der Moodle-Integration mit Microsoft Teams](/microsoftteams/platform/resources/moodleinstructions).
+Weitere Informationen zu den Funktionen, die diese Integration bietet, finden [Sie unter Installieren der Moodle-Integration mit Microsoft Teams](/microsoftteams/platform/resources/moodleinstructions).
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -59,10 +59,10 @@ Die Moodle-Integration in Microsoft Teams wird vom Open-Source [Moodle-Plug-In-S
 
 1. Laden Sie zuerst das [Moodle-Plug-In-Set](https://moodle.org/plugins/pluginversions.php?plugin=local_o365) herunter und speichern Sie es auf Ihrem lokalen Computer. Sie müssen Version 3.5 oder höher verwenden.
     * Wenn Sie das Plug-In local_o365 installieren, werden auch die Plug-Ins [auth_oidc](https://moodle.org/plugins/auth_oidc) und [boost_o365Teams](https://moodle.org/plugins/pluginversions.php?plugin=theme_boost_o365teams) installiert.
-1. Melden Sie sich bei Ihrem Moodle-Server als Administrator an, und **wählen Sie im** linken Navigationsbereich Websiteverwaltung aus.
+1. Melden Sie sich als Administrator bei Ihrem Moodle-Server an, und wählen Sie im linken Navigationsbereich die **Option "Websiteverwaltung** " aus.
 1. Wählen Sie die Registerkarte **Plug-Ins** und klicken Sie dann auf **Plug-Ins installieren**.
 1. Klicken Sie unter dem Abschnitt **Plug-In aus ZIP-Datei installieren** auf die Schaltfläche **Datei auswählen**.
-1. Wählen Sie **Hochladen linken Navigationsbereich** die Option Datei auswählen aus, navigieren Sie zu der datei, die Sie oben heruntergeladen haben, und klicken **Sie Hochladen diese Datei.**
+1. Wählen Sie im linken Navigationsbereich die Option **"Datei hochladen** " aus, suchen Sie nach der Datei, die Sie oben heruntergeladen haben, und klicken Sie auf **"Diese Datei hochladen"**.
 1. Wählen Sie im linken Navigationsbereich die Option **Websiteverwaltung** erneut aus, um zu Ihrem Administrator-Dashboard zurückzukehren. Scrollen Sie nach unten zu **Lokale Plug-Ins** und klicken Sie auf den Link **Microsoft Office 365-Integration**. Lassen Sie diese Konfigurationsseite in einer separaten Browser-Registerkarte geöffnet, da Sie diese während des gesamten weiteren Verlaufs dieses Vorgangs verwenden werden.
 
 Weitere Informationen über die Installation von Moodle-Plug-Ins finden Sie in der [Moodle-Dokumentation](https://docs.moodle.org/34/en/Installing_plugins).
@@ -117,7 +117,7 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
     * Aktivieren Sie im Abschnitt **Benutzer mit Azure AD synchronisieren** die Kontrollkästchen, die für Ihre Umgebung gelten. In der Regel würden Sie mindestens Folgendes auswählen:
         * Erstellen von Konten in Moodle für Benutzer in Azure AD
         * Aktualisieren aller Konten in Moodle für Benutzer in Azure AD
-    * Im Abschnitt **Benutzererstellungseinschränkung** können Sie einen Filter einrichten, um die Anzahl Azure AD Benutzer zu beschränken, die mit Moodle synchronisiert werden.
+    * Im Abschnitt **"Einschränkung der Benutzererstellung** " können Sie einen Filter einrichten, um die Azure AD-Benutzer einzuschränken, die mit Moodle synchronisiert werden.
     * Im Abschnitt **Benutzer-Feldzuordnung** können Sie Azure AD auf die Benutzerprofil-Feldzuordnung von Moodle anpassen.
     * Im Abschnitt **Teams synchronisieren** können Sie festlegen, dass Gruppen (d. h. Teams) für einige oder alle der vorhandenen Moodle-Kurse automatisch erstellt werden.
 1. Um die CRON-Aufträge zu validieren (und sie manuell auszuführen, wenn Sie dies für den ersten Durchlauf wünschen), klicken Sie auf den Link **Verwaltungsseite für geplante Aufgaben** im Abschnitt **Benutzer mit Azure AD synchronisieren**. Dadurch gelangen Sie zur Seite **Geplante Aufgaben**.
@@ -127,7 +127,7 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
     * Um "OpenID Connect" zu aktivieren, klicken Sie auf den Link **Authentifizierung verwalten** und klicken Sie auf das Augensymbol in der Zeile **OpenId Connect**, wenn es abgeblendet ist.
     * Als nächstes müssen Sie die Frame-Einbettung aktivieren. Klicken Sie auf den Link **HTTP-Sicherheit** und dann auf das Kontrollkästchen neben **Frame-Einbettung zulassen**.
     * Der nächste Schritt besteht darin, Webdienste zu aktivieren, welche die Features der Moodle-API aktivieren. Klicken Sie auf den Link **Erweiterte Features**, und stellen Sie sicher, dass das Kontrollkästchen neben **Webdienste aktivieren** aktiviert ist.
-    * Schließlich müssen Sie die externen Dienste für den Microsoft 365 oder Office 365. Klicken Sie auf den Link **Externe Dienste**, und dann:
+    * Schließlich müssen Sie die externen Dienste für Microsoft 365 oder Office 365 aktivieren. Klicken Sie auf den Link **Externe Dienste**, und dann:
         * Klicken Sie auf **Bearbeiten** in der Zeile **Moodle Office 365-Webdienste**.
         * Aktivieren Sie das Kontrollkästchen neben **Aktiviert**, und klicken Sie dann auf **Änderungen speichern**
     * Als nächstes müssen Sie die Berechtigungen für authentifizierte Benutzer bearbeiten, damit Sie Webdienst-Token erstellen können. Klicken Sie auf den Link **Bearbeitungsrolle "Authentifizierter Benutzer"**. Scrollen Sie nach unten und suchen Sie die Funktion **Webdienst-Token erstellen** und aktivieren Sie das Kontrollkästchen **Zulassen**.
@@ -153,12 +153,12 @@ Um den Bot zu installieren, müssen Sie ihn zuerst auf der [Microsoft Identity P
 1. Klicken Sie auf den Link **Registrierungsportal für Microsoft-Anwendungen** und melden Sie sich mit Ihrer Microsoft-ID an.
 1. Geben Sie einen Namen für Ihre App ein (z. B. MoodleBot), und klicken Sie auf die Schaltfläche **Erstellen**.
 1. Kopieren Sie die **Anwendungs-ID**, und fügen Sie diese in das Feld **Bot-Anwendungs-ID** auf der Seite **Teams-Einstellungen** ein.
-1. Klicken Sie auf die Schaltfläche **Neues Kennwort generieren**. Kopieren Sie das generierte Kennwort, und fügen Sie es in **das Feld "Bot Application Password**" auf der **Teamseite Einstellungen** ein.
+1. Klicken Sie auf die Schaltfläche **Neues Kennwort generieren**. Kopieren Sie das generierte Kennwort, und fügen Sie es in das Feld " **Bot-Anwendungskennwort** " auf der Seite **"Teameinstellungen"** ein.
 1. Scrollen Sie zum Ende des Formulars, und klicken Sie auf **Änderungen speichern**.
 
 Nachdem Sie Ihre Anwendungs-ID und das Kennwort generiert haben, ist es an der Zeit, den Bot in Azure bereitzustellen. Klicken Sie auf die Schaltfläche **Auf Azure bereitstellen** und füllen Sie das Formular mit den notwendigen Informationen aus (die Bot-Anwendungs-ID, das Bot-Anwendungs-Kennwort und das Moodle Secret befinden sich auf der Seite **Teams-Einstellungen**, und die Azure-Informationen befinden sich auf der Seite **Setup**). Sobald Sie das Formular ausgefüllt haben, klicken Sie auf das Kontrollkästchen, um den Bedingungen zuzustimmen, und klicken Sie dann auf die Schaltfläche **Kaufen** (alle Azure-Ressourcen werden auf den Free-Tarif bereitgestellt).
 
-Nachdem die Bereitstellung der Ressourcen in Azure abgeschlossen ist, müssen Sie das Moodle-Plug-In mit seinem Nachrichtenendpunkt konfigurieren. Zuerst müssen Sie den Endpunkt aus Ihrem Bot in Azure abrufen. Gehen Sie dazu wie folgt vor:
+Nachdem die Ressourcen in Azure bereitgestellt wurden, müssen Sie das Moodle-Plug-In mit seinem Messaging-Endpunkt konfigurieren. Zuerst müssen Sie den Endpunkt aus Ihrem Bot in Azure abrufen. Gehen Sie dazu wie folgt vor:
 
 1. Wenn Sie noch nicht angemeldet sind, melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
 2. Wählen Sie im linken Bereich **Ressourcengruppen** aus.
@@ -179,7 +179,7 @@ Nachdem Sie Ihren Bot bei Azure bereitgestellt und so konfiguriert haben, dass e
 Bevor Sie die App installieren können, müssen Sie sicherstellen, dass externe Apps und das Querladen von Apps aktiviert ist. Dazu können Sie [diese Schritte](./admin-settings.md) ausführen. Nachdem Sie sichergestellt haben, dass externe Apps aktiviert sind, können Sie die folgenden Schritte ausführen, um die App bereitzustellen.
 
 1. Öffnen Sie Microsoft Teams.
-2. Klicken Sie **Store** Symbol "Schaltflächensymbol" unten links auf der Navigationsleiste.
+2. Klicken Sie auf das **Store-Symbol** unten links in der Navigationsleiste.
 3. Klicken Sie in der Liste der Optionen auf den Link **Benutzerdefinierte App hochladen**. *Hinweis:* Wenn Sie als globaler Administrator angemeldet sind, haben Sie die Möglichkeit, die App in den App-Store Ihrer Organisation hochzuladen. Andernfalls können Sie die App nur für Teams laden, zu denen Sie gehören ("Querladen").
 4. Wählen Sie das `manifest.zip`-Paket aus, das Sie zuvor heruntergeladen haben, und klicken Sie auf **Speichern**. Falls Sie das Manifest-Paket noch nicht heruntergeladen haben, können Sie dies über die Registerkarte **Teams-Einstellungen** der Konfigurationsseite des Plug-Ins in Moodle tun.
 
@@ -187,6 +187,6 @@ Nachdem Sie die App installiert haben, können Sie die Registerkarte zu jedem Ka
 
 Das ist alles. Jetzt können Sie und Ihr Team direkt von Microsoft Teams aus mit Ihren Moodle-Kursen arbeiten.
 
-Wenn Sie Wünsche zu Features oder Feedback an uns senden möchten, besuchen Sie bitte unser [Feedbackportal](https://feedbackportal.microsoft.com).
+Wenn Sie Featureanfragen oder Feedback mit uns teilen möchten, besuchen Sie bitte unser [Feedbackportal](https://feedbackportal.microsoft.com).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

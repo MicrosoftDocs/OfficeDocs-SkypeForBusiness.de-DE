@@ -1,7 +1,7 @@
 ---
 title: Daten und Berichte im Anrufqualitätsdashboard (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Daten und Berichte, die im Microsoft Call Quality Dashboard (CQD) verfügbar sind.
-ms.openlocfilehash: c30840ea4bf1de02572300044964211c5668056f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675007"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789810"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Daten und Berichte im Anrufqualitätsdashboard (CQD)
 
@@ -39,9 +39,9 @@ Sie können über verschiedene Möglichkeiten auf CQD-Daten zugreifen. Wählen S
 
 |&nbsp;|&nbsp;|
 |---|---|
-|Teams Admin Center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|CQD-Daten sind auf der Seite **"Benutzer**" im Teams Admin Center enthalten und zeigen die am häufigsten benötigten Daten in einem leicht lesbaren Format an. Sie können keine CQD-Daten anpassen, die Sie unter **"Benutzer**" finden.|
+|Teams Admin Center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|CQD-Daten sind auf der Seite **"Benutzer** " im Teams Admin Center enthalten und zeigen die am häufigsten benötigten Daten in einem leicht lesbaren Format an. Sie können keine CQD-Daten anpassen, die Sie unter **"Benutzer**" finden.|
 |CQD-Portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Robuste Zusammenfassung und detaillierte Berichte, die die meisten Anforderungen erfüllen, mit Drill-Through-Filterung. Sie können Berichte auch im CQD-Portal anpassen. <br><br>Rufen Sie zwei [CQD-Berichtsvorlagen](#import-the-cqd-report-templates) ab, mit denen Sie Daten im CQD-Portal analysieren können.|
-|Power BI|Verwenden Sie direkte Abfragen, um Ihre CQD-Daten in Power BI mit [anpassbaren Power BI Vorlagen](CQD-Power-BI-query-templates.md) anzuzeigen. [Laden Sie Power BI Abfragevorlagen für CQD herunter](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>Sie können [auch die REST-API verwenden, um über Power BI auf CQD-Daten zuzugreifen](/skypeforbusiness/management-tools/call-quality-dashboard/data-api). Verwenden Sie diese Methode, wenn Sie Ihre CQD-Daten herunterladen möchten, damit Sie offline daran arbeiten können. Der Vorteil dieser Methode ist eine bessere Leistung, insbesondere nützlich für große Datasets, die sich in Power BI befinden, wenn Sie online sind.|
+|Power BI|Verwenden Sie direkte Abfragen, um Ihre CQD-Daten in Power BI mithilfe [anpassbarer Power BI-Vorlagen](CQD-Power-BI-query-templates.md) anzuzeigen. [Laden Sie Power BI-Abfragevorlagen für CQD herunter](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>Sie können [auch die REST-API verwenden, um über Power BI auf CQD-Daten zuzugreifen](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) . Verwenden Sie diese Methode, wenn Sie Ihre CQD-Daten herunterladen möchten, damit Sie offline daran arbeiten können. Der Vorteil dieser Methode ist eine bessere Leistung, insbesondere nützlich für große Datasets, die in Power BI enthalten sind, wenn Sie online sind.|
 |Graph-API|Greifen Sie selbst mithilfe der [Graph-API](/graph/api/resources/callrecords-api-overview) auf Anrufqualitätsdaten zu. Dies ist die komplexeste Methode, bietet Ihnen aber die meiste Kontrolle und Flexibilität bei der Analyse Ihrer Anrufqualitätsdaten. Wenn Sie es beispielsweise mit anderen Daten für Ihre Organisation verknüpfen müssen, können Sie die Graph-API verwenden, um ein Datenmodell zu erstellen und Anrufqualitätsdaten zu integrieren.|
 
 ## <a name="import-the-cqd-report-templates"></a>Importieren der CQD-Berichtsvorlagen
@@ -73,7 +73,7 @@ Aus Compliancegründen werden Endbenutzerdaten (EUII) (auch als personenbezogene
 - Computerendpunktname
 - Ausführliches Feedback des Benutzers
 - Objekt-ID (die Active Directory-Objekt-ID des Benutzers des Endpunkts)
-- Telefon Nummer
+- Telefonnummer
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Admin Rollen mit und ohne EUII-Zugriff
 
@@ -115,7 +115,7 @@ Standardmäßig wird der aktuelle Tag des Monats als letzter Tag des Rolling Day
 
 Die Standardzusammenfassung und detaillierteN CQD-Berichte sind möglicherweise alles, was Sie zum Verwalten der Anrufqualität für Ihre Organisation benötigen. Bei Bedarf können Sie [benutzerdefinierte Berichte erstellen](#create-custom-detailed-reports).
 
-Wenn Sie ihre CQD-Daten mithilfe von Power BI analysieren möchten, lesen [Sie "Verwenden Power BI zum Analysieren von CQD-Daten für Teams](CQD-Power-BI-query-templates.md)".
+Wenn Sie Power BI verwenden möchten, um Ihre CQD-Daten zu analysieren, lesen [Sie "Verwenden von Power BI zum Analysieren von CQD-Daten für Teams](CQD-Power-BI-query-templates.md)".
 
 |Feature|Zusammenfassungsberichte|Detaillierte Berichte|
 |:---|:---|:---|
@@ -135,12 +135,12 @@ Wenn Sie ihre CQD-Daten mithilfe von Power BI analysieren möchten, lesen [Sie "
 
 ### <a name="select-product-data-to-see-in-reports"></a>Produktdaten auswählen, die in Berichten angezeigt werden sollen
 
-In der Zusammenfassung und Location-Enhanced Berichten können Sie die Dropdownliste "**Produktfilter**" verwenden, um alle Produktdaten, nur Microsoft Teams Daten oder nur Skype for Business Onlinedaten anzuzeigen.
+In den Zusammenfassungs- und Location-Enhanced Berichten können Sie die Dropdownliste "**Produktfilter**" verwenden, um alle Produktdaten, nur Microsoft Teams-Daten oder nur Skype for Business Onlinedaten anzuzeigen.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot: Zeigt die Produktfilter-Steuerelementoptionen.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
 
-In detaillierten Berichten können Sie die Dimension **"Ist Teams**" verwenden, um die Daten nach Microsoft Teams oder Skype for Business Onlinedaten zu filtern.
+In detaillierten Berichten können Sie die Is **Teams-Dimension** verwenden, um die Daten nach Microsoft Teams oder Skype for Business Online-Daten zu filtern.
 
 ## <a name="summary-reports"></a>Zusammenfassungsberichte
 
@@ -160,7 +160,7 @@ Verwenden Sie die Daten auf dieser Registerkarte, um den Status und die Trends d
 > [!div class="mx-imgBorder"]
 > ![Screenshot: Anzeigen der Registerkarte "Anrufqualität".](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
 
-Streams werden in drei Gruppen klassifiziert: "Gut", "Schlecht" und "Nicht klassifiziert". Es gibt auch  *berechnete Poor %*  -Werte, mit denen Sie das Verhältnis der als *"Schlecht"*  klassifizierten Datenströme zur Gesamtzahl der klassifizierten Datenströme erhalten. Da *Poor % = Poor streams/(Poor streams+ Good streams) \* 100*, the *Poor %* is unaffected by the presence of multiple *Unclassified*  streams. Informationen dazu, was einen Datenstrom als "schlecht" oder "gut" klassifiziert, finden Sie [unter "Datenstromklassifizierung" im Anrufqualitätsdashboard](stream-classification-in-call-quality-dashboard.md).
+Datenströme werden in drei Gruppen klassifiziert: "Gut", "Schlecht" und "Nicht klassifiziert". Es gibt auch  *berechnete Poor %*  -Werte, mit denen Sie das Verhältnis der als *"Schlecht"*  klassifizierten Datenströme zur Gesamtzahl der klassifizierten Datenströme erhalten. Da *Poor % = Poor streams/(Poor streams+ Good streams) \* 100*, the *Poor %* is unaffected by the presence of multiple *Unclassified*  streams. Informationen dazu, was einen Datenstrom als "schlecht" oder "gut" klassifiziert, finden Sie [unter "Datenstromklassifizierung" im Anrufqualitätsdashboard](stream-classification-in-call-quality-dashboard.md).
 
 Verwenden Sie die Skala auf der linken Seite, um die Datenstromanzahlwerte zu messen.
 
@@ -214,13 +214,13 @@ Wie die Namen angeben, basieren die Klassifizierungskriterien auf dem Typ der Cl
 
 ## <a name="tenant-data-information"></a>Mandantendateninformationen
 
-Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite **mit Mandantendaten Hochladen**, auf die sie zugreifen können, indem Sie im Menü "Einstellungen" in der oberen rechten Ecke Hochladen "**Mandantendaten**" auswählen. Diese Seite wird für Administratoren verwendet, um ihre eigenen Informationen hochzuladen, z. B.:
+Das Dashboard "CQD-Zusammenfassungsberichte" enthält eine Seite zum **Hochladen von Mandantendaten** , auf die zugegriffen wird, indem Sie im Einstellungsmenü in der oberen rechten Ecke die Option " **Mandantendatenupload** " auswählen. Diese Seite wird für Administratoren verwendet, um ihre eigenen Informationen hochzuladen, z. B.:
 
 - Eine Karte mit IP-Adresse und geografischen Informationen.
 - Eine Karte der einzelnen drahtlosen AP und ihrer MAC-Adresse.
 - Eine Zuordnung von Endpunkt zu Endpunkt make/Model/Type usw.
 
-Es wird empfohlen, Mandanten-, Gebäude- und Standortdaten hochzuladen, damit CQD diese Informationen in Ihre Berichte aufnehmen kann. Wenn Sie diese Daten noch nicht hochgeladen haben, lesen Sie [Hochladen Mandanten- und Gebäudedaten](CQD-upload-tenant-building-data.md).
+Es wird empfohlen, Mandanten-, Gebäude- und Standortdaten hochzuladen, damit CQD diese Informationen in Ihre Berichte aufnehmen kann. Wenn Sie diese Daten noch nicht hochgeladen haben, lesen [Sie "Mandanten- und Gebäudedaten hochladen"](CQD-upload-tenant-building-data.md).
 
 ## <a name="detailed-reports"></a>Detaillierte Berichte
 
@@ -238,7 +238,7 @@ Es wird empfohlen, Mandanten-, Gebäude- und Standortdaten hochzuladen, damit CQ
 
 ## <a name="create-custom-detailed-reports"></a>Erstellen von benutzerdefinierten detaillierten Berichten
 
-Wenn die Standard-CQD-Berichte Ihren Anforderungen nicht entsprechen, verwenden Sie diese Anweisungen, um einen benutzerdefinierten Bericht zu erstellen. Oder verwenden Sie (stand Januar 2020) [stattdessen Power BI für CQD-Berichte](cqd-power-bi-query-templates.md).
+Wenn die Standard-CQD-Berichte Ihren Anforderungen nicht entsprechen, verwenden Sie diese Anweisungen, um einen benutzerdefinierten Bericht zu erstellen. Oder (ab Januar 2020) [verwenden Sie stattdessen Power BI für CQD-Berichte ](cqd-power-bi-query-templates.md).
 
 Wählen Sie in der Dropdownliste der Berichte am oberen Rand des Bildschirms, der bei der Anmeldung \(angezeigt wird, den Bildschirm "**Zusammenfassungsberichte**\)" aus, wählen Sie **"Detaillierte Berichte**" und dann "**Neu**" aus. Klicken Sie in einem Bericht auf **"Bearbeiten**", um die Abfrage-Editor anzuzeigen. Jeder Bericht basiert auf einer Abfrage im Cube. Ein Bericht ist die visuelle Darstellung der Daten, die von der jeweiligen Abfrage zurückgegeben werden. Die Abfrage-Editor hilft Ihnen beim Bearbeiten dieser Abfragen und der Anzeigeoptionen des Berichts.
 
@@ -373,14 +373,14 @@ Sie können Ihre Mandanten-ID auch mithilfe von PowerShell finden:
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Vergleich von Teams- und Skype for Business CQD-Daten
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Vergleich von Teams- und Skype for Business-CQD-Daten
 
 Beim Überprüfen Ihrer Daten werden möglicherweise Unterschiede in den Daten zwischen Teams und Skype for Business angezeigt. Einige Gründe:
 
 - Unterschiede bei den Mechanismen zur Gewährleistung von Leistung und Zuverlässigkeit:
-  - Teams verfügt über eine automatische Wiederherstellung und schnelles Roaming. Skype for Business nicht.
+  - Teams verfügt über automatische Wiederherstellung und schnelles Roaming. Skype for Business nicht.
   - Teams verfügt über eine dynamische Bandbreitenverwaltung. Skype for Business nicht.
-- Unterschiede in [IP-Adressbereichen](Office-365-URLs-IP-address-ranges.md) zwischen Teams und Skype for Business. Die Teams IP-Bereiche sind neuer, was zu Verbindungsproblemen in der Firewall führen kann.
+- Unterschiede in [IP-Adressbereichen](Office-365-URLs-IP-address-ranges.md) zwischen Teams und Skype for Business. Die IP-Bereiche von Teams sind neuer, was zu Verbindungsproblemen in der Firewall führen kann.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

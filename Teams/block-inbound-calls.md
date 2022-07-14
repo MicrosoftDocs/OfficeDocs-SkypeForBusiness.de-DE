@@ -1,7 +1,7 @@
 ---
 title: Eingehende Anrufe in Microsoft Teams blockieren
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Erfahren Sie, wie Sie die Blockierung eingehender Anrufe mithilfe von PowerShell verwalten.
-ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674387"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789600"
 ---
 # <a name="block-inbound-calls"></a>Blockieren eingehender Anrufe
 
 Microsoft-Anrufpläne, Direct Routing und Telefonieanbieter unterstützen alle das Blockieren eingehender Anrufe aus dem öffentlichen Telefonnetz (PSTN). Mit dieser Funktion kann ein Administrator eine Liste von Nummernmustern auf globaler Ebene des Mandanten definieren, sodass die Anrufer-ID jedes eingehenden PSTN-Anrufs an den Mandanten mit der Liste auf Übereinstimmung geprüft werden kann. Wenn eine Übereinstimmung erfolgt, wird ein eingehender Anruf abgelehnt.
 
-Diese Funktion zum Blockieren eingehender Anrufe funktioniert nur bei eingehenden Anrufen, die aus dem PSTN stammen, und funktioniert nur auf globaler Mandantenebene. Einzelne Teams Benutzer können diese Liste nicht bearbeiten. Der Teams-Client ermöglicht es einzelnen Benutzern, PSTN-Anrufe zu blockieren. Informationen dazu, wie Ihre Endbenutzer die Anrufblockierung implementieren können, finden Sie unter [Anrufeinstellungen in Teams verwalten](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Diese Funktion zum Blockieren eingehender Anrufe funktioniert nur bei eingehenden Anrufen, die aus dem PSTN stammen, und funktioniert nur auf globaler Mandantenebene. Einzelne Teams-Benutzer können diese Liste nicht bearbeiten. Der Teams-Client ermöglicht es einzelnen Benutzern, PSTN-Anrufe zu blockieren. Informationen dazu, wie Ihre Endbenutzer die Anrufblockierung implementieren können, finden Sie unter [Anrufeinstellungen in Teams verwalten](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 > [!NOTE]
 > Blockierte Anrufer können geringfügig unterschiedliche Verhaltensweisen aufweisen, nachdem sie blockiert wurden. Das Verhalten basiert darauf, wie der Netzbetreiber des blockierten Anrufers die Benachrichtigung verarbeitet, dass der Anruf nicht erfolgreich abgeschlossen werden darf. Beispiele für Netzbetreibernachrichten können besagen, dass der Anruf nicht über die gewählte Nummer abgeschlossen werden kann, oder der Anruf wird einfach beendet.

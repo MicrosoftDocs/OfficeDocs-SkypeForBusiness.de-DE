@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b76e7c5e79b3928c7fb19ad9c5f5fb8f241b29a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f9ae7d59a97989d7f0677bf56b46c0a3d51f3e49
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674737"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789330"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -32,7 +32,7 @@ Nachdem Sie [Ihre Cloud Video Interop-Partner ausgewählt](cloud-video-interop.m
 
 ## <a name="plan"></a>Plan
 
-Unter [Cloud Video Interop finden Sie Microsoft Teams](cloud-video-interop.md), um Informationen zum Identifizieren eines partners oder eines Partners zu finden, der in Ihrer Organisation verwendet werden soll.
+Unter [Cloud Video Interop für Microsoft Teams](cloud-video-interop.md) finden Sie Informationen zum Identifizieren eines Partners oder eines Partners, der bzw. die in Ihrer Organisation verwendet werden soll.
 
 So planen Sie die benutzerbasierte/gleichzeitige/standortweite Aktivierung:
 
@@ -78,7 +78,7 @@ Sie müssen die folgenden Cmdlets ausführen, um den Mandantenschlüssel bereitz
 
 Sie müssen die Zustimmung für die Videotelekonferenzgeräte (Video Teleconferencing Devices, VTCs) erteilen, um über den Partnerdienst an Besprechungen Ihrer Organisation teilzunehmen. Dieser Einwilligungslink wird auch von Ihrem Partner bereitgestellt.
 
-Wenn diese Schritte abgeschlossen sind, verfügen die Benutzer, die über das oben genannte Cmdlet "Gewähren" einzeln aktiviert sind, oder alle Benutzer in der Organisation, wenn der Mandant aktiviert ist, über VTC-Koordinaten in allen Teams Besprechungen, die sie planen. Jeder VTC kann über diese Koordinaten an diesen Besprechungen teilnehmen.
+Wenn diese Schritte abgeschlossen sind, verfügen die Benutzer, die über das oben genannte Cmdlet "Gewähren" einzeln aktiviert sind, oder alle Benutzer in der Organisation, wenn der Mandant aktiviert ist, über VTC-Koordinaten in allen teams-Besprechungen, die sie planen. Jeder VTC kann über diese Koordinaten an diesen Besprechungen teilnehmen.
 
 |Name|Kurzbeschreibung der Anwendungsberechtigung| Beschreibung|
 |---|---|---|
@@ -89,21 +89,21 @@ Wenn diese Schritte abgeschlossen sind, verfügen die Benutzer, die über das ob
 
 ## <a name="schedule"></a>Zeitplan
 
-Planen Sie als Nächstes Teams Besprechung mit Video-Interoperabilitätskoordinaten. Der aktivierte Benutzer kann Teams-Besprechungen planen über:
+Planen Sie als Nächstes die Teams-Besprechung mit Video-Interoperabilitätskoordinaten. Der aktivierte Benutzer kann Teams-Besprechungen planen über:
 
-- [Teams Besprechungs-Add-In für Outlook](teams-add-in-for-outlook.md)
-- Teams clientdesktop und mobil
+- [Teams-Besprechungs-Add-In für Outlook](teams-add-in-for-outlook.md)
+- Teams-Clientdesktop und mobil
 
 ## <a name="join"></a>Join
 
-Sie können auf folgende Weise an Teams Besprechungen mit Ihren VTC-Geräten teilnehmen:
+Sie können auf folgende Weise an Teams-Besprechungen mit Ihren VTC-Geräten teilnehmen:
 
 - IVR (Interaktive Sprachantwort)
   - Sie können sich mithilfe der tenantkey@domain beim IVR des Partners einwählen.
-  - Sobald Sie sich im Partner-IVR befinden, werden Sie aufgefordert, die VTC conferenceId einzugeben, die Sie dann mit der Teams Besprechung verbindet.
+  - Sobald Sie sich im Partner-IVR befinden, werden Sie aufgefordert, die VTC conferenceId einzugeben, die Sie dann mit der Teams-Besprechung verbindet.
 - Direktwahl
-  - Sie können sich direkt in die Teams Besprechung einwählen, ohne mit dem IVR des Partners zu interagieren, indem Sie die Direktwahlfunktion mithilfe der vollständigen Mandantenschlüsselzeichenfolge verwenden. VTC-ConferenceId@domain.
+  - Sie können sich direkt in die Teams-Besprechung einwählen, ohne mit dem IVR des Partners zu interagieren, indem Sie die Direktwahlfunktion mithilfe der vollständigen Zeichenfolge des Mandantenschlüssels verwenden. VTC-ConferenceId@domain.
 - 1-Touch-Wählhilfe
-  - Wenn Sie über einen integrierten Teams Raum verfügen, können Sie die 1-Finger-Wählfunktionen Ihres Partners verwenden (ohne eine Wählzeichenfolge eingeben zu müssen).
+  - Wenn Sie über einen integrierten Teams-Raum verfügen, können Sie die 1-Finger-Wählfunktionen Ihres Partners verwenden (ohne eine Wählzeichenfolge eingeben zu müssen).
 
-Wenden Sie sich schließlich mit Teams Benutzern in Ihren Besprechungen über Audio-, Video- und Inhaltsfreigaben an.
+Wenden Sie sich schließlich mit Teams-Benutzern an Ihren Besprechungen mithilfe von Audio, Video und Inhaltsfreigabe an.

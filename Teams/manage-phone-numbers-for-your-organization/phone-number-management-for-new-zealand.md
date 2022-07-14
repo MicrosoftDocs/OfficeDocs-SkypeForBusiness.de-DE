@@ -1,7 +1,7 @@
 ---
-title: Telefon Nummernverwaltung für Neuseeland
-author: SerdarSoysal
-ms.author: serdars
+title: Telefonnummernverwaltung für Neuseeland
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,14 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Neuseeland für Microsoft Teams.
-ms.openlocfilehash: d1508eebf4e81c61738bfa60b0b28d97720e9efb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: e359fa8fe26324cf2ba607b638e3e379549b471c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124200"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789170"
 ---
-# <a name="phone-number-management-for-new-zealand"></a>Telefon Nummernverwaltung für Neuseeland
+# <a name="phone-number-management-for-new-zealand"></a>Telefonnummernverwaltung für Neuseeland
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 

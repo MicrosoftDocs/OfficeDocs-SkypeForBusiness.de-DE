@@ -1,7 +1,7 @@
 ---
 title: Dimensionen und Messungen – Anrufqualitäts-Dashboard (CQD)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Erhalten Sie detaillierte Informationen zu den Abmessungen und Messungen, die vom Anrufqualitätsdashboard (Call Quality Dashboard, CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: d206a4249a086914bb9bf1cf168c03dd1544eb3c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682534"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790260"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Dimensionen und Messungen
 

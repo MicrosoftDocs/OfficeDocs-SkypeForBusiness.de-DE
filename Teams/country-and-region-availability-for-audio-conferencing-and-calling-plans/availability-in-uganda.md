@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Uganda
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Uganda.
-ms.openlocfilehash: b7c9dc0f5d785fc5e301682926784b88d0daeb09
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Uganda verfügbar.
+ms.openlocfilehash: 4e08fc79479db944188acf9e7516a5b999aa65e6
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389709"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789970"
 ---
 # <a name="availability-in-uganda"></a>Verfügbarkeit in Uganda
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Uganda.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Uganda verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja. Nur Minutenzahl.  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja. Nur Pay-per-Minute.  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Nein |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Guthaben für Kommunikationen <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Kommunikationsguthaben <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
@@ -62,17 +62,17 @@ Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn Anrufpläne nicht erhältlich sind, finden Sie unter [PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) alle verfügbaren Optionen.
+Wenn Anrufpläne nicht zum Kauf verfügbar sind, finden Sie unter ["PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) " alle verfügbaren Optionen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht ortsgebefreit. Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht geografisch. Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nicht geografisch ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für Skype for Business [und Microsoft Teams](../getting-service-phone-numbers.md).
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen erhalten möchten, lesen Sie "[Abrufen von Servicetelefonnummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)".
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

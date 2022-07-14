@@ -1,7 +1,7 @@
 ---
 title: Lenkungsausschuss für cloudbasierte VoIP-Bereitstellung
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0aee75ce49734dad37d4e75b77c224fa82301f0b
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 46fc7550e5ee1e29b603d4124ffc5d6fe9b45951
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674677"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789550"
 ---
 # <a name="steering-committee"></a>Lenkungsausschuss
 
@@ -71,11 +71,11 @@ Jeder Steuerungsausschuss braucht eine starke Führung und klar definierte Rolle
 | Befürworter aus der Führungsebene | Plädieren Sie für das Projekt, stellen Sie sicher, dass seine Richtung mit der Vision der Organisation in Einklang bleibt. Dient als ultimative Autorität, um Entscheidungen zu treffen, auf die sich das Komitee nicht einigen kann. | | |
 | Entscheidungsträger für Unternehmen | Plädieren Sie für das Projekt, stellen Sie sicher, dass seine Richtung mit der Vision der Organisation in Einklang bleibt | | |
 | Architekt | Stellen Sie sicher, dass Technologieentscheidungen erreichbar sind und sich an den vereinbarten Geschäftsergebnissen orientieren. | | |
-| Core Project Team | Bereitstellen von Details zu bestimmten Komponenten, entweder technisch oder nicht technisch (z. B. Einführung und Änderungsmanagement) | | |
+| Kernprojektteam | Bereitstellen von Details zu bestimmten Komponenten, entweder technisch oder nicht technisch (z. B. Einführung und Änderungsmanagement) | | |
 | Qualitätspionier | Seien Sie für die Zusammenstellung von Qualitätsmetriken verantwortlich. | | |
-| Programm-/Project-Manager | Übernehmen Sie die Verantwortung für die Präsentation und Sammlung von Feedback, um sie in das Projekt zu integrieren. | | |
+| Programm-/Projektmanager | Übernehmen Sie die Verantwortung für die Präsentation und Sammlung von Feedback, um sie in das Projekt zu integrieren. | | |
 | Partnerkontoteam | Geben Sie Feedback aus der Sicht des Partners aus einer breiteren Perspektive, anderen Partneraktivitäten. | | |
-| Partner Project Team | Geben Sie Feedback aus der Sicht des Partners zur Projektbereitstellung. | | |
+| Partnerprojektteam | Geben Sie Feedback aus der Sicht des Partners zur Projektbereitstellung. | | |
 
 ## <a name="schedule-steering-committee-meetings"></a>Planen von Lenkungsausschusssitzungen 
 
@@ -88,7 +88,7 @@ Berücksichtigen Sie bei der Planung einer Komiteesitzung das Projekt und den Or
 
 ### <a name="prepare-for-the-meeting"></a>Vorbereiten der Besprechung
 
-Um die Zeit jeder Person optimal nutzen zu können, müssen Sie sich auf die Besprechung vorbereiten. Das Kernteam kann mit der Vorbereitung des Materials für die Lenkungsausschusssitzung beginnen. Sie können eine PowerPoint Präsentation erstellen, um die Vorbereitung auf die Besprechung zu erleichtern.
+Um die Zeit jeder Person optimal nutzen zu können, müssen Sie sich auf die Besprechung vorbereiten. Das Kernteam kann mit der Vorbereitung des Materials für die Lenkungsausschusssitzung beginnen. Sie können eine PowerPoint-Präsentation erstellen, um die Vorbereitung auf die Besprechung zu erleichtern.
 
 Die folgenden Ressourcen sollten abgeschlossen und in die Präsentationsgruppe für die Besprechung aufgenommen werden:
 
@@ -128,7 +128,7 @@ Die folgenden Ressourcen sollten abgeschlossen und in die Präsentationsgruppe f
 
         -   Ermitteln Sie die nächsten Schritte und welche Unterstützung möglicherweise von den Mitgliedern des Ausschusses benötigt wird.
 
--   Qualitätsübersicht: Verwenden Sie die Anleitungen von ["Vorbereiten Ihres Netzwerks für Teams](prepare-network.md)".
+-   Qualitätsübersicht: Verwenden Sie die Anleitungen von ["Vorbereiten Ihres Netzwerks für Teams"](prepare-network.md).
 
     -   Seien Sie bereit, die Ergebnisse dieser Qualitätsberichte ausführlich zu erläutern und Empfehlungen zur Behebung der festgestellten Probleme aufzunehmen.
 

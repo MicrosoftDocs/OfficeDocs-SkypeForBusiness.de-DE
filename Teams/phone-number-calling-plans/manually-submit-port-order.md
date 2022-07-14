@@ -1,7 +1,7 @@
 ---
 title: Manuelles Übermitteln eines Portierungsauftrags
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -17,33 +17,33 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Hier erfahren Sie, wie Sie eine Anforderung für einen Portierungsantrag manuell übermitteln.
-ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Erfahren Sie, wie Sie eine Portierauftragsanforderung manuell übermitteln.
+ms.openlocfilehash: f8a1276ce35cea38cbe2fbb080bd6c6c6312f64c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733496"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789380"
 ---
 # <a name="manually-submit-a-port-order"></a>Manuelles Übermitteln eines Portierungsauftrags
 
-In einigen Ländern und Regionen müssen Sie möglicherweise eine Serviceanfrage manuell übermitteln, um Telefonnummern zu erhalten, Telefonnummern zu übertragen, Telefonnummern frei geben oder Adressen zu ändern. Wenn Sie wissen möchten, was für jedes Land bzw. jede Region erforderlich ist, oder um mehr über die Nummernportierung zu erfahren, lesen Sie Verwalten von Telefonnummern [für Ihre Organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+In einigen Ländern und Regionen müssen Sie möglicherweise manuell eine Serviceanfrage übermitteln, um Telefonnummern zu erhalten, Telefonnummern zu übertragen, Telefonnummern freizugeben oder Adressen zu ändern. Weitere Informationen zum Portieren von Telefonnummern finden Sie unter ["Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)", um zu sehen, was für jedes Land und jede Region erforderlich ist.
 
-Verwenden Sie die Schritte in diesem Artikel, um einen Portierungsauftrag manuell zu übermitteln, wenn Ihr Land oder Ihre Region im Portierungs-Assistenten im Microsoft nicht [aufgeführt ist. ](transfer-phone-numbers-to-teams.md)
+Führen Sie die Schritte in diesem Artikel aus, um manuell einen Portierungsantrag zu übermitteln, wenn Ihr Land oder Ihre Region nicht im [Portierungs-Assistenten von Microsoft ](transfer-phone-numbers-to-teams.md)aufgeführt ist.
 
-## <a name="manually-submit-a-new-port-order-request"></a>Manuelles Übermitteln einer neuen Anforderung für einen Portierungsantrag
+## <a name="manually-submit-a-new-port-order-request"></a>Manuelles Übermitteln einer neuen Portierauftragsanforderung
 
-Wenn Sie einen neuen Portierungsauftrag manuell übermitteln möchten, senden Sie das ausgefüllte Genehmigungsschreiben direkt an den TNS Service Desk für Ihre Region.
+Um manuell einen neuen Portierungsauftrag zu übermitteln, senden Sie Ihr ausgefülltes LoA-Formular (Letter of Authorization) direkt an den TNS Service Desk für Ihre Region.
 
-1. Laden Sie [den LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) für Ihr Land bzw. Ihre Region herunter.
+1. Laden Sie die [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) für Ihr Land oder Ihre Region herunter.
 2. Füllen Sie das Formular aus.
 3. Senden Sie sie an den [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) für Ihre Region.
 
-## <a name="what-else-should-you-know-about-number-porting"></a>Was sie sonst noch über die Nummernportierung wissen sollten
+## <a name="what-else-should-you-know-about-number-porting"></a>Was sollten Sie sonst noch über die Nummernportierung wissen?
 
-- Um Anrufpläne verwenden zu können, müssen Sie Lizenzen erwerben und Ihren Benutzern zuweisen. Weitere Informationen [Teams Finden Sie unter Lizenzierung von Add-Ons.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- Um Anrufpläne verwenden zu können, müssen Sie Lizenzen erwerben und Ihren Benutzern zuweisen. Siehe [Microsoft Teams-Add-On-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- Sie müssen jedem Ihrer Benutzer die neuen Telefonnummern zuweisen. Weitere Informationen hierzu finden Sie unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
+- Sie müssen den einzelnen Benutzern die neuen Telefonnummern zuweisen. Weitere Informationen hierzu finden Sie unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

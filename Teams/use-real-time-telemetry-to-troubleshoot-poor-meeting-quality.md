@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie Telemetrie in Echtzeit mit Details zu Geräten, Netzwerken und Konnektivität, um Benutzerprobleme mit geplanten Microsoft Teams-Besprechungen zu beheben.
-ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
-ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
+ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66716801"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789620"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität
 
@@ -155,7 +155,7 @@ Benutzersignale erkennen, wann ein Benutzer aktiv am Anruf teilnimmt, nicht spri
 - Wenn externe Teilnehmer oder anonyme Benutzer an einer Besprechung teilnehmen, wird ihr Anzeigename als **nicht verfügbar** angezeigt, um mandantenübergreifenden Datenschutz beizubehalten.
 
 > [!NOTE]
-> Im Rahmen einer zeitlich begrenzten öffentlichen Vorschau sind Telemetriedaten in Echtzeit derzeit **7 Tage** nach Beendigung einer Besprechung verfügbar. Die oben genannten Grenzwerte gelten nach Abschluss der öffentlichen Vorschau.
+> Im Rahmen einer zeitlich begrenzten öffentlichen Vorschau sind Telemetriedaten in Echtzeit derzeit **7 Tage** nach Beendigung einer Besprechung verfügbar. Nach Ablauf der Vorschau stehen nur Mandanten mit Advanced Communications-Add-On-Lizenzierung Telemetrie für den erweiterten Zeitraum von 7 Tagen zur Verfügung. Alle anderen Mandanten unterliegen den oben genannten Grenzwerten.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -1,7 +1,7 @@
 ---
 title: Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) – Häufig gestellte Fragen (FAQ)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten zu Microsoft Teams Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD).
-ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten zum Microsoft Teams Call Quality Dashboard (CQD).
+ms.openlocfilehash: 862967138321b1855f2fdc5b0c8b6ce6caca887f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823204"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789390"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) – Häufig gestellte Fragen (FAQ)
 
@@ -46,7 +46,7 @@ ms.locfileid: "65823204"
 
 [Warum werden Wi-Fi VPN-Verbindungen anstelle von WLAN als verkabelt angezeigt?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[Ich habe die richtlinienbasierte Aufzeichnung in Teams aktiviert, und jetzt werden Peer-to-Peer-Anrufe als Konferenzen markiert – was ist passiert?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[Ich habe die richtlinienbasierte Aufzeichnung in Teams aktiviert, und jetzt werden Peer-to-Peer-Anrufe als Konferenzen gekennzeichnet – was ist passiert?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Warum kennzeichnet CQD einen Anruf als "Gut", wenn ein oder mehrere Besprechungsteilnehmer eine schlechte Erfahrung hatten?
 
@@ -83,20 +83,20 @@ Um die Anzahl der Aufrufe und die Anzahl der Benutzer zu berechnen, wird ein ein
 
 Diese Administratorrollen können auf CQD zugreifen, aber sie können EUII (Endbenutzer-identifizierbare Informationen) nicht anzeigen:
 
-- Microsoft 365 Berichtsleser
+- Microsoft 365 Reports Reader
 - Supportfachmann für die Teams-Kommunikation
 
 Weitere Informationen zu Rollen, die auf CQD zugreifen können , einschließlich EUII, finden Sie unter [Zuweisen von Rollen für den Zugriff auf CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>Ich versuche, CQD für Nutzungstypberichte zu verwenden, und finde, dass einige der Daten unvollständig sind - warum ist das so?
 
-Anrufqualitätsverwaltungstools wie CQD, Anrufanalyse, Anrufdatensatz-Graph-API und Echtzeitanalyse basieren auf Diagnosetelemetrie. Die Informationen, die wir in Teams Anrufqualitätsverwaltungstools anzeigen, sind nur so vollständig wie die Telemetriedaten, die wir von Kunden erhalten, die an einem Anruf teilnehmen. Es gibt mehrere Gründe, warum wir möglicherweise keine vollständige Telemetrie erhalten, z. B. Netzwerkausfälle oder [Firewall- oder Proxy-Fehlkonfigurationen](/microsoft-365/enterprise/urls-and-ip-address-ranges). Wir arbeiten weiterhin daran, die Zuverlässigkeit und Resilienz zu verbessern, mit der Teams Clients Telemetrie für den Dienst bereitstellen.
+Anrufqualitätsverwaltungstools wie CQD, Anrufanalyse, Anrufdatensatz-Graph-API und Echtzeitanalyse basieren auf Diagnosetelemetrie. Die Informationen, die wir in den Teams-Tools für das Anrufqualitätsmanagement anzeigen, sind nur so vollständig wie die Telemetriedaten, die wir von Clients erhalten, die an einem Anruf teilnehmen. Es gibt mehrere Gründe, warum wir möglicherweise keine vollständige Telemetrie erhalten, z. B. Netzwerkausfälle oder [Firewall- oder Proxy-Fehlkonfigurationen](/microsoft-365/enterprise/urls-and-ip-address-ranges). Wir arbeiten weiterhin daran, die Zuverlässigkeit und Resilienz zu verbessern, mit der Teams-Clients Telemetrie für den Dienst bereitstellen.
 
-In diesem Sinne unterstützen wir nicht die Verwendung von Tools für das Anrufqualitätsmanagement für die Nutzungsberichterstattung. Sie sind weder für diese Arten von Berichtsszenarien konzipiert noch für diese vorgesehen, und viele Nutzungsstatistiken sind und werden in diesen Tools nicht verfügbar sein. Teams Admin Center bietet eine Reihe von [Nutzungsberichten](teams-analytics-and-reports/teams-reporting-reference.md), und ein [Anwesenheitsbericht über Besprechungen](teams-analytics-and-reports/meeting-attendance-report.md) ist direkt vom Teams-Client verfügbar.
+In diesem Sinne unterstützen wir nicht die Verwendung von Tools für das Anrufqualitätsmanagement für die Nutzungsberichterstattung. Sie sind weder für diese Arten von Berichtsszenarien konzipiert noch für diese vorgesehen, und viele Nutzungsstatistiken sind und werden in diesen Tools nicht verfügbar sein. Teams Admin Center bietet eine Reihe von [Nutzungsberichten](teams-analytics-and-reports/teams-reporting-reference.md), und ein [Besprechungsbesuchsbericht](teams-analytics-and-reports/meeting-attendance-report.md) ist direkt über den Teams-Client verfügbar.
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Warum werden Skype for Business Informationen in CQD angezeigt, wenn ich nur nach Teams gefiltert habe?
 
-Wenn Sie nur in CQD-Berichten nach Teams filtern (isTeams = 1), filtern Sie nach allen Aufrufen, bei denen der *erste Endpunkt* Teams ist. Wenn der *zweite Endpunkt* Skype for Business ist, werden diese Informationen in Ihrem CQD-Bericht angezeigt. Abhängig von den Szenarien der Kunden kann das CQD Skype for Business Server 2019-Anrufe enthalten, wenn [der Anrufdatenconnector](/skypeforbusiness/hybrid/plan-call-data-connector) konfiguriert ist. Es kann auch Skype Bot-Anrufe (AA, CVI, VDI), Live-Ereignisse und PSTN-Anrufe enthalten.
+Wenn Sie nur in CQD-Berichten nach Teams filtern (isTeams = 1), filtern Sie nach allen Anrufen, bei denen der *erste Endpunkt* Teams ist. Wenn der *zweite Endpunkt* Skype for Business ist, werden diese Informationen in Ihrem CQD-Bericht angezeigt. Abhängig von den Szenarien der Kunden kann das CQD Skype for Business Server 2019-Anrufe enthalten, wenn [der Anrufdatenconnector](/skypeforbusiness/hybrid/plan-call-data-connector) konfiguriert ist. Dazu können auch Skype Bot-Anrufe (AA, CVI, VDI), Liveereignisse und PSTN-Anrufe gehören.
 
 Es ist möglich, Skype for Business Informationen aus Ihren Abfragen zu entfernen, indem Sie nach Dimensionen wie der *Kategorie "First User Agent"* und *"Second User Agent Category"* filtern. Sie können auch das *Benutzer-Agent-Kategoriepaar* verwenden, das die erste und zweite Dimension in einem einzigen Filter kombiniert.
 
@@ -108,9 +108,9 @@ CQD ist für zusammengefasste Datenabfragen konzipiert und nicht für den Datene
 
 Dieses Verhalten wird erwartet. Der VPN-Anbieter hat einen virtuellen Ethernet-Adapter erstellt, der wie eine kabelgebundene Verbindung behandelt wird. Da die Bezeichnung nicht ordnungsgemäß ist, weiß das Betriebssystem nicht, dass es sich um eine Wi-Fi-Verbindung ist, und meldet sie als verkabelt.
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Ich habe die richtlinienbasierte Aufzeichnung in Teams aktiviert, und jetzt werden Peer-to-Peer-Anrufe als Konferenzen markiert – was ist passiert?
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Ich habe die richtlinienbasierte Aufzeichnung in Teams aktiviert, und jetzt werden Peer-to-Peer-Anrufe als Konferenzen gekennzeichnet – was ist passiert?
 
-Dieses Verhalten wird erwartet, wenn die richtlinienbasierte Aufzeichnung in Microsoft Teams aktiviert ist. Die richtlinienbasierte Aufzeichnung verwendet einen in Microsoft Azure bereitgestellten Teams Recorder Bot, um Besprechungsinhalte zu Compliancezwecken zu erfassen. Im Anrufqualitätsmanagement ist "Peer-to-Peer" eine Beschreibung des Mediendatenverkehrsflusses und nicht der Interaktion zwischen den Benutzern. Da ein Recorder Bot selbst eine Partei des Anrufs ist, ist der Anruf nicht mehr Peer-to-Peer, sondern ein Anruf mit mehreren Teilnehmern. Anrufe mit mehreren Teilnehmern werden von Microsoft Teams als Konferenzen klassifiziert und werden daher als solche gekennzeichnet, wenn Sie diese Anrufe in CQD und anderen Anrufqualitätstools anzeigen.
+Dieses Verhalten wird erwartet, wenn die richtlinienbasierte Aufzeichnung in Microsoft Teams aktiviert ist. Die richtlinienbasierte Aufzeichnung verwendet einen Teams Recorder Bot, der in Microsoft Azure bereitgestellt wird, um Besprechungsinhalte zu Compliancezwecken zu erfassen. Im Anrufqualitätsmanagement ist "Peer-to-Peer" eine Beschreibung des Mediendatenverkehrsflusses und nicht der Interaktion zwischen den Benutzern. Da ein Recorder Bot selbst eine Partei des Anrufs ist, ist der Anruf nicht mehr Peer-to-Peer, sondern ein Anruf mit mehreren Teilnehmern. Anrufe mit mehreren Teilnehmern werden von Microsoft Teams als Konferenzen klassifiziert und werden daher als solche gekennzeichnet, wenn Sie diese Anrufe in CQD und anderen Anrufqualitätstools anzeigen.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
