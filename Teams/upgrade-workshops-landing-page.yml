@@ -1,45 +1,51 @@
 ### YamlMime:Hub
 title: Workshops zur Planung des Upgrades auf Microsoft Teams
-summary: 'Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Titel für den Workshop, um die Registrierung zu registrieren.'
+summary: Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Workshoptitel, um sich zu registrieren.
 brand: teams
 metadata:
   title: Workshops zur Planung des Upgrades auf Microsoft Teams
-  description: 'Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Titel für den Workshop, um die Registrierung zu registrieren.'
+  description: Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Workshoptitel, um sich zu registrieren.
   ms.service: msteams
   ms.topic: hub-page
-  author: SerdarSoysal
-  ms.author: serdars
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   manager: serdars
   ms.date: 01/27/2020
   ms.reviewer: landerl
   audience: admin
   f1.keywords:
-    - NOCSH
+  - NOCSH
   ms.localizationpriority: high
   ms.collection:
-    - Teams_ITAdmin_JourneyFromSfB
-    - M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
   ms.custom:
-    - seo-marvel-apr2020
+  - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-    - Microsoft Teams
+  - Microsoft Teams
+  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
+  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 07/14/2022
+  ms.locfileid: "66794523"
 productDirectory:
   items:
-    - title: Planen des Upgrades (hier starten)
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 'Unabhängig davon, ob Sie vor dem Ende von Skype for Business Online (31. Juli 2021) auf Teams upgraden oder Szenarien aus Ihrer lokalen Skype for Business-Umgebung auf Teams verschieben, ist ein erfolgreicher Übergang sowohl für die technische Bereitschaft als auch für die Benutzerbereitschaft geeignet. Entdecken Sie unser bewährtes Framework, bewährte Methoden und Ressourcen, die Ihnen dabei helfen sollen, Ihren Wechsel von Skype for Business Online, Skype for Business Server oder einer Hybridumgebung zu Teams zu Teams zu vereinfachen. Zielgruppe – Alle (Business Sponsoren, IT-Administratoren, Benutzerbereitschafts-/Änderungsmanager, Projektleiter)'
-      url: 'https://aka.ms/SfBtoTeamsPlan'
-    - title: Implementieren des Teams Upgrades
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
-      summary: 'Schließen Sie sich uns an, um den besten technischen Ansatz für das Verschieben aller Arbeitslasten nach Teams basierend auf Ihren Zielen und Ihrer aktuellen Arbeitsumgebung zu identifizieren Skype for Business vorbereiten. Die meisten Kunden, die erfolgreiche Übergänge abgeschlossen haben, haben Teams neben ihrer aktuellen Skype for Business Online-, Skype for Business Server- oder Hybridimplementierung aktiviert. Diese Sitzung gibt wichtige Überlegungen und wertvolle Ressourcen weiter, die Ihnen beim Definieren der besten Migrationsstrategie für Ihre Organisation helfen sollen. Zielgruppe – IT-Administratoren'
-      url: 'https://aka.ms/SfBtoTeamsImplement'
+  - title: Planen des Upgrades (hier starten)
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: Ganz gleich, ob Sie vor der Einstellung von Skype for Business Online (31. Juli 2021) ein Upgrade auf Teams durchführen oder Szenarien aus Ihrer Skype for Business lokalen Umgebung in Teams verschieben– ein erfolgreicher Übergang betrifft sowohl die technische als auch die Benutzerbereitschaft. Entdecken Sie unser bewährtes Framework, bewährte Methoden und Ressourcen, die Ihnen helfen sollen, einen erfolgreichen Übergang zu Teams von Skype for Business Online, Skype for Business Server oder einer Hybridumgebung zu erleichtern. Zielgruppe – Alle (Geschäftssponsoren, IT-Administratoren, Benutzerbereitschafts-/Änderungs-Manager, Projektleiter)
+    url: https://aka.ms/SfBtoTeamsPlan
+  - title: Implementieren Ihres Teams-Upgrades
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: Begleiten Sie uns, um den besten technischen Ansatz für das Verschieben aller Workloads nach Teams zu identifizieren und vorzubereiten, basierend auf Ihren Zielen und Ihrer aktuellen Skype for Business Umgebung. Die meisten Kunden, die erfolgreiche Übergänge abgeschlossen haben, haben Teams neben ihrer aktuellen Skype for Business Online-, Skype for Business Server- oder Hybridimplementierung aktiviert. In dieser Sitzung werden wichtige Überlegungen und wertvolle Ressourcen erläutert, mit denen Sie die beste Migrationsstrategie für Ihre Organisation definieren können. Zielgruppe – IT-Administratoren
+    url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:
   sections:
-    - items:
-        - title: Erweitern Teams Szenarien?
-          summary: Sehen Sie sich unsere Teams Kreide-Talk-Workshops für IT-Profis an.
-          url: ./chalk-talks-landing-page.yml
-        - title: Neu bei Microsoft Teams?
-          summary: Erfahren Sie mehr über die ersten Schritte mit Teams.
-          url: ./teams-overview.md
+  - items:
+    - title: Erweitern Sie Ihre Teams-Szenarien?
+      summary: Schauen Sie sich unsere Teams Chalk Talk Workshops für IT-Spezialisten an.
+      url: ./chalk-talks-landing-page.yml
+    - title: Neu bei Microsoft Teams?
+      summary: Erfahren Sie mehr über die ersten Schritte mit Teams.
+      url: ./teams-overview.md

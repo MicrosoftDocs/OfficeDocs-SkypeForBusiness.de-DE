@@ -1,7 +1,7 @@
 ---
 title: Datenstromklassifizierung im Anrufqualitätsdashboard (CQD)
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitätsdashboard (CQD) für Microsoft Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: 5ee2575cf952eb9d7e78f14b2b8ba7693cd3f878
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 9b17cf115759e96edbccdb85369ac42fd5861ff7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059256"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794293"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Streamklassifizierung im Anrufqualitätsdashboard (CQD)
 
@@ -33,7 +33,7 @@ Mit dem Anrufqualitäts-Dashboard (AQD) für Microsoft Teams und Skype for Busin
 
 ## <a name="classifier-definitions"></a>Klassifizierungsdefinitionen
 
-Streams in CQD werden basierend auf den Werten der verfügbaren Schlüsselqualitätsmetriken als _"Gut_", "_Schlecht_" oder "_Nicht klassifiziert_" klassifiziert. Die Metriken und Bedingungen, die zum Klassifizieren des Datenstroms verwendet werden, werden in den folgenden Tabellen angezeigt. Die CQD-Dimensionen "Poor Due To" können verwendet werden, um zu verstehen, welche Metrik für eine _Schlechte_ Klassifizierung verantwortlich ist. Weitere Informationen zu diesen Dimensionen finden Sie [unter Dimensionen und Kennzahlen, die im Anrufqualitätsdashboard verfügbar sind](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Datenströme im CQD werden basierend auf den Werten der verfügbaren Schlüsselqualitätsmetriken als _"Gut_", " _Schlecht_" oder " _Nicht klassifiziert_ " klassifiziert. Die Metriken und Bedingungen, die zum Klassifizieren des Datenstroms verwendet werden, werden in den folgenden Tabellen angezeigt. Die CQD-Dimensionen "Poor Due To" können verwendet werden, um zu verstehen, welche Metrik für eine _Schlechte_ Klassifizierung verantwortlich ist. Weitere Informationen zu diesen Dimensionen finden Sie [unter Dimensionen und Kennzahlen, die im Anrufqualitätsdashboard verfügbar sind](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Audio-Klassifizierung
 
@@ -48,7 +48,7 @@ Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind und die Paketausl
 
 ### <a name="video-classifier-due-to-freeze"></a>Videoklassifizierer aufgrund von Freeze
 
-Der Videodatenstrom wird basierend auf dem Wert einer generierten Klassifizierungsbewertung als  _"Gut_ " oder " _Schlecht_ " markiert, um zu schätzen, dass der Endbenutzer eingefrorenes Video erlebt hat. Dieser Klassifizierer ist nur für Microsoft Teams Produkt verfügbar.
+Der Videodatenstrom wird basierend auf dem Wert einer generierten Klassifizierungsbewertung als  _"Gut_ " oder " _Schlecht_ " markiert, um zu schätzen, dass der Endbenutzer eingefrorenes Video erlebt hat. Dieser Klassifizierer ist nur für Microsoft Teams-Produkte verfügbar.
 
 |Schritt #|Metrik|Szenario|Bedingung |Klassifizierung, wenn die Bedingung wahr ist |Klassifizierung, wenn die Bedingung falsch ist |Klassifizierung, wenn die Metrik nicht verfügbar ist |Erklärung |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
@@ -88,7 +88,7 @@ Ein Anwendungsfreigabedatenstrom wird als _"Schlecht_ " gekennzeichnet, wenn ein
 | AppSharing Relative OneWay Average | > 1.75 | Durchschnittliche relative unidirektionale Verzögerung zwischen den Endpunkten in Sekunden für Anwendungsfreigabedatenströme. |
 | | | |
 
-## <a name="unclassified-streams"></a>Nicht klassifizierte Streams
+## <a name="unclassified-streams"></a>Nicht klassifizierte Datenströme
 
 In CQD wird ein Datenstrom als _nicht klassifiziert_ gekennzeichnet, wenn die ICE-Konnektivität (Interactive Connectivity Establishment) fehlschlägt oder wenn nicht alle metriken gemeldet werden, die zum Berechnen der Datenstromklassifizierung erforderlich sind.
 

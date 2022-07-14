@@ -1,7 +1,7 @@
 ---
 title: Erfahren Sie, wie Sie Inhaltskameras einrichten – Microsoft Teams
-ms.author: serdars
-author: serdarsoysal
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
-description: Verwenden Sie eine Inhaltskamera in einem Microsoft Teams Raum, der mit Bildverarbeitungssoftware interagiert, damit Präsentierende auf einem analogen Whiteboard zeichnen können.
-ms.openlocfilehash: 913d7fbc9593c1753c3cb4b59d44a4101e687178
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+description: Verwenden Sie eine Inhaltskamera in einem Microsoft Teams-Raum, der mit Bildverarbeitungssoftware interagiert, damit Referenten auf einem analogen Whiteboard zeichnen können.
+ms.openlocfilehash: a06dc6b5ebd9dae969a888067146afaccbaaa7e6
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306140"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794133"
 ---
-# <a name="content-cameras"></a>Inhalts-Kameras
+# <a name="content-cameras"></a>Inhaltskameras
 
-Sie können jetzt eine Inhaltskamera mit einem Raumsystem Microsoft Teams verwenden. Eine Inhaltskamera interagiert mit spezieller Bildverarbeitungssoftware und einem Whiteboard, damit ein Moderator auf einem analogen Whiteboard zeichnen und den Inhalt für Remoteteilnehmer freigeben kann.
+Sie können jetzt eine Inhaltskamera mit einem Microsoft Teams-Raumsystem verwenden. Eine Inhaltskamera interagiert mit spezieller Bildverarbeitungssoftware und einem Whiteboard, damit ein Referent auf einem analogen Whiteboard zeichnen und den Inhalt mit Remoteteilnehmern teilen kann.
 
 Im folgenden Video finden Sie Beispiele für die Funktionen der Inhaltskamera.
 
@@ -33,73 +33,73 @@ Im folgenden Video finden Sie Beispiele für die Funktionen der Inhaltskamera.
 ## <a name="set-up-a-content-camera"></a>Einrichten einer Inhaltskamera
 
 > [!NOTE]
-> Halten Sie sich immer an den Gebäudecode Ihres Landes oder Ihrer Region, der einen Mindestabstand vom Boden definieren kann oder eine Anforderung definiert, dass deckende Ausrüstung mit einer Dacheinrichtung oder einer anderen Struktur gesichert werden muss. Befolgen Sie die Anweisungen zur Aufnahme für die Hardware, die mit der ausgewählten Kamera bereitgestellt wird. OEM-Kamerakamerakits umfassen eine Kamera, USB 2.0-Extender und erforderliche Verkabelung.
+> Halten Sie sich immer an die Bauordnung Ihres Landes oder Gebiets, die einen Mindestabstand zum Boden oder eine Anforderung definieren kann, dass deckenmontierte Geräte an einem Sparren oder einer anderen Struktur gesichert werden müssen. Befolgen Sie die Montageanleitung für die Hardware, die mit der ausgewählten Kamera bereitgestellt wird. OEM-Kameramontagekits umfassen eine Kamera, USB 2.0-Extender und erforderliche Verkabelung.
 
-Die Größe des whiteboards, das für die Freigabe verwendet wird, wirkt sich auf die Platzierung der Kamera aus. Empfehlungen für die Boardgröße:
+Die Größe des Whiteboards, das für die Freigabe verwendet wird, wirkt sich auf die Platzierung der Kamera aus. Empfehlungen zur Boardgröße lauten:
 
-- 3–6 ft (0,9-1,8 m) breit – Unterstützt
-- 1,8 bis 2,7 m breit – Empfohlen
-- 9–12 ft (2,7-3,6 m) breit – Unterstützt
-- Über 12 ft (3,6 m) breit – Die Kamera ist 2,7 bis 3,6 m breit und zu sehr für den Rest.
+- 3–6 Fuß (0,9–1,8 m) breit — Unterstützt
+- 6–9 fuß (1,8-2,7 m) breit — Empfohlen
+- 9–12 Fuß (2,7–3,6 m) breit — Unterstützt
+- Über 12 ft. (3.6 m) breit — Kamera deckt 9-12 ft. (2.7-3.6 m) und schneidet den Rest.
 
 ## <a name="camera-location"></a>Kameraposition
 
-Die ideale Platzierung einer Inhaltskamera ist vertikal und horizontal auf dem Whiteboard ausgerichtet. Lokale Gebäudecodes können Höhenbeschränkungen haben, die erfordern, dass die Kamera über den oberen Rand des Whiteboards hinaus gehoben wird.
+Die ideale Platzierung einer Inhaltskamera wird vertikal und horizontal auf dem Whiteboard zentriert. Lokale Gebäudecodes können Höheneinschränkungen aufweisen, die erfordern, dass die Kamera höher als die Obere des Whiteboards ist.
 
-Sie können die Kamera bis zu 6 in installieren. (152 mm) höher als der obere Rand des Whiteboards und auf dem Whiteboard zentriert, wie gezeigt. Stellen Sie sicher, dass das Kamerabild mindestens einen 6-In-Inhalt umfasst. (152 mm) Rahmen auf beiden Seiten horizontal. Sie können die Kameravorschau in der App Microsoft Teams-Räume, um die endgültige Platzierung der Kamera zu ermitteln.
+Sie können die Kamera bis zu 6 Zoll installieren. (152 mm) höher als die Obere des Whiteboards und zentriert auf dem Whiteboard wie dargestellt. Stellen Sie sicher, dass das Kamerabild mindestens eine 6 Zoll enthält. (152 mm) Rahmen auf beiden Seiten horizontal. Sie können die Kameravorschau in der Microsoft Teams-Räume-App verwenden, um die endgültige Platzierung der Kamera zu bestimmen.
 
-![Content camera placement diagram.](../media/Magic-whiteboard.png)
+![Inhaltskamera-Platzierungsdiagramm.](../media/Magic-whiteboard.png)
 
 ### <a name="camera-distances"></a>Kameraabstände
 
-Die optimale Remote-Benutzererfahrung bei Verwendung typischer Whiteboardmarkierungen besteht in der Freigabe von Freihandstrichen im Bereich von 1 bis 2 mm pro Pixel im Kamerabild des Inhalts, und für die besten Ergebnisse werden 1,5 mm pro Pixel verwendet. Alle unterstützten Kameras bieten eine Auflösung von 1920 x 1080, und einige können diese Auflösung überschreiten.
+Bei Verwendung typischer Whiteboardmarker besteht die optimale Remote-Benutzererfahrung darin, Freihandstriche im Bereich von 1 bis 2 mm pro Pixel im Bild der Inhaltskamera zu teilen, und die besten Ergebnisse verwenden 1,5 mm pro Pixel. Alle unterstützten Kameras bieten eine Auflösung von 1920 x 1080, und einige können diese Auflösung überschreiten.
 
-Der Abstand der Kamera vom Whiteboard kombiniert mit der Kameraauflösung und dem HFoV (Horizontal Field of View), um den Abstand vom Whiteboard zu bestimmen. Die folgende Tabelle enthält Beispiele für Entfernungen für verschiedene Whiteboardgrößen. Sie können diese Werte als Ausgangspunkte verwenden, um die endgültige Platzierung der Inhaltskamera zu ermitteln.
+Der Abstand der Kamera vom Whiteboard wird mit der Kameraauflösung und dem horizontalen Sichtfeld (Horizontal Field of View, HFoV) kombiniert, um den Abstand zum Whiteboard zu bestimmen. Die folgende Tabelle enthält Beispiele für Entfernungen für verschiedene Whiteboardgrößen. Sie können diese Werte als Ausgangspunkte verwenden, um die endgültige Platzierung der Inhaltskamera zu bestimmen.
 
-**Kameraabstand vom Whiteboard**
+**Kameraabstand zum Whiteboard**
 
-| Camera HFoV |3 ft. (0,91 m)     | 6 ft. (1,8 m)    | 9 ft. (2,74 m)        |12 ft.  (3,65 m)         | Maximale Entfernung von Whiteboard  |
+| Kamera HFoV |3 Fuß (0,91 m)     | 6 fuß (1,8 m)    | 9 Fuß (2,74 m)        |12 Fuß.  (3,65 m)         | Max. Entfernung von Whiteboard  |
 |:---         |:---               |:---                |:---                 |:---             | :--- |
-| 80°         | 1,79 ft (0,54 m) | 3,58 ft ( 1,09 m)  | 5,36 ft (1,6 m)    |7,15 ft (2,17 m) |7,51 ft (2,28 m) |
-| 90°         | 1,5 ft (0,45 m) | 3,00 ft (0,91 m)   | 1,5 m(1,37 m)    |6,0 ft (1,82 m)    |6,3 ft (1,92 m) |
-| 100°        | 1,26 ft (0,38 m)| 2,52 ft (0,77 m)   | 3,78 ft (1,15 m)   |1,53 m(1,53 m)   |1,29 ft (1,61 m) |
-| 110°        | 1,05 ft (0,32 m)| 2,10 ft (0,64 m)   | 3,15 ft (0,96 m)   |1,28 m(1,28 m)    |4,41 ft (1,31 m) |
-| 120°        | 0,87 ft . (0,26 m)| 1,73 ft (0,52 m)   | 2,60 ft (0,79 m)   |3,46 ft (1,05 m)   |3,64 ft ( 1,10 m) |
+| 80°         | 1,79 fuß (0,54 m) | 3,58 fuß (1,09 m)  | 5,36 fuß (1,6 m)    |7,15 fuß (2,17 m) |7,51 Fuß (2,28 m) |
+| 90°         | 1,5 fuß (0,45 m) | 3,00 fuß (0,91 m)   | 4,5 fuß (1,37 m)    |6,0 fuß (1,82 m)    |6,3 Fuß (1,92 m) |
+| 100°        | 1,26 fuß (0,38 m)| 2,52 Fuß (0,77 m)   | 3,78 fuß (1,15 m)   |5,03 Fuß (1,53 m)   |5,29 fuß (1,61 m) |
+| 110°        | 1,05 fuß (0,32 m)| 2,10 fuß (0,64 m)   | 3,15 fuß (0,96 m)   |4,2 Fuß (1,28 m)    |4,41 Fuß (1,31 m) |
+| 120°        | 0,87 fuß (0,26 m)| 1,73 Fuß (0,52 m)   | 2,60 fuß (0,79 m)   |3,46 fuß (1,05 m)   |3,64 fuß (1,10 m) |
              
 
-Der Abstand zwischen der Inhaltskamera und der Wand, auf der das Whiteboard bereitgestellt ist, hängt vom HFoV für dieses Kameramodell ab, das variiert. Installieren Sie Kameras mit einem größeren HFoV (z. B. 120 Grad) näher an der Wand, und Kameras mit einem schmaleren HFoV von der Wand entfernt. Überprüfen Sie den HFoV, bevor Sie mit der Installation der ausgewählten Kamera beginnen.
+Der Abstand zwischen der Inhaltskamera und der Wand, auf der das Whiteboard montiert ist, hängt vom HFoV für dieses Kameramodell ab, das variiert. Installieren Sie Kameras mit einem größeren HFoV (z. B. 120 Grad) näher an der Wand und Kameras mit einem schmaleren HFoV weiter von der Wand entfernt. Überprüfen Sie den HFoV, bevor Sie mit der Installation der ausgewählten Kamera beginnen.
 
-Wenn Sie Whiteboards haben, die größer als 3,65 m sind oder keine Ecken haben (z. B. vollständige Wand-Whiteboards), können Sie die Kamera an beliebiger Stelle in der Mitte platzieren. Die Verbesserungssoftware wählt einen Bereich in der Mitte aus, wenn die Ecken des Whiteboards nicht zu finden sind.
+Wenn Sie Whiteboards haben, die größer als 12 fuß (3,65 m) sind oder keine Ecken haben (wie vollständige Wand-Whiteboards), können Sie die Kamera überall in der Mitte platzieren. Die Verbesserungssoftware wählt einen Bereich in der Mitte aus, wenn sie die Ecken des Whiteboards nicht findet.
 
 > [!NOTE]
-> Sie können einen dunklen Band oder andere Elemente verwenden, um einen definierten Inhalts-Kamerabereich auf einem Vollwand-Whiteboard zu erstellen. Auf diese Weise wissen die Teilnehmer im Raum, wenn sie in einem Bereich zeichnen, der von der Inhaltskamera erfasst wird.
+> Sie können dunkles Band oder andere Elemente verwenden, um einen definierten Inhalt kamerabereich auf einem Whiteboard mit voller Wand zu erstellen. Dies hilft Teilnehmern im Raum zu wissen, wann sie in einem Bereich zeichnen, der von der Inhaltskamera erfasst wird.
 >
-> Sie können die Kamera auf einem verschiebbaren Stativ statt einer dauerhaften Bereitstellung bereitgestellt lassen. Platzieren Sie das Stativ auf dem Whiteboard zentriert. Diese Einrichtung kann temporär sein oder dort verwendet werden, wo die Wahrscheinlichkeit kaum besteht, dass sie über das Gerät klopft. Wenn Sie eine temporäre Bereitstellung verwenden, denken Sie daran, dass die Inhaltsverbesserung betroffen ist, wenn Sie die Kamera nach der ersten Freigabe bewegen und sie erneut freigeben müssen, um die Bewegungen zu korrigieren.
+> Sie können sich entscheiden, die Kamera auf einem verschiebbaren Stativ statt auf einer permanenten Halterung montiert zu lassen. Platzieren Sie das Stativ zentriert auf dem Whiteboard. Diese Einrichtung kann temporär sein oder verwendet werden, wenn die Wahrscheinlichkeit gering ist, das Gerät zu überschlagen. Wenn Sie eine temporäre Bereitstellung verwenden, denken Sie daran, dass die Inhaltsverbesserung beeinträchtigt wird, wenn Sie die Kamera nach der anfänglichen Freigabe verschieben und sie erneut freigeben müssen, um die Bewegung zu korrigieren.
 >
-> Ein nicht weißer Schreibbrett wird nicht unterstützt.
+> Ein Schreibbrett, das nicht weiß ist, wird nicht unterstützt.
 
 ## <a name="supported-cameras"></a>Unterstützte Kameras
 
-Informationen dazu, ob Sie eine Kamera als Inhaltskamera verwenden können, finden Sie unter Zertifizierte Firmwareversionen für [USB-Audio- und -Videoperipheriegeräte](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
+Informationen dazu, ob Sie eine Kamera als Inhaltskamera verwenden können, finden Sie in [den zertifizierten Firmwareversionen für USB-Audio- und -Videoperipheriegeräte](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
 
-Auf dem Marketplace für Microsoft Teams finden Sie unterstützte Content Camera Kits unter [aka.ms/teamsdevices.](https://aka.ms/teamsdevices)
+Oder lesen Sie den Microsoft Teams-Gerätemarkt für unterstützte Inhaltskamerakits unter [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
 ## <a name="camera-settings"></a>Kameraeinstellungen
 
-Sobald die Kamera im Raum installiert ist, richten Sie sie auf der Raumkonsole Microsoft Teams-Räume ein:
+Nachdem die Kamera im Raum installiert wurde, richten Sie sie auf der Microsoft Teams-Räume Konsole dieses Raums ein:
 
-1. Wählen **Einstellungen** Einstellungen Symbol aus, melden Sie sich als ![ Administrator ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) an, und wählen Sie **Peripheriegeräte aus.**
-2. Wählen Sie **im Abschnitt Inhaltskamera** die Inhaltskamera aus, und stellen Sie sicher, dass die Option **Inhaltsverbesserungen** ausgewählt ist.
-3. (Optional) Wenn die Kamera auf dem Kopf stehend installiert wurde, weil die Kamera von der Obergrenze aus bereitgestellt wurde, aktivieren Sie die Option Inhaltskamera **180 Grad** drehen.
-4. Wählen **Sie Speichern und beenden aus.**
+1. Wählen Sie das Symbol](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **"Einstellungen**![" aus, melden Sie sich als Admin an, und wählen Sie **"Peripheriegeräte" aus**.
+2. Wählen Sie im Abschnitt **"Inhaltskamera** " die Inhaltskamera aus, und stellen Sie sicher, dass die Option " **Inhaltsverbesserungen** " ausgewählt ist.
+3. (Optional) Wenn die Kamera auf den Kopf gestellt installiert wurde, weil die Kamera von der Decke montiert wurde, überprüfen Sie die Option " **Inhaltskamera drehen 180°** ".
+4. Wählen Sie **"Speichern" und "Beenden" aus**.
 
 ![Einrichtung der Inhaltskamera.](../media/content-camera1.png)
 
-Sie können diese Einstellungen auch remote mithilfe einer [XML-Konfigurationsdatei anpassen.](xml-config-file.md)
+Sie können diese Einstellungen auch remote mithilfe einer [XML-Konfigurationsdatei](xml-config-file.md) anpassen.
 
-## <a name="see-also"></a>Mehr dazu
+## <a name="see-also"></a>Siehe auch
 
-[Remoteverwaltung einer Microsoft Teams-Räume mit einer XML-Konfigurationsdatei](xml-config-file.md)
+[Remoteverwaltung einer Microsoft Teams-Räume Konsoleneinstellungen mit einer XML-Konfigurationsdatei](xml-config-file.md)
 
 [Voraussetzungen für Microsoft Teams-Räume](requirements.md)
 

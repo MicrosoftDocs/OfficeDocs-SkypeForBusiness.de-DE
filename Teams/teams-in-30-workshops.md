@@ -1,7 +1,7 @@
 ---
-title: Teams von 30
-author: SerdarSoysal
-ms.author: serdars
+title: Teams in 30
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
@@ -13,25 +13,25 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: Live, interaktive Workshops, die dafür entwickelt wurden, Ihnen in nur 30 Tagen den ersten Microsoft Teams zu bieten.
+description: Interaktive Live-Workshops, die Ihnen in nur 30 Tagen den Einstieg in Microsoft Teams ermöglichen.
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: aaa02c0db57f253d080cc616ff91ae7fa2a287b5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392897"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794173"
 ---
-# <a name="teams-in-30"></a>Teams von 30
+# <a name="teams-in-30"></a>Teams in 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft lädt Sie zu <strong>Teams in 30</strong>, einer Reihe von interaktiven Live-Workshops ein, die mittelständische Organisationen (500 bis 5000 Mitarbeiter) in bis zu 30 Tagen mit Microsoft Teams an den Laufen halten sollen. Nehmen Sie an uns teil, um bewährte Anleitungen und bewährte Methoden zu erhalten und Antworten Teams Fragen zu erhalten. Workshopteilnehmer erhalten außerdem eine exklusive Einladung für Freisprechstunden mit einem Teams Experten.
-           <p>Sind Sie bereit zum Springen? Wir empfehlen allen Mitgliedern Ihres Projektteams, mit der Zusammenarbeit Erste Schritte <i>30-Teams zu</i> beginnen. Klicken Sie unten auf einen Sitzungstitel, um sich zu registrieren.
+        <p>Microsoft freut sich, Sie <strong>zu Teams in 30</strong> einzuladen, einer Reihe von interaktiven Live-Workshops, die Ihnen helfen sollen, mittelständische Organisationen (500-5000 Mitarbeiter) in nur 30 Tagen mit Microsoft Teams in Betrieb zu bringen. Nehmen Sie an uns teil, um zeitgeprüfte Anleitungen und bewährte Methoden zu erhalten und Ihre Teams-Fragen zu beantworten. Die Workshop-Teilnehmer erhalten außerdem eine exklusive Einladung zu Offenen Mikrofon-Bürozeiten mit einem Teams-Experten.
+           <p>Sind Sie bereit, einzuspringen? Wir empfehlen allen Mitgliedern Ihres Projektteams, <i>mit den ersten Schritte mit Teams in 30 Sitzungen</i> zu beginnen. Klicken Sie unten auf einen Sitzungstitel, um sich zu registrieren.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -45,8 +45,8 @@ ms.locfileid: "63392897"
                     </div>
                     <div class="cardText">
                         <h3>Erste Schritte mit Teams in 30 (Hier starten!)</h3>
-                        <P>Beginnen Sie Teams 30er-Reise auf dem rechten Fuß. Verstehen Sie das Programm, wer teilnehmen soll und welche Ressourcen Sie verwenden können, um Ihren Erfolg zu gewährleisten.</P>
-                        <p><i>Zielgruppe: Business-Sponsoren, IT-Administratoren, Einführung und Besitzer ändern</i></p>
+                        <P>Starten Sie Ihre Teams in 30 Reisen auf dem rechten Fuß. Verstehen Sie das Programm, wer teilnehmen sollte und welche Ressourcen Sie verwenden können, um Ihren Erfolg sicherzustellen.</P>
+                        <p><i>Zielgruppe: Geschäftssponsoren, IT-Administratoren, Einführung und Besitzer ändern</i></p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ ms.locfileid: "63392897"
                     </div>
                     <div class="cardText">
                         <h3>Bereitschaft Ihrer Endbenutzer</h3>
-                    <p>Entdecken Sie Strategien und Ressourcen für die Bereitstellung Ihrer Benutzer, erstellen Sie eine große Anzahl von Anwendern, und stellen Sie sicher, dass die Benutzerakzeptanz als Kernkomponente Ihres Teams wird.</p><p><i>Zielgruppe: Einführung und Ändern der Besitzer</i></p>
+                    <p>Entdecken Sie Strategien und Ressourcen, um Ihre Benutzer vorzubereiten, ein Kontingent von Experten aufzubauen und die Akzeptanz der Benutzer als Kernkomponente Ihres Teams-Rollouts sicherzustellen.</p><p><i>Zielgruppe: Einführung und Besitzer ändern</i></p>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@ ms.locfileid: "63392897"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Vorbereiten der Umgebung – Teil I</h3>
-                    <p>Legen Sie die Grundlage für Das Rollout Teams Ihres Kontos. Identifizieren Teams Voraussetzungen, bewährte Methoden für Netzwerke und Sicherheit, Richtlinien für die Koexistenz, Analysen und Berichte sowie Empfehlungen zur Clientverteilung.</p><p><i>Zielgruppe: IT-Administratoren</i></p>
+                    <h3>Vorbereiten Ihrer Umgebung – Teil I</h3>
+                    <p>Legen Sie die Grundlage für Ihr Teams-Rollout fest. Identifizieren Sie die Voraussetzungen für Teams, bewährte Methoden für Netzwerke und Sicherheit, Koexistenzrichtlinien, Analysen und Berichte sowie Empfehlungen für die Clientverteilung.</p><p><i>Zielgruppe: IT-Administratoren</i></p>
 </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@ ms.locfileid: "63392897"
                     </div>
                     <div class="cardText">
                         <h3>Vorbereiten der Umgebung – Teil II</h3>
-                    <p>Nachdem Sie nun die Grundlage dafür haben, sollten Sie bewährte Methoden für die Implementierung von Compliance, Aufbewahrung, Governance und Audiokonferenzen für Teams.</p><p><i>Zielgruppe: IT-Administratoren</i></p>
+                    <p>Nachdem Sie nun die Grundlage geschaffen haben, sollten Sie sich mit bewährten Methoden für die Implementierung von Compliance, Aufbewahrung, Governance und Audiokonferenzen für Teams vertraut machen.</p><p><i>Zielgruppe: IT-Administratoren</i></p>
                     </div>
                 </div>
             </div>
@@ -120,9 +120,9 @@ ms.locfileid: "63392897"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Optimieren und erweitern</h3>
-                    <p>Entwerfen Sie einen Plan, der die Optimierung der Dienstleistung, die Erweiterung Teams Funktionen und das Onboarding neuer Benutzer umfasst.</p>
-                    <p><i>Zielgruppe: Business-Sponsoren, IT-Administratoren, Einführung und Besitzer ändern</i></p>
+                    <h3>Optimieren und Erweitern</h3>
+                    <p>Entwerfen Sie einen Plan, der die Optimierung der Dienstleistung, die Erweiterung der Teams-Funktionen und das Onboarding neuer Benutzer umfasst.</p>
+                    <p><i>Zielgruppe: Geschäftssponsoren, IT-Administratoren, Einführung und Besitzer ändern</i></p>
                     </div>
                 </div>
             </div>
@@ -140,9 +140,9 @@ ms.locfileid: "63392897"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Teams Kreidegespräche</h3>
-                    <p>Diese interaktiven Onlineworkshops, die von Fachleuten unterstützt werden, bieten eine einzigartige Gelegenheit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und interessantesten Szenarien in Teams. Kreidegespräche gehen davon aus, dass Sie eine grundlegende Einführung Teams haben.</p>
-                    <p><strong>Voraussetzung</strong>: Teams an 30 Workshop-Teilnahmen teilnehmen ODER bereits für Teams Organisation aktiviert sind.</p>
+                    <h3>Teams-Kreidegespräche</h3>
+                    <p>Diese interaktiven Online-Workshops, die von Fachexperten unterstützt werden, bieten eine einzigartige Gelegenheit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Teams zu lernen. Chalk Talks geht davon aus, dass Sie ein einfaches Teams-Rollout abgeschlossen haben.</p>
+                    <p><strong>Voraussetzung</strong>: Teams in 30 Workshop-Teilnahmen ODER bereits für Teams in Ihrer Organisation aktiviert.</p>
                     <p><i>Zielgruppe: IT-Administratoren</i></p>
                     </div>
                 </div>

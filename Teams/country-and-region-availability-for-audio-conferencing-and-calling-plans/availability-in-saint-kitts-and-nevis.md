@@ -1,44 +1,49 @@
 ---
 title: Verfügbarkeit in St. Kitts und Nevis
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams St. Kitts und Nevis.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Saint Kitts und Nevis verfügbar.
+ms.openlocfilehash: 3e61918d2c5676566c4d756265bd6238b0ee864c
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794483"
 ---
-
 # <a name="availability-in-saint-kitts-and-nevis"></a>Verfügbarkeit in St. Kitts und Nevis
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams St. Kitts und Nevis.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Saint Kitts und Nevis verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Minuten](../audio-conferencing-pay-per-minute.md) bezahlt  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, nur [minutenweises Bezahlen](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Nein |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Guthaben für Kommunikationen <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Kommunikationsguthaben <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
@@ -57,7 +62,7 @@ Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn Anrufpläne nicht erhältlich sind, finden Sie unter [PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) alle verfügbaren Optionen.
+Wenn Anrufpläne nicht zum Kauf verfügbar sind, finden Sie unter ["PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) " alle verfügbaren Optionen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
@@ -67,7 +72,7 @@ Wenn Anrufpläne nicht erhältlich sind, finden Sie unter [PSTN-Konnektivitätso
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md).
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen erhalten möchten, lesen Sie "[Abrufen von Servicetelefonnummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)".
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

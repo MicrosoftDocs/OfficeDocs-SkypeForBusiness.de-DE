@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams-Panels
-ms.author: serdars
-author: ManikaDhiman
+title: Microsoft Teams-Bereiche
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -15,125 +15,125 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Dieser Artikel bietet eine Übersicht über die von ihren Panels unterstützten Microsoft Teams Features.
-ms.openlocfilehash: b860b141cddddbb90ce9d28d7895cf385c77c0ff
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+description: Dieser Artikel enthält eine Übersicht und Features, die von Microsoft Teams-Bereichen unterstützt werden.
+ms.openlocfilehash: 313d0b8abbf1dcd703bc617e52173fc7403cc743
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514740"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794553"
 ---
-# <a name="microsoft-teams-panels"></a>Microsoft Teams-Panels
+# <a name="microsoft-teams-panels"></a>Microsoft Teams-Bereiche
 
-Microsoft Teams-Panels sind die kompakten Touchscreengeräte, die direkt außerhalb der Besprechungsräume, in der Regel neben Eingängen, bereitgestellt werden. Teams-Panels bieten Ihnen die Möglichkeit, orts- und besprechungsdetails auf einen Blick anzuzeigen und an Ort und Stelle einen verfügbaren Besprechungsort zu reservieren. Bei richen, großen Texten und farblich kodierten Indikatoren können Sie die Verfügbarkeit des Besprechungsraums aus der Ferne sehen.
+Microsoft Teams-Panels sind die kompakten Touchscreen-Geräte, die direkt außerhalb Ihrer Besprechungsräume, in der Regel neben Eingängen, montiert werden. Teams-Bereiche bieten Ihnen die Möglichkeit, Standort- und Besprechungsdetails auf einen Blick anzuzeigen und einen verfügbaren Besprechungsraum vor Ort zu reservieren. Mit umfangreichen, großen Text- und farbcodierten Indikatoren können Sie die Verfügbarkeit des Besprechungsraums aus der Ferne sehen.
 
-Teams-Panels sind dedizierte Microsoft Teams, die Besprechungsdetails anzeigen, die über Teams oder Outlook 365-Kalenderanwendungen geplant sind. Wenn die Besprechungsdetails gut sichtbar angezeigt werden, können die Teilnehmer bestätigen, dass sie sich zum richtigen Zeitpunkt und zur richtigen Besprechung im richtigen Besprechungsraum treffen.
+Teams-Bereiche sind dedizierte Microsoft Teams-Geräte, auf denen über Teams oder Outlook 365-Kalenderanwendungen geplante Besprechungsdetails angezeigt werden. Wenn Besprechungsdetails prominent angezeigt werden, können die Teilnehmer bestätigen, dass sie sich im richtigen Besprechungsbereich, zur richtigen Zeit und für die richtige Besprechung befinden.
 
-Dieser Artikel bietet eine Übersicht über Teams-Panels und kann Ihnen beim Planen, Bereitstellen und Verwalten Teams Geräte in Ihrer Organisation helfen.
+Dieser Artikel enthält eine Übersicht über Teams-Bereiche und kann Ihnen bei der Planung, Bereitstellung und Verwaltung von Teams-Panels-Geräten in Ihrer Organisation helfen.
 
-## <a name="features-supported-by-teams-panels"></a>Features, die von Teams unterstützt werden
+## <a name="features-supported-by-teams-panels"></a>Von Teams-Bereichen unterstützte Features
 
-Teams-Panels unterstützen die folgenden Features:
+Teams-Bereiche unterstützen die folgenden Features:
 
-- **Dedizierte Anzeige von Besprechungsraum und Besprechungsdetails.** Sie erhalten auf einen Blick Details zu einem Besprechungsort, einschließlich Ort und Verfügbarkeit. Bei einem reservierten Besprechungsraum werden wichtige Besprechungsdetails wie der Besprechungstitel, der Besprechungszeitplan und der Besprechungsorganisator sehen.
-- **Reservieren Sie verfügbare Besprechungsräume für Ad-hoc-Besprechungen.** Mithilfe des Touchscreenbereichs können Sie an Ort und Stelle einen verfügbaren Besprechungsort für eine Ad-hoc-Besprechung  reservieren und über die Microsoft Teams-Räume- oder Surface Hub-Geräte an dieser Teams-Besprechung teilnehmen.
-- **Farblich kodierte Indikatoren für den Verfügbarkeitsstatus des Speicherplatzes.** Mit lebendigen LED- und Startbildschirmanzeigen können Sie die Verfügbarkeit von Besprechungsraum von weit nach oben sehen. Grün gibt an, dass der Besprechungsraum verfügbar ist, und sie können ihn bei Bedarf direkt in den Panels reservieren. Rot oder Lila gibt an, dass der Besprechungsraum reserviert ist.
-- **Passen Sie Hintergrundbilder und reservierte Zustandsanzeigen an.** Administratoren können das Standard aussehen der Panels über Einstellungen ändern. So können Administratoren beispielsweise das Hintergrundbild oder die Farbe des Statusindikators "Beschäftigt" ändern.
-- **Barrierefreiheit.** Teams-Panels verfügen über verschiedene Barrierefreiheitsfunktionen, z. B. Text mit hohem Kontrast, um ihnen die Verwendung zu erleichtern.
+- **Dedizierte Anzeige von Besprechungsraum und Besprechungsdetails.** Sie erhalten auf einen Blick Details zu einem Besprechungsort, einschließlich Standort und Verfügbarkeit. Für einen reservierten Besprechungsraum können Sie wichtige Besprechungsdetails wie Besprechungstitel, Besprechungszeitplan und Besprechungsorganisator anzeigen.
+- **Reservieren Sie verfügbare Besprechungsräume für Ad-hoc-Besprechungen.** Mithilfe des Touchscreen-Bereichs können Sie einen verfügbaren Besprechungsraum vor Ort für eine Ad-hoc-Besprechung reservieren und über die Microsoft Teams-Räume oder Surface Hub-Geräte an dieser Teams-Besprechung _teilnehmen_.
+- **Farbcodierte Indikatoren für den Status der Raumverfügbarkeit.** Sie können die Verfügbarkeit von Besprechungsräumen aus der Ferne und aus der Nähe mit dynamischen LED- und Startbildschirmanzeigen sehen. Grün gibt an, dass der Besprechungsraum verfügbar ist. Bei Bedarf können Sie ihn direkt in den Panels selbst reservieren. Rot oder Lila gibt an, dass der Besprechungsraum reserviert ist.
+- **Anpassen des Hintergrundbilds und des reservierten Zustandsindikators.** Administratoren können das Standarderscheinungsbild der Panels über Einstellungen ändern. Administratoren können z. B. das Hintergrundhintergrundbild oder die Farbe der Statusanzeige "Beschäftigt" ändern.
+- **Zugänglichkeit.** Teams-Bereiche verfügen über mehrere Barrierefreiheitsfeatures, z. B. Text mit hohem Kontrast, um es jedem zu erleichtern, sie zu verwenden.
 
-Weitere Informationen zu diesen Features und deren Verwendung finden Sie unter Verwenden [Microsoft Teams Panels](use-teams-panels.md).
+Weitere Informationen zu diesen Features und deren Verwendung finden [Sie unter Verwenden von Microsoft Teams-Bereichen](use-teams-panels.md).
 
-## <a name="partners-certified-for-teams-panels"></a>Partner, die für Teams zertifiziert sind
+## <a name="partners-certified-for-teams-panels"></a>Partner, die für Teams-Panels zertifiziert sind
 
-Weitere Informationen zu Partnern, die für Teams zertifiziert sind, finden Sie unter [Derzeit Teams zertifizierte Panels](teams-ip-phones.md#certified-teams-panels).
+Weitere Informationen zu Partnern, die für Teams-Panels zertifiziert sind, finden Sie unter [derzeit zertifizierte Teams-Panels](teams-ip-phones.md#certified-teams-panels).
 
-## <a name="teams-panels-requirements"></a>Teams von Panels
+## <a name="teams-panels-requirements"></a>Anforderungen an Teams-Panels
 
-Die Hardware-, Software- und Netzwerkanforderungen für die Bereitstellung von Panels können je nach Art der bereitgestellten Panels unterschiedlich sein. In der OEM-Dokumentation finden Sie Informationen zu den erforderlichen Anforderungen für Ihre Gerätegruppe.
+Die Hardware-, Software- und Netzwerkanforderungen für die Bereitstellung von Panels-Geräten können je nach art der Panels-Geräte, die Sie bereitstellen, unterschiedlich sein. In der Oem-Dokumentation (Original Equipment Manufacturer) erfahren Sie, was für Ihre Geräte erforderlich ist.
 
 ## <a name="license-requirement"></a>Lizenzanforderung
 
-Um Teams verwenden zu können, benötigen [Sie Microsoft Teams-Räume Standard Lizenz](../rooms/rooms-licensing.md).
+Um Teams-Bereiche verwenden zu können, benötigen Sie [Microsoft Teams-Räume Standard Lizenz](../rooms/rooms-licensing.md).
 
 > [!Note]
-> Wenn Sie bereits Microsoft Teams-Räume im Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, benötigen Sie keine zusätzliche Lizenz, um die Teams verwenden zu können.
+> Wenn Sie bereits Microsoft Teams-Räume im Besprechungsbereich bereitgestellt haben, in dem Sie Teams-Panels installieren, benötigen Sie keine zusätzliche Lizenz für die Verwendung von Teams-Bereichen.
 
-## <a name="deploy-teams-panels-devices"></a>Bereitstellen Teams Panels
+## <a name="deploy-teams-panels-devices"></a>Bereitstellen von Teams-Panels-Geräten
 
-Wenn Sie mit der Planung, Bereitstellung und Verwaltung ihrer Teams sind, ist dieser Abschnitt für Sie da. Dieser Abschnitt ist nicht für Endbenutzer von Teams vorgesehen.
+Wenn Sie an der Planung, Bereitstellung und Verwaltung von Teams-Panels-Geräten beteiligt sind, ist dieser Abschnitt für Sie geeignet. Dieser Abschnitt ist nicht für Endbenutzer von Teams-Bereichen vorgesehen.
 
-Die Bereitstellung Teams Panels kann in die folgenden Aufgaben aufgeschlüsselt werden:
+Die Bereitstellung von Teams-Panels-Geräten kann in die folgenden Aufgaben unterteilt werden:
 
-- [Inventar des Besprechungsraums](#inventory-sites-and-meeting-spaces) und Planung von Funktionen: Erstellen Sie eine Bestandsaufnahme der Websites und Besprechungsräume Ihrer Organisation für die Bereitstellung Teams Geräte.
-- [Beschaffung](#procurement): Beschaffen Sie die Geräte bei Ihrem ausgewählten Gerätepartner.  
-- [Websitebereitschaft](#site-readiness): Stellen Sie sicher, dass Ihre Bereitstellungsstandorte (Besprechungsräume) den Bereitstellungsanforderungen entsprechen.
+- [Besprechungsraumbestand und Funktionsplanung](#inventory-sites-and-meeting-spaces): Erstellen Sie eine Bestandsaufnahme der Websites und Besprechungsräume Ihrer Organisation für die Bereitstellung von Teams-Panels-Geräten.
+- [Beschaffung](#procurement): Beschaffen Sie die Geräte von Ihrem ausgewählten Gerätepartner.  
+- Standortbereitschaft: Stellen Sie sicher, dass Ihre Bereitstellungsspeicherorte ([Besprechungsräume) die Bereitstellungsanforderungen](#site-readiness) erfüllen.
 - [Konfiguration und Bereitstellung](#configuration-and-deployment): Erstellen Sie Ressourcenkonten, und weisen Sie sie den Geräten zu.
 
-## <a name="inventory-sites-and-meeting-spaces"></a>Inventar von Websites und Besprechungsräumen
+## <a name="inventory-sites-and-meeting-spaces"></a>Inventarisieren von Websites und Besprechungsräumen
 
-Machen Sie eine Bestandsaufnahme der vorhandenen buchbaren Besprechungsräume in Ihrer Organisation. Identifizieren Sie die Websites und Besprechungsräume, die für die Bereitstellung Teams sind. Arbeiten Sie mit Ihren Einrichtungen und audio-visuellen Teams zusammen, um zu bestimmen, wo und wie die Teams-Panels installiert werden, und ob zusätzliche Hardware für die Aufnahme der Panels erforderlich ist.
+Erstellen Sie eine Bestandsaufnahme der vorhandenen buchbaren Besprechungsräume in Ihrer Organisation. Identifizieren Sie die Websites und Besprechungsräume, die für die Bereitstellung von Teams-Bereichen vorgesehen sind. Arbeiten Sie mit Ihren Einrichtungen und audiovisualen Teams zusammen, um zu ermitteln, wo und wie die Teams-Panels-Geräte installiert werden sollen und ob zusätzliche Hardware für die Montage der Panels erforderlich ist.
 
 ## <a name="procurement"></a>Beschaffung
 
-Beschaffen Sie die Geräte auf der Grundlage der Anzahl der Besprechungsräume, die für die Bereitstellung Teams-Panels zur Verfügung stehen, von einem der Partner, die für die Bereitstellung [Teams sind](#partners-certified-for-teams-panels). Besuchen Sie die Websites der Partner, um mehr über die Geräte und Beschaffungsoptionen zu erfahren.
+Beziehen Sie die Geräte basierend auf der Anzahl der Besprechungsräume, die für die Bereitstellung von Teams-Bereichen vorgesehen sind, von einem der Partner, die [für Teams-Panels zertifiziert](#partners-certified-for-teams-panels) sind. Besuchen Sie die Websites der Partner, um mehr über die Geräte und Beschaffungsoptionen zu erfahren.
 
-Für Besprechungsräume in Ihrer Organisation gelten möglicherweise andere Hardwareanforderungen für die Installation oder Installation der Geräte. Beispielsweise ist Hardware, die für die Vorrichtung auf einem Glas, Anschlag, Trockenbau oder Holzwand benötigt wird, möglicherweise nicht identisch. Informationen zu verfügbaren Aufnahmeoptionen finden Sie in der Dokumentation des Gerätepartners.
+Besprechungsräume in Ihrer Organisation haben möglicherweise unterschiedliche Hardwareanforderungen für die Installation oder Montage der Geräte. Beispielsweise ist die für die Montage des Geräts auf einem Glas, Gips, Trockenbau oder Holzvertäfelung erforderliche Hardware möglicherweise nicht identisch. Die verfügbaren Montageoptionen finden Sie in der Dokumentation des Gerätepartners.
 
 ## <a name="site-readiness"></a>Websitebereitschaft
 
-Während die bestellten Geräte an Ihre Organisation übermittelt werden, arbeiten Sie mit Ihren Netzwerken, Einrichtungen und audio-visuellen Teams zusammen, um sicherzustellen, dass die Bereitstellungsanforderungen erfüllt sind und dass jede Website und jeder Besprechungsort hinsichtlich Leistung und Netzwerk bereit ist.
+Während die bestellten Geräte an Ihre Organisation geliefert werden, arbeiten Sie mit Ihren Netzwerken, Einrichtungen und audio-visuellen Teams zusammen, um sicherzustellen, dass die Bereitstellungsanforderungen erfüllt sind und jeder Standort und jeder Besprechungsraum in Bezug auf Leistung und Netzwerk bereit ist.
 
-Unsere Empfehlungen für Teams Panels sind:
+Unsere Empfehlungen für Teams-Panels-Websites sind:
 
 - Dedizierte Ressourcenkonten
-- Netzteil (Panels unterstützen im Allgemeinen Power over Ethernet Plus (PoE+) für die Stromversorgung. Gerätespezifische Energieanforderungen finden Sie in der OEM-Dokumentation.)
+- Stromversorgung (Panels unterstützen in der Regel Power over Ethernet Plus (PoE+) für die Stromversorgung. Informationen zu gerätespezifischen Energieanforderungen finden Sie in der OEM-Dokumentation.)
 
 
-Informationen zur physischen Installation finden Sie in der OEM-Dokumentation. Falls Sie eine haben, verwenden Sie die Benutzererfahrung Ihres Audio-Visual-Teams, bevor Sie Geräte installieren und einhängen und die Verkabelung ausführen.
+Überlegungen zur physischen Installation finden Sie in der OEM-Dokumentation. Wenn Sie über eine solche Verfügen, verwenden Sie die Erfahrung Ihres audiovisualen Teams, bevor Sie Geräte installieren und einbinden und Verkabelungen ausführen.
 
 ## <a name="configuration-and-deployment"></a>Konfiguration und Bereitstellung
 
-Die Planung der Konfiguration und Bereitstellung umfasst die folgenden Hauptbereiche:
+Die Planung der Konfiguration und Bereitstellung umfasst die folgenden Schlüsselbereiche:
 
-- Bereitstellung des Ressourcenkontos
+- Ressourcenkontobereitstellung
 -  Tests
 
-### <a name="resource-account-provisioning"></a>Bereitstellung des Ressourcenkontos
+### <a name="resource-account-provisioning"></a>Ressourcenkontobereitstellung
 
-Jedes Teams-Panels erfordert ein Microsoft 365-Konto für Raumressourcen. Sie verwenden die Anmeldeinformationen für das Ressourcenkonto, um sich auf Microsoft Teams Panels bei einer App anmelden.
+Jedes Teams-Panels-Gerät erfordert ein Microsoft 365-Raumressourcenkonto. Sie verwenden die Anmeldeinformationen für das Ressourcenkonto, um sich auf dem Panels-Gerät bei der Microsoft Teams-App anzumelden.
 
-Um ein Microsoft 365-Ressourcenkonto für Teams-Panels zu erstellen, empfehlen wir den Kauf einer [Microsoft Teams-Räume Standard-Lizenz](#license-requirement). Informationen zum Erstellen eines Ressourcenkontos und zuweisen einer Lizenz finden Sie unter Erstellen von Ressourcenkonten für Räume und [freigegebene Teams Geräte](../rooms/with-office-365.md).
+Zum Einrichten eines Microsoft 365-Ressourcenkontos für Teams-Bereiche wird empfohlen, eine [Microsoft Teams-Räume Standard-Lizenz](#license-requirement) zu erwerben. Informationen zum Erstellen eines Ressourcenkontos und zum Zuweisen einer Lizenz finden [Sie unter Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
->- Wenn Sie bereits ein Raumressourcenkonto für den Besprechungsraum eingerichtet haben, in dem Sie Panels installieren, melden Sie sich mit demselben Konto für Raumressourcen beim Gerät für Panels an. Stellen Sie jedoch sicher, dass dem Raumressourcenkonto die Lizenz Microsoft Teams-Räume Standard zugewiesen ist, um es als Ressourcenkonto für Panels zu verwenden.
+>- Wenn Sie bereits ein Raumressourcenkonto für den Besprechungsraum eingerichtet haben, in dem Sie Panels installieren, verwenden Sie dasselbe Raumressourcenkonto, um sich beim Panels-Gerät anzumelden. Stellen Sie jedoch sicher, dass dem Raumressourcenkonto die Microsoft Teams-Räume Standard Lizenz zugewiesen ist, um es als Panels-Ressourcenkonto zu verwenden.
 >
->- Wenn Sie bereits eine Microsoft Teams-Räume in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, müssen Sie keine separate Lizenz für die Bereitstellung von Panels erwerben. Der Administrator meldet sich mit den gleichen Anmeldeinformationen wie der Administrator Microsoft Teams-Räume für den gleichen Bereich an.
+>- Wenn Sie bereits eine Microsoft Teams-Räume in dem Besprechungsbereich bereitgestellt haben, in dem Sie Teams-Panels installieren, müssen Sie keine separate Lizenz für die Bereitstellung von Panels erwerben. Der Administrator meldet sich mit denselben Anmeldeinformationen wie die Microsoft Teams-Räume für denselben Speicherplatz beim Panels-Gerät an.
 >
->- Bei großen Besprechungsräumen, z. B. Konferenzräumen oder Konferenzräumen mit mehreren Eingängen, können Sie an jedem Eingang ein Panelgerät einblenden. Mehrere Bereiche, die zu einem einzelnen Besprechungsraum gehören, verwenden dasselbe Ressourcenkonto und melden sich mit denselben Anmeldeinformationen an. Sie müssen keine separaten Ressourcenkonten für die einzelnen Panels für denselben Bereich erstellen.
+>- Für große Besprechungsräume, z. B. Bretträume oder Konferenzräume, mit mehreren Eingängen, können Sie an jedem Eingang ein Paneelgerät montieren. Mehrere Bereiche, die zu einem einzelnen Besprechungsraum gehören, teilen sich dasselbe Ressourcenkonto und melden sich mit denselben Anmeldeinformationen an. Sie müssen keine separaten Ressourcenkonten für die einzelnen Panels für denselben Platz erstellen.
 
 > [!TIP]
-> Es wird empfohlen, das Ressourcenkonto bereits vor der tatsächlichen Installation des Teams-Panels zu erstellen.
-> Erwägen Sie die Verwendung von Benennungskonventionen für Teams Ressourcenkonto der Panels. Sorgen Sie dafür, dass die Anzeigenamen für ihre Microsoft 365 aussagekräftige und leicht verständliche Ressourcenkonten sind. Dies sind die Namen, die Benutzern angezeigt werden, wenn sie Besprechungsräume durchsuchen, während sie Besprechungen in Outlook oder Teams planen.
+> Es wird empfohlen, das Ressourcenkonto rechtzeitig vor der eigentlichen Installation von Teams-Panels zu erstellen.
+> Erwägen Sie die Verwendung von Benennungskonventionen für das Ressourcenkonto für Teams-Panels. Gestalten Sie die Anzeigenamen für Ihre Microsoft 365-Ressourcenkonten beschreibend und leicht verständlich. Dies sind die Namen, die Benutzern angezeigt werden, wenn sie Besprechungsräume durchsuchen, während sie Besprechungen in Outlook- oder Teams-Kalendern planen.
 
 ### <a name="testing"></a> Tests
 
-Nachdem Sie Panels bereitgestellt haben, sollten Sie sie testen. Überprüfen Sie, [ob die von den Teams unterstützten](#features-supported-by-teams-panels) Features auf dem bereitgestellten Gerät funktionieren. Versuchen Sie, mehrere Besprechungen für verschiedene Zeitfenster über Teams oder Outlook 365 auf Ihrem Computer zu erstellen. Überprüfen Sie, ob die Bereiche die Besprechungsdetails und die Verfügbarkeit für die geplanten Besprechungen ordnungsgemäß anzeigen. Verwenden Sie die **Schaltfläche Reservieren** , um zu überprüfen, ob Sie einen verfügbaren Besprechungsraum direkt vom Gerät aus reservieren können.
+Nachdem Sie Panels bereitgestellt haben, sollten Sie sie testen. Überprüfen Sie, ob die [von Teams-Bereichen unterstützten Features](#features-supported-by-teams-panels) auf dem bereitgestellten Gerät funktionieren. Versuchen Sie, mehrere Besprechungen für verschiedene Zeitfenster über Teams oder Outlook 365 auf Ihrem Computer zu erstellen. Überprüfen Sie, ob in den Bereichen die Besprechungsdetails und die Verfügbarkeit für die geplanten Besprechungen korrekt angezeigt werden. Versuchen Sie, mithilfe der Schaltfläche " **Reservieren** " zu überprüfen, ob Sie einen verfügbaren Besprechungsraum direkt vom Gerät reservieren können.
 
-## <a name="manage-teams-panels-in-your-organization"></a>Verwalten Teams Panels in Ihrer Organisation
+## <a name="manage-teams-panels-in-your-organization"></a>Verwalten von Teams-Bereichen in Ihrer Organisation
 
-Um Ihre Geräte Teams zu verwalten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams** **DevicesPanels** > . Hier können Sie das Gerätekonfigurationsprofil ändern, Updates verwalten, Geräte neu starten, Gerätetags hinzufügen und entfernen und vieles mehr. Weitere Informationen finden Sie unter [Verwalten ihrer Geräte in Teams](device-management.md).
+Um Ihre Teams-Panels-Geräte zu verwalten, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **"Teams-Gerätebereiche** > **"**. Von hier aus können Sie das Gerätekonfigurationsprofil ändern, Updates verwalten, Geräte neu starten, Gerätetags hinzufügen und entfernen und vieles mehr. Weitere Informationen finden [Sie unter Verwalten Ihrer Geräte in Teams](device-management.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Verwenden von Microsoft Teams-Panels](use-teams-panels.md)
+[Verwenden von Microsoft Teams-Panels-Geräten](use-teams-panels.md)
 
-## <a name="see-also"></a>Mehr dazu
+## <a name="see-also"></a>Siehe auch
 
-[Microsoft Teams zu Teams-Panels](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
+[Microsoft Teams-Blog in Teams-Bereichen](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
-[Erste Schritte mit Teams Panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+[Erste Schritte mit Teams-Bereichen](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
-[Teams Marketplace für Teams Panels](https://office.com/teamsdevices)
+[Teams Panels Marketplace](https://office.com/teamsdevices)
 
-[Geräte, die unter Microsoft Teams Zertifizierungsprogramm für Panels zertifiziert wurden](teams-ip-phones.md#certified-teams-panels)
+[Geräte, die im Rahmen des Zertifizierungsprogramms für Microsoft Teams-Panels zertifiziert sind](teams-ip-phones.md#certified-teams-panels)
