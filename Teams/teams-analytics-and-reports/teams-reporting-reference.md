@@ -18,12 +18,12 @@ description: In diesem Artikel erfahren Sie mehr über die Teams-Berichte, die i
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f0891b9267039d8c07d437cb8e67eb2b982a0016
-ms.sourcegitcommit: cf2f2d23e6dcda0c03f22a5800a210a1c88e583f
+ms.openlocfilehash: ad17bd2932786253f7dd3a925856d46780032204
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65883548"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819310"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -31,12 +31,12 @@ Eine neue Analyse- und Berichterstellungserfahrung für Microsoft Teams ist im M
 
 ## <a name="how-to-access-the-reports"></a>So greifen Sie auf die Berichte zu
 
-Um auf die Berichte zugreifen zu können, müssen Sie ein globaler Administrator in Microsoft 365 oder Office 365, globaler Leser in Microsoft 365 oder Office 365, Teams-Dienstadministrator oder Skype for Business-Administrator sein. Weitere Informationen zu Teams-Administratorrollen und den Berichten, auf die jede Administratorrolle zugreifen kann, finden [Sie unter Verwenden von Teams-Administratorrollen zum Verwalten von Teams](../using-admin-roles.md).
+Um auf die Berichte zugreifen zu können, müssen Sie ein globaler Administrator in Microsoft 365 oder Office 365, globaler Leser in Microsoft 365 oder Office 365, Teams-Dienstadministrator oder Skype for Business Administrator sein. Weitere Informationen zu Teams-Administratorrollen und den Berichten, auf die jede Administratorrolle zugreifen kann, finden [Sie unter Verwenden von Teams-Administratorrollen zum Verwalten von Teams](../using-admin-roles.md).
 
 Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie in der linken **Navigationsleiste Analytics & Berichte** aus, und wählen Sie dann unter **"Berichte anzeigen**" den Bericht aus, den Sie ausführen möchten.
 
 > [!NOTE]
-> Die Berichte im Microsoft Teams Admin Center sind getrennt von den Aktivitätsberichten für Teams, die Teil der Microsoft 365-Berichte im Microsoft 365 Admin Center sind. Weitere Informationen zu den Aktivitätsberichten im Microsoft 365 Admin Center finden Sie [unter Teams-Aktivitätsberichte im Microsoft 365 Admin Center](../teams-activity-reports.md)
+> Die Berichte im Microsoft Teams Admin Center sind getrennt von den Aktivitätsberichten für Teams, die Teil der Microsoft 365-Berichte in der Microsoft 365 Admin Center sind. Weitere Informationen zu den Aktivitätsberichten im Microsoft 365 Admin Center finden Sie [in den Teams-Aktivitätsberichten in der Microsoft 365 Admin Center](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Referenz zur Teams-Berichterstellung
 
@@ -55,20 +55,20 @@ Wir verbessern kontinuierlich die Teams-Berichterstellung und fügen Features un
 |[PSTN-Nutzungsbericht für Teams – Anrufpläne](pstn-usage-report.md#calling-plans)|  Zeitstempel<br>Benutzername<br>Telefonnummer<br>Anruftyp <br>Angerufen an<br>Nach Land oder Region <br>Aufgerufen von <br>Aus Land oder Region<br>Berechnen<br>Währung<br>Dauer<br>Inland/International<br>Anruf-ID<br>Zahlentyp<br>Land oder Region<br>Konferenz-ID<br>Funktion (Lizenz)|
 |[PSTN-Nutzungsbericht für Teams – Direct Routing](pstn-usage-report.md#direct-routing)  |  Zeitstempel<br>Anzeigename<br>SIP-Adresse<br>Telefonnummer <br>Anruftyp<br>Angerufen an<br>Startzeitpunkt<br>Einladungszeitpunkt<br>Fehlerzeit<br>Endzeitpunkt<br>Dauer<br>Zahlentyp<br>Medienumgehung<br>SBC-FQDN<br>Azure-Region<br>Ereignistyp<br>Endgültiger SIP-Code<br>Endgültige Microsoft-Untercodierung<br>Letzter SIP-Ausdruck<br>Korrelations-ID  |
 |[Teams Information Protection-Lizenzbericht](information-protection-license-report.md)  | <br>Gibt an, ob Benutzer über gültige Lizenzen zum Pushen ihrer Nachrichten über Änderungsbenachrichtigungen verfügen.</br><br>Gesamtanzahl der von einem Benutzer ausgelösten Änderungsbenachrichtigungsereignisse<br><br>Welche Apps überwachen organisationsweite Änderungsbenachrichtigungsereignisse<br>|
-|[Nutzungsbericht "Virtuelle Besuche in Teams"](virtual-visits-usage-report.md)  | Anzahl virtueller Termine<br>Anzahl der Bookings-Termine<br>Anzahl der in teams electronic health records (EHR) integrierten Termine<br>Durchschnittliche Dauer eines Termins<br>Durchschnittliche Wartezeit der Teilnehmer im Wartebereich<br>Startzeitpunkt<br>Besprechungs-ID<br>Wartezeit des Wartebereichs<br>Dauer<br>Status<br>Produkttyp<br>Teilnehmer<br>GESENDETE SMS
-|[Microsoft Teams-VNR-Connector – Bericht "Virtuelle Termine"](../expand-teams-across-your-org/healthcare/ehr-admin-reports.md) | Startzeitpunkt<br>Dauer<br>Primär (Name des Besprechungsorganisators)<br>E-Mail des Primären (E-Mail des Besprechungsorganisators)<br>Abteilung<br>Telefonzentralen<br>Wartezeit des Wartebereichs<br>Gibt an, ob der Termin innerhalb der Zuteilungsgrenze liegt.
+|[Nutzungsbericht "Virtuelle Besuche in Teams"](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | Anzahl virtueller Termine<br>Anzahl der Bookings-Termine<br>Anzahl der in teams electronic health records (EHR) integrierten Termine<br>Durchschnittliche Dauer eines Termins<br>Durchschnittliche Wartezeit der Teilnehmer im Wartebereich<br>Startzeitpunkt<br>Besprechungs-ID<br>Wartezeit des Wartebereichs<br>Dauer<br>Status<br>Produkttyp<br>Teilnehmer<br>GESENDETE SMS
+|[Teams-EE-Connector Virtuelle Termine Bericht](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | Startzeitpunkt<br>Dauer<br>Primär (Name des Besprechungsorganisators)<br>E-Mail des Primären (E-Mail des Besprechungsorganisators)<br>Abteilung<br>Telefonzentralen<br>Wartezeit des Wartebereichs<br>Gibt an, ob der Termin innerhalb der Zuteilungsgrenze liegt.|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Anonymisieren der benutzerspezifischen Daten
 
 Um die Daten in Teams-Benutzeraktivitäten und Teams-Gerätenutzungsberichten anonym zu machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail und Microsoft Azure Active Directory-ID in Berichten und deren Exporten ausgeblendet.
 
-1. Wechseln Sie im Microsoft 365 Admin Center zu den **Organisationseinstellungen für Einstellungen**\>, und wählen Sie unter der Registerkarte "**Dienste**" die Option **"Berichte"** aus.
+1. Wechseln Sie in Microsoft 365 Admin Center zu den **Organisationseinstellungen "Einstellungen**\>", und wählen Sie auf der Registerkarte "**Dienste**" die Option "**Berichte**" aus.
     
-2. Wählen Sie **"Berichte**" und dann " **Verborgene Benutzer-, Gruppen- und Websitenamen in allen Berichten anzeigen"** aus. Diese Einstellung wird sowohl auf die Nutzungsberichte im Microsoft 365 Admin Center als auch auf das Teams Admin Center angewendet.
+2. Wählen Sie **"Berichte**" und dann " **Verborgene Benutzer-, Gruppen- und Websitenamen in allen Berichten anzeigen"** aus. Diese Einstellung wird sowohl auf die Nutzungsberichte in Microsoft 365 Admin Center als auch auf das Teams Admin Center angewendet.
   
 3. Wählen Sie **"Änderungen speichern" aus**.
 
 > [!NOTE]
 > Durch Aktivieren dieser Einstellung werden Informationen in [Teams-Benutzeraktivitätsberichten](user-activity-report.md) und [Teams-Gerätenutzungsberichten](device-usage-report.md) gelöscht. Es wirkt sich nicht auf andere Nutzungsberichte aus, die im Teams Admin Center verfügbar sind.
-> Diese Einstellung gilt auch für Microsoft 365-Nutzungsberichte im Microsoft 365 Admin Center, Microsoft Graph und Power BI.
+> Diese Einstellung gilt auch für Microsoft 365-Nutzungsberichte in Microsoft 365 Admin Center, Microsoft Graph und Power BI.

@@ -1,40 +1,45 @@
 ---
-title: Qualität der benutzerfreundlichen | Microsoft Teams | QoS-| Anrufqualität
-author: SerdarSoysal
-ms.author: serdars
+title: Quality of User Experience | Microsoft Teams | QoS-| Anrufqualität
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 'Der Administrator kann sich über die Aufgaben und Aktivitäten informieren, die zur Überwachung der Qualität und Nutzung der Microsoft Teams.'
+description: Admin können sich über die Aufgaben und Aktivitäten informieren, die für die Überwachung der Qualität und Nutzung von Microsoft Teams erforderlich sind.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Teams-upgrade-guidance
-  - seo-marvel-apr2020
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: dfc37ac16cbaf26380da21b78b84f3aa481ebaf5
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825519"
 ---
-
 # <a name="quality-of-experience-review-guide"></a>Leitfaden zur Überprüfung der Erlebnisqualität
 
-![Diagram highlighting Operational Excellence stage of upgrade journey.](media/upgrade-banner-op-excellence.png "Phasen des Upgradewegs, mit Betonung auf der Stufe &quot;Operational Excellence&quot;")
+![Diagramm, das die Stufe "Operational Excellence" der Upgrade-Reise hervorhebt.](media/upgrade-banner-op-excellence.png "Phasen der Upgradephase mit Schwerpunkt auf der Stufe &quot;Operational Excellence&quot;")
 
-Dieser Artikel ist Teil der Phase Operational Excellence Ihres Upgrades, die beginnt, sobald Sie das Upgrade von Skype for Business Teams.
+Dieser Artikel ist Teil der Phase "Operational Excellence" Ihrer Upgrade-Reise, die beginnt, sobald Sie Ihr Upgrade von Skype for Business auf Teams abgeschlossen haben.
 
 ## <a name="improve-and-monitor-call-quality"></a>Verbessern und Überwachen der Anrufqualität
 
-[Verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md) umfasst eine Reihe von Aktivitäten, die Anleitungen zur Verbesserung der Benutzerfreundlichkeit bewerten und Problembehebungsleitfäden in Schlüsselbereichen bereitstellen, die den größten Einfluss auf die Verbesserung der Benutzerfreundlichkeit haben, wie unten dargestellt.
+[Die Verbesserung und Überwachung der Anrufqualität für Teams](monitor-call-quality-qos.md) umfasst eine Reihe von Aktivitäten, die In den wichtigsten Bereichen, die die größte Auswirkung auf die Verbesserung der Benutzerfreundlichkeit haben, bewerten und Anleitungen zur Behebung bereitstellen, wie unten dargestellt.
 
-![Abbildung der Wichtigsten Bereiche, die während einer Überprüfung untersucht werden sollten](media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während der Überprüfung der Qualität der Benutzerfreundlichkeit untersucht werden sollten: Audio, Zuverlässigkeit und Ergebnisse der Benutzerumfrage.")
+![Abbildung der wichtigsten Bereiche, die während einer Überprüfung untersucht werden sollen.](media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Quality of Experience Review untersucht werden sollten: Audio, Zuverlässigkeit und Benutzerumfrageergebnisse.")
 
-Durch die kontinuierliche Bewertung und Behebung der im Leitfaden beschriebenen Bereiche können Sie ihr Potenzial verringern, die Benutzerfreundlichkeit zu beeinträchtigen. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
+Durch die kontinuierliche Bewertung und Behebung der im Leitfaden beschriebenen Bereiche können Sie deren Potenzial verringern, sich negativ auf die Benutzererfahrung zu auswirken. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 
 - Unvollständige Firewall- oder Proxykonfiguration
 
@@ -48,8 +53,8 @@ Durch die kontinuierliche Bewertung und Behebung der im Leitfaden beschriebenen 
 
 - Problematische Subnetze oder Netzwerkgeräte
 
-Der Schwerpunkt der Anleitung unter Verbessern und Überwachen der Anrufqualität für [Teams](monitor-call-quality-qos.md) liegt auf der Verwendung des Anrufqualitätsdashboards (Call Quality Dashboard, CQD) Online als primäres Tool zum Melden und Untersuchen der einzelnen beschriebenen Bereich. Dabei liegt der Schwerpunkt auf dem Audiobereich, um die Verbreitung und die Auswirkungen zu maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
+Die Anleitungen zur [Verbesserung und Überwachung der Anrufqualität für Teams](monitor-call-quality-qos.md) konzentrieren sich auf die Verwendung des Anrufqualitätsdashboards (CQD) Online als primäres Tool zum Melden und Untersuchen jedes beschriebenen Bereichs, wobei der Fokus auf Audio liegt, um die Akzeptanz und Auswirkungen zu maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
-Es wird dringend empfohlen, den Qualitäts-Champion frühzeitig zu benennen. Nachdem sie benannt wurden, sollten sie damit beginnen, sich mit den Inhalten unter Verbessern und [Überwachen der Anrufqualität](monitor-call-quality-qos.md) für Ihre Teams.
+Wir empfehlen dringend, den Qualitätspionier frühzeitig zu nominieren. Nachdem sie nominiert wurden, sollten sie beginnen, sich mit den Inhalten in ["Verbessern" vertraut zu machen und die Anrufqualität für Teams zu überwachen](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

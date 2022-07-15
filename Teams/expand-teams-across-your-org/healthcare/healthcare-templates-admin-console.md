@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Erfahren Sie, wie Sie die Teamvorlagen für das Gesundheitswesen im Microsoft Teams Admin Center und mit Microsoft Graph verwalten und verwenden können, um schnell und einfach Teams für Ihre Gesundheitsorganisation zu erstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78269b393c384af82e48284e3ffefe8785013975
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046001"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819440"
 ---
 # <a name="use-healthcare-team-templates"></a>Verwenden der Teamvorlagen für das Gesundheitswesen
 
@@ -73,7 +73,7 @@ Diese Vorlage ist für die Kommunikation und Zusammenarbeit zwischen mehreren St
 &sup1;App wurde dem Kanal als Registerkarte hinzugefügt
 ## <a name="use-team-templates-with-microsoft-graph"></a>Verwenden Sie Teamvorlagen mit Microsoft Graph
 
-Entwickler können Microsoft Graph verwenden, um Teams aus vorgefertigten Teamvorlagen zu erstellen. Weitere Informationen zur Verwendung von Teamvorlagen mit Microsoft Graph finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph](../../get-started-with-teams-templates.md), [Übersicht über die Microsoft Teams-API](/graph/teams-concept-overview?view=graph-rest-1.0) und [teamsTemplate-Ressourcentyp](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Weitere Informationen zur Verwendung von Teamvorlagen mit Microsoft Graph finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph](../../get-started-with-teams-templates.md), [Übersicht über die Microsoft Teams-API](/graph/teams-concept-overview), und [teamsTemplate-Ressourcentyp](/graph/api/resources/teamstemplate).
 
 Hier finden Sie die vorgefertigten Teamvorlagen für das Gesundheitswesen.
 ### <a name="ward"></a>Station
@@ -214,4 +214,4 @@ Um diese Vorlagen zu verwenden, ändern Sie die Eigenschaft „template@odata.bi
 - [Erstellen eines Teams aus einer Vorlage](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [Erste Schritte mit Teamvorlagen mittels Microsoft Graph](../../get-started-with-teams-templates.md)
-- [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](teams-in-hc.md)
+- [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)

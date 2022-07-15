@@ -1,7 +1,7 @@
 ---
-title: PowerShell-Skriptbeispiel – Exportieren von Managern und deren Directs
-author: SerdarSoysal
-ms.author: serdars
+title: PowerShell-Skriptbeispiel – Exportieren von Managern und deren direkten Berichten
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674177"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825669"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell-Skriptbeispiel – Exportieren von Managern und deren Directs
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>PowerShell-Skriptbeispiel – Exportieren von Managern und deren direkten Berichten
 
-Verwenden Sie dieses PowerShell-Skript, um eine Liste von Managern und deren Directs für Ihre Organisation zu exportieren. Verwenden Sie dieses Skript, um ein Mitarbeiter-Manager-Team für jeden Vorgesetzten mit den direkten Berichten als Teammitglieder zu erstellen.
+Verwenden Sie dieses PowerShell-Skript, um eine Liste der Manager und deren direkte Berichte für Ihre Organisation zu exportieren. Verwenden Sie dieses Skript, um ein Mitarbeiter-Manager-Team für jeden Vorgesetzten mit den direkten Berichten als Teammitglieder zu erstellen.
 
 Informationen zu diesem PowerShell-Skript finden [Sie unter Erstellen von Personen-Manager-Teams](../create-manager-directs-teams.md).
 

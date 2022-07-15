@@ -7,8 +7,8 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: serdars
-  author: SerdarSoysal
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   ms.reviewer: shalenc
   manager: serdars
   ms.service: msteams
@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3ada1b46f057c4c1f6f7d715c038c78e1e0eecd1
-  ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+  ms.openlocfilehash: 101be689ff6fba7facf7a550d3affd31cf423d5a
+  ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 06/01/2022
-  ms.locfileid: "65823014"
+  ms.lasthandoff: 07/15/2022
+  ms.locfileid: "66825529"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   Posten Sie im Kommentarabschnitt unten auf der Seite "Nächste Schritte" dieses Lernprogramms.
 
 
-    Um uns Produktfeedback zu Teams zu geben, z. B. Ideen für neue Features, besuchen Sie [Teams Feedbackportal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+    Um uns Produktfeedback zu Teams zu geben, z. B. Ideen für neue Features, besuchen Sie bitte das [Teams-Feedbackportal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Besprechungen in Microsoft Teams
   durationInMinutes: 16
   content: "\nInformationen zu Besprechungen in Microsoft Teams finden Sie unter den folgenden Links:\n-   \"Besprechungen haben\" in [Besprechungen und Anrufen](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (geschätzte Lesezeit 6 Minuten)\n\n-   [Video: Sofortbesprechung](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1:45 Minuten)\n\n-   [Video: Geplante Besprechungen](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1:45 Minuten)\n\n-   [9 Tipps für Besprechungen in Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (Informationen zur Besprechungslobby, anonyme Teilnahme an Besprechungen und mehr, geschätzte Lesedauer: 6 Minuten)\n"
@@ -108,7 +108,7 @@ items:
 
     2.  Senden Sie uns Feedback:
         - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.
-        - Um uns Teams Produktfeedback zu geben oder ein neues Feature anzufordern, wechseln Sie zu [Teams Feedbackportal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+        - Um uns Teams-Produktfeedback zu geben oder ein neues Feature anzufordern, wechseln Sie zum [Teams-Feedbackportal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  Immer auf dem neuesten Stand:
         - Folgen Sie dem [Teams-Blog](https://aka.ms/teamsblog).
         - Lesen Sie die [Teams-Roadmap](https://aka.ms/O365Roadmap).

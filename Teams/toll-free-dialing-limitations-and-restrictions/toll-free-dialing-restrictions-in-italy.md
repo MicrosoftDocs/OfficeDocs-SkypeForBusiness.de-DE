@@ -1,32 +1,37 @@
 ---
-title: Gebührenfreie Wähleinschränkungen in Italien
-ms.author: serdars
-author: SerdarSoysal
+title: Einschränkungen für gebührenfreie Telefonnummern in Italien
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'davlick, krkilaru'
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Calling Plans
-description: 'So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigen Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder oder Regionen zum Wählen der gebührenfreien Nummer an.'
+- Calling Plans
+description: Auf diese Weise erfahren Sie, wie Sie gebührenfreie Telefonnummern in jedem Land/jeder Region wählen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite, die bestimmte Details, Einschränkungen und Beschränkungen für die gebührenfreie Dienstverfügbarkeit enthält, auf der gebührenfreier Dienst verfügbar ist. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugangscodes in den einzelnen Ländern oder Regionen an, um die gebührenfreie Nummer zu wählen.
+ms.openlocfilehash: 1cb50919d18ee7ed02596f2416f295b0545ac600
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825729"
 ---
+# <a name="toll-free-dialing-restrictions-in-italy"></a>Einschränkungen für gebührenfreie Telefonnummern in Italien
 
-# <a name="toll-free-dialing-restrictions-in-italy"></a>Gebührenfreie Wähleinschränkungen in Italien
-
-[Suchen Sie ein anderes Land oder eine andere Region](../toll-free-dialing-limitations-and-restrictions.md), oder informieren Sie sich zu den Einschränkungen und Einschränkungen für gebührenfreie Wählscheibe.
+[Suchen Sie ein anderes Land oder eine andere Region](../toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über Einschränkungen und Einschränkungen für gebührenfreie Telefonnummern.
 
 
 |**Details**|**Beschreibung**|
@@ -37,7 +42,7 @@ description: 'So können Sie herausfinden, wie Sie in den einzelnen Ländern/Reg
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Nicht abgedeckte Inseln/Gebiete  <br/> | Nicht zutreffend  <br/>  |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Ja  <br/> |
-|Verfügbarkeit über Mobilnetze  <br/> | Ja (einige Nummern sind möglicherweise Premium-Nummern) <br/> |
+|Verfügbarkeit über Mobilnetze  <br/> | Ja (einige Zahlen sind möglicherweise premium) <br/> |
 |Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Keine  <br/> |
 
 ## <a name="related-topics"></a>Verwandte Themen
