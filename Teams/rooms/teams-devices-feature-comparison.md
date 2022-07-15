@@ -20,21 +20,21 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: c7b61ebcc5fa650e7282b48d45862b2649783af7
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886702"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810167"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Vergleich von Teams-Geräten für gemeinsam genutzte Räume zwischen Windows und Android 
-Microsoft Teams-Räume-Umgebungen sind für Kunden konzipiert. Jeder Kunde hat einzigartige Anforderungen, weshalb Microsoft eine Breite von Optionen bietet, einschließlich Teams-Räume unter Windows und unter Android. 
+Microsoft Teams-Räume Benutzeroberflächen sind kundengerecht gestaltet. Jeder Kunde hat einzigartige Anforderungen, weshalb Microsoft eine Breite von Optionen bietet, einschließlich Teams-Räume unter Windows und unter Android. 
 
 Die Kernfunktionen sind auf beiden Plattformen verfügbar, sodass Endbenutzer immer eine großartige Audio- und Videoerfahrung haben, mit nur einer Fingereingabe an Besprechungen teilnehmen und auf inklusive Features wie Liveuntertitel zugreifen und die Hand heben können. 
 
-Da Microsoft neue Features in Teams und in Teams-Räume bereitstellt, bemühen wir uns, sie auf alle Plattformen zu bringen, aber Features können aufgrund einer Reihe von Faktoren, wie z. B. technischer Machbarkeit und Kundenfeedback für jede Plattform, zu unterschiedlichen Zeiten bereitgestellt werden. Dies bedeutet, dass einige Features möglicherweise unter Windows eingeführt werden, bevor sie auf die Android-Plattform kommen. 
+Da Microsoft neue Features in Teams und in Teams-Räume bringt, bemühen wir uns, sie auf alle Plattformen zu bringen, aber Features können aufgrund einer Reihe von Faktoren, z. B. technischer Machbarkeit und Kundenfeedback für jede Plattform, zu unterschiedlichen Zeiten bereitgestellt werden. Dies bedeutet, dass einige Features möglicherweise unter Windows eingeführt werden, bevor sie auf die Android-Plattform kommen. 
 
-Um Ihnen dabei zu helfen, welche Features auf verschiedenen Plattformen verfügbar sind, können Sie auf das nachstehende Diagramm verweisen, das regelmäßig aktualisiert wird. Nicht alle Teams-Räume-Features werden in dieser Liste enthalten sein. Weitere Informationen finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) und den Microsoft-Vertriebsmitarbeitern.    
+Um Ihnen dabei zu helfen, welche Features auf verschiedenen Plattformen verfügbar sind, können Sie auf das nachstehende Diagramm verweisen, das regelmäßig aktualisiert wird. Nicht alle Teams-Räume Features werden in dieser Liste enthalten sein. Weitere Informationen finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) und den Microsoft-Vertriebsmitarbeitern.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>Teams-Geräte für freigegebene Räume
 ### <a name="feature-comparison-between-windows-and-android"></a>Funktionsvergleich zwischen Windows und Android
@@ -77,10 +77,11 @@ Um Ihnen dabei zu helfen, welche Features auf verschiedenen Plattformen verfügb
 ||Überwachung der Integrität verbundener Peripheriegeräte |Verfügbar  |In Kürze verfügbar |
 ||Remotekonfiguration (Neustart, Einstellungen, Protokollsammlung) |Verfügbar  |Verfügbar |
 ||Automatische Updates der Teams-App |Verfügbar  |Verfügbar |
-||Automatische Geräteregistrierung |Verfügbar |In Kürze verfügbar |
+||Automatische Geräteregistrierung |Verfügbar |Verfügbar |
 ||Analyse der Anrufqualität |Verfügbar  |Verfügbar |
 |**Gut für / Raum**|Fokus (2-4 Personen) |Verfügbar  |Verfügbar |
 ||Klein (4-6 Personen) |Verfügbar  |Verfügbar |
 ||Mittel (6-12 Personen) |Verfügbar  |Verfügbar |
 ||Groß (12-16 Personen) |Verfügbar  |Verfügbar |
 ||Mehrzweckraum (mehr als 16 Personen) |Verfügbar  |Nicht verfügbar |
+

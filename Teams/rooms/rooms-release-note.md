@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Admin können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4ac16e7214a6340eb74f1c154661f78a50992ee
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529697"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810107"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -27,18 +27,19 @@ In diesem Artikel werden kumulative Verbesserungen in Microsoft Teams-Räume erl
 
 Es gibt zwei Arten von Updates für Teams-Räume: Teams-Räume-App-Updates und Teams-Webclient. 
 
-Teams-Räume App-Updates erfolgen entweder über den Microsoft Store oder über [manuelle Updates](manual-update.md). Dadurch wird die Universelle Windows-Plattform(UWP)-Anwendung aktualisiert, die lokal auf dem Gerät installiert ist.
+Teams-Räume App-Updates erfolgen entweder über den Microsoft Store oder über [manuelle Updates](manual-update.md). Aktualisierungen werden auf die Universelle Windows-Plattform(UWP)-Anwendung angewendet, die lokal auf dem Gerät installiert ist.
 
-Teams-Webclientupdates erfolgen über die Teams-Web-App-Übermittlungsdienste. Dies ist ein cloudbasierter Dienst, der kein Update für die lokale UWP-Anwendung erfordert, die auf dem Gerät installiert ist.
+Teams-Webclientupdates erfolgen über die Teams-Web-App-Übermittlungsdienste. Der Teams-Webclient ist ein cloudbasierter Dienst, für den kein Update für die lokale UWP-Anwendung erforderlich ist, die auf dem Gerät installiert ist.
 
 Weitere Informationen dazu, wie Teams-Updates ausgeführt werden, finden Sie [im Updateprozess von Teams.](../teams-client-update.md)
 
-Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen finden Sie [im Teams-Updateprozess](../teams-client-update.md#servicing-agreement) .
+Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen finden Sie im [Teams-Updateprozess](../teams-client-update.md#servicing-agreement).
 
 ## <a name="version-history"></a>Versionsverlauf
 
 |Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
@@ -92,6 +93,15 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen f
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams-Räume Einführung und Problemlösung von Features
 
+### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
+
+In diesem Update eingeführt:
+
+- Ändert die Versionsnummer, damit systeme, die von Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) betroffen sind, die App erneut registrieren können, damit sie gestartet werden kann. In dieser App-Version von 4.1.2.138.0 gibt es keine funktionalen Änderungen.
+
+> [!NOTE]
+> Weitere Informationen finden Sie unter "Teams-Räume App kann nach dem Update nicht gestartet werden" unter [Bekannte Probleme in Teams-Räume und Geräten](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues).
+
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 In diesem Update eingeführt:
@@ -102,7 +112,7 @@ In diesem Update eingeführt:
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 In diesem Update eingeführt:
-- IT-Administratoren können ein Teams-Räume-Gerät registrieren, um öffentliche Vorschaufeatures über die XML-Einstellung zu erhalten. Nach der Registrierung erhält das Gerät Beta-Features. Alle Features, die zu Betatests gehören, werden in [der öffentlichen Vorschau von Microsoft Teams angekündigt – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
+- IT-Administratoren können ein Teams-Räume-Gerät registrieren, um öffentliche Vorschaufeatures über die XML-Einstellung zu erhalten. Nach der Registrierung erhält das Gerät Beta-Features. Alle Features, die zu Betatests gehören, werden in [der öffentlichen Vorschau von Microsoft Teams angekündigt – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
 - IT-Administratoren können die Anzeigeauflösung im Vorderraum festlegen und remote über DIE XML-Einstellungen<sup>2</sup> skalieren.
 - IT-Administratoren können die Microsoft-Rauschunterdrückung über DIE XML-Einstellung<sup>3</sup> deaktivieren. 
 - IT-Administratoren können die Bereinigung von Downloadordnern auf dem Gerät über die Registrierungsschlüsseleinstellung 4 außer Kraft setzen<sup>.</sup>
