@@ -1,8 +1,8 @@
 ---
 title: Teams Richtlinienpakete-Pakete für das Gesundheitswesen
-ms.author: mabond
-author: mkbond007
-manager: serdars
+ms.author: v-lanachin
+author: LanaChin
+manager: samanro
 ms.reviewer: aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Erfahren Sie, wie Sie Team-Richtlinienpakete für Ihre Gesundheitsorganisation verwenden und verwalten.
-ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563723"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819420"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams Richtlinienpakete-Pakete für das Gesundheitswesen
 
@@ -101,9 +101,7 @@ Wenn einem Benutzer eine Richtlinie zugewiesen wurde und Sie ihm dann später ei
 
 #### <a name="assign-a-policy-package-to-a-group"></a>Ein Richtlinienpaket einer Gruppe zuweisen
 
-**Dieses Feature ist derzeit lediglich als private Vorschau verfügbar**
-
-Die Gruppenzuweisung von Richtlinienpaketen ermöglicht es Ihnen, mehrere Richtlinien einer Gruppe von Benutzern wie z. B. einer Sicherheitsgruppe oder einer Verteilerliste zuzuweisen. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert. Diese Methode wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, sie eignet sich aber auch für größere Gruppen.
+Mit der Zuweisung von Richtlinienpaketen zu Gruppen können Sie einer Gruppe von Benutzern mehrere Richtlinien zuweisen, z. B. eine Sicherheitsgruppe oder eine Verteilerliste. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert. Diese Methode wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, sie eignet sich aber auch für größere Gruppen.
 
 Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe zuweisen](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
@@ -111,7 +109,7 @@ Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe
 
 Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
 
-Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse hinzufügen. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
+Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer anhand ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse angeben. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

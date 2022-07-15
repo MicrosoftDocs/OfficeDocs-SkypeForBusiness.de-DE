@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e311fb94996e1c51bb5f73190539cd0e1f9f127
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: bfd87dbd6b8cc96377c8163294a3fda41934d801
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681896"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819260"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-App in Microsoft Teams
 
-Die Walkie Talkie-App in Teams bietet sofortige Push-to-Talk (PTT)-Kommunikation für Ihr Team und ist jetzt auf Android & iOS verfügbar. Walkie Talkie ermöglicht Benutzern die Verbindung mit ihrem Team über die gleichen zugrunde liegenden Kanäle, in denen sie Mitglieder sind. Nur Benutzer, die sich in einem Kanal mit Walkie Talkie verbinden, werden Zu Teilnehmern und können mithilfe von Push-to-Talk nacheinander miteinander kommunizieren.
+Die Walkie Talkie-App in Teams bietet eine sofortige Push-to-Talk (PTT)-Kommunikation für Ihr Team und ist jetzt unter Android & iOS verfügbar. Walkie Talkie ermöglicht Benutzern die Verbindung mit ihrem Team über die gleichen zugrunde liegenden Kanäle, in denen sie Mitglieder sind. Nur Benutzer, die sich in einem Kanal mit Walkie Talkie verbinden, werden Zu Teilnehmern und können mithilfe von Push-to-Talk nacheinander miteinander kommunizieren.
 
-Mit Walkie Talkie in Teams können Mitarbeiter in Service und Produktion jetzt sicher mit einer vertrauten PTT-Erfahrung kommunizieren, ohne sperrige Radios mit sich führen zu müssen, und Walkie Talkie arbeitet überall mit WLAN oder Mobilfunk-Internetverbindung.
+Mit Walkie Talkie in Teams können Mitarbeiter in Service und Produktion jetzt sicher mit einer vertrauten PTT-Erfahrung kommunizieren, ohne sperrige Radios mit sich führen zu müssen, und Walkie Talkie funktioniert überall mit WLAN oder Mobilfunk-Internetverbindung.
 
 > [!NOTE]
 > Walkie Talkie ist derzeit in China nicht verfügbar.
@@ -38,21 +38,21 @@ Mit Walkie Talkie in Teams können Mitarbeiter in Service und Produktion jetzt s
 
 ### <a name="deploying-walkie-talkie"></a>Bereitstellen von Walkie-Talkie
 
-Walkie Talkie wird auf Android Geräten mit Google Mobile Services (GMS) und iOS Geräten unterstützt.
+Walkie Talkie wird auf Android-Geräten mit Google Mobile Services (GMS) und iOS-Geräten unterstützt.
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Anheften von Walkie-Talkie an Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Verwenden Sie die maßgeschneiderte Frontline-App-Erfahrung, um Walkie Talkie und andere Apps an Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Verwenden der benutzerdefinierten Frontline-App-Erfahrung zum Anheften von Walkie Talkie und anderen Apps an Teams
 
-Die maßgeschneiderte Frontline-App-Erfahrung in Teams heftet die relevantesten Apps in Teams für Benutzer an, die über eine [F-Lizenz verfügen](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Angeheftete Apps umfassen Walkie-Talkie, Schichten, Aufgaben und Genehmigungen. Standardmäßig ist dieses Feature aktiviert, sodass Ihre Mitarbeiter in Service und Produktion eine out-of-the-box-Erfahrung erhalten, die auf ihre Anforderungen zugeschnitten ist.
+Die maßgeschneiderte Frontline-App-Erfahrung in Teams heftet die relevantesten Apps in Teams für Benutzer an, die über eine [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) verfügen. Angeheftete Apps umfassen Walkie Talkie, Schichten, Aufgaben und Genehmigungen. Standardmäßig ist dieses Feature aktiviert, sodass Ihre Mitarbeiter in Service und Produktion eine out-of-the-box-Erfahrung erhalten, die auf ihre Anforderungen zugeschnitten ist.
 
-Die Apps werden an die App-Leiste angeheftet – die Leiste auf der Seite des Teams Desktopclients und am unteren Rand der Teams mobilen Clients, auf die Benutzer schnell und einfach zugreifen können.
+Die Apps sind an die App-Leiste angeheftet – die Leiste auf der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients, auf die Benutzer schnell und einfach zugreifen können.
 
-Weitere Informationen, einschließlich der Funktionsweise der Umgebung mit von Ihnen festgelegten App-Richtlinien, finden Sie unter ["Anpassen Teams Apps für Mitarbeiter in Service und Produktion](pin-teams-apps-based-on-license.md)".
+Weitere Informationen, einschließlich der Funktionsweise der Umgebung mit von Ihnen festgelegten App-Richtlinien, finden Sie unter ["Anpassen von Teams-Apps für Mitarbeiter in Service und Produktion](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)".
 
 #### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>Verwenden einer App-Setuprichtlinie zum Anheften von Walkie Talkie an Teams
 
-Mit App-Setuprichtlinien können Sie Teams anpassen, um Apps anzuheften, die für Ihre Benutzer in Ihren Benutzern am wichtigsten sind.
+Mit App-Setuprichtlinien können Sie Teams so anpassen, dass Apps angeheftet werden, die für Ihre Benutzer in Ihren Benutzern am wichtigsten sind.
 
 Um die Walkie Talkie-App für Ihre Benutzer anzuheften, können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
 
@@ -60,7 +60,7 @@ Um die Walkie Talkie-App für Ihre Benutzer anzuheften, können Sie die globale 
 
 ### <a name="network-documentation"></a>Netzwerkdokumentation
 
-Walkie Talkie in Teams erfordert Eine Internetverbindung und unter den Netzwerkbedingungen sind für eine optimale Erfahrung erforderlich.
+Walkie Talkie in Teams erfordert Eine Internetverbindung und unter den Netzwerkbedingungen ist für eine optimale Benutzererfahrung erforderlich.
 
 |Metrik | Erforderlich |
 |---|---|
@@ -85,24 +85,24 @@ Mitarbeiter in Service und Produktion müssen häufig sprechen und Walkie-Talkie
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
   - Kabelgebundene Headsets (nur Android)
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **Robuste Android Telefone**
+- **Robuste Android-Smartphones**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    - Manuelles Setup – Navigieren Sie bei installiertem Teams zu Einstellungen > Erweiterten Features > XCover/Active-Taste. Aktivieren Sie "XCover-Taste mit App steuern", und wählen Sie "Teams" aus.
+    - Manuelles Setup : Navigieren Sie bei installiertem Teams zu Einstellungen > Erweiterten Features > XCover/Active-Taste. Aktivieren Sie "XCover-Taste mit App steuern", und wählen Sie "Teams" aus.
     - [MDM-Setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
   - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html), [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
-    - Manuelle Einrichtung – Bei installiertem Teams funktioniert die dedizierte PTT-Schaltfläche (LEFT_TRIGGER_2) standardmäßig mit Walkie Talkie
+    - Manuelles Setup – Wenn Teams installiert ist, funktioniert die dedizierte PTT-Schaltfläche (LEFT_TRIGGER_2) standardmäßig mit Walkie Talkie
     
 > [!NOTE]
-> Diese Geräte sind nicht Teams zertifiziert. Sie wurden für die Zusammenarbeit mit Teams Walkie Talkie überprüft.
+> Diese Geräte sind nicht teams-zertifiziert. Sie wurden für die Zusammenarbeit mit Teams Walkie Talkie überprüft.
 
 ### <a name="license-requirements"></a>Lizenzanforderungen
 
-Die Walkie Talkie-App ist in allen kostenpflichtigen Lizenzen von Teams in [Office 365-Abonnements](/office365/servicedescriptions/teams-service-description) enthalten. Weitere Informationen zum Abrufen von Teams finden Sie unter [Gewusst wie Zugriff auf Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+Die Walkie Talkie-App ist in allen kostenpflichtigen Lizenzen von Teams in [Office 365 Abonnements](/office365/servicedescriptions/teams-service-description) enthalten. Weitere Informationen zum Abrufen von Teams finden Sie [Gewusst wie Zugriff auf Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## <a name="further-information"></a>Weitere Informationen
 
 - IT-Administratoren können die Kontrolle darüber behalten, wer Walkie Talkie über App-Richtlinien verwendet.
-- Wenn Ihre Mitarbeiter in Service und Produktion mobile Daten für die Kommunikation über Teams verwenden, verwendet Walkie Talkie dieselbe Methode.
+- Wenn Ihr Mitarbeiter in Service und Produktion mobile Daten für die Kommunikation über Teams verwendet, verwendet Walkie Talkie dieselbe Methode.
 - Walkie Talkie sollte in Situationen mit geringer Bandbreite oder in Situationen, in denen Ihr Smartphone verbunden ist und funktioniert, gut funktionieren. Walkie Talkie funktioniert nicht, wenn überhaupt keine Verbindung besteht.
 
 Weitere Informationen zur Endbenutzererfahrung finden Sie unter:

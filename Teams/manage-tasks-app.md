@@ -1,8 +1,8 @@
 ---
 title: Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cff25b181af1f5280834080bb2308c9ab9bbc8b0
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 1749c4b21c6b67f40eddd437ff0766918b5dc5df
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646394"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819270"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
 
@@ -62,7 +62,7 @@ Mit Tasks erhalten die Benutzer eine Desktop-, Web- und mobile Erfahrung. Wenn T
 
 Tasks ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Center zu **Teams** **appsManage-Apps** > .
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Centers zu **"Teams-Apps** > **verwalten"**.
 2. Führen Sie in der Liste der Apps eine der folgenden Aktionen aus:
 
     - Wenn Sie Tasks für Ihre Organisation deaktivieren möchten, suchen Sie nach der Tasks-App, wählen Sie sie aus, und wählen Sie dann **Blockieren** aus.
@@ -77,17 +77,17 @@ Wenn Sie die Nutzung von Tasks für bestimmte Benutzer in Ihrer Organisation zul
 
 ### <a name="pin-tasks-to-teams"></a>Aufgaben an Teams anheften
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Verwenden Sie die maßgeschneiderte App-Erfahrung in Service und Produktion, um Aufgaben und andere Apps an Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Verwenden der benutzerdefinierten Frontline-App-Erfahrung zum Anheften von Aufgaben und anderen Apps an Teams
 
-Die maßgeschneiderte Frontline-App-Erfahrung in Teams heftet die relevantesten Apps in Teams für Benutzer an, die über eine [F-Lizenz verfügen](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Angeheftete Apps umfassen Aufgaben, Walkie-Talkie, Schichten und Genehmigungen. Standardmäßig ist dieses Feature aktiviert, sodass Ihre Mitarbeiter in Service und Produktion eine out-of-the-box-Erfahrung erhalten, die auf ihre Anforderungen zugeschnitten ist.
+Die maßgeschneiderte Frontline-App-Erfahrung in Teams heftet die relevantesten Apps in Teams für Benutzer an, die über eine [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) verfügen. Angeheftete Apps umfassen Aufgaben, Walkie-Talkie, Schichten und Genehmigungen. Standardmäßig ist dieses Feature aktiviert, sodass Ihre Mitarbeiter in Service und Produktion eine out-of-the-box-Erfahrung erhalten, die auf ihre Anforderungen zugeschnitten ist.
 
-Die Apps werden an die App-Leiste angeheftet – die Leiste auf der Seite des Teams Desktopclients und am unteren Rand der Teams mobilen Clients, auf die Benutzer schnell und einfach zugreifen können.
+Die Apps sind an die App-Leiste angeheftet – die Leiste auf der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients, auf die Benutzer schnell und einfach zugreifen können.
 
-Weitere Informationen, einschließlich der Funktionsweise der Umgebung mit von Ihnen festgelegten App-Richtlinien, finden Sie unter ["Anpassen Teams Apps für Mitarbeiter in Service und Produktion](pin-teams-apps-based-on-license.md)".
+Weitere Informationen, einschließlich der Funktionsweise der Umgebung mit von Ihnen festgelegten App-Richtlinien, finden Sie unter ["Anpassen von Teams-Apps für Mitarbeiter in Service und Produktion](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)".
 
 #### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Verwenden einer App-Setuprichtlinie, um Tasks an Teams anzuheften
 
-Mit App-Setuprichtlinien können Sie Teams anpassen, um Apps anzuheften, die für Ihre Benutzer in Ihren Benutzern am wichtigsten sind.
+Mit App-Setuprichtlinien können Sie Teams so anpassen, dass Apps angeheftet werden, die für Ihre Benutzer in Ihren Benutzern am wichtigsten sind.
 
 Wenn Sie die Tasks-App für Ihre Benutzer anheften möchten, können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Setuprichtlinien in Teams](teams-app-setup-policies.md).
 
@@ -104,7 +104,8 @@ Mit der Aufgabenveröffentlichung kann Ihre Organisation Aufgabenlisten veröffe
 - Personen im Veröffentlichungsteam, z. B. die Unternehmens- und Regionalleitung, können Aufgabenlisten erstellen und diese in bestimmten Teams veröffentlichen.
 
     :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="Screenshot der Aufgabenveröffentlichung." lightbox="media/manage-tasks-app-publish.png":::
-- Manager in den Empfängerteams können die veröffentlichten Aufgabenlisten überprüfen und Teammitgliedern einzelne Aufgaben zuweisen. :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="Screenshot der Zuweisung einer Aufgabe." lightbox="media/manage-tasks-app-assign.png":::
+- Manager in den Empfängerteams können die veröffentlichten Aufgabenlisten überprüfen und Teammitgliedern einzelne Aufgaben zuweisen.
+    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="Screenshot des Zuweisens einer Aufgabe." lightbox="media/manage-tasks-app-assign.png":::
 - Mitarbeiter in Service und Produktion verfügen über eine einfache mobile Erfahrung, um die ihnen zugewiesenen Aufgaben zu sehen. Sie können Fotos anfügen, um gegebenenfalls ihre Arbeit zu zeigen und ihre Aufgaben als erledigt kennzeichnen.
 - Herausgeber und Manager können Berichte anzeigen, um die Zuordnung und den Erledigungsstatus von Aufgaben auf jeder Ebene zu sehen, einschließlich sortiert nach Standort (Team), Aufgabenliste und individueller Aufgabe.
     :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="Screenshot der veröffentlichten Aufgaben." lightbox="media/manage-tasks-app-reporting.png":::

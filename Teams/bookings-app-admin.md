@@ -1,8 +1,8 @@
 ---
 title: Verwalten der Bookings-App in Microsoft Teams
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Erfahren Sie, wie Sie die Bookings-App in Teams für Benutzer in Ihrer Organisation verwalten.
-ms.openlocfilehash: 45ce6c29cd7bfbaedf53c1b75178142a925157cb
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695038"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819290"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Verwalten der Bookings-App in Microsoft Teams
 
-Die Bookings-App in Microsoft Teams bietet eine einfache Möglichkeit zum Planen von persönlich und virtuellen Terminen. Beispiele: Besuche im Gesundheitswesen, Finanzberatungen, Interviews, Kundensupport und Bürozeiten für Bildungseinrichtungen. Weitere Informationen finden Sie unter [Virtuelle Termine mit Teams und der Bookings-App](expand-teams-across-your-org/bookings-virtual-visits.md).
+Die Bookings-App in Microsoft Teams bietet eine einfache Möglichkeit zum Planen von persönlich und virtuellen Terminen. Beispiele: Besuche im Gesundheitswesen, Finanzberatungen, Interviews, Kundensupport und Bürozeiten für Bildungseinrichtungen. Weitere Informationen finden Sie unter [Virtuelle Termine mit Teams und der Bookings-App](/microsoft-365/frontline/bookings-virtual-visits).
 
 Planer können mehrere Abteilungs- und Mitarbeiterkalender und die Kommunikation mit internen und externen Teilnehmern über eine einzige Oberfläche verwalten. Virtuelle Termine werden über Microsoft Teams-Besprechungen abgehalten, die robuste Videokonferenzfunktionen bieten.
 
@@ -100,7 +100,7 @@ Um Feedback zu senden, wählen Sie unten in der linken Navigationsleiste von Tea
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-[Verwalten der Teilnahmeerfahrung für virtuelle Teams-Termine in Browsern](expand-teams-across-your-org/browser-join.md)
+[Verwalten der Teilnahmeerfahrung für virtuelle Teams-Termine in Browsern](/microsoft-365/frontline/browser-join)
 
 
   [Bookings-Dokumentation für Endbenutzer](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
