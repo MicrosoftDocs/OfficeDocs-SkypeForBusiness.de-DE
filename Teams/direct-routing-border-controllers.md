@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche Session Border Controller (SBCs) für Direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823547"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838850"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Für Direct Routing zertifizierte Session Border Controller
 
@@ -178,3 +178,6 @@ In der folgenden Tabelle sind Geräte aufgeführt, die für Interoperabilität z
 Beachten Sie die Zertifizierung, die einer Hauptversion erteilt wurde. Das bedeutet, dass Firmware mit einer beliebigen Anzahl in der SBC-Firmware nach der Hauptversion unterstützt wird.
 
 Feedback zu Teams, z. B. Ideen für neue Features, finden Sie im [Microsoft-Feedbackportal](https://feedbackportal.microsoft.com/).
+
+> [!NOTE]
+> Erneute Medienadressierung wird nicht unterstützt. Wenn der SBC während eines Direct Routing-Anrufs eine neue Medien-IP an Teams Direct Routing sendet, obwohl diese in der SIP-Signalisierung ausgehandelt wird, werden die Medien nie von Teams Direct Routing an die neue IP-Adresse gesendet.

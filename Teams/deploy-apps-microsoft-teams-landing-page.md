@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615861"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838860"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Informationen zu Apps in Microsoft Teams
 
@@ -83,9 +83,15 @@ Entwickler können eine App querladen, um sie den Mitgliedern eines bestimmten T
 
 Wenn Sie das Querladen nicht zulassen, können Entwickler ihre Apps weiterhin in einem [Testmandanten](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant) testen. Sobald die Entwicklung benutzerdefinierter Apps abgeschlossen ist, fordern Entwickler Administratoren auf, ihre benutzerdefinierte App Endbenutzern zur Verfügung zu stellen. Weitere Informationen finden Sie unter [So veröffentlichen Sie eine benutzerdefinierte App](/microsoftteams/upload-custom-apps). Als Administrator können Sie die Verwendung einer benutzerdefinierten App für bestimmte Benutzer zulassen oder verweigern.
 
-### <a name="about-app-templates"></a>Informationen zu App-Vorlagen
+## <a name="about-app-templates"></a>Informationen zu App-Vorlagen
 
-App-Vorlagen für Teams sind funktionale, produktionsbereite Beispiel-Apps, die von Microsoft erstellt wurden, um beliebte Anwendungsfälle zu veranschaulichen, bewährte Methoden für die App-Entwicklung zu präsentieren und Open-Source-Apps bereitzustellen, die Entwickler erweitern können, um benutzerdefinierte Apps zu erstellen. Die Entwickler Ihrer Organisation passen App-Vorlagen mit einfachen Änderungen am in GitHub verfügbaren Code an ihre Anforderungen an. Als Administrator stellen Sie diese Apps als benutzerdefinierte Apps für die Endbenutzer bereit.
+App-Vorlagen für Teams sind funktionale und produktionsbereite Beispiel-Apps, die von Microsoft erstellt wurden, um Folgendes zu erreichen:
+
+* Veranschaulichen der beliebten Anwendungsfälle
+* Präsentieren bewährter Methoden für die App-Entwicklung
+* Bereitstellen von Open Source-Apps, die Entwickler erweitern können, um benutzerdefinierte Apps zu erstellen
+
+Die Entwickler Ihrer Organisation passen App-Vorlagen mit einfachen Änderungen am in GitHub verfügbaren Code an. Sie stellen diese Apps als benutzerdefinierte Apps für Ihre Endbenutzer bereit, um die Anforderungen ihrer Organisation zu erfüllen.
 
 Weitere Informationen finden Sie unter [Microsoft Teams-App-Vorlagen](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
