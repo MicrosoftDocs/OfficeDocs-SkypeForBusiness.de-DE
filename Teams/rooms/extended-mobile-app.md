@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Mobile Anwendungserweiterung für Teams-Räume
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: cfeb5573ce164ea136ba3617fe73661f8ac4ca97
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046101"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842321"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>Teams-Räume mobile Clientanwendungsfeatures
 
 Es kann vorkommen, dass Sie Teams-Räume Managed Services (MTMS) von Ihrem mobilen Gerät aus verwalten müssen. Die mobile App verfügt über viele Funktionen, die Sie von Ihrem Mobilen oder Tablet-Gerät aus verwalten können.
 ## <a name="before-you-begin"></a>Bevor Sie beginnen
 
-Sie müssen ein Administrator in einer Microsoft 365 Organisation sein, um die Teams-Räume mobile App verwenden zu können.
+Sie müssen ein Administrator in einer Microsoft 365-Organisation sein, um die Teams-Räume mobile App verwenden zu können.
 Laden Sie die Teams-Räume mobile App entweder aus dem [Apple App Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8) oder dem [Google Play Store](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps) herunter.
 
 **So rufen Sie die mobile MTMS-App ab**
@@ -52,7 +52,7 @@ Hier sind einige der Funktionen, über die Sie in der mobilen App zum Verwalten 
 
 Auf der Seite "Vorfälle" werden die Arten offener Vorfälle angezeigt.
 
-![Mtms Mobile Application Incidents Page Screen](../media/mtms-extended-app-001.png)<!--Microsoft genehmigtes Bild pro author.>
+![Mtms Mobile Application Incidents Page Screen](../media/mtms-extended-app-001.png)
 
 ## <a name="managing-tickets"></a>Verwalten von Tickets
 Hier sind einige der Funktionen, über die Sie in der mobilen App zum Verwalten von Tickets verfügen.
@@ -99,7 +99,7 @@ Im Folgenden finden Sie Antworten auf häufig gestellte Fragen.
 
 **Was muss ich tun, um die App verwenden zu können?**
 
-Um die App verwenden zu können, benötigen Sie Administratorberechtigungen und ein gültiges Microsoft 365 Abonnement.
+Um die App verwenden zu können, benötigen Sie Administratorberechtigungen und ein gültiges Microsoft 365-Abonnement.
 
 
 **Welche Sprachen werden von der App unterstützt?**
@@ -116,7 +116,7 @@ Um die App verwenden zu können, benötigen Sie Administratorberechtigungen und 
 Sie können einige allgemeine Schritte zur Problembehandlung für mobile Apps ausprobieren:
 - Schließen Sie die App, und öffnen Sie sie erneut.
 - Deinstallieren Sie die App, und installieren Sie sie erneut. Stellen Sie sicher, dass Sie die neueste Version der App verwenden.
-- Wenn Sie Microsoft Authenticator- oder Unternehmensportal-App auf Ihrem Gerät installiert haben, versuchen Sie, sie neu zu installieren oder auf die neueste Version zu aktualisieren. Wenn das nicht funktioniert, können Sie uns eine E-Mail an feedback365@microsoft.com senden, um uns dies mitzuteilen.
+- Wenn Sie die Microsoft Authenticator- oder Unternehmensportal-App auf Ihrem Gerät installiert haben, versuchen Sie, sie erneut zu installieren oder auf die neueste Version zu aktualisieren. Wenn das nicht funktioniert, können Sie uns eine E-Mail an feedback365@microsoft.com senden, um uns dies mitzuteilen.
 
 **Was tue ich, wenn meine Frage nicht beantwortet wird?**
 
@@ -126,6 +126,6 @@ Der mobile Client bietet sowohl das Erstellen von Tickets als auch die Verwaltun
 
 **So verwenden Sie die Teams-Räume mobile App**
 
-1. Laden Sie die App entweder in die [Apple App Store]() oder die [Google Play Store]()
+1. Laden Sie die App entweder in die [Apple App Store]() oder den [Google Play Store]() herunter.
 1. Stellen Sie sicher, dass Sie über ein gültiges Microsoft 365-Abonnement verfügen.
 1. Verwenden Sie Ihre Arbeitsanmeldeinformationen, die Sie für den Zugriff auf die Teams-Räume Desktop-App verwenden.

@@ -3,6 +3,51 @@
 
 
 
+## <a name="week-of-july-11-2022"></a>Woche vom 11. Juli 2022
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 7/13/2022 | [Wartemusik](/MicrosoftTeams/music-on-hold) | Geändert |
+| 7/14/2022 | [Planen des SIP-Gateways](/MicrosoftTeams/sip-gateway-plan) | Geändert |
+| 7/15/2022 | [Versionshinweise für Microsoft Teams-Räume (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | Geändert |
+| 7/15/2022 | [Teams-Richtlinienpakete für Mitarbeiter in Service und Produktion](/MicrosoftTeams/policy-packages-flw) | Hinzugefügt |
+| 7/15/2022 | [Verwalten der Genehmigungs-App in Microsoft Teams](/MicrosoftTeams/approval-admin) | Geändert |
+| 7/15/2022 | [Verwalten der Bookings-App in Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | Geändert |
+| 7/15/2022 | Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion in Microsoft Teams | Entfernt |
+| 7/15/2022 | Virtuelle Termine mit Microsoft Teams und der Bookings-App | Entfernt |
+| 7/15/2022 | Verwalten der Teilnahmeerfahrung für virtuelle Teams-Termine in Browsern | Entfernt |
+| 7/15/2022 | [Erweitern von Microsoft Teams in Ihrer Organisation](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | Geändert |
+| 7/15/2022 | Virtuelle Termine mit Teams – Integration in Cerner EHR | Entfernt |
+| 7/15/2022 | Microsoft TeamsEHR Connector Virtuelle Termine Bericht | Entfernt |
+| 7/15/2022 | Virtuelle Termine mit Teams – Integration in Epic EHR | Entfernt |
+| 7/15/2022 | Nachrichtendelegierung | Entfernt |
+| 7/15/2022 | Sicheres Messaging für Organisationen im Gesundheitswesen, die Microsoft Teams verwenden | Entfernt |
+| 7/15/2022 | Erste Schritte mit Teams für Organisationen im Gesundheitswesen | Entfernt |
+| 7/15/2022 | Vereinfachen von Geschäftsprozessen in Einzelhandelsumgebungen | Entfernt |
+| 7/15/2022 | Zusammenarbeit im Einzelhandel | Entfernt |
+| 7/15/2022 | Schichten für Teams | Entfernt |
+| 7/15/2022 | Verwalten des schichtbasierten Zugriffs für Mitarbeiter in Service und Produktion in Teams | Entfernt |
+| 7/15/2022 | [Verwalten Sie die Schicht-App für Ihre Organisation](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Geändert |
+| 7/15/2022 | Verwalten von Terminplanbesitzern für die Schichtverwaltung | Entfernt |
+| 7/15/2022 | Verwenden von PowerShell zum Verbinden von Schichten mit Blue Yonder Workforce Management | Entfernt |
+| 7/15/2022 | Verwenden von PowerShell zum Verwalten Ihrer Shifts-Verbindung mit Blue Yonder Workforce Management | Entfernt |
+| 7/15/2022 | Verwenden des Verbinder-Assistenten "Schichten" zum Verbinden von Schichten mit Blue Yonder Workforce Management | Entfernt |
+| 7/15/2022 | Schichtenverbinder | Entfernt |
+| 7/15/2022 | Teams für den Einzelhandel | Entfernt |
+| 7/15/2022 | Helfen Sie Ihren Kunden und Kunden bei der Verwendung virtueller Termine | Entfernt |
+| 7/15/2022 | [Erste Schritte mit Teams für Mitarbeiter in Service und Produktion](/MicrosoftTeams/flw-landing-page) | Geändert |
+| 7/15/2022 | Grundlegendes zu Benutzertypen von Mitarbeitern in Service und Produktion und Lizenzierung | Entfernt |
+| 7/15/2022 | Verwenden Sie den Onboarding-Assistenten für Mitarbeiter in Service und Produktion, um Ihre Mitarbeiter in Service und Produktion in Schwung zu bringen | Entfernt |
+| 7/15/2022 | Schnellstarthandbuch für Mitarbeiter in Service und Produktion | Entfernt |
+| 7/15/2022 | Verwalten der Frontline-Testversion in Teams | Entfernt |
+| 7/15/2022 | Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion | Entfernt |
+| 7/15/2022 | [Teams Richtlinienpakete-Pakete für das Gesundheitswesen](/MicrosoftTeams/policy-packages-healthcare) | Geändert |
+| 7/15/2022 | Nutzungsbericht zu virtuellen Microsoft Teams-Besuchen | Entfernt |
+| 7/15/2022 | [PowerShell-Skriptbeispiel – Exportieren von Managern und deren direkten Berichten](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | Geändert |
+| 7/15/2022 | [PowerShell-Skriptbeispiel – Erstellen neuer Mitarbeiter-Manager-Teams](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | Geändert |
+
+
 ## <a name="week-of-july-04-2022"></a>Woche vom 4. Juli 2022
 
 
@@ -90,22 +135,3 @@
 | 6/16/2022 | [Planen von automatischen Telefonzentralen und Anrufwarteschleifen in Microsoft Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Geändert |
 | 6/16/2022 | [Hochladen Ihrer benutzerdefinierten Apps im Microsoft Teams Admin Center](/MicrosoftTeams/upload-custom-apps) | Geändert |
 | 6/16/2022 | [Verwalten von Besprechungsrichtlinien für Teilnehmer und Gäste](/MicrosoftTeams/meeting-policies-participants-and-guests) | Geändert |
-
-
-## <a name="week-of-june-06-2022"></a>Woche vom 6. Juni 2022
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 6/6/2022 | [Verwalten des Zugriffs auf Teams-Apps in Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | Geändert |
-| 6/7/2022 | [Verwalten der Aktualisierungen-App für Ihre Organisation](/MicrosoftTeams/manage-updates-app) | Geändert |
-| 6/7/2022 | [Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion in Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | Hinzugefügt |
-| 6/8/2022 | [Aktivieren Teams-Räume Geräten für die Teilnahme an Besprechungen von Drittanbietern](/MicrosoftTeams/rooms/third-party-join) | Geändert |
-| 6/9/2022 | [Verhalten von Teams-Apps basierend auf Benutzertypen](/MicrosoftTeams/non-standard-users) | Geändert |
-| 6/9/2022 | [Einrichten der Common Area Phone-Lizenz](/MicrosoftTeams/set-up-common-area-phones) | Geändert |
-| 6/9/2022 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
-| 6/9/2022 | [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Geändert |
-| 6/10/2022 | [Mobile App-Erweiterung](/MicrosoftTeams/rooms/extended-mobile-app) | Hinzugefügt |
-| 6/10/2022 | [Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion in Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | Geändert |
-| 6/10/2022 | [Wechseln von Business Voice zu Microsoft Teams Phone-Lizenzen](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | Hinzugefügt |
-| 6/10/2022 | [Aktivieren Teams-Räume Geräten für die Teilnahme an Besprechungen von Drittanbietern](/MicrosoftTeams/rooms/third-party-join) | Geändert |

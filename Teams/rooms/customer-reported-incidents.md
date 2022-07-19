@@ -2,7 +2,7 @@
 title: Microsoft Teams-Räume vom Kunden gemeldete Vorfälle
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Partner/Kunden können Vorfälle manuell schließen und eine genaue Berichterstattung über den Raumzustand in MTRP sicherstellen.
-ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494647"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842304"
 ---
 # <a name="customer-reported-incident-tickets"></a>Vom Kunden gemeldete Vorfalltickets
 
@@ -31,6 +31,11 @@ Für jede Art von Vorfall, den Microsoft nicht gekennzeichnet hat, oder für Fra
 ![Screenshot des Vorfalls "Incidents->Report"](../media/customer-reported-incidents-001.png)
 
 Beschreiben Sie im Feld "Beschreibung" das Problem, bei dem Sie Hilfe von Microsoft benötigen, so gut wie möglich. Sie können einen oder mehrere Räume hinzufügen.
+
+Überprüfen Sie  **hohe Auswirkungen** , wenn der Vorfall eine erhebliche Integritätsbeeinträchtigung für den Dienst oder für einen kritischen Raum verursacht. Um Microsoft bei der richtigen Priorisierung Ihrer Anforderung zu unterstützen, beschreiben Sie im Detail, warum dies eine hohe Auswirkung hat.
+
+> [!NOTE]
+> Verwenden Sie dieses Feld nicht für allgemeine Fragen, Räume und/oder Probleme, für die keine Entschärfung verfügbar ist.
 
 ![Screenshot der betroffenen Vorfallberichtsräume](../media/customer-reported-incidents-002.png)
 

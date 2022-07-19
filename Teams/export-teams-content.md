@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b508b368629ce716a1269380eb1fffe2137620c8
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 0a2af1aae614763432ce0c856c9bad12fc7bceef
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647647"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838810"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportieren von Inhalten mit den Export-APIs von Microsoft Teams
 
@@ -43,7 +43,7 @@ Hier sind einige Beispiele für die Verwendung dieser Export-APIs:
 - **Hybridumgebung:** Export-APIs unterstützen Nachrichten, die von Benutzern gesendet werden, die in der Hybridumgebung (lokales Exchange und Teams) bereitgestellt werden. Alle Nachrichten, die von Benutzern gesendet werden, die für die Hybridumgebung konfiguriert sind, können mithilfe von Export-APIs aufgerufen werden.
 - **Vom Benutzer gelöschte Nachrichten:** Auf Nachrichten, die von Benutzern aus dem Teams-Client gelöscht werden, kann mithilfe von Export-APIs bis zu 21 Tage ab dem Zeitpunkt des Löschens zugegriffen werden.
 - **Nachrichtenanlagen:** Export-APIs enthalten die Links zu den Anlagen, die als Teil von Nachrichten gesendet werden. Mithilfe von Export-APIs können Sie die in den Nachrichten angefügten Dateien abrufen.
-- **Reaktionen:** Export-APIs unterstützen Reaktionen, die von einem Benutzer in einer Teams-Nachricht ausgelöst werden. Reaktionen, die derzeit unterstützt werden, sind Herz, wütend, wie, traurig, überrascht und lachen.
+- **Reaktionen:** Export-APIs unterstützen Reaktionen, die von einem Benutzer in einer Teams-Nachricht initiiert wurden. Reaktionen, die derzeit unterstützt werden, sind Herz, wütend, wie, traurig, überrascht und lachen.
 - **Eigenschaften von Chatnachrichten:** Die vollständige Liste der Eigenschaften, die von Teams-Export-APIs unterstützt werden, finden Sie [hier](/graph/api/resources/chatmessage#properties).
 
 

@@ -1,9 +1,9 @@
 ---
 title: Verwalten der Listen-App für Ihre Organisation
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 6c756fcdf8251bc2b468be1f89c98b1f069a1779
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646494"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842231"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
@@ -60,7 +60,7 @@ Eine lokale Poststelle ist für das Sortieren und Zustellen von Briefen in ihrem
 
 Nach dem Treffen machen sich die Postboten auf den Weg, um die Briefe zuzustellen. Unterwegs kann es zu Zwischenfällen wie einem Verkehrsunfall, einem Problem mit Hunden oder sozialen Unruhen kommen. Wenn Postboten auf ein Problem stoßen, verwenden sie Microsoft Teams auf ihren Mobilgeräten, um die Details dazu zu erfassen, die in einer Liste im Teamkanal nachverfolgt werden. Jeder im Team, einschließlich der Postboten vor Ort, kann diese Informationen sehen und darüber auf dem Laufenden bleiben.
 
-Bevor sie zu Teams übergehen, mussten Die Postboten zurück zur Post gehen, um ein Gedrucktes Formular auszufüllen, um einen Vorfall zu melden, der dann in eine Excel Kalkulationstabelle eingegeben wurde. Microsoft Teams stellt eine mobile Lösung für Postboten dar, über die sie mithilfe der Listen-App Vorfälle im Außendienst melden, Vorfalldetails mit Teammitgliedern teilen, sich im Kanal darüber unterhalten und Vorfälle einer Lösung zuführen können.
+Vor dem Wechsel zu Teams mussten Die Postboten zurück zur Post gehen, um ein Hard copy-Formular auszufüllen, um einen Vorfall zu melden, der dann in eine Excel-Tabelle eingegeben wurde. Microsoft Teams stellt eine mobile Lösung für Postboten dar, über die sie mithilfe der Listen-App Vorfälle im Außendienst melden, Vorfalldetails mit Teammitgliedern teilen, sich im Kanal darüber unterhalten und Vorfälle einer Lösung zuführen können.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Wissenswertes über die Listen-App
 
@@ -95,7 +95,7 @@ Wenn Benutzer in Ihrer Organisation Listen mithilfe der SharePoint-App erstellt 
 
 "Listen" ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Center zu **Teams** **appsManage-Apps** > .
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Centers zu **"Teams-Apps** > **verwalten"**.
 2. Führen Sie einen der folgenden Schritte aus:
 
     - Um Listen für Ihre Organisation zu deaktivieren, suchen Sie nach der Listen-App, wählen Sie sie aus, und wählen Sie dann **"Blockieren"** aus.
@@ -119,7 +119,7 @@ Die Listen-App unterstützt [Power Automate](/power-automate/flow-types) für Wo
 
 ## <a name="give-feedback-or-report-an-issue"></a>Feedback senden oder Problem melden
   
-Wenn Sie uns Feedback senden oder ein Problem melden möchten, wählen Sie unten im linken Bereich in Teams die **Option "Hilfe**" und dann "**Problem melden"** aus. Wählen Sie **Listen** aus, und geben Sie dann Ihr Feedback oder die Details zu dem aufgetretenen Problem ein.
+Um uns Feedback zu senden oder ein Problem zu melden, wählen Sie unten im linken Bereich in Teams die **Option "Hilfe** " und dann " **Problem melden"** aus. Wählen Sie **Listen** aus, und geben Sie dann Ihr Feedback oder die Details zu dem aufgetretenen Problem ein.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

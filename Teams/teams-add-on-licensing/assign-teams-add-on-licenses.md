@@ -1,7 +1,7 @@
 ---
 title: Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Erfahren Sie, wie Sie Benutzern Teams-Add-On-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fca8eb5acac30210e67068f9a2b1eb8dfdce3cb
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682494"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838820"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern
 
