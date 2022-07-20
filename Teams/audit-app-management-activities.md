@@ -15,12 +15,12 @@ description: Erfahren Sie, wie Sie Teams-App-Aktivitäten von Benutzern und Admi
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 54cf634fb8da78081023fad3940daf4ef33450c2
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647836"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880399"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Überwachung von App-Management-Aktivitäten und Ereignisse
 
@@ -72,6 +72,7 @@ Nachdem Sie das Überwachungsprotokoll im Complianceportal durchsucht haben, kö
 
 ## <a name="see-also"></a>Siehe auch
 
+* [Verwenden von Überwachungsprotokollen zum Untersuchen der Installationsaktivitäten von Microsoft Power Platform](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Durchsuchen Sie das Überwachungsprotokoll im Complianceportal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Übersicht über Microsoft Purview Audit Premium](/microsoft-365/compliance/advanced-audit).
 * [Aktivieren oder Deaktivieren der Überwachung](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
