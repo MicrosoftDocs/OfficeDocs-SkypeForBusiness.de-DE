@@ -18,20 +18,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 687d628c3f3f59cc9a584f2f673d3ef7d469b605
-ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
+ms.openlocfilehash: b1056c577b262b4b1216ce1fe71dba4ce71ffd66
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66661021"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880479"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Übersicht über Drittanbieter-Apps in Microsoft Teams
 
-Teams Store bietet neben den von Microsoft bereitgestellten Apps viele nützliche Apps, die von Drittanbietern und Entwicklern erstellt wurden. Während diese Apps von Drittanbietern erstellt werden, führt Microsoft eine strenge Überprüfung der Funktionalität, Benutzerfreundlichkeit und Sicherheit dieser Apps durch. Erst nach der Überprüfung stellt Microsoft Apps im Teams Store zur Verfügung. Damit Endbenutzer vom umfangreichen App-Ökosystem profitieren können, ist die App-Governance durch Administratoren ein wichtiger Schritt. Legen Sie als Administrator einen App-Governance-Prozess fest, der die vielfältigen App-Anforderungen der Endbenutzer und die Einschränkungen durch interne IT-Richtlinien, Standards und Risikoprofile abgleicht.
+Teams Store bietet neben den von Microsoft bereitgestellten Apps viele nützliche Apps, die von Softwareherausgebern und -entwicklern von Drittanbietern erstellt wurden. Während diese Apps von Drittanbietern erstellt werden, führt Microsoft eine strenge Überprüfung der Funktionalität, Benutzerfreundlichkeit und Sicherheit dieser Apps durch. Erst nach der Überprüfung stellt Microsoft Apps im Teams Store zur Verfügung. Damit Endbenutzer vom umfangreichen App-Ökosystem profitieren können, ist die App-Governance durch Administratoren ein wichtiger Schritt. Legen Sie als Administrator einen App-Governance-Prozess fest, der die vielfältigen App-Anforderungen der Endbenutzer und die Einschränkungen durch interne IT-Richtlinien, Standards und Risikoprofile abgleicht.
 
 Apps von Drittanbietern in Microsoft Teams werden nicht von Microsoft kontrolliert oder gehören nicht zu Microsoft, und sie unterliegen nicht dem Microsoft Online-Abonnementvertrag. Die Nutzung jeder Drittanbieter-App durch Ihre Organisation unterliegt den Nutzungsbedingungen und Datenschutzbestimmungen dieser App. Mit dem Teams Admin Center können Sie alle Berechtigungen einer App, Datenschutzbestimmungen und Nutzungsbedingungen überprüfen, bevor Sie deren Verwendung zulassen. Wie immer können Sie die Verwendung einer App für einige bestimmte Benutzer oder alle Benutzer zulassen. Bei Drittanbieter-Apps wie bei benutzerdefinierten Apps ermöglicht Microsoft Teams Administratoren, die Verwendung der Apps zuzulassen, zu verbieten, zu regeln und zu analysieren.
 
-Microsoft stellt nicht nur sicher, dass Administratoren die Kontrolle über Drittanbieter-Apps haben, sondern auch, dass nur qualitativ hochwertige Apps im Store verfügbar sind. Wir fordern, dass alle Apps eine obligatorische Überprüfungsrunde durch Microsoft durchlaufen, die die Funktionalität der App, die Identität des Herausgebers, die von der App angeforderten Berechtigungen sowie die Compliance, den Datenschutz und die Datensicherheit der von der App gesammelten Daten überprüft. Wir empfehlen Apps, Teil eines optionalen Complianceprogramms zu sein, um einen zusätzlichen Schwerpunkt auf Sicherheit und Compliance mit Branchenstandards zu legen. Informationen zu diesen Programmen finden Sie in den folgenden Artikeln:
+Microsoft stellt sicher, dass Administratoren die Kontrolle über Drittanbieter-Apps haben und nur qualitativ hochwertige Apps im Teams Store verfügbar sind. Alle Apps durchlaufen eine obligatorische Überprüfungsrunde, bei der die Funktionalität der App, die Identifizierung des Herausgebers, die von der App angeforderten Berechtigungen und die Compliance, der Datenschutz und die Datensicherheit überprüft werden. Wir empfehlen Apps, Teil eines optionalen Programms zu sein, um einen zusätzlichen Schwerpunkt auf Sicherheit und Compliance mit Branchenstandards zu legen. Informationen zu diesen Programmen finden Sie in den folgenden Artikeln:
 
 1. [App-Überprüfung](overview-of-app-validation.md#app-validation-and-testing)
 
