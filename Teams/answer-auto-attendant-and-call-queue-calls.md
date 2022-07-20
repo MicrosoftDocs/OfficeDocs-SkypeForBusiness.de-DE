@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: fb621661ab8b5b8ace8a965e77513cd72966cf23
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647667"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880369"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 
@@ -49,7 +49,7 @@ Sobald eine automatische Telefonzentrale oder ein Anruf in der Anrufwarteschleif
 > [!NOTE] 
 > Anrufwarteschleifenanrufe werden nicht basierend auf der Konfiguration der Anrufbeantwortungsregeln des Benutzers weitergeleitet. Dadurch wird sichergestellt, dass Anrufer in der Warteschleife bleiben, bis ein Agent den Anruf annehmen kann und der Anrufer nicht unerwartet weitergeleitet wird.
 >
-> Benutzer, die Anrufe von automatischen Telefonzentralen und Anrufwarteschleifen erhalten, erhalten nur dann den Namen des Anrufers, wenn er aus dem PSTN bereitgestellt wird oder wenn die Nummer des Anrufers mit den Clientkontakten des lokalen Teams des Zielbenutzers übereinstimmt.
+> Benutzer, die Anrufe aus Anrufwarteschleifen erhalten, erhalten nur dann den Namen des Anrufers, wenn er aus dem PSTN bereitgestellt wird oder wenn die Nummer des Anrufers mit den Clientkontakten des lokalen Teams des Zielbenutzers übereinstimmt.
 >
 > Agents werden nicht über verpasste Anrufe oder Voicemails für Anrufwarteschleifenanrufe benachrichtigt.
 

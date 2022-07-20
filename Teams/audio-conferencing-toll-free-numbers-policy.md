@@ -22,28 +22,28 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: Erfahren Sie, wie Sie mit Audiokonferenzen in Microsoft 365 oder Office 365 von ihrem Telefon aus Besprechungen beitreten können.
-ms.openlocfilehash: 11e1e493db38b5e830b3334f659d23f86b6b56ba
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 1a03faf129a40d61605474e95c759067ce20841e
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016999"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884904"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>Richtlinieneinstellungen für Audiokonferenzen für gebührenpflichtige und gebührenfreie Nummern
 
-## <a name="teams-audio-conferencing-policy"></a>Teams Audiokonferenzrichtlinie
+## <a name="teams-audio-conferencing-policy"></a>Teams-Audiokonferenzrichtlinie
 
 Verwenden Sie Audiokonferenzrichtlinien, um gebührenpflichtige und gebührenfreie Audiokonferenznummern zu verwalten, die in Besprechungseinladungen angezeigt werden, die von Benutzern in Ihrer Organisation erstellt wurden. Sie können eine der beiden automatisch erstellten Richtlinien verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Die beiden automatisch erstellten Richtlinien sind global (organisationsweiter Standard) und AllowTollFreeDialinFalse (allen vorhandenen Benutzern innerhalb der Organisation zugewiesen, die nicht für gebührenfreie Einwahlnummern aktiviert sind). Sie verwalten Audiokonferenzrichtlinien im Microsoft Teams Admin Center oder mithilfe von [PowerShell](teams-powershell-overview.md).
 
-- Die Einstellung für AllowTollFreeDialin kann nicht mehr für einen einzelnen Benutzer über Teams Admin Center oder PowerShell verwaltet werden. Mandantenadministratoren können diese Einstellung nur über die neue Audiokonferenzrichtlinie verwalten.
+- Die Einstellung für AllowTollFreeDialin kann nicht mehr für einen einzelnen Benutzer über das Teams Admin Center oder PowerShell verwaltet werden. Mandantenadministratoren können diese Einstellung nur über die neue Audiokonferenzrichtlinie verwalten.
 - Die globale Richtlinie kann im Teams Admin Center nicht geändert werden.
 
-Wenn eine Teams Audiokonferenzrichtlinie im Mandanten aktiviert ist, sind zwei automatisch erstellte Richtlinien im Mandanten verfügbar. Die beiden automatisch erstellten Richtlinien und ihre Standardeinstellungen sind:
+Wenn eine Teams-Audiokonferenzrichtlinie im Mandanten aktiviert ist, sind zwei automatisch erstellte Richtlinien im Mandanten verfügbar. Die beiden automatisch erstellten Richtlinien und ihre Standardeinstellungen sind:
 
 ### <a name="global-org-wide-default"></a>Global (organisationsweite Standardeinstellung)
 
 In dieser Richtlinie wird der Wert für **AllowTollfreedialin** auf "EIN" festgelegt, und es werden keine Telefonnummern in der Richtlinie definiert. Dies ist die Standardrichtlinie für alle Benutzer im Mandanten, die zum Zeitpunkt des Starts **AllowTollfreedialin** auf **"Ein**" festgelegt haben.
-Da für die Richtlinie keine Telefonnummern definiert sind, sind die in der Besprechung verfügbaren Telefonnummern dieselben Telefonnummern, die die Benutzer vor der Richtlinie hatten, wenn Benutzer dieser Richtlinie eine Teams Besprechung erstellen. Diese Telefonnummern werden normalerweise standardmäßig auf das Land/den Standort des Benutzers festgelegt, es sei denn, sie werden vom Mandantenadministrator für einzelne Benutzer geändert.
+Da für die Richtlinie keine Telefonnummern definiert sind, sind die in der Besprechung verfügbaren Telefonnummern, wenn Benutzer dieser Richtlinie eine Teams-Besprechung erstellen, dieselben Telefonnummern wie vor der Richtlinie. Diese Telefonnummern werden normalerweise standardmäßig auf das Land/den Standort des Benutzers festgelegt, es sei denn, sie werden vom Mandantenadministrator für einzelne Benutzer geändert.
 
 Wenn beispielsweise einem Benutzer mit Sitz in Deutschland vor dem Start der Richtlinie für Audiokonferenzen gebührenpflichtige und gebührenfreie deutsche Telefonnummern zugewiesen wurden, wird dem Benutzer beim Start die globale Richtlinie zugewiesen, und die Telefonnummern, die er in seiner Besprechungseinladung weiterhin sehen wird, sind identisch mit der vor der Anwendung der Richtlinie (d. a.  die deutschen gebührenpflichtigen und gebührenfreien Nummern). Einem Endbenutzer wird beim Starten der Richtlinie keine Änderung angezeigt. Wenn jedoch ein Mandantenadministrator die globale Richtlinie ändert und bestimmte Telefonnummern in die Richtlinie einschließt, die sich von zuvor unterscheiden, werden allen Benutzern der Richtlinie nur die Telefonnummern angezeigt, die in der Richtlinie in geplanten Besprechungen enthalten sind.
 
@@ -76,7 +76,7 @@ Dadurch wird sichergestellt, dass Telefonnummern, die Sie für Kanada, Botsuana 
 
 ### <a name="step-by-step-instructions-on-creating-a-custom-policy-based-on-the-example"></a>Schrittweise Anleitungen zum Erstellen einer benutzerdefinierten Richtlinie basierend auf dem Beispiel
 
-1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **MeetingsAudio-Konferenzen** > .
+1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **Audiokonferenzen** für **Besprechungen** > .
 2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie den Namen und die Beschreibung der Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
 4. Wählen Sie aus, ob gebührenfreie Nummern in Besprechungen einbezogen werden sollen, die von Benutzern dieser Richtlinie erstellt wurden. Wenn Sie dies auf **"Ein** " festlegen, können Sie gebührenfreie Telefonnummern in dieser Richtlinie hinzufügen.
@@ -94,9 +94,9 @@ Dadurch wird sichergestellt, dass Telefonnummern, die Sie für Kanada, Botsuana 
 
 ## <a name="edit-a-meeting-policy"></a>Bearbeiten einer Besprechungsrichtlinie
 
-Sie können alle benutzerdefinierten Richtlinien bearbeiten, die Sie erstellen. (Beachten Sie, dass die globale Richtlinie nicht aus dem Teams Admin Center bearbeitet werden kann.
+Sie können alle benutzerdefinierten Richtlinien bearbeiten, die Sie erstellen. (Beachten Sie, dass die globale Richtlinie nicht im Teams Admin Center bearbeitet werden kann.)
 
-1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **MeetingsAudio-Konferenzen** > .
+1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **Audiokonferenzen** für **Besprechungen** > .
 1. Wählen Sie die Richtlinie aus, die Sie bearbeiten möchten, indem Sie links neben dem Richtliniennamen und dann auf **"Bearbeiten"** klicken.
 1. Änderungen vornehmen.
 1. Klicken Sie auf **Speichern**.
@@ -116,6 +116,9 @@ Informationen zu den verschiedenen Möglichkeiten, wie Sie Benutzern Richtlinien
 > [!NOTE]
 > Einem Benutzer kann jeweils nur eine Audiokonferenzrichtlinie zugewiesen werden.
 
+> [!IMPORTANT]
+> Es kann bis zu 24 Stunden dauern, bis die zugewiesenen Telefonnummern in Ihrer Besprechungseinladung angezeigt werden. Wenn aktualisierte Nummern nicht angezeigt werden, warten Sie mindestens 24 Stunden, bevor Sie sich an den Support wenden.
+
 ### <a name="known-issue"></a>Bekanntes Problem
 
-Wenn Sie eine Besprechung mithilfe der Option "**Jetzt besprechen**" aus Microsoft Teams > Kalender > Besprechungs-Mow beginnen, wählen Sie die Auslassungspunkte aus ... und dann "Besprechungsinformationen" gibt es ein Problem mit dem unteren Teil des Abschnitts unter **"Oder anrufen in" (nur Audio).** Alle in der Richtlinie definierten Telefonnummern werden angezeigt, aber die Ausrichtung der Nummern macht es schwierig zu lesen.
+Wenn Sie eine Besprechung mithilfe der Option "**Jetzt besprechen"** von Microsoft Teams > Kalender > Besprechungsmenü starten, wählen Sie die Auslassungspunkte aus ... und dann "Besprechungsinformationen" gibt es ein Problem mit dem unteren Teil des Abschnitts unter **"Oder anrufen in" (nur Audio).** Alle in der Richtlinie definierten Telefonnummern werden angezeigt, aber die Ausrichtung der Nummern macht es schwierig zu lesen.

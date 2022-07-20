@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Tisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 940f03324ea5a3112296dcb42708a5635c2e2e9f
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: 33be6dce1359637602ee81bcefdb6b4035c22f6c
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810077"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880249"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Von Microsoft Teams zertifizierte Android-Geräte
 
@@ -343,6 +343,7 @@ Im Folgenden finden Sie die neuesten Versionen der Microsoft Teams Panels-App un
 
 |Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Update 2022 Nr. 3  | 12. Juli 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
 |Update 2022 Nr. 2  | 25. April 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |Update 2022 #1A | 25. Februar 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
 |Update 2022 Nr. 1  | 22. Februar 2022 |`1449/1.0.97.2021726501` | `5.0.5304.0 `  | `322` |

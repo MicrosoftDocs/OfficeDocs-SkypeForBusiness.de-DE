@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl- oder Audiokonferenzen für Personen in Ihrem Unternehmen einrichten, die telefonisch an Konferenzanrufen teilnehmen müssen. '
-ms.openlocfilehash: 2098ec90223ec7242f24368f2b6dc7687d3370fd
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 701c1b4826a52400d91d18d4aa26f11aac07d266
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016637"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884834"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft Teams
 
@@ -109,7 +109,10 @@ Weitere Informationen finden [Sie unter Festlegen der Telefonnummern, die in Ein
 Weitere Informationen finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 > [!NOTE]
-> Sie können Telefonnummern auch festlegen, indem Sie sie der *TeamsAudioconferencingpolicy* hinzufügen und die Richtlinie Ihren Benutzern zuweisen. Gebührenpflichtige und gebührenfreie Telefonnummern, die der Richtlinie hinzugefügt wurden, haben Vorrang vor den Telefonnummern, die über den Einstellungsbereich für Audiokonferenzen einzeln für Benutzer festgelegt werden. Wenn der *Teamsaudioconferencingpolicy* keine Telefonnummern hinzugefügt werden, wird die individuell für Benutzer über den Bereich "Audiokonferenzeinstellungen" festgelegte Telefonnummer in Microsoft Teams Besprechungsanfragen angezeigt. [Die Richtlinieneinstellungen für Audiokonferenzen für gebührenpflichtige und gebührenfreie Telefonnummern](audio-conferencing-toll-free-numbers-policy.md) enthalten weitere Informationen.
+> Sie können Telefonnummern auch festlegen, indem Sie sie der *TeamsAudioconferencingpolicy* hinzufügen und die Richtlinie Ihren Benutzern zuweisen. Gebührenpflichtige und gebührenfreie Telefonnummern, die der Richtlinie hinzugefügt wurden, haben Vorrang vor den Telefonnummern, die über den Einstellungsbereich für Audiokonferenzen einzeln für Benutzer festgelegt werden. Wenn der *Teamsaudioconferencingpolicy* keine Telefonnummern hinzugefügt werden, wird die über den Einstellungsbereich für Audiokonferenzen individuell für Benutzer festgelegte Telefonnummer in Microsoft Teams-Besprechungsanfragen angezeigt. [Die Richtlinieneinstellungen für Audiokonferenzen für gebührenpflichtige und gebührenfreie Telefonnummern](audio-conferencing-toll-free-numbers-policy.md) enthalten weitere Informationen.
+
+> [!IMPORTANT]
+> Es kann bis zu 24 Stunden dauern, bis die zugewiesenen Telefonnummern in Ihrer Besprechungseinladung angezeigt werden. Wenn aktualisierte Nummern nicht angezeigt werden, warten Sie mindestens 24 Stunden, bevor Sie sich an den Support wenden.
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>Schritt 8: Besprechungseinladungen einrichten (optional)
 

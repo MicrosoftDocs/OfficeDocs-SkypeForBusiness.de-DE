@@ -15,22 +15,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie IT-Administratoren Q&A in Teams Q&A einrichten, verwenden und verwalten können, um einen strukturierten Ansatz für das Sammeln von Fragen, das Organisieren von Diskussionen, das Löschen einzelner Nachrichten, die Verwendung verfügbarer Sprachen und das Verständnis des Datenlebenszyklus sowie von Richtlinien für die Datenaufbewahrung und -löschung zu erhalten.
-ms.openlocfilehash: 387f66967a4448ff15374d6765e10ae25a72d7c0
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713443"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880429"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Verwalten von F&A in Teams-Besprechungen
 
-F&A ermöglicht Es Referenten, Fragen von Teilnehmern zu stellen und sie in Echtzeit zu beantworten. Dieses Feature eignet sich am besten für große, strukturierte Besprechungen wie Versammlungen, Webinare, Alle Hände und Schulungen.
+F&A ermöglicht es Referenten, Fragen von Teilnehmern zu stellen und sie in Echtzeit zu beantworten. Dieses Feature eignet sich am besten für große, strukturierte Besprechungen wie Versammlungen, Webinare, Alle Hände und Schulungen.
 
 In diesem Artikel wird beschrieben, wie Sie Q&A und Richtlinien auf Benutzerebene verwalten, die festlegen, ob ein Organisator Teams Q&A in ihren Besprechungen aktivieren kann.
-
-> [!NOTE]
-> Dieses Feature befindet sich derzeit in der privaten Vorschau und ist nicht öffentlich zugänglich. Wenn Sie am privaten Vorschauprogramm teilnehmen möchten, melden Sie sich hier an [.](https://m365crmedu.powerappsportals.com/LMSSignup/)
-
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -47,12 +43,12 @@ F&A kann von den folgenden Benutzertypen verwendet werden:
 - Verbundbenutzer – Ein Benutzer mit Microsoft 365-Anmeldeinformationen für einen anderen Mandanten.
 - Gastbenutzer – Alle Gäste, die Sie Zu Ihren Microsoft Teams, SharePoint oder Azure Active Directory hinzufügen.
 
-Wenn Administratoren Q&A aktivieren, können Benutzer mit der Organisatorrolle Q&A beim Erstellen oder Aktualisieren von Besprechungen aktivieren. Über Teams- und Outlook-Besprechungsoptionen können Organisatoren Q&A auch aus Besprechungen entfernen, in denen es zuvor hinzugefügt wurde, um teilnehmer daran zu hindern, das Feature zu verwenden.
+> [!NOTE]
+> F&A steht nicht nur Teilnehmern zur Verfügung, die über die Besprechungskapazität verfügen.
+
+Wenn Administratoren Q&A aktivieren, können Benutzer mit der [Organisatorrolle](https://aka.ms/GetQnA) Q&A beim Erstellen oder Aktualisieren von Besprechungen aktivieren. Über Teams- und Outlook-Besprechungsoptionen können Organisatoren Q&A auch aus Besprechungen entfernen, in denen es zuvor hinzugefügt wurde, um teilnehmer daran zu hindern, das Feature zu verwenden.
 
 ## <a name="use-the-teams-admin-center-to-manage-qa"></a>Verwenden des Teams Admin Centers zum Verwalten von F&A
-
-> [!NOTE]
-> Das Verwalten von F&A im Admin Center ist in der öffentlichen Vorschau nicht verfügbar. Verwenden Sie PowerShell, um Q&A für Ihre Benutzer einzurichten und zu verwalten.
 
 Möglicherweise hat Ihre Organisation Anforderungen, um zu begrenzen, welche Organisatoren Q&A aktivieren können. Sie können das Teams Admin Center verwenden, um zu verwalten, welche Organisatoren Q&A in großen Besprechungen aktivieren können.
 Führen Sie die folgenden Schritte aus, um zu steuern, welche Organisatoren Q&A verwenden können:
@@ -155,4 +151,23 @@ Die Aufbewahrung von Inhalten folgt den Aufbewahrungsrichtlinien, die für Yamme
 
 **F: Was ist der Unterschied zwischen der Einrichtung von F&A über den Teams App Store und der Verwendung von Besprechungsoptionen?**
 
-**Eine:** Obwohl es keinen Unterschied zur Benutzererfahrung von Teilnehmern und Moderatoren gibt, muss Q&A in Zukunft nur mithilfe von Besprechungsoptionen eingerichtet werden. Die Q&A-App im Teams-App Store wird ende 2022 veraltet sein, daher empfiehlt es sich, Q&A in Ihren Besprechungen mithilfe von Besprechungsoptionen einzurichten.
+**Eine:** Wir haben die Aktivierung von Q&A bis Besprechungsoptionen vereinfacht.Ab August 2022 wird die Q&A-App im Teams-App Store nicht mehr unterstützt, sodass Q&A nur über Besprechungsoptionen aktiviert werden darf. Wenn Sie der Organisator für Besprechungen sind, in denen Q&A über den Teams-App Store aktiviert wurde, entfernen Sie die Q&A-App, und aktivieren Sie sie stattdessen nur über die Besprechungsoptionen.
+
+**F: Warum werden zwei Q&A-Symbole in meiner Besprechung angezeigt?**
+
+**Eine:** In Ihrer Besprechung werden zwei Q-&A-Symbole angezeigt, da Q&A auch über Besprechungsoptionen aktiviert wurde. Entfernen Sie die Q&A-App, die über die Teams-App Store hinzugefügt wurde, anhand der nachstehenden Anweisungen. Führen Sie dies für alle Besprechungen aus, in denen Sie zuvor Q&A über den Teams-App Store hinzugefügt haben.
+
+**So entfernen Sie die Q-&Eine App, die aus dem Teams-App Store hinzugefügt wurde.**
+
+1. Nehmen Sie auf Teams Desktop an der Besprechung teil, in der Sie zuvor F&A hinzugefügt haben.
+
+2. Wählen Sie im oberen Bereich das zweite Vorkommen des Symbols "F&A" im Fenster "Teams-Besprechung" aus – dies ist die Q&A-Erfahrung, die über die Teams-App Store hinzugefügt wurde.
+
+3. Klicken Sie bei geöffnetem ausgewählten F-&A-Registerkarte auf die Auslassungszeichen und dann auf "Entfernen". Dadurch wird die Q&A-Erfahrung entfernt, die über den Teams-App Store hinzugefügt wurde.
+
+4. Klicken Sie auf "Entfernen", um die Q&A-Erfahrung, die über den Teams-App Store hinzugefügt wurde, dauerhaft zu entfernen.
+
+> [!NOTE]
+> Nur die über den Teams-App Store hinzugefügte Q-&A-App weist einen Auslassungszeichen auf, um die Q&A-App zu entfernen. Die über Besprechungsoptionen aktivierte Q-&A-Erfahrung weist keine Auslassungspunkte auf und kann hier nicht entfernt werden.
+
+Das wars! Jetzt gibt es nur ein Q&A-Erlebnis – unterstützt von Besprechungsoptionen. Die über den Teams-App Store hinzugefügte Q&A-App wird entfernt.

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789160"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880389"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>FÜR Microsoft Teams zertifizierte USB-Audio- und Videogeräte
 
@@ -74,13 +74,14 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 ## <a name="certified-devices"></a>Zertifizierte Geräte
 
-*Tabelle aktualisiert Juni 2022*
+*Tabelle aktualisiert Juli 2022*
 
 > [!NOTE]
 > Das Datumsformat ist MMDDYYYY.
 
 | Hersteller        | Modell                                                     | Qualifizierte      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Dock-Freisprecheinrichtung                                          |7/13/2022       |Zertifiziert für Microsoft Teams                           |
 |Dell                 |WB5023-Kamera                                              |6/29/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II Headset                                       |6/22/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |Headsets der C10/C20/C50-Serie                                |5/31/2022       |Zertifiziert für Microsoft Teams                           |
@@ -111,7 +112,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Poly                 |Voyager 4310 und Voyager Office Base                       |10/20/2021      |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Evolve 2 75 Headset                                        |10/8/2021       |Zertifiziert für Microsoft Teams                           |
 |Logitech             |Zone Verkabelte Ohrhörer                                         |9/2/2021        |Zertifiziert für Microsoft Teams                           |
-|Audiocodes           |RXVCam10                                                   |8/26/2021       |Zertifiziert für Microsoft Teams                           |
+|AudioCodes           |RXVCam10                                                   |8/26/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Voyager 4320                                               |8/6/2021        |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Voyager 4310                                               |8/6/2021        |Zertifiziert für Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Zertifiziert für Microsoft Teams                           |
