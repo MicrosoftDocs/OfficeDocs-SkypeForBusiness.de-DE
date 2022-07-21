@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren von Telefonieanbieter
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c37c6e52eac53e2cf3e43e45566243a6c83025a7
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240504"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915193"
 ---
 # <a name="configure-operator-connect"></a>Konfigurieren von Telefonieanbieter
 
@@ -91,18 +91,15 @@ Weitere Informationen zu Notrufen finden [Sie unter Verwalten von Notrufen](what
 
 1. Wenden Sie sich an Ihren Anbieter, um Ihre Nummern zu Telefonieanbieter zu portieren. Lesen Sie das [Microsoft 365 Operator Connect-Verzeichnis](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) , um die Website Ihres Betreibers zu finden.
 
-2. Nachdem Ihr Anbieter den Portierungsauftrag abgeschlossen hat, können Sie die Zuweisung von Anrufplan-Telefonnummern Ihrer Benutzer aufheben und die Anrufplanlizenz entfernen. Anschließend kann Ihr Anbieter die Nummern in Ihren Mandanten hochladen.
+2. Nachdem Der Betreiber den Portierungsauftrag abgeschlossen hat, lädt der Betreiber die Nummern in Ihren Mandanten hoch.
 
 3. Weisen Sie Benutzern Telefonieanbieter-Nummern über das Microsoft Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Telefonnummern](#assign-numbers).
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>Telefonnummern von Direct Routing zu Telefonieanbieter verschieben
 
-Um Nummern von Direct Routing zu Operator Connect zu verschieben, muss die vorhandene Direct Routing-Nummer, die von Ihrem Operator in Ihren Mandanten hochgeladen wurde, aus dem Benutzer entfernt werden, dem sie zugewiesen ist. Nachdem die Nummer zu Operator Connect migriert wurde, können Sie die Nummer dem Benutzer erneut zuweisen. Führen Sie die folgenden Schritte aus, um von Direct Routing zu Operator Connect mit lokalen oder Onlinetelefonnummern zu wechseln:
+Führen Sie die folgenden Schritte aus, um von Direct Routing zu Operator Connect mit lokalen oder Onlinetelefonnummern zu wechseln:
 
->[!IMPORTANT]
-> Die Telefonnummer ist während der Migration nicht mehr verfügbar. Stimmen Sie sich daher vor Beginn mit Ihrem Operator Connect-Operator ab.
-
-#### <a name="step-1---remove-existing-direct-routing-numbers"></a>Schritt 1: Entfernen vorhandener Direct Routing-Nummern.
+#### <a name="step-1---identify-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises"></a>Schritt 1: Ermitteln, ob die vorhandenen Direct Routing-Nummern online oder lokal zugewiesen werden.
 
 Überprüfen Sie, ob dem Benutzer eine Direct Routing-Nummer zugewiesen ist, indem Sie den Befehl "Teams PowerShell-Modul" ausführen:
 
@@ -119,9 +116,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 Wenn `OnPremLineUri` eine E.164-Telefonnummer vorhanden ist, wurde die Telefonnummer lokal zugewiesen und mit Microsoft 365 synchronisiert.
-    
-**Um lokale Direct Routing-Nummern zu entfernen,** führen Sie den folgenden Skype for Business Server PowerShell-Befehl aus:
-    
+
+**Um vorhandene Direct Routing-Nummern zu migrieren, die online zu Operator Connect zugewiesen sind**, wenden Sie sich an Ihren Betreiber. Informationen zur Website Ihres Betreibers finden Sie im [Microsoft 365 Operator Connect-Verzeichnis](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). Am vereinbarten Datum und der vereinbarten Uhrzeit migriert Ihr Betreiber Ihre Nummern von Direct Routing zu Operator Connect.
+
+Führen Sie zum **Migrieren von lokalen Direct Routing-Nummern zu Operator Connect** den folgenden powerShell-Befehl Skype for Business Server aus:
+>[!IMPORTANT]
+> Die Telefonnummer ist während der Migration nicht mehr verfügbar. Stimmen Sie sich daher vor Beginn mit Ihrem Operator Connect-Operator ab.
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -140,7 +141,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **Um vorhandene Online-Direct Routing-Nummern zu entfernen, die online zugewiesen sind,** führen Sie den folgenden Teams PowerShell-Modulbefehl aus:
+
 
 
 ```PowerShell

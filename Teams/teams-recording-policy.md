@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da74dcb2203eb43ca5b7174697cbc074f5d50855
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: e2e934e0dd9896c507e4d5818a77a1637cdcb2b3
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642750"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915213"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Einführung in die richtlinienbasierte Aufzeichnung von Teams für Anrufe & Besprechungen
 
@@ -206,8 +206,8 @@ Die Unterstützung für Benachrichtigungen wird mithilfe der Teams-Clientumgebun
 **Andere Endpunkte – Audiohinweis**
 - SIP-Telefone
 - Skype for Business
-- Audiokonferenz
-- PSTN-Anrufer
+- Audiokonferenzen (Audiohinweis in der Standardsprache der Einwahlnummer oder in der vom Benutzer ausgewählten Sprache)
+- PSTN-Anrufer (Audiohinweis in der Standardsprache des Teams-Benutzers)
 
 > [!NOTE]
 > Die Complianceaufzeichnung wird bei Anrufwarteschleifen im Konferenzmodus nicht unterstützt. Verwenden Sie Anrufwarteschleifen im Übertragungsmodus.
@@ -222,7 +222,7 @@ Die folgenden Partner haben ihre Lösung für Microsoft Teams zertifiziert.<br/>
 |Partner|Lösungswebsite |
 |:--|:--|
 |ASC Technologies |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
-|AudioCodes |[https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams](https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams) |
+|Audiocodes |[https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams](https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Synchronsprecher |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Aufschlussreiche Technologie |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
