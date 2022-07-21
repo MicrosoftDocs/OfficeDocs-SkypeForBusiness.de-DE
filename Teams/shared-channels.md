@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams verwenden und verwalten können.
-ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773764"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884914"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Freigegebene Kanäle in Microsoft Teams
 
@@ -157,6 +157,8 @@ Es gelten die folgenden Einschränkungen:
 - Wenn Sie ein Team aus einem bestehenden Team erstellen, werden freigegebene Kanäle des bestehenden Teams nicht übernommen.
 
 - Benachrichtigungen aus freigegebenen Kanälen sind derzeit in E-Mails zu verpassten Aktivitäten nicht enthalten.
+
+- Geteilte Channels werden in Kursteams nicht unterstützt.
 
 ## <a name="supported-apps-in-shared-channels"></a>Unterstützte Apps in freigegebenen Kanälen
 
