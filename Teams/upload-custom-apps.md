@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Apps im Microsoft Teams Admin Center in den App Store Ihrer Organisation hochladen.
-ms.openlocfilehash: 5ef5992e01b5de4e2f4feaed51b50e2d0f16c0d8
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 8f7968a53b70ac8ffa871d03adacd648ec047c52
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642760"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958050"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Veröffentlichen einer benutzerdefinierten App durch Hochladen eines App-Pakets
 
@@ -57,20 +57,20 @@ Führen Sie die folgenden Schritte aus, um vertrauenswürdigen Benutzern das Hoc
 1. Aktivieren Sie die Einstellung **"Interaktion mit benutzerdefinierten Apps** organisationsweit zulassen". Gehen Sie dazu so vor:
 
     1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **"Teams-Apps** > **verwalten**", und klicken Sie dann auf " **Organisationsweite App-Einstellungen"**.
-    
-    2. Aktivieren Sie unter **"Benutzerdefinierte Apps**" die Option **"Interaktion mit benutzerdefinierten Apps zulassen**", und klicken Sie dann auf **"Speichern"**.
-    
+
+    1. Aktivieren Sie unter **"Benutzerdefinierte Apps**" die Option **"Interaktion mit benutzerdefinierten Apps zulassen**", und klicken Sie dann auf **"Speichern"**.
+
 1. Deaktivieren Sie die Einstellung " **Benutzerdefinierte Apps hochladen** " in der globalen App-Setuprichtlinie. Gehen Sie dazu so vor:
 
     1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu den **Setuprichtlinien** für **Teams-Apps** > , und klicken Sie dann auf die **globale Richtlinie (organisationsweite Standardrichtlinie**).
-    
-    2. Deaktivieren Sie **"Benutzerdefinierte Apps hochladen**", und klicken Sie dann auf **"Speichern"**.
-    
+
+    1. Deaktivieren Sie **"Benutzerdefinierte Apps hochladen**", und klicken Sie dann auf **"Speichern"**.
+
 1. Erstellen Sie eine neue App-Setuprichtlinie, die das Hochladen benutzerdefinierter Apps ermöglicht, und weisen Sie sie Ihren vertrauenswürdigen Benutzern zu. Gehen Sie dazu so vor:
 
     1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu den **Setuprichtlinien** für **Teams-Apps** > , und klicken Sie dann auf "**Hinzufügen"**. Geben Sie der neuen Richtlinie einen Namen und eine Beschreibung, aktivieren **Sie "Benutzerdefinierte Apps hochladen**", und klicken Sie dann auf **"Speichern"**.
-    
-    2. Wählen Sie die neue Richtlinie aus, die Sie erstellt haben, und klicken Sie dann auf **"Benutzer verwalten**". Suchen Sie nach einem Benutzer, klicken Sie auf **"Hinzufügen"** und dann auf **"Übernehmen**". Wiederholen Sie diesen Schritt, um die Richtlinie allen vertrauenswürdigen Benutzern zuzuweisen.
+
+    1. Wählen Sie die neue Richtlinie aus, die Sie erstellt haben, und klicken Sie dann auf **"Benutzer verwalten**". Suchen Sie nach einem Benutzer, klicken Sie auf **"Hinzufügen"** und dann auf **"Übernehmen**". Wiederholen Sie diesen Schritt, um die Richtlinie allen vertrauenswürdigen Benutzern zuzuweisen.
 
        ![Screenshot der Seite "App-Setuprichtlinie hinzufügen"](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -119,7 +119,17 @@ Sie können die App auf der Seite "Apps verwalten" im Microsoft Teams Admin Cent
 
 In den meisten Fällen wird die neue Version nach Abschluss einer App-Aktualisierung automatisch für Endbenutzer angezeigt. Weitere Informationen finden Sie in der [Updateumgebung für Endbenutzer](apps-update-experience.md).
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="remove"></a>Entfernen
+
+Führen Sie die folgenden Schritte aus, um eine App zu entfernen:
+
+1. Melden Sie sich beim Microsoft Teams Admin Center an.
+1. Seite "Apps **[verwalten](https://admin.teams.microsoft.com/policies/manage-apps)**" auf **Teams-Apps** >  zugreifen.
+1. Klicken Sie auf den Namen der App, um die Seite mit den App-Details zu öffnen.
+1. Wählen Sie neben dem App-Banner **"Aktionen löschen"** > **aus**.
+1. Wählen Sie im Dialogfeld " **Löschen**" aus.
+
+## <a name="related-articles"></a>Verwandte Artikel
 
 * [Veröffentlichen einer benutzerdefinierten App, die über die Teams-App-Übermittlungs-API übermittelt wurde](submit-approve-custom-apps.md)
 * [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md)

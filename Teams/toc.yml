@@ -1535,10 +1535,6 @@ items:
             href: submit-approve-custom-apps.md
           - name: 'Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen'
             href: upload-custom-apps.md
-          - name: Aussehen und Metadaten von Apps anpassen
-            href: customize-apps.md
-          - name: Branden Sie Ihren Org App Store
-            href: customize-your-app-store.md
       - name: Administratorsteuerelemente zum Steuern von Apps
         items:
           - name: Übersicht über die App-Verwaltung für Administratoren
@@ -1561,16 +1557,20 @@ items:
             href: resource-specific-consent.md
           - name: Grundlegendes zu App-Berechtigungen und dem Zugriff auf Ressourcen
             href: app-permissions.md
+          - name: Aussehen und Metadaten von Apps anpassen
+            href: customize-apps.md
+          - name: Branden Sie Ihren Org App Store
+            href: customize-your-app-store.md
           - name: Verwalten des Zugriffs auf Anwendungen in Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: Überwachung von App-Management-Aktivitäten
-            href: audit-app-management-activities.md
-          - name: App-Nutzungsbericht und Analysen
-            href: teams-analytics-and-reports/app-usage-report.md
           - name: App-Verhalten basierend auf Typen von Benutzern
             href: non-standard-users.md
           - name: App-Updates und Administratorrolle
             href: apps-update-experience.md
+          - name: Überwachung von App-Management-Aktivitäten
+            href: audit-app-management-activities.md
+          - name: App-Nutzungsbericht und Analysen
+            href: teams-analytics-and-reports/app-usage-report.md
   - name: Branchen- und Regierungsrichtlinien
     items:
       - name: Übersicht

@@ -1,5 +1,5 @@
 ---
-title: App-Updateerfahrung in Microsoft Teams
+title: App-Update-Erfahrung in Microsoft Teams
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: In diesem Artikel erfahren Sie, wie Microsoft-Apps, benutzerdefinierte Apps und Drittanbieter-Apps in Microsoft Teams aktualisiert werden.
-ms.openlocfilehash: cf4a062cd035feb0850a64c49a4c2363de0badce
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.openlocfilehash: 27d51a487af918e6fcee2b7806c81d31506bd1af
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190311"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958040"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Aktualisieren von Apps in Microsoft Teams
 
-In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt, nachdem App-Entwickler ein App-Update veröffentlicht haben. Es gibt jedoch einige Updates für das [Microsoft Teams-Manifest](/microsoftteams/platform/resources/schema/manifest-schema), für die die Benutzerakzeptanz abgeschlossen werden muss:
+In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt, nachdem App-Entwickler ein App-Update veröffentlicht haben. Es gibt jedoch einige Updates für das [Microsoft Teams-Manifest](/microsoftteams/platform/resources/schema/manifest-schema) , für die die Benutzerakzeptanz abgeschlossen werden muss:
 
 * Ein Bot wurde hinzugefügt oder entfernt.
 * Die Eigenschaft "botId" eines vorhandenen Bots wurde geändert.
@@ -35,11 +35,11 @@ In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt
 * Die SupportsCalling-, SupportsVideo- und SupportsFiles-Funktion eines Bots wurde hinzugefügt.
 * Eine Messaging-Erweiterung wurde hinzugefügt.
 * Ein neuer Connector wurde hinzugefügt.
-* Berechtigungen in "Autorisierung" wurden hinzugefügt oder geändert
+* Berechtigungen in "Authorization" wurden hinzugefügt oder geändert.
 
-![neue Version verfügbar.](media/manage-your-custom-apps-update1.png)
+:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="Neue Version verfügbar." lightbox="media/manage-your-custom-apps-update1.png":::
 
-![Upgradeoption für eine App.](media/manage-your-custom-apps-update2.png)
+:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgradeoption für eine App." lightbox="media/manage-your-custom-apps-update2.png":::
 
 > [!NOTE]
 > Der Updateprozess gilt für alle App-Updates für Microsoft-Apps, benutzerdefinierte Apps und Drittanbieter-Apps.
