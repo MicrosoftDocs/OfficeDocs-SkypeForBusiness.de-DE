@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606224"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952759"
 ---
 # <a name="share-to-teams-from-outlook"></a>Freigeben für Teams aus Outlook
 
@@ -30,9 +30,9 @@ Mithilfe von Outlook (Für Teams freigeben) können Benutzer E-Mails, einschlie�
 Das Feature "Für Teams freigeben" erfordert ein Add-In für Outlook. Dieses Add-In wird automatisch installiert, wenn sich ein Benutzer bei der Teams-Web-App oder dem Teams-Desktopclient anmeldet.
 
 > [!NOTE]
-> Achten Sie darauf[, Add-Ins für Outlook in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) und [Clientzugriffsregeln in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) zu überprüfen, um sicherzustellen, dass Ihre Add-Ins für Outlook ordnungsgemäß funktionieren. Außerdem kann das Deaktivieren verbundener Erfahrungen verhindern, dass Add-Ins für Outlook ordnungsgemäß funktionieren. Weitere Informationen finden Sie [unter "Verbundene Erfahrungen in Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) ".  
+> Achten Sie darauf[, Add-Ins für Outlook in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) und [Clientzugriffsregeln in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) zu überprüfen, um sicherzustellen, dass Ihre Add-Ins für Outlook ordnungsgemäß funktionieren. Außerdem kann das Deaktivieren verbundener Erfahrungen verhindern, dass Add-Ins für Outlook ordnungsgemäß funktionieren. Weitere Informationen finden Sie [unter "Verbundene Erfahrungen in Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) ". Freigegebene Postfächer werden vom Add-In nicht unterstützt. 
 
-Die Freigabe für Teams verwendet den gleichen Transportmechanismus wie bei einem Benutzer per E-Mail an einen Kanal. Für die Freigabe für Chats werden E-Mails (einschließlich E-Mail-Anlagen) auf das OneDrive des Absenders kopiert. Für die Freigabe in Kanälen werden E-Mails und Anlagen in den Ordner " **E-Mail-Nachrichten** " in SharePoint kopiert.
+Die Freigabe für Teams verwendet den gleichen Transportmechanismus wie bei einem Benutzer per E-Mail an einen Kanal. Für die Freigabe für Chats werden E-Mails (einschließlich E-Mail-Anlagen) auf das OneDrive des Absenders kopiert. Für die Freigabe für Kanäle werden E-Mails und Anlagen in den **Ordner Email Nachrichten** in SharePoint kopiert.
 
 Das Outlook-Add-In für "Freigeben für Teams" verwendet den Anforderungssatz 1.7, wie in der [Dokumentation zu Outlook-Add-Ins](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) beschrieben, der Details zu Outlook-Add-Ins, Umgebungsanforderungen für Outlook-Add-Ins und die spezifischen Outlook-Clients enthält, die mit Anforderungssatz 1.7 unterstützt werden.
 
