@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams verwenden und verwalten können.
-ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 8bd0fe39031fdae6d47e7c738a1c883b6b066f7d
+ms.sourcegitcommit: 1398570f56d5918d309f95fb734a2e8c5b4981b5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884914"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66968906"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Freigegebene Kanäle in Microsoft Teams
 
@@ -149,6 +149,8 @@ Die folgende Tabelle beschreibt die maximale Anzahl von Kanälen und Mitgliedern
 |Mitglieder in einem freigegebenen Kanal|5.000 direkte Mitglieder, einschließlich bis zu 50 Teams. (Im Sinne dieses Grenzwerts wird jedes Team, für das der Kanal freigegeben ist, als ein Mitglied gezählt.)|Echtzeit-Updates sind jeweils nur für 25 000 Benutzer verfügbar und nur 25 000 Benutzer werden in der Kanalliste angezeigt.|
 
 Es gelten die folgenden Einschränkungen:
+
+- Für externe Teilnehmer werden nur Arbeits-, Schul- oder Unikonten von Azure AD unterstützt.
 
 - Freigegebene Kanäle unterstützen Registerkarten mit Ausnahme von Stream, Planner und Forms.
 
