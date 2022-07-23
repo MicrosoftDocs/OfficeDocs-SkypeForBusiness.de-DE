@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880389"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972780"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>FÜR Microsoft Teams zertifizierte USB-Audio- und Videogeräte
 
@@ -41,6 +41,12 @@ Benutzer müssen zuvor zertifizierte Geräte beim Upgrade von Skype for Business
 - **Zertifiziert für Microsoft Teams** Geräte, die auf dieser Ebene zertifiziert sind, weisen auf die neuesten zertifizierten Geräte hin, um eine kompromittierte Teams-Erfahrung zu ermöglichen. Diese Geräte bieten alle Vorteile der vorherigen Zertifizierung und enthalten auch eine dedizierte Teams-Schaltfläche mit LED-Indikator. Bei den meisten Formfaktoren ist die Schaltfläche "Teams" eine leicht zu findende, taktile Schaltfläche mit dem Teams-Logo. Microsoft arbeitet weiterhin mit Geräteherstellern zusammen, um im Laufe der Zeit neue Werte über Firmwareupdates bereitzustellen.
 
 ### <a name="special-usage-designations"></a>Besondere Verwendungsbezeichnungen
+
+- **Native Bluetooth-zertifizierte Audioperipheriegeräte**  Die meisten Bluetooth-Headsets und Freisprecheinrichtung, die für Microsoft Teams zertifiziert sind, sind für die Verwendung mit einem USB-Dongle für die Verbindung mit PCs und Mac-Hosts konzipiert. Viele Benutzer haben nach der Möglichkeit gefragt, ihr Gerät direkt mit dem Host zu koppeln, da sie nicht über genügend USB-Anschlüsse verfügen oder sich nicht daran erinnern möchten, den USB-Dongle mitzubringen, wenn sie an verschiedenen Standorten arbeiten.
+
+    Native Bluetooth-zertifizierte Geräte, einschließlich Headsets und Freisprecheinrichtung, werden auf Windows-PCs unterstützt (MacOS wird möglicherweise in Zukunft unterstützt). Geräte werden sowohl mit als auch ohne USB-Dongle auf Audioleistung, Anrufsteuerung und Integration von Teams-Schaltflächen getestet.
+
+    Die Leistung im systemeigenen Bluetooth-Modus wird durch das Bluetooth-Radio auf dem Host-PC beeinträchtigt. Daher empfehlen wir die Installation der neuesten Firmwareupdates für Geräte und Bluetooth-Funk. Ein kleiner Teil der Benutzer muss möglicherweise weiterhin den USB-Dongle verwenden, z. B. bei der Arbeit in einer Funkumgebung mit hoher Dichte, wenn ihr PC Bluetooth von mehreren gekoppelten Geräten stark verwendet wird, oder mit bestimmten PCs, die über Bluetooth-Funkgeräte mit schlechter Leistung verfügen.
 
 - **Premium-Mikrofon für Open Office** Alle Headsets werden getestet, um klare Audiodaten bereitzustellen, aber offene Büro- und andere laute Umgebungen stellen eine größere Herausforderung dar. Headsets mit dieser Bezeichnung nehmen die Stimme des Headset-Benutzers auf, übertragen aber nicht den Ton ihrer Nachbarn.
 - **Größe des Besprechungsraums** Gemeinsam genutzte Geräte wie Freisprechgeräte und Kameras weisen eine unterstützte Nutzungsdistanz auf. Die empfohlenen Entfernungen können je nach Hersteller unterschiedlich sein. Um Kunden eine klare Anleitung zu geben, werden alle gemeinsam genutzten Geräte bei der Zertifizierung anhand klar definierter Räumegrößen und Rauschumgebungen getestet.
