@@ -1525,6 +1525,8 @@ items:
             href: overview-of-app-certification.md
           - name: Kaufen von Drittanbieter-Apps für Teams
             href: purchase-third-party-apps.md
+          - name: Adobe Acrobat als Standard-PDF-Viewer in Teams
+            href: adobe-acrobat-pdf-viewer-teams.md
           - name: Verwalten Sie Microsoft 365 und benutzerdefinierte Connectors
             href: Office-365-custom-connectors.md
       - name: Verwalten der Geschäftssparten-Apps
