@@ -459,8 +459,10 @@ items:
             href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: 'Protokolldateien, Dienstzustand und Support'
         items:
-          - name: Verwenden Sie Protokolldateien zur Überwachung und Problembehebung in Teams
+          - name: Konfigurieren von Protokolldateien für die Überwachung und Problembehandlung in Microsoft Teams
             href: log-files.md
+          - name: Browserprotokolle und Ablaufverfolgung für Microsoft Teams
+            href: browser-logs-and-tracing-for-teams.md
           - name: Überprüfen der Dienstintegrität für Teams
             href: service-health.md
           - name: So finden Sie Ihre Support-PIN
@@ -977,6 +979,8 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Telefonnummern für Direct Routing verwalten
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
+          - name: Lizenzierung und Verwaltung von Telefonnummern nach Ländern
+            href: phone-numbers-licensing-changes.md
       - name: Wählpläne und Routing
         items:
           - name: Übersicht
