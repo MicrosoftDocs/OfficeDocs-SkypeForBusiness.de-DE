@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Session Border Controller (SBC) so konfigurieren, dass er mehrere Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber bedient.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616341"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005355"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -60,7 +60,7 @@ Ausführliche Schritte zum Bereitstellen und Konfigurieren von SBCs für ein SBC
 
 - **Audiocodes:** Informationen zur Konfiguration des SBC-Hostingszenarios finden Sie in den [Anmerkungen zur Direct Routing-Konfiguration](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) wie unter "Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note" beschrieben. 
 - **Oracle:** Informationen zur Konfiguration des SBC-Hostingszenarios finden Sie in den [Anmerkungen zur Direct Routing-Konfiguration](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) , wie im Abschnitt "Microsoft" beschrieben. 
-- **Menübandkommunikation:** Dokumentation zum Konfigurieren von SbCs der Ribbon Core-Serie finden Sie im [Konfigurationshandbuch für Ribbon Communications SBC Core Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) . Siehe auch [Bewährte Methoden für das Menüband – Konfigurieren von Netzbetreibern für Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **Menübandkommunikation:** Dokumentation zum Konfigurieren von SbCs der Ribbon Core-Serie finden Sie im [Konfigurationshandbuch für Ribbon Communications SBC Core Microsoft Teams](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide) . Siehe auch [Bewährte Methoden für das Menüband – Konfigurieren von Netzbetreibern für Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-Systems (anynode):** Registrieren Sie sich auf der [TE-Systems Community-Seite für](https://community.te-systems.de/) Dokumentationen und Beispiele zum Konfigurieren von anynode SBC für mehrere Mandanten.
 - **Metaswitch:** Registrieren Sie sich auf der [Metaswitch Community-Seite für](https://manuals.metaswitch.com/MAN39555) Dokumentationen zum Aktivieren von Perimeta SBC für mehrere Mandanten.
 

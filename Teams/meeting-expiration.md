@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in Microsoft Teams zu steuern.
-ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 3d79041cf6e8e16ed4ebd680cf5f4370e04cd62a
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529687"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005335"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Besprechungsrichtlinien und Ablauf von Besprechungen in Microsoft Teams
 
@@ -101,8 +101,8 @@ Administratoren können die Standardablaufeinstellung in PowerShell oder im Team
 Der Ablaufdatumswert kann wie folgt festgelegt werden:
 
 - Mindestwert: **1 Tag**
-- Höchstwert: **99.999 Tage**
-- Sie können das Ablaufdatum auch auf **-1** festlegen, damit die Aufzeichnungen nie ablaufen.
+- Höchstwert: **99999 Tage**
+- Sie können das Ablaufdatum auch in PowerShell auf **-1** festlegen, damit die Aufzeichnungen nie ablaufen.
 
 Beispiel für einen PowerShell-Befehl:
 
@@ -114,24 +114,19 @@ Sie können das Ablaufdatum im Teams Admin Center unter "**Besprechungsrichtlini
 
 ![Admin Center-Screenshot der Ablaufrichtlinie für Besprechungen.](media/meeting-expiration-policy.jpg)
 
-### <a name="security-and-compliance"></a>Sicherheit und Compliance
+### <a name="compliance"></a>Compliance
 
-#### <a name="should-i-rely-on-this-feature-for-strict-security-and-compliance-adherence"></a>Sollte ich mich auf dieses Feature verlassen, um strikte Sicherheits- und Compliance-Einhaltung zu gewährleisten?
+Sie sollten sich aus rechtlichen Gründen nicht auf tmR-Ablaufeinstellungen verlassen, da Endbenutzer das Ablaufdatum aller aufzeichnungen ändern können, die sie steuern.
 
-Nein, Sie sollten sich aus Rechtlichem Schutz nicht darauf verlassen, da Endbenutzer das Ablaufdatum aller aufzeichnungen, die sie kontrollieren, ändern können.
+#### <a name="teams-meeting-recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Ablaufeinstellungen für Teams-Besprechungsaufzeichnungen und Microsoft 365-Aufbewahrungsrichtlinien in Microsoft Purview
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Überschreibt eine Aufbewahrungs- und/oder Löschrichtlinie, die ich im Security & Compliance Center festgelegt habe, die Ablaufeinstellung für Teams-Besprechungsaufzeichnungen?
+Die Aufbewahrung von Dateien hat Vorrang vor dem Löschen von Dateien. Eine Besprechungsaufzeichnung mit einer Purview-Aufbewahrungsrichtlinie kann erst nach Abschluss des Aufbewahrungszeitraums von einer TmR-Ablaufrichtlinie gelöscht werden. Wenn Sie beispielsweise über eine Purview-Rententionsrichtlinie verfügen, die besagt, dass eine Datei fünf Jahre lang aufbewahrt wird und eine TMR-Ablaufrichtlinie für 60 Tage festgelegt ist, löscht die TMR-Ablaufrichtlinie die Aufzeichnung nach fünf Jahren.  
 
-Ja, alle Richtlinien, die Sie im Compliance Center festgelegt haben, haben vorrang.
+Wenn Sie über eine TMR-Ablaufrichtlinie und eine Purview-Löschrichtlinie mit unterschiedlichen Löschterminen verfügen, wird die Datei frühestens zu den beiden Datumsangaben gelöscht. Wenn Sie z. B. über eine Purview-Löschrichtlinie verfügen, die besagt, dass eine Datei nach einem Jahr gelöscht wird und ein TMR-Ablauf für 120 Tage festgelegt ist, löscht die TmR-Ablaufeinstellung die Datei nach 120 Tagen.
 
-Zum Beispiel: 
+### <a name="enforcement-of-file-retention-with-the-teams-meeting-recording-expiration-setting"></a>Erzwingung der Dateiaufbewahrung mit der Ablaufeinstellung der Teams-Besprechungsaufzeichnung
 
-- Wenn Sie über eine Richtlinie verfügen, die besagt, dass alle Dateien auf einer Website 100 Tage lang aufbewahrt werden müssen und die Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung 30 Tage beträgt, wird die Aufzeichnung für die gesamten 100 Tage aufbewahrt.
-- Wenn Sie über eine Löschrichtlinie verfügen, die besagt, dass alle Teams-Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden und Sie über eine Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung von 30 Tagen verfügen, wird die Aufzeichnung nach fünf Tagen gelöscht.
-
-### <a name="will-this-feature-enforce-file-retention"></a>Wird durch dieses Feature die Dateiaufbewahrung erzwungen?
-
-Nein, Dateien werden aufgrund dieses Features oder seiner Einstellungen nicht aufbewahrt. Wenn ein Benutzer mit Löschberechtigungen versucht, einen TmR zu löschen, der über eine Ablaufeinstellung verfügt, wird die Löschaktion dieses Benutzers ausgeführt.
+Dateien werden aufgrund dieses Features oder seiner Einstellungen nicht aufbewahrt. Wenn ein Benutzer mit Löschberechtigungen versucht, einen TmR zu löschen, der über eine Ablaufeinstellung verfügt, wird die Löschaktion dieses Benutzers ausgeführt.
 
 ### <a name="what-skus-are-required-for-this-feature"></a>Welche SKUs sind für dieses Feature erforderlich?
 
