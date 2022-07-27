@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Erfahren Sie, wie Sie Benutzern Teams-Add-On-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838820"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023676"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern
 
@@ -64,18 +64,10 @@ Verwenden Sie PowerShell, um Benutzern massenhaft Lizenzen zuzuweisen. Weitere I
 
 Hier ist ein Beispiel für die Verwendung eines Skripts zum Zuweisen von Lizenzen zu Ihren Benutzern.
 
-1. Installieren Sie die 64-Bit-Version des [Microsoft Online Services-Anmelde-Assistenten für IT-Experten RTW](/collaborate/connect-redirect?DownloadID=59185).
-2. Installieren Sie das Microsoft Azure Active Directory-Modul für Windows PowerShell:
-    1. Öffnen Sie eine Eingabeaufforderung mit erhöhten Windows PowerShell (führen Sie Windows PowerShell als Administrator aus).
-    2. Führen Sie den folgenden Befehl aus:
-        ```powershell
-        Install-Module MSOnline
-        ```
-    3. Wenn Sie aufgefordert werden, den NuGet-Anbieter zu installieren, geben Sie **Y** ein, und drücken Sie dann die EINGABETASTE.
-    4. Wenn Sie aufgefordert werden, das Modul aus PSGallery zu installieren, geben Sie **Y** ein, und drücken Sie dann die EINGABETASTE.
-3. Führen Sie an der eingabeaufforderung Windows PowerShell das folgende Skript aus, um Ihren Benutzern Lizenzen zuzuweisen. \<CompanyName:License> Dabei ist der Name Ihrer Organisation und der Bezeichner für die Lizenz, die Sie zuweisen möchten. Beispiel: litwareinc:MCOMEETADV.
+1. [Installieren Sie das Microsoft Azure Active Directory-Modul für Windows PowerShell](/powershell/azure/active-directory/install-msonlinev1).
+2. Führen Sie an der eingabeaufforderung Windows PowerShell das folgende Skript aus, um Ihren Benutzern Lizenzen zuzuweisen. `CompanyName:License` Dabei ist der Name Ihrer Organisation und der Bezeichner für die Lizenz, die Sie zuweisen möchten. Beispiel `litwareinc:MCOMEETADV`: .
 
-    Der Bezeichner unterscheidet sich vom Anzeigenamen der Lizenz. Der Bezeichner für Audiokonferenzen ist z. B. MCOMEETADV. Weitere Informationen finden Sie unter [Produktnamen und SKU-Bezeichner für die Lizenzierung](#product-names-and-sku-identifiers-for-licensing).
+    Der Bezeichner unterscheidet sich vom Anzeigenamen der Lizenz. Der Bezeichner für Audiokonferenzen lautet `MCOMEETADV`beispielsweise . Weitere Informationen finden Sie unter [Produktnamen und SKU-Bezeichner für die Lizenzierung](#product-names-and-sku-identifiers-for-licensing).
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.

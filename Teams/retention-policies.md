@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6c370eee74266d2d24df4fa8e1e95904cd08386
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711289"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023686"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Aufbewahrungsrichtlinien für Microsoft Teams Verwalten
 
@@ -38,7 +38,7 @@ Aufbewahrungsrichtlinien und Aufbewahrungsbezeichnungen von Microsoft 365 helfen
 Teams unterstützt Aufbewahrungsrichtlinien für Chat- und Kanal-Nachrichten, so dass Sie als Administrator proaktiv entscheiden können, ob Sie diese Daten aufbewahren, löschen oder für einen bestimmten Zeitraum aufbewahren und dann löschen möchten. Der Beginn des Aufbewahrungszeitraums für diese Aktionen basiert immer darauf, wann eine Nachricht erstellt wird. Sie können eine Aufbewahrungsrichtlinie für Teams auf Ihre gesamte Organisation oder bestimmte Benutzer und Teams anwenden. Aufbewahrungsbezeichnungen werden für Teams nicht unterstützt.
 
 > [!NOTE]
-> [Freigegebene Kanäle](shared-channels.md), die sich derzeit in der Vorschau befinden, werden jetzt von Aufbewahrungsrichtlinien unterstützt.
+> [Freigegebene Kanäle](shared-channels.md) werden von Aufbewahrungsrichtlinien unterstützt.
 
 Weitere Informationen zu Aufbewahrungslösungen in Microsoft 365 finden Sie unter [Informationen zu Aufbewahrungsrichtlinien und Aufbewahrungsbezeichnungen](/microsoft-365/compliance/retention).
 
@@ -52,7 +52,7 @@ Wenn eine Aufbewahrungsrichtlinie zum Löschen von Chat- und Kanalnachrichten ko
 
 Ausführliche Informationen darüber, wie diese Richtlinien in Abhängigkeit von der Richtlinienkonfiguration und den Benutzeraktionen funktionieren und welche Nachrichtendaten für die Teams-Aufbewahrungsrichtlinien ein- und ausgeschlossen werden, finden Sie unter [Mehr zur Aufbewahrung für Microsoft Teams](/microsoft-365/compliance/retention-policies-teams). Diese Seite also erklärt, warum es manchmal zu Verzögerungen kommen kann, wenn Aufbewahrungsrichtlinien Nachrichten löschen. Beispielsweise können Nachrichten bis zu 7 Tage nach dem Ablauf, den Sie in der Aufbewahrungsrichtlinie konfiguriert haben, für Benutzer in der Teams-App sichtbar sein.
 
-Wenn Sie mehrere Aufbewahrungsrichtlinien für Teams mit unterschiedlichen Aufbewahrungseinstellungen einrichten, klären die Grundsätze der Aufbewahrung alle Konflikte. Zum Beispiel:
+Wenn Sie mehrere Aufbewahrungsrichtlinien für Teams mit unterschiedlichen Aufbewahrungseinstellungen einrichten, klären die Grundsätze der Aufbewahrung alle Konflikte. Beispiel:
 
 - Wenn es einen Konflikt zwischen dem Aufbewahren oder Löschen desselben Inhalts gibt, wird der Inhalt immer am gesicherten Speicherort aufbewahrt, sodass er mit eDiscovery für Complianceadministratoren durchsuchbar bleibt.
     
@@ -66,17 +66,17 @@ Diese beiden Grundsätze der Aufbewahrung adressieren die meisten Konflikte, die
 
 In vielen Fällen betrachten Organisationen private Chat-Daten als eine größere Belastung als Kanalnachrichten, bei denen es sich in der Regel eher um projektbezogene Gespräche handelt.
 
-Sie können eine einzelne Aufbewahrungsrichtlinie sehr effizient für alle nachrichten Teams konfigurieren. Zur Feinsteuerung können Sie aber auch:
+Sie können eine einzelne Aufbewahrungsrichtlinie für alle Teams-Nachrichten sehr effizient konfigurieren. Für eine feinkörnigere Steuerung können Sie auch folgende Aktionen ausführen:
 
-- Es gibt separate Aufbewahrungsrichtlinien für private Chats (1:1- oder 1:n-Chats), Nachrichten von Standardkanälen oder Nachrichten von privaten Kanälen.
+- Verfügen Sie über separate Aufbewahrungsrichtlinien für private Chats (1:1 oder 1:viele Chats), Nachrichten aus Standardkanälen oder Nachrichten von privaten Kanälen.
 
-- Wenden Sie die Richtlinien nur auf bestimmte Benutzer oder Teams in Ihrer Organisation an. Bei Teams und privaten Kanälen können Sie auswählen, für welche Benutzer die Richtlinie gilt. Bei Teams-Kanalnachrichten können Sie auswählen, für welche Teams die Richtlinie gilt.
+- Wenden Sie die Richtlinien nur auf bestimmte Benutzer oder Teams in Ihrer Organisation an. Bei Teams-Chats und privaten Kanälen können Sie auswählen, für welche Benutzer die Richtlinie gilt. Bei Teams-Kanalnachrichten können Sie auswählen, für welche Teams die Richtlinie gilt.
 
-Beispiel für Standardkanalnachrichten: Erstellen Sie eine Aufbewahrungsrichtlinie für bestimmte Teams in Ihrer Organisation, und konfigurieren Sie diese Richtlinie nach einem Jahr mit einer Löschaktion. Erstellen Sie dann eine weitere Aufbewahrungsrichtlinie für Standardkanalnachrichten für alle anderen Teams, und konfigurieren Sie diese Richtlinie mit einer Löschaktion nach 3 Jahren.
+Beispiel für Standardkanalnachrichten: Erstellen Sie eine Aufbewahrungsrichtlinie für bestimmte Teams in Ihrer Organisation, und konfigurieren Sie diese Richtlinie mit einer Löschaktion nach 1 Jahr. Erstellen Sie dann eine weitere Aufbewahrungsrichtlinie für Standardkanalnachrichten für alle anderen Teams, und konfigurieren Sie diese Richtlinie mit einer Löschaktion nach 3 Jahren.
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Aufbewahrungsrichtlinien für Teams erstellen und verwalten
 
-Verwenden Sie zum Erstellen oder Bearbeiten einer Aufbewahrungsrichtlinie Teams Nachrichten die Anweisungen aus der Aufbewahrungsrichtlinie für [Teams Speicherorte](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
+Um eine Aufbewahrungsrichtlinie für Teams-Nachrichten zu erstellen oder zu bearbeiten, verwenden Sie die Anweisungen aus der [Aufbewahrungsrichtlinie für Teams-Speicherorte](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
 
 Diese Seite bietet zusätzliche Informationen zum Erstellen und Verwalten von Aufbewahrungsrichtlinien für andere Workloads in Microsoft 365. Sie könnten zum Beispiel auch eine Aufbewahrungsrichtlinie für Microsoft 365 Groups erstellen, um Dateien aufzubewahren und zu löschen, auf die in Teams zugegriffen wird und die in OneDrive oder SharePoint gespeichert sind.  
 
@@ -84,10 +84,10 @@ Diese Seite bietet zusätzliche Informationen zum Erstellen und Verwalten von Au
 
 Bei privaten Chats (1:1-Chats) oder Gruppenchats sehen Benutzer, dass Chats, die älter sind als die Konfiguration der Aufbewahrungsrichtlinie, gelöscht werden. Zudem wird eine automatisch generierte Nachricht mit dem Hinweis "Wir haben ältere Nachrichten aufgrund der Aufbewahrungsrichtlinie Ihrer Organisation gelöscht" über den noch nicht gelöschten Nachrichten angezeigt. Zum Beispiel:
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="Benutzer informiert in Teams, dass Chatnachrichten aufgrund einer Aufbewahrungsrichtlinie Teams werden.":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Der Benutzer hat in Teams darüber informiert, dass Chatnachrichten aufgrund einer Aufbewahrungsrichtlinie für Teams gelöscht werden.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="Der Benutzer Teams, der erläutert, dass Nachrichten als Ergebnis einer Aufbewahrungsrichtlinie Teams werden.":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Benutzer in Teams, die Nachrichten erklären, werden aufgrund einer Aufbewahrungsrichtlinie für Teams gelöscht.":::
 
 Bei Kanalnachrichten sehen Benutzer (Mitglieder des Kanals), dass die gelöschten Nachrichten nach dem Ablaufen der Nachrichten aus der Ansicht verschwinden. Wenn die gelöschte Nachricht eine übergeordnete Nachricht einer Thread-Unterhaltung war, dann wird anstelle der übergeordneten Nachricht die Meldung "Diese Nachricht wurde aufgrund einer Richtlinie zur Aufbewahrung gelöscht" angezeigt. Beispiel:
 
@@ -105,3 +105,4 @@ Die Links in diesen angezeigten Nachrichten führen zu [Teams-Nachrichten über 
 - [Erste Schritte mit Aufbewahrungsrichtlinien und Aufbewahrungsbezeichnungen](/microsoft-365/compliance/get-started-with-retention)
 - [Informationen zur Aufbewahrung für Microsoft Teams](/microsoft-365/compliance/retention-policies-teams)
 - [Erstellen und Konfigurieren von Aufbewahrungsrichtlinien](/microsoft-365/compliance/create-retention-policies)
+- Problembehandlung: [Nachrichten in den Teams- und Yammer-Apps werden unerwartet durch Aufbewahrungsrichtlinien gelöscht](/microsoftteams/troubleshoot/teams-im-presence/messages-unexpectedly-deleted-retention-policy).

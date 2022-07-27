@@ -22,22 +22,24 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
-ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: b9bb3cf0990058cd16ed35d52d07f63be6cd90fb
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046447"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024008"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
-Die Vorlage für Teams automatische Telefonzentrale & Anrufwarteschleifen-Verlaufsbericht Power BI enthält die folgenden drei Berichte:
+Die Power BI-Vorlage "Teams Auto Attendant & Anrufwarteschleifenverlaufsbericht" enthält die folgenden drei Berichte:
 
 - [Automatische Telefonzentrale:](media/cqd-teams-aa-cq-historical-report-sample-aa.png) Zeigt Analysen für Anrufe an, die in Ihren automatischen Telefonzentralen eingehen.
 - [Anrufwarteschleife:](media/cqd-teams-aa-cq-historical-report-sample-cq.png) Zeigt Analysen für Anrufe an, die in Ihren Anrufwarteschleifen eingehen.
 - [Agent-Zeitachse:](media/cqd-teams-aa-cq-historical-report-sample-at.png) Zeigt eine Zeitachsenansicht der Agents an, die bei Anrufen in der Anrufwarteschleife aktiv sind.
 
 Diese Berichte verwenden Daten aus dem [AQD](CQD-Power-BI-query-templates.md)-Datenspeicher. Die Berichte ermöglichen Es Organisationen, über die Anzahl der Anrufe zu berichten, die von automatischen Telefonzentralen und Anrufwarteschleifen verarbeitet werden.  Die Berichte bieten auch Einblicke in die Agentleistung in den Anrufwarteschleifen.
+
+### <a name="v160-published-on-july-22-2022"></a>V1.60 veröffentlicht am 22. Juli 2022
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -52,7 +54,7 @@ Das Konto, das Sie zum Anzeigen des Verlaufsberichts verwenden, muss über Berec
 
 ## <a name="installation"></a>Installation 
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie bereits Power BI Desktop auf dem Computer installiert haben und dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügt.
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie Power BI Desktop bereits auf Ihrem Computer installiert haben und dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügt.
 
 Führen Sie die folgenden Schritte durch:
 
@@ -60,9 +62,9 @@ Führen Sie die folgenden Schritte durch:
 
 - Doppelklicken Sie auf die ZIP-Datei, um sie zu öffnen.
 
-- Doppelklicken Sie auf die Vorlagendatei "CQ and AA combined Analytics 20201105.pbit". Die Power BI Desktop sollte gestartet werden.
+- Doppelklicken Sie auf die Vorlagendatei "CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit". Die Power BI Desktop sollte gestartet werden.
 
-- Sie werden aufgefordert, die AQD-Datenpipelineregion auszuwählen. Wählen Sie die Region aus, in der sich Ihr Mandant befindet.
+- Sie werden aufgefordert, den CQD-Datenpipelinebereich auszuwählen. Wählen Sie die Region aus, in der sich Ihr Mandant befindet.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot der Auswahl des CQD-Datenpipelinebereichs.":::
 
@@ -83,7 +85,7 @@ Führen Sie die folgenden Schritte durch:
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot, in dem die Aktualisierungsoption ausgewählt wird.":::
 
-- Anschließend werden Sie aufgefordert, sich anzumelden. Wählen Sie **Organisationskonto** und dann **Anmelden** aus.
+- Sie werden aufgefordert, sich anzumelden. Wählen Sie **"Organisationskonto** " und dann **"Anmelden"** aus.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot der Anmeldung.":::
 
@@ -91,15 +93,15 @@ Führen Sie die folgenden Schritte durch:
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>Datenlatenz und AA- und CQ-Analysen
 
-Daten sind innerhalb von 30 Minuten in der AQD-Datenpipeline verfügbar.
+Daten sind in der Regel innerhalb von 30 Minuten nach Abschluss des Anrufs verfügbar. Es gibt jedoch Situationen, in denen es mehrere Stunden dauern kann, bis Daten angezeigt werden. 
 
-Sie müssen die Daten aktualisieren, um die neuen Analysedaten anzuzeigen. 
+Sie müssen die Daten aktualisieren, um neue Daten anzuzeigen.
 
 ## <a name="customization"></a>Anpassung 
 
 Sie können bestimmte Visualisierungsaspekte der Berichte anpassen, z. B. das Hinzufügen oder Entfernen von Feldern, die in den verschiedenen Visualisierungen angezeigt werden sollen, das Ändern des Diagrammtyps usw.
 
-Sie können dem Bericht keine weiteren Datenfelder hinzufügen.
+Der Bericht enthält alle derzeit verfügbaren Datenmetriken.
 
 ### <a name="change-color-schema"></a>Farbschema ändern 
 
@@ -306,6 +308,15 @@ Führen Sie die folgenden Schritte durch:
 
 - Im Dashboard sind nur 28 Tage des Verlaufs verfügbar, da Anrufwarteschleifen-/automatische Telefonzentralendaten als personenbezogene Daten betrachtet werden und den Aufbewahrungsrichtlinien für den Datenschutz unterliegen.
 
-- In einigen Szenarien kann die Anzahl der Anrufe, die der Agent angenommen hat, im Cloud Call Queue Agent-Zeitachsenbericht anders sein als die Anzahl der Anrufe, die im Teams Clientanrufverlauf angezeigt werden. Der Teams Clientanrufverlauf ist richtig. Der Support wird derzeit untersucht, aber zurzeit ist keine geschätzte Zeit für die Reparatur verfügbar.
+- In einigen Szenarien kann sich die Anzahl der Anrufe, die der Agent angenommen hat, im Cloud Call Queue Agent-Zeitachsenbericht von der Anzahl der Anrufe unterscheiden, die im Teams-Clientanrufverlauf angezeigt werden. Der Anrufverlauf des Teams-Clients ist korrekt. Der Support wird derzeit untersucht, aber zurzeit ist keine geschätzte Zeit für die Reparatur verfügbar.
 
 - <sup>1</sup> **Eingehende Anrufquelle** in den Diagrammen für die automatische Telefonzentrale und die Anrufwarteschleife zeigen die letzte Anrufabschnittsquelle anstelle der ersten Anrufabschnittsquelle an. Wenn beispielsweise eine automatische Telefonzentrale einen externen Anruf empfängt und den Anruf an eine andere automatische Telefonzentrale oder Anrufwarteschleife überträgt, wird die **eingehende Anrufquelle** als intern gemeldet.
+
+## <a name="version-history"></a>Versionsverlauf
+|Version  |Veröffentlichungsdatum     |Dateiname                                                           |Beschreibung                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.60     |22. Juli 2022      |CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit |Siehe:<br>Automatische CQD Teams-Telefonzentrale & Verlaufsberichte der Anrufwarteschleife – Ändern Log.docx in der heruntergeladenen ZIP-Datei für eine Liste der Änderungen                                                                             |
+|1.00     |5. November 2020   |CQ und AA kombinierte Analytics 20201105.pbit                         |Erstveröffentlichung                                     |
+
+
+

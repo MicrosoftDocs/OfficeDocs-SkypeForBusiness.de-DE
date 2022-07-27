@@ -18,12 +18,12 @@ description: Erfahren Sie, wie Sie die Dynamische Notruffunktion "Microsoft-Anru
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972790"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023696"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -156,7 +156,7 @@ Beachten Sie, dass es einige Zeit (bis zu ein paar Stunden) dauern kann, bis ein
 
 - Wenn die dynamische Aktivierung von Notrufen oder die dynamische Konfiguration von Security Desk-Benachrichtigungen erforderlich ist, müssen Sie sowohl vertrauenswürdige IP-Adressen als auch Netzwerkstandorte konfigurieren.
 
-- Wenn nur dynamische Speicherorte erforderlich sind, müssen Sie nur vertrauenswürdige IP-Adressen konfigurieren. Das Konfigurieren von Metwork-Einstellungen ist nicht erforderlich.
+- Wenn nur dynamische Speicherorte erforderlich sind, müssen Sie nur vertrauenswürdige IP-Adressen konfigurieren. Das Konfigurieren von Netzwerkeinstellungen ist nicht erforderlich.
 
 - Wenn keines der Beiden erforderlich ist, ist das Konfigurieren von Netzwerkeinstellungen nicht erforderlich.
 

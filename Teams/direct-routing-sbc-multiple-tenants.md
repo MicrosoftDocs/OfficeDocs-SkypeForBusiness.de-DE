@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Session Border Controller (SBC) so konfigurieren, dass er mehrere Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber bedient.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005355"
+ms.locfileid: "67024018"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -246,7 +246,7 @@ Es wurden zwei neue Entitäten eingeführt:
 Beispiele:
 - Customers.adatum.biz – der Netzbetreibertrunk, der im Netzbetreibermandanten erstellt werden muss.
 
-- Sbc1.customers.adatum.biz – der abgeleitete Trunk in einem Kundenmandanten. Sie können den Namen des abgeleiteten Trunks im Kundenmandanten in der Online-VoIP-Routingrichtlinie hinzufügen, ohne ihn zu erstellen.
+- Sbc1.customers.adatum.biz – der abgeleitete Trunk in einem Kundenmandanten. Sie können den Namen des abgeleiteten Trunks im Kundenmandanten in den VoIP-Routen hinzufügen, ohne ihn zu erstellen.
 
 - Der Netzbetreiber muss einen DNS-Eintrag einrichten, der den abgeleiteten Trunk-FQDN für die SBC-IP-Adresse des Netzbetreibers auflöst.
 

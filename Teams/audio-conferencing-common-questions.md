@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden finden Sie einige der häufigsten Fragen, die wir von unseren Kunden erhalten, die Audiokonferenz nutzen möchten.
-ms.openlocfilehash: eece5c0edc912cf56e933c75c85dd3f5cc8ef51f
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: b6b14397282a365931dc58e6da20f2b3da3ab6c8
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823390"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023746"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenz
 
@@ -87,7 +87,7 @@ Die maximale Dauer hängt davon ab, wer sich in der Besprechung befindet, und de
 
 Die Gesamtzahl der erlaubten Teilnehmer in Besprechungen finden Sie unter [Beschränkungen und Spezifikationen](limits-specifications-teams.md).
   
-Informationen über Besprechungsbeschränkungen finden Sie unter [Beschränkungen für Skype for Business Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-limits#bkmk_Meeting_LyncOnlineLimits).
+Informationen über Besprechungsbeschränkungen finden Sie unter [Beschränkungen für Skype for Business Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-limits#meeting-limits).
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Warum haben Benutzer E-Mails mit ihren Audiokonferenzinformationen erhalten?
 
