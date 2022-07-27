@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125480"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023988"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
@@ -42,6 +42,11 @@ Der externe Zugriff ist standardmäßig für alle Domänen aktiviert. Sie könne
 
 ![Screenshot der Einstellungen für den externen Zugriff.](media/external-access-federation-settings.png)
 
+Externer Zugriff ist für die folgenden Mandanten verfügbar:
+
+- Übergreifend und zwischen Commercial, GCC und GCC High
+- Nur zwischen DOD
+
 Weitere Informationen zum Konfigurieren des externen Zugriffs finden Sie unter [Externen Zugriff verwalten](manage-external-access.md). 
 
 >[!NOTE]
@@ -52,6 +57,12 @@ Weitere Informationen zum Konfigurieren des externen Zugriffs finden Sie unter [
 Verwenden Sie den Gastzugriff, um Personen von außerhalb Ihrer Organisation zu einem Team hinzuzufügen, in dem sie chatten, anrufen, treffen und an Dateien zusammenarbeiten können. Einem Gast können fast alle Funktionen des Teams gleich wie einem nativen Teammitglied zur Verfügung gestellt werden. Weitere Informationen finden Sie unter [Gasterfahrung in Teams](guest-experience.md).
 
 Gäste werden dem Azure Active Directory Ihrer Organisation als B2B-Benutzer hinzugefügt und müssen sich mit ihrem Gastkonto in Teams anmelden. Dies bedeutet, dass sie sich möglicherweise in seiner eigenen Organisation abmelden müssen, um sich bei Ihrer Organisation anzumelden.
+
+Der Gastzugriff ist für die folgenden Mandanten verfügbar:
+
+- Übergreifend und zwischen Commercial und GCC
+- Nur zwischen GCC High
+- Nur zwischen DOD
 
 Informationen zum Konfigurieren des Gastzugriffs für Teams finden Sie unter [Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team).
 
