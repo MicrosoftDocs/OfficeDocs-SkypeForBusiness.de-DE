@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
+ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023686"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67054926"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Aufbewahrungsrichtlinien für Microsoft Teams Verwalten
 
@@ -42,7 +42,7 @@ Teams unterstützt Aufbewahrungsrichtlinien für Chat- und Kanal-Nachrichten, so
 
 Weitere Informationen zu Aufbewahrungslösungen in Microsoft 365 finden Sie unter [Informationen zu Aufbewahrungsrichtlinien und Aufbewahrungsbezeichnungen](/microsoft-365/compliance/retention).
 
-Benutzer, die einer Aufbewahrungsrichtlinie für Teams unterliegen, müssen über eine entsprechende Lizenz verfügen, z. B. Office 365 E3 oder Office 365 A3. Weitere Lizenzierungsoptionen für diese Aufbewahrungsrichtlinien finden Sie im Abschnitt [Information Governance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) aus [Microsoft 365-Lizenzierungsanleitung für Sicherheit und Compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). Weitere Informationen zur Lizenzierung für Teams finden Sie in der [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
+Benutzer, die einer Aufbewahrungsrichtlinie für Teams unterliegen, müssen über eine entsprechende Lizenz verfügen, z. B. Office 365 E3 oder Office 365 A3. Weitere Lizenzierungsoptionen für diese Aufbewahrungsrichtlinien finden Sie im [Abschnitt Microsoft Purview-Datenlebenszyklusverwaltung](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management) aus [den Microsoft 365-Lizenzierungsanleitungen zur Sicherheit & Compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). Weitere Informationen zur Lizenzierung für Teams finden Sie in der [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-support-retain-and-delete-actions"></a>Unterstützung von Aufbewahrungs- und Löschaktionen durch Teams-Aufbewahrungsrichtlinien
 
