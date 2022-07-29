@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonzentralen und Anrufwarteschleifen und wie Sie diese verwenden können, um Anrufern zu helfen, durch ein Menüsystem zu navigieren, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616081"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070736"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonzentralen und Anrufwarteschleifen in Microsoft Teams
 
@@ -69,7 +69,7 @@ Sie können einer Anrufwarteschleife eine Telefonnummer zuweisen. Anrufwarteschl
 
 Um automatische Telefonzentralen und Anrufwarteschleifen zu konfigurieren, benötigen Sie die folgenden Ressourcen:
 
-- Ein Ressourcenkonto für jede automatische Telefonzentrale und jede Anrufwarteschleife
+- Ein [Ressourcenkonto](manage-resource-accounts.md) für jede automatische Telefonzentrale und jede Anrufwarteschleife
 - Eine kostenlose Microsoft Teams Telefon Ressourcenkontolizenz für jedes Ressourcenkonto, das direkt von Teams-Benutzern oder externen Telefonnummern wählbar ist
 - Mindestens eine [Microsoft-Dienstnummer](getting-service-phone-numbers.md), eine Telefonieanbieternummer, eine Direct Routing-Nummer oder eine Hybridnummer für jedes Ressourcenkonto, das direkt über externe Telefonnummern wählbar sein soll
   - Die Servicenummer kann eine gebührenpflichtige oder gebührenfreie Nummer sein.
