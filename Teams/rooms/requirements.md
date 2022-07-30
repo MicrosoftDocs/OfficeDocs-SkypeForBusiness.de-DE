@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über die Anforderungen für die Unterstützung von Microsoft Teams-Räume, einschließlich der Auswahl des entsprechenden Geräts, Mikrofons, Lautsprechern, Kameras und Displays.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d8084c1136ef462dcced10b73879d2de2a48671
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: fc7c56ff41eb5d5cab01162468acf6b4dd11b344
+ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789760"
+ms.lasthandoff: 07/29/2022
+ms.locfileid: "67074643"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -30,7 +30,7 @@ Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzung
 
 Ihre Bereitstellung umfasst die Erstellung und Einrichtung von Ressourcenkonten Teams-Räume wie unter ["Bereitstellen Microsoft Teams-Räume](rooms-deploy.md)" beschrieben.
 
-Siehe:
+Referenzieren:
 
 - [Lizenzoptionen basierend auf Ihrem Plan: Microsoft Teams-Räume](rooms-licensing.md)
 
@@ -133,8 +133,8 @@ Alle aktuellen Geräte und Bundles für Microsoft Teams-Räume sind im [Raumsyst
 
 Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) und [https://office.com/teamsdevices](https://office.com/teamsdevices)erhältlich.
 
-|Peripheriegeräte für Microsoft Teams-Räume|Zertifizierte Firmwareversion | Kamera unterstützt die Verwendung von Inhaltskameras|
-|:--- |:--- | :--- |
+|Peripheriegeräte für Microsoft Teams-Räume|Zertifizierte Firmwareversion | Unterstützt Inhaltskamera|Intelligente Kamera|
+|:--- |:--- | :--- |:--- |
 |[Aver VC520 Pro Kamera + Freisprecheinrichtung](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2-Konferenzsystem](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ Kamera-Soundleiste](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
@@ -158,7 +158,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |Huddly L1 Kamera mit Crestron UC-M70-T MTR Kit | Huddly L1 Kamera: 1.2.1 </br> Crestron UC-M70-T mit ASUS Tek Computer INC 9934 compute 1.0.20.246 oder höher |
 |Huddly L1 Kamera mit Crestron UC-MX70-T MTR Kit | Huddly L1 Kamera: 1.2.1 </br> Crestron UC-MX70-T mit ASUS Tek Computer INC 9934 compute 1.0.20.246 oder höher |
 |[Jabra Panacast3 Kamera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
+|[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|4.0.15| &#x2714; | &#x2714;|
 |[Lenovo ThinkSmart Cam Kamera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
