@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c4ff65fb87bed077e1020764382314d5d15c62
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 78aaad6506a7130d336d3847c55e0c0ec08c4450
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562434"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156784"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana-Sprachunterstützung in Teams
 
 > [!NOTE]
-> Cortana-Sprachunterstützung wird in mobilen Microsoft Teams-Apps für iOS und Android sowie in Microsoft Teams-Displays für Benutzer im USA, Großbritannien, Kanada, Indien und Australien unterstützt. Microsoft Teams-Räume unter Windows wird nur für Geräte unterstützt, deren Gebietsschema auf "en-us" festgelegt ist. Cortana-Sprachunterstützung ist derzeit für GCC-, GCC-High-, DoD- und Nicht-US EDU-Mandanten nicht verfügbar. Cortana-Sprachunterstützung in der mobilen Teams-App ist jetzt für EDU-Kunden in en-US verfügbar. Die Erweiterung auf weitere Sprachen und Regionen erfolgt im Rahmen zukünftiger Versionen.
+> Cortana-Sprachunterstützung wird in mobilen Microsoft Teams-Apps für iOS und Android, Microsoft Teams Displays und Microsoft Teams-Räume unter Windows für Benutzer in den USA, Großbritannien, Kanada, Indien und Australien unterstützt. Cortana-Sprachunterstützung in der mobilen Teams-App ist jetzt für EDU-Kunden in en-US verfügbar. Die Erweiterung auf weitere Sprachen und Regionen erfolgt im Rahmen zukünftiger Versionen. Cortana-Sprachunterstützung ist derzeit für GCC-, GCC-High-, DoD- und Nicht-US EDU-Mandanten nicht verfügbar.
 
 Cortana-Sprachunterstützung in der mobilen Teams-App, auf Microsoft Teams-Räume unter Windows und auf Microsoft Teams-Anzeigegeräten ermöglicht es Microsoft 365 Enterprise Benutzern, Kommunikation, Zusammenarbeit und Besprechungsaufgaben mithilfe gesprochener natürlicher Sprache zu optimieren. Benutzer können mit Cortana sprechen, indem sie die Mikrofonschaltfläche oben rechts in der mobilen Teams-App auswählen oder "Cortana" im Microsoft Teams-Raum oder bei Verwendung einer Microsoft Teams-Anzeige sagen. Um sich schnell freihändig mit ihrem Team in Verbindung zu setzen, können Benutzer unterwegs Abfragen wie "Megan anrufen" oder "Eine Nachricht an meine nächste Besprechung senden" sagen. Benutzer können auch an Besprechungen teilnehmen, indem sie "an meiner nächsten Besprechung teilnehmen" sagen und sprachunterstützung verwenden, um Dateien freizugeben, ihren Kalender zu überprüfen und vieles mehr. Diese Sprachunterstützungsfunktionen werden mithilfe von [Diensten auf Unternehmensniveau von Cortana](/microsoft-365/admin/misc/cortana-integration) bereitgestellt, die den Datenschutz-, Sicherheits- und Complianceversprechen von Office 365 vollständig entsprechen, wie in den [Onlinedienstbedingungen (ONLINE Services Terms, OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true) widergespiegelt.
 
@@ -75,7 +75,7 @@ Zum Zeitpunkt der ersten Veröffentlichung für Microsoft 365 Enterprise Benutze
 
 - Microsoft Teams-Räume auf Windows- und Microsoft Teams-Anzeigegeräten unterstützt die Aktivierung von Wörtern.
 
-## <a name="user-control"></a>Benutzersteuerelement
+## <a name="user-control"></a>Benutzerkontrolle
 
 Einzelne Benutzer können cortana-Sprachunterstützung auf verschiedenen Geräten ausprobieren:
 
@@ -125,7 +125,7 @@ Um die Cortana-Sprachaktivierung während einer Besprechung zu aktivieren, schal
 Die _Cortana-Sprachaktivierung_ kann aktiviert werden, wenn Sie einen Lenovo Hub 500 verwenden oder wenn Eines der folgenden Geräte mit Ihrem Raum verbunden ist:
 
 - Jabra Panacast 50
-- Rallyemikrofone
+- Logi Rally Plus Conferencing System
 - Bose Video Bar VB1
 - EPOS EXPAND Capture 5
 - Yealink MSpeech

@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie feedbackrichtlinien verwenden, um zu steuern, ob Teams-Benutzer in Ihrer Organisation Feedback zu Teams an Microsoft senden können.
-ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713343"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156523"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Verwalten von Feedbackrichtlinien in Microsoft Teams
 
@@ -46,7 +46,7 @@ Zugriff auf Feedback auf mobilen Geräten mithilfe der **Einstellungshilfe** > *
 
 
 
-**Umfragen**
+**Befragungen**
 
 Benutzer können auch ihre Erfahrung mit Teams bewerten und uns Details zu der Bewertung senden, die sie geben. Diese Popup-Umfrage wird Benutzern von Zeit zu Zeit in Teams angezeigt. Wenn ein Benutzer in der Benachrichtigung **"Feedback bereitstellen** " auswählt, wird die Umfrage für den Abschluss angezeigt.
 
@@ -60,7 +60,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinier
 
 Angenommen, Sie möchten es allen Benutzern in Ihrer Organisation ermöglichen, Feedback zu senden und Umfragen mit Ausnahme von Neueinstellungen in Schulungen zu erhalten. In diesem Szenario erstellen Sie eine benutzerdefinierte Richtlinie, um beide Features zu deaktivieren und neuen Mitarbeitern zuzuweisen. Alle anderen Benutzer in Ihrer Organisation erhalten die globale Richtlinie mit aktivierten Features.  
 
-Sie verwalten Feedbackrichtlinien mithilfe von PowerShell. Verwenden Sie das [Cmdlet **New-CsTeamsFeedbackPolicy**](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell), um eine benutzerdefinierte Richtlinie zu erstellen. Verwenden Sie das Cmdlet **Grant-CsTeamsFeedbackPolicy** , um es einem oder mehreren Benutzern oder Benutzergruppen, z. B. einer Sicherheitsgruppe oder Verteilergruppe, zuzuweisen. Verwenden Sie **Set-CsTeamsFeedbackPolicy** , um bestimmte Flags festzulegen.
+Sie verwalten Feedbackrichtlinien mithilfe von PowerShell. Verwenden Sie das [Cmdlet **New-CsTeamsFeedbackPolicy**](/powershell/module/skype/new-csteamsfeedbackpolicy), um eine benutzerdefinierte Richtlinie zu erstellen. Verwenden Sie das Cmdlet **Grant-CsTeamsFeedbackPolicy** , um es einem oder mehreren Benutzern oder Benutzergruppen, z. B. einer Sicherheitsgruppe oder Verteilergruppe, zuzuweisen. Verwenden Sie **Set-CsTeamsFeedbackPolicy** , um bestimmte Flags festzulegen.
 
 Um die Features zu deaktivieren und zu aktivieren, legen Sie die folgenden Parameter fest:
 
@@ -68,7 +68,7 @@ Um die Features zu deaktivieren und zu aktivieren, legen Sie die folgenden Param
 
  - **Umfragen**: Legen Sie den Parameter **"receiveSurveysMode** " **so fest** , dass er aktiviert ist, damit Benutzer, denen die Richtlinie zugewiesen ist, die Umfrage empfangen können. Damit Benutzer die Umfrage erhalten und sie abmelden können, legen Sie den Parameter auf **"enabledUserOverride**" fest. In Teams können Benutzer dann zu **"Datenschutzeinstellungen"** >  wechseln und auswählen, ob sie an Umfragen teilnehmen möchten. Wenn Sie den Parameter auf **"Deaktiviert** " festlegen, wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, erhalten die Umfrage nicht.
 
- - **E-Mail**: Verwenden Sie das **AllowEmailCollection-Flag** , um ein E-Mail-Feld hinzuzufügen.
+ - **Email**: Verwenden Sie das **AllowEmailCollection-Flag**, um ein E-Mail-Feld hinzuzufügen.
  - **Protokollsammlung**: Verwenden Sie das **AllowLogCollection-Flag** , um die Protokollsammlungsanmeldung für Benutzer hinzuzufügen. Die Protokollsammlung ist derzeit nur auf mobilgeräten aktiviert. Weitere Informationen dazu, welche Daten über Protokolle freigegeben werden, [finden Sie hier](https://go.microsoft.com/fwlink/?linkid=2168178).
 
 ## <a name="create-a-custom-feedback-policy"></a>Erstellen einer benutzerdefinierten Feedbackrichtlinie

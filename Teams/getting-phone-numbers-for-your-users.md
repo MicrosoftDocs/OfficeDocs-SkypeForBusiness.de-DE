@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie neue Nummern für Teams abrufen, portieren oder übertragen und wie Sie die Änderungen Ihren Benutzern anzeigen.
-ms.openlocfilehash: 18dd5a84110dc25721d9f8c027dffe861d29cbd1
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682544"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156543"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -42,31 +42,34 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
   
 > [!NOTE]
 > Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, [wenden Sie sich bitte an den Supportkontakt für Business-Produkte – Admin Hilfe](/microsoft-365/admin/contact-support-for-business-products).
+
 ## <a name="get-new-phone-numbers-for-your-users"></a>Erhalten von neuen Telefonnummern für Ihre Benutzer
 
- **Verwenden des Microsoft Teams Admin Centers**
+**Verwenden des Microsoft Teams Admin Centers**
 
 Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
 1. Wechseln Sie zum Microsoft Teams Admin Center.
 
-2. Wechseln Sie in der linken Navigationsleiste zu **VoIP-Telefonnummern** > , und klicken Sie dann auf **"Hinzufügen"**.
+2. Wechseln Sie in der linken Navigationsleiste zu **VoIP-Telefonnummern** > , und wählen Sie dann **"Hinzufügen"** aus.
 
 3. Geben Sie einen Namen für die Bestellung ein, und fügen Sie eine Beschreibung hinzu.
 
 4. Führen Sie auf der Seite "Ort und Menge" die folgenden Schritte aus:
     1. Wählen Sie unter **"Land oder Region**" ein Land oder eine Region aus.
     2. Wählen Sie unter **"Zahlentyp**" **die Option "Benutzer (Abonnent)**" aus.
-    3. Wählen Sie unter **"Ort**" einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie auf **"Speicherort hinzufügen"**.
+    3. Wählen Sie unter **"Ort**" einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, wählen Sie " **Speicherort hinzufügen"** aus.
     4. Wählen Sie unter **"Vorwahl**" eine Vorwahl aus.
-    5. Geben Sie unter **"Menge**" die Anzahl der Nummern ein, die Sie für Ihre Organisation benötigen, und klicken Sie dann auf **"Weiter** ", um Ihre Nummern auszuwählen.
+    5. Geben Sie unter **"Menge**" die Anzahl der Nummern ein, die Sie für Ihre Organisation benötigen, und wählen Sie dann **"Weiter** " aus, um Ihre Nummern auszuwählen.
 
 5. Wählen Sie die gewünschten Zahlen aus. Sie haben 10 Minuten Zeit, um Ihre Telefonnummern auszuwählen und Ihre Bestellung zu aufgeben. Wenn Sie mehr als 10 Minuten benötigen, werden die Telefonnummern an den Nummernpool zurückgegeben.
 
-6. Wenn Sie ihre Bestellung aufgeben möchten, klicken Sie auf **"Bestellung aufgeben**".
+6. Wenn Sie bereit sind, Ihre Bestellung zu aufgeben, wählen Sie **"Bestellung aufgeben"** aus.
 
     > [!IMPORTANT]
-    > Die Anzahl der Telefonnummern für Benutzer (Abonnenten) entspricht der Gesamtzahl der Lizenzen für **Inlandsanrufpläne** und **Auslandsanrufpläne** , die Sie zugewiesen haben, multipliziert mit 1,1 plus 10 zusätzlichen Telefonnummern. Wenn Sie beispielsweise insgesamt 50 Benutzer mit einem Inlandsanrufplan und/oder einem Anrufplan für Auslandsanrufe haben, können Sie 65 Telefonnummern **erwerben (50 x 1,1 + 10).** For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers (50 x 1.1 + 10). Ausführliche Informationen finden [Sie unter Wie viele Telefonnummern können Sie erhalten?](./how-many-phone-numbers-can-you-get.md). Wenn Sie mehr Telefonnummern benötigen, [wenden Sie sich an den Supportkontakt für Business-Produkte – Admin Hilfe](/microsoft-365/admin/contact-support-for-business-products).
+    > Die Anzahl der Telefonnummern für Benutzer (Abonnenten) entspricht der Gesamtzahl der Lizenzen für **Inlandsanrufpläne** und **Auslandsanrufpläne** , die Sie zugewiesen haben, multipliziert mit 1,1 plus 10 zusätzlichen Telefonnummern. Wenn Sie beispielsweise insgesamt 50 Benutzer mit einem Inlandsanrufplan und/oder einem Anrufplan für Auslandsanrufe haben, können Sie 65 Telefonnummern **erwerben (50 x 1,1 + 10).** For example, if you have 50 users in total with a Domestic Calling Plan and/or International Calling Plan, you can acquire **65** phone numbers (50 x 1.1 + 10). Beachten Sie, dass Sie bei einem Pay-As-You-Go-Anrufplan nur 1 Telefonnummer pro zugewiesener Lizenz erwerben können.
+    >
+    > Ausführliche Informationen finden [Sie unter Wie viele Telefonnummern können Sie erhalten?](./how-many-phone-numbers-can-you-get.md). Wenn Sie mehr Telefonnummern benötigen, [wenden Sie sich an den Supportkontakt für Business-Produkte – Admin Hilfe](/microsoft-365/admin/contact-support-for-business-products).
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Portieren oder übertragen Sie vorhandene Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber
   
@@ -76,7 +79,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
- **Verwenden des Microsoft Teams Admin Centers**
+**Verwenden des Microsoft Teams Admin Centers**
 
 Wechseln Sie in der linken Navigationsleiste des Admin Centers zu **VoIP-Telefonnummern** > , um die Nummern für Ihre Organisation anzuzeigen, einschließlich Standort, Nummerntyp und Statusinformationen.
   
@@ -87,7 +90,7 @@ Nachdem Sie Ihre Telefonnummern erhalten haben, müssen Sie jedem Ihrer Benutzer
 > [!NOTE]
 > Wenn Sie mehr Telefonnummern benötigen, [wenden Sie sich an den Supportkontakt für Business-Produkte – Admin Hilfe](/microsoft-365/admin/contact-support-for-business-products).
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-articles"></a>Verwandte Artikel
 
 [Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)
 

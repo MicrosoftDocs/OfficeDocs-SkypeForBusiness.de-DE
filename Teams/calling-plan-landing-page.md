@@ -18,18 +18,18 @@ description: Ermitteln Sie, welcher Anrufplan für Das Microsoft-Telefonsystem I
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e11c6f6cbb53808ba259afd90420ac9855c9731d
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0040814b12e98c4f44d1dff5939651938580fa4d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682474"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156553"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Welcher Anrufplan ist für Sie am besten geeignet?
 
 Sie haben die ["Erste Schritte](get-started-with-teams-quick-start.md)" abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md) bereitgestellt. Jetzt können Sie Cloud-VoIP-Workloads hinzufügen, und Sie haben beschlossen, das Microsoft-Telefonsystem mit Anrufplan zu verwenden, um eine Verbindung mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) herzustellen.
 
-In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Anrufpläne sowie zusätzliche Überlegungen beschrieben, die Sie basierend auf den Anforderungen Ihrer Organisation konfigurieren möchten. Sie sollten auch [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) lesen, um weitere Informationen zu den Cloud-VoIP-Angeboten von Microsoft zu finden.
+In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Anrufpläne und andere Überlegungen beschrieben, die Sie basierend auf den Anforderungen Ihrer Organisation konfigurieren möchten. Sie sollten auch [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) lesen, um weitere Informationen zu den Cloud-VoIP-Angeboten von Microsoft zu finden.
 
 ## <a name="learn-more-about-calling-plans"></a>Weitere Informationen zu Anrufplänen
 
@@ -43,18 +43,19 @@ Die folgenden Artikel enthalten weitere Informationen zum Bereitstellen und Verw
 
 Um Microsoft als Telefonieanbieter zu verwenden, müssen Sie Anrufplanlizenzen anfordern und diesen Ihren Telefonsystembenutzern zuweisen.
 
-Es sind zwei Arten von Anrufplänen verfügbar:
+Es sind drei Arten von Anrufplänen verfügbar:
 
 - Inlandsanrufpläne
 - Internationale Anrufpläne
+- Pay-as-You-Go-Anrufpläne
 
-|Frage|Aktion |
-|------------|-------|
-|Sind Anrufpläne in meinem Bereich verfügbar? Welche Benutzerstandorte verfügen über einen Anrufplandienst? | Weitere Informationen finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
-Benötigen meine Benutzer auslandsanrufe? | Weitere Informationen finden Sie unter [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md). |
-Verfügen meine Benutzer über Anrufpläne-Lizenzen? | Informationen zum Kaufen und Zuweisen von Lizenzen finden Sie in [Schritt 2: Kaufen und Zuweisen von Lizenzen](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
-Verfügen meine Benutzer jeweils über eine DID-Telefonnummer (Direct Inward Dial)? | Informationen zum Abrufen von Telefonnummern finden Sie in [Schritt 3: Abrufen von Telefonnummern](set-up-calling-plans.md#step-3-get-phone-numbers). |
-|||
+| Frage | Aktion |
+|--------------|--------|
+| Sind Anrufpläne in meinem Bereich verfügbar? Welche Benutzerstandorte verfügen über einen Anrufplandienst? | Weitere Informationen finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+| Benötigen meine Benutzer auslandsanrufe? | Weitere Informationen finden Sie unter [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md). |
+| Wenn einige meiner Benutzer keine signifikante Anzahl ausgehender Anrufe tätigen, ist der Pay-As-You-Go-Anrufplan für sie die wirtschaftlichste Option? | Weitere Informationen finden Sie unter [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md). |
+| Verfügen meine Benutzer über Anrufpläne-Lizenzen? | Informationen zum Kaufen und Zuweisen von Lizenzen finden Sie in [Schritt 2: Kaufen und Zuweisen von Lizenzen](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
+| Verfügen meine Benutzer jeweils über eine DID-Telefonnummer (Direct Inward Dial)? | Informationen zum Abrufen von Telefonnummern finden Sie in [Schritt 3: Abrufen von Telefonnummern](set-up-calling-plans.md#step-3-get-phone-numbers). |
 
 ### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Übertragen von Telefonnummern an Microsoft 365 oder Office 365
 

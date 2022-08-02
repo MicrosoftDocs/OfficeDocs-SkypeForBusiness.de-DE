@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Tisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 0fd39009285f411fce3719cac3b8e6f2b0673c59
-ms.sourcegitcommit: 08fe98cc6760028bdd1946ecc5d4ec61ce65e096
+ms.openlocfilehash: 346ef66bf0c042024f897d30b97fd5afed12d7f7
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67058926"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156703"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Von Microsoft Teams zertifizierte Android-Geräte
 
@@ -120,7 +120,7 @@ Nachfolgend finden Sie die neuesten Versionen der Microsoft Teams-Telefon-App un
 
 #### <a name="app-versions"></a>App-Versionen
 
-| Produktversion | Veröffentlichungsdatum  | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
+| Produktversion | Erscheinungsdatum  | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
 | Update 2022 #3A  | Juli 13,2022   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
 | Update 2022 Nr. 3  | Juli 6,2022   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
@@ -149,6 +149,8 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion  | Produktversion enthalten  |
 |:----------------|:--------------|:----------------------------|
+|Poly Trio C60 | `7.3.1.0813` | Update 2022 #1C |
+|Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | Update 2022 #1C
 |Yealink T55A/T56A/T58A   | `58.15.0.157`     | Update 2022 #2A  |
 |Yealink VP59             | `91.15.0.90`      | Update 2022 #2A  |
 |Yealink CP960            | `73.15.0.153`     | Update 2022 #2A  |
@@ -233,7 +235,7 @@ Im Folgenden finden Sie die neuesten Teams-Räume für Android-App- und Firmware
 
 #### <a name="app-versions"></a>App-Versionen
 
-| Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
+| Produktversion| Erscheinungsdatum | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | Update 2022 Nr. 2  | Mai 25,2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Update 2022 Nr. 1  | 24. Februar 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -319,7 +321,7 @@ Im Folgenden finden Sie die neuesten Microsoft Teams Displays-App- und Firmwarev
 
 #### <a name="app-versions"></a>App-Versionen
 
-|Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
+|Produktversion| Erscheinungsdatum | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Update 2021 Nr. 4  |5. Januar 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
 |Update 2021 Nr. 3  |8. Dezember 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
@@ -343,7 +345,7 @@ Im Folgenden finden Sie die neuesten Versionen der Microsoft Teams Panels-App un
 
 #### <a name="app-versions"></a>App-Versionen
 
-|Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
+|Produktversion| Erscheinungsdatum | Microsoft Teams-App-Version | Unternehmensportal Version | Admin Agent-Version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Update 2022 Nr. 3  | 12. Juli 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
 |Update 2022 Nr. 2  | 25. April 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
