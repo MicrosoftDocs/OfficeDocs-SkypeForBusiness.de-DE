@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-july-25-2022"></a>Woche vom 25. Juli 2022
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 7/25/2022 | [Telefonnummern und Lizenzierungsänderungen](/MicrosoftTeams/phone-numbers-licensing-changes) | Hinzugefügt |
+| 7/25/2022 | [Besprechungsrichtlinien und Ablauf von Besprechungen in Microsoft Teams](/MicrosoftTeams/meeting-expiration) | Geändert |
+| 7/25/2022 | [Registrieren eines Teams-Raumgeräts bei verwalteten Diensten](/MicrosoftTeams/rooms/enroll-a-device) | Geändert |
+| 7/25/2022 | [Browserprotokolle und Ablaufverfolgung für Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | Hinzugefügt |
+| 7/25/2022 | [Konfigurieren von Protokolldateien für die Überwachung und Problembehandlung in Teams](/MicrosoftTeams/log-files) | Geändert |
+| 7/26/2022 | [Ressourcen für die Integration von Karrierecoachs in Microsoft Teams](/MicrosoftTeams/career-coach-resources) | Hinzugefügt |
+| 7/26/2022 | [Einrichten und Konfigurieren von Career Coach für Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | Hinzugefügt |
+| 7/26/2022 | [Problembehandlung beim Karrierecoach für Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | Hinzugefügt |
+| 7/26/2022 | [Fehler bei freigegebenen Kanälen in Microsoft Teams](/MicrosoftTeams/shared-channels-errors) | Hinzugefügt |
+| 7/26/2022 | [Erste Schritte mit Career Coach für Microsoft Teams](/MicrosoftTeams/career-coach) | Geändert |
+| 7/26/2022 | [Erste Schritte mit Career Coach für Microsoft Teams](/MicrosoftTeams/cloud-recording) | Geändert |
+| 7/26/2022 | [Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten](/MicrosoftTeams/communicate-with-users-from-other-organizations) | Geändert |
+| 7/26/2022 | [Partnerverwaltung für Kunden](/MicrosoftTeams/rooms/multi-tenant-management-customer) | Geändert |
+| 7/26/2022 | [Mandantenübergreifende Kundenverwaltung für Partner](/MicrosoftTeams/rooms/multi-tenant-management-partner) | Geändert |
+| 7/26/2022 | [Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | Geändert |
+| 7/29/2022 | [Verwalten von Telefonnummern für Ihre Organisation](/MicrosoftTeams/manage-phone-numbers-landing-page) | Geändert |
+
+
 ## <a name="week-of-july-18-2022"></a>Woche vom 18. Juli 2022
 
 
@@ -108,20 +131,3 @@
 | 6/27/2022 | [Verwalten von Besprechungsrichtlinien für Teilnehmer und Gäste](/MicrosoftTeams/meeting-policies-participants-and-guests) | Geändert |
 | 6/28/2022 | [Konfigurieren des Session Border Controllers – Mehrere Mandanten](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Geändert |
 | 6/29/2022 | [Remoteverwaltung Microsoft Teams-Räume Geräteeinstellungen](/MicrosoftTeams/rooms/xml-config-file) | Geändert |
-
-
-## <a name="week-of-june-20-2022"></a>Woche vom 20. Juni 2022
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 6/20/2022 | [Konfigurieren von ServiceNow für Teams-Räume](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | Geändert |
-| 6/21/2022 | [Admin Einrichtung von Eltern in Teams für Education](/MicrosoftTeams/edu-parents-app) | Geändert |
-| 6/21/2022 | [PowerShell-Cmdlet-Referenz für automatische Telefonzentralen und Anrufwarteschleifen](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | Geändert |
-| 6/21/2022 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
-| 6/21/2022 | [Verwalten von Microsoft Power Platform-Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-power-platform-apps) | Geändert |
-| 6/22/2022 | [Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | Geändert |
-| 6/23/2022 | [Verwalten von Microsoft Power Platform-Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-power-platform-apps) | Geändert |
-| 6/23/2022 | [Erwerben, Konfigurieren und Aktivieren von Career Coach für Microsoft Teams für Education](/MicrosoftTeams/career-coach) | Geändert |
-| 6/23/2022 | [Konfigurieren von Telefonieanbieter](/MicrosoftTeams/operator-connect-configure) | Geändert |
-| 6/24/2022 | [Verwalten Ihrer Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-apps) | Geändert |
