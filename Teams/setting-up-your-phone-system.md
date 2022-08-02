@@ -23,23 +23,23 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-get-started
-description: Schrittweise Anleitung zum Einrichten von Teams Telefonsystem für Ihre Organisation in Microsoft 365.
-ms.openlocfilehash: 12e202fed6ad63835c364662194be2eabf872b31
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: Schrittweise Anleitung zum Einrichten des Teams-Telefonsystems für Ihre Organisation in Microsoft 365.
+ms.openlocfilehash: 7f5a29bc5d57d59cf8d63dbe1f61db18a906e110
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681926"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156900"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
-Dieser Artikel enthält eine Roadmap für Inhalte zum Einrichten Telefonsystem – Microsoft-Technologie zur Aktivierung der Anrufsteuerung und der Funktionen von Private Branch Exchange (PBX) in der Microsoft 365 Cloud. Links zu detaillierteren Informationen finden Sie am Ende jedes Schritts.
+Dieser Artikel enthält eine Roadmap für Inhalte zum Einrichten des Telefonsystems – die Microsoft-Technologie zur Aktivierung der Anrufsteuerung und der Funktionen von PbX (Private Branch Exchange) in der Microsoft 365-Cloud. Links zu detaillierteren Informationen finden Sie am Ende jedes Schritts.
 
-Bevor Sie diesen Artikel lesen, stellen Sie sicher, dass Sie gelesen haben[, was Telefonsystem ist](what-is-phone-system-in-office-365.md) und [was Sie mit Telefonsystem](here-s-what-you-get-with-phone-system.md) erhalten. In den beiden letzteren Artikeln werden Telefonsystem Anforderungen und Features beschrieben.
+Bevor Sie diesen Artikel lesen, stellen Sie sicher, dass Sie gelesen haben [, was Telefonsystem ist](what-is-phone-system-in-office-365.md) , und [hier erfahren Sie, was Sie mit dem Telefonsystem erhalten](here-s-what-you-get-with-phone-system.md). In den beiden letzteren Artikeln werden die Anforderungen und Features des Telefonsystems beschrieben.
 
 In diesem Artikel werden die folgenden Schritte beschrieben:
 
-- [Schritt 1: Kaufen und Zuweisen einer Telefonsystem-Lizenz](#step-1-buy-and-assign-a-phone-system-license)
+- [Schritt 1: Kaufen und Zuweisen einer Telefonsystemlizenz](#step-1-buy-and-assign-a-phone-system-license)
 - [Schritt 2: Auswählen einer PSTN-Konnektivitätsoption](#step-2-choose-a-pstn-connectivity-option)
 - [Schritt 3: Abrufen von Telefonnummern für Ihre Benutzer](#step-3-get-phone-numbers-for-your-users)
 - [Schritt 4: Abrufen von Telefonnummern für Dienste](#step-4-get-phone-numbers-for-services-call-queues-auto-attendants)
@@ -47,19 +47,19 @@ In diesem Artikel werden die folgenden Schritte beschrieben:
 - [Schritt 6: Wenn Sie eine automatische Telefonzentrale einrichten möchten](#step-6-if-you-want-to-set-up-an-auto-attendant)
 - [Schritt 7: Einrichten von Kommunikationsguthaben für gebührenfreie Nummern](#step-7-set-up-communications-credits-for-toll-free-numbers)
 
-## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Schritt 1: Kaufen und Zuweisen einer Telefonsystem-Lizenz
+## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Schritt 1: Kaufen und Zuweisen einer Telefonsystemlizenz
 
-Um einem einzelnen Benutzer eine Telefonsystem Lizenz zuzuweisen, sind die Schritte identisch mit dem Zuweisen einer Microsoft 365 Lizenz. Sie können mehreren Benutzern auch massenhaft Lizenzen zuweisen. Weitere Informationen zu verfügbaren Telefonsystem Lizenzen und zum Erwerben und Zuweisen von Lizenzen finden Sie [unter Teams Add-On-Lizenzen](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) und [Zuweisen Microsoft Teams Add-On-Lizenzen](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+Um einem einzelnen Benutzer eine Telefonsystemlizenz zuzuweisen, sind die Schritte identisch mit dem Zuweisen einer Microsoft 365-Lizenz. Sie können mehreren Benutzern auch massenhaft Lizenzen zuweisen. Weitere Informationen zu verfügbaren Telefonsystemlizenzen und zum Erwerben und Zuweisen von Lizenzen finden Sie unter [Microsoft Teams-Add-On-Lizenzen](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) und [Zuweisen von Microsoft Teams-Add-On-Lizenzen](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Schritt 2: Auswählen einer PSTN-Konnektivitätsoption
 
-Damit Ihre Benutzer externe Anrufe tätigen und empfangen können, müssen Sie Telefonsystem mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) verbinden. Microsoft bietet mehrere Optionen für die Verbindung mit dem PSTN, einschließlich:
+Damit Ihre Benutzer externe Anrufe tätigen und empfangen können, müssen Sie das Telefonsystem mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) verbinden. Microsoft bietet mehrere Optionen für die Verbindung mit dem PSTN, einschließlich:
 
 - Anrufplan. Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Anbieter.
 
-- Telefonieanbieter. Wenn Ihr vorhandener Netzbetreiber am Microsoft Telefonieanbieter-Programm teilnimmt, kann er PSTN-Anrufe und Session Border Controller (SBCs) für Sie verwalten.
+- Operator Connect. Wenn Ihr vorhandener Netzbetreiber am Microsoft Operator Connect-Programm teilnimmt, kann er PSTN-Anrufe und Session Border Controller (SBCs) für Sie verwalten.
 
-- Direktes Routing. Verwenden Sie Ihren eigenen PSTN-Netzbetreiber, indem Sie Ihre SBCs mit Telefonsystem verbinden.
+- Direktes Routing. Verwenden Sie Ihren eigenen Festnetzbetreiber, indem Sie Ihre SBCs mit dem Telefonsystem verbinden.
 
 Weitere Informationen zu allen Konnektivitätsoptionen finden Sie unter [PSTN-Konnektivitätsoptionen](pstn-connectivity.md).
 
@@ -80,12 +80,12 @@ Beschreibt die beiden Arten von [Benutzertelefonnummern](manage-phone-numbers-la
 
 Zusätzlich zum Abrufen von Telefonnummern für Ihre Benutzer können Sie gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie automatische Telefonzentralen und Anrufwarteschleifen erwerben. Eine Dienstnummer kann Hunderte von Anrufen gleichzeitig verarbeiten, während die Telefonnummer eines Benutzers nur wenige Anrufe gleichzeitig verarbeiten kann.
 
-Sie können Servicenummern von Microsoft erhalten, die in Ihrer Lizenzierung enthalten sind. Wenn Sie über PSTN-Konnektivität über Telefonieanbieter oder Direct Routing verfügen, können Sie Servicenummern verwenden, die von Ihrem eigenen Netzbetreiber oder Netzbetreiber bereitgestellt werden.
+Sie können Servicenummern von Microsoft erhalten, die in Ihrer Lizenzierung enthalten sind. Wenn Sie über eine PSTN-Anbindung über Telefonieanbieter oder Direct Routing verfügen, können Sie Servicenummern verwenden, die von Ihrem eigenen Netzbetreiber oder Netzbetreiber bereitgestellt werden.
 
 Weitere Informationen finden Sie unter:
 
 - [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-landing-page.md) – Bietet eine Übersicht über Telefonnummerntypen mit Links zu bestimmten Artikeln zum Abrufen und Verwalten von Nummern, je nach Ihrer PSTN-Konnektivitätsoption.
-Beschreibt die von Microsoft verfügbaren [Diensttelefonnummern](manage-phone-numbers-landing-page.md#service-telephone-numbers) , die in Ihrer Lizenzierung enthalten sind. Informationen zu Servicenummern, die von Telefonieanbieter oder Direct Routing bereitgestellt werden, erhalten Sie von Ihrem Anbieter.
+Beschreibt die von Microsoft verfügbaren [Diensttelefonnummern](manage-phone-numbers-landing-page.md#service-telephone-numbers) , die in Ihrer Lizenzierung enthalten sind. Informationen zu Servicenummern, die von Operator Connect oder Direct Routing bereitgestellt werden, erhalten Sie von Ihrem Anbieter.
 
 - [Wie viele Telefonnummern Sie erhalten können](how-many-phone-numbers-can-you-get.md) – Beschreibt, wie viele Telefonnummern Sie erhalten können, abhängig von den Arten von Telefonnummern und Arten von Lizenzen, die Sie gekauft und zugewiesen haben.
 
@@ -113,9 +113,11 @@ Guthaben für Kommunikationen ist eine bequeme Möglichkeit, gebührenfreie Tele
 
 - So wählen Sie einen Anruf aus und zahlen pro Minute, nachdem Sie Ihre monatliche Minutenzuteilung ausgeschöpft haben.
 
+- So wählen Sie ausgehende Anrufe aus und bezahlen pro Minute für alle ausgehenden Anrufe, wenn Sie über einen Plan für Pay-As-You-Go-Anrufe verfügen.
+
 Weitere Informationen finden Sie unter [Was sind Guthaben für Kommunikationen?](what-are-communications-credits.md) und [Einrichten von Kommunikationsguthaben für Ihre Organisation](set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-articles"></a>Verwandte Artikel
 
 - [Was ist das Telefonsystem?](what-is-phone-system-in-office-365.md)
 
