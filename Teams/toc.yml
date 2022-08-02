@@ -865,6 +865,8 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Telefonieanbieter
             items:
+              - name: Neuerungen
+                href: operator-connect-whats-new.md
               - name: Plan für Telefonieanbieter
                 href: operator-connect-plan.md
               - name: Konfigurieren von Telefonieanbieter
@@ -1622,6 +1624,8 @@ items:
                 href: education-insights-manage-access.md
               - name: Erste Schritte mit Reflect
                 href: reflect.md
+              - name: Grundlegendes zu Insights für Lesefortschritt
+                href: insights-for-reading-progress.md
           - name: Aufgaben in Teams für Education
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Teams-Ressourcen für Administratoren in Education
