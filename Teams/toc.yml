@@ -117,8 +117,6 @@ items:
         items:
           - name: Administratorschulung für Microsoft Teams
             href: itadmin-readiness.md
-          - name: Teams-Sitzungen mit Ignite
-            href: ignite-2020-landing-page.md
           - name: Microsoft Teams-Schulungen für Endbenutzer
             href: instructor-led-training-teams-landing-page.yml
   - name: Upgrade von Skype for Business

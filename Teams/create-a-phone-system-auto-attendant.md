@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefonzentralen in Microsoft Teams einrichten und verwalten.
-ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616111"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67176099"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -33,16 +33,19 @@ Mit automatischen Telefonzentralen können Personen Ihre Organisation anrufen un
 
 Achten Sie darauf, dass Sie " [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) " gelesen haben und die [ersten Schritte](plan-auto-attendant-call-queue.md#getting-started) ausgeführt haben, bevor Sie die Verfahren in diesem Artikel befolgen.
 
-Automatische Telefonzentralen können Anrufe basierend auf der Eingabe der Anrufer an eines der folgenden Ziele weiterleiten:
+Automatische Telefonzentralen können Anrufe basierend auf der Eingabe der Anrufer an eines der folgenden Ziele umleiten:
 
 - **Operator** – der für die automatische Telefonzentrale definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als eines der anderen Ziele in dieser Liste definiert werden.
 - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Diese Person kann ein Onlinebenutzer oder ein Lokal gehosteter Benutzer sein, der mit Skype for Business Server gehostet wird.
 - **VoIP-App** – eine andere automatische Telefonzentrale oder anrufwarteschleife. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefonzentrale oder Anrufwarteschleife zugeordnet ist, wenn Sie dieses Ziel auswählen.)
 - **Voicemail** – das VoIP-Postfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist. Sie können auswählen, ob Voicemailtranskriptionen und die Option "Bitte hinterlasse eine Nachricht nach dem Ton" angezeigt werden sollen. Systemaufforderung.
   - Aktivieren Sie im M365 Admin Center für die von Ihnen angegebene Microsoft 365-Gruppe "Personen außerhalb der Organisation das E-Mail-Senden von E-Mails an dieses Team gestatten".
-- **Externe Telefonnummer** – beliebige Telefonnummer. Sehen Sie [sich die technischen Details zur externen Übertragung an](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+- **Externe Telefonnummer** – beliebige Telefonnummer. Sehen Sie [sich die technischen Details zur externen Übertragung an](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Ankündigung (Audiodatei)** – Wiedergeben einer Audiodatei. Eine aufgezeichnete Ankündigungsnachricht, die Sie hochladen, die als Audio in gespeichert ist. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Telefonzentrale zurück.
 - **Ankündigung (typisiert)** – Geben Sie eine Nachricht ein. Text, den das System lesen soll. Sie können bis zu 1000 Zeichen eingeben. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Telefonzentrale zurück.
+
+> [!NOTE]
+> Beim Umleiten von Anrufen an eine **Person in der Organisation** muss diese Person sprachfähig sein. Ausführliche Informationen zum Aktivieren von VoIP finden [Sie unter Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 Die Schritte zum Hinzufügen einer automatischen Telefonzentrale sind:
 
@@ -232,7 +235,7 @@ Als Administrator können Sie mit dem folgenden Diagnosetool überprüfen, ob ei
    > [!div class="nextstepaction"]
    > [Ausführen von Tests: Automatische Teams-Telefonzentrale](https://aka.ms/TeamsAADiag)
 
-2. Geben Sie im Diagnosebereich "Ausführen" das Ressourcenkonto in das Feld **"Benutzername" oder "E-Mail** " ein, und wählen Sie dann **"Tests ausführen**" aus.
+2. Geben Sie im Diagnosebereich "Ausführen" das Ressourcenkonto in das Feld **"Benutzername" oder "Email**" ein, und wählen Sie dann "**Tests ausführen**" aus.
 
 3. Die Tests identifizieren Mandanten-, Richtlinien- oder Ressourcenkontokonfigurationen, die verhindern, dass die automatische Telefonzentrale Anrufe entgegennehmen kann, und geben Schritte zur Behebung der erkannten Probleme an.
 

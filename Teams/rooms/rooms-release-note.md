@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Admin können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810107"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67175849"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -37,8 +37,9 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen f
 
 ## <a name="version-history"></a>Versionsverlauf
 
-|Release |Veröffentlicht in <br/> Microsoft Store |
+|Loslassen |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
@@ -92,6 +93,29 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen f
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams-Räume Einführung und Problemlösung von Features
+
+### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
+
+In diesem Update eingeführt:
+
+- Teilnehmen an Teams-Besprechungen mithilfe der Besprechungs-ID
+- End-to-End-Verschlüsselung für 1:1-Teams-Anrufe<sup>1</sup> 
+- Rauschunterdrückung in<sup>Teams-Besprechungen 2</sup>
+- Teilen des Tabletterfahrungsupdates
+- Stummschalten und Aufheben der Stummschaltung in Ihrem Raumvideo
+- Admin Einstellung für das Inhaltslayout (Standardeinstellung)  
+- Die moderne Authentifizierung ist standardmäßig aktiviert.
+
+ <sup>1</sup> Bevor Sie die End-to-End-Verschlüsselung für Anrufe von einem Microsoft Teams-Raumgerät aus aktivieren können, müssen Sie die Richtlinie für das Benutzerkonto des Geräts konfigurieren. Sie können die Richtlinie des Benutzers über das Teams Admin Center oder mithilfe von Teams PowerShell aktualisieren. Weitere Informationen finden Sie unter [Konfigurieren der Richtlinie für das Benutzerkonto des Teams-Raums.](../teams-end-to-end-encryption.md)
+
+ <sup>2</sup> Teams-Räume Unterstützung für die Rauschunterdrückung in Version 4.12 mit Administratorüberschreibung hinzugefügt.
+
+> [!IMPORTANT]
+> Mit diesem Update verwenden neue Teams-Räume Geräte standardmäßig die moderne Authentifizierung beim Herstellen einer Verbindung mit Microsoft Teams und Exchange Online.
+>
+> Es wird dringend empfohlen, Ihre Teams-Räume Geräte vor Ende August zu testen, indem Sie die moderne Authentifizierung für ihre Raumkonten aktivieren.
+>
+> Diese Änderung hilft bei der Vorbereitung auf das bevorstehende Update in Exchange Online, um die Standardauthentifizierung ab dem 1. Oktober 2022 zu deaktivieren. Weitere Informationen finden Sie [unter Standardauthentifizierungs-Deprecation in Exchange Online – Mai 2022 Update ](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
 
 ### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
 

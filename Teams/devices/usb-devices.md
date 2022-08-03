@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 003a532331ad7a1c3e88addad3f2f73a8b5b1f61
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 3df5c2e8a9b3ce27967a8b061c444daccd4cace5
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156943"
+ms.locfileid: "67176089"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>FÜR Microsoft Teams zertifizierte USB-Audio- und Videogeräte
 
@@ -80,13 +80,15 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 ## <a name="certified-devices"></a>Zertifizierte Geräte
 
-*Tabelle aktualisiert Juli 2022*
+*Tabelle aktualisiert August 2022*
 
 > [!NOTE]
 > Das Datumsformat ist MMDDYYYY.
 
 | Hersteller        | Modell                                                     | Qualifiziert      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Engagement 50 II                                               |7/29/2022       |Zertifiziert für Microsoft Teams                           | 
+|Jabra                |Engagement 40                                                  |7/29/2022       |Zertifiziert für Microsoft Teams                           |
 |Logi                 |Dock-Freisprecheinrichtung                                          |7/13/2022       |Zertifiziert für Microsoft Teams                           |
 |Tal                 |WB5023-Kamera                                              |6/29/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II Headset                                       |6/22/2022       |Zertifiziert für Microsoft Teams                           |
