@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams in Lettland zur Verfügung.
-ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Lettland verfügbar.
+ms.openlocfilehash: d67549ca300caa4be08825278e6dacf0320c3c26
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733046"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271860"
 ---
 # <a name="availability-in-latvia"></a>Verfügbarkeit in Lettland
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Lettland.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Lettland verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -44,7 +44,7 @@ Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Guthaben für Kommunikationen  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikationsguthaben  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
@@ -59,8 +59,8 @@ Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120-Minuten-Plan für Inlandsrufe </li><li>240-Minuten-Plan für Inlandsrufe</li></li><li>1200-Minuten-Plan für Inlandsrufe </li></li><li>Anrufplan für Inlands- und Auslandsrufe: 1.200 Minuten für Inlands- oder 600 Minuten für Auslandsrufe (die im Kalendermonat zuerst erreicht werden)</li></li></ul>|
+|Sind Anrufpläne zum Kauf verfügbar?  |Ja          |   
+|Verfügbare Minuten für Anrufpläne.    |Pro Kalendermonat stehen fünf Planoptionen zur Verfügung: <ul><li>Pay-as-You-Go-Anrufplan </li><li> 120 Minuten Anrufplan für Inland </li><li> 240 Minuten Anrufplan für Inland </li><li> 1200 Minuten Anrufplan für Inland </li><li> Internationaler Anrufplan: 1200 Minuten inländische oder 600 Minuten auslandsanrufe (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></ul>|
 |Kann man ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Wird zurzeit nicht unterstützt. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | [In 196 Länder oder Regionen](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
@@ -68,11 +68,11 @@ Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Rier ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Riiga ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
-|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
    
-Informationen zum Abrufen von gebührenpflichtigen und gebührenfreien Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen finden Sie unter Abrufen von Servicetelefonnummern für Skype for Business [und Microsoft Teams.](../getting-service-phone-numbers.md)
+Informationen zum Abrufen gebührenpflichtiger und gebührenfreier Telefonnummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen finden [Sie unter Abrufen von Servicetelefonnummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

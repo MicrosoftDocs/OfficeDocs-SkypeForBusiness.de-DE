@@ -11,23 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
-- Phone System - seo-marvel-apr2020
+- ms.teamsadmincenter.callqueues.overview
+- Phone System
+- seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Benutzereinstellungen für anrufweiterleitung und -delegierung konfigurieren.
-ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681996"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272230"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Konfigurieren von Anrufeinstellungen für Ihre Benutzer
 
@@ -39,7 +37,7 @@ In diesem Artikel wird beschrieben, wie Sie als Administrator die Anrufweiterlei
 
 Sie können das Teams Admin Center oder Teams PowerShell-Cmdlets verwenden, um Anrufeinstellungen für Benutzer anzuzeigen und zu ändern.
 
-Um Anrufeinstellungen für einen Benutzer festzulegen, muss dem Benutzer eine Microsoft-Telefon Systemlizenz zugewiesen sein.
+Um Anrufeinstellungen für einen Benutzer festzulegen, muss dem Benutzer eine Microsoft Phone System-Lizenz zugewiesen sein.
 
 ## <a name="use-the-teams-admin-center"></a>Verwenden des Teams Admin Centers
 
@@ -47,7 +45,7 @@ Sie können das Teams Admin Center verwenden, um Anrufweiterleitungs- und unbean
 
 So konfigurieren Sie die Einstellungen für die sofortige Anrufweiterleitung:
 
-1. Wechseln Sie im Teams Admin Center zu **"Benutzer** > **verwalten"**, und wählen Sie einen Benutzer aus.
+1. Wechseln Sie im Teams Admin Center zu **"Benutzer** > **verwalten"** , und wählen Sie einen Benutzer aus.
 
 2. Wechseln Sie auf der Seite "Benutzerdetails" zur Registerkarte " **VoIP** ".
 

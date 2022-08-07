@@ -18,16 +18,16 @@ description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinienp
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 48391db005ca7d40081c0aeb22f71be58fcc9f9f
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: cd6cbaab900ce1e9e5f4a2bd19731573c66ab7eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646524"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272050"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen
 
-In diesem Artikel werden die verschiedenen Methoden zum Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen in Microsoft Teams beschrieben. Stellen Sie vor dem Lesen sicher, dass Sie ["Richtlinien zuweisen" in Teams gelesen haben – erste Schritte](policy-assignment-overview.md).
+In diesem Artikel werden die verschiedenen Methoden zum Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen in Microsoft Teams erläutert. Stellen Sie vor dem Lesen sicher, dass Sie ["Richtlinien zuweisen" in Teams gelesen haben – erste Schritte](policy-assignment-overview.md).
 
 > [!NOTE]
 > Jeder Benutzer benötigt das Add-On für erweiterte Kommunikation, um eine benutzerdefinierte Richtlinienpaketzuweisung zu erhalten. Weitere Informationen finden Sie unter [Add-On für erweiterte Kommunikation für Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
@@ -38,27 +38,25 @@ Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und R
 
 ### <a name="assign-a-policy-package-to-one-user"></a>Zuweisen eines Richtlinienpakets zu einem Benutzer
 
-1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **"Benutzer**", und wählen Sie dann den Benutzer aus.
+1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **"Benutzer**", und wählen Sie dann den Benutzer aus.
 
 2. Wählen Sie auf der Seite des Benutzers **"Richtlinien**" und dann neben " **Richtlinienpaket**" die Option " **Bearbeiten"** aus.
 
-3. Wählen Sie im Bereich " **Richtlinienpaket zuweisen** " das Paket aus, das Sie zuweisen möchten, und wählen Sie dann **"Speichern"** aus.
+3. Wählen Sie im Bereich " **Richtlinienpaket zuweisen** " das Paket aus, das Sie zuweisen möchten, und wählen Sie dann **"Übernehmen"** aus.
 
-![Teams Screenshot des Admin Centers für die Zuweisung eines Richtlinienpakets zu einem Benutzer.](media/assign-policypackages-user.png)
+    :::image type="content" source="media/assign-policy-package-one-user.png" alt-text="Screenshot, der das Teams Admin Center für die Zuweisung von Richtlinienpaketen zu einem Benutzer zeigt." lightbox="media/assign-policy-package-one-user-expanded.png":::
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Zuweisen eines Richtlinienpakets zu mehreren Benutzern
 
-1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **"Richtlinienpakete**", und wählen Sie dann das Richtlinienpaket aus, das Sie zuweisen möchten, indem Sie links neben dem Paketnamen klicken.
+1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **"Richtlinienpakete**", und wählen Sie dann das Richtlinienpaket aus, das Sie zuweisen möchten, indem Sie links neben dem Paketnamen klicken.
 
 2. Wählen Sie **Nutzer verwalten** aus.
 
 3. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
 
-4. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie **"Speichern"** aus.
+4. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie **"Übernehmen"** aus.
 
-
-![Teams Screenshot des Admin Centers für die Zuweisung von Richtlinienpaketen zu mehreren Benutzern.](media/assign-policypackages-multipleusers.png)
-
+    :::image type="content" source="media/assign-policy-package-multiple-users.png" alt-text="Screenshot der Teams Admin Center-Richtlinienpaketzuweisung für mehrere Benutzer." lightbox="media/assign-policy-package-multiple-users-expanded.png":::
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Ein Richtlinienpaket einer Gruppe zuweisen
 
@@ -73,13 +71,11 @@ Wenn Sie das Richtlinienpaket zuweisen, wird es sofort der Gruppe zugewiesen. Di
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern im Admin Center
 
-1. Melden Sie sich beim Microsoft Teams Admin Center an.
+1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zur Seite " **Richtlinienpakete** ".
 
-2. Wechseln Sie im linken Navigationsbereich zur Seite "Richtlinienpaket".
+2. Wählen Sie die Registerkarte " **Gruppenpaketzuweisung** " aus.
 
-3. Wählen Sie die Registerkarte "Gruppenrichtlinienzuweisung" aus.
-
-4. Wählen Sie **"Gruppe hinzufügen"** aus, und führen Sie dann im Gruppenbereich "Richtlinienpaket zuweisen" die folgenden Schritte aus:
+3. Wählen Sie **"Hinzufügen"** aus, und führen Sie dann im **Gruppenbereich "Richtlinienpaket zuweisen** " die folgenden Schritte aus:
 
     1. Suchen Sie nach der Gruppe, der Sie das Richtlinienpaket zuweisen möchten, und fügen Sie sie hinzu.
 
@@ -89,18 +85,17 @@ Wenn Sie das Richtlinienpaket zuweisen, wird es sofort der Gruppe zugewiesen. Di
 
     1. Wählen Sie **"Übernehmen" aus**.
 
+       :::image type="content" source="media/assign-policy-package-group.png" alt-text="Screenshot von &quot;Zuweisen eines Richtlinienpakets zu einem Gruppenbereich&quot;." lightbox="media/assign-policy-package-group-expanded.png":::
 
-       ![zeigt die Gruppenrichtlinienzuweisung an.](media/group-pkg-assignment.png)
+4. Um die Rangfolge für einen bestimmten Richtlinientyp zu verwalten, navigieren Sie zur jeweiligen Richtlinienseite.
 
-5. Um die Rangfolge für einen bestimmten Richtlinientyp zu verwalten, navigieren Sie zur jeweiligen Richtlinienseite.
-
-6. Um ein Richtlinienpaket einer Gruppe erneut zuzuweisen, entfernen Sie zuerst die Gruppenrichtlinienzuweisung. Führen Sie dann die vorstehenden Schritte aus, um das Richtlinienpaket einer Gruppe zuzuweisen.
+5. Um ein Richtlinienpaket einer Gruppe erneut zuzuweisen, entfernen Sie zuerst die Gruppenrichtlinienzuweisung. Führen Sie dann die vorstehenden Schritte aus, um das Richtlinienpaket einer Gruppe zuzuweisen.
 
 ### <a name="work-with-powershell"></a>Arbeiten mit PowerShell
 
 #### <a name="get-the-teams-powershell-module"></a>Abrufen des Teams PowerShell-Moduls
 
-Eine schrittweise Anleitung finden [Sie unter "Installieren Teams PowerShell](teams-powershell-install.md)".
+Eine schrittweise Anleitung finden [Sie unter Installieren von Teams PowerShell](teams-powershell-install.md).
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern
 
@@ -162,7 +157,7 @@ Weitere Informationen finden Sie unter [Get-CsBatchPolicyAssignmentOperation](/p
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Verwalten von Teams mit Richtlinien](manage-teams-with-policies.md)
+- [Verwalten von Microsoft Teams mit Richtlinien](manage-teams-with-policies.md)
 - [Verwalten von Richtlinienpaketen in Microsoft Teams](manage-policy-packages.md)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 - [Zuweisen von Richtlinien in Teams – erste Schritte](policy-assignment-overview.md)

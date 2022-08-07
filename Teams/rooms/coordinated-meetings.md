@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Konfigurieren Sie Teams-Räume Geräte und Surface Hub für die Teilnahme an Besprechungen, wenn ein Gerät oder das andere an einer Besprechung teilnimmt.
-ms.openlocfilehash: 1f249e9bd0321c9e8afd984aca90f902ad80d444
-ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
+ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67054936"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270480"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Einrichten koordinierter Besprechungen mit Microsoft Teams-Räume und Surface Hub
 

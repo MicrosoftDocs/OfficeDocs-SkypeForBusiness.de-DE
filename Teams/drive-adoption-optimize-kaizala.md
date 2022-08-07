@@ -11,14 +11,15 @@ description: In diesem Artikel wird beschrieben, wie Sie die Einführung in Micr
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
-ms.collection: ''
+ms.collection:
+- M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: f958ce05cde01ba60ba05f996e75b451921936cc
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 285bb4821b25c58de65ae375c864355e812e14c6
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819560"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271810"
 ---
 # <a name="microsoft-teams-for-frontline"></a>Microsoft Teams für Frontline
 

@@ -10,26 +10,26 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Überwachungsprotokollierung für TRM.
 f1keywords: ''
-ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676609"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269104"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Überwachungsprotokollierung im Teams-Räume verwalteten Dienst
 
 Mit der Überwachung in Teams-Räume Managed (TRM)-Dienst können Sie nach Überwachungsdatensätzen für Aktivitäten suchen, die von Benutzern und Administratoren im Portal ausgeführt werden. Dieses Feature ist standardmäßig aktiviert. Nur der Administrator des verwalteten Diensts verfügt über die Berechtigung zum Exportieren und Anzeigen der Protokolle.
 
 > [!NOTE]
-> Im TRM-Dienst ausgeführte Aktionen werden nicht Microsoft 365 oder Office 365 Überwachung protokolliert. 
+> Im TRM-Dienst ausgeführte Aktionen werden nicht in Microsoft 365 oder Office 365 Überwachung protokolliert. 
 
 ## <a name="exporting-logs"></a>Exportieren von Protokollen
 
@@ -37,7 +37,7 @@ Wenn Sie alle Ergebnisse für eine Überwachungsprotokollsuche exportieren, werd
 
 **So laden Sie Protokolle herunter** 
 
-1. Wechseln Sie zu **Einstellungen > Allgemeinen > Überwachungsprotokolle**.
+1. Wechseln **Sie zu "Einstellungen" > "Allgemeine > Überwachungsprotokolle"**.
 1. Um den Datumsbereich für interessante Protokolle zu definieren, geben Sie das **Startdatum** und das **Enddatum ein.**
 
    > [!NOTE]

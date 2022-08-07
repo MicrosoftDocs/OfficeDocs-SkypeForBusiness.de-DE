@@ -9,22 +9,21 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: Erfahren Sie, wie Sie ein Microsoft Teams Telefon Systemressourcenkonto für die Verwendung mit automatischen Telefonzentralen einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f450a84e01a54b436b49fa871acd441a75b38a6f
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.collection:
+- M365-voice
+- M365initiative-voice
+ms.openlocfilehash: e644b7488589d76367f5944c43826c0bbdad06a9
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124300"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269710"
 ---
-# <a name="step-4-set-up-a-teams-phone-system-resource-account"></a>Schritt 4: Einrichten eines Teams Telefonsystem Ressourcenkontos
+# <a name="step-4-set-up-a-teams-phone-system-resource-account"></a>Schritt 4: Einrichten eines Teams Phone System-Ressourcenkontos
 
 [!INCLUDE [set-up-resource-account-steps](../includes/set-up-resource-account-steps.md)]
 

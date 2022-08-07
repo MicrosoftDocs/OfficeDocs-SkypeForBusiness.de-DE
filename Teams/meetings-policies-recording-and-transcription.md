@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für aufzeichnung und Transkription verwalten.
-ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für die Aufzeichnung und Transkription verwalten.
+ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646364"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268980"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Besprechungsrichtlinieneinstellungen für die Aufzeichnung & Transkription
 
@@ -31,7 +31,7 @@ In diesem Artikel werden die Besprechungsrichtlinieneinstellungen für aufzeichn
 
 - [Transkription zulassen](#allow-transcription)
 - [Cloud-Aufnahme zulassen](#allow-cloud-recording)
-- [Store von Aufzeichnungen außerhalb Ihres Landes oder Ihrer Region](#store-recordings-outside-of-your-country-or-region)
+- [Speichern von Aufzeichnungen außerhalb Ihres Landes oder Ihrer Region](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>Transkription zulassen
 
@@ -39,7 +39,7 @@ Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und e
 
 Wenn Sie diese Einstellung aktivieren, wird eine Kopie des Transkripts erstellt, das mit der Besprechungsaufzeichnung gespeichert wird. Dadurch werden für die Besprechungsaufzeichnung **"Suchen"**, **"Cc"** und **"Transkripte"** aktiviert.
 
-Die Transkription für aufgezeichnete Besprechungen wird derzeit nur für Benutzer unterstützt, die ihre Sprache in Teams Besprechungen festlegen oder Englisch sprechen.
+Die Transkription für aufgezeichnete Besprechungen wird derzeit nur für Benutzer unterstützt, die ihre Sprache in Teams-Besprechungen festlegen oder Englisch sprechen.
 
 ## <a name="allow-cloud-recording"></a>Cloud-Aufzeichnung zulassen
 
@@ -65,11 +65,12 @@ Sehen Sie sich das folgende Beispiel an.
 
 Näheres zur Aufzeichnung von Cloud-Besprechungen erfahren Sie unter [Aufzeichnen von Microsoft Teams-Cloudbesprechungen](cloud-recording.md).
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>Store von Aufzeichnungen außerhalb Ihres Landes oder Ihrer Region
+## <a name="store-recordings-outside-of-your-country-or-region"></a>Speichern von Aufzeichnungen außerhalb Ihres Landes oder Ihrer Region
 
-Diese Richtlinie steuert, ob Besprechungsdatensätze dauerhaft in einem anderen Land oder einer anderen Region gespeichert werden können. Wenn sie aktiviert ist, können die Aufzeichnungen nicht migriert werden. Weitere Informationen zu Cloudbesprechungen und wo Aufzeichnungen gespeichert werden, finden Sie [unter Teams Aufzeichnung von Cloudbesprechungen](cloud-recording.md).
+Diese Richtlinie steuert, ob Besprechungsdatensätze dauerhaft in einem anderen Land oder einer anderen Region gespeichert werden können. Wenn sie aktiviert ist, können die Aufzeichnungen nicht migriert werden. Weitere Informationen zu Cloudbesprechungen und wo Aufzeichnungen gespeichert werden, finden Sie unter [Teams Cloud Meeting Recording](cloud-recording.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Zuweisen von Richtlinien zu Benutzern in Teams](policy-assignment-overview.md)
 - [Aufzeichnung von Cloudbesprechungen](cloud-recording.md)
+- [Besprechungsrichtlinien und Ablauf von Besprechungen in Microsoft Teams](meeting-expiration.md)

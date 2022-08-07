@@ -18,12 +18,12 @@ description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinien 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156513"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268420"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Zuweisen von Richtlinien in Teams – erste Schritte
 
@@ -63,7 +63,7 @@ Hier ist eine Übersicht über die Möglichkeiten, wie Sie Benutzern Richtlinien
 
 Bevor Sie einzelnen Benutzern oder Gruppen Richtlinien zuweisen, legen [Sie zunächst die globalen Richtlinien (organisationsweite Standardrichtlinien) so fest](#set-the-global-policies) , dass sie für die größte Anzahl von Benutzern in Ihrer Organisation gelten.  Nachdem die globalen Richtlinien festgelegt wurden, müssen Sie nur den Benutzern Richtlinien zuweisen, für die spezielle Richtlinien erforderlich sind.
 
-|Gehen Sie wie folgt vor:  |Wenn...  | Benutzend...
+|Gehen Sie wie folgt vor:  |Wenn...  | Mit...
 |---------|---------|----|
 |[Zuweisen einer Richtlinie zu einzelnen Benutzern](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | Sie sind noch nicht mit Teams und haben gerade erst begonnen, oder Sie müssen nur einer kleinen Anzahl von Benutzern eine oder mehrere Richtlinien zuweisen. |Die Microsoft Teams Admin Center- oder PowerShell-Cmdlets im Teams PowerShell-Modul
 |[Zuweisen einer Richtlinie zu einer Gruppe](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |Weisen Sie Richtlinien basierend auf der Gruppenmitgliedschaft eines Benutzers zu. Weisen Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe oder Verteilerliste eine Richtlinie zu.| Die Microsoft Teams Admin Center- oder PowerShell-Cmdlets im Teams PowerShell-Modul|
@@ -83,9 +83,9 @@ Führen Sie die folgenden Schritte aus, um die globalen (organisationsweiten Sta
 
 1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zur Richtlinienseite für den Richtlinientyp, den Sie aktualisieren möchten. Beispielsweise **Teams-Teams-Richtlinien** > , **Besprechungsbesprechungsrichtlinien** > , **Messagingrichtlinien** oder **VoIP-Anrufrichtlinien** > .
 2. Wählen Sie die **globale Richtlinie (organisationsweite Standardrichtlinie)** aus, um die aktuellen Einstellungen anzuzeigen.
-3. Aktualisieren Sie die Richtlinie nach Bedarf, und wählen Sie dann **"Übernehmen"** aus.
+3. Aktualisieren Sie die Richtlinie nach Bedarf, und wählen Sie dann **"Speichern"** aus.
 
-![Aktualisieren Sie die globale Richtlinie im Teams Admin Center.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot der globalen Updaterichtlinie im Teams Admin Center." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
@@ -125,7 +125,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 Wenn Sie Benutzern im Microsoft Teams Admin Center Richtlinien zuweisen, können Sie den Status dieser Richtlinienzuweisungen im [Aktivitätsprotokoll](https://admin.teams.microsoft.com/activitylog) anzeigen. Das Aktivitätsprotokoll zeigt Informationen zum Hochladen von Netzwerkdatensätzen, Gruppenrichtlinienvorgänge aus dem Teams Admin Center und PowerShell sowie Batchrichtlinienvorgänge (für mehr als 20 Benutzer) aus dem Teams Admin Center für die letzten 30 Tage.
 
-![Screenshot der Seite "Aktivitätsprotokoll".](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="Screenshot der Seite &quot;Aktivitätsprotokoll&quot;." lightbox="media/Activity_Log.png":::
 
 So zeigen Sie Ihre Richtlinienvorgänge im Aktivitätsprotokoll an:
 
@@ -153,5 +153,5 @@ So zeigen Sie Ihre Richtlinienvorgänge im Aktivitätsprotokoll an:
 
 - [Zuweisen von Richtlinien zu Benutzern und Gruppen](assign-policies-users-and-groups.md)
 - [Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen](assign-policy-packages.md)
-- [Verwalten von Teams mit Richtlinien](manage-teams-with-policies.md)
+- [Verwalten von Microsoft Teams mit Richtlinien](manage-teams-with-policies.md)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)

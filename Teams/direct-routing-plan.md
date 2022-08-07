@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit Microsoft Direct Routing einen vom Kunden bereitgestellten Session Border Controller (SBC) mit dem Telefonsystem verbinden können.
-ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695058"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267780"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -256,8 +256,8 @@ Sie müssen die folgenden Ports für Microsoft 365- oder Office 365-Umgebungen v
 
 |Verkehr|Von|Bis|Quellport|Zielport|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP-Proxy|SBC|1024 – 65535|Definiert auf dem SBC (für Office 365 GCC High/DoD muss nur Port 5061 verwendet werden)|
-SIP/TLS|SBC|SIP-Proxy|Definiert auf dem SBC|5061|
+|SIP/TLS|SIP-Proxy|Sbc|1024 – 65535|Definiert auf dem SBC (für Office 365 GCC High/DoD muss nur Port 5061 verwendet werden)|
+SIP/TLS|Sbc|SIP-Proxy|Definiert auf dem SBC|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Failovermechanismus für die SIP-Signalisierung
@@ -268,8 +268,8 @@ In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären un
 
 |Wenn das primäre Rechenzentrum|EMEA|NOAM|ASIEN|
 |:--- |:--- |:--- |:--- |
-|Das sekundäre Rechenzentrum (sip2.pstnhub.microsoft.com)|US|EU|US|
-|Das tertiäre Rechenzentrum (sip3.pstnhub.microsoft.com)|ASIEN|ASIEN|EU|
+|Das sekundäre Rechenzentrum (sip2.pstnhub.microsoft.com)|US|Eu|US|
+|Das tertiäre Rechenzentrum (sip3.pstnhub.microsoft.com)|ASIEN|ASIEN|Eu|
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Mediendatenverkehr: Portbereiche
@@ -295,8 +295,8 @@ Der Portbereich der Medienprozessoren wird in der folgenden Tabelle angezeigt:
 
 |Verkehr|Von|Bis|Quellport|Zielport|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Medienprozessor|SBC|3478-3481 und 49152 – 53247|Definiert auf dem SBC|
-|UDP/SRTP|SBC|Medienprozessor|Definiert auf dem SBC|3478-3481 und 49152 – 53247|
+|UDP/SRTP|Medienprozessor|Sbc|3478-3481 und 49152 – 53247|Definiert auf dem SBC|
+|UDP/SRTP|Sbc|Medienprozessor|Definiert auf dem SBC|3478-3481 und 49152 – 53247|
 
   > [!NOTE]
   > Microsoft empfiehlt mindestens zwei Ports pro gleichzeitigen Anruf auf dem SBC.
@@ -334,7 +334,7 @@ Gilt nur für Umgehungsfälle ohne Medien. Mit der Medienumgehung fließen die M
 Auf der Strecke zwischen cloudbasiertem Medienprozessor und Microsoft Teams-Client wird entweder SILK oder G.722 verwendet. Die Codec-Auswahl auf diesem Bein basiert auf Microsoft-Algorithmen, die mehrere Parameter berücksichtigen. 
 
   > [!NOTE]
-  > Die erneute Medienadressierung wird nicht unterstützt. Wenn der SBC während eines Direct Routing-Anrufs eine neue Medien-IP an Teams Direct Routing sendet, obwohl diese in der SIP-Signalisierung ausgehandelt wird, werden die Medien nie von Teams Direct Routing an die neue IP-Adresse gesendet.
+  > Erneute Medienadressierung wird nicht unterstützt. Wenn der SBC während eines Direct Routing-Anrufs eine neue Medien-IP an Teams Direct Routing sendet, obwohl diese in der SIP-Signalisierung ausgehandelt wird, werden die Medien nie von Teams Direct Routing an die neue IP-Adresse gesendet.
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Unterstützte Session Border Controller (SBCs)
 
@@ -344,6 +344,8 @@ Geräte, die überprüft wurden, werden als "Zertifiziert für Teams Direct Rout
 
 Weitere Informationen zu unterstützten SBCs finden Sie unter [Session Border Controller, die für Direct Routing zertifiziert sind](direct-routing-border-controllers.md).
 
+## <a name="support-boundaries"></a>Supportgrenzen
+Microsoft unterstützt das Telefonsystem mit Direct Routing nur, wenn es mit zertifizierten Geräten verwendet wird. Bei Problemen müssen Sie sich zuerst an den Kundensupport Ihres SBC-Lieferanten wenden. Bei Bedarf wird der SBC-Lieferant das Problem über interne Kanäle an Microsoft eskalieren. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über Direct Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct Routing-Problem eines Kunden mit dem SBC-Gerät eines Lieferanten zusammenhängt, muss der Kunde den SBC-Anbieter erneut engagieren, um Support zu erhalten.
  
 ## <a name="see-also"></a>Siehe auch
 

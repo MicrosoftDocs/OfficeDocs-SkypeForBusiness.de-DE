@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Erfahren Sie, wie Sie den PSTN-Nutzungsbericht von Teams im Microsoft Teams Admin Center verwenden, um einen Überblick über die Verwendung von Anrufen und Audiokonferenzen in Ihrer Organisation zu erhalten.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c14e05c1f283971b4882cf3f6e8d3758a2d8ba
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 1539f679225334f71855300a54c4fba950ddd8f8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023768"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267630"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
@@ -136,7 +136,7 @@ Die erste Zeile der CSV-Datei enthält Spaltennamen. Alle Datumsangaben sind UTC
 > | 2 | Konferenz-ID | `nvarchar(64)` | ID der Audiokonferenz |
 > | 3 | Benutzerspeicherort | `nvarchar(2)` | Ländercode des Benutzers, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | AAD ObjectId | `uniqueidentifier` | Aufrufen der Benutzer-ID in Azure Active Directory.<br/> Diese und andere Benutzerinformationen sind für Bot-Anruftypen null/leer (ucap_in, ucap_out) |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (Anmeldename) in Azure Active Directory.<br/>Dies ist in der Regel identisch mit der SIP-Adresse des Benutzers und kann mit der E-Mail-Adresse des Benutzers identisch sein. |
+> | 5 | Upn | `nvarchar(128)` | UserPrincipalName (Anmeldename) in Azure Active Directory.<br/>Dies ist in der Regel identisch mit der SIP-Adresse des Benutzers und kann mit der E-Mail-Adresse des Benutzers identisch sein. |
 > | 6 | Anzeigename des Benutzers | `nvarchar(128)` | Anzeigename des Benutzers |
 > | 7 | Anrufer-ID | `nvarchar(128)` | Nummer, die den Anruf für eingehende Anrufe oder die für ausgehende Anrufe gewählte Nummer erhalten hat. [E.164-Format](https://en.wikipedia.org/wiki/E.164) |
 > | 8 | Anruftyp | `nvarchar(32)` | Gibt an, ob es sich bei dem Anruf um einen ausgehenden oder eingehenden PSTN-Anruf handelt und um die Art des Anrufs, z. B. einen Anruf eines Benutzers oder eine Audiokonferenz. |
@@ -161,7 +161,7 @@ Sie können Daten bis zu fünf Monate (150 Tage) ab dem aktuellen Datum exportie
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | Correlationid | `uniqueidentifier` | Anrufbezeichner. Mehrere Abschnitte desselben Aufrufs können dieselbe CorrelationId verwenden. |
 > | 1 | AAD ObjectId | `uniqueidentifier` | Aufrufen der Benutzer-ID in Azure Active Directory.<br/> Diese und andere Benutzerinformationen können für Bot-Anruftypen null/leer sein. |
-> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (Anmeldename, Azure Active Directory) des Benutzers oder Bots, der den Anruf getätigt oder empfangen hat.<br/>Dies ist in der Regel identisch mit der SIP-Adresse des Benutzers und kann mit der E-Mail-Adresse des Benutzers identisch sein. |
+> | 2 | Upn | `nvarchar(128)` | UserPrincipalName (Anmeldename, Azure Active Directory) des Benutzers oder Bots, der den Anruf getätigt oder empfangen hat.<br/>Dies ist in der Regel identisch mit der SIP-Adresse des Benutzers und kann mit der E-Mail-Adresse des Benutzers identisch sein. |
 > | 3 | Display Name | `nvarchar(128)` | Der Name eines Benutzers oder eines aufrufenden Bots (z. B. Anrufwarteschleife oder automatische Telefonzentrale), wie in Microsoft 365 Admin Center |
 > | 4 | Benutzerland | `nvarchar(2)` | Ländercode des Benutzers, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 5 | Einladungszeitpunkt | `datetimeoffset` | Wenn die anfängliche Einladung ausgehend vom Teams-Benutzer oder -Bot-Anruf an den SBC gesendet wird oder bei eingehendem Zu-Teams- oder Bot-Anruf von der SIP-Proxykomponente von Direct Routing vom SBC empfangen wird |

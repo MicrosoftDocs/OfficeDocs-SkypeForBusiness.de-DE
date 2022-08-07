@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird erläutert, wie Sie Ihre Organisation und Teams-Räume Geräte konfigurieren, um die Teilnahme von Drittanbieterbesprechungen an Cisco Webex und Zoom zu unterstützen.
-ms.openlocfilehash: 23eefeb564e3333b1bc2105a1fc4d57a0ff41bbe
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529677"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268200"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Aktivieren Teams-Räume Geräten für die Teilnahme an Besprechungen von Drittanbietern
 
@@ -65,19 +66,19 @@ Erfahren Sie mehr über [Exchange Online PowerShell](/powershell/exchange/exchan
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Schritt 2: Konfigurieren von Office 365 Threat Protection und Umschreiben von Links
 
-Um die One-Touch-Teilnahme zu ermöglichen, müssen Informationen zu Besprechungsbeitrittslinks aus der Drittanbieterbesprechung in der Besprechungseinladung vorhanden und lesbar sein. Wenn Ihre Organisation das Feature [Microsoft Defender für Office 365](/microsoft-365/security/office-365-security/safe-links) sichere Links verwendet oder wenn Sie eine Drittanbieterlösung verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen überprüft, kann dies die URLs für Besprechungsbeitritte ändern und die Besprechung vom Teams-Räume Gerät nicht wiedererkennbar machen. Um sicherzustellen, dass dies nicht geschieht, müssen Sie die URLs des Drittanbieter-Besprechungsdiensts zu Defender für [Office 365 Liste sicherer Links **nicht neu schreiben**](/microsoft-365/security/office-365-security/safe-links) oder die URL-Ausnahmeliste des Drittanbieters neu schreiben.
+Um die One-Touch-Teilnahme zu ermöglichen, müssen Informationen zu Besprechungsbeitrittslinks aus der Drittanbieterbesprechung in der Besprechungseinladung vorhanden und lesbar sein. Wenn Ihre Organisation das Feature [für Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/safe-links) sichere Links verwendet oder wenn Sie eine Drittanbieterlösung verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen überprüft, kann dies die URLs für Besprechungsbeitritte ändern und die Besprechung vom Teams-Räume Gerät nicht wiedererkennbar machen. Um sicherzustellen, dass dies nicht geschieht, müssen Sie die URLs des Drittanbieter-Besprechungsdiensts zu Defender für [Office 365 Liste sicherer Links **nicht neu schreiben**](/microsoft-365/security/office-365-security/safe-links) oder die URL-Ausnahmeliste des Drittanbieters neu schreiben.
 
  Wenn Sie eine Drittanbieterlösung verwenden, lesen Sie die Anweisungen für diese Lösung, um URLs zu ihrer URL-Ausnahmeliste zum Umschreiben hinzuzufügen.
 
-Im Folgenden finden Sie einige Beispieleinträge, die Sie Möglicherweise zu Ihrer Defender für Office 365 Liste sicherer Links hinzufügen müssen: Liste *nicht neu schreiben* oder Ausnahmeliste für Url-Neuschreibungen von Drittanbietern:
+Im Folgenden finden Sie einige Beispieleinträge, die Sie möglicherweise zu Ihrer Defender for Office 365 Liste sicherer Links hinzufügen müssen: Keine *Neuschreibung* der Liste oder Ausnahmeliste für url-Neuschreibungen von Drittanbietern:
 
 - **Cisco Webex** `*.webex.com/*`
 - **Zoom** `*.zoom.us/*`, , `*.zoom.com/*``*.zoomgov.com/*`
 
-Eine vollständige Liste der URLs, die Sie Ihrer Defender für Office 365 Sichere Links hinzufügen können: Liste *nicht neu schreiben* oder Ausnahmeliste von Drittanbieter-URLs neu schreiben, wenden Sie sich an den Drittanbieter für Besprechungsdienst, von dem Sie Besprechungseinladungen annehmen möchten.
+Eine vollständige Liste der URLs, die Ihrer Defender for Office 365 Sichere Links hinzugefügt werden sollen: Liste *nicht neu schreiben* oder Ausnahmeliste von Drittanbieter-URLs neu schreiben, wenden Sie sich an den Drittanbieter für Besprechungsdienst, von dem Sie Besprechungseinladungen annehmen möchten.
 
 > [!CAUTION]
-> Fügen Sie Ihrer Microsoft Defender für Office 365 Liste sicherer Links nur URLs hinzu, denen Sie vertrauen. Keine Liste *neu schreiben* oder Ausnahmeliste von Drittanbieter-URLs neu schreiben.
+> Fügen Sie Ihrer Microsoft Defender for Office 365 Liste der sicheren Links nur URLs hinzu, denen Sie vertrauen, und schreiben *Sie keine* Liste neu, oder die Ausnahmeliste der Url eines Drittanbieters wird neu geschrieben.
 
 ## <a name="step-3a-enable-third-party-meetings-on-teams-rooms-on-windows"></a>Schritt 3a: Aktivieren von Drittanbieterbesprechungen auf Teams-Räume unter Windows
 

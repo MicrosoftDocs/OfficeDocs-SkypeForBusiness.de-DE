@@ -1,5 +1,5 @@
 ---
-title: Streamen Teams von Besprechungen
+title: Streamen von Teams-Besprechungen
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -17,22 +17,21 @@ f1.keywords:
 ms.custom: ''
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
-description: Erfahren Sie, wie Sie das Streaming für Ihre Teams Besprechungen einrichten und verwalten.
-ms.openlocfilehash: 352a0c2e7a0584640e466b5e46456906e4912d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: Erfahren Sie, wie Sie Streaming für Ihre Teams-Besprechungen einrichten und verwalten.
+ms.openlocfilehash: 5e1e84fc3b0b4ed2f81b3f3a8c84450dc3cee56c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646344"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270180"
 ---
-# <a name="stream-teams-meetings"></a>Streamen Teams von Besprechungen
+# <a name="stream-teams-meetings"></a>Streamen von Teams-Besprechungen
 
-Dieser Artikel hilft Ihnen beim Einrichten von Streaming für Teams Besprechungen.
+Dieser Artikel hilft Ihnen beim Einrichten von Streaming für Teams-Besprechungen.
 
 ## <a name="what-is-streaming-and-how-does-it-work"></a>Was ist Streaming und wie funktioniert es?
 
-Streaming ermöglicht Es Ihrer Organisation, Ihre Reichweite zu erweitern und Besprechungsteilnehmern mehr Besprechungsoptionen zu bieten. Wenn Sie Streaming aktivieren, können Organisatoren Besprechungen und Webinare an externe Endpunkte streamen, indem sie eine RTMP-URL (Real-Time Messaging Protocol) und einen Schlüssel für die integrierte benutzerdefinierte Streaming-App in Teams bereitstellen.
+Streaming ermöglicht Es Ihrer Organisation, Ihre Reichweite zu erweitern und Besprechungsteilnehmern mehr Besprechungsoptionen zu bieten. Wenn Sie Streaming aktivieren, können Organisatoren Besprechungen und Webinare an externe Endpunkte streamen, indem sie eine Real-Time Messaging Protocol (RTMP)-URL und den Schlüssel für die integrierte benutzerdefinierte Streaming-App in Teams bereitstellen.
 
 > [!NOTE]
 > Sie können keine Liveereignisse streamen.

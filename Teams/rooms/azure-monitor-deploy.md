@@ -1,7 +1,7 @@
 ---
-title: Bereitstellen Microsoft Teams-Räume Überwachungsüberwachung mit Azure Monitor
-ms.author: czawideh
-author: cazawideh
+title: Bereitstellen Microsoft Teams-Räume Überwachung mit Azure Monitor
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -12,96 +12,97 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: In diesem Artikel wird erläutert, wie Sie die Überwachung ihrer Microsoft Teams-Räume mit Azure Monitor in einer integrierten End-to-End-Weise bereitstellen.
+description: In diesem Artikel wird erläutert, wie die Überwachung von Microsoft Teams-Räume integriert und end-to-end mithilfe von Azure Monitor bereitgestellt wird.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b991465bfff8f67fdbd3bdc9c03eba485690d5fb
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 2b6d1931b0a1818b5146f6ac0e02c225fea3af52
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503872"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267450"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>Bereitstellen der :::no-loc text="Microsoft Teams Rooms"::: Überwachung mit :::no-loc text="Azure Monitor":::
 
-In diesem Artikel wird beschrieben, wie Sie integrierte End-to-End-Überwachung von Geräten :::no-loc text="Microsoft Teams Rooms"::: mithilfe von einrichten und bereitstellen :::no-loc text="Azure Monitor":::.
+In diesem Artikel wird erläutert, wie Sie die integrierte End-to-End-Überwachung von Geräten mithilfe :::no-loc text="Azure Monitor":::von :::no-loc text="Microsoft Teams Rooms"::: .
 
-Sie können innerhalb von :::no-loc text="Log Analytics"::: konfigurieren :::no-loc text="Azure Monitor"::: , um einfache Telemetrie und Warnungen zur Verwaltung von bereitstellen :::no-loc text="Microsoft Teams Rooms":::. Wenn Ihre Managementlösung reift, können Sie zusätzliche Daten- und Verwaltungsfunktionen bereitstellen, um eine detailliertere Ansicht der Geräteverfügbarkeit und -leistung zu erstellen.
+Sie können innerhalb :::no-loc text="Azure Monitor"::: konfigurieren:::no-loc text="Log Analytics":::, um grundlegende Telemetrie und Warnungen bereitzustellen, die Ihnen bei der Verwaltung :::no-loc text="Microsoft Teams Rooms":::helfen. Wenn Ihre Verwaltungslösung ausgereift ist, können Sie sich entscheiden, zusätzliche Daten- und Verwaltungsfunktionen bereitzustellen, um eine detailliertere Ansicht der Geräteverfügbarkeit und -leistung zu erstellen.
 
-Durch Folgen dieses Leitfadens können Sie ein Dashboard wie das folgende Beispiel verwenden, um detaillierte Statusberichte zur Geräteverfügbarkeit, Anwendungs- und Hardwarestatus sowie :::no-loc text="Microsoft Teams Rooms"::: Anwendungs- und Betriebssystemversionsverteilung zu erhalten.
+Indem Sie diesem Leitfaden folgen, können Sie ein Dashboard wie das folgende Beispiel verwenden, um detaillierte Statusberichte für die Geräteverfügbarkeit, den Anwendungs- und Hardwarestatus sowie :::no-loc text="Microsoft Teams Rooms"::: die Versionsverteilung von Anwendungen und Betriebssystemen zu erhalten.
 
-![Screenshot der Beispielansicht "Protokollanalyse" für Microsoft Teams-Räume.](../media/Deploy-Azure-Monitor-1.png "Beispielansicht für die Protokollanalyse für Microsoft Teams-Räume")
+![Screenshot der Log Analytics-Beispielansicht für Microsoft Teams-Räume.](../media/Deploy-Azure-Monitor-1.png "Log Analytics-Beispielansicht für Microsoft Teams-Räume")
 
 Allgemein müssen Sie die folgenden Aufgaben ausführen:
 
 
 1. [Überprüfen der :::no-loc text="Log Analytics"::: Konfiguration](azure-monitor-deploy.md#validate_LogAnalytics)
-2. [Konfigurieren von Testgeräten für die Verwaltung :::no-loc text="Log Analytics":::](azure-monitor-deploy.md#configure_test_devices)
+2. [Konfigurieren von Testgeräten für :::no-loc text="Log Analytics"::: die Verwaltungseinrichtung](azure-monitor-deploy.md#configure_test_devices)
 3. [Zuordnen benutzerdefinierter Felder](azure-monitor-deploy.md#Custom_fields)
-4. [Definieren Sie die :::no-loc text="Microsoft Teams Rooms"::: Ansichten in :::no-loc text="Log Analytics":::](azure-monitor-deploy.md#Define_Views)
+4. [Definieren der :::no-loc text="Microsoft Teams Rooms"::: Ansichten in :::no-loc text="Log Analytics":::](azure-monitor-deploy.md#Define_Views)
 5. [Definieren von Warnungen](azure-monitor-deploy.md#Alerts)
 6. [Konfigurieren aller Geräte für die Überwachung](azure-monitor-deploy.md#configure_all_devices)
 7. [Konfigurieren zusätzlicher :::no-loc text="Azure Monitor"::: Lösungen](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
-> Obwohl sie mit einer minimalen Konfiguration einen Computer überwachen kann, :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: :::no-loc text="Windows"::: auf dem ein Betriebssystem ausgeführt wird, :::no-loc text="Microsoft Teams Rooms":::müssen Sie dennoch einige spezifische Schritte ausführen, bevor Sie mit der Bereitstellung von Agents auf allen Geräten :::no-loc text="Microsoft Teams Rooms"::: beginnen.
-> Daher wird dringend empfohlen, alle Konfigurationsschritte in der richtigen Reihenfolge für eine kontrollierte Einrichtung und Konfiguration durchzuführen. Die Qualität des Endergebniss hängt stark von der Qualität der Anfänglichen Konfiguration ab.
+> Obwohl mit minimaler Konfiguration ein Computer überwacht werden kann, :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: auf dem ein :::no-loc text="Windows"::: Betriebssystem ausgeführt wird, gibt es noch einige :::no-loc text="Microsoft Teams Rooms":::spezifische Schritte, die Sie ausführen müssen, bevor Sie mit der Bereitstellung von Agents auf allen :::no-loc text="Microsoft Teams Rooms"::: Geräten beginnen.
+> Daher wird dringend empfohlen, alle Konfigurationsschritte in der richtigen Reihenfolge für eine kontrollierte Einrichtung und Konfiguration durchzuführen. Die Qualität des Endergebnisses hängt stark von der Qualität der Erstkonfiguration ab.
 
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>Überprüfen der :::no-loc text="Log Analytics"::: Konfiguration
 <a name="validate_LogAnalytics"> </a>
 
-Sie benötigen einen Arbeitsbereich, um :::no-loc text="Log Analytics"::: mit dem Sammeln von Protokollen von zu beginnen :::no-loc text="Microsoft Teams Rooms":::. Ein Arbeitsbereich ist eine einzigartige Umgebung :::no-loc text="Log Analytics"::: mit einem eigenen Datenrepository, Datenquellen und Lösungen. Wenn Sie bereits über einen vorhandenen :::no-loc text="Log Analytics"::: Arbeitsbereich verfügen, :::no-loc text="Microsoft Teams Rooms"::: können Sie ihn zum Überwachen der Bereitstellung verwenden, oder Sie können alternativ einen dedizierten Arbeitsbereich erstellen, :::no-loc text="Log Analytics"::: der Ihren :::no-loc text="Microsoft Teams Rooms"::: Überwachungsanforderungen entspricht.
+Sie benötigen einen :::no-loc text="Log Analytics"::: Arbeitsbereich, um mit dem Sammeln von Protokollen zu :::no-loc text="Microsoft Teams Rooms":::beginnen. Ein Arbeitsbereich ist eine einzigartige :::no-loc text="Log Analytics"::: Umgebung mit einem eigenen Datenrepository, Datenquellen und Lösungen. Wenn Sie bereits über einen vorhandenen :::no-loc text="Log Analytics"::: Arbeitsbereich verfügen, können Sie ihn verwenden, um Ihre :::no-loc text="Microsoft Teams Rooms"::: Bereitstellung zu überwachen, oder Alternativ können Sie einen dedizierten :::no-loc text="Log Analytics"::: Arbeitsbereich erstellen, der ihren :::no-loc text="Microsoft Teams Rooms"::: Überwachungsanforderungen entspricht.
 
-Wenn Sie einen neuen Arbeitsbereich erstellen müssen :::no-loc text="Log Analytics"::: , folgen Sie den Anweisungen im Artikel Erstellen [eines :::no-loc text="Log Analytics"::: Arbeitsbereichs im Portal :::no-loc text="Azure"::: .](/azure/azure-monitor/learn/quick-create-workspace)
+Wenn Sie einen neuen :::no-loc text="Log Analytics"::: Arbeitsbereich erstellen müssen, folgen Sie den Anweisungen im Artikel ["Erstellen eines :::no-loc text="Log Analytics"::: Arbeitsbereichs im :::no-loc text="Azure"::: Portal](/azure/azure-monitor/learn/quick-create-workspace)".
 
 > [!NOTE]
-> Um mit :::no-loc text="Log Analytics"::: verwenden zu :::no-loc text="Azure Monitor":::können, müssen Sie über ein aktives Abonnement :::no-loc text="Azure"::: verfügen. Wenn Sie nicht über ein Abonnement :::no-loc text="Azure"::: verfügen, können Sie als Ausgangspunkt [](https://azure.microsoft.com/free) ein kostenloses Testabonnement erstellen.
+> Für die Verwendung :::no-loc text="Log Analytics"::: mit :::no-loc text="Azure Monitor":::benötigen Sie ein aktives :::no-loc text="Azure"::: Abonnement. Wenn Sie nicht über ein :::no-loc text="Azure"::: Abonnement verfügen, können Sie [ein kostenloses Testabonnement](https://azure.microsoft.com/free) als Ausgangspunkt erstellen.
 
-### <a name="configure-no-loc-textlog-analytics-to-collect-no-loc-textmicrosoft-teams-rooms-event-logs"></a>Konfigurieren für :::no-loc text="Log Analytics"::: die Erfassung von Ereignisprotokollen :::no-loc text="Microsoft Teams Rooms":::
+### <a name="configure-no-loc-textlog-analytics-to-collect-no-loc-textmicrosoft-teams-rooms-event-logs"></a>Konfigurieren :::no-loc text="Log Analytics"::: der Erfassung von :::no-loc text="Microsoft Teams Rooms"::: Ereignisprotokollen
 
-:::no-loc text="Log Analytics"::: erfasst nur Ereignisse aus den :::no-loc text="Windows"::: Ereignisprotokollen, die in den Einstellungen angegeben sind. Für jedes Protokoll werden nur die Ereignisse mit den ausgewählten Schweregraden erfasst.
+:::no-loc text="Log Analytics"::: sammelt nur Ereignisse aus den :::no-loc text="Windows"::: Ereignisprotokollen, die in den Einstellungen angegeben sind. Für jedes Protokoll werden nur die Ereignisse mit den ausgewählten Schweregraden erfasst.
 
-Sie müssen konfigurieren, um :::no-loc text="Log Analytics"::: die Protokolle zu erfassen, die zum Überwachen des Geräte- :::no-loc text="Microsoft Teams Rooms"::: und Anwendungsstatus erforderlich sind. :::no-loc text="Microsoft Teams Rooms"::: verwenden Sie das **:::no-loc text="Skype Room System":::** Ereignisprotokoll.
+Sie müssen konfigurieren :::no-loc text="Log Analytics"::: , um die Protokolle zu sammeln, die zum Überwachen :::no-loc text="Microsoft Teams Rooms"::: des Geräte- und Anwendungsstatus erforderlich sind. :::no-loc text="Microsoft Teams Rooms"::: verwenden Sie das **:::no-loc text="Skype Room System":::** Ereignisprotokoll.
 
-Informationen zum Konfigurieren :::no-loc text="Log Analytics"::: der Ereignisersammelung :::no-loc text="Microsoft Teams Rooms"::: finden Sie unter [:::no-loc text="Windows"::: Datenquellen für Ereignisprotokolle in :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/data-sources-windows-events)
+Informationen zum Konfigurieren :::no-loc text="Log Analytics"::: der :::no-loc text="Microsoft Teams Rooms"::: Ereignisse finden Sie [:::no-loc text="Windows"::: unter Ereignisprotokolldatenquellen in :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Screenshot der Einstellungen für das Ereignisprotokoll](../media/Deploy-Azure-Monitor-2.png "Einstellungen des Ereignisprotokolls")
+![Screenshot der Ereignisprotokolleinstellungen.](../media/Deploy-Azure-Monitor-2.png "Ereignisprotokolleinstellungen")
 
 > [!IMPORTANT]
-> Konfigurieren :::no-loc text="Windows"::: Sie die Einstellungen für das Ereignisprotokoll, geben **:::no-loc text="Skype Room System":::** Sie als Ereignisprotokollnamen ein, und aktivieren Sie dann die Kontrollkästchen **Fehler, Warnung** **und Informationen**.
+> Konfigurieren Sie :::no-loc text="Windows"::: die Einstellungen für das Ereignisprotokoll, geben Sie den Namen des Ereignisprotokolls ein **:::no-loc text="Skype Room System":::** , und aktivieren Sie dann die Kontrollkästchen **"Fehler**", **"Warnung**" und " **Informationen** ".
 
 ## <a name="configure-test-devices-for-azure-monitoring"></a>Konfigurieren von Testgeräten für Azure Monitoring
 <a name="configure_test_devices"> </a>
 
-Sie müssen die Überwachung :::no-loc text="Log Analytics"::: von Ereignissen im Zusammenhang mit der :::no-loc text="Microsoft Teams Rooms":::Überwachung vorbereiten. Zunächst müssen Sie :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: Agents auf einem oder zwei Geräten bereitstellen, auf die Sie physischen Zugriff haben. Mit diesen Testgeräten können Sie Daten generieren und an den Arbeitsbereich :::no-loc text="Log Analytics"::: übertragen.
+Sie müssen sich darauf vorbereiten :::no-loc text="Log Analytics"::: , dass Sie –bezogene Ereignisse überwachen :::no-loc text="Microsoft Teams Rooms":::können. Zunächst müssen Sie Agents auf einem oder zwei :::no-loc text="Microsoft Teams Rooms"::: Geräten bereitstellen:::no-loc text="Microsoft Monitoring":::, auf die Sie physischen Zugriff haben, und diese Testgeräte erhalten, um einige Daten zu generieren und an den :::no-loc text="Log Analytics"::: Arbeitsbereich zu übertragen.
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Installieren von :::no-loc text="Microsoft Monitoring"::: Agents zum Testen von Geräten
 
-Stellen Sie den :::no-loc text="Microsoft Monitoring"::: Agent auf den Testgeräten bereit, indem Sie die Anweisungen unter [:::no-loc text="Windows"::: Verbinden dem Dienst :::no-loc text="Log Analytics"::: in befolgen:::no-loc text="Azure":::](/azure/azure-monitor/platform/agent-windows). :::no-loc text="Microsoft Monitoring"::: Dieser Artikel enthält detaillierte Informationen zu den Schritten zum Bereitstellen des Agents :::no-loc text="Windows":::für , *:::no-loc text="Log Analytics"::: Anweisungen zum Beziehen der Arbeitsbereichs-ID_ und des _ *_primärschlüssels_**:::no-loc text="Microsoft Teams Rooms"::::::no-loc text="Azure Monitor":::, um Geräte mit Ihrer Bereitstellung zu verbinden, sowie Schritte zum Überprüfen der Agentkonnektivität:::no-loc text="Log Analytics"::: mit Instanz.
+Stellen Sie den :::no-loc text="Microsoft Monitoring"::: Agent auf den Testgeräten bereit, indem Sie die Anweisungen in [Connect :::no-loc text="Windows"::: computers to the :::no-loc text="Log Analytics"::: service in :::no-loc text="Azure":::](/azure/azure-monitor/platform/agent-windows)verwenden. Dieser Artikel enthält ausführliche Informationen zu den Schritten zum Bereitstellen des :::no-loc text="Microsoft Monitoring"::: Agents für :::no-loc text="Windows":::, Anweisungen zum Abrufen der :::no-loc text="Log Analytics"::: ***Arbeitsbereichs-ID** _ und des _ *_primärschlüssels_**, um Geräte zu erhalten :::no-loc text="Microsoft Teams Rooms"::: , die mit Ihrer :::no-loc text="Azure Monitor"::: Bereitstellung verbunden sind, sowie Schritte zum Überprüfen der Agentkonnektivität mit :::no-loc text="Log Analytics"::: der Instanz.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Generieren von Beispielereignissen :::no-loc text="Microsoft Teams Rooms":::
 
-Nachdem der :::no-loc text="Microsoft Monitoring"::: Agent auf den Testgeräten bereitgestellt wurde, überprüfen Sie, ob die erforderlichen Ereignisprotokolldaten von gesammelt werden :::no-loc text="Azure Monitor":::.
+Überprüfen Sie nach der Bereitstellung des :::no-loc text="Microsoft Monitoring"::: Agents auf den Testgeräten, ob die erforderlichen Ereignisprotokolldaten von :::no-loc text="Azure Monitor":::erfasst werden.
 
 > [!NOTE]
-> Starten Sie das Gerät nach der Installation :::no-loc text="Microsoft Monitoring"::: des Agents neu, und stellen Sie sicher, :::no-loc text="Microsoft Teams Rooms"::: dass die Besprechungs-App gestartet wird, damit neue Ereignisse im Ereignisprotokoll generiert werden können.
+> Starten Sie das Gerät nach der Installation des :::no-loc text="Microsoft Monitoring"::: Agents neu, und stellen Sie sicher, dass die :::no-loc text="Microsoft Teams Rooms"::: Besprechungs-App gestartet wird, damit neue Ereignisse im Ereignisprotokoll generiert werden können.
 
-1.  Melden Sie sich beim Portal [an:::no-loc text="Microsoft Azure":::,](https://portal.azure.com) wechseln Sie zu, :::no-loc text="Log Analytics"::: und wählen Sie Ihren Arbeitsbereich aus.
+1.  Melden Sie sich beim [:::no-loc text="Microsoft Azure"::: Portal](https://portal.azure.com) an, und wechseln Sie zu :::no-loc text="Log Analytics"::: Ihrem Arbeitsbereich, und wählen Sie sie aus.
 
-2.  Auflisten der von einem Gerät generierten Heartbeat-Ereignisse :::no-loc text="Microsoft Teams Rooms"::: :
-    1.  Wählen Sie Ihren Arbeitsbereich aus, wechseln Sie zu **Protokolle** , und verwenden Sie eine Abfrage, um die Heartbeat-Datensätze abzurufen, die die benutzerdefinierten Felder für enthalten :::no-loc text="Microsoft Teams Rooms":::sollen.
+2.  Auflisten der von einem :::no-loc text="Microsoft Teams Rooms"::: Gerät generierten Taktereignisse:
+    1.  Wählen Sie Ihren Arbeitsbereich aus, wechseln Sie zu **"Protokolle"** , und verwenden Sie eine Abfrage, um die Taktdatensätze abzurufen, die die benutzerdefinierten Felder für :::no-loc text="Microsoft Teams Rooms":::enthalten.
     2.  Beispielabfrage: `Event | where Source == "SRS-App" and EventID == 2000`
 
-3.  Stellen Sie sicher, dass die Abfrage Protokolldatensätze zurückgibt, die von der Besprechungs-App generierte :::no-loc text="Microsoft Teams Rooms"::: Ereignisse enthalten.
+3.  Stellen Sie sicher, dass die Abfrage Protokolldatensätze zurückgibt, die von der :::no-loc text="Microsoft Teams Rooms"::: Besprechungs-App generierte Ereignisse enthalten.
 
-4.  Generieren Sie ein Hardwareproblem, und überprüfen Sie, ob die erforderlichen Ereignisse bei angemeldet sind :::no-loc text="Azure Log Analytics":::.
-    1.  Trennen Sie eines der Peripheriegeräte aus dem Testsystem :::no-loc text="Microsoft Teams Rooms"::: . Dies kann die Kamera, der Lautsprecher, das Mikrofon oder die Anzeige im Vorderraum sein.
-    2.  Warten Sie 10 Minuten, bis das Ereignisprotokoll in ausgefüllt wurde :::no-loc text="Azure Log Analytics":::.
-    3.  Verwenden Sie eine Abfrage, um Hardwarefehlerereignisse auflisten: `Event | where Source == "SRS-App" and EventID == 3001`
+4.  Generieren Sie ein Hardwareproblem, und überprüfen Sie, ob die erforderlichen Ereignisse angemeldet :::no-loc text="Azure Log Analytics":::sind.
+    1.  Trennen Sie eines der Peripheriegeräte im Testsystem :::no-loc text="Microsoft Teams Rooms"::: . Dies kann die Kamera, der Lautsprecher, das Mikrofon oder das Front room Display sein.
+    2.  Warten Sie 10 Minuten, bis das Ereignisprotokoll in :::no-loc text="Azure Log Analytics":::gefüllt ist.
+    3.  Verwenden Sie eine Abfrage zum Auflisten von Hardwarefehlerereignissen: `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  Generieren Sie ein Anwendungsproblem, und überprüfen Sie, ob die erforderlichen Ereignisse protokolliert werden.
-    1.  Ändern Sie :::no-loc text="Microsoft Teams Rooms"::: die Kontokonfiguration, und geben Sie ein falsches E-Mail-/Kennwortpaar ein.
-    2.  Warten Sie 10 Minuten, bis das Ereignisprotokoll in ausgefüllt wurde :::no-loc text="Azure Log Analytics":::.
+    1.  Ändern Sie die :::no-loc text="Microsoft Teams Rooms"::: Kontokonfiguration, und geben Sie ein falsches Email/Kennwortpaar ein.
+    2.  Warten Sie 10 Minuten, bis das Ereignisprotokoll in :::no-loc text="Azure Log Analytics":::gefüllt ist.
     3.  Verwenden Sie eine Abfrage zum Auflisten von Anwendungsfehlerereignissen: `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
 > [!IMPORTANT]
@@ -110,28 +111,28 @@ Nachdem der :::no-loc text="Microsoft Monitoring"::: Agent auf den Testgeräten 
 ## <a name="map-custom-fields"></a>Zuordnen benutzerdefinierter Felder
 <a name="Custom_fields"> </a>
 
-Sie verwenden benutzerdefinierte Felder, um bestimmte Daten aus den Ereignisprotokollen zu extrahieren. Sie müssen benutzerdefinierte Felder definieren, die später mit Ihren Kacheln, Dashboardansichten und Warnungen verwendet werden. Lesen [Sie Benutzerdefinierte Felder in :::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/custom-fields) , und machen Sie sich mit den Konzepten vertraut, bevor Sie mit dem Erstellen Ihrer benutzerdefinierten Felder beginnen.
+Sie verwenden benutzerdefinierte Felder, um bestimmte Daten aus den Ereignisprotokollen zu extrahieren. Sie müssen benutzerdefinierte Felder definieren, die später mit Ihren Kacheln, Dashboardansichten und Warnungen verwendet werden. Sehen Sie [sich benutzerdefinierte Felder an :::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/custom-fields) , und machen Sie sich mit den Konzepten vertraut, bevor Sie mit dem Erstellen ihrer benutzerdefinierten Felder beginnen.
 
-Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Felder aus den erfassten Ereignisprotokollen zu extrahieren:
+Führen Sie die folgenden Schritte aus, um ihre benutzerdefinierten Felder aus den erfassten Ereignisprotokollen zu extrahieren:
 
-1.  Melden Sie sich beim Portal [an:::no-loc text="Microsoft Azure":::,](https://portal.azure.com) wechseln Sie zu, :::no-loc text="Log Analytics"::: und wählen Sie Ihren Arbeitsbereich aus.
+1.  Melden Sie sich beim [:::no-loc text="Microsoft Azure"::: Portal](https://portal.azure.com) an, und wechseln Sie zu :::no-loc text="Log Analytics"::: Ihrem Arbeitsbereich, und wählen Sie sie aus.
 
-2. Auflisten der von einem Gerät generierten :::no-loc text="Microsoft Teams Rooms"::: Ereignisse:
-   1.  Wechseln Sie **zu Protokolle** , und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld enthalten sollen.
+2. Auflisten der von einem :::no-loc text="Microsoft Teams Rooms"::: Gerät generierten Ereignisse:
+   1.  Wechseln Sie zu **"Protokolle"** , und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld enthalten.
    2.  Beispielabfrage: `Event | where Source == "SRS-App" and EventID == 2000`
 
-3. Wählen Sie einen der Datensätze aus, klicken Sie auf die Schaltfläche links, und starten Sie den Assistenten für die Feldextraktion.
-4. Markieren Sie die Daten, die Sie aus "RenderedDescription" extrahieren möchten, und geben Sie einen Feldtitel an. Die Feldnamen, die Sie verwenden sollten, sind in Tabelle 1 angegeben.
-5. Verwenden Sie die Zuordnungen in *Tabelle 1*. :::no-loc text="Log Analytics":::fügt die **CF-Zeichenfolge automatisch\_** an, wenn Sie das neue Feld definieren.
+3. Wählen Sie einen der Datensätze aus, wählen Sie die Schaltfläche links aus, und starten Sie den Feldextraktions-Assistenten.
+4. Markieren Sie die Daten, die Sie aus der RenderedDescription extrahieren möchten, und geben Sie einen Feldtitel an. Die Feldnamen, die Sie verwenden sollten, sind in Tabelle 1 angegeben.
+5. Verwenden Sie die in *Tabelle 1* gezeigten Zuordnungen. :::no-loc text="Log Analytics"::: fügt die **\_CF-Zeichenfolge** automatisch an, wenn Sie das neue Feld definieren.
 
 > [!IMPORTANT]
-> Denken Sie daran, dass bei allen JSON- :::no-loc text="Log Analytics"::: und -Feldern die Zwischen- und Kleinschreibung beachtet wird.
+> Denken Sie daran, dass bei allen JSON- und :::no-loc text="Log Analytics"::: Feldern die Groß-/Kleinschreibung beachtet wird.
 > 
-> Achten Sie auf die Abfragen, die für jedes benutzerdefinierte Feld in der folgenden Tabelle erforderlich sind. Sie müssen die richtigen Abfragen für verwenden, um :::no-loc text="Log Analytics"::: erfolgreich benutzerdefinierte Feldwerte zu extrahieren.
+> Achten Sie auf die Abfragen, die für jedes benutzerdefinierte Feld in der folgenden Tabelle erforderlich sind. Sie müssen die richtigen Abfragen :::no-loc text="Log Analytics"::: verwenden, um benutzerdefinierte Feldwerte erfolgreich zu extrahieren.
 > 
 **Tabelle 1**
 
-| **JSON-Feld**                   | **:::no-loc text="Log Analytics"::: Benutzerdefiniertes Feld** | **Ereigniskennung** | **Abfrage zur Verwendung mit der Extraktion**                   |
+| **JSON-Feld**                   | **:::no-loc text="Log Analytics"::: Benutzerdefiniertes Feld** | **Ereigniskennung** | **Abfrage, die mit der Extraktion verwendet werden soll**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
 | Beschreibung                      | SRSEventDescription         | **2000**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 2000 |
 | ResourceState                    | SRSResourceState            | **2000**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 2000 |
@@ -144,104 +145,104 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Felder aus d
 | AppVersion                       | SRSAppVersion               | **2000**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 2000 |
 | IPv4Address                      | SRSIPv4Address              | **2000**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 2000 |
 | IPv6Address                      | SRSIPv6Address              | **2000**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 2000 |
-| Konferenzmikrofonstatus     | SRSConfMicrophoneStatus     | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
-| Konferenzlautsprecherstatus        | SRSConfSpeakerStatus        | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
+| Status des Konferenzmikrofons     | SRSConfMicrophoneStatus     | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
+| Konferenzsprecherstatus        | SRSConfSpeakerStatus        | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
 | Standardlautsprecherstatus           | SRSDefaultSpeakerStatus     | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
 | Kamerastatus                    | SRSCameraStatus             | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
-| Status 'Vor dem Raum anzeigen'     | SRSFORDStatus               | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
+| Status der Anzeige vor dem Raum     | SRSFORDStatus               | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
 | Status des Bewegungssensors             | SRSMotionSensorStatus       | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
 | HDMI-Aufnahmestatus               | SRSHDMIIngestStatus         | **3001**     | Ereignis \| , bei dem Source == "SRS-App" und EventID == 3001 |
 
 
-## <a name="define-the-no-loc-textmicrosoft-teams-rooms-views-in-no-loc-textlog-analytics"></a>Definieren Sie die :::no-loc text="Microsoft Teams Rooms"::: Ansichten in :::no-loc text="Log Analytics":::
+## <a name="define-the-no-loc-textmicrosoft-teams-rooms-views-in-no-loc-textlog-analytics"></a>Definieren der :::no-loc text="Microsoft Teams Rooms"::: Ansichten in :::no-loc text="Log Analytics":::
 <a name="Define_Views"> </a>
 
-Nachdem Daten gesammelt und benutzerdefinierte Felder zugeordnet wurden, können Sie mit dem Ansichts-Designer ein Dashboard entwickeln, das verschiedene Kacheln zum Überwachen von Ereignissen :::no-loc text="Microsoft Teams Rooms"::: enthält. Erstellen Sie mit dem Ansicht-Designer die folgenden Kacheln. Weitere Informationen finden Sie unter [Erstellen benutzerdefinierter Ansichten mithilfe des Ansichts-Designers in :::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/view-designer)
+Nachdem Daten gesammelt und benutzerdefinierte Felder zugeordnet wurden, können Sie den Ansichts-Designer verwenden, um ein Dashboard zu entwickeln, das verschiedene Kacheln zum Überwachen :::no-loc text="Microsoft Teams Rooms"::: von Ereignissen enthält. Erstellen Sie mit dem Ansicht-Designer die folgenden Kacheln. Weitere Informationen finden Sie unter [Erstellen benutzerdefinierter Ansichten mithilfe des Ansichts-Designers in :::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/view-designer)
 
 > [!NOTE]
-> Die vorherigen Schritte in diesem Leitfaden sollten abgeschlossen worden sein, damit die Dashboardkacheln ordnungsgemäß funktionieren.
+> Die vorherigen Schritte in diesem Handbuch sollten ausgeführt worden sein, damit die Dashboardkacheln ordnungsgemäß funktionieren.
 >
 > [!IMPORTANT]
-> [Der Ansichts-Designer in Azure Monitor wird am 31. August 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) fortgesetzt und die Funktionen zum Erstellen und Klonen wurden am 30. November 2020 deaktiviert. Stattdessen können Arbeitsmappen verwendet werden. Weitere Informationen zum Leitfaden zum Übergang von Ansichts-Designer zu Arbeitsmappen finden Sie unter [Schnellstart mit vordefinierten Ansichts-Designervorlagen](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates).
+> [Der Ansichts-Designer in Azure Monitor wird am 31. August 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) eingestellt, und die Funktionen zum Erstellen und Klonen wurden am 30. November 2020 deaktiviert. Stattdessen können Arbeitsmappen verwendet werden. Weitere Informationen zum Leitfaden für den Übergang des Ansichts-Designers zu Arbeitsmappen finden Sie in der [Schnellstartanleitung mit voreingestellten Ansichts-Designervorlagen](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates).
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Manuelles Erstellen Microsoft Teams-Räume Dashboards
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Manuelles Erstellen eines Microsoft Teams-Räume-Dashboards
 
 Alternativ können Sie ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen, die Sie überwachen möchten.
 
 #### <a name="configure-the-overview-tile"></a>Konfigurieren der Kachel "Übersicht"
 
 1.  Öffnen **Sie den Ansichts-Designer**.
-2.  Wählen **Sie Übersichtskachel** und dann **Zwei Zahlen** aus dem Katalog aus.
-3.  Geben Sie der Kachel den Namen **:::no-loc text="Microsoft Teams Rooms":::**.
-4.  Definieren der **ersten Kachel**:<br>
-    **Legende:** Geräte, die innerhalb des letzten Monats mindestens einmal einen Herzschlag gesendet haben<br>
+2.  Wählen Sie " **Übersicht kachel**" und dann **"Zwei Zahlen** " aus dem Katalog aus.
+3.  Benennen Sie die Kachel **:::no-loc text="Microsoft Teams Rooms":::**.
+4.  Definieren Sie die **erste Kachel**:<br>
+    **Legende:** Geräte, die mindestens einmal innerhalb des letzten Monats einen Takt gesendet haben<br>
     **Abfrage:** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
 5.  Definieren Sie die **zweite Kachel**:<br>
-    **Legende:** Aktive Geräte, die innerhalb der letzten Stunde einen Herzschlag gesendet haben<br>
+    **Legende:** Aktive Geräte, die innerhalb der letzten Stunde einen Takt gesendet haben<br>
     **Abfrage:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
-6.  Wählen Sie **Übernehmen aus**.
+6.  Wählen Sie **"Übernehmen" aus**.
 
-### <a name="create-a-tile-that-displays-active-devices"></a>Erstellen einer Kachel, auf der aktive Geräte angezeigt werden
+### <a name="create-a-tile-that-displays-active-devices"></a>Erstellen einer Kachel, die aktive Geräte anzeigt
 
-1.  Wählen Sie **Dashboard anzeigen aus** , um mit dem Hinzufügen Ihrer Kacheln zu beginnen.
-2.  Wählen **Sie nummer & aus dem** Katalog aus.
-3.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
-    **Gruppentitel:** Heartbeat-Status<br>
-    **Neue Gruppe:** Ausgewählt
+1.  Wählen Sie **"Dashboard anzeigen** " aus, um mit dem Hinzufügen Ihrer Kacheln zu beginnen.
+2.  Wählen Sie **& Liste** im Katalog aus.
+3.  Definieren Sie die **Eigenschaften "Allgemein** ":<br>
+    **Gruppentitel:** Taktstatus<br>
+    **Neue Gruppe:** Ausgewählten
 4.  Definieren Sie die **Kacheleigenschaften** :<br>
-    **Legende:** Aktive Geräte (Heartbeat, gesendet in den letzten 20 Minuten)<br>
+    **Legende:** Aktive Geräte (Takt, der in den letzten 20 Minuten gesendet wurde)<br>
     **Kachelabfrage:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  Definieren Sie die **Listeneigenschaften** :<br>
     **Listenabfrage:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
-6.  Definieren **von Spaltentiteln**:<br>
-    **Name:** Computername<br>
-    **Wert:** Last Heartbeat
-7.  Definieren **sie Navigationsabfrage**.<br>
+6.  **Spaltentitel definieren**:<br>
+    **Namen:** Computername<br>
+    **Wert:** Letzter Takt
+7.  Definieren Sie **die Navigationsabfrage**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-8.  Wählen **Sie Übernehmen** und dann Schließen **aus**.
+8.  Wählen Sie **"Übernehmen"** und dann **"Schließen**" aus.
 
-### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Erstellen einer Kachel, auf der Geräte mit Verbindungsproblemen angezeigt werden
+### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Erstellen einer Kachel, die Geräte mit Verbindungsproblemen anzeigt
 
-1.  Wählen **Sie & aus dem** Katalog Nummerieren aus, und fügen Sie dann eine neue Kachel hinzu.
-2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
+1.  Wählen Sie **"Zahl" & Liste** aus dem Katalog aus, und fügen Sie dann eine neue Kachel hinzu.
+2.  Definieren Sie die **Eigenschaften "Allgemein** ":<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt
 3.  Definieren Sie die **Kacheleigenschaften** :<br>
-    **Legende:** Inaktive Geräte (keine Heartbeat-Nachricht, die in den letzten 20 Minuten gesendet wurde)<br>
+    **Legende:** Inaktive Geräte (keine Taktnachricht, die in den letzten 20 Minuten gesendet wurde)<br>
     **Kachelabfrage:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  Definieren Sie die **Listeneigenschaften** :<br>
     **Listenabfrage:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
-5.  Definieren **von Spaltentiteln**:<br>
-    **Name:** Computername<br>
-    **Wert:** Last Heartbeat
-6.  **Navigationsabfrage definieren**:<br>
+5.  **Spaltentitel definieren**:<br>
+    **Namen:** Computername<br>
+    **Wert:** Letzter Takt
+6.  **Navigationsabfrage** definieren:<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-7.  Wählen **Sie Übernehmen** und dann Schließen **aus**.
+7.  Wählen Sie **"Übernehmen"** und dann **"Schließen**" aus.
 
-### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Erstellen einer Kachel, auf der Geräte mit einem Hardwarefehler angezeigt werden
+### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Erstellen einer Kachel, die Geräte anzeigt, die einen Hardwarefehler aufweisen
 
-1.  Wählen **Sie & aus dem** Katalog Nummerieren aus, und fügen Sie dann eine neue Kachel hinzu.
-2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
+1.  Wählen Sie **"Zahl" & Liste** aus dem Katalog aus, und fügen Sie dann eine neue Kachel hinzu.
+2.  Definieren Sie die **Eigenschaften "Allgemein** ":<br>
     **Gruppentitel:** Hardwarestatus<br>
-    **Neue Gruppe:** Ausgewählt
+    **Neue Gruppe:** Ausgewählten
 3.  Definieren Sie die **Kacheleigenschaften** :<br>
-    **Legende:** Geräte, bei der in der letzten Stunde ein Hardwarefehler aufgetreten ist<br>
+    **Legende:** Geräte, bei denen in der letzten Stunde ein Hardwarefehler aufgetreten ist<br>
     **Kachelabfrage:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definieren Sie die **Listeneigenschaften** :<br>
     **Listenabfrage:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
-5.  Definieren **von Spaltentiteln**:<br>
-    **Name:** Computername<br>
+5.  **Spaltentitel definieren**:<br>
+    **Namen:** Computername<br>
     **Wert:** Letzter Fehler
-6.  **Navigationsabfrage definieren**:<br>
+6.  **Navigationsabfrage** definieren:<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
-7.  Wählen **Sie Übernehmen** und dann Schließen **aus**.
+7.  Wählen Sie **"Übernehmen"** und dann **"Schließen**" aus.
 
-### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Erstellen einer Kachel, auf der Betriebssystemversionen :::no-loc text="Microsoft Teams Rooms"::: angezeigt werden
+### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Erstellen einer Kachel, die Betriebssystemversionen anzeigt :::no-loc text="Microsoft Teams Rooms":::
 
-1.  Wählen **Sie donut & aus** dem Katalog aus, und fügen Sie dann eine neue Kachel hinzu.
-2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
-    **Gruppentitel:** Details zum Betriebssystem<br>
-    **Neue Gruppe:** Ausgewählt
+1.  Wählen Sie **donut & Liste** aus dem Katalog aus, und fügen Sie dann eine neue Kachel hinzu.
+2.  Definieren Sie die **Eigenschaften "Allgemein** ":<br>
+    **Gruppentitel:** Betriebssystemdetails<br>
+    **Neue Gruppe:** Ausgewählten
 3.  Definieren Sie die **Headereigenschaften** :<br>
     **Titel:** Betriebssystemversionen<br>
     **Untertitel:** Geräte mit bestimmten Betriebssystemversionen
@@ -251,21 +252,21 @@ Alternativ können Sie ein eigenes Dashboard erstellen und nur die Kacheln hinzu
     **Vorgang:** Summe
 5.  Definieren Sie die **Listeneigenschaften** .<br>
     **Listenabfrage:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **Ausblenden Graph:** Ausgewählt<br>
-    **Aktivieren von Sparklines:** Nicht ausgewählt
-6.  Definieren **sie Spaltentitel**.<br>
-    **Name:** Computername<br>
+    **Grafik ausblenden:** Ausgewählten<br>
+    **Sparklines aktivieren:** Nicht ausgewählt
+6.  **Spaltentitel definieren**.<br>
+    **Namen:** Computername<br>
     **Wert:** Leer lassen
-7.  Definieren **sie Navigationsabfrage**.<br>
+7.  Definieren Sie **die Navigationsabfrage**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-8.  Wählen **Sie Übernehmen** und dann **Schließen aus**.
+8.  Wählen Sie **"Übernehmen"** und dann **"Schließen**" aus.
 
-### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>Erstellen einer Kachel, auf der Anwendungsversionen :::no-loc text="Microsoft Teams Rooms"::: angezeigt werden
+### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>Erstellen einer Kachel, die Anwendungsversionen anzeigt :::no-loc text="Microsoft Teams Rooms":::
 
-1.  Wählen **Sie donut & aus** dem Katalog aus, und fügen Sie dann eine neue Kachel hinzu.
-2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
+1.  Wählen Sie **donut & Liste** aus dem Katalog aus, und fügen Sie dann eine neue Kachel hinzu.
+2.  Definieren Sie die **Eigenschaften "Allgemein** ":<br>
     **Gruppentitel:** :::no-loc text="Microsoft Teams Rooms"::: Anwendungsdetails<br>
-    **Neue Gruppe:** Ausgewählt
+    **Neue Gruppe:** Ausgewählten
 3.  Definieren Sie die **Headereigenschaften** :<br>
     **Titel:** Anwendungsversionen<br>
     **Untertitel:** Geräte mit bestimmten Anwendungsversionen
@@ -275,37 +276,37 @@ Alternativ können Sie ein eigenes Dashboard erstellen und nur die Kacheln hinzu
     **Vorgang:** Summe
 5.  Definieren Sie die **Listeneigenschaften** .<br>
     **Listenabfrage:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **Ausblenden Graph:** Ausgewählt<br>
-    **Aktivieren von Sparklines:** Nicht ausgewählt
-6.  Definieren **sie Spaltentitel**.<br>
-    **Name:** Computername<br>
+    **Grafik ausblenden:** Ausgewählten<br>
+    **Sparklines aktivieren:** Nicht ausgewählt
+6.  **Spaltentitel definieren**.<br>
+    **Namen:** Computername<br>
     **Wert:** Leer lassen
-7.  Definieren **sie Navigationsabfrage**.<br>
+7.  Definieren Sie **die Navigationsabfrage**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-8.  Wählen **Sie Übernehmen** und dann **Schließen aus**.
+8.  Wählen Sie **"Übernehmen"** und dann **"Schließen**" aus.
 
-### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Erstellen einer Kachel, auf der Geräte mit einem Anwendungsfehler angezeigt werden
+### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Erstellen einer Kachel, die Geräte anzeigt, die einen Anwendungsfehler aufweisen
 
-1.  Wählen **Sie & aus dem** Katalog Nummerieren aus, und fügen Sie dann eine neue Kachel hinzu.
-2.  Definieren Sie die **allgemeinen** Eigenschaften.<br>
+1.  Wählen Sie **"Zahl" & Liste** aus dem Katalog aus, und fügen Sie dann eine neue Kachel hinzu.
+2.  Definieren Sie die **Eigenschaften "Allgemein** ".<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt
 3.  Definieren Sie die **Kacheleigenschaften** .<br>
-    **Legende:** Geräte, bei der in der letzten Stunde ein Anwendungsfehler aufgetreten ist<br>
+    **Legende:** Geräte, bei denen in der letzten Stunde ein Anwendungsfehler aufgetreten ist<br>
     **Kachelabfrage:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definieren Sie die **Listeneigenschaften** .<br>
     **Listenabfrage:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
-5.  Definieren **sie Spaltentitel**.<br>
-    **Name:** Computername<br>
+5.  **Spaltentitel definieren**.<br>
+    **Namen:** Computername<br>
     **Wert:** Letzter Fehler
-6.  Definieren **sie Navigationsabfrage**.<br>
+6.  Definieren Sie **die Navigationsabfrage**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
-7.  Wählen **Sie Übernehmen** und dann **Schließen aus**.
+7.  Wählen Sie **"Übernehmen"** und dann **"Schließen**" aus.
 
-### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Erstellen einer Kachel, auf der neu gestartete Geräte angezeigt werden
+### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Erstellen einer Kachel, die neu gestartete Geräte anzeigt
 
-1.  Wählen **Sie & aus dem** Katalog Nummerieren aus, und fügen Sie dann eine neue Kachel hinzu.
-2.  Definieren Sie die **allgemeinen** Eigenschaften.<br>
+1.  Wählen Sie **"Zahl" & Liste** aus dem Katalog aus, und fügen Sie dann eine neue Kachel hinzu.
+2.  Definieren Sie die **Eigenschaften "Allgemein** ".<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt
 3.  Definieren Sie die **Kacheleigenschaften** .<br>
@@ -313,43 +314,43 @@ Alternativ können Sie ein eigenes Dashboard erstellen und nur die Kacheln hinzu
     **Kachelabfrage:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definieren Sie die **Listeneigenschaften** .<br>
     **Listenabfrage:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
-5.  Definieren **sie Spaltentitel**.<br>
-    **Name:** Computername<br>
+5.  **Spaltentitel definieren**.<br>
+    **Namen:** Computername<br>
     **Wert:** Anzahl der Neustarts
-6.  Definieren **sie Navigationsabfrage**.<br>
+6.  Definieren Sie **die Navigationsabfrage**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-7.  Wählen **Sie Übernehmen** und dann **Schließen aus**.
-8.  Wählen Sie **Speichern** aus, um Ihr Dashboard zu speichern.
+7.  Wählen Sie **"Übernehmen"** und dann **"Schließen**" aus.
+8.  Wählen Sie **"Speichern"** aus, um Ihr Dashboard zu speichern.
 
 Jetzt haben Sie die Erstellung Ihrer Ansichten abgeschlossen.
 
-## <a name="configure-alerts-in-no-loc-textazure-monitor"></a>Konfigurieren von Benachrichtigungen in :::no-loc text="Azure Monitor":::
+## <a name="configure-alerts-in-no-loc-textazure-monitor"></a>Konfigurieren von Warnungen in :::no-loc text="Azure Monitor":::
 <a name="Alerts"> </a>
 
-:::no-loc text="Azure Monitor"::: können Warnungen auslösen, um Administratoren zu benachrichtigen, wenn bei einer :::no-loc text="Microsoft Teams Rooms"::: Konsole ein Problem auftreten.
+:::no-loc text="Azure Monitor"::: kann Warnungen auslösen, um die Administratoren zu benachrichtigen, wenn eine :::no-loc text="Microsoft Teams Rooms"::: Konsole auf ein Problem stößt.
 
-:::no-loc text="Azure Monitor"::: enthält einen integrierten Warnungsmechanismus, der planmäßige Protokollsuchen in regelmäßigen Intervallen durch führt. Wenn die Ergebnisse der Protokollsuche bestimmten Kriterien entsprechen, wird ein Warnungsdatensatz erstellt.
+:::no-loc text="Azure Monitor"::: enthält einen integrierten Benachrichtigungsmechanismus, der geplante Protokollsuchen in regelmäßigen Abständen durchläuft. Wenn die Ergebnisse der Protokollsuche bestimmten Kriterien entsprechen, wird ein Warnungsdatensatz erstellt.
 
-Die Regel kann dann automatisch eine oder mehrere Aktionen ausführen, um Sie proaktiv über die Warnung zu benachrichtigen oder einen anderen Prozess auf aufruft. Mit Benachrichtigungen stehen die folgenden Optionen zur Verfügung:
+Die Regel kann dann automatisch eine oder mehrere Aktionen ausführen, um Sie proaktiv über die Warnung zu benachrichtigen oder einen anderen Prozess aufzurufen. Mögliche Optionen für Warnungen sind:
 -   Senden einer E-Mail
 -   Aufrufen eines externen Prozesses über eine HTTP POST-Anforderung
 -   Starten eines Runbook im :::no-loc text="Azure Automation"::: Dienst
 
-Weitere [Informationen zu den Benachrichtigungen in :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/alerts-unified-log) :::no-loc text="Azure Monitor":::finden Sie unter Anmelden.
+Weitere Informationen zu den [Warnungen in finden Sie unter "Protokollbenachrichtigungen" in :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/alerts-unified-log) :::no-loc text="Azure Monitor":::.
 
 > [!NOTE]
-> Die folgenden Beispiele senden E-Mail-Benachrichtigungen :::no-loc text="Microsoft Teams Rooms"::: , wenn ein Gerät einen Hardware- oder Anwendungsfehler generiert.
+> In den folgenden Beispielen werden E-Mail-Benachrichtigungen gesendet, wenn ein :::no-loc text="Microsoft Teams Rooms"::: Gerät eine Hardware oder einen Anwendungsfehler generiert.
 
-### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-hardware-issues"></a>Konfigurieren einer E-Mail-Benachrichtigung bei :::no-loc text="Microsoft Teams Rooms"::: Hardwareproblemen
+### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-hardware-issues"></a>Konfigurieren einer E-Mail-Benachrichtigung für :::no-loc text="Microsoft Teams Rooms"::: Hardwareprobleme
 
-Konfigurieren Sie eine Warnungsregel, die Geräte :::no-loc text="Microsoft Teams Rooms"::: überprüft, bei denen innerhalb der letzten Stunde Hardwareprobleme aufgetreten sind.
-1.  Melden Sie sich beim Portal [an:::no-loc text="Microsoft Azure":::,](https://portal.azure.com) wechseln Sie zu, :::no-loc text="Log Analytics"::: und wählen Sie Ihren Arbeitsbereich aus.
+Konfigurieren Sie eine Warnungsregel, die nach Geräten sucht :::no-loc text="Microsoft Teams Rooms"::: , bei denen innerhalb der letzten Stunde Hardwareprobleme aufgetreten sind.
+1.  Melden Sie sich beim [:::no-loc text="Microsoft Azure"::: Portal](https://portal.azure.com) an, und wechseln Sie zu :::no-loc text="Log Analytics"::: Ihrem Arbeitsbereich, und wählen Sie sie aus.
 
-2. Navigieren Sie zu Ihrem :::no-loc text="Log Analytics"::: Arbeitsbereich, wählen Sie **Benachrichtigungen** und dann **Neue Warnungsregel aus.**
+2. Navigieren Sie zu Ihrem :::no-loc text="Log Analytics"::: Arbeitsbereich, wählen Sie **"Warnungen**" und dann "**Neue Warnungsregel**" aus.
 
-3. Wählen **Sie Bedingung hinzufügen** und dann **Benutzerdefinierte Protokollsuche aus.**
+3. Wählen Sie **"Bedingung hinzufügen"** und dann **"Benutzerdefinierte Protokollsuche"** aus.
 
-4.  Geben Sie die folgende Abfrage in das Textfeld Abfrage durchsuchen ein.<br>
+4.  Geben Sie die folgende Abfrage in das Textfeld der Suchabfrage ein.<br>
     ```
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
@@ -358,22 +359,22 @@ Konfigurieren Sie eine Warnungsregel, die Geräte :::no-loc text="Microsoft Team
     |sort by TimeGenerated desc
     ```
 
-5.  Konfigurieren Sie die Einstellungen für die Benachrichtigungslogik:<br>
+5.  Konfigurieren Sie die Einstellungen für die Warnungslogik:<br>
     **Basierend auf:** Anzahl der Ergebnisse<br>
-    **Bedingung:** Größer als<br>
+    **Zustand:** Größer als<br>
     **Schwellenwert:** 0<br>
 
-6. Konfigurieren Sie die Auswertungseinstellungen, und wählen Sie **Fertig:** <br>
+6. Konfigurieren Sie die Auswertungseinstellungen, und wählen Sie **"Fertig" aus**: <br>
     **Zeitraum (in Minuten):** 60<br>
     **Häufigkeit (in Minuten):** 60<br>
 
 7. Konfigurieren von Aktionsgruppen:
     1.  Wählen Sie **"Neu erstellen" aus.**
-    2.  Stellen Sie geeignete Namen für die Felder *Aktionsgruppe und* *Kurzname zur Verfügung* .
-    3.  Geben Sie einen *eindeutigen Aktionsnamen an* , wählen Sie **E-Mail/SMS/Push/Voice** und dann **Details bearbeiten aus**.
-    4.  Aktivieren Sie das **Kontrollkästchen** E-Mail, und geben Sie die E-Mail-Adresse der Person oder Gruppe an, die die Benachrichtigungen erhalten soll.
-    5.  Sie können auch Ihre Telefonnummer bereitstellen, um per SMS, einem Sprachanruf oder mit beidem benachrichtigt zu werden.
-    6. Wählen Sie **OK aus**.
+    2.  Geben Sie geeignete Namen für die Felder " *Aktionsgruppe"* und " *Kurzname" an* .
+    3.  Geben Sie einen eindeutigen *Aktionsnamen* an, wählen Sie **Email/SMS/Push/Voice** und dann **"Details bearbeiten"** aus.
+    4.  Aktivieren Sie das Kontrollkästchen **Email**, und geben Sie die E-Mail-Adresse der Person oder Gruppe an, die die Benachrichtigungen erhalten soll.
+    5.  Sie können auch Ihre Telefonnummer angeben, um per SMS, einem Sprachanruf oder beidem benachrichtigt zu werden.
+    6. Wählen Sie **"OK**" aus.
 
 8. **Passen Sie Aktionen** an, wenn Sie die Betreffzeile der Benachrichtigungs-E-Mails überschreiben möchten.
 
@@ -381,13 +382,13 @@ Konfigurieren Sie eine Warnungsregel, die Geräte :::no-loc text="Microsoft Team
     **Regelname:** :::no-loc text="Microsoft Teams Rooms"::: Hardwarefehlerwarnung<br>
     **Beschreibung:** Liste der Geräte, bei denen innerhalb der letzten Stunde ein Hardwareproblem aufgetreten ist<br>
 
-10. Wählen Sie den vorgesehenen Schweregrad aus, und stellen Sie sicher, dass die Regel aktiviert ist.
+10. Wählen Sie den beabsichtigten Schweregrad aus, und stellen Sie sicher, dass die Regel aktiviert ist.
 
-11. Wählen Sie **Warnungsregel erstellen aus**.
+11. Wählen Sie **"Warnungsregel erstellen**" aus.
 
-### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-application-issues"></a>Konfigurieren einer E-Mail-Benachrichtigung für Anwendungsprobleme :::no-loc text="Microsoft Teams Rooms":::
+### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-application-issues"></a>Konfigurieren einer E-Mail-Warnung für :::no-loc text="Microsoft Teams Rooms"::: Anwendungsprobleme
 
-Wiederholen Sie das gleiche Verfahren, aber verwenden Sie die folgende Abfrage, um Geräte auflisten, bei denen innerhalb der letzten Stunde Anwendungsprobleme aufgetreten sind.
+Wiederholen Sie dasselbe Verfahren, verwenden Sie jedoch die folgende Abfrage, um Geräte auflisten, bei denen in der letzten Stunde Anwendungsprobleme aufgetreten sind.
 
  ```
  Event
@@ -397,47 +398,47 @@ Wiederholen Sie das gleiche Verfahren, aber verwenden Sie die folgende Abfrage, 
  | sort by TimeGenerated desc
  ```
 
-Jetzt haben Sie die Definition von Benachrichtigungen abgeschlossen. Mithilfe der obigen Beispiele können Sie zusätzliche Warnungen definieren.
+Jetzt haben Sie die Definition von Warnungen abgeschlossen. Sie können zusätzliche Warnungen mithilfe der obigen Beispiele definieren.
 
-Wenn eine Benachrichtigung generiert wird, erhalten Sie eine E-Mail, in der die Geräte aufgeführt sind, auf denen innerhalb der letzten Stunde ein Problem aufgetreten ist.
+Wenn eine Benachrichtigung generiert wird, erhalten Sie eine E-Mail, in der die Geräte aufgelistet werden, bei denen innerhalb der letzten Stunde ein Problem aufgetreten ist.
 
 ! [Beispielbenachrichtigungs-E-Mail :::no-loc text="Azure Monitor"::: ](.. /media/Deploy-Azure-Monitor-6.png "Beispielbenachrichtigungs-E-Mail :::no-loc text="Azure Monitor"::: ")
 
-## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Konfigurieren Sie alle Geräte für :::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"> </a> Nachdem die Dashboards und Benachrichtigungen konfiguriert wurden, :::no-loc text="Microsoft Monitoring"::: können Sie agent :::no-loc text="Microsoft Teams Rooms"::: auf allen Geräten einrichten und konfigurieren, um die Überwachungsbereitstellung abschließen zu können.
+## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Konfigurieren aller Geräte für :::no-loc text="Azure Monitoring":::
+<a name="configure_all_devices"> </a> Nachdem die Dashboards und Warnungen konfiguriert wurden, können Sie den Agent auf allen :::no-loc text="Microsoft Teams Rooms"::: Geräten einrichten und konfigurieren:::no-loc text="Microsoft Monitoring":::, um ihre Überwachungsbereitstellung abzuschließen.
 
-Sie können den Agent zwar manuell :::no-loc text="Microsoft Monitoring"::: auf jedem Gerät installieren und konfigurieren, es wird jedoch dringend empfohlen, vorhandene Softwarebereitstellungstools und -methoden zu nutzen.
+Obwohl Sie den :::no-loc text="Microsoft Monitoring"::: Agent manuell auf jedem Gerät installieren und konfigurieren können, wird dringend empfohlen, vorhandene Softwarebereitstellungstools und -methoden zu nutzen.
 
-Wenn Sie Ihre Geräte zum ersten :::no-loc text="Microsoft Teams Rooms"::: Mal erstellen, :::no-loc text="Microsoft Monitoring"::: sollten Sie die Einrichtungs- und Konfigurationsschritte des Agents als Teil des Erstellungsprozesses verwenden. Weitere Informationen finden Sie unter [Installieren des Agents über die Befehlszeile](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
+Wenn Sie Ihre :::no-loc text="Microsoft Teams Rooms"::: Geräte zum ersten Mal erstellen, sollten Sie die :::no-loc text="Microsoft Monitoring"::: Einrichtungs- und Konfigurationsschritte des Agents als Teil des Buildprozesses einbeziehen. Weitere Informationen finden Sie unter [Installieren des Agents mithilfe der Befehlszeile](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
 
-### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>Bereitstellen des :::no-loc text="Microsoft Monitoring"::: Agents mithilfe eines Gruppenrichtlinienobjekts (Group Policy Object, GPO)
+### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>Bereitstellen des :::no-loc text="Microsoft Monitoring"::: Agents mithilfe eines Gruppenrichtlinie-Objekts (GPO)
 
-Wenn Sie Ihre Geräte bereits vor :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitoring":::der Implementierung bereitgestellt haben, können Sie das bereitgestellte Skript verwenden, um die Agents :::no-loc text="Active Directory"::: mithilfe von Gruppenrichtlinienobjekten ein- und zu konfigurieren.
+Wenn Sie Ihre :::no-loc text="Microsoft Teams Rooms"::: Geräte bereits vor der Implementierung :::no-loc text="Azure Monitoring":::bereitgestellt haben, können Sie das bereitgestellte Skript verwenden, um die Agents mithilfe :::no-loc text="Active Directory"::: von Gruppenrichtlinienobjekten einzurichten und zu konfigurieren.
 
-1.  Erstellen Sie einen freigegebenen Netzwerkpfad, und erteilen Sie der Gruppe **"Domänencomputer** " Lesezugriff.
+1.  Erstellen Sie einen freigegebenen Netzwerkpfad, und gewähren Sie der Gruppe **"Domänencomputer** " Lesezugriff.
 
-2.  Laden Sie die 64-Bit-Version des :::no-loc text="Microsoft Monitoring"::: Agents für von :::no-loc text="Windows":::<https://go.microsoft.com/fwlink/?LinkID=517476>
+2.  Laden Sie die 64-Bit-Version des :::no-loc text="Microsoft Monitoring"::: Agents von :::no-loc text="Windows":::<https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  Extrahieren Sie den Inhalt des Setuppakets in die Netzwerkfreigabe.
-    1.  Öffnen Sie ein Eingabeaufforderungsfenster, und führen Sie dannMMASetup-AMD64.exe **/c aus.**
-    2.  Geben Sie die  gerade erstellte Freigabe an, und extrahieren Sie den Inhalt.
+    1.  Öffnen Sie ein Eingabeaufforderungsfenster, und führen Sie dann **MMASetup-AMD64.exe /c** aus.
+    2.  Geben Sie die soeben erstellte Freigabe an, und extrahieren Sie den Inhalt.
 
-4.  Erstellen Sie ein neues Gruppenrichtlinienobjekt, und weisen Sie es der Organisationseinheit zu, in der :::no-loc text="Microsoft Teams Rooms"::: sich Computerkonten befinden.
+4.  Erstellen Sie ein neues Gruppenrichtlinie-Objekt, und weisen Sie es der Organisationseinheit zu, in :::no-loc text="Microsoft Teams Rooms"::: der sich Computerkonten befinden.
 
 5.  Konfigurieren der PowerShell-Ausführungsrichtlinie:
-    1.  Bearbeiten des neu erstellten Gruppenrichtlinienobjekts und Navigieren zu \\ Komponenten für administrative Vorlagen für Computerkonfigurationsrichtlinien \\ :::no-loc text="Windows"::: \\ \\ :::no-loc text="Windows PowerShell":::
-    2.  Aktivieren Sie **die Skriptausführung aktivieren, und** legen Sie **die Ausführungsrichtlinie so festgelegt** , **dass lokale Skripts zulässig sind**.
+    1.  Bearbeiten Sie das neu erstellte Gruppenrichtlinie-Objekt, und navigieren Sie zu Komponenten für administrative Vorlagen \\ :::no-loc text="Windows"::: für Computerkonfigurationsrichtlinien \\ \\.\\ :::no-loc text="Windows PowerShell":::
+    2.  Aktivieren Sie die **Skriptausführung aktivieren** und legen Sie die **Ausführungsrichtlinie** auf **"Lokale Skripts zulassen**" fest.
 
 6.  Konfigurieren Sie das Startskript:
-    1.  Kopieren Sie das folgende Skript, und speichern Sie es Install-MMAgent.ps1.
+    1.  Kopieren Sie das folgende Skript, und speichern Sie es als Install-MMAgent.ps1.
     2.  Ändern Sie die Parameter WorkspaceId, WorkspaceKey und SetupPath so, dass sie Ihrer Konfiguration entsprechen.
-    3.  Bearbeiten Sie das gleiche Gruppenrichtlinienobjekt, und navigieren Sie zu Computerkonfigurationsrichtlinien \\ :::no-loc text="Windows"::: \\ Einstellungen \\ Skripts (Start/Herunterfahren)
-    4.  Doppelklicken Sie, um **Start** auszuwählen, und wählen Sie dann **PowerShell-Skripts aus**.
-    5.  Wählen **Sie Dateien anzeigen** aus, und kopieren Sie **Install-MMAgent.ps1** Datei in diesen Ordner.
-    6.  Wählen **Sie Hinzufügen** und dann **Durchsuchen aus**.
+    3.  Bearbeiten Sie dasselbe Gruppenrichtlinie-Objekt, und navigieren Sie zu Einstellungsskripts für Computerkonfigurationsrichtlinien \\ \\ :::no-loc text="Windows"::: \\ (Start/Herunterfahren)
+    4.  Doppelklicken Sie, um **"Start**" auszuwählen, und wählen Sie dann **PowerShell-Skripts** aus.
+    5.  Wählen Sie **"Dateien anzeigen"** aus, und kopieren Sie dann die **Install-MMAgent.ps1** Datei in diesen Ordner.
+    6.  Wählen Sie **"Hinzufügen"** und dann **"Durchsuchen"** aus.
     7.  Wählen Sie das ps1-Skript aus, das Sie gerade kopiert haben.
 
-7.  :::no-loc text="Microsoft Teams Rooms"::: sollten den Agent nach dem :::no-loc text="Microsoft Monitoring"::: zweiten Neustart installieren und konfigurieren.
+7.  :::no-loc text="Microsoft Teams Rooms"::: sollte den Agent mit dem :::no-loc text="Microsoft Monitoring"::: zweiten Neustart installieren und konfigurieren.
 
 ```PowerShell
 # Install-MMAgent.ps1
@@ -482,18 +483,18 @@ Stop-Transcript
 ```
 
 > [!NOTE]
-> Sie können sich auf [:::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/agent-manage) den Artikel Verwalten und Warten des Agents beziehen, wenn Sie einen Agent neu konfigurieren, ihn in einen anderen Arbeitsbereich verschieben oder Proxyeinstellungen nach der Erstinstallation ändern müssen.
+> Sie können auf den Artikel ["Verwalten und Verwalten des :::no-loc text="Log Analytics"::: Agents](/azure/azure-monitor/platform/agent-manage) " verweisen, wenn Sie einen Agent neu konfigurieren, in einen anderen Arbeitsbereich verschieben oder Proxyeinstellungen nach der Erstinstallation ändern müssen.
 
 ## <a name="additional-solutions"></a>Zusätzliche Lösungen
 <a name="Solutions"> </a>
 
-:::no-loc text="Azure Monitor"::: bietet über den Lösungskatalog integrierte Verwaltungslösungen [, die Ihnen](/azure/azure-monitor/insights/solutions) bei der Überwachung Ihrer Umgebung helfen. Es wird dringend empfohlen[, dem](/azure/azure-monitor/platform/alert-management-solution) [:::no-loc text="Azure Log Analytics":::](/azure/azure-monitor/insights/solution-agenthealth) Arbeitsbereich auch Benachrichtigungsverwaltungs- und Agentinte health-Lösungen hinzuzufügen.
+:::no-loc text="Azure Monitor"::: bietet integrierte Verwaltungslösungen über den [Lösungskatalog](/azure/azure-monitor/insights/solutions) , um Ihre Umgebung weiter zu überwachen. Es wird dringend empfohlen, dass Sie Ihrem Arbeitsbereich auch [Warnungsverwaltungs-](/azure/azure-monitor/platform/alert-management-solution) und [:::no-loc text="Azure Log Analytics"::: Agent-Integritätslösungen](/azure/azure-monitor/insights/solution-agenthealth) hinzufügen.
 
 > [!NOTE]
-> Die Agent Health-Lösung :::no-loc text="Microsoft Monitoring"::: kann Ihnen dabei helfen, veraltete oder defekte Agents in Ihrer Umgebung zu identifizieren, und die Warnungsverwaltungslösung bietet Details zu den Warnungen, die innerhalb eines bestimmten Zeitraums ausgelöst wurden.
+> Die Agent-Integritätslösung kann Ihnen helfen, veraltete oder fehlerhafte :::no-loc text="Microsoft Monitoring"::: Agents in Ihrer Umgebung zu identifizieren, und die Warnungsverwaltungslösung enthält Details zu den Warnungen, die innerhalb eines bestimmten Zeitraums ausgelöst wurden.
 
-## <a name="see-also"></a>Mehr dazu
+## <a name="see-also"></a>Siehe auch
 
 [Planen der :::no-loc text="Microsoft Teams Rooms"::: Verwaltung mit :::no-loc text="Azure Monitor":::](azure-monitor-plan.md)
 
-[Geräte :::no-loc text="Microsoft Teams Rooms"::: verwalten mit :::no-loc text="Azure Monitor":::](azure-monitor-manage.md)
+[Verwalten von :::no-loc text="Microsoft Teams Rooms"::: Geräten mit :::no-loc text="Azure Monitor":::](azure-monitor-manage.md)

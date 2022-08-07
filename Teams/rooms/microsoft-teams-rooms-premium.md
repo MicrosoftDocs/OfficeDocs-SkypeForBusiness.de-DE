@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über den Microsoft Teams-Räume verwalteten Dienst.
 f1keywords: ''
-ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741877"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269580"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams-Räume verwalteten Dienst
 
@@ -60,10 +60,10 @@ Hier ist eine Übersicht über die Funktionen des Microsoft Teams-Räume verwalt
 |**Raumplanung und -rollout**   |Raumplanungsfunktionen, mit denen Sie Ihre Raumgeräteinventur verstehen und Entscheidungen zu Gerätestandards für neue Raumbereitstellungen treffen können.         |
 |**Überwachung und Problembehandlung**  |Raumintegritätsüberwachung, die Probleme mit dem Raumsystem und Peripheriegeräten erkennt und eine proaktive Reaktion auf die Vorfallverwaltung bietet, die von Microsoft gesteuert wird.         |
 |**Updateverwaltung**    |Verwaltung und Bereitstellung von Anwendungs- und Firmwareupdates für Raumsysteme und deren Peripheriegeräte, die von Microsoft ausgeführt werden.         |
-|**Insights und Empfehlungen**     |Insights die Zuverlässigkeit von Kundenintegrität, Nutzung, Nutzung und Ausrüstung.         |
+|**Einblicke und Empfehlungen**     |Einblicke in die Integrität, Nutzung, Nutzung und Gerätesicherheit von Kunden.         |
 |**Compliance und Zertifizierungen**   |Erfüllt alle anwendbaren Standards für Microsoft Online Services.         |
 |**Kundensupport**   |24x7x365-Ticketunterstützung über das dedizierte Microsoft Teams-Räume Managed Service Service Operation Center (SOC). Eskalation in Ihrem Auftrag an andere primäre Anbieter, falls zutreffend. Weitere Informationen finden Sie [im Kundensupport](#customer-support).|
-|**Unterstützte Geräte**    |Zertifizierte Microsoft Teams-Räume Systeme und deren Peripheriegeräte.<br>*Surface Hub Unterstützung in der zweiten Hälfte des Jahres 2021*        |
+|**Unterstützte Geräte**    |Zertifizierte Microsoft Teams-Räume Systeme und deren Peripheriegeräte.<br>*Surface Hub-Unterstützung in der zweiten Hälfte von 2021*        |
 |**Unterstützte Regionen**    |Siehe [Unterstützte Regionen](#supported-regions).        |
 |**Integration**    |Verfügbare Integration in vom Kunden gehosteten Dienst jetzt.         |
 
@@ -79,7 +79,7 @@ Hier ist eine Zusammenfassung wichtiger Features, die der Microsoft Teams-Räume
 |**Überwachen**    |Anwendungs-, Betriebssystem-, Peripheriegeräte- und Firmware-Integritätsüberwachung. Automatisierte Vorfallerkennung für Probleme, die sich auf Besprechungserfahrungen aufgrund von Problemen wie der Peripherieintegrität auswirken. Health overview of the entire room real estate and incidents through the Microsoft Teams-Räume managed service portal.|
 |**Problembehandlung und Problembehebung**     |Automatisierte Diagnose und ggf. automatische Behebung. Microsoft Teams-Räume soC-unterstützten Vorfallbehebung für verwaltete Dienste für nicht automatisierte Fälle. Service Now-Integration für die Vorfallkoordination.         |
 |**Updateverwaltung**   |Automatisierte Orchestrierung von Besprechungsanwendungen und Firmwareupdates basierend auf vom Kunden konfigurierbaren Bereitstellungsringen         |
-|**Insights und Empfehlungen**   |Nutzung, Vorfälle, Integrität und Allgemeine Berichterstellung (historische Ansichten)         |
+|**Einblicke und Empfehlungen**   |Nutzung, Vorfälle, Integrität und Allgemeine Berichterstellung (historische Ansichten)         |
 
 ## <a name="service-prerequisites"></a>Dienstvoraussetzungen
 
@@ -124,7 +124,7 @@ Die Microsoft Teams-Räume Premium-Lizenz ist in den folgenden Ländern ohne Aud
 |Enthaltene Elemente |Ausgeschlossene Elemente |Supportkanäle für ausgeschlossene Elemente  |
 |---------|---------|---------|
 |**Dienstkonfiguration**   |         |         |
-|Untersuchung und Anleitung für Microsoft Teams-Räume Windows Konfiguration, einschließlich Microsoft Teams-Räume App-Einstellungen, Erstanbieter-Netzwerkkonfiguration, Erstanbieter-Softwareeinrichtung und empfohlene Energieeinstellungen und Konfiguration.     |Alle Softwarekonfigurationen und Untersuchungen von Drittanbietern, die nicht direkt Teil der Microsoft Teams Room-App sind. Außerdem alle OEM-spezifischen Konfigurationen, die eine Konfiguration außerhalb von Erstanbieterfenstern oder Microsoft Teams Raum-App-Einstellungen erfordern.         |Standardsupportkanäle von Drittanbietern         |
+|Untersuchung und Anleitung für Microsoft Teams-Räume Windows-Konfiguration einschließlich Microsoft Teams-Räume App-Einstellungen, Erstanbieter-Netzwerkkonfiguration, Erstanbieter-Softwareeinrichtung und empfohlene Energieeinstellungen und Konfiguration.     |Alle Softwarekonfigurationen und Untersuchungen von Drittanbietern, die nicht direkt Teil der Microsoft Teams Room-App sind. Außerdem alle OEM-spezifischen Konfigurationen, die eine Konfiguration außerhalb von Erstanbieterfenstern oder Microsoft Teams Room-App-Einstellungen erfordern.         |Standardsupportkanäle von Drittanbietern         |
 |**Einrichtung des Raumkontos**    |         |         |
 |Richtung zur verfügbaren Dokumentation für die Einrichtung des Raumkontos auf Anfrage. Bei Anmelde- oder Kontokonfigurationsproblemen wird eine erste Untersuchung durchgeführt.     |Ausführung empfohlener Korrekturen oder Probleme bei der Ausführung empfohlener Korrekturen, Konfiguration von Authentifizierungsanbietern von Drittanbietern und Konfiguration von Features für einzelne Konten.        |Microsoft Mainstream-Support und Unterstützung für Authentifizierungsanbieter von Drittanbietern         |
 |**Peripheriegeräteunterstützung**    |         |         |

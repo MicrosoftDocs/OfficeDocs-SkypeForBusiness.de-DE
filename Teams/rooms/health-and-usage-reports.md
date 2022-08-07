@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: ''
-ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674817"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271430"
 ---
 # <a name="health-and-usage-reports"></a>Integritäts- und Nutzungsberichte
 
@@ -109,7 +109,7 @@ In der Ansicht "Auswirkungen auf die Besprechung" werden geplante Besprechungen 
 
 <!--![A screenshot of a Reports meeting impact](../media/health-and-usage-015.png)-->
 
-Auf der Registerkarte Einstellungen werden die Metadaten des Chatrooms angezeigt, z. B. Hardwareinformationen, Geräteeinstellungen, BIOS-Informationen, App-Einstellungen und Speicherort.
+Auf der Registerkarte "Einstellungen" werden die Metadaten des Chatrooms angezeigt, z. B. Hardwareinformationen, Geräteeinstellungen, BIOS-Informationen, App-Einstellungen und Speicherort.
 
 ## <a name="usage"></a>Verwendung
 
@@ -132,7 +132,7 @@ Unterhalb der Überschriftenmetriken befindet sich eine Tabelle mit Räumen mit 
 |Spalte|Beschreibung|
 |---|---|
 |Nutzung|Prozentsatz der Zeit, in der der Raum während der Geschäftszeiten im ausgewählten Zeitraum gebucht wurde. Ex. Zeitraum auf 7 Tage festgelegt. 80% Nutzung über die Mittel, die das Zimmer für 32/40 Stunden gebucht wurde|
-|Online gebucht|Von den gebuchten Besprechungen, deren Prozentsatz mit Teams aktiviert wurde. Ex. 10 Besprechungen wurden gebucht. Davon hatten 8 einen Teams Link. Online gebucht = 80%|
+|Online gebucht|Von den gebuchten Besprechungen, deren Prozentsatz mit Teams aktiviert wurde. Ex. 10 Besprechungen wurden gebucht. Davon hatte 8 einen Teams-Link. Online gebucht = 80%|
 |Geplante Besprechungen|Absolute Anzahl der im Raum geplanten Besprechungen|
 |Gesamtzahl der Anrufe|Absolute Anzahl der Anrufe mit dem Raum als Teilnehmer.|
 Anrufleistung|Prozentsatz der Anrufe mit der Bewertung "Gut". Jeder Anruf wird ausgewertet und erhält die Bewertung "Gut", "Schlecht", "Unbekannt". Diese Metrik wird aus guten Anrufen/Gesamtaufrufen berechnet.|
@@ -141,11 +141,11 @@ Die Nutzung wird am Ende jedes Tages um Mitternacht (00:00 Uhr) Ortszeit des Bes
 
 ## <a name="usage-details-of-a-room"></a>Nutzungsdetails eines Raums
 
-Wenn Sie in der Listenansicht auf einen Raum klicken, wird ein Flyout mit detaillierteren Informationen angezeigt. Unter der Registerkarte "Nutzung" des Flyouts befindet sich ein Diagramm, in dem die Nutzungszeit der letzten fünf Werktage angezeigt wird. Für jeden Tag gibt es zwei Balken: Blau stellt die gebuchte Besprechungszeit dar; Lila steht für die geplante Zeit Teams/Skype aktivierten Besprechungen. Unten werden die durchschnittlichen Besprechungsbuchungen und die Dauer der letzten fünf Werktage berechnet.
+Wenn Sie in der Listenansicht auf einen Raum klicken, wird ein Flyout mit detaillierteren Informationen angezeigt. Unter der Registerkarte "Nutzung" des Flyouts befindet sich ein Diagramm, in dem die Nutzungszeit der letzten fünf Werktage angezeigt wird. Für jeden Tag gibt es zwei Balken: Blau stellt die gebuchte Besprechungszeit dar; Lila steht für die geplante Zeit von Teams/Skype-fähigen Besprechungen. Unten werden die durchschnittlichen Besprechungsbuchungen und die Dauer der letzten fünf Werktage berechnet.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-**Die** Anruftabelle zeigt Besprechungen an, an denen der Raum an einem Teams Anruf teilgenommen hat. Die Raumaudioqualität wird nur für den Raum ausgewertet, nicht für alle Teilnehmer. Um die Anrufqualität für alle Teilnehmer eines bestimmten Anrufs anzuzeigen, wählen Sie einen Anruf aus, indem Sie auf die Startzeit klicken.
+**Die** Anruftabelle zeigt Besprechungen an, an denen der Raum an einem Teams-Anruf teilgenommen hat. Die Raumaudioqualität wird nur für den Raum ausgewertet, nicht für alle Teilnehmer. Um die Anrufqualität für alle Teilnehmer eines bestimmten Anrufs anzuzeigen, wählen Sie einen Anruf aus, indem Sie auf die Startzeit klicken.
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 

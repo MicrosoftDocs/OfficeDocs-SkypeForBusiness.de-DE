@@ -13,19 +13,17 @@ description: Ein Lookbook und Leitfaden für die Optimierung von Besprechungsrä
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
-ms.translationtype: HT
+ms.openlocfilehash: 8abd332f29ab23cbdf2dd36150942de06228f645
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823400"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272240"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Leitfaden für Besprechungsräume mit Teams
 

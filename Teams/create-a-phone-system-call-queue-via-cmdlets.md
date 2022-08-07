@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen über Cmdlets konfigurieren.
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674577"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268800"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Erstellen einer Anrufwarteschleife über Cmdlets
 
@@ -51,9 +50,9 @@ ms.locfileid: "65674577"
 
 2. Sie haben Mandantenverwaltungsrechte
 3. Sie haben Microsoft Teams Telefon erworben
-4. Die unten genannten Agents, Verteilerlisten und Teams Kanäle wurden bereits erstellt.
+4. Die unten genannten Agents, Verteilerlisten und Teams-Kanäle wurden bereits erstellt.
 
-Hinweis: Das unten verwendete cmdlet Teams Channel ist Teil der Public Preview-Version von Teams PowerShell-Modul.  Weitere Informationen finden Sie unter ["Installieren Teams öffentlichen PowerShell-Vorschau](teams-powershell-install.md)" und [unter Microsoft Teams PowerShell-Versionshinweisen](teams-powershell-release-notes.md).
+Hinweis: Das unten verwendete Cmdlet "Teams-Kanal" ist Teil der Public Preview-Version des Teams PowerShell-Moduls.  Weitere Informationen finden Sie in der [öffentlichen Vorschau "Installieren von Teams PowerShell](teams-powershell-install.md) " und in den [Microsoft Teams PowerShell-Versionshinweisen](teams-powershell-release-notes.md).
 
 Benutzer, die das MicrosoftTeams-Modul bereits installiert haben, sollten `Update-Module MicrosoftTeams` sicherstellen, dass die aktuellste Version installiert ist.
 
@@ -67,7 +66,7 @@ Informationen zur Warteschlange für Verkaufsanrufe:
 - Direkte Anrufe aus dem PSTN: Nein
 - Sprache: Englisch USA
 - Gruß: Keine
-- Musik im Haltebereich: Wiedergeben einer Audiodatei
+- Wartemusik: Wiedergeben einer Audiodatei
   - Dateiname: sales-hold-in-queue-music.wav
 - Anrufbeantwortung: Benutzer
   - Bill@contoso.com
@@ -89,7 +88,7 @@ Support-Informationen zur Anrufwarteschleife:
 - Sprache: Englisch UK
 - Gruß: Wiedergeben einer Audiodatei
   - Dateiname: support-greeting.wav
-- Musik im Haltebereich: Wiedergeben einer Audiodatei
+- Wartemusik: Wiedergeben einer Audiodatei
   - Dateiname: support-hold-in-queue-music.wav
 - Anrufbeantwortung: Support-Verteilerliste
   - Support@contoso.com
@@ -113,7 +112,7 @@ Informationen zur Warteschlange für gemeinsame Anrufe in Einrichtungen:
 - Direkte Anrufe aus dem PSTN: Nein (nur interne Anrufe)
 - Sprache: Französisch FR
 - Gruß: Keine
-- Musik im Haltebereich: Standard
+- Wartemusik: Standard
 - Anrufbeantwortung: Team: Einrichtungen
 - Anrufbeantwortungskanal: Helpdesk
   - Kanalbesitzer: Fred@contoso.com
@@ -129,7 +128,7 @@ Informationen zur Warteschlange für gemeinsame Anrufe in Einrichtungen:
 
 ## <a name="login"></a>Anmeldung
 
-Sie werden aufgefordert, Ihre Teams Administratoranmeldeinformationen einzugeben.
+Sie werden aufgefordert, Ihre Teams-Administratoranmeldeinformationen einzugeben.
 
 ```powershell
 $credential = Get-Credential
@@ -176,7 +175,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Erstellen und Zuweisen eines Ressourcenkontos
 
-Hinweis: Telefon Nummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale beendet wird.
+Hinweis: Die Telefonnummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale beendet wird.
 
 - Applicationid
   - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
@@ -240,7 +239,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Erstellen und Zuweisen eines Ressourcenkontos
 
-Hinweis: Telefon Nummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale beendet wird.
+Hinweis: Die Telefonnummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale beendet wird.
 
 - Applicationid
   - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
@@ -308,7 +307,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Erstellen und Zuweisen eines Ressourcenkontos
 
-**Hinweis**: Telefon Nummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale an der Front beendet wird.
+**Hinweis**: Die Telefonnummer ist hier nicht erforderlich, da die Anrufwarteschleife von einer automatischen Telefonzentrale beendet wird.
 
 - Applicationid
   - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07

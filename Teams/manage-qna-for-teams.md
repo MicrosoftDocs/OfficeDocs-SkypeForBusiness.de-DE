@@ -10,17 +10,16 @@ search.appverid: MET150
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie IT-Administratoren Q&A in Teams Q&A einrichten, verwenden und verwalten können, um einen strukturierten Ansatz für das Sammeln von Fragen, das Organisieren von Diskussionen, das Löschen einzelner Nachrichten, die Verwendung verfügbarer Sprachen und das Verständnis des Datenlebenszyklus sowie von Richtlinien für die Datenaufbewahrung und -löschung zu erhalten.
-ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: edcf1578b70bf39ccf330b7a328b7d0de7558263
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880429"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268630"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Verwalten von F&A in Teams-Besprechungen
 
@@ -34,6 +33,7 @@ In diesem Artikel wird beschrieben, wie Sie Q&A und Richtlinien auf Benutzereben
 - Damit Benutzer in Ihrer Organisation F&A zu Teams-Besprechungen hinzufügen können, müssen Sie bestätigen, dass Die Anmeldungen für den Office 365 Yammer-Dienst in Azure Active Directory aktiviert sind. Führen Sie die folgenden Schritte aus, um zu bestätigen, dass Die Anmeldungen aktiviert sind:
   - Wechseln Sie zum **Azure AD Admin Center** > **Alle Dienste** > **Enterprise-Anwendungen** >  **Office 365 Yammer** > **Eigenschaften**.
   - Wählen Sie für die Option **"Für Benutzer aktiviert" die** Option " **Ja** " aus, falls erforderlich.
+- Stellen Sie sicher, dass Sie die Q&A (Native)-App in [Teams-Apps](/MicrosoftTeams/manage-apps) nicht blockiert haben.
 
 ## <a name="who-can-use-qa"></a>Wer kann Q&A verwenden?
 

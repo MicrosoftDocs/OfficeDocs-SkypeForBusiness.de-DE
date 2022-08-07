@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Daten- und Datenschutzinformationen
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 3fa24a1009c5480c308dfc35306286d470178820
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057085"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270300"
 ---
 # <a name="approach"></a>Ansatz
 
@@ -37,7 +37,7 @@ Die Technologie folgt Datenschutzprozessen, um sicherzustellen, dass sie bei der
 > [!Note]
 > Beiläufige Verweise auf einen einzelnen Benutzer können während der Nutzung des Geräts im Aktivitätsprotokoll vorhanden sein.
 
-## <a name="who-can-access-data"></a>Wer auf Daten zugreifen können
+## <a name="who-can-access-data"></a>Wer auf Daten zugreifen kann
 
 Managed Services ergreift strenge Maßnahmen, um Kundendaten vor unangemessenem Zugriff oder der Verwendung durch unbefugte Personen zu schützen. Diese Maßnahmen umfassen die Einschränkung des Zugriffs durch Microsoft-Mitarbeiter und -Subunternehmer.
 
@@ -74,7 +74,7 @@ Managed Services überwacht oder zeichnet keine Audio-, Video-, Medien- oder Bes
 |Kategorie|Details|Grund für die Abfrage|
 | :- | :- | :- |
 |Fortlaufende Datenerfassung und -verwaltung|IP-Adresse, Identität des Raumkontos (Exchange, Skype for Business und/oder Teams), Standortkoordinaten, E-Mails und Kommunikation innerhalb des Portals mit Microsoft oder Software|Identifizieren und Herstellen einer Verbindung mit dem System unter Verwaltung; Fehler zu identifizieren, zu diagnostizieren und zu mindern; Nutzung, Analysen und Einblicke nachverfolgen; Abfrage- und Reparaturverbindungsstatus|
-|Ad-hoc-Datenerfassung und -verwaltung|Ereignisprotokollinformationen, Benutzeraktivität/Identität des angemeldeten Raumbenutzers sowie Diagnoseinformationen, Windows Systemabfragen (Beispiele: Liste der USB-Geräte, Energiezustand usw.)|Identifizieren, Diagnostizieren und Minimieren von Fehlern und für Nutzung, Analyse und Einblicke|
+|Ad-hoc-Datenerfassung und -verwaltung|Ereignisprotokollinformationen, Benutzeraktivität/Identität des in einem Raum angemeldeten Benutzers sowie Diagnoseinformationen, Windows-Systemabfragen (Beispiele: Liste der USB-Geräte, Energiezustand usw.)|Identifizieren, Diagnostizieren und Minimieren von Fehlern und für Nutzung, Analyse und Einblicke|
 
 Bestimmte vertrauliche Daten im Geräteaktivitätsprotokoll werden lokal gelöscht (nicht von verwalteten Diensten erfasst):
 
@@ -100,4 +100,4 @@ Managed Services bietet regionale Datenaufbewahrungsunterstützung über die Rec
 
 ## <a name="more-resources"></a>Weitere Ressourcen
 
-Microsoft Teams-Räume Sicherheit:/microsoftteams/rooms/security Microsoft Datenschutzbestimmungen: https://aka.ms/privacy Datenverwaltung bei Microsoft: https://www.microsoft.com/trust-center/privacy/data-management Dienstbeschreibung für verwaltete Dienste: [Microsoft Teams verwalteten Chatroomdienst](microsoft-teams-rooms-premium.md)
+Microsoft Teams-Räume Sicherheit:/microsoftteams/rooms/security Microsoft Datenschutzbestimmungen: https://aka.ms/privacy Datenverwaltung bei Microsoft: https://www.microsoft.com/trust-center/privacy/data-management Dienstbeschreibung für verwaltete Dienste: [verwalteter Microsoft Teams-Raumdienst](microsoft-teams-rooms-premium.md)

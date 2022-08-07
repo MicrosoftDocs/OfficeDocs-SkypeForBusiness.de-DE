@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -15,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 3df5c2e8a9b3ce27967a8b061c444daccd4cace5
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176089"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268550"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>FÜR Microsoft Teams zertifizierte USB-Audio- und Videogeräte
 
@@ -85,17 +86,15 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 > [!NOTE]
 > Das Datumsformat ist MMDDYYYY.
 
-| Hersteller        | Modell                                                     | Qualifiziert      | Zertifiziertes Programm                                      |
+| Hersteller        | Modell                                                     | Qualifizierte      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Jabra                |Engagement 50 II                                               |7/29/2022       |Zertifiziert für Microsoft Teams                           | 
-|Jabra                |Engagement 40                                                  |7/29/2022       |Zertifiziert für Microsoft Teams                           |
 |Logi                 |Dock-Freisprecheinrichtung                                          |7/13/2022       |Zertifiziert für Microsoft Teams                           |
-|Tal                 |WB5023-Kamera                                              |6/29/2022       |Zertifiziert für Microsoft Teams                           |
+|Dell                 |WB5023-Kamera                                              |6/29/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |ADAPT 560 II Headset                                       |6/22/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |Headsets der C10/C20/C50-Serie                                |5/31/2022       |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Engage55 Mono/Stereo Headset                               |5/25/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |EXPAND 40T-Freisprecheinrichtung                                    |5/24/2022       |Zertifiziert für Microsoft Teams                           | 
-|Tal                 |U3223QZ Monitor                                            |5/24/2022       |Zertifiziert für Microsoft Teams                           |
+|Dell                 |U3223QZ Monitor                                            |5/24/2022       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Studio P21 Monitor                                         |5/12/2022       |Zertifiziert für Microsoft Teams                           |
 |Yealink              |UH38 Headset                                               |5/2/2022        |Zertifiziert für Microsoft Teams                           |   
 |Yealink              |BH72 Headset                                               |5/2/2022        |Zertifiziert für Microsoft Teams                           |
@@ -104,8 +103,8 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Zertifiziert für Microsoft Teams                           |
 |EPOS                 |ADAPT 361                                                  |3/11/2022       |Zertifiziert für Microsoft Teams                           |
-|Tal                 |Freisprecheinrichtung SP3022                                        |2/7/2022        |Zertifiziert für Microsoft Teams                           |
-|Tal                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Zertifiziert für Microsoft Teams                           |
+|Dell                 |Freisprecheinrichtung SP3022                                        |2/7/2022        |Zertifiziert für Microsoft Teams                           |
+|Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Synchronisieren 10                                                    |1/18/2022       |Zertifiziert für Microsoft Teams                           |
 |Lenovo               |Kabelgebundenes ANC-Headset                                       |1/12/2022       |Zertifiziert für Microsoft Teams                           |
 |Lenovo               |Kabelgebundene Freisprecheinrichtung                                      |1/10/2022       |Zertifiziert für Microsoft Teams                           |
@@ -125,15 +124,15 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Poly                 |Voyager 4320                                               |8/6/2021        |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Voyager 4310                                               |8/6/2021        |Zertifiziert für Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Zertifiziert für Microsoft Teams                           |
-|Tal                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Zertifiziert für Microsoft Teams                           |
+|Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Zertifiziert für Microsoft Teams                           |
 |Nec                  |WD551 Windows-Anzeige zur Zusammenarbeit                        |5/21/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |EncorePro 520 und DA85-M                                   |4/26/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |EncorePro 510 und DA85-M                                   |4/26/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |EncorePro 525-M                                            |4/26/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |EncorePro 515-M                                            |4/26/2021       |Zertifiziert für Microsoft Teams                           |
-|Tal                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |Zertifiziert für Microsoft Teams                           |
-|Tal                 |WL5022 Pro Wireless Headset                                |4/22/2021       |Zertifiziert für Microsoft Teams                           |
-|Tal                 |WH3022 Pro Kabel headset                                   |4/22/2021       |Zertifiziert für Microsoft Teams                           |
+|Dell                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |Zertifiziert für Microsoft Teams                           |
+|Dell                 |WL5022 Pro Wireless Headset                                |4/22/2021       |Zertifiziert für Microsoft Teams                           |
+|Dell                 |WH3022 Pro Kabel headset                                   |4/22/2021       |Zertifiziert für Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
@@ -157,16 +156,16 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Yealink              |WH63 DECT Headset                                          |12/23/2020      |Zertifiziert für Microsoft Teams                           |
 |Yealink              |WH62 Dual/Mono DECT Headset                                |12/23/2020      |Zertifiziert für Microsoft Teams                           |
 |EPOS/Sennheiser      |Headsets der Serie 100 anpassen                                  |12/22/2020      |Zertifiziert für Microsoft Teams                           |
-|Tal                 |Pro Stereo Headset - UC350                                 |12/21/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
-|Tal                 |Pro Stereo Headset - UC150                                 |12/21/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
+|Dell                 |Pro Stereo Headset - UC350                                 |12/21/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
+|Dell                 |Pro Stereo Headset - UC150                                 |12/21/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Lenovo               |Pro Wired VoIP Stereo Headset                              |12/21/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
-|Tal                 |C3422WE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
-|Tal                 |C2722DE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
-|Tal                 |C2422HE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
+|Dell                 |C3422WE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
+|Dell                 |C2722DE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
+|Dell                 |C2422HE Monitor                                            |12/11/2020      |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Synchronisieren von 20 + Freisprecheinrichtung mit Poly BT600 USB Dongle          |11/9/2020       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Synchronisieren von 20 Freisprecheinrichtung                                       |11/9/2020       |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Evolve 65t Headset                                         |10/31/2020      |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
@@ -235,7 +234,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 | Poly                | Blackwire 3310-M                                          | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Blackwire 3315-M                                          | 03/03/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Blackwire 3320-M                                          | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
-| poly                | Blackwire 3325-M                                          | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
+| Poly                | Blackwire 3325-M                                          | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Calisto 3200-M                                            | 01/27/2020     | Zertifiziert für Microsoft Teams                          |
 | Crestron            | CCS-UCA-MIC                                               | 12/18/2019     | Zertifiziert für Microsoft Teams                          |
 | Sennheiser          | SP 30T                                                    | 12/05/2019     | Zertifiziert für Microsoft Teams                          |

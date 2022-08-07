@@ -12,26 +12,27 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: In diesem Artikel finden Sie Informationen zum Erstellen von Ressourcenkonten für Räume und freigegebene Geräte, einschließlich Microsoft Teams-Räume, Teams-Räume auf Surface Hub und Hot-Desking auf Teams Anzeigen.
-ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+description: In diesem Artikel finden Sie Informationen zum Erstellen von Ressourcenkonten für Räume und freigegebene Geräte, einschließlich Microsoft Teams-Räume, Teams-Räume auf Surface Hub und Hot-Desking auf Teams-Displays.
+ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760887"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271710"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Erstellen und Konfigurieren von Ressourcenkonten für Räume und freigegebene Teams-Geräte
 
-Dieser Artikel enthält Schritte zum Erstellen von Ressourcenkonten für freigegebene Räume und Geräte sowie Schritte zum Konfigurieren von Ressourcenkonten für Microsoft Teams-Räume auf Windows, Teams-Räume auf Android, Teams-Räume auf Surface Hub und Hot-Desking auf Teams Anzeigen.
+Dieser Artikel enthält Die Schritte zum Erstellen von Ressourcenkonten für freigegebene Räume und Geräte sowie Schritte zum Konfigurieren von Ressourcenkonten für Microsoft Teams-Räume unter Windows, Teams-Räume unter Android, Teams-Räume auf Surface Hub und Hot-Desking auf Teams-Displays.
 
-Microsoft 365 Ressourcenkonten sind Postfach- und Teams Konten, die bestimmten Ressourcen wie einem Raum oder Projektor zugeordnet sind. Diese Ressourcenkonten können automatisch mithilfe von Regeln, die Sie beim Erstellen definieren, auf Besprechungseinladungen reagieren. Wenn Sie z. B. über eine gemeinsame Ressource wie einen Konferenzraum verfügen, können Sie ein Ressourcenkonto für diesen Konferenzraum einrichten, das Besprechungseinladungen je nach Verfügbarkeit des Kalenders automatisch annimmt oder ablehnt. 
+Microsoft 365-Ressourcenkonten sind Postfach- und Teams-Konten, die bestimmten Ressourcen wie einem Raum oder Projektor zugeordnet sind. Diese Ressourcenkonten können automatisch mithilfe von Regeln, die Sie beim Erstellen definieren, auf Besprechungseinladungen reagieren. Wenn Sie z. B. über eine gemeinsame Ressource wie einen Konferenzraum verfügen, können Sie ein Ressourcenkonto für diesen Konferenzraum einrichten, das Besprechungseinladungen je nach Verfügbarkeit des Kalenders automatisch annimmt oder ablehnt. 
 
-Jedes Ressourcenkonto ist für eine einzelne Microsoft Teams-Räume Installation eindeutig oder Teams die Implementierung des Hot-Deskings anzeigen.
+Jedes Ressourcenkonto ist für eine einzelne Microsoft Teams-Räume-Installation eindeutig, oder Teams zeigt eine Hot-Desking-Implementierung an.
 
 > [!NOTE]
-> Bei Verwendung Microsoft Teams Panels meldet sich das Teams-Räume Ressourcenkonto sowohl bei Teams-Räume als auch bei zugeordneten Teams Bereichen an.
+> Wenn Sie Microsoft Teams-Bereiche verwenden, meldet sich das Teams-Räume Ressourcenkonto sowohl bei Teams-Räume als auch bei den zugehörigen Teams-Bereichen an.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -48,29 +49,29 @@ Je nach Umgebung benötigen Sie eine oder mehrere Rollen, um Ressourcenkonten zu
 |**Umgebung**|**Erforderliche Rollen**|
 |-----|-----|
 |Azure Active Directory  <br/> |Globaler Administrator oder Benutzeradministrator  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise Administratoren, Domänenadministratoren oder haben delegierte Rechte zum Erstellen von Benutzern. Azure Active Directory Verbinden Synchronisierungsrechte.  <br/> |
-|Exchange Online  <br/> |Globaler Administrator oder Exchange Administrator   <br/> |
-|Exchange Server  <br/> |Exchange Organisations- oder Empfängerverwaltung   <br/> |
+|Active Directory  <br/> |Active Directory-Unternehmensadministratoren, Domänenadministratoren oder verfügen über delegierte Rechte zum Erstellen von Benutzern. Azure Active Directory Connect-Synchronisierungsrechte.  <br/> |
+|Exchange Online  <br/> |Globaler Administrator oder Exchange-Administrator   <br/> |
+|Exchange Server  <br/> |Exchange-Organisationsverwaltung oder Empfängerverwaltung   <br/> |
 
 Wenn Sie Ressourcenkonten für Teams-Räume erstellen, muss der UPN mit der SMTP-Adresse des Ressourcenkontos übereinstimmen. Lesen Sie [Microsoft Teams-Räume Anforderungen](requirements.md), bevor Sie Teams-Räume bereitstellen.
 
 ### <a name="what-license-do-you-need"></a>Welche Lizenz benötigen Sie?
 
-Bevor Sie ein Microsoft 365 Ressourcenkonto erstellen, überprüfen Sie, welche Art von Lizenz benötigt wird:
+Bevor Sie ein Microsoft 365-Ressourcenkonto erstellen, überprüfen Sie, welche Art von Lizenz benötigt wird:
 
-- **Teams Besprechungen** Wenn Sie das Ressourcenkonto einem gemeinsam genutzten Gerät zuordnen möchten, z. B. einem Microsoft Teams Raum oder Teams Anzeige mit Hot-Desking, und es verwenden möchten, um an einer Teams Besprechung teilzunehmen, damit Die Teilnehmer sie verwenden können, um Videos und Audio darüber zu präsentieren, benötigen Sie eine Besprechungsraum-Lizenz. Weitere Informationen zur Lizenzierung für Besprechungsräume finden Sie [unter Teams Besprechungsraum Lizenzierung](rooms-licensing.md).
+- **Teams-Besprechungen** Wenn Sie das Ressourcenkonto einem freigegebenen Gerät zuordnen möchten, z. B. einem Microsoft Teams-Raum oder einer Microsoft Teams-Anzeige mit Hot-Desking, und es verwenden möchten, um an einer Teams-Besprechung teilzunehmen, damit Teilnehmer es verwenden können, um Video und Audio darüber zu präsentieren, benötigen Sie eine Besprechungsraumlizenz. Weitere Informationen zur Lizenzierung für Besprechungsräume finden Sie unter [Microsoft Teams-Besprechungsraumlizenzierung](rooms-licensing.md).
 
-- **PSTN-Anrufe** Wenn Sie möchten, dass die Ressource Anrufe an oder von einer externen Telefonnummer (so genanntes Public Switched Telephone Network oder PSTN-Anruf) entgegennehmen kann, benötigen Sie eine Microsoft 365 Telefonsystem- oder Microsoft 365 Business Voice-Lizenz. Sie müssen nur Schritt 1 in der folgenden Übersicht ausführen. Weitere Informationen finden Sie unter [Microsoft Teams Add-On-Lizenzen](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- **PSTN-Anrufe** Wenn Sie möchten, dass die Ressource Anrufe an oder von einer externen Telefonnummer (so genanntes Public Switched Telephone Network oder PSTN-Anruf) entgegennehmen kann, benötigen Sie ein Microsoft 365-Telefonsystem oder Microsoft 365 Business Voice Lizenz. Sie müssen nur Schritt 1 in der folgenden Übersicht ausführen. Weitere Informationen finden Sie unter [Microsoft Teams-Add-On-Lizenzen](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) .
 
 - Wenn Sie nur ein Ressourcenkonto zum Buchen einer Ressource&mdash;verwenden, laden Sie die Ressource zu Ihrer Besprechung ein und lassen Sie sie automatisch die Einladung&mdash;annehmen oder ablehnen, die Sie dem Ressourcenkonto nicht zuweisen müssen, und Sie müssen schritt 1 nur in der folgenden Übersicht ausführen.  
 
 ## <a name="overview"></a>Übersicht
 
-**Schritt 1:** [Erstellen eines neuen Ressourcenkontos](#create-a-resource-account). Wenn ein Raumpostfach bereits vorhanden ist und Sie es in ein Ressourcenkonto konvertieren möchten, können Sie [ein vorhandenes Exchange Raumpostfachs ändern](?tabs=existing-account#create-a-resource-account).
+**Schritt 1:** [Erstellen eines neuen Ressourcenkontos](#create-a-resource-account). Wenn ein Raumpostfach bereits vorhanden ist und Sie es in ein Ressourcenkonto konvertieren möchten, können Sie [ein vorhandenes Exchange-Raumpostfach ändern](?tabs=existing-account#create-a-resource-account).
 
-**Schritt 2 -**  [Konfigurieren Sie dann Ihr Konto](#configure-mailbox-properties) für Teams Besprechungen.
+**Schritt 2 -**  [Konfigurieren Sie dann Ihr Konto](#configure-mailbox-properties) für Teams-Besprechungen.
 
-**Schritt 3 -**  Wenn das Ressourcenkonto einem freigegebenen Gerät zugeordnet werden soll, z. B. Teams mit hot-desking angezeigt wird, [deaktivieren Sie den Kennwortablauf](#turn-off-password-expiration).
+**Schritt 3 -**  Wenn das Ressourcenkonto einem freigegebenen Gerät zugeordnet werden soll, z. B. wenn Teams mit hot-desking angezeigt wird, [deaktivieren Sie den Kennwortablauf](#turn-off-password-expiration).
 
 **Schritt 4 -**  [Weisen Sie schließlich eine Besprechungsraumlizenz](#assign-a-meeting-room-license) zu, damit das Konto auf Microsoft Teams zugreifen kann.
 
@@ -90,7 +91,7 @@ Erstellen Sie ein Ressourcenkonto mithilfe einer Methode auf einer der folgenden
 
 1. Melden Sie sich beim Microsoft 365 Admin Center an.
 
-2. Geben Sie die Administratoranmeldeinformationen für Ihren Microsoft 365 Mandanten an.
+2. Geben Sie die Administratoranmeldeinformationen für Ihren Microsoft 365-Mandanten an.
 
 3. Wechseln Sie im linken Bereich zu **"Ressourcen** ", und wählen Sie dann **"Räume & Ausrüstung**" aus. Wenn diese Optionen im linken Bereich nicht verfügbar sind, müssen Sie möglicherweise zuerst **"Alle anzeigen"** auswählen.
 
@@ -112,21 +113,21 @@ Erstellen Sie ein Ressourcenkonto mithilfe einer Methode auf einer der folgenden
  
 8. Wenn Benutzer das Kennwort auf einem freigegebenen Gerät ändern müssen, treten Anmeldeprobleme auf. Deaktivieren Sie das Kontrollkästchen **"Diesen Benutzer auffordern, sein Kennwort zu ändern, wenn er sich zum ersten Mal anmeldet**, und wählen Sie **"Zurücksetzen"** aus.
 
-9. Legen Sie im Abschnitt **"Lizenzen und Apps****" den Speicherort "Auswählen"** auf das Land oder die Region fest, in dem das Gerät installiert wird. Wählen Sie dann die Lizenz aus, die Sie zuweisen möchten, z. B. Besprechungsraum, und wählen Sie "**Änderungen speichern"** aus. Die Lizenz kann je nach Organisation variieren.
+9. Legen Sie im Abschnitt **"Lizenzen und Apps****" den Speicherort "Auswählen"** auf das Land oder die Region fest, in dem das Gerät installiert wird. Wählen Sie dann die Lizenz aus, die Sie zuweisen möchten, z. B. den Besprechungsraum, und wählen Sie " **Änderungen speichern"** aus. Die Lizenz kann je nach Organisation variieren.
 
-Informationen zum Ändern der Einstellungen des Ressourcenpostfachs finden [Sie unter Konfigurieren von Postfacheigenschaften](#configure-mailbox-properties) oder verwenden Sie das Exchange Admin Center.
+Informationen zum Ändern der Einstellungen des Ressourcenpostfachs finden [Sie unter Konfigurieren von Postfacheigenschaften](#configure-mailbox-properties) oder Verwenden des Exchange Admin Centers.
 
 Möglicherweise müssen Sie auch Bandbreitenrichtlinien oder Besprechungsrichtlinien auf dieses Konto anwenden. Weitere Informationen finden Sie unter ["Nächste Schritte](#next-steps) ".
 
 #### <a name="with-exchange-online"></a>[**Mit Exchange Online**](#tab/exchange-online)
 
-1. Verbinden, um [PowerShell zu Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
+1. Stellen Sie eine Verbindung mit [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) her.
 
     ``` PowerShell
     Connect-ExchangeOnline
     ```
 
-2. Standardmäßig verfügen Raumpostfächer nicht über zugeordnete Konten. Fügen Sie beim Erstellen eines Raumpostfachs ein Konto hinzu, damit es sich mit Microsoft Teams authentifizieren kann.
+2. Standardmäßig verfügen Raumpostfächer nicht über zugeordnete Konten. Fügen Sie beim Erstellen eines Raumpostfachs ein Konto hinzu, damit es sich bei Microsoft Teams authentifizieren kann.
 
     Wenn Sie ein neues Ressourcenpostfach erstellen:
     
@@ -148,13 +149,13 @@ Möglicherweise müssen Sie auch Bandbreitenrichtlinien oder Besprechungsrichtli
     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
     ```
 
-Wenn Sie sich nicht in einer Exchange Hybridkonfiguration befinden, können Sie mit dem nächsten Schritt fortfahren: [Konfigurieren von Postfacheigenschaften](#configure-mailbox-properties).
+Wenn Sie sich nicht in einer Exchange-Hybridkonfiguration befinden, können Sie mit dem nächsten Schritt fortfahren: [Konfigurieren von Postfacheigenschaften](#configure-mailbox-properties).
 
-Wenn Sie sich in einer Exchange Hybridkonfiguration befinden, müssen Sie eine E-Mail-Adresse für Ihr lokales Domänenkonto hinzufügen. Weitere Informationen finden Sie unter [Lokales Synchronisieren und Office 365 Benutzerkontenverzeichnissen](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78).
+Wenn Sie sich in einer Exchange-Hybridkonfiguration befinden, müssen Sie eine E-Mail-Adresse für Ihr lokales Domänenkonto hinzufügen. Weitere Informationen finden Sie unter [Lokales Synchronisieren und Office 365 Benutzerkontenverzeichnissen](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78).
 
 #### <a name="with-exchange-server"></a>[**Mit Exchange Server**](#tab/exchange-server)
 
-  1. Verbinden zur Exchange Verwaltungsshell. [Öffnen Sie die Exchange-Verwaltungsshell](/powershell/exchange/exchange-server/open-the-exchange-management-shell), oder [stellen Sie mithilfe von Remote-PowerShell eine Verbindung mit Ihrem Exchange-Server](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell) her.
+  1. Stellen Sie eine Verbindung mit der Exchange-Verwaltungsshell her. [Öffnen Sie die Exchange-Verwaltungsshell](/powershell/exchange/exchange-server/open-the-exchange-management-shell) , oder [stellen Sie eine Verbindung mit Ihrem Exchange-Server mithilfe von Remote-PowerShell](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell) her.
 
    2. So erstellen Sie ein neues Raumpostfach:
 
@@ -176,7 +177,7 @@ Wenn Sie sich in einer Exchange Hybridkonfiguration befinden, müssen Sie eine E
    New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
    ```
 
-#### <a name="modify-an-existing-exchange-room-mailbox"></a>[**Ändern eines vorhandenen Exchange Raumpostfachs**](#tab/existing-account)
+#### <a name="modify-an-existing-exchange-room-mailbox"></a>[**Ändern eines vorhandenen Exchange-Raumpostfachs**](#tab/existing-account)
 
 Verwenden Sie die folgende Syntax, um ein vorhandenes Raumpostfach so zu ändern, dass es ein Ressourcenkonto wird:
 
@@ -190,19 +191,19 @@ In diesem Beispiel wird das Konto für das vorhandene Raumpostfach aktiviert, da
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-Wenn Sie sich in einer Exchange Hybridkonfiguration befinden, müssen Sie auch eine E-Mail-Adresse für Ihr lokales Domänenkonto hinzufügen. Weitere Informationen finden Sie unter [Lokales Synchronisieren und Office 365 Benutzerkontenverzeichnissen](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78).
+Wenn Sie sich in einer Exchange-Hybridkonfiguration befinden, müssen Sie auch eine E-Mail-Adresse für Ihr lokales Domänenkonto hinzufügen. Weitere Informationen finden Sie unter [Lokales Synchronisieren und Office 365 Benutzerkontenverzeichnissen](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78).
 
 Ausführliche Informationen zu Syntax und Parametern finden Sie unter ["New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) " und ["Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox)".
 
 > [!NOTE]
-> Wenn Sie dieses Konto für Teams Room auf Surface Hub erstellen, sollten Sie auch ActiveSync für dieses Konto aktivieren. Auf diese Weise können Sie E-Mails direkt aus der Surface Hub senden, die Sie für Features wie Whiteboard verwenden können. Weitere Informationen finden Sie unter [Anwenden von ActiveSync-Richtlinien auf Gerätekonten (Surface Hub).](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts)
+> Wenn Sie dieses Konto für Teams Room auf Surface Hub erstellen, sollten Sie auch ActiveSync für dieses Konto aktivieren. Auf diese Weise können Sie E-Mails direkt über den Surface Hub senden, den Sie für Features wie Whiteboard verwenden können. Weitere Informationen finden Sie unter [Anwenden von ActiveSync-Richtlinien auf Gerätekonten (Surface Hub](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) ).
 
 ---
 
 > [!IMPORTANT]
-> Wenn Sie dieses Ressourcenkonto nur verwenden, um Platz zu reservieren und Einladungen automatisch anzunehmen oder abzulehnen, haben Sie die Einrichtung abgeschlossen. Wenn Sie dieses Ressourcenkonto für PSTN-Anrufe verwenden, lesen Sie [Microsoft Teams Add-On-Lizenzen](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md), um zu ermitteln, welche Lizenz benötigt wird.
+> Wenn Sie dieses Ressourcenkonto nur verwenden, um Platz zu reservieren und Einladungen automatisch anzunehmen oder abzulehnen, haben Sie die Einrichtung abgeschlossen. Wenn Sie dieses Ressourcenkonto für PSTN-Anrufe verwenden, lesen Sie [die Microsoft Teams-Add-On-Lizenzen](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) , um zu ermitteln, welche Lizenz benötigt wird.
 >
-> Fahren Sie nur dann mit dem nächsten Abschnitt fort, wenn das Ressourcenkonto für eine Teams-Räume auf Windows, Teams-Räume auf Android, Teams-Räume auf Surface Hub oder für eine Teams mit Hot-Desking angezeigt wird.
+> Fahren Sie nur dann mit dem nächsten Abschnitt fort, wenn das Ressourcenkonto für eine Teams-Räume unter Windows, Teams-Räume unter Android, Teams-Räume auf Surface Hub oder eine Teams-Anzeige mit Hot-Desking bestimmt ist.
 
 ## <a name="configure-mailbox-properties"></a>Konfigurieren von Postfacheigenschaften
 
@@ -212,17 +213,17 @@ Konfigurieren Sie in Exchange PowerShell online oder lokal die folgenden Einstel
 
 - **AddOrganizerToSubject: `$false`** Der Besprechungsorganisator wird dem Betreff der Besprechungsanfrage nicht hinzugefügt.
 
-- **DeleteComments: `$false`** Behalten Sie text im Nachrichtentext eingehender Besprechungsanfragen bei. Dies ist erforderlich, um externe Teams- und Drittanbieterbesprechungen zu verarbeiten, um die One Touch Join-Erfahrung bereitzustellen.
+- **DeleteComments: `$false`** Behalten Sie text im Nachrichtentext eingehender Besprechungsanfragen bei. Dies ist erforderlich, um externe Teams- und Drittanbieterbesprechungen zu verarbeiten, um one Touch Join-Erfahrung zu bieten.
 
 - **DeleteSubject: `$false`** Behalten Sie den Betreff eingehender Besprechungsanfragen bei.
 
-- **ProcessExternalMeetingMessages: `$true`** Gibt an, ob Besprechungsanfragen verarbeitet werden sollen, die außerhalb der Exchange Organisation stammen. Erforderlich für externe Teams Besprechungen und [Besprechungen von Drittanbietern](/microsoftteams/rooms/third-party-join).
+- **ProcessExternalMeetingMessages: `$true`** Gibt an, ob Besprechungsanfragen verarbeitet werden sollen, die außerhalb der Exchange-Organisation stammen. Erforderlich für externe [Teams-Besprechungen und Besprechungen von Drittanbietern](/microsoftteams/rooms/third-party-join).
 
 - **RemovePrivateProperty: `$false`** Stellt sicher, dass das private Kennzeichen, das vom Besprechungsorganisator in der ursprünglichen Besprechungsanfrage gesendet wurde, unverändert bleibt.
 
 - **AddAdditionalResponse: `$true`** Der durch den Parameter "AdditionalResponse" angegebene Text wird Besprechungsanfragen hinzugefügt.
 
-- **AdditionalResponse: "Dies ist ein Microsoft Teams Besprechungsraum!"** Der zusätzliche Text, der der Besprechungsakzeptanzantwort hinzugefügt werden soll.
+- **AdditionalResponse: "Dies ist ein Microsoft Teams-Besprechungsraum!"** Der zusätzliche Text, der der Besprechungsakzeptanzantwort hinzugefügt werden soll.
 
 In diesem Beispiel werden diese Einstellungen für ein Raumpostfach namens ConferenceRoom01 konfiguriert:
 
@@ -237,13 +238,13 @@ Ausführliche Informationen zu Syntax und Parametern finden [Sie unter Set-Calen
 Wenn das Kennwort für das Ressourcenkonto abläuft, wird sich das Gerät nach dem Ablaufdatum nicht mehr anmelden. Das Kennwort muss dann für das Ressourcenkonto geändert und dann auf jedem Gerät aktualisiert werden. Um dies zu vermeiden, können Sie den Ablauf des Kennworts deaktivieren.
   
 > [!NOTE]
-> Das Festlegen des **Kennworts läuft nie ab**, ist eine Anforderung für freigegebene Microsoft Teams Geräte. Wenn Ihre Domänenregeln Kennwörter verbieten, die nicht ablaufen, müssen Sie für jedes Teams Geräteressourcenkonto eine Ausnahme erstellen.
+> Das Festlegen des **Kennworts läuft nie ab** , ist eine Anforderung für freigegebene Microsoft Teams-Geräte. Wenn Ihre Domänenregeln Kennwörter verbieten, die nicht ablaufen, müssen Sie eine Ausnahme für jedes Teams-Geräteressourcenkonto erstellen.
 
 Führen Sie die Schritte auf einer der folgenden Registerkarten aus, um den Kennwortablauf zu deaktivieren:
 
 #### <a name="azure-active-directory-20"></a>[**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
-Zuerst Verbinden zu Active Directory PowerShell:
+Stellen Sie zunächst eine Verbindung mit Active Directory PowerShell her:
 
 ```PowerShell
    Connect-AzureAD
@@ -259,13 +260,13 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 #### <a name="azure-active-directory-10"></a>[**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
 
- 1. Verbinden zu MSOnline PowerShell:
+ 1. Herstellen einer Verbindung mit MSOnline PowerShell:
 
        ```PowerShell
        Connect-MsolService
        ```
 
-       Ausführliche Informationen zu Active Directory finden Sie [unter Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)For details about Active Directory, see Azure Active Directory (MSOnline).
+       Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory (MSOnline).For details about Active Directory, see Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
 2. Legen Sie das Kennwort so fest, dass es nie abläuft, indem Sie die folgende Syntax verwenden:
 
@@ -281,7 +282,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 #### <a name="active-directory-on-premises"></a>[**Active Directory (lokal)**](#tab/active-directory1-password/)
 
-1. Verbinden zu Active Directory PowerShell:
+1. Herstellen einer Verbindung mit Active Directory PowerShell:
 
     ```PowerShell
        Import-Module ActiveDirectory
@@ -305,23 +306,23 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 ## <a name="assign-a-meeting-room-license"></a>Zuweisen einer Besprechungsraumlizenz
 
-Das Ressourcenkonto benötigt eine Microsoft 365 oder Office 365 Lizenz, um sich bei Microsoft Teams anzumelden.
+Das Ressourcenkonto benötigt eine Microsoft 365- oder Office 365-Lizenz, um sich bei Microsoft Teams anzumelden.
 
 > [!NOTE]
-> Microsoft Teams-Räume Standard und Microsoft Teams-Räume Premium sind die beiden verfügbaren SKUs für gemeinsam genutzte Besprechungsraumgeräte, einschließlich Teams-Räume. Eine Besprechungsraumlizenz ist für Teams Anzeigen mit Hot-Desking erforderlich. Weitere Informationen finden Sie [unter Teams Lizenzierung von Besprechungsräumen](rooms-licensing.md).
+> Microsoft Teams-Räume Standard und Microsoft Teams-Räume Premium sind die beiden verfügbaren SKUs für gemeinsam genutzte Besprechungsraumgeräte, einschließlich Teams-Räume. Eine Besprechungsraumlizenz ist für Teams-Displays mit Hot-Desking erforderlich. Weitere Informationen finden Sie unter [Lizenzierung von Teams-Besprechungsräumen](rooms-licensing.md).
 
 Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center finden [Sie unter Zuweisen von Lizenzen zu Benutzern](/microsoft-365/admin/manage/assign-licenses-to-users). Informationen zum Zuweisen von Lizenzen mitHilfe von Azure AD finden Sie auf einer der folgenden Registerkarten:
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. Verbinden zu Azure AD
+1. Herstellen einer Verbindung mit Azure AD
   
     ```PowerShell
     Connect-AzureAD
     ```
 
-     Ausführliche Informationen zu Active Directory finden Sie [Azure Active Directory PowerShell für Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+     Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory PowerShell für Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
     
 2. Weisen Sie Ihrem Ressourcenkonto mithilfe des `Set-AzureADUser` Cmdlets einen Verwendungsspeicherort zu. Dadurch wird bestimmt, welche Lizenz-SKUs verfügbar sind.
 
@@ -331,7 +332,7 @@ Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center 
     Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
     ```
 
-3. Verwenden Sie `Get-AzureADSubscribedSku` diese Option, um eine Liste der verfügbaren SKUs für Ihre Microsoft 365 oder Office 365 Organisation abzurufen.
+3. Verwenden Sie `Get-AzureADSubscribedSku` diese Option, um eine Liste der verfügbaren SKUs für Ihre Microsoft 365- oder Office 365-Organisation abzurufen.
 
     ```PowerShell
     Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -356,13 +357,13 @@ Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center 
 
 #### <a name="active-directory-10"></a>[**Active Directory 1.0**](#tab/active-directory1-license/)
 
-1. Verbinden zu MSOnline PowerShell.
+1. Stellen Sie eine Verbindung mit MSOnline PowerShell her.
 
    ```PowerShell
    Connect-MsolService
    ```
 
-    Ausführliche Informationen zu Active Directory finden Sie [unter Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
 2.  Weisen Sie Ihrem Ressourcenkonto mithilfe des `Set-MsolUser` Cmdlets einen Verwendungsspeicherort zu. Dadurch wird bestimmt, welche Lizenz-SKUs verfügbar sind.
 
@@ -372,7 +373,7 @@ Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center 
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
     ```
     
-    Anschließend können `Get-MsolAccountSku` Sie eine Liste der verfügbaren SKUs für Ihre Microsoft 365 oder Office 365 Organisation abrufen.
+    Anschließend können `Get-MsolAccountSku` Sie eine Liste der verfügbaren SKUs für Ihre Microsoft 365- oder Office 365-Organisation abrufen.
 
 4. Verwenden Sie zum Zuweisen der Lizenz das `Set-MsolUser` Cmdlet. In diesem Beispiel wird die Lizenz "contoso:MEETING_ROOM" dem Konto conferenceroom01@contoso.com zugewiesen:
 
@@ -382,7 +383,7 @@ Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center 
 
 ---
 
-Um die Kontoerstellung und Lizenzzuweisung zu überprüfen, melden Sie sich mit dem von Ihnen erstellten Konto bei jedem Teams-Client an.
+Um die Kontoerstellung und Lizenzzuweisung zu überprüfen, melden Sie sich mit dem von Ihnen erstellten Konto bei einem beliebigen Teams-Client an.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
@@ -390,21 +391,21 @@ Um die Kontoerstellung und Lizenzzuweisung zu überprüfen, melden Sie sich mit 
 
 Möglicherweise müssen Sie benutzerdefinierte Netzwerk-, Bandbreiten- oder Besprechungsrichtlinien auf dieses Konto anwenden. Weitere Informationen zu Netzwerk- und Bandbreitenrichtlinien finden Sie unter [Besprechungsrichtlinieneinstellungen für Audio & Video](/microsoftteams/meeting-policies-audio-and-video). Für Teams-Räume wird empfohlen, die Bandbreite der Besprechungsrichtlinien auf 10 MBit/s festzulegen.
 
-Aktivieren Sie für Zusammenarbeitszwecke PowerPoint Live, Whiteboard und freigegebene Notizen. Es wird empfohlen, die Besprechungsrichtlinieneinstellung "Jetzt in privaten Besprechungen besprechen" zu aktivieren. Möglicherweise möchten Sie eine Besprechungsrichtlinie erstellen, um Teilnehmer- und Gasteinstellungen für Teams-Räume anzupassen. Überprüfen Sie beispielsweise die Wartebereichseinstellungen, z. B. welche Teilnehmer Besprechungen automatisch zulassen sollen. Weitere Informationen zu Teams Besprechungsrichtlinien finden [Sie unter Verwalten von Besprechungsrichtlinien in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+Aktivieren Sie für Zusammenarbeitszwecke PowerPoint Live, Whiteboard und freigegebene Notizen. Es wird empfohlen, die Besprechungsrichtlinieneinstellung "Jetzt in privaten Besprechungen besprechen" zu aktivieren. Möglicherweise möchten Sie eine Besprechungsrichtlinie erstellen, um Teilnehmer- und Gasteinstellungen für Teams-Räume anzupassen. Überprüfen Sie beispielsweise die Wartebereichseinstellungen, z. B. welche Teilnehmer Besprechungen automatisch zulassen sollen. Weitere Informationen zu Teams-Besprechungsrichtlinien finden [Sie unter Verwalten von Besprechungsrichtlinien in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### <a name="calling"></a>Anrufe
 
 Es gibt keine eindeutigen Anforderungen zum Aktivieren von Aufrufen mit Ressourcenkonten. Sie aktivieren das Ressourcenkonto für Das Aufrufen auf die gleiche Weise, wie Sie einen normalen Benutzer aktivieren.
 
 > [!NOTE]
-> Es wird empfohlen, Voicemail für freigegebene Geräte zu deaktivieren, indem Sie den Geräteressourcenkonten eine Anrufrichtlinie zuweisen. Weitere Informationen finden Sie [unter Anrufen und Anrufweiterleitung in Teams](../teams-calling-policy.md).
+> Es wird empfohlen, Voicemail für freigegebene Geräte zu deaktivieren, indem Sie den Geräteressourcenkonten eine Anrufrichtlinie zuweisen. Weitere Informationen finden Sie [unter Anrufen und Anrufweiterleitung in Teams](../teams-calling-policy.md) .
 
-### <a name="configure-distribution-groups-for-teams-calendar"></a>Konfigurieren von Verteilergruppen für Teams Kalender
+### <a name="configure-distribution-groups-for-teams-calendar"></a>Konfigurieren von Verteilergruppen für Teams-Kalender
 
-Zum Organisieren ihrer Besprechungsraumspeicherorte können Sie Ihre Geräteressourcenkonten Exchange Verteilergruppen hinzufügen. Wenn Sie beispielsweise Niederlassungen an drei verschiedenen geografischen Standorten haben, können Sie drei Verteilergruppen erstellen und jedem Standort die entsprechenden Ressourcenkonten hinzufügen. Weitere Informationen finden Sie unter [Erstellen einer Chatroomliste](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+Zum Organisieren ihrer Besprechungsraumspeicherorte können Sie Ihre Geräteressourcenkonten zu Exchange-Verteilergruppen hinzufügen. Wenn Sie beispielsweise Niederlassungen an drei verschiedenen geografischen Standorten haben, können Sie drei Verteilergruppen erstellen und jedem Standort die entsprechenden Ressourcenkonten hinzufügen. Weitere Informationen finden Sie unter [Erstellen einer Chatroomliste](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
 
 ### <a name="configure-places-for-outlook-calendar"></a>Konfigurieren von Orten für Outlook-Kalender
-Damit Besprechungsraumspeicherorte im Outlook Raumsuche angezeigt werden, müssen Sie das Set-Place Exchange PowerShell-Cmdlet verwenden. Die Raumsuche wird nicht nur Set-Place in Outlook aufgefüllt, sondern ermöglicht es Ihnen auch, zusätzliche Metadaten wie die Kapazität des Raums oder den Boden des Gebäudes hinzuzufügen, in dem sich der Raum befindet. Weitere Informationen finden Sie unter [Set-Place](/powershell/module/exchange/set-place).
+Damit Besprechungsraumspeicherorte in der Outlook-Raumsuche angezeigt werden, müssen Sie das Set-Place Exchange PowerShell-Cmdlet verwenden. Die Raumsuche in Outlook wird nicht nur Set-Place aufgefüllt, sondern ermöglicht es Ihnen auch, zusätzliche Metadaten hinzuzufügen, z. B. die Kapazität des Raums oder den Boden des Gebäudes, in dem sich der Raum befindet. Weitere Informationen finden Sie unter [Set-Place](/powershell/module/exchange/set-place).
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

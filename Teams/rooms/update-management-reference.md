@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams-Räume referenz
+title: Microsoft Teams-Räume Referenz
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -10,37 +10,36 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Referenzmaterial
 f1keywords: ''
-ms.openlocfilehash: 5f3b23078f29cba82809b5ef22440dd0ddf838fb
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: e75742cb209018030ca9d6600c518e210b396386
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071023"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268410"
 ---
-# <a name="managing-room-software-stack"></a>Verwalten des Softwarestapels "Raum"  
-In jedem Raum arbeiten verschiedene Teile des Softwarestapels zusammen, um die Erfahrung zu bieten. Auf einer hohen Ebene können sie wie folgt zusammengefasst werden: 
+# <a name="managing-room-software-stack"></a>Verwalten des Raumsoftwarestapels  
+In jedem Raum arbeiten verschiedene Teile des Softwarestapels zusammen, um die Erfahrung zu bieten. Auf hoher Ebene können sie wie folgt zusammengefasst werden: 
 
 ![Screenshot der Zusammenfassung des Softwarestapels](../media/update-management-006.jpg)
 
-Um ein positives Besprechungserlebnis für jeden Tag  in jedem Raum zu gewährleisten, ist es wichtig, jede Software, die für jeden der Räume ausgeführt wird, zu standardisieren und Fixes in den Räumen je nach Konfiguration zu erstellen. Es kommt auch häufig vor, dass Kunden einen eigenen Überprüfungsprozess einrichten, um Vertrauen in ausstehende Fixes zu gewinnen, indem sichergestellt wird, dass mit ihr ein problembehebungsbereites Problem behoben wird, oder es werden Vorschaufeatures angezeigt, um die Organisation für die Änderung zu bereiten.  
+Um ein positives Besprechungserlebnis jeden Tag in jedem Raum zu gewährleisten, ist es wichtig, **jede Softwareeinheit zu standardisieren** , die auf jedem der Räume ausgeführt wird, und Fixes in den Räumen je nach Konfiguration bereitzustellen. Es ist auch üblich, dass Kunden ihren eigenen Überprüfungsprozess einrichten, um Vertrauen über alle ausstehenden Korrekturen zu gewinnen, indem sie überprüfen, ob es wirklich ein Problem behebt, das möglicherweise auftritt, oder Vorschaufeatures, um die Organisation für die Änderung vorzubereiten.  
 
-Verwaltete Dienste für Microsoft Teams-Räume behandelt alle oben genannten Schritte, sodass Sie sich keine Gedanken über ein Update machen oder Probleme mit einem Update beheben müssen. In diesem Abschnitt wird beschrieben, wie verwaltete Softwareupdates funktionieren.  
+Verwaltete Dienste für Microsoft Teams-Räume behandelt alle oben genannten Vorgänge, sodass Sie sich keine Gedanken darüber machen müssen, ein Update zu erhalten oder Probleme mit einem Update zu beheben. In diesem Abschnitt wird beschrieben, wie verwaltete Softwareupdates funktionieren.  
 
-## <a name="managing-to-a-good-state"></a>Verwalten eines guten Zustands 
-Unser Hauptziel ist es, die Räume in Betrieb zu halten und für Ihre Organisation verfügbar zu halten. Experten für verwaltete Dienste arbeiten ständig in Ihrem Auftrag daran, Updates für Ihre Produktionsräume zu aktualisieren, zu überprüfen und zu implementieren. In bestimmten Fällen kann dies bedeuten, dass wir die Rauminte health gegenüber neuen Features und Veröffentlichungen priorisieren, die überprüft werden müssen, bevor sie veröffentlicht werden.
+## <a name="managing-to-a-good-state"></a>Verwalten in einem guten Zustand 
+Unser Hauptziel ist es, die Räume in Betrieb zu halten und für Ihre Organisation verfügbar zu halten. Managed Services-Experten arbeiten ständig in Ihrem Auftrag daran, Updates für Ihre Produktionsräume zu kuratieren, zu überprüfen und bereitzustellen. In bestimmten Fällen kann dies bedeuten, dass wir die Raumintegrität gegenüber neuen Features und Versionen priorisieren, die vor dem Rollout überprüft werden sollen.
 
-Am wichtigsten ist jedoch, dass Sie sich keine Gedanken um das Investieren von Zeit machen müssen, um die Details dieser Updates zu erfahren und sie selbst zu überprüfen. Wenn Probleme mit einem bestimmten Update und einem bestimmten Raum auftreten, arbeiten wir mit Ihnen zusammen an der Problembehandlung und deren Behebung.  
+Vor allem bedeutet dies, dass Sie sich keine Gedanken darüber machen müssen, Zeit zu investieren, um die Details dieser Updates zu erfahren und sie selbst zu überprüfen. Wenn Es Probleme mit einem bestimmten Update und einem bestimmten Raum gibt, werden wir mit Ihnen zusammenarbeiten, um Probleme zu beheben und zu beheben.  
 
-Der Vorgang des Roll outings von Updates kann daher in die folgenden Verfahren aufgeschlüsselt werden:
+Der Prozess des Rollouts von Updates kann daher in Folgendes unterteilt werden:
 
-- Das Team für verwaltete Dienste identifiziert Updates proaktiv, überprüft sie und bewerben sie dann für die Freigabe in Ihrer Umgebung.
-- Updates, die an Ihre Räume übermittelt werden, werden bestellt, um Konflikte und Interaktionen zu vermeiden, die dann so geplant werden, dass normale Betriebszeiten vermieden werden.
-- Das Ringsystem bietet Ihnen die Möglichkeit, immer über Updates auf Ihre Räume zu informiert zu sein, ohne dies zu tun.
-- Verwaltete Dienste überwachen Updates und alarmieren das Betriebscenter des Rechenzentrums automatisch, um Probleme nach zu verfolgen und mit Ihnen zusammen an der Lösung der Probleme zu arbeiten.
+- Das Team für verwaltete Dienste identifiziert Updates proaktiv, überprüft sie und fördert sie dann für die Freigabe in Ihrer Umgebung.
+- Aktualisierungen, die in Ihre Räume geliefert werden, werden bestellt, um Konflikte und Interaktionen zu vermeiden, die dann geplant werden, um reguläre Betriebszeiten zu vermeiden.
+- Das Ringsystem bietet Ihnen die Möglichkeit, auf Updates aufmerksam zu bleiben, die auf Ihre Räume angewendet werden, ohne die Arbeit zu erledigen.
+- Verwaltete Dienste überwachen Updates und benachrichtigen automatisch das Raumbetriebszentrum, um Probleme zu verfolgen und mit Ihnen zusammenzuarbeiten, um sie zu beheben.

@@ -14,19 +14,16 @@ searchScope:
 audience: admin
 description: Hier erfahren Sie, wie Sie die Tasks-App für Mitarbeiter in Ihrer Organisation verwalten können.
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1749c4b21c6b67f40eddd437ff0766918b5dc5df
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 5eeea688d2fcaa67b2125ff67e15d80b981a03df
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819270"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267850"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
 

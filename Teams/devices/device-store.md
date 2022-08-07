@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +17,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Erfahren Sie, wie Sie Geräte im Teams Admin Center-Gerätespeicher durchsuchen und kaufen.
-ms.openlocfilehash: 9e555cd0f389c8158e66b824183a1038fc11ce04
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: a6b68f6e1ffbde15f9f38dfcdeac881a7b3aabc1
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240714"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267980"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Kaufen von Geräten im Teams-Gerätespeicher
 

@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +15,12 @@ ms.reviewer: mikedav
 description: Erfahren Sie, wie Sie Benutzern Teams-Add-On-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156973"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268170"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern
 
@@ -132,7 +131,7 @@ Weitere Informationen finden Sie unter [Anzeigen von Lizenzen und Diensten mit P
 | Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
-| Microsoft 365 Business | SPB|
+| Microsoft 365 Business | Spb|
 | Audiokonferenzen | MCOMEETADV |
 | Audiokonferenzen pay per Minute (pay as you go) erfordert, dass Kommunikationsguthaben eingerichtet und aktiviert ist.* | MCOMEETACPEA |
 | Teams Phone Standard | MCOEV |

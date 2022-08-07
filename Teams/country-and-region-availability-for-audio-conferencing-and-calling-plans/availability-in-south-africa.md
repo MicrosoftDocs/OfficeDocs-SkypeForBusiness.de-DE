@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Südafrika.
-ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Südafrika verfügbar.
+ms.openlocfilehash: 34b45b9cbff9808d94aaeb44611565c6666b46a5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070574"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270990"
 ---
 # <a name="availability-in-south-africa"></a>Verfügbarkeit in Südafrika
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Südafrika.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Südafrika verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -59,12 +59,12 @@ Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Mic
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120-Minuten-Plan für Inlandsrufe </li><li>240-Minuten-Plan für Inlandsrufe</li></li><li>1200-Minuten-Plan für Inlandsrufe </li></li><li>Anrufplan für Inlands- und Auslandsrufe: 1.200 Minuten für Inlands- oder 600 Minuten für Auslandsrufe (die im Kalendermonat zuerst erreicht werden)</li></li></ul>|
+|Sind Anrufpläne zum Kauf verfügbar?  |Ja          |   
+|Verfügbare Minuten für Anrufpläne.    |Pro Kalendermonat stehen fünf Planoptionen zur Verfügung: <ul><li>Pay-as-You-Go-Anrufplan </li><li> 120 Minuten Anrufplan für Inland </li><li> 240 Minuten Anrufplan für Inland </li><li> 1200 Minuten Anrufplan für Inland </li><li> Internationaler Anrufplan: 1200 Minuten inländische oder 600 Minuten auslandsanrufe (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></ul>|
 |Kann man ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Wird zurzeit nicht unterstützt. <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> | In 196 Länder oder Regionen, einschließlich [dieser](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+|Sind ausgehende Anrufe möglich?  <br/> | An 196 Länder oder Regionen, darunter [auch diese](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
-Wenn Anrufpläne nicht erhältlich sind, finden Sie unter [PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) alle verfügbaren Optionen.
+Wenn Anrufpläne nicht zum Kauf verfügbar sind, finden Sie unter ["PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) " alle verfügbaren Optionen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

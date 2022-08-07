@@ -9,12 +9,8 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Support von einem Microsoft-Händler oder -Partner erhalten, der Sie beim Einrichten ihrer Microsoft Teams Telefonsystem ohne Einen Anrufplan unterstützt.
+description: Erfahren Sie, wie Sie Support von einem Microsoft-Händler oder -Partner erhalten, der Ihnen beim Einrichten Microsoft Teams des Telefonsystems ohne Anrufplan hilft.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,32 +20,34 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 470c1b4f4df121968a9a19b56d0487fdc4a28975
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: e5eccd025a0ba429518861d21d50b7af0e70e6b0
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053354"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271890"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Hilfe von einem Microsoft-Händler oder -Partner erhalten
 
-Zum Einrichten Teams Telefonsystem können Sie dies selbst einrichten oder einen Microsoft-Partner oder Verkäufer verwenden.
+Sie können das Telefonsystem selbst einrichten Teams oder einen Microsoft-Partner oder -Verkäufer verwenden.
 
-Sie finden einen Microsoft-Händler oder -Partner auf der Seite "Partner [Verbinden Partner](https://appsource.microsoft.com/marketplace/partner-dir) suchen.
+Sie können einen Microsoft-Händler oder -Partner finden, indem Sie die Seite ["Mit Partnern verbinden"](https://appsource.microsoft.com/marketplace/partner-dir) besuchen.
 
 Ein Microsoft-Partner oder -Händler kann:
 
-- Abrufen der richtigen Teams Telefon für Mandanten- und Telefonbenutzer
-- Helfen Sie Ihnen, die technischen Anforderungen für das Einrichten von Telefonsystem
-- Koordinieren Sie sich mit Ihrem Telefonanbieter, um sicherzustellen, dass Ihre Telefonnummern ordnungsgemäß für die Verwendung mit Telefonsystem
-- Die Kommunikation zwischen Ihrer lokalen Telefonie-Hardware und Microsoft 365 einrichten
-- Hilfe beim Einrichten Telefonsystem Funktionen wie Anrufwarteschleifen, automatische Telefonzentrale, Voicemail und mehr
+- Abrufen der richtigen Teams Telefonlizenzen für Ihre Mandanten- und Telefonbenutzer
+- Helfen Sie, die technischen Anforderungen für die Einrichtung des Telefonsystems zu verstehen
+- Koordinieren Sie sich mit Ihrem Telefonanbieter, um sicherzustellen, dass Ihre Telefonnummern ordnungsgemäß für die Verwendung mit dem Telefonsystem eingerichtet sind.
+- Einrichten der Kommunikation zwischen Ihrer lokalen Telefoniehardware und Microsoft 365
+- Unterstützung beim Einrichten von Telefonsystemfunktionen wie Anrufwarteschleifen, automatischer Telefonzentrale, Voicemail und mehr
 
-Wenn Sie einen Microsoft-Partner oder -Händler über das Einrichten von Teams Telefonsystem kontaktieren, müssen Sie ihm Informationen wie dies zur Verfügung stellen:
+Wenn Sie sich an einen Microsoft-Partner oder -Händler wenden, um das Telefonsystem einzurichten Teams , müssen Sie ihnen Informationen bereitstellen, z. B.:
 
 - Wie viele Benutzer, Telefone und andere Geräte müssen Anrufe von und zu externen Telefonnummern tätigen und empfangen können
 - Details zu Ihrer vorhandenen Telefonanlage
-- Details zu Ihrer Verbindung zwischen Ihrem Teams Telefonsystem ihrem PSTN-Anbieter
+- Details zu Ihrer Verbindung zwischen Ihrem Teams Telefonsystem und Ihrem PSTN-Anbieter
 - Ihre Internetverbindung
 - Für Ihre Organisation einzigartige Design-Überlegungen, z.B. die Notwendigkeit, Callcenter-Funktionalität zu unterstützen, Telefonsystem-Anrufmenüs zu unterstützen (beispielsweise: „drücken Sie 1 für Vertrieb, drücken Sie 2, um technische Unterstützung zu erhalten“), Konferenzräume, Telefon-Kioske usw.
 - Wie viele Orte das vorhandene Telefonsystem unterstützt und wie die Konnektivität dazwischen eingerichtet ist

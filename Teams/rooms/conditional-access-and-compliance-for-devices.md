@@ -11,13 +11,14 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Erfahren Sie mehr über die empfohlenen Richtlinien für bedingten Zugriff und Intune Gerätecompliance sowie bewährte Methoden für Microsoft Teams-Räume.
-ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: a1d86b002a4960e58541650643574428a2c3ede5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761307"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271030"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Bedingter Zugriff und Intune Compliance für Microsoft Teams-Räume
 
@@ -25,7 +26,7 @@ Dieser Artikel enthält Anforderungen und bewährte Methoden für bedingten Zugr
 
 ## <a name="requirements"></a>Anforderungen
 
-Teams-Räume müssen bereits auf den Geräten bereitgestellt werden, den Sie Richtlinien für bedingten Zugriff zuweisen möchten. Wenn Sie Teams-Räume noch nicht bereitgestellt haben, finden Sie weitere Informationen unter ["Erstellen von Ressourcenkonten für Räume und freigegebene Teams Geräte](with-office-365.md)" und "[Bereitstellen von Microsoft Teams-Räume auf Android](../devices/collab-bar-deploy.md)".
+Teams-Räume müssen bereits auf den Geräten bereitgestellt werden, den Sie Richtlinien für bedingten Zugriff zuweisen möchten. Wenn Sie Teams-Räume noch nicht bereitgestellt haben, finden Sie unter ["Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte](with-office-365.md)" und ["Bereitstellen von Microsoft Teams-Räume unter Android](../devices/collab-bar-deploy.md)" weitere Informationen.
 
 Für die Verwendung des bedingten Zugriffs ist ein Azure Active Directory P1-Serviceplan erforderlich. Es ist in der Microsoft Teams-Räume-Lizenz enthalten.
 
@@ -35,7 +36,7 @@ Richtlinien für bedingten Zugriff können den Anmeldevorgang auf Geräten siche
 
 Berücksichtigen Sie bei verwendung des bedingten Zugriffs zum Sichern Teams-Räume die folgenden bewährten Methoden:
 
--   Um die Bereitstellung und Verwaltung zu vereinfachen, schließen Sie alle Microsoft 365 Raumressourcenkonten, die Teams-Räume zugeordnet sind, in einer Benutzergruppe ein.
+-   Um die Bereitstellung und Verwaltung zu vereinfachen, schließen Sie alle Microsoft 365-Raumressourcenkonten, die Teams-Räume zugeordnet sind, in eine Benutzergruppe ein.
 
 -   Verwenden Sie einen Benennungsstandard für alle Teams-Räume Ressourcenkonten. Beispielsweise beginnen die Kontonamen "mtr-room1@contoso.com" und "mtr-room2@contoso.com" beide mit dem Präfix "mtr-".
     Wenn Kontonamen standardisiert sind, können Sie dynamische Gruppen in Azure AD verwenden, um automatisch Richtlinien für bedingten Zugriff auf alle diese Konten gleichzeitig anzuwenden. Weitere Informationen zu dynamischen Gruppen finden Sie unter [Regeln für die Mitgliedschaft dynamisch ausgefüllter Gruppen](/azure/active-directory/enterprise-users/groups-dynamic-membership) .
@@ -50,7 +51,7 @@ Im folgenden Beispiel funktioniert die Richtlinie für bedingten Zugriff wie fol
 
 2.  Das Konto, das sich anmeldet, darf nur versuchen, auf Exchange Online, Microsoft Teams oder SharePoint Online zuzugreifen. Versuche, sich bei einer anderen Client-App anzumelden, werden abgelehnt.
 
-3.  Das Ressourcenkonto muss sich auf der Windows Geräteplattform anmelden.
+3.  Das Ressourcenkonto muss sich auf der Windows-Geräteplattform anmelden.
 
 4.  Das Ressourcenkonto muss sich auch von einem bekannten, vertrauenswürdigen Speicherort aus anmelden.
 
@@ -62,16 +63,16 @@ Complianceanforderungen sind definierte Regeln, die Geräte erfüllen müssen, u
 
 Eine Liste der unterstützten Intune Compliancerichtlinien für Teams-Räume finden Sie unter [Unterstützte Gerätecompliancerichtlinien](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
 
-Weitere Informationen zum Einrichten von Intune mit Teams Android-Geräten finden [Sie unter Konfigurieren Intune zum Registrieren Teams Android-basierter Geräte](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
+Weitere Informationen zum Einrichten von Intune mit Teams [Android-Geräten finden Sie unter Konfigurieren Intune für die Registrierung von Android-basierten Teams-Geräten](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
 
 ## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>Beispiel (nur Windows): Bedingter Zugriff mit Intune Gerätekompatibilität
 
-In diesem Beispiel für Teams-Räume auf Windows
+In diesem Beispiel für Teams-Räume unter Windows
 
-1. Eine Firewall muss auf Teams-Räume auf Windows ausgeführt werden.
+1. Eine Firewall muss auf Teams-Räume unter Windows ausgeführt werden.
 
 2. Setzen Sie voraus, dass Microsoft Defender auf Teams-Räume ausgeführt wird.
 
-3. Wenn ein Teams Raum keine dieser Anforderungen erfüllt, wird er nicht als konform gekennzeichnet, und die Geräte melden sich nicht an.
+3. Wenn ein Teams-Raum keine dieser Anforderungen erfüllt, wird er nicht als konform gekennzeichnet, und die Geräte melden sich nicht an.
 
-Diese Compliancerichtlinie gilt für alle Benutzer, nicht nur für Teams Ressourcenkonten.
+Diese Compliancerichtlinie gilt für alle Benutzer, nicht nur für Teams-Ressourcenkonten.

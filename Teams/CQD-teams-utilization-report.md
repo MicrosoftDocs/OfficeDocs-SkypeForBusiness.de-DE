@@ -9,25 +9,24 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Verwenden Sie die Power BI-Berichte zur Teams-Nutzung, um auf CQD-Daten (Call Quality Dashboard) von Microsoft Teams zuzugreifen, um die Nutzung von Microsoft Teams in Ihrer Organisation nachzuverfolgen.
-ms.openlocfilehash: 6e96f9dd06f872f2907d04aa335e2af2d7a75f2b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: bd579fa3f57c6e3b50a363eb77523f577c750efb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790340"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270690"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Anzeigen der Nutzung von Microsoft Teams in Power BI mithilfe von CQD-Daten
 
-Neu im März 2020, wir haben einen Teams-Nutzungsbericht zu unseren herunterladbaren [Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) hinzugefügt. 
+Der Bericht "Teams-Nutzung" ist als Teil unserer herunterladbaren [Power BI-Abfragevorlagen für CQD](https://www.microsoft.com/download/details.aspx?id=102291) verfügbar. 
 
-Mit diesen neuen Teams-Nutzungsberichten können Sie sehen, wie (und wie viel) Ihre Benutzer Microsoft Teams verwenden, indem Sie auf CQD-Daten (Call Quality Dashboard) von Teams zugreifen. Diese Berichte sollen ein zentraler Ort sein, zu dem sowohl Administratoren als auch Unternehmensleiter schnell zu diesen Daten wechseln können.
+In diesem Bericht können Sie sehen, wie (und wie viel) Ihre Benutzer Microsoft Teams verwenden, indem Sie auf CQD-Daten (Call Quality Dashboard) von Teams zugreifen. Diese Berichte sollen ein zentraler Ort sein, zu dem sowohl Administratoren als auch Unternehmensleiter schnell zu diesen Daten wechseln können. Beachten Sie, dass wir [aufgrund der Art der Telemetrie der Anrufqualität nicht auf diese Daten für konkrete Zahlen vertrauen](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that).
 
 Der Power BI-Bericht "Teams-Nutzung" besteht aus zwei primären Berichten: **[Anrufanzahlzusammenfassung](#call-count-summary-report)** und **[Audiominutenzusammenfassung](#audio-minutes-summary-report)**. Die Berichte ["Tägliche Nutzung"](#daily-usage), ["Regionale Audiodetails](#regional-audio-details)", ["Konferenzdetails](#conference-details) " und " [Benutzerliste](#user-list) " kommen ins Spiel, wenn ein Benutzer die Drilldownberichte nutzt, die in den nachstehenden Beschreibungen aufgeführt sind.
 

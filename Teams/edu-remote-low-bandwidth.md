@@ -14,16 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f95cb60f28a81c2feb10fb01c6088fa0799e119c
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 87800943dc6e6a615e09b7995a613d109ebcf30c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62362971"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269050"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Microsoft Teams für Bildungseinrichtungen – Hilfe bei Situationen mit geringer Bandbreite
 

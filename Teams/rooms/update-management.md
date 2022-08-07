@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: proaktive Überwachung Ihrer Besprechungsräume.
 f1keywords: ''
-ms.openlocfilehash: 2311d17c5d60b7c9eb845570ce24c5f6db507717
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 97c812cca2b64979f224e9f7da63087899b9c7a9
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057065"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269120"
 ---
 # <a name="update-management"></a>Updateverwaltung 
 Ein moderner Besprechungsraum ist mit einem Microsoft Teams-Räume Gerät und anderen Peripheriegeräten wie einer Kamera, einem Mikrofon oder einem Lautsprecher und potenziell mehr Geräten ausgestattet, um eine inklusive und effektive Besprechungserfahrung zu schaffen. Geräte aus verschiedenen Arten von OEMs bieten genau die gewünschte Organisationserfahrung; Sie müssen jedoch kontinuierlich mit Software und Firmware verwaltet werden.  
@@ -51,17 +51,17 @@ Es gibt einige Voraussetzungen für den Empfang von Updates für verwaltete Dien
 
 |Software |Anleitung |
 |:- |:- |
-|Logitech-Synchronisierungsdienste  |Sollte auf den Logitech-Besprechungsraumgeräten installiert und ausgeführt werden. Erforderliche Synchronisierungsdienste werden automatisch von Windows Updates installiert, sofern nicht blockiert. Das vollständige Synchronisierungspaket kann auch installiert werden. |
-|Windows Betriebssystemupdates |Sollte aktiviert und weder an WSUS umgeleitet noch aus Netzwerksicht blockiert werden. Weder GPO- noch MDM-Richtlinien sollten zum Verwalten von Betriebssystemupdates verwendet werden. |
-|Microsoft Store Updates   |Sollte deaktiviert sein. Verwaltete Dienste deaktivieren Store Updates, wenn sie aktiviert sind. |
-|Antivirensoftware |Wenn Sie AV-Software auf diesen Geräten ausführen, sollten Sie sicherstellen, dass AV Ausschlüsse für Teams und Skype DLL-Dateien aufweist. Weitere Informationen finden Sie hier. |
+|Logitech-Synchronisierungsdienste  |Sollte auf den Logitech-Besprechungsraumgeräten installiert und ausgeführt werden. Erforderliche Synchronisierungsdienste werden automatisch von Windows Aktualisierungen installiert, sofern nicht blockiert. Das vollständige Synchronisierungspaket kann auch installiert werden. |
+|Windows-Betriebssystemupdates |Sollte aktiviert und weder an WSUS umgeleitet noch aus Netzwerksicht blockiert werden. Weder GPO- noch MDM-Richtlinien sollten zum Verwalten von Betriebssystemupdates verwendet werden. |
+|Microsoft Store-Updates   |Sollte deaktiviert sein. Verwaltete Dienste deaktivieren Store-Updates, wenn sie aktiviert sind. |
+|Antivirensoftware |Wenn Sie AV-Software auf diesen Geräten ausführen, sollten Sie sicherstellen, dass AV Ausschlüsse für Teams und Skype-DLLs aufweist. Weitere Informationen finden Sie hier. |
 |Zusätzliche Software |Zusätzliche Software wie die Remotedesktopanzeige von Drittanbietern usw. sollte mit verwalteten Diensten überprüft werden, um Nebenwirkungen auszuschließen. |
 |Zusätzliche Änderungsverwaltung|Kann die abgedeckten Updates stören und sollte nicht eingeführt werden. |
 
 ## <a name="managed-updates--how-it-works"></a>Verwaltete Updates – Funktionsweise 
 Es gibt zwei Hauptmethoden, wie Updates verwaltet werden:  
 
-- **Automatisch verwaltet**: Updates werden auf Ihrem Raumgerät basierend auf der Bewertung verwalteter Dienste installiert. Für die in unserem Portfolio verwalteten Updates ist kein Eingriff erforderlich.
+- **Automatisch verwaltet**: Aktualisierungen werden basierend auf der Bewertung verwalteter Dienste auf Ihrem Raumgerät installiert. Für die in unserem Portfolio verwalteten Updates ist kein Eingriff erforderlich.
 - **Ring überprüft**: Richten Sie ein Ringsystem ein, um Updates auf bestimmten Geräten in der Vorschau anzuzeigen, sodass Sie diese ohne die zugehörige Beinarbeit überwachen können. Das Ringsetup bietet eine zusätzliche Ebene der Due Diligence vor umfassenden Rollouts.  
 
 ### <a name="automatically-managed"></a>Automatisch verwaltet
@@ -81,10 +81,10 @@ Verwaltete Updates werden für Räume basierend auf dem Gerät im Raum geplant, 
 
 - Um unseren Kunden dabei zu helfen, die Anforderungen des Änderungsmanagements zu erfüllen, beginnt die Updatebereitstellung **mittwochs** im Stagingring. Wenn ein kritisches Update erforderlich ist, umgehen wir diesen Zeitplan und veröffentlichen das Update, sobald es verfügbar ist. 
 
-- Updates werden basierend auf der Notwendigkeit in einem bestimmten Raum sequenziert. 
+- Aktualisierungen werden je nach Bedarf in einem bestimmten Raum sequenziert. 
 - Wenn Sie Setupringe zum Überprüfen der Updates haben, wird das Update durch die Ringreihenfolge ausgeführt. 
 - Ein neues Update kann ein Update ersetzen, das in die Warteschlange gestellt wird, wenn wir feststellen, dass die Raumstabilität basierend auf Ihrer Situation verbessert wird.  
-- Updates werden in der Regel während unseres nächtlichen Wartungsfensters angewendet – in der Ortszeit **von 12:00 – 5:00 Uhr** , um Unterbrechungen jeglicher Art zu vermeiden. 
+- Aktualisierungen werden in der Regel während unseres nächtlichen Wartungsfensters angewendet – in der Ortszeit **von 12:00 Uhr bis 5:00 Uhr**, um Unterbrechungen jeglicher Art zu vermeiden. 
 
 ## <a name="microsoft-teams-rooms-app-update-lifecycle-policy"></a>Microsoft Teams-Räume App-Updatelebenszyklusrichtlinie 
 Die Supportrichtlinie des MTR-Entwicklungsteams gibt an, dass der gesamte Support nach Ablauf des Zwölfmonatslebenszyklus für eine Version endet oder wenn seitdem mehr als zwei Updates veröffentlicht wurden. Kunden müssen dann eine Aktualisierung auf eine unterstützte Version durchführen. Verweisen Sie auf [Microsoft Teams-Räume App-Versionsunterstützung – Microsoft Teams | Microsoft-Dokumentation](rooms-lifecycle-support.md) für eine detaillierte Dienstbeschreibung.
@@ -94,17 +94,17 @@ Um einen einheitlichen Standard in allen unseren verwalteten Räumen beizubehalt
 Die N-1-Richtlinie gilt auch für Software von Drittanbietern.  
 
 ## <a name="update-management-experience-walk-through"></a>Schrittweises Durchlaufen der Updateverwaltungsoberfläche  
-Um Updates anzuzeigen, melden Sie sich beim Portal für verwaltete Dienste an, und navigieren Sie zur Seite "Updates".
+Um Updates anzuzeigen, melden Sie sich beim Portal für verwaltete Dienste an, und navigieren Sie zur Seite Aktualisierungen.
 
 ![Screenshot der Updates für verwaltete Dienste](../media/update-management-001.jpg)
 
-Im Bereich "Updates" wird eine allgemeine Übersicht über die Updateverwaltung für Ihre Räume mit den folgenden Registerkarten angezeigt:
+Im bereich Aktualisierungen wird eine allgemeine Übersicht über die Updateverwaltung für Ihre Räume mit den folgenden Registerkarten angezeigt:
 
-- **Updates**: Software- oder Firmwareupdates, die verwaltete Dienste durch Ihre Organisation orchestrieren.  
+- **Aktualisierungen**: Software- oder Firmwareupdates, die verwaltete Dienste in Ihrer Organisation orchestrieren.  
 - **Räume**: Die Registerkarte "Räume" bietet einen Blick auf die Räume und Ringe, zu denen die einzelnen Räume gehören.
 - **Ringe**: Auf der Registerkarte "Ringe" werden die Ringe von Räumen für Ihre Organisation angezeigt.
 
-### <a name="updates"></a>Updates  
+### <a name="updates"></a>Aktualisierungen  
 
 In dieser Ansicht werden die relevanten Updates für Ihren Mandanten und deren jeweiliger Status angezeigt. Wenn Sie frühere Updates anzeigen möchten, die nicht mehr aktiv sind, wählen Sie die Umschaltfläche " **Vergangene Updates einschließen** " auf "EIN" aus.  
 
@@ -133,13 +133,13 @@ So konfigurieren Sie, zu welchem Ring ein Raum gehören soll:
 1. Wählen Sie den Ring aus, zu dem der Raum gehören soll.  
 1. Klicken Sie auf **"Zuweisen"**.  
 
-In der detaillierten Raumansicht werden die relevanten Updates und deren Status unter dem Knoten **"Updates"** angezeigt.  
+In der detaillierten Raumansicht werden die relevanten Updates und deren Status unter dem **Knoten Aktualisierungen** angezeigt.  
 
 ![Screenshot relevanter Updates und Änderungen](../media/update-management-003.jpg)
 
 ### <a name="rings"></a>Ringe  
 
-Ringe werden verwendet, um das Risiko von Problemen zu verringern, die durch die Bereitstellung der Featureupdates entstehen. Dazu wird das Update schrittweise für die gesamte Website bereitgestellt. Jeder Ring sollte über eine Liste der Microsoft Teams Raumräume und einen entsprechenden Rollout-Zeitplan verfügen. Das Definieren von Ringen ist in der Regel ein einmaliges Ereignis (oder zumindest selten), aber die IT sollte diese Gruppen von Zeit zu Zeit erneut überprüfen, um sicherzustellen, dass die Sequenzierung weiterhin korrekt ist.  
+Ringe werden verwendet, um das Risiko von Problemen zu verringern, die durch die Bereitstellung der Featureupdates entstehen. Dazu wird das Update schrittweise für die gesamte Website bereitgestellt. Jeder Ring sollte über eine Liste der Microsoft Teams-Raumräume und einen entsprechenden Rollout-Zeitplan verfügen. Das Definieren von Ringen ist in der Regel ein einmaliges Ereignis (oder zumindest selten), aber die IT sollte diese Gruppen von Zeit zu Zeit erneut überprüfen, um sicherzustellen, dass die Sequenzierung weiterhin korrekt ist.  
 
 Auf der Registerkarte **"Ringe** " werden alle Ringe in Ihrem Mandanten aufgelistet. Es gibt drei vorkonfigurierte Ringe:  
 
@@ -151,7 +151,7 @@ Auf der Registerkarte **"Ringe** " werden alle Ringe in Ihrem Mandanten aufgelis
 
 ### <a name="specifying-rollout-timeline"></a>Angeben der Rolloutzeitachse
 
-Updates dürfen nicht länger als 60 Tage dauern, bis sie für alle Ringe abgeschlossen werden.  
+Aktualisierungen darf 60 Tage nicht überschreiten, um alle Ringe abzuschließen.  
 
 |Parameter |Erklärung |
 |:- |:- |
@@ -204,8 +204,8 @@ Das Verschieben von Räumen von einem Ring in einen anderen ist auf zwei Arten m
 
 **Oder**
 
-1. Öffnen Sie die Raumdetails für den Raum, den Sie verschieben möchten (entweder über Vorfälle, Räume oder Updates – > Räume).
-1. Klicken Sie auf die Registerkarte " **Updates** ".  
+1. Öffnen Sie die Raumdetails für den Raum, den Sie verschieben möchten (entweder über Vorfälle, Räume oder Aktualisierungen -> Räume).
+1. Klicken Sie auf die Registerkarte **Aktualisierungen**.  
 1. Klicken Sie unter **"Zugewiesener Ring**" auf **"Ändern"**.
 1. Wählen Sie in der Dropdownliste den neuen Ring aus.  
 1. Klicken Sie auf **"Zuweisen"**.
@@ -220,6 +220,6 @@ Verwaltete Dienste orchestrieren Updates in Der gesamten Organisation. Sie haben
 - Möglicherweise gibt es dringende Situationen, in der Sie sich dazu entschließen, ein Update früher zur Verfügung zu stellen. In diesem Fall können Sie die Schaltfläche " **Aktualisierungen erzwingen** " verwenden. Wenn Sie die Option "Aktualisierung erzwingen" verwenden, haben Sie die Möglichkeit, das Update sofort oder wenn der nächste Raum verfügbar ist, zu erzwingen.  
 
 > [!NOTE]
-> **Es wird nicht empfohlen, "Updates erzwingen"** als allgemeine Updateverwaltungsstrategie zu verwenden. Wenn Sie ein Update pushen, das sich noch in unserem Gültigkeitsprüfungsdurchlauf befindet, treten möglicherweise Probleme auf, die uns bereits bekannt sind. In solchen Fällen wird die Lösung von Vorfällen für solche Räume auf best-effort-Basis erfolgen.  
+> **"Force Aktualisierungen" wird nicht** als allgemeine Updateverwaltungsstrategie empfohlen. Wenn Sie ein Update pushen, das sich noch in unserem Gültigkeitsprüfungsdurchlauf befindet, treten möglicherweise Probleme auf, die uns bereits bekannt sind. In solchen Fällen wird die Lösung von Vorfällen für solche Räume auf best-effort-Basis erfolgen.  
 
 - Um eine gute Änderungsverwaltung zu gewährleisten, protokollieren wir jede Erzwungene Aktualisierung intern im Dienst. Wir erwarten, dass wir das auch für Sie sichtbar machen.

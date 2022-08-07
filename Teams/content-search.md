@@ -8,32 +8,31 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- SPO_Content
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Erfahren Sie mehr über die Verwendung der Inhaltssuche im Microsoft Purview-Complianceportal, um nach Microsoft Teams Inhalten zu suchen, die in Exchange Online, SharePoint Online, OneDrive for Business und OneNote gespeichert sind.
+description: Erfahren Sie mehr über die Verwendung der Inhaltssuche im Microsoft Purview-Complianceportal, um nach Microsoft Teams-Inhalten zu suchen, die in Exchange Online, SharePoint Online, OneDrive for Business und OneNote gespeichert sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88f44bffaa3bf2dc125dad5f2d7595d08f49bffd
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a069478dc65fcafb5e1354796360c994aa2f0d36
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031860"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267440"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 
 > [!NOTE]
 > Die Inhaltssuche von Nachrichten und Dateien in [privaten Kanälen](private-channels.md) funktioniert anders als in Standardkanälen. Weitere Informationen finden Sie unter [Inhaltssuche privater Kanäle](#content-search-of-private-channels).
 
-Die Inhaltssuche bietet eine Möglichkeit zum Abfragen Microsoft Teams Informationen über Exchange, SharePoint Online und OneDrive for Business.
+Die Inhaltssuche bietet eine Möglichkeit zum Abfragen von Microsoft Teams-Informationen über Exchange, SharePoint Online und OneDrive for Business.
 
 Weitere Informationen finden Sie [unter Inhaltssuche in Microsoft 365](/microsoft-365/compliance/content-search).
 
-Beispielsweise können Sie mithilfe der **Inhaltssuche** für Ihr Manufacturing Specs-Postfach und Fertigungsspezifikationen SharePoint Website nach Teams Standardkanalunterhaltungen von Exchange, Dateiuploads und Änderungen von SharePoint Online und OneNote Änderungen suchen.
+Beispielsweise können Sie mithilfe der **Inhaltssuche** für Ihr Manufacturing Specs-Postfach und die SharePoint-Website für Fertigungsspezifikationen nach Teams-Standardkanalunterhaltungen aus Exchange, Dateiuploads und Änderungen von SharePoint Online und OneNote-Änderungen suchen.
 
 Sie können der **Inhaltssuche** auch Abfragekriterien hinzufügen, um die zurückgegebenen Ergebnisse einzugrenzen. Im obigen Beispiel können Sie nach Inhalten suchen, in denen die Schlüsselwörter "**Neue Werksspezifikationen"** verwendet wurden.
 
@@ -44,9 +43,9 @@ Sie können der **Inhaltssuche** auch Abfragekriterien hinzufügen, um die zurü
 
 Einträge für Nachrichten, die in einem privaten Kanal gesendet werden, werden an das Postfach aller Mitglieder des privaten Kanals und nicht an ein Gruppenpostfach übermittelt. Die Titel der Einträge sind so formatiert, dass sie angeben, von welchem privaten Kanal sie gesendet wurden.
 
-Da jeder private Kanal über eine eigene SharePoint Websitesammlung verfügt, die von der übergeordneten Teamwebsite getrennt ist, werden Dateien in einem privaten Kanal unabhängig vom übergeordneten Team verwaltet.
+Da jeder private Kanal über eine eigene SharePoint-Websitesammlung verfügt, die von der übergeordneten Teamwebsite getrennt ist, werden Dateien in einem privaten Kanal unabhängig vom übergeordneten Team verwaltet.
 
-Teams die Inhaltssuche eines einzelnen Kanals nicht unterstützt, daher muss das gesamte Team durchsucht werden. Um eine Inhaltssuche eines privaten Kanals durchzuführen, durchsuchen Sie das gesamte Team, die dem privaten Kanal zugeordnete Websitesammlung (um Dateien einzuschließen) und Postfächer von Mitgliedern des privaten Kanals (um Nachrichten einzuschließen).
+Teams unterstützt die Inhaltssuche eines einzelnen Kanals nicht, daher muss das gesamte Team durchsucht werden. Um eine Inhaltssuche eines privaten Kanals durchzuführen, durchsuchen Sie das gesamte Team, die dem privaten Kanal zugeordnete Websitesammlung (um Dateien einzuschließen) und Postfächer von Mitgliedern des privaten Kanals (um Nachrichten einzuschließen).
 
 Verwenden Sie die folgenden Schritte, um Dateien und Nachrichten in einem privaten Kanal zu identifizieren, die in Ihre Inhaltssuche einbezogen werden sollen.
 
@@ -54,12 +53,12 @@ Verwenden Sie die folgenden Schritte, um Dateien und Nachrichten in einem privat
 
 Bevor Sie diese Schritte ausführen, installieren Sie die [SharePoint Online-Verwaltungsshell, und stellen Sie eine Verbindung mit SharePoint Online her](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
-1. Führen Sie die folgenden Schritte aus, um eine Liste aller SharePoint Websitesammlungen abzurufen, die privaten Kanälen im Team zugeordnet sind.
+1. Führen Sie die folgenden Schritte aus, um eine Liste aller SharePoint-Websitesammlungen abzurufen, die privaten Kanälen im Team zugeordnet sind.
 
     ```PowerShell
     Get-SPOSite
     ```
-2. Führen Sie das folgende PowerShell-Skript aus, um eine Liste aller SharePoint Websitesammlungs-URLs abzurufen, die privaten Kanälen im Team und der übergeordneten Teamgruppen-ID zugeordnet sind.
+2. Führen Sie das folgende PowerShell-Skript aus, um eine Liste aller SharePoint-Websitesammlungs-URLs abzurufen, die privaten Kanälen im Team und der übergeordneten Teamgruppen-ID zugeordnet sind.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"

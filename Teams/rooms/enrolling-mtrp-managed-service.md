@@ -10,35 +10,35 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Räume Konten in Microsoft Teams-Räume Premium verwalteten Dienst registrieren.
 f1keywords: ''
-ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: f721406381e1eb99584563473196893bc21cf39b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635453"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271000"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Registrieren eines Geräts im Microsoft Teams-Räume Premium verwalteten Dienst
 
-Um ein Microsoft Teams-Räume Gerät im Teams-Räume Premium verwalteten Dienst zu registrieren, müssen Sie einen oder mehrere Benutzer dem Administrator für verwaltete Dienste zuweisen und dann die Registrierungsschritte mit diesem Benutzer ausführen.
+Um ein Microsoft Teams-Räume Gerät im verwalteten Dienst Teams-Räume Premium zu registrieren, müssen Sie einen oder mehrere Benutzer dem Administrator für verwaltete Dienste zuweisen und dann die Registrierungsschritte mit diesem Benutzer ausführen.
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>Zuweisen von Benutzern zur Rolle "Verwalteter Dienstadministrator"
 
 Führen Sie die folgenden Schritte aus, um Benutzer der Rolle "Verwalteter Dienstadministrator" zuzuweisen:
 
-1. Melden Sie sich beim [Teams-Räume Premium-Portal](https://portal.rooms.microsoft.com/) mit den gleichen Administratorberechtigungen an wie bei der Anmeldung beim Microsoft 365 Admin Center.
-2. Navigieren Sie zu **Einstellungen** >  **Einstellungen** >  **Roles**, und wählen Sie dann "**Verwalteter Dienstadministrator**" aus.
+1. Melden Sie sich beim [Teams-Räume Premium-Portal](https://portal.rooms.microsoft.com/) mit den gleichen Administratorberechtigungen an wie bei der Anmeldung bei der Microsoft 365 Admin Center.
+2. Navigieren Sie zu **"Einstellungsrollen"** >  > , und wählen Sie dann **"Verwalteter Dienstadministrator**" aus.
 3. Wählen Sie unter " **Verwalteter Dienstadministrator**" die Registerkarte " **Aufgaben** " und dann " **Hinzufügen"** aus.
 4. Folgen Sie dem Assistenten, um die Aufgabe zu benennen und die Benutzer auszuwählen, die ihr hinzugefügt werden sollen. Die Aufgabe gilt für alle Räume und Raumgruppen.
 5. Wählen Sie am Ende des Aufgaben-Assistenten " **Aufgabe hinzufügen"** aus.
 
-Benutzer, denen die Rolle "Verwalteter Dienstadministrator" zugewiesen ist, sind für die tägliche Verwaltung und Überwachung des Teams-Räume Premium verwalteten Dienstportals verantwortlich.
+Benutzer, denen die Rolle "Verwalteter Dienstadministrator" zugewiesen ist, sind für die tägliche Verwaltung und Überwachung des Teams-Räume Premium-Portals für verwaltete Dienste verantwortlich.
 
 Nachdem Sie Benutzern die Rolle "Verwalteter Dienstadministrator" zugewiesen haben, fahren Sie mit der [Registrierung eines Teams-Räume Geräts](enroll-a-device.md) fort, um dem Portal für verwaltete Dienste ein Teams-Räume Gerät hinzuzufügen.
 

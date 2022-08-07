@@ -1,5 +1,5 @@
 ---
-title: Beispielskript – Microsoft Teams PowerShell-Skript der Firewall
+title: Beispielskript – PowerShell-Skript der Microsoft Teams-Firewall
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,23 +8,22 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Ein Beispielskript, das zum Konfigurieren von Windows verwendet werden kann, Teams Verbindungen durch Windows zulassen.
+description: Ein Beispielskript, das verwendet werden kann, um Windows so zu konfigurieren, dass Teams-Verbindungen über die Windows-Firewall zugelassen werden.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1131868af2b81b1d786bd760518f56633ec8aa83
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: b15c8e141f8a3cd5cde1915901d3dbcd9e29b23a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893758"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269400"
 ---
-# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>Beispielskript – Microsoft Teams PowerShell-Skript der Firewall
+# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>Beispielskript – PowerShell-Skript der Microsoft Teams-Firewall
 
 Dieses Beispielskript, das auf Clientcomputern im Kontext eines Administratorkontos mit erweiterten Berechtigungen ausgeführt werden muss, erstellt eine neue eingehende Firewallregel für jeden Benutzerordner unter C:\Users. Wenn Teams diese Regel findet, kann sie verhindern, dass die Teams-Anwendung Benutzer zum Erstellen von Firewallregeln auffordert, wenn der Benutzer seinen ersten Aufruf über Teams tätigt.
 

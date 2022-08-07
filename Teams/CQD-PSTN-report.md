@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Verwenden Sie den PSTN-Direct Routing-Bericht des Microsoft Teams-Anrufqualitätsdashboards (CQD), um PSTN-Anrufe in Microsoft Teams zu überwachen und zu beheben.
-ms.openlocfilehash: 8d6e971adc3cd7e4ec9b4038356e744d4451146f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7b7205658358cfa3aa90824718c03731fa33a534
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789890"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270710"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Verwenden des CQD-PSTN-Direct Routing-Berichts
 
-Neu im März 2020, wir haben einen Microsoft Teams Call Quality Dashboard (CQD) PSTN Direct Routing-Bericht zu unseren herunterladbaren [Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) hinzugefügt. 
+Der PSTN Direct Routing-Bericht des Microsoft Teams-Anrufqualitätsdashboards (CQD) ist in unseren herunterladbaren [Power BI-Abfragevorlagen für CQD](https://www.microsoft.com/download/details.aspx?id=102291) verfügbar. 
 
 
 Der CQD PSTN Direct Routing-Bericht (CQD PSTN Direct Routing Report.pbit) hilft Ihnen, die Nutzungsmuster und die Qualität Ihrer PSTN-Dienste zu verstehen. Verwenden Sie diesen Bericht, um die Dienstnutzung, Informationen zu Ihrem Session Border Controller (SBC), den Telefoniedienst, Netzwerkparameter und Details zum Netzwerkeffektivitätsverhältnis zu überwachen. Diese Informationen können Ihnen helfen, Probleme zu identifizieren, einschließlich des Grunds für abgebrochene Anrufe. So können Sie beispielsweise sehen, wann die Lautstärke sinkt, wie viele Anrufe betroffen sind und aus welchem Grund.
@@ -95,7 +95,7 @@ Zum Beispiel:
 
 1.  Wenn die durchschnittliche Anrufdauer am 14.02.2020 auf 0 fällt, können Sie zunächst überprüfen, ob das Anrufvolumen normal aussieht, und feststellen, ob es eine große Abweichung zwischen den Gesamtanrufen und den Gesamtversuchsaufrufen gibt. Wechseln Sie dann zur Seite "Netzwerkeffektivitätsverhältnis", um aufgrund von Anruffehlern zu investieren.
 
-2.  Wenn auf der Feedbackkarte des Benutzers immer mehr rote Flecken angezeigt werden, können Sie zur Seite "Netzwerkeffektivitätsverhältnis" und "Netzwerkparameter" wechseln, um festzustellen, ob Anomalien vorliegen, und Sie könnten ein Ticket mithilfe von MS Service Desk auslösen.
+2.  Wenn auf der Benutzerfeedbackkarte immer mehr rote Stellen angezeigt werden, können Sie zur Seite "Netzwerkeffektivitätsverhältnis" und "Netzwerkparameter" wechseln, um festzustellen, ob Anomalien vorliegen, und Sie könnten ein Ticket mithilfe von MS Service Desk auslösen.
 
 ## <a name="network-effectiveness-ratio"></a>Netzwerkeffektivitätsverhältnis
 
@@ -121,7 +121,7 @@ Wenn daily NER am 05.02.2020 einen Dip hat, können Sie auf das Datum klicken, u
 
 ![Screenshot: PSTN-CQD-Bericht.](media/CQD-PSTN-report5.png)
 
-Aus dem NER Good Percentage Hourly Trend können Sie feststellen, dass der Dip um 21:00 Uhr erfolgt. Klicken Sie dann erneut, um auf Stunde 21 zu zoomen, und überprüfen Sie die Details des ausgeführten Anrufs, um zu sehen, wie viele Anrufe in dieser Stunde fehlgeschlagen sind und was die Gründe für das Anrufende sind. Sie können mit Selbstproblemen beginnen, die bei SBC-Problemen auftreten, oder sie können Service Desk melden, wenn das Problem nicht mit SBC zusammenhängt.
+Aus dem NER Good Percentage Hourly Trend können Sie feststellen, dass der Dip um 21:00 Uhr erfolgt. Klicken Sie dann erneut, um auf Stunde 21 zu zoomen, und überprüfen Sie die Details des ausgeführten Anrufs, um zu sehen, wie viele Anrufe in dieser Stunde fehlgeschlagen sind und was die Gründe für das Anrufende sind. Sie können mit Selbstproblemen beginnen, die bei SBC-Problemen auftreten, oder Sie können das Problem an service desk melden, wenn das Problem nicht mit SBC zusammenhängt.
 
 ## <a name="network-parameters"></a>Netzwerkparameter
 
@@ -137,7 +137,7 @@ Alle Netzwerkparameter werden von der Direct Routing-Schnittstelle zum Session B
 
 Zum Beispiel: 
 
-Wenn in einem der vier Diagramme (Latenz, Jitter, Paketverlustrate, Nachwahlverzögerung) für ein bestimmtes Datum eine Spitze angezeigt wird, z. B. Latenz am 14.02.2020, klicken Sie auf den Datumspunkt. Und das Stundentrenddiagramm unten wird aktualisiert, um die Stundenzahl anzuzeigen. Sie können die SBCs überprüfen oder ein Ticket mit MS Service Desk erhöhen.
+Wenn in einem der vier Diagramme (Latenz, Jitter, Paketverlustrate, Nachwahlverzögerung) für ein bestimmtes Datum eine Spitze angezeigt wird, z. B. Latenz am 14.02.2020, klicken Sie auf den Datumspunkt. Und das Stundentrenddiagramm unten wird aktualisiert, um die Stundenzahl anzuzeigen. Sie können die SBCs überprüfen oder ein Ticket beim MS Service Desk erhöhen.
 
 ![Screenshot: PSTN-CQD-Bericht.](media/CQD-PSTN-report7.png)
 

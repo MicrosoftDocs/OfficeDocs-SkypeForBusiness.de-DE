@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams frankreich verfügbaren Dienste.
-ms.openlocfilehash: 42e35a2b71d12e4de705a5b6c45d23417b8b5f8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Frankreich verfügbar.
+ms.openlocfilehash: 467b9b4f88ee9994fea2f51873588a465a9e9373
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609032"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268610"
 ---
 # <a name="availability-in-france"></a>Verfügbarkeit in Frankreich
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams frankreich verfügbaren Dienste.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Frankreich verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -59,9 +59,9 @@ Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Mic
     
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Anrufplan für Inlands- und Auslandsrufe: 1.200 Minuten für Inlands- oder 600 Minuten für Auslandsrufe (die im Kalendermonat zuerst erreicht werden)</li></li> |
-|Können Ausgehende Anrufe an französische Premiumnummern rufnummerniert werden? <br/> | Ja, vollständig unterstützt, wenn Sie das Guthaben für Kommunikationen zum Bezahlen der Minuten verwenden. <br/> |
+|Sind Anrufpläne zum Kauf verfügbar?  |Ja          |   
+|Verfügbare Minuten für Anrufpläne.    |Pro Kalendermonat stehen fünf Planoptionen zur Verfügung: <ul><li>Pay-as-You-Go-Anrufplan </li><li> 120 Minuten Anrufplan für Inland </li><li> 240 Minuten Anrufplan für Inland </li><li> 1200 Minuten Anrufplan für Inland </li><li> Internationaler Anrufplan: 1200 Minuten inländische oder 600 Minuten auslandsanrufe (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></ul>|
+|Können ausgehende Anrufe an französische Premiumnummern getätigt werden? <br/> | Ja, wird vollständig unterstützt, wenn Sie Guthaben für Kommunikationen verwenden, um pro Minute zu bezahlen. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste

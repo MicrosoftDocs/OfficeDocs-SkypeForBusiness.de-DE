@@ -15,12 +15,14 @@ description: Erstellen Sie eine Change Management-Strategie für Microsoft Teams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: f9ed4b0a2ac694b13054818f53bcf64a628d4dd3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562374"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268781"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 
@@ -149,4 +151,4 @@ Weitere Informationen zu den Microsoft Teams-Nutzungsberichten finden Sie in den
 
 Veränderungen in einer Organisation voranzutreiben, ist kein einzelnes Ereignis, sondern ein kontinuierlicher Prozess. Ihre Kick-off-Besprechung bildet nur den Anfang dabei, Benutzern effektivere Zusammenarbeit zu ermöglichen. Es ist wichtig, Momente auf dieser Reise zu planen, die Ihre Erfolge hervorheben, neue Features einführen und sich mit Ihrer gesamten Microsoft 365- oder Office 365-Servicestrategie verbinden, die Ihre IT-Abteilung erstellen wird. Wenn Sie sicherstellen, dass Ihre Benutzer nicht überfordert, sondern engagiert sind, verringern Sie ihre Veränderungsmüdigkeit und unterstützen sie dabei, von alten Gewohnheiten – beispielsweise dem Senden von E-Mail-Anlagen – zu lassen und stattdessen etwas Neues zu akzeptieren, zum Beispiel das Speichern von Dokumenten in der Cloud.
 
-Teilen Sie Ihre Fragen zur Dienstakzeptanz von Teams und Microsoft 365 oder Office 365 in der [Community "Einführung](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) fördern" auf der Website der Microsoft Technical Community. Wir freuen uns immer, von Ihnen zu hören und Sie bei Ihrer Einführung zu unterstützen.
+Teilen Sie Ihre Fragen zur Dienstakzeptanz von Teams und Microsoft 365 oder Office 365 in der Community für die [einführungstreiber](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) auf der website Microsoft Technical Community. Wir freuen uns immer, von Ihnen zu hören und Sie bei Ihrer Einführung zu unterstützen.

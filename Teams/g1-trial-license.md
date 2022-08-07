@@ -12,15 +12,14 @@ ms.localizationpriority: high
 description: 'US-Regierungsbehörden: Wenn Sie Microsoft Teams noch nicht verwenden, es aber eilig benötigen, stellen Sie Ihren Benutzern, die als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) remote oder von zu Hause aus arbeiten müssen (WFH), die Office 365 G1-Testversion bereit.'
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beb8537fe77549b9cb6d74c7b8958ba117eb06bc
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: aeb7a13db3358c03f40f878b8aa88f27497e4706
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562554"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267960"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>Verwalten der Office 365 G1-Testversion für US-Regierungsbehörden 
 

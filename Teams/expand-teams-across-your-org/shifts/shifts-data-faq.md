@@ -17,17 +17,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f05ba56086a9c9dd3cbad046c1cfad34733ee2ee
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675347"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268190"
 ---
 # <a name="shifts-data-faq"></a>Häufig gestellte Fragen zu Schichten von Daten
 
@@ -35,7 +34,7 @@ Dieser Artikel befasst sich mit häufig gestellten Fragen zu Schichtdaten, einsc
 
 ## <a name="where-is-shifts-data-stored"></a>Wo werden Shifts-Daten gespeichert?
 
-Schichtdaten werden in einer von drei Regionen (Geos) gespeichert: Asien-Pazifik (APAC), Europäische Union (EU) oder USA. Jede Geo speichert Daten in mindestens zwei Azure-Rechenzentrumsregionen für hohe Verfügbarkeit (Ha) und Notfallwiederherstellung (Disaster Recovery, DR). Heute verwendet die USA/Nordamerika-Geo Rechenzentren in North Central und South Central USA. Weitere Informationen finden Sie [unter "Wo ist Microsoft 365 gespeicherte Kundendaten](/microsoft-365/enterprise/o365-data-locations)."
+Schichtdaten werden in einer von drei Regionen (Geos) gespeichert: Asien-Pazifik (APAC), Europäische Union (EU) oder USA. Jede Geo speichert Daten in mindestens zwei Azure-Rechenzentrumsregionen für hohe Verfügbarkeit (Ha) und Notfallwiederherstellung (Disaster Recovery, DR). Heute verwendet die USA/Nordamerika-Geo Rechenzentren in North Central und South Central USA. Weitere Informationen finden Sie [unter Wo werden Microsoft 365-Kundendaten gespeichert](/microsoft-365/enterprise/o365-data-locations)?
 
 Derzeit bietet Shifts Datenresidenz in Australien, Kanada, Frankreich, Japan und dem Vereinigten Königreich. Wir arbeiten aktiv daran, den Support auf weitere Standorte auszuweiten.
 
@@ -47,7 +46,7 @@ Wenn Sie Teams zum ersten Mal einrichten, wählen Sie ein Land oder eine Region 
 
 Schichten sind mit der Datenschutz-Grundverordnung (DSGVO) kompatibel. Ein formelles Ersuchen einer Person (als betroffene Person bezeichnet), maßnahmen gegen ihre personenbezogenen Daten zu ergreifen, wird als Antrag einer betroffenen Person (Data Subject Request, DSR) bezeichnet. Sie können personenbezogene Daten in Schichten als Reaktion auf einen Antrag einer betroffenen Person suchen und darauf reagieren.
 
-Sie können das eDiscovery-Tool für die Inhaltssuche im Microsoft Purview-Complianceportal verwenden, um nach Zeitplan- und Zeituhrdaten zu suchen und diese in Excel zu exportieren. Für alle anderen Schichtdaten können Sie Screenshots der Daten erstellen.
+Sie können das eDiscovery-Tool für die Inhaltssuche im Microsoft Purview-Complianceportal verwenden, um nach Zeitplan- und Zeituhrdaten nach Excel zu suchen und diese zu exportieren. Für alle anderen Schichtdaten können Sie Screenshots der Daten erstellen.
 
 Weitere Informationen finden Sie [unter Office 365 Anträge betroffener Personen für die DSGVO und das CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
@@ -61,15 +60,15 @@ Es gibt keine Möglichkeit, nur Schichtendaten zu löschen. Wenn Sie ein Team in
 
 ## <a name="can-i-recover-a-shifts-schedule-that-was-deleted"></a>Kann ich einen gelöschten Schichtplan wiederherstellen?
 
-Sie können einen gelöschten Zeitplan wiederherstellen, wenn die Microsoft 365 Gruppe, die ihn unterstützt (oder das Team in Teams) wiederhergestellt wird.
+Sie können einen gelöschten Zeitplan wiederherstellen, wenn die Microsoft 365-Gruppe, die ihn unterstützt (oder das Team in Teams), wiederhergestellt wird.
 
-Standardmäßig wird eine gelöschte Microsoft 365 Gruppe 30 Tage lang aufbewahrt. Dieser 30-Tage-Zeitraum wird als "vorläufiges Löschen" bezeichnet, da Sie die Gruppe dennoch wiederherstellen können. Weitere Informationen finden [Sie unter Wiederherstellen einer gelöschten Microsoft 365 Gruppe](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center).
+Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahrt. Dieser 30-Tage-Zeitraum wird als "vorläufiges Löschen" bezeichnet, da Sie die Gruppe dennoch wiederherstellen können. Weitere Informationen finden Sie unter [Wiederherstellen einer gelöschten Microsoft 365-Gruppe](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center).
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>Kann ich benutzerdefinierte Aufbewahrungsrichtlinien für Schichtdaten verwenden?
 
 Derzeit unterstützt Schichten keine benutzerdefinierten Aufbewahrungsrichtlinien.
 
-Weitere Informationen zu Aufbewahrungsrichtlinien in Teams finden [Sie unter "Informationen zur Aufbewahrung für Teams](/microsoft-365/compliance/retention-policies-teams) und [Verwalten von Aufbewahrungsrichtlinien für Teams](../../retention-policies.md)".
+Weitere Informationen zu Aufbewahrungsrichtlinien in Teams finden [Sie unter "Informationen zur Aufbewahrung für Teams](/microsoft-365/compliance/retention-policies-teams) " und " [Verwalten von Aufbewahrungsrichtlinien für Teams](../../retention-policies.md)".
 
 ## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>Kann ich Schichtdaten für einen Benutzer abrufen, dessen Lizenz widerrufen wurde?
 
@@ -77,9 +76,9 @@ Heute bieten wir nicht die Möglichkeit, Daten für einen Benutzer abzurufen, de
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Welche Art von Verschlüsselung verwendet Schichten für Ruhe- und Übertragungsdaten?
 
-Schichtdaten werden im Ruhezustand von Azure Cosmos DB und Azure Storage verschlüsselt. Weitere Informationen finden Sie [unter Azure-Datenverschlüsselung im Ruhezustand](/azure/security/fundamentals/encryption-atrest) und [Datenverschlüsselung in Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
+Schichtendaten werden im Ruhezustand von Azure Cosmos DB und Azure Storage verschlüsselt. Weitere Informationen finden Sie [unter Azure-Datenverschlüsselung im Ruhezustand](/azure/security/fundamentals/encryption-atrest) und [Datenverschlüsselung in Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
 
-Schichten folgen Microsoft 365 Richtlinien für die Verschlüsselung von Daten während der Übertragung. Weitere Informationen finden Sie [unter Verschlüsselung für Daten während der Übertragung](/compliance/assurance/assurance-encryption-in-transit).
+Schichten folgt den Microsoft 365-Richtlinien für die Verschlüsselung von Daten während der Übertragung. Weitere Informationen finden Sie [unter Verschlüsselung für Daten während der Übertragung](/compliance/assurance/assurance-encryption-in-transit).
 
 Verschiebungen bei der Verschlüsselung ruher und während der Übertragung von Daten werden jährlich durch die SOC2-Complianceüberwachung überprüft.
 
@@ -91,17 +90,17 @@ Unveränderliche Kopien von Shifts-Daten werden nicht gespeichert. Beispielsweis
 
 Es gibt bestimmte Aspekte von Schichten, die nicht geändert werden können, und bestimmte Aspekte, die geändert werden können. So können beispielsweise Schichtdetails wie Notizen und Farben ähnlich wie in der Schichten-App bearbeitet werden. Schichtanforderungen können nur bearbeitet werden, wenn die Anforderung zurückgezogen wird.
 
-Um zu sehen, welche Felder geändert wurden, können Sie im Microsoft 365 Überwachungsprotokoll nach Shifts-Ereignissen suchen. Weitere Informationen zu den Ereignissen, die für Schichtenaktivitäten im Microsoft 365 Überwachungsprotokoll protokolliert werden, finden Sie [unter Schichten in Teams Aktivitäten](../../audit-log-events.md#shifts-in-teams-activities).
+Um zu sehen, welche Felder geändert wurden, können Sie im Microsoft 365-Überwachungsprotokoll nach Shifts-Ereignissen suchen. Weitere Informationen zu den Ereignissen, die für Schichtenaktivitäten im Microsoft 365-Überwachungsprotokoll protokolliert werden, finden Sie [unter Schichten in Teams-Aktivitäten](../../audit-log-events.md#shifts-in-teams-activities).
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>Meine Organisation verwendet ein Mitarbeiterverwaltungssystem für die Planung. Können wir Schichtendaten integrieren und darauf zugreifen?
 
-Mit Schichten Graph APIs können Sie Schichtdaten in WFM-Systeme (External Workforce Management) integrieren. Weitere Informationen finden Sie unter [Schichten Graph APIs](/graph/api/resources/shift).
+Mit shifts Graph-APIs können Sie Schichtdaten in externe Mitarbeiterverwaltungssysteme (WFM) integrieren. Weitere Informationen finden Sie unter [Shifts Graph-APIs](/graph/api/resources/shift).
 
-Wir bieten auch verwaltete Schichten-Connectors und Open-Source-Schichten-Connectors an. Mit diesen Connectors können Sie Ihr WFM-System direkt in Schichten integrieren. Weitere Informationen zu Shifts-Connectors und unterstützten WFM-Systemen finden Sie unter [Shifts Connectors](shifts-connectors.md).
+Wir bieten auch verwaltete Schichten-Connectors und Open-Source-Schichten-Connectors an. Mit diesen Connectors können Sie Ihr WFM System direkt in Schichten integrieren. Weitere Informationen zu Schichtenverbindern und unterstützten WFM Systemen finden Sie unter [Schichtenconnectors](shifts-connectors.md).
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>Können Schichtdaten nach einem bestimmten Zeitraum dauerhaft gelöscht werden?
 
-Heute löschen wir Ihre Shifts-Daten überhaupt nicht. Mithilfe von [Shifts Graph-APIs](/graph/api/resources/shift) ist es möglich, [eine App mit Power Apps zu erstellen](/powerapps/maker/), um Daten für einen bestimmten Zeitraum aufzubewahren. Dies wird jedoch nicht nativ unterstützt.
+Heute löschen wir Ihre Shifts-Daten überhaupt nicht. Mithilfe von [Shifts Graph-APIs](/graph/api/resources/shift) ist es möglich, [eine App mithilfe von Power Apps zu erstellen](/powerapps/maker/) , um Daten für einen bestimmten Zeitraum aufzubewahren. Dies wird jedoch nicht nativ unterstützt.
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>Können Schichtdaten in einer Mandanten-zu-Mandant-Migration verschoben werden?
 

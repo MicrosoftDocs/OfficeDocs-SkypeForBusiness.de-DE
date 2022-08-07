@@ -7,20 +7,17 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Erfahren Sie mehr über Teams VoIP- und Anrufrichtlinien.
+description: Erfahren Sie mehr über Die VoIP- und Anrufrichtlinien von Teams.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 8a63aa772d94a4a385301315d1c1bd3b6488fa3b
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 5a6676d29a439ed978385d096c6e8b0584049557
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646464"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270290"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Verwalten von VoIP- und Anrufrichtlinien in Microsoft Teams
 
@@ -34,7 +31,7 @@ Sie verwenden [Notrufrichtlinien](manage-emergency-calling-policies.md) , um zu 
 
 ## <a name="emergency-call-routing-policies"></a>Richtlinien für die Notrufweiterleitung
 
-Wenn Ihre Organisation **Telefonsystem Direct Routing** bereitgestellt hat, können Sie mithilfe von Richtlinien für die [Notrufweiterleitung](manage-emergency-call-routing-policies.md) ermitteln, wo Notrufe weitergeleitet werden, ob erweiterte Notrufe aktiviert sind und welche Nummern für Notrufdienste verwendet werden. Diese Richtlinien werden mithilfe von PowerShell oder im Microsoft Teams Admin Center verwaltet.
+Wenn Ihre Organisation **Direct Routing für Telefonsysteme** bereitgestellt hat, können Sie mithilfe von Richtlinien für die [Notrufweiterleitung](manage-emergency-call-routing-policies.md) ermitteln, wo Notrufe weitergeleitet werden, ob erweiterte Notrufdienste aktiviert sind und welche Nummern für Notrufdienste verwendet werden. Diese Richtlinien werden mithilfe von PowerShell oder im Microsoft Teams Admin Center verwaltet.
 
 ![Screenshot der Richtlinie für die Notrufweiterleitung.](media/emergency-call-routing-policy.png)
 
@@ -46,7 +43,7 @@ Wenn Ihre Organisation **Telefonsystem Direct Routing** bereitgestellt hat, kön
 
 ## <a name="voice-routing-policies"></a>VoIP-Routingrichtlinien
 
-Eine [VoIP-Routingrichtlinie](manage-voice-routing-policies.md) ist ein Container für PSTN-Verwendungsdatensätze (Public Switched Telephone Network). Sie können diese Richtlinien verwenden, wenn Ihre Organisation **Telefonsystem Direct Routing** bereitgestellt hat. VoIP-Routingrichtlinien können mit PowerShell oder im Teams Admin Center verwaltet werden.
+Eine [VoIP-Routingrichtlinie](manage-voice-routing-policies.md) ist ein Container für PSTN-Verwendungsdatensätze (Public Switched Telephone Network). Sie können diese Richtlinien verwenden, wenn Ihre Organisation **Direct Routing für Telefonsysteme** bereitgestellt hat. VoIP-Routingrichtlinien können mit PowerShell oder im Teams Admin Center verwaltet werden.
 
 ![Screenshot der VoIP-Routingrichtlinie.](media/voice-routing-policy.png)
 
@@ -77,4 +74,4 @@ Eine [VoIP-Routingrichtlinie](manage-voice-routing-policies.md) ist ein Containe
 * [Anrufrichtlinien in Microsoft Teams](teams-calling-policy.md)
 * [Parken und Fortsetzen von Anrufen in Microsoft Teams](call-park-and-retrieve.md)
 * [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
-* [Verwalten von Teams mit Richtlinien](manage-teams-with-policies.md)
+* [Verwalten von Microsoft Teams mit Richtlinien](manage-teams-with-policies.md)

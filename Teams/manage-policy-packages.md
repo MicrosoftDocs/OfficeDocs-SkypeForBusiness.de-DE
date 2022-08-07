@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und Konsistenz zu gewährleisten.
-ms.openlocfilehash: 7ba8f21014f892d2170684a8a4cccdfce21cee91
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 10c7eaad9342d1c005c6290ebc957c3580db3962
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66572199"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270850"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Verwalten von Richtlinienpaketen für Microsoft Teams
 
@@ -33,7 +33,7 @@ Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtli
 
 Sie können die [in Teams enthaltenen Richtlinienpakete](#policy-packages-included-in-teams) verwenden oder [eigene benutzerdefinierte Richtlinienpakete erstellen](#custom-policy-packages).
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite &quot;Richtlinienpakete&quot; im Admin Center.":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite &quot;Richtlinienpakete&quot; im Admin Center." lightbox="media/policy-packages-admin-center.png":::
 
 Sie können die Einstellungen der Richtlinien in einem Richtlinienpaket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen von Richtlinien in einem Paket ändern, erhalten alle Benutzer, die diesem Paket zugewiesen sind, die aktualisierten Einstellungen. Sie verwalten Richtlinienpakete mithilfe des Microsoft Teams Admin Centers oder der PowerShell.
 
@@ -68,10 +68,10 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 |Mitarbeiter in Service und Produktion |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Mitarbeiter in Service und Produktion in Ihrer Organisation an. |
 |Klinischer Mitarbeiter im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen klinische Mitarbeiter wie Krankenschwestern, Krankenschwestern, Ärzte und Sozialarbeiter uneingeschränkten Zugriff auf Chat, Anrufe, Schichtmanagement und Besprechungen erhalten. |
 |Informationsbeauftragter für das Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen Informationsbeauftragte wie IT-Personal, Informatikpersonal, Finanzpersonal und Compliance-Beauftragte uneingeschränkten Zugriff auf Chat, Anrufe und Besprechungen erhalten.|
-|Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenzimmer in Ihrer Gesundheitsorganisation gelten.|
-|Benutzer kleiner und mittlerer Unternehmen (Teams-Telefonsystem mit Anrufplan-Bundle) |Erstellt eine App-Setuprichtlinie, die die Apps für ein Teams-Telefonsystem mit Anrufplan-Bundle-Erfahrung enthält.|
-|Kleine und mittelständische Unternehmen (ohne Teams-Telefonsystem mit Anrufplan-Bundle) |Erstellt eine App-Setuprichtlinie, die für Teams-Benutzer kleiner und mittlerer Unternehmen relevant ist (Nicht-Teams-Telefonsystem mit Anrufplan-Bundle-Erfahrung).
+|Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenzimmer in Ihrer Gesundheitsorganisation gelten. |
 |Öffentlicher Sicherheitsbeauftragter   |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten.|
+|Benutzer kleiner und mittlerer Unternehmen (Business Voice) |Erstellt eine App-Setuprichtlinie, die die Apps für eine Geschäftliche Sprachumgebung für Benutzer enthält.|
+|Kleine und mittlere Unternehmen (ohne Business Voice) |Erstellt eine App-Setuprichtlinie, die für Teams-Benutzer kleiner und mittlerer Unternehmen ohne Business Voice-Features relevant ist.
 
 > [!NOTE]
 > Wir werden in zukünftigen Versionen von Teams weitere Richtlinienpakete hinzufügen. Schauen Sie sich daher die aktuellsten Informationen an.  
@@ -79,7 +79,7 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können.
 Wenn Sie beispielsweise Lehrern in Ihrer Schule das Richtlinienpaket "Bildung" (Lehrer) zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen Education_Teacher erstellt.
 
-![Screenshot des Richtlinienpakets "Education (Teacher)".](media/policy-packages-education_teacher.png)
+:::image type="content" source="media/teams-policy-packages-education.png" alt-text="Screenshot des Richtlinienpakets &quot;Education (Teacher)&quot;." lightbox="media/teams-policy-packages-education.png":::
 
 ## <a name="custom-policy-packages"></a>Benutzerdefinierte Richtlinienpakete
 
@@ -89,11 +89,11 @@ So erstellen Sie ein neues benutzerdefiniertes Richtlinienpaket:
 
 1. Wählen Sie im linken Bereich des Microsoft Teams Admin Centers **Richtlinienpakete** aus, und klicken Sie dann auf **"Hinzufügen"**.
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot der Schaltfläche &quot;Hinzufügen&quot; auf der Seite &quot;Richtlinienpakete&quot; im Admin Center.":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot der Schaltfläche &quot;Hinzufügen&quot; auf der Seite &quot;Richtlinienpakete&quot; im Admin Center." lightbox="media/policy-packages-add.png":::
 
 2. Geben Sie einen Namen und eine Beschreibung für Ihr Paket ein.
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Screenshot des Hinzufügens eines neuen benutzerdefinierten Richtlinienpakets.":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Screenshot des Hinzufügens eines neuen benutzerdefinierten Richtlinienpakets." lightbox="media/policy-packages-add-custom.png":::
 
 3. Wählen Sie die Richtlinientypen und Richtliniennamen aus, die in das Paket eingeschlossen werden sollen.
 

@@ -1,5 +1,5 @@
 ---
-title: Erstellen Microsoft 365, Hinzufügen von Teams Telefon mit Anrufplanpaketlizenzen und Zuweisen von Telefonnummern
+title: Erstellen von Microsoft 365-Benutzern, Hinzufügen von Teams-Telefon mit Anrufplan-Bundlelizenzen und Zuweisen von Telefonnummern
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,34 +9,33 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mit Anrufplan Teams Telefonsystem und Lizenzieren von Bündelbenutzern erstellen und lizenzieren und diesen Telefonnummern zuweisen.
+description: Erfahren Sie, wie Sie Teams-Telefonsystem mit Anrufplan-Bundlebenutzern erstellen und lizenzieren und ihnen Telefonnummern zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb60d60a12949cbb2a0b9ac60e727cfab393de12
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: ac665f46c7be619d26b0c6da371ba57e554a07ee
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053274"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272000"
 ---
-# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>Erstellen und Lizenzieren Teams Telefonsystem Anrufplan-Bündelbenutzern und Zuweisen von Telefonnummern
+# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>Erstellen und Lizenzieren von Teams-Telefonsystem mit Anrufplan-Bundlebenutzern und Zuweisen von Telefonnummern
 
-Um das Anrufplan Teams Telefonsystem Mit Anrufplanpaket zu verwenden, benötigen Sie ein Microsoft 365-Konto, das über Teams Telefon mit Anrufplan-Bündellizenzen verfügt. Wenn Sie über ein Konto und Lizenzen verfügen, können Sie mit dem Zuweisen von Telefonnummern beginnen.
+Um das Microsoft Teams-Telefonsystem mit anrufplanbasiertem Bundle zu verwenden, benötigen Sie ein Microsoft 365-Konto, das über Teams-Telefon mit Anrufplan-Bundlelizenzen verfügt. Wenn Sie über ein Konto und Lizenzen verfügen, können Sie mit dem Zuweisen von Telefonnummern beginnen.
 
 ## <a name="create-and-license-users"></a>Erstellen und Lizenzieren von Benutzern
 
 Befolgen Sie die Schritte in [Benutzer einzeln oder in Massen hinzufügen](/microsoft-365/admin/add-users/add-users) und [Zuweisen von Lizenzen an Benutzer](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
-> Wählen Sie **im Bereich Produktlizenzen** zuweisen die Option Teams Telefon **Anrufplan verwenden aus**.
+> Wählen Sie im Bereich " **Produktlizenzen zuweisen** " **die Option "Teams-Telefon mit Anrufplan"** aus.
 
 ## <a name="assign-phone-numbers-to-users"></a>Zuweisen von Telefonnummern an Benutzer
 
-Nachdem Sie Benutzer erstellt und ihnen eine Lizenz Teams Telefon Anrufplan-Paket zugewiesen haben, können Sie ihnen Telefonnummern zuweisen. Sie benötigen eine noch nicht vergebene Telefonnummer für jeden Benutzer, der Anrufe an externe Telefonnummern tätigen oder von diesen empfangen muss. Wenn Sie nicht über genügend nicht zugewiesene Telefonnummern verfügen, lesen Sie [Anfordern weiterer Telefonnummern](#get-more-phone-numbers) weiter unten in diesem Artikel.
+Nachdem Sie Benutzer erstellt und ihnen die Bündellizenz "Teams-Telefon mit Anrufplan" zugewiesen haben, können Sie ihnen Telefonnummern zuweisen. Sie benötigen eine noch nicht vergebene Telefonnummer für jeden Benutzer, der Anrufe an externe Telefonnummern tätigen oder von diesen empfangen muss. Wenn Sie nicht über genügend nicht zugewiesene Telefonnummern verfügen, lesen Sie [Anfordern weiterer Telefonnummern](#get-more-phone-numbers) weiter unten in diesem Artikel.
 
 1. Navigieren Sie zum [Teams Admin Center](https://admin.teams.microsoft.com).
 2. Geben Sie einen Namen und eine Beschreibung für die Anforderung einer Telefonnummer ein.

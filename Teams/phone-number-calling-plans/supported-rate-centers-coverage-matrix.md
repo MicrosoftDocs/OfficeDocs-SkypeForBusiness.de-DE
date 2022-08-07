@@ -17,12 +17,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Listet die unterstützten Tarifzentren und die Abdeckung für Anrufpläne auf.
-ms.openlocfilehash: cd991c55c62eeba620d7a8d7f9f75cb7344507a9
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: eb40c3adf77aed6d88363986f3ab01fc7191b9f2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794103"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270860"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Unterstützte Rate Center und Abdeckung für Anrufpläne
 

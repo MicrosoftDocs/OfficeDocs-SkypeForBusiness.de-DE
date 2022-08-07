@@ -1,5 +1,5 @@
 ---
-title: Planen der Bereitstellung für Teams und Anzeigen
+title: Planen der Bereitstellung für Teams-Telefongeräte und -Displays
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -12,151 +12,154 @@ appliesto:
 f1.keywords:
 - NOCSH
 search.appverid: MET150
-description: Dieser Artikel enthält eine Übersicht über die Aufgaben und Schritte zum Bereitstellen Teams Telefonen und anzeigen in Ihrer Organisation.
-ms.openlocfilehash: 2ad9840d6ebd1ac6973027dedf6be294704f5326
-ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
+description: Dieser Artikel enthält eine Übersicht über die Aufgaben und Schritte zum Bereitstellen von Teams-Telefonen und -Anzeigen in Ihrer Organisation.
+ms.collection:
+- M365-voice
+- Teams_ITAdmin_Devices
+ms.openlocfilehash: 5172d230823088141c58e3d2b58e1c3b579268b3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61577795"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272390"
 ---
-# <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Planen der Bereitstellung für Teams und Anzeigen
+# <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Planen der Bereitstellung für Teams-Telefongeräte und -Displays
 
-Eine erfolgreiche Bereitstellung von Teams-Geräten und Teams-Displays beginnt mit der Planung. In diesem Artikel werden Sie durch die Aufgaben und Schritte zum Bereitstellen dieser Geräte in Ihrer Organisation erläutert. Es enthält außerdem Anleitungen zur Gerätenutzung, -lizenzierung, -integration in Ihre Umgebung, Touchpoints und -verwaltung.
+Eine erfolgreiche Bereitstellung von Teams-Telefongeräten und Teams-Displays beginnt mit der Planung. In diesem Artikel werden Sie durch die Aufgaben und Schritte zum Bereitstellen dieser Geräte in Ihrer Organisation geführt. Darüber hinaus bietet es Anleitungen zur Gerätenutzung, Lizenzierung, Integration in Ihre Umgebung, Touchpoints und Verwaltung.
 
 > [!TIP]
-> [Der Microsoft 365 Adoption Hub](https://adoption.microsoft.com/) ist ein hervorragender Ort für die ersten Schritte bei der Einführung Microsoft Teams.
+> [Der Microsoft 365 Adoption Hub](https://adoption.microsoft.com/) ist ein großartiger Ort, um mit Microsoft Teams auf Ihrer Einführungsreise zu beginnen.
 
 ## <a name="task-1-what-are-your-deployment-objectives"></a>Aufgabe 1: Was sind Ihre Bereitstellungsziele?
 
-Die Planung des Rollouts Teams Telefonen und Anzeigen in Ihrer Organisation beginnt mit ihren Bereitstellungszielen. Teams-Geräte unterstützen Hybridarbeit in Besprechungsräumen, Büros und anderen Funktionsräumen. Sie müssen bestimmen, wo und von wem diese Geräte verwendet werden.
+Die Planung des Rollouts von Teams-Telefonen und -Displays in Ihrer Organisation beginnt mit Ihren Bereitstellungszielen. Teams-Geräte unterstützen hybride Arbeit in Besprechungsräumen, Büros und anderen Funktionsbereichen. Sie müssen bestimmen, wo diese Geräte verwendet werden und von wem.
 
-### <a name="objective-identify-your-device-personas"></a>Ziel: Identifizieren Der Personas Ihres Geräts
+### <a name="objective-identify-your-device-personas"></a>Ziel: Identifizieren Von Gerätepersonas
 
-Teams für Smartphones und Displays passen auf eine von zwei Personen: 
+Teams-Telefone und -Displays passen zu einer von zwei Personen: 
 
 - Persönliche Geräte
-- Geräte mit gemeinsam genutzten Speicherplatz
+- Geräte mit gemeinsamem Speicherplatz
 
-Persönliche und gemeinsam genutzte Geräte haben unterschiedliche Rollen und Nutzungen. 
+Persönliche und freigegebene Geräte weisen unterschiedliche Rollen und Verwendungen auf. 
 
 **Persönliche Geräte:** 
 
-- Normalerweise einem Benutzer zugewiesen, mit dem Konto dieses Benutzers angemeldet und mit einer Teams für den Zugriff auf den Dienst aktiviert.
-- Denken Sie an persönliche Geräte mit einer 1:1-Beziehung mit einem Gerät pro Benutzer.
-- Kann mit dem Desktopclient des Teams gekoppelt werden und Features wie "Better Together" verwenden
-- Kann mit einem Headset verbunden sein, verkabelt oder drahtlos
-- Weitere Funktionen auf persönlichen Geräten sind "Hot-King" und "Startbildschirm". 
+- In der Regel einem Benutzer zugewiesen, mit dem Konto dieses Benutzers angemeldet und mit einer Teams-Featurelizenz für den Zugriff auf den Dienst aktiviert.
+- Stellen Sie sich für persönliche Geräte eine 1:1-Beziehung mit einem Gerät pro Benutzer vor.
+- Kann mit dem Teams-Desktopclient gekoppelt werden und Features wie "Better Together" verwenden
+- Kann eine Verbindung mit einem Headset, kabelgebundenen oder drahtlosen Verbindungen herstellen
+- Weitere Features auf persönlichen Geräten sind hot-desking und Home Screen. 
 
-**Geräte mit gemeinsam genutzten Geräten:**
+**Geräte mit gemeinsamem Speicherplatz:**
 
-- Führen Sie eine bestimmte Funktion aus, z. B. ein Telefon in einem gemeinsamen Bereich oder ein Besprechungsraumgerät, und benötigen Sie für den Zugriff auf den Dienst eine dedizierte Konto- und Featurelizenz.
-- Stellen Sie sich geteilte Geräte wie eine 1:n-Beziehung vor: ein Gerät, das von vielen Benutzern gemeinsam genutzt wird.
-- Bereitstellung in gemeinsam genutzten Räumen wie Besprechungsräumen, Empfangsbereichen oder Fertigungsräumen. 
-- Die Benutzeroberflächen der Benutzer (UI) sind spezifisch für ihre Funktion, z. B. Gemeinsame Fläche Telefon-UI oder Besprechungsraum-UI, sind von der Funktion und Platzierung des gemeinsam genutzten Geräts abhängig.
-- Erfordern Sie eine Konfiguration und optionales Ab fest, um sicherzustellen, dass Die Einstellungen nicht geändert werden, oder um zu verhindern, dass sich das Konto ab- oder abschreibt. 
-- Weitere Features auf Geräten mit gemeinsam genutzten Speicherplatz umfassen die Suche auf Handys in der Nähe und Hot-King mit Leerlauftimeout.
+- Führen Sie eine bestimmte Funktion aus, z. B. ein Telefon- oder Besprechungsraumgerät im einheitlichen Bereich, und benötigen Sie ein dediziertes Konto und eine Featurelizenz, um auf den Dienst zugreifen zu können.
+- Stellen Sie sich für freigegebene Geräte eine 1:n-Beziehung vor: ein Gerät, das von vielen Benutzern gemeinsam genutzt wird.
+- Wird in gemeinsam genutzten Räumen wie Besprechungsräumen, Empfangsbereichen oder Fertigungsbereichen bereitgestellt. 
+- Ihre Benutzeroberflächen sind spezifisch für ihre Funktion, z. B. die Benutzeroberfläche für Telefone für gemeinsame Bereiche oder die Benutzeroberfläche des Besprechungsraums, hängen von der Funktion und Platzierung des gemeinsam genutzten Geräts ab.
+- Erfordert Konfiguration und optionale Härtung, um sicherzustellen, dass die Einstellungen nicht geändert werden, oder um zu verhindern, dass sich das Konto abmeldet. 
+- Zu den zusätzlichen Features auf Geräten mit gemeinsamem Speicherplatz gehören die Suche auf Telefonen im einheitlichen Bereich und das Warmabblenden mit Leerlauftimeout.
 
-### <a name="objective-how-many-personal-and-shared-space-devices-do-you-need"></a>Ziel: Wie viele Geräte für persönlichen und gemeinsam genutzten Speicherplatz benötigen Sie?
+### <a name="objective-how-many-personal-and-shared-space-devices-do-you-need"></a>Ziel: Wie viele persönliche und freigegebene Speicherplatzgeräte benötigen Sie?
 
-Nachdem Sie nun die Gerätepersonas identifiziert haben, müssen Sie bestimmen, welche zertifizierten Geräte Sie verwenden möchten und wie viele davon Sie benötigen. Damit Sie diese Entscheidung treffen können, stellen Sie sich die folgenden Fragen: 
+Nachdem Sie Ihre Gerätepersonas identifiziert haben, müssen Sie ermitteln, welche zertifizierten Geräte Sie verwenden möchten und wie viele davon Sie benötigen. Wenn Sie diese Entscheidung treffen möchten, sollten Sie die folgenden Fragen berücksichtigen: 
 
-- Wie viele persönliche Geräte sind erforderlich, und wer wird eines haben?
-- Wie viele Räume oder Räume benötigen gemeinsam genutzte Geräte? Wird jeder Raum den gleichen Gerätetyp haben? 
+- Wie viele persönliche Geräte sind erforderlich und wer hat eines?
+- Wie viele Räume oder Räume erfordern gemeinsam genutzte Geräte? Verfügt jeder Speicherplatz über denselben Gerätetyp? 
 - Müssen Ihre Geräte bestimmte Anforderungen erfüllen?
-    - Beispiele hierfür sind Bildschirmgröße, Formfaktor und Hersteller oder Modell? Eine Liste der zertifizierten Telefone und Anzeigen finden Sie unter Microsoft Teams [zertifizierten Geräten.](teams-ip-phones.md)
--  Benötigen Sie Telefone Teams oder Teams Anzeigen? Eine Liste der von Teams-Telefonen unterstützten Features finden Sie unter Telefone für [Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones) und eine Liste der von den Teams unterstützten Features finden Sie unter anzeigen [Microsoft Teams](teams-displays.md#features-supported-by-teams-displays).
-- Verfügen Sie über genügend Geräte für neue Benutzer oder einen Prozess für neue Bestellungen und Lieferung?
-- Stehen Ihnen Ersatzgeräte zur Wartung oder im Falle von Hardwareproblemen zur Verfügung? Die Möglichkeit, ein Gerät schnell zu tauschen, verhindert Unterbrechungen der Benutzererfahrung.
+    - Beispiele hierfür sind Bildschirmgröße, Formfaktor und Hersteller oder Modell? Eine Liste der zertifizierten Telefone und Displays finden Sie unter [Microsoft Teams-zertifizierte Geräte](teams-ip-phones.md).
+-  Benötigen Sie Teams-Telefone oder Teams-Displays? Eine Liste der von Teams-Telefonen unterstützten Features finden Sie unter ["Telefone für Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones) ", und eine Liste der von Teams-Displays unterstützten Features finden Sie in den [Microsoft Teams-Anzeigen](teams-displays.md#features-supported-by-teams-displays).
+- Verfügen Sie über genügend Geräte für neue Benutzer oder einen Prozess für neue Bestellungen und Lieferungen?
+- Stehen Ihnen Ersatzgeräte zur Wartung oder bei Hardwareproblemen zur Verfügung? Die Möglichkeit, ein Gerät schnell auszutauschen, verhindert Unterbrechungen der Benutzeroberfläche.
 
 ## <a name="task-2-what-are-your-licensing-requirements"></a>Aufgabe 2: Was sind Ihre Lizenzierungsanforderungen? 
 
-Nun wissen Sie, wie viele Geräte Sie benötigen. Im nächsten Schritt wird ermittelt, wie viele Lizenzen benötigt werden. Teams Telefonen und Anzeigen benötigen Lizenzen für den Zugriff auf Microsoft Teams und Microsoft 365.
+Jetzt wissen Sie, wie viele Geräte Sie benötigen. Der nächste Schritt besteht darin, zu ermitteln, wie viele Lizenzen benötigt werden. Teams-Telefone und -Anzeigen erfordern Lizenzen für den Zugriff auf Microsoft Teams und Microsoft 365.
 
-Für geteilte und persönliche Geräte ist eine andere Lizenzierung nötig. Für persönliche Geräte können Lizenzen verwendet werden, die Benutzerkonten zugewiesen sind. Gemeinsam genutzte Geräte benötigen für ihre Funktion spezifische Lizenzen. Bei Smartphones und Displays sind die entsprechenden Lizenzen die gemeinsame [Telefon](../set-up-common-area-phones.md#step-1---buy-the-licenses) für Microsoft Teams und [die Microsoft Teams-Räume Standard Lizenz.](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices)
+Freigegebene und persönliche Geräte benötigen eine andere Lizenzierung. Für persönliche Geräte können Lizenzen verwendet werden, die Benutzerkonten zugewiesen sind. Freigegebene Geräte benötigen Lizenzen, die für ihre Funktion spezifisch sind. Für Telefone und Displays sind die anwendbaren Lizenzen [die Common Area Phone-Lizenz für Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) und [die Microsoft Teams-Räume Standard-Lizenz](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices).
 
-Weitere Informationen und Vergleiche Ihrer Lizenzierungsoptionen finden Sie unter [Microsoft 365 Lizenzierungspläne.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) 
+Weitere Informationen und zum Vergleichen Ihrer Lizenzierungsoptionen finden Sie unter [Microsoft 365-Lizenzierungspläne](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1). 
 
-## <a name="task-3-what-are-your-dependencies"></a>Aufgabe 3: Wie sind Ihre Abhängigkeiten? 
+## <a name="task-3-what-are-your-dependencies"></a>Aufgabe 3: Was sind Ihre Abhängigkeiten? 
 
 ### <a name="objective-plan-your-device-identities"></a>Ziel: Planen der Geräteidentitäten
 
-Identitäten ermöglichen Geräten den Zugriff auf Microsoft 365 Dienste, und sie sollten das Erkennen, Verwalten und Herstellen einer Verbindung mit Geräten innerhalb Ihrer Organisation erleichtern. Berücksichtigen Sie bei der Planung von Geräteidentitäten die folgenden Punkte:
+Identitäten ermöglichen Geräten den Zugriff auf Microsoft 365-Dienste, und sie sollten das Auffinden, Verwalten und Verbinden von Geräten innerhalb Ihrer Organisation vereinfachen. Berücksichtigen Sie dazu bei der Planung von Geräteidentitäten Folgendes:
 
 - Benutzerprinzipalnamen und deren Format und Domäne
 - Anzeigenamen
-- Aufwendbarkeit des Adressbuchs
-- Gerätetypen "Persönlich" im Vergleich zu "gemeinsam genutzter Speicherplatz"
+- Auffindbarkeit des Adressbuchs
+- Gerätetypen für persönlichen und gemeinsam genutzten Speicherplatz
 - Gruppen- und Benutzerlizenzierung
 
-### <a name="objective-review-conditional-access-policies"></a>Ziel: Richtlinien für bedingten Zugriff überprüfen
+### <a name="objective-review-conditional-access-policies"></a>Ziel: Überprüfen von Richtlinien für bedingten Zugriff
 
-Azure Active Directory Richtlinien für bedingten Zugriff sind zusätzliche Anforderungen, die erfüllt sein müssen, bevor ein Gerät angemeldet werden kann.
+Azure Active Directory-Richtlinien für bedingten Zugriff sind zusätzliche Anforderungen, die erfüllt sein müssen, bevor ein Gerät angemeldet werden kann.
 
 Während der Planung der Bereitstellung
 
-- Überprüfen Sie vorhandene Richtlinien für bedingten Zugriff, die sich auf Ihre Teams und Anzeigen auswirken können. Dazu können Sie im Azure AD Admin Center das [Tool "Was](/azure/active-directory/conditional-access/what-if-tool) wäre wenn" und [Anmeldeprotokolle verwenden.](/azure/active-directory/reports-monitoring/concept-sign-ins)
+- Überprüfen Sie vorhandene Richtlinien für bedingten Zugriff, die sich auf Ihre Teams-Telefone und -Anzeigen auswirken können. Sie können dies im Azure AD Admin Center mithilfe des [Was-wäre-wenn-Tools](/azure/active-directory/conditional-access/what-if-tool) und der [Anmeldeprotokolle](/azure/active-directory/reports-monitoring/concept-sign-ins) tun.
 
 - Planen neuer Regeln bei Bedarf
 
-- Verwenden Sie Funktionen für bedingten Zugriff wie Gerätefilter, um Regeln auf Teams und Anzeigen anzuwenden.
+- Verwenden Sie Features für bedingten Zugriff wie Gerätefilter, um Regeln auf Teams-Telefone und -Displays anzuwenden.
 
 >[!NOTE]
->Es gibt einige Richtlinien für bedingten Zugriff, die von Android-Geräten nicht unterstützt werden. Anleitungen und bewährte Methoden finden Sie unter Android-Geräte unter Bewährte Methoden für die Authentifizierung [Teams Android-Geräten.](authentication-best-practices-for-android-devices.md)
+>Es gibt einige Richtlinien für bedingten Zugriff, die von Android-Geräten nicht unterstützt werden. Anleitungen und bewährte Methoden finden Sie unter Android-Geräte, siehe [bewährte Methoden für die Authentifizierung für Android-Geräte in Teams](authentication-best-practices-for-android-devices.md).
 
 ## <a name="task-4-prepare-your-environment"></a>Aufgabe 4: Vorbereiten der Umgebung
 
-### <a name="objective-plan-network-basics"></a>Ziel: Planen der Netzwerkgrundfunktionen
+### <a name="objective-plan-network-basics"></a>Ziel: Planen der Grundlagen des Netzwerks
 
-Teams Telefon-Geräten und Anzeigen benötigen Zugriff auf das Internet, um eine Verbindung mit Teams und Funktion wie beabsichtigt herzustellen. Beachten Sie die folgenden Punkte, um Ihr Netzwerk für die Bereitstellung vorbereitet zu machen:
+Teams Phone-Geräte und -Displays erfordern Zugriff auf das Internet, um eine Verbindung mit Teams herzustellen und wie beabsichtigt zu funktionieren. Um Ihr Netzwerk für die Bereitstellung vorzubereiten, sollten Sie Folgendes berücksichtigen:
 
-- Verfügt Ihre Netzwerkinfrastruktur über ausreichend Kapazität? Erwägen Sie, Ports, Funkzugriffspunkte und andere Abdeckungen zu wechseln.
-- Ist die Größe Ihrer Bereiche bei Verwendung von ROUTERNs und DHCP entsprechend?
-- Bewerten und testen Sie Netzwerkpfade von dem Ort aus, an dem Geräte für die Microsoft 365. 
-- Öffnen Sie die erforderlichen Firewallports und URLs Microsoft 365 Anleitungen.
+- Verfügt Ihre Netzwerkinfrastruktur über genügend Kapazität? Ziehen Sie Switchports, drahtlose Zugriffspunkte und andere Abdeckungen in Betracht.
+- Wenn Sie VLANs und DHCP verwenden, werden Ihre Bereiche entsprechend angepasst?
+- Auswerten und Testen von Netzwerkpfaden, von wo aus Geräte in Microsoft 365 bereitgestellt werden. 
+- Öffnen Sie die erforderlichen Firewallports und URLs für Microsoft 365 gemäß Anleitung.
 - Überprüfen und testen Sie die E911-Anforderungen und -Konfiguration auf Standortgenauigkeit und Compliance. 
-- Vermeiden Sie die Verwendung eines Proxyservers, und optimieren Sie Medienpfade aus Zuverlässigkeit und Qualität.
+- Vermeiden Sie die Verwendung eines Proxyservers, und optimieren Sie Medienpfade für Zuverlässigkeit und Qualität.
 
-### <a name="objective-physical-considerations"></a>Ziel: Physische Überlegungen
+### <a name="objective-physical-considerations"></a>Zielsetzung: Physische Überlegungen
 
-Berücksichtigen Sie die physischen Bereiche, an Teams Ihre Telefone und Anzeigen verwendet werden.
+Berücksichtigen Sie die physischen Räume, in denen Ihre Teams-Telefone und -Anzeigen verwendet werden.
 
-Zu den Hauptaspekten gehören:
+Zu den wichtigsten Aspekten gehören
 
-- **Leistung:** Verfügen Sie über genügend Elektrische Steckdosen? Wie nahe können Sie das Gerät an einer Steckdose positionieren, wenn für das Gerät eine externe Stromquelle benötigt wird?
-- **Platzierung des Geräts:** Wo wird Ihr Gerät physisch sein? Schreibtischständer, Wandhalter und sonstiges Zubehör des Originalgeräteherstellers (OEM).
-- **Sicherheit:** Muss Ihr Gerät an bestimmten Plätzen gesperrt sein?
-- **Barrierefreiheit:** Erfüllt das Gerät die Anforderungen des primären Benutzers an die Barrierefreiheit? Überlegen Sie, wo das Handy platziert, wie lange das Kabel ist und wo die Benutzerfreundlichkeit des Handys oder Headsets liegt.
+- **Macht:** Haben Sie genügend Steckdosen? Wie nah können Sie das Gerät an einer Steckdose positionieren, wenn das Gerät eine externe Stromquelle benötigt?
+- **Geräteplatzierung:** Wo befindet sich Ihr Gerät physisch? Überprüfen Sie Schreibtischständer, Wandhalterungen und anderes Zubehör des Originalgeräteherstellers (OEM).
+- **Sicherheit:** Muss Ihr Gerät an bestimmten Stellen gesperrt sein?
+- **Zugänglichkeit:** Erfüllt das Gerät die Anforderungen an die Barrierefreiheit seines primären Benutzers? Überlegen Sie, wo sie platziert, drahtgebunden und handset- oder Headset-Nutzbarkeit ist.
 
-### <a name="task-5-how-will-you-manage-deployed-devices"></a>Aufgabe 5: Wie werden bereitgestellte Geräte verwaltet?
+### <a name="task-5-how-will-you-manage-deployed-devices"></a>Aufgabe 5: Wie verwalten Sie bereitgestellte Geräte?
 
-Teams telefonieren und Anzeigen werden von zwei bis drei Microsoft 365 Portalen und den entsprechenden PowerShell-Modulen verwaltet: 
+Teams-Telefone und -Displays werden von zwei bis drei Microsoft 365-Portalen und ihren jeweiligen PowerShell-Modulen verwaltet: 
 
 #### <a name="azure-active-directory-admin-center"></a>Azure Active Directory Admin Center
 
-Verwalten des Azure AD Admin Centers
+Verwenden des Azure AD Admin Center zum Verwalten
 
-- Alle identitätsbezogenen Aufgaben für Teams und Anzeigen
+- Alle identitätsbezogenen Aufgaben für Teams-Telefone und -Displays
 - Richtlinien für bedingten Zugriff 
 - Kennwortzurücksetzungen
 
 #### <a name="teams-admin-center"></a>Teams Admin Center
 
-Verwalten des Teams Admin Centers
+Verwenden des Teams Admin Center zum Verwalten
 
 - [Geräteeinstellungen für Teams](../business-voice/manage-devices.md)
 - [Konfigurationsprofile](device-management.md#use-configuration-profiles-in-teams)
 - [Gerätetags](manage-device-tags.md)
-- [Remote-An- und Abmelden](remote-sign-in-and-sign-out.md)
+- [Remoteanmeldung und -abmeldung](remote-sign-in-and-sign-out.md)
 - Anrufanalyse  
 - Firmware
 - Problembehandlung und Herunterladen von Protokollen
 
 #### <a name="endpoint-manager-admin-center-if-you-use-intune-for-device-management"></a>Endpoint Manager Admin Center (wenn Sie Intune für die Geräteverwaltung verwenden)
 
-Verwenden Sie Endpoint Manager Admin Center, um dies zu verwalten: 
+Verwenden Sie das Endpoint Manager Admin Center, um Folgendes zu verwalten: 
 
-- Richtlinien zur Gerätekonformität
+- Gerätekompatibilitätsrichtlinien
 - Registrierungseinschränkungen
 - Unternehmensgeräte-IDs
 - Gerätefilter

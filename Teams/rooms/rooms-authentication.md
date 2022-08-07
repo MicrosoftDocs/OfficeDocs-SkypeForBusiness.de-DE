@@ -13,13 +13,14 @@ ms.localizationpriority: medium
 ms.assetid: ''
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Erfahren Sie, wie Sie die moderne Authentifizierung für Microsoft Teams-Räume konfigurieren.
-ms.openlocfilehash: c50b197f554605b291e6af51b140fa6a2599e408
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240624"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268240"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentifizierung in Microsoft Teams-Räume
 

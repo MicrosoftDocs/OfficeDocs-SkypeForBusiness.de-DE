@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Teams mit Richtlinien
+title: Verwalten von Microsoft Teams mit Richtlinien
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -10,19 +10,18 @@ search.appverid: ''
 description: Informieren Sie sich über Teams-Richtlinien.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b56e617321cea25fe677b7d9a7a00afba0940b07
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156533"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268760"
 ---
-# <a name="manage-teams-with-policies"></a>Verwalten von Teams mit Richtlinien
+# <a name="manage-teams-with-policies"></a>Verwalten von Microsoft Teams mit Richtlinien
 
 Richtlinien sind ein wichtiger Bestandteil der Verwaltung von Teams. Verwenden Sie diesen Artikel, um zu navigieren, wie Sie Richtlinien zum Nutzen Ihrer Organisation verwenden.
 
@@ -34,7 +33,7 @@ Richtlinien werden verwendet, um viele Aufgaben in Ihrer Organisation in verschi
 
 Richtlinien können auf verschiedene Arten zugewiesen werden, je nachdem, was Ihre Organisation zu erreichen versucht. Sie können Aufgaben im Teams Admin Center erstellen und anzeigen.
 
-![Screenshot der Gruppenrichtlinienzuweisung.](media/group-policy-assignment.png)
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Screenshot der Gruppenrichtlinienzuweisung für Teams." lightbox="media/group-policy-assignment.png":::
 
 Weitere Informationen zum Zuweisen von Richtlinien [finden Sie hier](policy-assignment-overview.md).
 
@@ -47,17 +46,17 @@ Richtlinien werden mit dem Microsoft Teams Admin Center oder [mithilfe von Power
 
 Beispielsweise können Sie mit einer App-Setuprichtlinie Benutzern das Hochladen benutzerdefinierter Apps, das Installieren von Apps im Auftrag Ihrer Benutzer und das Anheften von Apps an die Teams-App-Leiste ermöglichen. Diese Richtlinien sind im Teams Admin Center konfiguriert.
 
-![Screenshot der App-Setuprichtlinie.](media/app-setup-policy.png)
+:::image type="content" source="media/app-setup-policy.png" alt-text="Screenshot der App-Setuprichtlinie." lightbox="media/app-setup-policy.png":::
 
 Darüber hinaus kann eine Besprechungsrichtlinie verwendet werden, um Audio- und Videoeinstellungen in Teams-Besprechungen wie Transkriptionen, Cloudaufzeichnungen und IP-Audio/Video zu steuern.
 
-![Screenshot der Besprechungsrichtlinie.](media/engineering-meeting-policy.png)
+:::image type="content" source="media/engineering-meeting-policy.png" alt-text="Screenshot der Besprechungsrichtlinie." lightbox="media/engineering-meeting-policy.png":::
 
 ### <a name="teams-for-education"></a>Microsoft Teams für Bildungseinrichtungen
 
 Sie können auch den [Teams für Education Richtlinien-Assistenten](easy-policy-setup-edu.md) verwenden, um Richtlinien für Ihre Lernumgebung einfach einzurichten und zu verwalten.
 
-![Screenshot des Richtlinien-Assistenten Teams für Education.](media/easy-policy-setup-quick-setup.png)
+:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot des Richtlinien-Assistenten Teams für Education." lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## <a name="types-of-policies"></a>Richtlinientypen
 
