@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
+ms.openlocfilehash: a7cb846cfeafeff3009890b8745e9b13fc6bdd97
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952769"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268380"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Reflect in Microsoft Teams
 
 Dieses Dokument enthält Informationen zu [Reflect](https://aka.ms/reflect), einem festen Bestandteil von [Education Insights in Microsoft Teams](class-insights.md). Reflect hilft Studenten, ihre Stimmung zu erkennen und damit umzugehen durch regelmäßige Gelegenheiten, sich diesbezüglich mitzuteilen und gehört zu werden. Mithilfe von Reflect können Lernende ihr emotionales Vokabular erweitern und ihr Einfühlungsvermögen gegenüber anderen Lernenden verbessern, während Lehrkräfte gleichzeitig wertvolles Feedback für eine gesunde Gemeinschaft erhalten.
 
-Diese Eincheck-App hilft Lehrkräften mittels Emojis und forschungsgestützter emotionaler Granularität, soziales und emotionales Lernen in ihre Routine einzubeziehen.
+Diese kostenlose Check-In-App verwendet Emojis und Zeichen, um Schülern/Studenten zu helfen, emotionale Granularität zu entwickeln. Studien haben gezeigt, dass sich das explizite Erlernen von sozialen und emotionalen Fähigkeiten förderlich auf die Lernleistung und das Verhalten von Schülern/Studenten auswirkt und lebenslang positive Auswirkungen hat.
 
 ## <a name="privacy-and-security"></a>Datenschutz und Sicherheit
 
@@ -69,16 +69,7 @@ Wenn Sie zuvor festgelegt haben, dass jede App erlaubt werden muss, wechseln Sie
 > Weitere Details finden Sie unter [Zulassen oder Hinzufügen einer App zu einem Kursteam](manage-apps.md#allow-and-block-apps).
 
 ## <a name="where-do-educators-find-reflect"></a>Wo finden Lehrkräfte Reflect?
-Nachdem Sie Reflect aktiviert haben, können Lehrkräfte zum betreffenden Kurs wechseln und **Neue Unterhaltung** auswählen. Anschließend wählen sie „**...**“ aus, um Nachrichtenerweiterungen anzuzeigen, und geben **Reflect** in die Suchleiste ein. Das Dialogfeld führt sie durch das Definieren einer Frage und die Auswahl, wer was sehen kann.
-
-:::image type="content" source="media/reflect-add-app.png" alt-text="Hinzufügen von Reflect zu einem Kursteam.":::
-
-Für den einfachen Zugriff können Sie mit der rechten Maustaste auf das Reflect-Symbol klicken und **Anheften** auswählen.
-
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Heften Sie die Reflect-App an.":::
-
-> [!TIP]
-> Sie können die Reflect-App auch über diesen Link finden: [https://aka.ms/getReflect](https://aka.ms/getReflect).
+Reflect ist standardmäßig in jedem Kurs- oder Mitarbeiterteam verfügbar. Um auf die App zuzugreifen, navigieren Sie zu Ihrem gewünschten Team, und wählen Sie dann die Registerkarte „Reflect“ aus.
 
 > [!TIP]
 > Weitere Einzelheiten finden Sie auf der [Reflect-Supportseite](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Diese Seite enthält Richtlinien für Lehrkräfte und Schüler und hilft bei der Erstellung ihres ersten Reflect-Check-ins.
