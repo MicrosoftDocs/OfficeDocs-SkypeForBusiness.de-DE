@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156683"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270260"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Grundlegendes zu Microsoft Teams-Apps
 
@@ -43,7 +43,7 @@ Die verschiedenen Arten von Apps, die Ihre Endbenutzer in Teams verwenden könne
 
 ## <a name="core-apps"></a>Haupt-Apps
 
-Einige Microsoft Teams-Funktionen wie Aktivitätsfeed, Kanäle, Chat, Kalender und Anrufe sind standardmäßig verfügbar und angeheftet, um Endbenutzern den Zugriff auf sie zu erleichtern. Als Administrator können Sie dieses Standardverhalten mit [Setup-Richtlinien](/microsoftteams/teams-app-setup-policies) ändern.
+Einige Teams-Funktionen wie Aktivitätsfeed, Teams, Chat, Kalender, Anrufe, Dateien und Aufgaben (Bildungsmandanten) sind standardmäßig verfügbar und standardmäßig angeheftet, um den Zugriff für Endbenutzer zu erleichtern. Für Frontline-Mitarbeiter sind nur Aktivität, Schichten, Chat und Anrufe verfügbar und angeheftet. Als Administrator können Sie dieses Standardverhalten mit [Setup-Richtlinien](/microsoftteams/teams-app-setup-policies) ändern.
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Haupt-Apps sind die Apps, die standardmäßig in Teams angeheftet sind." lightbox="media/core-apps-pinned2.png":::
 
