@@ -16,12 +16,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: Dieser Artikel enthält Anleitungen zum Aktivieren von Teams-Panels für das Einchecken und Freigeben von Räumen.
-ms.openlocfilehash: 5f411979c9fb121bb80c999b102332b0208efb81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268220"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298325"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Einchecken und Raumfreigabe in Microsoft Teams-Bereichen
 
@@ -29,7 +29,9 @@ Wenn check-in und room release aktiviert sind, checken Die Benutzer in Teams-Ber
 
 ## <a name="requirements"></a>Anforderungen 
 
-Dieses Feature kann in einer eigenständigen Teams-Türschild-Bereitstellung verwendet werden. Sie können Teams-Bereiche auch mit Teams-Räume unter Android mit App-Version 1449/1.0.96.2022011305 oder höher koppeln, um zusätzliche Funktionen wie Check-In-Benachrichtigungen zu erhalten.  
+Dieses Feature kann in einer eigenständigen Teams-Türschild-Bereitstellung verwendet werden. Sie können Teams-Bereiche auch mit Teams-Räume unter Android mit App-Version 1449/1.0.96.2022011305 oder höher koppeln, um zusätzliche Funktionen wie Check-In-Benachrichtigungen zu erhalten.
+
+Für das freigegebene Postfach, das dem Teams-Türschild zugeordnet ist, muss die richtige Zeitzone festgelegt sein, damit dieses Feature ordnungsgemäß funktioniert. Informationen zum Festlegen der Zeitzone für freigegebene Postfächer finden Sie [unter Zeitzoneneinstellungen für freigegebene Postfächer in Outlook im Web](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
 
 ## <a name="enable-check-in-and-room-release"></a>Aktivieren des Eincheckens und der Raumfreigabe 
 

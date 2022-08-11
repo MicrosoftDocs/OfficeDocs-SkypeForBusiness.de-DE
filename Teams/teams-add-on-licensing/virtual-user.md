@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie ressourcenkonten in Ihrer Organisation kostenlose Microsoft Teams Phone-Ressourcenkontolizenzen oder eine kostenpflichtige Teams Telefon Standard-Benutzerlizenzen zuweisen.
-ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615401"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298295"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams Telefon Ressourcenkontolizenzen
 
@@ -34,7 +34,7 @@ Organisationen mit Teams Telefon Standard- oder Teams-Telefon mit Anrufplan-lize
 Alle automatischen Telefonzentralen und Anrufwarteschleifen erfordern ein zugeordnetes Ressourcenkonto. Ressourcenkonten, für die eine Telefonnummer erforderlich ist, benötigen entweder eine kostenlose *Microsoft Teams Telefon Ressourcenkontolizenz* oder eine kostenpflichtige *Teams Telefon Standard* Benutzerlizenz, bevor eine Telefonnummer auf das Ressourcenkonto angewendet werden kann.
 
 > [!TIP]
-> Für Ressourcenkonten, die mit geschachtelten automatischen Telefonzentralen oder Anrufwarteschleifen verwendet werden, denen keine Telefonnummer zugewiesen ist, ist keine Lizenz erforderlich. Weitere Informationen finden Sie im folgenden Diagramm.
+> Für Ressourcenkonten, die mit geschachtelten automatischen Telefonzentralen oder Anrufwarteschleifen verwendet werden, denen keine Telefonnummer zugewiesen ist, ist keine Lizenz erforderlich.
 
 ## <a name="resource-account-license-allocation"></a>Ressourcenkonto-Lizenzzuweisung
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b547990a05d6c4ff0bd7a3bd36fdf3fbe431202e
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958140"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278769"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Einrichten der übergeordneten Verbindung in Microsoft Teams für Education
 
@@ -181,7 +181,7 @@ Sobald die Richtlinien für den externen Zugriff auf Benutzerebene für die Benu
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Aktivieren der Eltern-App im Teams Admin Center
 
-Die Eltern-App ist standardmäßig deaktiviert, sodass sie für Kursteambesitzer erst in ihren Kursteams angezeigt wird, wenn sie über das Teams Admin Center zulässig ist. Die Eltern-App ist im Teams Admin Center mithilfe von "Zulassen"-Apps aktiviert, die [von Herausgebern blockiert wurden](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
+Die Eltern-App ist standardmäßig deaktiviert, sodass sie für Kursteambesitzer erst in ihren Kursteams angezeigt wird, wenn sie über das Teams Admin Center zulässig ist. Die Eltern-App ist im Teams Admin Center mit von [Entwicklern blockierten Allow-Apps](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers) aktiviert.
 
 Die App kann jederzeit auf Mandantenebene mithilfe von Apps im Teams Admin Center deaktiviert [und blockiert](manage-apps.md#allow-and-block-apps) werden. Wenn sie auf Mandantenebene deaktiviert ist, wird sie für alle Benutzer blockiert, auch wenn Berechtigungen auf Benutzerebene aktiviert sind.
 

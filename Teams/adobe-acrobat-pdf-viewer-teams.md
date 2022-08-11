@@ -1,6 +1,6 @@
 ---
 title: Adobe Acrobat als ein Standard-PDF-Viewer in Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,13 +15,13 @@ f1keywords: ''
 description: Erfahren Sie, wie Sie Adobe Acrobat als einen Standard-PDF-Viewer festlegen, um PDF-Dateien in Microsoft Teams anzuzeigen und zu bearbeiten.
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 88babd01496738825cbe655215532e311a32f541
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270880"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299244"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat als ein Standard-PDF-Viewer in Microsoft Teams
 
