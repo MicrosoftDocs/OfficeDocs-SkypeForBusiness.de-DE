@@ -1533,14 +1533,18 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Verwalten Sie Microsoft 365 und benutzerdefinierte Connectors
             href: Office-365-custom-connectors.md
-      - name: Verwalten der Geschäftssparten-Apps
+      - name: Verwalten von benutzerdefinierten Apps
         items:
+          - name: Verwalten von benutzerdefinierten und quergeladenen Apps
+            href: custom-app-overview.md
+          - name: Verwalten der Richtlinien und Einstellungen für benutzerdefinierte Apps
+            href: teams-custom-app-policies-and-settings.md
+          - name: 'Veröffentlichen von benutzerdefinierten Apps, die mithilfe der API übermittelt wurden'
+            href: submit-approve-custom-apps.md
+          - name: Veröffentlichen einer als Paket übermittelten benutzerdefinierten App
+            href: upload-custom-apps.md
           - name: Verwalten von Power Platform-Apps im Teams Admin Center
             href: manage-power-platform-apps.md
-          - name: Veröffentlichen benutzerdefinierter Apps im Store Ihrer Organisation
-            href: submit-approve-custom-apps.md
-          - name: 'Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen'
-            href: upload-custom-apps.md
       - name: Administratorsteuerelemente zum Steuern von Apps
         items:
           - name: Übersicht über die App-Verwaltung für Administratoren
@@ -1557,7 +1561,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Anpassen von Teams-Apps für Ihre Mitarbeiter in Service und Produktion
             href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-          - name: Diagrammberechtigungen und Administratoreinwilligung in Azure AD
+          - name: Überprüfen der Azure AD-Berechtigungen und Erteilen der Administratorzustimmung
             href: app-permissions-admin-center.md
           - name: Verwalten der ressourcenspezifischen Zustimmung für Ihre Organisation
             href: resource-specific-consent.md

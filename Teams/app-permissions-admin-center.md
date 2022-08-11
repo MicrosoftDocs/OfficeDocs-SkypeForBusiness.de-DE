@@ -1,24 +1,23 @@
 ---
 title: Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung im Microsoft Teams Admin Center
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie, wie Sie auf der Seite "Apps verwalten" im Microsoft Teams-Administrationszentrum die von Apps angeforderten Berechtigungen anzeigen und den Apps eine Admin-Zustimmung erteilen.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e3d7ca4f86660080cb387a9d4cd80927f296040
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175649"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299054"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung im Microsoft Teams Admin Center
 
@@ -86,9 +85,9 @@ Gehen Sie folgendermaßen vor, um die RSC-Berechtigungen für eine Anwendung anz
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>Der Link "Details anzeigen" wird in der Spalte "Berechtigungen" für einige Drittanbieter-Apps, die Berechtigungen anfordern, nicht angezeigt.
 
-Derzeit ist die Möglichkeit, Berechtigungen zu überprüfen und die Zustimmung zu erteilen, nicht für alle in Azure AD registrierten Drittanbieteranwendungen verfügbar, die Berechtigungen anfordern. Anstelle des Links **Details anzeigen** sehen Sie **--** in der Spalte **Berechtigungen**. Wir arbeiten mit ISVs zusammen, um dieses Feature für ihre Apps zu aktivieren.
+Die Möglichkeit, Berechtigungen zu überprüfen und die Zustimmung zu erteilen, ist nicht für alle Drittanbieter-Apps verfügbar. In der Regel werden die Drittanbieter-Apps in Azure Active Directory registriert, wenn die Apps Berechtigungen anfordern. Anstelle des Links **Details anzeigen** sehen Sie `--` in der Spalte **Berechtigungen**.
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-articles"></a>Verwandte Artikel
 
 * [Verwalten Sie Ihre Apps im Microsoft Teams Admin Center](manage-apps.md)
 * [Berechtigungen und Zustimmung im Microsoft Identity Platform-Endpunkt](/azure/active-directory/develop/v2-permissions-and-consent)

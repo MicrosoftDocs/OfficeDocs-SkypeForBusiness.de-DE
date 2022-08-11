@@ -1,9 +1,8 @@
 ---
 title: Hochladen Ihrer benutzerdefinierten Apps im Microsoft Teams Admin Center
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: joglocke, vaibhava
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Apps in den App Store Ihrer Organisation im Microsoft Teams Admin Center hochladen.
-ms.openlocfilehash: 6c4c32ce747f0da17d010f8ba3f4bedd6112a51d
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 52977d9663f5dbee915e2227075127fe1c6575ad
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175659"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299024"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen
 
