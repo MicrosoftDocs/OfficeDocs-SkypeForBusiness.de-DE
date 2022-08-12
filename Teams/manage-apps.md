@@ -18,12 +18,12 @@ description: Erfahren Sie, wie Sie Teams-Apps verwalten. Erfahren Sie, wie Sie A
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bda9146bf2f5fd8a4b321be498e50e39be8f5965
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271840"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298864"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Sie Teams-Apps im Microsoft Teams Admin Center
 
@@ -42,7 +42,7 @@ Während der Erstellung einer App erstellen die Entwickler eine App-ID und füge
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>Anwendungsfälle für das App-Management und die verfügbaren Schnittstellen
 
-Die Optionen zum Ausführen der meisten Anwendungsfälle für die App-Verwaltung sind im Teams Admin Center verfügbar. Darüber hinaus sind einige Optionen in anderen Portalen oder anderen Admin Center-Seiten im selben Portal verfügbar.
+Die Optionen zum Ausführen der meisten Anwendungsfälle für die App-Verwaltung sind im Teams Admin Center verfügbar. Darüber hinaus sind einige Optionen in anderen Portalen oder auf verschiedenen Seiten im Teams Admin Center verfügbar.
 
 | Anwendungsfälle für die App-Verwaltung | Link zur Schnittstelle | Dokumentation |
 |:----|:----|:----|
@@ -55,7 +55,7 @@ Die Optionen zum Ausführen der meisten Anwendungsfälle für die App-Verwaltung
 | Der Team-App-Nutzungsbericht enthält Informationen darüber, welche Apps verwendet werden, aktive Benutzer und andere Informationen zur App-Nutzung. | [Verwendungsberichte](https://admin.teams.microsoft.com/analytics/reports) | [Teams-App-Nutzungsbericht](teams-analytics-and-reports/app-usage-report.md) |
 | Ihre Benutzer können Apps hinzufügen, wenn sie Meetings veranstalten oder mit Gästen chatten. Sie können auch von Gästen geteilte Apps verwenden, wenn sie an extern gehosteten Meetings oder Chats teilnehmen. Es gelten die Datenrichtlinien der Organisation des hostenden Benutzers und die Datenfreigabepraktiken aller Apps von Drittanbietern, die von der Organisation dieses Benutzers freigegeben werden. | [Externer Zugriff](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App-Verhalten je nach Benutzertypen](non-standard-users.md) |
 | Mit dem Gastzugriff können Sie Personen außerhalb Ihrer Organisation Zugriff auf Anwendungen und andere Teams-Funktionen gewähren und gleichzeitig die Kontrolle über Ihre Unternehmensdaten behalten. | [Gastzugriff](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Gastzugriff in Teams](guest-access.md) |
-| Aktualisierungsrichtlinien werden verwendet, um Teams und Office-Vorschaubenutzer zu verwalten, die Vorabversions- oder Vorschaufeatures in der Teams-App sehen.  | [Teams-Updaterichtlinien](https://admin.teams.microsoft.com/policies/updatemanagement) | [Öffentliche Teams-Vorschau](public-preview-doc-updates.md) |
+| Aktualisierungsrichtlinien werden verwendet, um Teams und Office-Vorschaubenutzer zu verwalten, die Vorabversions- oder Vorschaufeatures in der Teams-App sehen. | [Teams-Updaterichtlinien](https://admin.teams.microsoft.com/policies/updatemanagement) | [Öffentliche Teams-Vorschau](public-preview-doc-updates.md) |
 | **Außerhalb des Teams Admin Centers** | | |
 | Verwalten Sie Lizenzen und Abonnements von Drittanbieter-Apps im Microsoft 365 Admin Center | [Microsoft 365 Admin Center](https://admin.microsoft.com/#/licenses) | [Verwalten Sie App-Abonnements von Drittanbietern](/microsoft-365/commerce/manage-saas-apps) |
 | Audit-Teams-App-Ereignisse im Microsoft Purview-Compliance-Portal. | [Überwachung](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Microsoft Teams-Aktivitäten](audit-app-management-activities.md) |
@@ -80,27 +80,27 @@ Wenn Sie eine App auf der Seite [Apps verwalten](https://admin.teams.microsoft.c
 
 Ein Benutzer kann eine App nur installieren und verwenden, wenn die App über die mandantenweite Einstellung und für den Benutzer über die Berechtigungsrichtlinie zugelassen ist.
 
-## <a name="manage-user-requests-to-unblock-apps"></a>Verwalten Sie Benutzeranfragen zum Entsperren von Apps
+## <a name="manage-user-requests-to-allow-apps"></a>Verwalten von Benutzeranforderungen zum Zulassen von Apps
 
-Sie können Anfragen anzeigen, um eine blockierte App zur Verwendung verfügbar zu machen. Die Anfrage wird an den IT-Administrator gesendet, der Benutzeranfragen im Teams Admin Center anzeigen und verwalten kann.
+Endbenutzer können die blockierten Apps im Teams Store anzeigen, aber nicht verwenden. Für die blockierten Apps steht eine Option zum Anfordern der Administratorgenehmigung zur Verfügung. Diese Anforderungen werden im Teams Admin Center gesammelt, und Administratoren können die Anforderungen anzeigen und verwalten, wenn sie möchten. Es wird dringend empfohlen, eine regelmäßige Einstufung für die Überprüfung auf Endbenutzeranforderungen zu verwenden.
 
-  :::image type="content" source="media/user-request.png" alt-text="Stellen Sie eine Anfrage für die Genehmigung blockierter Apps":::
+  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Fordern Sie einen Administrator auf, eine blockierte App zu genehmigen, indem Sie die Option „Genehmigung anfordern“ im Teams Store auswählen.":::
 
 ### <a name="view-a-request"></a>Anzeigen einer Anforderung
 
- 1. Melden Sie sich beim Teams Admin Center an, und wählen Sie[ Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps) aus
+ 1. Melden Sie sich beim Teams Admin Center an, und wählen Sie **Teams Apps** > **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)** aus.
 
     :::image type="content" source="media/requested-apps1.png" alt-text="Endbenutzeranforderungen für blockierte Apps werden im Teams Admin Center in der Spalte mit dem Titel Anforderungen von Benutzern angezeigt." lightbox="media/requested-apps.png":::
 
- 1. Um die Anzahl der Anfragen für jede App anzuzeigen und zu überprüfen, sortieren Sie die Anforderungen in der Spalte **Anforderungen nach Benutzer**.
- 1. Wählen Sie den Namen der App aus, die Sie entsperren möchten, und es öffnet sich die App-Detailseite.
- 1. Wählen Sie **Anforderungen verwalten** aus und führen Sie die im Popup-Dialogfeld angezeigten Schritte aus. Die Schritte zum Genehmigen einer App variieren je nach Methode zum Blockieren.
+ 1. Um die Anzahl der Anfragen für jede App anzuzeigen und zu überprüfen, sortieren Sie die Anforderungen in der Spalte **Anforderungen nach Benutzer**. Sie können den Namen der Benutzer, die eine App angefordert haben, nicht anzeigen.
+ 1. Um eine App zuzulassen, wählen Sie den Namen der App aus, und die Seite mit den App-Details wird geöffnet.
+ 1. Wählen Sie **Anforderungen verwalten** aus und führen Sie die im Popup-Dialogfeld angezeigten Schritte aus. Basierend auf der zum Blockieren einer App verwendeten Methode sind einer oder mehrere der folgenden Schritte erforderlich, um die Blockierung aufzuheben:
 
     * Wenn die App mithilfe von Berechtigungsrichtlinien blockiert ist, lassen Sie die App zu, indem Sie die [Berechtigungsrichtlinien ändern](teams-app-permission-policies.md).
     * Wenn die App für alle Benutzer blockiert ist, [lassen Sie die App zu](#allow-and-block-apps).
     * Wenn alle Apps für alle Benutzer blockiert sind, ändern Sie die [organisationsweiten Einstellungen](#manage-org-wide-app-settings).
 
- Wenn ein Administrator eine App zulässt, wird der Endbenutzer nicht darüber informiert, dass auf seine Anfrage reagiert wird. Der Benutzer muss die App im Store besuchen, um zu überprüfen, ob die App entsperrt ist oder nicht.
+ Wenn ein Administrator eine App zulässt, informiert Teams den Endbenutzer nicht darüber, dass auf seine Anfrage reagiert wird. Der Benutzer kann die App im Teams Store anzeigen, um zu prüfen, ob er die App zu seinem Teams-Client hinzufügen kann oder nicht. Wenn die App von einem Administrator genehmigt wurde, können Benutzer sie hinzufügen. Wenn ein Administrator die Anforderung alternativ nicht genehmigt und ablehnt, können Endbenutzer sie erneut anfordern.
 
 ### <a name="dismiss-a-user-request"></a>Ablehnen einer Benutzeranforderung
 
@@ -108,21 +108,23 @@ Sie können Anfragen anzeigen, um eine blockierte App zur Verwendung verfügbar 
  1. Wählen Sie **Anforderungen verwalten** und im Dialogfeld **alle Anfragen ablehnen** aus.
  1. Wenn eine Anfrage verworfen wird, werden die Benutzeranfragen auf null zurückgesetzt.
 
-  :::image type="content" source="media/reject.png" alt-text="Die Ablehnung von Apps wurde blockiert."border="true":::
+  :::image type="content" source="media/reject.png" alt-text="Administratoren können eine Benutzeranfrage genehmigen, indem sie eine App zulassen, oder die Anfrage ablehnen und keine Maßnahmen ergreifen.":::
 
-Wenn ein Administrator eine Anfrage ablehnt, wird der Endbenutzer nicht darüber informiert, dass auf seine Anfrage reagiert wird. Der Benutzer muss die App im Store besuchen, um zu überprüfen, ob die App entsperrt ist oder nicht.
+Wenn ein Administrator eine Anfrage ablehnt, wird der Endbenutzer nicht darüber informiert, dass auf seine Anfrage reagiert wird. Nachdem ein Administrator eine Anfrage abgelehnt hat, kann der Endbenutzer die App erneut anfordern.
 
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Lassen Sie die Apps zu, die von den Entwicklern blockiert werden
 
-Wenn ein Entwickler eine App im App Store von Teams veröffentlicht, benötigen sie möglicherweise Administratoren, um die App-Erfahrung zu konfigurieren oder anzupassen. Die Administratoren stellen die Erfahrung den Endbenutzern zur Verfügung, wenn die App eingerichtet wird.
+Wenn ein Entwickler eine App im Teams Store veröffentlicht, benötigen einige Apps möglicherweise einen Administrator, um die App zu konfigurieren. Die Administratoren stellen die App den Endbenutzern zur Verfügung, wenn die App eingerichtet wird.
 
-Beispielsweise ist Contoso Electronics ein ISV, der eine Helpdesk-App für Microsoft Teams erstellt hat. Contoso Electronics möchte, dass seine Kunden bestimmte Eigenschaften der App einrichten, damit sie wie erwartet funktioniert, wenn Benutzer mit der App interagieren. Bevor ein Administrator die Anwendung zulassen oder blockieren kann, wird sie im Teams Admin Center als **vom Herausgeber blockiert** angezeigt und ist standardmäßig für Endbenutzer ausgeblendet. Nachdem Sie die Anleitung des Herausgebers zum Einrichten der App befolgt haben, können Sie sie Benutzern zur Verfügung stellen, indem Sie den Status in **Zugelassen** ändern.
+Beispielsweise ist Contoso Electronics ein App-Entwickler, der eine Helpdesk-App für Microsoft Teams erstellt hat. Contoso Electronics möchte, dass seine Kunden bestimmte Eigenschaften der App einrichten, damit sie wie erwartet funktioniert, wenn Benutzer mit der App interagieren. Bevor ein Administrator die Anwendung zulässt, wird sie im Teams Admin Center als **vom Herausgeber blockiert** angezeigt und ist standardmäßig für Endbenutzer ausgeblendet. Nachdem Sie die Anleitung des Herausgebers zum Einrichten der App befolgt haben, können Sie sie Benutzern zur Verfügung stellen, indem Sie den Status in **Zugelassen** ändern.
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Screenshot des Status Blockiert durch Herausgeber im Admin Center von Teams.":::
 
+Informationen dazu, wie Entwickler eine App standardmäßig blockieren, finden Sie unter [App ausblenden, bis der Administrator zustimmt](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
+
 ## <a name="manage-org-wide-app-settings"></a>Verwalten Sie organisationsweite App-Einstellungen
 
-Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer mit einer [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) die maßgeschneiderte Frontline-App-Erfahrung erhalten, ob Benutzer Apps von Drittanbietern installieren können und ob Benutzer benutzerdefinierte Apps in Ihrer Organisation hochladen oder mit ihnen interagieren können. Organisationsweite App-Einstellungen regeln das Verhalten für alle Benutzer und setzen alle anderen App-Berechtigungsrichtlinien, die den Benutzern zugewiesen wurden, außer Kraft. Sie können sie verwenden, um bösartige oder problematische Apps zu kontrollieren.
+Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer mit einer [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) die maßgeschneiderte Frontline-App-Erfahrung erhalten, ob Benutzer Apps von Drittanbietern installieren können und ob Benutzer benutzerdefinierte Apps in Ihrer Organisation hochladen oder mit ihnen interagieren können. Organisationsweite App-Einstellungen regeln das Verhalten für alle Benutzer und setzen alle anderen App-Berechtigungsrichtlinien, die den Benutzern zugewiesen wurden, außer Kraft.
 
 > [!NOTE]
 > Informationen zum Verwenden von organisationsweiten App-Einstellungen in Bereitstellungen von Microsoft 365 Government – Government Community Cloud High GCCH und Department of Defense (DoD) von Teams finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md).

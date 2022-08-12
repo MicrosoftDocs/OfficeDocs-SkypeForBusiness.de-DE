@@ -15,12 +15,12 @@ description: Erfahren Sie, wie Sie Apps von Drittanbietern im Teams Store mithil
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 9da0b39582238f10fc3d76d7299afd0b004048fd
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270830"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299194"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Kaufen von Drittanbieter-Apps für Teams
 
@@ -34,8 +34,7 @@ Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Kauf von Apps im Teams Admin Center
 
-> [!IMPORTANT]
-> Wenn Sie den App-Kauf aktivieren, wird auch der In-App-Kauf aktiviert. Benutzern werden möglicherweise In-App-Kaufangebote angezeigt, die vom ISV für ihre App kontrolliert werden. Wenn Sie verhindern möchten, dass Ihre Benutzer eine App kaufen, müssen Sie die App blockieren. Weitere Informationen zum Blockieren einer App finden Sie unter [Verwalten von App-Richtlinien](app-policies.md) oder [Erfahren Sie, wie Sie eine App auf Organisationsebene blockieren](manage-apps.md#allow-and-block-apps).
+Führen Sie die folgenden Schritte aus, um Apps im Teams Admin Center zu kaufen: 
 
 1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Centers zu **Teams-Apps** > **[Apps verwalten.](https://admin.teams.microsoft.com/policies/manage-apps)**. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um auf die Seite zugreifen zu können.
 
@@ -47,7 +46,7 @@ Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps
 1. Wenn Sie die App gefunden haben, wählen Sie **Kaufen** aus, um zur Registerkarte **Pläne und Preise** der Detailseite der App zu wechseln. Überprüfen Sie die Pläne und Preisinformationen für das SaaS-Angebot für die App. Wenn Sie weitere Informationen benötigen, wählen Sie **Weitere Informationen** aus, um zur Seite der App auf [AppSource](https://appsource.microsoft.com/) zu wechseln.
 
    > [!NOTE]
-   > Private Pläne können auch zum Kauf aufgelistet werden und umfassen Sonderpreise, die Ihre Organisation zuvor mit einem ISV ausgehandelt hat. Diese Pläne weisen die Bezeichnung **Privater Plan** unter dem Plannamen auf.
+   > Private Pläne können auch zum Kauf angeboten werden, die Sonderpreise umfassen, die Ihre Organisation zuvor mit einem ISV ausgehandelt hat. Diese Pläne weisen die Bezeichnung **Privater Plan** unter dem Plannamen auf.
 
 1. Um eine App zu abonnieren, wählen Sie den von Ihnen gewünschten Plan und dann **Kaufen** aus. Der Fluss für den Auftragsabschluss wird direkt im Microsoft Teams Admin Center geöffnet.
 
@@ -62,7 +61,7 @@ Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps
 
 1. Wählen Sie **Bestellung aufgeben** aus.
 
-1. Wählen Sie **Einrichten** aus, um Ihr Abonnement auf der Website des Herausgebers zu aktivieren. Wenn Sie Ihr Abonnement nach dem Kauf nicht einrichten, können Sie dies später tun, indem Sie **Lizenzen verwalten** auswählen.
+1. Wählen Sie **Einrichten** aus, um Ihr Abonnement auf der App-Website des Entwicklers zu aktivieren. Wenn Sie Ihr Abonnement nach dem Kauf nicht einrichten, können Sie dies später tun, indem Sie **Lizenzen verwalten** auswählen.
 
 Nachdem Sie das der Teams-App zugeordnete SaaS-Angebot erworben haben, können Sie die folgenden Kaufdetails auf der Registerkarte **Pläne und Preise** auf der Detailseite der App anzeigen.
 
@@ -76,7 +75,10 @@ Um die von Ihnen erworbenen Lizenzen anzuzeigen und zu verwalten, wählen Sie **
 Globale Administratoren können weitere Lizenzen hinzufügen, Lizenzen entfernen und Abonnements für Käufe kündigen, die von beliebigen Personen in der Organisation getätigt wurden. Teams-Dienstadministratoren können die gleichen Aktionen für Käufe ausführen, die sie selbst getätigt haben. Wenn ein Teams-Dienstadministrator jedoch auch über die Rolle „Abrechnungsadministrator“ verfügt, kann er Käufe verwalten, die von beliebigen Personen in der Organisation getätigt wurden.
 
 > [!NOTE]
-> Wenn ein globaler Administrator ein Abonnement verwalten möchte, das von einem anderen globalen Administrator erworben wurde, müssen sie beide im selben Abrechnungskonto befinden. Sie können einem anderen globalen Administrator Zugriff auf ein Abonnement gewähren, das Sie erworben haben, indem Sie die App im [Microsoft 365 Admin Center](https://admin.microsoft.com) auswählen. Von dort aus wechseln Sie zu **Abrechnungsprofil anzeigen** > **Abrechnungskonto auswählen** > **Rollen zuweisen** > **Weitere globale Administratoren hinzufügen**.
+> Wenn ein globaler Administrator ein Abonnement verwalten möchte, das von einem anderen globalen Administrator erworben wurde, müssen sie beide im selben Abrechnungskonto befinden. Sie können einem anderen globalen Administrator Zugriff auf ein Abonnement gewähren, das Sie erworben haben, indem Sie die App im [Microsoft 365 Admin Center](https://admin.microsoft.com) auswählen. Greifen Sie im Admin Center auf **Abrechnungsprofil anzeigen** > **Abrechnungskonto auswählen** > **Rollen zuweisen** > **Andere globale Administratoren hinzufügen zu**.
+
+> [!IMPORTANT]
+> Wenn Sie den App-Kauf aktivieren, wird auch der In-App-Kauf aktiviert. Benutzern werden möglicherweise In-App-Kaufangebote angezeigt, die vom App-Entwickler für ihre App gesteuert werden. Um zu verhindern, dass Benutzer eine App kaufen, müssen Sie die App blockieren.
 
 ### <a name="invoice-billing"></a>Rechnungsstellung
 
