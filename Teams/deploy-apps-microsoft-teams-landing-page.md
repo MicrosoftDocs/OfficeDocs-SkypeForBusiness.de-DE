@@ -3,7 +3,7 @@ title: Wissenswertes über Apps in Microsoft Teams
 ms.reviewer: ''
 description: Erfahren Sie mehr über Apps, und entscheiden Sie, welche Apps in Teams basierend auf dem Profil und den Geschäftsanforderungen Ihrer Organisation zugelassen werden sollen.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270260"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298914"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Grundlegendes zu Microsoft Teams-Apps
 
@@ -49,7 +49,7 @@ Einige Teams-Funktionen wie Aktivitätsfeed, Teams, Chat, Kalender, Anrufe, Date
 
 ## <a name="microsoft-provided-apps"></a>Von Microsoft bereitgestellte Apps
 
-Microsoft stellt viele Apps zur Verbesserung der Produktivität und Zusammenarbeit bereit. Sie und Endbenutzer können diese Apps finden, indem Sie im Admin Center nach „Microsoft“ als Herausgeber oder im Team Store nach „Microsoft“ als Anbieter suchen.
+Microsoft stellt viele Apps zur Verbesserung der Produktivität und Zusammenarbeit bereit. Sie und Endbenutzer können diese Apps finden, indem Sie nach Microsoft suchen, das als Herausgeber im Teams Admin Center oder als Anbieter im Teams Store aufgeführt ist.
 
 Teams wird mit einer Reihe von integrierten Apps geliefert, darunter Listen, Aufgaben, Lob, Genehmigungen und mehr. Es ist empfehlenswert, die von Teams vorgeschlagenen Apps, wie z. B. Planner, in Ihre erstmalige Teams-Bereitstellung mitaufzunehmen.
 
@@ -65,19 +65,11 @@ Zusätzlich zu den von Microsoft bereitgestellten Apps können Sie auch von Micr
 
 Apps, die von Entwicklern in Ihrer Organisation erstellt werden, heißen benutzerdefinierte Apps (oder branchenspezifische Apps). Ihre Organisation kann die Erstellung von benutzerdefinierten Apps für organisationsspezifische Anforderungen in Auftrag geben. Sie können solche Apps für die gesamte Organisation oder für bestimmte Benutzer zulassen oder blockieren. Entwickler in Ihrer Organisation können mithilfe der Microsoft Teams-Integration mit [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) schnell benutzerdefinierte Low-Code-Lösungen erstellen.
 
-Nachdem ein Administrator die Verwendung benutzerdefinierter Apps erlaubt hat, finden Endbenutzer solche Apps, indem sie im linken Navigationsbereich des Teams-Stores auf **Für Ihre Organisation erstellt** klicken.
+Nachdem ein Administrator die Verwendung benutzerdefinierter Apps erlaubt hat, können Endbenutzer solche Apps finden, indem sie im linken Navigationsbereich des Teams-Stores **Für Ihre Organisation erstellt** auswählen.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot von benutzerdefinierten Apps im Teams Store in der Teams-Desktop-App." lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### <a name="understand-sideloading-of-custom-apps"></a>Grundlegendes zum Querladen benutzerdefinierter Apps
-
-Wenn sie benutzerdefinierte Apps entwickeln, und bevor diese für Endbenutzer bereitgestellt werden, probieren Entwickler die Apps aus, indem sie sie zum Testen dem Microsoft Teams Store hinzufügen. Die Entwickler können den Test selbst oder mit einer bestimmten Gruppe von Benutzern durchführen, aber die App ist für andere Endbenutzer in der Organisation nicht verfügbar. Diese Methode wird „Querladen von Apps“ genannt und gilt nur für benutzerdefinierte Apps.
-
-Entwickler können eine App querladen, um sie den Mitgliedern eines bestimmten Teams zur Verfügung zu stellen, in der Regel um eine App zu testen, die sich in der Entwicklungsphase befindet. Die Verwendung einer App auf diese Weise beschränkt die Verwendung auf die App-Entwickler und erfordert keine Administratorgenehmigung, solange der Administrator das Querladen in Teams zulässt. Als Administrator können Sie das Querladen von Apps für alle Entwickler nicht zulassen.
-
-Wenn Sie das Querladen nicht zulassen, können die Entwickler ihre Apps dennoch testen, indem sie [einen separaten Testmandanten erstellen](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Sobald die Entwicklung benutzerdefinierter Apps abgeschlossen ist, fordern Entwickler Administratoren auf, ihre benutzerdefinierte App Endbenutzern zur Verfügung zu stellen. Weitere Informationen finden Sie unter [So veröffentlichen Sie eine benutzerdefinierte App](/microsoftteams/upload-custom-apps). Als Administrator können Sie die Verwendung einer benutzerdefinierten App für bestimmte Benutzer zulassen oder verweigern.
+Weitere Informationen finden Sie unter [Grundlegendes zu und Verwalten von benutzerdefinierten und quergeladenen Apps](custom-app-overview.md).
 
 ## <a name="about-app-templates"></a>Informationen zu App-Vorlagen
 

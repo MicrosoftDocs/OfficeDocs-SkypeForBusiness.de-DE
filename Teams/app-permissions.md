@@ -1,9 +1,8 @@
 ---
 title: Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: Administratoren können ermitteln, welche Daten und Berechtigungen Microsoft Teams-Apps von ihrer Organisation anfordern.
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175669"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299064"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -191,7 +190,7 @@ Keine
 
 * Ausgehende Webhooks ähneln Bots, verfügen jedoch über weniger Berechtigungen. Sie müssen explizit erwähnt werden, genau wie Bots.
 
-* Wenn ein ausgehender Webhook registriert wird, wird ein geheimer Schlüssel generiert, mit dem der ausgehende Webhook überprüfen kann, ob es sich bei dem Absender um Microsoft Teams handelt und nicht um einen böswilligen Angreifer. Dieser geheime Schlüssel sollte geheim bleiben: Jeder, der Zugriff darauf hat, kann sich als Microsoft Teams ausgeben. Wenn der geheime Schlüssel kompromittiert ist, kann der ausgehende Webhook gelöscht und neu erstellt werden. Dabei wird auch ein neuer geheimer Schlüssel generiert.
+* Wenn ein ausgehender Webhook registriert wird, wird ein geheimer Schlüssel generiert, mit dem der ausgehende Webhook überprüfen kann, ob es sich bei dem Absender um Microsoft Teams handelt und nicht um einen böswilligen Angreifer. Dieser geheime Schlüssel sollte geheim bleiben: Jeder, der Zugriff darauf hat, kann sich als Microsoft Teams ausgeben. Wenn das Geheimnis kompromittiert wird, löschen Sie den ausgehenden Webhook, und erstellen Sie ihn neu, um ein neues Geheimnis zu generieren.
 
 * Es ist zwar möglich, einen ausgehenden Webhook zu erstellen, der den geheimen Schlüssel nicht überprüft, davon wird jedoch abgeraten.
 

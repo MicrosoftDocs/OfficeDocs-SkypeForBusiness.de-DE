@@ -1,6 +1,5 @@
 ---
 title: Übersicht über app validation and app testing by Microsoft
-ms.reviewer: ''
 description: Erfahren Sie mehr über Richtlinien zur Validierung von Teams-Apps basierend auf Zertifizierungsrichtlinien für den Marketplace. Erfahren Sie, wie Microsoft sicherstellt, dass Teams-Apps hohen Datenschutz- und Sicherheitsstandards entsprechen.
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43a75e22fd5d42af50651151cde2876474300c4b
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: c6ca0590f254a0567eec8946ae3c4323bf541f05
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880409"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299234"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Von Microsoft durchgeführte Überprüfung für alle Teams-Apps
 
@@ -42,18 +41,18 @@ Wir führen über 400 Testfälle für jede App aus, bevor sie im Teams Store ver
 
 * Stellen Sie sicher, dass die von der App angeforderten Graph-Berechtigungen wirklich diejenigen sind, die die App-Funktionalität benötigt, und keine zusätzlichen Berechtigungen. Graph-Berechtigungen für vorhandene Apps werden regelmäßig überprüft, um sicherzustellen, dass keine zusätzlichen Berechtigungen für eine App erforderlich sind.
 * Apps, für die sich Benutzer anmelden müssen, verfügen über eine Abmeldeoption.
-* Alle App-Herausgeber durchlaufen einen detaillierten Überprüfungsprozess im Microsoft Partner Center. Die Überprüfung umfasst die E-Mail-Überprüfung, die Geschäftliche Überprüfung und vieles mehr. Weitere Informationen zur App-Veröffentlichung finden Sie unter [Erstellen eines Partner Center-Kontos durch Entwickler](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Übermittlungshandbuch für Entwickler](/office/dev/store/add-in-submission-guide) und [Veröffentlichen von Apps durch Entwickler](https://aka.ms/PublishToTeamsStore).
-* Nur Apps von bestätigten Herausgebern können Graph-Berechtigungen von Endbenutzern anfordern.
+* Alle App-Entwickler durchlaufen einen detaillierten Überprüfungsprozess im Microsoft Partner Center. Die Überprüfung umfasst die E-Mail-Überprüfung, die Geschäftliche Überprüfung und vieles mehr. Weitere Informationen zur App-Veröffentlichung finden Sie unter [Erstellen eines Partner Center-Kontos durch Entwickler](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Übermittlungshandbuch für Entwickler](/office/dev/store/add-in-submission-guide) und [Veröffentlichen von Apps durch Entwickler](https://aka.ms/PublishToTeamsStore).
+* Nur Apps von verifizierten Entwicklern können Graph-Berechtigungen von Endbenutzern anfordern.
 * Keine App kann eine ausführbare Datei herunterladen.
-* Apps werden so getestet, dass sie keine Werbung enthalten, werbung für andere Apps
+* Apps wurden so getestet, dass sie keine Werbung oder Werbung für andere Apps enthalten.
 * Apps werden so getestet, dass sie ohne anstößige Sprache, Cyberangriffs-Bots, Spam oder Betrugsinhalte geeignet sind.
 * Alle Links in einer App sind funktionsfähig und beziehen sich nur auf das App-Angebot.
 * Wir testen und bewerten alle veröffentlichten Teams-Apps regelmäßig im Rahmen von App Store-Integritätsprüfungen.
-* Datenschutzrichtlinien und Nutzungsbedingungen, die Teams Apps abdecken, werden vom ISV veröffentlicht
-* Die Kontaktdaten des ISV finden Sie im Store-Eintrag und auf den jeweiligen [Publisher-Nachweisseiten](/microsoft-365-app-certification/teams/teams-apps).
+* Datenschutzrichtlinien und Nutzungsbedingungen, die Teams-Apps abdecken, werden von den App-Entwicklern veröffentlicht.
+* Die Kontaktdetails des App-Entwicklers sind im Store-Eintrag und auf den entsprechenden [Herausgebernachweisseiten](/microsoft-365-app-certification/teams/teams-apps) verfügbar.
 
 Darüber hinaus empfiehlt Microsoft den App-Entwicklern, an ihrem Complianceprogramm teilzunehmen, bei dem es sich um einen strengen, zweistufigen Ansatz handelt, um App-Qualität, Sicherheit und Compliance sicherzustellen. Teams Store verfügt über Hunderte von Apps, die über die Erfüllung der bereits detaillierten Validierungsrichtlinien hinausgehen und diese Programme einhalten.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="related-article"></a>Verwandter Artikel
 
 * [Übersicht für Administratoren des Microsoft 365 App-Compliance-Programms](overview-of-app-certification.md)

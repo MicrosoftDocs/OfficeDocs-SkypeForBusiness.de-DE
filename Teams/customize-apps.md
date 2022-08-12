@@ -3,7 +3,6 @@ title: Ändern der Darstellung von Apps im Microsoft Teams-Store Ihrer Organisat
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Darstellung und das Branding einer App durch Bearbeiten der App-Details und -Metadaten ändern können.
-ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269080"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298884"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Anpassen der Darstellung von Apps im Microsoft Teams Store Ihrer Organisation
 
@@ -102,13 +101,13 @@ Jetzt können Ihre Microsoft Teams-Endbenutzer die angepasste App in ihrem Clien
 
 Beachten Sie die folgenden Details zum Anpassen einer App:
 
-* Wenn Sie Apps und eine Beschreibung im Zusammenhang mit einer App anpassen, stellen Sie sicher, alle Anpassungsrichtlinien zu befolgen, die eventuell vom App-Herausgeber in der Dokumentation oder den Nutzungsbedingungen bereitgestellt werden. Sie sind auch dafür verantwortlich, die Rechte anderer Personen zu respektieren, falls Sie Bilder von Dritten verwenden.
+* Wenn Sie Apps und Beschreibungen im Zusammenhang mit einer App anpassen, stellen Sie sicher, dass Sie alle Anpassungsrichtlinien befolgen, sofern dies vom App-Entwickler in seiner Dokumentation oder in den Nutzungsbedingungen angegeben wird. Sie sind auch dafür verantwortlich, die Rechte anderer Personen zu respektieren, falls Sie Bilder von Dritten verwenden.
 
 * Von Administratoren bereitgestellte Anpassungsdaten werden in der nächstgelegenen Region gespeichert.
 
 * Sie sind dafür verantwortlich sicherzustellen, dass Links zu Nutzungsbedingungen oder Datenschutzerklärungen gültig sind und funktionieren.
 
-* Falls der App-Herausgeber nicht mehr zulässt, dass ein Feld angepasst werden kann, wird auf der Seite mit den App-Details eine Meldung angezeigt, die den Administrator über die Felder informiert, die nicht mehr angepasst werden können. Alle an diesem Feld vorgenommenen Änderungen werden auf die ursprünglichen Werte zurückgesetzt.
+* Falls der App-Entwickler die Anpassung eines Felds nicht mehr zulässt, wird auf der Seite mit den App-Details eine Meldung angezeigt, die den Administrator über die Felder informiert, die nicht mehr angepasst werden können. Alle an diesem Feld vorgenommenen Änderungen werden auf die ursprünglichen Werte zurückgesetzt.
 
 * Wir empfehlen, App-Anpassungen in einem Microsoft Teams-Testmandanten zu testen, bevor Sie diese Änderungen in Ihrer Produktionsumgebung vornehmen.
 

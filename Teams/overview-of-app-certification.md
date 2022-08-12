@@ -1,6 +1,5 @@
 ---
 title: Übersicht über die App-Zertifizierung durch Microsoft
-ms.reviewer: ''
 description: Erfahren Sie mehr über das Microsoft 365-App-Compliance-Programm für Sicherheit, Compliance und Datenschutz von Drittanbieter-Apps.
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880419"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299084"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 App-Compliance-Programm für Sicherheit, Compliance und Datenschutz von Drittanbieter-Apps
 
@@ -35,7 +34,7 @@ Im Rahmen des Microsoft-Compliance-Programms wird eine App anhand von Kontrollel
 
 ## <a name="publisher-verification"></a>Herausgeberüberprüfung
 
-Bevor ein App-Entwickler seine App an Microsoft übermitteln kann, muss sich der Entwickler einer Überprüfung unterziehen. Ein Herausgeber belegt seine Identität über sein Microsoft Partner Network (MPN)-Konto und ordnet dieses MPN-Konto der App-Registrierung zu. Dank Herausgeberüberprüfung können Administratoren und Endbenutzer die Authentizität von Anwendungsentwicklern nachvollziehen. Die Publisher-Überprüfung bietet die folgenden Vorteile:
+Bevor ein App-Entwickler seine App an Microsoft übermitteln kann, muss sich der Entwickler einer Überprüfung unterziehen. Ein Entwickler überprüft seine Identität mithilfe seines MPN-Kontos (Microsoft Partner Network) und ordnet dieses MPN-Konto der App-Registrierung zu. Dank Herausgeberüberprüfung können Administratoren und Endbenutzer die Authentizität von Anwendungsentwicklern nachvollziehen. Die Publisher-Überprüfung bietet die folgenden Vorteile:
 
 * Erhöhte Transparenz und Risikoreduzierung für Kunden – diese Funktion hilft Kunden zu verstehen, welche Apps, die in ihren Organisationen verwendet werden, von Entwicklern veröffentlicht werden, denen sie vertrauen.
 * Verbessertes Branding – Ein `verified` Signal wird auf der Azure Active Directory-Zustimmungsaufforderung, auf der Seite "Unternehmens-Apps" und anderen Benutzeroberflächen angezeigt, die von Endbenutzern und Administratoren verwendet werden.
