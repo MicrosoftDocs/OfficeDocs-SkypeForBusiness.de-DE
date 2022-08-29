@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 45b6ec9809fe0c86f1a4acb69ef78c5c5f30f230
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299134"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397246"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 
@@ -64,11 +64,11 @@ Sie können die Einstellungen in der globalen App-Setuprichtlinie so bearbeiten,
 
 #### <a name="set-a-user-custom-app-policy"></a>Festlegen einer benutzerdefinierten App-Richtlinie
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Einrichtungsrichtlinien**.
-2. Klicken Sie auf **Hinzufügen**.
-3. Aktivieren oder deaktivieren Sie **Hochladen benutzerdefinierter Apps zulassen**.
-4. Wählen Sie alle anderen Einstellungen aus, die Sie für die Richtlinie festlegen möchten.
-5. Klicken Sie auf **Speichern**.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **[Setuprichtlinien](https://admin.teams.microsoft.com/policies/app-setup)** für **Teams-Apps** >  zu.
+1. Klicken Sie auf **Hinzufügen**.
+1. Aktivieren oder deaktivieren Sie **Hochladen benutzerdefinierter Apps zulassen**.
+1. Wählen Sie alle anderen Einstellungen aus, die Sie für die Richtlinie festlegen möchten.
+1. Klicken Sie auf **Speichern**.
 
 ### <a name="team-custom-app-setting"></a>Teameinstellung für benutzerdefinierte Apps
 
@@ -86,8 +86,8 @@ Wenn diese Einstellung aktiviert ist:
 
 #### <a name="configure-the-team-custom-app-setting"></a>Konfigurieren der benutzerdefinierten Team-App-Einstellung
 
-1. Wechseln Sie in Teams zum Team, klicken Sie auf **Weitere Optionen ...** >  **Team verwalten**.
-2. Klicken Sie auf **Einstellungen**, und erweitern Sie dann die **Mitgliederberechtigungen**.
+1. Wechseln Sie in Teams zu einem Team, und wählen Sie **"Weitere Optionen" aus...** >  **Team verwalten**.
+2. Wählen Sie **"Einstellungen"** aus, und erweitern Sie **die Mitgliederberechtigungen**.
 3. Aktivieren oder deaktivieren Sie das Kontrollkästchen **Mitgliedern erlauben, benutzerdefinierte Apps hochzuladen**.
 
     ![Screenshot der benutzerdefinierten Team-App-Einstellung.](media/teams-custom-app-policy-and-settings-team.png)
@@ -98,9 +98,9 @@ Die Einstellung **Interaktion mit benutzerdefinierten Apps zulassen** auf der Se
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Konfigurieren der organisationsweiten benutzerdefinierten App-Einstellung
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
-2. Klicken Sie auf **Organisationsweite App-Einstellungen**.
-3. Aktivieren oder deaktivieren Sie unter **Benutzerdefinierte Apps** die Option **Interaktion mit benutzerdefinierten Apps zulassen**.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **Teams-Apps** >  zu **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Wählen Sie **organisationsweite App-Einstellungen** aus.
+1. Aktivieren oder deaktivieren Sie unter **Benutzerdefinierte Apps** die Option **Interaktion mit benutzerdefinierten Apps zulassen**.
 
     ![Screenshot zeigt organisationsweite benutzerdefinierte App-Einstellungen.](media/teams-custom-app-policy-and-settings-org-wide.png)
 
@@ -125,8 +125,7 @@ Angenommen, Sie möchten nur Teambesitzern erlauben, benutzerdefinierte Apps in 
 | Ein     | Ein     | Aus         | Der Benutzer kann keine benutzerdefinierten Apps hochladen.       |
 | Ein    | Ein        | Ein        | Der Benutzer kann benutzerdefinierte Apps in das Team hochladen, unabhängig davon, ob er ein Teambesitzer ist. Der Benutzer kann benutzerdefinierte Apps in den persönlichen Kontext hochladen.       |
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-articles"></a>Verwandte Artikel
 
-[Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-
-[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies-users-and-groups.md)
+- [Admin Einstellungen für Apps in Teams](admin-settings.md).
+- [Weisen Sie Ihren Benutzern in Teams Richtlinien zu](assign-policies-users-and-groups.md).

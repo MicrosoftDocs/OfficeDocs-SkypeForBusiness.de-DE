@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Benutzereinstellungen für anrufweiterleitung und -delegierung konfigurieren.
-ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272230"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397356"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Konfigurieren von Anrufeinstellungen für Ihre Benutzer
 
@@ -56,6 +56,10 @@ Um das gleichzeitige Klingeln zu konfigurieren, wählen Sie auf derselben Seite 
 Um unbeantwortete Einstellungen zu konfigurieren, wählen Sie auf derselben Seite die entsprechende Einstellung in der Dropdownliste **"Wenn unbeantwortet** " aus. Geben Sie im **Ring für diese Anzahl von Sekunden vor dem Umleiten** die Anzahl der zu wartenden Sekunden an.
 
 Die Konfiguration der Anrufdelegierung und der Gruppenanrufannahme wird in die Einstellungen für Anrufweiterleitung und unbeantwortete Anrufe integriert, indem der entsprechende Typ ausgewählt wird. Um beispielsweise zu konfigurieren, dass Anrufe auch die Stellvertretungen des Benutzers anrufen sollen, wählen Sie auf derselben Seite unter **"Auch zulassen**" die Option **"Anrufdelegierung**" aus. Fügen Sie dann die entsprechenden Stellvertretungen hinzu, indem Sie " **Personen hinzufügen"** auswählen und auf **"Speichern"** klicken.
+
+Dieses Video zeigt die Schritte zum Anzeigen und Bearbeiten der Spracheinstellungen für einen Benutzer.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## <a name="use-powershell"></a>Verwenden von PowerShell
 

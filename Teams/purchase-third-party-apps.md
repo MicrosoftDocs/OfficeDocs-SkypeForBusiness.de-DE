@@ -1,6 +1,6 @@
 ---
 title: Kaufen von Drittanbieter-Apps für Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: Erfahren Sie, wie Sie Apps von Drittanbietern im Teams Store mithil
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299194"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396306"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Kaufen von Drittanbieter-Apps für Teams
 
@@ -34,9 +34,9 @@ Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Kauf von Apps im Teams Admin Center
 
-Führen Sie die folgenden Schritte aus, um Apps im Teams Admin Center zu kaufen: 
+Führen Sie die folgenden Schritte aus, um Apps im Teams Admin Center zu kaufen:
 
-1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Centers zu **Teams-Apps** > **[Apps verwalten.](https://admin.teams.microsoft.com/policies/manage-apps)**. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um auf die Seite zugreifen zu können.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **Teams-Apps** >  zu **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um auf die Seite zugreifen zu können.
 
 1. Suchen Sie anhand des Namens nach der von Ihnen gewünschten App. Um Apps zu identifizieren, die ein kostenpflichtiges SaaS-Abonnement aufweisen, schauen Sie in der Spalte **Lizenzen** nach. Jede App hat einen der folgenden Werte:
     * **Kaufen**: Die App bietet ein SaaS-Abonnement und kann erworben werden.  

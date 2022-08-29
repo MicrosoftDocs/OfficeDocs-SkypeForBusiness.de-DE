@@ -12,12 +12,12 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b506352052924b8394cbdfc712ce96750b96523
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: fb96b6130ce87d8d1453f6ea4ee40af2bb84050d
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298894"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396466"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Ressourcenspezifische Zustimmung in Microsoft Teams
 
@@ -31,7 +31,7 @@ Als Administrator steuern Sie, ob Teambesitzer in Ihrer Organisation ihre Zustim
 
 Dies sind die Einstellungen, die Sie festlegen müssen, um zu steuern, ob Teambesitzer Apps ihre Zustimmung erteilen können. Überprüfen Sie unbedingt alle der folgenden Einstellungen.
 
-### <a name="settings-in-azure-ad"></a>Einstellungen in Azure AD
+### <a name="settings-in-azure-active-directory-portal"></a>Einstellungen im Azure Active Directory-Portal
 
 Die folgenden beiden Einstellungen bestimmen, ob Teambesitzer Apps ihre Zustimmung erteilen können.
 
@@ -62,8 +62,8 @@ Zusätzlich zu den Einstellungen in Azure AD, bestimmen [organisationsweite App-
 
 Diese organisationsweite App-Einstellung steuert, ob Benutzer in Ihrer Organisation Drittanbieter-Apps verwenden können. Diese Einstellung muss aktiviert sein, damit Teambesitzer ihre Zustimmung geben können. Gehen Sie wie folgt vor, um diese Einstellung zu verwalten:
 
-1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**, und klicken Sie dann **Organisationsweite App-Einstellungen** aus.
-2. Deaktivieren oder aktivieren Sie unter **Drittanbieter-Apps** die Option **Drittanbieter-Apps zulassen**.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **Teams-Apps** >  zu **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Wählen Sie **organisationsweite App-Einstellungen** und unter **Drittanbieter-Apps** die Option " **Apps von Drittanbietern zulassen**" aus, oder aktivieren Sie sie.
 
     ![Screenshot der Einstellung „Drittanbieter-Apps in Teams zulassen“](media/resource-specific-consent-org-wide-setting.png)
 
@@ -73,8 +73,8 @@ Sie müssen ggf. bis zu 24 Stunden warten, bis Ihre Änderungen wirksam werden.
 
 Wenn Sie eine App auf der Seite [Apps verwalten](manage-apps.md#allow-and-block-apps) blockieren oder zulassen, wird diese App für alle Benutzer in Ihrer Organisation blockiert bzw. zugelassen. Teambesitzer können einer App nur Zustimmung erteilen, wenn die App zulässig ist. Gehen Sie wie folgt vor, um eine App auf Organisationsebene zuzulassen oder zu blockieren:
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
-2. Wählen Sie auf der Seite „Apps verwalten“ die App aus, und klicken Sie dann auf **Blockieren**, um sie zu blockieren, oder klicken Sie auf **Zulassen**, um die App zuzulassen.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **Teams-Apps** >  zu **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Wählen Sie auf der Seite "Apps verwalten" die App aus, und wählen Sie dann " **Blockieren** " aus, um sie zu blockieren, oder wählen Sie **"Zulassen** " aus, um sie zuzulassen.
 
     ![Screenshot der blockierten Apps in organisationsweiten Einstellungen](media/resource-specific-consent-allow-block-apps.png)
 
@@ -83,16 +83,16 @@ Wenn Sie eine App auf der Seite [Apps verwalten](manage-apps.md#allow-and-block-
 Teambesitzer können nur Apps Zustimmung erteilen, die sie gemäß ihrer App-Berechtigungsrichtlinie ausführen können. Gehen Sie wie folgt vor, um die App-Berechtigungsrichtlinie anzuzeigen und zu verwalten, die einem Teambesitzer zugewiesen ist:
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**.
-2. Doppelklicken Sie auf den Anzeigenamen des Teambesitzers, und klicken Sie dann auf **Richtlinien**.
-3. Die dem Teambesitzer zugewiesene Richtlinie wird unter **App-Berechtigungsrichtlinie** aufgeführt.
-    - Um eine andere Richtlinie zuzuweisen, klicken Sie auf **Bearbeiten**, und wählen Sie dann die Richtlinie aus, die Sie zuweisen möchten.
-    - Um die Einstellungen der Richtlinie zu bearbeiten, die dem Teambesitzer zugewiesen ist, klicken Sie auf den Richtliniennamen, und nehmen Sie dann die gewünschten Änderungen vor.  
+1. Doppelklicken Sie auf den Anzeigenamen des Teambesitzers, und wählen Sie dann **"Richtlinien"** aus.
+1. Die dem Teambesitzer zugewiesene Richtlinie wird unter **App-Berechtigungsrichtlinie** aufgeführt.
+    - Wenn Sie eine andere Richtlinie zuweisen möchten, wählen Sie **"Bearbeiten"** und dann die Richtlinie aus, die Sie zuweisen möchten.
+    - Um die Einstellungen der Richtlinie zu bearbeiten, die dem Teambesitzer zugewiesen ist, wählen Sie den Richtliniennamen aus, und nehmen Sie dann die gewünschten Änderungen vor.  
 
-## <a name="uploading-custom-apps"></a>Hochladen von benutzerdefinierten Apps
+## <a name="upload-custom-apps"></a>Hochladen benutzerdefinierter Apps
 
 Beim Hochladen einer benutzerdefinierten App (wird auch als Querladen bezeichnet), die die ressourcenspezifische Zustimmung nutzt, muss die App von dem Mandanten stammen, auf dem sie installiert wird. Anders ausgedrückt: Die Azure AD-App-Registrierung muss von diesem Mandanten stammen. Globale Administratoren sind von dieser Einschränkung ausgenommen und können benutzerdefinierte Apps von jedem Mandanten hochladen, entweder direkt für ein Team (Querladen) oder in den Mandanten-App-Katalog.
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-articles"></a>Verwandte Artikel
 
 - [Verfügbare RSC-Berechtigungen](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
