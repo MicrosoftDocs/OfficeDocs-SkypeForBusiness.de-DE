@@ -10,6 +10,7 @@ ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
@@ -18,12 +19,12 @@ description: Erfahren Sie, wie Sie Teams-Apps verwalten. Erfahren Sie, wie Sie A
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 5c769a5cb8aab00265dee90bcce4b093c50e2a90
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298864"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397056"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Sie Teams-Apps im Microsoft Teams Admin Center
 
@@ -44,9 +45,10 @@ Während der Erstellung einer App erstellen die Entwickler eine App-ID und füge
 
 Die Optionen zum Ausführen der meisten Anwendungsfälle für die App-Verwaltung sind im Teams Admin Center verfügbar. Darüber hinaus sind einige Optionen in anderen Portalen oder auf verschiedenen Seiten im Teams Admin Center verfügbar.
 
+App-Verwaltungsaufgaben, die im Admin Center unterstützt werden, sind in der folgenden Tabelle aufgeführt.
+
 | Anwendungsfälle für die App-Verwaltung | Link zur Schnittstelle | Dokumentation |
 |:----|:----|:----|
-| **Im Teams Admin Center** | | |
 | Steuern Sie, welche Apps Benutzern in Ihrer Organisation zur Verfügung stehen, indem Sie Apps zulassen und blockieren. Sie können auch benutzerdefinierte Apps hochladen und genehmigen. Nachdem Sie Apps auf dieser Seite verwaltet haben, können Sie App-Berechtigungen und App-Setup-Richtlinien verwenden, um zu konfigurieren, welche Apps für bestimmte Benutzer im App Store Ihrer Organisation verfügbar sind. | [Verwalten von Teams im Admin Center für Teams](https://admin.teams.microsoft.com/policies/manage-apps) | Aktueller Artikel |
 | App-Berechtigungsrichtlinien steuern, welche Apps Sie Teams-Benutzern in Ihrer Organisation zur Verfügung stellen möchten. Sie können die globale (organisationsweite) Standardrichtlinie verwenden und anpassen, oder Sie können eine oder mehrere Richtlinien erstellen, um die Anforderungen Ihrer Organisation zu erfüllen. | [Berechtigungsrichtlinien](https://admin.teams.microsoft.com/policies/app-permission) | [App-Berechtigungsrichtlinien verwalten](teams-app-permission-policies.md) |
 | App-Setup-Richtlinien steuern, wie Apps einem Benutzer mit der Teams-App zur Verfügung gestellt werden. Verwenden Sie die globale Richtlinie (organisationsweite Standardeinstellung) und passen Sie sie an oder erstellen Sie benutzerdefinierte Richtlinien und weisen Sie sie einer Gruppe von Benutzern zu. | [Setuprichtlinien](https://admin.teams.microsoft.com/policies/app-setup) | [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md) |
@@ -55,8 +57,12 @@ Die Optionen zum Ausführen der meisten Anwendungsfälle für die App-Verwaltung
 | Der Team-App-Nutzungsbericht enthält Informationen darüber, welche Apps verwendet werden, aktive Benutzer und andere Informationen zur App-Nutzung. | [Verwendungsberichte](https://admin.teams.microsoft.com/analytics/reports) | [Teams-App-Nutzungsbericht](teams-analytics-and-reports/app-usage-report.md) |
 | Ihre Benutzer können Apps hinzufügen, wenn sie Meetings veranstalten oder mit Gästen chatten. Sie können auch von Gästen geteilte Apps verwenden, wenn sie an extern gehosteten Meetings oder Chats teilnehmen. Es gelten die Datenrichtlinien der Organisation des hostenden Benutzers und die Datenfreigabepraktiken aller Apps von Drittanbietern, die von der Organisation dieses Benutzers freigegeben werden. | [Externer Zugriff](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App-Verhalten je nach Benutzertypen](non-standard-users.md) |
 | Mit dem Gastzugriff können Sie Personen außerhalb Ihrer Organisation Zugriff auf Anwendungen und andere Teams-Funktionen gewähren und gleichzeitig die Kontrolle über Ihre Unternehmensdaten behalten. | [Gastzugriff](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Gastzugriff in Teams](guest-access.md) |
-| Aktualisierungsrichtlinien werden verwendet, um Teams und Office-Vorschaubenutzer zu verwalten, die Vorabversions- oder Vorschaufeatures in der Teams-App sehen. | [Teams-Updaterichtlinien](https://admin.teams.microsoft.com/policies/updatemanagement) | [Öffentliche Teams-Vorschau](public-preview-doc-updates.md) |
-| **Außerhalb des Teams Admin Centers** | | |
+| Teams-Updaterichtlinien werden verwendet, um Teams- und Office-Vorschaubenutzer zu verwalten, die Vorabversions- oder Vorschaufeatures in der Teams-App sehen können. | [Teams-Updaterichtlinien](https://admin.teams.microsoft.com/policies/updatemanagement) | [Öffentliche Teams-Vorschau](public-preview-doc-updates.md) |
+
+App-Verwaltungsaufgaben, die in anderen Portalen unterstützt werden, sind in der folgenden Tabelle aufgeführt.
+
+| Anwendungsfälle für die App-Verwaltung | Link zur Schnittstelle | Dokumentation |
+|:----|:----|:----|
 | Verwalten Sie Lizenzen und Abonnements von Drittanbieter-Apps im Microsoft 365 Admin Center | [Microsoft 365 Admin Center](https://admin.microsoft.com/#/licenses) | [Verwalten Sie App-Abonnements von Drittanbietern](/microsoft-365/commerce/manage-saas-apps) |
 | Audit-Teams-App-Ereignisse im Microsoft Purview-Compliance-Portal. | [Überwachung](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Microsoft Teams-Aktivitäten](audit-app-management-activities.md) |
 | Anwendungen können auf drei Arten Berechtigungen für Ihre Organisation und ihre Daten erteilt werden: Ein Administrator stimmt der Anwendung für alle Benutzer zu, ein Benutzer erteilt der Anwendung seine Zustimmung oder ein Administrator integriert eine Anwendung und ermöglicht den Self-Service-Zugriff oder weist Benutzern direkt zu die Anwendung. Überprüfen Sie die Graph-Berechtigungen für Apps. Überprüfen Sie die Berechtigungen, die Benutzer bereitgestellt oder die Administratoren delegiert haben. | [Azure AD-Portal](https://aad.portal.azure.com/) | [Überprüfen von Berechtigungen, die Anwendungen erteilt wurden](/azure/active-directory/manage-apps/manage-application-permissions) |
@@ -71,9 +77,8 @@ Auf der Seite Apps verwalten können Sie einzelne Apps auf Organisationsebene zu
 
 So erlauben oder blockieren Sie eine App:
 
-1. Melden Sie sich beim Teams Admin Center an.
-1. Greifen Sie auf die **Seite** > **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)** für Teams-Apps zu.
-1. Wählen Sie eine App aus der Liste der Apps aus. Sie können nach dem Namen der App suchen und sie dann auswählen.
+1. Anmelden beim Teams Admin Center und Zugreifen auf **Teams-Apps** > **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Wählen Sie eine App aus der Liste der Apps aus. Sie können nach dem Namen der App suchen.
 1. Wählen Sie die Option **Zulassen** oder **Blockieren**.
 
 Wenn Sie eine App auf der Seite [Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps) im Admin Center von Teams zulassen (oder blockieren), wird die jeweilige App für alle Benutzer in Ihrer Organisation zugelassen (oder blockiert). Diese Methode unterscheidet sich von der App-Berechtigungsrichtlinie darin, dass das Zulassen (oder Blockieren) einer App über die Berechtigungsrichtlinie nur die spezifischen Benutzer betrifft, denen die Richtlinie zugewiesen ist.
@@ -88,7 +93,7 @@ Endbenutzer können die blockierten Apps im Teams Store anzeigen, aber nicht ver
 
 ### <a name="view-a-request"></a>Anzeigen einer Anforderung
 
- 1. Melden Sie sich beim Teams Admin Center an, und wählen Sie **Teams Apps** > **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)** aus.
+ 1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf Apps zum **[Verwalten von](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams-Apps** >  zu.
 
     :::image type="content" source="media/requested-apps1.png" alt-text="Endbenutzeranforderungen für blockierte Apps werden im Teams Admin Center in der Spalte mit dem Titel Anforderungen von Benutzern angezeigt." lightbox="media/requested-apps.png":::
 
@@ -129,7 +134,7 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer m
 > [!NOTE]
 > Informationen zum Verwenden von organisationsweiten App-Einstellungen in Bereitstellungen von Microsoft 365 Government – Government Community Cloud High GCCH und Department of Defense (DoD) von Teams finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md).
 
-1. Wählen Sie auf der Seite Apps verwalten die Option **Organisationsweite App-Einstellungen** aus. Sie können dann die gewünschten Einstellungen in diesem Bereich konfigurieren.
+1. Wählen Sie auf der Seite **["Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)** " **organisationsweite App-Einstellungen** aus. Sie können dann die gewünschten Einstellungen in diesem Bereich konfigurieren.
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Screenshot des Bereichs Organisationsweite App-Einstellungen auf der Seite Apps verwalten":::
 

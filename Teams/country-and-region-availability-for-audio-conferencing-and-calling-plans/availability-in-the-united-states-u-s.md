@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die USA verfügbar sind.
-ms.openlocfilehash: 524050f9859f8aa2847ee4706705ec8c95399f15
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b3d20d24e0c52538eba1f55f91d34a2b8d3107dd
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268590"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396716"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
@@ -60,7 +60,7 @@ Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und 
 | **Feature**                                       | **Details**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Sind Anrufpläne zum Kauf verfügbar?  |Ja          |   
-|Verfügbare Minuten für Anrufpläne.    |Pro Kalendermonat stehen fünf Planoptionen zur Verfügung: <ul><li>Pay-as-You-Go-Anrufplan </li><li> 120 Minuten Anrufplan für Inland </li><li> 240 Minuten Anrufplan für Inland </li><li> 1200 Minuten Anrufplan für Inland </li><li> Internationaler Anrufplan: 1200 Minuten inländische oder 600 Minuten auslandsanrufe (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></ul>|
+|Verfügbare Minuten für Anrufpläne.    |Pro Kalendermonat stehen fünf Planoptionen zur Verfügung: <ul><li> 120 Minuten Anrufplan für Inland </li><li> 240 Minuten Anrufplan für Inland </li><li> 1200 Minuten Anrufplan für Inland </li><li> Internationaler Anrufplan: 1200 Minuten inländische oder 600 Minuten auslandsanrufe (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></ul>|
 | Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Wird zurzeit nicht unterstützt. <br/>                                                                                                                                                                                                                                                                                               |
 | Sind ausgehende Anrufe möglich?  <br/>                | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                                                                      |
 > [!Note]

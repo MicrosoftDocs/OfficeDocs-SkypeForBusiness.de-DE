@@ -18,12 +18,13 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5eeea688d2fcaa67b2125ff67e15d80b981a03df
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267850"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396496"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
 
@@ -59,7 +60,7 @@ Mit Tasks erhalten die Benutzer eine Desktop-, Web- und mobile Erfahrung. Wenn T
 
 Tasks ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Centers zu **"Teams-Apps** > **verwalten"**.
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten.**.
 2. Führen Sie in der Liste der Apps eine der folgenden Aktionen aus:
 
     - Wenn Sie Tasks für Ihre Organisation deaktivieren möchten, suchen Sie nach der Tasks-App, wählen Sie sie aus, und wählen Sie dann **Blockieren** aus.

@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie mehr über die neuesten Änderungen in Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 355188b2c9e3e563be7e48eb30bee6884d67b04c
-ms.sourcegitcommit: 3335cdff195be42b87f1e00348214e16cc490c7f
+ms.openlocfilehash: 0fc979e9c4c6aa12fb4538210ad5c5264ad49aa6
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/30/2022
-ms.locfileid: "67077630"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396676"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell – Versionshinweise
 
@@ -31,6 +31,7 @@ Diese Seite enthält das neueste Teams PowerShell-Änderungsprotokoll sowohl fü
 
 | Datum | Version | Aktualisierungen |
 |------- | -------------------- | ------------------------------ |
+| August 2022 | [4.6.1-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>Behebt Probleme mit der Prozessbereinigung bei Verwendung von Modulen in PS ISE- und Dotnet-Anwendungen.</li>
 | Juli 2022 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>Gibt den AccountType-Parameter für das cmdlet Get-CsOnlineUser frei, das abfragen kann, ob ein bestimmter Benutzertyp vorhanden ist.</li><li>Das AccountType-Attribut wird in der Get-CsOnlineUser Ausgabe hinzugefügt, die den Benutzertyp angibt. Mögliche Werte für AccountType sind: 'User' (Benutzerkonten), 'ResourceAccount' (App-Endpunkte oder Ressourcenkonten), 'Guest' (Gastkonten) & 'Unknown' (Benutzertyp nicht bekannt).</li><li>Behebt Probleme mit Rang & Gruppenparametern in Grant-Cs-Cmdlets\<PolicyName\> .</li><li>Releases [Get\|Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlets.</li><li>Entfernt alle veralteten & nicht unterstützten Cmdlets. Details in von [Teams PowerShell unterstützten Versionen](teams-powershell-supported-versions.md#deprecated-cmdlets).</li><li>Veröffentlicht modernisierte Versionen von [New\|Get]-CsCloudCallDataConnection-Cmdlets.</li><li>Releases [Get\|Remove]-SharedWithTeam cmdlets.</li><li>Gibt Get-TeamAllChannel Cmdlet frei.</li><li>Gibt Get-TeamIncomingChannel Cmdlet frei.</li><li>Gibt Get-AssociatedTeam Cmdlet frei.</li><li>Gibt Get-SharedWithTeamUser Cmdlet frei.</li><li>Unterstützt optionalen Parameter "TenantId" für das cmdlet Add-TeamChannelUser.</li><li>Veröffentlicht Get-TeamTargetingHierarchyStatus & Cmdlets [Remove\|Set]-TeamTargetingHierarchy.</li>
 | Juli 2022 | [4.5.1-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>Gibt den AccountType-Parameter für das cmdlet Get-CsOnlineUser frei, das abfragen kann, ob ein bestimmter Benutzertyp vorhanden ist.</li><li>Das AccountType-Attribut wird in der Get-CsOnlineUser Ausgabe hinzugefügt, die den Benutzertyp angibt. Mögliche Werte für AccountType sind: 'User' (Benutzerkonten), 'ResourceAccount' (App-Endpunkte oder Ressourcenkonten), 'Guest' (Gastkonten) & 'Unknown' (Benutzertyp nicht bekannt).</li><li>Behebt Probleme mit Rang & Gruppenparametern in Grant-Cs-Cmdlets\<PolicyName\> .</li>
 | Juni 2022 | [4.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.0) |<li>Unterstützt den IncludeResources-Parameter für das cmdlet Get-CsAutoAttendantStatus.</li><li>Unterstützt den SoftDeletedUsers-Parameter für das Get-CsOnlineUser-Cmdlet.</li><li>Releases [Get\|Grant]-CsTeamsMediaLoggingPolicy cmdlets.</li><li>Unterstützt optionalen AuthorizedUsers-Parameter für die Cmdlets [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Behebt parameter für freigegebene Voicemail-Eingabeaufforderungen, bei denen der Eingabeaufforderungstyp nicht gewechselt werden konnte, nachdem sie für Set-CsCallQueue Cmdlet festgelegt wurden.</li><li> Fixes [New\|Set]-CsOnlineSchedule cmdlets to work in the European date-time format.</li><li>Releases [New\|Get\|Set\|Remove\|Grant]-CsTeamsVoiceApplicationsPolicy cmdlets.</li><li>Gibt Get-CsHybridTelephoneNumber Cmdlet frei.</li><li>Veröffentlicht modernisierte Versionen von Cmdlets [New\|Remove]-CsHybridTelephoneNumber.</li><li>Unterstützt ToneStar und TonePound als Wert für den DtmfResponse-Parameter im New-CsAutoAttendantMenuOption-Cmdlet.</li><li> Behebt Probleme mit PSListModifier im Parameter AllowedDomainsAsAList im modernisierten Set-CsTenantFederationConfiguration-Cmdlet.</li><li> Unterstützt Gruppen- und Rangparameter für alle Grant-Cs-Cmdlets\<PolicyName\> .</li><li> Gibt Test-CsTeamsTranslationRule Cmdlet frei.</li>

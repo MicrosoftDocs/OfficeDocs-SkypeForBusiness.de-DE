@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1c436e6bcd204eb383228a73a115a70ae29e08
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563763"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283096"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -91,7 +91,7 @@ Vom Benutzer konfigurierte Status haben Standardablaufeinstellungen in Teams, um
 
 Die folgenden Administratoreinstellungen in Skype for Business unterscheiden sich in Teams:
 
-- In Microsoft Teams ist die Freigabe des Anwesenheitsstatus für Benutzer in der Organisation immer aktiviert. Die Konfiguration der Privatsphäre (d. h. das Definieren, wer den Anwesenheitsstatus sehen kann) ist in Teams nicht verfügbar.
+- In Teams ist die Anwesenheitsfreigabe für Benutzer in der Organisation immer aktiviert, es sei denn, der Datenschutzmodus ist aktiviert. Im Datenschutzmodus ist die Anwesenheit für externe Benutzer nicht sichtbar.
 - Die Freigabe des Anwesenheitsstatus für jeden (einschließlich Verbunddienste) ist für Benutzer in Microsoft Teams immer aktiviert. Die Kontaktliste der Benutzer (sofern sie in Skype for Business eine hatten) wird unter **Chat > Kontakte** oder unter **Anrufe > Kontakte** angezeigt.
 - Die Features "Nicht stören" und "Unterbrechen" sind für Benutzer in Teams immer aktiviert.
 - Die Kalenderintegration (einschließlich Abwesenheits- und andere Kalenderinformationen) ist für Benutzer in Teams, die in Outlook integriert sind, immer aktiviert.

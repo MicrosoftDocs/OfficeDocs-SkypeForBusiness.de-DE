@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Microsoft Teams verwalten und verwenden können, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205535"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396546"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -44,8 +44,8 @@ Sie können Richtlinien, die sich auf die Benutzererfahrung vor, während oder n
 |Implementierungstyp  |Beschreibung  |
 |---------|---------|
 |Organisatorspezifische Richtlinie    |Wenn Sie eine organisatorspezifische Richtlinie implementieren, erben alle Besprechungsteilnehmer die Richtlinie des Organisators. So ist beispielsweise **Personen automatisch zulassen** eine organisatorspezifische Richtlinie, die bei Besprechungen, die vom Nutzer, der die Richtlinie zugewiesen hat, geplant worden sind, steuert, ob Benutzer an der Besprechung direkt teilnehmen oder in der bis zum Beginn Wartebereich bleiben.          |
-|Benutzerspezifische Richtlinie    |Wenn Sie eine benutzerspezifische Richtlinie implementieren, gilt nur diese Richtlinie, um bestimmte Features für den Organisator und/oder die Besprechungsteilnehmer einzuschränken. Beispielsweise ist **"Jetzt in Kanälen** meet now" eine Benutzerrichtlinie.     |
-|Organisator- und benutzerspezifisch     |Wenn Sie eine Kombination aus einer organisatorspezifischen und einer benutzerspezifischen Richtlinie implementieren, sind bestimmte Features für Besprechungsteilnehmer basierend auf Ihrer Richtlinie und der Richtlinie des Organisators eingeschränkt. Die Cloudaufzeichnung **ist z.** B. eine Richtlinie pro Organisator und pro Benutzer. Aktivieren Sie diese Einstellung, um es dem Besprechungsorganisator und den Teilnehmern zu ermöglichen, eine Aufnahme zu starten und zu beenden.
+|Benutzerspezifische Richtlinie    |Wenn Sie eine benutzerspezifische Richtlinie implementieren, gilt nur diese Richtlinie, um bestimmte Features für den Organisator und/oder die Besprechungsteilnehmer einzuschränken. " **Jetzt besprechen" in Kanälen** ist z. B. eine benutzerspezifische Richtlinie.     |
+|Organisator- und benutzerspezifisch     |Wenn Sie eine Kombination aus einer organisatorspezifischen und einer benutzerspezifischen Richtlinie implementieren, sind bestimmte Features für Besprechungsteilnehmer basierend auf Ihrer Richtlinie und der Richtlinie des Organisators eingeschränkt. Die **Cloudaufzeichnung** ist z. B. eine Organisator- und Benutzerrichtlinie. Aktivieren Sie diese Einstellung, um es dem Besprechungsorganisator und den Teilnehmern zu ermöglichen, eine Aufnahme zu starten und zu beenden.
 
 Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und zuweisen. Für Benutzern in Ihrer Organisation gilt die globale Richtlinie, es sei denn, Sie erstellen eine benutzerdefinierte Richtlinie und weisen ihnen diese zu.
 
@@ -65,15 +65,19 @@ Nehmen wir beispielsweise an, Sie haben eine Gruppe von Nutzern, und Sie möchte
 Unter **Audio & Video**:
 
 - Cloudaufzeichnung deaktivieren.
-- Deaktivieren Sie IP-Video.
+- Ip-Video deaktivieren.
 
 Unter **Inhaltsfreigabe**:
 
 - Deaktivieren Sie den Bildschirmfreigabemodus.
 - Deaktivieren Sie Whiteboard.
-- Deaktivieren Sie Freigegebene Notizen.
+- Deaktivieren Sie freigegebene Notizen.
 
 Weisen Sie dann die Richtlinie den Nutzern zu.
+
+Dieses Video zeigt die Schritte zum Erstellen und Zuweisen einer benutzerdefinierten Besprechungsrichtlinie zu einem Benutzer (oder Benutzern).
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
 
 ## <a name="edit-a-meeting-policy"></a>Bearbeiten einer Besprechungsrichtlinie
 
@@ -86,6 +90,10 @@ Sie können die globale Standardrichtlinie oder eine von Ihnen erstellte benutze
 
 > [!NOTE]
 > Einem Benutzer kann jeweils nur eine Besprechungsrichtlinie zugewiesen werden.
+
+Dieses Video zeigt die Schritte zum Bearbeiten einer organisationsweiten Standardbesprechungsrichtlinie.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Benutzern eine Besprechungsrichtlinie zuweisen
 

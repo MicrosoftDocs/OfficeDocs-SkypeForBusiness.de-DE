@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie feedbackrichtlinien verwenden, um zu steuern, ob Teams-Benutzer in Ihrer Organisation Feedback zu Teams an Microsoft senden können.
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156523"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339799"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Verwalten von Feedbackrichtlinien in Microsoft Teams
 
@@ -46,7 +46,7 @@ Zugriff auf Feedback auf mobilen Geräten mithilfe der **Einstellungshilfe** > *
 
 
 
-**Befragungen**
+**Umfragen**
 
 Benutzer können auch ihre Erfahrung mit Teams bewerten und uns Details zu der Bewertung senden, die sie geben. Diese Popup-Umfrage wird Benutzern von Zeit zu Zeit in Teams angezeigt. Wenn ein Benutzer in der Benachrichtigung **"Feedback bereitstellen** " auswählt, wird die Umfrage für den Abschluss angezeigt.
 
@@ -68,6 +68,7 @@ Um die Features zu deaktivieren und zu aktivieren, legen Sie die folgenden Param
 
  - **Umfragen**: Legen Sie den Parameter **"receiveSurveysMode** " **so fest** , dass er aktiviert ist, damit Benutzer, denen die Richtlinie zugewiesen ist, die Umfrage empfangen können. Damit Benutzer die Umfrage erhalten und sie abmelden können, legen Sie den Parameter auf **"enabledUserOverride**" fest. In Teams können Benutzer dann zu **"Datenschutzeinstellungen"** >  wechseln und auswählen, ob sie an Umfragen teilnehmen möchten. Wenn Sie den Parameter auf **"Deaktiviert** " festlegen, wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, erhalten die Umfrage nicht.
 
+ - **Screenshots**: Verwenden Sie das **AllowScreenshotCollection-Flag** , um die Screenshotsammlung für Benutzer hinzuzufügen.
  - **Email**: Verwenden Sie das **AllowEmailCollection-Flag**, um ein E-Mail-Feld hinzuzufügen.
  - **Protokollsammlung**: Verwenden Sie das **AllowLogCollection-Flag** , um die Protokollsammlungsanmeldung für Benutzer hinzuzufügen. Die Protokollsammlung ist derzeit nur auf mobilgeräten aktiviert. Weitere Informationen dazu, welche Daten über Protokolle freigegeben werden, [finden Sie hier](https://go.microsoft.com/fwlink/?linkid=2168178).
 
@@ -92,4 +93,4 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)
+- [Zuweisen von Richtlinien zu Benutzern in Teams](policy-assignment-overview.md)

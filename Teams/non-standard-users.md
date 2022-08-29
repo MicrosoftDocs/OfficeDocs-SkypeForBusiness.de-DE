@@ -1,5 +1,5 @@
 ---
-title: Teams Das Verhalten von Apps basierend auf Benutzertypen
+title: Verhalten von Teams-Apps basierend auf Benutzertypen
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie, wie Apps in Microsoft Teams für Gäste, Verbundbenutzer und anonyme Benutzer unterschiedlich funktionieren.
-ms.localizationpriority: medium
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,23 +17,23 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57cba8a1172058f26eab22cabba62216e099ba8
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 940c021b18c390a7b5c9ec0f8a3325c49c87dae5
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045534"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278599"
 ---
-# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams Das Verhalten von Apps basierend auf Benutzertypen
+# <a name="behavior-of-microsoft-teams-apps-based-on-types-of-in-meeting-users"></a>Verhalten von Microsoft Teams-Apps basierend auf Typen von Benutzern in der Besprechung
 
-Teams Apps verhalten sich, wenn Gastbenutzer, externe Benutzer (Verbundbenutzer) und anonyme Benutzer in einem Teams Kontext vorhanden sind.
+Teams-Apps verhalten sich, wenn Gastbenutzer, externe (Verbundbenutzer) und anonyme Benutzer in einem Teams-Kontext vorhanden sind.
 
 * Ein **Gastbenutzer** ist eine Person, die kein Mitarbeiter, Student oder Mitglied Ihrer Organisation ist. Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation.
 
-* Ein **externer Benutzer (Verbundbenutzer)** gehört zu einer anderen Domäne und hat keinen Zugriff auf die Teams oder Teamressourcen Ihrer Organisation.
+* Ein **externer Benutzer (Verbundbenutzer)** stammt aus einer anderen Domäne und hat keinen Zugriff auf die Teams-Ressourcen Ihrer Organisation.
 
   > [!Note]
-  > Einen detaillierteren Vergleich zwischen Gastbenutzern und externen Benutzern [finden Sie in der Kommunikation mit Benutzern aus anderen Organisationen](./communicate-with-users-from-other-organizations.md).
+  > Einen detaillierteren Vergleich zwischen Gast- und externen Benutzern finden Sie in [der Kommunikation mit Benutzern aus anderen Organisationen](./communicate-with-users-from-other-organizations.md).
 
 * Ein **anonymer Benutzer** ist ein Benutzer, der über einen Link an einer Besprechung teilnimmt. Der Benutzer ist nicht mit seinem Microsoft-Konto oder dem Konto seiner Organisation angemeldet.
 
@@ -41,7 +41,7 @@ Teams Apps verhalten sich, wenn Gastbenutzer, externe Benutzer (Verbundbenutzer)
 
 ### <a name="install-update-and-delete-for-guests"></a>Installieren, Aktualisieren und Löschen für Gäste
 
-Gäste können Apps nicht in einem freigegebenen Kontext wie einem Chat, Kanal oder einer Besprechung installieren, aktualisieren oder löschen. Gäste können dies in ihrem persönlichen Bereich mithilfe von Nachrichtenerweiterungen und direkten Links tun. Gäste können nicht über die Teams Desktop-App auf den Teams App Store zugreifen, sondern über einen direkten Link auf den Store zugreifen.
+Gäste können Apps nicht in einem freigegebenen Kontext wie einem Chat, Kanal oder einer Besprechung installieren, aktualisieren oder löschen. Gäste können dies in ihrem persönlichen Bereich mithilfe von Nachrichtenerweiterungen und direkten Links tun. Gäste können nicht über die Teams-Desktop-App auf den Teams-App-Store zugreifen, sondern über einen direkten Link auf den Store zugreifen.
 
 ### <a name="usage-behavior-and-policy-for-guests"></a>Nutzungsverhalten und Richtlinie für Gäste
 
@@ -63,12 +63,12 @@ Gäste können den Bot erwähnen und mit adaptiven Karten interagieren.
 
 ### <a name="install-update-and-delete-for-federated-users"></a>Installieren, Aktualisieren und Löschen für Verbundbenutzer
 
-Verbundbenutzer können Apps in keinem Kontext installieren, aktualisieren oder löschen, z. B. in einem persönlichen Kontext, Chat, Kanal oder Besprechung. Sie haben keinen Zugriff auf den Teams App Store der Hostorganisation.
+Verbundbenutzer können Apps in keinem Kontext installieren, aktualisieren oder löschen, z. B. in einem persönlichen Kontext, Chat, Kanal oder Besprechung. Sie haben keinen Zugriff auf den Teams-App-Store der hostenden Organisation.
 
 ### <a name="usage-behavior-and-policy-for-federated-users"></a>Nutzungsverhalten und Richtlinie für Verbundbenutzer
 
-* Personen aus anderen Organisationen halten sich an die globale (organisationsweite Standard)-Richtlinie der Hostingorganisation
-* Benutzer in der Hostingorganisation können Apps in Besprechungschats mit Personen aus anderen Organisationen hinzufügen. Personen aus anderen Organisationen können keine Apps in Besprechungschats hinzufügen, aber mit Bots, Registerkarten und Nachrichtenerweiterungen interagieren, sobald sie dem Chat hinzugefügt wurden.
+* Personen anderer Organisationen halten sich an die globale (organisationsweite Standard)-Richtlinie der Hostingorganisation.
+* Benutzer in der Hostingorganisation können Apps in Besprechungschats mit Personen aus anderen Organisationen hinzufügen. Personen aus anderen Organisationen können keine Apps in Besprechungschats hinzufügen, sondern mit Bots, Registerkarten und Nachrichtenerweiterungen interagieren, sobald sie dem Chat hinzugefügt wurden.
 * Nachdem ein Bot in einem Besprechungschat installiert wurde, kann er proaktiv mit Personen aus anderen Organisationen in diesem Chat kommunizieren, und diese Personen können mit bot kommunizieren.
 * Die Datenrichtlinien der Hostingorganisation werden angewendet.
 * Die Datenfreigabepraktiken von Drittanbieter-Apps, die von der Organisation dieses Benutzers gemeinsam genutzt werden, werden angewendet.
@@ -81,7 +81,7 @@ Anonyme Benutzer können Apps in Besprechungen nicht installieren, aktualisieren
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Nutzungsverhalten und Richtlinie für anonyme Benutzer
 
-Anonyme Benutzer können Apps nicht direkt in Besprechungen verwenden. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Solche Benutzer können in Teams Besprechungen mit Apps interagieren, wenn die App durch die Berechtigungsrichtlinie auf Benutzerebene aktiviert wird. Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene.
+Anonyme Benutzer können Apps nicht direkt in Besprechungen verwenden. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Solche Benutzer können mit Apps in Teams-Besprechungen interagieren, wenn die Berechtigungsrichtlinie auf Benutzerebene die App aktiviert. Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene.
 
 Anonyme Benutzer können nur mit den Apps interagieren, die bereits in einer Besprechung verfügbar sind, aber solche Apps nicht erwerben und verwalten können. Die nativen Benutzer können weiterhin Besprechungs-Apps verwenden, auch wenn die anonymen Benutzer an einer Besprechung teilnehmen.
 

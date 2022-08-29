@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365-frontline
 description: Erfahren Sie mehr über Teamvorlagen und deren Verwaltung im Microsoft Teams Admin Center.
 f1.keywords:
 - CSH
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819356"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396726"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center
 
@@ -43,7 +44,7 @@ Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von Power
 In diesem Artikel erhalten Sie einen Überblick über die Arbeit mit Teamvorlagen im Teams Admin Center. Sie erfahren mehr über die Eigenschaften, die in Vorlagen unterstützt werden, die vordefinierten Vorlagen, die wir bereitstellen, Beschränkungen der Vorlagengröße, das Erstellen und Verwalten von Vorlagen und vieles mehr.
 
 > [!NOTE]
-> Ihre Benutzer können [Teams aus vordefinierten oder benutzerdefinierten Teamvorlagen in der Teams-App erstellen](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) . Entwickler können teams auch programmgesteuert aus vordefinierten Teamvorlagen mithilfe von Microsoft Graph erstellen. Weitere Informationen finden Sie unter ["Erste Schritte mit Teamvorlagen mit Microsoft Graph](get-started-with-teams-templates.md)".
+> Ihre Benutzer können [Teams aus vordefinierten oder benutzerdefinierten Teamvorlagen in der Teams-App erstellen](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) . Entwickler können teams auch programmgesteuert aus vordefinierten oder benutzerdefinierten Teamvorlagen mitHilfe von Microsoft Graph erstellen. Weitere Informationen finden Sie unter ["Erste Schritte mit Teamvorlagen mit Microsoft Graph](get-started-with-teams-templates.md)".
 
 ## <a name="team-template-capabilities"></a>Teamvorlagenfunktionen
 
@@ -54,7 +55,7 @@ Die meisten Eigenschaften in einem Team werden von Teamvorlagen eingeschlossen u
 | Vorlagentyp | Teammitgliedschaft |
 | Teamname | Teambild |
 | Teambeschreibung | Kanaleinstellungen |
-| Sichtbarkeit des Teams (öffentlich oder privat) | Steckverbinder |
+| Sichtbarkeit des Teams (öffentlich oder privat) | Connectors |
 | Teameinstellungen (z. B. Mitglied, Gast, @Erwähnungen) | Dateien und Inhalte |
 | AutoFavorite-Kanal | |
 | App installiert | |

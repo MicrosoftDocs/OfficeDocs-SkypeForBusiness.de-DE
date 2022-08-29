@@ -16,12 +16,12 @@ description: Erfahren Sie, wie Sie Adobe Acrobat als einen Standard-PDF-Viewer f
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299244"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396706"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat als ein Standard-PDF-Viewer in Microsoft Teams
 
@@ -39,11 +39,11 @@ Führen Sie die folgenden Schritte als Voraussetzungen aus, um die Adobe Acrobat
 
 Stellen Sie vor dem Einrichten der App sicher, dass Sie die Verwendung von Apps in Ihrem Mandanten zulassen, dass Sie die Adobe Acrobat-App ausdrücklich zugelassen haben und dass die App-Berechtigungsrichtlinien sie zulassen. Führen Sie die folgenden Schritte aus, um Adobe Acrobat als die Standard-App für PDF-Dateien einzurichten:
 
-1. Melden Sie sich beim Teams Admin Center an, und wechseln Sie zu **Teams-App** > **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf Apps zum **[Verwalten von](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams-Apps zu** > .
 
-1. Suchen Sie nach der Adobe Acrobat-App, und wählen Sie diese aus.
+1. Suchen Sie nach der Adobe Acrobat-App, und wählen Sie diese aus. Die Seite mit den App-Details wird geöffnet.
 
-1. Wählen Sie auf der Registerkarte **Berechtigungen** die Option **Berechtigung prüfen** aus.
+1. Wählen Sie die Registerkarte **"Berechtigungen** " und dann die **Berechtigung "Überprüfen"** aus.
 
    :::image type="content" source="media/permission-policy.png" alt-text="Screenshot der App-Berechtigung im Teams Admin Center." lightbox="media/teams-app-adobe-acrobat-permission.png":::
 

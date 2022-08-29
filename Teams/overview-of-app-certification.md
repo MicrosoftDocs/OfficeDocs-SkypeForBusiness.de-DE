@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d1fb640e6bf43d4a91eb1c672244cdf33cefd059
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299084"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396436"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 App-Compliance-Programm für Sicherheit, Compliance und Datenschutz von Drittanbieter-Apps
 
@@ -112,7 +112,7 @@ Beim Auswerten einer App können Sie unabhängige Cloud Access Security Brokers 
 
 So greifen Sie auf MCAS Informationen für eine App zu:
 
-1. Wählen Sie im Teams Admin Center **Teams-Apps** > **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)** aus.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **Teams-Apps** >  zu **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Wählen Sie **"Zertifizierung**" aus, um Apps zu sortieren und alle Microsoft 365 zertifizierten Apps an den Anfang der Tabelle zu verschieben.
 

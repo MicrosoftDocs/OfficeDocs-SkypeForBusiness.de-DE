@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Artikel finden Sie Informationen zum Erstellen von Ressourcenkonten für Räume und freigegebene Geräte, einschließlich Microsoft Teams-Räume, Teams-Räume auf Surface Hub und Hot-Desking auf Teams-Displays.
-ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271710"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405157"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Erstellen und Konfigurieren von Ressourcenkonten für Räume und freigegebene Teams-Geräte
 
@@ -95,7 +95,7 @@ Erstellen Sie ein Ressourcenkonto mithilfe einer Methode auf einer der folgenden
 
 3. Wechseln Sie im linken Bereich zu **"Ressourcen** ", und wählen Sie dann **"Räume & Ausrüstung**" aus. Wenn diese Optionen im linken Bereich nicht verfügbar sind, müssen Sie möglicherweise zuerst **"Alle anzeigen"** auswählen.
 
-4. Wählen Sie **"Ressourcenpostfach hinzufügen** " aus, um ein neues Raumkonto zu erstellen. Geben Sie einen Anzeigenamen und eine E-Mail-Adresse für das Konto ein, wählen Sie **"Hinzufügen"** und dann " **Schließen**" aus.
+4. Wählen Sie **"Ressource hinzufügen"** aus, um ein neues Raumkonto zu erstellen. Geben Sie einen Anzeigenamen und eine E-Mail-Adresse für das Konto ein, wählen Sie **"Hinzufügen"** und dann " **Schließen**" aus.
 
 5. Ressourcenkonten sind standardmäßig mit den folgenden Einstellungen konfiguriert:
 
@@ -105,13 +105,13 @@ Erstellen Sie ein Ressourcenkonto mithilfe einer Methode auf einer der folgenden
       - Maximale Dauer (Stunden): 24
     - Automatisches Annehmen von Besprechungsanfragen
 
-    Wenn Sie sie ändern möchten, wählen Sie **"Terminplanungsoptionen festlegen** " aus, bevor Sie **"Schließen**" auswählen. Wenn Sie sie später ändern möchten, wechseln Sie zu **Ressourcenräume** > **& Ausrüstung**, wählen Sie das Ressourcenkonto aus. Wählen Sie dann unter **"Buchungsoptionen**" die Option **"Bearbeiten"** aus.
+    Wenn Sie sie ändern möchten, wählen Sie **"Buchungsoptionen bearbeiten** " aus, bevor Sie **"Schließen**" auswählen. Wenn Sie sie später ändern möchten, wechseln Sie zu **Ressourcenräume** > **& Ausrüstung**, wählen Sie das Ressourcenkonto aus. Wählen Sie dann unter **"Buchungsoptionen**" die Option **"Bearbeiten"** aus.
 
 6. Wechseln **Sie zu "Aktive Benutzer"** > , und wählen Sie den Von Ihnen erstellten Raum aus, um den Eigenschaftenbereich zu öffnen.
 
 7. Weisen Sie als Nächstes dem Ressourcenkonto ein Kennwort zu. Wählen Sie im Bereich " **Kennwort zurücksetzen" aus**.
  
-8. Wenn Benutzer das Kennwort auf einem freigegebenen Gerät ändern müssen, treten Anmeldeprobleme auf. Deaktivieren Sie das Kontrollkästchen **"Diesen Benutzer auffordern, sein Kennwort zu ändern, wenn er sich zum ersten Mal anmeldet**, und wählen Sie **"Zurücksetzen"** aus.
+8. Wenn Benutzer das Kennwort auf einem freigegebenen Gerät ändern müssen, treten Anmeldeprobleme auf. Deaktivieren Sie das Kontrollkästchen **"Diesen Benutzer auffordern, sein Kennwort zu ändern, wenn er sich zum ersten Mal anmeldet**, und wählen Sie **"Kennwort zurücksetzen" aus**.
 
 9. Legen Sie im Abschnitt **"Lizenzen und Apps****" den Speicherort "Auswählen"** auf das Land oder die Region fest, in dem das Gerät installiert wird. Wählen Sie dann die Lizenz aus, die Sie zuweisen möchten, z. B. den Besprechungsraum, und wählen Sie " **Änderungen speichern"** aus. Die Lizenz kann je nach Organisation variieren.
 
@@ -250,7 +250,7 @@ Stellen Sie zunächst eine Verbindung mit Active Directory PowerShell her:
    Connect-AzureAD
 ```
 
-Lesen [Sie dann "Kennwort festlegen", damit es nie abläuft](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
+Lesen [Sie dann "Kennwort festlegen", damit es nie abläuft](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire).
 
 In diesem Beispiel wird festgelegt, dass das Kennwort für das Konto ConferenceRoom01@contoso.com nie abläuft.
 
@@ -288,7 +288,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Import-Module ActiveDirectory
     ```
     
-    Ausführliche Informationen zu Active Directory PowerShell finden Sie unter [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
+    Ausführliche Informationen zu Active Directory PowerShell finden Sie unter [ActiveDirectory](/powershell/module/activedirectory/).
 
 2. Legen Sie das Kennwort so fest, dass es nie abläuft, indem Sie die folgende Syntax verwenden:
 

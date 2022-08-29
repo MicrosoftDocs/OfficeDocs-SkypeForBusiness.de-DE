@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 73376cbc26708cc5ec810e13b710e057ba603a44
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271420"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443472"
 ---
 # <a name="charting-your-kaizala-to-teams-journey"></a>Charting your Kaizala to Teams journey
+
+> [!Important]
+> Microsoft Kaizala wird am 31. August 2023 eingestellt. Wir empfehlen ein Upgrade auf Microsoft Teams, um die Verbindung, Freigabe und Zusammenarbeit fortzusetzen. Nach dem Datum der Pensionierung wird der Zugang und die Unterstützung für Kaizala eingestellt.
 
 Sie haben beschlossen, von Kaizala zu Microsoft Teams zu wechseln.
 

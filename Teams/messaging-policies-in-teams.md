@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563963"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396516"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -112,6 +112,7 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 - **Vorgeschlagene Antworten**  Aktivieren Sie diese Einstellung, um vorgeschlagene Antworten für Chatnachrichten zu aktivieren.
 - **Chatberechtigungsrolle** Verwenden Sie diese Einstellung, um die Rolle des überwachten Chats des Benutzers zu definieren. Erfahren Sie mehr über den [beaufsichtigten Chat](supervise-chats-edu.md).
 - **Benutzer mit vollständigen Chatberechtigungen können jede Nachricht löschen** Verwenden Sie diese Einstellung, um Benutzern mit vollständigen Berechtigungen das Löschen einer Gruppen- oder Besprechungschatnachricht zu ermöglichen.
+- **Videonachrichten** Aktivieren Sie diese Einstellung, wenn Sie möchten, dass Benutzer in Ihrer Organisation die Teams-App zum Senden von Videonachrichten an andere Personen im Chat verwenden können.
 
 > [!NOTE]
 > Einige dieser Einstellungen, z. B. die Verwendung von Giphys, können auch auf Teamebene von Teambesitzern und auf privater oder freigegebener Kanalebene von Kanalbesitzern konfiguriert werden.

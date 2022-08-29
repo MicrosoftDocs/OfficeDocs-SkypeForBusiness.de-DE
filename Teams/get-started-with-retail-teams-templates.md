@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Teamvorlagen für den Einzelhandel im Microsoft Teams Admin Center und mit Microsoft Graph verwalten und verwenden können, um schnell und einfach Teams für Ihre Einzelhandelsorganisation zu erstellen.
@@ -19,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3cf6d2e7eb23517477572775e7d18571463957b
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046341"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396296"
 ---
 # <a name="use-retail-team-templates"></a>Verwenden von Teamvorlagen für den Einzelhandel
 
@@ -55,7 +56,7 @@ Bringen Sie Ihre Einzelhandelsmitarbeiter in einer zentralen Erfahrung zusammen,
 
 | Vorlagentyp |TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |
-|Ein Store organisieren| `retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Bereitschaft der Filiale<ul><li>Prüfung&sup1;</li></ul></li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
+|Ein Store organisieren| `retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Bereitschaft der Filiale<ul><li>Prüfung&sup1;</li></ul></li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
 
 &sup1;App wurde dem Kanal als Registerkarte hinzugefügt
 
@@ -76,7 +77,7 @@ Weitere Informationen zur Verwendung von Teamvorlagen mit Microsoft Graph finden
 
 Hier finden Sie die vorgefertigten Teamvorlagen für den Einzelhandel.
 
-### <a name="store"></a>Filiale
+### <a name="store"></a>Store
 
 Die Store-Vorlage eignet sich ideal zum Erstellen eines Teams zur Darstellung eines einzelnen Einzelhandelsgeschäftsstandorts. Mithilfe der Store-Vorlage können Sie ein Team für jeden Einzelhandelsgeschäftsstandort in Ihrer Organisation erstellen.
 

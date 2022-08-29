@@ -21,15 +21,16 @@ ms.collection:
 - microsoftcloud-healthcare
 - microsoftcloud-retail
 - m365initiative-lists
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842231"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396276"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
@@ -95,7 +96,7 @@ Wenn Benutzer in Ihrer Organisation Listen mithilfe der SharePoint-App erstellt 
 
 "Listen" ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Centers zu **"Teams-Apps** > **verwalten"**.
+1. Wechseln Sie im linken Bereich des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten.**.
 2. Führen Sie einen der folgenden Schritte aus:
 
     - Um Listen für Ihre Organisation zu deaktivieren, suchen Sie nach der Listen-App, wählen Sie sie aus, und wählen Sie dann **"Blockieren"** aus.

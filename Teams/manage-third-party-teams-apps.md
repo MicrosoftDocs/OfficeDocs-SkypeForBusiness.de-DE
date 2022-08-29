@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Zugriff auf Teams-Apps in Microsoft 365 verwalten.
-ms.openlocfilehash: 114b16dad2a574b217ebc9bf815f42e579b740e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 76385d60d185fd9ad522348e4e438ac06dd4e896
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271410"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396896"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Verwalten des Zugriffs auf Teams-Apps über Microsoft 365
 
@@ -30,7 +30,7 @@ App-Entwickler können ihre Microsoft Teams-Apps so erweitern, dass sie in Outlo
 
 Für die Verwendung in Outlook und Office.com verwendet eine erweiterte App weiterhin die vorhandenen Berechtigungen, die in Teams gewährt wurden. Die [Berechtigungen der erweiterten App ändern sich nicht](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs).
 
-Im Folgenden finden Sie eine Liste der erweiterten Apps:
+Die erweiterten Apps sind unten aufgeführt:
 
 * [Monday.com](https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f)
 * [MURAL](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d)

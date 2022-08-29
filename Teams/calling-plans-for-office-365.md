@@ -1,5 +1,5 @@
 ---
-title: Anrufpläne für Microsoft 365
+title: Anrufpläne für Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,14 +27,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Optionen für Anrufpläne (PSTN-Anrufpläne) für Skype for Business und wie Sie Lizenzen für Ihre Organisation erhalten.
-ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269220"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396846"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
+# <a name="calling-plans-for-microsoft-teams"></a>Anrufpläne für Microsoft Teams
 
 Anrufe zu anderen Skype for Business- und Microsoft Teams-Nutzer*innen sind kostenlos. Wenn Sie jedoch möchten, dass Ihre Nutzer*innen auch normale Telefone anrufen können, und Sie noch keinen Dienstanbieter für Sprachanrufe haben, müssen Sie einen Anrufplan kaufen. Weitere Informationen finden Sie unter [Telefonsystem und Anrufpläne](calling-plan-landing-page.md).
   
@@ -44,7 +44,11 @@ Nachfolgend die Optionen für Anrufpläne:
 
 - **Plan für internationale Anrufe**: Lizenzierte Benutzer können Nummern anrufen, die sich in dem Land/der Region befinden, in dem/der ihre Microsoft 365-Lizenz dem Benutzer basierend auf dem Standort des Benutzers und internationalen Nummern in [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md) zugewiesen ist. Unbegrenzte eingehende Minuten sind enthalten. Ausgehende Minuten sind basierend auf der erworbenen Lizenz enthalten.
 
-- **Pay-As-You-Go-Anrufplan**: Lizenzierte Benutzer können Nummern anrufen, die sich in dem Land/der Region befinden, in dem/der ihre Microsoft 365-Lizenz dem Benutzer basierend auf dem Standort des Benutzers und internationalen Nummern in  [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md) zugewiesen ist. Unbegrenzte eingehende Minuten sind enthalten. Es sind keine ausgehenden Minuten enthalten. Alle ausgehenden Anrufe werden basierend auf den verwendeten Minuten berechnet, entweder mit Kommunikationsguthaben oder Post Pay-Abrechnung.
+- **Pay-As-You-Go-Anrufplan**: Lizenzierte Benutzer können Nummern anrufen, die sich in dem Land/der Region befinden, in dem/der ihre Microsoft 365-Lizenz dem Benutzer basierend auf dem Standort des Benutzers und internationalen Nummern in  [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md) zugewiesen ist. Unbegrenzte eingehende Minuten sind enthalten. Es sind keine ausgehenden Minuten enthalten. Alle ausgehenden Anrufe werden basierend auf den verwendeten Minuten berechnet, entweder mit Kommunikationsguthaben oder Post Pay-Abrechnung. Lizenzen werden Benutzern basierend auf ihrem Standort zugewiesen. Es stehen zwei Optionen zur Auswahl:
+  - **Pay-As-You-Go Calling Plan Zone-1**: Kaufen Sie diesen für Benutzer in der USA, einschließlich Puerto Rico, Kanada und dem Vereinigten Königreich.
+    - Zone 1-Lizenzen sind derzeit in den USA und Puerto Rico nicht zum Verkauf verfügbar, können aber für Benutzer in den USA und Puerto Rico bereitgestellt werden, wenn sie in anderen Ländern gekauft werden.
+  - **Pay-As-You-Go Calling Plan Zone-2**: Kaufen Sie diesen für Benutzer in Österreich, Belgien, Kroatien, Tschechische Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Ungarn, Irland, Italien, Lettland, Litauen, Luxemburg, Niederlande, Neuseeland, Norwegen, Polen, Portugal, Rumänien, Singapur, Slowakei, Slowenien, Südafrika, Spanien, Schweden und der Schweiz.
+    - Zone 2-Lizenzen sind derzeit in den USA und Puerto Rico nicht zum Verkauf verfügbar.
 
 Alle Benutzer in demselben Land/derselben Region (dies ist der Benutzerstandort, welcher im Lizenzierungsbereich des Microsoft 365 Admin Centers definiert ist) mit demselben Anrufplan teilen sich einen Pool von Minuten. Wenn beispielsweise 100 Benutzern, die sich im selben Land bzw. derselben Region befinden, ein 120-Minuten-Plan für Inlandsanrufe zugewiesen ist, steht diesen einen Pool von 12.000 Minuten zur Verfügung. Nach Überschreiten dieser Minutenzahl, werden alle Anrufe pro Minute abgerechnet.
 

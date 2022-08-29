@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023988"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418464"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
@@ -43,9 +43,17 @@ Der externe Zugriff ist standardmäßig für alle Domänen aktiviert. Sie könne
 ![Screenshot der Einstellungen für den externen Zugriff.](media/external-access-federation-settings.png)
 
 Externer Zugriff ist für die folgenden Mandanten verfügbar:
-
-- Übergreifend und zwischen Commercial, GCC und GCC High
-- Nur zwischen DOD
+- Verwaltete Unternehmenskonten
+     - Nur zwischen kommerziellen
+     - Nur zwischen GCC
+     - Nur zwischen GCC High
+     - Nur zwischen DOD
+- Nicht verwaltete (persönliche) Konten
+     - Nur zwischen kommerziellen und persönlichen Konten
+- Skype for Business Interoperabilität
+     - Zwischen und über Commercial, GCC, GCC High und DoD
+- Skype-Interoperabilität
+     - Nur zwischen Kommerziellem und Skype
 
 Weitere Informationen zum Konfigurieren des externen Zugriffs finden Sie unter [Externen Zugriff verwalten](manage-external-access.md). 
 
@@ -56,7 +64,7 @@ Weitere Informationen zum Konfigurieren des externen Zugriffs finden Sie unter [
 
 Verwenden Sie den Gastzugriff, um Personen von außerhalb Ihrer Organisation zu einem Team hinzuzufügen, in dem sie chatten, anrufen, treffen und an Dateien zusammenarbeiten können. Einem Gast können fast alle Funktionen des Teams gleich wie einem nativen Teammitglied zur Verfügung gestellt werden. Weitere Informationen finden Sie unter [Gasterfahrung in Teams](guest-experience.md).
 
-Gäste werden dem Azure Active Directory Ihrer Organisation als B2B-Benutzer hinzugefügt und müssen sich mit ihrem Gastkonto in Teams anmelden. Dies bedeutet, dass sie sich möglicherweise in seiner eigenen Organisation abmelden müssen, um sich bei Ihrer Organisation anzumelden.
+Gäste werden dem Azure Active Directory Ihrer Organisation als B2B-Benutzer für die Zusammenarbeit hinzugefügt und müssen sich mit ihrem Gastkonto bei Teams anmelden. Dies bedeutet, dass sie sich möglicherweise in seiner eigenen Organisation abmelden müssen, um sich bei Ihrer Organisation anzumelden.
 
 Der Gastzugriff ist für die folgenden Mandanten verfügbar:
 

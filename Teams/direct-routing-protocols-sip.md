@@ -16,12 +16,12 @@ f1.keywords:
 description: Direct Routing-Protokolle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4ba1715ccf7b1ea2f0dbf12b58fd5aa6556b24
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 00df395ab67ea3e268cb31f202dd59cba4d4148b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271260"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396316"
 ---
 # <a name="direct-routing---sip-protocol"></a>Direct Routing – SIP-Protokoll
 
@@ -42,7 +42,7 @@ Bevor ein eingehender oder ausgehender Anruf verarbeitet werden kann, werden OPT
 | Kontaktkopf | Kontakt: <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> Die SIP-Header enthalten keine Benutzerinfos im verwendeten SIP-URI. Gemäß [RFC 3261, Abschnitt 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), ist der UserInfo-Teil eines URI optional und KANN nicht vorhanden sein, wenn der Zielhost keine Vorstellung von Benutzern hat oder wenn der Hosst selbst die zu identifizierende Ressource ist. Wenn das @-Zeichen in einem SIP-URI vorhanden ist, DARF das Benutzerfeld NICHT leer sein.
+> Die SIP-Header enthalten keine Benutzerinfos im verwendeten SIP-URI. Gemäß [RFC 3261, Abschnitt 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), ist der UserInfo-Teil eines URI optional und KANN nicht vorhanden sein, wenn der Zielhost keine Vorstellung von Benutzern hat oder wenn der Host selbst die zu identifizierende Ressource ist. Wenn das @-Zeichen in einem SIP-URI vorhanden ist, DARF das Benutzerfeld NICHT leer sein.
 > Bitte beachten Sie, dass der SIPS-URI nicht mit Direct Routing verwendet werden sollte, da er nicht unterstützt wird.
 > Überprüfen Sie ihre Session Border Controller-Konfiguration, und stellen Sie sicher, dass Sie keine "Replaces"-Header in SIP-Anforderungen verwenden. Direct Routing lehnt SIP-Anforderungen ab, für die Replaces-Header definiert sind.
 

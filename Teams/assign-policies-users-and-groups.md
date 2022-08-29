@@ -18,12 +18,12 @@ description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinien 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: a57c038242c06f4305410e68cff907aef6889841
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267580"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396649"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Zuweisen von Richtlinien zu Benutzern und Gruppen
 
@@ -140,13 +140,17 @@ Wenn Sie keine Rangfolge angeben, wird der Richtlinienzuweisung die niedrigste R
     1. Suchen Sie nach der Gruppe, der Sie die Richtlinie zuweisen möchten, und fügen Sie sie hinzu.
     2. Legen Sie die Rangfolge für die Gruppenzuweisung fest.
     3. Wählen Sie die Richtlinie aus, die Sie zuweisen möchten.
-    4. Wählen Sie **"Übernehmen" aus**.
+    4. Wählen Sie **Anwenden** aus.
 
         :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Screenshot, der zeigt, wie Sie einer Gruppe im Teams Admin Center eine Richtlinie zuweisen." lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 Um eine Gruppenrichtlinienzuweisung zu entfernen, wählen Sie auf der Registerkarte " **Gruppenrichtlinienzuweisung** " der Richtlinienseite die Gruppenzuweisung und dann " **Entfernen"** aus.
 
 Um die Rangfolge einer Gruppenzuweisung zu ändern, müssen Sie zuerst die Gruppenrichtlinienzuweisung entfernen. Führen Sie dann die vorstehenden Schritte aus, um die Richtlinie einer Gruppe zuzuweisen.
+
+Dieses Video zeigt die Schritte zum Erstellen und Zuweisen einer benutzerdefinierten Besprechungsrichtlinie zu einer Gruppe.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
 
 ### <a name="use-the-powershell-option"></a>Verwenden der PowerShell-Option
 

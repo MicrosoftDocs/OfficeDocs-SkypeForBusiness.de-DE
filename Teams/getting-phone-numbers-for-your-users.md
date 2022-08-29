@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie neue Nummern für Teams abrufen, portieren oder übertragen und wie Sie die Änderungen Ihren Benutzern anzeigen.
-ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156543"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396336"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -89,6 +89,10 @@ Nachdem Sie Ihre Telefonnummern erhalten haben, müssen Sie jedem Ihrer Benutzer
 
 > [!NOTE]
 > Wenn Sie mehr Telefonnummern benötigen, [wenden Sie sich an den Supportkontakt für Business-Produkte – Admin Hilfe](/microsoft-365/admin/contact-support-for-business-products).
+
+Dieses Video zeigt die Schritte zum Zuweisen einer Telefonnummer zu einem Benutzer.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

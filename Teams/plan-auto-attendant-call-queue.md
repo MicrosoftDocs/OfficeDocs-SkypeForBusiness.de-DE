@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonzentralen und Anrufwarteschleifen und wie Sie diese verwenden können, um Anrufern zu helfen, durch ein Menüsystem zu navigieren, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070736"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443352"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonzentralen und Anrufwarteschleifen in Microsoft Teams
 
@@ -175,6 +175,18 @@ In den folgenden Artikeln finden Sie Informationen zum Erstellen automatischer T
 
 - [Einrichten einer automatischen Telefonzentrale](create-a-phone-system-auto-attendant.md)
 - [Erstellen einer Anrufwarteschleife](create-a-phone-system-call-queue.md)
+
+> [!IMPORTANT]
+> Das Azure Active Directory (AAD)-GUID-Token eines Benutzers wird als Teil der Konfiguration der automatischen Telefonzentrale oder Anrufwarteschleife gespeichert, wenn der Benutzer folgendermaßen konfiguriert ist:
+>
+>  - ein **autorisierter Benutzer** einer automatischen Telefonzentrale oder Anrufwarteschleife.
+>  - ein automatischer **Telefonzentralenoperator**.
+>  - ein Transferpunkt **für eine Person in der Organisation** .
+>  - ein einzelnes Mitglied einer Anrufwarteschleife.
+> 
+> Die Konfigurationen der automatischen Telefonzentrale und der Anrufwarteschleife werden nicht mit AAD-Lebenszyklusereignissen synchronisiert.  Teams-Administratoren müssen die Konfigurationen der automatischen Telefonzentrale und der Anrufwarteschleife manuell aktualisieren, um diese personenbezogenen Daten zu entfernen, wenn ein in der Konfiguration enthaltener Benutzer die Organisation verlässt.
+>
+> Dies gilt nicht für Mitgliedschaften des Anrufwarteschleifen-Agents, die über Verteilerlisten oder Kanäle konfiguriert sind. Dies gilt auch nicht für Benutzer, die über die Funktion " **Namenswahl** " oder " **Rufnummer"** von automatischen Telefonzentralen erreicht werden.
 
 Wenn Sie umfangreichere Funktionen benötigen, z. B. die Integration in Workflows, Bots und SMS, sollten Sie [Azure Communication Services](/azure/communication-services/overview) in Betracht ziehen.
 

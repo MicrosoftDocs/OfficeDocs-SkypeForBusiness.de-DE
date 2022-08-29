@@ -16,16 +16,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Listet Lizenzierungspläne für Lehrpersonal und Studenten für Bildungseinrichtungen und SKU-IDs auf.
 f1keywords: ''
-ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: f0b1f51b18ba7c43b4cb5eed9b7626100e9a950f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790170"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426862"
 ---
 # <a name="education-sku-reference"></a>Education-SKU-Referenz
 
-In diesem Artikel werden Lizenzierungspläne für Lehrpersonal und Studenten für Bildungseinrichtungen und SKU-IDs aufgeführt, die Sie als Referenz verwenden können, wenn Sie PowerShell verwenden, um Benutzer in Ihrer Organisation nach Lizenztyp zu identifizieren.
+In diesem Artikel werden Lizenzierungspläne für Bildungsfakultäten und Studenten (EDUCATION Faculty and Student Licensing Plans, SKUs) und SKU-IDs aufgeführt.
+
+Verwenden Sie diese Referenz, wenn Sie PowerShell verwenden, um Benutzer in Ihrer Organisation nach Lizenztyp zu identifizieren.
 
 ## <a name="faculty-licenses"></a>Lehrpersonallizenzen
 

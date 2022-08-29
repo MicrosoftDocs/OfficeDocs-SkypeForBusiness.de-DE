@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams für Bildungseinrichtungen – Anleitung zur Problemlösung aufgrund geringer Bandbreite
+title: Problembehandlung bei Szenarien mit geringer Bandbreite für Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: jesegher
-description: Microsoft Teams für Bildungseinrichtungen – Artikel zur Unterstützung bei Besprechungs- und Videoproblemen in Verbindung mit geringer Bandbreite. Ganz gleich, ob Sie Elternteil, Lehrkraft oder IT-Administrator sind, Sie haben die Möglichkeit, die Erfahrung mit Microsoft Teams zu verbessern.
+description: Erhalten Sie Hilfe bei Besprechungs- und Videoproblemen im Zusammenhang mit Problemen mit geringer Bandbreite in Teams. Unabhängig davon, ob Sie ein Elternteil, ein Dozent oder ein IT-Admin sind, haben Sie Optionen, um die Erfahrung mit Teams zu verbessern.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -17,79 +17,88 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87800943dc6e6a615e09b7995a613d109ebcf30c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 7f60095f20d62ed14b19d7c23493553efc39b872
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269050"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426812"
 ---
-# <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Microsoft Teams für Bildungseinrichtungen – Hilfe bei Situationen mit geringer Bandbreite
+# <a name="troubleshoot-low-bandwidth-scenarios-for-teams"></a>Problembehandlung bei Szenarien mit geringer Bandbreite für Teams
 
-Es gibt viele Netzwerkelemente, die sich im Hinblick auf die Nutzung von Microsoft Teams auf die Leistung auswirken können. Eine geringe Bandbreite gehört zu den Situationen, die sich völlig unkontrollierbar anfühlen können. Berücksichtigen Sie die folgenden Situationen:
+In diesem Artikel erhalten IT-Administratoren die bewährten Methoden im Umgang mit Problemen mit geringer Bandbreite in Teams.
 
-- Eine langsame Internetverbindung für die Schule.
-- Eine langsame Internetverbindung für einen oder mehrere Schüler/Studenten.
+Zahlreiche Netzwerkelemente können sich auf die Leistung bei der Arbeit mit Microsoft Teams auswirken.
+
+- Low-Speed-Internetverbindung für die Schule.
+- Low-Speed-Internetverbindung für einen oder mehrere Kursteilnehmer.
 - Tageszeiten, zu denen die Bandbreite aufgrund der Netzwerkauslastung in einem bestimmten Gebiet gering ist.
-- Zeiten mit geringer Bandbreite aufgrund von Ausfällen, die weder in der Schule noch bei Schülern/Studenten vor Ort auftreten, die aber dennoch die Leistung beeinträchtigen.
-- Probleme, die nicht mit der Bandbreite zusammenhängen (z. B. Probleme mit der Hardware), die mit Problemen mit geringer Bandbreite verwechselt werden können.
-
-In diesem Artikel werden bewährte Methoden für eine Vielzahl von Microsoft Teams-Aktivitäten erläutert, die Sie bei Problemen mit geringer Bandbreite anwenden können.
+- Ausfälle, die nicht lokal an der Schule oder den Schülern/Studenten vorgenommen wurden, wirken sich jedoch auf die Leistung aus.
+- Hardwareprobleme, die Probleme mit geringer Bandbreite verursachen.
 
 > [!IMPORTANT]
-> Hier finden Sie Informationen über die [Verwendung des Arbeitsspeichers durch Microsoft Teams](teams-memory-usage-perf.md), da es zusätzlich zu Problemen mit geringer Bandbreite auch zu Problemen mit den Ressourcen auf Ihrem Gerät kommen kann. Hinweise zum Thema Netzwerk in Verbindung mit Microsoft Teams finden Sie unter [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md).
+> Lesen Sie [, wie Microsoft Teams Arbeitsspeicher](teams-memory-usage-perf.md) für Ressourceneinschränkungen auf Geräten verwendet.
+>
+>Anleitungen zum Teams-Netzwerk finden [Sie unter Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md).
 
-## <a name="resolving-low-bandwidth-issues-for-admins"></a>Beheben von Problemen aufgrund geringer Bandbreite für Administratoren
+## <a name="resolving-low-bandwidth-issues-for-it-admins"></a>Beheben von Problemen mit geringer Bandbreite für IT-Administratoren
 
-Der wichtigste Punkt, an den Sie als IT-Administrator denken sollten: Obwohl Sie über Lösungen für verbreitete Probleme aufgrund geringer Bandbreite verfügen, die Probleme schnell beheben, sollten Lösungen sorgfältig bedacht werden. Einige Probleme können möglicherweise mit einem stärker eingeengten Schwerpunkt auf der Ebene der Lehrkräfte oder sogar der Schüler/Studenten/Eltern behoben werden.
+Einige Probleme können nur mit einem eingeschränkten Fokus auf der Ebene einzelner Benutzer behoben werden.
 
-Kurz gesagt: Wenn das durch geringe Bandbreite bedingte Problem bei einer großen Anzahl von Schülern/Studenten auftritt, ist das Eingreifen eines IT-Admins sinnvoll, und ebenso sinnvoll ist es, wenn das Problem durch auf der Ebene der Schüler/Studenten/Lehrkräfte ergriffene Maßnahmen nicht behoben werden konnte.
+Wenn Bandbreitenprobleme für viele Benutzer auftreten oder wenn Aktionen auf Benutzerebene nicht hilfreich waren, ist die schulweite Aktion der nächste Schritt.
 
 > [!NOTE]
-> Wenn Sie ausreichend Zeit zur Verfügung haben, ist der [Leitfaden zur Überprüfung der Erlebnisqualität](quality-of-experience-review-guide.md) eine lohnende Lektüre (er ist nicht konkret auf die Version für Bildungseinrichtungen abgestimmt, aber er bietet trotzdem wertvolle Informationen). Mithilfe dieses Leitfadens können erfahrene IT-Administratoren die Benutzererfahrung von Lehrkräften und Schülern/Studenten eingehender studieren.
+> Sie können auch den [Leitfaden zur Überprüfung der Qualität der Erfahrung](quality-of-experience-review-guide.md) lesen. Es ist nicht EDU-spezifisch, verfügt aber über wertvolle Informationen.
 
 ### <a name="meetings-and-video"></a>Besprechungen und Video
 
-Ein primärer Schwerpunkt bei Problemen aufgrund geringer Bandbreite sind Besprechungen und insbesondere Videos im Rahmen von Besprechungen. Im Folgenden sind Maßnahmen aufgeführt, die ein IT-Administrator in Betracht ziehen sollte, wenn er sich mit Problemen befasst, die von Schülern/Studenten oder Lehrkräften gemeldet werden, um die bestmögliche Benutzererfahrung bei Besprechungen im Bildungsbereich zu erzielen.
+Berücksichtigen Sie die nachstehenden Aktionen, wenn Sie mit Besprechungsproblemen im Zusammenhang mit geringer Netzwerkbandbreite umgehen.
 
-#### <a name="meeting-policies"></a>Besprechungsrichtlinien
+#### <a name="meeting-video-policies"></a>Richtlinien für Besprechungsvideos
 
-Im Hinblick auf Besprechungen sind bei Situationen mit geringer Bandbreite vor allem Videos betroffen. Glücklicherweise kann Microsoft Teams nicht nur automatisch auf die erkannte Bandbreite skalieren, sondern Sie als IT-Administrator haben auch Richtlinienoptionen, die Sie auf der Ebene der einzelnen Organisatoren und/oder Benutzer einstellen können. Über diese Optionen können Sie für alle Beteiligten die bestmögliche Benutzererfahrung im Hinblick auf die Bandbreite erzielen, die zu einem bestimmten Zeitpunkt zur Verfügung steht.
+Teams skaliert die Besprechungsqualität automatisch auf die erkannte Bandbreite eines Benutzers. Sie können jedoch weitere Einschränkungen festlegen, um die Bandbreite zu erhalten.
 
-Einige Dinge, die Sie über Richtlinien festlegen können, sind:
+Einige Einschränkungen, die Sie über eine Richtlinie festlegen können, sind:
 
-- Video vollständig deaktivieren, sodass es niemand aktivieren kann.
-- Medienbitrate (diese wird für jeden Benutzer festgelegt).
+- Deaktivieren Sie das Video vollständig, damit niemand Video verwenden kann.
+- Beschränken der Medienbitrate, die pro Benutzer festgelegt wird.
 
-Wenn Sie mehr über Ihre Optionen und dazu, welche Richtlinien Sie für Besprechungen und Videos einrichten sollten, erfahren möchten, schauen Sie sich [Einstellungen für Besprechungsrichtlinien in Microsoft Teams: Audio und Video](meeting-policies-audio-and-video.md) an.
+Weitere Richtlinien, die Sie für Besprechungen und Video festlegen sollten, finden Sie [in den Besprechungsrichtlinieneinstellungen in Teams: Audio und Video](meeting-policies-audio-and-video.md).
 
 #### <a name="screen-sharing-policies"></a>Bildschirmfreigaberichtlinien
 
-Darüber hinaus kann es vorkommen, dass Lehrkräfte ihren gesamten Bildschirm für die Schüler/Studenten freigeben, obwohl die Freigabe auf eine ganz bestimmte Anwendung beschränkt sein sollte, die für die zu unterrichtende Lektion relevant ist. Dies kann ebenfalls über eine Richtlinie festgelegt werden, wenn dies wünschenswerter ist, als dass die Lehrkräfte diese Entscheidung individuell treffen müssen.
+In Teams können Benutzer ihren gesamten Bildschirm oder einzelne Fenster freigeben.
 
-Einen guten Überblick darüber, was Sie tun können, um die Bildschirmfreigabe über Richtlinieneinstellungen einzuschränken, finden Sie unter [Einstellungen für Besprechungsrichtlinien in Microsoft Teams: Audio und Video](meeting-policies-audio-and-video.md).
+Die Freigabe eines gesamten Bildschirms verbraucht mehr Bandbreite als nur die Freigabe eines Fensters.
+
+- Einschränken der Freigabe des gesamten Bildschirms durch Benutzer über eine Richtlinie.
+- Weisen Sie Lehrkräfte an, nur Anwendungen und nicht den gesamten Bildschirm freizugeben.
+
+Erfahren Sie mehr über Bildschirmfreigaberichtlinien in den [Besprechungsrichtlinieneinstellungen in Teams: Audio und Video](meeting-policies-audio-and-video.md).
 
 #### <a name="dial-in-number-for-meetings"></a>Einwahlnummer für Besprechungen
 
-Es kann für einige Schüler/Studenten einfacher sein, zu versuchen, sich in einige Unterrichtssitzungen einzuwählen. Sie können eine Einwahlnummer für Teams-Besprechungen angeben, sodass Schüler/Studenten mit Problemen als Alternative zur Teilnahme an einer Videobesprechung stattdessen anrufen können.
+Es kann für einige Kursteilnehmer einfacher sein, sich in Kurssitzungen einzuwählen.
 
-Weitere Informationen hierzu finden Sie unter [Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
+- Stellen Sie als Alternative zur Teilnahme an einer Videobesprechung eine Einwahlnummer für Teams-Besprechungen bereit.
+
+Weitere Informationen finden Sie unter [Festlegen der Telefonnummern, die in Einladungen in Microsoft Teams enthalten sind](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 ## <a name="low-bandwidth-scenarios-as-an-educator"></a>Szenarien mit geringer Bandbreite für Lehrkräfte
 
-Lehrkräfte sollten sich in der Lage fühlen, Maßnahmen zur Lösung von Problemen aufgrund geringer Bandbreite zu ergreifen. In den folgenden Situationen kann dies eine bessere Wahl sein als das Eingreifen eines IT-Administrators:
+Lehrkräfte bei der Behandlung von Bandbreitenproblemen zu haben, ist in den folgenden Situationen möglicherweise eine bessere Wahl als IT-Maßnahmen:
 
-- Wenn das Problem zeitweilig oder relativ vorübergehend ist.
-- Wenn es eine bestimmte Tageszeit gibt, zu der man mit einem Problem rechnen kann, oder wenn der Zeitraum mit geringer Bandbreite einigermaßen vorhersehbar ist.
+- Das Problem ist intermittierend.
+- Es gibt eine bestimmte Tageszeit, zu der Sie davon ausgehen können, dass es ein Problem gibt.
 
-In diesen Fällen können Sie einige Maßnahmen ergreifen.
-
-Weitere Informationen finden Sie unter [Verwendung von Teams für Schularbeiten bei geringer Bandbreite](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262).
+Informationen zu den Schritten, die ein Dozent ausführen kann, um Bandbreitenprobleme zu beheben, finden [Sie unter Verwenden von Teams für Schularbeit, wenn die Bandbreite gering ist](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262).
 
 ## <a name="low-bandwidth-scenarios-as-a-parent-or-student"></a>Szenarien mit geringer Bandbreite für Eltern oder Schüler/Studenten
 
-Es gibt auch Situationen, und Sie sollten diese im Voraus mit Ihren Lehrkräften besprechen, in denen das Bandbreitenproblem auf der Seite der Schüler/Studenten liegen kann (z. B. kann es vorkommen, dass ein Großteil der Schüler/Studenten die Video-Lektionen ohne Probleme ansehen kann, aber eine kleine Anzahl von Schülern/Studenten dabei Schwierigkeiten hat).
+Manchmal liegt das Bandbreitenproblem auf der Seite eines Schülers.
 
-Es ist unrealistisch zu erwarten, dass viele Eltern in der Lage sind, solche Probleme zu lösen. Probleme aufgrund niedriger Bandbreite können außerhalb der Kontrolle eines Schülers/Studenten oder Elternteils liegen (ihr Zuhause hat vielleicht keinen Zugang zu hoher Bandbreite, in ihrer unmittelbaren Umgebung könnte es viele Menschen geben, die Bandbreite verbrauchen und somit beeinflussen, was sie tun können, die Internetverbindung könnte instabil sein usw.).
+- Ihr Zuhause hat möglicherweise keinen Zugriff auf hohe Bandbreite.
+- Möglicherweise verbrauchen viele Personen in ihrem unmittelbaren Bereich auch Bandbreite.
+- Möglicherweise gibt es internetinterne Instabilität.
 
-Wir haben in unserem Artikel [Verwendung von Teams für Schularbeiten bei geringer Bandbreite](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) einige Hinweise für Eltern und Schüler/Studenten zusammengestellt. Sie können diese Empfehlungen durchgehen und ausprobieren, wenn Sie Probleme haben.
+Wir haben anleitungen in unserem [Use Teams for school work zusammengestellt, wenn die Bandbreite](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) für Eltern und Schüler gering ist.

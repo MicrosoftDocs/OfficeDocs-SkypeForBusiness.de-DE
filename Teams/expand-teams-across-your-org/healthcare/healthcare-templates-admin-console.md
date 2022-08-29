@@ -16,17 +16,18 @@ ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Erfahren Sie, wie Sie die Teamvorlagen für das Gesundheitswesen im Microsoft Teams Admin Center und mit Microsoft Graph verwalten und verwenden können, um schnell und einfach Teams für Ihre Gesundheitsorganisation zu erstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 015b752b6cfeeae64c7e4713059a7d7344b97dac
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271610"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396916"
 ---
 # <a name="use-healthcare-team-templates"></a>Verwenden der Teamvorlagen für das Gesundheitswesen
 

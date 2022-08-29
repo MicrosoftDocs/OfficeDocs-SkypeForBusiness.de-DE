@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
-ms.translationtype: HT
+ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952779"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397272"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -256,13 +256,15 @@ Es gibt zwei Orte, an denen Sie *Education Insights* steuern können. Beide Opti
 1. Wechseln Sie zu **Einstellungen** > **Education Insights verwalten**.
 1. Passen Sie die Umschaltfläche **Aktivitätsdaten für Insights sammeln** auf „Ein“ oder „Aus“ an.
 
-![Screenshot der Umschaltflächen im SDS Admin Center zum Deaktivieren und Aktivieren von Insights](media/manage-insights-toggles.png)
+![Screenshot der Umschalten im SDS Admin Center, um Insights zu deaktivieren und zu aktivieren.](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Aktivieren und Deaktivieren von Insights aus dem Teams-Client
 
 1. Wenn Sie die persönliche App von *Education Insights* nicht angeheftet haben, befolgen Sie [diese Anweisungen](class-insights.md#education-leaders), um sie hinzuzufügen.
 1. Öffnen Sie mit einem Microsoft 365-Administratorkonto die Seite **Administratoreinstellungen** mithilfe des Auslassungszeichens in der oberen rechten Ecke von *Education Insights*.
 1. Passen Sie die Umschaltfläche **Aktivitätsdaten für Insights sammeln** auf „Ein“ oder „Aus“ an.
+
+![Screenshot des Teams-Clients, um Insights zu deaktivieren und zu aktivieren.](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > Wenn Sie Insights deaktiviert haben, werden die gesammelten Daten gelöscht. Die bei der Abmeldung gelöschten Daten können später nicht wiederhergestellt werden, selbst wenn Insights wieder aktiviert wird.

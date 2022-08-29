@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Apps in den App Store Ihrer Organisation im Microsoft Teams Admin Center hochladen.
-ms.openlocfilehash: 52977d9663f5dbee915e2227075127fe1c6575ad
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d95635546da7337c9c18ee0fddf7b40a5bf061c3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299024"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397116"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen
 
@@ -55,23 +55,23 @@ Führen Sie die folgenden Schritte aus, um vertrauenswürdigen Benutzern das Hoc
 
 1. Aktivieren Sie die organisationsweit App-Einstellung **Zulassen der Interaktion mit benutzerdefinierten Apps**. Gehen Sie dazu so vor:
 
-    1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**, und klicken Sie dann **Organisationsweite App-Einstellungen** aus.
+    1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **"Teams-Apps** > **verwalten**", und wählen Sie dann **organisationsweite App-Einstellungen** aus.
 
-    1. Aktivieren Sie unter **Benutzerdefinierte Apps** die Option **Zulassen der Interaktion mit benutzerdefinierten Apps**, und klicken Sie dann auf **Speichern**.
+    1. Aktivieren Sie unter **"Benutzerdefinierte Apps**" die Option **"Interaktion mit benutzerdefinierten Apps zulassen**", und wählen Sie dann **"Speichern"** aus.
 
 1. Deaktivieren Sie die Einstellung **Benutzerdefinierte Apps hochladen** in der globalen App-Setuprichtlinie. Gehen Sie dazu so vor:
 
-    1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Teams-Apps** > **Setup-Richtlinien** und klicken Sie dann auf die Richtlinie **Global (Org-weiter Standard)**.
+    1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu den **Setuprichtlinien** für **Teams-Apps** > , und wählen Sie dann die **globale Richtlinie (organisationsweite Standardrichtlinie)** aus.
 
-    1. Deaktivieren Sie die Option **Benutzerdefinierte Apps hochladen**, und klicken Sie auf **Speichern**.
+    1. Deaktivieren Sie **"Benutzerdefinierte Apps hochladen**", und wählen Sie " **Speichern"** aus.
 
 1. Erstellen Sie eine neue App-Setuprichtlinie, die das Hochladen von benutzerdefinierten Apps erlaubt, und weisen Sie diese Ihren vertrauenswürdigen Benutzern zu. Gehen Sie dazu so vor:
 
-    1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers auf **Teams-Apps** > **Setuprichtlinien** und klicken Sie dann auf **Hinzufügen**. Geben Sie der neuen Richtlinie einen Namen und eine Beschreibung, aktivieren Sie die Option **Benutzerdefinierte Anwendungen hochladen**, und klicken Sie auf **Speichern**.
+    1. Wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu den **Setuprichtlinien** für **Teams-Apps** > , und wählen Sie dann "**Hinzufügen"** aus. Geben Sie der neuen Richtlinie einen Namen und eine Beschreibung, aktivieren **Sie "Benutzerdefinierte Apps hochladen**", und wählen Sie dann **"Speichern"** aus.
 
-    1. Wählen Sie die neue Richtlinie aus, die Sie erstellt haben, und klicken Sie dann auf **Benutzer verwalten**. Suchen Sie nach einem Benutzer, klicken Sie auf **Hinzufügen** und dann auf **Übernehmen**. Wiederholen Sie diesen Schritt, um die Richtlinie allen vertrauenswürdigen Benutzern zuzuweisen.
+    1. Wählen Sie die neue Richtlinie aus, die Sie erstellt haben, und wählen Sie dann **"Benutzer verwalten"** aus. Suchen Sie nach einem Benutzer, wählen Sie **"Hinzufügen"** und dann " **Übernehmen"** aus. Wiederholen Sie diesen Schritt, um die Richtlinie allen vertrauenswürdigen Benutzern zuzuweisen.
 
-       ![Screenshot der Seite "App-Setuprichtlinie hinzufügen"](media/manage-your-lob-apps-new-app-setup-policy.png)
+       :::image type="content" source="media/manage-your-lob-apps-new-app-setup-policy.png" alt-text="Screenshot der Seite &quot;App-Setuprichtlinie hinzufügen&quot;.":::
 
 Diese Benutzer können nun das App-Manifest hochladen, um zu überprüfen, ob die App im Produktionsmandanten ordnungsgemäß funktioniert.
 
@@ -80,9 +80,10 @@ Diese Benutzer können nun das App-Manifest hochladen, um zu überprüfen, ob di
 Um die App für Benutzer im App Store Ihrer Organisation verfügbar zu machen, laden Sie die App hoch.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)**.
-1. Wählen Sie **Hochladen** aus, klicken Sie auf **Hochladen**, wählen Sie das App-Paket aus, das Sie vom Entwickler erhalten haben, und wählen Sie **Öffnen** aus.
 
-   ![Screenshot: Hochladen einer App im Admin Center.](media/manage-your-lob-apps-upload-new-app.png)
+1. Wählen Sie **"Hochladen**", " **Hochladen**" und dann das App-Paket aus, das Sie vom Entwickler erhalten haben, und wählen Sie **"Öffnen**" aus.
+
+   ![Screenshot des Benutzerdefinierten App-Uploads im Admin Center.](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="set-up-and-manage"></a>Einrichten und Verwalten
 
@@ -92,7 +93,7 @@ Standardmäßig können alle Benutzer in Ihrer Organisation auf die App im App S
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Anheften und Installieren der App zum Ermitteln für Benutzer
 
-Standardmäßig müssen Benutzer, um die App zu finden, den App-Store Ihres Unternehmens aufrufen und dort nach ihr suchen oder suchen lassen. Um Benutzern den Zugriff auf die App zu erleichtern, können Sie die App an die App-Leiste in Teams anheften. Erstellen Sie hierzu eine App-Setuprichtlinie, und weisen Sie sie Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
+Standardmäßig müssen Benutzer, um die App zu finden, den App-Store Ihres Unternehmens aufrufen und dort nach ihr suchen oder suchen lassen. Um Benutzern den Zugriff auf die App zu erleichtern, können Sie die App an die App-Leiste in Teams anheften. Um die App anzuheften, erstellen Sie eine App-Setuprichtlinie, und weisen Sie sie Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Durchsuchen der Audit-Protokolle nach App-Ereignissen in Teams
 
@@ -108,24 +109,24 @@ Endbenutzer, die über Berechtigungen für die App verfügen, können sie im App
 
 Wenn Sie eine App-Setuprichtlinie erstellt und zugewiesen haben, wird die App an die App-Leiste in Teams angeheftet, damit die Benutzer, denen die Richtlinie zugewiesen wurde, leicht darauf zugreifen können.
 
-## <a name="update"></a>Aktualisieren
+## <a name="update-a-custom-app"></a>Aktualisieren einer benutzerdefinierten App
 
 Zum Aktualisieren einer App führen Entwickler die Schritte in den Abschnitten [App erstellen](#create-your-app) und [Überprüfen](#validate) aus.
 
-Sie können die App auf der Seite „Apps verwalten“ im Microsoft Teams Admin Center aktualisieren. Wechseln Sie dazu in der linken Navigation des Microsoft Teams Admin Centers auf **Teams Apps** > **Apps verwalten**. Klicken Sie auf den App-Namen und dann auf **Aktualisieren**. Dadurch wird die vorhandene App ersetzt, und alle Richtlinien für die App-Berechtigung und die App-Einrichtung bleiben für die aktualisierte App gültig.
+Sie können die App auf der Seite „Apps verwalten“ im Microsoft Teams Admin Center aktualisieren. Um die App zu aktualisieren, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu "Apps verwalten" von **Teams-Apps** > . wählen Sie den App-Namen und dann **"Aktualisieren"** aus. Durch das Aktualisieren der App wird die vorhandene App ersetzt, und alle App-Berechtigungsrichtlinien und App-Setuprichtlinien bleiben für die aktualisierte App erzwungen.
 
 ### <a name="end-user-update-experience"></a>Benutzeroberfläche für Endbenutzerupdates
 
 In den meisten Fällen wird die neue Version nach Abschluss einer App-Aktualisierung automatisch für Endbenutzer angezeigt. Weitere Informationen finden Sie unter [Benutzeroberfläche für Endbenutzerupdates](apps-update-experience.md).
 
-## <a name="remove"></a>Entfernen
+## <a name="remove-a-custom-app-from-your-organizations-store"></a>Entfernen einer benutzerdefinierten App aus dem Store Ihrer Organisation
 
 Gehen Sie folgendermaßen vor, um eine App zu entfernen:
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 1. Zugreifen auf die Seite **Teams-Apps** > **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Klicken Sie auf den Namen der Anwendung, um die Detailseite der Anwendung zu öffnen.
-1. Wählen Sie neben dem App-Banner **Aktionen** > **Löschen** aus.
+1. Wählen Sie neben dem App-Banner **"Aktionen löschen"** >  aus.
 1. Wählen Sie im Dialogfeld **Löschen** aus.
 
 ## <a name="related-articles"></a>Verwandte Artikel

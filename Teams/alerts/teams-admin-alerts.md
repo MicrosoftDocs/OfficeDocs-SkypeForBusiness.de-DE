@@ -16,12 +16,12 @@ description: Erfahren Sie mehr über die Teams-Benachrichtigungs- und Benachrich
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c4acbbb085bbf47339b0b0b2bcb7000466953b70
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 452bcbebeffa3936b9d05270626e11923caf5cda
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616291"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283086"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams-Überwachung und -Benachrichtigung
 
@@ -32,6 +32,9 @@ Ihre Organisation kann die Teams-Überwachung und -Benachrichtigung verwenden, u
 - Teams-Funktionen automatisch verwalten
 - Werden Sie benachrichtigt, wenn unerwartete Ereignisse angezeigt werden.
 - Führen Sie Korrekturmaßnahmen aus, um die Dinge wieder auf den richtigen Weg zu bringen.
+
+> [!NOTE]
+> Die Warnungsfunktion im Teams Admin Center ist in GCC/GCC-High-Umgebungen nicht verfügbar.
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>So wird's gemacht: Verwalten von Überwachung und Warnungen
 

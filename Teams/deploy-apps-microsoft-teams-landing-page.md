@@ -7,11 +7,11 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
+- m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298914"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397196"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Grundlegendes zu Microsoft Teams-Apps
 
@@ -73,13 +73,13 @@ Weitere Informationen finden Sie unter [Grundlegendes zu und Verwalten von benut
 
 ## <a name="about-app-templates"></a>Informationen zu App-Vorlagen
 
-App-Vorlagen für Teams sind funktionale und produktionsbereite Beispiel-Apps, die von Microsoft erstellt wurden, um Folgendes zu erreichen:
+Mithilfe der App-Entwicklungsmethoden erstellt und stellt Microsoft funktionsfähige und produktionsbereite Beispiel-Apps bereit. Zusammenfassend werden diese Apps als App-Vorlagen für Teams bezeichnet und stehen zur Verfügung:
 
-* Veranschaulichen der beliebten Anwendungsfälle.
-* Präsentieren bewährter Methoden für die App-Entwicklung.
-* Bereitstellen von Open Source-Apps, die Entwickler erweitern können, um benutzerdefinierte Apps zu erstellen.
+* Veranschaulichen Sie einige Anwendungsfälle für die Zusammenarbeit in Teams.
+* Präsentieren Sie bewährte Methoden und Methoden für die App-Entwicklung.
+* Stellen Sie Open-Source-Apps bereit, die Entwickler erweitern können, um ihre eigenen Apps zu erstellen.
 
-Die Entwickler Ihrer Organisation passen App-Vorlagen mit einfachen Änderungen am in GitHub verfügbaren Code an. Sie stellen diese Apps als benutzerdefinierte Apps für Ihre Endbenutzer bereit, um die Anforderungen ihrer Organisation zu erfüllen.
+Entwickler Ihrer Organisation passen App-Vorlagen mit einfachen Änderungen am bereitgestellten Quellcode an. Sie stellen diese Apps als benutzerdefinierte Apps für Ihre Endbenutzer bereit, um die Anforderungen ihrer Organisation zu erfüllen.
 
 Weitere Informationen finden Sie unter [Microsoft Teams-App-Vorlagen](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
@@ -167,3 +167,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## <a name="related-articles"></a>Verwandte Artikel
+
+* [Weitere Informationen zu App-Vorlagen für Teams](/microsoftteams/platform/samples/app-templates).

@@ -18,12 +18,12 @@ description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinien 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7c9855a56031d3eb22cdcbc1ac1b27dfa075db49
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268420"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418454"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Zuweisen von Richtlinien in Teams – erste Schritte
 
@@ -87,6 +87,9 @@ Führen Sie die folgenden Schritte aus, um die globalen (organisationsweiten Sta
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot der globalen Updaterichtlinie im Teams Admin Center." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> Nachdem Sie einen Richtlinienvorgang übermittelt haben, werden Sie zur Bestätigung mit einem Popupdialogfeld aufgefordert. Dazu gehören Richtlinienzuweisungen, das Ändern einer vorhandenen Richtlinie und das Erstellen neuer benutzerdefinierter Richtlinien. Sie müssen bestätigen, dass der Richtlinienvorgang gestartet werden soll, oder Sie können den Vorgang abbrechen und später zurückkehren.
+
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
 Verwenden Sie den globalen Bezeichner, um die globalen Richtlinien mithilfe von PowerShell festzulegen.  Überprüfen Sie zunächst die aktuelle globale Richtlinie, um zu bestimmen, welche Einstellung Sie ändern möchten.
@@ -148,6 +151,10 @@ So zeigen Sie Ihre Richtlinienvorgänge im Aktivitätsprotokoll an:
 
 > [!NOTE]
 > Sie können auch über die Seite **"Benutzer** " zum Aktivitätsprotokoll gelangen. Nachdem Sie " **Übernehmen"** ausgewählt haben, um eine Massenrichtlinienzuweisung zu übermitteln, wird oben auf der Seite ein Banner angezeigt. Wählen Sie im Banner den Link " **Aktivitätsprotokoll"** aus.
+
+Dieses Video zeigt die Schritte zum Anzeigen und Verwalten der zugewiesenen und effektiven Richtlinien für einen Benutzer.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
 
 ## <a name="related-topics"></a>Verwandte Themen
 

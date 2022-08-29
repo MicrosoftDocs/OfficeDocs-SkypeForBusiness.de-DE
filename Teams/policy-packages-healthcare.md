@@ -11,6 +11,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 f1.keywords: ''
@@ -21,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Erfahren Sie, wie Sie Team-Richtlinienpakete für Ihre Gesundheitsorganisation verwenden und verwalten.
-ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 29192cfeec6545cdbbb5528eeabc1298146e4577
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819420"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397256"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams Richtlinienpakete-Pakete für das Gesundheitswesen
 
@@ -101,7 +102,7 @@ Wenn einem Benutzer eine Richtlinie zugewiesen wurde und Sie ihm dann später ei
 
 #### <a name="assign-a-policy-package-to-a-group"></a>Ein Richtlinienpaket einer Gruppe zuweisen
 
-Mit der Zuweisung von Richtlinienpaketen zu Gruppen können Sie einer Gruppe von Benutzern mehrere Richtlinien zuweisen, z. B. eine Sicherheitsgruppe oder eine Verteilerliste. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert. Diese Methode wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, sie eignet sich aber auch für größere Gruppen.
+Mit der Zuweisung von Richtlinienpaketen zu Gruppen können Sie einer Gruppe von Benutzern mehrere Richtlinien zuweisen, z. B. eine Sicherheitsgruppe oder Verteilerliste. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert. Diese Methode wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, sie eignet sich aber auch für größere Gruppen.
 
 Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe zuweisen](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 

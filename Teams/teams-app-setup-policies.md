@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2788c1caeef3c6fcc1c0464c8e9289bcbd65508f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298874"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396696"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -41,7 +41,7 @@ Die folgenden integrierten App-Setuprichtlinien sind standardmäßig im Microsof
 
 ## <a name="pin-apps"></a>Apps anheften
 
-Durch das Anheften von Apps können Sie Apps hervorheben, die Benutzer in Ihrer Organisation am meisten benötigen. Das Anheften funktioniert für Apps aller Art in Microsoft Teams – Core-Apps, von Microsoft bereitgestellte Apps, Drittanbieter-Apps und benutzerdefinierte Apps, die in Ihrer Organisation entwickelt wurden. Wenn Sie eine App über eine App-Setuprichtlinie anheften, wird sie auch installiert, sofern die App für den Benutzer zulässig ist. Mithilfe einer App-Setuprichtlinie können Sie die folgenden Aufgaben ausführen:
+Durch das Anheften von Apps können Sie Apps hervorheben, die Benutzer in Ihrer Organisation am meisten benötigen. Das Anheften funktioniert für alle Arten von Apps in Teams – Core-Apps, von Microsoft bereitgestellte Apps, Drittanbieter-Apps und benutzerdefinierte Apps, die in Ihrer Organisation entwickelt wurden. Wenn Sie eine App über eine App-Setuprichtlinie anheften, wird sie auch installiert, sofern die App für den Benutzer zulässig ist. Mithilfe einer App-Setuprichtlinie können Sie die folgenden Aufgaben ausführen:
 
 * Passen Sie Microsoft Teams für Endbenutzer, um die wichtigsten Apps für sie hervorzuheben. Wählen Sie die Apps aus, die Sie anheften möchten, und legen Sie die Reihenfolge fest, in der sie angezeigt werden sollen.
 * Legen Sie fest, ob Benutzer Apps Teams anheften können oder nicht.
@@ -80,6 +80,9 @@ Führen Sie die folgenden Schritte aus, um Apps mithilfe einer App-Setuprichtlin
 1. Klicken Sie auf **Speichern**.
 
 > [!NOTE]
+> In Microsoft Teams für Education ist die Aufgaben-App standardmäßig in der globalen Richtlinie angeheftet, obwohl sie nicht in der globalen Richtlinie aufgeführt ist.
+
+> [!NOTE]
 > Für die Mitarbeiter in Service und Produktion in Ihrer Organisation empfehlen wir die Verwendung der maßgeschneiderten App-Umgebung für Service und Produktion. Dieses Feature heftet die relevantesten Apps in Microsoft Teams für Benutzer an, die über eine [F-Lizenz](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt) verfügen. Weitere Informationen finden Sie unter Passen Sie [Teams-Apps für Ihre Außendienstmitarbeiter an](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 ## <a name="install-apps"></a>Installieren von Apps
@@ -89,23 +92,18 @@ Mithilfe einer App-Setuprichtlinie können Administratoren die folgenden Aufgabe
 * Installieren von Apps für Endbenutzer in deren persönlicher Microsoft Teams-Umgebung.
 * Installieren von Apps für Endbenutzer als [Messaging-Erweiterungen](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-Die Endbenutzer können Apps selbst installieren, wenn die [App-Berechtigungsrichtlinie](teams-app-permission-policies.md) dies zulässt und die App selbst auf ihrem Mandanten zulässig ist.
+Die Endbenutzer können Apps eigenständig installieren, wenn sie die [App-Berechtigungsrichtlinie](teams-app-permission-policies.md) zulassen und die App vom Teams-Administrator zugelassen wird. Wenn eine App stattdessen für einen Benutzer oder eine Organisation blockiert wird, können Endbenutzer die [Administratorgenehmigung anfordern](manage-apps.md#manage-user-requests-to-allow-apps).
 
-Führen Sie die folgenden Schritte aus, um eine App-Setuprichtlinie zum Installieren von Apps zu erstellen:
+Führen Sie die folgenden Schritte aus, um Apps mithilfe einer App-Setuprichtlinie zu installieren:
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an, und greifen Sie auf **Microsoft Teams-Apps** > **[Setuprichtlinien](https://admin.teams.microsoft.com/policies/app-setup)** zu.
-
 1. Klicken Sie auf **Hinzufügen**.
-
 1. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
-
 1. Wählen Sie im Abschnitt **Installierte Apps** die Option **Apps hinzufügen** aus.
-
 1. Suchen Sie im Bereich **Installierte Apps hinzufügen** die Apps, die Sie für Benutzer installieren möchten. Sie können Apps auch nach App-Berechtigungsrichtlinien filtern.
-
 1. Klicken Sie auf **Hinzufügen**.
 
-:::image type="content" source="media/install-apps-in-meeting.png" alt-text="Installieren Sie die App-Richtlinie.":::
+:::image type="content" source="media/install-apps-in-meeting.png" alt-text="Screenshot der Installation von Apps über app-Richtlinie.":::
 
 ## <a name="manage-app-setup-policies"></a>Verwalten von Richtlinien für App-Setup in Teams
 
@@ -117,10 +115,9 @@ Sie bearbeiten die Einstellungen in der globalen Richtlinie, um die gewünschten
 
 ### <a name="edit-an-app-setup-policy"></a>Bearbeiten einer App-Setuprichtlinie
 
-Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu bearbeiten, einschließlich der globalen (organisationsweiten Standardrichtlinie) und benutzerdefinierten Richtlinien, die Sie erstellen.
+Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu bearbeiten, einschließlich der globalen (organisationsweiten Standardrichtlinie) und benutzerdefinierten Richtlinien, die Sie erstellen. Nach Bearbeiten oder Zuweisen einer Richtlinie kann es einige Stunden dauern, bis die Änderungen wirksam werden.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an, und greifen Sie auf **Microsoft Teams-Apps** > **[Setuprichtlinien](https://admin.teams.microsoft.com/policies/app-setup)** zu.
-
 1. Wählen Sie die Richtlinie aus, die Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
 1. Nehmen Sie die gewünschten Änderungen vor.
@@ -171,15 +168,15 @@ Die mobilen Microsoft Teams-Clients (iOS und Android) unterstützen persönliche
 
 Drittanbieter-Apps (die aus dem Teams Store heruntergeladen werden können) müssen genehmigt werden, bevor sie auf Mobilgeräten angezeigt werden. Wenn ein Administrator eine App anheftet, die von Microsoft für Mobile nicht genehmigt wurde, wird sie auf dem Microsoft Teams-Desktop angezeigt, aber nicht auf mobilen Geräten. Weitere Informationen finden Sie unter [Mobile Clients](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients).
 
-Mit den mobilen Clients von Teams sehen die Benutzer die wichtigsten Teams-Apps wie Aktivität, Chat und Teams, und Sie können von Microsoft bereitgestellte Apps anheften.
+Mit den mobilen Teams-Clients sehen Benutzer kernige Teams-Apps wie Aktivität, Chat und Teams, und Sie können einige der von Microsoft bereitgestellten Apps anheften.
 
-#### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Können Benutzer die Reihenfolge von über eine Richtlinie angehefteten Apps ändern?
+#### <a name="order-of-apps-pinned-through-a-policy"></a>Reihenfolge von Apps, die über eine Richtlinie angeheftet sind
 
 Benutzer können die Reihenfolge ihrer angehefteten Apps auf Microsoft Teams-Desktop- und mobilen Clients ändern, wenn die Option **Anheften durch Benutzer** aktiviert ist. Benutzer können die Reihenfolge ihrer angehefteten Apps auf Microsoft Teams-Webclients nicht ändern.
 
 #### <a name="does-user-pinning-take-precedence"></a>Hat das Anheften durch Benutzer Vorrang
 
-Von Administratoren angeheftete Apps haben immer Vorrang. Wenn die Option **Anheften durch Benutzer** aktiviert ist, bleiben die vom Benutzer angehefteten Apps unter den vom Administrator angehefteten Apps erhalten. Wenn die Option **Anheften durch Benutzer** deaktiviert ist, gehen die bereits vorhandenen angehefteten Apps der Benutzer verloren, und in der App-Leiste werden nur noch die von Administratoren angehefteten Apps angezeigt.
+Von Administratoren angeheftete Apps haben immer Vorrang. Wenn die Option zum **Anheften von** Benutzern aktiviert ist, werden von Benutzern angeheftete Apps unterhalb der von Administratoren angehefteten Apps angezeigt. Wenn die Option zum **Anheften von Benutzern** deaktiviert ist, verlieren Benutzer vorhandene Pins, und nur die von Administratoren angehefteten Apps sind in der App-Leiste verfügbar.
 
 ### <a name="custom-teams-apps"></a>Benutzerdefinierte Microsoft Teams-Apps
 

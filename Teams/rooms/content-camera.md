@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 ms.custom:
 - seo-marvel-mar2020
-description: Verwenden Sie eine Inhaltskamera in einem Microsoft Teams-Raum, der mit Bildverarbeitungssoftware interagiert, damit Referenten auf einem analogen Whiteboard zeichnen können.
-ms.openlocfilehash: 090a9bafb101805797afd61e014893c681b6032f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Verwenden Sie eine Inhaltskamera in Microsoft Teams-Räume, die mit Bildverarbeitungssoftware interagiert, damit Referenten auf einem analogen Whiteboard zeichnen können.
+ms.openlocfilehash: 08d360e62cd2d254f2c207e9b9eee9adea424c34
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270470"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396666"
 ---
 # <a name="content-cameras"></a>Inhaltskameras
 
-Sie können jetzt eine Inhaltskamera mit einem Microsoft Teams-Raumsystem verwenden. Eine Inhaltskamera interagiert mit spezieller Bildverarbeitungssoftware und einem Whiteboard, damit ein Referent auf einem analogen Whiteboard zeichnen und den Inhalt mit Remoteteilnehmern teilen kann.
+Sie können jetzt eine Inhaltskamera mit einem Microsoft Teams-Räume-System verwenden. Eine Inhaltskamera interagiert mit spezieller Bildverarbeitungssoftware und einem Whiteboard, damit ein Referent auf einem analogen Whiteboard zeichnen und den Inhalt mit Remoteteilnehmern teilen kann.
 
 Im folgenden Video finden Sie Beispiele für die Funktionen der Inhaltskamera.
 

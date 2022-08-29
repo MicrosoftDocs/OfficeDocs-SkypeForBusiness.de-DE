@@ -17,25 +17,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Teams-App Store Ihrer Organisation anpassen, indem Sie Logo, benutzerdefinierte Hintergründe und benutzerdefinierte Textfarben hinzufügen.
-ms.openlocfilehash: 01648e3c45540e5f9e7a0eb82921cf74937d9f62
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269070"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397036"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Anpassen des App Store Ihrer Organisation in Microsoft Teams
 
-Jetzt können Sie den App-Store Ihrer Organisation in Teams mit Ihrem Unternehmensbranding anpassen, indem Sie Ihr Logo, benutzerdefinierte Hintergründe und benutzerdefinierte Textfarben hinzufügen, um ihn für Endbenutzer einladender zu gestalten.
+Sie können den App-Store Ihrer Organisation an Ihr Unternehmensbranding anpassen. Sie können Ihr Logo, einen benutzerdefinierten Hintergrund und benutzerdefinierte Textfarben hinzufügen, um es für Endbenutzer einladender zu gestalten.
 
-> [!NOTE]
-> Es kann bis zu 24 Stunden dauern, bis Änderungen am Branding wirksam werden.
-
-Sie können auf den benutzerdefinierten Store im Admin Center zugreifen, indem Sie **Teams-Apps** > **Store anpassen** auswählen.
-
-  ![Verwaltungskonsole mit hervorgehobenem Feature „Store anpassen“.](media/customize-app-store.png)
-
-In diesem Artikel werden die Features des Store für benutzerdefinierte Apps und deren Verwendung beschrieben.
+Sie können auf den angepassten Store im Teams Admin Center zugreifen, indem Sie den Store für **Teams-Apps** > **[anpassen](https://admin.teams.microsoft.com/policies/customize-appstore)** auswählen. Folgen Sie den nachstehenden Anweisungen für die Details der Änderungen.
 
 ## <a name="customize-your-organization-logo"></a>Anpassen Ihres Organisationslogos
 
@@ -87,14 +80,14 @@ Sorgen Sie für einen ausreichenden Kontrast zwischen der Textfarbe und dem Hint
 
 Wenn Sie **Wählen Sie eine benutzerdefinierte Farbe** auswählen, wird eine Farbauswahl geöffnet. Wählen Sie die von Ihnen gewünschte Farbe aus, indem Sie die Skala der Farbauswahl anpassen.
 
- ![die Farbauswahl.](media/choose-a-custom-color.png)
+:::image type="content" source="media/choose-a-custom-color.png" alt-text="Screenshot des Dialogfelds zum Auswählen einer Farbe.":::
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>Abschließen der Anpassung Ihres Team-Apps-Stores
 
 Wenn Sie die Anpassung Ihres App Store abgeschlossen haben, stellen Sie sicher, dass Sie **Speichern** auswählen, um Ihre Änderungen zu speichern.
 Um eine Vorschau Ihrer Änderungen anzuzeigen, wählen Sie **Vorschau des Apps-Store** aus, um eine Darstellung Ihres benutzerdefinierten Apps-Store anzuzeigen.
 
-![Vorschau des Store für benutzerdefinierte Apps.](media/PowerAppsInStore650w.png)
+:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="Screenshot eines Beispiels für einen benutzerdefinierten App-Store.":::
 
 > [!NOTE]
 > Die Darstellung kann von der endgültigen Version Ihres benutzerdefinierten Apps-Store abweichen, da einige Standardfarben auf der Version des Teams-Clients Ihrer Benutzer basieren.

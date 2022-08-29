@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams verwenden und verwalten können.
-ms.openlocfilehash: 55d1956b1f112e0f1685ac6c4126f564cf40bdb1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 767773d8c7f91bb290332fbd0976fb638edb2b8b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272260"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397226"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Freigegebene Kanäle in Microsoft Teams
 
@@ -70,6 +70,9 @@ Wenn ein Team archiviert wird, bleibt die individuelle Freigabe intakt, aber die
 Der Besitzer eines freigegebenen Kanals kann nicht über den Teams-Client entfernt werden, wenn er der letzte Besitzer eines oder mehrerer freigegebener Kanäle ist.
 
 Wenn der letzte Besitzer des freigegebenen Kanals Ihre Organisation verlässt oder aus der dem Team zugeordneten Microsoft 365-Gruppe entfernt wird, wird ein Mitglied des freigegebenen Kanals automatisch zum Besitzer des freigegebenen Kanals befördert. Erwägen Sie, mehr als einen Besitzer hinzuzufügen, um diese Situation zu vermeiden.
+
+> [!NOTE]
+> Externe Teilnehmer müssen über ihren UPN anstelle ihrer E-Mail-Adresse hinzugefügt werden, wenn die beiden in Azure Active Directory nicht übereinstimmen.
 
 ## <a name="channel-owner-settings"></a>Einstellungen des Kanalbesitzers
 
@@ -154,7 +157,7 @@ Es gelten die folgenden Einschränkungen:
 
 - Freigegebene Kanäle unterstützen Registerkarten mit Ausnahme von Stream, Planner und Forms.
 
-- Branchen-Apps, Bots, Connectors und Nachrichtenerweiterungen werden nicht unterstützt.
+- Bots, Connectors und Nachrichtenerweiterungen werden nicht unterstützt.
 
 - Wenn Sie ein Team aus einem bestehenden Team erstellen, werden freigegebene Kanäle des bestehenden Teams nicht übernommen.
 

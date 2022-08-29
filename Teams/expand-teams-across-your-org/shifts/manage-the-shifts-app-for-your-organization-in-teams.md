@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269010"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405137"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -90,6 +91,17 @@ Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams ist eine Sammlu
 
 Es wird empfohlen, die Richtlinienpakete "Mitarbeiter in Service und Produktion" zu verwenden, da sie die Verwaltung von Richtlinien für Ihre Mitarbeiter in Service und Produktion vereinfachen, rationalisieren und für Konsistenz sorgen.
 
+### <a name="enable-shift-based-tags-in-teams"></a>Aktivieren von schichtbasierten Tags in Teams
+
+[MitHilfe von Tags](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) in Teams können Benutzer ganz einfach eine Verbindung mit einer Teilmenge von Personen in einem Team herstellen. Bei schichtbasierten Tags werden Personen automatisch Tags zugewiesen, die ihrem Zeitplan- und Schichtgruppennamen in Schichten entsprechen. Das Tag kann in @mentions in der **An-Zeile** in einem Chat oder in einem Beitrag in einem beliebigen Standardkanal des Teams verwendet werden.
+
+Mit schichtbasierten Tags können Ihre Benutzer Personen erreichen, die in Echtzeit im Schichtbetrieb sind. Benachrichtigungen werden nur an personen gesendet, die zu dem Zeitpunkt, zu dem das Tag in einem Chat- oder Kanalbeitrag verwendet wird, im Schichtbetrieb sind. Zum Beispiel: 
+
+- Ein Store-Manager verwendet das tag @Cashiers, um eine Ankündigung in einem Kanal für alle Kassierer im Schichtbetrieb zu posten.
+- Eine Krankenschwester verwendet das tag @CardiologistsOnCall, um einen Chat mit allen Bereitschaftskardiologen zu beginnen.
+
+Sie können das Feature im Microsoft Teams Admin Center aktivieren oder deaktivieren. Weitere Informationen hierzu finden Sie unter [Verwalten von Tags in Teams](../../manage-tags.md).
+
 ## <a name="search-the-audit-log-for-shifts-events"></a>Durchsuchen Sie das Überwachungsprotokoll nach Schichtereignissen
 
 **(In der Vorschau)**
@@ -104,4 +116,4 @@ Damit Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst im 
 - [Häufig gestellte Fragen zu Schichten von Daten](shifts-data-faq.md)
 - [Schichtenverbinder](/microsoft-365/frontline/shifts-connectors)
 - [Schichthilfe für Mitarbeiter in Service und Produktion](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](../../policy-assignment-overview.md)
+- [Zuweisen von Richtlinien zu Benutzern in Teams](../../policy-assignment-overview.md)

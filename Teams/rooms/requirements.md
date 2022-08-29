@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Erfahren Sie mehr über die Anforderungen für die Unterstützung von Microsoft Teams-Räume, einschließlich der Auswahl des entsprechenden Geräts, Mikrofons, Lautsprechern, Kameras und Displays.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a6d04787c05642dd329626bab605566d90ffc12
-ms.sourcegitcommit: 976d49c8c1104282c205ac533ed10450a5371950
+ms.openlocfilehash: 84566f8dea2f687d2981d56c837bb0d92241d254
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67304084"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418474"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -219,12 +219,14 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Shure MXA 710 2ft Tisch Linear Array Mikrofon](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C-Deckenlautsprecher](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C-Lautsprecher: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C-Deckenlautsprecher](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C-Lautsprecher: 1.1.1 |
 |[Shure MXA 910 mit Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Raumsoftware](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Raum software: 3.0.4.14 </br> Shure MXA 910 mit Intellimix Ceiling Array Mikrofon: 4.4.11 </br> Shure MXN5-C Lautsprecher: 1.2.1 </br> Crestron UC-C100-T mit ASUS Tek Computer INC 9934 Compute | 
-|[Shure MXA 910 mit Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Raumsoftware](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Raum software: 3.2.0.52 </br> Shure MXA 910 mit Intellimix Ceiling Array Mikrofon: 4.4.11 </br> Shure MXN5-C Lautsprecher: 1.2.1 </br> Lenovo ThinkSmart Core: Windows IoT 19h2/20h2 Betriebssystemversion |
+|[Shure MXA 910 mit Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Raumsoftware](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Raum software: 3.2.0.52 </br> Shure MXA 910 mit Intellimix Ceiling Array Mikrofon: 4.4.11 </br> Shure MXN5-C Lautsprecher: 1.2.1 |
+|[Shure MXA 910 mit Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Raumsoftware](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optiplex 7080 | Shure Intellimix Raum software: 3.2.0.52 </br> Shure MXA 910 mit Intellimix Ceiling Array Mikrofon: 4.4.11 </br> Shure MXN5-C Lautsprecher: 1.2.1 |
 |[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect 2-Deckenmikrofon](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Biamp Parlé TCM-XA Deckenmikrofon](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Biamp Desono C-IC6 Deckenlautsprecher](https://www.biamp.com/products/tesira-speakers)| Audio FW-Version: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Ex-UBT]() |Audio FW-Version: 3.15|
-|Biamp Tesira FORTE X Serie +</br>[Devio SCX-Serie](https://www.biamp.com/products/product-families/devio/medium-large-room-solutions#devio-scx-400)|Tesira FORTE X Serie: 4.2.5 </br> Devio SCX Serie: 4.2.5|
+|[Biamp Devio SCX Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Biamp Parlé TCM-XA Deckenmikrofon](https://www.biamp.com/products/product-families/parle/parle-microphones) + </br> [Biamp Desono C-IC6 Deckenlautsprecher](https://www.biamp.com/products/tesira-speakers) | Devio SCX Serie: 4.2.5 |
+|[Biamp Tesira Forte X Series Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Biamp Parlé TCM-XA Deckenmikrofon](https://www.biamp.com/products/product-families/parle/parle-microphones) + </br> [Biamp Desono C-IC6 Deckenlautsprecher](https://www.biamp.com/products/tesira-speakers) | Tesira FORTE X Serie: 4.2.5 |
 |[ControlSpace EX-440C DSP von Bose + </br>P2600A AmpLink-Verstärker von Bose +</br> TCC2-Deckenmikrofon von Sennheiser + </br> EdgeMax EM180-Deckenlautsprecher von Bose ](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Verstärker + Sennheiser TCC2 Deckenmikrofon + </br> Bose DesignMax DM2C-P Deckenlautsprecher](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Verstärker +</br> [Sennheiser TCC2 Deckenmikrofon](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Deckenlautsprecher](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  | 
