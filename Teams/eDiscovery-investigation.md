@@ -16,12 +16,12 @@ description: Erfahren Sie, was Sie tun müssen, wenn Sie eDiscovery durchführen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28605ac0f691083151fbb84c73c2ffcfa92ca3b4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c77cb7cda26b6061ee1e4fce05bf5ff326b7116b
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269060"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283116"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -35,25 +35,24 @@ eDiscovery von Nachrichten und Dateien in [privaten Kanälen](private-channels.m
 
 Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die Inhaltstypen aufgeführt, nach denen Sie mithilfe von Microsoft eDiscovery-Tools suchen können:
 
-|Inhaltstyp|eDiscoverable|Hinweise|
-|---|---|---|
-|Audioaufzeichnungen|Ja||
-|Karteninhalt|Ja|Weitere Informationen finden [Sie unter "Nach Karteninhalt suchen](#search-for-card-content) ".|
-|Chatlinks|Ja||
-|Chatnachrichten|Ja|Dazu gehören Inhalte in standardmäßigen Teams-Kanälen, 1:1-Chats, 1:N-Gruppenchats und Chats mit Gastbenutzerteilnehmern.|
-|Codeausschnitte|Nein||
-|Bearbeitete Nachrichten|Ja|Wenn sich der Benutzer im Haltebereich befindet, bleiben auch frühere Versionen bearbeiteter Nachrichten erhalten.|
-|Emojis, GIFs und Aufkleber|Ja||
-|Feedbenachrichtigungen|Nein||
-|Inlinebilder|Ja||
-|Schleifenkomponenten|Ja|Inhalt in einer Schleifenkomponente wird in einer FLUID-Datei gespeichert, die im OneDrive for Business Konto des Benutzers gespeichert wird, der die Schleifenkomponente sendet. Dies bedeutet, dass Sie OneDrive als Datenquelle bei der Suche nach Inhalten in Schleifenkomponenten einschließen müssen.|
-|Chatunterhaltungen für Besprechungen|Ja||
-|Besprechungsmetadaten<sup>1</sup>|Ja||
-|Name des Kanals|Ja||
-|Zitate|Ja|Zitierte Inhalte können durchsucht werden. Die Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde.|
-|Reaktionen (z. B. Likes, Herzen und andere Reaktionen)|Ja|Reaktionen werden nach dem 1. Juni 2022 für alle gewerblichen Kunden unterstützt. Reaktionen vor diesem Datum sind für eDiscovery nicht verfügbar. Government Cloud Support ist geplant. Es gibt keine gesetzliche Aufbewahrungspflicht für Reaktionen.|
-|Betreff|Ja||
-|Tabellen|Ja||
+|Inhaltstyp|Hinweise|
+|---|---|
+|Audioaufzeichnungen||
+|Karteninhalt|Weitere Informationen finden [Sie unter "Nach Karteninhalt suchen](#search-for-card-content) ".|
+|Chatlinks||
+|Chatnachrichten|Dazu gehören Inhalte in standardmäßigen Teams-Kanälen, 1:1-Chats, 1:N-Gruppenchats und Chats mit Gastbenutzerteilnehmern.|
+|Codeausschnitte||
+|Bearbeitete Nachrichten|Wenn sich der Benutzer im Haltebereich befindet, bleiben auch frühere Versionen bearbeiteter Nachrichten erhalten.|
+|Emojis, GIFs und Aufkleber||
+|Inlinebilder||
+|Schleifenkomponenten|Inhalt in einer Schleifenkomponente wird in einer FLUID-Datei gespeichert, die im OneDrive for Business Konto des Benutzers gespeichert wird, der die Schleifenkomponente sendet. Dies bedeutet, dass Sie OneDrive als Datenquelle bei der Suche nach Inhalten in Schleifenkomponenten einschließen müssen.|
+|Chatunterhaltungen für Besprechungen||
+|Besprechungsmetadaten<sup>1</sup>||
+|Name des Kanals||
+|Zitate|Zitierte Inhalte können durchsucht werden. Die Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde.|
+|Reaktionen (z. B. Likes, Herzen und andere Reaktionen)|Reaktionen werden nach dem 1. Juni 2022 für alle gewerblichen Kunden unterstützt. Reaktionen vor diesem Datum sind für eDiscovery nicht verfügbar. Government Cloud Support ist geplant. Es gibt keine gesetzliche Aufbewahrungspflicht für Reaktionen.|
+|Betreff||
+|Tabellen||
 
 <sup>1</sup> Besprechungs- (und Anruf)-Metadaten umfassen Folgendes:
 

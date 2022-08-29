@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefonzentralen in Microsoft Teams einrichten und verwalten.
-ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 913ac62ceb251f166852ec8c6d5ba84b7c0777ea
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176099"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443402"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -46,6 +46,15 @@ Automatische Telefonzentralen können Anrufe basierend auf der Eingabe der Anruf
 
 > [!NOTE]
 > Beim Umleiten von Anrufen an eine **Person in der Organisation** muss diese Person sprachfähig sein. Ausführliche Informationen zum Aktivieren von VoIP finden [Sie unter Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+>
+> Während das Definieren eines **Operators** optional ist, wird dies empfohlen.  Automatische Telefonzentralen leiten Anrufe an den Operator um, wenn der Anrufer keine Auswahl in Menüs vornimmt, wiederholt ungültige Optionen auswählt oder Anrufe nach Name oder Nummer wiederholt fehlschlagen.  Wenn kein Operator definiert ist, nimmt die automatische Telefonzentrale den Anruf ab.
+
+## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Neuigkeiten für automatische Telefonzentralen in den letzten 6 Monaten
+ 
+ - August : **Die Menüoptionen "Wiedergabe"** in "Anruffluss", "Anruffluss nach Feierabend" und "Anruffluss während der Feiertage" unterstützen \* jetzt die Tasten "Sternchen" und \# "(Raute)".
+ - Juli – Der Anruffluss während der Feiertage unterstützt jetzt **die Menüoptionen "Wiedergeben"**.
+ 
+## <a name="steps-to-create-an-auto-attendant"></a>Schritte zum Erstellen einer automatischen Telefonzentrale
 
 Die Schritte zum Hinzufügen einer automatischen Telefonzentrale sind:
 
@@ -99,10 +108,9 @@ Nachdem Sie die allgemeinen Informationen ihrer automatischen Telefonzentrale fe
 
 #### <a name="play-menu-options"></a>Menüoptionen "Wiedergeben"
 
-Weisen Sie für Wähloptionen die 0-9-Tasten auf der Wähltastatur des Telefons einem der Anrufweiterleitungsziele zu. Die Tasten \* (Sternchen) und \# (Pfund) werden vom System reserviert und können nicht neu zugewiesen werden. Wenn Sie eine dieser Tasten drücken, wird das aktuelle Menü wiederholt.
+*Neu - \* (Sternchen) und \# (Pfund) Tasten können jetzt in Menüoptionen verwendet werden.*
 
-> [!NOTE]
-> Die Taste "#" sichert nur die letzte automatische Telefonzentrale. Sobald die Grenze zu einer neuen automatischen Telefonzentrale überschritten wurde, können Sie mit der #-Taste nicht mehr zur vorherigen Telefonzentrale gelangen.
+Weisen Sie für Wähloptionen die Tasten 0-9 , \* (Sternchen) und \# (Raute) auf der Wähltastatur des Telefons einem der Ziele für die Anrufweiterleitung zu. 
 
 Schlüsselzuordnungen müssen nicht fortlaufend sein. Es ist möglich, ein Menü mit den Tasten 0, 1 und 3 zu den Optionen zu erstellen, während die Taste 2 nicht verwendet wird.
 
@@ -159,6 +167,8 @@ Nachdem Sie den Anruffluss nach Feierabend hinzugefügt haben, wählen Sie **"We
 
 Ihre automatische Telefonzentrale kann für jeden [von Ihnen eingerichteten Feiertag](set-up-holidays-in-teams.md) einen Anruffluss haben. Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
+*Neu : **Die Menüoptionen "Wiedergabe"** sind jetzt in den Anrufflüssen "Feiertage" verfügbar.*
+
 1. Wählen Sie auf der Seite "Anrufeinstellungen für Feiertage" die Option **"Hinzufügen"** aus.
 
 1. Geben Sie einen Namen für diese Feiertagseinstellung ein.
@@ -167,7 +177,7 @@ Ihre automatische Telefonzentrale kann für jeden [von Ihnen eingerichteten Feie
 
 1. Wählen Sie die Art der Begrüßung aus, die Sie verwenden möchten.
 
-1. Wählen Sie aus, ob Sie den Anruf **trennen** oder **umleiten** möchten.
+1. Wählen Sie aus, ob Sie die Menüoptionen **"Trennen"**, **"Umleiten** " oder " **Wiedergeben** " auswählen möchten.
 
     1. Wenn Sie sich für die Umleitung entschieden haben, wählen Sie das Anrufweiterleitungsziel für den Anruf aus.
     1. Wenn Sie Menüoptionen wiedergeben möchten, konfigurieren Sie die **Menüoptionen "Wiedergeben"**.

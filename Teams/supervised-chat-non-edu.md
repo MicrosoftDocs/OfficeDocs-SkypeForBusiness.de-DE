@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über überwachte Chats für Nicht-Bildungsmandanten in Microsoft Teams-Besprechungen.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 8b587dbc7537c612d2b48f5b202cd94e55e4d8f6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6f499845f77ededf47fa907961624081197b65b1
+ms.sourcegitcommit: 2d873e774c1a1182326e22e5de6ee5df4d50f41e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270460"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "67446768"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Überwachte Chats für Nicht-Bildungsmandanten
 
@@ -56,7 +56,7 @@ Rollen können Gästen in Ihrem Mandanten nicht zugewiesen werden. Gästen wird 
 
 ## <a name="allow-supervised-chat"></a>Beaufsichtigten Chat zulassen
 
-Der überwachte Chat ist für Ihren Mandanten standardmäßig deaktiviert. Nachdem Sie Chatberechtigungsrollen für Ihre Benutzer festgelegt haben, können Sie den überwachten Chat in Ihrem Mandanten aktivieren, indem Sie zu **organisationsweiten Einstellungen von Teams-Einstellungen** \> wechseln und die Richtlinien für **rollenbasierte Chatberechtigungen** auf **"Ein**" festlegen. Sie können powerShell auch verwenden, um den überwachten Chat zu aktivieren, indem Sie AllowRoleBasedChatPermissions auf "True" festlegen. Dieses Cmdlet befindet sich unter ["CsTeamsClientConfiguration"](/powershell/module/skype/set-csteamsclientconfiguration).
+Der überwachte Chat ist für Ihren Mandanten standardmäßig deaktiviert. Nachdem Sie Chatberechtigungsrollen für Ihre Benutzer festgelegt haben, können Sie den überwachten Chat in Ihrem Mandanten aktivieren, indem Sie zu **Teams** \> **Teams-Einstellungen** wechseln und die Richtlinien für **rollenbasierte Chatberechtigungen** auf **"Ein**" festlegen. Sie können powerShell auch verwenden, um den überwachten Chat zu aktivieren, indem Sie AllowRoleBasedChatPermissions auf "True" festlegen. Dieses Cmdlet befindet sich unter ["CsTeamsClientConfiguration"](/powershell/module/skype/set-csteamsclientconfiguration).
 
 Der überwachte Chat muss für alle Benutzer im Mandanten aktiviert sein und kann nicht nur für einen Teil Ihrer Benutzer aktiviert werden.
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen in Microsoft Teams einrichten. Anrufwarteschleifen stellen eine Begrüßungsnachricht bereit, halten Musik, Anrufumleitung und andere Features bereit.
-ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f14c0644c7a4be2a63e74ae59705bb7e3bc0cb76
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616171"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443332"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -42,6 +42,14 @@ Für Anrufwarteschleifen gibt es die folgenden Optionen:
 - Optionen für das Vorgehen bei überzähligen Anrufen und Erreichen des Zeitlimits.
 
 Bevor Sie die Verfahren in diesem Artikel befolgen, müssen Sie sich mit ["Planen automatischer Telefonzentralen und Anrufwarteschleifen für Teams"](plan-auto-attendant-call-queue.md) vertraut machen und die [ersten Schritte](plan-auto-attendant-call-queue.md#getting-started) ausgeführt haben.
+
+## <a name="whats-new-for-call-queues-in-the-past-6-months"></a>Neuigkeiten für Anrufwarteschleifen in den letzten 6 Monaten
+
+- August
+  - **Das Hinzufügen einer Begrüßungsnachricht** (Text to Speech, TTS) wird jetzt für die Hauptansage der Anrufwarteschleife unterstützt.
+  - **Steuerelemente für Voicemail-Systemnachrichten überspringen** werden jetzt beim Routing an freigegebene Voicemails verfügbar gemacht. Dies gilt auch für die **Aufforderung zum Hinzufügen einer Begrüßungsnachricht** .
+
+## <a name="steps-to-create-a-call-queue"></a>Schritte zum Erstellen einer Anrufwarteschleife
 
 Die Schritte zum Einrichten einer Anrufwarteschleife umfassen:
 
@@ -137,9 +145,13 @@ Nachdem Sie eine Sprache ausgewählt haben, wählen Sie unten auf der Seite "**A
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>Schritt 2: Hinzufügen einer Begrüßung und Wartemusik
 
+*Neu – **Das Hinzufügen einer Begrüßungsnachricht** (Text to Speech, TTS) wird jetzt für die Hauptansage der Anrufwarteschleife unterstützt.*
+
 Geben Sie an, ob Anrufern eine *Begrüßung* wiedergegeben werden soll, wenn sie in der Warteschleife ankommen.
 
-Wenn Sie **"Audiodatei wiedergeben**" auswählen, müssen Sie eine MP3-, WAV- oder WMA-Datei mit der Begrüßung hochladen, die Sie wiedergeben möchten. Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
+- Wenn Sie **"Audiodatei wiedergeben**" auswählen, müssen Sie eine MP3-, WAV- oder WMA-Datei mit der Begrüßung hochladen, die Sie wiedergeben möchten. Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
+
+- Wenn Sie " **Begrüßungsnachricht eingeben**" auswählen, liest das System den eingegebenen Text (bis zu 1000 Zeichen), wenn die Anrufwarteschleife einen Anruf annimmt.
 
 Teams bietet Anrufern Standardmusik, während sie *sich in einer Warteschleife befinden*.
 
@@ -299,14 +311,14 @@ Sie können wählen, **ob** Sie den Anruf trennen oder an eines der Anrufweiterl
 
 Beispielsweise könnte dem Anrufer die Möglichkeit gegeben werden, eine Voicemail für die Telefonberater in der Warteschleife zu hinterlassen.
 
+*Neu : Die Steuerelemente zum **Überspringen von Voicemail-Systemnachrichten** werden jetzt beim Weiterleiten an freigegebene Voicemail verfügbar gemacht, was auch für das **Hinzufügen von Aufforderungen zur Begrüßungsnachricht** gilt.*
+
 Informationen zu externen [Übertragungen finden Sie unter Voraussetzungen](./plan-auto-attendant-call-queue.md#prerequisites) und externe [Telefonnummernübertragungen – technische Details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) zur Nummernformatierung.
 
 > [!NOTE]
 > Wenn die maximale Anzahl von Anrufen auf 0 festgelegt ist, wird die Begrüßungsnachricht nicht wiedergegeben.
->
-> Stellen Sie bei der Umleitung zu freigegebenen Voicemails sicher, dass **Personen außerhalb dieser Organisation dieses Team per E-Mail senden** können, für das Team/die Gruppe im Microsoft 365 Admin Center aktiviert ist.
 
-Nachdem Sie Ihre Timeoutoptionen für Anrufe ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Weiter**" aus.
+Nachdem Sie die Optionen für die Anrufüberlaufbehandlung ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Weiter**" aus.
 
 # <a name="step-6-call-timeout"></a>[Schritt 6: Timeout für Anrufe](#tab/call-timeout)
 
@@ -320,12 +332,11 @@ Sie können den Anruf **trennen** oder an eines der Ziele für die Anrufweiterle
 
 Beispielsweise könnte dem Anrufer die Möglichkeit gegeben werden, eine Voicemail für die Telefonberater in der Warteschleife zu hinterlassen.
 
+*Neu : Die Steuerelemente zum **Überspringen von Voicemail-Systemnachrichten** werden jetzt beim Weiterleiten an freigegebene Voicemail verfügbar gemacht, was auch für das **Hinzufügen von Aufforderungen zur Begrüßungsnachricht** gilt.*
+
 Informationen zu externen [Übertragungen finden Sie unter Voraussetzungen](./plan-auto-attendant-call-queue.md#prerequisites) und externe [Telefonnummernübertragungen – technische Details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) zur Nummernformatierung.
 
-> [!NOTE]
-> Stellen Sie bei der Umleitung zu freigegebenen Voicemails sicher, dass **Personen außerhalb dieser Organisation dieses Team per E-Mail senden** können, für das Team/die Gruppe im Microsoft 365 Admin Center aktiviert ist.
-
-Nachdem Sie die Optionen für die Anrufweiterleitung des Agents ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Absenden**" aus.
+Nachdem Sie die Optionen für die Behandlung von Anruftimeouts ausgewählt haben, wählen Sie unten auf der Seite "**Anrufwarteschleife hinzufügen**" die Schaltfläche "**Absenden**" aus.
 
 ---
 
@@ -408,7 +419,7 @@ Als Administrator können Sie mit dem folgenden Diagnosetool überprüfen, ob ei
    > [!div class="nextstepaction"]
    > [Ausführen von Tests: Teams-Anrufwarteschleife](https://aka.ms/TeamsCallQueueDiag)
 
-2. Geben Sie im Diagnosebereich "Ausführen" das Ressourcenkonto in das Feld **"Benutzername" oder "E-Mail** " ein, und wählen Sie dann **"Tests ausführen**" aus.
+2. Geben Sie im Diagnosebereich "Ausführen" das Ressourcenkonto in das Feld **"Benutzername" oder "Email**" ein, und wählen Sie dann "**Tests ausführen**" aus.
 
 3. Die Tests geben die besten nächsten Schritte zurück, um alle Mandanten-, Richtlinien- und Ressourcenkontokonfigurationen zu adressieren, um zu überprüfen, ob die Anrufwarteschleife In der Lage ist, Anrufe zu empfangen.
 

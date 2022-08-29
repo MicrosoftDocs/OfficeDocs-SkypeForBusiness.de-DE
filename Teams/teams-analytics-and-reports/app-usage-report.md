@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie den Microsoft Teams-App-Nutzungsbericht im Mi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9dadab5ee29a15e939a120cddcd3e889d524d88
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 745761b80bd2507a31cb76cdadc015eac8e9f7fd
+ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156723"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "67313927"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams-App-Nutzungsbericht
 
@@ -46,9 +46,7 @@ Der Microsoft Teams-App-Nutzungsbericht im Microsoft Teams Admin Center enthält
 
 Jeder Bericht hat ein Datum oben links, das anzeigt, wann der Bericht erstellt wurde. Berichte spiegeln in der Regel eine Wartezeit von 24 Stunden ab dem Zeitpunkt des Öffnens einer App wider.
 
-Die Y-Achse im Diagramm ist die Anzahl der Benutzer, die für das Datum, das Sie durch Bewegen des Mauszeigers auf das Diagramm ausgewählt haben, als aktive Benutzer gelten. Benutzer, die eine App mindestens einmal öffnen, werden als aktive Benutzer betrachtet.
-
-Die X-Achse im Diagramm ist der Datumsbereich, den Sie für den Bericht ausgewählt haben.
+Admin Mitte stellt ein Diagramm der aktiven Benutzer und der Datumsangaben bereit. Aktive Benutzer ist die Anzahl der Benutzer, die eine App mindestens einmal während des ausgewählten Zeitraums geöffnet haben.
 
 Zeigen Sie mit der Maus auf den Punkt (4), der die Nutzung einer App an einem beliebigen Datum darstellt, um die Gesamtzahl der aktiven Benutzer dieser App an diesem Datum anzuzeigen.
 

@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674227"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418514"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Verwalten externer Besprechungen und Chats in Microsoft Teams
 
@@ -274,6 +274,13 @@ Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool übe
 
 3. Die Tests geben die besten nächsten Schritte zurück, um alle Mandanten- oder Richtlinienkonfigurationen zu adressieren, die die Kommunikation mit dem Partnerbenutzer verhindern.
 
+## <a name="user-level-controls"></a>Steuerelemente auf Benutzerebene
+
+Wenn Benutzer 1:1-Chats von einer Person außerhalb der Organisation erhalten, erhalten sie eine Vollbildumgebung, in der sie auswählen können, ob sie eine **Vorschau** der Nachricht anzeigen, den Chat **annehmen** oder die Person **blockieren** können, die den Chat sendet.
+
+Das Blockieren externer Personen ist an mehreren Stellen in Teams verfügbar, einschließlich des Menüs "Mehr" (**...**) in der Chatliste und des Menüs "Mehr (**...**)" auf der Personenkarte. Benutzer können die Blockierung externer Personen auch über das Menü "Mehr" (**...**) in der Chatliste, das Menü "Mehr"(**...**) auf der Personenkarte oder über **"Einstellungen** > **blockierte Kontakte** > **Bearbeiten blockierter Kontakte"** aufheben. Das Blockieren ist vor oder nach dem Senden von Nachrichten verfügbar.
+
+Das Blockieren externer Personen verhindert das Senden von Nachrichten in 1:1-Chats, das Hinzufügen des Benutzers zu neuen Gruppenchats und das Anzeigen seiner Anwesenheit. Während Gruppenchat-Einladungen blockiert werden, können sich blockierte Benutzer in den gleichen Chats mit Benutzern befinden, die sie blockiert haben, entweder weil der Chat vor dem Block initiiert wurde oder die Gruppenchat-Einladung von einem anderen Mitglied gesendet wurde.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

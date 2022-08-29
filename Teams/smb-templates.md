@@ -1,5 +1,5 @@
 ---
-title: Teamvorlagen für kleine und mittelständische Unternehmen, die mit Microsoft Graph
+title: Teamvorlagen für kleine und mittelständische Unternehmen, die mit Microsoft Graph erstellt wurden
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -15,24 +15,27 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Verwenden Sie Microsoft Teams vordefinierten Vorlagen, die in Microsoft Graph integriert sind, um schnell und einfach Teams für kleine und mittelständische Unternehmen zu erstellen.
+description: Verwenden Sie vordefinierte Microsoft Teams-Vorlagen, die in Microsoft Graph integriert sind, um schnell und einfach Teams für kleine und mittelständische Unternehmen zu erstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5317b989bd7fe77f34743b6554cd356c226c2fa8
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 644d45660fba729991796f33e7210222832e0c0f
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646304"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278479"
 ---
-# <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>In Microsoft Graph für kleine und mittelständische Unternehmen integrierte Teamvorlagen
+# <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>In Microsoft Graph erstellte Teamvorlagen für kleine und mittelständische Unternehmen
 
 Mit Teamvorlagen in Microsoft Teams können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Teamstruktur aus Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
-Für kleine und mittelständische Unternehmen können Vorlagen besonders leistungsfähig sein, da sie Ihnen helfen, Teams schnell in Ihrer Organisation bereitzustellen. Vorlagen helfen benutzern auch, sich an der effektiven Verwendung von Teams zu orientieren. Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Organisation verantwortlich sind.
+Für kleine und mittelständische Unternehmen können Vorlagen besonders leistungsfähig sein, da sie Ihnen helfen, Teams schnell in Ihrer Organisation bereitzustellen. Vorlagen helfen Benutzern auch, sich an der effektiven Verwendung von Teams zu orientieren. Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Organisation verantwortlich sind.
 
 Wir bieten derzeit drei vorgefertigte Vorlagen für kleine und mittelständische Unternehmen an, die Sie für verschiedene Situationen verwenden können. Alle Vorlagen erstellen *private* Teams. Nachdem Sie die Teams erstellt haben und bereit für das Rollout in Ihrer Organisation sind, können Sie den Datenschutz entsprechend auf *"Organisationsweit* " oder " *Öffentlich*" festlegen.
 
-Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie [unter Erste Schritte mit Teamvorlagen mit Microsoft Graph](get-started-with-teams-templates.md).
+> [!NOTE]
+> Sie können Microsoft Graph auch verwenden, um eigene benutzerdefinierte Vorlagen zu erstellen. Weitere Informationen finden Sie unter [teamTemplate-Ressourcentyp](/graph/api/resources/teamtemplate).
+
+Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter ["Erste Schritte mit Teamvorlagen mit Microsoft Graph](get-started-with-teams-templates.md)".
 
 ## <a name="company-wide-template"></a>Company-Wide Vorlage
 
@@ -44,7 +47,7 @@ Die Company-Wide Vorlage dient der Kommunikation und Zusammenarbeit für das ges
 
 *Kanäle mit automatischer Favoritenliste 
 
-Um das Company-Wide-Team zu erstellen, indem Sie Standardeinstellungen aus der vordefinierten Vorlage verwenden, geben Sie die JSON-Darstellung des Teamobjekts im Anforderungstext an. Weitere Informationen zum Bereitstellen von Teamvorlagen finden Sie im [Microsoft Graph Artikel zum Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta).
+Um das Company-Wide-Team zu erstellen, indem Sie Standardeinstellungen aus der vordefinierten Vorlage verwenden, geben Sie die JSON-Darstellung des Teamobjekts im Anforderungstext an. Weitere Informationen zum Bereitstellen von Teamvorlagen finden Sie im [Microsoft Graph-Artikel zum Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta).
 
 #### <a name="request"></a>Anforderung 
 ```http 
@@ -68,7 +71,7 @@ Die Vorlage "Executive Team" ist ideal, um ein Team für Führungskräfte des Un
 
 *Kanäle mit automatischer Favoritenliste<br>
 
-Wenn Sie das Führungsteam erstellen möchten, indem Sie Standardeinstellungen aus der vordefinierten Vorlage verwenden, geben Sie die JSON-Darstellung des Teamobjekts im Anforderungstext an. Weitere Informationen zum Bereitstellen von Teamvorlagen finden Sie im [Microsoft Graph Artikel zum Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta).
+Wenn Sie das Führungsteam erstellen möchten, indem Sie Standardeinstellungen aus der vordefinierten Vorlage verwenden, geben Sie die JSON-Darstellung des Teamobjekts im Anforderungstext an. Weitere Informationen zum Bereitstellen von Teamvorlagen finden Sie im [Microsoft Graph-Artikel zum Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta).
 
 #### <a name="request"></a>Anforderung 
 ```http 
@@ -94,7 +97,7 @@ Wir stellen auch das folgende Skript für das Finanzteam bereit, das verwendet w
 
 *Kanäle mit automatischer Favoritenliste
 
-Um das Finanzteam zu erstellen, indem Sie Standardeinstellungen aus der vordefinierten Vorlage verwenden, geben Sie die JSON-Darstellung des Teamobjekts im Anforderungstext an. Weitere Informationen zum Bereitstellen von Teamvorlagen finden Sie im [Microsoft Graph Artikel zum Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta).
+Um das Finanzteam zu erstellen, indem Sie Standardeinstellungen aus der vordefinierten Vorlage verwenden, geben Sie die JSON-Darstellung des Teamobjekts im Anforderungstext an. Weitere Informationen zum Bereitstellen von Teamvorlagen finden Sie im [Microsoft Graph-Artikel zum Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta).
 
 #### <a name="request"></a>Anforderung 
 ```http 

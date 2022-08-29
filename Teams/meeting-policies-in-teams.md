@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen von Besprechungsrichtlinien in Teams verwalten. Steuern Sie über die Richtlinieneinstellungen die Features, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
-ms.translationtype: HT
+ms.openlocfilehash: 1b5b173253ee457a6d966f9310987168d62a5299
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605241"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418494"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -323,7 +323,7 @@ Wenn Sie Besprechungen mit höchster Videoqualität, z. B. Vorstandssitzungen od
 
 - [Bildschirmübertragungsmodus](#screen-sharing-mode)
 - [Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert](#allow-a-participant-to-give-or-request-control)
-- [Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert](#allow-an-external-participant-to-give-or-request-control)
+- [Externe Teilnehmer können die Steuerung übergeben oder anfordern](#external-participants-can-give-or-request-control)
 - [Teilen von PowerPoint zulassen](#allow-powerpoint-sharing)
 - [Whiteboard zulassen](#allow-whiteboard)
 - [Geteilte Notizen zulassen](#allow-shared-notes)
@@ -333,7 +333,7 @@ Wenn Sie Besprechungen mit höchster Videoqualität, z. B. Vorstandssitzungen od
 > [!NOTE]
 > Dieses Feature befindet sich noch in der Entwicklung. Bei der Bildschirmfreigabe handelt es sich um eine teilnehmerspezifische Richtlinie, auf die sich jedoch die Bildschirmfreigabeeinstellungen des Organisators auswirken können, wie in diesem Abschnitt beschrieben.
 
-Über diese Einstellung wird gesteuert, ob die Desktop- oder Fensterfreigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. b. anonyme Teilnehmer, Gäste, B2B-Teilnehmer und Partner), erben die Richtlinie des Besprechungsorganisators.
+Über diese Einstellung wird gesteuert, ob die Desktop- oder Fensterfreigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. externe Teilnehmer), erben die Richtlinie des Besprechungsorganisators.
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
@@ -378,22 +378,21 @@ Verwenden Sie das Cmdlet "AllowParticipantGiveRequestControl", um mithilfe von P
 > [!NOTE]
 > Um die Steuerung über freigegebene Inhalte während der Freigabe übergeben und übernehmen zu können, müssen beide Parteien den Microsoft Teams-Desktopclient verwenden. Die Steuerung wird nicht unterstützt, wenn eine der beiden Parteien Teams in einem Browser ausführt. Dies ist auf eine technische Einschränkung zurückzuführen, die wir planen zu beheben.
 
-### <a name="allow-an-external-participant-to-give-or-request-control"></a>Zulassen, dass ein externer Teilnehmer die Steuerung übergibt oder anfordert
+### <a name="external-participants-can-give-or-request-control"></a>Externe Teilnehmer können die Steuerung übergeben oder anfordern
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Wenn dies von einer Organisation für einen Benutzer festgelegt wurde, wird dadurch nicht gesteuert, was externe Teilnehmer tun können – unabhängig davon, was der Besprechungsorganisator festgelegt hat. Über diesen Parameter wird gesteuert, ob externen Teilnehmern die Steuerung des von jemand anderen freigegebenen Bildschirms übergeben werden kann bzw. ob sie dies anfordern können, je nachdem, was der freigebende Benutzer in den Besprechungsrichtlinien seiner Organisation festgelegt hat. Externe Teilnehmer an Microsoft Teams-Besprechungen können wie folgt kategorisiert werden:  
 
-- Anonymer Benutzer
-- Gastbenutzer  
-- B2B-Benutzer
-- Verbundbenutzer  
+- Anonyme Teilnehmer
+- Gäste
+- Externer Zugriffsbenutzer  
 
-Über diese Einstellung wird gesteuert, ob Verbundbenutzer externen Benutzern die Steuerung übergeben können, während die Steuerung der Freigabe über die Einstellung **Zulassen, dass ein externer Teilnehmer die Steuerung übergibt oder anfordert** in ihrer Organisation erfolgt.
+Gibt an, ob benutzer mit externem Zugriff andere externe Teilnehmer steuern können, während die Freigabe von den **externen Teilnehmern gesteuert wird, um die Steuerungseinstellung in ihrer Organisation zu erteilen oder anzufordern** .
 
 Verwenden Sie das "AllowExternalParticipantGiveRequestControl"-Cmdlet, um mithilfe von PowerShell zu steuern, ob externe Teilnehmer die Steuerung übergeben oder entsprechende Anforderungen annehmen können.
 
 ### <a name="allow-powerpoint-sharing"></a>PowerPoint-Freigabe zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob der Benutzer PowerPoint-Folien in einer Besprechung übertragen kann. Externe Benutzer, einschließlich anonyme, Gast- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob der Benutzer PowerPoint-Folien in einer Besprechung übertragen kann. Externe Teilnehmer, einschließlich anonymer, Gast- und externer Zugriffsbenutzer, erben die Richtlinie des Besprechungsorganisators.
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -406,7 +405,7 @@ Amanda kann keine PowerPoint-Folien in Besprechungen teilen, selbst wenn sie die
 
 ### <a name="allow-whiteboard"></a>Whiteboard zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung das Whiteboard übertragen kann. Externe Benutzer, einschließlich anonyme, B2B- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung das Whiteboard übertragen kann. Externe Teilnehmer, einschließlich anonymer, Gast- und externer Zugriffsbenutzer, erben die Richtlinie des Besprechungsorganisators.
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -419,7 +418,7 @@ Amanda kann das Whiteboard in einer Besprechung nicht teilen, selbst wenn sie di
 
 ### <a name="allow-shared-notes"></a>Geteilte Notizen zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung Notizen erstellen und übertragen kann. Externe Benutzer, einschließlich anonyme, B2B- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators. Die Registerkarte **Besprechungsnotizen** wird in Besprechungen mit bis zu 100 Teilnehmern unterstützt.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung Notizen erstellen und übertragen kann. Externe Teilnehmer, einschließlich anonymer, Gast- und externer Zugriffsbenutzer, erben die Richtlinie des Besprechungsorganisators. Die Registerkarte **Besprechungsnotizen** wird in Besprechungen mit bis zu 100 Teilnehmern unterstützt.
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -468,7 +467,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
   
 |Einstellungswert  |Verhalten bei Teilnahme |
 |---------|---------|
-|**Jeder**   |Alle Besprechungsteilnehmer nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Dazu gehören authentifizierte Benutzer, externe Benutzer aus vertrauenswürdigen Organisationen (Verbundorganisationen), Gäste und anonyme Benutzer.     |
+|**Jeder**   |Alle Besprechungsteilnehmer nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Dazu gehören authentifizierte Benutzer, Benutzer mit externem Zugriff, Gäste und anonyme Benutzer.     |
 |**Personen in meiner Organisation oder vertrauenswürdigen Organisationen und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und Benutzer aus vertrauenswürdigen Organisationen, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen. Anonyme Benutzer müssen im Wartebereich warten.   |
 |**Personen in meiner Organisation und Gäste**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten. Benutzer von vertrauenswürdigen Organisationen und anonyme Benutzer warten im Wartebereich. Dies ist die Standardeinstellung.           |
 |**Nur Organisatoren**    |Alle Besprechungsorganisatoren nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Alle anderen Personen, einschließlich authentifizierte Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten.           |

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278769"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418624"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Einrichten der übergeordneten Verbindung in Microsoft Teams für Education
 
@@ -42,7 +42,7 @@ Hier sind einige Ressourcen, die IT-Administratoren mit Erziehungsberechtigten u
 Die Elternverbindung ermöglicht Lehrkräften und Erziehungsberechtigten das Chatten, Senden von E-Mails und Anrufen mithilfe von Teams.
 
 - Lehrkräfte können Chats mit Erziehungsberechtigten initiieren.
-  - Wenn der Erziehungsberechtigte nicht über ein Teams-Verbraucherkonto verfügt, erhält er die erste Nachricht von der Lehrkraft und eine E-Mail-Einladung, um zu Teams zu wechseln.
+  - Wenn der Erziehungsberechtigte nicht über ein Teams-Verbraucherkonto verfügt oder noch nicht Microsoft Teams beigetreten ist, erhält er die Nachricht von der Lehrkraft zusammen mit einer E-Mail-Einladung, zu Teams zu wechseln. Dies gilt nur in Fällen, in denen die Einladungsgrenzwerte nicht erreicht wurden und der Chat ein neuer Chat oder ein vorhandener Chat ist, der über die übergeordnete Verbindung erneut eingegeben wurde.
 - Es funktioniert mit überwachtem Chat. Weitere Informationen finden [Sie unter Verwenden von überwachten Chats in Microsoft Teams](supervise-chats-edu.md).
   - Standardmäßig verfügen Erziehungsberechtigte über eingeschränkte Berechtigungen, sodass sie nicht mit Schülern chatten oder Benutzer aus Chats entfernen können.
   - Diese Einstellung kann vom Mandantenadministrator geändert werden.
@@ -90,7 +90,7 @@ Wenn der Erziehungsberechtigte aus den Datensätzen eines *Kursteilnehmers* entf
     - User.csv
     - Guardianrelationship.csv
   - Informationen zum Anzeigen eines Beispielsatzes der v1-CSV-Dateien finden Sie in den [GitHub-Dateien mit den mindest erforderlichen Attributen](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
-  - Wenn Sie das Abrufen der CSV-Dateien nach der ersten Synchronisierung automatisieren möchten, lesen Sie unser [CSV-File Sync Automatisierungsdokument](/schooldatasync/csv-file-sync-automation).
+  - Wenn Sie das Abrufen der CSV-Dateien nach der ersten Synchronisierung automatisieren möchten, lesen Sie unser [CSV-Dateisynchronisierung-Automatisierungsdokument](/schooldatasync/csv-file-sync-automation).
   - Wenn Sie Hilfe beim Einrichten Ihrer SDS-Datensynchronisierung benötigen, wenden Sie sich an [unser Kundenerfolgsteam](https://www.microsoft.com/fasttrack?rtc=1) , oder [öffnen Sie ein Supportticket](https://edusupport.microsoft.com/support?product_id=data_sync).
 
 ### <a name="teams-admin-center-policies"></a>Teams Admin Center-Richtlinien

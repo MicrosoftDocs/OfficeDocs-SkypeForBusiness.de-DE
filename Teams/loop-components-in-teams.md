@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041a2fbf54eb513c74348adf09df7452dabb4368
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268120"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418644"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Übersicht über Loop-Komponenten in Teams
 
@@ -90,6 +90,6 @@ Wenn Sie diese Erfahrungen deaktivieren, wie im Abschnitt ["Einstellungsverwaltu
 - Wenn die Standarddateiberechtigungen des Mandanten auf *Bestimmte Personen* festgelegt sind (nur die vom Benutzer angegebenen Personen), muss der Absender zum Erstellen einer Livekomponente in einem Gruppenchat mit mehr als 20 Mitgliedern die Berechtigungsoptionen für die Komponente manuell auswählen.
 - Bei der Suche nach Loop-Komponenten über die Teams-Suchfunktion wird ein Link zur Komponente in office.com zurückgegeben, nicht zur Chatnachricht selbst.
 - Loop-Komponenten sind in Verbundchats deaktiviert.
-- B2B-Gäste können nicht an einer Livekomponente zusammenarbeiten, die über den Unternehmensfreigabelink für sie freigegeben wird. Legen Sie die Berechtigungen auf **Personen, die sich derzeit in diesem Chat befinden** fest, um Komponenten für B2B-Gäste freizugeben.
+- Gäste können nicht an einer Livekomponente zusammenarbeiten, die über den Firmenfreigabelink für sie freigegeben wird. Legen Sie Die Berechtigungen auf **Personen fest, die sich derzeit in diesem Chat** befinden, um Komponenten für Gäste freizugeben.
 - Loop-Komponenten werden in Teams-Kanälen nicht unterstützt.
 - Loop-Komponenten im Chat werden nur dann nicht geladen, wenn die Datei in eine andere Bibliothek verschoben wurde. Wenn die Datei in einen anderen Ordner verschoben wird, wird sie weiterhin im Chat geladen.

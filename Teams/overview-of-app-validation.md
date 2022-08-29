@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6ca0590f254a0567eec8946ae3c4323bf541f05
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d7d705d09dc9ded8ee2b831e41ed18921fbb7381
+ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299234"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "67314007"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Von Microsoft durchgeführte Überprüfung für alle Teams-Apps
 
@@ -41,14 +41,14 @@ Wir führen über 400 Testfälle für jede App aus, bevor sie im Teams Store ver
 
 * Stellen Sie sicher, dass die von der App angeforderten Graph-Berechtigungen wirklich diejenigen sind, die die App-Funktionalität benötigt, und keine zusätzlichen Berechtigungen. Graph-Berechtigungen für vorhandene Apps werden regelmäßig überprüft, um sicherzustellen, dass keine zusätzlichen Berechtigungen für eine App erforderlich sind.
 * Apps, für die sich Benutzer anmelden müssen, verfügen über eine Abmeldeoption.
-* Alle App-Entwickler durchlaufen einen detaillierten Überprüfungsprozess im Microsoft Partner Center. Die Überprüfung umfasst die E-Mail-Überprüfung, die Geschäftliche Überprüfung und vieles mehr. Weitere Informationen zur App-Veröffentlichung finden Sie unter [Erstellen eines Partner Center-Kontos durch Entwickler](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Übermittlungshandbuch für Entwickler](/office/dev/store/add-in-submission-guide) und [Veröffentlichen von Apps durch Entwickler](https://aka.ms/PublishToTeamsStore).
+* Entwickler aller Apps durchlaufen einen detaillierten Überprüfungsprozess im Microsoft Partner Center. Die Überprüfung umfasst die E-Mail-Überprüfung, die Geschäftliche Überprüfung und vieles mehr. Weitere Informationen zur App-Veröffentlichung finden Sie unter [Erstellen eines Partner Center-Kontos durch Entwickler](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Übermittlungshandbuch für Entwickler](/office/dev/store/add-in-submission-guide) und [Veröffentlichen von Apps durch Entwickler](https://aka.ms/PublishToTeamsStore).
 * Nur Apps von verifizierten Entwicklern können Graph-Berechtigungen von Endbenutzern anfordern.
 * Keine App kann eine ausführbare Datei herunterladen.
 * Apps wurden so getestet, dass sie keine Werbung oder Werbung für andere Apps enthalten.
 * Apps werden so getestet, dass sie ohne anstößige Sprache, Cyberangriffs-Bots, Spam oder Betrugsinhalte geeignet sind.
 * Alle Links in einer App sind funktionsfähig und beziehen sich nur auf das App-Angebot.
 * Wir testen und bewerten alle veröffentlichten Teams-Apps regelmäßig im Rahmen von App Store-Integritätsprüfungen.
-* Datenschutzrichtlinien und Nutzungsbedingungen, die Teams-Apps abdecken, werden von den App-Entwicklern veröffentlicht.
+* Datenschutzrichtlinien und Nutzungsbedingungen für Teams-Apps werden vom App-Entwickler bereitgestellt.
 * Die Kontaktdetails des App-Entwicklers sind im Store-Eintrag und auf den entsprechenden [Herausgebernachweisseiten](/microsoft-365-app-certification/teams/teams-apps) verfügbar.
 
 Darüber hinaus empfiehlt Microsoft den App-Entwicklern, an ihrem Complianceprogramm teilzunehmen, bei dem es sich um einen strengen, zweistufigen Ansatz handelt, um App-Qualität, Sicherheit und Compliance sicherzustellen. Teams Store verfügt über Hunderte von Apps, die über die Erfüllung der bereits detaillierten Validierungsrichtlinien hinausgehen und diese Programme einhalten.
