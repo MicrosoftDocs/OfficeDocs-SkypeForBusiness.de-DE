@@ -3,6 +3,36 @@
 
 
 
+## <a name="week-of-august-22-2022"></a>Woche vom 22. August 2022
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 8/22/2022 | [Verwalten Sie die Schicht-App für Ihre Organisation](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Geändert |
+| 8/22/2022 | [Verwalten von Tags in Microsoft Teams](/MicrosoftTeams/manage-tags) | Geändert |
+| 8/22/2022 | [Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte](/MicrosoftTeams/rooms/with-office-365) | Geändert |
+| 8/23/2022 | [Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten](/MicrosoftTeams/communicate-with-users-from-other-organizations) | Geändert |
+| 8/23/2022 | [Verwalten von Besprechungsrichtlinien für die Inhaltsfreigabe](/MicrosoftTeams/meeting-policies-content-sharing) | Geändert |
+| 8/23/2022 | [Teams: Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 8/24/2022 | [Schnellstart – Einrichten von Microsoft Teams für Education](/MicrosoftTeams/teams-quick-start-guide-edu) | Hinzugefügt |
+| 8/24/2022 | Schnellstart – Administratoren von Microsoft Teams Education | Entfernt |
+| 8/24/2022 | [Problembehandlung bei Szenarien mit geringer Bandbreite für Teams](/MicrosoftTeams/edu-remote-low-bandwidth) | Geändert |
+| 8/24/2022 | [Teams für Bildung](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | Geändert |
+| 8/24/2022 | [Häufig gestellte Fragen zu Microsoft Education für IT-Administratoren](/MicrosoftTeams/plan-teams-governance-edu) | Geändert |
+| 8/24/2022 | [Verwalten von Microsoft Teams-Richtlinien und Richtlinienpaketen für Bildungseinrichtungen](/MicrosoftTeams/policy-packages-edu) | Geändert |
+| 8/24/2022 | [Erste Schritte mit Microsoft Teams für Fernunterricht](/MicrosoftTeams/remote-learning-edu) | Geändert |
+| 8/24/2022 | [Freigeben von Teams-Einführungsressourcen](/MicrosoftTeams/resources-teams-edu) | Geändert |
+| 8/24/2022 | [Zuweisen von Microsoft Teams-Lizenzen für Bildungseinrichtungen](/MicrosoftTeams/teams-edu-licensing) | Geändert |
+| 8/24/2022 | [Verwalten der Verwendung einer Telefonnummer](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | Hinzugefügt |
+| 8/25/2022 | [Ressourcen für Administrator-Schulung – Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Geändert |
+| 8/26/2022 | [Verlaufsbericht zur automatischen Telefonzentrale & Anrufwarteschleife](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Geändert |
+| 8/26/2022 | [Einrichten einer automatischen Telefonzentrale für Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | Geändert |
+| 8/26/2022 | [Einrichten einer automatischen Telefonzentrale für Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Geändert |
+| 8/26/2022 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | Geändert |
+| 8/26/2022 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
+| 8/26/2022 | [Planen von automatischen Telefonzentralen und Anrufwarteschleifen in Microsoft Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Geändert |
+
+
 ## <a name="week-of-august-15-2022"></a>Woche vom 15. August 2022
 
 
@@ -194,25 +224,3 @@
 | 7/26/2022 | [Mandantenübergreifende Kundenverwaltung für Partner](/MicrosoftTeams/rooms/multi-tenant-management-partner) | Geändert |
 | 7/26/2022 | [Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | Geändert |
 | 7/29/2022 | [Verwalten von Telefonnummern für Ihre Organisation](/MicrosoftTeams/manage-phone-numbers-landing-page) | Geändert |
-
-
-## <a name="week-of-july-18-2022"></a>Woche vom 18. Juli 2022
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 7/18/2022 | [Wissenswertes über Apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Geändert |
-| 7/18/2022 | [Verwalten von Richtlinien für das App-Setup in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Geändert |
-| 7/18/2022 | Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion | Entfernt |
-| 7/19/2022 | [Verwalten von Microsoft 365- und benutzerdefinierten Connectors](/MicrosoftTeams/office-365-custom-connectors) | Geändert |
-| 7/19/2022 | [Wissenswertes über Apps in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Geändert |
-| 7/19/2022 | [Verwalten Sie Microsoft Power Platform-Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-power-platform-apps) | Geändert |
-| 7/19/2022 | [Verwalten von F&A in Teams-Besprechungen](/MicrosoftTeams/manage-qna-for-teams) | Geändert |
-| 7/19/2022 | [Übersicht über die App-Zertifizierung durch Microsoft](/MicrosoftTeams/overview-of-app-certification) | Geändert |
-| 7/19/2022 | [Kaufen von Drittanbieter-Apps für Teams](/MicrosoftTeams/purchase-third-party-apps) | Geändert |
-| 7/20/2022 | [Konfigurieren von Telefonieanbieter](/MicrosoftTeams/operator-connect-configure) | Geändert |
-| 7/21/2022 | [Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | Geändert |
-| 7/21/2022 | [Apps-Updateerfahrung in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | Geändert |
-| 7/21/2022 | [Verwalten Sie Ihre Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-apps) | Geändert |
-| 7/21/2022 | [Verwenden Sie die Teams-App-Übermittlungs-API, um Ihre benutzerdefinierten Apps zu übermitteln und zu genehmigen](/MicrosoftTeams/submit-approve-custom-apps) | Geändert |
-| 7/21/2022 | [Hochladen Ihrer benutzerdefinierten Apps im Microsoft Teams Admin Center](/MicrosoftTeams/upload-custom-apps) | Geändert |
