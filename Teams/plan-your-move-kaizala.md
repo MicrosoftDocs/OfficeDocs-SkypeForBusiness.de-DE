@@ -7,30 +7,30 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: In diesem Artikel wird beschrieben, wie Sie einen erfolgreichen Übergang von Kaizala zu Microsoft Teams planen.
+description: In diesem Artikel wird beschrieben, wie Sie einen erfolgreichen Wechsel von Kaizala zu Microsoft Teams planen.
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 0e9c9920826a664aaa948a6b6c9d5470a4dd3298
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 319a2d981899dce509633992fdcf61dc002a193f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443452"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457255"
 ---
-# <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Planen eines erfolgreichen Übergangs von Kaizala zu Microsoft Teams
+# <a name="planning-for-a-successful-move-from-kaizala-to-microsoft-teams"></a>Planen eines erfolgreichen Wechsels von Kaizala zu Microsoft Teams
 
 > [!Important]
-> Microsoft Kaizala wird am 31. August 2023 eingestellt. Wir empfehlen ein Upgrade auf Microsoft Teams, um die Verbindung, Freigabe und Zusammenarbeit fortzusetzen. Nach dem Datum der Pensionierung wird der Zugang und die Unterstützung für Kaizala eingestellt.
+> Microsoft Kaizala wird am 31. August 2023 eingestellt. Wir empfehlen, zu Microsoft Teams zu wechseln, um die Verbindung, Freigabe und Zusammenarbeit fortzusetzen. Nach dem Datum der Pensionierung wird der Zugang und die Unterstützung für Kaizala eingestellt.
 
 Wenn Sie von Kaizala zu Microsoft Teams wechseln, ist es wichtig, sich die Zeit zu nehmen, um einen erfolgreichen Übergang zu [planen](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) . Ein solider Übergangsplan gibt Ihnen Struktur für Ihre Bewegung und stellt sicher, dass alle Beteiligten auf ein gemeinsames Ziel hinarbeiten. Die Verwendung eines bewährten Frameworks zur Implementierung der Änderung kann Ihnen helfen, noch heute mit ihrem Übergang zu beginnen.
 
-## <a name="transition-framework"></a>Übergangsframework
+## <a name="framework-for-your-move"></a>Framework für Ihre Verschiebung
 
-![Abbildung der Übergangsanleitung](media/plan-for-successful-transition.png)
+![Abbildung der Bewegungsanleitung](media/plan-for-successful-transition.png)
 
 Wir haben unten unseren empfohlenen Ansatz für einen erfolgreichen Übergang beschrieben und empfehlen Ihnen, die Phasen in der reihenfolge zu befolgen, da jeder Schritt im Framework auf dem vorherigen Schritt aufbaut.
 

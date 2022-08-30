@@ -14,12 +14,12 @@ description: Erfahren Sie, wie Sie Teams-App-Aktivitäten von Benutzern und Admi
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299254"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457275"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Überwachung von App-Management-Aktivitäten und Ereignisse
 
@@ -68,6 +68,9 @@ Nachdem Sie das Überwachungsprotokoll im Complianceportal durchsucht haben, kö
 
 > [!NOTE]
 > Wenn eine der oben genannten Aktivitäten von einem Benutzer oder Administrator ausgeführt wird, generiert und speichert Teams einen Überwachungsdatensatz. Bei Audit (Standard) werden die Aufzeichnungen 90 Tage lang aufbewahrt, d. h. Sie können nach Aktivitäten suchen, die innerhalb der letzten drei Monate stattgefunden haben.
+
+> [!TIP]
+> Wenn Sie als Administrator einen Bericht pro Benutzer erstellen möchten, um zu wissen, ob ein Benutzer einen Bot blockiert oder stummgeschaltet hat, lesen Sie " [Verstehen, wer einen Bot blockiert, stummgeschaltet oder deinstalliert hat](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot)".
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
