@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Eine Liste von mobilen Eigenschaften und Ereignissen für die Richtliniensteuerelemente für Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
-ms.translationtype: HT
+ms.openlocfilehash: 91203a9e35954e695bea5482c41674137320b487
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114124"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674237"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -39,6 +39,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 > [!NOTE]
 > Informationen zu den Eigenschaften von PanelAction-Ereignissen finden Sie unter [Eigenschaften, die mit Panelaction-Ereignissen gesendet werden](#properties-sent-with-panelaction-events).
 
+- **acceptUser** – Der Benutzer hat einen 1:1-Chat akzeptiert.
 - **accessibilityUserConfiguration**: Wenn ein Benutzer den Umschalter für ein Barrierefreiheitsfeature betätigt.
 - **acknowledgeSettingChange**: Bestätigen Sie ein Update im Dialogfeld „Wir haben eine Benachrichtigungseinstellung aktualisiert“. Hierbei handelt es sich um eine Feature-Erfolgsmetrik, die zum Bestätigen von Aktualisierungsbenachrichtigungen und zur Ermittlung der Zuverlässigkeit von Benachrichtigungen verwendet wird.
 - **actionComposeMenu**
@@ -69,6 +70,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **admitAll**: Die Häufigkeit, mit der die Schaltfläche **Alle zulassen** im Wartebereich-Abschnitt ausgewählt wird.
 - **admitParticipant**: Die Häufigkeit, in der jemand aus der Besprechungsliste in eine Besprechung aufgenommen wird.
 - **alertsNavAlert**: Tippen auf ein Feed-Element.
+- **aliasDiscoverabilitySettingOpened** – Einstiegspunkt für Ermittlungseinstellungen.
 - **android: null**: Einen Bot-Chat stummschalten oder die Stummschaltung aufheben. Dadurch wird die bestehende Telemetrie um Chats herum verbessert, indem lediglich Anwendungsinformationen hinzugefügt werden.
 - **anonymousMeetingJoin** - **An Besprechung teilnehmen** wird auf der Seite „Anonym beitreten und Namen angeben“ ausgewählt, oder im Namensdialog wird **OK** angetippt.
 - **anonymousMeetingJoinWelcome** - **Als Gast teilnehmen** wird auf der Startseite „Anonym an der Besprechung teilnehmen“ ausgewählt.
@@ -222,7 +224,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
   - Ausschalten des Videos.
   - Video-Schaltfläche wird während einer Besprechung oder eines Anrufs ausgewählt.
 - **callPark**: Ausgelöst in folgenden Fällen:
-  - **Anruf parken** wird im Menü **…** ausgewählt.
+  - **Park call** is selected in the **...** menu.
   - Schaltfläche **Abrufen** ist ausgewählt.
   - **Pickup** ist im Abrufen-Dialogfeld ausgewählt.
   - **Abbrechen** ist im Abrufen-Dialogfeld ausgewählt.
@@ -450,6 +452,8 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **detailsTabClicked**: Die Registerkarte **Details** ist in der Besprechung ausgewählt.
 - **deviceAddressBookSync**: Wird ausgelöst, wenn die Adressbuchsynchronisierung über die Einstellungsseite aktiviert ist.
 - **deviceAddressBookUnsync**: Wird ausgelöst, wenn die Adressbuchsynchronisierung über die Einstellungsseite deaktiviert ist.
+- **deviceSyncEnabled** – Gerätesynchronisierung aktiviert.
+- **deviceSyncDisabled** – Gerätesynchronisierung deaktiviert.
 - **dialIn**: Ein Benutzer wählt die Einwahl in eine Besprechung (verschiedene Standorte).
 - **dialInBadNetworkBanner** - **Einwählen** wird für ein Banner „schlechte Verbindung“ ausgewählt.
 - **dialInBadNetworkBannerCancel**: Das **Einwählen** wird im systemeigenen Dialogfeld abgebrochen.
@@ -629,6 +633,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **launchLinksGallery**: Wenn ein Benutzer über das Dashboard den Linkkatalog betritt.
 - **launchSlideshow** – Der Benutzer startet die Bildschirmpräsentation als Vollbildanzeige von einem der drei möglichen Orten für App-Features. 
 - **Launch source such as direct, link, appShortcut**: Startet direkt oder per Link (Aufzeichnung von Mobiler Anwendungsverwaltung (MAM) oder Mobiler Geräteverwaltung (MDM) Telemetrie beim Start der Anwendung, um Daten für aktive Benutzer zu sammeln).
+- **lastSearchableAliasTurnedOff** – Der Benutzer hat alle durchsuchbaren Aliase für das Konto deaktiviert.
 - **leaveChat**: Bestätigung des Verlassens des Chats.
 - **legacyChatLink**: Ein Link wird für einen älteren Chat ausgewählt.
 - **link**: Der Benutzer hat das Einlösen des Einladungslinks durch den Zugriff auf die Teams-Anwendung initiiert.
@@ -688,7 +693,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **meetingDetailDeleteMeetingforSelf**: Löschen Sie eine Besprechung von der Besprechungsdetailseite für sich selbst.
 - **meetingDetailJoin**: Die Schaltfläche **Besprechungsteilnahme** wird auf der Besprechungsdetailseite ausgewählt.
 - **meetingDetailParticipants**: Zeigen Sie alle Teilnehmern über die Besprechungsdetails-Seite an.
-- **meetingDetailScheduledMeeting**: Besprechungsdetailseite, ausgewählt vom Objekt „Geplantes Meeting“ (**...**), oder wählen Sie die Registerkarte **Details** einer geplanten Besprechung aus.
+- **meetingDetailScheduledMeeting** – Seite "Besprechungsdetails" ausgewählt aus dem geplanten Besprechungsobjekt (**...**), oder wählen Sie die Registerkarte " **Details** " einer geplanten Besprechung aus.
 - **meetingDetailSearchParticipants**: **Suchen** in Besprechungsteilnehmern auf dem Besprechungszeitplan ausgewählt.
 - **meetingInsightFileClick**: Es wird auf ein besprechungsbezogenes Dateielement geklickt.
 - **meetingInsightFileLocatorClick**: Es wird auf eine Tipp-Schaltfläche für die Suche nach Besprechungsinhalten geklickt.
@@ -724,6 +729,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **meetingUserGuest**: Ein Gastbenutzer ist der Besprechung beigetreten.
 - **meetingUserTenant**: Ein In-Mandanten-Benutzer ist der Besprechung beigetreten.
 - **memeGenerated** – Wenn aufgrund einer Benutzereingabe von Bild- und Textdaten ein Meme generiert wird. 
+- **meProfileFetch** – Gibt einen erfolgreichen Profilabruf und eine erfolgreiche Erstellung an.
 - **messageCopyMessage**: Nachricht kopieren.
 - **messageDelete**: Nachricht löschen.
 - **messageEditMessage**: Nachricht bearbeiten.
@@ -738,6 +744,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **MicrosoftWhiteboardClicked**: Microsoft Whiteboard ist auf der Registerkarte **Kanaldateien** oder auf der Registerkarte **Besprechungschat-Dateien** ausgewählt.
 - **moreOptionsClicked**: Wird ausgelöst, wenn das Menü **...** oben rechts auf dem Aufgabenelement-Editorbildschirm ausgewählt ist.
 - **moveTaskClicked**: Option innerhalb des Aufgabenelements Weitere Optionen-Liste.
+- **msaAddDeleteAliasLinkClicked** – Link zum Einrichten eines Alias auf der MSA-Profilseite.
 - **multiCallEndFromUFD**: Häufigkeit, mit der ein Benutzer den Anruf in einer Situation mit mehreren Anrufen beendet.
 - **multiCallResumeFromUFD**: Anzahl der Male, in denen ein Benutzer wählt, einen Anruf aus der Warteschleife wieder aufzunehmen.
 - **multiCallSwitch**: Anzahl der Male, in denen ein Benutzer eine Option zum Umschalten des Anrufs auswählt, und eine Liste der gehaltenen Anrufe wird angezeigt.
@@ -851,6 +858,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **parental_consent_grant**: Ein Benutzer gewährt einem Minderjährigen in seiner MS-Familie die Berechtigung zum Verwenden der Funktion „Live-Standort“ in TFL.
 - **parental_consent_grant**: Ein Benutzer gewährt einem Minderjährigen in seiner MS-Familie die Berechtigung zum Verwenden der Funktion „Live-Standort“ in TVL.
 - **pauseVoicemail** - **Anhalten** wird auf einem Voicemail-Element angetippt.
+- **peoplePickerDismissed** – Gibt an, dass die Personen Auswahl geschlossen wurde.
 - **peoplePickerInvoked**: Personenauswahl wird an sieben Stellen in Teams Mobile verwendet, einschließlich (aber nicht beschränkt auf):
   - Neue Chatauswahl.
   - Weiterleiten einer Nachricht.
@@ -893,6 +901,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **privateMeetingJoin** - Die Schaltfläche **Besprechungsbeitritt** wird aus dem privaten Besprechungschat angetippt.
 - **processInBG**: Verarbeitung einer eingehenden Benachrichtigung im Hintergrund (Android).
 - **processInFG**: Verarbeitung einer eingehenden Benachrichtigung im Vordergrund (Android).
+- **profileNameSaved** – Der Profilname wurde aktualisiert.
 - **progressItemClicked**: Bestätigt, dass ein Benutzer die Statusauswahl für eine Aufgabe erfolgreich geöffnet hat.
 - **promotedToPresenter**: Der Benutzer stuft einer Teilnehmer höher – Schaltfläche **Ändern** im Dialogfeld.
 - **provideFeedbackDismiss**: Schließen der Eingabeaufforderung, in der gefragt wird, ob der Benutzer Feedback dazu senden möchte, warum ihm die App nicht gefallen hat.
@@ -1035,7 +1044,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **shareScreen**: Eine Bildschirmfreigabe starten oder beenden.
 - **shareShift**: Die Informationen, die angegeben werden, wenn eine Schicht freigegeben wird.
 - **shareShiftsClicked**: Die Details einer offenen Schicht.
-- **shareTray** - **Freigeben...** ist in der Aktionstabelle ausgewählt.
+- **shareTray** -  **Freigeben...** ist im Aktionsblatt ausgewählt.
 - **shiftAssigneeClicked**: Die Schichtkalender-Ansicht, in der die einzelnen Schichtdetails angezeigt werden.
 - **shiftDetails**: Hiermit können Sie die Details einer Schicht anzeigen.
 - **shiftDetailsCalendar**: Benutzer wechselt zu Schichtdetails.
@@ -1260,6 +1269,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 > 
 - **acquire_resource_token_interactive**: Erforderlicher Dienstaufruf, der ausgelöst wird, wenn ein Authentifizierungstoken durch interaktive Anmeldung abgerufen wird. 
 - **acquire_resource_token_silent**: Erforderlicher Dienstaufruf, der ausgelöst wird, wenn ein Authentifizierungstoken durch automatische Anmeldung abgerufen wird.
+- **add_buddy** – Erfasst den Status des Hinzufügens eines Kontakts.
 - **app_crash2**: Wird ausgelöst, wenn die App unerwartet abgestürzt ist. Enthält Informationen dazu, wie häufig die Microsoft Teams-App abstürzt. 
 - **app_incremental_sync_launch**: Bestätigt, dass die Pillenanzahl erfolgreich für den Kaltstart aktualisiert wurde.
 - **app_incremental_sync_launch**: Bestätigt, dass die Pillenanzahl erfolgreich für den Warm/Hot-Start aktualisiert wurde.
@@ -1299,6 +1309,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **delete_planner_plan**: Bestätigt das erfolgreiche Löschen einer freigegebenen Aufgabenliste.
 - **delete_planner_task**: Bestätigt das erfolgreiche Löschen eines freigegebenen Aufgabenelements.
 - **json_parse_failure**: Enthält Informationen zu häufig auftretenden Problemen bei der JSON-Analyse.
+- **fetch_me_profile** – Der Status der Erstellung des Benutzerprofils.
 - **getProfilePicture**: Erforderlicher Dienstaufruf zum Abrufen des Benutzerprofilbilds. 
 - **get_resource_token_async**: Erforderlicher Dienstaufruf zum asynchronen Abrufen von Token für Azure Active Directory-Ressourcen.
 - **get_resource_token_sync**: Erforderlicher Dienstaufruf zum synchronen Abrufen von Token für Azure Active Directory-Ressourcen.
@@ -1344,6 +1355,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **show_meeting_participants**: Bestätigt, dass das Anzeigen der Meeting-Teilnehmerliste erfolgreich war oder fehlgeschlagen ist.
 - **search**: Bestätigt, dass der gesamte Suchvorgang erfolgreich war oder fehlgeschlagen ist.
 - **time_based_retention_shared_channel**: Erfasst Leistungsdaten zum Pruning der Datenbank.
+- **toggle_searchability** – Erfasst den Status eines Netzwerkanrufs zum Stempeln/Aufheben der Stempelung eines Alias.
 - **sync_user_entitlements_and_app_definitions** – Erforderlicher Dienstaufruf, um aggregatedEntitlements abzurufen.
 - **bots_load_mediacards** – Erfasst instanziierte Karten, wenn Connector-Karten im Chat und Kanal konfiguriert sind.
 - **bots_load_one_card** – Erfasst, wenn mindestens eine Karte vorhanden und geladen ist, wenn mit einem Bot gechattet wird.
@@ -1358,7 +1370,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 
 ## <a name="oneplayer-events"></a>OnePlayer-Ereignisse
 > [!NOTE]
-> Für OnePlayer-Ereignisse gelten nur die in der [Eigenschaftenliste für OnePlayer-Ereignisse](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events) aufgelisteten Eigenschaften.
+> Für OnePlayer-Ereignisse gelten nur die in der [Eigenschaftenliste für OnePlayer-Ereignisse](#property-lists-for-oneplayer-events) aufgelisteten Eigenschaften.
 ### <a name="oneplayer-user-action-events"></a>OnePlayer-Benutzeraktionsereignisse
 - **PlayerPlay** – Bestätigt, wenn der Benutzer in der OnePlayer-Ansicht auf die Wiedergabetaste tippt.
 - **PlayerPause** – Bestätigt, wenn der Benutzer in der OnePlayer-Ansicht auf die Pausentaste tippt.

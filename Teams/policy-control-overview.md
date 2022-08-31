@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Eine Übersicht über die Richtliniensteuerungen für Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142811"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041257"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Übersicht über die Richtliniensteuerung für Microsoft Teams
 
@@ -87,9 +87,6 @@ Wenn Benutzer mit den organisatorischen Anmeldeinformationen (auch als Geschäft
 Diese Diagnosedaten enthalten keine Namen von Benutzern, ihre E-Mail-Adressen oder andere Benutzerinhalte, wie z. B. in Teams freigegebene Office-Dateien, eine in Teams gesendete Chat-Nachricht oder den Text eines in einem Teams-Kanal veröffentlichten Beitrags. Unser System erstellt eine eindeutige ID und verknüpft diese mit den Diagnosedaten des Benutzers. Wenn wir Diagnosedaten erhalten, die zeigen, dass die Teams-App 100 Mal abgestürzt ist, können wir mit dieser eindeutigen ID feststellen, ob es ein einzelner Benutzer war, der 100 Mal abgestürzt ist, oder ob es 100 verschiedene Benutzer waren, die jeweils einmal abgestürzt sind. Wir verwenden diese eindeutige ID nicht, um einen bestimmten Benutzer zu identifizieren.
 
 Wenn Sie sehen möchten, welche Diagnosedaten an Microsoft gesendet werden, verwenden Sie den Diagnosedaten-Viewer, den Sie aus dem Microsoft Store kostenlos herunterladen und installieren können. Weitere Informationen finden Sie unter [Verwenden des Diagnosedaten-Viewers mit Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
-
-> [!NOTE]
-> Unterstützung zum Diagnosedaten-Viewer steht für Teams auf Geräten unter Android zur Verfügung. An Unterstützung für Teams auf Geräten unter Windows, macOS oder iOS wird zurzeit gearbeitet.
 
 ## <a name="required-service-data-for-connected-experiences"></a>Erforderliche Dienstdaten für verbundene Benutzeroberflächen
 
