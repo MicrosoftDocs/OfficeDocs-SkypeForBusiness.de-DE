@@ -18,57 +18,53 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - LIL_Placement
-- seo-marvel-apr2020
-description: Erfahren Sie, wie Sie ressourcenkonten in Ihrer Organisation kostenlose Microsoft Teams Phone-Ressourcenkontolizenzen oder eine kostenpflichtige Teams Telefon Standard-Benutzerlizenzen zuweisen.
-ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
-ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
+- admindeeplinkMAC
+description: Erfahren Sie, wie Sie Ressourcenkonten für automatische Telefonzentralen und Anrufwarteschleifen in Ihrer Organisation Microsoft Teams Telefon Ressourcenkontolizenzen zuweisen.
+ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67298295"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465983"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams Telefon Ressourcenkontolizenzen
 
-Organisationen mit Teams Telefon Standard- oder Teams-Telefon mit Anrufplan-lizenzierten Benutzern können Ressourcenkonten entweder eine kostenlose *Microsoft Teams Telefon-Ressourcenkontolizenz* oder eine kostenpflichtige *Teams Telefon Standard-Benutzerlizenz* zuweisen. Ein Microsoft-Anrufplan ist nicht immer erforderlich (unter ["Plan for Teams Auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transferring calls to an external phone number").
+In Microsoft Teams benötigen alle automatischen Telefonzentralen und Anrufwarteschleifen ein zugeordnetes Ressourcenkonto. Jedem Ressourcenkonto muss eine **Microsoft Teams Telefon Ressourcenkontolizenz** zugewiesen werden, um sicherzustellen, dass sie vom System ordnungsgemäß identifiziert werden und ordnungsgemäß funktionieren, *unabhängig davon, ob dem Ressourcenkonto eine Telefonnummer zugewiesen wird*. Organisationen mit einem Abonnement, das Microsoft Teams Phone umfasst, wird automatisch eine bestimmte Menge an **Teams Phone-Ressourcenkontolizenzen** ohne zusätzliche Kosten zugewiesen.  Ein Microsoft-Anrufplan ist nur erforderlich, wenn Sie mit diesem Ressourcenkonto einen Anruf auswählen möchten. Weitere Informationen finden Sie unter [Planen der automatischen Telefonzentrale und Anrufwarteschleifen für Teams](../plan-auto-attendant-call-queue.md#prerequisites).
 
-Alle automatischen Telefonzentralen und Anrufwarteschleifen erfordern ein zugeordnetes Ressourcenkonto. Ressourcenkonten, für die eine Telefonnummer erforderlich ist, benötigen entweder eine kostenlose *Microsoft Teams Telefon Ressourcenkontolizenz* oder eine kostenpflichtige *Teams Telefon Standard* Benutzerlizenz, bevor eine Telefonnummer auf das Ressourcenkonto angewendet werden kann.
-
-> [!TIP]
-> Für Ressourcenkonten, die mit geschachtelten automatischen Telefonzentralen oder Anrufwarteschleifen verwendet werden, denen keine Telefonnummer zugewiesen ist, ist keine Lizenz erforderlich.
+> [!NOTE]
+> Bisher war eine Lizenz für ein **Microsoft Teams-Telefonressourcenkonto** (einst als **virtuelle Benutzerlizenz** bezeichnet) nur erforderlich, wenn einem Ressourcenkonto eine Telefonnummer zugewiesen wurde. Jetzt müssen allen Ressourcenkonten eine Lizenz für das **Teams-Telefonressourcenkonto** zugewiesen werden, unabhängig davon, ob ihnen eine Telefonnummer zugewiesen wird oder nicht. Weisen Sie außerdem keinem Ressourcenkonto eine **Teams Telefon Standard** Lizenz zu. Wenn Sie derzeit Ressourcenkonten mit **Teams Telefon Standard-Lizenzen** konfiguriert haben, müssen Sie wie unten beschrieben zu einer **Microsoft Teams Phone-Ressourcenkontolizenz** wechseln.
+ 
 
 ## <a name="resource-account-license-allocation"></a>Ressourcenkonto-Lizenzzuweisung
 
-Ihrer Organisation werden je nach Gesamtgröße *Microsoft Teams Telefon Ressourcenkontolizenzen* zugewiesen. Jede Organisation, die über mindestens eine Lizenz mit Microsoft Teams-Telefonsystemfeatures verfügt, einschließlich Teams Telefon Standard- und Teams-Telefon mit Anrufplanlizenzen, verfügt über 25 Ressourcenkontolizenzen ohne Kosten. Wenn Sie 10 Teams Telefon Standard- oder Teams-Telefon mit Anrufplan-Benutzerlizenzen in Ihrer Organisation hinzufügen, wird eine weitere *Microsoft Teams Telefon Ressourcenkontolizenz* verfügbar.
+Ihrer Organisation werden Lizenzen für **teams-Telefonressourcenkonten** basierend auf ihrer Gesamtgröße zugewiesen. Jeder Organisation, die über ein Abonnement mit Telefonsystemfeatures verfügt, z **. B. Teams Telefon Standard**- und **Teams-Telefon mit Anrufplanlizenzen**, werden 25 Lizenzen für **Teams-Telefonressourcenkonto** zugewiesen, die kostenlos zur Verfügung stehen. 
 
-> [!NOTE]
-> Teams Telefon Standard und Teams Phone with Calling Plan sind Add-On-Lizenzen, die für alle Microsoft 365-Abonnenten verfügbar sind. Teams Telefon Standard Lizenzen sind ebenfalls Bestandteil Microsoft 365 E5 Plänen.
-
-Wenn Ihre Organisation die kostenlosen *Microsoft Teams Telefon Ressourcenkontolizenzen* zum Erstellen automatischer Telefonzentralen- oder Anrufwarteschleifenknoten verwendet, können Sie die kostenpflichtigen *Teams Telefon Standard-Lizenzen* weiterhin mit einem Ressourcenkonto verwenden. Die meisten Organisationen verfügen über genügend Ressourcenkontolizenzen basierend auf dem Skalierungsplan.
+Für 10 Benutzerlizenzen von **Teams Telefon Standard** oder **Teams-Telefon mit Anrufplan** in Ihrer Organisation wird eine weitere **Lizenz für teams-Telefonressourcenkonto** verfügbar.  Die meisten Organisationen verfügen über genügend **Lizenzen für Teams-Telefonressourcenkonten** basierend auf diesem Skalierungsplan. Für den Fall, dass mehr **Lizenzen für Teams-Telefonressourcenkonten** erforderlich sind, können Sie mehr **Teams Phone-Ressourcenkontolizenzen** über die Standardzuweisung hinaus über Ihren Microsoft-Kontomitarbeiter erwerben.
 
 ### <a name="license-allocation-example"></a>Beispiel für die Lizenzzuweisung
 
-Contoso, Inc. hat 600 Lizenzen erworben, die das Telefonsystem enthalten (eine für jeden Mitarbeiter). Contoso werden zunächst 25 plus 60 *Microsoft Teams Telefon Ressourcenkontolizenzen* zugewiesen, insgesamt 85. Ihre Organisation verfügt über 90 Anrufwarteschleifen und automatische Telefonzentralen mit Telefonnummern. Sie müssen alle *Microsoft Teams Telefon Ressourcenkontolizenzen* zuweisen und fünf reguläre *Teams Telefon Standard-Lizenzen* erhalten.
+Contoso, Inc. hat 600 Lizenzen erworben, die das Telefonsystem enthalten (eine für jeden Mitarbeiter). Contoso werden zunächst 25 plus 60 **Teams-Telefonressourcenkontolizenzen** zugewiesen, insgesamt 85. Ihre Organisation verfügt über 90 Anrufwarteschleifen und automatische Telefonzentralen mit Telefonnummern. Sie müssen alle **Teams Phone-Ressourcenkontolizenzen** zuweisen und fünf zusätzliche **Teams Phone-Ressourcenkontolizenzen** erwerben. 
 
-Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anrufwarteschleifensystems in Betracht ziehen. Wenn sie weniger Telefonnummern und mehr geschachtelte Knoten verwenden, die keine Telefonnummer benötigen, vereinfachen sie die Implementierung und senken die Kosten.
+## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>So erhalten Sie Microsoft Teams Telefon Ressourcenkontolizenzen
 
-## <a name="how-to-buy-microsoft-teams-phone-resource-account-licenses"></a>So kaufen Sie Microsoft Teams Telefon Resource Account-Lizenzen
-
-1. Melden Sie sich beim Microsoft 365 Admin Center an.
-2. Wechseln **Sie zu** > **Add-Ons für Abrechnungskaufdienste** > .
+1. Melden Sie sich beim [Microsoft 365 Admin Center](https://go.microsoft.com/fwlink/p/?linkid=2024339) an.
+2. Wechseln **Sie zu** > **Add-Ons für Abrechnungskaufdienste**[](https://go.microsoft.com/fwlink/p/?linkid=868433) > .
 3. Scrollen Sie, um die **Lizenz für das Microsoft Teams Telefon Ressourcenkonto** zu finden. Wählen Sie **Jetzt kaufen** aus.
 
    > [!NOTE]
-   > Denken Sie daran, dass Sie die Lizenz weiterhin **kaufen** müssen, obwohl sie kosten null.
+   > Denken Sie daran, dass Sie die Lizenz auch dann **kaufen** müssen, wenn Sie sich innerhalb Ihrer Zuteilung befinden, obwohl sie kosten null ist.
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>Ändern eines vorhandenen Ressourcenkontos zur Verwendung einer Microsoft Teams Telefon Resource Account-Lizenz
 
-Wenn Sie sich entscheiden, die Lizenz für Ihr Ressourcenkonto von einer *Teams Telefon Standard-Lizenz* auf eine *Microsoft Teams Telefon Resource Account-Lizenz* umzustellen:
+Wenn Sie über vorhandene Ressourcenkonten verfügen, die eine **Teams Telefon Standard-Lizenz** verwenden, müssen Sie zu einer **Microsoft Teams Phone Resource Account-Lizenz** wechseln:
 
-1. Rufen Sie die neue *Microsoft Teams Telefon Resource Account-Lizenz ab*.
+1. Rufen Sie die neue Lizenz für das **Microsoft Teams-Telefonressourcenkonto ab** .
 2. Führen Sie die verknüpften Schritte im Microsoft 365 Admin Center aus, um [Benutzer in ein anderes Abonnement zu verschieben](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Entfernen Sie immer eine vollständige *Teams Telefon Standard* Lizenz, und weisen Sie die *Microsoft Teams Telefon Ressourcenkontolizenz* in derselben Lizenzaktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und dann die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet. In diesem Fall wird empfohlen, ein neues Ressourcenkonto für die *Lizenz Microsoft Teams Telefon Ressourcenkonto* zu erstellen und das fehlerhafte Ressourcenkonto zu entfernen.
+> Entfernen Sie immer eine **Teams Telefon Standard-Lizenz**, und weisen Sie die Lizenz für das **Teams-Telefonressourcenkonto** in derselben Lizenzaktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet, z. B. die automatischen Telefonzentralen und Anrufwarteschleifen Ihrer Organisation funktionieren nicht mehr.
+>
+> In diesem Fall wird empfohlen, ein neues Ressourcenkonto mithilfe der **Microsoft Teams Phone Resource Account-Lizenz** zu erstellen und das fehlerhafte Ressourcenkonto zu entfernen.
 
 ## <a name="related-information"></a>Verwandte Informationen
 

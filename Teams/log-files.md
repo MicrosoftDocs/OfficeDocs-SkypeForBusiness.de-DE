@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Debug-, Medien- und Desktopprotokolle, die von Microsoft Teams erstellt wurden, wo sie zu finden sind und wie sie bei der Überwachung und Problembehandlung helfen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7883fe7f3d8f9938e66151bb784fa5fc45a91c74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005365"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466033"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Konfigurieren von Protokolldateien für die Überwachung und Problembehandlung in Teams
 
@@ -118,7 +118,7 @@ Lesen Sie [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-cstea
 
 ### <a name="end-user-configuration"></a>Endbenutzerkonfiguration
 
-Damit Ihre Endbenutzer Diagnosedaten für Teams-Besprechungen protokollieren können, müssen sie die Option im Teams-Client aktivieren. Sie wechseln zu "**Einstellungen allgemein****"** > , aktivieren das Kontrollkästchen **"Protokollierung für Besprechungsdiagnose aktivieren**" (erfordert einen Neustart von Teams), starten Teams neu und reproduzieren das Problem. Der Teams-Client muss neu gestartet werden, damit die Protokollierung beginnen kann. Benutzer können sie neu starten, indem sie mit der rechten Maustaste auf das Symbol im Dock (Mac) oder in der Taskleiste (Windows) klicken und "Beenden" auswählen. Nachdem sie beendet wurden, können sie auf das App-Symbol klicken, um Teams erneut zu öffnen.
+Damit Ihre Endbenutzer Diagnosedaten für Teams-Besprechungen protokollieren können, müssen sie die Option im Teams-Client aktivieren. Sie wechseln zu "**Einstellungen allgemein****"** > , wählen die Option **"Medienprotokolle aktivieren" (Diagnosedaten für Audio, Video und Bildschirmfreigabe) aus. Erfordert einen Neustart von Teams)** (erfordert einen Neustart von Teams), starten Sie Teams neu, und reproduzieren Sie das Problem. Der Teams-Client muss neu gestartet werden, damit die Protokollierung beginnen kann. Benutzer können sie neu starten, indem sie mit der rechten Maustaste auf das Symbol im Dock (Mac) oder in der Taskleiste (Windows) klicken und "Beenden" auswählen. Nachdem sie beendet wurden, können sie auf das App-Symbol klicken, um Teams erneut zu öffnen.
 
 > [!NOTE]
 > Wenn sich Ihre Benutzer von Teams abmelden, wird die Medienprotokollierung auf den Standardwert zurückgesetzt.

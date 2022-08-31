@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: 84cc77409aecf5525a16ef73e3dfa7e0115f7566
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6667564c326552cd5671c480bb1ee66a3311c93
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268570"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466003"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -52,7 +52,6 @@ Teams bietet ohne weitere Konfiguration eine hervorragende Erfahrung, und die me
 
 > [!TIP]
 > Sehen Sie sich die folgende Sitzung an, um mehr über Besprechungen zu erfahren: [Einführung in Besprechungen in Microsoft Teams für IT-Spezialisten](https://aka.ms/teams-meetings-intro).
-
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>Voraussetzungen für Besprechungen und Konferenzen
 
@@ -150,7 +149,7 @@ Weitere Informationen finden Sie unter [Aufzeichnung einer Teams-Cloudbesprechun
 
 | Frage | Aktion |
 |--------------|--------|
-| Soll ich den Transkriptionsdienst für Besprechungen einschalten?|Lesen Sie [Aktivieren oder Deaktivieren der Aufzeichnungstranskription](meetings-policies-recording-and-transcription.md#allow-transcription).|
+| Soll ich den Transkriptionsdienst für Besprechungen einschalten?|Lesen Sie [Aktivieren oder Deaktivieren der Aufzeichnungstranskription](meetings-policies-recording-and-transcription.md#transcription).|
 
 ### <a name="live-events-policies"></a>Richtlinien für Live-Ereignisse
 
@@ -203,6 +202,7 @@ Es ist wichtig, dass Sie den Gesamtzustand Ihres Teams-Dienstes kennen, um ander
 |Wer wird in meiner Organisation für die Verwaltung des Besprechungsdienstes zuständig sein? | Stellen Sie sicher, dass die Person über die Teams-Administratorberechtigungen verfügt, die benötigt werden, um den Besprechungsdienst zu verwalten. Weitere Informationen zu den Administratorrollen in Teams finden Sie unter [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md).|
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 - [Fördern der Einführung](adopt-microsoft-teams-landing-page.md) von Besprechungen und Konferenzen innerhalb Ihrer Organisation
 - [Hinzufügen von Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md)
 - [Bereitstellen von Cloud Voice](cloud-voice-landing-page.md)

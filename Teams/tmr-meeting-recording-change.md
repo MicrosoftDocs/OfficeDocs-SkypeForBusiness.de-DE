@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc315353e1ece0b4d455937c1677e35e3c18d152
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: e78cbb4740b5839af7c6c2d09450220a080d036f
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794153"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466114"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -49,7 +49,7 @@ Die Verwendung von OneDrive for Business und SharePoint zum Speichern von Aufzei
 - Aufbewahrungsrichtlinien für Teams-Besprechungsaufzeichnung (TMR) (S+C E5 Beschriftungen zur automatischen Aufbewahrung)
 - Vorteile der Informationsgovernance in OneDrive for Business und SharePoint
 - Einfach eingestellte Berechtigungen und Freigabe
-- Freigeben von Aufzeichnungen für Gäste (externe Benutzer) nur mit expliziter Freigabe
+- Teilen von Aufzeichnungen für Gäste nur mit expliziter Freigabe
 - Ablauf von „Zugriff anfordern“
 - Bereitstellen von freigegebenen OneDrive for Business- und SharePoint-Links
 - Besprechungsaufzeichnungen sind schneller verfügbar
@@ -67,7 +67,7 @@ Schauen Sie sich für weitere Informationen "Hochladen einer Microsoft Teams-Bes
 
 Die Option zur Besprechungsaufzeichnung ist eine Einstellung auf der Richtlinienebene von Teams. Das folgende Beispiel zeigt, wie Sie die globale Richtlinie festlegen können. Stellen Sie sicher, dass Sie die Option zur Besprechungsaufzeichnung für die Richtlinie oder Richtlinien festlegen, die Sie Ihren Benutzern zugewiesen haben.
 
-> [!Note]
+> [!NOTE]
 > Änderungen an Teams-Besprechungsrichtlinien brauchen eine Weile, um verteilt zu werden. Überprüfen Sie es einige Stunden nach der Einstellung, melden Sie sich dann bei der Teams Desktop-App ab und melden Sie sich erneut an, oder starten Sie ihren Computer einfach neu.
 
 1. Installieren Sie Teams PowerShell.
@@ -95,14 +95,13 @@ Die Option zur Besprechungsaufzeichnung ist eine Einstellung auf der Richtlinien
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
-> [!Note]
+> [!NOTE]
 > Wenn einige Ihrer Benutzer eine Richtlinie pro Organisator oder Benutzer zugewiesen haben, müssen Sie diese Einstellung für diese Richtlinie festlegen, wenn Sie möchten, dass diese Benutzer die Besprechungsaufzeichnungen auch in OneDrive for Business und SharePoint speichern. Weitere Informationen finden Sie unter [Besprechungsrichtlinien in Teams verwalten](meeting-policies-overview.md).
-
 
 ## <a name="permissions-or-role-based-access"></a>Berechtigungen oder rollenbasierter Zugriff
 
-> [!Note]
-> Wir empfehlen, dass der Empfänger zum Freigeben von Teams-Besprechungsaufzeichnungen ein angemeldeter Benutzer sein muss. Wählen Sie die Option **Personen in (Ihrer Organisation)** aus, wenn Sie die Datei freigeben, wie unter [SharePoint-Dateien oder -Ordner freigeben](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US) dokumentiert. Die externe Freigabe ist nicht für die Verteilung großer Dateien oder einer großen Anzahl von Dateien ausgelegt. Um Betrugs- und Missbrauchsszenarien zu verhindern, kann es Probleme beim Freigeben einer großen Datenmenge für externe Benutzer geben.
+> [!NOTE]
+> Es wird empfohlen, dass der Empfänger beim Freigeben von Teams-Besprechungsaufzeichnungen ein angemeldeter Benutzer sein muss. Wählen Sie die Option **Personen in (Ihrer Organisation)** aus, wenn Sie die Datei freigeben, wie unter [SharePoint-Dateien oder -Ordner freigeben](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c) dokumentiert. Die externe Freigabe ist nicht für die Verteilung großer Dateien oder einer großen Anzahl von Dateien ausgelegt.
 
 |Besprechungstyp                               | Wer hat auf "Aufzeichnen" geklickt?| Wo landet die Aufzeichnung?                               |Wer hat Zugriff? Lese/Schreibzugriff, Lesezugriff oder Freigabe                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -113,8 +112,8 @@ Die Option zur Besprechungsaufzeichnung ist eine Einstellung auf der Richtlinien
 |Gruppenanruf                                 |Jedes Mitglied des Anrufs |Gruppenmitglied, das auf das OneDrive for Business-Konto der Aufzeichnung geklickt hat  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte. <br /><br /> Andere Gruppenmitglieder aus demselben Mandanten verfügen über Leseberechtigungen. <br /><br /> Andere Gruppenmitglieder aus unterschiedlichen Mandanten verfügen über keine Rechte darauf.|
 |Spontane/Geplante Besprechung                    |Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung. <br /><br /> Alle anderen Mitglieder verfügen über Lesezugriff.|
 |Spontane/Geplante Besprechung                    |Anderes Besprechungsmitglied   |Besprechungsmitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. <br /><br />Der Organisator verfügt über Bearbeitungsrechte und kann freigeben.<br /><br /> Alle anderen Besprechungsmitglieder verfügen über Lesezugriff.|
-|Spontane/Geplante Besprechung mit externen Benutzern|Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung.<br /> <br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br /> Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
-|Spontane/Geplante Besprechung mit externen Benutzern|Anderes Besprechungsmitglied   |Mitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. Der Organisator verfügt über Bearbeitungsrechte und kann freigeben. <br /><br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br />Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
+|Spontane/Geplante Besprechung mit externen Teilnehmern|Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung.<br /> <br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br /> Alle anderen externen Teilnehmer haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
+|Spontane/Geplante Besprechung mit externen Teilnehmern|Anderes Besprechungsmitglied   |Mitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. Der Organisator verfügt über Bearbeitungsrechte und kann freigeben. <br /><br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br />Alle anderen externen Teilnehmer haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
 |Kanalbesprechung                            |Kanalmitglied         |SharePoint-Speicherort für teams für diesen Kanal. **Hinweis**: Der Upload von Kanalbesprechungsaufzeichnungen in SharePoint wird für IP-basierte Einschränkungen nicht unterstützt. Wir empfehlen die Verwendung des [bedingten Azure-Zugriffs](/azure/active-directory/conditional-access/overview). |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über Bearbeitungsrechte auf die Aufzeichnung. <br /> <br />Die Berechtigungen jedes anderen Mitglieds basieren auf den SharePoint-Berechtigungen des Kanals.|
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
@@ -123,11 +122,11 @@ Die Option zur Besprechungsaufzeichnung ist eine Einstellung auf der Richtlinien
 
 - Bei Besprechungen außerhalb des Kanals wird die Aufzeichnung in einem Ordner namens **Aufzeichnungen** gespeichert, der sich auf der obersten Ebene von OneDrive for Business befindet, das zu der Person gehört, die die Besprechungsaufzeichnung gestartet hat. Beispiel:
 
-  **Aufzeichnungen**/<i>im OneDrive for Business des Aufzeichners</i>
+  **Aufzeichnungen**/*im OneDrive for Business des Aufzeichners*
 
 - Bei Kanalbesprechungen wird die Aufzeichnung in der Teamwebsite-Dokumentationsbibliothek in einem Ordner namens **Aufzeichnungen** gespeichert. Beispiel:
 
-  <i>Name des Teams – Kanalname</i>/**Dokumente**/**Aufzeichnungen**
+  *Name des Teams – Kanalname*/**Dokumente**/**Aufzeichnungen**
 
 **Wenn Stream-Dateien (z. B. Aufzeichnungen) in SharePoint/OneDrive gespeichert werden, wie wird dann entschieden, wohin sie sollen? Hat der Administrator die Möglichkeit, den Ort zu ändern, an den sie gehen sollen?**
 
@@ -139,7 +138,7 @@ Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandel
 
 **Wer besitzt die Berechtigungen zur Ansicht der Besprechungsaufzeichnung?**
 
-- Bei Besprechungen außerhalb des Kanals erhalten alle eingeladenen Besprechungsteilnehmer, mit Ausnahme externer Benutzer, automatisch einen persönlich freigegebenen Link. Externe Benutzer müssen der freigegebenen Liste vom Besprechungsorganisator oder der Person, die die Besprechungsaufzeichnung gestartet hat, explizit hinzugefügt werden.
+- Bei Nicht-Kanal-Besprechungen erhalten alle eingeladenen Besprechungen, mit Ausnahme externer Teilnehmer, automatisch einen persönlich freigegebenen Link. Externe Teilnehmer müssen der freigegebenen Liste vom Besprechungsorganisator oder der Person, die die Besprechungsaufzeichnung gestartet hat, explizit hinzugefügt werden.
 
 - Bei Kanalbesprechungen werden Berechtigungen von der Liste "Besitzer" und "Mitglieder" im Kanal geerbt.
 
@@ -148,7 +147,7 @@ Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandel
 
 **Wie kann ich Untertitel verwalten?**
 
-Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nur verfügbar, wenn der Benutzer die Transkription zum Zeitpunkt der Aufzeichnung aktiviert hatte. Administratoren müssen [die Aufzeichnungstranskription aktivieren](meetings-policies-recording-and-transcription.md#allow-transcription) , um sicherzustellen, dass ihre Benutzer die Möglichkeit haben, Besprechungen mit Transkription aufzuzeichnen.
+Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nur verfügbar, wenn der Benutzer die Transkription zum Zeitpunkt der Aufzeichnung aktiviert hatte. Administratoren müssen [die Aufzeichnungstranskription aktivieren](meetings-policies-recording-and-transcription.md#transcription) , um sicherzustellen, dass ihre Benutzer die Möglichkeit haben, Besprechungen mit Transkription aufzuzeichnen.
 
 Untertitel helfen dabei, inklusive Inhalte für Zuschauer aller Fähigkeiten zu erstellen. Als Besitzer können Sie Untertitel in der Besprechungsaufzeichnung ausblenden, obwohl das Besprechungsprotokoll weiterhin in Teams verfügbar ist, es sei denn, Sie löschen es dort.
 

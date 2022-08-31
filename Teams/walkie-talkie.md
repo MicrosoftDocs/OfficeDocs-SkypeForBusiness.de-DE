@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815d3c6b1e97ea75eaa7ae4e35d3e41dd3c6e9e4
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396446"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465993"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-App in Microsoft Teams
 
@@ -48,7 +48,7 @@ Walkie Talkie ist standardmäßig für alle Teams-Benutzer in Ihrer Organisation
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von Walkie-Talkie für bestimmte Benutzer in Ihrer Organisation
 
-Um die Verwendung von Walkie-Talkie für bestimmte Benutzer in Ihrer Organisation zuzulassen oder zu blockieren, stellen Sie sicher, dass Walkie Talkie für Ihre Organisation auf der Seite ["Apps verwalten"](manage-apps.md) aktiviert ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](teams-app-permission-policies.md).
+Um die Verwendung von Walkie-Talkie für bestimmte Benutzer in Ihrer Organisation zuzulassen oder zu blockieren, stellen Sie sicher, dass Walkie Talkie für Ihre Organisation auf der Seite ["Apps verwalten"](manage-apps.md) aktiviert ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, fügen Sie sie einer App-Setuprichtlinie hinzu, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md) und [Verwalten von App-Setuprichtlinien in Microsoft Teams](teams-app-setup-policies.md).
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Anheften von Walkie-Talkie an Teams
 
