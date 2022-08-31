@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in der Slowakei für Microsoft Teams.
-ms.openlocfilehash: 05f953c2ff98a71586cced881f21cc91786c30c5
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: c29dbf6493e106d0c2b6560b53c79dd3ae0f1967
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789610"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466083"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Telefonnummernverwaltung für die Slowakei
 
@@ -37,11 +37,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In der Slowakei können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center abrufen. Sie können auch eine neue Telefonnummernanforderung senden, indem Sie das Formular herunterladen und [sich an den TNS-Service Desk wenden, um Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>[Neue Telefonnummernanforderung für die Slowakei (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular "Ihr Kunden kennen" herunterladen, es vollständig ausfüllen und sich [an den TNS-Service Desk wenden, um Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>Neue Bestellungen können zwei bis drei Wochen dauern, um diesen Markt zu füllen.  |
-|Lassen Sie Telefonnummern an uns übertragen.   | Laden Sie dieses Formular herunter. <br/>[Schriftliche Vollmacht für die Slowakei (alle Nummern) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf). <br/> <br/>[Schriftliche Vollmacht für die Slowakei (alle Nummern) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf). <br/><br/>Füllen Sie sie aus, und [wenden Sie sich an den TNS-Service Desk, um Anweisungen zu erhalten](contact-tns-service-desk.md). <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis fünf Wochen dauern. <br/><br/>Diese Nummern können zurzeit nicht für Konferenzen verwendet werden. |
-|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS-Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Telefonnummern zu erhalten, die Sie veröffentlichen/die Veröffentlichung aufheben möchten. <br/> |
-|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS-Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Benutzernummern zu erhalten, die Sie in Dienstnummern konvertieren möchten. <br/> |
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenn Sie Anrufwarteschleifen- oder automatische Telefonzentralennummern hinzufügen oder ändern möchten, wenden Sie sich an [den TNS-Service Desk, um Anweisungen zu erhalten](contact-tns-service-desk.md). |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In der Slowakei können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center abrufen. Sie können auch eine neue Telefonnummernanforderung senden, indem Sie das Formular herunterladen und [sich an den TNS Service Desk wenden, um entsprechende Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>[Neue Telefonnummernanforderung für die Slowakei (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular "Ihr Kunden kennen" herunterladen, es vollständig ausfüllen und sich [an den TNS Service Desk wenden, um Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>Neue Bestellungen können zwei bis drei Wochen dauern, um diesen Markt zu füllen.  |
+|Lassen Sie Telefonnummern an uns übertragen.   | Laden Sie dieses Formular herunter. <br/>[Schriftliche Vollmacht für die Slowakei (alle Nummern) (v.1.1) (en-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/LOA-SK-GEO-EN.pdf). <br/><br/>Füllen Sie sie aus, und [wenden Sie sich an den TNS Service Desk, um Entsprechendes zu erhalten](contact-tns-service-desk.md). <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis fünf Wochen dauern. <br/><br/>Diese Nummern können zurzeit nicht für Konferenzen verwendet werden. |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Telefonnummern zu erhalten, die Sie veröffentlichen/die Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk, um Anweisungen](contact-tns-service-desk.md) zur Liste der Benutzernummern zu erhalten, die Sie in Servicenummern konvertieren möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenn Sie Anrufwarteschleifen- oder automatische Telefonzentralennummern hinzufügen oder ändern möchten, wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten](contact-tns-service-desk.md). |
    
 ## <a name="related-topics"></a>Verwandte Themen
 

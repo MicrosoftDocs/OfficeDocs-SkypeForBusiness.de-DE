@@ -17,12 +17,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Erfahren Sie, wie Sie Geräte im Teams Admin Center-Gerätespeicher durchsuchen und kaufen.
-ms.openlocfilehash: a6b68f6e1ffbde15f9f38dfcdeac881a7b3aabc1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d1e3d016f51c6113b6f09076f67647c32f7fd1fa
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267980"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466213"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Kaufen von Geräten im Teams-Gerätespeicher
 
@@ -32,7 +32,7 @@ Im Gerätespeicher im Teams Admin Center können Sie Geräte durchsuchen, kaufen
 
 ## <a name="requirements"></a>Anforderungen
 
-Um den Gerätespeicher verwenden zu können, müssen Sie ein globaler Administrator oder ein Teams-Administrator sein.
+Um den Gerätespeicher verwenden zu können, müssen Sie ein globaler Administrator, ein Teams-Administrator oder ein Teams-Geräteadministrator sein.
 
 ## <a name="browse-the-store"></a>Durchsuchen des Speichers
 
@@ -45,14 +45,6 @@ Wenn Sie Geräte im Gerätespeicher erwerben, werden die Zahlung und Erfüllung,
 Sie können mit einer Kreditkarte oder einer Bestellung bezahlen. Die Zahlung der Bestellung erfordert eine einmalige Einrichtung mit dem Erfüllungsanbieter.
 
 Alle Bestellungen können bis zu 30 Tage nach ihrer Lieferung zurückgegeben werden.
-
-## <a name="data-handling-and-sharing"></a>Datenverarbeitung und -freigabe
-
-Der Teams-Gerätespeicher muss grundlegende Benutzer- und Unternehmensinformationen, einschließlich Benutzer- und Mandanten-GUIDs, mit UnifiedCommunications.com teilen, um den Einkauf im Teams Admin Center zu ermöglichen.
-
-Die Datenfreigabe ist standardmäßig deaktiviert. Um es zu aktivieren, wechseln Sie zum Teams-Gerätespeicher, wählen Sie das Symbol "Einstellungen" aus, und aktivieren Sie die Einstellung.  
-
-Wenn diese Einstellung deaktiviert ist, werden keine Daten freigegeben, und Sie können den Teams-Gerätespeicher durchsuchen, aber Sie können keine Einkäufe tätigen. Die Daten, die während der Einstellung gesammelt und an den Erfüllungsanbieter weitergegeben wurden, werden wie in ihren Datenschutzbestimmungen angegeben verarbeitet.
 
 ## <a name="order-tracking-and-history"></a>Auftragsverfolgung und -verlauf
 

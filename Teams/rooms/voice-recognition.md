@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270040"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465973"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Verwalten von Steuerelementen für die Spracherkennungstechnologie für einen intelligenten Lautsprecher
 
@@ -71,12 +71,12 @@ Ein intelligenter Lautsprecher sollte mindestens 8 Zoll (20 cm) von Wänden und 
 
    ![Das Setup des intelligenten Lautsprechers mit dem Lautsprecher, der direkt mit der Konsole verbunden ist.](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > EPOS- und Yealink-Geräte sollten das Präfix "EPOS" oder "Yealink" aufweisen und "UAC2_RENDER" im Lautsprechernamen und "UAC2_TEAMS" im Mikrofonnamen enthalten. Wenn Sie diese Mikrofon- und Lautsprechernamen nicht im Dropdownmenü finden, starten Sie das Intelligent Speaker-Gerät neu.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Aktivieren einer Benutzererkennung für intelligente Lautsprecher
 
-Sprachprofildaten können in jeder Besprechung mit einem intelligenten Lautsprecher verwendet werden. Informationen zu den Besprechungseinstellungen finden Sie in den [Teams-Besprechungsrichtlinien](../meetings-policies-recording-and-transcription.md#allow-transcription) und den [PowerShell-Besprechungs-Cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) .
+Sprachprofildaten können in jeder Besprechung mit einem intelligenten Lautsprecher verwendet werden. Informationen zu den Besprechungseinstellungen finden Sie in den [Teams-Besprechungsrichtlinien](../meetings-policies-recording-and-transcription.md#transcription) und den [PowerShell-Besprechungs-Cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) .
 
 Die VoIP-Profildaten des Benutzers werden erstellt, wenn die Richtlinie so festgelegt ist, dass sie unterscheidet oder während der Besprechung ein eingeladener Teilnehmer, der keine Besprechung ist, eingeht. Die VoIP-Profildaten werden am Ende der Besprechung geschlossen.
 
@@ -163,4 +163,4 @@ Nachdem sich ein Endbenutzer registriert hat, kann seine Stimme während Besprec
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Supportartikel: Verwenden intelligenter Lautsprecher zum Identifizieren von Teilnehmern im Raum ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[Supportartikel: Verwenden intelligenter Lautsprecher zum Identifizieren von Teilnehmern im Raum](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
