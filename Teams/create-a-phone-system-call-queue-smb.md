@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen in Microsoft Teams einrichten. Anrufwarteschleifen stellen eine Begrüßungsnachricht bereit, halten Musik, Anrufumleitung und andere Features bereit.
-ms.openlocfilehash: c95365701760c7db4c0d80ea0875920a91f814e1
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 2a1f16d9cde74988e082736f4d50f101fa0d6759
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443502"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486870"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -361,11 +361,11 @@ Die folgenden Konfigurationen werden empfohlen:
 |`Round Robin`                    |J                         |J         |J               |J    |J         |J                     |J                         |*Empfohlen* |
 |`Serial`                         |J                         |J         |J               |J    |J         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Agent-Routingoptionen**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|J                      |J         |J               |N    |J         |J                     |J                         |*Empfohlen* |
+|`Presence Based Routing`<sup>3</sup>|J                      |J         |J               |N    |J         |J                     |J                         |*Standard* |
 |`Agents can Opt-out`               |J                       |J         |J               |Y<sup>7</sup>|Y<sup>7</sup>|J          |J                         |*Standard*     |
 |**Übertragungsmodi**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |J                         |J         |J               |N    |Y<sup>6</sup>|J                  |J                         |*Empfohlen* |
-|`Transfer Mode`                  |J                         |J         |J               |J    |J         |J                     |J                         |*Standard*              |
+|`Conference Mode`<sup>5</sup>    |J                         |J         |J               |N    |Y<sup>6</sup>|J                  |J                         |*Standard* |
+|`Transfer Mode`                  |J                         |J         |J               |J    |J         |J                     |J                         |   |
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |J                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**Dynamische Anrufer-ID**            |                          |          |                |     |          |                      |                          |   |

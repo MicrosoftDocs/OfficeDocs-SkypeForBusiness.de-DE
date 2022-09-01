@@ -1,37 +1,35 @@
 ---
 title: Grundlegendes zu Drittanbieter-Apps in Microsoft Teams
-ms.reviewer: ''
-description: Erfahren Sie mehr über Drittanbieter-Apps von ISVs und Microsoft-Partnern in Microsoft Teams.
+description: Erfahren Sie mehr über Apps von Drittanbietern für Teams, die vom App-Entwickler und von Microsoft-Partnern erstellt wurden.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b1056c577b262b4b1216ce1fe71dba4ce71ffd66
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
-ms.translationtype: HT
+ms.openlocfilehash: e44cd87189033d6082f38a2d4534738c83187e7b
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880479"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67487000"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Übersicht über Drittanbieter-Apps in Microsoft Teams
 
-Teams Store bietet neben den von Microsoft bereitgestellten Apps viele nützliche Apps, die von Softwareherausgebern und -entwicklern von Drittanbietern erstellt wurden. Während diese Apps von Drittanbietern erstellt werden, führt Microsoft eine strenge Überprüfung der Funktionalität, Benutzerfreundlichkeit und Sicherheit dieser Apps durch. Erst nach der Überprüfung stellt Microsoft Apps im Teams Store zur Verfügung. Damit Endbenutzer vom umfangreichen App-Ökosystem profitieren können, ist die App-Governance durch Administratoren ein wichtiger Schritt. Legen Sie als Administrator einen App-Governance-Prozess fest, der die vielfältigen App-Anforderungen der Endbenutzer und die Einschränkungen durch interne IT-Richtlinien, Standards und Risikoprofile abgleicht.
+Der Teams Store bietet viele nützliche Apps, die von Softwareentwicklern von Drittanbietern erstellt wurden, zusätzlich zu den von Microsoft bereitgestellten Apps. Um diese zu verwenden, legen Sie als Administrator einen App-Governance-Prozess fest, der die vielfältigen Anforderungen von Endbenutzern zusammen mit den IT-Richtlinien, Standards und Risikoprofilen Ihrer Organisation ausgleicht. Während diese Apps von Drittanbietern erstellt werden, führt Microsoft eine strenge Überprüfung der Funktionalität, Benutzerfreundlichkeit und Sicherheit dieser Apps durch. Erst nach der Überprüfung stellt Microsoft Apps im Teams Store zur Verfügung. Damit Endbenutzer vom umfangreichen App-Ökosystem profitieren können, ist die App-Governance durch Administratoren ein wichtiger Schritt.
 
 Apps von Drittanbietern in Microsoft Teams werden nicht von Microsoft kontrolliert oder gehören nicht zu Microsoft, und sie unterliegen nicht dem Microsoft Online-Abonnementvertrag. Die Nutzung jeder Drittanbieter-App durch Ihre Organisation unterliegt den Nutzungsbedingungen und Datenschutzbestimmungen dieser App. Mit dem Teams Admin Center können Sie alle Berechtigungen einer App, Datenschutzbestimmungen und Nutzungsbedingungen überprüfen, bevor Sie deren Verwendung zulassen. Wie immer können Sie die Verwendung einer App für einige bestimmte Benutzer oder alle Benutzer zulassen. Bei Drittanbieter-Apps wie bei benutzerdefinierten Apps ermöglicht Microsoft Teams Administratoren, die Verwendung der Apps zuzulassen, zu verbieten, zu regeln und zu analysieren.
 
-Microsoft stellt sicher, dass Administratoren die Kontrolle über Drittanbieter-Apps haben und nur qualitativ hochwertige Apps im Teams Store verfügbar sind. Alle Apps durchlaufen eine obligatorische Überprüfungsrunde, bei der die Funktionalität der App, die Identifizierung des Herausgebers, die von der App angeforderten Berechtigungen und die Compliance, der Datenschutz und die Datensicherheit überprüft werden. Wir empfehlen Apps, Teil eines optionalen Programms zu sein, um einen zusätzlichen Schwerpunkt auf Sicherheit und Compliance mit Branchenstandards zu legen. Informationen zu diesen Programmen finden Sie in den folgenden Artikeln:
+Microsoft stellt sicher, dass Administratoren die Kontrolle über Drittanbieter-Apps haben und nur qualitativ hochwertige Apps im Teams Store verfügbar sind. Alle Apps durchlaufen eine obligatorische Überprüfungsrunde, die die Funktionalität der App überprüft, den Entwickler identifiziert, von der App gewünschte Berechtigungen und Überprüfungen in Bezug auf Compliance, Datenschutz und Datensicherheit durchführt. Wir empfehlen Apps, Teil eines optionalen Programms zu sein, um einen zusätzlichen Schwerpunkt auf Sicherheit und Compliance mit Branchenstandards zu legen. Informationen zu diesen Programmen finden Sie in den folgenden Artikeln:
 
 1. [App-Überprüfung](overview-of-app-validation.md#app-validation-and-testing)
 

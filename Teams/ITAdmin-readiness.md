@@ -18,12 +18,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc931e442b5777c129482ad22e7698b9446e5695
-ms.sourcegitcommit: 10bb44fdd23d0b42a81229028d1b86515f88e7bb
+ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2022
-ms.locfileid: "67435291"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486900"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
@@ -65,18 +65,18 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 <p>Die folgende Tabelle enthält Links zu umfassenden Videoschulungen mit zugehörigen PowerPoint-Foliensätzen (im PDF-Format) über Microsoft Teams-Räume.  
 
-| Modul | Video | PowerPoint-Foliensatz (PDF)  |
-| ------------ | -------------------- | -------------------- |
-| Modul 1: Einführung in Microsoft Teams-Räume (18:29 Min.) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| Modul 2: Microsoft Teams Networking (34:10 Min.) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| Modul 3: Das richtige Gerät für den richtigen Raum auswählen (18:45 Min.) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| Modul 4: Bereitstellen von Microsoft Teams-Räumen (56:36 Min.) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| Modul 5: Konfigurieren und erste Schritte mit Microsoft Teams-Räumen (32:27 Min.) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| Modul 6: Verwalten von Microsoft Teams-Räumen, Teil 1 (18:31 Min.) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| Modul 7: Verwalten von Microsoft Teams-Räumen, Teil 2 (41:06 Min.) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Modul 8: Microsoft Teams-Räume - Tipps, Tricks und Problembehandlung (18:14 Min.)| [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
-| Ein-Kick-Beitrittsanleitungen |  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Einführung in Microsoft Teams-Räume Managed Services |  | [Foliensatz](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
+| Modul | PowerPoint-Foliensatz (PDF)  |
+| ------------ | -------------------- |
+| Modul 1: Einführung in Microsoft Teams-Räume  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| Modul 2: Microsoft Teams Networking  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| Modul 3: Auswählen des richtigen Geräts für den richtigen Platz  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| Modul 4: Bereitstellen von Microsoft Teams-Räume  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| Modul 5: Konfigurieren und Starten von Microsoft Teams-Räume  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| Modul 6: Verwalten von Microsoft Teams-Räume, Teil 1  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| Modul 7: Verwalten von Microsoft Teams-Räume, Teil 2  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| Modul 8: Microsoft Teams-Räume – Tipps, Tricks und Problembehandlung | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Ein-Kick-Beitrittsanleitungen |  [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Einführung in Microsoft Teams-Räume Managed Services | [Foliensatz](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Android-Geräte in Teams</h2>
 

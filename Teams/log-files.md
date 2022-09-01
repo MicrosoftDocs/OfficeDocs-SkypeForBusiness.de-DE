@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Debug-, Medien- und Desktopprotokolle, die von Microsoft Teams erstellt wurden, wo sie zu finden sind und wie sie bei der Überwachung und Problembehandlung helfen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466033"
+ms.locfileid: "67486890"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Konfigurieren von Protokolldateien für die Überwachung und Problembehandlung in Teams
 
@@ -118,7 +118,7 @@ Lesen Sie [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-cstea
 
 ### <a name="end-user-configuration"></a>Endbenutzerkonfiguration
 
-Damit Ihre Endbenutzer Diagnosedaten für Teams-Besprechungen protokollieren können, müssen sie die Option im Teams-Client aktivieren. Sie wechseln zu "**Einstellungen allgemein****"** > , wählen die Option **"Medienprotokolle aktivieren" (Diagnosedaten für Audio, Video und Bildschirmfreigabe) aus. Erfordert einen Neustart von Teams)** (erfordert einen Neustart von Teams), starten Sie Teams neu, und reproduzieren Sie das Problem. Der Teams-Client muss neu gestartet werden, damit die Protokollierung beginnen kann. Benutzer können sie neu starten, indem sie mit der rechten Maustaste auf das Symbol im Dock (Mac) oder in der Taskleiste (Windows) klicken und "Beenden" auswählen. Nachdem sie beendet wurden, können sie auf das App-Symbol klicken, um Teams erneut zu öffnen.
+Damit Ihre Endbenutzer Diagnosedaten für Teams-Besprechungen protokollieren können, müssen sie die Option im Teams-Client aktivieren. Sie wechseln zu **"Einstellungen** > **allgemein**", aktivieren das Kontrollkästchen " **Medienprotokolle aktivieren" (Diagnosedaten für Audio, Video und Bildschirmfreigabe),** und reproduzieren das Problem.
 
 > [!NOTE]
 > Wenn sich Ihre Benutzer von Teams abmelden, wird die Medienprotokollierung auf den Standardwert zurückgesetzt.

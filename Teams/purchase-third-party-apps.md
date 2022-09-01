@@ -15,12 +15,12 @@ description: Erfahren Sie, wie Sie Apps von Drittanbietern im Teams Store mithil
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396306"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486720"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Kaufen von Drittanbieter-Apps für Teams
 
@@ -28,7 +28,7 @@ Teams-Apps können kostenlos installiert werden, und einige erfordern möglicher
 
 Auf der Seite [Apps verwalten](manage-apps.md) im Microsoft Teams Admin Center können Sie alle Teams-Apps für Ihre Organisation anzeigen und verwalten. Beispielsweise können Sie den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, neue benutzerdefinierte Apps in den App Store Ihrer Organisation hochladen, Apps auf Organisationsebene blockieren oder zulassen und organisationsweite App-Einstellungen verwalten.
 
-Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps für Benutzer in Ihrer Organisation angeboten werden. Die Spalte **Lizenzen** in der Tabelle gibt an, ob eine App ein SaaS-Abonnement zum Kauf anbietet.
+Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps für Benutzer in Ihrer Organisation angeboten werden. Die Spalte **Lizenzen** in der Tabelle gibt an, ob eine App ein SaaS-Abonnement zum Kauf anbietet. Endbenutzer können Apps mit einer Kreditkarte, einer Debitkarte oder mit Rechnungsabrechnung erwerben.
 
 ![Screenshot der Seite „Apps verwalten“ zum Kauf von Lizenzen.](media/manage-apps-new-page.png)
 

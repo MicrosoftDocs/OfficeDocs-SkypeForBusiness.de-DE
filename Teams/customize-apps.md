@@ -1,6 +1,6 @@
 ---
 title: Ändern der Darstellung von Apps im Microsoft Teams-Store Ihrer Organisation
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Darstellung und das Branding einer App durch Bearbeiten der App-Details und -Metadaten ändern können.
-ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298884"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486920"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Anpassen der Darstellung von Apps im Microsoft Teams Store Ihrer Organisation
 
-Mit Microsoft Teams können Administratoren die Microsoft Teams-App anpassen, um die Benutzererfahrung im Store zu verbessern und das Branding ihrer Organisation einzuhalten. Ein App-Entwickler kann zulassen, dass seine App von einem Microsoft Teams-Administrator angepasst wird. Dieser kann dann die App-Eigenschaften basierend auf den Anforderungen der Organisation im Microsoft Teams Admin Center auf der Seite "Apps verwalten" ändern. Die Details, die Sie anpassen können, sind:
+Mit Microsoft Teams können Administratoren die Teams-App anpassen, um die Store-Erfahrung zu verbessern und das Branding ihrer Organisation einzuhalten. Ein App-Entwickler kann zulassen, dass seine App von einem Microsoft Teams-Administrator angepasst wird. Dieser kann dann die App-Eigenschaften basierend auf den Anforderungen der Organisation im Microsoft Teams Admin Center auf der Seite "Apps verwalten" ändern. Die Details, die Sie anpassen können, sind:
 
 * Kurzname
 * Kurzbeschreibung

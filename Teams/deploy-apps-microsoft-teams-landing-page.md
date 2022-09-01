@@ -19,18 +19,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397196"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486910"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Grundlegendes zu Microsoft Teams-Apps
 
 Apps sind eine hervorragende Möglichkeit, Ihre Arbeitsplatztools und -dienste zusammenzuführen und mit anderen zusammenzuarbeiten. Apps helfen Endbenutzern, produktiver, zusammenarbeitsfähiger und effektiver bei ihren täglichen Aufgaben zu sein. Organisationen verwenden Apps, um mit ihren Kunden zu kommunizieren, Dienste bereitzustellen und Informationen zu teilen. Beispiele hierfür sind Endbenutzer, die eine angeheftete Kalender-App in Teams verwenden, um schnell mit anderen zusammenzuarbeiten, eine App mit Botfunktionalität verwenden, die Benutzer über die Qualität eines Webdiensts in einem Teams-Kanal informiert, und eine App zum Freigeben und Zuweisen von Aufgaben zu verschiedenen Endbenutzern in einem Kanal verwenden.
 
-Unser umfassender Katalog überprüfter und sicherer Apps im Microsoft Teams Store bietet Endbenutzern Zugriff auf die Tools und Dienste, die ihre Organisation täglich benötigt. Microsoft Teams-Apps sind webbasierte SaaS-Apps, die nicht bereitgestellt werden müssen. Endbenutzer können Apps in Microsoft Teams nur entsprechend den [von Ihnen festgelegten Berechtigungen](app-policies.md) verwenden. Als Administrator verwenden Sie Richtlinien auf Unternehmensniveau, um Apps für die Benutzer Ihrer Organisation zuzulassen oder zu blockieren. Sie steuern die Verfügbarkeit von Apps für die einzelnen Benutzer in den verschiedenen Kontexten wie Besprechungen, Chats und Kanälen.
+Unser umfangreicher [Katalog](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) validierter und sicherer Apps im Teams Store bietet Endbenutzern Zugriff auf die Tools und Dienste, die Ihre Organisation täglich benötigt. Microsoft Teams-Apps sind webbasierte SaaS-Apps, die nicht bereitgestellt werden müssen. Endbenutzer können Apps in Microsoft Teams nur entsprechend den [von Ihnen festgelegten Berechtigungen](app-policies.md) verwenden. Als Administrator verwenden Sie Richtlinien auf Unternehmensniveau, um Apps für die Benutzer Ihrer Organisation zuzulassen oder zu blockieren. Sie steuern die Verfügbarkeit von Apps für die einzelnen Benutzer in den verschiedenen Kontexten wie Besprechungen, Chats und Kanälen.
 
 In diesem Artikel erfahren Sie, welche Arten von Apps es gibt und von wo aus Ihre Benutzer auf diese zugreifen. Weitere Informationen zur Verwendung von Apps finden Sie unter [Überblick über Apps für Endbenutzer](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden finden Sie einige der häufigsten Fragen, die wir von unseren Kunden erhalten, die Audiokonferenz nutzen möchten.
-ms.openlocfilehash: b6b14397282a365931dc58e6da20f2b3da3ab6c8
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1f2e45a68b1f964453645c1d06794f9016019beb
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023746"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486980"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenz
 
@@ -142,7 +142,7 @@ Nur für Besprechungsorganisatoren:
 | Befehlsname                   | Befehlstaste | Beschreibung                                                 |
 |--------------------------------|--------------|-------------------------------------------------------------|
 | Alle einlassen                      | \*21         | Drücken Sie \*21, um alle Teilnehmer im Wartebereich einzulassen.  |
-| Alle stumm schalten                       | \*22         | Drücken Sie \*22, um alle Teilnehmer (mit Ausnahme des Organisators) stummzuschalten. |
+| Alle stumm schalten                       | \*22         | Drücken Sie \*22, um alle Teilnehmer stummzuschalten (außer dem Organisator). |
 | Eintritts-/Austrittsankündigung umschalten | \*23         | Drücken Sie \*23, um die Eintritts- und Austrittsmitteilungen zu aktivieren oder zu deaktivieren.    |
 
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Können Teilnehmer, die sich in einer Skype for Business- oder Microsoft Teams-Besprechung befinden, internationale Telefonnummern anwählen?
