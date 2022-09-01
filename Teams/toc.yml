@@ -607,8 +607,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: Entfernen der Besprechungsrichtlinie „RestrictedAnonymousAccess“ aus den Benutzern
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: Besprechungsrichtlinien und Ablauf der Besprechung
-            href: meeting-expiration.md
+          - name: 'Verwalten, wer Besprechungen starten und planen kann'
+            href: manage-who-can-schedule-meetings.md
           - name: Verwalten von Besprechungseinstellungen
             href: meeting-settings-in-teams.md
           - name: 'E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern'
@@ -863,8 +863,6 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Telefonieanbieter
             items:
-              - name: Neuerungen
-                href: operator-connect-whats-new.md
               - name: Plan für Telefonieanbieter
                 href: operator-connect-plan.md
               - name: Konfigurieren von Telefonieanbieter
@@ -953,6 +951,8 @@ items:
             href: search-for-phone-numbers-for-users.md
           - name: 'Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer'
             href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: Verwalten der Verwendung einer Telefonnummer
+            href: manage-the-usage-of-a-phone-number.md
           - name: Anzeigen einer Liste der Telefonnummern in Ihrer Organisation
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: Telefonnummern für Anrufplan verwalten
@@ -1068,7 +1068,7 @@ items:
               - name: 'Schritt 5: Telefonnummern an Benutzer zuweisen'
                 href: business-voice/set-up-assign-numbers.md
               - name: 'Schritt 6: Eine automatische Telefonzentrale einrichten'
-                href: create-a-phone-system-auto-attendant.md
+                href: create-a-phone-system-auto-attendant-smb.md
               - name: 'Schritt 7: Porttelefonnummern (optional)'
                 href: business-voice/port-phone-numbers.md
               - name: Ressourcen nach der Einrichtung
@@ -1084,7 +1084,7 @@ items:
               - name: Erstellen weiterer Benutzer
                 href: business-voice/create-users.md
               - name: Einrichten einer Anrufwarteschleife
-                href: create-a-phone-system-call-queue.md
+                href: create-a-phone-system-call-queue-smb.md
           - name: Verwalten der Einrichtung ihres Telefonsystems
             items:
               - name: Verwalten von Geräten
@@ -1135,6 +1135,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: Telefonnummernverwaltung für Luxemburg
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: Telefonnummernverwaltung für Mexiko
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
               - name: Telefonnummernverwaltung für Neuseeland
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
               - name: Telefonnummernverwaltung für Norwegen
@@ -1579,44 +1581,65 @@ items:
             href: apps-update-experience.md
           - name: Überwachung von App-Management-Aktivitäten
             href: audit-app-management-activities.md
-          - name: App-Nutzungsbericht und Analysen
+          - name: Anzeigen von App-Nutzungsberichten und Analysen
             href: teams-analytics-and-reports/app-usage-report.md
   - name: Branchen- und Regierungsrichtlinien
     items:
       - name: Übersicht
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Teams für Education
-        href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: Schnellstart – Administratoren von Microsoft Teams für Education
-            href: teams-quick-start-edu.yml
-          - name: Erste Schritte mit Remote Learning
-            href: remote-learning-edu.md
-          - name: Teams-Richtlinien und -Richtlinienpakete für Education
-            href: policy-packages-edu.md
-          - name: Zuweisen von Richtlinien zu großen Benutzergruppen
-            href: batch-group-policy-assignment-edu.md
-          - name: PowerShell-Skript zum Erstellen von Sicherheitsgruppen für Lehrkräfte und Kursteilnehmer
-            href: scripts/powershell-script-security-groups-edu.md
-          - name: Anleitungen zu geringer Bandbreite für Administratoren in Bildungseinrichtungen
-            href: edu-remote-low-bandwidth.md
-          - name: Richtlinienassistent für Teams für Education
-            href: easy-policy-setup-edu.md
-          - name: Elternverbindung in Teams for Education
-            href: edu-parents-app.md
-          - name: Karrierecoach
+          - name: Übersicht über Teams für Education
+            href: expand-teams-across-your-org/teams-for-education-landing-page.md
+          - name: Erste Schritte mit Teams für Education
             items:
-              - name: Erste Schritte mit dem Karrierecoach
-                href: career-coach.md
-              - name: Einrichten und konfigurieren des Karrierecoaches
-                href: career-coach-set-up-steps.md
-              - name: Problembehandlung für den Karrierecoach
-                href: career-coach-troubleshoot.md
-              - name: Ressourcen für den Karrierecoach
-                href: career-coach-resources.md
-          - name: Chats in Microsoft Teams überwachen
-            href: supervise-chats-edu.md
-          - name: Education Insights
+              - name: Schnellstart – Einrichten von Teams für Education
+                href: teams-quick-start-guide-edu.md
+              - name: Erste Schritte mit Remote Learning
+                href: remote-learning-edu.md
+              - name: Problembehandlung bei Szenarien mit geringer Bandbreite
+                href: edu-remote-low-bandwidth.md
+              - name: Zuweisen von Teams-Lizenzen für Bildungseinrichtungen
+                href: teams-edu-licensing.md
+              - name: Häufig gestellte Fragen zu Microsoft Education für IT-Administratoren
+                href: plan-teams-governance-edu.md
+              - name: Freigeben von Teams-Einführungsressourcen
+                href: resources-teams-edu.md
+              - name: Education-SKU-Referenz
+                href: sku-reference-edu.md
+          - name: Teams-Richtlinien für Bildungseinrichtungen
+            items:
+              - name: Verwalten von Teams-Richtlinien und Richtlinienpaketen
+                href: policy-packages-edu.md
+              - name: Schnelles Einrichten von Richtlinien für Benutzer
+                href: easy-policy-setup-edu.md
+              - name: Zuweisen von Richtlinien zu großen Benutzergruppen
+                href: batch-group-policy-assignment-edu.md
+              - name: Erstellen von Sicherheitsgruppen für Lehrkräfte und Schüler/Studenten
+                href: scripts/powershell-script-security-groups-edu.md
+          - name: Einrichten von Features für Lehrkräfte
+            items:
+              - name: Einrichten von überwachten Chats in Teams
+                href: supervise-chats-edu.md
+              - name: Einrichten von Aufgaben in Teams
+                href: expand-teams-across-your-org/assignments-in-teams.md
+              - name: Einrichten der übergeordneten Verbindung in Teams
+                href: edu-parents-app.md
+              - name: Karrierecoach
+                items:
+                  - name: Erste Schritte mit dem Karrierecoach
+                    href: career-coach.md
+                  - name: Einrichten und konfigurieren des Karrierecoaches
+                    href: career-coach-set-up-steps.md
+                  - name: Problembehandlung für den Karrierecoach
+                    href: career-coach-troubleshoot.md
+                  - name: Ressourcen für den Karrierecoach
+                    href: career-coach-resources.md
+          - name: LMS- und LTI-Integrationen
+            items:
+              - name: Installieren der Moodle LMS-Integration
+                href: install-moodle-integration.md
+          - name: Informationen zu Kursteilnehmern mit Education Insights
             items:
               - name: Erste Schritte mit Insights
                 href: class-insights.md
@@ -1624,23 +1647,11 @@ items:
                 href: education-insights-sis-data-sync.md
               - name: Verwalten des Benutzerzugriffs auf Insights
                 href: education-insights-manage-access.md
-              - name: Erste Schritte mit Reflect
+              - name: Einrichten von Reflect für emotionale Einblicke
                 href: reflect.md
               - name: Grundlegendes zu Insights für Lesefortschritt
                 href: insights-for-reading-progress.md
-          - name: Aufgaben in Teams für Education
-            href: expand-teams-across-your-org/assignments-in-teams.md
-          - name: Teams-Ressourcen für Administratoren in Education
-            href: resources-teams-edu.md
-          - name: Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren
-            href: plan-teams-governance-edu.md
-          - name: Installieren von Moodle-Integration
-            href: install-moodle-integration.md
-          - name: Teams-Lizenzierung für Education
-            href: teams-edu-licensing.md
-          - name: Education-SKU-Referenz
-            href: sku-reference-edu.md
-          - name: Teams-Geräte für Education
+          - name: Suchen von Teams-Geräten für Bildungseinrichtungen
             href: devices-for-education.md
       - name: Teams für Mitarbeiter mit direktem Kundenkontakt
         items:
@@ -1720,13 +1731,13 @@ items:
             href: get-started-with-teams-essentials.md
           - name: Verbinden Sie Teams Essentials (AAD Identity) mit E-Mail
             href: connect-teams-essentials-to-email.md
-      - name: Upgrade von Kaizala
+      - name: Wechseln von Kaizala
         items:
           - name: Erste Schritte
             href: get-started-kaizala-teams.md
-          - name: Vorbereiten des Upgrades
+          - name: Vorbereiten des Verschiebens
             href: prepare-for-teams-kaizala.md
-          - name: Planen der Upgrade-Strategie
+          - name: Planen Ihres Umzugs nach Kaizala
             href: plan-your-move-kaizala.md
           - name: Microsoft Teams navigieren
             href: navigate-teams.md
