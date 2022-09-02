@@ -1503,6 +1503,8 @@ items:
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: 'Verwalten von Apps, die von Microsoft bereitgestellt werden'
         items:
+          - name: Verwalten der Admin-App
+            href: manage-admin-app.md
           - name: Verwalten der Microsoft Bookings-App
             href: bookings-app-admin.md
           - name: Verwalten der Listen-App
