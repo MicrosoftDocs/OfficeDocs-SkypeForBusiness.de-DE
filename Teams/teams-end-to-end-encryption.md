@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
-ms.translationtype: HT
+ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65249007"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572085"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Verwenden der End-to-End-Verschlüsselung für Einzelgespräche in Microsoft Teams
 
@@ -34,6 +34,8 @@ ms.locfileid: "65249007"
 Die End-to-End-Verschlüsselung (oder E2EE) wird durchgeführt, wenn Inhalte verschlüsselt werden, bevor sie gesendet und nur vom vorgesehenen Empfänger entschlüsselt werden. Bei der End-to-End-Verschlüsselung sind nur die beiden Endpunktsysteme an der Verschlüsselung und Entschlüsselung der Anrufdaten beteiligt. Keine andere Partei, einschließlich Microsoft, hat Zugriff auf die entschlüsselte Unterhaltung.
 
 Mit E2EE für ungeplante 1:1-Anrufe wird nur der Echtzeit-Medienfluss, d. h. Video- und Sprachdaten, für 1:1-Teams-Anrufe End-to-End verschlüsselt. Beide Parteien müssen diese Einstellung aktivieren, um die End-to-End-Verschlüsselung zu aktivieren. [Verschlüsselung in Microsoft 365](/microsoft-365/compliance/encryption) schützt Chat-, Dateifreigabe-, Anwesenheits- und andere Inhalte im Anruf.
+
+End-to-End-verschlüsselte Anrufe können zwischen zwei Parteien getätigt werden, wenn: die Parteien die neueste Version des Teams-Desktopclients für Windows oder Mac verwenden, sich auf einem mobilen Gerät mit dem neuesten Update für iOS und Android befinden oder sich mit dem neuesten Update auf einem Teams-Räume auf Einem Windows-Gerät befinden.
 
 Wenn Sie die End-to-End-Verschlüsselung nicht aktivieren, sichert Teams weiterhin einen Anruf oder eine Besprechung mittels Verschlüsselung basierend auf Branchenstandards. Daten, die bei Anrufen ausgetauscht werden, sind während der Übertragung und im Ruhezustand immer sicher. Weitere Informationen finden Sie unter [Medienverschlüsselung für Teams](teams-security-guide.md#media-encryption).
 
