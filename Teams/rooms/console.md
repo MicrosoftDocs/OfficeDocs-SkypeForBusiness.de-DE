@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams-Räume Konsole und ihre Peripheriegeräte einrichten und konfigurieren.
-ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 40d49597ab3354eeaacc8d7c562917fbf653e727
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270110"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590172"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Erstellen eines Microsoft Teams-Räume-Images
 
@@ -171,7 +171,7 @@ Nachdem Windows installiert wurde, wechselt die Microsoft Teams-Räume App in de
 Die Microsoft Teams-Räume-App sollte sich bei Microsoft Teams anmelden oder mit den oben eingegebenen Anmeldeinformationen Skype for Business Server und auch mit der Synchronisierung des Kalenders mit Exchange beginnen, indem dieselben Anmeldeinformationen verwendet werden. Ausführliche Informationen zur Verwendung von Teams-Räume finden Sie in der [Microsoft Teams-Räume Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Microsoft Teams-Räume basiert auf dem Vorhandensein zertifizierter Konsolenhardware. Selbst ein ordnungsgemäß erstelltes Image, das die Microsoft Teams-Räume Konsolen-App enthält, wird erst nach dem anfänglichen Setupvorgang gestartet, wenn die Konsolenhardware erkannt wird. Bei Surface Pro basierten Lösungen muss die Surface Pro mit der zugehörigen Dockhardware verbunden sein, um diese Überprüfung bestehen zu können.
+> Microsoft Teams-Räume basiert auf dem Vorhandensein zertifizierter Konsolenhardware. Selbst ein ordnungsgemäß erstelltes Image, das die Microsoft Teams-Räume Konsolen-App enthält, wird erst nach dem anfänglichen Setupvorgang gestartet, wenn die Konsolenhardware erkannt wird. Bei Surface Pro basierten Lösungen muss die Surface Pro mit der zugehörigen Dockhardware verbunden sein, um diese Überprüfung bestehen zu können. Weitere Informationen zur unterstützten Hardware finden Sie [unter Microsoft Teams-Räume Anforderungen](requirements.md).
   
 > [!NOTE]
 > Einige Benutzer in nicht englischer Sprache benötigen möglicherweise während der ersteinrichtung eine physische Tastatur, die mit der Konsole verbunden ist, falls Symbole auf der Bildschirmtastatur nicht unterstützt werden.

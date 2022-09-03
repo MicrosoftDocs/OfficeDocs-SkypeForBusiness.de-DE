@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Admin können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270080"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590182"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -40,6 +40,7 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen f
 
 |Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -94,6 +95,19 @@ Teams-Räume unterliegt der Modern-Lifecycle-Richtlinie. Weitere Informationen f
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams-Räume Einführung und Problemlösung von Features
+
+### <a name="414240-922022"></a>4.14.24.0 (9/2/2022)
+
+In diesem Update eingeführt:
+
+- Layoutaktualisierung für die erste Zeile <sup>1</sup> 
+- Anheften und Ausblenden von Raumvideo <sup>1</sup> 
+- Administratorkonfiguration zum Deaktivieren des geteilten Katalogs in dualer Anzeige Teams-Räume <sup>1</sup>
+- Dual-Display-Teams-Räume kann jetzt bis zu 18 Teilnehmer-Videostreams anzeigen <sup>2</sup>
+
+<sup>1</sup> Die Administratorkonfiguration zum Deaktivieren des geteilten Katalogs über XML finden [Sie unter Verwalten einer Microsoft Teams-Räume Konsoleneinstellungen remote mit einer XML-Konfigurationsdatei](../rooms/xml-config-file.md).
+
+<sup>2</sup> Dieses Feature wird für den Teams-Webclient eingeführt und dauert etwa zwei Wochen. Weitere Informationen finden Sie unter [Teams-Updates](../teams-client-update.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 

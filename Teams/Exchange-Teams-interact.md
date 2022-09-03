@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713363"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590202"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -86,7 +86,7 @@ Microsoft Teams arbeitet mit mehreren Microsoft 365 und Office 365-Diensten zu
 - Benutzer müssen für die Erstellung von Microsoft 365-Gruppen in Microsoft Teams aktiviert sein.
 
   > [!IMPORTANT]
-  > Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den **TeamsOnly**-Modus verschoben haben, funktionieren die Anwesenheitsinformationen in Outlook und anderen Office-Apps möglicherweise nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei. Um dieses Problem zu beheben, wählen Sie Ihr Profilbild in der oberen rechten Ecke von Microsoft Teams und dann **Einstellungen** aus. Wählen Sie auf der Registerkarte **Allgemein** unter **Anwendung** die Option **Teams als Chat-App für Office registrieren (erfordert einen Neustart der Office-Anwendungen)** aus. Nachdem Sie diese Option ausgewählt haben, schließen Sie alle Office-Apps, einschließlich Outlook, und öffnen Sie sie erneut. Nachdem Sie Outlook geöffnet haben, sind die Anwesenheitsinformationen verfügbar.
+  > Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den **TeamsOnly**-Modus verschoben haben, funktionieren die Anwesenheitsinformationen in Outlook und anderen Office-Apps möglicherweise nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei. Um dieses Problem zu beheben, wählen Sie die Schaltfläche "Auslassungszeichen" links neben Ihrem Profilbild in der oberen rechten Ecke von Microsoft Teams und dann **"Einstellungen"** aus. Wählen Sie auf der Registerkarte **Allgemein** unter **Anwendung** die Option **Teams als Chat-App für Office registrieren (erfordert einen Neustart der Office-Anwendungen)** aus. Nachdem Sie diese Option ausgewählt haben, schließen Sie alle Office-Apps, einschließlich Outlook, und öffnen Sie sie erneut. Nachdem Sie Outlook geöffnet haben, sind die Anwesenheitsinformationen verfügbar.
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Anforderungen zum Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer
 

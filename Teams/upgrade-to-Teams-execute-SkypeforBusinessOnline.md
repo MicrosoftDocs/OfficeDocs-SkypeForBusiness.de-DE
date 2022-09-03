@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49376910ce9ca0f777533e950600a19bd440c27f
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 5da45fcc5a9459b909e03f0d4e904b57d9a3f0fa
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846554"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590212"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Upgrade von Skype for Business Online auf Microsoft Teams
 
@@ -54,17 +54,17 @@ Weitere Informationen finden Sie unter [Festlegen ihrer Koexistenz- und Upgradee
 
 ## <a name="upgrade-all-users-to-teams-at-one-time"></a>Gleichzeitiges Upgrade aller Benutzer auf Teams
 
-Führen Sie die folgenden Schritte aus, um alle Benutzer gleichzeitig auf Teams zu aktualisieren.
+Führen Sie die folgenden Schritte aus, um alle Ihre Benutzer gleichzeitig auf Teams zu aktualisieren.
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>Schritt 1: Benachrichtigen der Benutzer über die Änderung (optional)
 
-1. Wählen Sie im Microsoft Teams Admin Center **Teams** >  **Teams Upgradeeinstellungen** aus.
-2. Ändern Sie im **Koexistenzmodus** die Option **"Benachrichtigen Skype for Business Benutzern, dass ein Upgrade auf Teams verfügbar ist**, auf **"Ein**".
+1. Wählen Sie im Microsoft Teams Admin Center die **Upgradeeinstellungen** für **Teams** >  Teams aus.
+2. Ändern Sie im **Koexistenzmodus** die Option **"Benutzer benachrichtigen Skype for Business, dass ein Upgrade auf Teams verfügbar ist**, auf **"Ein**".
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Schritt 2: Festlegen des Koexistenzmodus auf TeamsOnly für die Organisation
 
-1. Wählen Sie im Microsoft Teams Admin Center **Teams** >  **Teams Upgradeeinstellungen** aus.
-2. Wählen Sie in der Dropdownliste "**Koexistenzmodus**" **Teams Modus "Nur**" aus.
+1. Wählen Sie im Microsoft Teams Admin Center die **Upgradeeinstellungen** für **Teams** >  Teams aus.
+2. Wählen Sie in der Dropdownliste "**Koexistenzmodus**" den Modus "**Nur Teams**" aus.
 
 ## <a name="upgrade-users-in-stages"></a>Stufenweises Upgrade von Benutzern
 
@@ -72,16 +72,16 @@ Führen Sie die folgenden Schritte aus, wenn Sie Ihre Benutzer schrittweise auf 
 
 ### <a name="step-1-identify-groups-of-users-for-upgrade"></a>Schritt 1: Identifizieren von Benutzergruppen für das Upgrade
 
-Häufig können Sich Organisationen entscheiden, ihre Organisationen in Erfolgswellen von Benutzern zu aktualisieren.  Sie sollten diese Benutzer zuerst identifizieren, damit Sie sie einfach im Microsoft Teams Admin Center suchen können. Alternativ können Sie PowerShell verwenden, um dies effizienter zu machen. Nachdem Sie die Gruppe von Benutzern für eine bestimmte Upgradewelle identifiziert haben, fahren Sie mit den verbleibenden Schritten fort.
+Häufig können Sich Organisationen entscheiden, ihre Organisationen in Erfolgswellen von Benutzern zu aktualisieren.  Sie sollten diese Benutzer zuerst identifizieren, damit Sie im Microsoft Teams Admin Center problemlos danach suchen können. Alternativ können Sie PowerShell verwenden, um dies effizienter zu machen. Nachdem Sie die Gruppe von Benutzern für eine bestimmte Upgradewelle identifiziert haben, fahren Sie mit den verbleibenden Schritten fort.
 
 ### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Schritt 2: Festlegen der Benachrichtigung für die Benutzer in der aktuellen Upgradewelle (optional)
 
 Wenn Sie das Microsoft Teams Admin Center verwenden, können Sie TeamsUpgradePolicy für bis zu 20 Benutzer gleichzeitig konfigurieren:
-1. Wählen Sie im Microsoft Teams Admin Center **"Benutzer**" aus, und suchen Und aktivieren Sie das Kontrollkästchen für bis zu 20 Benutzer, die aktualisiert werden sollen. 
+1. Wählen Sie im Microsoft Teams Admin Center **"Benutzer**" aus, und suchen und aktivieren Sie das Kontrollkästchen für bis zu 20 Benutzer, die aktualisiert werden sollen. 
 2. Wählen Sie " **Einstellungen bearbeiten"** in der oberen linken Ecke der Listenansicht aus. 
-3. Ändern Sie im Bereich **"Einstellungen bearbeiten**" auf der rechten Seite unter **Teams Upgrade** **"Benachrichtigen", Skype for Business Benutzer** auf **"Ein" umschalten**. Hinweis: Wenn der Wert des Koexistenzmodus "Organisationsweite Einstellungen verwenden" lautet, wird dieser Schalter nicht angezeigt, daher müssen Sie zuerst explizit den Koexistenzmodus für diese Benutzer auf den Standardwert für die Organisation festlegen.
+3. Ändern Sie im Bereich **"Einstellungen bearbeiten**" auf der rechten Seite unter "**Teams-Upgrade**" **den Schalter "Skype for Business Benutzer** benachrichtigen" auf **"Ein**". Hinweis: Wenn der Wert des Koexistenzmodus "Organisationsweite Einstellungen verwenden" lautet, wird dieser Schalter nicht angezeigt, daher müssen Sie zuerst explizit den Koexistenzmodus für diese Benutzer auf den Standardwert für die Organisation festlegen.
 
-Alternativ können Sie es einfacher finden, Benachrichtigungen für Benutzergruppen gleichzeitig mithilfe von PowerShell zu aktivieren. 
+Alternativ können Sie es einfacher finden, Benachrichtigungen für Benutzergruppen gleichzeitig mithilfe von PowerShell zu aktivieren. Weitere Informationen finden Sie [unter Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
 
 ### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>Schritt 3: Festlegen des Koexistenzmodus für Benutzer auf "Nur Teams"
 
@@ -90,18 +90,18 @@ Wenn Sie bereit sind, die Benutzer in der aktuellen Welle so zu aktualisieren, d
 Wenn Sie das Microsoft Teams Admin Center verwenden, können Sie TeamsUpgradePolicy für bis zu 20 Benutzer gleichzeitig konfigurieren:
 1. Wählen Sie im Microsoft Teams Admin Center **"Benutzer**" und dann das Kontrollkästchen für bis zu 20 Benutzer aus.
 2. Wählen Sie " **Einstellungen bearbeiten"** in der oberen linken Ecke der Listenansicht aus.
-3. Legen Sie im Bereich **"Einstellungen bearbeiten**" auf der rechten Seite unter **Teams Upgradebereich** den Koexistenzmodus auf **Teams Nur** in der Dropdownliste fest.
+3. Legen Sie im Bereich **"Einstellungen bearbeiten** " auf der rechten Seite unter dem Abschnitt " **Teams-Upgrade** " den Koexistenzmodus in der Dropdownliste auf **"Nur Teams** " fest.
 
-Alternativ können Sie es einfacher finden, Gruppen von Benutzern gleichzeitig mithilfe von PowerShell zu aktualisieren. 
+Alternativ können Sie es einfacher finden, Gruppen von Benutzern gleichzeitig mithilfe von PowerShell zu aktualisieren. Weitere Informationen finden Sie [unter Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
 
 ### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>Schritt 4: Wiederholen der Schritte 1 bis 3 für aufeinander folgende Benutzerwellen
 
-Wiederholen Sie die vorherigen Schritte, um TeamsOnly auf weitere Benutzer anzuwenden, während Sie Ihr Upgrade auf den Modus "Nur Teams" überprüfen und erweitern können.  
+Wenn Sie Ihr Upgrade auf den Modus "Nur Teams" überprüfen und erweitern möchten, wiederholen Sie die vorherigen Schritte, um TeamsOnly auf weitere Benutzer anzuwenden.  
 
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>Optionen für Telefonsystem und Festnetzanbindung
 
-Telefonsystem mit Teams wird unterstützt, nachdem sich der Benutzer im TeamsOnly-Modus befindet. (Wenn sich der Benutzer im Inselmodus befindet, wird Telefonsystem nur mit Skype for Business unterstützt.)  
+Das Telefonsystem mit Teams wird unterstützt, nachdem sich der Benutzer im TeamsOnly-Modus befindet. (Wenn sich der Benutzer im Inselmodus befindet, wird das Telefonsystem nur mit Skype for Business unterstützt.)  
 
 ### <a name="pstn-connectivity-options"></a>PSTN-Konnektivitätsoptionen
 

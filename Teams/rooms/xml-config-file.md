@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Remoteverwaltung der von einem Microsoft Teams-Räume Gerät verwendeten Standardeinstellungen, einschließlich anwenden eines benutzerdefinierten Designs und Erstellen einer Mastereinstellungsdatei.
-ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 74ae005ceae3c17d64403990eda067e3d8bd7cfc
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272100"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590162"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams-Räume Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -52,7 +52,7 @@ Jeder Text-Editor kann zum Erstellen einer Einstellungsdatei verwendet werden. I
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>true</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
-  <WebexMeetingsEnabled>true</WebexMeetingsEnabled>
+  <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
@@ -106,6 +106,8 @@ Jeder Text-Editor kann zum Erstellen einer Einstellungsdatei verwendet werden. I
       <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
       <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
   </ExtendedFoRDisplay>  
+  <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
+  <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
 </SkypeSettings>
 ```
 
@@ -169,12 +171,14 @@ Wenn ein Variablenwert den falschen Typ aufweist, Elemente nicht in der richtige
 | `<Video>`                                   | Boolescher &#x2777;            |                | Steuert die Videokonfiguration auf einem Teams-Räume Gerät. Dieses Element hat zwei Attribute:<br><ul><li><b>Standard</b> Bestimmt, auf welchem Gerät die Kamera aktiv ist, wenn eine Besprechung beginnt. Für eine optimale Benutzererfahrung wird empfohlen, dass nur die Teams-Räume Geräts festgelegt `true` wird, während alle anderen Geräte auf `false`festgelegt sind.</li><li><b>Aktiviert</b> Bestimmt, ob Teilnehmer an einer Besprechung die Kamera ein- oder ausschalten können. Sie können dies `true` auf allen anderen Geräten des Ereignisses festlegen, auf dem Teilnehmer unterschiedliche Videoperspektiven teilen möchten (z. B. wenn ein Teilnehmer das Surface Hub-Whiteboard verwendet). Wenn Sie nicht möchten, dass Teilnehmer eine Kamera auf einem Gerät ein- oder ausschalten, legen Sie dies auf `false`" fest.<p> Wenn **der Videostandard** festgelegt `true`ist, wird die Einstellung " **Video aktiviert** " ignoriert, und die Teilnehmer können die Kamera ein- oder ausschalten.</li></ul> |
 | `<Whiteboard>`                              | Boolescher &#x2777;            |                | Steuert die Whiteboardkonfiguration auf einem Teams-Räume Gerät. Dieses Element hat zwei Attribute:<br><ul><li><b>Standard</b> Bestimmt, auf welchem Gerät das Whiteboard aktiv ist, wenn eine Besprechung beginnt. Für eine optimale Benutzererfahrung empfehlen wir, dass das Teams-Räume Gerät festgelegt `false` wird und dass Sie das Whiteboard auf einem Surface Hub verwenden.</li><li><b>Aktiviert</b> Bestimmt, ob Teilnehmer an einer Besprechung das Whiteboard ein- oder ausschalten können. Wenn Sie nicht möchten, dass Teilnehmer das Whiteboard auf einem Gerät aktivieren oder deaktivieren, legen Sie dies auf `false`" fest.<p> Wenn **der Whiteboard-Standard** festgelegt `true`ist, wird die **Whiteboard-aktivierte** Einstellung ignoriert, und teilnehmer können das Whiteboard aktivieren oder deaktivieren.</li></ul>                                                                                                                                                   |
 | `<EnableResolutionAndScalingSetting>` | Boolescher &#x2777; | Erste &#x2776; | Standardmäßig ist sie deaktiviert. Wenn Sie die Auflösung und Skalierung Ihres Raumvorraums ändern möchten, legen Sie ihn auf "true" fest. Bei "true" werden die Anzeigeauflösungs- und Skalierungseinstellung angewendet. Diese Einstellung wirkt sich sowohl auf den Haupt-FoR als auch auf den erweiterten FoR aus, sobald diese Einstellung aktiviert ist. |
-| `<MainFoRDisplay>` | Container | | Verwenden Sie diesen Container, wenn Ihr Gerät den Einzelanzeigemodus verwendet.<br><br>Im dualen Anzeigemodus ist "Hauptvorderraum" (FoR) ein Bildschirm mit Uhr (außerhalb der Besprechung) und Self-Preview-Video (in der Besprechung). `<MainFoRDisplayResolution>` und `<MainFoRDisplayScaling>` gleichzeitig festgelegt werden müssen. Wenn Sie nur eines `<MainFoRDisplayResolution>` oder `<MainFoRDisplayScaling>`verwenden, wird es ignoriert. |
+| `<MainFoRDisplay>` | Container |Erste &#x2776; | Verwenden Sie diesen Container, wenn Ihr Gerät den Einzelanzeigemodus verwendet.<br><br>Im dualen Anzeigemodus ist "Hauptvorderraum" (FoR) ein Bildschirm mit Uhr (außerhalb der Besprechung) und Self-Preview-Video (in der Besprechung). `<MainFoRDisplayResolution>` und `<MainFoRDisplayScaling>` gleichzeitig festgelegt werden müssen. Wenn Sie nur eines `<MainFoRDisplayResolution>` oder `<MainFoRDisplayScaling>`verwenden, wird es ignoriert. |
 | `<MainFoRDisplayResolution>` | String | | Numerischer Eingabewert von Width, Height (z. B. 1920,1080). Es wird ignoriert, wenn Ihr FoR es nicht unterstützt.|
 | `<MainFoRDisplayScaling>` | Zahl | | Numerischer Eingabewert der Skalierung. Gültige Werte sind 100 (empfohlen), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450 und 500. Wenn Sie 500 eingeben und Ihr FoR bis zu 300 unterstützt, wird es auf 300 festgelegt.|
-| `<ExtendedFoRDisplay>` | Container | | Im dualen Anzeigemodus ist "Erweiterter Raum" (Extended Front of Room, FoR) ein Bildschirm, auf dem freigegebene Inhalte (in einer Besprechung) angezeigt werden.  `<ExtendedFoRDisplayResolution>` und `<ExtendedFoRDisplayScaling>` gleichzeitig festgelegt werden müssen. Wenn Sie nur eines `<ExtendedFoRDisplayResolution>` oder `<ExtendedFoRDisplayScaling>`verwenden, wird es ignoriert. |
+| `<ExtendedFoRDisplay>` | Container |Erste &#x2776;| Im dualen Anzeigemodus ist "Erweiterter Raum" (Extended Front of Room, FoR) ein Bildschirm, auf dem freigegebene Inhalte (in einer Besprechung) angezeigt werden.  `<ExtendedFoRDisplayResolution>` und `<ExtendedFoRDisplayScaling>` gleichzeitig festgelegt werden müssen. Wenn Sie nur eines `<ExtendedFoRDisplayResolution>` oder `<ExtendedFoRDisplayScaling>`verwenden, wird es ignoriert. |
 | `<ExtendedFoRDisplayResolution>` | String | |Numerischer Eingabewert von Width, Height (z. B.: 1920,1080). Ein Wert wird ignoriert, wenn der FoR ihn nicht unterstützt. |
 | `<ExtendedFoRDisplayScaling>` | Zahl | | Numerischer Eingabewert der Skalierung. Gültige Werte sind 100 (empfohlen), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450 und 500. Wenn Sie 500 eingeben und Ihr FoR bis zu 300 unterstützt, wird es auf 300 festgelegt. |
+| `<EnableDeviceEndToEndEncryption>` | Boolescher &#x2777; | | Der Standardwert ist `false`. Geben Sie `true` an, dass die End-to-End-Verschlüsselung für 1:1-Teams-Anrufe aktiviert werden soll. Sowohl der Anrufer als auch der Empfänger müssen die End-to-End-Verschlüsselung aktiviert haben, damit dies funktioniert. |
+| `<SplitVideoLayoutsDisabled>` |  Boolescher &#x2777; | | Der Standardwert ist `false`. Diese Einstellung gilt nur für Räume mit doppelter Anzeige. Geben Sie `true` an, dass das Teilen des Videokatalogs auf beiden Bildschirmen deaktiviert werden soll. Dadurch werden auch das Layout der ersten Zeile und alle Einstellungen deaktiviert, die dem Layout der ersten Zeile zugeordnet sind. |
 
 &#x2776; Alle Elemente der ersten Ebene sind optional. Wenn ein Element der ersten Ebene ausgelassen wird, bleiben alle diesem Element untergeordneten Parameter auf dem Gerät unverändert.
   
