@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Admin können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
+ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606234"
+ms.locfileid: "67607618"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -102,13 +102,13 @@ In diesem Update eingeführt:
 
 - Layoutaktualisierung für die erste Zeile <sup>1</sup> 
 - Anheften und Ausblenden von Raumvideo <sup>1</sup> 
-- Administratorkonfiguration zum Deaktivieren des geteilten Katalogs in dualer Anzeige Teams-Räume <sup>1</sup>
-- Dual-Display-Teams-Räume kann jetzt bis zu 18 Teilnehmer-Videostreams anzeigen <sup>2</sup>
-- Unterstützung für Microsoft Teams-Räume Pro- und Microsoft Teams Room Basic-Raumlizenzen <sup>2</sup>
+- Administratorkonfiguration zum Deaktivieren des geteilten Katalogs in dualer Anzeige Teams-Räume <sup>2</sup>
+- Dual-Display-Teams-Räume kann jetzt bis zu 18 Teilnehmer-Videostreams anzeigen <sup>1</sup>
+- Unterstützung für Microsoft Teams-Räume Pro- und Microsoft Teams Room Basic-Raumlizenzen <sup>1</sup>
 
-<sup>1</sup> Die Administratorkonfiguration zum Deaktivieren des geteilten Katalogs über XML finden [Sie unter Verwalten einer Microsoft Teams-Räume Konsoleneinstellungen remote mit einer XML-Konfigurationsdatei](../rooms/xml-config-file.md).
+<sup>1</sup> Dieses Feature wird für den Teams-Webclient eingeführt und dauert etwa zwei Wochen ab dem Datum, an dem dieses Update veröffentlicht wurde. Weitere Informationen finden Sie unter [Teams-Updates](../teams-client-update.md).
 
-<sup>2</sup> Dieses Feature wird für den Teams-Webclient eingeführt und dauert etwa zwei Wochen ab dem Datum, an dem dieses Update veröffentlicht wurde. Weitere Informationen finden Sie unter [Teams-Updates](../teams-client-update.md).
+<sup>2</sup> Die Administratorkonfiguration zum Deaktivieren des geteilten Katalogs über XML finden [Sie unter Verwalten einer Microsoft Teams-Räume Konsoleneinstellungen remote mit einer XML-Konfigurationsdatei](../rooms/xml-config-file.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
