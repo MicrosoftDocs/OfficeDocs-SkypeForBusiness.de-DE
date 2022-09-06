@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: In diesem Artikel werden Planungsüberlegungen für die Verwendung von Azure Monitor zum Überwachen Microsoft Teams-Räume in Ihrer Skype for Business- oder Teams-Implementierung erläutert.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269570"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606394"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Planen Microsoft Teams-Räume Überwachung mit Azure Monitor
  
@@ -29,6 +29,8 @@ ms.locfileid: "67269570"
 
 > [!NOTE]
 > Sie können auch die [Integritätsüberwachung von Teams-Räume](../alerts/device-health-status.md) mithilfe des Teams Admin Centers einrichten.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure Monitor](/azure/azure-monitor/overview) ist eine Sammlung von Überwachungsdiensten, die von Anfang an in der Cloud entwickelt wurden. Anstatt lokale Ressourcen bereitzustellen und zu verwalten, werden Azure Monitor-Komponenten vollständig in Azure gehostet. Die Konfiguration ist minimal, und Sie können in wenigen Minuten betriebsbereit sein. Mit einigen Anpassungsarbeiten kann es bei der Überwachung Microsoft Teams-Räume helfen, indem es Benachrichtigungen über den Systemstatus oder Fehler für einzelne Raumsysteme bereitstellt, und es kann bis zur Verwaltung von Tausenden von Microsoft Teams-Räume skaliert werden.
   

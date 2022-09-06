@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-On-Lizenzen für Microsoft Teams und die Funktionen, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: b4c416720a618cff106552126e0f7e1aaa87b1bc
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 84ea719c5038251efa9ddb767b3bf15a5aa40b00
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156803"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606084"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Add-On-Lizenzen für Microsoft Teams
 
@@ -45,7 +45,7 @@ Hier ist eine Liste der Teams-Add-On-Lizenzen und deren Funktionen, die Sie Ihre
 |**Microsoft Teams Anrufpläne** <br/> |Wenn Sie möchten, dass Benutzer Telefonnummern außerhalb Ihrer Organisation anrufen können, können Sie [Microsoft Teams-Anrufpläne](../calling-plans-for-office-365.md) erwerben, um eine Verbindung mit PSTN-Telefonnummern mit Microsoft als Ihrem PSTN-Anbieter herzustellen. Es gibt Inlandsanrufpläne, Internationale Anrufpläne und Pay-As-You-Go-Anrufpläne. <br/> <br/> Informationen dazu, ob Teams-Anrufpläne in Ihrem Land oder Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen in Ländern und Regionen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 |**Guthaben für Kommunikationen** | Kommunikationsguthaben bieten einen monatlichen Pool von Minuten, die auch für PSTN-Telefonate verwendet werden können, wenn alle Minuten Ihres Anrufplans vor Beginn des nächsten Monats verbraucht sind. Wenn Sie gebührenfreie Nummern für Audiokonferenzen, automatische Telefonzentralen oder Anrufwarteschleifen benötigen, müssen Sie [Kommunikationsguthaben](../set-up-communications-credits-for-your-organization.md)einrichten. <br/> |
 |**Audiokonferenzen** <br/> |Es kann vorkommen, dass Mitarbeiter in Ihrem Unternehmen ein Telefon benutzen müssen, um an einer Teams-Besprechung teilzunehmen, anstatt ihren Computer zu benutzen. [Richten Sie Audiokonferenzen](../set-up-audio-conferencing-in-teams.md) für Benutzer ein, die Besprechungen mit Teilnehmern planen oder leiten, die sich über ein Telefon einwählen müssen. <br/> <br/>Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organisationen können jetzt einen Drittanbieter für ihre Audiokonferenznummern verwenden. Weitere Informationen finden Sie unter [Planen von Operator Connect-Konferenzen](../operator-connect-conferencing-plan.md). <br/>|
-|**Microsoft Teams-Räume** <br/> | Microsoft Teams Room ist ein zusätzliches Produkt von Microsoft Teams, das die gemeinsame Nutzung von Video, Audio und Inhalten in Konferenzräumen ermöglicht. Unternehmen können für diese Funktionen eigenständige Lizenzen für Microsoft Teams Rooms erwerben. Weitere Informationen finden Sie unter [Lizenzierung von Teams-Besprechungsräumen](../rooms/rooms-licensing.md). <br/>|
+|**Microsoft Teams-Räume** <br/> | Microsoft Teams Room ist ein zusätzliches Produkt von Microsoft Teams, das die gemeinsame Nutzung von Video, Audio und Inhalten in Konferenzräumen ermöglicht. <br/> <br/>Teams-Räume Basic ist eine kostenlose Lizenz für bis zu 25 Räume, die zentrale Besprechungs- und Verwaltungsfunktionen für alle Teams-Räume Geräte bereitstellt. <br/> <br/>Teams-Räume Pro bietet erweiterte Besprechungserfahrungen sowie erweiterte Verwaltung und Sicherheit, die Ihnen helfen, Ihre Geräte im großen Maßstab zu betreiben und inklusive Hybridbesprechungen zu ermöglichen. <br/> <br/>Weitere Informationen finden Sie unter [Lizenzierung von Teams-Besprechungsräumen](../rooms/rooms-licensing.md). <br/>|
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Welche Microsoft-Funktionen sind mit meinem Plan verfügbar?
 

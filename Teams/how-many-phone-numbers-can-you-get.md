@@ -23,20 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: Erfahren Sie, wie viele Telefonnummern Sie in Microsoft Teams erhalten können, basierend auf der Art der Nummer und der Anzahl Ihrer Lizenzen.
-ms.openlocfilehash: 053a1772ed14b09c1bed159973f50bc47125c58e
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 629fed74d1c9f049ec28292e63f6fdb53fdc1c44
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156773"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606574"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>Wie viele Telefonnummern erhalten Sie?
 
 Wenn Sie nach von Microsoft bereitgestellten Telefonnummern für Ihre Organisation suchen und diese erhalten, können Sie mehr Telefonnummern erhalten, als Sie Lizenzen zugewiesen haben. Dies hängt jedoch von den Arten von Telefonnummern und Typen von Lizenzen ab, die Sie gekauft und zugewiesen haben.
 
-Wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PSTN-Konnektivitätsoption ab: Microsoft-Anrufpläne, Telefonieanbieter oder Direct Routing. Weitere Informationen finden [Sie unter Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-landing-page.md).
+Wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PSTN-Konnektivitätsoption ab: Microsoft Calling Plans, Operator Connect, Telefonieanbieter mit Mobil (Public Preview Release) oder Direct Routing. Weitere Informationen finden [Sie unter Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-landing-page.md).
 
-Die folgende Tabelle gilt für Microsoft-Anrufpläne, [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md) und VoIP-Apps, z. B. [Anrufwarteschleifen und automatische Telefonzentralen](plan-auto-attendant-call-queue.md). Wenden Sie sich an Ihren Dienstanbieter, um Informationen zu Operator Connect und Direct Routing zu erfahren.
+Die folgende Tabelle gilt für Microsoft-Anrufpläne, [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md) und VoIP-Apps, z. B. [Anrufwarteschleifen und automatische Telefonzentralen](plan-auto-attendant-call-queue.md). Wenn Sie Informationen zu Operator Connect, Telefonieanbieter mit Mobil oder Direct Routing wünschen, wenden Sie sich an Ihren Dienstanbieter.
 
 Sie können die Anzahl der Telefonnummern anzeigen, die Sie während des Such- und Erwerbsprozesses von Microsoft erhalten können, im Microsoft Teams Admin Center (**Telefonnummern abrufen**).
 

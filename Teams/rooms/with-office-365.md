@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Artikel finden Sie Informationen zum Erstellen von Ressourcenkonten für Räume und freigegebene Geräte, einschließlich Microsoft Teams-Räume, Teams-Räume auf Surface Hub und Hot-Desking auf Teams-Displays.
-ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
-ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67405157"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606224"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Erstellen und Konfigurieren von Ressourcenkonten für Räume und freigegebene Teams-Geräte
 
@@ -266,7 +266,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Connect-MsolService
        ```
 
-       Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory (MSOnline).For details about Active Directory, see Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+       Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory (MSOnline).For details about Active Directory, see Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
 
 2. Legen Sie das Kennwort so fest, dass es nie abläuft, indem Sie die folgende Syntax verwenden:
 
@@ -309,7 +309,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 Das Ressourcenkonto benötigt eine Microsoft 365- oder Office 365-Lizenz, um sich bei Microsoft Teams anzumelden.
 
 > [!NOTE]
-> Microsoft Teams-Räume Standard und Microsoft Teams-Räume Premium sind die beiden verfügbaren SKUs für gemeinsam genutzte Besprechungsraumgeräte, einschließlich Teams-Räume. Eine Besprechungsraumlizenz ist für Teams-Displays mit Hot-Desking erforderlich. Weitere Informationen finden Sie unter [Lizenzierung von Teams-Besprechungsräumen](rooms-licensing.md).
+> Microsoft Teams-Räume Basic und Microsoft Teams-Räume Pro sind die beiden verfügbaren SKUs für gemeinsam genutzte Besprechungsraumgeräte, einschließlich Teams-Räume. Eine Besprechungsraumlizenz ist für Teams-Displays mit Hot-Desking erforderlich. Weitere Informationen finden Sie [unter Microsoft Teams-Räume Lizenzen](rooms-licensing.md).
 
 Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center finden [Sie unter Zuweisen von Lizenzen zu Benutzern](/microsoft-365/admin/manage/assign-licenses-to-users). Informationen zum Zuweisen von Lizenzen mitHilfe von Azure AD finden Sie auf einer der folgenden Registerkarten:
 
@@ -322,11 +322,11 @@ Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center 
     Connect-AzureAD
     ```
 
-     Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory PowerShell für Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+     Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory PowerShell für Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0&preserve-view=true).
     
 2. Weisen Sie Ihrem Ressourcenkonto mithilfe des `Set-AzureADUser` Cmdlets einen Verwendungsspeicherort zu. Dadurch wird bestimmt, welche Lizenz-SKUs verfügbar sind.
 
-    In diesem Beispiel befindet sich der Benutzer im USA (USA):
+    In diesem Beispiel befindet sich der Benutzer in der Estados Unidos (USA):
 
     ```PowerShell
     Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
@@ -363,11 +363,11 @@ Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center 
    Connect-MsolService
    ```
 
-    Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    Ausführliche Informationen zu Active Directory finden Sie unter [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)
 
 2.  Weisen Sie Ihrem Ressourcenkonto mithilfe des `Set-MsolUser` Cmdlets einen Verwendungsspeicherort zu. Dadurch wird bestimmt, welche Lizenz-SKUs verfügbar sind.
 
-    In diesem Beispiel befindet sich der Benutzer im USA (USA).
+    In diesem Beispiel befindet sich der Benutzer in der Estados Unidos (USA).
     
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
@@ -402,7 +402,7 @@ Es gibt keine eindeutigen Anforderungen zum Aktivieren von Aufrufen mit Ressourc
 
 ### <a name="configure-distribution-groups-for-teams-calendar"></a>Konfigurieren von Verteilergruppen für Teams-Kalender
 
-Zum Organisieren ihrer Besprechungsraumspeicherorte können Sie Ihre Geräteressourcenkonten zu Exchange-Verteilergruppen hinzufügen. Wenn Sie beispielsweise Niederlassungen an drei verschiedenen geografischen Standorten haben, können Sie drei Verteilergruppen erstellen und jedem Standort die entsprechenden Ressourcenkonten hinzufügen. Weitere Informationen finden Sie unter [Erstellen einer Chatroomliste](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+Zum Organisieren ihrer Besprechungsraumspeicherorte können Sie Ihre Geräteressourcenkonten zu Exchange-Verteilergruppen hinzufügen. Wenn Sie beispielsweise Niederlassungen an drei verschiedenen geografischen Standorten haben, können Sie drei Verteilergruppen erstellen und jedem Standort die entsprechenden Ressourcenkonten hinzufügen. Weitere Informationen finden Sie unter [Erstellen einer Chatroomliste](/exchange/recipients/room-mailboxes?view=exchserver-2019&preserve-view=true#create-a-room-list).
 
 ### <a name="configure-places-for-outlook-calendar"></a>Konfigurieren von Orten für Outlook-Kalender
 Damit Besprechungsraumspeicherorte in der Outlook-Raumsuche angezeigt werden, müssen Sie das Set-Place Exchange PowerShell-Cmdlet verwenden. Die Raumsuche in Outlook wird nicht nur Set-Place aufgefüllt, sondern ermöglicht es Ihnen auch, zusätzliche Metadaten hinzuzufügen, z. B. die Kapazität des Raums oder den Boden des Gebäudes, in dem sich der Raum befindet. Weitere Informationen finden Sie unter [Set-Place](/powershell/module/exchange/set-place).

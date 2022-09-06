@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: Erfahren Sie, wie Sie Ihre Microsoft Teams-Räume Geräte schützen.
-ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 231039324e15afb7b24f194623e54455d51e85c2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270050"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606214"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams-Räume Sicherheit
 
@@ -79,7 +79,7 @@ Teams-Räume Geräte enthalten ein Administratorkonto namens "Admin" mit einem S
 Das Admin Konto ist für den ordnungsgemäßen Betrieb von Teams-Räume Geräten nicht erforderlich und kann umbenannt oder sogar gelöscht werden. Bevor Sie das Admin Konto löschen, stellen Sie jedoch sicher, dass Sie ein alternatives lokales Administratorkonto einrichten, das konfiguriert wurde, bevor Sie das Konto entfernen, das mit Teams-Räume Geräten ausgeliefert wird. Weitere Informationen zum Ändern eines Kennworts für ein lokales Windows-Konto mithilfe integrierter Windows-Tools oder PowerShell finden Sie in den folgenden Themen:
 
 - [Ändern oder Zurücksetzen Ihres Windows-Kennworts](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
-- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
+- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 Sie können auch Domänenkonten in die lokale Windows-Administratorgruppe importieren. Sie können dies für Azure AD-Konten mithilfe von Intune tun. Weitere Informationen finden Sie unter [Richtlinien-CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups)
 
@@ -101,12 +101,12 @@ Es wird empfohlen, das Ressourcenkonto möglichst in Azure AD zu erstellen. Wäh
 
 Im Allgemeinen hat Teams-Räume die gleichen Netzwerkanforderungen wie jeder Microsoft Teams-Client. Der Zugriff über Firewalls und andere Sicherheitsgeräte ist für Teams-Räume identisch wie für jeden anderen Microsoft Teams-Client. Spezifisch für Teams-Räume müssen die Kategorien, die für Teams als "erforderlich" aufgeführt sind, in Ihrer Firewall geöffnet sein. Teams-Räume benötigt auch Zugriff auf Windows Update, Microsoft Store und Microsoft Intune (wenn Sie Microsoft Intune zum Verwalten Ihrer Geräte verwenden). Eine vollständige Liste der IPs und URLs, die für Microsoft Teams-Räume erforderlich sind, finden Sie unter:
 
-- [URLs und IP-Adressbereiche](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams) von **Microsoft Teams** Office 365
+- [URLs und IP-Adressbereiche](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) von **Microsoft Teams** Office 365
 - **Windows Update** [Konfigurieren von WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft** [Store-Voraussetzungen für Microsoft Store für Unternehmen und Bildungseinrichtungen](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [Netzwerkendpunkte für Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-Wenn Sie die Komponente Microsoft Teams-Räume verwalteten Dienste von Microsoft Teams-Räume Premium verwenden, müssen Sie auch sicherstellen, dass Teams-Räume auf die folgenden URLs zugreifen können:
+Wenn Sie die Komponente Microsoft Teams-Räume verwalteten Dienste von Microsoft Teams-Räume Pro verwenden, müssen Sie auch sicherstellen, dass Teams-Räume auf die folgenden URLs zugreifen können:
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -120,11 +120,13 @@ Wenn Sie die Komponente Microsoft Teams-Räume verwalteten Dienste von Microsoft
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams-Räume ist so konfiguriert, dass es automatisch mit den neuesten Windows-Updates, einschließlich Sicherheitsupdates, gepatcht bleibt. Teams-Räume installiert alle ausstehenden Updates jeden Tag ab 2:00 Uhr mithilfe einer vordefinierten lokalen Richtlinie. Es ist nicht erforderlich, zusätzliche Tools zum Bereitstellen und Anwenden von Windows-Aktualisierungen zu verwenden. Die Verwendung zusätzlicher Tools zum Bereitstellen und Anwenden von Updates kann die Installation von Windows-Patches verzögern und somit zu einer weniger sicheren Bereitstellung führen. Die Teams-Räume-App wird mithilfe des Microsoft Store bereitgestellt. Wenn Ihre Geräte mit Microsoft Teams-Räume Standard lizenziert sind, werden alle neuen Versionen der App während des nächtlichen Patchingvorgangs automatisch installiert. Wenn Ihre Geräte mit Microsoft Teams-Räume Premium lizenziert und im verwalteten Microsoft-Dienst registriert sind, werden neue Versionen der Teams-Räume-App gemäß Ihrem definierten Rolloutplan installiert.
+Teams-Räume ist so konfiguriert, dass es automatisch mit den neuesten Windows-Updates, einschließlich Sicherheitsupdates, gepatcht bleibt. Teams-Räume installiert alle ausstehenden Updates jeden Tag ab 2:00 Uhr mithilfe einer vordefinierten lokalen Richtlinie. Es ist nicht erforderlich, zusätzliche Tools zum Bereitstellen und Anwenden von Windows-Aktualisierungen zu verwenden. Die Verwendung zusätzlicher Tools zum Bereitstellen und Anwenden von Updates kann die Installation von Windows-Patches verzögern und somit zu einer weniger sicheren Bereitstellung führen. Die Teams-Räume-App wird mithilfe des Microsoft Store bereitgestellt.
+
+<!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 Teams-Räume Geräte funktionieren mit den meisten 802.1X- oder anderen netzwerkbasierten Sicherheitsprotokollen. Wir können jedoch nicht Teams-Räume für alle möglichen Netzwerksicherheitskonfigurationen testen. Wenn daher Leistungsprobleme auftreten, die auf Netzwerkleistungsprobleme zurückverfolgt werden können, müssen Sie diese Protokolle möglicherweise deaktivieren, wenn sie in Ihrer Organisation konfiguriert sind.
 
-Für eine optimale Leistung von Echtzeitmedien wird dringend empfohlen, den Microsoft Teams-Mediendatenverkehr so zu konfigurieren, dass Proxyserver und andere Netzwerksicherheitsgeräte umgangen werden. Echtzeitmedien sind sehr latenzempfindlich, und Proxyserver und Netzwerksicherheitsgeräte können die Video- und Audioqualität der Benutzer erheblich beeinträchtigen. Da Teams-Medien bereits verschlüsselt sind, hat die Weitergabe des Datenverkehrs über einen Proxyserver keinen spürbaren Vorteil. Weitere Informationen finden Sie unter [Networking up (to the cloud) – Ein Standpunkt des Architekten](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide), der Netzwerkempfehlungen zur Verbesserung der Leistung von Medien mit Microsoft Teams und Microsoft Teams-Räume diskutiert.
+Für eine optimale Leistung von Echtzeitmedien wird dringend empfohlen, den Microsoft Teams-Mediendatenverkehr so zu konfigurieren, dass Proxyserver und andere Netzwerksicherheitsgeräte umgangen werden. Echtzeitmedien sind sehr latenzempfindlich, und Proxyserver und Netzwerksicherheitsgeräte können die Video- und Audioqualität der Benutzer erheblich beeinträchtigen. Da Teams-Medien bereits verschlüsselt sind, hat die Weitergabe des Datenverkehrs über einen Proxyserver keinen spürbaren Vorteil. Weitere Informationen finden Sie unter [Networking up (to the cloud) – Ein Standpunkt des Architekten](/microsoft-365/solutions/networking-design-principles), der Netzwerkempfehlungen zur Verbesserung der Leistung von Medien mit Microsoft Teams und Microsoft Teams-Räume diskutiert.
 
 > [!IMPORTANT]
 > Teams-Räume unterstützt keine authentifizierten Proxyserver.

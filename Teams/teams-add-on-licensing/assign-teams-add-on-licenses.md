@@ -15,12 +15,12 @@ ms.reviewer: mikedav
 description: Erfahren Sie, wie Sie Benutzern Teams-Add-On-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268170"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606054"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen von Microsoft Teams-Add-On-Lizenzen zu Benutzern
 
@@ -138,11 +138,15 @@ Weitere Informationen finden Sie unter [Anzeigen von Lizenzen und Diensten mit P
 | Teams Telefon mit Anrufplan | MCOTEAMS_ESSENTIALS |
 | Plan für internationale Anrufe | MCOPSTN2 |
 | Plan für Inlandsanrufe (3000 Minuten pro Benutzer/Monat für US/PR/CA, 1200 Minuten pro Benutzer/Monat für EU-Länder) | MCOPSTN1 |
-| Anrufplan für Inland (120 Minuten pro Benutzer/Monat für jedes Land) </br>*Dieser Plan ist in der USA nicht verfügbar.* | MCOPSTN5 |
-| Anrufplan für Inland (240 Minuten pro Benutzer/Monat für jedes Land) </br>*Dieser Plan ist in der USA nicht verfügbar.* | MCOPSTN6 |
+| Anrufplan für Inland (120 Minuten pro Benutzer/Monat für jedes Land) </br>*Dieser Plan ist in der Estados Unidos nicht verfügbar.* | MCOPSTN5 |
+| Anrufplan für Inland (240 Minuten pro Benutzer/Monat für jedes Land) </br>*Dieser Plan ist in der Estados Unidos nicht verfügbar.* | MCOPSTN6 |
 | Guthaben für Kommunikationen | MCOPSTNPP |
 | Pay-as-You-Go-Anrufpläne (Zone-1-Länder) | MCOPSTN_PAYG_1 |
 | Pay-as-You-Go-Anrufpläne (Zone-2-Länder) | MCOPSTN_PAYG_2 |
+| Microsoft Teams-Räume Basic | Microsoft_Teams_Rooms_Basic |
+| Microsoft Teams-Räume Basic ohne Audiokonferenzen | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| Microsoft Teams-Räume Pro | Microsoft_Teams_Rooms_Pro |
+| Microsoft Teams-Räume Pro ohne Audiokonferenzen | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 
 ## <a name="related-content"></a>Verwandter Inhalt
 

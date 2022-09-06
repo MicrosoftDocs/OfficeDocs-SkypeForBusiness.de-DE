@@ -16,23 +16,32 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: In diesem Artikel erfahren Sie, wie Microsoft-Apps, benutzerdefinierte Apps und Drittanbieter-Apps in Microsoft Teams aktualisiert werden und wie Administratoren dies erleichtern.
-ms.openlocfilehash: ed91ad441b773833838796d9ea8c71038c842b88
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b947e8b77bc167ccbdfb6a90bfa7c4ab96476efc
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299044"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606094"
 ---
-# <a name="update-apps-in-microsoft-teams"></a>Aktualisieren von Apps in Microsoft Teams
+# <a name="teams-app-updates-and-admin-role"></a>Teams-App-Updates und Administratorrolle
 
-In den meisten Fällen wird die App automatisch für Benutzer aktualisiert, nachdem eine neue Version einer App im Teams Store verfügbar ist. Einige spezifische Änderungen in der neuen App-Version erfordern jedoch die Benutzerakzeptanz, damit die App aktualisiert werden kann. Die Benutzerakzeptanz sorgt für ein Bewusstsein für die Änderungen wie Funktionalität oder Zugriff. Wenn App-Entwickler die folgenden spezifischen Änderungen an den Microsoft Teams-Apps vornehmen, müssen Ihre Endbenutzer das App-Update genehmigen:
+Teams-Administratoren können ihren Endbenutzern helfen, die neueste Version der Apps zu erhalten. Dazu führen sie eine oder beide der folgenden Aufgaben aus:
 
-* Ein Bot wird hinzugefügt.
-* Die `botId`-Eigenschaft oder `isNotificationOnly`-Eigenschaft eines bestehenden Bots wird geändert.
-* Die Fähigkeiten `SupportsCalling`, `SupportsVideo`, und `SupportsFiles` eines Bots werden hinzugefügt.
-* Eine Messaging-Erweiterung wurde hinzugefügt.
-* Berechtigungen innerhalb der Autorisierung werden hinzugefügt oder geändert.
-* `Id` oder `ApplicationPermissionsHash` oder beide werden innerhalb der `webApplicationInfo`geändert.
+* [Aktualisieren Sie Apps von Drittanbietern](#updates-to-third-party-apps) , die im Teams Store verfügbar sind, wenn vom App-Entwickler oder -Anbieter eine neue Version bereitgestellt wird.
+* [Aktualisieren Sie benutzerdefinierte Apps](#updates-to-custom-apps) , die nur in Ihrer Organisation verfügbar sind, wenn Ihr Entwickler eine neue Version übermittelt.
+
+## <a name="updates-to-third-party-apps"></a>Aktualisierungen zu Drittanbieter-Apps
+
+Damit Benutzer eine App installieren und verwenden können, müssen sie der App Berechtigungen erteilen, um auf die erforderlichen Dienste und Informationen zugreifen zu können. Wenn eine neue Version einer installierten App im Teams Store verfügbar ist, wird die App in den meisten Fällen automatisch für alle Benutzer aktualisiert. Einige spezifische Änderungen in der neuen Version der App erfordern jedoch erneut eine Benutzerberechtigung. Durch diese wiederholte Benutzerakzeptanz wird das Bewusstsein für die Änderungen wie Funktionalität oder Zugriff auf persönliche Informationen sichergestellt. Teams-Administratoren können [Berechtigungen für eine App im Namen der Benutzer bereitstellen](app-permissions-admin-center.md).
+
+Wenn App-Entwickler eine oder mehrere der folgenden Änderungen an ihren Apps vornehmen, müssen die Endbenutzer das Update der App genehmigen.
+
+* Hinzufügen oder Entfernen eines Bots. Ändern Sie die ID des Bots mithilfe der `botId` Eigenschaft.
+* Ändern Sie die `isNotificationOnly` Eigenschaft eines vorhandenen Bots, der die Benachrichtigungen des Bots ändern kann.
+* Ändern Sie `SupportsCalling`die `SupportsVideo`Eigenschaften eines vorhandenen Bots, `SupportsFiles` um Funktionen zum Aufrufen, Wiedergeben von Videos und Hochladen oder Herunterladen von Dateien hinzuzufügen.
+* Hinzufügen oder Entfernen von Berechtigungen in der Autorisierung.
+* Hinzufügen oder Entfernen einer Messaging-Erweiterung, Hinzufügen einer Gruppenregisterkarte, Hinzufügen eines Connectors oder Hinzufügen eines Kanals.
+* Ändern Sie die Parameter in der [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) Manifestdatei.
 
 <!--- image update
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
@@ -40,6 +49,11 @@ In den meisten Fällen wird die App automatisch für Benutzer aktualisiert, nach
 :::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
 --->
 
-## <a name="related-articles"></a>Verwandte Artikel
+## <a name="updates-to-custom-apps"></a>Aktualisierungen für benutzerdefinierte Apps
+
+Benutzerdefinierte Apps, die in Ihrer Organisation erstellt und bereitgestellt werden, stehen den Benutzern in Ihrem Mandanten oder Ihrer Organisation zur Verfügung. Der Teams-Administrator aktualisiert die benutzerdefinierten Apps auf neue Versionen, wie sie von Entwicklern innerhalb der Organisation bereitgestellt werden. Weitere Informationen finden Sie unter [Verwalten benutzerdefinierter Apps durch Administratoren](custom-app-overview.md).
+
+## <a name="related-article"></a>Verwandter Artikel
 
 * [Grundlegendes zum Manifestschema für Updates, die in Apps durchgeführt werden](/microsoftteams/platform/resources/schema/manifest-schema).
+* [Informieren Sie sich über die benutzerdefinierte App-Verwaltung](custom-app-overview.md).

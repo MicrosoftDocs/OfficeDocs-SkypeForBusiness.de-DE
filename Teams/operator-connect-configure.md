@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: d7397ade44b1e7ee68c176c51bb1af9880ca0373
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915193"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606534"
 ---
 # <a name="configure-operator-connect"></a>Konfigurieren von Telefonieanbieter
 
@@ -58,6 +58,20 @@ Wie Telefonnummern eingerichtet werden, hängt davon ab, ob Sie Nummern für neu
 
 - Wenn Sie vorhandene Nummern von Direct Routing zu Telefonieanbieter verschieben möchten, lesen Sie [Verschieben von Nummern von Direct Routing zu Telefonieanbieter](#move-numbers-from-direct-routing-to-operator-connect).
 
+### <a name="assign-numberes-to-emergency-addresses"></a>Zuweisen von Nummern zu Notfalladressen
+
+Die Notfalladresse ist ein statischer Ort, der einer Nummer zugeordnet ist. Nachdem Sie Notfalladressen im Teams Admin Center erstellt haben, hängt es von Ihrem Operator ab, wie Sie die Adressen zuweisen oder später ändern.
+
+Um Notfalladressen Nummern zuzuweisen, implementiert Ihr Operator eines von drei Szenarien:
+
+- Der Operator weist den Telefonnummern Notfalladressen zu und ermöglicht Es Ihnen, diese später im Teams Admin Center zu ändern.
+
+- Der Operator weist keine Adressen zu und ermöglicht Es Ihnen, den Telefonnummern im Teams Admin Center Notfalladressen zuzuweisen.
+
+- Der Operator weist den Telefonnummern Notfalladressen zu und lässt keine Änderung zu. In diesem Szenario müssen Sie sich an Ihren Betreiber wenden, um Änderungen an Telefonnummern und deren zugewiesener Notfalladresse vorzunehmen.
+
+Weitere Informationen zu Notrufen finden [Sie unter Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md) und [Planen und Konfigurieren von dynamischen Notrufen](configure-dynamic-emergency-calling.md).
+
 ### <a name="acquire-numbers-for-new-teams-users"></a>Telefonnummern für neue Microsoft Teams-Benutzer beziehen
 
 Führen Sie die folgenden Schritte aus, um Nummern für neue Microsoft Teams-Benutzer zu erhalten:
@@ -72,20 +86,6 @@ Führen Sie die folgenden Schritte aus, um Nummern für neue Microsoft Teams-Ben
 
 > [!NOTE]
 > Zusätzlich zum [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md) können Sie gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen (auch als Servicenummern bezeichnet) erhalten. Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Leistungsnummern eine höhere Kapazität für gleichzeitige Anrufe. Beispielsweise kann eine Dienstnummer Hunderte von Anrufen gleichzeitig verarbeiten, während die Telefonnummer eines Benutzers nur wenige Anrufe gleichzeitig verarbeiten kann. Um Servicenummern zu erhalten, wenden Sie sich an Ihren Betreiber.
-
-### <a name="emergency-addresses"></a>Notfalladressen
-
-Die Notfalladresse ist ein statischer Ort, der einer Nummer zugeordnet ist. Nachdem Sie Notfalladressen im Teams Admin Center erstellt haben, hängt es von Ihrem Operator ab, wie Sie die Adressen zuweisen oder später ändern.
-
-Um Notfalladressen Nummern zuzuweisen, implementiert Ihr Operator eines von drei Szenarien:
-
-- Der Operator weist den Telefonnummern Notfalladressen zu und ermöglicht Es Ihnen, diese später im Teams Admin Center zu ändern.
-
-- Der Operator weist keine Adressen zu und ermöglicht Es Ihnen, den Telefonnummern im Teams Admin Center Notfalladressen zuzuweisen.
-
-- Der Operator weist den Telefonnummern Notfalladressen zu und lässt keine Änderung zu. In diesem Szenario müssen Sie sich an Ihren Betreiber wenden, um Änderungen an Telefonnummern und deren zugewiesener Notfalladresse vorzunehmen.
-
-Weitere Informationen zu Notrufen finden [Sie unter Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md) und [Planen und Konfigurieren von dynamischen Notrufen](configure-dynamic-emergency-calling.md).
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Telefonnummern aus Anrufplänen zu Telefonieanbieter verschieben
 

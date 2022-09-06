@@ -18,16 +18,16 @@ description: Erfahren Sie, wie Sie die Dynamische Notruffunktion "Microsoft-Anru
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 9109f26abc953fd131e96440bd62d147cac8114f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023696"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606034"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
-Dynamische Notrufe für Microsoft-Anrufpläne, Telefonieanbieter und Direct Routing bieten die Möglichkeit, Notrufe zu konfigurieren und weiterzuleiten und Sicherheitspersonal basierend auf dem aktuellen Standort des Teams-Clients zu benachrichtigen.  
+Dynamische Notrufe für Microsoft Calling Plans, Operator Connect, Telefonieanbieter mit Mobil (Public Preview Release) und Direct Routing bieten die Möglichkeit, Notrufe zu konfigurieren und weiterzuleiten und Sicherheitspersonal basierend auf dem aktuellen Standort des Teams-Clients zu benachrichtigen.  
 
 Basierend auf der Vom Mandantenadministrator definierten Netzwerktopologie (Netzwerkelemente, die Notfalladressen zugeordnet sind) stellt der Teams-Client Informationen zur Netzwerkkonnektivität in einer Anforderung an den Standortinformationsdienst (LIS) bereit. Wenn eine Übereinstimmung vorliegt, gibt lis einen Speicherort an den Client zurück.
 
@@ -42,7 +42,7 @@ Bei dynamischen Notrufen muss Folgendes auftreten:
    - Wenn eine Übereinstimmung mit dem Standort für Netzwerkeinstellungen vorliegt, werden Richtlinien für Notrufe von diesem Standort an den Teams-Client zurückgegeben. (Weitere Informationen zu Richtlinien finden [Sie unter Konfigurieren von Notfallrichtlinien](#configure-emergency-policies)).
 
    - Wenn eine LIS-Übereinstimmung vorliegt– ein Notfallstandort aus dem Netzwerkelement, mit dem der Teams-Client verbunden ist, wird an den Teams-Client zurückgegeben. Die Übereinstimmung wird in der folgenden Reihenfolge ausgeführt, wobei das erste übereinstimmende Ergebnis zurückgegeben wird:
-       - WAP
+       - Wap
        - Ethernet-Switch/-Port
        - Ethernet-Switch
        - Subnetz
@@ -51,9 +51,9 @@ Bei dynamischen Notrufen muss Folgendes auftreten:
 
 Die Möglichkeit, automatisches Routing an den entsprechenden Public Safety Answering Point (PSAP) durchzuführen, hängt vom Nutzungsland des Teams-Benutzers ab.
 
-Microsoft-Anrufpläne und Operator Connect-Partner umfassen dynamische Notfallroutingdienste für Benutzer in den USA und Kanada.
+Microsoft-Anrufpläne, Operator Connect-Partner und Telefonieanbieter mit Mobil-Partner umfassen dynamische Notfallroutingdienste für Benutzer in den Estados Unidos und Kanada.
 
-Für Direct Routing ist jedoch eine zusätzliche Konfiguration für das Routing von Notrufen und möglicherweise für die Partnerkonnektivität erforderlich. Der Administrator muss sicherstellen, dass das PSTN-Gateway, das den Notruf routingt, so konfiguriert wurde, dass standortinformationen zur ausgehenden EINLADUNG hinzugefügt werden (indem der Parameter "PidfloSupported" für das PSTN-Onlinegatewayobjekt auf "True" festgelegt wird. Darüber hinaus muss der Administrator die Verbindung mit einem ERS-Anbieter (Emergency Routing Service) (USA und Kanada) konfigurieren **oder** den Session Border Controller (SBC) für eine ELIN-Anwendung (Emergency Location Identification Number) konfigurieren. Informationen zu ERS-Anbietern finden Sie unter [Session Border Controller, die für Direct Routing zertifiziert sind](direct-routing-border-controllers.md).
+Für Direct Routing ist jedoch eine zusätzliche Konfiguration für das Routing von Notrufen und möglicherweise für die Partnerkonnektivität erforderlich. Der Administrator muss sicherstellen, dass das PSTN-Gateway, das den Notruf routingt, so konfiguriert wurde, dass standortinformationen zur ausgehenden EINLADUNG hinzugefügt werden (indem der Parameter "PidfloSupported" für das PSTN-Onlinegatewayobjekt auf "True" festgelegt wird. Darüber hinaus muss der Administrator die Verbindung mit einem ERS-Anbieter (Emergency Routing Service) (Estados Unidos und Kanada) konfigurieren **oder** den Session Border Controller (SBC) für eine ELIN-Anwendung (Emergency Location Identification Number) konfigurieren. Informationen zu ERS-Anbietern finden Sie unter [Session Border Controller, die für Direct Routing zertifiziert sind](direct-routing-border-controllers.md).
 
 Dieser Artikel enthält die folgenden Abschnitte.
 
@@ -105,11 +105,11 @@ Sie können Notfalladressen wie folgt zuweisen:
 
 - An Anrufplanbenutzer.
 
-- To Operator Connect users&mdash;depending on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.
+- To Operator Connect and Telefonieanbieter mit Mobil users&mdash;depending on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.
 
 - Zu den Netzwerkbezeichnern, die zum dynamischen Abrufen eines Standorts erforderlich sind. 
 
-Um das automatisierte Routing von Notrufen innerhalb der USA zu unterstützen, müssen Sie sicherstellen, dass die Notfallstandorte, die Netzwerk-IDs zugewiesen sind, die zugehörigen Geocodes enthalten. (Notfalladressen ohne Geocodes können den Netzwerkbezeichnern, die für dynamische Standorte erforderlich sind, nicht zugewiesen werden.)
+Um das automatisierte Routing von Notrufen innerhalb der Estados Unidos zu unterstützen, müssen Sie sicherstellen, dass die Notfallstandorte, die Netzwerk-IDs zugewiesen sind, die zugehörigen Geocodes enthalten. (Notfalladressen ohne Geocodes können den Netzwerkbezeichnern, die für dynamische Standorte erforderlich sind, nicht zugewiesen werden.)
 
 Azure Maps wird für standortbasierte Dienste verwendet. Wenn Sie eine Notfalladresse über das Microsoft Teams Admin Center eingeben, überprüft Teams Azure Maps auf die Adresse:
 
@@ -144,7 +144,7 @@ Beachten Sie, dass es einige Zeit (bis zu ein paar Stunden) dauern kann, bis ein
 
 
 
-**Für Anrufplan- und Telefonieanbieterbenutzer:**
+**Für Anrufpläne, Telefonieanbieter und Telefonieanbieter mit Mobil Benutzer:**
 
 - Wenn eine dynamische Konfiguration der Security Desk-Benachrichtigung erforderlich ist, müssen Sie sowohl vertrauenswürdige IP-Adressen als auch Netzwerkstandorte konfigurieren.
 
@@ -191,13 +191,13 @@ Verwenden Sie die folgenden Richtlinien, um Notrufe zu konfigurieren. Sie könne
 
 - **Richtlinie für die Notrufweiterleitung – Gilt nur für Direct Routing**. Diese Richtlinie konfiguriert die Notrufnummern, ggf. Masken pro Nummer und die PSTN-Route pro Nummer. Sie können diese Richtlinie Benutzern, Netzwerkstandorten oder beiden zuweisen. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für die Notrufweiterleitung für Direct Routing](manage-emergency-call-routing-policies.md).  
 
-   (Anrufplan- und Telefonieanbieter-Benutzer werden automatisch für Notrufe mit den Notrufnummern aus dem Land basierend auf ihrem Microsoft 365- oder Office 365-Verwendungsstandort aktiviert.)
+   (Anrufplan, Telefonieanbieter und Telefonieanbieter mit Mobil Benutzer werden automatisch für Notrufe mit den Notrufnummern aus dem Land aktiviert, die auf ihrem Microsoft 365- oder Office 365-Verwendungsstandort basieren.)
 
-- **Richtlinie für Notrufe – Gilt für Anrufpläne, Telefonieanbieter und Direct Routing.** Diese Richtlinie konfiguriert die Benachrichtigungsfunktion des Sicherheitsdesks, wenn ein Notruf getätigt wird. Sie können festlegen, wer benachrichtigt werden soll und wie sie benachrichtigt werden. Beispielsweise, um den Security Desk Ihrer Organisation automatisch zu benachrichtigen und sie bei Notrufen abhören zu lassen.  Diese Richtlinie kann entweder Benutzern oder Netzwerkstandorten oder beiden zugewiesen werden. Weitere Informationen finden [Sie unter Verwalten von Notrufrichtlinien in Teams](manage-emergency-calling-policies.md).
+- **Richtlinie für Notrufe – Gilt für Anrufpläne, Telefonieanbieter, Telefonieanbieter mit Mobil und Direct Routing.** Diese Richtlinie konfiguriert die Benachrichtigungsfunktion des Sicherheitsdesks, wenn ein Notruf getätigt wird. Sie können festlegen, wer benachrichtigt werden soll und wie sie benachrichtigt werden. Beispielsweise, um den Security Desk Ihrer Organisation automatisch zu benachrichtigen und sie bei Notrufen abhören zu lassen.  Diese Richtlinie kann entweder Benutzern oder Netzwerkstandorten oder beiden zugewiesen werden. Weitere Informationen finden [Sie unter Verwalten von Notrufrichtlinien in Teams](manage-emergency-calling-policies.md).
 
 ## <a name="enable-users-and-sites"></a>Aktivieren von Benutzern und Websites
 
-Sie können Benutzern und Standorten Richtlinien für das Weiterleiten von Notrufen und Notrufe zuweisen. Denken Sie daran, dass Richtlinien für die Notrufweiterleitung nur für Direct Routing gelten. (Obwohl es möglich ist, diese Richtlinie einem Anrufplan- oder Operator Connect-Benutzer zuzuweisen, hat die Richtlinie keine Auswirkung.)
+Sie können Benutzern und Standorten Richtlinien für das Weiterleiten von Notrufen und Notrufe zuweisen. Denken Sie daran, dass Richtlinien für die Notrufweiterleitung nur für Direct Routing gelten. (Obwohl es möglich ist, diese Richtlinie einem Anrufplan, einem Operator Connect oder Telefonieanbieter mit Mobil Benutzer zuzuweisen, hat die Richtlinie keine Auswirkung.)
 
 Sie weisen Richtlinien im Microsoft Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter:
 
@@ -234,11 +234,11 @@ Wenn Sie eine Richtlinie für Notrufe einem Netzwerkstandort und einem Benutzer 
 
 ## <a name="test-emergency-calling"></a>Testen von Notrufen
 
-Einige Notfallroutingdienstanbieter (EMERGENCY Routing Service Providers, ERSPs) in der USA bieten einen Test-Bot für Notrufe an.
+Einige Notfallroutingdienstanbieter (EMERGENCY Routing Service Providers, ERSPs) in der Estados Unidos bieten einen Test-Bot für Notrufe an.
 
-- **Anrufplan- und Operator Connect-Benutzer in der USA oder Kanada** können die vordefinierte Testnotrufnummer 933 verwenden, um ihre Notrufkonfiguration zu überprüfen. Diese Nummer wird an einen Bot weitergeleitet, der dann die Rufnummer des Anrufers (Anrufleitungs-ID), die Notfalladresse oder den Standort zurückgibt und ob der Anruf automatisch an den Anrufer weitergeleitet oder zuerst überprüft wird.
+- **Anrufplan, Telefonieanbieter und Telefonieanbieter mit Mobil Benutzer im Estados Unidos oder Kanada** können die vordefinierte Testnotrufnummer 933 verwenden, um ihre Notrufkonfiguration zu überprüfen. Diese Nummer wird an einen Bot weitergeleitet, der dann die Rufnummer des Anrufers (Anrufleitungs-ID), die Notfalladresse oder den Standort zurückgibt und ob der Anruf automatisch an den Anrufer weitergeleitet oder zuerst überprüft wird.
 
-- **Direct Routing-Kunden im USA** sollten sich mit ihrem ERSP für einen Testdienst koordinieren.
+- **Direct Routing-Kunden im Estados Unidos** sollten sich mit ihrem ERSP für einen Testdienst koordinieren.
 
 ## <a name="government-support"></a>Staatliche Unterstützung
 
@@ -247,7 +247,7 @@ Die folgende Tabelle zeigt die Unterstützung für dynamische Notrufe in den Gov
 | Cloud | Verfügbarkeit |
 | :------------|:-------|
 | World Wide Multi Tenant | Verfügbar für alle Teams-Clients |
-| GCC | Verfügbar für alle Teams-Clients |
+| Gcc | Verfügbar für alle Teams-Clients |
 | GCCH | -Verfügbar auf Teams-Desktop <br> –Verfügbar auf mobilen Teams-Clients <br> -Verfügbar auf Teams-Smartphones, App-Version: 1449/1.0.94.2022061702 |
 | Dod | Ausstehend |
 

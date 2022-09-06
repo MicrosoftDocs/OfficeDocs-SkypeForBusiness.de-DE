@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie, wie Sie das Microsoft Teams Admin Center verwenden, um eine Liste aller Telefonnummern in Ihrer Organisation und aller Nummern anzuzeigen, die Benutzern zugewiesen oder nicht zugewiesen sind.
-ms.openlocfilehash: 84162b3971b1730df114482d30820dcf7e86a684
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: ac7c63515b34b8c199f8050933b6c3ccbc6f8d33
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494462"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606074"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>Anzeigen einer Liste von Telefonnummern 
 
 Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder Sprachanwendungen wie [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md) oder [Anrufwarteschleifen](plan-auto-attendant-call-queue.md) zuweisen können. Weitere Informationen finden [Sie unter Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-landing-page).
 
-Dieser Artikel bezieht sich auf Anrufpläne und Telefonieanbieter. Informationen zum Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-VoIP](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+Dieser Artikel bezieht sich auf Anrufpläne, Telefonieanbieter und Telefonieanbieter mit Mobil (Öffentliche Vorschauversion). Informationen zum Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-VoIP](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>So zeigen Sie alle Telefonnummern in Ihrer Organisation an
 

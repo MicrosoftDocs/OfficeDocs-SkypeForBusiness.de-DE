@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Admin können die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räume aufgeführt werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590182"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606234"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Versionshinweise für Microsoft Teams-Räume
 
@@ -104,10 +104,11 @@ In diesem Update eingeführt:
 - Anheften und Ausblenden von Raumvideo <sup>1</sup> 
 - Administratorkonfiguration zum Deaktivieren des geteilten Katalogs in dualer Anzeige Teams-Räume <sup>1</sup>
 - Dual-Display-Teams-Räume kann jetzt bis zu 18 Teilnehmer-Videostreams anzeigen <sup>2</sup>
+- Unterstützung für Microsoft Teams-Räume Pro- und Microsoft Teams Room Basic-Raumlizenzen <sup>2</sup>
 
 <sup>1</sup> Die Administratorkonfiguration zum Deaktivieren des geteilten Katalogs über XML finden [Sie unter Verwalten einer Microsoft Teams-Räume Konsoleneinstellungen remote mit einer XML-Konfigurationsdatei](../rooms/xml-config-file.md).
 
-<sup>2</sup> Dieses Feature wird für den Teams-Webclient eingeführt und dauert etwa zwei Wochen. Weitere Informationen finden Sie unter [Teams-Updates](../teams-client-update.md).
+<sup>2</sup> Dieses Feature wird für den Teams-Webclient eingeführt und dauert etwa zwei Wochen ab dem Datum, an dem dieses Update veröffentlicht wurde. Weitere Informationen finden Sie unter [Teams-Updates](../teams-client-update.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
@@ -291,7 +292,7 @@ In diesem Update eingeführt:
 - Spotlight-Video einer Person aus der Teams Room-Konsole und Nutzen von hervorgehobenem Video auf Raumanzeigen
 
 > [!NOTE]
-> Cortana-Sprachfertigkeiten sind für ausgewählte Audioperipheriegeräte für Mandanten im USA verfügbar. In Zukunft werden weitere Länder oder Regionen hinzugefügt. Weitere Informationen finden Sie [unter Cortana-Sprachunterstützung in Teams](../cortana-in-teams.md)
+> Cortana-Sprachfertigkeiten sind für ausgewählte Audioperipheriegeräte für Mandanten im Estados Unidos verfügbar. In Zukunft werden weitere Länder oder Regionen hinzugefügt. Weitere Informationen finden Sie [unter Cortana-Sprachunterstützung in Teams](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 

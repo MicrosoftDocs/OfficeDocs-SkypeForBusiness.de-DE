@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269350"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606854"
 ---
 # <a name="teams-devices-for-education"></a>Teams-Geräte für Bildungseinrichtungen
 
@@ -62,19 +62,19 @@ Nicht-native und selbst erstellte Systeme, die auf externe Dienste oder eine Ver
 
 **Speziell für Teams entwickelt**:
 
-Erweiterte Audio- und Video- und Freigabefunktionen
+Erweiterte Audio- und Video- und Freigabefunktionen.
 
 **Umfangreiches Geräteportfolio für jeden Raum**:
 
-Wählen Sie aus vollständig modularisierten oder integrierten Formfaktoren unter Allen Android- oder Windows-Betriebssystemen.
+Wählen Sie aus vollständig modularisierten oder integrierten Formfaktoren für Android- oder Windows-Betriebssysteme.
 
 **Neu konzipierte Raumerfahrungen**:
 
-Reibungslos an Teams-Besprechungen teilnehmen, um an inklusiven, kollaborativen Besprechungen für Schüler und Lehrkräfte gleichermaßen teilzunehmen
+Nehmen Sie reibungslos an Teams-Besprechungen teil, um an inklusiven, kollaborativen Besprechungen für Schüler und Lehrkräfte teilzunehmen.
 
 **Einfache Verwaltung von einem Ort aus**:
 
-Verwalten und halten Sie Geräte im Teams Admin Center vollständig auf dem neuesten Stand, und aktivieren Sie die proaktive 24x7-Verwaltung von Microsoft mit Microsoft Teams-Räume Premium
+Verwalten und halten Sie Geräte im Teams Admin Center vollständig auf dem neuesten Stand, und aktivieren Sie die proaktive Verwaltung von 24 x 7 von Microsoft mit Microsoft Teams-Räume Pro.
 
 ## <a name="space-considerations"></a>Überlegungen zum Platz
 

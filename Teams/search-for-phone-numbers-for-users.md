@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie nach Telefonnummern suchen, die Sie Ihren Benutzern zuweisen können, nach Land oder Region und Stadt, und geben Sie die Anzahl der benötigten Nummern an.
-ms.openlocfilehash: 43aef76a16a8505e34407b15068a546dd2894343
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b13e2365a3d0fb50e7fef5c7dc6a174d1b7376ff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682504"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606194"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Suchen nach Telefonnummern für Benutzer
 
@@ -36,9 +36,9 @@ Bevor Sie Ihren Benutzern von Microsoft bereitgestellte Telefonnummern zuweisen 
 
 Wenn Sie Microsoft als Betreiber auswählen, können Sie die Nummern über das Teams Admin Center erwerben, indem Sie die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen. Die Seite begrenzt automatisch die Menge basierend auf der Anzahl, die Sie noch erwerben können. Wenn Sie einen Operator Connect-Operator auswählen, werden Sie zur Startseite Des ausgewählten Operators weitergeleitet, um den Nummernauftrag abzuschließen.
 
-Wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PSTN-Konnektivitätsoption ab: Microsoft-Anrufpläne, Telefonieanbieter oder Direct Routing.
+Wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PSTN-Konnektivitätsoption ab: Microsoft Calling Plans, Operator Connect, Telefonieanbieter mit Mobil (Public Preview Release) oder Direct Routing.
 
-Dieser Artikel bezieht sich auf [Microsoft-Anrufpläne](#search-for-telephone-numbers-for-microsoft-calling-plans) und [Telefonieanbieter](#search-for-telephone-numbers-for-operator-connect). Weitere Informationen zu allen Optionen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-landing-page).
+Dieser Artikel bezieht sich auf [Microsoft-Anrufpläne](#search-for-telephone-numbers-for-microsoft-calling-plans), [Telefonieanbieter](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile) und [Telefonieanbieter mit Mobil](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile). Weitere Informationen zu allen Optionen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>Suchen nach Telefonnummern für Microsoft-Anrufpläne
 
@@ -71,7 +71,7 @@ So suchen Sie nach Telefonnummern für Ihre Benutzer:
 
 9. Wenn Sie zur Seite **"Telefonnummern** " zurückkehren, wählen Sie die Telefonnummern aus, die Sie zuweisen möchten, und klicken Sie dann auf **"Bearbeiten** ", um sie einem Benutzer zuzuweisen.
 
-## <a name="search-for-telephone-numbers-for-operator-connect"></a>Suchen nach Telefonnummern für Telefonieanbieter
+## <a name="search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile"></a>Suchen nach Telefonnummern für Telefonieanbieter oder Telefonieanbieter mit Mobil
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 

@@ -1,5 +1,5 @@
 ---
-title: Telefonieanbieter
+title: Plan für Telefonieanbieter
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,18 +21,28 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745587281c5566b1ba4fe0d1ea06a44d40c8a7f2
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915183"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606444"
 ---
 # <a name="plan-for-operator-connect"></a>Plan für Telefonieanbieter
 
 Telefonieanbieter ist eine weitere Option für die Bereitstellung von PSTN-Konnektivität (Public Switched Telephone Network) mit Teams und dem Telefonsystem. Weitere Informationen zu Teams-VoIP-Lösungen und PSTN-Konnektivitätsoptionen finden Sie unter [Planen Ihrer Teams-VoIP-Lösung](cloud-voice-landing-page.md) und [der PSTN-Konnektivitätsoptionen](pstn-connectivity.md).
 
-In diesem Artikel werden die Vorteile und Anforderungen beschrieben und ein Link zu den Operatoren bereitgestellt, die am Microsoft Operator Connect-Programm teilnehmen.  Wenn Sie sich entscheiden, dass Telefonieanbieter die richtige Lösung für Ihr Unternehmen ist, lesen Sie nach dem Lesen dieses Artikels den Abschnitt [Konfigurieren von Telefonieanbieter](operator-connect-configure.md).  
+In diesem Artikel werden die Vorteile und Anforderungen beschrieben und ein Link zu den Operatoren bereitgestellt, die am Microsoft Operator Connect-Programm teilnehmen.  
+
+Telefonieanbieter könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
+
+- Der Microsoft-Anrufplan an Ihrem geografischen Standort nicht verfügbar ist.
+
+- Ihr bevorzugter Operator ist ein Teilnehmer am Microsoft Operator Connect-Programm.
+
+- Sie möchten einen neuen Operator finden, um Anrufe in Teams zu ermöglichen.
+
+Wenn Sie sich entscheiden, dass Telefonieanbieter die richtige Lösung für Ihr Unternehmen ist, lesen Sie nach dem Lesen dieses Artikels den Abschnitt [Konfigurieren von Telefonieanbieter](operator-connect-configure.md).  
 
 ## <a name="benefits"></a>Vorteile
 
@@ -48,11 +58,7 @@ Wenn Ihr bestehender Operator ein Teilnehmer am Microsoft Operator Connect-Progr
 
 ## <a name="requirements"></a>Anforderungen
 
- Telefonieanbieter könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
-
-- Der Microsoft-Anrufplan an Ihrem geografischen Standort nicht verfügbar ist.
-- Ihr bevorzugter Operator ist ein Teilnehmer am Microsoft Operator Connect-Programm.
-- Sie möchten einen neuen Operator finden, um Anrufe in Teams zu ermöglichen.
+ 
 
 Um die Zuweisung von Telefonnummern mit Telefonieanbieter zu aktivieren, stellen Sie sicher, dass Ihre Benutzer:
 

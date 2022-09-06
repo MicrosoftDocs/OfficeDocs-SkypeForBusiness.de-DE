@@ -16,16 +16,18 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie die Überwachung von Microsoft Teams-Räume integriert und end-to-end mithilfe von Azure Monitor bereitgestellt wird.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b6d1931b0a1818b5146f6ac0e02c225fea3af52
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dbea45008024762f30d9555f4762c4377d2ed1f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267450"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606414"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>Bereitstellen der :::no-loc text="Microsoft Teams Rooms"::: Überwachung mit :::no-loc text="Azure Monitor":::
 
 In diesem Artikel wird erläutert, wie Sie die integrierte End-to-End-Überwachung von Geräten mithilfe :::no-loc text="Azure Monitor":::von :::no-loc text="Microsoft Teams Rooms"::: .
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Sie können innerhalb :::no-loc text="Azure Monitor"::: konfigurieren:::no-loc text="Log Analytics":::, um grundlegende Telemetrie und Warnungen bereitzustellen, die Ihnen bei der Verwaltung :::no-loc text="Microsoft Teams Rooms":::helfen. Wenn Ihre Verwaltungslösung ausgereift ist, können Sie sich entscheiden, zusätzliche Daten- und Verwaltungsfunktionen bereitzustellen, um eine detailliertere Ansicht der Geräteverfügbarkeit und -leistung zu erstellen.
 
@@ -180,7 +182,7 @@ Alternativ können Sie ein eigenes Dashboard erstellen und nur die Kacheln hinzu
 5.  Definieren Sie die **zweite Kachel**:<br>
     **Legende:** Aktive Geräte, die innerhalb der letzten Stunde einen Takt gesendet haben<br>
     **Abfrage:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
-6.  Wählen Sie **"Übernehmen" aus**.
+6.  Wählen Sie **Anwenden** aus.
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Erstellen einer Kachel, die aktive Geräte anzeigt
 
@@ -411,7 +413,7 @@ Obwohl Sie den :::no-loc text="Microsoft Monitoring"::: Agent manuell auf jedem 
 
 Wenn Sie Ihre :::no-loc text="Microsoft Teams Rooms"::: Geräte zum ersten Mal erstellen, sollten Sie die :::no-loc text="Microsoft Monitoring"::: Einrichtungs- und Konfigurationsschritte des Agents als Teil des Buildprozesses einbeziehen. Weitere Informationen finden Sie unter [Installieren des Agents mithilfe der Befehlszeile](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
 
-### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>Bereitstellen des :::no-loc text="Microsoft Monitoring"::: Agents mithilfe eines Gruppenrichtlinie-Objekts (GPO)
+### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>:::no-loc text="Microsoft Monitoring"::: Bereitstellen des Agents mithilfe eines نهج المجموعة-Objekts (GPO)
 
 Wenn Sie Ihre :::no-loc text="Microsoft Teams Rooms"::: Geräte bereits vor der Implementierung :::no-loc text="Azure Monitoring":::bereitgestellt haben, können Sie das bereitgestellte Skript verwenden, um die Agents mithilfe :::no-loc text="Active Directory"::: von Gruppenrichtlinienobjekten einzurichten und zu konfigurieren.
 
@@ -423,16 +425,16 @@ Wenn Sie Ihre :::no-loc text="Microsoft Teams Rooms"::: Geräte bereits vor der 
     1.  Öffnen Sie ein Eingabeaufforderungsfenster, und führen Sie dann **MMASetup-AMD64.exe /c** aus.
     2.  Geben Sie die soeben erstellte Freigabe an, und extrahieren Sie den Inhalt.
 
-4.  Erstellen Sie ein neues Gruppenrichtlinie-Objekt, und weisen Sie es der Organisationseinheit zu, in :::no-loc text="Microsoft Teams Rooms"::: der sich Computerkonten befinden.
+4.  Erstellen Sie ein neues نهج المجموعة-Objekt, und weisen Sie es der Organisationseinheit zu, in :::no-loc text="Microsoft Teams Rooms"::: der sich Computerkonten befinden.
 
 5.  Konfigurieren der PowerShell-Ausführungsrichtlinie:
-    1.  Bearbeiten Sie das neu erstellte Gruppenrichtlinie-Objekt, und navigieren Sie zu Komponenten für administrative Vorlagen \\ :::no-loc text="Windows"::: für Computerkonfigurationsrichtlinien \\ \\.\\ :::no-loc text="Windows PowerShell":::
+    1.  Bearbeiten Sie das neu erstellte نهج المجموعة-Objekt, und navigieren Sie zu Komponenten für administrative Vorlagen \\ :::no-loc text="Windows"::: für Computerkonfigurationsrichtlinien \\ \\.\\ :::no-loc text="Windows PowerShell":::
     2.  Aktivieren Sie die **Skriptausführung aktivieren** und legen Sie die **Ausführungsrichtlinie** auf **"Lokale Skripts zulassen**" fest.
 
 6.  Konfigurieren Sie das Startskript:
     1.  Kopieren Sie das folgende Skript, und speichern Sie es als Install-MMAgent.ps1.
     2.  Ändern Sie die Parameter WorkspaceId, WorkspaceKey und SetupPath so, dass sie Ihrer Konfiguration entsprechen.
-    3.  Bearbeiten Sie dasselbe Gruppenrichtlinie-Objekt, und navigieren Sie zu Einstellungsskripts für Computerkonfigurationsrichtlinien \\ \\ :::no-loc text="Windows"::: \\ (Start/Herunterfahren)
+    3.  Bearbeiten Sie dasselbe نهج المجموعة-Objekt, und navigieren Sie zu Einstellungsskripts für Computerkonfigurationsrichtlinien \\ \\ :::no-loc text="Windows"::: \\ (Start/Herunterfahren)
     4.  Doppelklicken Sie, um **"Start**" auszuwählen, und wählen Sie dann **PowerShell-Skripts** aus.
     5.  Wählen Sie **"Dateien anzeigen"** aus, und kopieren Sie dann die **Install-MMAgent.ps1** Datei in diesen Ordner.
     6.  Wählen Sie **"Hinzufügen"** und dann **"Durchsuchen"** aus.

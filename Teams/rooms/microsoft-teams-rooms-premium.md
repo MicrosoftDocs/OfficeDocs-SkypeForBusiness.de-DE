@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über den Microsoft Teams-Räume verwalteten Dienst.
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269580"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606284"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams-Räume verwalteten Dienst
 
@@ -101,7 +101,7 @@ Der Microsoft Teams-Räume verwaltete Dienst wird über einen dedizierten Micros
 |**Unterstützung der Verfügbarkeit über das Portal**   | 24x7      |
 |**Anfängliche Antwortzeit für die SOC des Microsoft Teams-Räume verwalteten Diensts**   |  4 Stunden       |
 |**Automatisierte Schließung von Tickets bei Kundeninaktivität**    |Vom Kunden initiierte Tickets: 3 Werktage<br>Vom System initiierte Tickets: 15 Werktage</li>   </ul>      |
-|**Umleitung zu umfassenderen Microsoft-Support**   |Probleme im Zusammenhang mit einem anderen Microsoft-Produkt außerhalb des Bereichs des Microsoft Teams-Räume verwalteten Diensts werden an das entsprechende Supportteam weitergeleitet.         |
+|**Umleitung zu einer breiteren pomoc techniczna firmy Microsoft**   |Probleme im Zusammenhang mit einem anderen Microsoft-Produkt außerhalb des Bereichs des Microsoft Teams-Räume verwalteten Diensts werden an das entsprechende Supportteam weitergeleitet.         |
 |**Umleitung zum Oem-Support (Original Equipment Manufacturer)**    |Das SOC Microsoft Teams-Räume verwalteten Diensts arbeitet daran, das Problem zu verstehen und hilft gegebenenfalls bei der Koordination der Unterstützung mit dem OEM. In einigen Fällen sind Sie möglicherweise dafür verantwortlich, direkt mit Ihrem OEM in Kontakt zu treten.         |
 
 Denken Sie darüber hinaus daran, dass das SOC für Microsoft Teams-Räume verwalteten Dienst IT-Vorgänge in Ihrer Organisation unterstützt und kein Ersatz für Helpdesk-Dienste für Ihre Endbenutzer ist.
@@ -110,11 +110,11 @@ Weitere Informationen zur Microsoft Teams-Räume Supportabdeckung für verwaltet
 
 ## <a name="supported-regions"></a>Unterstützte Regionen
 
-Die Microsoft Teams-Räume Premium-Lizenz ist in den folgenden Ländern mit Audiokonferenzen verfügbar:
+Die Microsoft Teams-Räume Pro-Lizenz ist in den folgenden Ländern mit Audiokonferenzen verfügbar:
 
-- Australien, Österreich, Belgien, Brasilien, Bulgarien, Kanada, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Hongkong SAR, Ungarn, Irland, Italien, Japan, Lettland, Litauen, Luxemburg, Malta, Mexiko, Monaco, Niederlande, Neuseeland, Norwegen, Polen, Portugal, Rumänien, Russland, Singapur, Slowakei, Slowenien, Südafrika, Spanien, Schweden, Schweiz, Taiwan, Vereinigtes Königreich, USA.
+- Australien, Österreich, Belgien, Brasilien, Bulgarien, Kanada, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Hongkong SAR, Ungarn, Irland, Italien, Japan, Lettland, Litauen, Luxemburg, Malta, Mexiko, Monaco, Niederlande, Neuseeland, Norwegen, Polen, Portugal, Rumänien, Russland, Singapur, Slowakei, Slowenien, Südafrika, Spanien, Schweden, Schweiz, Taiwan, Vereinigtes Königreich, Estados Unidos.
 
-Die Microsoft Teams-Räume Premium-Lizenz ist in den folgenden Ländern ohne Audiokonferenzen verfügbar:
+Die Microsoft Teams-Räume Pro-Lizenz ist in den folgenden Ländern ohne Audiokonferenzen verfügbar:
 
 - Andorra, Bouvetinsel, Weihnachtsinsel, Cocos(Keeling)-Inseln, Cookinseln, Färöer, Fidschi, Gibraltar, Grönland, Heard Island und McDonaldInseln, Island, Indien, Kiribati, Lesotho, Liechtenstein, Macau SAR, Marshallinseln, Mikronesien, Nauru, Niue, Norfolkinseln, Nördliche Marianen, Palau, Papua-Neuguinea, Pitcairninseln, Saint Pierre und Miquelon, Samoa, San Marino, Salomonen, Swaziland, Tokelau, Tonga, Tuvalu,  Vanuatu, Vatikanstadt, Wallis und Futuna.
 

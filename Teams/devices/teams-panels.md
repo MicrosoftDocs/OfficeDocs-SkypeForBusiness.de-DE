@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Dieser Artikel enthält eine Übersicht und Features, die von Microsoft Teams-Bereichen unterstützt werden.
-ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d31ac86be9ac00b7aa8a77e37a906b32a00a2095
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268560"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606734"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams-Bereiche
 
@@ -54,7 +54,7 @@ Die Hardware-, Software- und Netzwerkanforderungen für die Bereitstellung von P
 
 ## <a name="license-requirement"></a>Lizenzanforderung
 
-Um Teams-Bereiche verwenden zu können, benötigen Sie [Microsoft Teams-Räume Standard Lizenz](../rooms/rooms-licensing.md).
+Um Teams-Bereiche verwenden zu können, benötigen Sie eine [Microsoft Teams-Räume-Lizenz](../rooms/rooms-licensing.md).
 
 > [!Note]
 > Wenn Sie bereits Microsoft Teams-Räume im Besprechungsbereich bereitgestellt haben, in dem Sie Teams-Panels installieren, benötigen Sie keine zusätzliche Lizenz für die Verwendung von Teams-Bereichen.
@@ -103,11 +103,12 @@ Die Planung der Konfiguration und Bereitstellung umfasst die folgenden Schlüsse
 
 Jedes Teams-Panels-Gerät erfordert ein Microsoft 365-Raumressourcenkonto. Sie verwenden die Anmeldeinformationen für das Ressourcenkonto, um sich auf dem Panels-Gerät bei der Microsoft Teams-App anzumelden.
 
-Zum Einrichten eines Microsoft 365-Ressourcenkontos für Teams-Bereiche wird empfohlen, eine [Microsoft Teams-Räume Standard-Lizenz](#license-requirement) zu erwerben. Informationen zum Erstellen eines Ressourcenkontos und zum Zuweisen einer Lizenz finden [Sie unter Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte](../rooms/with-office-365.md).
+Um ein Microsoft 365-Ressourcenkonto für Teams-Bereiche einzurichten, müssen Sie eine [Microsoft Teams-Räume Lizenz](#license-requirement) erwerben.
+Informationen zum Erstellen eines Ressourcenkontos und zum Zuweisen einer Lizenz finden [Sie unter Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
->- Wenn Sie bereits ein Raumressourcenkonto für den Besprechungsraum eingerichtet haben, in dem Sie Panels installieren, verwenden Sie dasselbe Raumressourcenkonto, um sich beim Panels-Gerät anzumelden. Stellen Sie jedoch sicher, dass dem Raumressourcenkonto die Microsoft Teams-Räume Standard Lizenz zugewiesen ist, um es als Panels-Ressourcenkonto zu verwenden.
+>- Wenn Sie bereits ein Raumressourcenkonto für den Besprechungsraum eingerichtet haben, in dem Sie Panels installieren, verwenden Sie dasselbe Raumressourcenkonto, um sich beim Panels-Gerät anzumelden. Stellen Sie jedoch sicher, dass dem Raumressourcenkonto eine Microsoft Teams-Räume Lizenz zugewiesen ist, um es als Panels-Ressourcenkonto zu verwenden.
 >
 >- Wenn Sie bereits eine Microsoft Teams-Räume in dem Besprechungsbereich bereitgestellt haben, in dem Sie Teams-Panels installieren, müssen Sie keine separate Lizenz für die Bereitstellung von Panels erwerben. Der Administrator meldet sich mit denselben Anmeldeinformationen wie die Microsoft Teams-Räume für denselben Speicherplatz beim Panels-Gerät an.
 >

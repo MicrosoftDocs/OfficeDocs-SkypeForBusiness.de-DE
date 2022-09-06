@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Telefonnummern von Benutzern (Abonnenten) und Diensten (gebührenpflichtige und gebührenfreie Telefonnummern) für Microsoft Teams für Ihre Organisation erhalten und verwalten.
-ms.openlocfilehash: 15caaa7b5d21ae86d0b0079aeb743690294fd85b
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074673"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606744"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 
@@ -46,7 +46,7 @@ Microsoft arbeitet an der Vereinfachung von Nummerntypen, aber vorerst müssen S
 
 - Welche Benutzerstandorte benötigen neue Telefonnummern von Microsoft?
 - Welche Art von Telefonnummer (Abonnenten oder Dienst) benötige ich?
-- Gewusst wie vorhandene Telefonnummern zu Teams portieren?
+- 如何实现 vorhandene Telefonnummern zu Teams portieren?
 
 Wie Sie Telefonnummern erwerben und verwalten, hängt von ihrer PSTN-Konnektivitätsoption ab.
 
@@ -54,7 +54,11 @@ Wie Sie Telefonnummern erwerben und verwalten, hängt von ihrer PSTN-Konnektivit
 
 - Informationen zum Verwalten von Telefonnummern für Telefonieanbieter finden Sie unter [Einrichten von Telefonnummern mit Telefonieanbieter](operator-connect-configure.md#set-up-phone-numbers).
 
+- Informationen zum Verwalten von Telefonnummern für Telefonieanbieter mit Mobil (Public Preview-Version) finden [Sie unter Einrichten von Telefonnummern mit Telefonieanbieter mit Mobil](operator-connect-mobile-configure.md#set-up-phone-numbers).
+
 - Informationen zum Verwalten von Telefonnummern für Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-VoIP](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+
+
 
 
 > [!NOTE]
@@ -92,13 +96,13 @@ Wo und wie Nummern verwaltet werden, hängt von der PSTN-Konnektivitätsoption a
 
 - Microsoft-Anrufplan und Telefonnummern für Telefonieanbieter können nur in Microsoft 365 verwaltet werden.
 
-- Direct Routing-Telefonnummern können in der lokales Active Directory oder in Microsoft 365 verwaltet werden, wie in den folgenden Abschnitten beschrieben.
+- Direct Routing-Telefonnummern können in der жергілікті Active Directory oder in Microsoft 365 verwaltet werden, wie in den folgenden Abschnitten beschrieben.
 
-### <a name="direct-routing-numbers-managed-in-an-on-premises-active-directory"></a>In einem lokales Active Directory verwaltete Direct Routing-Nummern
+### <a name="direct-routing-numbers-managed-in-an-on-premises-active-directory"></a>In einem жергілікті Active Directory verwaltete Direct Routing-Nummern
 
-Wenn Sie eine Skype for Business Server Hybridbereitstellung haben oder hatten, synchronisiert sich Ihr lokales Active Directory höchstwahrscheinlich mit Microsoft 365. Dies bedeutet, dass Verzeichnisattribute für Benutzer- und Ressourcenkonten im lokales Active Directory verwaltet und mit Microsoft 365 synchronisiert werden.
+Wenn Sie eine Skype for Business Server Hybridbereitstellung haben oder hatten, synchronisiert sich Ihr жергілікті Active Directory höchstwahrscheinlich mit Microsoft 365. Dies bedeutet, dass Verzeichnisattribute für Benutzer- und Ressourcenkonten in der жергілікті Active Directory verwaltet und mit Microsoft 365 synchronisiert werden.
 
-Wenn die Direct Routing-Telefonnummer für das Benutzer- oder Ressourcenkonto im lokales Active Directory verwaltet wird, enthält der Parameter "msRTCSIP-Line" für das Konto einen Wert. Sie können ein Tool wie ADSI Edit verwenden, um den MsRTCSIP-Line-Parameter für ein Benutzer- oder Ressourcenkonto anzuzeigen, dem eine Direct Routing-Telefonnummer in lokales Active Directory zugewiesen ist.   
+Wenn die Direct Routing-Telefonnummer für das Benutzer- oder Ressourcenkonto im жергілікті Active Directory verwaltet wird, enthält der Parameter "msRTCSIP-Line" für das Konto einen Wert. Sie können ein Tool wie ADSI Edit verwenden, um den MsRTCSIP-Line-Parameter für ein Benutzer- oder Ressourcenkonto anzuzeigen, dem eine Direct Routing-Telefonnummer in жергілікті Active Directory zugewiesen ist.   
 
 Nachdem dieser Parameter über den Verzeichnissynchronisierungsprozess (Azure AD Connect) automatisch mit dem Benutzer- oder Ressourcenkonto in Microsoft 365 synchronisiert wurde, können Sie die Telefonnummer anzeigen, indem Sie sich den OnPremLineURi-Parameter in der Ausgabe des [Cmdlets "Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) " ansehen.
 
@@ -109,15 +113,15 @@ Nachdem dieser Parameter über den Verzeichnissynchronisierungsprozess (Azure AD
 
 ### <a name="direct-routing-numbers-managed-in-microsoft-365"></a>In Microsoft 365 verwaltete Direct Routing-Nummern
 
-Wenn Sie keine Direct Routing-Telefonnummern im lokales Active Directory verwalten, werden diese in Microsoft 365 verwaltet. Da die Telefonnummern nicht mit Microsoft 365 synchronisiert werden, sind sie im OnPremLineUri-Parameter in der Ausgabe des Get-CsOnlineUser Cmdlets, das für das Benutzer- oder Ressourcenkonto ausgeführt wird, nicht sichtbar.
+Wenn Sie keine Direct Routing-Telefonnummern in der жергілікті Active Directory verwalten, werden diese in Microsoft 365 verwaltet. Da die Telefonnummern nicht mit Microsoft 365 synchronisiert werden, sind sie im OnPremLineUri-Parameter in der Ausgabe des Get-CsOnlineUser Cmdlets, das für das Benutzer- oder Ressourcenkonto ausgeführt wird, nicht sichtbar.
 
-### <a name="direct-routing-numbers-managed-in-both-an-on-premises-active-directory-and-microsoft-365"></a>Direct Routing-Nummern, die sowohl in einem lokales Active Directory als auch in Microsoft 365 verwaltet werden
+### <a name="direct-routing-numbers-managed-in-both-an-on-premises-active-directory-and-microsoft-365"></a>Direct Routing-Nummern, die sowohl in einem жергілікті Active Directory als auch in Microsoft 365 verwaltet werden
 
-Es ist möglich, Direct Routing-Telefonnummern einiger Benutzer- und Ressourcenkonten in einem lokales Active Directory und Direct Routing-Telefonnummern anderer Konten in Microsoft 365 zu verwalten. Diese Funktion hängt davon ab, ob das Attribut "msRTCSIP-Line" für das Benutzer- oder Ressourcenkonto in der lokales Active Directory festgelegt ist.    
+Es ist möglich, Direct Routing-Telefonnummern einiger Benutzer- und Ressourcenkonten in einem жергілікті Active Directory und Direct Routing-Telefonnummern anderer Konten in Microsoft 365 zu verwalten. Diese Funktion hängt davon ab, ob das Attribut "msRTCSIP-Line" für das Benutzer- oder Ressourcenkonto im жергілікті Active Directory festgelegt ist.    
 
 ### <a name="change-where-direct-routing-phone-numbers-are-managed"></a>Ändern der Verwalteten Direct Routing-Telefonnummern
 
-Um zu ändern, wo eine Direct Routing-Telefonnummer verwaltet wird, müssen Sie die Telefonnummer aus dem msRTCSIP-Line-Attribut des Benutzers entfernen oder das Konto im lokales Active Directory erneut angeben.   
+Um zu ändern, wo eine Direct Routing-Telefonnummer verwaltet wird, müssen Sie die Telefonnummer aus dem msRTCSIP-Line-Attribut des Benutzers entfernen oder das Konto im жергілікті Active Directory erneut angeben.   
 
 Weitere Informationen finden Sie unter ["Skype for Business Attribute für alle lokalen Benutzer in Active Directory löschen](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md)". Beachten Sie, dass die Telefonnummer dem Benutzer- oder Ressourcenkonto in Microsoft 365 neu zugewiesen werden muss.
 

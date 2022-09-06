@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Ort für einen Notfallstandort für Ihre Organisation hinzufügen, ändern oder entfernen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1f142d7053a8254446d76dfab276baf9f6f12363
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269272"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606714"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation
 
@@ -34,7 +34,7 @@ Je nach Ihrer PSTN-Konnektivitätsoption kann jedoch die Verwaltung von Notfalls
 
 In diesem Artikel wird beschrieben, wie Sie einen *Ort* für einen Notfallstandort für Ihre Organisation hinzufügen, ändern oder entfernen.
 
-Dieser Artikel bezieht sich auf Microsoft-Anrufpläne, Telefonieanbieter und Direct Routing.
+Dieser Artikel bezieht sich auf Microsoft Calling Plans, Operator Connect, Telefonieanbieter mit Mobil (Public Preview Release) und Direct Routing.
 
 Sie verwalten Notfallstandorte für Ihre Organisation im Microsoft Teams Admin Center oder mithilfe von PowerShell.
   

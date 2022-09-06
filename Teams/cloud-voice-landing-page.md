@@ -21,15 +21,15 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-may2020
 search.appverid: MET150
-description: Erfahren Sie mehr über die Cloud-VoIP-Features von Microsoft Teams und die Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
+description: Mer informasjon über die Cloud-VoIP-Features von Microsoft Teams und die Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b1f4b0756e640d9b93e235b2724ce7841b4f44f
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240824"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606064"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Microsoft Teams-Anruflösung
 
@@ -49,6 +49,7 @@ Ihre Situation könnte jedoch komplexer sein. So könnten Sie beispielsweise Ges
 
 - Telefonsystem mit Anrufplan
 - Telefonsystem mit Ihrem eigenen PSTN-Netzbetreiber mit Operator Connect
+- Telefonsystem mit Ihrem eigenen Festnetz-Mobilfunkanbieter mit Telefonieanbieter mit Mobil (Public Preview Release)
 - Telefonsystem mit Ihrem eigenen PSTN-Netzbetreiber mit Direct Routing
 - Eine Kombilösung aus Telefonsystem mit Anrufplan, Telefonsystem mit Telefonieanbieter und/oder Telefonsystem mit Direct Routing
 
@@ -150,9 +151,12 @@ Das Telefonsystem bietet vollständige Nebenstellenanlagenfunktionen für Ihre O
 
 - [**Telefonsystem mit Anrufplan**](pstn-connectivity.md#phone-system-with-calling-plan): Eine gänzlich cloudbasierte Lösung, bei der Microsoft Ihr Festnetzbetreiber ist.
 
-- [**Telefonsystem mit Ihrem eigenen PSTN-Netzbetreiber mithilfe von Operator Connect**](operator-connect-plan.md). Wenn Ihr vorhandener Operator am Microsoft Operator Connect-Programm teilnimmt, kann er mit Operator Connect den Dienst für die Bereitstellung von PSTN-Anrufen an Teams verwalten. Informationen zu den Vorteilen und Anforderungen von Operator Connect finden Sie unter [Plan Operator Connect](operator-connect-plan.md).
+- [**Telefonsystem mit Ihrem eigenen PSTN-Netzbetreiber mithilfe von Operator Connect**](operator-connect-plan.md). Wenn Ihr vorhandener Betreiber am Microsoft Operator Connect-Programm teilnimmt, kann er mitHilfe von Operator Connect den Dienst verwalten, um PSTN-Anrufe an Teams zu übertragen. 
+
+- [**Telefonsystem mit Ihrem eigenen Festnetz-Mobilfunkanbieter mithilfe Telefonieanbieter mit Mobil**](operator-connect-mobile-plan.md) **öffentlichen Überprüfungsversion**. Mit Telefonieanbieter mit Mobil kann Ihr bestehender Anbieter, der am Microsoft Telefonieanbieter mit Mobil-Programm teilnimmt, den Dienst für die Verwendung von SIM-fähigen Mobiltelefonnummern mit Teams verwalten. 
 
 - [**Telefonsystem mit Ihrem eigenen Festnetzbetreiber unter Verwendung von Direct Routing**](pstn-connectivity.md#phone-system-with-direct-routing) um Ihre lokale Umgebung mit Microsoft Teams zu verbinden.
+
 
 Sie können eine Kombination aus Optionen auswählen, mit der Sie eine Lösung für eine komplexe Umgebung entwerfen oder eine Migration in mehreren Schritten verwalten können. Weitere Informationen zur Migration finden Sie später.
 

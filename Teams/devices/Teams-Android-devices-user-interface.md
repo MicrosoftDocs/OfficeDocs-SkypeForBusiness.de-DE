@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Devices
 description: Erfahren Sie, wie Sie die Benutzeroberfläche auf Android-Geräten von Teams festlegen.
-ms.openlocfilehash: 859c1d9d0f7a946f37b53ad81dc2a0637bb26621
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 830609d1bf02c38a2301c0d5a1b9e62ac836c908
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269320"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606834"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Festlegen der Benutzeroberfläche von Microsoft Teams Android-Geräten
 
@@ -49,7 +49,7 @@ In dieser Abbildung wurde dem Benutzerkonto eine [Telefonlizenz für gemeinsame 
 
 ## <a name="meeting-interface"></a>Besprechungsschnittstelle
 
-Diese Abbildung zeigt ein Benutzerkonto mit einer [zugewiesenen Microsoft Teams-Räume Standard Lizenz](/MicrosoftTeams/rooms/rooms-licensing). Teams-Räume-Lizenzen sind für die Verwendung in Besprechungsräumen oder freigegebenen Räumen vorgesehen, sodass sich die Benutzeroberfläche ändert, um die Teilnahme an einer Besprechung durch Anzeigen der Kalenderansicht zu vereinfachen:
+Diese Abbildung zeigt ein Benutzerkonto mit einer [zugewiesenen Microsoft Teams-Räume Lizenz](/MicrosoftTeams/rooms/rooms-licensing). Teams-Räume-Lizenzen sind für die Verwendung in Besprechungsräumen oder freigegebenen Räumen vorgesehen, sodass sich die Benutzeroberfläche ändert, um die Teilnahme an einer Besprechung durch Anzeigen der Kalenderansicht zu vereinfachen:
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="Besprechungsschnittstelle.":::
 
@@ -61,7 +61,7 @@ Diese Abbildung zeigt ein Benutzerkonto mit einer [zugewiesenen Microsoft Teams-
 
 ## <a name="override-automatic-user-interface-detection"></a>Automatische Erkennung der Benutzeroberfläche außer Kraft setzen
 
-In einigen Fällen können Sie eine Lizenz einem Konto zuweisen, das nicht der beabsichtigten Verwendung entspricht. Beispielsweise können Sie einem Konto, das sich bei Teams-Räume unter Android anmelden soll, eine Benutzerlizenz zuweisen. Standardmäßig wird die Benutzeroberfläche des Besprechungsraums anstelle der Benutzeroberfläche des Besprechungsraums angezeigt. Um die Standardschnittstelle außer Kraft zu setzen, erstellen Sie eine neue [Microsoft Teams-IP-Telefonrichtlinie](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) , und wenden Sie sie auf dieses Konto an.
+In einigen Fällen können Sie eine Lizenz einem Konto zuweisen, das nicht der beabsichtigten Verwendung entspricht. Beispielsweise können Sie einem Konto, das sich bei Teams-Räume unter Android anmelden soll, eine Benutzerlizenz zuweisen. Standardmäßig wird die Benutzeroberfläche des Besprechungsraums anstelle der Benutzeroberfläche des Besprechungsraums angezeigt. Um die Standardschnittstelle außer Kraft zu setzen, erstellen Sie eine neue [Microsoft Teams-IP-Telefonrichtlinie](/powershell/module/skype/new-csteamsipphonepolicy) , und wenden Sie sie auf dieses Konto an.
 
 > [!NOTE]
 > Die dem Benutzerkonto zugewiesene Lizenz muss mindestens über die gleichen Lizenzberechtigungen verfügen wie die gewünschte Benutzeroberfläche. Die Common Area Phone-Lizenz lässt nur die Benutzeroberfläche des Telefons für gemeinsame Bereiche zu. Die Besprechungsraumlizenz ermöglicht Besprechungsraum- und Telefon-Benutzeroberflächen für gemeinsame Bereiche. Eine E3- oder E5-Lizenz unterstützt alle Anmeldemodi.

@@ -1,7 +1,7 @@
 ---
 title: Planen der Bereitstellung für Teams-Telefongeräte und -Displays
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: tony.woodruff
 ms.topic: reference
@@ -16,12 +16,12 @@ description: Dieser Artikel enthält eine Übersicht über die Aufgaben und Schr
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: 5172d230823088141c58e3d2b58e1c3b579268b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fb9b560f56ece49ddae9f15899a118596a31c38f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272390"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606844"
 ---
 # <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Planen der Bereitstellung für Teams-Telefongeräte und -Displays
 
@@ -41,7 +41,7 @@ Teams-Telefone und -Displays passen zu einer von zwei Personen:
 - Persönliche Geräte
 - Geräte mit gemeinsamem Speicherplatz
 
-Persönliche und freigegebene Geräte weisen unterschiedliche Rollen und Verwendungen auf. 
+Persönliche und freigegebene Geräte haben unterschiedliche Rollen und Verwendungen. 
 
 **Persönliche Geräte:** 
 
@@ -68,17 +68,17 @@ Nachdem Sie Ihre Gerätepersonas identifiziert haben, müssen Sie ermitteln, wel
 - Wie viele Räume oder Räume erfordern gemeinsam genutzte Geräte? Verfügt jeder Speicherplatz über denselben Gerätetyp? 
 - Müssen Ihre Geräte bestimmte Anforderungen erfüllen?
     - Beispiele hierfür sind Bildschirmgröße, Formfaktor und Hersteller oder Modell? Eine Liste der zertifizierten Telefone und Displays finden Sie unter [Microsoft Teams-zertifizierte Geräte](teams-ip-phones.md).
--  Benötigen Sie Teams-Telefone oder Teams-Displays? Eine Liste der von Teams-Telefonen unterstützten Features finden Sie unter ["Telefone für Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones) ", und eine Liste der von Teams-Displays unterstützten Features finden Sie in den [Microsoft Teams-Anzeigen](teams-displays.md#features-supported-by-teams-displays).
+-  Benötigen Sie Teams-Telefone oder Teams-Displays? Eine Liste der von Teams-Telefonen unterstützten Features finden Sie unter [Telefone für Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones). Eine Liste der von Teams-Displays unterstützten Features finden Sie in [den Microsoft Teams-Anzeigen](teams-displays.md#features-supported-by-teams-displays).
 - Verfügen Sie über genügend Geräte für neue Benutzer oder einen Prozess für neue Bestellungen und Lieferungen?
-- Stehen Ihnen Ersatzgeräte zur Wartung oder bei Hardwareproblemen zur Verfügung? Die Möglichkeit, ein Gerät schnell auszutauschen, verhindert Unterbrechungen der Benutzeroberfläche.
+- Stehen Ihnen Ersatzgeräte für die Wartung zur Verfügung, oder wenn bei einem Gerät Hardwareprobleme auftreten? Die Möglichkeit, ein Gerät schnell auszutauschen, verhindert Unterbrechungen der Benutzeroberfläche.
 
 ## <a name="task-2-what-are-your-licensing-requirements"></a>Aufgabe 2: Was sind Ihre Lizenzierungsanforderungen? 
 
 Jetzt wissen Sie, wie viele Geräte Sie benötigen. Der nächste Schritt besteht darin, zu ermitteln, wie viele Lizenzen benötigt werden. Teams-Telefone und -Anzeigen erfordern Lizenzen für den Zugriff auf Microsoft Teams und Microsoft 365.
 
-Freigegebene und persönliche Geräte benötigen eine andere Lizenzierung. Für persönliche Geräte können Lizenzen verwendet werden, die Benutzerkonten zugewiesen sind. Freigegebene Geräte benötigen Lizenzen, die für ihre Funktion spezifisch sind. Für Telefone und Displays sind die anwendbaren Lizenzen [die Common Area Phone-Lizenz für Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) und [die Microsoft Teams-Räume Standard-Lizenz](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices).
+Freigegebene und persönliche Geräte benötigen unterschiedliche Lizenzierung. Für persönliche Geräte können Lizenzen verwendet werden, die Benutzerkonten zugewiesen sind. Freigegebene Geräte benötigen Lizenzen, die für ihre Funktion spezifisch sind. Für Smartphones und Displays sind die anwendbaren Lizenzen [die Common Area Phone-Lizenz für Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) und eine [Microsoft Teams-Räume-Lizenz](../rooms/rooms-licensing.md).
 
-Weitere Informationen und zum Vergleichen Ihrer Lizenzierungsoptionen finden Sie unter [Microsoft 365-Lizenzierungspläne](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1). 
+Weitere Informationen und zum Vergleichen Ihrer Lizenzierungsoptionen finden Sie unter [Microsoft 365-Lizenzierungspläne](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
 
 ## <a name="task-3-what-are-your-dependencies"></a>Aufgabe 3: Was sind Ihre Abhängigkeiten? 
 

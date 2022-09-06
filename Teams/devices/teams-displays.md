@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Dieser Artikel enthält eine Übersicht über und Features, die von Microsoft Teams-Displays unterstützt werden.
-ms.openlocfilehash: 18b8219a3eef391170c7321ae994d79f1b73f016
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8b06078633dd8c7ee43c2ee98ad1f3e4751d3a51
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268770"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606024"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams-Displays
 
@@ -45,7 +45,7 @@ Zusätzlich zu den [von Teams-Telefonen unterstützten Features](phones-for-team
 
 Teams-Lizenzen können als Teil von [Microsoft 365- und Office 365-Abonnements](/office365/servicedescriptions/teams-service-description) erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Teams-Displays finden Sie unter [Sprach- und Videoanrufe mit Microsoft Teams](https://products.office.com/microsoft-teams/voice-calling).
 
-Weitere Informationen zum Abrufen von Teams finden Sie Gewusst wie [Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Weitere Informationen zum Abrufen von Teams finden Sie [如何实现 Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="deploy-teams-displays-using-intune"></a>Bereitstellen von Teams-Anzeigen mithilfe von Intune
 
@@ -55,16 +55,16 @@ Weitere Informationen zum Bereitstellen von Teams-Displays mithilfe von Intune f
 
 Um Ihre Teams-Anzeigegeräte zu verwalten, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **den Teams-Anzeigen**. Von hier aus können Sie das Gerätekonfigurationsprofil ändern, Updates verwalten, Geräte neu starten, Gerätetags hinzufügen und entfernen und vieles mehr. Weitere Informationen finden [Sie unter Verwalten Ihrer Geräte in Teams](device-management.md).
 
-## <a name="set-up-hot-desking-on-teams-displays"></a>Einrichten von "Hot Desking" auf Teams-Displays
+## <a name="set-up-hot-desking-on-teams-displays"></a>Einrichten von Hot-Desking auf Teams-Displays
 
-Hot Desking ermöglicht es Personen in Ihrer Organisation, temporäre Arbeitsbereiche im Voraus über Teams und Outlook oder vom Gerät selbst zu reservieren. Wenn hot desking aktiviert ist, werden Benutzer, die sich bei Teams anmelden, mit ihren Microsoft 365-Anmeldeinformationen angezeigt, um auf ihre Besprechungen, Chats und Dateien zuzugreifen. Wenn sie sich abmelden, werden alle ihre persönlichen Informationen vom Gerät entfernt.
+Hot Desking ermöglicht es Personen in Ihrer Organisation, temporäre Arbeitsbereiche im Voraus über Teams und Outlook oder vom Gerät selbst zu reservieren. Wenn hot-desking aktiviert ist, werden Benutzer, die sich bei Teams anmelden, mit ihren Microsoft 365-Anmeldeinformationen angezeigt, um auf ihre Besprechungen, Chats und Dateien zuzugreifen. Wenn sie sich abmelden, werden alle ihre persönlichen Informationen vom Gerät entfernt.
 
-Um zu beginnen, müssen Sie Microsoft Teams-Räume Standard Lizenzen erwerben und Ressourcenkonten für jede Teams-Anzeige erstellen. Siehe [Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte](../rooms/with-office-365.md) zum Erstellen von Ressourcenkonten.
+Um zu beginnen, müssen Sie [Microsoft Teams-Räume Lizenzen](../rooms/rooms-licensing.md) erwerben und Ressourcenkonten für jede Teams-Anzeige erstellen. Siehe [Erstellen von Ressourcenkonten für Räume und freigegebene Teams-Geräte](../rooms/with-office-365.md) zum Erstellen von Ressourcenkonten.
 
-Nachdem Sie Ressourcenkonten erstellt haben, können Sie eine Richtlinie erstellen und zuweisen, um hot desking zu aktivieren. Weitere Informationen finden Sie unter [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) .
+Nachdem Sie Ressourcenkonten erstellt haben, können Sie eine Richtlinie erstellen und zuweisen, um hot-desking zu aktivieren. Weitere Informationen finden Sie unter [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy) .
 
 > [!IMPORTANT]
-> Da Teams-Displays mit hot desking von mehreren Personen in freigegebenen Arbeitsbereichen verwendet werden, können sich Regeln für bedingten Zugriff und andere Identitätskonfigurationen in Ihrer Umgebung, z. B. die mehrstufige Authentifizierung, auf diese Geräte auswirken und Anmeldeprobleme verursachen. Anleitungen zum Sichern freigegebener Geräte finden Sie unter ["Bewährte Methoden für die Authentifizierung" für freigegebene Android-Geräte von Teams](authentication-best-practices-for-android-devices.md).
+> Da Teams-Displays mit Hot-Desking in freigegebenen Arbeitsbereichen von mehreren Personen verwendet werden, können Sich Regeln für bedingten Zugriff und andere Identitätskonfigurationen in Ihrer Umgebung, wie die mehrstufige Authentifizierung, auf diese Geräte auswirken und Anmeldeprobleme verursachen. Anleitungen zum Sichern freigegebener Geräte finden Sie unter ["Bewährte Methoden für die Authentifizierung" für freigegebene Android-Geräte von Teams](authentication-best-practices-for-android-devices.md).
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Aktualisieren von Teams-Telefonen auf Teams-Displays
 
