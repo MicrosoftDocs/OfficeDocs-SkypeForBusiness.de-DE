@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 2b428f39624ce7e6fb82815c7cbba3872b2113c2
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396516"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609443"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -80,9 +80,8 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 
 - **Besitzer können gesendete Nachrichten löschen**  Verwenden Sie diese Einstellung, damit Besitzer Kanalnachrichten oder Beiträge löschen können, die Benutzer gesendet haben.
 - **Gesendete Nachrichten löschen** Verwenden Sie diese Einstellung, um Benutzern das Löschen von Nachrichten zu ermöglichen, die sie im Chat gesendet haben.
-- **Chat löschen** Verwenden Sie diese Einstellung, um Benutzern das Löschen von Nachrichten zu ermöglichen, die sie im Chat gesendet haben.
 - **Gesendete Nachrichten bearbeiten** Verwenden Sie diese Einstellung, damit Benutzer die Nachrichten bearbeiten können, die sie im Chat gesendet haben.
-- **Lesebestätigungen** Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn seine Nachricht vom Empfänger in 1:1 gelesen wurde und gruppenchats 20 Personen oder weniger. Lesebestätigungen für Nachrichten nehmen die Ungewissheit, ob eine Nachricht gelesen wurde und verbessern so die Kommunikation im Team. Lesebestätigungen werden in der eDiscovery-Berichterstellung nicht erfasst.  
+- **Lesebestätigungen** Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn seine Nachricht vom Empfänger in 1:1 gelesen wurde und gruppenchats 20 Personen oder weniger. Nachrichtenlesebestätigungen beseitigen Unsicherheit darüber, ob eine Nachricht gelesen wurde, und verbessern die Teamkommunikation. Lesebestätigungen werden in der eDiscovery-Berichterstellung nicht erfasst.  
     - **Benutzergesteuert**: Das bedeutet, dass Benutzer entscheiden können, ob Sie die Funktion „Lesebestätigungen“ aktivieren oder deaktivieren möchten. Die Standardeinstellung in der App ist „aktiviert“. Benutzer können Sie dann auf „deaktiviert“ ändern.
     - **Für jeden aktiviert** Dies bedeutet, dass jeder im Mandanten über das Feature "EIN" verfügt, ohne dass es deaktiviert werden kann. Wenn Sie die Einstellung " **Ein für jeden** " verwenden, besteht die einzige Möglichkeit zum Festlegen von Belege für den gesamten Mandanten darin, entweder nur eine Messagingrichtlinie für den gesamten Mandanten (die Standardrichtlinie mit dem Namen "Global (organisationsweiter Standard)") zu verwenden, oder alle Messagingrichtlinien im Mandanten verwenden die gleichen Einstellungen für Belege. Das Feature "Lesebestätigungen" ist am effektivsten, wenn die Option **Für alle aktiviert** ist.
     - **Für alle deaktiviert** Dies bedeutet, dass das Feature deaktiviert ist und niemand im Mandanten Lesebestätigungen hat und es auch nicht aktivieren kann.

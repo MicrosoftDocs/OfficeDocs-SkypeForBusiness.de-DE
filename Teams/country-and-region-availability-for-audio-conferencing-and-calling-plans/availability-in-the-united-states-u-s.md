@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die USA verfügbar sind.
-ms.openlocfilehash: b3d20d24e0c52538eba1f55f91d34a2b8d3107dd
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Estados Unidos verfügbar sind.
+ms.openlocfilehash: 8934657313c9d5bed2eea49189311442c7c6e54d
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396716"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609453"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die USA verfügbar sind. Weitere Informationen [finden Sie unter "So kaufen Sie einen Anrufplan"](../calling-plans-for-office-365.md) .
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Estados Unidos verfügbar sind. Weitere Informationen [finden Sie unter "So kaufen Sie einen Anrufplan"](../calling-plans-for-office-365.md) .
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -60,14 +60,14 @@ Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und 
 | **Feature**                                       | **Details**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Sind Anrufpläne zum Kauf verfügbar?  |Ja          |   
-|Verfügbare Minuten für Anrufpläne.    |Pro Kalendermonat stehen fünf Planoptionen zur Verfügung: <ul><li> 120 Minuten Anrufplan für Inland </li><li> 240 Minuten Anrufplan für Inland </li><li> 1200 Minuten Anrufplan für Inland </li><li> Internationaler Anrufplan: 1200 Minuten inländische oder 600 Minuten auslandsanrufe (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></ul>|
+|Verfügbare Minuten für Anrufpläne.    |Pro Kalendermonat stehen fünf Planoptionen zur Verfügung: <ul><li> 120 Minuten Anrufplan für Inland </li><li> 240 Minuten Anrufplan für Inland </li><li> 3.000 Minuten Plan für Inlandsanrufe </li><li> Internationaler Anrufplan: 3.000 Minuten inländische oder 600 Minuten auslandsanrufe (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></ul>|
 | Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Wird zurzeit nicht unterstützt. <br/>                                                                                                                                                                                                                                                                                               |
 | Sind ausgehende Anrufe möglich?  <br/>                | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                                                                      |
 > [!Note]
 > Wenn ein Anrufplanbenutzer (inländischer oder inländischer und internationaler Benutzer) in den USA eine Telefonnummer in Kanada wählt, wird er als Inlandsanruf behandelt. Dies ist auch der Fall, wenn ein Benutzer in Kanada eine Telefonnummer in den USA wählt. Wenn Sie jedoch auch Anrufplanrichtlinien verwenden, um die Benutzereinwahl auf "Inland" zu beschränken, kann ein US-Benutzer Kanada nicht anrufen und ebenso kann ein Kanadischer Benutzer keinen US-Benutzer anrufen.
 
 >[!Note]
-> USA Inlandsanrufe umfassen Anrufe in alle 50 US-Bundesstaaten und Puerto Rico. Benutzer, die dem Lizenznutzungsstandort usa und/oder Puerto Rico zugewiesen sind, teilen sich denselben Minutenpool.
+> Estados Unidos Inlandsanrufe umfassen Anrufe in alle 50 US-Bundesstaaten und Puerto Rico. Benutzer, die dem Lizenznutzungsstandort usa und/oder Puerto Rico zugewiesen sind, teilen sich denselben Minutenpool.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
