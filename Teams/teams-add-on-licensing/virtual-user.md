@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: Erfahren Sie, wie Sie Ressourcenkonten für automatische Telefonzentralen und Anrufwarteschleifen in Ihrer Organisation Microsoft Teams Telefon Ressourcenkontolizenzen zuweisen.
-ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465983"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630425"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams Telefon Ressourcenkontolizenzen
 
@@ -43,7 +43,7 @@ Für 10 Benutzerlizenzen von **Teams Telefon Standard** oder **Teams-Telefon mit
 
 ### <a name="license-allocation-example"></a>Beispiel für die Lizenzzuweisung
 
-Contoso, Inc. hat 600 Lizenzen erworben, die das Telefonsystem enthalten (eine für jeden Mitarbeiter). Contoso werden zunächst 25 plus 60 **Teams-Telefonressourcenkontolizenzen** zugewiesen, insgesamt 85. Ihre Organisation verfügt über 90 Anrufwarteschleifen und automatische Telefonzentralen mit Telefonnummern. Sie müssen alle **Teams Phone-Ressourcenkontolizenzen** zuweisen und fünf zusätzliche **Teams Phone-Ressourcenkontolizenzen** erwerben. 
+Contoso, Inc. hat 600 Lizenzen erworben, die das Telefonsystem enthalten (eine für jeden Mitarbeiter). Contoso werden zunächst 25 plus 60 **Teams-Telefonressourcenkontolizenzen** zugewiesen, insgesamt 85. Ihre Organisation verfügt über 90 Anrufwarteschleifen und automatische Telefonzentralen. Sie müssen alle **Teams Phone-Ressourcenkontolizenzen** zuweisen und fünf zusätzliche **Teams Phone-Ressourcenkontolizenzen** erwerben. 
 
 ## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>So erhalten Sie Microsoft Teams Telefon Ressourcenkontolizenzen
 
