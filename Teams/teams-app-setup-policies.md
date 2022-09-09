@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cfcd041fd755016ec04832f42c497e2b0ad51469
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396696"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637008"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -92,7 +92,7 @@ Mithilfe einer App-Setuprichtlinie können Administratoren die folgenden Aufgabe
 * Installieren von Apps für Endbenutzer in deren persönlicher Microsoft Teams-Umgebung.
 * Installieren von Apps für Endbenutzer als [Messaging-Erweiterungen](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-Die Endbenutzer können Apps eigenständig installieren, wenn sie die [App-Berechtigungsrichtlinie](teams-app-permission-policies.md) zulassen und die App vom Teams-Administrator zugelassen wird. Wenn eine App stattdessen für einen Benutzer oder eine Organisation blockiert wird, können Endbenutzer die [Administratorgenehmigung anfordern](manage-apps.md#manage-user-requests-to-allow-apps).
+Die Endbenutzer können Apps eigenständig installieren, wenn sie die [App-Berechtigungsrichtlinie](teams-app-permission-policies.md) zulassen und die App vom Teams-Administrator zugelassen wird. Wenn eine App stattdessen für einen Benutzer oder eine Organisation blockiert wird, können Endbenutzer die [Administratorgenehmigung anfordern](user-requests-approve-apps.md).
 
 Führen Sie die folgenden Schritte aus, um Apps mithilfe einer App-Setuprichtlinie zu installieren:
 

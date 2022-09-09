@@ -19,12 +19,12 @@ description: Erfahren Sie, wie Sie Teams-Apps verwalten. Erfahren Sie, wie Sie A
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486880"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637048"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Sie Teams-Apps im Microsoft Teams Admin Center
 
@@ -85,38 +85,6 @@ Wenn Sie eine App auf der Seite [Apps verwalten](https://admin.teams.microsoft.c
 
 Ein Benutzer kann eine App nur installieren und verwenden, wenn die App über die mandantenweite Einstellung und für den Benutzer über die Berechtigungsrichtlinie zugelassen ist.
 
-## <a name="manage-user-requests-to-allow-apps"></a>Verwalten von Benutzeranforderungen zum Zulassen von Apps
-
-Endbenutzer können die blockierten Apps im Teams Store anzeigen, aber nicht verwenden. Für die blockierten Apps steht eine Option zum Anfordern der Administratorgenehmigung zur Verfügung. Diese Anforderungen werden im Teams Admin Center gesammelt, und Administratoren können die Anforderungen anzeigen und verwalten, wenn sie möchten. Es wird dringend empfohlen, eine regelmäßige Einstufung für die Überprüfung auf Endbenutzeranforderungen zu verwenden.
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Fordern Sie einen Administrator auf, eine blockierte App zu genehmigen, indem Sie die Option „Genehmigung anfordern“ im Teams Store auswählen.":::
-
-### <a name="view-a-request"></a>Anzeigen einer Anforderung
-
- 1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf Apps zum **[Verwalten von](https://admin.teams.microsoft.com/policies/manage-apps)** **Teams-Apps** >  zu.
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="Endbenutzeranforderungen für blockierte Apps werden im Teams Admin Center in der Spalte mit dem Titel Anforderungen von Benutzern angezeigt." lightbox="media/requested-apps.png":::
-
- 1. Um die Anzahl der Anfragen für jede App anzuzeigen und zu überprüfen, sortieren Sie die Anforderungen in der Spalte **Anforderungen nach Benutzer**. Sie können den Namen der Benutzer, die eine App angefordert haben, nicht anzeigen.
- 1. Um eine App zuzulassen, wählen Sie den Namen der App aus, und die Seite mit den App-Details wird geöffnet.
- 1. Wählen Sie **Anforderungen verwalten** aus und führen Sie die im Popup-Dialogfeld angezeigten Schritte aus. Basierend auf der zum Blockieren einer App verwendeten Methode sind einer oder mehrere der folgenden Schritte erforderlich, um die Blockierung aufzuheben:
-
-    * Wenn die App mithilfe von Berechtigungsrichtlinien blockiert ist, lassen Sie die App zu, indem Sie die [Berechtigungsrichtlinien ändern](teams-app-permission-policies.md).
-    * Wenn die App für alle Benutzer blockiert ist, [lassen Sie die App zu](#allow-and-block-apps).
-    * Wenn alle Apps für alle Benutzer blockiert sind, ändern Sie die [organisationsweiten Einstellungen](#manage-org-wide-app-settings).
-
- Wenn ein Administrator eine App zulässt, informiert Teams den Endbenutzer nicht darüber, dass auf seine Anfrage reagiert wird. Der Benutzer kann die App im Teams Store anzeigen, um zu prüfen, ob er die App zu seinem Teams-Client hinzufügen kann oder nicht. Wenn die App von einem Administrator genehmigt wurde, können Benutzer sie hinzufügen. Wenn ein Administrator die Anforderung alternativ nicht genehmigt und ablehnt, können Endbenutzer sie erneut anfordern.
-
-### <a name="dismiss-a-user-request"></a>Ablehnen einer Benutzeranforderung
-
- 1. Wählen Sie den Namen der App aus, für die Sie die Benutzeranfragen ablehnen möchten.
- 1. Wählen Sie **Anforderungen verwalten** und im Dialogfeld **alle Anfragen ablehnen** aus.
- 1. Wenn eine Anfrage verworfen wird, werden die Benutzeranfragen auf null zurückgesetzt.
-
-  :::image type="content" source="media/reject.png" alt-text="Administratoren können eine Benutzeranfrage genehmigen, indem sie eine App zulassen, oder die Anfrage ablehnen und keine Maßnahmen ergreifen.":::
-
-Wenn ein Administrator eine Anfrage ablehnt, wird der Endbenutzer nicht darüber informiert, dass auf seine Anfrage reagiert wird. Nachdem ein Administrator eine Anfrage abgelehnt hat, kann der Endbenutzer die App erneut anfordern.
-
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Lassen Sie die Apps zu, die von den Entwicklern blockiert werden
 
 Wenn ein Entwickler eine App im Teams Store veröffentlicht, benötigen einige Apps möglicherweise einen Administrator, um die App zu konfigurieren. Die Administratoren stellen die App den Endbenutzern zur Verfügung, wenn die App eingerichtet wird.
@@ -159,3 +127,4 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer m
 ## <a name="related-article"></a>Verwandter Artikel
 
 * [Verwalten Sie Teams während des Übergangs vom Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+* [Verwalten Sie Benutzeranforderungen, um Apps zuzulassen](user-requests-approve-apps.md).
