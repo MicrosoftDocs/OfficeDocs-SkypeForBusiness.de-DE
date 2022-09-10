@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Führen Sie die folgenden Schritte aus, um eine Standardtelefonnummer für Anrufer für die Teilnahme an einer Microsoft Teams-Besprechung zu erstellen.
-ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 27ff7040b27d2265bcdc5ab30f48cb919746471b
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884844"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642066"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
@@ -100,6 +100,6 @@ Um die Standardtelefonnummer für Audiokonferenzen für einen Besprechungsorgani
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder Kaufen von Audiokonferenzen in Microsoft 365 für Microsoft Teams](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

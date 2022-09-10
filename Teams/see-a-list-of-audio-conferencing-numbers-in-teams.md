@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einwahlkonferenznummern nachschlagen, die für Audiokonferenzen in Microsoft Teams verfügbar sind.
-ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: de03b3a1b12cc6bdcef9326e80e970ece2bdc378
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460628"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641886"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
 
 Wenn Sie Audiokonferenzen für Microsoft Teams-Benutzer einrichten, können Sie die Telefonnummern anzeigen, die ihnen für Audiokonferenzen zur Verfügung stehen. Diese Liste enthält alle Audiokonferenz-Telefonnummern, die für Ihre Organisation verfügbar sind.
-   
+
 **Suchen Sie nach Preisen?** Lesen Sie den Abschnitt " **Audiokonferenzraten** " in ["Audiokonferenzen](https://www.microsoft.com/microsoft-teams/audio-conferencing)".
   
 Wenn für Ihre Organisation nur eine Telefonnummer verfügbar ist, wird sie als Standardtelefonnummer für alle Benutzer verwendet. Wenn mehrere Telefonnummern verfügbar sind, können Sie für jeden Benutzer eine Standardtelefonnummer auswählen. Diese Standardnummer wird in Microsoft Teams-Besprechungseinladungen eingeschlossen.
@@ -61,6 +61,3 @@ Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funkt
 
 Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps).
   
-## <a name="related-topics"></a>Verwandte Themen
-
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

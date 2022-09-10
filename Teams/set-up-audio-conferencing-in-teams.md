@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl- oder Audiokonferenzen für Personen in Ihrem Unternehmen einrichten, die telefonisch an Konferenzanrufen teilnehmen müssen. '
-ms.openlocfilehash: 701c1b4826a52400d91d18d4aa26f11aac07d266
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884834"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642126"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft Teams
 
@@ -105,8 +105,6 @@ Weitere Informationen finden Sie unter [Einstellungen für eine Audiokonferenzbr
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>Schritt 7: Zuweisen von Einwahlnummern für Benutzer, die Besprechungen leiten
 
 Weitere Informationen finden [Sie unter Festlegen der Telefonnummern, die in Einladungen in Microsoft Teams enthalten sind](set-the-phone-numbers-included-on-invites-in-teams.md).
-
-Weitere Informationen finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 > [!NOTE]
 > Sie können Telefonnummern auch festlegen, indem Sie sie der *TeamsAudioconferencingpolicy* hinzufügen und die Richtlinie Ihren Benutzern zuweisen. Gebührenpflichtige und gebührenfreie Telefonnummern, die der Richtlinie hinzugefügt wurden, haben Vorrang vor den Telefonnummern, die über den Einstellungsbereich für Audiokonferenzen einzeln für Benutzer festgelegt werden. Wenn der *Teamsaudioconferencingpolicy* keine Telefonnummern hinzugefügt werden, wird die über den Einstellungsbereich für Audiokonferenzen individuell für Benutzer festgelegte Telefonnummer in Microsoft Teams-Besprechungsanfragen angezeigt. [Die Richtlinieneinstellungen für Audiokonferenzen für gebührenpflichtige und gebührenfreie Telefonnummern](audio-conferencing-toll-free-numbers-policy.md) enthalten weitere Informationen.

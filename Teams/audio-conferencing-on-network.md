@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden wird "On-network for Audio Conferencing" beschrieben.
-ms.openlocfilehash: 222a89df39f1fe6b2decb21431f3475a148a1a6c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 56e2addc3b924d7d73df7475ad217a999dc0aca0
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267590"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641876"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Netzwerkkonferenzen für Audiokonferenzen
 
@@ -54,7 +54,7 @@ Um Einwahlanrufe Ihrer lokalen Benutzer über Direct Routing an den Audiokonfere
 
 Sie müssen die Telefonieausrüstung Ihrer Standorte so konfigurieren, dass Anrufe an eine beliebige Dienstnummer der Konferenzbrücke Ihrer Organisation über einen Direct Routing-Trunk weitergeleitet werden.
 
-Sie finden die Servicenummern im Teams Admin Center unter **"Besprechungen > Konferenzbrücken**" oder mithilfe des Skype for Business Online PowerShell-Cmdlets "Get-CsOnlineDialInConferencingBridge". Weitere Informationen finden Sie in einer Liste der [Audiokonferenznummern in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Sie finden die Servicenummern im Teams Admin Center unter **"Meetings -> Conferencing Bridges** " oder mithilfe des Teams PowerShell-Cmdlets "Get-CsOnlineDialInConferencingBridge". Weitere Informationen finden Sie in einer Liste der [Audiokonferenznummern in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
 > [!NOTE]
 > Dieses Feature steht Benutzern mit der Lizenz für Audiokonferenzen mit Minutenentgelt nicht zur Verfügung.

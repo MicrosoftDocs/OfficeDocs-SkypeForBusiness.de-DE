@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c12891e2eb03aaca3f444a83bfd18ee752b8576
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268810"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641746"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Erfahren Sie, wie Sie Audiokonferenzen in Microsoft Teams bereitstellen
 
@@ -35,7 +35,7 @@ Durch Audiokonferenz ist es möglich, mit einem normalen Telefon an einer Teams-
 
 Dieser Artikel hilft Ihnen bei der Entscheidung, ob einige der Standardeinstellungen für Audiokonferenzen geändert werden sollen, berücksichtigt dazu das Profil und die geschäftlichen Anforderungen Ihrer Organisation und führt Sie dann schrittweise durch die einzelnen Änderungen. Wir haben die Einstellungen in zwei Gruppen aufgeteilt und beginnen mit der Kernmenge der [Änderungen, die Sie mit größerer Wahrscheinlichkeit vornehmen](#core-deployment-decisions) werden. Die zweite Gruppe umfasst die [zusätzlichen Einstellungen](#additional-deployment-decisions), deren Konfiguration, abhängig von den Bedürfnissen Ihrer Organisation, sinnvoll sein kann.
 
-Sie müssen Audiokonferenzen nur für Personen einrichten, die Besprechungen planen oder leiten möchten. Besprechungsteilnehmer, die sich einwählen, benötigen keine ihnen zugewiesenen Lizenzen oder andere Einstellungen. Die telefonische Einwahl in Besprechungen ist sehr praktisch für Benutzer, die unterwegs sind und nicht über die Skype for Business- oder Teams-App auf ihrem Laptop oder auf Mobilgeräten an einer Besprechung teilnehmen können. 
+Sie müssen Audiokonferenzen nur für Personen einrichten, die Besprechungen planen oder leiten möchten. Besprechungsteilnehmer, die sich einwählen, benötigen keine ihnen zugewiesenen Lizenzen oder andere Einstellungen. Das Einwählen (Einwählen) in Besprechungen ist sehr nützlich für Benutzer, die unterwegs sind und nicht mit der Teams-App auf ihren Laptops oder mobilen Geräten an einer Besprechung teilnehmen können.
 
 ## <a name="audio-conferencing-prerequisites"></a>Voraussetzungen für Audiokonferenzen
 
@@ -44,7 +44,7 @@ Bevor Sie Audiokonferenzen für Teams bereitstellen können, beachten Sie Folgen
 |Frage|Aktion |
 |------------|-------|
 |Sind Audiokonferenzen für mein Land/meine Region verfügbar?|Informationen darüber, ob Audiokonferenzen für Ihr Land/Ihre Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Besitzen meine Benutzer die entsprechenden Lizenzen für Teams-Audiokonferenzen?|Die Audiokonferenzlizenzen sind im Rahmen eines Microsoft 365- oder Office 365 E5-Abonnements oder als Add-On-Service für ein Office 365 Business Premium-, E1- oder E3-Abonnement verfügbar. <ul><li>Informationen zum Abrufen und Zuweisen von Lizenzen finden Sie unter [Testen oder Kaufen von Audiokonferenz in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) und [Zuweisen oder Entfernen von Lizenzen für Microsoft 365 Apps for Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Welche Cloudfeatures in den einzelnen Plänen enthalten sind, erfahren Sie in den Artikeln [Lizenzoptionen auf Grundlage Ihres Plans](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</li></ul>|
+|Besitzen meine Benutzer die entsprechenden Lizenzen für Teams-Audiokonferenzen?|Die Audiokonferenzlizenzen sind im Rahmen eines Microsoft 365- oder Office 365 E5-Abonnements oder als Add-On-Service für ein Office 365 Business Premium-, E1- oder E3-Abonnement verfügbar. <ul><li>Informationen zum Abrufen und Zuweisen von Lizenzen finden [Sie unter Zuweisen oder Entfernen von Lizenzen für Microsoft 365 Apps for Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Welche Cloudfeatures in den einzelnen Plänen enthalten sind, erfahren Sie in den Artikeln [Lizenzoptionen auf Grundlage Ihres Plans](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</li></ul>|
 |Muss ich Guthaben für Kommunikationen für Benutzer erwerben, denen eine Lizenz für Audiokonferenzen zugewiesen wurde?|Lesen Sie weiter unter [Was ist Guthaben für Kommunikationen?](what-are-communications-credits.md), und sehen Sie sich anschließend den Abschnitt [Guthaben für Kommunikationen](#communications-credits) weiter unten an.|
 |||
 
@@ -82,7 +82,7 @@ In Teams-Audiokonferenzen können Sie standardmäßige und alternative Sprachen 
 
 |Frage|Aktion |
 |------------|-------|
-| Welche Sprachen sollte ich für die Begrüßung der automatischen Telefonzentrale auswählen? | Informationen zur Auswahl von Sprachen finden Sie unter [Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
+| Welche Sprachen sollte ich für die Begrüßung der automatischen Telefonzentrale auswählen? | Informationen zum Auswählen von Sprachen finden [Sie unter Festlegen der Sprachen für automatische Telefonzentralen für Audiokonferenzen in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>Einstellungen für die Konferenzbrücke

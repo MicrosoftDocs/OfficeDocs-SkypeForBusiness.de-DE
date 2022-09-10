@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: Erfahren Sie, wie Sie Lizenzen für Audiokonferenzen (PSTN-Konferenzen) für Microsoft 365 oder Office 365 erwerben, um Telefonkonferenzen einzurichten, in die sich Benutzer einwählen können.
-ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5d93f9d81e2b70520d8c8044293f81aff2a36940
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271440"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641916"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Testen oder Kaufen von Audiokonferenzen in Microsoft 365 für Microsoft Teams
 
@@ -76,15 +76,15 @@ Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Li
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Providers von Audiokonferenz für Personen, die Meetings führen oder planen
 
-Wenn Sie Personen in Ihrer Organisation, die nicht über Skype for Business in einen Drittanbieter für Audiokonferenzen integriert sind, eine **Audiokonferenzlizenz** zuweisen, sind alle eingerichtet und einsatzbereit! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
+Wenn Sie Personen in Ihrer Organisation, die teams nicht in einen Drittanbieter für Audiokonferenzen integriert haben, eine **Audiokonferenzlizenz** zuweisen, sind alle eingerichtet und einsatzbereit! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
 
-Wenn Sie Benutzer mit einem Drittanbieter für Audiokonferenzen aktiviert haben, müssen Sie den Anbieter dieser Benutzer in Microsoft ändern. Informationen zum Ändern des Anbieters für einen Benutzer finden [Sie unter Zuweisen von Microsoft als Audiokonferenzanbieter](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+Wenn Sie Benutzer mit einem Drittanbieter für Audiokonferenzen aktiviert haben, müssen Sie den Anbieter dieser Benutzer in Microsoft ändern. Informationen zum Ändern des Anbieters für einen Benutzer finden [Sie unter Zuweisen von Teams-Add-On-Lizenzen zu Benutzern](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Schritt 3: Andere Administratoraufgaben
 
 Die folgenden Schritte sind **optional**, aber viele Administratoren führen diese gerne aus:
 
-1. [Anpassen von Besprechungseinladungen](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Die für den Nutzer festgelegten Einwahlnummern werden automatisch den Besprechungseinladungen hinzugefügt, die Teilnehmern zugesendet werden. Sie können jedoch Ihre eigenen Links für Hilfe und rechtliche Informationen, eine Textnachricht und eine kleine Firmengrafik hinzufügen.
+1. [Anpassen von Besprechungseinladungen](meeting-settings-in-teams.md#customize-meeting-invitations). Die für den Nutzer festgelegten Einwahlnummern werden automatisch den Besprechungseinladungen hinzugefügt, die Teilnehmern zugesendet werden. Sie können jedoch Ihre eigenen Links für Hilfe und rechtliche Informationen, eine Textnachricht und eine kleine Firmengrafik hinzufügen.
 
 2. [Legen Sie die Telefonnummern fest, die in Einladungen enthalten sind](set-the-phone-numbers-included-on-invites-in-teams.md). Dies ist die Telefonnummer, die in der von einem Benutzer geplanten Besprechung angezeigt wird.
 

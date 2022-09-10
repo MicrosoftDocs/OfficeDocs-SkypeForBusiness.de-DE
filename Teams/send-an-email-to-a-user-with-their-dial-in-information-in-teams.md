@@ -1,5 +1,5 @@
 ---
-title: Senden der Audiokonferenzinformationen per E-Mail an einen Benutzer
+title: Email der Audiokonferenzinformationen eines Benutzers
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in einer Microsoft Teams.
-ms.openlocfilehash: 6dbd0f0001472e49bd0940cc18440550972a2c5c
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Erfahren Sie, wie Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in Microsoft Teams senden.
+ms.openlocfilehash: 9b120318405eaa11b42ed7600463e5ca12c3d850
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056035"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642076"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams
 
-Manchmal Microsoft Teams, dass Sie den Benutzern möglicherweise ihre Audiokonferenzinformationen senden müssen. Klicken Sie dazu unter  den Eigenschaften für einen Benutzer auf Konferenzinformationen per E-Mail senden. Wenn Sie diese E-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
+Manchmal müssen Microsoft Teams-Benutzer ihnen möglicherweise ihre Audiokonferenzinformationen senden. Sie können dies tun, indem Sie unter den Eigenschaften für einen Benutzer auf " **Konferenzinformationen per E-Mail senden** " klicken. Wenn Sie diese E-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
   
 - Die Konferenztelefon- oder Einwahltelefonnummer für den Benutzer.
 
@@ -39,37 +39,37 @@ Manchmal Microsoft Teams, dass Sie den Benutzern möglicherweise ihre Audiokonfe
 
 Hier ist ein Beispiel für die gesendete E-Mail:
 
-![Beispiel für eine E-Mail-Nachricht mit einer Einwahlkonferenz.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Beispiel für eine E-Mail-Nachricht mit Einwahlkonferenzen.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer
 
-### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>Senden einer E-Mail über Microsoft Teams Admin Center
+### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>Senden einer E-Mail über das Microsoft Teams Admin Center
 
-1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie im linken Navigationsbereich auf **"Benutzer**", und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
+2. Klicken Sie oben auf der Seite auf **"Bearbeiten"**.
 
-3. Klicken **Sie unter Audiokonferenz auf** **Konferenzinformationen per E-Mail senden**.
+3. Klicken Sie unter **Audiokonferenzen** auf **Konferenzinformationen per E-Mail senden**.
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Was sollten Sie sonst über diese E-Mails wissen?
 
-- Es gibt mehrere E-Mails, die nach der Aktivierung für Audiokonferenzen an Benutzer in Ihrer Organisation gesendet werden:
+- Es gibt mehrere E-Mails, die an Benutzer in Ihrer Organisation gesendet werden, nachdem sie für Audiokonferenzen aktiviert wurden:
 
-  - Wenn ihnen **eine Lizenz für Audiokonferenzen** zugewiesen wird.
+  - Wenn ihnen eine **Audiokonferenzlizenz** zugewiesen ist.
 
-  - Wenn Sie die PIN für Audiokonferenzen des Benutzers manuell zurücksetzen.
+  - Wenn Sie die Audiokonferenz-PIN des Benutzers manuell zurücksetzen.
 
   - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
 
-  - Wenn eine **Lizenz für Audiokonferenzen** entfernt wird.
+  - Wenn eine **Audiokonferenzlizenz** daraus entfernt wird.
 
-  - Wenn der Audiokonferenzanbieter für einen Benutzer von Microsoft auf einen anderen Anbieter oder Kein geändert **wird.**
+  - Wenn der Audiokonferenzanbieter für einen Benutzer von Microsoft zu einem anderen Anbieter oder **Keinem** geändert wird.
 
-  - Wenn sich der Audiokonferenzanbieter für einen Benutzer in Microsoft ändert.
+  - Wenn der Audiokonferenzanbieter für einen Benutzer in Microsoft geändert wird.
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder Kaufen von Audiokonferenzen in Microsoft 365 für Microsoft Teams](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)

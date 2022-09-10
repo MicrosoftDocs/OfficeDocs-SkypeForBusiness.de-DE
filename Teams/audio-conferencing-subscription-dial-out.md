@@ -13,7 +13,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Ausgehende Anrufe und Anruf nach Minuten Ab dem 1. Dezember 2019 bietet jedes Audiokonferenzabonnement 60 Minuten pro Benutzer und Monat in Länder der Zone A.
-ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 6df0b6f2157f16da6e992d465b524a5b582e0a12
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187011"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642146"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audiokonferenzabonnement "Dial-Out"/"Call Me At" Minutenvorteil
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams und Skype for Business PSTN-Audiokonferenzen
+## <a name="microsoft-teams-and-pstn-audio-conferencing"></a>Microsoft Teams und PSTN-Audiokonferenzen
 
 Jedes Standardabonnement für Audiokonferenzen bietet 60 Minuten pro Benutzer und Monat, die verwendet werden können, um nummern, die keine Premium-Nummern sind, wie in diesem Dokument beschrieben, in alle Länder der Zone A zu wählen. Dieser Vorteil gilt für *monatliche Abonnementlizenzen* für Audiokonferenzen und gilt nicht für Lizenzen für Audiokonferenzen pro Minute.
 
@@ -74,16 +73,15 @@ Sehen Sie sich das folgende Beispiel an. Ein Kunde hat 115 Abonnementlizenzen f�
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Wie kann ich die Minutennutzung meines Pools überwachen?
 
-- Sie können die Nutzung im Microsoft Teams Admin Center anhand Ihres Auswahlminutenpools überwachen.You can monitor the usage against your dial-out minute pool in the Microsoft Teams Admin Center. Wechseln Sie im linken Navigationsbereich zu **Analytics &** **ReportsUsage-Berichten** > , und wählen Sie dann **PSTN-Minutenpools** aus. Der Anrufminutenpool "Zone A" wird im Bericht als "Ausgehende Anrufe in Zone A-Länder" bezeichnet.
-- E-Mail-Benachrichtigungen werden an die folgenden Administratoren gesendet, wenn die Nutzung des Anrufminutenpools Ihrer Organisation 80 Prozent und 100 Prozent erreicht hat:
+- Sie können die Nutzung im Microsoft Teams Admin Center im Vergleich zu Ihrem Auswahlminutenpool überwachen. Wechseln Sie im linken Navigationsbereich zu **Analytics & berichte** > **Nutzungsberichte**, und wählen Sie dann **PSTN-Minutenpools** aus. Der Anrufminutenpool "Zone A" wird im Bericht als "Ausgehende Anrufe in Zone A-Länder" bezeichnet.
+- Email Benachrichtigungen werden an die folgenden Administratoren gesendet, wenn die Nutzung des Anrufminutenpools Ihrer Organisation 80 % und 100 % erreicht hat:
 
   - Abrechnungsadministrator
-  - Skype for Business-Administrator
   - Globaler Administrator
   - Benutzeradministrator
   - Helpdesk-Administrator
   - Dienstsupportadministrator
-  - Azure AD lokalen Administrator des geräts beigetretenen Geräts
+  - Lokaler Azure AD-Geräteadministrator
   - Anwendungsadministrator
   - Lizenzadministrator
   - Cloudgeräteadministrator

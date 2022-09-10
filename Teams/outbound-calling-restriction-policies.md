@@ -1,18 +1,17 @@
 ---
-title: Einschränkungen für ausgehende Anrufe – Audiokonferenz & PSTN-Anrufe
+title: Einschränkungen für ausgehende Anrufe – Audiokonferenzen & PSTN-Anrufe
 ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Administratoren können den Typ von Audiokonferenzen und Endbenutzer-PSTN-Anrufen steuern, die von Benutzern getätigt werden können.
-ms.openlocfilehash: fd7dc24d7a920e5fb2c151600c3a6604381044e6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 67c138db8522ec6eee1f384e182f5c8d01ea40fd
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674807"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641766"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
@@ -36,10 +35,10 @@ Steuerelemente für ausgehende Anrufe können auf Benutzer- oder Mandantenbasis 
 
 |Steuerung|Beschreibung|Steuerelementoptionen|
 |:-----|:-----|:-----|
-|Audiokonferenz PSTN-Anrufe|Schränkt den Typ des ausgehenden </br>Aufrufe, die von innen zulässig sind </br>Besprechungen, die von einem Benutzer organisiert wurden.|Beliebiges Ziel (Standard)</br>Im selben Land oder derselben Region wie der Organisator </br> [Nur Länder oder Regionen der Zone A](audio-conferencing-zones.md) </br>Nicht zulassen|
+|PSTN-Anrufe für Audiokonferenzen|Schränkt den Typ des ausgehenden </br>Aufrufe, die von innen zulässig sind </br>Besprechungen, die von einem Benutzer organisiert wurden.|Beliebiges Ziel (Standard)</br>Im selben Land oder derselben Region wie der Organisator </br> [Nur Länder oder Regionen der Zone A](audio-conferencing-zones.md) </br>Nicht zulassen|
 |PSTN-Anrufe für Endbenutzer|Schränkt den Anruftyp ein </br>die von einem Benutzer erstellt werden kann.|International und Inland (Standard)</br>Inlandsanruf</br>Keine|
 
-Informationen dazu, welche Länder und Regionen als Zone A gelten, finden Sie unter ["Land" und "Regionszonen" für Audiokonferenz](audio-conferencing-zones.md).
+Informationen dazu, welche Länder und Regionen als Zone A gelten, finden Sie unter ["Land" und "Regionszonen" für Audiokonferenzen](audio-conferencing-zones.md).
 
    > [!NOTE]
    > Ein Anruf wird als inland angesehen, wenn sich die gewählte Nummer in dem Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung (bei Audiokonferenzen) oder den Endbenutzer (bei PSTN-Anrufen des Endbenutzers) eingerichtet wurde.
@@ -53,7 +52,7 @@ Informationen dazu, welche Länder und Regionen als Zone A gelten, finden Sie un
 
 1. Wählen Sie im linken Navigationsbereich **"Benutzer**" aus, und wählen Sie dann den Anzeigenamen des Benutzers aus der Liste der verfügbaren Benutzer aus.
 
-2. Wechseln Sie als Nächstes zu **Audiokonferenz**, wählen Sie **"Bearbeiten"** aus.
+2. Wechseln Sie als Nächstes zu **Audiokonferenzen**, wählen Sie **"Bearbeiten"** aus.
 
 3. Wählen Sie unter **"Ausgehende Anrufe aus Besprechungen**" die gewünschte Einwahleinschränkungsoption aus.
 
