@@ -1,5 +1,5 @@
 ---
-title: Ändern der Darstellung von Apps im Microsoft Teams-Store Ihrer Organisation
+title: Verwenden der App-Anpassung zum Branding der Apps für die Anforderungen Ihrer Organisation
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -15,17 +15,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie die Darstellung und das Branding einer App durch Bearbeiten der App-Details und -Metadaten ändern können.
-ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+description: Erfahren Sie, wie Sie die Metadaten und das Erscheinungsbild einer App ändern, um sie für eine bessere Akzeptanz in Ihrer Organisation neu zu formatieren.
+ms.openlocfilehash: 0a1ae462933768e0c5a53db6c7379e5cd8b9bf05
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486920"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647479"
 ---
-# <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Anpassen der Darstellung von Apps im Microsoft Teams Store Ihrer Organisation
+# <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>Verwenden der App-Anpassung zum Aktualisieren des Brandings von Apps im Teams Store Ihrer Organisation
 
-Mit Microsoft Teams können Administratoren die Teams-App anpassen, um die Store-Erfahrung zu verbessern und das Branding ihrer Organisation einzuhalten. Ein App-Entwickler kann zulassen, dass seine App von einem Microsoft Teams-Administrator angepasst wird. Dieser kann dann die App-Eigenschaften basierend auf den Anforderungen der Organisation im Microsoft Teams Admin Center auf der Seite "Apps verwalten" ändern. Die Details, die Sie anpassen können, sind:
+Microsoft Teams-Administratoren können das Erscheinungsbild einiger Teams-Apps ändern, um den Endbenutzern ihrer Organisation eine personalisierte Markenerfahrung zu bieten. Solche Änderungen können die Teams Store-Erfahrung für Endbenutzer verbessern und dazu beitragen, das Branding der Organisation einzuhalten. Administratoren können z. B. die Beschreibung und das Symbol einer App ändern, die endbenutzern ihrer Organisation die Identifizierung der App, das Verständnis ihrer Verwendung und die zusätzliche Bedeutung erleichtert. Administratoren nehmen diese Änderungen vor, indem sie einige Metadaten oder Eigenschaften einer App ändern. Die Änderungen sind nur innerhalb ihrer Organisation verfügbar. Diese Funktionalität wird als App-Anpassung bezeichnet.
+
+Administratoren können Apps nur anpassen, wenn der App-Entwickler die Anpassung ihrer App zulässt. Während Teams eine Option zum Anpassen einiger Eigenschaften bietet, steuern App-Entwickler die Eigenschaften, die tatsächlich von jedem Administrator angepasst werden können.
+
+Als Administrator können Sie die folgenden Eigenschaften anpassen.
 
 * Kurzname
 * Kurzbeschreibung
@@ -37,81 +41,86 @@ Mit Microsoft Teams können Administratoren die Teams-App anpassen, um die Store
 * Gliederungsfarbe des Symbols
 * Akzentfarbe
 
-Informationen zu den verschiedenen Metadatenfeldern der App finden Sie im [Microsoft Teams-Manifestschema](/microsoftteams/platform/resources/schema/manifest-schema) in der Entwicklerdokumentation.
+Ausführliche Informationen zu den einzelnen Metadatenfeldern finden Sie im [Teams-Manifestschema](/microsoftteams/platform/resources/schema/manifest-schema) in der Teams-Entwicklerdokumentation.
 
 > [!NOTE]
-> Quergeladene Apps können in keiner Organisation angepasst werden. Apps in Government Community Cloud High (GCCH) oder Department of Defense (DoD)-Clouds können nicht angepasst werden.
+> Die App-Anpassungsfunktionalität ist für benutzerdefinierte Apps nicht verfügbar. Administratoren können keine App in Government Community Cloud High (GCCH)- und Department of Defense (DoD)-Umgebungen anpassen.
 
-## <a name="customize-details-of-an-app"></a>Anpassen von Details einer App
+## <a name="verify-if-an-app-is-customizable"></a>Überprüfen, ob eine App anpassbar ist
 
-Führen Sie zum Anpassen einer App die folgenden Schritte aus:
+Alle Apps können nicht angepasst werden. Wenn ein App-Entwickler ihnen die Anpassung der App ermöglicht, können Sie nur dann die App-Anpassungsfunktionalität verwenden, um das Erscheinungsbild der App zu ändern. Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die App Ihrer Wahl anpassbar ist oder nicht:
 
-1. Melden Sie sich beim Microsoft Teams Admin Center an.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **Teams-Apps** >  zu **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Erweitern Sie **Microsoft Teams-Apps**, und wählen Sie **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)** aus.
+1. Durchsuchen Sie die App, die Sie mithilfe des App-Namens anpassen möchten. Überprüfen Sie in der Spalte **"Anpassbar** ", ob der App-Entwickler die Anpassung der App zulässt oder nicht. Wenn die Spalte nicht sichtbar ist, wählen Sie "Spalten :::image type="icon" source="media/settings-icon-16px.svg"::: bearbeiten" aus, und aktivieren Sie die Option "**Anpassbar****".**
 
-1. Überprüfen Sie die Spalte **Anpassbar** der App-Liste und sortieren Sie nach anpassbaren Apps.
+   :::image type="content" source="media/customizable-apps-in-tac.png" alt-text="Der Screenshot zeigt, dass Sie mithilfe der anpassbaren Spalte im Admin Center überprüfen können, ob eine App anpassbar ist oder nicht.":::
 
-   ![Die Spalte "Anpassen" im Admin Center hilft Ihnen, anpassbare Apps anzuzeigen.](media/customizable-apps-in-tac.png)
+Um alle anpassbaren Apps im Teams-Store zu finden, sortieren Sie die Spalte "Anpassbar".
 
-   Es gibt drei Einstiegspunkte für den Zugriff auf das Anpassungsfeature:
+## <a name="customize-the-details-of-an-app"></a>Anpassen der Details einer App
 
-   * Klicken Sie neben der App, die Sie anpassen möchten, und wählen Sie dann **Anpassen** aus.
+Führen Sie die folgenden Schritte aus, um das Aussehen und Verhalten einer App so zu ändern, wie sie im Teams Store Ihrer Organisation angezeigt wird:
 
-     ![Die erste Möglichkeit zum Auswählen der Anpassungsoption.](media/select-app-to-customize1.png)
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **Teams-Apps** >  zu **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-   * Klicken Sie auf den App-Namen und dann auf das Symbol "Bearbeiten" in **Anpassbar**.
+1. Durchsuchen Sie die App, die Sie mithilfe des App-Namens anpassen möchten, und stellen Sie sicher, dass sie angepasst werden kann.
 
-     ![Die zweite Möglichkeit zum Auswählen der Anpassungsoption.](media/communities-microsoft.png)
+1. Führen Sie einen der folgenden Schritte aus, um die Benutzeroberfläche zum Anpassen einzelner Metadatenfelder zu öffnen:
 
-   * Klicken Sie auf den App-Namen, dann auf das **Überlaufmenü**, zeigen Sie auf **Aktionen** und klicken Sie auf "Anpassen".
+   * Wählen Sie die Zeile einer App aus, und wählen Sie dann auf der Symbolleiste auf der Seite "Apps verwalten" die Option **"Anpassen**:::image type="icon" source="media/edit-pen-icon.png":::" aus.
 
-     ![Die dritte Möglichkeit zum Auswählen der Anpassungsoption.](media/customize-action-menu.png)
+   * Wählen Sie den App-Namen aus, um die Seite mit den App-Details zu öffnen, und wählen Sie dann unter **"Anpassbar**" das Symbol "Bearbeiten" :::image type="icon" source="media/edit-pen-icon.png"::: aus.
 
-1. Erweitern Sie den Abschnitt **Details**, und passen Sie eines oder mehrere der nachfolgend aufgeführten Felder an. Die vom Entwickler als anpassbar ausgewiesenen Felder sind sichtbar.
+   * Wählen Sie den App-Namen, dann **"Aktionen"** und dann **"Anpassen"** aus.
 
-    * Kurzname
-    * Kurzbeschreibung
-    * Vollständige Beschreibung
-    * Website
-    * URL zur Datenschutzerklärung
-    * URL zu Nutzungsbedingungen
+     :::image type="content" source="media/customize-action-menu.png" alt-text="Der Screenshot zeigt eine Option zum Anpassen einer App, indem Sie das Menü &quot;Aktionen&quot; öffnen und auf der Seite &quot;App-Details&quot; die Option &quot;Anpassen&quot; auswählen." lightbox="media/customize-action-menu-expanded.png":::
 
-   ![Die Anpassungseinstellungen.](media/customize-settings.png)
+1. Passen Sie eines oder mehrere der verfügbaren Felder an. Ein App-Entwickler kann nur einige der Metadatenfelder anpassen. Siehe [Überlegungen und Einschränkungen anpassbarer Felder](#considerations-and-limitations-of-app-customization).
 
-1. Erweitern Sie den Abschnitt **Symbol**.
+   :::image type="content" source="media/customize-settings.png" alt-text="Der Screenshot zeigt den Namen und die Beschreibung auf der benutzerdefinierten Benutzeroberfläche an.":::
 
-1. Laden Sie ein Symbol hoch. Verwenden Sie ein Symbol (192 x 192 Pixel) im PNG-Format.
+1. Nachdem Sie die App angepasst haben, klicken Sie auf **Übernehmen**. Informationen zum Überprüfen der vorgenommenen Änderungen finden Sie in den [App-Vorschaudetails](#preview-app-details). Informationen zum Rückgängigmachen der Änderungen finden Sie unter [Zurücksetzen von App-Details auf Standardwerte](#reset-app-details-to-default-values).
 
-1. Wählen Sie eine Symbolkonturfarbe aus. Verwenden Sie eine transparente Kontur (32 x 32 Pixel) im PNG-Format.
+1. Wählen Sie **"Veröffentlichen** " aus, um die angepasste App zu veröffentlichen, und sehen Sie sie auf der Seite **"Apps verwalten"** .
 
-1. Wählen Sie eine App-Akzentfarbe aus, die zum Symbol passt.
+<!---
+   :::image type="content" source="media/customize-app-colors.png" alt-text="Screenshot showing the icon color options that can be customized.":::
+--->
 
-   ![Passen Sie die Farboptionen des Symbolbereichs an.](media/customize-app-colors.png)
+## <a name="preview-app-details"></a>Vorschau von App-Details
 
-1. Nachdem Sie die App angepasst haben, klicken Sie auf **Übernehmen**.
+Um die Änderungen nach dem Speichern der Anpassung anzuzeigen, zeigen Sie die Seite mit den App-Details an.
 
-1. Klicken Sie auf **Veröffentlichen**, um die angepasste App zu veröffentlichen.
+1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **Teams-Apps** >  zu **[Verwalten von Apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-   Die angepasste App wird jetzt auf der Seite **Apps verwalten** aufgeführt. Sie verfügen über nur eine Version der App, da beim Anpassen der App-Features keine Kopie der App erstellt wird.
+1. Um die Seite mit den App-Details zu öffnen, wählen Sie den App-Namen aus.
 
-Jetzt können Ihre Microsoft Teams-Endbenutzer die angepasste App in ihrem Client sehen.
+1. Zeigen Sie die App-Details an, einschließlich des ursprünglichen App-Namens im Feld **"Kurzname vom Herausgeber"**. Das Feld ist nur sichtbar, wenn Sie den Kurznamen der App geändert haben.
 
-   ![Angepasste App im Microsoft Teams-Client.](media/contoso-app.png)
+   :::image type="content" source="media/original-app-version.png" alt-text="Der Screenshot zeigt den geänderten Kurznamen einer App.":::
 
-Beachten Sie die folgenden Details zum Anpassen einer App:
+Ihre Teams-Benutzer können die angepasste App im Teams-Store in ihrem Client sehen.
 
-* Wenn Sie Apps und Beschreibungen im Zusammenhang mit einer App anpassen, stellen Sie sicher, dass Sie alle Anpassungsrichtlinien befolgen, sofern dies vom App-Entwickler in seiner Dokumentation oder in den Nutzungsbedingungen angegeben wird. Sie sind auch dafür verantwortlich, die Rechte anderer Personen zu respektieren, falls Sie Bilder von Dritten verwenden.
+   :::image type="content" source="media/contoso-app.png" alt-text="Der Screenshot zeigt eine angepasste App im Teams-Client.":::
+
+## <a name="considerations-and-limitations-of-app-customization"></a>Überlegungen und Einschränkungen der App-Anpassung
+
+Berücksichtigen Sie die folgenden Details zur App-Anpassungsfunktionalität:
+
+* Sie verfügen über nur eine Version der App, da beim Anpassen der App-Features keine Kopie der App erstellt wird.
+
+* Wenn Sie Apps und beschreibungen im Zusammenhang mit einer App anpassen, stellen Sie sicher, dass Sie die Richtlinien befolgen, die App-Entwickler in ihrer Dokumentation oder in den Nutzungsbedingungen angeben. Halten Sie sich bei der Verwendung von Bildern von Drittanbietern an die Urheberrechtsgesetze.
 
 * Von Administratoren bereitgestellte Anpassungsdaten werden in der nächstgelegenen Region gespeichert.
 
-* Sie sind dafür verantwortlich sicherzustellen, dass Links zu Nutzungsbedingungen oder Datenschutzerklärungen gültig sind und funktionieren.
+* Sie sind dafür verantwortlich sicherzustellen, dass Links zu Nutzungsbedingungen oder Datenschutzrichtlinien gültig sind.
 
 * Falls der App-Entwickler die Anpassung eines Felds nicht mehr zulässt, wird auf der Seite mit den App-Details eine Meldung angezeigt, die den Administrator über die Felder informiert, die nicht mehr angepasst werden können. Alle an diesem Feld vorgenommenen Änderungen werden auf die ursprünglichen Werte zurückgesetzt.
 
-* Wir empfehlen, App-Anpassungen in einem Microsoft Teams-Testmandanten zu testen, bevor Sie diese Änderungen in Ihrer Produktionsumgebung vornehmen.
+* Wir empfehlen, App-Anpassungen in einem Microsoft Teams-Testmandanten zu testen, bevor Sie diese Änderungen in Ihrer Produktionsumgebung vornehmen. Um einen Testmandanten zu erhalten, folgen Sie den Anweisungen beim [Erstellen Ihres Testmandanten](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
-* Bei Änderungen am Branding kann es bis zu 24 Stunden dauern, bis sie an alle Benutzer weitergegeben werden.
+* Es dauert bis zu 24 Stunden, bis Änderungen an alle Benutzer weitergegeben werden.
 
 * Damit eine App angepasst werden kann, können die Entwickler eine neue Version der App bereitstellen. Sie laden die neue Version hoch und entfernen die vorherige Version der App. Wenn Sie eine App angepasst und veröffentlicht haben, ersetzt die neue App, die mit dem App-Anpassungsfeature angepasst wurde, nicht die aktuelle App.
 
@@ -119,21 +128,15 @@ Beachten Sie die folgenden Details zum Anpassen einer App:
 
 * Im Dialogfeld zur Zustimmung der Microsoft Graph-Berechtigung wird der ursprüngliche Name der App angezeigt, der vom Herausgeber bereitgestellt wird. Es hilft Ihnen, eine App genau zu identifizieren und gleichzeitig Berechtigungen dafür bereitzustellen.
 
-## <a name="review-app-details"></a>App-Details überprüfen
+Die Einschränkungen für die anpassbaren Felder sind unten aufgeführt:
 
-Manchmal möchten Sie die App-Details anzeigen, um die Informationen zu überprüfen.
-
-1. Melden Sie sich beim Microsoft Teams Admin Center an.
-
-1. Erweitern Sie **Microsoft Teams-Apps**, und wählen Sie **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)** aus.
-
-1. Klicken Sie auf den App-Namen.
-
-1. Zeigen Sie die App-Details an, einschließlich des ursprünglichen App-Namens **Kurzname des Herausgebers**.
-
-   ![Passen Sie den App-Namen im Symbolbereich an.](media/original-app-version.png)
-
-   Das Feld **Kurzname des Herausgebers** ist nur sichtbar, wenn Sie den Kurznamen der App geändert haben.
+| Anpassbares Feld | Berücksichtigung |
+|:---|:---|
+| Beliebige URL-Felder | Stellen Sie sicher, dass gültige und sichere URLs mithilfe von `https`. |
+| Kurzbeschreibung | Die Kurzbeschreibung darf weniger als 80 Zeichen lang sein und darf nicht wiederholt werden, was in der vollständigen Beschreibung enthalten ist. |
+| Symbol | Transparentes Gliederungssymbol im PNG-Format mit einer Auflösung von 32 x 32 Pixeln. |
+| Farbsymbol | Vollfarbsymbol im PNG-Format mit einer Auflösung von 192 x 192 Pixel. |
+| Akzentfarbe | Die Farbe muss ihrem Symbolhintergrund entsprechen. |
 
 ## <a name="reset-app-details-to-default-values"></a>Zurücksetzen von App-Details auf Standardwerte
 
@@ -141,14 +144,13 @@ Sie können die App-Details auf die ursprünglichen Werte zurücksetzen, die vom
 
 1. Wechseln Sie im Microsoft Teams Admin Center zu **Microsoft Teams-Apps** > **[Apps verwalten](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Klicken Sie auf den App-Namen.
+1. Um die Seite mit den App-Details zu öffnen, wählen Sie den App-Namen aus.
 
-1. Wählen Sie im Menü **Aktionen** die Option **Auf Standardwerte zurücksetzen** aus.
+1. Wählen Sie im Menü **"Aktionen****" die Option "Auf Standard zurücksetzen"** aus.
 
-   ![Hervorgehobene Auswahl "Auf Standardwerte zurücksetzen".](media/select-reset.png)
+   :::image type="content" source="media/reset-app-customization.png" alt-text="Der Screenshot zeigt die Option &quot;Auf Standard zurücksetzen&quot; für eine angepasste App.":::
 
-## <a name="related-article"></a>Verwandter Artikel
+## <a name="related-articles"></a>Verwandte Artikel
 
-* [Verwalten von Apps](manage-apps.md)
 * [Anpassen des App Store Ihrer Organisation](customize-your-app-store.md)
 * [Rebranding Ihrer Apps](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
