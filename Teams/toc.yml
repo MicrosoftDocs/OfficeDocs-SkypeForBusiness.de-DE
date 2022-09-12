@@ -1545,6 +1545,10 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Verwalten Sie Microsoft 365 und benutzerdefinierte Connectors
             href: Office-365-custom-connectors.md
+          - name: Anpassen des App-Brandings mithilfe der App-Anpassung
+            href: customize-apps.md
+          - name: Verwalten des Zugriffs auf Anwendungen in Microsoft 365
+            href: manage-third-party-teams-apps.md
       - name: Verwalten von benutzerdefinierten Apps
         items:
           - name: Verwalten von benutzerdefinierten und quergeladenen Apps
@@ -1579,13 +1583,11 @@ items:
             href: resource-specific-consent.md
           - name: Grundlegendes zu App-Berechtigungen und dem Zugriff auf Ressourcen
             href: app-permissions.md
-          - name: Aussehen und Metadaten von Apps anpassen
-            href: customize-apps.md
           - name: Branden Sie Ihren Org App Store
             href: customize-your-app-store.md
           - name: Verwalten des Zugriffs auf Anwendungen in Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: App-Verhalten für externe Benutzer
+          - name: Verwenden von Apps als externe oder Gastbenutzer
             href: non-standard-users.md
           - name: Verwalten von Benutzeranforderungen zum Zulassen von Apps
             href: user-requests-approve-apps.md

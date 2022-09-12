@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 912a9f7f9330bcc8da167c7435048d1ec8c28284
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 2f6dd23c5f15d2c96a1a5bb7cec6f4b9107f436c
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269880"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647449"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -34,7 +34,7 @@ Sie können einen privaten Kanal verwenden, wenn Sie die Zusammenarbeit auf diej
 Ein privater Kanal ist zum Beispiel in diesen Szenarien nützlich:
 
 - Eine Gruppe von Personen in einem Team möchte einen fokussierten Raum für die Zusammenarbeit nutzen, ohne ein separates Team erstellen zu müssen.
-- Eine Untergruppe von Personen in einem Team möchte einen privaten Kanal nutzen, um vertrauliche Informationen, wie z. B. Budgets, Ressourcen, strategische Positionierung usw. zu besprechen.
+- Eine Teilmenge der Personen in einem Team möchte, dass ein privater Kanal vertrauliche Informationen wie Budgets, Ressourcen, strategische Positionierung usw. diskutiert.
 
 Ein Schlüsselsymbol weist auf einen privaten Kanal hin. Nur Mitglieder privater Kanäle können die privaten Kanäle, zu denen sie hinzugefügt wurden, anzeigen und an ihnen teilnehmen.
 
@@ -130,6 +130,8 @@ Es ist nicht möglich, einen privaten Kanal in einen anderen Kanaltyp zu konvert
 Benachrichtigungen aus privaten Kanälen sind in E-Mails zu verpassten Aktivitäten nicht eingeschlossen.
 
 Kanalbesprechungen können nicht geplant werden.
+
+Kanalbesprechungen können nicht mit einem Besprechungstitel angepasst werden.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

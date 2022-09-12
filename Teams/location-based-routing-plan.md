@@ -1,7 +1,7 @@
 ---
 title: Planen des standortbasierten Routings für direktes Routing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562624"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647439"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -387,9 +387,9 @@ Location-Based Routing gilt nicht für die folgenden Arten von Interaktionen. Lo
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based Routing für Konferenzen
 
-Ein Location-Based Routing-aktivierter Benutzer bei einem PSTN-Anruf darf keine Konferenz mit einem anderen Benutzer oder einer anderen PSTN-Nummer starten. Eine Verbindung mit automatischen Telefonzentralen oder Anrufwarteschleifen ist zulässig.
+Ein Location-Based Routing-aktivierter Benutzer ohne Audiokonferenzlizenz für einen PSTN-Anruf darf keine Konferenz mit einem anderen Benutzer oder einer anderen PSTN-Nummer starten. Eine Verbindung mit automatischen Telefonzentralen oder Anrufwarteschleifen ist zulässig.
 
-Wenn der Benutzer über eine Audiokonferenzlizenz verfügt, muss der Benutzer eine Konferenz mit den relevanten Benutzern starten und das PSTN über die Konferenzbrücke anrufen, um eine Telefonkonferenz zu starten.
+Wenn der Benutzer über eine Audiokonferenzlizenz verfügt, muss der Benutzer eine Konferenz mit den relevanten Benutzern starten und das PSTN über die Konferenzbrücke anrufen, um eine Telefonkonferenz zu starten. Wenn sich der Benutzer bereits an einem PSTN-Anruf befindet, kann er dem Anruf eine weitere Benutzer- oder PSTN-Nummer hinzufügen, indem er den Anruf mithilfe der Konferenzbrücke eskaliert, um einen Anruf auszuwählen.
 
 In einer Telefonkonferenz, die von einem Benutzer ohne Audiokonferenzlizenz gestartet wurde, ist das Hinzufügen von PSTN-Teilnehmern nicht zulässig, wenn mindestens ein benutzer mit aktiviertem Location-Based Routing in der Telefonkonferenz vorhanden ist oder war. Wenn mindestens ein PSTN-Teilnehmer an einer solchen Telefonkonferenz teilnimmt oder war, bevor teilnehmer mit aktiviertem Location-Based Routing zur Teilnahme am Anruf eingeladen wurden, können solche Location-Based Routing-aktivierte Teilnehmer dem Anruf nicht hinzugefügt werden.
 
@@ -397,6 +397,7 @@ Wenn der benutzer mit aktivierter Location-Based Routing an der Telefonkonferenz
 
 On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
 
+Ein Location-Based Routing-aktivierter Benutzer bei einem PSTN-Anruf darf diesen Anruf nicht mit einem anderen Anruf zusammenführen.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Medienumgehungsanforderung für Location-Based Routing
 

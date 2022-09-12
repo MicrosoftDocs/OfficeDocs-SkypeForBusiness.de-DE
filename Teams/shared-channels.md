@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie freigegebene Kanäle in Microsoft Teams verwenden und verwalten können.
-ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630455"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647549"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Freigegebene Kanäle in Microsoft Teams
 
@@ -118,7 +118,7 @@ Weitere Informationen zum Ausführen einer eDiscovery-Suche für freigegebene Ka
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>Überlegungen im Zusammenhang mit dem Zugriff auf Dateien in freigegebenen Kanälen
 
-Dateien, Ordner und OneNote-Notizbücher in einem freigegebenen Kanal können mithilfe der [standardmäßigen SharePoint-Dateifreigabe](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c) mit Personen außerhalb des Kanals geteilt werden.
+Dateien, Ordner und OneNote-Notizbücher in einem freigegebenen Kanal können mithilfe der [standardmäßigen SharePoint-Dateifreigabe](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c) für Personen außerhalb des Kanals (aber nicht außerhalb der Organisation) freigegeben werden.
 
 Wenn einem Benutzer über SharePoint Zugriff auf eine Datei, einen Ordner oder ein Notebook in einem freigegebenen Kanal gewährt wird, wird der Zugriff des Benutzers auf die Datei, den Ordner oder das Notebook nicht durch das Entfernen des Benutzers aus dem Team oder dem freigegebenen Kanal entfernt.
 

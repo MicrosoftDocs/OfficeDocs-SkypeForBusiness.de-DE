@@ -18,30 +18,30 @@ description: Erfahren Sie, wie Sie Endbenutzeranforderungen verwalten und konfig
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: c47578184aa97f9c6cc366e186c1590ef1e3fba4
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 122d41de6f1cb5ea67a5ce85ba9f8f7d02e26339
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637311"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647539"
 ---
-# <a name="manage-user-requests-to-allow-apps-that-are-blocked-by-admins"></a>Verwalten von Benutzeranforderungen zum Zulassen von Apps, die von Administratoren blockiert werden
+# <a name="manage-user-requests"></a>Verwalten von Benutzeranforderungen
 
-Die Apps, die Sie in Ihrer Organisation blockieren, können die Produktivität und Zusammenarbeit der Endbenutzer verringern. Apps, die im Teams-Store verfügbar sind, aber in Ihrer Organisation blockiert sind, können von den Endbenutzern nicht verwendet werden. Um jedoch auf dem Laufenden zu bleiben, können die Endbenutzer blockierte Apps anzeigen, die App-Informationen und die Anwendungsfälle anzeigen, in deren Server sie ausgeführt werden. Benutzer können die Administratorgenehmigung anfordern, damit sie diese Apps in Teams verwenden können, nachdem Sie die App zugelassen haben.
+Die Apps, die Sie in Ihrer Organisation blockieren, können sich auf die Produktivität und Zusammenarbeit der Endbenutzer auswirken. Apps, die im Teams-Store verfügbar sind, aber in Ihrer Organisation blockiert sind, können von den Endbenutzern nicht verwendet werden. Um jedoch auf dem Laufenden zu bleiben, können die Endbenutzer blockierte Apps anzeigen, die App-Informationen und die Anwendungsfälle anzeigen, in deren Server sie ausgeführt werden. Benutzer fordern die Administratorgenehmigung an, damit sie diese Apps in Teams verwenden, nachdem Sie die Anforderung ausgewertet haben.
 
-Diese Funktion gibt Ihnen ein Signal über die Nachfrage nach einer App in Ihrer Organisation. Sie können ganz einfach die aggregierte Anzahl von Anforderungen für Apps anzeigen und fundierte Entscheidungen darüber treffen, welche Apps in Ihrer Organisation zugelassen werden sollen.
+Diese Funktionalität gibt Ihnen ein Signal über die Nachfrage nach einer App in Ihrer Organisation. Sie können die Gesamtanzahl der Anforderungen für Apps ganz einfach anzeigen. Es hilft Ihnen, eine fundierte Entscheidung darüber zu treffen, welche Apps ausgewertet werden sollen, um sie in Ihrer Organisation zuzulassen.
 
 Sie behalten die vollständige Kontrolle über die Apps, die für Benutzer zulässig oder blockiert sind. Wenn Sie eine App zulassen, bleiben die Steuerelemente und die Benutzeroberfläche zum Verwalten von Apps unverändert.
 
-* Die Standardoption sendet die Benutzeranforderungen im Teams Admin Center, wo Sie [Benutzeranforderungen anzeigen und die angeforderten Apps zulassen](#view-user-requests-and-allow-the-requested-apps) können.
+* Die Standardoption sendet die Benutzeranforderungen im Teams Admin Center, wo Sie [Benutzeranforderungen anzeigen und die angeforderten Apps zulassen](#view-user-requests) können.
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot mit der Option, einen Administrator zur Genehmigung einer blockierten App anzufordern.":::
 
-* Mit einer Anpassung können Sie die [Endbenutzererfahrung konfigurieren](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app) , indem Sie den Benutzer zu einer benutzerdefinierten App-Anforderungsmethode umleiten. Sie können eine benutzerdefinierte Textnachricht bereitstellen, um Benutzer zu informieren und die Benutzer an die interne URL Ihrer Organisation zu leiten, um Anforderungen zum Zulassen von Apps zu sammeln.
+* Mit einer Anpassung können Sie die [Endbenutzererfahrung konfigurieren](#modify-the-default-setting-to-receive-end-user-requests) , die für Ihre Organisation am besten geeignet ist. Sie können eine benutzerdefinierte Anweisung bereitstellen, die Endbenutzern in blockierten Apps im Teams-App Store angezeigt wird, und die Benutzer zu einer internen Website weiterleiten, um ihre Anforderungen zu sammeln.
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot, der die Endbenutzererfahrung für Apps im Store zeigt, wenn ein Administrator die ANFORDERUNGS-URL für apps zulassen an eine benutzerdefinierte URL umleitet.":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot, der die Endbenutzererfahrung für Apps im Store zeigt, wenn ein Administrator die URL zur Anforderung von Apps zulassen an eine interne Website umleitet.":::
 
-## <a name="modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app"></a>Ändern der Standardeinstellung zum Empfangen von Endbenutzeranforderungen zum Zulassen einer App
+## <a name="modify-the-default-setting-to-receive-end-user-requests"></a>Ändern der Standardeinstellung zum Empfangen von Endbenutzeranforderungen
 
 Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Nachricht zu konfigurieren und Benutzer an eine organisationsspezifische URL umzuleiten, um die App-Genehmigung anzufordern:
 
@@ -60,9 +60,9 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Nachricht zu 
 
 1. Klicken Sie auf **Speichern**.
 
-## <a name="view-user-requests-and-allow-the-requested-apps"></a>Anzeigen von Benutzeranforderungen und Zulassen der angeforderten Apps
+## <a name="view-user-requests"></a>Anzeigen von Benutzeranforderungen
 
-Die von der Standardmethode empfangenen Endbenutzeranforderungen werden im Teams Admin Center angezeigt. Sie können die Anforderungen ganz einfach anzeigen und verwalten. Es wird dringend empfohlen, eine regelmäßige Einstufung für die Überprüfung auf Endbenutzeranforderungen zu verwenden. Führen Sie die folgenden Schritte aus, um die Apps anzuzeigen und zuzulassen:
+Die von der Standardmethode empfangenen Endbenutzeranforderungen werden im Teams Admin Center angezeigt. Sie können die Anforderungen ganz einfach anzeigen und verwalten. Es wird empfohlen, eine regelmäßige Triage zu verwenden, um nach Endbenutzeranforderungen zu suchen. Führen Sie die folgenden Schritte aus, um die Apps anzuzeigen und zuzulassen:
 
 1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf die Seite "**[Apps verwalten"](https://admin.teams.microsoft.com/policies/manage-apps)** von **Teams-Apps** >  zu.
 
@@ -82,7 +82,7 @@ Die von der Standardmethode empfangenen Endbenutzeranforderungen werden im Teams
    * Wenn die App für alle Benutzer blockiert ist, [lassen Sie die App zu](manage-apps.md#allow-and-block-apps).
    * Wenn alle Apps für alle Benutzer blockiert sind, [ändern Sie organisationsweite Einstellungen](manage-apps.md#manage-org-wide-app-settings).
 
-1. Wenn Sie optional zu einer benutzerdefinierten Konfiguration zu Ihrer organisationsspezifischen URL wechseln möchten, wählen Sie im Dialogfeld "Benutzeranforderungen verwalten" den Link "Benutzeranforderungen konfigurieren" aus. Es öffnet den organisationsweiten App-Einstellungsbereich, in dem Sie [die Endbenutzeranforderungsumgebung konfigurieren](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app) können.
+1. Wenn Sie optional zu einer benutzerdefinierten Konfiguration zu Ihrer organisationsspezifischen URL wechseln möchten, wählen Sie im Dialogfeld "Benutzeranforderungen verwalten" den Link "Benutzeranforderungen konfigurieren" aus. Es öffnet den organisationsweiten App-Einstellungsbereich, in dem Sie [die Endbenutzeranforderungsumgebung konfigurieren](#modify-the-default-setting-to-receive-end-user-requests) können.
 
 Wenn Sie eine App zulassen, nachdem Sie Anforderungen im Teams Admin Center erhalten haben, informiert Teams den Endbenutzer nicht darüber, dass seine Anforderung erfüllt wird. Der Benutzer kann die App im Teams Store überprüfen, um zu überprüfen, ob die App zulässig ist. Die Option zum Hinzufügen der App ist für den Benutzer verfügbar, nachdem Sie sie zugelassen haben. Wenn Sie eine App nach dem Empfang von Anforderungen über Ihre organisationsspezifische Methode zulassen, gelten Ihre internen Mechanismen zur Bereitstellung einer Statusaktualisierung für den Endbenutzer.
 

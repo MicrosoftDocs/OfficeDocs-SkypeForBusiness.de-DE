@@ -15,21 +15,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 4f394d66521464e99c9492532cb1571931a8de27
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418504"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647429"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
-Mithilfe von Tags in Microsoft Teams können Benutzer mit einer begrenzten Anzahl von Personen in einem Team kommunizieren. Sie können benutzerdefinierte Tags erstellen und zuweisen, um Personen basierend auf Attributen wie Rolle, Projekt, Fertigkeiten oder Standort zu kategorisieren. Tags können Personen auch automatisch basierend auf ihren Zeitplan- und Schichtinformationen in der [Schichten-App](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) zugewiesen werden. Nachdem ein Tag einem oder mehreren Teammitgliedern hinzugefügt wurde, kann es in @mentions von jeder Person im Team in einem Kanalbeitrag verwendet werden, um nur die Personen zu benachrichtigen, denen dieses Tag einer Unterhaltung zugewiesen ist.
+Mithilfe von Tags in Microsoft Teams können Benutzer mit einer begrenzten Anzahl von Personen in einem Team kommunizieren. Sie können benutzerdefinierte Tags erstellen und zuweisen, um Personen basierend auf Attributen wie Rolle, Projekt, Fertigkeiten oder Standort zu kategorisieren. Tags können Personen auch automatisch basierend auf ihren Zeitplan- und Schichtinformationen in der [Schichten-App](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6) zugewiesen werden. Nachdem ein Tag einem oder mehreren Teammitgliedern hinzugefügt wurde, kann es in @mentions von jeder Person im Team in einem Kanalbeitrag verwendet werden, um nur die Personen zu benachrichtigen, denen dieses Tag einer Unterhaltung zugewiesen ist.
 
 Wie bereits zuvor erwähnt, gibt es in Microsoft Teams zwei Arten von Tags.
 
 - **Benutzerdefinierte Tags**: Teambesitzer und Teammitglieder (wenn sie über die Berechtigungen verfügen) können Tags manuell erstellen und Personen zuweisen. Beispielsweise erreicht ein Tag "Designer" oder "Radiologe" diese Gruppen von Personen in einem Team, ohne deren Namen eingeben zu müssen.
-- **Tagging nach Schicht:** Mit diesem Feature werden Personen automatisch Tags zugewiesen, die ihren Plan- und Schicht-Gruppennamen in der [Schichten-App](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) in Microsoft Teams entsprechen. Beispielsweise erreicht das Tag "EngineerOnCall" alle Techniker, die in Schichten geplant sind, um zu dem Zeitpunkt zu arbeiten, zu dem das Tag in einem Chat- oder Kanalbeitrag verwendet wird. Mit "Tagging nach Schicht" ist es in Microsoft Teams nicht mehr notwendig, die Namen der Mitarbeiter im Schichtdienst kennen, wenn Benutzer Informationen schnell weitergeben müssen.
+- **Tagging nach Schicht:** Mit diesem Feature werden Personen automatisch Tags zugewiesen, die ihren Plan- und Schicht-Gruppennamen in der [Schichten-App](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_usetags) in Microsoft Teams entsprechen. Beispielsweise erreicht das Tag "EngineerOnCall" alle Techniker, die in Schichten geplant sind, um zu dem Zeitpunkt zu arbeiten, zu dem das Tag in einem Chat- oder Kanalbeitrag verwendet wird. Mit "Tagging nach Schicht" ist es in Microsoft Teams nicht mehr notwendig, die Namen der Mitarbeiter im Schichtdienst kennen, wenn Benutzer Informationen schnell weitergeben müssen.
 
 > [!NOTE]
 > Tags werden in privaten oder freigegebenen Kanälen nicht unterstützt.
