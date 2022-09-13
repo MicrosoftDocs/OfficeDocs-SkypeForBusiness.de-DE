@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Benutzerlizenzen werden für die Verwendung mit Besprechungsgeräten nicht unterstützt. Benutzerlizenzen, die Teams-Besprechungsgeräten zugewiesen wurden, müssen vor dem 1. Juli 2023 durch eine Teams-Räume Basic- oder Teams-Räume Pro-Lizenz ersetzt werden. Besprechungsgeräte, die nach dem 1. Juli 2023 über eine Benutzerlizenz verfügen, werden für die Anmeldung gesperrt, bis eine Teams-Räume-Lizenz zugewiesen ist.
