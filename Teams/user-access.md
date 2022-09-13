@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78d5905eaed7d9302ffdbf071c3dcf93f00fea
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 9affb1fc93bf79cd7f583f0e74b02bd06f604f0d
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616261"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657255"
 ---
 # <a name="manage-user-access-to-teams"></a>Verwalten des Benutzerzugriffs auf Microsoft Teams
 
@@ -40,7 +40,7 @@ Sie verwalten Teams-Lizenzen im Microsoft 365 Admin Center oder mithilfe von Pow
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Verwenden der Microsoft 365 Admin Center
 
-Microsoft Teams-Lizenzen auf Benutzerebene werden direkt über die Microsoft 365 Admin Center Benutzeroberflächen verwaltet. Ein Administrator kann neuen Benutzern Lizenzen zuweisen, wenn neue Benutzerkonten erstellt werden, oder Benutzern mit vorhandenen Konten. 
+Microsoft Teams-Lizenzen auf Benutzerebene werden direkt über die Microsoft 365 Admin Center Benutzeroberflächen verwaltet. Ein Administrator kann neuen Benutzern Lizenzen zuweisen, wenn neue Benutzerkonten erstellt werden, oder Benutzern mit vorhandenen Konten.
 
 > [!IMPORTANT]
 > Der Administrator muss über die Berechtigungen "Globaler Administrator" oder "Benutzerverwaltungsadministrator" verfügen, um Microsoft Teams-Lizenzen verwalten zu können.
