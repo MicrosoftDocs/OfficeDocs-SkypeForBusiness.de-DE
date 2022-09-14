@@ -23,34 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern (Übertragungsnummern) für Ihre Organisation erhalten, müssen Sie möglicherweise Hilfe und Support beim TNS Service Desk erhalten.
-ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
-ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
+ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66687871"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674406"
 ---
-# <a name="telephone-number-services-tns---service-desk"></a>Telefonnummerndienste (Telephone Number Services, TNS) – Service Desk
-
-Es gibt einen neuen Prozess für die Interaktion mit dem TNS-Servicedesk (Telephone Number Services). Sie können jetzt Tickets öffnen, Tickets anzeigen und die Kommunikation an einem zentralen Ort nachverfolgen, der in das Teams Admin Center integriert ist. In diesem Artikel wird alles beschrieben, was Sie wissen müssen, um sich an den Service Desk zu wenden.
+# <a name="telephone-number-services-tns---service-desk"></a>Telefonnummerndienste (TNS) – Service Desk
 
 > [!NOTE]
-> Seit dem 22. Juli 2021 wurde das aktuelle E-Mail-System eingestellt.
+> Seit dem 22. Juli 2021 wurde das vorherige E-Mail-System zur Kontaktaufnahme mit dem TNS Service Desk eingestellt.
 
-So wenden Sie sich an den Service Desk:
+Es gibt einen neuen Prozess für die Interaktion mit dem TNS-Servicedesk (Telephone Number Services) aus unserem neuen **[Telefonnummern-Servicecenter](https://pstnsd.powerappsportals.com)**. Sie können jetzt Tickets öffnen, Tickets anzeigen und die Kommunikation an einem zentralen Ort nachverfolgen, der in das Teams Admin Center integriert ist. Jeder dieser Bereiche wird in den folgenden Abschnitten ausführlich beschrieben.
 
-1. Melden Sie sich beim [Teams Admin Center](https://admin.teams.microsoft.com) an.
-
-2. Wählen Sie im linken Bereich **"VoIP**" und dann **"Telefonnummern**" aus.
-
-3. Klicken Sie in der oberen rechten Ecke der Seite auf **"Aktionen"**, und wählen Sie dann **"Telefonnummernunterstützung anfordern**" aus. Sie werden an das [Telefonnummern-Servicecenter](https://pstnsd.powerappsportals.com/) weitergeleitet.
-
-> [!NOTE]
-> Nur jemand aus demselben Mandanten darf einen Fall erstellen. Beispielsweise kann eine Person von @fabrikam.com keinen Fall im Namen von @contoso.com erstellen.
-
-Im Telefonnummern-Servicecenter können Sie neue Fälle erstellen, vorhandene Fälle anzeigen, mit dem Service Desk kommunizieren und Ihr Benutzerprofil verwalten. Diese Aufgaben werden in den folgenden Abschnitten ausführlicher beschrieben.
-
-- **Telefonnummern-Servicecenter** – Navigieren Sie zur Startseite des Portals.
 
 - **[Erstellen Sie einen neuen Fall](#create-a-new-case)** – Senden Sie eine neue Anfrage oder eine allgemeine Anfrage.
 
@@ -60,15 +46,16 @@ Im Telefonnummern-Servicecenter können Sie neue Fälle erstellen, vorhandene F�
 
 - **[Geben Sie Feedback](#view-and-manage-existing-cases)** – Teilen Sie Uns Ihr Feedback mit.
 
-- **[Ihr Name]** – Aktualisieren Sie Ihre Profilseite.
-
 ## <a name="create-a-new-case"></a>Erstellen eines neuen Falls
+
+> [!NOTE]
+> Nur jemand aus demselben Mandanten darf einen Fall erstellen. Beispielsweise kann eine Person von @fabrikam.com keinen Fall im Namen von @contoso.com erstellen.
 
 Führen Sie die folgenden Schritte aus, um einen neuen Fall zu erstellen:
 
 1. Wählen Sie an einer der folgenden Stellen **Neuen Fall erstellen** aus:
 
-   - Auf der Seite **Telefonnummern-Servicecenter** – entweder oben oder über den Link unten (Kachel).
+   - Auf der Startseite des **Telefonnummern-Servicecenters** oben auf der Seite oder auf der unteren Kachel.
 
    - Auf der Seite **Meine vorhandenen Fälle**  anzeigen.
 
@@ -168,7 +155,7 @@ Der Falltyp kann eine der folgenden sein:
 
   - **Liste der Telefonnummern** : Die Liste der Telefonnummern, für die Sie die Notfalladresse ändern möchten (geben Sie ihre gewünschte Adresse in das Feld "Beschreibung" ein). CSV-Datei mit der Liste der Rufnummern hochladen.
 
-***Datum und Uhrzeit.** Wenn Sie Land = Frankreich, Datum = 14.08.2021 und Uhrzeit = 10:00 Uhr auswählen, wird die Anforderung am 14.08.2021 um 10:00 Uhr ausgeführt. Französische Zeit.
+**Datum und Uhrzeit.** Wenn Sie Land = Frankreich, Datum = 14.08.2021 und Uhrzeit = 10:00 Uhr auswählen, wird die Anforderung am 14.08.2021 um 10:00 Uhr ausgeführt. Französische Zeit.
 
 #### <a name="case-title"></a>Falltitel
 
