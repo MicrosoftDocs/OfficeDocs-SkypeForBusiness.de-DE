@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie mehr über die neuesten Änderungen in Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
-ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.openlocfilehash: 5d488fbc8274b5b4e14a29e336b5ef0563872d56
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572055"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732304"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell – Versionshinweise
 
@@ -31,6 +31,7 @@ Diese Seite enthält das neueste Teams PowerShell-Änderungsprotokoll sowohl fü
 
 | Datum | Version | Aktualisierungen |
 |------- | -------------------- | ------------------------------ |
+| September 2022 | [4.7.1-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>Veröffentlicht anwendungsbasierte Authentifizierungsunterstützung in Connect-MicrosoftTeams in der Vorschau. Die unterstützten Cmdlets werden schrittweise eingeführt, weitere Details zur [anwendungsbasierten Authentifizierung im Teams PowerShell-Modul](teams-powershell-application-authentication.md).</li><li>Gibt [Get\|Set]-CsTeamsEducationConfiguration-Cmdlets in der privaten Vorschau frei.</li><li>[Abrufen\| New]-CsTeamsShiftsConnectionTeamMap cmdlets – TimeZone-Attribut hinzugefügt.</li><li>Entfernt die Eingabeparameter "SendEmailFromAddress" und "SendEmailFromDisplayName" aus "Set-CsOnlineDialinConferencingUser".</li><li>Entfernt die Parameter "AllowAllAcsResources" und "BlockedAcsResources" aus "Set-TeamsAcsFederationConfiguration".</li>
 | September 2022 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>Behebt Probleme mit der Prozessbereinigung bei Verwendung von Modulen in PS ISE- und Dotnet-Anwendungen.</li><li>Releases [Get\|New]-CsBatchTeamsDeployment cmdlets in GA.</li><li>Releases [New\|Set]-CSTeamsShiftsConnectionInstance, Test-CsTeamsShiftsConnectionValidate Unterstützung für UKG Dimensions.</li><li>Behebt Probleme mit falschem Tokenabruf bei der Auswahl zwischen mehreren Konten mithilfe des AccountId-Parameters in Connect-MicrosoftTeams.</li><li>Standardwerte des Konferenzmodus & Anwesenheitsmodusattribute werden für New-CsCallQueue Cmdlet von "false" in "true" geändert.</li>
 | August 2022 | [4.6.1-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>Behebt Probleme mit der Prozessbereinigung bei Verwendung von Modulen in PS ISE- und Dotnet-Anwendungen.</li>
 | Juli 2022 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>Gibt den AccountType-Parameter für das cmdlet Get-CsOnlineUser frei, das abfragen kann, ob ein bestimmter Benutzertyp vorhanden ist.</li><li>Das AccountType-Attribut wird in der Get-CsOnlineUser Ausgabe hinzugefügt, die den Benutzertyp angibt. Mögliche Werte für AccountType sind: 'User' (Benutzerkonten), 'ResourceAccount' (App-Endpunkte oder Ressourcenkonten), 'Guest' (Gastkonten) & 'Unknown' (Benutzertyp nicht bekannt).</li><li>Behebt Probleme mit Rang & Gruppenparametern in Grant-Cs-Cmdlets\<PolicyName\> .</li><li>Releases [Get\|Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlets.</li><li>Entfernt alle veralteten & nicht unterstützten Cmdlets. Details in von [Teams PowerShell unterstützten Versionen](teams-powershell-supported-versions.md#deprecated-cmdlets).</li><li>Veröffentlicht modernisierte Versionen von [New\|Get]-CsCloudCallDataConnection-Cmdlets.</li><li>Releases [Get\|Remove]-SharedWithTeam cmdlets.</li><li>Gibt Get-TeamAllChannel Cmdlet frei.</li><li>Gibt Get-TeamIncomingChannel Cmdlet frei.</li><li>Gibt Get-AssociatedTeam Cmdlet frei.</li><li>Gibt Get-SharedWithTeamUser Cmdlet frei.</li><li>Unterstützt optionalen Parameter "TenantId" für das cmdlet Add-TeamChannelUser.</li><li>Veröffentlicht Get-TeamTargetingHierarchyStatus & Cmdlets [Remove\|Set]-TeamTargetingHierarchy.</li>

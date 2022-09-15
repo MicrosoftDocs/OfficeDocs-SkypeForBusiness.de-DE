@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-description: Erfahren Sie, wie Sie mit Audiokonferenzen in Microsoft 365 oder Office 365 von ihrem Telefon aus Besprechungen beitreten können.
-ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Erfahren Sie, wie Benutzer mit Audiokonferenzen in Microsoft 365 oder Office 365 von ihren Telefonen aus in Besprechungen einwägen können.
+ms.openlocfilehash: 8fcc731f208dc3fecd42dd2c351714f67ad6a684
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269930"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732404"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>Richtlinieneinstellungen für Audiokonferenzen für gebührenpflichtige und gebührenfreie Nummern
 
@@ -36,6 +36,9 @@ Verwenden Sie Audiokonferenzrichtlinien, um gebührenpflichtige und gebührenfre
 
 - Die Einstellung für AllowTollFreeDialin kann nicht mehr für einen einzelnen Benutzer über das Teams Admin Center oder PowerShell verwaltet werden. Mandantenadministratoren können diese Einstellung nur über die neue Audiokonferenzrichtlinie verwalten.
 - Die globale Richtlinie kann im Teams Admin Center nicht geändert werden.
+
+> [!NOTE]
+> Benutzerdefinierte Audiokonferenzrichtlinien werden für Kunden, die für Skype for Business regional gehostete Besprechungen aktiviert sind, nicht unterstützt. Kunden, die für regional gehostete Besprechungen aktiviert sind, können die Audiokonferenzeinstellungen von Benutzern über ihre Standardeinstellungen verwalten. Die Standardeinstellungen für Audiokonferenzen von Benutzern können im Teams Admin Center geändert werden, indem Sie zu **Benutzer** -> **verwalten Benutzer** -> **auswählen** -> **Benutzerkonto navigieren**.
 
 Wenn eine Teams-Audiokonferenzrichtlinie im Mandanten aktiviert ist, sind zwei automatisch erstellte Richtlinien im Mandanten verfügbar. Die beiden automatisch erstellten Richtlinien und ihre Standardeinstellungen sind:
 
