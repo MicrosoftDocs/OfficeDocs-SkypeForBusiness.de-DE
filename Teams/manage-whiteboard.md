@@ -1,7 +1,7 @@
 ---
 title: Verwalten des Whiteboards in Microsoft Teams
-author: chuckedmonson
-ms.author: chucked
+author: wlibebe
+ms.author: wlibebe
 manager: serdars
 ms.date: 10/01/2019
 ms.topic: article
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96887fe65ccec958f683f68d59ca9e73e169f103
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 8d478ca03b955d9afe5f78a7320cd4ccb6bb8240
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618461"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706462"
 ---
 # <a name="manage-the-whiteboard-in-microsoft-teams"></a>Verwalten des Whiteboards in Microsoft Teams
 

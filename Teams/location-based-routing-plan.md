@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f7b6b360f51c803aef3eb7811b15c17a748df5f0
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647439"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705834"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -397,7 +397,7 @@ Wenn der benutzer mit aktivierter Location-Based Routing an der Telefonkonferenz
 
 On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
 
-Ein Location-Based Routing-aktivierter Benutzer bei einem PSTN-Anruf darf diesen Anruf nicht mit einem anderen Anruf zusammenführen.
+Ein Location-Based Routing-aktivierter Benutzer bei einem PSTN-Anruf darf diesen Anruf nicht mit einem anderen Anruf zusammenführen. Folgendes wird nicht unterstützt: Aufzeichnen des PSTN-Anrufs und Compliance-Aufzeichnung des PSTN-Anrufs.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Medienumgehungsanforderung für Location-Based Routing
 

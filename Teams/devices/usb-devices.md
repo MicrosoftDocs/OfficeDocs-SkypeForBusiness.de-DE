@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte und -Geräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268550"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706064"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>FÜR Microsoft Teams zertifizierte USB-Audio- und Videogeräte
 
@@ -175,7 +175,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Jabra                |Evolve 40 Headset                                          |8/23/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 20 Headset                                          |8/23/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
-|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
+|EPOS/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |EPOS/Sennheiser      |Aufprall SC 660 mit USB-ED CC 01 MS Anschluss               |8/20/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |EPOS/Sennheiser      |Aufprall SC 630 mit USB-ED CC 01 MS Anschluss               |8/20/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |
 |EPOS/Sennheiser      |Aufprall SC 260 mit USB-ED CC 01 MS Anschluss               |8/20/2020       |Skype for Business mit Einem Upgrade auf Microsoft Teams      |

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Debug-, Medien- und Desktopprotokolle, die von Microsoft Teams erstellt wurden, wo sie zu finden sind und wie sie bei der Überwachung und Problembehandlung helfen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486890"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705814"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Konfigurieren von Protokolldateien für die Überwachung und Problembehandlung in Teams
 
@@ -34,6 +34,8 @@ Es gibt drei Arten von Protokolldateien, die automatisch vom Client erstellt wer
 -   [Desktopprotokolle](#desktop-logs)
 
 In diesem Artikel werden diese Protokolle und deren Verwendung beschrieben. Informationen zur Problembehandlung bei bestimmten Problemen finden Sie unter: [Microsoft Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams). 
+
+Informationen zum Sammeln von Protokollen von Microsoft Teams-Räume Geräten finden [Sie unter Herunterladen von Geräteprotokollen](/microsoftteams/rooms/rooms-manage#download-device-logs).
 
 Informationen zum Kontaktieren des Supports finden [Sie unter "Support anfordern"](/microsoft-365/business-video/get-help-support).
 

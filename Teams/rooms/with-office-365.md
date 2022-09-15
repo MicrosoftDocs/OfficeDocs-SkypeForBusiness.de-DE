@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Artikel finden Sie Informationen zum Erstellen von Ressourcenkonten für Räume und freigegebene Geräte, einschließlich Microsoft Teams-Räume, Teams-Räume auf Surface Hub und Hot-Desking auf Teams-Displays.
-ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 213cd2019aa23c296706c70a66e3e873f7527ee9
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606224"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706632"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Erstellen und Konfigurieren von Ressourcenkonten für Räume und freigegebene Teams-Geräte
 
@@ -271,7 +271,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 2. Legen Sie das Kennwort so fest, dass es nie abläuft, indem Sie die folgende Syntax verwenden:
 
     ```PowerShell
-    Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName <userPrincipalName> -PasswordNeverExpires $true
     ```
 
     In diesem Beispiel wird festgelegt, dass das Kennwort für das Konto ConferenceRoom01@contoso.com nie abläuft.
@@ -326,7 +326,7 @@ Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center 
     
 2. Weisen Sie Ihrem Ressourcenkonto mithilfe des `Set-AzureADUser` Cmdlets einen Verwendungsspeicherort zu. Dadurch wird bestimmt, welche Lizenz-SKUs verfügbar sind.
 
-    In diesem Beispiel befindet sich der Benutzer in der Estados Unidos (USA):
+    In diesem Beispiel befindet sich der Benutzer im USA (USA):
 
     ```PowerShell
     Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
@@ -367,7 +367,7 @@ Informationen zum Zuweisen von Lizenzen mithilfe der Microsoft 365 Admin Center 
 
 2.  Weisen Sie Ihrem Ressourcenkonto mithilfe des `Set-MsolUser` Cmdlets einen Verwendungsspeicherort zu. Dadurch wird bestimmt, welche Lizenz-SKUs verfügbar sind.
 
-    In diesem Beispiel befindet sich der Benutzer in der Estados Unidos (USA).
+    In diesem Beispiel befindet sich der Benutzer im USA (USA).
     
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'

@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über den Microsoft Teams-Räume verwalteten Dienst.
 f1keywords: ''
-ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 07b18a45e376c594d23f836ff12f24474f25968b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606284"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706472"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams-Räume verwalteten Dienst
 
@@ -101,7 +101,7 @@ Der Microsoft Teams-Räume verwaltete Dienst wird über einen dedizierten Micros
 |**Unterstützung der Verfügbarkeit über das Portal**   | 24x7      |
 |**Anfängliche Antwortzeit für die SOC des Microsoft Teams-Räume verwalteten Diensts**   |  4 Stunden       |
 |**Automatisierte Schließung von Tickets bei Kundeninaktivität**    |Vom Kunden initiierte Tickets: 3 Werktage<br>Vom System initiierte Tickets: 15 Werktage</li>   </ul>      |
-|**Umleitung zu einer breiteren pomoc techniczna firmy Microsoft**   |Probleme im Zusammenhang mit einem anderen Microsoft-Produkt außerhalb des Bereichs des Microsoft Teams-Räume verwalteten Diensts werden an das entsprechende Supportteam weitergeleitet.         |
+|**Umleitung zu umfassenderen Microsoft-Support**   |Probleme im Zusammenhang mit einem anderen Microsoft-Produkt außerhalb des Bereichs des Microsoft Teams-Räume verwalteten Diensts werden an das entsprechende Supportteam weitergeleitet.         |
 |**Umleitung zum Oem-Support (Original Equipment Manufacturer)**    |Das SOC Microsoft Teams-Räume verwalteten Diensts arbeitet daran, das Problem zu verstehen und hilft gegebenenfalls bei der Koordination der Unterstützung mit dem OEM. In einigen Fällen sind Sie möglicherweise dafür verantwortlich, direkt mit Ihrem OEM in Kontakt zu treten.         |
 
 Denken Sie darüber hinaus daran, dass das SOC für Microsoft Teams-Räume verwalteten Dienst IT-Vorgänge in Ihrer Organisation unterstützt und kein Ersatz für Helpdesk-Dienste für Ihre Endbenutzer ist.
@@ -112,7 +112,7 @@ Weitere Informationen zur Microsoft Teams-Räume Supportabdeckung für verwaltet
 
 Die Microsoft Teams-Räume Pro-Lizenz ist in den folgenden Ländern mit Audiokonferenzen verfügbar:
 
-- Australien, Österreich, Belgien, Brasilien, Bulgarien, Kanada, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Hongkong SAR, Ungarn, Irland, Italien, Japan, Lettland, Litauen, Luxemburg, Malta, Mexiko, Monaco, Niederlande, Neuseeland, Norwegen, Polen, Portugal, Rumänien, Russland, Singapur, Slowakei, Slowenien, Südafrika, Spanien, Schweden, Schweiz, Taiwan, Vereinigtes Königreich, Estados Unidos.
+- Australien, Österreich, Belgien, Brasilien, Bulgarien, Kanada, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Hongkong SAR, Ungarn, Irland, Italien, Japan, Lettland, Litauen, Luxemburg, Malta, Mexiko, Monaco, Niederlande, Neuseeland, Norwegen, Polen, Portugal, Rumänien, Russland, Singapur, Slowakei, Slowenien, Südafrika, Spanien, Schweden, Schweiz, Taiwan, Vereinigtes Königreich, USA.
 
 Die Microsoft Teams-Räume Pro-Lizenz ist in den folgenden Ländern ohne Audiokonferenzen verfügbar:
 
@@ -124,7 +124,7 @@ Die Microsoft Teams-Räume Pro-Lizenz ist in den folgenden Ländern ohne Audioko
 |Enthaltene Elemente |Ausgeschlossene Elemente |Supportkanäle für ausgeschlossene Elemente  |
 |---------|---------|---------|
 |**Dienstkonfiguration**   |         |         |
-|Untersuchung und Anleitung für Microsoft Teams-Räume Windows-Konfiguration einschließlich Microsoft Teams-Räume App-Einstellungen, Erstanbieter-Netzwerkkonfiguration, Erstanbieter-Softwareeinrichtung und empfohlene Energieeinstellungen und Konfiguration.     |Alle Softwarekonfigurationen und Untersuchungen von Drittanbietern, die nicht direkt Teil der Microsoft Teams Room-App sind. Außerdem alle OEM-spezifischen Konfigurationen, die eine Konfiguration außerhalb von Erstanbieterfenstern oder Microsoft Teams Room-App-Einstellungen erfordern.         |Standardsupportkanäle von Drittanbietern         |
+|Untersuchung und Anleitung für Microsoft Teams-Räume Windows-Konfiguration einschließlich Microsoft Teams-Räume App-Einstellungen, Erstanbieter-Netzwerkkonfiguration, Erstanbieter-Softwareeinrichtung und empfohlene Energieeinstellungen und Konfiguration.     |Alle Softwarekonfigurationen und Untersuchungen von Drittanbietern, die nicht direkt Teil der Microsoft Teams-Räume-App sind. Außerdem alle OEM-spezifischen Konfigurationen, die eine Konfiguration außerhalb von Erstanbieterfenstern oder Microsoft Teams-Räume App-Einstellungen erfordern.         |Standardsupportkanäle von Drittanbietern         |
 |**Einrichtung des Raumkontos**    |         |         |
 |Richtung zur verfügbaren Dokumentation für die Einrichtung des Raumkontos auf Anfrage. Bei Anmelde- oder Kontokonfigurationsproblemen wird eine erste Untersuchung durchgeführt.     |Ausführung empfohlener Korrekturen oder Probleme bei der Ausführung empfohlener Korrekturen, Konfiguration von Authentifizierungsanbietern von Drittanbietern und Konfiguration von Features für einzelne Konten.        |Microsoft Mainstream-Support und Unterstützung für Authentifizierungsanbieter von Drittanbietern         |
 |**Peripheriegeräteunterstützung**    |         |         |

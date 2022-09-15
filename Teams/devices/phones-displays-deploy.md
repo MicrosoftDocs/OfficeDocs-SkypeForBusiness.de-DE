@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Dieser Artikel enthält eine Übersicht über und Features, die von Microsoft Teams Android-Geräten unterstützt werden.
-ms.openlocfilehash: ef30268ef966eca00a75a583c9acb6ae608a7a81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 388848019806740074401400d0fad6847751489e
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267800"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705994"
 ---
 # <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>Bereitstellen von Teams-Telefonen, Teams-Displays, Teams-Bereichen und Microsoft Teams-Räume unter Android mithilfe von Intune
 
@@ -30,7 +30,7 @@ In diesem Artikel erhalten Sie eine Übersicht über die Bereitstellung von Team
 
 ## <a name="conditional-access"></a>Bedingter Zugriff
 
-Der bedingte Zugriff ist ein Azure Active Directory (Azure AD)-Feature, mit dem Sie sicherstellen können, dass Geräte, die auf Ihre Office 365 Ressourcen zugreifen, ordnungsgemäß verwaltet und sicher sind.  Wenn Sie Richtlinien für bedingten Zugriff auf den Teams-Dienst anwenden, müssen Android-Geräte (einschließlich Teams-Telefonen, Teams-Displays, Teams-Bereichen und Microsoft Teams-Räume unter Android), die auf Teams zugreifen, in Intune registriert werden, und ihre Einstellungen müssen Ihren Richtlinien entsprechen.  Wenn das Gerät nicht bei Intune registriert ist oder wenn es registriert ist, aber seine Einstellungen nicht Ihren Richtlinien entsprechen, verhindert der bedingte Zugriff, dass sich ein Benutzer bei der Teams-App auf dem Gerät anmeldet oder verwendet.
+Der bedingte Zugriff ist ein Azure Active Directory (Azure AD)-Feature, mit dem Sie sicherstellen können, dass Geräte, die auf Ihre Office 365 Ressourcen zugreifen, ordnungsgemäß verwaltet und sicher sind. Wenn Sie Richtlinien für bedingten Zugriff auf den Teams-Dienst anwenden, müssen Android-Geräte (einschließlich Teams-Telefonen, Teams-Displays, Teams-Bereichen und Microsoft Teams-Räume unter Android), die auf Teams zugreifen, in Intune registriert werden, und ihre Einstellungen müssen Ihren Richtlinien entsprechen.  Wenn das Gerät nicht bei Intune registriert ist oder wenn es registriert ist, aber seine Einstellungen nicht Ihren Richtlinien entsprechen, verhindert der bedingte Zugriff, dass sich ein Benutzer bei der Teams-App auf dem Gerät anmeldet oder verwendet.
 
 In der Regel werden in Intune definierte Compliancerichtlinien Gruppen von Benutzern zugewiesen.  Dies bedeutet: Wenn Sie user@contoso.com eine Android-Compliancerichtlinie zuweisen, gilt diese Richtlinie gleichermaßen für ihr Android-Smartphone und alle Android-basierten Teams-Geräte, bei denen sich user@contoso.com anmelden.
 
@@ -46,6 +46,7 @@ Android-basierte Teams-Geräte werden von Intune über die Verwaltung des Androi
 > [!NOTE]
 > - Wenn Mandantenadministratoren möchten, dass Telefone für gemeinsame Bereiche bei Intune registriert werden, müssen sie dem Konto eine Intune Lizenz hinzufügen und die Schritte für Intune Registrierung ausführen.
 > - Wenn das Benutzerkonto, das für die Anmeldung bei einem Teams-Gerät verwendet wird, nicht für Intune lizenziert ist, müssen Intune Compliancerichtlinien und Registrierungseinschränkungen für das Konto deaktiviert werden.
+> - Wenn das Benutzerkonto, das für die Anmeldung bei einem Teams-Gerät verwendet wird, für Intune lizenziert ist, wird das Teams-Gerät automatisch in Intune registriert.
 
 
 

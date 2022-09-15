@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790350"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706014"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -202,7 +202,7 @@ Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        Bei diesem Vorgang wird Teams im `%ProgramFiles(x86)%` Ordner auf einem 64-Bit-Betriebssystem und im `%ProgramFiles%` Ordner auf einem 32-Bit-Betriebssystem installiert. An diesem Punkt ist die Einrichtung des „Golden Image“ abgeschlossen.
+        Bei diesem Vorgang wird Teams in den `%ProgramFiles(x86)%` Ordner unter einem 32-Bit-Betriebssystem und in den `%ProgramFiles%` Ordner unter einem 64-Bit-Betriebssystem installiert. An diesem Punkt ist die Einrichtung des „Golden Image“ abgeschlossen.
 
         > [!IMPORTANT]
         >  Für nicht beständige Setups ist eine Installation von Teams auf Computerbasis erforderlich.
@@ -403,20 +403,12 @@ Teams VDI-Richtlinien sind im Teams-Modul verfügbar. Diese Richtlinien sind akt
 > [!NOTE]
 > Dies gilt nur für nicht optimierte Umgebungen.
 
-### <a name="update-a-module-name"></a>Aktualisieren eines Modulnamens
+### <a name="connect-to-microsoft-teams-powershell"></a>Herstellen einer Verbindung mit Microsoft Teams PowerShell
+
+Folgen Sie den Anweisungen unter [Installieren des Microsoft Teams PowerShell-Moduls](/Teams/teams-powershell-install.md) , um eine Verbindung mit dem Microsoft Teams PowerShell-Modul herzustellen. Führen Sie dann den folgenden Befehl aus, um zu bestätigen, dass alle VDI-Cmdlets verfügbar sind:
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### <a name="set-policies-to-limit-calling-features"></a>Festlegen von Richtlinien zum Einschränken von Anruffunktionen
@@ -486,7 +478,7 @@ if($cleanup){
 - Bei einer computerbasierten Installation wird Teams auf VDI nicht automatisch aktualisiert, wie es bei Nicht-VDI-Teams-Clients der Fall ist. Sie müssen das VM-Image aktualisieren, indem Sie eine neue MSI installieren, wie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen zum Aktualisieren der Teams-App die aktuelle Version deinstallieren, um auf eine neuere Version aktualisieren zu können.
 - Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Es wird empfohlen, dass Benutzer Teams beenden, bevor sie die Verbindung mit Citrix Virtual Machine trennen, um dieses Szenario zu vermeiden.
 - Teams sollten entweder auf Benutzer- oder Computerbasis bereitgestellt werden. Die Bereitstellung von Teams für parallele Bereitstellung auf Benutzer- und Computerbasis wird nicht unterstützt. Um entweder von der Computerbasis oder Benutzerbasis auf einen dieser Modi zu migrieren, führen Sie das Deinstallationsverfahren aus, und stellen Sie einen der beiden Modi erneut bereit.
-- Windows Virtual Desktop unterstützt derzeit keine MacOS- und Linux-basierten Clients.
+- Azure Virtual Desktop unterstützt derzeit keine Linux-basierten Clients.
 - Ein schneller Mandantenwechsel kann zu Problemen mit Anrufen über VDI führen, z. B. dass die Bildschirmfreigabe nicht verfügbar ist. Durch einen Neustart des Clients werden diese Probleme minimiert.
 
 ### <a name="notifications"></a>Benachrichtigungen

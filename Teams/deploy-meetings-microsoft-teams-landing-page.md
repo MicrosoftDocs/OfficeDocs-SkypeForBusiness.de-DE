@@ -3,8 +3,8 @@ title: Besprechungen und Konferenzen in Microsoft Teams
 ms.reviewer: ''
 description: Verwenden Sie diese Bereitstellungsressourcen zur Unterstützung Ihrer Bereitstellung von Besprechungen und Audiokonferenzen in Microsoft Teams.
 ms.topic: article
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.service: msteams
 ms.subservice: meetings
@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: d6667564c326552cd5671c480bb1ee66a3311c93
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: efb18d7a4674fa990f5a133576ec10ed4d377e35
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466003"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706492"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 

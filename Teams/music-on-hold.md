@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Erfahren Sie, wie Sie das Feature "Musik im Haltebereich" im Telefonsystem verwalten.
-ms.openlocfilehash: 9d8fa247ffdc982c5d41777c68f6b620a92644e3
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773754"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706174"
 ---
 # <a name="music-on-hold"></a>Wartemusik
 
@@ -69,7 +69,7 @@ So konfigurieren Sie eine neue Anrufhalterichtlinie:
 
 4. Wählen Sie **"Datei hochladen** " aus, um die benutzerdefinierte Musikaudiodatei hochzuladen.
 
-5. Wählen Sie **"Übernehmen" aus**.
+5. Wählen Sie **Anwenden** aus.
 
 ### <a name="assign-a-custom-call-hold-policy-to-users"></a>Zuweisen einer benutzerdefinierten Anrufhalterichtlinie zu Benutzern
 
@@ -129,6 +129,8 @@ In der folgenden Tabelle ist aufgeführt, welche Features auf welchen Clients un
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | 1:1 PSTN-Anruf halten | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik |
 | Halten Sie den 1:1-Teams-Anruf gedrückt | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik |
+| Halten der Übertragung beim 1:1-PSTN-Anruf | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | | |
+| Halten Sie die Übertragung am 1:1 Teams-Anruf fest | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik| | | |
 | Halten Sie den Beratungstransfer bei einem PSTN-Anruf von 1:1 |-Wartemusik<br>-Benutzerdefinierte Wartemusik || -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik |
 | Halten Sie die Beratungsübertragung am 1:1 Teams-Anruf fest |-Wartemusik<br>-Benutzerdefinierte Wartemusik || -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik | -Wartemusik<br>-Benutzerdefinierte Wartemusik |
 

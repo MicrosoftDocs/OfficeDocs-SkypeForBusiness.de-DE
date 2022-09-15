@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Webinaren in Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -18,13 +18,13 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: Erfahren Sie, wie Sie Webinarrichtlinien für Teams Besprechungen verwalten.
-ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+description: Erfahren Sie, wie Sie Webinarrichtlinien für Teams-Besprechungen verwalten.
+ms.openlocfilehash: 26863b26f960b50d81fa1d98090c3616d5b492a7
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045704"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706482"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Einrichten von Webinaren in Microsoft Teams
 
@@ -41,7 +41,7 @@ Nachdem Sie Webinare in Ihrer Organisation eingerichtet haben, können Ihre Benu
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Zulassen, dass Benutzer Webinare im Teams Admin Center planen
 
-Sie können das Teams Admin Center verwenden, um Webinare für Ihre Organisation einzurichten. Die Richtlinien zum Einrichten von Webinaren finden Sie im Teams Admin Center unter den **Richtlinien für Besprechungsbesprechungen** > .
+Sie können das Teams Admin Center verwenden, um Webinare für Ihre Organisation einzurichten. Die Richtlinien zum Einrichten von Webinaren finden Sie im Teams Admin Center unter den Richtlinien für **Besprechungsbesprechungen** > .
 
 ### <a name="meeting-registration"></a>Besprechungsregistrierung
 
@@ -50,16 +50,16 @@ Wenn Sie diese Option aktivieren, können Benutzer Webinare planen. Standardmä�
 > [!IMPORTANT]
 > **Die Planung privater Besprechungen** muss aktiviert sein, damit die Besprechungsregistrierung funktioniert. Standardmäßig ist diese Richtlinie im Teams Admin Center aktiviert. Für Schüler in Bildungsmandanten ist diese Richtlinie standardmäßig deaktiviert. Weitere Informationen zum Aktivieren der privaten Besprechungsplanung für Kursteilnehmer finden Sie [unter Teams für Education Richtlinien und Richtlinienpakete](policy-packages-edu.md).
 
-### <a name="who-can-register"></a>Wer können sich registrieren
+### <a name="who-can-register"></a>Wer kann sich registrieren?
 
 Wenn Sie **"Jeder**" auswählen, können sich alle Benutzer, einschließlich anonymer Benutzer, für Webinare registrieren und daran teilnehmen. Wenn Sie **"Jeder in der Organisation**" auswählen, können sich nur Benutzer in Ihrer Organisation für Webinare registrieren. Wenn die Besprechungsregistrierung deaktiviert ist, ist diese Option nicht verfügbar, und niemand kann sich für Webinare registrieren.
 
 > [!NOTE]
-> Der Standardwert für **Wer registrieren kann**, ist **"Jeder in der Organisation** in Education-Mandanten". Weitere Informationen finden Sie [unter Teams für Education Richtlinien-Assistenten](easy-policy-setup-edu.md).
+> Der Standardwert für **"Wer kann sich registrieren"** ist **"Jeder in der Organisation** in Bildungsmandanten". Weitere Informationen finden Sie [unter Teams für Education Richtlinien-Assistenten](easy-policy-setup-edu.md).
 
 ### <a name="engagement-report"></a>Einsatzbericht
 
-Wenn dies aktiviert ist, können Organisatoren Berichte sehen, wer sich registriert hat und an den von ihnen eingerichteten Webinaren teilgenommen hat. Diese Richtlinie ist standardmäßig aktiviert. Weitere Informationen finden Sie [unter Besprechungsrichtlinien in Teams – Einsatzbericht](meeting-policies-in-teams-general.md#engagement-report). Informationen zur Endbenutzererfahrung finden Sie unter [Anzeigen und Herunterladen von Anwesenheitsberichten zu Besprechungen](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
+Wenn dies aktiviert ist, können Organisatoren Berichte sehen, wer sich registriert hat und an den von ihnen eingerichteten Webinaren teilgenommen hat. Diese Richtlinie ist standardmäßig aktiviert. Weitere Informationen finden Sie [unter "Besprechungsrichtlinien in Teams – Einsatzbericht"](meeting-policies-in-teams-general.md#engagement-report). Informationen zur Endbenutzererfahrung finden Sie unter [Anzeigen und Herunterladen von Anwesenheitsberichten zu Besprechungen](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Zulassen, dass Benutzer Webinare mithilfe von PowerShell planen
 
@@ -72,7 +72,7 @@ Sie können die folgenden Attribute im cmdlet Windows PowerShell **Set-CsTeamsMe
 Weitere Informationen zum Cmdlet finden Sie unter [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) .
 
 > [!NOTE]
-> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit Microsoft Teams PowerShell verbunden sein. Weitere Informationen finden Sie unter [Verwalten von Teams mit Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
+> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit Microsoft Teams PowerShell verbunden sein. Weitere Informationen finden [Sie unter Verwalten von Teams mit Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 ### <a name="allow-users-to-schedule-webinars"></a>Zulassen, dass Benutzer Webinare planen
 

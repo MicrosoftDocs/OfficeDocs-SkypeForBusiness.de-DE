@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Konfigurieren Sie Teams-Räume Geräte und Surface Hub für die Teilnahme an Besprechungen, wenn ein Gerät oder das andere an einer Besprechung teilnimmt.
-ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759574015f2138476e0b03ef6fa85b8b105d81ef
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270480"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706982"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Einrichten koordinierter Besprechungen mit Microsoft Teams-Räume und Surface Hub
 
@@ -73,7 +73,7 @@ Fügen Sie in einer Tabellenkalkulations-App Zeilen für Folgendes in der ersten
 | **Video aktiviert**      | Bestimmt, ob Teilnehmer an einer Besprechung die Kamera ein- oder ausschalten können. Sie können dies `true` auf allen anderen Geräten des Ereignisses festlegen, auf dem Teilnehmer unterschiedliche Videoperspektiven teilen möchten (z. B. wenn ein Teilnehmer das Surface Hub-Whiteboard verwendet). Wenn Sie nicht möchten, dass Teilnehmer eine Kamera auf einem Gerät ein- oder ausschalten, legen Sie dies auf `false`" fest.<p> Wenn **der Videostandard** festgelegt `true`ist, wird diese Einstellung ignoriert, und teilnehmer können die Kamera ein- oder ausschalten.         |
 | **Whiteboard-Standard** | Bestimmt, ob auf dem Teams-Räume Gerät ein Whiteboard angezeigt wird, das von einem der Besprechungsteilnehmer freigegeben wurde. Es wird empfohlen, dies festzulegen `false` , wenn Sie über einen Surface Hub verfügen und `true` kein Surface Hub besitzen. Diese Einstellung hat keine Auswirkungen auf Surface Hubs. Surface Hubs zeigen immer ein Whiteboard an, das von Besprechungsteilnehmern freigegeben wurde.         |
 | **Whiteboard aktiviert** | Bestimmt, ob Teilnehmer an einer Besprechung das Whiteboard ein- oder ausschalten können. Wenn Sie nicht möchten, dass Teilnehmer das Whiteboard auf einem Gerät aktivieren oder deaktivieren, legen Sie dies auf `false`" fest. <p>Wenn **der Whiteboard-Standard** festgelegt `true`ist, wird diese Einstellung ignoriert, und Teilnehmer können das Whiteboard aktivieren oder deaktivieren.
-| **Vertrauenswürdige Konten**   | Dies ist eine durch Trennzeichen getrennte Liste von UPNs für jedes Teams Room-Gerät oder Surface Hub, von dem das Gerät Besprechungsteilnahmeanfragen annehmen soll oder an die Besprechungsteilnahmeanfragen gesendet werden sollten. |
+| **Vertrauenswürdige Konten**   | Dies ist eine durch Trennzeichen getrennte Liste von UPNs für jedes Teams-Räume Gerät oder Surface Hub, von dem das Gerät Besprechungsteilnahmeanfragen annehmen soll oder an die Besprechungsteilnahmeanfragen gesendet werden sollen. |
 
 Fügen Sie in den nachfolgenden Spalten jedes Ihrer Teams-Räume-Geräte und Surface Hubs hinzu. Füllen Sie in jeder Spalte die Werte aus, die der gewünschten Erfahrung für den Besprechungsraum entsprechen. Hier sehen Sie ein Beispiel mit einem Teams-Räume Gerät und einem Surface Hub:
 

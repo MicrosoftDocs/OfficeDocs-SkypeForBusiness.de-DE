@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Erfahren Sie mehr über das Verwalten von Microsoft Teams-Räume.
-ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 85979448c425f2ab0de9a5956ba4e74b2a5697cc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272220"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706662"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams-Räume Wartung und Betrieb
  
@@ -61,7 +61,7 @@ Um Teams-Räume designte Oberfläche zu erhalten, müssen Ihre Front-of-Room-Dis
 
 Informationen zum Remote-Festlegen der Skalierung und Auflösung ihrer Front-of-Rooms-Anzeigen finden [Sie unter Verwalten einer Microsoft Teams-Räume Konsoleneinstellungen remote mit einer XML-Konfigurationsdatei](xml-config-file.md#set-front-of-room-scale-and-resolution).
 
-So legen Sie die Skalierung und Auflösung manuell in den Administratoreinstellungen des Teams-Raums fest:
+So legen Sie die Skalierung und Auflösung manuell in den Teams-Räume Administratoreinstellungen fest:
 
 1. Wechseln Sie in Ihrem Teams-Raum zum [Administratormodus](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
@@ -84,7 +84,7 @@ So legen Sie die Skalierung und Auflösung manuell in den Administratoreinstellu
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams-Räume Zurücksetzen (Werkswiederherstellung)
 <a name="Reset"> </a>
 
-Wenn Microsoft Teams-Räume nicht gut läuft, kann das Zurücksetzen auf die Werkseinstellungen hilfreich sein. Verwenden Sie dazu das [Wiederherstellungstool für Microsoft Teams-Räume](recovery-tool.md) , und folgen Sie den Anweisungen zur Werkswiederherstellung.
+Wenn Microsoft Teams-Räume nicht gut läuft, kann das Zurücksetzen auf die Werkseinstellungen hilfreich sein. Verwenden Sie dazu das [Microsoft Teams-Räume-Wiederherstellungstool](recovery-tool.md), und folgen Sie den Anweisungen zur Werkswiederherstellung.
 
 > [!NOTE]
 > Es gibt ein bekanntes Problem, bei dem die Microsoft Teams-Räume unbrauchbar werden kann, wenn die Option "**Meine Dateien beibehalten – Entfernt Apps und Einstellungen", während** des Windows-Zurücksetzens jedoch die Option "Persönliche Dateien" aktiviert bleibt. Verwenden Sie diese Option *nicht* .
@@ -222,11 +222,13 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>Softwareupdates
 <a name="SWupdate"> </a>
 
-Standardmäßig versucht Microsoft Teams-Räume, eine Verbindung mit dem Windows Store herzustellen, um die neueste Version von Microsoft Teams-Räume-Software abzurufen. Daher erfordert Teams-Räume regelmäßigen Internetzugang. Bevor Sie Sich mit Supportproblemen an Microsoft wenden, stellen Sie sicher, dass Microsoft Teams-Räume mit der neuesten Version der App geladen ist.
+Standardmäßig stellt Microsoft Teams-Räume eine Verbindung mit Windows Update her, um Firmwareupdates für Betriebssystem- und USB-Peripheriegeräte abzurufen, und installiert diese außerhalb der konfigurierten Geschäftszeiten. Sie können Geschäftszeiten konfigurieren, indem Sie sich beim Administratorkonto anmelden und  die Einstellungs-App ausführen.
   
-Microsoft Teams-Räume stellt eine Verbindung mit Windows Update her, um Firmwareupdates für das Betriebssystem und Peripheriegeräte abzurufen. Es stellt auch eine Verbindung mit dem Microsoft Store her, um Anwendungsupdates abzurufen.
+Wenn Sie Updates manuell verwalten möchten und das normale Verfahren für [Microsoft Store für Unternehmen](https://businessstore.microsoft.com/store) zum [Verteilen von Offline-Apps](/microsoft-store/distribute-offline-apps) nicht einhalten können, können Sie das neueste MTR-Update-Skript abrufen und ausführen, wenn [Sie ein Microsoft Teams-Räume Gerät manuell aktualisieren](/microsoftteams/rooms/manual-update).
 
-Wenn Sie Anwendungsupdates manuell verwalten müssen, aber nicht dem normalen Verfahren für [Microsoft Store für Unternehmen](https://businessstore.microsoft.com/store) zum [Verteilen von Offline-Apps](/microsoft-store/distribute-offline-apps) folgen können, können Sie Teams-Räume Updatepakete erwerben, um App-Updates auf unterstützten Betriebssystemen auszuführen. Die Updateversion liegt möglicherweise hinter der Store-Version zurück und stimmt möglicherweise nicht immer mit dem neuesten verfügbaren Build überein. Weitere Informationen finden Sie [unter "Manuelles Aktualisieren eines Microsoft Teams-Räume Geräts](manual-update.md)".
+Standardmäßig versucht Microsoft Teams-Räume, eine Verbindung mit dem Windows Store herzustellen, um die neueste Version von Microsoft Teams-Räume-Software abzurufen. Daher erfordert Teams-Räume regelmäßigen Internetzugang. Bevor Sie Sich mit Supportproblemen an Microsoft wenden, stellen Sie sicher, dass Microsoft Teams-Räume mit der neuesten Version der App geladen ist.
+
+
 
 ## <a name="admin-mode-and-device-management"></a>Administratormodus und Geräteverwaltung
 <a name="AdminMode"> </a>

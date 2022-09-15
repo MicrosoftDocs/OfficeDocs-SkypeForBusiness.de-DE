@@ -14,16 +14,16 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: Erfahren Sie, wie Sie Endbenutzeranforderungen verwalten und konfigurieren, um die in einer Organisation blockierten Apps zuzulassen.
+description: Erfahren Sie, wie Sie die Endbenutzeranforderung für die Genehmigung der Apps verwalten und konfigurieren, die in einer Organisation blockiert sind.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 62d34aae25ef1ebff585ea430aeb3db20856669a
-ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
+ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67657325"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706224"
 ---
 # <a name="manage-user-requests"></a>Verwalten von Benutzeranforderungen
 
@@ -75,18 +75,18 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Nachricht zu 
 
 1. Wählen Sie in der oberen rechten Ecke **organisationsweite App-Einstellungen** aus.
 
-1. Um eine benutzerdefinierte Nachricht oder Anweisung im Teams-Speicher anzuzeigen, geben Sie eine Textnachricht in das Textfeld unter " **Konfiguration von Benutzeranforderungen**" ein.
+1. Um eine benutzerdefinierte Nachricht oder Anweisung im Teams-Speicher anzuzeigen, geben Sie eine Textnachricht in das Textfeld unter " **Konfiguration von Benutzeranforderungen**" ein. Das Feld hat einen Grenzwert von 300 Zeichen.
 
 1. Führen Sie die folgenden Schritte aus, um eine organisationsspezifische URL zum Sammeln von Benutzeranforderungen bereitzustellen:
 
    1. Aktivieren Sie den **Umleitungsanforderungsschalter für externe Links** .
    1. Geben Sie Ihre organisationsspezifische URL an.
 
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Screenshot zum Umschalten der Anpassung der URL für die Benutzeranforderung zum Aufheben der Blockierung der App in der organisationsweiten Einstellungsbenutzeroberfläche.":::
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Screenshot zum Umschalten der Anpassung der URL für die Benutzeranforderungen in der organisationsweiten Einstellungsbenutzeroberfläche.":::
 
 1. Klicken Sie auf **Speichern**.
 
-Die Methoden zum Auswerten und Zulassen der angeforderten Apps bleiben unverändert.
+Wenn Sie sich dafür entscheiden, bleiben die Methoden zum Auswerten von Drittanbieter-Apps und zulassen, dass die angeforderten Apps unverändert bleiben.
 
 ## <a name="dismiss-user-requests"></a>Benutzeranforderungen schließen
 

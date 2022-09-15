@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: bd97dad2f50a2f5f60d13d9521b1b751da3ebdcf
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606854"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706074"
 ---
 # <a name="teams-devices-for-education"></a>Teams-Geräte für Bildungseinrichtungen
 
@@ -143,7 +143,7 @@ Teams-Besprechungen gehen über Audio- und Videoanrufe für Teilnehmer hinaus. E
 
 Ein häufiges Szenario ist die direkte Freigabe von Inhalten vom Gerät eines Teilnehmers. Einzelne Benutzer können die vollständige Audio- und Visuelle Erfahrung aus einzelnen Anwendungen oder den gesamten Inhalt ihres Bildschirms direkt in der Besprechung teilen, damit jeder sie anzeigen kann. Dies gilt für alle freigegebenen Räume mit installierten Geräten. Microsoft Teams-Räume haben auch die Möglichkeit, eine kabelgebundene Monitorverbindung zu verwenden, um Teilnehmern die Freigabe zu ermöglichen, auch wenn sie nicht in der Lage sind, an der Besprechung einzeln teilzunehmen.
 
-Für Inhalte aus der physischen Welt können Räume mit Microsoft Teams-Raumsystemen ein Whiteboard oder eine Dokumentkamera verarbeiten, die die koordinierte Überprüfung und Diskussion von Inhalten aus dem Raum ermöglicht.
+Für Inhalte aus der physischen Welt können Räume mit Microsoft Teams-Räume-Systemen ein Whiteboard oder eine Dokumentkamera verarbeiten, die die koordinierte Überprüfung und Diskussion von Inhalten aus dem Raum ermöglicht.
 
 Interaktive Displays (z. B. die Surface Hub-Produktfamilie und das digitale Whiteboard von Microsoft) erleichtern das interaktive Erstellen von Inhalten für Kursteilnehmer in der Person und mit Remote-Kursteilnehmern.
 
@@ -239,8 +239,8 @@ Ein großes Display gibt Remoteteilnehmern eine physische Präsenz innerhalb des
 
 *Angezeigte Geräte:*
 
-- Raumsystem - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - Beachten Sie, dass die Surface Hub-Lösung eine Premium-Erfahrung für die Zusammenarbeit und interaktive Nutzung darstellt. Eine [Microsoft Teams-Raumlösung](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) in Kombination mit einer großen Anzeige kann in diesem Szenario als Alternative verwendet werden.
+- Teams-Räume System – [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+  - Beachten Sie, dass die Surface Hub-Lösung eine Premium-Erfahrung für die Zusammenarbeit und interaktive Nutzung darstellt. Die [Microsoft Teams-Räume Lösung](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) in Kombination mit einer großen Anzeige kann in diesem Szenario als Alternative verwendet werden.
 
 - Analoge Whiteboard-Aufnahme – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
@@ -268,7 +268,7 @@ Remoteteilnehmer können über die montierte Kamera dasselbe Sichtfeld sehen, da
 
 *Angezeigte Geräte:*
 
-- Room System – [Crestron Flex C100 für Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) mit einem installierten Projektor und einem wagenbasierten Display
+- Teams-Räume System – [Crestron Flex C100 für Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) mit installiertem Projektor und wagenbasiertem Display
 
 - Optionales digitales Whiteboard [– Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -278,7 +278,7 @@ Remoteteilnehmer können über die montierte Kamera dasselbe Sichtfeld sehen, da
 
 *Diese Lösung wird installiert oder eingerichtet:*
 
-Hochkomplex. Dieser Raum verfügt über eine physische Installation, die von einem erfahrenen AV-Bereitstellungspartner benötigt wird, um die Kamera- und Audiolösungen ordnungsgemäß zu planen und bereitzustellen, damit sie nahtlos für die Endbenutzer im Raum funktionieren. Die Installation erfordert Kenntnisse in Bezug auf Verdrahtung, Audiokonfiguration und korrekte Konfiguration sowohl des Microsoft Teams Room-Systems als auch des zugehörigen Surface Hub 2-Geräts.
+Hochkomplex. Dieser Raum verfügt über eine physische Installation, die von einem erfahrenen AV-Bereitstellungspartner benötigt wird, um die Kamera- und Audiolösungen ordnungsgemäß zu planen und bereitzustellen, damit sie nahtlos für die Endbenutzer im Raum funktionieren. Die Installation erfordert Kenntnisse in Bezug auf Verdrahtung, Audiokonfiguration und korrekte Konfiguration sowohl des Microsoft Teams-Räume Systems als auch des zugehörigen Surface Hub 2-Geräts.
 
 ### <a name="multi-purpose-spaces"></a>Mehrzweckplätze
 
@@ -292,7 +292,7 @@ Ein Raumsystem mit einem großen, projektorbasierten Front-of-Room-Display, mehr
 
 *Angezeigte Geräte:*
 
-- Room System – [Crestron Flex C100 für Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) mit installiertem Projektor
+- Teams-Räume System – [Crestron Flex C100 für Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) mit installiertem Projektor
 
 - Optionale duale digitale Whiteboards - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -302,7 +302,7 @@ Ein Raumsystem mit einem großen, projektorbasierten Front-of-Room-Display, mehr
 
 *Diese Lösung wird installiert oder eingerichtet:*
 
-Hochkomplex. Für einen mehrstufigen Bereich wie beschrieben ist ein sachkundiger AV-Bereitstellungspartner erforderlich, um die projektorbasierten Anzeige- und Kamera- und Audiolösungen ordnungsgemäß zu planen und bereitzustellen sowie das Microsoft Teams Room-System und die zugehörigen Surface Hub 2-Geräte ordnungsgemäß zu konfigurieren, damit sie nahtlos für die Endbenutzer im Raum funktionieren.
+Hochkomplex. Ein mehrstufiger Bereich wie beschrieben erfordert einen sachkundigen AV-Bereitstellungspartner, um die projektorbasierten Anzeige- und Kamera- und Audiolösungen ordnungsgemäß zu planen und bereitzustellen sowie sowohl das Microsoft Teams-Räume-System als auch die zugehörigen Surface Hub 2-Geräte ordnungsgemäß zu konfigurieren, damit sie nahtlos für die Endbenutzer im Raum funktionieren.
 
 ## <a name="dont-forget-security"></a>Vergessen Sie nicht die Sicherheit
 
@@ -318,4 +318,4 @@ Sehen Sie sich die folgenden Seiten an, um mehr über Teams-Geräte und -Partner
 
 [Weitere Informationen zu Microsoft Teams-Räume](/microsoftteams/rooms) – Ein Leitfaden für Microsoft Teams-Räume zur Planung, Bereitstellung und Nutzung
 
-[Partnerprogramm für Teams-Besprechungsräume](https://cloudpartners.transform.microsoft.com/teams-mrpp) – Eine Liste der weltweit verfügbaren Partner zur Unterstützung bei der Planung und Bereitstellung von Teams-Raumsystemen
+[Microsoft Teams-Räume Partner-Programm](https://cloudpartners.transform.microsoft.com/teams-mrpp) – Eine Liste der weltweit verfügbaren Partner zur Unterstützung bei der Planung und Bereitstellung Teams-Räume Systemen

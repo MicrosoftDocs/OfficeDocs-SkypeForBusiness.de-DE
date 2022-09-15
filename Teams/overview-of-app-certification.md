@@ -17,20 +17,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 624d91cc7b8518417b45a787f2beae7cb75a7747
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 7c67c10b967aeddd8ed170c65d169585dc06733d
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486950"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706194"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 App-Compliance-Programm für Sicherheit, Compliance und Datenschutz von Drittanbieter-Apps
 
 Im Rahmen des Microsoft-Compliance-Programms wird eine App anhand von Kontrollelementen überprüft und überwacht, die von führenden Branchenstandard-Frameworks abgeleitet sind. Das Programm zeigt, dass starke Sicherheits- und Compliancepraktiken zum Schutz von Kundendaten angewandt. Das Programm umfasst die folgenden Phasen:
 
-* Herausgeberüberprüfung
-* Publisher Nachweis.
-* Microsoft 365 Zertifizierung.
+* [Herausgeberüberprüfung](#publisher-verification).
+* [Herausgebernachweis](#publisher-attestation).
+* [Microsoft 365-Zertifizierung](#microsoft-365-certification).
 
 ## <a name="publisher-verification"></a>Herausgeberüberprüfung
 

@@ -1,5 +1,5 @@
 ---
-title: Authentifizierung in Microsoft Teams-Räume
+title: Authentifizierung in Microsoft Teams-Räume unter Windows
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,15 +14,15 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: Erfahren Sie, wie Sie die moderne Authentifizierung für Microsoft Teams-Räume konfigurieren.
-ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Erfahren Sie, wie Sie die moderne Authentifizierung für Microsoft Teams-Räume unter Windows konfigurieren.
+ms.openlocfilehash: 23e08b48c5d161caf8091068abc4c9cda0061122
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268240"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706432"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Authentifizierung in Microsoft Teams-Räume
+# <a name="authentication-in-microsoft-teams-rooms-on-windows"></a>Authentifizierung in Microsoft Teams-Räume unter Windows
 
 Die Kontoverwaltung für Microsoft Teams-Räume wird auf Anwendungsebene behandelt. Die Anwendung stellt eine Verbindung mit Microsoft Teams, Skype for Business und Exchange her, um Ressourcen für das Ressourcenkonto abzurufen, um Anruf- und Besprechungserfahrungen zu ermöglichen. Teams-Räume verwendet ein dediziertes Ressourcenkonto, um Always-On-Funktionen, Anrufszenarien (für Geräte, die mit einem Anrufplan konfiguriert sind) und benutzerdefinierte Sperrmodusmechanismen zu ermöglichen. Dies bedeutet, dass die Authentifizierung für Teams-Räume auf eine andere Weise erfolgt als für Endbenutzergeräte.  
 

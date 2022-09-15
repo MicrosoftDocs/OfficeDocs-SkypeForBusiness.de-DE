@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Geben Sie einen Überblick über den Status Ihrer Besprechungsräume.
 f1keywords: ''
-ms.openlocfilehash: d76f1f68e0cc73d2abd554ec5c2fc115139a6a0f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 3587e1ab6e19fa7eac2519ccffe7c8f3bd19f2fc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269210"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67707012"
 ---
 # <a name="microsoft-managed-meeting-rooms-portal"></a>Microsoft Managed Meeting Rooms Portal
 
@@ -98,7 +98,7 @@ Wenn Sie auf eines der Elemente klicken, die den Status "**Aktion erforderlich**
 Vorfälle werden in zwei Arten von schweregraden unterteilt:
 
 - **Wichtig**: Vorfälle, die wahrscheinlich Probleme in Besprechungen verursachen und priorisiert werden sollten.
-- **Warnung** – Vorfälle, die Benachrichtigungen zum Planen von Wartungsaktionen sind. Wenn diese nicht behandelt werden, werden die Räume im Laufe der Zeit eher auf ein Problem stoßen. Warnungen sollen Ihnen Zeit geben, die Unterstützung zu planen und zu orchestrieren.
+- **Warnung** – Vorfälle, die Benachrichtigungen zum Planen von Wartungsaktionen sind. Wenn diese nicht erledigt werden, werden die Räume im Laufe der Zeit eher auf ein Problem stoßen. Warnungen sollen Ihnen Zeit geben, die Unterstützung zu planen und zu orchestrieren.
 
 Eine Warnung kann auf "**Wichtig**" umgestellt werden, wenn sie eine Zeit lang nicht beachtet wird.
 
@@ -119,11 +119,11 @@ Im Folgenden finden Sie einige der Arten von Vorfällen, die Möglicherweise ang
 |**Anzeige** |Die mit dem Gerät verbundene Anzeige scheint nicht fehlerfrei zu sein.|
 |**Konferenzmikrofon, Konferenzlautsprecher** |Die Audiogeräte (Mikrofon/Lautsprecher) scheinen falsch konfiguriert zu sein. |
 |**Kamera** |Die mit dem Gerät verbundene Kamera scheint nicht fehlerfrei zu sein. |
-|**HDMI-Aufnahme** |DIE HDMI-Aufnahme ist nicht fehlerfrei. |
-|**Anmeldung** (Exchange) |Die Microsoft Teams Room-App greift auf Kalenderinformationen aus Exchange zu, und jedes Problem mit dem Anmeldeerfolg wird mit einem Anmeldevorfall gemeldet. |
-|**Anmeldung** (Teams) |Die Microsoft Teams-Raum-App meldet sich beim Gerät an, und bei diesem Vorfall wird eine Anmeldung gemeldet (wenn der Kunde Teams verwendet). |
-|**Anmeldung** (Skype for Business) |Die Microsoft Teams Room-App meldet sich beim Gerät an, und die Anmeldung wird mit diesem Vorfall gemeldet (wenn der Kunde Skype for Business verwendet) |
-|**Näherungssensor** |Die Microsoft Teams Room-App lädt Teilnehmer ein, an einer Besprechung teilzunehmen, wenn sie sich in der Nähe befinden. Fehler in diesem Feature werden im Rahmen dieses Vorfalls gemeldet. |
+|**HDMI-Aufnahme** |Die HDMI-Aufnahme ist nicht fehlerfrei. |
+|**Anmeldung** (Exchange) |Microsoft Teams-Räume App auf Kalenderinformationen aus Exchange zugreift, und jedes Problem mit dem Anmeldeerfolg wird mit einem Anmeldevorfall gemeldet. |
+|**Anmeldung** (Teams) |Microsoft Teams-Räume App sich beim Gerät anmeldet und bei diesem Vorfall (wenn der Kunde Teams verwendet) wird eine Anmeldung gemeldet. |
+|**Anmeldung** (Skype for Business) |Microsoft Teams-Räume App sich beim Gerät anmeldet, und bei diesem Vorfall wird eine Nichtanmeldung gemeldet (wenn der Kunde Skype for Business verwendet). |
+|**Näherungssensor** |Microsoft Teams-Räume App lädt Teilnehmer ein, an einer Besprechung teilzunehmen, wenn sie sich in der Nähe befinden. Fehler in diesem Feature werden im Rahmen dieses Vorfalls gemeldet. |
 
 **Tabelle 2: Vorfälle mit Schweregrad "Warnung"**
 
@@ -146,7 +146,7 @@ Jeder solche Vorfall hat ein Aktionsfeld mit einer empfohlenen Aktion von Micros
 ![Screenshot der empfohlenen Vorfallaktion](../media/rooms-monitor-005.jpg)
 
 - Wenn Sie die Aktion ausgeführt haben, können Sie mit Ihren Notizen im Feld "Antworten" auf den Vorfall reagieren und dann vor der Veröffentlichung "Microsoft zuweisen" auswählen.
-- Es ist auch möglich, dass die Benachrichtigung basierend auf Ihrer Überprüfung falsch ist. Geben Sie in diesem Fall bitte dieses Feedback ein, und weisen Sie es Microsoft zurück.
+- Es ist auch möglich, dass die Benachrichtigung basierend auf Ihrer Rezension falsch ist. Geben Sie in diesem Fall bitte dieses Feedback ein, und weisen Sie es Microsoft zurück.
 - Wenn Sie schließlich einen Kommentar hinzufügen möchten, um zusätzlichen Kontext für Ihr eigenes Team oder für Microsoft-Team bereitzustellen, posten Sie die Nachricht, ohne "Microsoft zuweisen" zu aktivieren.
 
 >[!NOTE]
@@ -205,7 +205,7 @@ Jeder erstellte Vorfall identifiziert das problem, das erkannt wurde, und die Ko
 ![Screenshot der Übersicht über das aktive Ticket](../media/rooms-monitor-012.png)
 
 Aktives Ticket: Nachrichten Die Nachrichten-UI ist das primäre Kommunikationstool für die Interaktion mit Microsoft-Servicetechnikern, die an der Behebung des identifizierten Problems arbeiten. Es ist wichtig, die Kommunikation von Microsoft zu bestätigen, um sicherzustellen, dass wir Ihnen den bestmöglichen Service bieten. Wenn Sie die empfohlenen Aktionen ausgeführt haben, reagieren Sie auf diesen Vorfall mit Ihren Notizen im Feld "Antworten", und weisen Sie Microsoft zurück, indem Sie vor dem Posten auf "Microsoft zuweisen" klicken.
-Es ist auch möglich, dass die Benachrichtigung basierend auf Ihrer Überprüfung falsch ist. Geben Sie in diesem Fall bitte dieses Feedback ein, und weisen Sie es Microsoft zurück.
+Es ist auch möglich, dass die Benachrichtigung basierend auf Ihrer Rezension falsch ist. Geben Sie in diesem Fall bitte dieses Feedback ein, und weisen Sie es Microsoft zurück.
 Wenn Sie schließlich einen Kommentar hinzufügen möchten, um zusätzlichen Kontext für Ihr eigenes Team oder microsoft-Team bereitzustellen, posten Sie einfach die Nachricht, ohne "Microsoft zuweisen" zu aktivieren.
 
 ![Screenshot mit aktiven Ticketmeldungen](../media/rooms-monitor-013.png)

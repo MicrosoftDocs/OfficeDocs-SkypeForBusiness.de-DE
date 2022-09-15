@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die verfügbaren Lizenzen für verschiedene Arten von Anruf- und Besprechungsfeatures in Microsoft Teams-Räume.
-ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650817"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706672"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Lizenzen für Microsoft Teams-Räume
 
@@ -80,7 +80,7 @@ Wenn Ihre Organisation über eine Enterprise Agreement verfügt, können Sie Ihr
 
 <sup>*</sup>Microsoft Service Engineers werden ab dem 1. Oktober 2022 nicht mehr als Vermittler für die Reaktion auf Vorfälle fungieren.
 
-## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>Vergleich der Teams-Räume Konsolen- und Teams-Clientfeatures
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Vergleich der Features "Teams-Räume Basic" und "Teams-Räume Pro"
 
 In den folgenden Tabellen werden die Lizenzen Teams-Räume Basic und Teams-Räume Pro verglichen, und es wird gezeigt, welche Features jeweils verfügbar sind. Wenn ein Feature für eine Lizenz nicht verfügbar ist, kann dieses Feature nicht auf Teams-Räume Geräten verwendet werden, denen diese Lizenz zugewiesen wurde. Um ein Feature auf einem Teams-Räume Gerät zu verwenden, weisen Sie die Lizenz zu, in der dieses Feature für dieses Gerät verfügbar ist.
 

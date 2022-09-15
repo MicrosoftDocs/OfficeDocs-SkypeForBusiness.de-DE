@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Besprechungseinstellungen
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
-ms.translationtype: HT
+ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789790"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706502"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -179,7 +179,7 @@ Typ des Mediendatenverkehrs| Client-Quellportbereich \* |Protokoll|DSCP-Wert|DSC
 |:---             |:---                         |:---    |:---      |:---      |
 |Audio            | 50.000–50.019               |TCP/UDP |46        |Expedited Forwarding (EF)|
 |Video            | 50.020–50.039               |TCP/UDP |34        |Assured Forwarding (AF41)|
-|Anwendung/Bildschirmfreigabe| 50.040–50.059      |TCP/UDP |18         |Assured Forwarding (AF21)|
+|Anwendung/Bildschirmfreigabe| 50.040–50.059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
 \* Die von Ihnen zugewiesenen Portbereiche dürfen sich nicht überlappen und sollten nebeneinander liegen.

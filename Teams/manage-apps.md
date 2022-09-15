@@ -19,12 +19,12 @@ description: Erfahren Sie, wie Sie Teams-Apps verwalten. Erfahren Sie, wie Sie A
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 3278d7cdbc144f839bbb6a675ff8f3e5168c80ed
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637048"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705824"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Sie Teams-Apps im Microsoft Teams Admin Center
 
@@ -93,7 +93,7 @@ Beispielsweise ist Contoso Electronics ein App-Entwickler, der eine Helpdesk-App
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Screenshot des Status Blockiert durch Herausgeber im Admin Center von Teams.":::
 
-Informationen dazu, wie Entwickler eine App standardmäßig blockieren, finden Sie unter [App ausblenden, bis der Administrator zustimmt](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
+Informationen dazu, wie Entwickler eine App standardmäßig blockieren, finden Sie unter [Aktivieren der Sperrung von Apps, bis ein Administrator dies zulässt](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
 
 ## <a name="manage-org-wide-app-settings"></a>Verwalten Sie organisationsweite App-Einstellungen
 

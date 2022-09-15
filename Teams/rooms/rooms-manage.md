@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Erfahren Sie, wie Sie fortlaufende Wartungen und Vorgänge entwickeln und ausführen, um sicherzustellen, dass Ihre Microsoft Teams-Räume Systeme für Ihre Benutzer verfügbar sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85bb58005159b18a426aed0851ac7a80b11183eb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271092"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706822"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams-Räume verwalten
 
@@ -171,20 +171,20 @@ Das Teams-Räume-Systemdashboard zeigt Ihnen den Status und Die Integrität alle
 
 Um detaillierte Informationen zu einem Gerät anzuzeigen, wählen Sie seinen Namen in der Geräteliste aus. In der Detailansicht werden die folgenden Informationen zu Ihrem Gerät angezeigt:
 
-- **Integritätsstatus** Zeigt den Gesamtzustand des Teams-Raumgeräts an. Der Integritätsstatus kann entweder **"Fehlerfrei** " oder **"Fehlerhaft**" sein.
+- **Integritätsstatus** Zeigt den Gesamtzustand des Teams-Räume Geräts an. Der Integritätsstatus kann entweder **"Fehlerfrei** " oder **"Fehlerhaft**" sein.
 - **Offline seit** Zeigt das letzte Mal an, als Microsoft 365 mit dem Gerät kommunizieren konnte.
 - **Gerätestatus** Zeigt den aktuellen Status des Geräts an: **Leerlauf**, **Teams-Besprechung**, **Skype-Besprechung** oder **Erfassung**.
-- **Peripherals** Zeigt die Peripheriegeräte an, die mit Ihrem Teams Room-Gerät verbunden sind, und deren Integritätsstatus. Der Integritätsstatus kann entweder **"Verbunden** " oder **"Getrennt**" sein.
-- **Gesundheit** Zeigt detaillierte Informationen zu den Peripheriegeräten, die mit Ihrem Teams Room-Gerät verbunden sind, Netzwerkkonnektivität, Anmeldestatus bei erforderlichen Diensten und Softwareversionsinformationen.
-- **Details** Zeigt Herstellerinformationen, Netzwerk-IP-Adresse und serielle/MAC-Adresse des Teams-Raumgeräts an.
+- **Peripherals** Zeigt die Peripheriegeräte, die mit Ihrem Teams-Räume Gerät verbunden sind, und deren Integritätsstatus an. Der Integritätsstatus kann entweder **"Verbunden** " oder **"Getrennt**" sein.
+- **Gesundheit** Zeigt detaillierte Informationen zu den Peripheriegeräten, die mit Ihrem Teams-Räume Gerät verbunden sind, Netzwerkkonnektivität, Anmeldestatus bei erforderlichen Diensten und Softwareversionsinformationen.
+- **Details** Zeigt Herstellerinformationen, Netzwerk-IP-Adresse und Teams-Räume serielle/MAC-Adresse des Geräts an.
 - **Aktivität** Zeigt frühere Besprechungsdetails an, einschließlich Datum und Uhrzeit der Besprechung, Anzahl der Teilnehmer, Dauer und Audioqualität. Weitere Informationen zu Besprechungsdetails finden Sie im Abschnitt " [Besprechungsaktivitätsdetails](#meeting-activity-details) " weiter unten in diesem Artikel.
-- **Geschichte** Zeigt einen Verlauf der Verwaltungsaktivitäten auf dem Microsoft Teams-Raumgerät an, einschließlich Konfigurationsupdates, Geräteneustarts und Downloadlinks für Geräteprotokolle.
+- **Geschichte** Zeigt einen Verlauf der Verwaltungsaktivitäten auf dem Teams-Räume Gerät an, einschließlich Konfigurationsupdates, Geräteneustarts und Downloadlinks für Geräteprotokolle.
 
 #### <a name="meeting-activity-details"></a>Details zu Besprechungsaktivitäten
 
-Auf der Registerkarte " **Aktivität** " in den Gerätedetails des Teams-Raums werden allgemeine und detaillierte Informationen zu allen Besprechungen angezeigt, an der das Gerät im Laufe der Zeit teilgenommen hat. Auf der Registerkarte " **Aktivität** " können Sie sehen, wann eine Besprechung abgehalten wurde, wie viele Teilnehmer an der Besprechung teilgenommen haben, und die Audioqualität während der Besprechung.
+Auf der Registerkarte **"Aktivität**" in Teams-Räume Gerätedetails werden allgemeine und detaillierte Informationen zu allen Besprechungen angezeigt, an der das Gerät im Laufe der Zeit teilgenommen hat. Auf der Registerkarte " **Aktivität** " können Sie sehen, wann eine Besprechung abgehalten wurde, wie viele Teilnehmer an der Besprechung teilgenommen haben, und die Audioqualität während der Besprechung.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Room-Geräteaktivitätszusammenfassungsliste.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams-Räume Geräteaktivitätszusammenfassungsliste.":::
 
 Um die Detailinformationen zu einer bestimmten Besprechung anzuzeigen, wählen Sie das Datum und die Uhrzeit der Besprechung aus, zu der Sie weitere Informationen benötigen. Wenn eine Besprechung nur zwei Teilnehmer enthält, wird die Seite mit den Teilnehmerdetails angezeigt, andernfalls wird eine Teilnehmerzusammenfassungsseite angezeigt.
 
@@ -192,10 +192,10 @@ Um die Detailinformationen zu einer bestimmten Besprechung anzuzeigen, wählen S
 
 Auf der Teilnehmerzusammenfassungsseite werden alle Teilnehmer angezeigt, die an der Besprechung teilgenommen haben. Sie können sehen, wann jeder Teilnehmer der Besprechung beigetreten ist, dessen Name, Die Audioqualität und welche Features während der Sitzung verwendet wurden. Um die Details der Sitzung eines Teilnehmers anzuzeigen, wählen Sie die Startzeit der Sitzung für diesen Teilnehmer aus.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Konferenzdetails für Teams Room-Geräte.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams-Räume Gerätekonferenzdetails.":::
 
 ##### <a name="participant-details"></a>Teilnehmerdetails
 
 Auf der Seite mit den Teilnehmerdetails werden End-to-End-Diagnoseinformationen für die Sitzung dieses Teilnehmers angezeigt. Wie in der folgenden Grafik dargestellt, werden **Geräte**-, **System****- und Konnektivitätsinformationen** für den Teilnehmer und das Teams-Räume Gerät bereitgestellt. **Netzwerkdiagnoseinformationen** zwischen dem Teilnehmer und dem Teams-Räume Gerät werden ebenfalls bereitgestellt. Wählen Sie das Symbol für den Kontext aus, zu dem Sie weitere Informationen benötigen. Wenn Sie weitere Diagnoseinformationen benötigen, wählen Sie die Registerkarte " **Erweitert** " aus.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Anrufdetails für Teams Room-Geräte.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams-Räume Geräteanrufdetails.":::
