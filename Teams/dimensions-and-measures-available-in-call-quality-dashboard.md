@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Erhalten Sie detaillierte Informationen zu den Abmessungen und Messungen, die vom Anrufqualitätsdashboard (Call Quality Dashboard, CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 8dda15990385db8e8ca9aeba7c56eba9d6b400ce
-ms.sourcegitcommit: 830357674103c0c5c99bd73d40261afe02a2da49
+ms.openlocfilehash: e59454349daf8121c759cef1cae350cf7294c1df
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67291421"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734619"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Dimensionen und Messungen
 
@@ -399,6 +399,14 @@ In der folgenden Tabelle sind die derzeit im CQD verfügbaren Dimensionen in der
 | Good  | Boolescher Wert  | "True", wenn der Datenstrom über ausreichende Daten verfügt, um als "gut" oder "schlecht" klassifiziert zu werden, und der Datenstrom als "gut" klassifiziert wird. Andernfalls „False".   |   |
 | Unclassified  | Boolescher Wert  | False, wenn der Datenstrom über ausreichende Daten verfügt, die als "gut" oder "schlecht" klassifiziert werden können. Andernfalls "True". <br/>**Beispielwert:** 1 |   |
 | OnePercent PacketLoss  | Boolescher Wert  | "True", wenn der Paketverlust 1 % überschritten hat, andernfalls "False".  |   |
+| Eingehendes Netzwerkproblem erkannt | Boolean | Bei "true" gibt dies eine hohe Vertrauenswürdigkeit an, dass ein Mediendatenstrom aufgrund des eingehenden Netzwerks möglicherweise beeinträchtigt wurde. | &bull; Diese Dimension gilt nur für Datenströme, bei denen *stream direction == First-to-Second* |
+| Uplink-Problem erkannt| Boolean | Wenn "true", zeigt dies eine hohe Vertrauenswürdigkeit an, dass ein Mediendatenstrom aufgrund des Netzwerkuplinks möglicherweise beeinträchtigt wurde. | &bull; Diese Dimension gilt nicht für P2P-Aufrufe. |
+| Remoteeingabegerät-Problem erkannt | Boolean | Bei "true" gibt dies eine hohe Vertrauenswürdigkeit an, dass ein Mediendatenstrom aufgrund des Remoteaufnahmegeräts möglicherweise beeinträchtigt wurde. |
+| Problem des lokalen Eingabegeräts erkannt | Boolean | Bei "true" gibt dies eine hohe Vertrauenswürdigkeit an, dass ein Mediendatenstrom aufgrund des Rendergeräts auf dem ersten Endpunkt möglicherweise beeinträchtigt wurde. | &bull; Diese Dimension gilt nur für Datenströme, bei denen *stream direction == First-to-Second* |
+| Erkanntes Echo| Boolean | Wenn "true", wird eine hohe Vertrauenswürdigkeit angegeben, dass ein Mediendatenstrom aufgrund von Echo möglicherweise beeinträchtigt wurde.|
+| Erkanntes Remote compute problem | Boolean | Wenn "true", bedeutet dies eine hohe Vertrauenswürdigkeit, dass ein Mediendatenstrom aufgrund von Rechenressourcen auf der Remoteseite möglicherweise beeinträchtigt wurde. |
+| Lokales Berechnungsproblem erkannt | Boolean | Wenn "true", bedeutet dies eine hohe Vertrauenswürdigkeit, dass ein Mediendatenstrom aufgrund lokaler Computeressourcen möglicherweise beeinträchtigt wurde. | &bull; Diese Dimension gilt nur für Datenströme, bei denen *stream direction == First-to-Second* |
+| Erkanntes Medienmodalitätsproblem | Boolean | Wenn "true", wird die hohe Vertrauenswürdigkeit angegeben, dass die Benutzererfahrung des eingehenden Mediendatenstroms schlecht war. | &bull; Diese Dimension gilt nur für Datenströme, bei denen *stream direction == First-to-Second* |
 |**Bewertung**||||
 | First Feedback Rating  | Benutzerbewertung (1-5)  | Bewertung des mit dem Datenstrom verbundenen Anrufs vom ersten Endpunkt auf einer Skala von 1 bis 5. (5 = hervorragend). 0 deutet darauf hin, dass dem Benutzer die Anrufbewertungsumfrage angezeigt wurde, die Benutzerfreundlichkeit aber nicht in die Bewertung eingeflossen ist.<br/> **Beispielwert:** 5 | &bull; Dem ersten Endpunkt wurde keine Umfrage angezeigt.  |
 | Second Feedback Rating  | Benutzerbewertung (1-5)  | Bewertung des mit dem Datenstrom verbundenen Anrufs vom zweiten Endpunkt auf einer Skala von 1 bis 5. (5 = hervorragend). 0 deutet darauf hin, dass dem Benutzer die Anrufbewertungsumfrage angezeigt wurde, die Benutzerfreundlichkeit aber nicht in die Bewertung eingeflossen ist.<br/> **Beispielwert:** 5 | &bull; Dem zweiten Endpunkt wurde keine Umfrage angezeigt.   |
