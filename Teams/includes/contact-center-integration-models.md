@@ -32,6 +32,9 @@ Obwohl es sich bei diesen Features nicht um eine umfassende Liste der Featurefun
 
 - Lösungsanbieter zur Verwendung des [<span class="underline">von Microsoft zertifizierten Session Border Controller (SBC)</span>](../direct-routing-border-controllers.md)
 
+> [!NOTE]
+> Die vom Agent verwendete Kontaktlösung benötigt keine Telefonsystemlizenz. Der Teams-Benutzer benötigt eine Telefonsystemlizenz und eine Telefonnummer für die Anrufübertragung des Agents.
+
 ### <a name="the-extend-model"></a>[**Das Extend-Modell**](#tab/extend)
 
 Das Extend-Modell kann mithilfe der [Teams-Clientplattform](/microsoftteams/platform/overview), der [Teams Graph-APIs](/graph/api/resources/teams-api-overview) und der [Cloud communications-API in Microsoft Graph in](/graph/api/resources/communications-api-overview) den Teams-Client integriert werden. Das Extend-Modell verwendet auch das Teams-Telefonsystem für alle Kontaktcenteranrufe und Anrufsteuerungsfunktionen, und der Lösungsanbieter des Contact Centers fungiert neben Microsoft 365 als Telefonieanbieter.
@@ -60,8 +63,7 @@ Obwohl es sich bei diesen Features nicht um eine umfassende Liste der Featurefun
 
 - Erhalten der Leistung und Qualität der Teams-Clientumgebungen in allen Apps
 
-> [!NOTE]
-> Der Agent-Bot benötigt keine Telefonsystemlizenz. Der Teams-Benutzer benötigt eine Telefonsystemlizenz und eine Telefonnummer.
+
 
 ### <a name="the-power-model"></a>[**Das Power-Modell**](#tab/power)
 

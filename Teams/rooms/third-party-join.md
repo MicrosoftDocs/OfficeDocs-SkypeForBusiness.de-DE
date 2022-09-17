@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird erläutert, wie Sie Ihre Organisation und Teams-Räume Geräte konfigurieren, um die Teilnahme von Drittanbieterbesprechungen an Cisco Webex und Zoom zu unterstützen.
-ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70d2cf03dea3fcfef3d08c07f4f771bd8a2ea70e
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268200"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67794994"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Aktivieren Teams-Räume Geräten für die Teilnahme an Besprechungen von Drittanbietern
 
@@ -27,12 +27,15 @@ Microsoft Teams-Räume-Geräte unterstützen eine One-Touch-Erfahrung für die T
 
 Unterstützte Geräte und Dienste:
 
-- MTR unter Windows, alle zertifizierten Modelle – Zoom, Cisco Webex
+- Teams-Räume unter Windows, alle zertifizierten Modelle – Zoom, Cisco Webex
 
-- MTR auf Android-, Poly-, Yealink- und Logitech-zertifizierten Modellen – Zoom
+- Teams-Räume auf Android, alle zertifizierten Modelle – Zoom, Cisco Webex
+
+    > [!NOTE]
+    > Microsoft veröffentlicht regelmäßig neue Features für Teams-Räume unter Android. Es kann jedoch zu einer Verzögerung zwischen der Veröffentlichung von Features und der Verfügbarkeit auf einem Gerät kommen. Wenn ein Feature auf Ihrem Gerät nicht verfügbar ist, wenden Sie sich an den Hersteller Ihres Geräts, um Informationen darüber zu erhalten, wann es möglicherweise verfügbar ist.
 
 > [!NOTE]
-> Um von einem Teams-Räume Gerät aus an einer Cisco Webex-Besprechung teilzunehmen, muss die Cisco-Besprechung in Webex Meetings Pro mit der Cisco Webex-Webanwendungsversion WBS 40.7 oder höher gehostet werden. 
+> Um von einem Teams-Räume Gerät aus an einer Cisco Webex-Besprechung teilzunehmen, muss die Cisco-Besprechung in Webex Meetings Pro mit der Cisco Webex-Webanwendungsversion WBS 40.7 oder höher gehostet werden.
 
 Bevor Sie von Teams-Räume aus an Besprechungen von Drittanbietern teilnehmen können, müssen Sie die folgenden Schritte ausführen:
 

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418644"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795054"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Übersicht über Loop-Komponenten in Teams
 
@@ -82,7 +82,7 @@ Wenn Sie diese Erfahrungen deaktivieren, wie im Abschnitt ["Einstellungsverwaltu
 
 - Der Einstiegspunkt zum Erstellen/Einfügen in Teams-Nachrichten wird ausgeblendet. Benutzer können keine neuen FLUID-Dateien erstellen.
 - Vorhandene Nachrichten, die zuvor als interaktive Loop-Komponente gerendert hätten, werden stattdessen als Link "Loop-Komponente" gerendert. In Teams werden keine interaktiven Inhalte angezeigt.
-- Wenn ein Endbenutzer auf den Link "Loop-Komponente" klickt oder in OneDrive for Business zu einer FLUID-Datei navigiert und zum Öffnen klickt, wird die Datei auf einer separaten Browserregisterkarte geöffnet, endbenutzer können die Datei jedoch nicht bearbeiten.
+- Wenn ein Endbenutzer auf den Link "Loop-Komponente" klickt oder in OneDrive for Business zu einer FLUID-Datei navigiert und zum Öffnen klickt, wird die Datei auf einer separaten Browserregisterkarte geöffnet. Endbenutzer können die Datei weiterhin bearbeiten.
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
