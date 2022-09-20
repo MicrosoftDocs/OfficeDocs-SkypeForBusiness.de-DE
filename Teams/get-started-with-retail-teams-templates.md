@@ -20,14 +20,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396296"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837335"
 ---
 # <a name="use-retail-team-templates"></a>Verwenden von Teamvorlagen für den Einzelhandel
+
+## <a name="overview"></a>Übersicht
 
 Mit Teamvorlagen in Microsoft Teams können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Teamstruktur aus Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
@@ -50,26 +52,28 @@ Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Sch
 
 Derzeit sind die folgenden vordefinierten Teamvorlagen für den Einzelhandel verfügbar. Um sie anzuzeigen, wechseln Sie in der linken Navigation im Microsoft Teams Admin Center zu **Teams** > **Teamvorlagen**.
 
-### <a name="organize-a-store"></a>Organisieren Sie eine Filiale
+> [!NOTE]
+> Ein Sternchen (*) gibt an, dass es sich bei der Vorlage um eine *mit Microsoft 365 verbundene Vorlage* handelt. Wenn Benutzer ein Team mithilfe der Vorlage erstellen, wird die verbundene SharePoint-Vorlage auf die Website und das Team angewendet. SharePoint-Komponenten wie Seiten, Listen und Power Platform-Integrationen werden automatisch als Registerkarten zum Kanal "Allgemein" im Team hinzugefügt und angeheftet. Benutzer können diese Seiten und Listen direkt in Teams bearbeiten.
+>
+> Weitere Informationen zu SharePoint-Vorlagen finden Sie [unter Anwenden und Anpassen von SharePoint-Websitevorlagen](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-Bringen Sie Ihre Einzelhandelsmitarbeiter in einer zentralen Erfahrung zusammen, an dem sie Aufgaben verwalten, Dokumente freigeben und Kundenprobleme lösen können. Integrieren Sie zusätzliche Apps für die Optimierung von Schichtabläufen.
+### <a name="manage-a-store"></a>Verwalten eines Stores*
 
-| Vorlagentyp |TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
-| ------------------|-- |----------------------------------------------------- |
-|Ein Store organisieren| `retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Bereitschaft der Filiale<ul><li>Prüfung&sup1;</li></ul></li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
+Bringen Sie Ihre Einzelhandelsmitarbeiter in einer zentralen Erfahrung zusammen, an dem sie Aufgaben verwalten, Dokumente freigeben und Kundenprobleme lösen können. Integrieren Sie zusätzliche Anwendungen, um Schichtanfangs- und -endprozesse zu optimieren.
 
-&sup1;App wurde dem Kanal als Registerkarte hinzugefügt
+> [!div class="mx-tdBreakAll"]
+>| Vorlagentyp |TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
+>| ------------------|-- |----------------------------------------------------- |
+>| Verwalten eines Stores| `retailStore` |Kanäle: <ul><li>Allgemein<li>Übergabe umschalten</li><li>Store-Bereitschaft</li><li>Learning</li></ul> Apps: <ul><li>Genehmigungen</li><li>Prüfung</li><li>Listen<ul><li>Bestandsliste</li></ul></li><li>SharePoint-Seiten<ul><li>Unser Store</li></ul></li><li>Schichten</li><li>Aufgaben nach Planner und Aufgaben</li><li>Wiki</li></ul>|
 
-### <a name="manager-collaboration"></a>Zusammenarbeit leitender Angestellter
+### <a name="retail-for-managers"></a>Einzelhandel für Manager*
 
-Die Vorlage für die Zusammenarbeit leitender Angestellter ist ideal, um ein Team für eine Gruppe von Managern zu erstellen, die über Filialen, Regionen usw. hinweg zusammenarbeiten.. Wenn Ihre Organisation beispielsweise in verschiedenen Ländern tätig ist, können Sie ein solches Team für die Region Kalifornien erstellen, und alle Filialleiter in dieser Region sowie den Regionalmanager für diese Region einbeziehen.
+Erstellen Sie ein Team für eine Gruppe von Managern für die Zusammenarbeit zwischen Geschäften oder Regionen. Wenn Ihre Organisation beispielsweise Regionen hat, können Sie ein Team für die Region Kalifornien erstellen und alle Store-Manager in dieser Region zusammen mit dem Regionalmanager für diese Region einbeziehen.
 
-| Vorlagentyp| TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
-| ------------------|- |----------------------------------------------------- |
-|Einzelhandel für leitende Angestellte|`retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge<ul><li>Aufgaben (Operative Aufgaben)&sup1;</li><li>Prüfung&sup1;</li></ul></li><li>Learning<ul><li>Aufgaben (Learning-Aufgaben)&sup1;</li></ul></li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Prüfung</li></ul>|
-||||
-
-&sup1;App wurde dem Kanal als Registerkarte hinzugefügt
+> [!div class="mx-tdBreakAll"]
+>| Vorlagentyp| TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
+>| ------------------|- |----------------------------------------------------- |
+>| Einzelhandel für Manager| `retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Genehmigungen</li><li>Prüfung</li><li>SharePoint-Seiten<ul><li>Unser Store</li></ul></li><li>Aufgaben nach Planner und Aufgaben</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Verwenden Sie Teamvorlagen mit Microsoft Graph
 
@@ -77,16 +81,19 @@ Weitere Informationen zur Verwendung von Teamvorlagen mit Microsoft Graph finden
 
 Hier finden Sie die vorgefertigten Teamvorlagen für den Einzelhandel.
 
-### <a name="store"></a>Store
+> [!NOTE]
+> Ein Sternchen (*) gibt an, dass es sich bei der Vorlage um eine *mit Microsoft 365 verbundene Vorlage* handelt. Wenn Benutzer ein Team mithilfe der Vorlage erstellen, wird die verbundene SharePoint-Vorlage auf die Website und das Team angewendet. SharePoint-Komponenten wie Seiten, Listen und Power Platform-Integrationen werden automatisch als Registerkarten zum Kanal "Allgemein" im Team hinzugefügt und angeheftet. Benutzer können diese Seiten und Listen direkt in Teams bearbeiten.
+>
+> Weitere Informationen zu SharePoint-Vorlagen finden Sie [unter Anwenden und Anpassen von SharePoint-Websitevorlagen](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-Die Store-Vorlage eignet sich ideal zum Erstellen eines Teams zur Darstellung eines einzelnen Einzelhandelsgeschäftsstandorts. Mithilfe der Store-Vorlage können Sie ein Team für jeden Einzelhandelsgeschäftsstandort in Ihrer Organisation erstellen.
+### <a name="manage-a-store"></a>Verwalten eines Stores*
 
-| Vorlagentyp | TemplateId | Vorlagenkanäle |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Einzelhandel -  <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Kanäle <ul><li>Allgemein</li><li>Schichtübergabe&sup2;</li><li>Bereitschaft der Filiale</li><li>Learning&sup2;</li></ul>Teameigenschaften <ul><li>Teamsichtbarkeit auf Öffentlich gesetzt</li></ul> <br>Mitgliedsberechtigungen <ul><li>Kanäle können nicht erstellt, aktualisiert oder gelöscht werden </li><li>Apps können nicht hinzugefügt oder entfernt werden </li><li>Registerkarten können nicht erstellt, aktualisiert oder entfernt werden</li><li>Connectors können nicht erstellt, aktualisiert oder entfernt werden</li><ul>|
-||||
+Verwenden Sie diese Vorlage, um ein Team für jeden Einzelhandelsspeicherort in Ihrer Organisation zu erstellen.
 
-&sup2;Automatisch als Favoriten festgelegte Kanäle
+> [!div class="mx-tdBreakAll"]
+>| Vorlagentyp | TemplateId | Vorlagenkanäle |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Einzelhandel -  <br>Store | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Kanäle <ul><li>Allgemein</li><li>Übergabe umschalten</li><li>Store-Bereitschaft</li><li>Learning</li></ul>Teameigenschaften <ul><li>Teamsichtbarkeit auf Öffentlich gesetzt</li></ul> <br>Mitgliedsberechtigungen <ul><li>Kanäle können nicht erstellt, aktualisiert oder gelöscht werden </li><li>Apps können nicht hinzugefügt oder entfernt werden </li><li>Registerkarten können nicht erstellt, aktualisiert oder entfernt werden</li><li>Connectors können nicht erstellt, aktualisiert oder entfernt werden</li><ul>|
 
 Empfohlene Möglichkeiten zum Anpassen der Store-Vorlage für Ihre Organisation:
 
@@ -94,16 +101,14 @@ Empfohlene Möglichkeiten zum Anpassen der Store-Vorlage für Ihre Organisation:
 
 - Wenn Ihre Organisation über interne Websites verfügt (z. B. eine SharePoint-Site), sollten Sie diese als Registerkarten im entsprechenden Teamkanal anheften.
 
-### <a name="manager-collaboration"></a>Zusammenarbeit leitender Angestellter
+### <a name="retail-for-managers"></a>Einzelhandel für Manager*
 
-Die Vorlage für die Zusammenarbeit leitender Angestellter ist ideal, um ein Team für eine Gruppe von Managern zu erstellen, die über Filialen, Regionen usw. hinweg zusammenarbeiten.. Wenn Ihre Organisation beispielsweise in verschiedenen Ländern tätig ist, können Sie ein solches Team für die Region Kalifornien erstellen, und alle Filialleiter in dieser Region sowie den Regionalmanager für diese Region einbeziehen.
+Verwenden Sie diese Vorlage, um ein Team für eine Gruppe von Managern für die Zusammenarbeit zwischen Geschäften oder Regionen zu erstellen. Wenn Ihre Organisation beispielsweise Regionen hat, können Sie ein Team für die Region Kalifornien erstellen und alle Store-Manager in dieser Region zusammen mit dem Regionalmanager für diese Region einbeziehen.
 
-| Vorlagentyp | TemplateId | Vorlagenkanäle |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Einzelhandel -  <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Kanäle <ul><li>Allgemein</li><li>Vorgänge&sup2;</li><li>Learning&sup2;</li></ul>Teameigenschaften <ul><li>Teamsichtbarkeit auf Privat gesetzt</li></ul> <br>Mitgliedsberechtigungen <ul><li>Kanäle können erstellt, aktualisiert oder gelöscht werden </li><li>Apps können hinzugefügt oder entfernt werden </li><li>Registerkarten können erstellt, aktualisiert oder entfernt werden</li><li>Connectors können erstellt, aktualisiert oder entfernt werden</li><ul>|
-||||
-
-&sup2;Automatisch als Favoriten festgelegte Kanäle
+> [!div class="mx-tdBreakAll"]
+>| Vorlagentyp | TemplateId | Vorlagenkanäle |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Einzelhandel -  <br>Zusammenarbeit leitender Angestellter | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| Kanäle <ul><li>Allgemein</li><li>Vorgänge</li><li>Lernen</li></ul>Teameigenschaften <ul><li>Teamsichtbarkeit auf Privat gesetzt</li></ul> <br>Mitgliedsberechtigungen <ul><li>Kanäle können erstellt, aktualisiert oder gelöscht werden </li><li>Apps können hinzugefügt oder entfernt werden </li><li>Registerkarten können erstellt, aktualisiert oder entfernt werden</li><li>Connectors können erstellt, aktualisiert oder entfernt werden</li><ul>|
 
 Empfohlene Möglichkeiten zum Anpassen der Vorlage der Managerkollaboration für Ihre Organisation:
 
@@ -131,6 +136,9 @@ Um diese Vorlagen zu verwenden, ändern Sie die Eigenschaft „template@odata.bi
   ]
 }
 ```
+
+> [!NOTE]
+> Wenn Sie Microsoft Graph verwenden, um ein Team aus einer vorhandenen Microsoft 365-Gruppe oder einem vorhandenen Team mithilfe einer mit Microsoft 365 verbundenen Vorlage zu erstellen, wird die verbundene SharePoint-Vorlage nicht automatisch auf die Website oder das Team angewendet. Sie müssen die SharePoint-Websitevorlage manuell anwenden, nachdem das Team erstellt wurde. Wechseln Sie in Teams zum Team, wählen Sie in der oberen rechten Ecke weitere **Optionen** aus, > **In SharePoint öffnen**. Wählen Sie dann **"Einstellungen** > **" aus, um eine Websitevorlage anzuwenden** , und wählen Sie die entsprechende Websitevorlage aus.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
