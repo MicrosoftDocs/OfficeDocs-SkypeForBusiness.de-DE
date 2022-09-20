@@ -1,7 +1,7 @@
 ---
 title: Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -12,24 +12,24 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie einen Microsoft Teams Benutzer oder ein Team mithilfe des Microsoft Purview Compliance-Portals in die gesetzliche Aufbewahrungspflicht setzen und erfahren, was eine gesetzliche Aufbewahrung basierend auf Datenanforderungen erforderlich ist.
+description: Erfahren Sie, wie Sie einen Microsoft Teams-Benutzer oder ein Microsoft Teams-Team mithilfe der Microsoft Purview-Complianceportal in eine gesetzliche Aufbewahrungspflicht setzen und erfahren, was eine gesetzliche Aufbewahrung basierend auf Datenanforderungen erforderlich ist.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: 2dc99518aa3580311c48966105ccc4b4ba6cf518
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031910"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808756"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 
-Wenn eine angemessene Erwartung von Rechtsstreitigkeiten besteht, müssen Organisationen elektronisch gespeicherte Informationen (ESI) aufbewahren, einschließlich Teams Chatnachrichten, die für den Fall relevant sind. Organisationen müssen möglicherweise alle Nachrichten im Zusammenhang mit einer bestimmten Untersuchung oder für eine bestimmte Person aufbewahren. In diesem Artikel wird die Verwendung eines gesetzlichen Haltebereichs zum Aufbewahren von Inhalten in Microsoft Teams erläutert. Informationen zum Beibehalten von Inhalten in anderen Diensten in Microsoft 365 finden [Sie unter Erstellen eines eDiscovery-Haltebereichs](/microsoft-365/compliance/create-ediscovery-holds).
+Wenn eine angemessene Erwartung von Rechtsstreitigkeiten besteht, müssen Organisationen elektronisch gespeicherte Informationen (ESI) aufbewahren, einschließlich Teams-Chatnachrichten, die für den Fall relevant sind. Organisationen müssen möglicherweise alle Nachrichten im Zusammenhang mit einer bestimmten Untersuchung oder für eine bestimmte Person aufbewahren. In diesem Artikel wird die Verwendung eines gesetzlichen Haltebereichs zum Aufbewahren von Inhalten in Microsoft Teams erläutert. Informationen zum Aufbewahren von Inhalten in anderen Diensten in Microsoft 365 finden [Sie unter Erstellen eines eDiscovery-Haltebereichs](/microsoft-365/compliance/create-ediscovery-holds).
 
 > [!NOTE]
 > Im Februar 2020 haben wir die gesetzliche Aufbewahrung für private Kanäle aktiviert. Chats in privaten Kanälen werden in Benutzerpostfächern gespeichert, während Standardkanalchats in dem Postfach gespeichert werden, das dem übergeordneten Team zugeordnet ist. Wenn bereits eine gesetzliche Aufbewahrung für ein Benutzerpostfach vorhanden ist, gilt die Aufbewahrungsrichtlinie jetzt automatisch für nachrichten im privaten Kanal, die in diesem Postfach gespeichert sind. Es ist keine weitere Aktion erforderlich, damit ein Administrator dies aktivieren kann. Die gesetzliche Aufbewahrung von Dateien, die in privaten Kanälen freigegeben sind, wird ebenfalls unterstützt.
 
-Innerhalb Microsoft Teams kann ein gesamtes Team oder ausgewählte Benutzer gesetzlich gesperrt werden. Dadurch wird sichergestellt, dass alle Nachrichten, die in diesen Teams ausgetauscht wurden (einschließlich privater und freigegebener Kanäle) oder von diesen Personen ausgetauschte Nachrichten von den Compliance-Managern der Organisation oder Teams Administratoren auffindbar sind.
+Innerhalb von Microsoft Teams kann ein gesamtes Team oder ausgewählte Benutzer gesetzlich gesperrt werden. Dadurch wird sichergestellt, dass alle Nachrichten, die in diesen Teams ausgetauscht wurden (einschließlich privater und freigegebener Kanäle) oder nachrichten, die von diesen Personen ausgetauscht wurden, von den Compliance-Managern oder Teams-Administratoren der Organisation auffindbar sind.
 
 > [!NOTE]
 > Beim Aufbewahren von Daten eines Benutzers werden nicht automatisch die Daten einer Gruppe aufbewahrt (oder umgekehrt).
@@ -37,14 +37,14 @@ Innerhalb Microsoft Teams kann ein gesamtes Team oder ausgewählte Benutzer gese
 
 So setzen Sie einen Benutzer oder ein Team in einem eDiscovery-Fall (Standard) in die gesetzliche Aufbewahrungspflicht ein:
 
-1. Wechseln Sie zum [Microsoft Purview Compliance-Portal](https://compliance.microsoft.com). Wenn Sie einen neuen Fall erstellen, wird Ihnen die Möglichkeit angezeigt, Postfächer oder Websites in den Haltebereich zu setzen.
+1. Wechseln Sie zum [Microsoft Purview-Complianceportal](https://compliance.microsoft.com). Wenn Sie einen neuen Fall erstellen, wird Ihnen die Möglichkeit angezeigt, Postfächer oder Websites in den Haltebereich zu setzen.
 
-2. Wechseln Sie zu **eDiscoveryCore** > , und erstellen Sie einen Fall, indem Sie auf "**Fall erstellen"** klicken. Nachdem der Fall erstellt wurde, öffnen Sie ihn.
+2. Wechseln Sie zu **eDiscovery** > **Core** , und erstellen Sie einen Fall, indem Sie auf " **Fall erstellen"** klicken. Nachdem der Fall erstellt wurde, öffnen Sie ihn.
   
-   ![Microsoft Teams Registerkarte "eDiscovery" mit der Schaltfläche "Fall erstellen" ausgewählt ist.](media/LegalHold1.png)
+   ![Die Registerkarte "Microsoft Teams eDiscovery" mit der Schaltfläche "Fall erstellen" ist ausgewählt.](media/LegalHold1.png)
 
    > [!NOTE]
-   > Sie können einen Benutzer auch in einen Haltebereich setzen, der einem eDiscovery-Fall (Premium) zugeordnet ist. Weitere Informationen finden Sie unter [Verwalten von Haltebereichen in eDiscovery (Premium).For more information, see Manage holds in eDiscovery (Premium)](/microsoft-365/compliance/managing-holds).
+   > Sie können einen Benutzer auch in einen Haltebereich setzen, der einem eDiscovery (Premium)-Fall zugeordnet ist. Weitere Informationen finden [Sie unter Verwalten von Haltebereichen in eDiscovery (Premium).For more information, see Manage holds in eDiscovery (Premium)](/microsoft-365/compliance/managing-holds).
 
 3. Wechseln Sie im oberen Menü zur Registerkarte **"Haltebereiche** ", und klicken Sie auf **"Erstellen** ", um einen Haltebereich zu erstellen. Wenn Sie einen Benutzer oder ein Team in den Haltebereich setzen, bleiben alle von diesen Benutzern ausgetauschten Nachrichten erhalten. Wenn Sie einen neuen Fall erstellen, wird Ihnen die Möglichkeit angezeigt, Postfächer oder Websites in den Haltebereich zu setzen.
 
@@ -67,16 +67,16 @@ Nachdem der Haltebereich erstellt wurde, können Sie die Inhalte durchsuchen, di
 > [!IMPORTANT]
 > Wenn ein Benutzer oder eine Gruppe in den Haltebereich versetzt wird, bleiben alle Compliancekopien von Nachrichten erhalten. Wenn ein Benutzer beispielsweise eine Nachricht in einem Kanal sendet und dann die Nachricht ändert, bleiben beide Kopien der Nachricht erhalten. Ohne den Haltebereich wird nur die neueste Nachricht beibehalten.
 
-## <a name="content-locations-to-place-on-hold-to-preserve-teams-content"></a>Inhaltsspeicherorte, die in den Haltebereich platziert werden sollen, um Teams Inhalte beizubehalten
+## <a name="content-locations-to-place-on-hold-to-preserve-teams-content"></a>Inhaltsspeicherorte, die in den Haltebereich platziert werden sollen, um Teams-Inhalte beizubehalten
 
-Verwenden Sie als hilfreiche Anleitung die folgende Tabelle, um zu verstehen, welche Inhaltsspeicherorte (z. B. ein Postfach oder eine Website) in den Haltebereich platziert werden sollen, um unterschiedliche Arten von Teams Inhalten beizubehalten.
+Verwenden Sie als hilfreiche Anleitung die folgende Tabelle, um zu verstehen, welche Inhaltsspeicherorte (z. B. ein Postfach oder eine Website) im Haltebereich platziert werden sollen, um unterschiedliche Arten von Teams-Inhalten beizubehalten.
 
 |Szenario  |Inhaltsspeicherort  |
 |---------|---------|
 |Chatnachrichten für einen Benutzer (z. B. 1:1-Chats, 1:N-Gruppenchats und Private Channel-Unterhaltungen)     |Benutzerpostfächer         |
 |Chatnachrichten in Standard- und freigegebenen Kanälen    |Postfach, das dem übergeordneten Team zugeordnet ist         |
-|Dateien in Standardkanälen (z. B. Wiki-Inhalte und Dateien)     |SharePoint Website, die dem übergeordneten Team zugeordnet ist        |
-|Dateien in privaten und freigegebenen Kanälen     |Dedizierte SharePoint Website, die dem Kanal zugeordnet ist
+|Dateien in Standardkanälen (z. B. Wiki-Inhalte und Dateien)     |SharePoint-Website, die dem übergeordneten Team zugeordnet ist        |
+|Dateien in privaten und freigegebenen Kanälen     |Dedizierte SharePoint-Website, die dem Kanal zugeordnet ist
 |Private Inhalte des Benutzers     |Das OneDrive for Business Konto des Benutzers       |
 |Karteninhalte in Chats|Benutzerpostfach für 1:1-Chats, 1:N-Gruppenchats und private Kanalunterhaltungen; das übergeordnete Teampostfach für Karteninhalte in Standard- und freigegebenen Kanalnachrichten. Weitere Informationen finden Sie im Abschnitt "Beibehalten von Karteninhalten" im [Abschnitt "Erstellen eines eDiscovery-Haltebereichs](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)".|
 |||

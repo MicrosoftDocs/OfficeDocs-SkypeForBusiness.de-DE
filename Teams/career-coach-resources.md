@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e8f8a069b35bcd1b5a1b1216946d4734a5ec52a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 92e02822dbd4533f151d9551bb25aad1905184fc
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486940"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808416"
 ---
 # <a name="resources-for-career-coach-in-microsoft-teams"></a>Ressourcen für Karrierecoach in Microsoft Teams
 
@@ -77,4 +77,4 @@ Die folgenden Ressourcen sind nicht erforderlich, um Career Coach zu konfigurier
 | [Buchungen mit mir in Outlook](/microsoft-365/bookings/bookings-in-outlook) | Leitfaden für Lehrkräfte zum Planen von 1:1-Terminen, z. B. Karrieredienstsitzungen und Bürozeiten. |
 | [Microsoft Bookings](/microsoft-365/bookings/bookings-overview) | LEITFADEN für IT-Administratoren zum Einrichten Microsoft Bookings zum Verwalten von persönlichen und virtuellen Terminen für Mitarbeiter und Studenten, z. B. Karrieredienste und Bürozeiten. |
 | [Unterstützung für Microsoft Teams-Besprechungen](https://www.microsoft.com/videoplayer/embed/RE4rxIX?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us) | Eine exemplarische Videoanleitung für Kursteilnehmer, wie sie Teams-Besprechungen verwenden können. |
-| [Bereitstellen ansprechender und barrierefreier virtueller Ereignisse](/learn/paths/m365-virtual-events-fundamentals/) | Ein Onlinekurs für Lehrkräfte zum Bereitstellen ansprechender und barrierefreier virtueller Ereignisse mit Microsoft Teams und Microsoft 365. |
+| [Bereitstellen ansprechender und barrierefreier virtueller Ereignisse](/training/paths/m365-virtual-events-fundamentals/) | Ein Onlinekurs für Lehrkräfte zum Bereitstellen ansprechender und barrierefreier virtueller Ereignisse mit Microsoft Teams und Microsoft 365. |

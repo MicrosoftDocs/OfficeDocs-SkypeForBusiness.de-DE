@@ -1,73 +1,79 @@
 ### YamlMime:Hub
 title: Endbenutzerschulung für Microsoft Teams
-summary: 'Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Treten Sie uns bei, um Microsoft Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und mit unseren Live-Kursleitern zu interagieren. Wenn Sie unsere Schulungskurse in Ihrer eigenen Zeit anzeigen können, besuchen Sie unsere on-demand-Schulung für Endbenutzer. Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.'
+summary: Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Treten Sie uns bei, um Microsoft Teams in Aktion zu sehen, Ihre Fragen zu beantworten und mit unseren Live-Kursleitern zu interagieren. Besuchen Sie unsere On-Demand-Schulung für Endbenutzer, um unsere Schulungskurse auf eigene Zeit anzuzeigen. Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.
 brand: teams
 metadata:
   title: Endbenutzerschulung für Microsoft Teams
-  description: 'Microsoft freuen sich, kostenlose, live und virtuelle Schulungskurse bereitstellen zu können, die Ihnen bei den ersten Teams. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Treten Sie uns bei, um Microsoft Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und mit unseren Live-Kursleitern zu interagieren. Klicken Sie unten auf eine Sitzung, um sich zu registrieren, und schauen Sie sich weitere Kurse weiter unten an.'
+  description: Microsoft freut sich, ihnen kostenlose, live virtuelle Schulungskurse zur Verfügung zu stellen, die Ihnen den Einstieg in Teams ermöglichen. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Treten Sie uns bei, um Microsoft Teams in Aktion zu sehen, Ihre Fragen zu beantworten und mit unseren Live-Kursleitern zu interagieren. Klicken Sie unten auf eine Sitzung, um sich anzumelden, und schauen Sie sich weitere Kurse weiter unten an.
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: samanro
   ms.date: 03/04/2022
+  ms.openlocfilehash: 40498cf75e601ae758ebf5d2e29371c3311f0558
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808736"
 highlightedContent:
   items:
-    - title: Einführung in Microsoft Teams
-      itemType: overview
-      url: 'https://youtu.be/UoWHXrmIszg'
-    - title: Erste Schritte mit Teams
-      itemType: video
-      url: 'https://aka.ms/GetstartedwithMSTeams'
-    - title: Microsoft 365-Einführungstools
-      itemType: deploy
-      url: 'https://adoption.microsoft.com'
+  - title: Einführung in Microsoft Teams
+    itemType: overview
+    url: https://youtu.be/UoWHXrmIszg
+  - title: Erste Schritte mit Teams
+    itemType: video
+    url: https://aka.ms/GetstartedwithMSTeams
+  - title: Microsoft 365-Einführungstools
+    itemType: deploy
+    url: https://adoption.microsoft.com
 productDirectory:
   items:
-    - title: Anrufe und Besprechungen in Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
-      summary: 'Verwenden Sie Anrufe und Besprechungen, um in Echtzeit zusammenzuarbeiten, in Verbindung zu bleiben und jederzeit auf freigegebene Inhalte zu zugreifen, um zu lernen, zu planen und Neuerungen zu entwickeln. (Ebene: Teams Grundlagen; Zielgruppe: Jeder)'
-      url: 'https://aka.ms/CallingMeetingsTraining'
-    - title: Erkunden von Teams und Kanälen in Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
-      summary: 'Verstehen Sie den Wert von Teams und Kanälen und wie sie Ihnen bei der Zusammenarbeit in virtuellen Arbeitsbereichen oder mit einer ganzen Gruppe helfen können. (Ebene: Teams Grundlagen; Zielgruppe: Jeder)'
-      url: 'https://aka.ms/TeamsChannelsTraining'
-    - title: 'Tipps, Tastenkombinationen und neues neues Teams'
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
-      summary: 'Erfahren Sie Tipps und Tastenkombinationen, um Power User zu werden. Entdecken Sie die Neuigkeiten, und finden Sie eine Expertenrichtung für die neuesten Features. (Ebene: Teams Grundlagen; Zielgruppe: Jeder)'
-      url: 'https://aka.ms/TeamsProTips'
-    - title: Arbeiten Sie weiter zusammen mit Teams Besprechungen
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
-      summary: 'Lernen Sie die wichtigsten Features Teams Besprechungen und Webinars kennen, einschließlich Tools für die Zusammenarbeit, Breakout-Räume und Zugriff auf Besprechungsressourcen. (Level: Teams Weiter; Zielgruppe: Jeder)'
-      url: 'https://aka.ms/MeetingsGoFurther'
-    - title: Anpassen Teams mit Apps
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
-      summary: 'Sehen Sie sich an, wie Teams App-Integrationen in einer einzelnen Benutzeroberfläche angezeigt werden und wie die Mitarbeiter besser zusammenarbeiten können. (Level: Teams Weiter; Zielgruppe: Jeder)'
-      url: 'https://aka.ms/Teamsappstraining'
-    - title: Hybride Arbeitslösungen
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
-      summary: 'Bleiben Sie verbunden, sicher und produktiv, während Sie sich an neue Arbeitsweisen anpassen. Erfahren Sie, wie Sie an einem Ort produktiv sein können: Besprechungen, Anrufe, Chats, Apps und vieles mehr. (Level: Teams Weiter; Zielgruppe: Jeder)'
-      url: 'https://aka.ms/HybridWorkTraining'
-    - title: Fördern der Zusammenarbeit mit Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
-      summary: 'Erfahren Sie, wie Sie Kanäle, Chats und verbundene Apps für eine bessere Kommunikation und eine engere Zusammenarbeit in Teams jeder Größe nutzen können. (Ebene: Teams Grundlagen; Zielgruppe: Jeder)'
-      url: 'https://aka.ms/CollaborateInTeams'
-    - title: Microsoft Teams Education – Webinare
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
-      summary: 'Erfahren Sie, wie Sie Teams in Hochschulen verwenden. (Zielgruppe: Mitarbeiter, Studenten, Akademiker, Forschungsmitarbeiter, IT-Experten)'
-      url: 'https://aka.ms/TeamsEduWebinars'
-    - title: Workshops zur Upgrade-Planung
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
-      summary: 'Ein erfolgreiches Upgrade zu Teams planen und implementieren. (Zielgruppe: IT-Spezialisten, Change Manager für die Einführung)'
-      url: 'https://aka.ms/upgradeworkshops'
+  - title: Anrufe und Besprechungen in Teams
+    imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
+    summary: 'Verwenden Sie Anrufe und Besprechungen, um in Echtzeit zusammenzuarbeiten, in Verbindung zu bleiben und jederzeit auf freigegebene Inhalte zuzugreifen, um zu lernen, zu planen und innovationen zu können. (Stufe: Teams-Grundlagen; Zielgruppe: Jeder)'
+    url: https://aka.ms/CallingMeetingsTraining
+  - title: Erkunden von Teams und Kanälen in Teams
+    imageSrc: https://learn.microsoft.com/office/media/icons/users-group.svg
+    summary: 'Verstehen Sie den Wert von Teams und Kanälen und wie sie Ihnen bei der Zusammenarbeit in virtuellen Arbeitsbereichen oder mit einer ganzen Gruppe helfen können. (Stufe: Teams-Grundlagen; Zielgruppe: Jeder)'
+    url: https://aka.ms/TeamsChannelsTraining
+  - title: Tipps, Tastenkombinationen und Neuerungen in Teams
+    imageSrc: https://learn.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
+    summary: 'Erfahren Sie mehr über Tipps und Tastenkombinationen, um ein Power User zu werden. Entdecken Sie, was neu ist, und finden Sie expertenkundige Anleitungen zu den neuesten Features. (Stufe: Teams-Grundlagen; Zielgruppe: Jeder)'
+    url: https://aka.ms/TeamsProTips
+  - title: Gehen Sie mit Teams-Besprechungen weiter zusammen
+    imageSrc: https://learn.microsoft.com/office/media/icons/calendar-teams.svg
+    summary: 'Lernen Sie die wichtigsten Features von Teams-Besprechungen und Webinaren kennen, einschließlich Tools für die Zusammenarbeit, Gruppenräume und Zugriff auf Besprechungsressourcen. (Stufe: Teams gehen weiter; Zielgruppe: Jeder)'
+    url: https://aka.ms/MeetingsGoFurther
+  - title: Anpassen von Teams mit Apps
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
+    summary: 'Erfahren Sie, wie App-Integrationen in Teams auf einer einzigen Benutzeroberfläche angezeigt werden und es Mitarbeitern ermöglichen, besser zusammenzuarbeiten. (Stufe: Teams gehen weiter; Zielgruppe: Jeder)'
+    url: https://aka.ms/Teamsappstraining
+  - title: Hybridarbeitslösungen
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: 'Bleiben Sie in Verbindung, sicher und produktiv, während Sie sich an neue Arbeitsweisen anpassen. Lernen Sie, an einem Ort produktiv zu sein: Besprechungen, Anrufe, Chats, Apps und vieles mehr. (Stufe: Teams gehen weiter; Zielgruppe: Jeder)'
+    url: https://aka.ms/HybridWorkTraining
+  - title: Verbessern der Zusammenarbeit mit Teams
+    imageSrc: https://learn.microsoft.com/office/media/icons/structure-teams.svg
+    summary: 'Erfahren Sie, wie Sie Kanäle, Chats und verbundene Apps optimal nutzen, um die Kommunikation zu verbessern und die Zusammenarbeit über Teams aller Größen hinweg zu vertiefen. (Stufe: Teams-Grundlagen; Zielgruppe: Jeder)'
+    url: https://aka.ms/CollaborateInTeams
+  - title: Microsoft Teams Education – Webinare
+    imageSrc: https://learn.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: 'Erfahren Sie, wie Sie Teams in Hochschulen verwenden. (Zielgruppe: Mitarbeiter, Studenten, Akademiker, Forschungsmitarbeiter, IT-Experten)'
+    url: https://aka.ms/TeamsEduWebinars
+  - title: Workshops zur Upgrade-Planung
+    imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
+    summary: 'Ein erfolgreiches Upgrade zu Teams planen und implementieren. (Zielgruppe: IT-Spezialisten, Change Manager für die Einführung)'
+    url: https://aka.ms/upgradeworkshops
 additionalContent:
   sections:
-    - title: Zusätzliche Schulung
-      items:
-        - title: Teamspezialisten Learning Pfad
-          summary: 'Zusammenarbeit ist eine unerlässliche Fähigkeit für die heutigen Arbeitskraft. Erfahren Sie, wie die robusten Features in Microsoft Teams Ihnen ermöglichen, in Verbindung zu bleiben und effizienter mit Ihrem Team zusammen zu arbeiten.'
-          url: /learn/paths/teamwork-specialist
-        - title: Service Adoption Specialist Learning Path
-          summary: 'Die Microsoft Service Adoption Specialist Learning Path-Features Teams und andere Microsoft 365 Dienste. Erfahren Sie, wie Sie die Einführung von Microsoft-Dienste in Ihrer Organisation vordrangen.'
-          url: /learn/paths/m365-service-adoption
-        - title: On-Demand-Schulungsvideos
-          summary: 'Sie haben keine Zeit für einen Kurs? Sehen Sie sich unseren Katalog mit Videos vom Microsoft-Support an, um Schulungen auf Abruf zu erhalten.'
-          url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - title: Zusätzliche Schulungen
+    items:
+    - title: Teamwork Specialist Lernpfad
+      summary: Zusammenarbeit ist eine wichtige Fähigkeit für die heutige Belegschaft. Erfahren Sie, wie Sie mit den robusten Features in Microsoft Teams in Verbindung bleiben und effizienter mit Ihrem Team arbeiten können.
+      url: /training/paths/teamwork-specialist
+    - title: Service Adoption Specialist-Lernpfad
+      summary: Der Microsoft Service Adoption Specialist-Lernpfad bietet Teams und andere Microsoft 365-Dienste. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.
+      url: /training/paths/m365-service-adoption
+    - title: On-Demand-Schulungsvideos
+      summary: Keine Zeit für einen Kurs? Erkunden Sie unseren Katalog von Videos von Microsoft-Support für On-Demand-Schulungen.
+      url: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7

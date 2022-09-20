@@ -18,12 +18,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486900"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808376"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
@@ -39,8 +39,8 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**Teams Essentials for IT**](https://aka.ms/MicrosoftTeamsforIT) – Die Microsoft Mechanics-Videoreihe "Teams für IT" zeigt Ihnen – dem Administrator – das Rollout, die Konfiguration und die Verwaltung von Teams.     |[**Unterstützen Von Remotemitarbeitern mitHilfe von Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) – Erhalten Sie die erforderlichen Anleitungen – einschließlich Links zu Schulungen –, um Ihre Benutzer zu unterstützen, die von zu Hause aus arbeiten.         |[**Verwalten der Teamzusammenarbeit für die IT**](/learn/paths/m365-manage-team-collaboration) – Erfahren Sie, wie Sie Teams verwenden, um Teamarbeit und Kommunikation innerhalb Ihrer Organisation über Anwendungen und Geräte hinweg zu erleichtern.         |
-|[**Service Adoption Specialist-Zertifizierung**](/learn/paths/m365-service-adoption) – Der Zertifizierungskurs "Microsoft Service Adoption Specialist" bietet Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.     |[**Einführung in die Teamarbeit in Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) – Der Microsoft Service Adoption Specialist Certification-Kurs bietet Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.        |[**Microsoft 365-zertifiziert: Teamarbeitsadministrator associate**](/learn/certifications/m365-teamwork-administrator) – Microsoft 365 Teamwork-Administratoren konfigurieren, bereitstellen und verwalten Microsoft 365- oder Office 365-Workloads, z. B. SharePoint (online, lokal und hybrid), OneDrive und Teams.        |
+|[**Teams Essentials for IT**](https://aka.ms/MicrosoftTeamsforIT) – Die Microsoft Mechanics-Videoreihe "Teams für IT" zeigt Ihnen – dem Administrator – das Rollout, die Konfiguration und die Verwaltung von Teams.     |[**Unterstützen Von Remotemitarbeitern mitHilfe von Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) – Erhalten Sie die erforderlichen Anleitungen – einschließlich Links zu Schulungen –, um Ihre Benutzer zu unterstützen, die von zu Hause aus arbeiten.         |[**Verwalten der Teamzusammenarbeit für die IT**](/training/paths/m365-manage-team-collaboration) – Erfahren Sie, wie Sie Teams verwenden, um Teamarbeit und Kommunikation innerhalb Ihrer Organisation über Anwendungen und Geräte hinweg zu erleichtern.         |
+|[**Service Adoption Specialist-Zertifizierung**](/training/paths/m365-service-adoption) – Der Zertifizierungskurs "Microsoft Service Adoption Specialist" bietet Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.     |[**Einführung in die Teamarbeit in Microsoft 365**](/training/modules/intro-to-teamwork-in-m365/index) – Der Microsoft Service Adoption Specialist Certification-Kurs bietet Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.        |[**Microsoft 365-zertifiziert: Teamarbeitsadministrator associate**](/certifications/m365-teamwork-administrator) – Microsoft 365 Teamwork-Administratoren konfigurieren, bereitstellen und verwalten Microsoft 365- oder Office 365-Workloads, z. B. SharePoint (online, lokal und hybrid), OneDrive und Teams.        |
 
 <h2>Technische Schulung</h2>
 

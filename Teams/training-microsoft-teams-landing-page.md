@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: b67c1b9500ad5df959831e17a183cb61ca3ed8a1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6f2cc6685d6d9d80c2282cdfd1751a7d7f1916d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271450"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808466"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -51,7 +51,7 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
    :::column-end:::
 
    :::column:::
-   **[Team-Zusammenarbeit für IT verwalten](/learn/paths/m365-manage-team-collaboration)** </br>
+   **[Team-Zusammenarbeit für IT verwalten](/training/paths/m365-manage-team-collaboration)** </br>
    Kurs: Erfahren Sie, wie Sie Teams verwenden, um die Teamarbeit und Kommunikation innerhalb Ihrer Organisation über Anwendungen und Geräte hinweg zu erleichtern.
 
    :::column-end:::
@@ -60,12 +60,12 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
 
 :::row:::
    :::column:::
-   **[Einführung der Specialist-Zertifizierung](/learn/paths/m365-service-adoption/)** </br> Im Kurs „Microsoft Service Adoption Specialist Certification“ geht es um Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation vorantreiben können.
+   **[Einführung der Specialist-Zertifizierung](/training/paths/m365-service-adoption/)** </br> Im Kurs „Microsoft Service Adoption Specialist Certification“ geht es um Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation vorantreiben können.
 
    :::column-end:::
 
    :::column:::
-   **[Einführung in die Zusammenarbeit in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Einführung in die Zusammenarbeit in Microsoft 365](/training/modules/intro-to-teamwork-in-m365/index)** </br>
    Informationen zu den Microsoft 365-Werkzeugen, die die Teamarbeit für alle Mitarbeiter erleichtern, ganz gleich, wo diese sich befinden oder wie sie sich mit Ihrer Organisation verbinden.
 
    :::column-end:::

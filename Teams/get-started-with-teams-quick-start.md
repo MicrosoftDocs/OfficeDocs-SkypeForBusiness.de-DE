@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: ff5fce999adffc38e28d6daf787d6175deaa683a
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045844"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808806"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -66,7 +66,7 @@ Wenn Sie sich auf Ihre Bereitstellung vom Teams vorbereiten möchten, müssen Si
 Falls Sie mit Microsoft Teams noch nicht vertraut sind, können Sie das am einfachsten ändern, indem Sie es sofort verwenden. Das Tolle an Microsoft Teams ist, dass das, was Sie jetzt einrichten, etwaigen späteren Upgrades oder Migrationen nicht im Wege steht.
 
 > [!TIP]
-> Schauen Sie sich die unter [Microsoft Learn für Microsoft Teams](/learn/teams/) verfügbaren Lernpfade und Module an. Sie können sich auf eine Tour durch das [Microsoft Teams Admin Center](/learn/modules/m365-teams-navigate-admin-portal/) begeben, erfahren, wie Sie [Ihr Netzwerk für Microsoft Teams konfigurieren](/learn/modules/m365-teams-connectivity/), Ideen zum optimalen [Onboarding Ihrer Benutzer in Microsoft Teams](/learn/modules/m365-teams-onboard-users/) erhalten und vieles mehr!
+> Schauen Sie sich die unter [Microsoft Learn für Microsoft Teams](/training/teams/) verfügbaren Lernpfade und Module an. Sie können sich auf eine Tour durch das [Microsoft Teams Admin Center](/training/modules/m365-teams-navigate-admin-portal/) begeben, erfahren, wie Sie [Ihr Netzwerk für Microsoft Teams konfigurieren](/training/modules/m365-teams-connectivity/), Ideen zum optimalen [Onboarding Ihrer Benutzer in Microsoft Teams](/training/modules/m365-teams-onboard-users/) erhalten und vieles mehr!
 
 Folgen Sie den nachstehenden Schritten, um ein paar Teams einzurichten und einige Early Adopter ins Boot zu holen, um sich mit Microsoft Teams vertraut zu machen.
 

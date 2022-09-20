@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270490"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808876"
 ---
 # <a name="configure-sip-gateway"></a>Konfigurieren des SIP-Gateways
 
@@ -120,7 +120,7 @@ Legen Sie für jedes SIP-Gerät eine der folgenden SIP-Gateway-Bereitstellungsse
 - Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Fügen Sie Ihrer Teams-Organisation SIP-Geräte hinzu, indem Sie die oben genannte SIP-Gateway-Bereitstellungsserver-URL in Ihrem DHCP-Server konfigurieren. Weitere Informationen zum DHCP-Server finden Sie [unter Bereitstellen und Verwalten von DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Außerdem können Sie DHCP-Option 42 verwenden, um den NTP-Server (Network Time Protocol) und DHCP-Option 2 anzugeben, um den Offset von utc (Coordinated Universal Time) in Sekunden anzugeben. Die Geräte in Ihrer Organisation werden an den SIP-Gatewaybereitstellungsserver weitergeleitet. Erfolgreich bereitgestellte SIP-Telefone zeigen das Teams-Logo und eine weiche Schaltfläche für die Anmeldung an.
+Fügen Sie Ihrer Teams-Organisation SIP-Geräte hinzu, indem Sie die oben genannte SIP-Gateway-Bereitstellungsserver-URL in Ihrem DHCP-Server konfigurieren. Weitere Informationen zum DHCP-Server finden Sie [unter Bereitstellen und Verwalten von DHCP](/training/modules/deploy-manage-dynamic-host-configuration-protocol). Außerdem können Sie DHCP-Option 42 verwenden, um den NTP-Server (Network Time Protocol) und DHCP-Option 2 anzugeben, um den Offset von utc (Coordinated Universal Time) in Sekunden anzugeben. Die Geräte in Ihrer Organisation werden an den SIP-Gatewaybereitstellungsserver weitergeleitet. Erfolgreich bereitgestellte SIP-Telefone zeigen das Teams-Logo und eine weiche Schaltfläche für die Anmeldung an.
 
 Stellen Sie sicher, dass SIP-Geräte die mindestens unterstützte Firmwareversion für das Onboarding verwenden. Während des Onboardings überträgt das SIP-Gateway die Standardkonfigurations- und Authentifizierungsbenutzeroberfläche an das Gerät. Informationen zur erforderlichen Firmwareversion für SIP-Geräte finden Sie unter [Planen des SIP-Gateways](sip-gateway-plan.md).
 
