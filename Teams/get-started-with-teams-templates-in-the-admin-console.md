@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 41267db383d39c40ee18a67ee96538f205df52e4
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396726"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837555"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center
 
@@ -70,30 +70,35 @@ Hier sind die vordefinierten Teamvorlagen, die im Teams Admin Center verfügbar 
 
 Sie können vordefinierte Vorlagen duplizieren, aber nicht bearbeiten. Wenn Sie die Eigenschaften in einer vordefinierten Vorlage ändern möchten, können Sie eine neue Vorlage aus einer vorhandenen Vorlage erstellen und dann die gewünschten Eigenschaften hinzufügen oder entfernen. Beachten Sie, dass bestimmte Eigenschaften in einigen Vorlagen nicht geändert werden können.
 
-| Vorlagentyp | TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Übernehmen Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions-Ecke</li> <li>Teamformulare</li><li>Kalender</li></ul> Apps: <ul><li>Wiki</li>  <li>Kanalkalender</li> <li>Meilensteine</li><li>Bulletins</li></ul>|
-| Verwalten eines Projekts |`com.microsoft.teams.template.ManageAProject`| Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Aufgaben</li><li>Listen</li><li>Power Automate</li></ul> |
-| Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Aufgaben</li> <li>OneNote</li> <li>Mitarbeiterideen</li> <li>Problemmelder</li><li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul> |
-|Onboarding von Mitarbeitern|`com.microsoft.teams.template.OnboardEmployees` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiterchat</li> <li>Schulung</li></ul>Apps:<ul><li>Wiki</li><li>Gemeinschaften</li><li>Aufgaben</li><li>Mitarbeiterideen</li><li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul>|
-|Organisieren des Helpdesks| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Aufgaben </li><li>Lob</li><li>Problemmelder</li><li>Power Automate</li><li>Bulletins</li></ul> |
-| Patientenversorgung| `com.microsoft.teams.template.healthcareWard`| Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li><li>Genehmigungen</li><li>Bulletins</li><li>Prüfung</li></ul>|
-| Krisenkommunikation |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Weltneuigkeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Genehmigungen anfordern</li><li>Kundeneskalationen</li><li>Executive Update</li><li>Planung</li><li>Logistik</li></ul>Apps: <ul><li>Website</li><li>Aufgaben</li><li>Problemmelder</li><li>Genehmigungen</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|Bankfiliale| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungsanforderung </li><li>Coaching</li><li>Kompetenzentwicklung</li><li>Kreditbearbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li><li>Problemmelder</li><li>Wiki</li><li>Kalender</li><li>Genehmigungen</li><li>Bulletins</li><li>Ideen</li></ul>|
+> [!NOTE]
+> Ein Sternchen (*) gibt an, dass es sich bei der Vorlage um eine *mit Microsoft 365 verbundene Vorlage* handelt. Wenn Benutzer ein Team mithilfe der Vorlage erstellen, wird die verbundene SharePoint-Vorlage auf die Website und das Team angewendet. SharePoint-Komponenten wie Seiten, Listen und Power Platform-Integrationen werden automatisch als Registerkarten zum Kanal "Allgemein" im Team hinzugefügt und angeheftet. Benutzer können diese Seiten und Listen direkt in Teams bearbeiten.
+>
+> Weitere Informationen zu SharePoint-Vorlagen finden Sie [unter Anwenden und Anpassen von SharePoint-Websitevorlagen](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+
+>[!div class="mx-tdBreakAll"]
+>| Vorlagentyp | TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Verwalten eines Projekts* |`com.microsoft.teams.template.ManageAProject`| Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps:<ul><li>Genehmigungen</li><li>Bulletins</li><li>Listen<ul><li>Projektverfolgung</li><li>Problemverfolgung</li></ul></li><li>Meilensteine</li><li>OneNote</li><li>Power Automate</li><li>SharePoint-Seiten<ul><li>Unsere Website</li></ul></li><li>Aufgaben nach Planner und Aufgaben</li><li>Wiki</li></ul> |
+| Verwalten eines Ereignisses*|`com.microsoft.teams.template.ManageAnEvent` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps:<ul><li>Genehmigungen</li><li>Bulletins</li> <li>Mitarbeiterideen</li><li>Listen<ul><li>Inhaltsplanung</li></ul></li><li>Meilensteine</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint-Seiten<ul><li>Unsere Website</li><li>Über unsere Veranstaltung</li></ul><li>Aufgaben nach Planner und Aufgaben</li><li>Wiki</li> |
+|Onboarding von Mitarbeitern*|`com.microsoft.teams.template.OnboardEmployees` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiterchat</li> <li>Schulung</li></ul>Apps:<ul><li>Bulletins</li><li>Mitarbeiterideen</li><li>Listen<ul><li>Checkliste für das Onboarding</li></ul></li><li>Meilensteine</li><li>Power Automate</li> <li>SharePoint-Seiten<ul><li>Erste Schritte</li><li>Schulung</li></ul><li>Aufgaben nach Planner und Aufgaben</li><li>Viva Engage</li><li>Wiki</li></ul>|
+| Übernehmen Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Teamformulare</li><li>Kalender</li></ul> Apps: <ul><li>Wiki</li>  <li>Kanalkalender</li> <li>Meilensteine</li><li>Bulletins</li></ul>
+|Organisieren des Helpdesks*| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Problemberichterstattung</li><li>Listen<ul><li>Geräte</li><li>Tickets</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint-Seiten<ul><li>Unsere Website</li><li>Häufig gestellte Fragen</li></ul></li><li>Aufgaben nach Planner und Aufgaben</li><li>Wiki</li></ul> |
 |Reaktion auf Vorfälle| `com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Genesung</li><li>Dringende</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Aufgaben</li> <li>Genehmigungen</li> <li>Prüfung</li> <li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul>|
+| Krisenkommunikation* |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Executive Update</li><li>Planung</li><li>Logistik</li></ul>Apps: <ul><li>Genehmigungen</li><li>Problemberichterstattung</li><li>Listen<ul><li>Inhaltsplanung</li><li>Projektplan</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint-Seiten<ul><li>Unsere Website</li><li>Neuestes Update</li></ul><li>Aufgaben nach Planner und Aufgaben</li>|
+| Verwalten eines Stores*| `com.microsoft.teams.template.retailStore` |Kanäle: <ul><li>Allgemein<li>Übergabe umschalten</li><li>Store-Bereitschaft</li><li>Learning</li></ul> Apps: <ul><li>Genehmigungen</li><li>Prüfung</li><li>Listen<ul><li>Bestandsliste</li></ul></li><li>SharePoint-Seiten<ul><li>Unser Store</li></ul></li><li>Schichten</li><li>Aufgaben nach Planner und Aufgaben</li><li>Wiki</li></ul>|
+|Bankfiliale| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungsanforderung </li><li>Coaching</li><li>Kompetenzentwicklung</li><li>Kreditverarbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li><li>Problemmelder</li><li>Wiki</li><li>Kalender</li><li>Genehmigungen</li><li>Bulletins</li><li>Ideen</li></ul>|
+| Patientenversorgung| `com.microsoft.teams.template.healthcareWard`| Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li><li>Genehmigungen</li><li>Bulletins</li><li>Prüfung</li></ul>|
 |Krankenhaus| `com.microsoft.teams.template.healthcareHospital` |Kanäle: <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Sorgerecht</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps: <ul><li>Wiki</li><li>Listen</li><li>Aufgaben</li><li>Genehmigungen</li><li>Schichten</li><li>Bulletins</li><li>Prüfung</li><li>Ideen</li></ul>|
-|Organisieren Sie eine Filiale| `com.microsoft.teams.template.retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Bereitschaft der Filiale</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
-|Einzelhandel für leitende Angestellte| `com.microsoft.teams.template.retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Prüfung</li></ul>|
 |Qualität und Sicherheit |`com.microsoft.teams.template.QualitySafety`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Führung</li><li>Wartung</li><li>Produktionslinie 1</li><li>Produktionslinie 2</li><li>Produktionslinie 3</li><li>Gesundheit und Sicherheit</li><li>Schulung</li><li>Lustiges</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li> <li>Problemmelder</li> <li>Prüfung</li> </ul>|
-|Freiwillige verwalten| `com.microsoft.teams.template.ManageVolunteers` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Berichterstellung</li><li>Freiwilligenverwaltung</li><li>Engagement-Möglichkeiten</li><li>Onboarding von Freiwilligen</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Aufgaben</li><li>SharePoint</li><li>OneNote</li></ul>|
-||||
+|Einzelhandel für Manager*| `com.microsoft.teams.template.retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Genehmigungen</li><li>Prüfung</li><li>SharePoint-Seiten<ul><li>Unser Store</li></ul></li><li>Aufgaben nach Planner und Aufgaben</li><li>Wiki</li></ul>|
+|Verwalten von Freiwilligen| `com.microsoft.teams.template.ManageVolunteers` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Berichterstellung</li><li>Freiwilligenverwaltung</li><li>Engagement-Möglichkeiten</li><li>Onboarding von Freiwilligen</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Aufgaben</li><li>SharePoint</li><li>OneNote</li></ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>Teamvorlagen nach Kategorie und Branche
 
 Weitere Informationen zur Verwendung der vordefinierten Vorlagen in Ihrer Branche finden Sie unter:
 
-- [Vorlagen für Finanzteams](financial-teams-templates-in-the-admin-console.md)
 - [Allgemeine Teamvorlagen](general-teams-templates-in-the-admin-console.md)
+- [Vorlagen für Finanzteams](financial-teams-templates-in-the-admin-console.md)
 - [Vorlagen für Behördenteams](government-teams-templates-in-the-admin-console.md)
 - [Teamvorlagen für das Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Teamvorlagen für die Fertigung](manufacturing-teams-templates-in-the-admin-console.md)
@@ -112,7 +117,6 @@ Vorlagen sind auf eine bestimmte Anzahl von Kanälen, Registerkarten und Apps be
 |Kanäle pro Vorlage | 15 |
 |Registerkarten pro Kanal in einer Vorlage | 20 |
 |Apps pro Vorlage | 50|
-|||
 
 Weitere Informationen finden Sie [unter "Grenzwerte und Spezifikationen von Teams"](limits-specifications-teams.md).
 
@@ -151,3 +155,4 @@ Verwenden Sie die folgenden Cmdlets, um Ihre Vorlagen in PowerShell zu verwalten
 - [Erstellen eines Teams aus einer Vorlage](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Erste Schritte mit Teamvorlagen mittels Microsoft Graph](get-started-with-teams-templates.md)
 - [Klonen eines Teams](/graph/api/team-clone)
+- [Übersicht über die Integration von Teams und SharePoint](/sharepoint/teams-connected-sites)

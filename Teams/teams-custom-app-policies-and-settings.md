@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
+ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
 ms.collection:
@@ -22,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d52fe50ba3fa02b3b39269fd06ce66ea0dfb5b32
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397246"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837165"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 
-Als Administrator können Sie mithilfe von Richtlinien und Einstellungen für benutzerdefinierte Apps steuern, wer in Ihrer Organisation benutzerdefinierte Apps in Microsoft Teams hochladen kann. Administratoren entscheiden, welche Benutzer benutzerdefinierte Apps hochladen können, und Administratoren und Teambesitzer können bestimmen, ob in den einzelnen Teams in Ihrer Organisation benutzerdefinierte Apps hinzugefügt werden können.  Nachdem Sie die benutzerdefinierte App-Richtlinie bearbeitet haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
+Als Administrator können Sie mithilfe von Richtlinien und Einstellungen für benutzerdefinierte Apps steuern, wer in Ihrer Organisation benutzerdefinierte Apps in Microsoft Teams hochladen kann. Administratoren entscheiden, welche Benutzer benutzerdefinierte Apps hochladen können, und Administratoren und Teambesitzer können bestimmen, ob in den einzelnen Teams in Ihrer Organisation benutzerdefinierte Apps hinzugefügt werden können.  Nachdem Sie die benutzerdefinierte App-Richtlinie bearbeitet haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden. Sie müssen ein globaler Admin oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
 Entwickler in Ihrer Organisation können eine benutzerdefinierte App zu Teams hinzufügen, indem sie ein App-Paket (in einer ZIP-Datei) direkt in ein Team oder in den persönlichen Kontext hochladen. Dies unterscheidet sich von der Art und Weise, wie Apps über den Teams App Store hinzugefügt werden. Das Hinzufügen einer benutzerdefinierten App durch Hochladen eines App-Pakets, auch bekannt als Querladen, ermöglicht es bestimmten Benutzern in Ihrer Organisation, eine App zu testen, bevor sie für die weite Verbreitung bereit ist.
 

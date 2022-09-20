@@ -6,18 +6,19 @@ manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: MET150
 description: Erfahren Sie, wie Sie auf der Seite "Apps verwalten" im Microsoft Teams-Administrationszentrum die von Apps angeforderten Berechtigungen anzeigen und den Apps eine Admin-Zustimmung erteilen.
 ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9ec44990728feac5982641ce80ff15442bcaf7d
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 6ba381d5d6806c1abd7a2766228ff74f843b156a
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396486"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837515"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung im Microsoft Teams Admin Center
 

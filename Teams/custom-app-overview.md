@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -18,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d7c23b424db102b21e88944e2ab55d8a2fe98c08
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
+ms.openlocfilehash: 4ba559d605f1465fda7caf9b253c18864c8b4c20
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299297"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837375"
 ---
 # <a name="understand-and-manage-custom-and-sideloaded-apps"></a>Verstehen und Verwalten von benutzerdefinierten und quergeladenen Apps
 
@@ -53,19 +54,19 @@ Als Administrator können Sie das Querladen von Apps für alle Entwickler nicht 
 
 Sie können eine benutzerdefinierte Richtlinie erstellen oder die globale Richtlinie bearbeiten, um benutzerdefinierte Apps basierend auf den Anforderungen Ihrer Organisation zuzulassen oder zu blockieren. Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Richtlinie zu erstellen, mit der Entwickler benutzerdefinierte Apps hochladen können:
 
-1. Melden Sie sich beim Teams Admin Center an, und greifen Sie auf **[Setuprichtlinien](https://admin.teams.microsoft.com/policies/app-setup)** für **Teams-Apps** >  zu.
+1. Melden Sie sich beim Microsoft Teams Admin Center an, und greifen Sie auf **Microsoft Teams-Apps** > **[Setuprichtlinien](https://admin.teams.microsoft.com/policies/app-setup)** zu.
 
 1. Klicken Sie auf **Hinzufügen**.
 
-1. Geben Sie einen Namen und eine Beschreibung für die Richtlinie an.
+1. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
 
-1. Aktivieren oder deaktivieren **Sie "Benutzerdefinierte Apps hochladen**".
+1. Aktivieren oder deaktivieren Sie **Hochladen benutzerdefinierter Apps zulassen**.
 
 > [!NOTE]
 > Um diese Einstellung zu ändern, lassen Sie Apps von Drittanbietern in den [organisationsweiten App-Einstellungen](manage-apps.md#manage-org-wide-app-settings) Ihres Mandanten zu.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-* [Verwalten von benutzerdefinierten App-Richtlinien und -Einstellungen](teams-custom-app-policies-and-settings.md)
+* [Verwalten der Richtlinien und Einstellungen für benutzerdefinierte Apps](teams-custom-app-policies-and-settings.md)
 * [Grundlegendes zu Richtlinien zum Steuern von Apps](app-policies.md)
 * [Grundlegendes zu Drittanbieter-Apps](overview-third-party-apps.md)

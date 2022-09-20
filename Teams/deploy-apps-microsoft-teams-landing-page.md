@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486910"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837645"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Grundlegendes zu Microsoft Teams-Apps
 
@@ -95,7 +95,7 @@ Webhooks und Connectors stellen Inhalte und Updates von Diensten, die Endbenutze
 
 Messaging-Erweiterungen sind Verknüpfungen zum Einfügen von App-Inhalten oder zum Bearbeiten einer Nachricht, ohne dass Endbenutzer von der Unterhaltung weg navigieren müssen. Messaging-Erweiterungen können Suchbefehle für Endbenutzer enthalten, um externe Inhalte schnell zu finden und in eine Nachricht oder in Aktionsbefehle einzufügen.
 
-Allgemeine Anwendungsfälle, die Teams-Funktionen zugeordnet sind, finden Sie unter [Ordnen Sie Ihre Anwendungsfälle zu Teams-App-Features hinzu](/microsoftteams/platform/concepts/design/map-use-cases).
+Informationen zum Anzeigen häufiger Anwendungsfälle, die Den Teams-Funktionen zugeordnet sind, finden Sie unter [Zuordnen Ihrer Anwendungsfälle zu Teams-App-Funktionen](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 
