@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: Richtlinien für die Aufzeichnung von Liveereignissen
                 href: teams-live-events/live-events-recording-policies.md
+          - name: Erstellen einer Teams-Hybridbesprechungsumgebung
+            items:
+              - name: Übersicht
+                href: hybrid-meetings-overview.md
+              - name: Prinzipien für hybride Besprechungen
+                href: hybrid-meetings-principles.md
+              - name: 'Schritt 1 : Machen Sie sich mit den Besprechungsfeatures von Teams vertraut'
+                href: hybrid-meetings-features.md
+              - name: 'Schritt 2 : Bewährte Methoden für evangelisierte Besprechungen'
+                href: hybrid-meetings-educate-participants.md
+              - name: 'Schritt 3 : Entwerfen und Erstellen eines Besprechungsbereichs'
+                href: hybrid-meetings-room-design.md
+              - name: Schritt 4 – Auswählen von Raumgeräten
+                href: hybrid-meetings-device-select.md
+              - name: Schritt 5 – Einrichten Ihrer Geräte
+                items:
+                  - name: Übersicht
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: 'Schritt 1: Erwerben einer Teams-Räume-Lizenz'
+                    href: hybrid-meetings-device-config-license.md
+                  - name: 'Schritt 2 : Erstellen eines Ressourcenkontos'
+                    href: hybrid-meetings-device-config-account.md
+                  - name: 'Schritt 3: Zuweisen einer Besprechungsraumlizenz'
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: 'Schritt 4 : Konfigurieren von Postfacheigenschaften'
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: Schritt 5 – Deaktivieren des Kennwortablaufs
+                    href: hybrid-meetings-device-config-password.md
+                  - name: 'Schritt 6 : Konfigurieren von Besprechungsrichtlinien'
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: 'Schritt 7 : Konfigurieren von Kalenderoptionen'
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: 'Schritt 6 : Verwalten und Überwachen von Räumen und Besprechungen'
+                href: hybrid-meetings-manage.md
       - name: Audiokonferenz
         items:
           - name: Audiokonferenzen in M365
